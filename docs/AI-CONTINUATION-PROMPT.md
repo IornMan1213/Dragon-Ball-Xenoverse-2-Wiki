@@ -4020,3 +4020,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical baseline remains 474 records with matching index; runtime/CI remains non-blocking.
 - [ ] Next priority: fresh Batch 499 census from the live 474-record corpus, then current-evidence enrichment of the next unaudited frontier.
 - [ ] Continue PQ→skill / skill→PQ projection reconciliation after the next enrichment batch and expand toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 499 current-evidence frontier
+- [x] Performed a fresh post-Batch-498 census from the live 474-record corpus and selected eight additional records without using the Batch 498 candidate list as the selection basis.
+- [x] Completed bounded current-evidence refreshes for **Super Saiyan Blue Kaioken, Giant Storm, Meditation, Fighting Pose I, Fighting Pose J, Hell Flash, Weekend, and Super Kamehameha (SS4 DAIMA)**.
+- [x] Added eight dated Batch 499 evidence audit artifacts and synchronized all eight records into both canonical-facing Skills layers.
+- [x] Git-blob validation confirms **474 canonical records / 474 index records**, with **40 records carrying the 2026-09-27 frontier date** and exact ID parity between the two layers.
+- [x] No canonical skill identity was added, removed, renamed, or synthetically reconstructed; source-reported values remain bounded and unsupported frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.
+- [ ] Next priority: fresh Batch 500 census from the post-Batch-499 corpus, then continue mechanics/provenance enrichment.
+- [ ] Reconcile PQ→Skill and Skill→PQ navigation projections after the next enrichment cycle and continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
