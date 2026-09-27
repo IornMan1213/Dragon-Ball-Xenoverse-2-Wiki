@@ -23,8 +23,8 @@
       "missing": 93
     },
     "stacking_behavior": {
-      "populated": 41,
-      "missing": 127
+      "populated": 39,
+      "missing": 129
     },
     "limit_burst": {
       "populated": 87,
@@ -56,12 +56,12 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-024",
-      "super-soul-025",
-      "super-soul-026",
-      "super-soul-027",
-      "super-soul-028"
+      "super-soul-127",
+      "super-soul-128",
+      "super-soul-129",
+      "super-soul-130",
+      "super-soul-131"
     ],
-    "evidence_basis": "Existing catalogue and independent guide evidence; normalized Limit Burst effects from the named burst behavior without inferring undocumented passive mechanics."
+    "evidence_basis": "Super Soul catalogue and supporting guide/community evidence; canonical PQ acquisition remains authoritative."
   }
 }
