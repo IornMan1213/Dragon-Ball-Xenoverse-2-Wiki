@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Canonical recovery count validation hardening
+- [x] Inspected the live `scripts/validate_canonical_database_recovery.py`.
+- [x] Found a concrete recovery-integrity gap: it previously verified only that `current_counts` had the six expected keys, without recomputing those counts from `verified_relationships`.
+- [x] Hardened the validator to parse every stored relationship row, reject unknown relationship types, recompute all six counts, require exact equality with the declared counts, and require the recovered baseline to total **840** relationships.
+- [x] Added `docs/data/canonical-database-recovery-validator-audit-2026-09-27.json`; no canonical relationship data changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap, then return to evidence-backed database enrichment once the validation surface is hardened.
+
 ### 2026-09-27 continuation — Awoken model validator identity hardening
 - [x] Inspected the live `scripts/validate_awoken_model.py` after the PQ equipment coverage validator hardening.
 - [x] Found a concrete integrity gap: the validator used `str(...)` identity coercion and a dict projection that could silently collapse malformed/duplicate canonical skill keys instead of deterministically rejecting them.
