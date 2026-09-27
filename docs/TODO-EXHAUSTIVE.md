@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — PQ equipment endpoint recovery-forward batch
+- [x] Freshly re-censused the remaining PQ equipment endpoint gaps after database recovery; did not reuse an older candidate list as authoritative.
+- [x] Promoted four explicit canonical accessory identities from existing repository evidence: **Gamma 1's Helmet (PQ156), Golden Frieza Head (PQ182), Dragon Ball Balloon (PQ184), and Goku (Ultra Supervillain Quelled) Wig (PQ185)**.
+- [x] Preserved evidence boundaries: Gamma 1's Helmet remains partially verified; Golden Frieza Head and the Goku (Ultra Supervillain Quelled) Wig remain indexed where exact reward-slot mechanics are unresolved; Dragon Ball Balloon retains the separate 50% Ultimate-Finish evidence without collapsing it into a guaranteed basic reward.
+- [x] Refreshed the canonical accessory endpoint layer plus PQ equipment projection, integrity audit, and endpoint-coverage audit.
+- [x] Current PQ equipment projection remains **125 canonical edges / 123 unique targets**; endpoint records increased from **108 to 112**, exact identity matches from **42 to 46**, and explicit identity gaps decreased from **81 to 77**.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** fresh live census before Batch 496; continue evidence-backed endpoint promotion where identity is explicit, then resume highest-value unaudited canonical skill/data enrichment.
+
 ### 2026-09-27 continuation — Canonical PQ reward database recovery verification
 - [x] Reconciled the apparent missing-forward-layer report against the live main tree rather than recreating data from partial reverse indexes.
 - [x] Confirmed docs/data/pq-reward-relationships.json is present on current main through GitHub's live code-search index; the large-file content endpoint is connector-limited, not evidence of file absence.
