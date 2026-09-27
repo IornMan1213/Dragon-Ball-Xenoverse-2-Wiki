@@ -216,5 +216,23 @@
       },
       "status": "evidence-supported; canonical promotion requires comparison with current canonical record"
     }
-  ]
+  ],
+  "canonical_reconciliation": {
+    "status": "reviewed_against_live_repository_search",
+    "results": [
+      {
+        "skill": "Rakshasa's Claw",
+        "result": "existing canonical research and PQ57 crosslink already present; no new canonical mutation warranted"
+      },
+      {
+        "skill": "Rocket Tackle",
+        "result": "existing dedicated Batch 471 evidence already establishes 100-Ki Strike Super and Android 16; no new canonical mutation warranted"
+      },
+      {
+        "skill": "Savory Slicer",
+        "result": "existing canonical research and PQ140 crosslink already present; no new canonical mutation warranted"
+      }
+    ],
+    "decision": "Do not duplicate or overwrite existing canonical evidence. Batch 526 remains an evidence refresh rather than a canonical rewrite."
+  }
 }
