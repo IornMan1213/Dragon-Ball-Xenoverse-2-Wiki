@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — Skills/PQ reconciliation validator hardening
+- [x] Hardened `scripts/validate_skills.py` against malformed JSON, wrong root/container types, and malformed canonical identity fields.
+- [x] Removed identity coercion in the canonical skill-key projection.
+- [x] Hardened `scripts/reconcile_pq_forward_reverse.py` against malformed JSON and invalid PQ identifiers before numeric projection.
+- [x] Added `docs/data/skills-and-pq-reconciliation-validator-audit-2026-09-27.json`.
+- [x] No canonical data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue auditing remaining consumers/builders for concrete schema and provenance integrity gaps.
+
 ### 2026-09-27 continuation — PQ validator hardening
 - [x] Hardened `validate_pq_equipment_crosslinks.py`: enforce canonical `pq-001`–`pq-186` identifiers, reject unsupported relationship statuses, and reject whitespace-only sources.
 - [x] Hardened `validate_pq_cross_domain_index.py`: forward index must resolve inside `docs/data/`.
