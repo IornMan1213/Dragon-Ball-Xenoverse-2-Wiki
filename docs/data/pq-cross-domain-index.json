@@ -1880,5 +1880,15 @@
   "super_soul_limit_burst_effect_batch_2026_09_27": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27.json",
   "super_soul_limit_burst_effect_batch_2026_09_27_b": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27-b.json",
   "super_soul_limit_burst_effect_batch_2026_09_27_c": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27-c.json",
-  "super_soul_limit_burst_effect_batch_2026_09_27_d": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27-d.json"
+  "super_soul_limit_burst_effect_batch_2026_09_27_d": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27-d.json",
+  "skill_batch_504_current_evidence": "docs/data/skill-research-batches/skill-batch-504.json",
+  "skill_batch_504_thin_frontier": "docs/data/skill-research-batches/skill-batch-504-thin-frontier-mechanics-audit-2026-09-27.json",
+  "skill_afterimage_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-afterimage-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_all_clear_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-all-clear-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_android_rush_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-android-rush-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_angry_explosion_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-angry-explosion-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_angry_hit_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-angry-hit-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_apocalyptic_burst_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-apocalyptic-burst-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_arm_crash_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-arm-crash-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_assault_rain_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-assault-rain-current-evidence-audit-2026-09-27-batch-504.json"
 }
