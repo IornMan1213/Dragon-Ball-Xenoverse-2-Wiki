@@ -4232,3 +4232,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-509.json` with the live selection baseline and evidence boundary.
 - [ ] Next exact: bounded current-evidence refreshes for all eight Batch 509 records, then cross-domain linkage reconciliation.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 509 current-evidence completion
+- [x] Completed bounded current-evidence refreshes for **Death Ball, Death Beam, Death Crasher, Death Meteor, Death Psycho Bomb, Death Slash, Death Slicer, and Death Wave**.
+- [x] Synchronized the eight records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identity changes: **0**; 474-record baseline preserved.
+- [x] Added eight dated Batch 509 audit artifacts and finalized `docs/data/skill-research-batches/skill-batch-509.json`.
+- [x] Preserved evidence boundaries and did not infer unsupported Skill→PQ relationships.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] Exact next: fresh Batch 510 census, then continue substantive cross-domain enrichment toward the 672 indexed-category target.
