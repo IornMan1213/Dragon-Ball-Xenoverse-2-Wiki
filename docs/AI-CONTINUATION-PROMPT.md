@@ -3772,3 +3772,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Limit Burst coverage remains **107/172**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue searching for direct/item-level evidence for 032–035 and review whether 034 can be resolved; otherwise proceed to broader Super Soul data completeness rather than inventing unsupported values.
+
+
+### 2026-09-27 continuation — Super Soul 034 evidence recheck
+- [x] Rechecked **`super-soul-034` — “The final battle begins now.”** against the current Super Soul catalogue, PQ 186 reward listings, and recent community discussion.
+- [x] Confirmed PQ 186 inventory identity; no direct item-level mechanics or Limit Burst effect was found in the searched evidence. The PQ listing independently identifies the item as a PQ 186 reward. citeturn0search0turn1search0
+- [x] Kept the record **unresolved** rather than copying an effect from an unverified/possibly conflated report.
+- [ ] Next priority: obtain direct item-level evidence for 034; if unavailable, continue canonical-data completeness on the remaining thin Super Soul records.
