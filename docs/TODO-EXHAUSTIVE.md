@@ -2468,3 +2468,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime execution/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** reconcile the canonical 840-row forward relationship store against the normalized reverse-index projections and identify deterministic projection drift (without deleting source-backed forward edges); then expand reverse navigation only from evidence-backed canonical relationships.
 
+### 2026-09-27 continuation — Exact PQ forward↔reverse reconciliation completed
+- [x] Compared the canonical `docs/data/pq-reward-relationships.json` forward store against `docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json` across every relationship class.
+- [x] **All 840 forward relationships have exact reverse projection parity**: 236 Skill, 137 Super Soul, 125 equipment, 247 character, 88 DLC, and 7 farming relationships; **0 forward-only mismatches and 0 reverse-only mismatches**.
+- [x] Equipment parity was checked across the union of both reverse buckets (`clothing` + `accessories`), resolving the apparent 38-item clothing-only discrepancy without changing data.
+- [x] Added `scripts/reconcile_pq_forward_reverse.py`, which treats the canonical forward store as authoritative and reports projection drift without silently mutating/inferencing relationships.
+- [x] Added `docs/data/pq-forward-reverse-reconciliation-audit-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] This establishes the recovered PQ relationship layer as an internally consistent **840-edge forward/reverse projection** at the current evidence boundary.
+- [ ] Runtime execution/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** move from projection integrity to the next concrete cross-domain consumer gap: inspect PQ/skill page-generation/navigation consumers for stale, missing, or non-bidirectional links, then harden the highest-impact deterministic consumer without altering canonical evidence.
+
