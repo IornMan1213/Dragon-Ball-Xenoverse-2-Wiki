@@ -1,0 +1,14 @@
+{
+  "skill_name": "Angry Explosion",
+  "batch": 504,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 504 refresh: current Xenoverse 2-specific evidence reconfirms Angry Explosion as a 300-Ki+ Ki Blast Ultimate from Expert Mission 12. The explosion starts after charging, can be prolonged by spending additional Ki, and the maintained source reports 13 hits/approximately 40% base damage. Exact reward probability remains unresolved.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Angry_Explosion",
+    "https://dragonball.fandom.com/wiki/Angry_Explosion"
+  ],
+  "evidence_boundary": "Bounded current evidence only; source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
