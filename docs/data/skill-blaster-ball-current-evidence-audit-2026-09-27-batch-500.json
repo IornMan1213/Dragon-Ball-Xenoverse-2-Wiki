@@ -4,8 +4,8 @@
   "batch": 500,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics_summary": "100–500-Ki Ki Blast Super from PQ125. The initial use fires two Ki balls and repeated input extends the barrage; current dedicated evidence documents a 2–13-hit range and long-range projectile behavior, with source-reported damage of about 6% for the initial two hits and additional damage across the extended sequence. Exact per-hit scaling and timing remain unresolved.",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "mechanics": "Current skill-specific evidence reconfirms PQ125 Basic Reward acquisition, 100–500 Ki cost range, repeated firing, documented 2–13-hit range, and long-range behavior. Exact charge/frame scaling remains source-bound.",
   "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
-  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted."
 }
