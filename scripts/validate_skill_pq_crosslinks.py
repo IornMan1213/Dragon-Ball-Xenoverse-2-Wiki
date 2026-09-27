@@ -23,8 +23,12 @@ assert len(records) == EXPECTED_SKILLS, f"skill count {len(records)} != {EXPECTE
 assert all(isinstance(r, dict) for r in records), "every canonical skill record must be an object"
 assert all(isinstance(r.get("id"), str) and r.get("id").strip() for r in records), "every canonical skill must have a non-empty string id"
 assert all(isinstance(r.get("name"), str) and r.get("name").strip() for r in records), "every canonical skill must have a non-empty string name"
-assert all(isinstance(r.get("source_parallel_quests", []), list) for r in records), "source_parallel_quests must be a list when present"
-assert all(len(r.get("source_parallel_quests", [])) == len(set(r.get("source_parallel_quests", []))) for r in records), "duplicate source_parallel_quests IDs"
+assert all("source_parallel_quests" not in r or isinstance(r["source_parallel_quests"], list) for r in records), "source_parallel_quests must be a list when present"
+for record in records:
+    endpoints = record.get("source_parallel_quests", [])
+    for pq_id in endpoints:
+        assert isinstance(pq_id, int) and not isinstance(pq_id, bool) and 1 <= pq_id <= 186, (record["id"], pq_id)
+    assert len(endpoints) == len(set(endpoints)), f"duplicate source_parallel_quests IDs: {record['id']}"
 ids = [r["id"] for r in records]
 assert len(set(ids)) == EXPECTED_SKILLS, "duplicate canonical skill IDs"
 
