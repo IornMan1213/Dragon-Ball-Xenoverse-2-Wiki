@@ -66,10 +66,34 @@ def main() -> None:
     if skill_pq.get("represented_pq_count") != 170:
         raise SystemExit("skill-PQ reverse artifact represented PQ count is not 170")
 
+    reward_rows = pq_rewards.get("verified_relationships")
+    if not isinstance(reward_rows, list):
+        raise SystemExit("PQ reward verified_relationships must be a list")
     current_counts = pq_rewards.get("current_counts")
     required_counts = {"skill", "super_soul", "equipment", "character", "dlc", "farming"}
     if not isinstance(current_counts, dict) or set(current_counts) != required_counts:
         raise SystemExit("PQ reward current_counts contract is malformed")
+    relation_map = {
+        "skill": "pq_rewards_skill",
+        "super_soul": "pq_rewards_super_soul",
+        "equipment": "pq_rewards_equipment",
+        "character": "pq_features_character",
+        "dlc": "pq_requires_dlc",
+        "farming": "pq_farming_route",
+    }
+    actual_counts = {key: 0 for key in required_counts}
+    for index, row in enumerate(reward_rows):
+        if not isinstance(row, dict):
+            raise SystemExit(f"PQ reward relationship row {index} must be an object")
+        relationship = row.get("relationship")
+        matched = [key for key, rel in relation_map.items() if relationship == rel]
+        if not matched:
+            raise SystemExit(f"PQ reward relationship row {index} has unknown relationship type: {relationship!r}")
+        actual_counts[matched[0]] += 1
+    if actual_counts != current_counts:
+        raise SystemExit(f"PQ reward current_counts mismatch: stored={current_counts!r}, actual={actual_counts!r}")
+    if sum(actual_counts.values()) != 840:
+        raise SystemExit(f"expected restored PQ reward baseline of 840 relationships, found {sum(actual_counts.values())}")
 
     print("PASS: canonical database recovery contract is structurally intact.")
     print(f"canonical skills: {len(skill_ids)}")
