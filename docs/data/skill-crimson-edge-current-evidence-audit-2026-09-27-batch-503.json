@@ -1,0 +1,10 @@
+{
+  "skill_name": "Crimson Edge",
+  "batch": 503,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "summary": "2026-09-27 Batch 503 refresh: current evidence reconfirms Goku Black (Super Saiyan Rosé) Ultra Supervillain ownership, 100 Ki Strike Super classification, scythe-like energy blade, and two-stage strike behavior. The established PQ reward placement is retained without adding unsupported drop probability.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
