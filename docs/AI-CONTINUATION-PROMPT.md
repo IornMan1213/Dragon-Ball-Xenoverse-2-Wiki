@@ -3450,3 +3450,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-078` "Sorry. You were way open there.": Heavy Smash guard-break extension, +40% Ki Auto-Recovery for 10 seconds, and Final Kamehameha ATK Up! Limit Burst.
 - [x] Refreshed the mechanics enrichment audit with this batch.
 - [ ] Next: continue systematic enrichment of the remaining thin records, prioritizing records with reliable item-level catalogue evidence and checking classification conflicts before adding mechanics.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 2
+- [x] Enriched `super-soul-072` "Now, give your father a message for me." with the 90-second trigger, +20% normal attacks, Limit Burst, CaC usability, and DLC provenance.
+- [x] Enriched `super-soul-073` "I really do love being immortal." with automatic revival-gauge recovery, +40% recovery, -30% health restored on resurrection, Limit Burst, CaC usability, and DLC provenance.
+- [x] Enriched `super-soul-074` "I like you better when you're mad!" with -20% guard-break duration, +50 Ki, Limit Burst, CaC usability, and DLC provenance.
+- [x] Enriched `super-soul-075` "This fight is only just beginning!" with the below-50%-HP trigger, +15% Ki Blast attacks, +30% Stamina recovery speed for 20 seconds, once-only behavior, Limit Burst, and DLC provenance.
+- [x] Cross-checked these records against current Super Soul catalogue evidence and independent item/PQ documentation before writing mechanics.
+- [ ] Continue systematic enrichment of remaining thin records; preserve classification conflicts rather than filling fields by inference.
