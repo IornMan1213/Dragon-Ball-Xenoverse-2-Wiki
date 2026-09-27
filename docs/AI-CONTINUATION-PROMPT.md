@@ -3834,3 +3834,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Gamma 1 / PQ 156 provenance and Just Guard trigger.
 - [x] Preserved the catalogue's ambiguous second -5% damage-taken line rather than inventing a corrected interpretation.
 - [ ] Continue remaining-ID audit for legacy ID/name drift and provenance anomalies.
+
+
+### 2026-09-27 continuation — Super Soul 146–150 audit
+- [x] Audited 146–150 for provenance/ID drift against current catalogue and PQ/DLC evidence.
+- [x] Corroborated 146 (PQ157), 147 (PQ158), 148–149 (PQ159), and 150 (PQ160).
+- [x] Preserved partial verification and did not invent RNG/drop-condition details.
+- [ ] Continue with Super Soul 151 onward for legacy ID/name drift and source reconciliation.
