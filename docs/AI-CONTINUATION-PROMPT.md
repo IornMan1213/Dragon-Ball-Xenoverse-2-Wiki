@@ -3252,3 +3252,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current coverage: trigger **89/168**, effect **97/168**, magnitude **91/168**, duration **72/168**, stacking **44/168**, Limit Burst **87/168**, Limit Burst effect **67/168**, CaC **97/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the next five evidence-backed mechanics records.
+
+
+### 2026-09-27 continuation — Super Soul mechanics restoration/reconciliation batch
+- [x] Restored evidence-backed mechanics for super-soul-048, -049, -051, -052, and -053 after discovering that the live record layer still contained those endpoints as unpopulated despite earlier audit-history claims.
+- [x] Recalculated mechanics coverage directly from the live record layer rather than trusting historical audit counts.
+- [x] Flagged super-soul-050 (Do or Die) for classification review because independent PQ49 evidence identifies it as a skill, not a Super Soul; no mechanics were invented for it.
+- [x] Integrity frontier recalculated from live records: **80** records remain partial by the current audit predicate.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: reconcile the remaining early indexed endpoints and continue only from live record-layer state.
