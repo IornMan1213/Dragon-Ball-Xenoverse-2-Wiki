@@ -3891,3 +3891,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current catalogue identifies `Damn it all!` as Super Saiyan 3 Vegeta (DAIMA)'s Super Soul: once below 25% Health, +20% all attacks plus temporary Ki Auto-Recovery, Limit Burst Auto Just Guard.
 - [x] Removed the previously attached Heavy Smash/+300 Ki/-10% attacks/+10% damage-taken package; that package belongs to a different Super Soul identity and was not allowed to remain conflated with ID 160.
 - [ ] Continue checking later IDs for the same class of name/character/mechanics drift.
+
+
+### 2026-09-27 continuation — Super Souls 156–160 provenance audit
+- [x] Audited IDs 156–160 for legacy identity/name drift and stale acquisition endpoints.
+- [x] Current catalogue evidence and normalized PQ relationships remain consistent for all five records; no 138–142-style remapping was found.
+- [x] Preserved unresolved exact RNG/first-clear details rather than inventing them.
+- [ ] Continue the remaining Super Soul records in order.
