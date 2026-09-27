@@ -1948,5 +1948,16 @@
     "skill_pq_edges": 246,
     "forward_skill_edges": 246,
     "missing_skill_pq_endpoints": 0
-  }
+  },
+  "skillResearchBatchesSkillBatch514": "docs/data/skill-research-batches/skill-batch-514.json",
+  "skillDragonFistCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dragon-fist-current-evidence-audit-2026-09-27-batch-514.json",
+  "skillDragonSparkCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dragon-spark-current-evidence-audit-2026-09-27-batch-514.json",
+  "skillDragonSpiralCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dragon-spiral-current-evidence-audit-2026-09-27-batch-514.json",
+  "skillDragonThunderCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dragon-thunder-current-evidence-audit-2026-09-27-batch-514.json",
+  "skillDrainFieldCurrentEvidenceAudit20260927Batch514": "docs/data/skill-drain-field-current-evidence-audit-2026-09-27-batch-514.json",
+  "skillDualDestructoDiscCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dual-destructo-disc-current-evidence-audit-2026-09-27-batch-514.json",
+  "skillDustAttackCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dust-attack-current-evidence-audit-2026-09-27-batch-514.json",
+  "skillDynamiteKickCurrentEvidenceAudit20260927Batch514": "docs/data/skill-dynamite-kick-current-evidence-audit-2026-09-27-batch-514.json",
+  "skill_batch_514_current_evidence": "docs/data/skill-research-batches/skill-batch-514.json",
+  "canonical_database_recovery_restoration_2026_09_27": "docs/data/canonical-database-recovery-restoration-audit-2026-09-27.json"
 }
