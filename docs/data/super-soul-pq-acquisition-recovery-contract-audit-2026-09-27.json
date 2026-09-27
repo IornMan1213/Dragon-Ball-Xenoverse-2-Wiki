@@ -21,7 +21,7 @@
     "PQ relationship identifiers must use the canonical `pq-###` string format and resolve to the supported 1-186 range."
   ],
   "status": "recovery_contract_defined",
-  "runtime_status": "validator_added; local/CI execution intentionally remains unverified",
+  "runtime_status": "connector-side cross-layer parity check passed; local/CI execution remains unverified",
   "evidence_boundary": [
     "The validator verifies identity and cross-layer parity only.",
     "It does not infer missing PQ rewards, mechanics, probabilities, shop rotations, or alternate acquisition routes.",
