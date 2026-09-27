@@ -3254,3 +3254,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved `super-soul-032`–`035` as unresolved/secondary Chapter 4 research rather than inventing mechanics; `super-soul-050` remains classification-review work.
 - [x] Re-ran the cross-domain parity calculation after normalization: 134 relationship targets = 134 acquisition targets, with zero missing/extra targets; remaining thin canonical mechanics are now limited to the unresolved research/classification set plus any endpoint whose evidence is intentionally incomplete.
 - [ ] Continue with evidence-backed mechanics reconciliation and canonical index propagation; do not promote unresolved Chapter 4 or classification-conflict claims without item-level evidence.
+
+
+### 2026-09-27 continuation — Super Soul source-reconciliation correction
+- [x] Audited the apparent ID shift around `super-soul-142`–`146`; confirmed `super-soul-142` is the distinct PQ 155 record "This is the ultimate hero!" and must not be overwritten with the PQ 156 Gamma 1 record.
+- [x] Corrected `super-soul-149` "The Red Ribbon Army is back in business!" from the earlier erroneous +5% all-attacks reconstruction to the sourced +30% all-attacks / +30% damage-taken values, with +20% Ki Auto-Recovery for 20 seconds.
+- [x] Added an explicit source-discrepancy note to `super-soul-143` "This is your true power?" rather than inventing a sign/value for the second damage modifier; independent evidence confirms the -5% opponent-attack effect, while the source table's second modifier is internally inconsistent.
+- [x] Preserved `super-soul-142` as pending item-level mechanics research; PQ 155 reward provenance is independently confirmed.
+- [ ] Research and reconcile the exact mechanics for PQ 155 / `super-soul-142`, then continue the canonical Super Soul parity audit.
