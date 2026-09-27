@@ -34,6 +34,10 @@ def main() -> int:
         raise SystemExit("PQ reward relationship root must be an object")
     if not isinstance(schema, dict):
         raise SystemExit("cross-domain schema root must be an object")
+    if not isinstance(data, dict):
+        raise SystemExit("PQ reward relationship root must be an object")
+    if not isinstance(schema, dict):
+        raise SystemExit("cross-domain schema root must be an object")
     rows = data.get("verified_relationships")
     if not isinstance(rows, list):
         raise SystemExit("verified_relationships must be a list")
@@ -94,6 +98,11 @@ def main() -> int:
         "pq_requires_dlc": "dlc",
         "pq_farming_route": "farming",
     }
+    if not isinstance(expected, dict) or set(expected) != set(expected_map.values()):
+        malformed.append((-1, "current_counts must contain exactly skill, super_soul, equipment, character, dlc, farming"))
+    elif any(not isinstance(expected[key], int) or isinstance(expected[key], bool) or expected[key] < 0 for key in expected_map.values()):
+        malformed.append((-1, "current_counts values must be non-negative integers"))
+
     if not isinstance(expected, dict) or set(expected) != set(expected_map.values()):
         malformed.append((-1, "current_counts must contain exactly skill, super_soul, equipment, character, dlc, farming"))
     elif any(not isinstance(expected[key], int) or isinstance(expected[key], bool) or expected[key] < 0 for key in expected_map.values()):
