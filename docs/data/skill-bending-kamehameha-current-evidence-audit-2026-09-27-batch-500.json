@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-bending-kamehameha",
+  "skill_name": "Bending Kamehameha",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "100-Ki Ki Blast Super from the Skill Shop. The user fires a straight Kamehameha for about 10% damage; a second input after firing makes the beam chase the locked-on opponent. The defining mechanic is the post-fire tracking input rather than a charge state. Exact input window, tracking strength, frames, and universal scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
