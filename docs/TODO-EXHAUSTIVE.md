@@ -3446,3 +3446,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled 137 mechanics and Limit Burst with provenance.
 - [x] Kept XL numeric interpretation secondary.
 - [ ] Next: remaining unresolved Super Soul records.
+
+
+### 2026-09-27 continuation — Super Soul 137 provenance correction
+- [x] Restored Item Shop acquisition from current catalogue evidence.
+- [x] Preserved canonical-data-first handling and secondary XL interpretation.
+- [ ] Next: unresolved 138–142.
