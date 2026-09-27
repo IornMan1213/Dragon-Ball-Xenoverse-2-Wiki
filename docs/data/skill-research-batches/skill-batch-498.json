@@ -1,28 +1,24 @@
 {
   "batch": 498,
   "date": "2026-09-27",
-  "purpose": "Fresh current-evidence frontier after Batch 497",
+  "type": "current-evidence-frontier",
   "records": [
-    "Quick Sleep",
-    "Super Saiyan Blue Kaioken",
-    "Meteor Burst",
-    "Kill Driver",
-    "Fighting Pose G",
-    "Punisher Shield",
-    "Fighting Pose B",
-    "Fake Death",
-    "Mach Dash",
-    "Giant Storm",
-    "Meditation",
-    "Fighting Pose I",
-    "Fighting Pose J",
-    "Hell Flash",
-    "Weekend",
-    "Super Kamehameha (SS4 DAIMA)"
+    "skill-quick-sleep",
+    "skill-meteor-burst",
+    "skill-kill-driver",
+    "skill-fighting-pose-g",
+    "skill-punisher-shield",
+    "skill-fighting-pose-b",
+    "skill-fake-death",
+    "skill-mach-dash"
   ],
-  "synchronized_record_count": 16,
-  "canonical_skill_records": 474,
-  "index_skill_records": 474,
-  "canonical_identity_changes": 0,
-  "evidence_boundary": "Source-reported numerical observations remain bounded; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+  "validation": {
+    "canonical_source": "docs/data/skills.json",
+    "canonical_record_count": 474,
+    "index_source": "docs/data/skills-index.json",
+    "index_record_count": 474,
+    "identity_changes": 0
+  },
+  "scope": "Current-evidence refresh of the next unaudited frontier after Batch 497.",
+  "boundaries": "Historical snapshots remain untouched; source-reported values remain explicitly bounded and unresolved frames/scaling/probabilities are not inferred."
 }
