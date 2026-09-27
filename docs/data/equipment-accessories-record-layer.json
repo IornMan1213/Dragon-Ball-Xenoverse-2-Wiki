@@ -975,6 +975,193 @@
         "docs/data/accessory-pq-canonical-bridge.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
+    },
+    {
+      "id": "acc-061",
+      "name": "Four-Star Dragon Ball Hat",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 5 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-062",
+      "name": "Chiaotzu's Hat (With Collar)",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 9 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-063",
+      "name": "Dore's Scouter",
+      "category": "scouter",
+      "acquisition_routes": [
+        "Parallel Quest 27 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-064",
+      "name": "Jaco's State-of-the-Art Radio",
+      "category": "radio",
+      "acquisition_routes": [
+        "Parallel Quest 72 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-065",
+      "name": "Tagoma's Scouter",
+      "category": "scouter",
+      "acquisition_routes": [
+        "Parallel Quest 73 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-066",
+      "name": "SSGSS Goku Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 76 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-067",
+      "name": "Yamcha Baseball Hat",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 97 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-068",
+      "name": "SSGSS Vegeta Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 100 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-069",
+      "name": "Bulma (Kid) Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 149 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-070",
+      "name": "Android 14's Hat",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 104 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-071",
+      "name": "Bardock (DB Super)'s Scouter",
+      "category": "scouter",
+      "acquisition_routes": [
+        "Parallel Quest 146 reported"
+      ],
+      "dlc_provenance": "base_game_or_DLC_route_requires_reconciliation",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
     }
   ]
 }
