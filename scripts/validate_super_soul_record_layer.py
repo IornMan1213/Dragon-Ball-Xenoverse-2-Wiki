@@ -12,14 +12,25 @@ ROOT = Path(__file__).resolve().parents[1]
 LAYER = ROOT / "docs/data/super-souls-record-layer.json"
 REL = ROOT / "docs/data/pq-reward-relationships.json"
 
+def load_object(path: Path) -> dict:
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        raise SystemExit(f"{path}: invalid JSON: {exc}") from exc
+    if not isinstance(value, dict):
+        raise SystemExit(f"{path}: root must be an object")
+    return value
+
 def main() -> int:
-    layer = json.loads(LAYER.read_text(encoding="utf-8"))
-    rel = json.loads(REL.read_text(encoding="utf-8"))
+    layer = load_object(LAYER)
+    rel = load_object(REL)
     records = layer.get("records")
     if not isinstance(records, list):
         raise SystemExit("records must be a list")
-    ids = [r.get("id") for r in records if isinstance(r, dict)]
-    names = [r.get("name") for r in records if isinstance(r, dict)]
+    if any(not isinstance(r, dict) for r in records):
+        raise SystemExit("every Super Soul record must be an object")
+    ids = [r.get("id") for r in records]
+    names = [r.get("name") for r in records]
     if len(records) != len(ids) or any(not isinstance(x, str) or not x for x in ids):
         raise SystemExit("every record must have a non-empty string id")
     if len(set(ids)) != len(ids):
@@ -37,9 +48,13 @@ def main() -> int:
             raise SystemExit(f"record {record['id']} has invalid verification_status")
         if not isinstance(record["sources"], list) or not record["sources"]:
             raise SystemExit(f"record {record['id']} must have at least one source")
+    relationships = rel.get("verified_relationships")
+    if not isinstance(relationships, list):
+        raise SystemExit("pq-reward-relationships.json: verified_relationships must be a list")
     targets = {
-        row["target"] for row in rel.get("verified_relationships", [])
+        row["target"] for row in relationships
         if isinstance(row, dict) and row.get("relationship") == "pq_rewards_super_soul"
+        and isinstance(row.get("target"), str) and row.get("target")
     }
     missing_targets = sorted(targets - set(names))
     print(json.dumps({
