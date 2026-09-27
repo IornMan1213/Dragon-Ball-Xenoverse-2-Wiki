@@ -4349,3 +4349,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved reward-tier conflicts and evidence boundaries; no unsupported Skill→PQ edges, probabilities, or exact frame claims were promoted.
 - [ ] Finish remaining per-record Batch 506 audit registrations after the GitHub content API's create-file acceptance issue, then reconcile cross-domain projections.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 507 Skill↔PQ reconciliation
+- [x] Reconciled the canonical 474-skill `source_parallel_quests` projection against the restored PQ reward layer: **246 canonical Skill→PQ edges / 170 represented PQ IDs**.
+- [x] Normalized four presentation aliases in the forward PQ reward layer (Chain Destructo-disc Barrage, III Bomber, Starfall, Giant Cluster) to their canonical Skill identities.
+- [x] Promoted 14 canonical-only Skill→PQ endpoints supported directly by canonical records and removed the conflicting **Kamehameha→PQ48** forward endpoint because canonical data maps Kamehameha to PQ5 only.
+- [x] Forward PQ reward layer now contains **848 evidence-backed relationships**, including **246 skill relationships**; no unsupported probabilities or acquisition gates were inferred.
+- [x] Updated the Skill↔PQ reconciliation audit artifact.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] Exact next: fresh Batch 507 census from the post-reconciliation 474-record corpus, then continue cross-domain reconciliation toward full PQ↔Skill navigation.
