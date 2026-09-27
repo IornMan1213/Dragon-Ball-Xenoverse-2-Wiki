@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "validate_super_soul_record_layer.py now requires every source entry to be a non-empty string, preventing malformed source containers from being treated as provenance.",
+    "validate_awoken_model.py now uses deterministic malformed-JSON handling for all three source files."
+  ],
+  "canonical_data_changed": false
+}
