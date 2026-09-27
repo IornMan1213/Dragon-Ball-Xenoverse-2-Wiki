@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-orin-combo",
+  "skill_name": "Orin Combo",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific skill documentation reconfirms Krillin training acquisition, 100-Ki Strike Super classification, ascending kick sequence, and bounded follow-up behavior. Unsupported exact frames and scaling remain unresolved.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
