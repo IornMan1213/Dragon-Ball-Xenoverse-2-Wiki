@@ -4,50 +4,50 @@
   "domain": "super_souls",
   "record_layer": "docs/data/super-souls-record-layer.json",
   "validator": "scripts/audit_super_soul_mechanics_coverage.py",
-  "records": 168,
+  "records": 173,
   "fields": {
     "trigger_condition": {
-      "populated": 94,
-      "missing": 74
+      "populated": 110,
+      "missing": 63
     },
     "effect_text": {
-      "populated": 102,
-      "missing": 66
+      "populated": 118,
+      "missing": 55
     },
     "effect_magnitude": {
-      "populated": 96,
-      "missing": 72
+      "populated": 112,
+      "missing": 61
     },
     "duration": {
-      "populated": 81,
-      "missing": 87
+      "populated": 77,
+      "missing": 96
     },
     "stacking_behavior": {
-      "populated": 45,
-      "missing": 123
+      "populated": 49,
+      "missing": 124
     },
     "limit_burst": {
-      "populated": 92,
-      "missing": 76
+      "populated": 108,
+      "missing": 65
     },
     "limit_burst_trigger": {
       "populated": 0,
-      "missing": 168
+      "missing": 173
     },
     "limit_burst_effect": {
-      "populated": 72,
-      "missing": 96
+      "populated": 91,
+      "missing": 82
     },
     "usable_by_cac": {
-      "populated": 102,
-      "missing": 66
+      "populated": 118,
+      "missing": 55
     },
     "race_restriction": {
       "populated": 3,
-      "missing": 165
+      "missing": 170
     },
     "dlc_requirement": {
-      "populated": 30,
+      "populated": 35,
       "missing": 138
     }
   },
@@ -56,12 +56,12 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-132",
-      "super-soul-133",
-      "super-soul-134",
-      "super-soul-135",
-      "super-soul-136"
+      "super-soul-174",
+      "super-soul-175",
+      "super-soul-176",
+      "super-soul-177",
+      "super-soul-178"
     ],
-    "evidence_basis": "Super Soul catalogue plus independent GameFAQs/Steam evidence; canonical PQ acquisition remains authoritative; source discrepancies retained."
+    "evidence_basis": "Explicit PQ/DLC reward identity evidence; only super-soul-174 received mechanics from independent item-level/player-reference evidence."
   }
 }
