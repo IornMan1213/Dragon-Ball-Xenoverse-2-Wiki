@@ -4319,7 +4319,7 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery; Defense Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms both once-only triggers and +500 Stamina restoration; the PQ guide independently lists this Soul as a basic reward of PQ 157. No exact RNG/drop-condition claim is added.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4328,7 +4328,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4350,7 +4352,7 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics corroborated by the Gohan (DBS Super Hero) character data and independent player testing; the repository preserves the exact in-game style while retaining secondary verification status.",
+      "version_notes": "Mechanics corroborated by the Gohan (DBS Super Hero) character data and independent player testing; the repository preserves the exact in-game style while retaining secondary verification status. Direct catalogue evidence confirms the Always guard-break extension and Just Guard attack stacking; the PQ guide independently lists the Soul as a basic reward of PQ 158. The repository retains partial verification because independent mechanical testing remains secondary.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4359,7 +4361,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4381,7 +4385,7 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms Dr. Hedo, Pose trigger, +5% Strike/+5% Ki Blast stacking to five, and Revive Gauge Auto-Recovery Limit Burst; the PQ guide and DLC listing independently place it in PQ 159.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4390,7 +4394,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4412,7 +4418,7 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics corrected against the current Super Soul catalogue: the all-attack and damage-taken modifiers are +30%, not the earlier +5% reconstruction. PQ 159 provenance is independently source-backed.",
+      "version_notes": "Mechanics corrected against the current Super Soul catalogue: the all-attack and damage-taken modifiers are +30%, not the earlier +5% reconstruction. PQ 159 provenance is independently source-backed. Direct catalogue evidence confirms the corrected +30% all-attack modifier and +30% damage-taken modifier alongside the 20-second Ki Auto-Recovery effect; the PQ guide independently lists it as a basic reward of PQ 159.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4421,7 +4427,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4443,7 +4451,7 @@
       "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms Gohan (Beast), Just Guard trigger, +5% Strike/+10% Ki Blast stacking to five, and the Limit Burst; the PQ guide independently lists it as a basic reward of PQ 160.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4452,7 +4460,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
