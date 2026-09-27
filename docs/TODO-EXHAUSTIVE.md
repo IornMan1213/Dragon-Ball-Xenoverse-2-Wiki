@@ -3288,3 +3288,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json` to include the 148–152 enrichment batch while preserving its evidence policy.
 - [x] Confirmed the five Hero of Justice Pack 2 records 148–152 remain cross-linked to PQs 159–162; DLC documentation independently identifies five Super Souls across those four PQs. citeturn0search0turn0search2
 - [ ] Continue by resolving the remaining canonical mechanics gaps; do not enrich disputed historical records 137–141 and do not promote `verified` status as source-of-truth evidence.
+
+
+### 2026-09-27 continuation — Super Soul 164–172 Limit Burst parity enrichment
+- [x] Filled the previously missing normalized Limit Burst effect fields for Super Souls 164–172 from explicit catalogue/character evidence.
+- [x] Added and registered `docs/data/super-soul-164-172-limit-burst-parity-audit-2026-09-27.json`.
+- [x] Canonical reward/acquisition relationships and disputed PQ 151–154 provenance were left unchanged.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: item-level reconciliation of PQ 155 / `super-soul-142`; otherwise proceed through the next evidence-complete thin Super Soul frontier and propagate confirmed changes across indexes.
