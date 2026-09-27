@@ -7,40 +7,40 @@
   "records": 168,
   "fields": {
     "trigger_condition": {
-      "populated": 64,
-      "missing": 104
+      "populated": 69,
+      "missing": 99
     },
     "effect_text": {
-      "populated": 72,
-      "missing": 96
+      "populated": 77,
+      "missing": 91
     },
     "effect_magnitude": {
-      "populated": 66,
-      "missing": 102
+      "populated": 71,
+      "missing": 97
     },
     "duration": {
-      "populated": 54,
-      "missing": 114
+      "populated": 59,
+      "missing": 109
     },
     "stacking_behavior": {
-      "populated": 30,
-      "missing": 138
+      "populated": 32,
+      "missing": 136
     },
     "limit_burst": {
-      "populated": 62,
-      "missing": 106
+      "populated": 67,
+      "missing": 101
     },
     "limit_burst_trigger": {
       "populated": 0,
       "missing": 168
     },
     "limit_burst_effect": {
-      "populated": 42,
-      "missing": 126
+      "populated": 47,
+      "missing": 121
     },
     "usable_by_cac": {
-      "populated": 72,
-      "missing": 96
+      "populated": 77,
+      "missing": 91
     },
     "race_restriction": {
       "populated": 3,
@@ -56,12 +56,12 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-086",
-      "super-soul-087",
-      "super-soul-088",
-      "super-soul-090",
-      "super-soul-091"
+      "super-soul-092",
+      "super-soul-093",
+      "super-soul-094",
+      "super-soul-095",
+      "super-soul-096"
     ],
-    "evidence_basis": "Current Super Soul catalogue plus independent guide evidence."
+    "evidence_basis": "Current Super Soul catalogue and independent guide evidence."
   }
 }
