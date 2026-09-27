@@ -4119,3 +4119,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source conflicts and evidence boundaries, including Atomic Blast's PQ87 reward-tier conflict, Blades of Judgment's classification discrepancy, and Blaster Stream's unresolved CaC race scope; no unsupported exact frames, hidden interactions, universal scaling, or reward probabilities were promoted.
 - [ ] Next priority: fresh **Batch 502** census from the live corpus, excluding prior frontier candidates, followed by PQ→Skill and Skill→PQ projection reconciliation.
 - [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target while preserving canonical/indexed/verified distinctions.
+
+
+### 2026-09-27 continuation — Batch 501 current-evidence frontier
+- [x] Performed a fresh post-Batch-500 census from the live 474-record corpus; Batch 496–500 candidate names were excluded from selection.
+- [x] Completed bounded current-evidence refreshes for **Fruit of the Tree of Might, Dead End Bullet, Super Saiyan, Super Saiyan God, Brave Heat, Fighting Pose D, Super Ghost Buu Attack, and Dead End Rain**.
+- [x] Added eight dated Batch 501 evidence audit artifacts and finalized `docs/data/skill-research-batches/skill-batch-501.json`.
+- [x] Synchronized all eight records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identities were unchanged.
+- [x] Preserved evidence boundaries: source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not invented.
+- [x] Batch manifest records **474 canonical / 474 index records**, 8 synchronized records, zero canonical identity changes, and zero unsupported claims added.
+- [ ] Next priority: fresh Batch 502 census, then continue mechanics/provenance enrichment.
+- [ ] Reconcile PQ→Skill and Skill→PQ projections after the next enrichment cycle and continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
