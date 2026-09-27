@@ -4564,3 +4564,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved canonical-source priority: recovery used surviving canonical blobs/relationship stores rather than rebuilding canonical data from secondary indexes or datasets marked verified true.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue substantive evidence-backed enrichment from the live frontier. Prioritize the Super Soul mechanics backlog (80 records still marked partial in the latest integrity audit) and other cross-domain coverage gaps; do not reopen already-complete equipment endpoint identity work unless a fresh census proves regression.
+
+
+### 2026-09-27 continuation — Super Soul mechanics audit correction
+- [x] Continued from the recovered canonical baseline rather than reopening completed endpoint recovery.
+- [x] Audited the Super Soul mechanics coverage report against the canonical record layer and corrected a stale arithmetic error: `records=172`, so `limit_burst_trigger.missing` is **172**, not 173. No canonical Super Soul record was changed by this correction.
+- [x] Rechecked PQ 186 evidence: the surviving canonical relationship layer correctly associates “The final battle begins now.” and “I'll use this power to protect everyone!” with PQ 186. Independent current PQ guide evidence likewise lists both as PQ 186 rewards. Mechanics for the first remain unresolved; no unsupported effect was invented. Current player discussion also provides only anecdotal drop observations, so it is retained as secondary research evidence rather than promoted to canonical mechanics.
+- [ ] Continue mechanics enrichment with source-backed evidence, prioritizing records where an explicit mechanic source exists; preserve unresolved fields when evidence is insufficient.
