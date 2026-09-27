@@ -3791,3 +3791,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled 137 as Frieza (First Form): guard break reduces damage received from all attacks; Limit Burst = DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.
 - [x] Preserved XL as secondary evidence rather than treating its numeric interpretation as canonical.
 - [ ] Next: continue the remaining unresolved Super Soul records.
+
+
+### 2026-09-27 continuation — Super Soul 137 provenance correction
+- [x] Restored **Item Shop** acquisition for 137 from current catalogue evidence; prior PQ attribution removal remains intact.
+- [x] Canonical/current catalogue confirms Frieza (1st Form), guard-break damage reduction, and Limit Burst; XL numeric interpretation remains secondary.
+- [ ] Next: continue unresolved 138–142 with evidence-first handling.
