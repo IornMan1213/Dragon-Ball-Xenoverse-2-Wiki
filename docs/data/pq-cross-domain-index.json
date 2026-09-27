@@ -2171,5 +2171,30 @@
       "https://dragonball.fandom.com/"
     ],
     "manifest_path": "docs/data/skill-research-batches/skill-batch-525.json"
+  },
+  "skill_research_batch_526": {
+    "batch": 526,
+    "date": "2026-09-27",
+    "type": "current-evidence-refresh",
+    "selected": [
+      "Raid Blast",
+      "Rakshasa's Claw",
+      "Recoome Eraser Gun",
+      "Recoome Kick",
+      "Requiem of Destruction",
+      "Reverse Launcher",
+      "Reverse Mabakusenko",
+      "Riot Javelin",
+      "Rocket Tackle",
+      "Savory Slicer",
+      "Scissors Paper Rock",
+      "Shine Shot"
+    ],
+    "records_refreshed": 12,
+    "identity_changes": 0,
+    "canonical_field_corrections": 0,
+    "relationship_changes": 0,
+    "evidence_manifest": "docs/data/skill-research-batches/skill-batch-526.json",
+    "evidence_boundary": "No canonical mutation from secondary snippets alone; canonical data remains source of truth."
   }
 }
