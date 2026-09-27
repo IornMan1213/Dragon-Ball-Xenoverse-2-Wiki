@@ -3847,3 +3847,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited 146–150 for legacy ID/name drift signals; none found in the current canonical record layer.
 - [x] Preserved source-normalized PQ provenance for 146–150 and explicitly kept exact drop/first-clear behavior unresolved where not independently established.
 - [ ] Continue the provenance/ID-drift audit with Super Soul 151 onward.
+
+
+### 2026-09-27 continuation — Super Souls 146–150 provenance audit
+- [x] Audited IDs 146–150 for legacy identity/ID drift and acquisition provenance.
+- [x] External guide evidence supports the recorded PQ endpoints for 146–150; no legacy misidentification was found in this batch.
+- [x] Preserved partially-verified status and explicitly avoided inventing exact RNG/first-clear behavior.
+- [ ] Continue the remaining Super Soul IDs in order, watching for orphaned names, remapped IDs, and stale PQ edges.
