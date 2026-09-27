@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-black-kamehameha-rose",
+  "skill_name": "Super Black Kamehameha Rosé",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "500-Ki Ki Blast Ultimate from PQ109. The opening pseudo-strike punch is followed by a pink Kamehameha beam; current dedicated evidence documents 25 hits and about 40% total damage. The initial punch is slower than the standard Super Black Kamehameha, while the beam carries the stronger damage portion. Exact frame data and reward probability remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
