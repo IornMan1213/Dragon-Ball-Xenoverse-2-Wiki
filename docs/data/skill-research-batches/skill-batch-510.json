@@ -16,5 +16,12 @@
   "baseline": {
     "canonical_records": 474
   },
-  "evidence_boundary": "Canonical data remains the source of truth. No unsupported acquisition gates, probabilities, exact frames, hidden interactions, universal scaling, or Skill→PQ edges will be inferred."
+  "evidence_boundary": "Canonical data remains the source of truth. No unsupported acquisition gates, probabilities, exact frames, hidden interactions, universal scaling, or Skill→PQ edges will be inferred.",
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "completed": true
 }
