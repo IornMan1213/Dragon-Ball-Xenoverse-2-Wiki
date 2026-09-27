@@ -4,8 +4,8 @@
   "batch": 500,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics_summary": "100-Ki Ki Blast Super from PQ4. The user quickly fires a beam backward; a hit causes the opponent to stagger briefly. Current evidence classifies it as a short-range, single-hit stun/backhit attack. Update 1.26 documentation records faster hit registration and changed damage reaction, so exact timing is version-sensitive; exact stun duration, frame data, and drop probability remain unresolved.",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "mechanics": "Current documentation reconfirms 100 Ki, Ki Blast Super classification, PQ4 Basic Reward route, backward beam behavior, and brief stagger effect. Exact timing, damage scaling, and reward probability remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
   "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
-  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
 }
