@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "super_souls",
+  "records": [
+    {
+      "id": "super-soul-029",
+      "name": "The ultimate power is mine!",
+      "acquisition_source": "Mixing Shop; Time Patrol Support Pack DLC provenance",
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "evidence": "Independent catalogue/character/raid evidence explicitly states the Limit Burst effect; canonical acquisition retained.",
+      "policy": "Only normalized Limit Burst effect populated; no unrelated mechanics inferred."
+    },
+    {
+      "id": "super-soul-030",
+      "name": "I'll never forgive you, scum!",
+      "acquisition_source": "Item Shop",
+      "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
+      "evidence": "Independent catalogue/character/raid evidence explicitly states the Limit Burst effect; canonical acquisition retained.",
+      "policy": "Only normalized Limit Burst effect populated; no unrelated mechanics inferred."
+    },
+    {
+      "id": "super-soul-044",
+      "name": "Let's see you handle THIS kind of power!",
+      "acquisition_source": "Great Ape Baby Online Raid",
+      "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
+      "evidence": "Independent catalogue/character/raid evidence explicitly states the Limit Burst effect; canonical acquisition retained.",
+      "policy": "Only normalized Limit Burst effect populated; no unrelated mechanics inferred."
+    },
+    {
+      "id": "super-soul-045",
+      "name": "Your time in this fight ends now!",
+      "acquisition_source": "Saibaman / Great Ape Baby Lite Online Raids",
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "evidence": "Independent catalogue/character/raid evidence explicitly states the Limit Burst effect; canonical acquisition retained.",
+      "policy": "Only normalized Limit Burst effect populated; no unrelated mechanics inferred."
+    },
+    {
+      "id": "super-soul-046",
+      "name": "Kind of human-like, don't you think?",
+      "acquisition_source": "Super 17 Online Raid",
+      "limit_burst_effect": "Revive Gauge Auto-Recovery!",
+      "evidence": "Independent catalogue/character/raid evidence explicitly states the Limit Burst effect; canonical acquisition retained.",
+      "policy": "Only normalized Limit Burst effect populated; no unrelated mechanics inferred."
+    },
+    {
+      "id": "super-soul-047",
+      "name": "Kicking a Shadow Dragon in the head is not a wise thing to do!",
+      "acquisition_source": "Shadow Dragon / Heartless Galactic Warrior raid family",
+      "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
+      "evidence": "Independent catalogue/character/raid evidence explicitly states the Limit Burst effect; canonical acquisition retained.",
+      "policy": "Only normalized Limit Burst effect populated; no unrelated mechanics inferred."
+    },
+    {
+      "id": "super-soul-076",
+      "name": "I shall show you my great godly might!",
+      "acquisition_source": "Parallel Quest 110",
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "evidence": "Independent catalogue/character/raid evidence explicitly states the Limit Burst effect; canonical acquisition retained.",
+      "policy": "Only normalized Limit Burst effect populated; no unrelated mechanics inferred."
+    }
+  ],
+  "status": "passed"
+}
