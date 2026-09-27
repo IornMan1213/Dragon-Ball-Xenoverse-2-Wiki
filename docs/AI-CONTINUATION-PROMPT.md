@@ -4544,3 +4544,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved reward probabilities, exact frames, hidden conditions, disputed acquisition semantics, and patch-independent scaling rather than inferring them.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Exact next: continue the stale canonical Skill frontier after Powered Shell; re-fetch live SHAs before every mutation.
+
+
+### 2026-09-27 continuation — Skill evidence Batch 525
+- [x] Refreshed 16 stale canonical skill records: Prelude to Destruction; Prepare to be Punished; Present For You; Pressure Sign; Pretty Cannon; Pretty Charge; Prominence Flash; Psychic Move; Psycho Barrier; Psycho Escape; Punisher Guard; Punisher Shield; Pure Progress; Purification; Quick Sleep; Raid Blast.
+- [x] Synchronized the 16 corresponding skills-index projections; canonical/index record counts remain 474/474.
+- [x] Added docs/data/skill-research-batches/skill-batch-525.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Batch 525 made zero skill identity changes, zero canonical field corrections, and zero new Skill→PQ relationship inferences.
+- [x] Preserved unresolved reward probabilities, exact frames, hidden conditions, disputed acquisition semantics, and patch-independent scaling rather than inferring them.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Exact next: continue the stale canonical Skill frontier after Raid Blast; re-fetch live SHAs before every mutation.
