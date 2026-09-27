@@ -1877,5 +1877,6 @@
   },
   "super_soul_164_172_limit_burst_parity": "docs/data/super-soul-164-172-limit-burst-parity-audit-2026-09-27.json",
   "super_soul_mechanics_status_consistency": "docs/data/super-soul-mechanics-status-consistency-audit-2026-09-27.json",
-  "super_soul_limit_burst_effect_batch_2026_09_27": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27.json"
+  "super_soul_limit_burst_effect_batch_2026_09_27": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27.json",
+  "super_soul_limit_burst_effect_batch_2026_09_27_b": "docs/data/super-soul-limit-burst-effect-batch-2026-09-27-b.json"
 }
