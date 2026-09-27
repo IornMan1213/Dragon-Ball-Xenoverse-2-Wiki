@@ -3467,3 +3467,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-079` "I ain't losin'! Here's my full power!" with Kamehameha-type Ultimate trigger, +20% Ki Blast attacks for 10 seconds, Limit Burst, and DLC provenance.
 - [x] Enriched `super-soul-080` "I'm never going to forgive him!" with the once-only below-50%-Health trigger, full Ki restoration, Limit Burst, and DLC provenance.
 - [ ] Continue the thin-record parity pass; `super-soul-078` was already enriched and remains unchanged.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 4
+- [x] Enriched `super-soul-081` "I'll make good use of you!" with Babidi's 60-second trigger, +20% all attacks, -40% Stamina recovery, -40% Ki recovery, Limit Burst, CaC usability, and DLC/PQ provenance.
+- [x] Enriched `super-soul-082` "I'm stronger than ever now!" with max-Ki/max-Stamina triggers, +10% Stamina recovery, +20% Ki Auto-Recovery, Limit Burst, CaC usability, and DLC/PQ provenance.
+- [x] Used current catalogue evidence to resolve exact mechanics instead of leaving indexed placeholders.
+- [ ] Continue systematic enrichment and classification reconciliation of remaining thin Super Soul records.
