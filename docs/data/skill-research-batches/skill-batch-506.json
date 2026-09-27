@@ -5,15 +5,15 @@
   "selected": [
     "Burning Swan",
     "Burst Blitz",
+    "Burst Charge",
     "Burst Reflection",
     "Burst Rush",
     "Burst Stinger",
-    "Celestial Wave",
-    "Chain Destructo-Disc Barrage",
-    "Chaos Shot"
+    "Candy Beam (Super)",
+    "Celestial Wave"
   ],
   "selection_rule": "Fresh post-Batch-505 census; each selected record lacked a registered 2026-09-27 Batch-506/current-evidence audit at selection time.",
-  "records_refreshed": 8,
+  "records_refreshed": 0,
   "canonical_identity_changes": 0,
   "synchronized_layers": [
     "docs/data/skills.json",
@@ -32,5 +32,7 @@
   ],
   "total_records_refreshed_across_registered_batch": 15,
   "latest_refresh_canonical_identity_changes": 0,
-  "latest_refresh_note": "A second bounded Batch 506 frontier pass refreshed seven additional records after the existing Batch 506 registration was discovered. No prior completed records were removed or rewritten as a different selection."
+  "latest_refresh_note": "A second bounded Batch 506 frontier pass refreshed seven additional records after the existing Batch 506 registration was discovered. No prior completed records were removed or rewritten as a different selection.",
+  "status": "census_complete",
+  "next_exact": "Bounded current-evidence refresh for all eight selected records, then synchronize canonical/index layers and register eight audit artifacts."
 }
