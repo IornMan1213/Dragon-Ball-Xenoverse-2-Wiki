@@ -4186,8 +4186,8 @@
       "name": "This is the ultimate hero!",
       "character_source": null,
       "dlc_requirement": null,
-      "acquisition_type": "Parallel Quest",
-      "acquisition_source": "Parallel Quest 155",
+      "acquisition_type": null,
+      "acquisition_source": null,
       "first_clear_or_repeat": null,
       "shop_rotation": null,
       "trigger_condition": null,
@@ -4200,15 +4200,11 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields remain intentionally unpopulated pending item-level evidence; no effect, trigger, magnitude, duration, or stacking behavior is inferred.",
-      "verification_status": "indexed",
+      "version_notes": "Canonical PQ reward attribution was removed on 2026-09-27 after direct PQ 155 reward-list evidence omitted this Super Soul. The record is preserved as an unresolved catalogue identity; no mechanics or alternate acquisition route is inferred.",
+      "verification_status": "unresolved",
       "last_verified": "2026-09-27",
       "sources": [
-        "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
