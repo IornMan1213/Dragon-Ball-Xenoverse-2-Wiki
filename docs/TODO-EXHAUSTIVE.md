@@ -3562,3 +3562,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Next priority: reconcile all current-facing skill consumers and reverse indexes against the restored 474/474 baseline, preserving dated historical snapshots and avoiding mass rewriting of historical research artifacts.
 - [ ] Then resume the highest-priority unfinished cross-domain work: PQ → skill → mechanics navigation and exhaustive acquisition/provenance/mechanics enrichment.
 - [ ] Runtime/CI remains non-blocking per the established project rule.
+
+
+### 2026-09-27 continuation — Post-recovery live consumer reconciliation
+- [x] Freshly inspected the restored live canonical Skills layer through Git blobs: **474 canonical records / 474 index records**, with exact ID/name roots intact.
+- [x] Rechecked the live PQ→Skill consumer audit: **474 canonical skills, 236 forward PQ skill edges, 236 resolved consumer links, 0 unresolved, 4 documented presentation aliases**. This consumer projection is currently internally resolved.
+- [x] Rechecked the deeper Skill→PQ reverse audit: **474 skills / 246 explicit source_parallel_quests edges / 170 represented PQ IDs**, with duplicate-ID and malformed-endpoint hardening already recorded. The 10-edge difference versus the PQ→Skill consumer projection is a known directionality/projection distinction, not a reason to rewrite canonical data.
+- [x] Confirmed the checked-in reverse projection is still intended to derive from `docs/data/skills.json`; no consumer rewrite was performed merely to change historical counts.
+- [x] Fresh frontier census confirms Batch 495 was already the latest completed eight-record mechanics frontier; its eight current-evidence audits are present and explicitly synchronized to the canonical Skills layer.
+- [ ] Next priority: perform a **new** thin-record census for Batch 496 (do not reuse Batch 495's candidate list), then enrich the next genuinely unaudited skill records with bounded current evidence.
+- [ ] After Batch 496, regenerate/reconcile the relevant skill→PQ and PQ→skill consumer artifacts and record exact parity/count changes.
+- [ ] Continue the broader 672 indexed-category target beyond the 474 canonical seed, while preserving canonical-vs-indexed-vs-verified distinctions.
