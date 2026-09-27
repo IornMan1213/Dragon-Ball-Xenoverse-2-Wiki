@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-brave-heat",
+  "skill_name": "Brave Heat",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Ki Blast Ultimate associated with mentor acquisition in the maintained current research. Current documentation describes charging the right fist, rushing the opponent, flying upward, and firing a beam, with source-reported 20 hits/35% damage and extended chase/tracking behavior. Exact frames and universal damage scaling remain unverified.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and maintained corroborating research.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
