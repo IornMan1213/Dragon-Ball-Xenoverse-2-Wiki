@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "audit_date": "2026-09-27",
-  "audit_type": "skill_pq_projection_reconciliation_batch_505",
+  "audit_type": "skill_pq_projection_reconciliation_batch_507",
   "source_canonical": "docs/data/skills.json",
   "source_reverse": "docs/data/skill-pq-reverse-index-2026-09-26.json",
   "canonical_skill_count": 474,
@@ -31,5 +31,29 @@
   "boolean_pq_ids": 0,
   "result": "No new canonical Skill→PQ edges promoted. The 16-PQ gap remains an evidence boundary; non-skill rewards, partner skills, shop acquisition, and ambiguous third-party mappings are not converted into canonical endpoints.",
   "status": "passing_current_projection_reconciliation",
-  "next": "Continue fresh skill evidence frontier; revisit the 16 unrepresented PQ IDs only when explicit skill-specific evidence is found."
+  "next": "Continue fresh skill evidence frontier; revisit the 16 unrepresented PQ IDs only when explicit skill-specific evidence is found.",
+  "forward_skill_edges": 246,
+  "reconciled_aliases": {
+    "Chain Destructo-disc Barrage": "Chain Destructo-Disc Barrage",
+    "III Bomber": "Ill Bomber",
+    "Starfall": "Destruction's Concerto: Starfall",
+    "Giant Cluster": "Gigantic Cluster"
+  },
+  "canonical_only_edges_promoted": [
+    "Atomic Blast→PQ87",
+    "Candy Beam (Super)→PQ113",
+    "Chain Destructo-Disc Barrage→PQ46",
+    "Destruction's Concerto: Meteor→PQ106",
+    "Destruction's Concerto: Starfall→PQ104",
+    "Destruction's Conductor→PQ106",
+    "Gigantic Cluster→PQ163",
+    "Ill Bomber→PQ90",
+    "Neo Wolf Fang Fist→PQ86",
+    "Rakshasa's Claw→PQ57",
+    "Requiem of Destruction→PQ106",
+    "Fighting Pose B→PQ16",
+    "Fighting Pose D→PQ15",
+    "Fighting Pose J→PQ17"
+  ],
+  "canonical_conflict_removed": "Kamehameha→PQ48 removed from forward reward projection because canonical Skill source_parallel_quests contains PQ5 only."
 }
