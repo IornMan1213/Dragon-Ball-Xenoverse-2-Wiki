@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "audit_type": "super_soul_pq_151_154_source_conflict_reconciliation",
+  "audited_at": "2026-09-27",
+  "branch": "main",
+  "scope": [
+    "super-soul-137",
+    "super-soul-138",
+    "super-soul-139",
+    "super-soul-140",
+    "super-soul-141"
+  ],
+  "canonical_source_of_truth": "docs/data/pq-reward-relationships.json",
+  "canonical_relationships": [
+    [
+      "pq-151",
+      "I'll never forgive you!"
+    ],
+    [
+      "pq-151",
+      "I'm not gonna die until I defeat you!"
+    ],
+    [
+      "pq-152",
+      "I'll show you the power of a true warrior!"
+    ],
+    [
+      "pq-153",
+      "Don't underestimate my power!"
+    ],
+    [
+      "pq-153",
+      "I won't forgive you!"
+    ],
+    [
+      "pq-154",
+      "I'm the one who will win!"
+    ]
+  ],
+  "external_evidence": [
+    {
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "observation": "The repository's canonical relationship rows cite this guide for the six relationships above; the indexed guide text exposes PQ 151-154 reward sections but does not consistently expose every Super Soul name in the parsed Basic Reward excerpts."
+    },
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "observation": "The currently indexed Super Soul table exposes a different set of PQ 151-154 reward names, including 'I think I'm getting the hang of this.', 'I will put a stop to you, fiend!', 'There's more where that came from!', and no exact matches for the five quoted canonical endpoints except the broader database context."
+    }
+  ],
+  "resolution": "Do not overwrite canonical relationships or promote external mechanics from the conflicting table. The six canonical endpoints remain acquisition identities only until item-level evidence establishes their mechanics.",
+  "evidence_boundary": [
+    "External sources are treated as corroboration/conflict evidence, not as a replacement for the repository canonical layer.",
+    "No trigger, effect, magnitude, duration, stacking behavior, Limit Burst, character source, or CaC usability was inferred for these five records.",
+    "The discrepancy itself is retained as research data so later reconciliation can be performed without losing the recovered canonical state."
+  ],
+  "status": "documented_conflict_no_speculative_reconstruction"
+}
