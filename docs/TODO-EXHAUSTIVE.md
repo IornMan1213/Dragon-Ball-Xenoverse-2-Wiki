@@ -3044,3 +3044,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Retained source discrepancies instead of converting uncertain data into false certainty.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 9
+- [x] Completed mechanics metadata normalization for super-soul-127 through super-soul-131.
+- [x] Refreshed mechanics/integrity audits: trigger 89/168, effect 97/168, magnitude 91/168, duration 76/168, stacking 42/168, Limit Burst 87/168, Limit Burst effect 67/168, CaC 97/168.
+- [x] Remaining partial mechanics frontier reduced to **85 records**.
+- [x] Source discrepancies remain explicitly recorded rather than silently resolved.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment.
