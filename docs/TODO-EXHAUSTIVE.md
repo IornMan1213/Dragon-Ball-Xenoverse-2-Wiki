@@ -1,3 +1,10 @@
+### 2026-09-27 continuation — Super Soul/Awoken validator hardening
+- [x] Hardened `scripts/validate_super_soul_record_layer.py`: every provenance source entry must be a non-empty string.
+- [x] Hardened `scripts/validate_awoken_model.py`: deterministic malformed-JSON handling for skills, overrides, and canonical transformation roster sources.
+- [x] No canonical data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** inspect another validator/consumer for substantive schema, identity, provenance, or cross-link integrity gaps.
+
 ### 2026-09-27 continuation — PQ index validator hardening
 - [x] Hardened `scripts/validate_pq_skill_links.py`: deterministic JSON errors; strict reverse-index root/entry/skill-list validation; explicit canonical relationship-list validation.
 - [x] Hardened `scripts/validate_pq_cross_domain_index.py`: deterministic malformed-JSON failure handling.
