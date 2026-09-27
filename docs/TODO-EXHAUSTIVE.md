@@ -3691,3 +3691,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Maintained the restored **474/474** canonical/index baseline; evidence remains bounded and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.
 - [ ] Next priority: fresh Batch 501 census from the post-Batch-500 corpus, excluding prior frontier candidates, followed by current-evidence mechanics enrichment.
 - [ ] Then reconcile PQ→Skill and Skill→PQ navigation projections and continue expansion toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 501 evidence frontier and numbering reconciliation
+- [x] Preserved the existing Batch 500 manifest rather than overwriting it; it already contains a separate eight-record frontier.
+- [x] Completed and synchronized a separate **Batch 501** eight-record current-evidence frontier: **Super Dragon Flight, Big Bang Kamehameha, Mach Punch, Gravity Impact, Sudden Storm, Change The Future, Stone Bullet, and Supernova Cooler**.
+- [x] Corrected the eight live canonical-facing records from the provisional Batch 500 note label to Batch 501; no skill IDs, names, classifications, or acquisition endpoints were changed.
+- [x] Added `docs/data/skill-research-batches/skill-batch-501.json` documenting the eight-record frontier and **474 canonical / 474 index** validation.
+- [x] Preserved evidence boundaries and did not overwrite historical Batch 500 research.
+- [ ] Next priority: fresh Batch 502 census from the live 474-record corpus, excluding prior frontier candidates, followed by bounded mechanics/provenance enrichment.
+- [ ] Then reconcile PQ→Skill and Skill→PQ projections and continue expansion toward the 672 indexed-category target.
