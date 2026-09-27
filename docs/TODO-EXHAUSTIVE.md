@@ -3956,3 +3956,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence conflicts and canonical-source rules preserved.
 - [ ] Complete remaining Batch 506 audit-file registrations and cross-domain reconciliation.
 - [ ] Continue toward the 672 indexed-category target; runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 507 Skill↔PQ reconciliation
+- [x] Reconciled canonical Skill `source_parallel_quests` with the PQ reward forward layer: 246 Skill→PQ edges / 170 represented PQ IDs.
+- [x] Normalized four presentation aliases and promoted 14 canonical-supported missing endpoints.
+- [x] Removed the conflicting Kamehameha→PQ48 forward edge; canonical record supports PQ5.
+- [x] PQ forward relationship layer now totals 848 evidence-backed relationships, with 246 skill relationships.
+- [x] Updated projection reconciliation documentation.
+- [ ] Next: fresh Batch 507 census and next substantive cross-domain enrichment; preserve canonical-source priority and unresolved evidence boundaries.
+- [ ] Runtime/CI remains non-blocking.
