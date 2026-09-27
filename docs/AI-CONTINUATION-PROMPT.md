@@ -1,3 +1,13 @@
+### 2026-09-27 continuation — Character presentation identity validation-order hardening
+- [x] Inspected the live `scripts/validate_character_presentation_consumers.py`.
+- [x] Found a concrete robustness gap: preset/partner/reconciliation identifier projections could reach `set()`/sorting before malformed values were explicitly validated, allowing unhashable malformed IDs to raise uncontrolled `TypeError` failures.
+- [x] Reordered projections to operate on explicitly valid non-empty string identifiers while retaining dedicated malformed-ID checks and making the uniqueness contract require every preset record ID to be valid.
+- [x] Updated `docs/data/characters/character-presentation-consumer-audit.json`.
+- [x] No canonical character, preset, or Partner Customization data changed.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] Preserved the evidence boundary around inferred character identity and missing cross-domain relationship data.
+- [ ] **Exact next:** inspect the remaining live deterministic validator/consumer layer for another concrete integrity gap; do not invent missing PQ reward data.
+
 ### 2026-09-27 continuation — Skill→PQ endpoint validation-order hardening
 - [x] Inspected the live `scripts/validate_skill_pq_crosslinks.py` after the prior duplicate guard.
 - [x] Found a concrete robustness gap: duplicate detection ran before endpoint type/range validation, so a malformed unhashable `source_parallel_quests` value could reach `set()` and raise an uncontrolled `TypeError`.
