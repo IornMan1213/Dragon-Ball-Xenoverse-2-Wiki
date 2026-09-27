@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-ice-cannon",
+  "skill_name": "Ice Cannon",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Ki Blast Ultimate from the Shenron wish for a new Ultimate Attack; five-hit freezing projectile, about 3-second freeze, source-reported ~15% damage. Exact startup/scaling remain unresolved.",
+  "acquisition_endpoint": "Shenron wish for a new Ultimate Attack",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
+  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+}
