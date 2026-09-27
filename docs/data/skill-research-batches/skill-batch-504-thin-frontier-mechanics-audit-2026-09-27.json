@@ -1,0 +1,18 @@
+{
+  "batch": 504,
+  "date": "2026-09-27",
+  "type": "thin_frontier_mechanics_audit",
+  "method": "Fresh live 474-record census after Batch 503, excluding records represented by a 2026-09-27 current-evidence audit; eight records were selected for bounded current-evidence refresh.",
+  "selected": [
+    "Afterimage",
+    "All Clear",
+    "Android Rush",
+    "Angry Explosion",
+    "Angry Hit",
+    "Apocalyptic Burst",
+    "Arm Crash",
+    "Assault Rain"
+  ],
+  "canonical_record_count": 474,
+  "evidence_policy": "Bounded current evidence only; source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
