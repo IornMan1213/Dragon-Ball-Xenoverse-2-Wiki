@@ -3474,3 +3474,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-082` "I'm stronger than ever now!" with max-Ki/max-Stamina triggers, +10% Stamina recovery, +20% Ki Auto-Recovery, Limit Burst, CaC usability, and DLC/PQ provenance.
 - [x] Used current catalogue evidence to resolve exact mechanics instead of leaving indexed placeholders.
 - [ ] Continue systematic enrichment and classification reconciliation of remaining thin Super Soul records.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 5
+- [x] Enriched `super-soul-058` "Someone, satisfy me..." with Mira attribution, Heavy Smash trigger, +20% all attacks for 5 seconds, Limit Burst, and PQ 97 provenance.
+- [x] Enriched `super-soul-068` "You're Just Pieces in a Game" with Champa attribution, 30-second trigger, +20% Strike Skills, Limit Burst, and PQ 106 provenance.
+- [x] Enriched `super-soul-069` "Watch Your Tongue" with Vados attribution, Just Guard trigger, +60 Ki/+20 Stamina restoration, Auto Just Guard Limit Burst, and PQ 106 provenance.
+- [x] Enriched `super-soul-070` "Eehee hee hee heee!" with Kid Buu/Purification mechanics, +20% normal attacks, -25% damage taken, +20% Ki Auto-Recovery, and Limit Burst.
+- [x] Preserved canonical-source priority and used independent PQ evidence for acquisition identity; no classification-conflict record was modified.
+- [ ] Continue the remaining thin-record parity pass.
