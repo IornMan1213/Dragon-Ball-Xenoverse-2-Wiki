@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "super_souls",
+  "records": [
+    {
+      "id": "super-soul-038",
+      "name": "My Ki is building... Overflowing...",
+      "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
+      "evidence": "Broly Lite Raid reward documentation and current Broly Super Soul catalogue",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134",
+        "https://dbxv2.fandom.com/wiki/Broly"
+      ]
+    },
+    {
+      "id": "super-soul-039",
+      "name": "I am going to bathe in your blood!",
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "evidence": "Broly Lite Raid reward documentation and current Broly Super Soul catalogue",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134",
+        "https://dbxv2.fandom.com/wiki/Broly"
+      ]
+    }
+  ],
+  "policy": "Only normalized Limit Burst effects explicitly supported by the cited evidence are promoted; no trigger timing or unrelated mechanics inferred.",
+  "status": "passed"
+}
