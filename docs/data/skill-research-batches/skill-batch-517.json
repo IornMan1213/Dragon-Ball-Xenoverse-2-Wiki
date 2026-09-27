@@ -1,0 +1,26 @@
+{
+  "batch": 517,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Explosive Wave",
+    "Eye Beam",
+    "Fake Blast",
+    "Feint Shot",
+    "Fierce Fist",
+    "Fighting Pose E",
+    "Fighting Pose K",
+    "Final Cannon",
+    "Final Charge",
+    "Final Explosion"
+  ],
+  "records_refreshed": 10,
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Conflicting reward semantics, exact frames, patch-independent scaling, probabilities, and hidden conditions are not inferred.",
+  "sources": [
+    "https://dbxv2.fandom.com/",
+    "https://dragonball.fandom.com/"
+  ]
+}
