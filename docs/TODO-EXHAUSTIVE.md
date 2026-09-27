@@ -4179,3 +4179,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added secondary evidence for `super-soul-033` identifying its Limit Burst as `Super Armor`.
 - [x] Reduced the active Limit Burst-effect gap from 3 to **2** records.
 - [ ] Research `super-soul-032` and `super-soul-034` for explicit Limit Burst/item-level evidence.
+
+
+### 2026-09-27 continuation — Post-corruption canonical recovery checkpoint + Super Soul 032/034 frontier
+- [x] Added `docs/data/canonical-database-recovery-checkpoint-2026-09-27.json` with durable baseline counts and source blob SHAs for the recovered canonical data layers.
+- [x] Recovery checkpoint records the live baseline of 474 Skills / 474 index records, 246 Skill→PQ edges / 170 represented PQs, and 840 canonical PQ reward relationships (236 Skill / 137 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming).
+- [x] Recovery checkpoint records 172 historical Super Souls / 167 active records and preserves the source-of-truth rule: canonical data outranks projections and indexes.
+- [x] Re-searched `super-soul-032` and `super-soul-034` for the remaining two active Limit Burst gaps. No direct item-level Limit Burst evidence sufficient for canonical promotion was found.
+- [x] Confirmed PQ 186 evidence establishes `super-soul-034` identity/acquisition, while its effect and Limit Burst remain unresolved; `super-soul-032` retains only secondary 20% all-abilities-below-50%-HP evidence and an unresolved Limit Burst.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue direct-evidence research for `super-soul-032` and `super-soul-034`; then continue the broader cross-domain/exhaustive enrichment frontier without speculative reconstruction.
