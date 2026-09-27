@@ -3473,3 +3473,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reclassified 138–142 as rejected legacy artifacts while preserving provenance/history.
 - [x] Recorded the later 140–142 ID/name mismatch from `c4c5a4e`.
 - [ ] Audit remaining Super Soul IDs for analogous legacy ID/name drift and orphaned records.
+
+
+### 2026-09-27 continuation — post-legacy audit: Super Souls 143–145
+- [x] Rechecked records 143–145 against current external catalogue/PQ evidence.
+- [x] Corroborated 144 with PQ 156 and current catalogue mechanics.
+- [x] Corroborated 145 with PQ 157 and current catalogue mechanics.
+- [ ] Continue independent provenance audit starting with 143, then remaining records.
