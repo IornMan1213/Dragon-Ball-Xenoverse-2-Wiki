@@ -9,10 +9,26 @@
   ],
   "canonical_edges": 125,
   "unique_targets": 123,
-  "endpoint_records": 118,
-  "endpoint_identity_matches": 15,
-  "endpoint_identity_gaps": 108,
+  "endpoint_records": 89,
+  "endpoint_identity_matches": 24,
+  "endpoint_identity_gaps": 99,
   "status": "passed_with_endpoint_enrichment_gaps",
   "semantics": "Canonical PQ→equipment relationships are authoritative. Endpoint layers are secondary identity/enrichment projections; an absent endpoint record is not a negative reward claim.",
-  "validator": "scripts/validate_pq_equipment_crosslinks.py"
+  "validator": "scripts/validate_pq_equipment_crosslinks.py",
+  "promotion_batch": {
+    "records_added": 9,
+    "clothing_equipment": 8,
+    "accessories": 1,
+    "identities": [
+      "Tuxedo",
+      "Wedding Dress",
+      "Gine (DB Super)'s Clothes",
+      "Bardock (DB Super)'s Clothes",
+      "Caulifla's Clothes",
+      "Kale's Clothes",
+      "Bulma (Kid)'s Clothes",
+      "Android 17 (DB Super) Ranger Outfit",
+      "Goku Wig (Ultra Instinct)"
+    ]
+  }
 }
