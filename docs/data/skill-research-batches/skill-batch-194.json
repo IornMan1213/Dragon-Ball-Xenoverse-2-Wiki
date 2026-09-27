@@ -1,0 +1,45 @@
+{
+  "batch_id":194,
+  "created":"2026-09-17",
+  "research_scope":"Sudden Death Beam — Ki Blast Super / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","selected_records":["Sudden Death Beam"],"duplicate_count":0,"identity_note":"No prior repository research commit for Sudden Death Beam was found."},
+    "classification_finding":"Xenoverse 2-specific documentation classifies Sudden Death Beam as a Ki Blast Super with a universal counter mechanic: the user teleports behind the opponent if struck by basic, Strike, or Ki Blast attacks during the activation window.",
+    "acquisition_finding":"Current Xenoverse 2 documentation lists TP Medal Shop, STP Medal Shop, and Double Crystal Raid Battle as acquisition routes.",
+    "dlc_finding":"Dragon Ball Wiki identifies it as a Super Pack 3 skill used by Super Saiyan Rosé Goku Black.",
+    "cost_finding":"The TP Medal Shop rotation documentation records a 170 TP Medal price; this is shop currency, not the skill's in-combat Ki cost. No reliable reviewed source established the in-combat Ki cost, so ki_cost remains null.",
+    "availability_finding":"Dragon Ball Wiki explicitly states that the Future Warrior can obtain and use Sudden Death Beam, supporting usable_by_cac true.",
+    "finish_policy":"No Parallel Quest reward or Ultimate Finish condition applies to the documented current shop/raid acquisition routes, so ultimate_finish_required is false."
+  },
+  "records":[{
+    "name":"Sudden Death Beam",
+    "class":"Super",
+    "subcategory":"Ki Blast",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Goku Black (Super Saiyan Rosé)",
+    "dlc_requirement":"Super Pack 3",
+    "ki_cost":null,
+    "stamina_cost":null,
+    "damage_type":"Ki Blast",
+    "unlock_method":"TP Medal Shop / STP Medal Shop / Double Crystal Raid Battle",
+    "source_quest_or_shop":"TP Medal Shop",
+    "ultimate_finish_required":false,
+    "ultimate_finish_evidence":"The documented acquisition routes are shops and Double Crystal Raid Battle rather than a Parallel Quest reward.",
+    "skill_description":"Use Instant Transmission-style preparation; if attacked during the activation window, teleport behind the opponent and fire a Ki Wave. If not attacked, teleport without attacking.",
+    "mechanics_notes":"The Xenoverse 2 reference describes the counter as working against basic, Strike, and Ki Blast attacks. The move consumes Ki even when the counter does not trigger and functions as an Instant Transmission-style repositioning tool. The reference therefore treats it as a Ki Blast Super with a universal counter property.",
+    "acquisition_notes":"The current skill reference lists TP Medal Shop, STP Medal Shop, and Double Crystal Raid Battle. A historical TP Medal Shop rotation records a 170-TP-Medal price; this is preserved separately from combat Ki cost.",
+    "pve_notes":"The skill is available to CaCs and can counter both melee and Ki pressure according to the documented mechanics.",
+    "pvp_notes":"Community reports corroborate the counter behavior and note that the activation can be baited; those reports are treated as community gameplay observations rather than canonical frame data.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Sudden_Death_Beam",
+      "https://dragonball.fandom.com/wiki/Sudden_Death_Beam",
+      "https://dbxv2.fandom.com/wiki/Counter_Skill",
+      "https://reddit.com/r/dbxv/comments/x1zmw3/xenoverse_2_offline_tp_medal_shop_rotation/",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75278369"
+    ]
+  }]
+}

@@ -1,0 +1,46 @@
+{
+  "batch_id":197,
+  "created":"2026-09-17",
+  "research_scope":"Absolute Zero — Ki Blast Evasive / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","selected_records":["Absolute Zero"],"duplicate_count":0,"history_search":"No prior repository research commit for Absolute Zero was found."},
+    "classification_finding":"Xenoverse 2-specific documentation classifies Absolute Zero as a Ki Blast Evasive and Counter Skill. The canonical identity therefore remains Evasive / Ki Blast.",
+    "acquisition_finding":"Absolute Zero is obtained from Parallel Quest 96 — The Shadow Dragons.",
+    "dlc_finding":"Dragon Ball Wiki identifies Eis Shenron as the original user, with Omega Shenron also associated with the technique.",
+    "cost_finding":"The Evasive Skill reference lists 300 Stamina.",
+    "finish_policy":"The reviewed evidence establishes PQ96 as the acquisition route but does not explicitly establish an Ultimate Finish requirement for Absolute Zero; therefore ultimate_finish_required remains null.",
+    "mechanics_finding":"The user lowers body temperature and enters a counter stance; an attacker during the active period is frozen."
+  },
+  "records":[{
+    "name":"Absolute Zero",
+    "class":"Evasive",
+    "subcategory":"Ki Blast",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Eis Shenron",
+    "dlc_requirement":"GT Pack 2",
+    "ki_cost":null,
+    "stamina_cost":300,
+    "damage_type":"Ki Blast",
+    "unlock_method":"Parallel Quest reward",
+    "source_quest_or_shop":"Parallel Quest 96 — The Shadow Dragons",
+    "ultimate_finish_required":null,
+    "ultimate_finish_evidence":null,
+    "skill_description":"Abruptly lower your body temperature and touch enemies to freeze them.",
+    "mechanics_notes":"The documented counter stance makes the user immobile while preparing the freezing effect. An opponent who attacks during the active window is frozen. Official-era patch notes also document changes to its hit-detection and freeze timing, so exact behavior should be treated as version-sensitive.",
+    "acquisition_notes":"PQ96 is the documented Future Warrior route. No unsupported drop probability or Ultimate Finish condition is recorded.",
+    "pve_notes":"The counter can punish an attacking opponent with a freeze effect, creating an opening for follow-up actions.",
+    "pvp_notes":"The move is a stance-based counter; historical patch notes show that hit detection and freeze duration have changed, so current frame claims should be versioned.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Absolute_Zero",
+      "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
+      "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+      "https://dragonball.fandom.com/wiki/Absolute_Zero",
+      "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421&feed=steam_community_announcements",
+      "https://www.youtube.com/watch?v=fO7Vx5wkJnA"
+    ]
+  }]
+}

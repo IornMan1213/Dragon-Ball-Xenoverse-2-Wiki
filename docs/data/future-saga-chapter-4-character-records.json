@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "official_indexed_records",
+  "source_index": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+  "dlc_requirement": "FUTURE SAGA Chapter 4",
+  "records": [
+    {
+      "id": "character-supreme-kai-of-time-ultra-supervillain",
+      "name": "Supreme Kai of Time (Ultra Supervillain)",
+      "playable": true,
+      "form_or_variant": "Ultra Supervillain",
+      "unlock": null,
+      "skills": [],
+      "awoken": null,
+      "partner_customization": null,
+      "verification_status": "indexed",
+      "sources": ["https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"]
+    },
+    {
+      "id": "character-goku-ultra-supervillain-quelled",
+      "name": "Goku (Ultra Supervillain Quelled)",
+      "playable": true,
+      "form_or_variant": "Ultra Supervillain Quelled",
+      "unlock": null,
+      "skills": [],
+      "awoken": null,
+      "partner_customization": null,
+      "verification_status": "indexed",
+      "sources": ["https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"]
+    }
+  ],
+  "reconciliation_note": "These two official Chapter 4 identities are maintained as an overlay until the source-category catalog is refreshed. They are not added to the older 155-item source baseline by inference."
+}

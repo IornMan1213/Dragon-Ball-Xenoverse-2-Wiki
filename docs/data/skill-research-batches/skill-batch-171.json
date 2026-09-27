@@ -1,0 +1,50 @@
+{
+  "batch_id": 171,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, mechanics, and taxonomy. Preserve unsupported stamina, probability, and finish fields as null.",
+  "research_scope": "Super Dragon Fist — Strike Super acquisition and mechanics research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific documentation and independent Xenoverse 2 acquisition reports.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Super Dragon Fist"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Super Dragon Fist was found. Dragon Fist is a separate Strike Ultimate and is not treated as a duplicate."
+    },
+    "classification_finding": "Current Xenoverse 2 documentation classifies Super Dragon Fist as a Strike Super.",
+    "acquisition_finding": "Current Xenoverse 2 documentation lists the Skill Shop as the Future Warrior acquisition route. Independent Xenoverse 2 reports likewise identify the regular Skill Shop after early story progression.",
+    "finish_policy": "ultimate_finish_required remains null because the documented Xenoverse 2 acquisition route is the Skill Shop rather than a Parallel Quest reward.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because reviewed sources do not establish a reliable canonical stamina value."
+  },
+  "records": [
+    {
+      "name": "Super Dragon Fist",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku / Goku (Super Saiyan God) / Goku (GT) customizable partner / Goku (Super Saiyan 4) / Gohan (Adult) customizable partner / Vegito / Gogeta (Super Saiyan 4) customizable partner / Goku Black customizable partner / Rosé Goku Black customizable partner / SSGSS Vegito customizable partner / Majuub",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A fast rushdown Strike Super that flies toward the opponent and, on contact, follows with a three-hit punching sequence.",
+      "mechanics_notes": "Current Xenoverse 2 documentation describes a short approach followed by three rapid punches. The move is fast and does not require a Parallel Quest reward route. Exact frame and damage values are not promoted to canonical numeric fields.",
+      "acquisition_notes": "The Xenoverse 2 route is the regular Skill Shop. Historical Xenoverse 1 PQ42 information is explicitly excluded from the canonical Xenoverse 2 acquisition route.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "Fast Strike rushdown tool with three-hit follow-up after contact; detailed matchup and frame behavior remains version-sensitive.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Fist",
+        "https://dragonball.fandom.com/wiki/Super_Dragon_Fist_(Rush)",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74463110",
+        "https://www.reddit.com/r/dbxv/comments/dckutv/can_i_get_super_dragon_fist_in_xv2/"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "batch_id":199,
+  "created":"2026-09-17",
+  "research_scope":"Time Skip/Back Breaker — Strike Super / Counter Skill.",
+  "verification_audit":{
+    "audited":"2026-09-17",
+    "duplicate_check":{"status":"passed","repository_history_search":"No prior research commit found for this skill.","duplicate_count":0},
+    "classification_finding":"Xenoverse 2 reference classifies the skill as Strike / Super and Counter Skill. Canonical identity is Super / Strike; Counter Skill remains a separate taxonomy.",
+    "acquisition_finding":"Training with Hit; Dragon Ball Wiki specifies Hit's Lesson 1 as the Future Warrior route.",
+    "cost_finding":"100 Ki.",
+    "availability_finding":"Dragon Ball Wiki identifies the Future Warrior as a learner; the skill is therefore usable_by_cac true.",
+    "dlc_finding":"Super Pack 1 is the associated DLC context.",
+    "finish_policy":"This is obtained through instructor training, not a PQ reward; ultimate_finish_required is false.",
+    "mechanics_finding":"The user enters a brief rear-facing defensive stance. If attacked or if the opponent is within the rear vicinity during the window, the user uppercuts them. The Xenoverse 2 reference reports approximately 20% damage."
+  },
+  "records":[{
+    "name":"Time Skip/Back Breaker",
+    "class":"Super",
+    "subcategory":"Strike",
+    "race_restriction":null,
+    "usable_by_cac":true,
+    "character_source":"Hit",
+    "dlc_requirement":"Super Pack 1",
+    "ki_cost":100,
+    "stamina_cost":null,
+    "damage_type":"Strike",
+    "unlock_method":"Training with Hit",
+    "source_quest_or_shop":"Hit Training — Lesson 1",
+    "ultimate_finish_required":false,
+    "ultimate_finish_evidence":"Documented acquisition is instructor training rather than a Parallel Quest reward.",
+    "skill_description":"Time skip and attack an opponent behind you.",
+    "mechanics_notes":"Briefly guards the user's rear. If the opponent attacks or is within the rear vicinity during the active window, an uppercut is triggered. The reference reports approximately 20% damage.",
+    "acquisition_notes":"Dragon Ball Wiki identifies Hit's Lesson 1 as the Future Warrior acquisition route.",
+    "pve_notes":"The move is a rear-facing counter and can punish attacks arriving from behind; exact AI behavior is not independently verified here.",
+    "pvp_notes":"Exact frame data and matchup-specific interactions are not recorded because they were not independently verified.",
+    "verification_status":"partially_verified",
+    "last_verified":"2026-09-17",
+    "sources":[
+      "https://dbxv2.fandom.com/wiki/Time_Skip/Back_Breaker",
+      "https://dragonball.fandom.com/wiki/Time-Skip/Back_Breaker",
+      "https://dbxenoverse.fandom.com/wiki/Time_Skip/Back_Breaker",
+      "https://dbxenoverse.fandom.com/wiki/Time_Skip/Flash_Skewer"
+    ]
+  }]
+}

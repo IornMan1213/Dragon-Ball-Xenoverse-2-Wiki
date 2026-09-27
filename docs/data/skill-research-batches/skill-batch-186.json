@@ -1,0 +1,49 @@
+{
+  "batch_id": 186,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill research: reconcile Xenoverse 2 identity, acquisition route, costs, mechanics, and taxonomy. Preserve unsupported fields as null.",
+  "research_scope": "Super Afterimage — Other Super / Counter Skills research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball documentation.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Super Afterimage"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Super Afterimage was found. Canonical identity is Super / Other; Counter Skills membership is retained as a cross-taxonomy characteristic."
+    },
+    "classification_finding": "Current Xenoverse 2 documentation classifies Super Afterimage as an Other Super and also lists it in Counter Skills.",
+    "acquisition_finding": "Super Afterimage is obtainable by the Future Warrior through the Conton City Skill Shop. It can also be added to many custom partner skillsets after the relevant customization update.",
+    "finish_policy": "ultimate_finish_required remains null because the documented Future Warrior acquisition route is the Skill Shop rather than a Parallel Quest reward.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed canonical sources do not establish a reliable stamina value."
+  },
+  "records": [
+    {
+      "name": "Super Afterimage",
+      "class": "Super",
+      "subcategory": "Other",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku, Bardock, and numerous customizable partners",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Other",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Creates multiple afterimages that allow the user to evade attacks or move behind a nearby opponent.",
+      "mechanics_notes": "The Xenoverse 2 reference describes six afterimages. The user can move during the afterimage sequence and can slip behind a nearby opponent. It is categorized as an Other Super while also being listed under Counter Skills.",
+      "acquisition_notes": "The Future Warrior can purchase Super Afterimage from the Conton City Skill Shop. Partner customization can subsequently make it available to additional character presets.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "Its defensive/vanish behavior is documented, including use as a counter-like movement option. Exact frame data and matchup-specific behavior are not promoted to canonical numeric data.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Afterimage",
+        "https://dragonball.fandom.com/wiki/Super_Afterimage",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74517726"
+      ]
+    }
+  ]
+}

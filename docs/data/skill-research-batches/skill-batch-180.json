@@ -1,0 +1,48 @@
+{
+  "batch_id": 180,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Other Super research: independently reconcile Xenoverse 2 identity, acquisition, stamina behavior, and counter taxonomy. Preserve unresolved numeric/version-sensitive values as null.",
+  "research_scope": "Phantom Fist — Other Super / defensive movement-counter taxonomy / PQ97 acquisition.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball/Xenoverse 2 references.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Phantom Fist"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Phantom Fist was found. The canonical identity is Super / Other."
+    },
+    "classification_finding": "Xenoverse 2-specific documentation classifies Phantom Fist as an Other Super. It is also treated as a universal counter within the repository's broader Counter Skills taxonomy because it can evade incoming attacks of different types.",
+    "acquisition_finding": "Phantom Fist is obtained by the Future Warrior from Parallel Quest 97 — Insidious Plot. Independent documentation confirms the PQ97 route.",
+    "finish_policy": "ultimate_finish_required remains null because the reviewed sources establish PQ97 acquisition but do not establish an Ultimate Finish requirement for this skill.",
+    "cost_policy": "The documented Ki cost is 100. Stamina recovery is a core mechanic, but an exact canonical stamina amount is not promoted because sources and versions differ."
+  },
+  "records": [{
+    "name": "Phantom Fist",
+    "class": "Super",
+    "subcategory": "Other",
+    "race_restriction": null,
+    "usable_by_cac": true,
+    "character_source": "Mira / Hit / Yamcha (Supervillain) / Masked Saiyan / Frost / Fu customizable partner / Future Warrior",
+    "dlc_requirement": null,
+    "ki_cost": 100,
+    "stamina_cost": null,
+    "damage_type": null,
+    "unlock_method": "Parallel Quest reward",
+    "source_quest_or_shop": "Parallel Quest 97 — Insidious Plot",
+    "ultimate_finish_required": null,
+    "skill_description": "A defensive movement Super that creates an afterimage-like stance; when an attack connects, the user vanishes and reappears while recovering stamina.",
+    "mechanics_notes": "Phantom Fist functions similarly to Afterimage but consumes Ki in Xenoverse 2 and restores stamina when the evasion triggers. Historical reports describe version-specific activation and repeated-use behavior, so exact frame windows and stamina values are not encoded as canonical numbers.",
+    "acquisition_notes": "The documented Xenoverse 2 Future Warrior route is Parallel Quest 97 — Insidious Plot. It is also used by Mira, Hit, Yamcha (Supervillain), Masked Saiyan and Frost, with later customizable-partner availability.",
+    "pve_notes": "PQ97 acquisition; exact drop probability and Ultimate Finish dependency remain unresolved.",
+    "pvp_notes": "Defensive evasion/counter-style behavior can avoid incoming attacks and restore stamina. Historical player reports document balance changes, so exact timing and repeated activation behavior should be treated as version-sensitive.",
+    "verification_status": "partially_verified",
+    "last_verified": "2026-09-17",
+    "sources": [
+      "https://dbxv2.fandom.com/wiki/Phantom_Fist",
+      "https://dragonball.fandom.com/wiki/Phantom_Fist",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74562500",
+      "https://steamcommunity.com/app/454650/discussions/0/276237094329959233/"
+    ]
+  }]
+}

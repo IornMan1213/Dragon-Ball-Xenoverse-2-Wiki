@@ -1,0 +1,10 @@
+{
+  "schema_version":"1.0",
+  "game":"Dragon Ball Xenoverse 2",
+  "status":"open_reconciliation_queue",
+  "items":[
+    {"domain":"Ki Blast Supers","issue":"Current source category reports 183 items and includes Burst Stinger, while the repository's captured 183-record batch does not visibly contain Burst Stinger.","action":"Perform complete source-vs-repository set diff before changing the declared count.","priority":"critical","status":"open"},
+    {"domain":"Frieza Race Skills","issue":"Current source research indicates 2 records while earlier repository notes expected 4.","action":"Recheck the current category and reconcile historical/source drift.","priority":"high","status":"open"},
+    {"domain":"Lovely Showtime","issue":"Published source pages disagree on Ki cost.","action":"Preserve both claims and resolve using higher-priority or independent evidence.","priority":"medium","status":"open"}
+  ]
+}

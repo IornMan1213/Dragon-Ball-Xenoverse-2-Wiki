@@ -1,0 +1,48 @@
+{
+  "batch_id": 177,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently verify identity, acquisition route, cost, CaC availability, and documented mechanics. Preserve unresolved stamina, probability, and Ultimate Finish fields as null unless explicitly supported.",
+  "research_scope": "Final Cannon — Strike Super / Kid Trunks acquisition and mechanics research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Dragon Ball and community acquisition references.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Final Cannon"],
+      "duplicate_count": 0,
+      "identity_note": "No existing Final Cannon research batch was found in the repository search. Canonical identity is Super / Strike."
+    },
+    "classification_finding": "Current Xenoverse 2 documentation identifies Final Cannon as a Strike Super Attack.",
+    "acquisition_finding": "Final Cannon is obtained as a random reward from Parallel Quest 52 — Super Saiyan Bargain Sale.",
+    "finish_policy": "ultimate_finish_required remains null because the reviewed evidence establishes PQ52 and RNG acquisition but does not establish an Ultimate Finish requirement.",
+    "cost_policy": "The documented Ki cost is 100; stamina cost remains null because the reviewed canonical sources do not establish a reliable value."
+  },
+  "records": [{
+    "name": "Final Cannon",
+    "class": "Super",
+    "subcategory": "Strike",
+    "race_restriction": null,
+    "usable_by_cac": true,
+    "character_source": "Trunks (Kid) / Trunks (Future) / Gotenks customizable partner / Pan customizable partner / Tapion customizable partner / Kefla (Super Saiyan) customizable partner / Jiren customizable partner",
+    "dlc_requirement": null,
+    "ki_cost": 100,
+    "stamina_cost": null,
+    "damage_type": "Strike",
+    "unlock_method": "Parallel Quest reward",
+    "source_quest_or_shop": "Parallel Quest 52 — Super Saiyan Bargain Sale",
+    "ultimate_finish_required": null,
+    "skill_description": "An instant rush Strike Super that charges toward the opponent and finishes with a kick that launches them upward.",
+    "mechanics_notes": "The Xenoverse 2 reference describes a short-range six-hit rush ending in a launching kick. The opponent remains airborne after the launch, allowing follow-up attacks. Exact frame data and damage percentages are not promoted to canonical fields.",
+    "acquisition_notes": "The Xenoverse 2-specific reference identifies PQ52 as the unlock route. Independent Dragon Ball documentation likewise identifies PQ52 as the Future Warrior's random-reward route. Community reports describe the drop as RNG; no unsupported probability is recorded.",
+    "pve_notes": "PQ52 farming is required for the documented Future Warrior route; exact drop probability and Ultimate Finish dependency remain unresolved.",
+    "pvp_notes": "Fast short-range Strike Super with a rush sequence and launching finisher; detailed frame and matchup behavior remains version-sensitive.",
+    "verification_status": "partially_verified",
+    "last_verified": "2026-09-17",
+    "sources": [
+      "https://dbxv2.fandom.com/wiki/Final_Cannon",
+      "https://dragonball.fandom.com/wiki/Final_Cannon",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74818686",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75310605"
+    ]
+  }]
+}

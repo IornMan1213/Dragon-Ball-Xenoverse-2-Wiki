@@ -1,0 +1,16 @@
+{
+  "batch_id":252,
+  "created":"2026-09-17",
+  "type":"catalog_expansion",
+  "scope":"Ki Blast Super catalog — mentor, shop, PQ, and tournament records",
+  "records":[
+    {"name":"Death Slicer","class":"Super","subcategory":"Ki Blast","ki_cost":100,"stamina_cost":0,"usable_by_cac":true,"character_source":"Frieza (Full Power)","dlc_requirement":null,"unlock_method":"Training with Frieza (1st Form)","ultimate_finish_required":false,"effect":"Throws a tracking purple Ki disc; a follow-up input redirects it toward the opponent.","sources":["https://dbxv2.fandom.com/wiki/Death_Slicer"]},
+    {"name":"Ki Blast Cannon","class":"Super","subcategory":"Ki Blast","ki_cost":100,"stamina_cost":0,"usable_by_cac":true,"character_source":"Goku (Super Saiyan God) / Gohan (Adult)","dlc_requirement":null,"unlock_method":"Skill Shop","ultimate_finish_required":false,"effect":"Unblockable shockwave-like Ki blast that can re-stand or stagger opponents and can be repeated without additional Ki.","sources":["https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon"]},
+    {"name":"Dodon Ray","class":"Super","subcategory":"Ki Blast","ki_cost":0,"stamina_cost":0,"usable_by_cac":true,"character_source":"Tien","dlc_requirement":null,"unlock_method":"Training with Tien","ultimate_finish_required":false,"effect":"Very fast, low-damage fingertip beam that launches and permits immediate movement/continuation.","sources":["https://dbxv2.fandom.com/wiki/Dodon_Ray","https://dbxv2.fandom.com/wiki/Mentors"]},
+    {"name":"Death Slash","class":"Super","subcategory":"Ki Blast","ki_cost":100,"stamina_cost":0,"usable_by_cac":true,"character_source":"Frieza (1st Form)","dlc_requirement":null,"unlock_method":"Parallel Quest 23 - The Explosion of Namek","ultimate_finish_required":false,"effect":"Fast short-range blade-shaped Ki wave that lingers briefly and launches the opponent.","sources":["https://dbxv2.fandom.com/wiki/Death_Slash"]},
+    {"name":"Burst Attack","class":"Super","subcategory":"Ki Blast","ki_cost":100,"stamina_cost":0,"usable_by_cac":true,"character_source":"Nuova Shenron","dlc_requirement":"GT Pack 2","unlock_method":"Shenron wish - I want a new Super Attack!","ultimate_finish_required":false,"effect":"Tracking flaming Ki ball that creates a lingering fire pillar and launches the target.","sources":["https://dbxv2.fandom.com/wiki/Burst_Attack"]},
+    {"name":"Kairos Cannon","class":"Super","subcategory":"Ki Blast","ki_cost":100,"stamina_cost":0,"usable_by_cac":false,"character_source":"Supreme Kai of Time","dlc_requirement":null,"unlock_method":"Conton City Tournament Match 2 - Thinning the Herd","ultimate_finish_required":null,"effect":"Sets up Ki projectiles that automatically fire; additional input can release accumulated projectiles together.","sources":["https://dbxv2.fandom.com/wiki/Kairos_Cannon"]}
+  ],
+  "reconciliation_note":"All six names were absent from the repository's local docs/data/skills.json before this batch. Exact costs and acquisition routes are recorded only where current individual pages provide them. Kairos Cannon remains character-only because its current page identifies Supreme Kai of Time as its user and the reviewed source does not establish CaC access.",
+  "last_verified":"2026-09-17"
+}

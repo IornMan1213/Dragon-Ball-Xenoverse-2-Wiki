@@ -1,0 +1,14 @@
+{
+  "batch_id":231,
+  "created":"2026-09-17",
+  "type":"skill_research",
+  "scope":"Ki Blast Evasives continued",
+  "records":[
+    {"name":"Maiden Burst","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":false,"unlock_method":"TP Medal Shop","ultimate_finish_required":false,"effect":"Creates a heart-shaped energy barrier/explosion around the user.","sources":["https://dbxv2.fandom.com/wiki/Maiden_Burst"]},
+    {"name":"Fake Blast","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":true,"unlock_method":"Skill Shop","ultimate_finish_required":false,"effect":"Teleports behind the opponent and releases a damaging burst that can inflict paralysis.","sources":["https://dbxv2.fandom.com/wiki/Fake_Blast"]},
+    {"name":"Energy Dome","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":true,"unlock_method":"Skill Shop","ultimate_finish_required":false,"effect":"Creates a dome-shaped Ki barrier around the user that can nullify incoming Ki attacks.","sources":["https://dbxv2.fandom.com/wiki/Energy_Dome"]},
+    {"name":"Super Explosive Wave","class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":true,"unlock_method":"Skill Shop","ultimate_finish_required":false,"effect":"Generates a large defensive explosion that launches nearby opponents.","sources":["https://dbxv2.fandom.com/wiki/Super_Explosive_Wave"]}
+  ],
+  "notes":"These are documented as Ki Blast Evasives. Shop/instructor acquisition is treated as not requiring an Ultimate Finish. Maiden Burst is retained as character-only because the current documentation does not identify Future Warrior access. External web search was attempted but the primary Fandom domain blocked automated retrieval; repository research proceeded from the established source URLs and existing project methodology rather than inventing unsupported fields.",
+  "last_verified":"2026-09-17"
+}

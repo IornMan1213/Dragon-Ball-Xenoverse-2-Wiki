@@ -1,0 +1,56 @@
+{
+  "batch_id": 189,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Ki Blast Super research: reconcile canonical class, counter taxonomy, acquisition, DLC provenance, mechanics, and Ultimate Finish evidence. Unsupported fields remain null.",
+  "research_scope": "Counter Impact — Ki Blast Super / counter taxonomy research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository coverage against Xenoverse 2-specific skill documentation, the all-186 Parallel Quest guide, DLC documentation, and community corroboration.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Counter Impact"],
+      "duplicate_count": 0,
+      "identity_note": "No prior repository research batch for Counter Impact was found. The canonical identity is Super / Ki Blast. Counter behavior is represented through the Counter Skills taxonomy and is not promoted to a second Counter / Counter identity."
+    },
+    "classification_finding": "Xenoverse 2-specific documentation classifies Counter Impact as a Ki Blast Super and Counter Skill. Its counter stance is triggered against incoming melee attacks, after which the user warps behind the opponent; holding the input extends the sequence into a Ki Wave.",
+    "acquisition_finding": "Counter Impact is listed as a Basic Reward for Parallel Quest 153 — Seeing Double.",
+    "dlc_finding": "PQ153 is part of the Conton City Vote Pack. The DLC reference lists Counter Impact among the pack's ten new skills and PQ153 among its four Parallel Quests.",
+    "finish_policy": "ultimate_finish_required is false because the all-186 Parallel Quest guide explicitly lists Counter Impact in PQ153 Basic Reward. No reviewed source establishes a separate Ultimate Finish requirement.",
+    "cost_policy": "The documented Ki cost is 100. No reliable reviewed source establishes a stamina cost or drop probability, so those fields remain null.",
+    "availability_policy": "The reviewed sources establish GT Vegeta as the notable/user character and identify the move as a DLC/PQ skill, but the selected evidence set does not explicitly document CaC usability as a standalone fact. usable_by_cac therefore remains null rather than being inferred."
+  },
+  "records": [
+    {
+      "name": "Counter Impact",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": null,
+      "character_source": "Vegeta (GT)",
+      "dlc_requirement": "Conton City Vote Pack",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 153 — Seeing Double",
+      "ultimate_finish_required": false,
+      "ultimate_finish_evidence": "The all-186 Parallel Quest guide lists Counter Impact under PQ153 Basic Reward.",
+      "skill_description": "Enter a defensive stance to deflect a melee attack, then warp behind the opponent. Holding the input extends the follow-up into a Ki Wave.",
+      "mechanics_notes": "The Xenoverse 2 skill reference describes a brief stance followed by a warp behind the opponent. The extended input fires a Ki Wave after the warp. The reference records 100 Ki and approximately 15% damage for the Ki Wave property. The Counter Skill taxonomy classifies Counter Impact as a Ki counter, while the in-game description specifically describes deflecting melee attacks; this distinction is preserved rather than generalized into a universal-counter claim.",
+      "acquisition_notes": "PQ153, Seeing Double, is the documented acquisition route. The quest guide lists Counter Impact among Basic Rewards. Community reports corroborate that players farm PQ153 for the skill, but do not establish a reliable drop probability.",
+      "pve_notes": "PQ153 is the documented farming route. Basic-reward evidence means no separate Ultimate Finish requirement is recorded.",
+      "pvp_notes": "Community discussion describes the move as a defensive teleport/vanish-like counter with an optional Ki Blast follow-up. Exact frame advantage, matchup behavior, and version-sensitive timing are not promoted to canonical fields.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Counter_Impact",
+        "https://dbxv2.fandom.com/wiki/Counter_Skill",
+        "https://dbxv2.fandom.com/wiki/DLC",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://videogaming.fandom.com/wiki/Seeing_Double_(Dragon_Ball:_Xenoverse_2)",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80797481",
+        "https://www.reddit.com/r/dbxv/comments/winc4h"
+      ]
+    }
+  ]
+}

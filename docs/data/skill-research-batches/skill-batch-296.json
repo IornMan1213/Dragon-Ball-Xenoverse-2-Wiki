@@ -1,0 +1,89 @@
+{
+  "batch_id": 296,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Missing Other Super skills from current Xenoverse 2 taxonomy",
+  "records": [
+    {
+      "name": "Giga Boost",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Dodoria",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Utility Super Skill used by Dodoria.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Holstein Shock",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Captain Ginyu",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Captain Ginyu utility Super that damages its user.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Emperor's Sign",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Frieza",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Frieza fighting-pose Super whose effects vary by race.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Time Control",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Guldo",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Telekinetic utility Super that controls/paralyzes an opponent.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Position Shift",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Towa",
+      "dlc_requirement": "Extra Pack 1",
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Utility Super that shifts the user's position.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    }
+  ],
+  "notes": "The current Xenoverse 2 Super Attack page places all five in Other. Future Warrior technique documentation identifies their users. Exact numeric Ki costs and unlock methods were not established by the reviewed sources, so those fields remain null rather than inferred."
+}

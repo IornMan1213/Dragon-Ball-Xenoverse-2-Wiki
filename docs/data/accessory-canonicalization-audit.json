@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "accessory_canonicalization_audit",
+  "purpose": "Cross-layer identity audit for accessories. One canonical accessory identity may have multiple PQ, shop, raid, gift, wish, DLC, or event acquisition routes.",
+  "rules": [
+    "Do not create a second canonical item solely because the same accessory has another acquisition route.",
+    "Do not merge similarly named items when their inventory identity, variant, color, transformation state, or slot is not established.",
+    "Character clothing is not an accessory unless the inventory explicitly identifies an accessory variant.",
+    "DLC provenance and acquisition route are separate properties.",
+    "Normal PQ reward, Ultimate Finish reward, bonus-slot reward, shop rotation, raid reward, gift pool, wish, and event reward remain separate route types.",
+    "A source conflict is retained until independent evidence reconciles the identity or route.",
+    "Unresolved identities remain indexed rather than being silently discarded."
+  ],
+  "known_cross_layer_matches": [
+    {
+      "canonical_name": "Piccolo's Turban",
+      "layers": ["canonical_accessory", "accessory_pq", "accessory_shop"],
+      "pq": [3],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Pan's Bandana",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [93],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Android 19's Hat",
+      "layers": ["canonical_accessory", "accessory_pq", "accessory_shop"],
+      "pq": [28],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Great Saiyaman Helmet",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [51],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Goku's Wig",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [25],
+      "source_conflict": "Historical sources disagree on the PQ number; preserve the conflict until reconciled.",
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Goku Wig (Super Saiyan)",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [63],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "SSGSS Goku Wig",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [76],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "SSGSS Vegeta Wig",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [100],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "SS4 Wig & Tail (Goku)",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [110],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Resistance Helmet",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [111],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Android 17 (DB Super) Wig",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [152],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "King Vegeta (DB Super) Wig",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [154],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Gamma 2's Helmet",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [155],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Gamma 1's Helmet",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [156],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Gohan (Beast) Wig",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [162],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Videl (DB Super) Wig",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [168],
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "SS4 Goku (DAIMA) Wig & Tail",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [179],
+      "status": "indexed"
+    },
+    {
+      "canonical_name": "SS3 Vegeta (DAIMA) Wig",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [180],
+      "status": "indexed"
+    },
+    {
+      "canonical_name": "Glorio Wig",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [181],
+      "status": "indexed"
+    },
+    {
+      "canonical_name": "Panzy Wig",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [181],
+      "status": "indexed"
+    },
+    {
+      "canonical_name": "Golden Frieza Head",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [182],
+      "status": "indexed"
+    },
+    {
+      "canonical_name": "Broly Wig (Black Hair, Normal)",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [183],
+      "status": "indexed"
+    },
+    {
+      "canonical_name": "Dragon Ball Balloon",
+      "layers": ["canonical_accessory", "accessory_pq"],
+      "pq": [184],
+      "reward_condition": "Ultimate Finish bonus slot",
+      "reward_chance_percent": 50,
+      "status": "partially_verified"
+    },
+    {
+      "canonical_name": "Goku (Ultra Supervillain Quelled) Wig",
+      "layers": ["canonical_accessory", "accessory_pq", "dlc_accessory"],
+      "pq": [185],
+      "status": "indexed"
+    }
+  ],
+  "intentional_non_merges": [
+    {
+      "items": ["Android 17 (DB Super)'s Ranger Accessory", "Android 17 (DB Super) Wig"],
+      "reason": "Current evidence does not establish these as the same inventory item. Keep separate until inventory-level evidence proves otherwise."
+    },
+    {
+      "items": ["SS4 Wig & Tail (Goku)", "SS4 Goku (DAIMA) Wig & Tail"],
+      "reason": "Different character/version provenance and PQ routes; similar naming does not establish identity."
+    },
+    {
+      "items": ["Goku's Wig", "Goku Wig (Super Saiyan)", "SSGSS Goku Wig"],
+      "reason": "These are distinct transformation-state accessories and must not be collapsed into one record."
+    },
+    {
+      "items": ["Gamma 1's Helmet", "Gamma 2's Helmet"],
+      "reason": "Distinct accessories despite related DLC provenance."
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Equipment",
+    "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html",
+    "https://enjoi7.sakura.ne.jp/db_newproject2/ac_dlc.html",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-184.md"
+  ]
+}

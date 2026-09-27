@@ -1,0 +1,41 @@
+{
+  "batch_id": 302,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Remaining Demigra/Supervillain cast-only Super skills with dedicated taxonomy evidence",
+  "records": [
+    {
+      "name": "Energy Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Demon God Demigra (Final Form)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Creates turrets that fire a volley of small Ki Blasts followed by three large Ki Blasts.",
+      "sources": [
+        "https://dbxenoverse.fandom.com/wiki/Energy_Cannon_%28Skill%29",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "Darkness Mixer",
+      "class": "Super",
+      "subcategory": "Other",
+      "ki_cost": null,
+      "usable_by_cac": false,
+      "character_source": "Yamcha (Supervillain) and other Supervillain/Raid characters; Demon God Demigra",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Charge Super that rapidly restores Ki and also restores Stamina while emitting a damaging dark aura; normally unavailable to CaCs.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Darkness_Mixer",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    }
+  ],
+  "notes": "Both records were absent from docs/data/skills.json and had not been represented by an earlier research batch. Energy Cannon has explicit Super/Ki Blast taxonomy and cast-only Demigra ownership. Darkness Mixer has explicit Other Super taxonomy and cast-only status. Numeric Ki costs remain null where the dedicated sources do not provide them."
+}

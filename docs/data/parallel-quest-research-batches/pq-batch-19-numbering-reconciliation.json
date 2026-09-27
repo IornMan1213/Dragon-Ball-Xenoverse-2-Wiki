@@ -1,0 +1,13 @@
+{
+  "batch_id":19,
+  "created":"2026-09-17",
+  "research_scope":"Reconcile numbered PQ audit coverage with current live-quest count and preserve historical numbering conflicts.",
+  "status":"completed",
+  "current_model":{"numbered_range":"PQ1-PQ186","current_standalone_quest_count":183,"known_cut_or_missing_number":"PQ36","additional_numbering_gap":"PQ141-PQ150"},
+  "findings":[
+    {"number":36,"status":"historical_conflict","current_maintained_research":"PQ36 is cut and the live board skips 35 to 37.","historical_source":"Steam 186-PQ transcription contains a PQ36 entry.","canonical_policy":"Do not silently delete the historical record; distinguish historical evidence from currently available quest count."},
+    {"number_range":"141-150","status":"numbering_gap","canonical_policy":"Do not invent records for unpopulated quest numbers."}
+  ],
+  "source_basis":["https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/game-modes/parallel-quests.md","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+  "validation_policy":"Cross-link validation must treat numbering gaps and cut quests as explicit states rather than missing-data errors."
+}

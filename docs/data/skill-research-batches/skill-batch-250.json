@@ -1,0 +1,52 @@
+{
+  "batch_id":250,
+  "created":"2026-09-17",
+  "type":"catalog_expansion",
+  "scope":"Ki Blast Super catalog — older DLC and raid/boss-exclusive records",
+  "records":[
+    {
+      "name":"Blades of Judgement","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,
+      "character_source":"Fused Zamasu","dlc_requirement":"Super Pack 4","unlock_method":"Parallel Quest 112 - Advent of the Mighty God Zamasu! (skill drop)",
+      "ultimate_finish_required":false,"effect":"Fires a barrage of Ki blades through a rear halo; holding the input fires additional blades.",
+      "sources":["https://dbxv2.fandom.com/wiki/Blades_of_Judgement"]
+    },
+    {
+      "name":"Holy Wrath","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,
+      "character_source":"Fused Zamasu","dlc_requirement":"Super Pack 4","unlock_method":"Parallel Quest 111 - The Zero Mortal Plan (Ultimate Finish/second Rosé Goku Black encounter)",
+      "ultimate_finish_required":true,"effect":"Creates a chargeable Ki sphere that can be steered while charging; charge increases its damage.",
+      "sources":["https://dbxv2.fandom.com/wiki/Holy_Wrath","https://steamcommunity.com/app/454650/discussions/0/1368380934265608845/"]
+    },
+    {
+      "name":"Lightning of Absolution","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,
+      "character_source":"Fused Zamasu","dlc_requirement":"Super Pack 4","unlock_method":"Parallel Quest 111 - The Zero Mortal Plan (first Rosé Goku Black encounter)",
+      "ultimate_finish_required":false,"effect":"Fires tracking lightning that strikes the opponent twice.",
+      "sources":["https://dbxv2.fandom.com/wiki/Lightning_of_Absolution","https://dragonball.fandom.com/wiki/Absolute_Lightning","https://steamcommunity.com/app/454650/discussions/0/1368380934265608845/"]
+    },
+    {
+      "name":"Light of Justice","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":false,
+      "character_source":"Fused Zamasu (Half-Corrupted)","dlc_requirement":"Future Saga: Chapter 1","unlock_method":null,
+      "ultimate_finish_required":null,"effect":"Charges briefly and fires a large mouth blast; the preset has Super Armor during the animation.",
+      "sources":["https://dbxv2.fandom.com/wiki/Light_of_Justice"]
+    },
+    {
+      "name":"Seasoning Arrow","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":false,
+      "character_source":"Demon God Demigra","dlc_requirement":null,"unlock_method":"Demon God Demigra Skillset / Crystal Raid access",
+      "ultimate_finish_required":null,"effect":"Creates purple Ki beams that rain around Demigra and paralyze struck opponents.",
+      "sources":["https://dbxv2.fandom.com/wiki/Seasoning_Arrow","https://dragonball.fandom.com/wiki/Seasoning_Arrow"]
+    },
+    {
+      "name":"Time Shackles","class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":false,
+      "character_source":"Demon God Demigra","dlc_requirement":null,"unlock_method":null,
+      "ultimate_finish_required":null,"effect":"Traps the opponent in a Ki sphere, dealing repeated hits before ejecting them.",
+      "sources":["https://dbxv2.fandom.com/wiki/Time_Shackles"]
+    },
+    {
+      "name":"Marbling Drop","class":"Super","subcategory":"Ki Blast","ki_cost":null,"usable_by_cac":false,
+      "character_source":"Supervillain / raid-boss variants","dlc_requirement":null,"unlock_method":"Random drop from Expert Mission 20 / Crystal Raid-related access",
+      "ultimate_finish_required":null,"effect":"Creates an explosive wave and a spherical energy field that launches multiple bouncing energy spheres.",
+      "sources":["https://dragonball.fandom.com/wiki/Marbling_Drop","https://dbxv2.fandom.com/wiki/Super_Attack"]
+    }
+  ],
+  "reconciliation_note":"These records were absent from the repository's local docs/data/skills.json. CaC status follows the current unavailable-for-CaC classification for the raid/boss-exclusive implementations; Blades of Judgement, Holy Wrath, and Lightning of Absolution are player-obtainable PQ rewards. UF flags are only asserted where the reviewed evidence explicitly identifies the reward as an Ultimate Finish or a normal skill drop.",
+  "last_verified":"2026-09-17"
+}

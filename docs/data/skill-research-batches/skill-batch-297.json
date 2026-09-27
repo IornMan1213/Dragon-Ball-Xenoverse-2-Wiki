@@ -1,0 +1,71 @@
+{
+  "batch_id": 297,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Missing Ki Blast Ultimate catalog entries",
+  "records": [
+    {
+      "name": "Blaster Stream",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Kale (Super Saiyan 2); Kefla (Super Saiyan) Customize Partner",
+      "dlc_requirement": "Legendary Pack 2",
+      "unlock_method": "Parallel Quest 148: Finding Out About Fusion",
+      "ultimate_finish_required": null,
+      "effect": "Chargeable long-range beam followed by a second Ki Wave on hit.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Stream",
+        "https://dbxv2.fandom.com/wiki/DLC"
+      ]
+    },
+    {
+      "name": "Brave Heat",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Bardock; Bardock Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Bardock",
+      "ultimate_finish_required": null,
+      "effect": "Ki-laced punch followed by a beam fired from the same hand.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Brave_Heat",
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
+    },
+    {
+      "name": "Chain Destructo-Disc Barrage",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Krillin; Krillin Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 46: 16 of the Official History",
+      "ultimate_finish_required": null,
+      "effect": "Five unblockable Destructo-Discs fired sequentially.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Chain_Destructo-Disc_Barrage"
+      ]
+    },
+    {
+      "name": "Circle Flash",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Dyspo",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 154: Dabura The Loyal? Servant",
+      "ultimate_finish_required": null,
+      "effect": "Ring-shaped Ki Blast that captures the opponent before exploding.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Circle_Flash"
+      ]
+    }
+  ],
+  "notes": "All four names were absent from docs/data/skills.json at research time. Dedicated pages establish Ki Blast Ultimate taxonomy and 300 Ki cost. The documented PQ/training unlocks support player/CaC usability for the first three; Circle Flash is treated as player-obtainable through its PQ unlock and is not marked unavailable on its dedicated page."
+}

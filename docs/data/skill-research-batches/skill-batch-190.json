@@ -1,0 +1,27 @@
+{
+  "batch_id": 190,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Ki Blast Super research: reconcile canonical identity, Counter Skills taxonomy, acquisition, DLC provenance, mechanics, and Ultimate Finish evidence. Unsupported fields remain null.",
+  "research_scope": "Punisher Shield — Ki Blast Super / Counter Skill.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared current repository coverage with Xenoverse 2-specific skill documentation, Dragon Ball reference material, community mechanics discussion, and the established Counter Skills taxonomy.",
+    "duplicate_check": {"status":"passed","selected_records":["Punisher Shield"],"duplicate_count":0,"identity_note":"No prior repository research batch for Punisher Shield was found. The canonical identity is Super / Ki Blast; counter behavior is represented through the Counter Skills taxonomy."},
+    "classification_finding": "Xenoverse 2-specific documentation classifies Punisher Shield as a Ki Blast Super and Universal Counter. It creates a barrier that can reflect incoming Ki Blasts and triggers a follow-up kick when the opponent or their Ki Blast touches the barrier.",
+    "acquisition_finding": "Punisher Shield is obtainable from Parallel Quest 129 — Frieza Force on the Hunt.",
+    "dlc_finding": "The skill was introduced with Extra Pack 4 and is associated with SSGSS Gogeta.",
+    "finish_policy": "The reviewed evidence establishes PQ129 as the acquisition quest but does not establish an explicit Ultimate Finish requirement for the skill. Therefore ultimate_finish_required remains null rather than being inferred.",
+    "cost_policy": "The documented Ki cost is 100. No reliable reviewed source establishes a stamina cost or drop probability, so those fields remain null.",
+    "availability_policy": "Dragon Ball Wiki identifies Future Warrior as a user of the technique in Xenoverse 2. This supports usable_by_cac true."
+  },
+  "records": [{
+    "name":"Punisher Shield","class":"Super","subcategory":"Ki Blast","race_restriction":null,"usable_by_cac":true,"character_source":"SSGSS Gogeta","dlc_requirement":"Extra Pack 4","ki_cost":100,"stamina_cost":null,"damage_type":"Ki Blast","unlock_method":"Parallel Quest reward","source_quest_or_shop":"Parallel Quest 129 — Frieza Force on the Hunt","ultimate_finish_required":null,"ultimate_finish_evidence":null,
+    "skill_description":"Generate a barrier that stops an opponent's Ki Blast and launches one back at them; when the opponent or their Ki Blast touches the barrier, a follow-up kick is performed.",
+    "mechanics_notes":"The barrier persists for about two seconds according to the Xenoverse 2 skill reference. A Ki Blast contacting the barrier is reflected and followed by a teleporting kick. The same kick can trigger when an opponent touches the barrier at close range. The reviewed reference reports approximately 7% total damage for the sequence. Community discussion corroborates use against both rushing opponents and incoming Ki attacks, but exact frame behavior is not promoted to canonical data.",
+    "acquisition_notes":"PQ129, Frieza Force on the Hunt, is the documented Future Warrior acquisition route. The exact random reward probability is unresolved.",
+    "pve_notes":"PQ129 is the documented farming route. No Ultimate Finish requirement is recorded because the reviewed evidence does not explicitly establish one.",
+    "pvp_notes":"The barrier can function as a defensive counter against both incoming Ki Blasts and opponents entering its space. Community reports describe utility during rushes and combos; exact matchup/frame data is version-sensitive.",
+    "verification_status":"partially_verified","last_verified":"2026-09-17",
+    "sources":["https://dbxv2.fandom.com/wiki/Punisher_Shield","https://dragonball.fandom.com/wiki/Punisher_Shield","https://dbxv2.fandom.com/wiki/Category:Counter_Skills","https://steamcommunity.com/app/454650/discussions/0/1741105805749702890/","https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608443"]
+  }]
+}

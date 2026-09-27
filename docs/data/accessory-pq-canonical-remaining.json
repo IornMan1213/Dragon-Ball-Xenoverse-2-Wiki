@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "record_type": "accessory_pq_canonical_remaining",
+  "purpose": "Explicit backlog for PQ accessory records that cannot yet be safely merged into the canonical identity layer without inventory-level evidence.",
+  "status_policy": {
+    "unmatched": "PQ record exists, but no canonical identity is assigned yet.",
+    "identity_candidate": "A likely canonical identity is named, but the exact inventory relationship still needs independent confirmation.",
+    "component_unresolved": "The source may describe a set/component relationship rather than an independently named accessory inventory item."
+  },
+  "records": [
+    {"pq_record_id":"pqacc-002","name":"Four-Star Dragon Ball Hat","pq":5,"status":"unmatched","reason":"No corresponding canonical identity currently exists in the 88-record layer; requires cross-check against wish/shop/event records."},
+    {"pq_record_id":"pqacc-003","name":"Chiaotzu's Hat (With Collar)","pq":9,"status":"unmatched","reason":"Shop bridge contains Chiaotzu's Hat as a separate candidate; exact With Collar inventory identity must be reconciled before merging."},
+    {"pq_record_id":"pqacc-006","name":"Dore's Scouter","pq":27,"status":"unmatched","reason":"No canonical Dore Scouter identity currently assigned; requires distinction from generic scouter variants."},
+    {"pq_record_id":"pqacc-007","name":"Tapion's Sword","pq":22,"status":"identity_candidate","candidate":"accr-006","reason":"Canonical identity exists, but PQ route should be attached only after reconciling the historical PQ22 report with later shop/event records."},
+    {"pq_record_id":"pqacc-008","name":"Yamcha's Sword","pq":29,"status":"unmatched","reason":"Historical sources conflict on PQ29 versus PQ36; no canonical merge is made until reward-table evidence resolves the conflict."},
+    {"pq_record_id":"pqacc-009","name":"Great Saiyaman Bandana 1","pq":51,"status":"unmatched","reason":"No canonical identity currently assigned; requires distinction from Bandana 2 and helmet variants."},
+    {"pq_record_id":"pqacc-010","name":"Great Saiyaman Bandana 2","pq":53,"status":"unmatched","reason":"No canonical identity currently assigned; requires distinction from Bandana 1 and helmet variants."},
+    {"pq_record_id":"pqacc-011","name":"Goku Wig (Super Saiyan)","pq":63,"status":"identity_candidate","candidate":"accr-015","reason":"Canonical identity exists; historical PQ18/PQ63 conflict remains unresolved, so the route is not silently promoted."},
+    {"pq_record_id":"pqacc-012","name":"Jaco's State-of-the-Art Radio","pq":72,"status":"unmatched","reason":"No canonical identity currently assigned; requires cross-check against shop and DLC accessory lists."},
+    {"pq_record_id":"pqacc-013","name":"Tagoma's Scouter","pq":73,"status":"unmatched","reason":"No canonical identity currently assigned; requires distinction from generic/new-model scouters."},
+    {"pq_record_id":"pqacc-014","name":"SSGSS Goku Wig","pq":76,"status":"unmatched","reason":"No canonical identity currently assigned; requires distinction from Goku's other transformation wigs."},
+    {"pq_record_id":"pqacc-016","name":"Yamcha Baseball Hat","pq":97,"status":"unmatched","reason":"No canonical identity currently assigned; event/raid references require reconciliation."},
+    {"pq_record_id":"pqacc-017","name":"SSGSS Vegeta Wig","pq":100,"status":"unmatched","reason":"No canonical identity currently assigned; requires cross-check against DLC/event routes."},
+    {"pq_record_id":"pqacc-020","name":"Great Saiyaman Helmet","pq":51,"status":"unmatched","reason":"Likely distinct inventory item, but exact PQ/reward relationship requires confirmation against accessory catalog terminology."},
+    {"pq_record_id":"pqacc-023","name":"Android 14's Hat","pq":104,"status":"unmatched","reason":"No canonical identity currently assigned; requires cross-check against shop and Android accessory families."},
+    {"pq_record_id":"pqacc-024","name":"Android 15's Sunglasses","pq":null,"status":"unmatched","reason":"Current PQ layer records no PQ; this belongs in the broader acquisition reconciliation rather than being assigned to a PQ by inference."},
+    {"pq_record_id":"pqacc-025","name":"Bardock (DB Super)'s Scouter","pq":146,"status":"unmatched","reason":"No canonical identity currently assigned; must remain separate from Bardock character clothing and generic scouter variants."},
+    {"pq_record_id":"pqacc-026","name":"Gine (DB Super)'s Accessory","pq":144,"status":"component_unresolved","reason":"Current PQ evidence clearly establishes Gine's clothing/set rewards, but does not establish a separately named accessory inventory item. Do not manufacture one from the clothing set."},
+    {"pq_record_id":"pqacc-027","name":"Kale's Accessory","pq":148,"status":"component_unresolved","reason":"Current PQ evidence clearly establishes Kale's clothing and wig; the generic accessory label is insufficient to create a separate canonical identity."},
+    {"pq_record_id":"pqacc-028","name":"Caulifla's Accessory","pq":147,"status":"component_unresolved","reason":"Current PQ evidence clearly establishes Caulifla's clothing and wig; the generic accessory label is insufficient to create a separate canonical identity."},
+    {"pq_record_id":"pqacc-029","name":"Android 17 (DB Super)'s Ranger Accessory","pq":152,"status":"component_unresolved","reason":"Current sources establish Android 17's Ranger Outfit and a separate Android 17 Wig. The generic Ranger Accessory label cannot safely be promoted without exact inventory evidence."}
+  ],
+  "current_external_evidence": [
+    "Steam's all-PQ guide explicitly lists PQ144 Gine's Clothes/Gine Set, PQ146 Bardock (DB Super)'s Clothes, PQ147 Caulifla's Clothes/Caulifla Wig, PQ148 Kale's Clothes/Kale Wig, and PQ149 Bulma (Kid) Clothes/Wig.",
+    "The current equipment catalog separately lists the corresponding clothing routes, supporting the rule that a generic accessory/set label must not automatically become a new accessory identity.",
+    "Historical source disagreements are retained rather than resolved by majority assumption."
+  ],
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Equipment",
+    "https://dbxv2.fandom.com/wiki/DLC"
+  ]
+}

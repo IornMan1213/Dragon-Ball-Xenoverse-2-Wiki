@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0",
+  "relationships":[
+    {"dlc":"future-saga","links_to":["characters","extra_missions","parallel_quests","skills","costumes","super_souls","illustrations","ultra_time_patrol_battles","time_gallery"]},
+    {"dlc":"dragon-ball-daima-pack","links_to":["characters","parallel_quests","skills","super_souls","costumes","accessories","raid_battles","lobby_items"]},
+    {"dlc":"hero-of-justice-pack-2","links_to":["characters","parallel_quests","skills","costumes","stage"]}
+  ],
+  "purpose":"Prevent DLC records from becoming isolated pages. Each pack must resolve to every included content domain."
+}

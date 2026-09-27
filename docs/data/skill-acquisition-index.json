@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "scope": "Current Expert Mission skill acquisition index",
+  "status": "partially_verified",
+  "canonical_skill_database": "docs/data/skills.json",
+  "source_layers": [
+    "docs/data/skill-expert-mission-acquisition-early.json",
+    "docs/data/skill-canonical-promotion-manifest.json"
+  ],
+  "purpose": "Provide one stable reverse index from canonical skill identity to documented Expert Mission acquisition evidence without asserting guaranteed drops or numerical rates.",
+  "coverage": {
+    "current_expert_mission_catalog": "EM01-20",
+    "tutorial_skill_rewards": "none currently indexed",
+    "non_tutorial_skill_records": 18,
+    "fully_verified_records": 0,
+    "partially_verified_records": 18,
+    "unresolved_exact_drop_rates": 18
+  },
+  "records": [
+    {"skill":"Murder Grenade","expert_mission":3,"status":"partially_verified"},
+    {"skill":"Super Destructo-Disc","expert_mission":4,"status":"partially_verified"},
+    {"skill":"Death Wave","expert_mission":5,"status":"partially_verified"},
+    {"skill":"Supernova","expert_mission":6,"status":"partially_verified"},
+    {"skill":"Death Meteor","expert_mission":7,"status":"partially_verified"},
+    {"skill":"Dead End Bullet","expert_mission":8,"status":"partially_verified"},
+    {"skill":"Assault Rain","expert_mission":9,"status":"partially_verified"},
+    {"skill":"Hellzone Grenade","expert_mission":10,"status":"partially_verified"},
+    {"skill":"Super Electric Strike","expert_mission":11,"status":"partially_verified"},
+    {"skill":"Angry Explosion","expert_mission":12,"status":"partially_verified"},
+    {"skill":"Dead End Rain","expert_mission":13,"status":"partially_verified"},
+    {"skill":"Shocking Death Ball","expert_mission":14,"status":"partially_verified"},
+    {"skill":"Blue Hurricane","expert_mission":15,"status":"partially_verified"},
+    {"skill":"Super Spirit Bomb","expert_mission":16,"status":"partially_verified"},
+    {"skill":"Spirit Sword","expert_mission":17,"status":"partially_verified"},
+    {"skill":"Focus Flash","expert_mission":18,"status":"partially_verified"},
+    {"skill":"Tail Slicer","expert_mission":19,"status":"partially_verified"},
+    {"skill":"Data Input","expert_mission":20,"status":"partially_verified"}
+  ],
+  "nonclaims": [
+    "The index does not assert that an indexed skill is guaranteed on every clear.",
+    "The index does not contain numerical drop rates.",
+    "The index does not imply that a mission is the only possible acquisition route.",
+    "Raid-only or Crystal-Raid-only rewards are not silently merged into ordinary Expert Mission reward records.",
+    "Historical mission numbering is not substituted for the repository's current EM01-20 numbering."
+  ],
+  "next_research": [
+    "Verify canonical skill identity presence and category for all 18 records against skills.json.",
+    "Reconcile first-clear versus repeat acquisition where evidence exists.",
+    "Separate ordinary mission skill drops from raid-linked skills.",
+    "Expand acquisition indexing beyond Expert Missions into Parallel Quests, mentors, shops, raids, tournaments, and other systems."
+  ]
+}

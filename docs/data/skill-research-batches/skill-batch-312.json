@@ -1,0 +1,159 @@
+{
+  "batch_id": 312,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Remaining Ki Blast Ultimate taxonomy entries with explicit current-page metadata",
+  "records": [
+    {
+      "name": "Break Cannon",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": true,
+      "character_source": "Nappa",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Nappa",
+      "ultimate_finish_required": null,
+      "effect": "Fires charged Ki from the mouth; power increases with charge.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Crusher Volcano",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Jeice",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Fires a barrage of Crusher Balls simultaneously.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Dead End Rain",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Android 18 Customize Partner; Android 17 (DB Super) Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 13 - A History of Mixed Battles!",
+      "ultimate_finish_required": null,
+      "effect": "Rains Ki Blasts over a wide area.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Perfect Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Kid Buu (Supervillain); Janemba Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "ultimate_finish_required": null,
+      "effect": "Extremely powerful long-range Ki Blast.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Double Death Slicer",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Frieza (Full Power)",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 24 - Super Saiyan Legend",
+      "ultimate_finish_required": null,
+      "effect": "Throws two Death Slicers; additional input makes them chase the opponent.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Scatter Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Krillin",
+      "dlc_requirement": null,
+      "unlock_method": "Training with Krillin",
+      "ultimate_finish_required": null,
+      "effect": "Fires a scattering Ki Blast.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Chain Destructo-Disc Barrage",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Krillin",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 46 - 16 of the Official History",
+      "ultimate_finish_required": null,
+      "effect": "Launches a barrage of Destructo-Discs; cannot be guarded.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Requiem of Destruction",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "usable_by_cac": true,
+      "character_source": "Vados; Whis Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 106 - A Destructive Showdown",
+      "ultimate_finish_required": null,
+      "effect": "Traps an opponent in a Ki Blast and detonates it.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Power Wall",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 500,
+      "usable_by_cac": true,
+      "character_source": "Jiren (Full Power); Jiren Customize Partner",
+      "dlc_requirement": "Legend Patrol / Hero of Justice content",
+      "unlock_method": "Parallel Quest 150 - Battle of the Mind",
+      "ultimate_finish_required": null,
+      "effect": "Creates a slowly advancing wall of flame.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "S.S. Deadly Bomber",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 400,
+      "usable_by_cac": true,
+      "character_source": "Android 13; Super Baby 2 Customize Partner",
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 115 - Extreme Battle with Android 13!",
+      "ultimate_finish_required": null,
+      "effect": "Tracking Ki Blast capable of covering a large area.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    }
+  ],
+  "notes": "All ten identities were absent from docs/data/skills.json at audit time. The current Ultimate Attack taxonomy explicitly supplies class, Ki Blast subtype, cost and acquisition for these entries. Where the source did not expose a reliable DLC field, it is left null; no Ultimate Finish requirement is inferred."
+}

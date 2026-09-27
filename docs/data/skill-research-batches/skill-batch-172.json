@@ -1,0 +1,50 @@
+{
+  "batch_id": 172,
+  "created": "2026-09-17",
+  "verification_policy": "Single-skill Strike Super research: independently reconcile Xenoverse 2 identity, acquisition route, mechanics, and race restrictions. Preserve unsupported stamina, probability, and finish fields as null.",
+  "research_scope": "Shining Slash — Strike Super acquisition and mechanics research.",
+  "verification_audit": {
+    "audited": "2026-09-17",
+    "method": "Compared repository research coverage with current Xenoverse 2-specific skill documentation and independent Xenoverse 2 acquisition reports.",
+    "duplicate_check": {
+      "status": "passed",
+      "selected_records": ["Shining Slash"],
+      "duplicate_count": 0,
+      "identity_note": "No existing repository research batch for Shining Slash was found. Canonical identity is Super / Strike."
+    },
+    "classification_finding": "Current Xenoverse 2 documentation classifies Shining Slash as a Strike Super and a Human/Saiyan skill.",
+    "acquisition_finding": "Current Xenoverse 2-specific documentation lists Parallel Quest 38 — Power Teams as the acquisition route.",
+    "finish_policy": "ultimate_finish_required remains null because the reviewed sources establish the PQ38 route but do not provide sufficiently explicit evidence that the skill itself requires the Ultimate Finish.",
+    "cost_policy": "Ki cost is documented as 100; stamina cost remains null because no reliable canonical stamina value was established."
+  },
+  "records": [
+    {
+      "name": "Shining Slash",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Trunks (Future) / Trunks (GT) / Tapion customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 38 — Power Teams",
+      "ultimate_finish_required": null,
+      "skill_description": "A sword-based Strike Super that slashes the opponent; holding the input charges the attack and allows the user to move directly toward the targeted opponent.",
+      "mechanics_notes": "The Xenoverse 2 skill reference identifies a single-hit sword slash with an extended-range charge behavior. Holding the input causes the user to teleport/gap-close to the locked-on target before the slash.",
+      "acquisition_notes": "PQ38 is the canonical Xenoverse 2 acquisition route. The skill is restricted to Human and Saiyan CaCs when equipped by the Future Warrior.",
+      "pve_notes": "PQ38 acquisition; exact RNG behavior is unresolved and no unsupported drop probability is recorded.",
+      "pvp_notes": "Long-range charged gap-closing Strike Super. Detailed frame and matchup behavior is version-sensitive and is not encoded as unsupported numeric data.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Shining_Slash",
+        "https://dragonball.fandom.com/wiki/High_Strike",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74489237",
+        "https://steamcommunity.com/app/454650/discussions/0/1620600279664473958/"
+      ]
+    }
+  ]
+}

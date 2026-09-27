@@ -1,0 +1,89 @@
+{
+  "batch_id": 311,
+  "created": "2026-09-18",
+  "type": "catalog_research",
+  "scope": "Ki Blast Ultimate taxonomy expansion",
+  "records": [
+    {
+      "name": "Blue Hurricane",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "Gogeta (Super Saiyan)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Rapidly spinning aerial Ki Blast attack.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
+      ]
+    },
+    {
+      "name": "Assault Rain",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "Majin Buu (Gohan Absorbed)",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Wide-area barrage of falling Ki blasts.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
+      ]
+    },
+    {
+      "name": "Spirit Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "Yamcha",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Controllable spirit-energy sphere ultimate.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
+      ]
+    },
+    {
+      "name": "Death Meteor",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "Janemba",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Launches a large destructive Ki projectile.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
+      ]
+    },
+    {
+      "name": "Minus Energy Power Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "usable_by_cac": null,
+      "character_source": "Omega Shenron",
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": "Large negative-energy sphere ultimate.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/"
+      ]
+    }
+  ],
+  "notes": "Only class/subcategory and user identity were promoted where the retrieved taxonomy supports them. Numeric Ki costs, CaC availability, DLC and acquisition are left null rather than inferred. This deliberately favors a smaller verified identity layer over filling uncertain metadata."
+}
