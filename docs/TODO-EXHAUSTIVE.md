@@ -3731,3 +3731,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries: unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted to canonical facts.
 - [ ] Next priority: fresh Batch 504 census from the live 474-record corpus, then reconcile PQ→Skill and Skill→PQ projections after the enrichment frontier.
 - [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target; runtime/CI remains non-blocking.
+
+
+### 2026-09-27 continuation — Batch 500 finalized
+- [x] Completed and finalized Batch 500 current-evidence frontier for **Gigantic Meteor, Gigantic Omega, Brave Sword Attack, Super Vegeta, Blaster Ball, Perfect Kamehameha, Namek Finger, and Warp Kamehameha**.
+- [x] Added the missing Warp Kamehameha audit after detecting the initial seven-of-eight artifact write; no incomplete batch was left as the final state.
+- [x] Synchronized all eight records into both current Skills layers without changing canonical identities.
+- [x] Final Git-blob validation: **474 records / 474 unique IDs** in `skills.json` and **474 records / 474 unique IDs** in `skills-index.json`.
+- [x] Batch 500 manifest finalized with 8 synchronized records, zero canonical identity changes, and zero unsupported claims promoted.
+- [ ] Next priority: fresh **Batch 501** census from the live 474-record corpus, then continue evidence/mechanics enrichment and reconcile PQ→Skill / Skill→PQ projections.
