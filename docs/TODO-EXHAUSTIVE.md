@@ -3296,3 +3296,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical reward/acquisition relationships and disputed PQ 151–154 provenance were left unchanged.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: item-level reconciliation of PQ 155 / `super-soul-142`; otherwise proceed through the next evidence-complete thin Super Soul frontier and propagate confirmed changes across indexes.
+
+
+### 2026-09-27 continuation — Super Soul mechanics-status consistency audit
+- [x] Corrected contradictory `version_notes` on 21 canonical Super Soul records whose mechanics were populated but still described as unpopulated.
+- [x] Added/registered `docs/data/super-soul-mechanics-status-consistency-audit-2026-09-27.json`.
+- [x] Left unresolved Super Souls 137–142 unchanged.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: item-level evidence recovery for PQ 155 / `super-soul-142`; otherwise continue the next unresolved canonical Super Soul/reward relationship.
