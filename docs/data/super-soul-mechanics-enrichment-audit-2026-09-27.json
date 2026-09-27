@@ -56,14 +56,22 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
+      "super-soul-001",
+      "super-soul-005",
+      "super-soul-007",
+      "super-soul-013",
+      "super-soul-015",
+      "super-soul-016"
+    ],
+    "status": "catalogue_mechanics_reconciled",
+    "note": "Early catalogue entries reconciled against current Super Soul catalogue; no unsupported mechanics inferred.",
+    "thin_records_remaining": [
       "super-soul-032",
       "super-soul-033",
       "super-soul-034",
-      "super-soul-035"
-    ],
-    "status": "secondary_evidence_reconciled",
-    "canonical_promotion": false,
-    "note": "Recent community reports and PQ reward documentation were added as provenance/context only. No unresolved community mechanic was promoted to canonical verified truth."
+      "super-soul-035",
+      "super-soul-076"
+    ]
   },
   "last_batch": {
     "date": "2026-09-27",
