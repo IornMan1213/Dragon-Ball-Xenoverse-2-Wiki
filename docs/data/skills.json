@@ -5531,13 +5531,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Vegeta mentor training",
       "mechanics_notes": "Ki Blast barrage Ultimate with a mentor/skill acquisition endpoint corroborated by current repository evidence. The attack releases 19 projectiles; current reference material reports approximately 25% total damage when the barrage connects. Exact projectile timing, scaling, and frame data remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Vegeta mentor training — lesson-1.",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Ki Blast Super from Vegeta training. It rapidly fires a 19-projectile Ki Blast barrage and can be used while jumping; the mentor Lesson 1 endpoint remains the acquisition source.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 100-Ki Ki Blast Super from Vegeta training. It rapidly fires a 19-projectile Ki Blast barrage and can be used while jumping; the mentor Lesson 1 endpoint remains the acquisition source.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "id": "skill-finish-breaker",
       "source_mentor": [
         "mentor-vegeta"
@@ -5769,7 +5769,7 @@
       "mechanics_notes": "200-Stamina Ki Blast Evasive from PQ59. The user creates a blue barrier that cancels incoming Ki waves; holding the input keeps the barrier active while rapidly draining Ki. Contact with an opponent deals a documented 1% damage and knocks them away.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Force_Shield",
@@ -5778,7 +5778,7 @@
       "source_quest": 59,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance/mechanics refresh: PQ59 reward documentation confirms the acquisition relationship. Current skill evidence identifies a 200-Stamina Ki Blast Evasive that creates a barrier capable of canceling Ki waves; Basic Reward status remains documented with no UF-only gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.",
+      "notes": "2026-09-22 provenance/mechanics refresh: PQ59 reward documentation confirms the acquisition relationship. Current skill evidence identifies a 200-Stamina Ki Blast Evasive that creates a barrier capable of canceling Ki waves; Basic Reward status remains documented with no UF-only gate.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 451 mechanics enrichment: current skill-specific evidence expanded the documented behavior; unsupported exact frames, patch-independent scaling, probabilities, and hidden conditions remain unresolved.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "id": "skill-force-shield",
       "source_parallel_quests": [
         59
@@ -6936,12 +6936,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Zarbon mentor training — Lesson 1",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Zarbon mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "id": "skill-gorgeous-shot",
       "source_mentor": [
         "mentor-zarbon"
@@ -7056,12 +7056,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and class verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current Xenoverse 2 skill reference explicitly lists 100 Ki used. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "id": "skill-hawk-charge",
       "source_mentor": [
         "mentor-gohan-videl"
@@ -12006,12 +12006,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Whis mentor training",
       "mechanics_notes": "100-Ki Strike Super learned through Whis mentor training. Current Xenoverse 2 evidence confirms the mentor acquisition endpoint and 100-Ki classification; detailed frame, damage, hit-confirmation, and timing behavior remains version-sensitive and is not inferred beyond maintained evidence.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Whis mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current repository skill research evidence was rechecked for classification and acquisition; unresolved fields remain unchanged where evidence does not support a deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-22 provenance refresh: current repository skill research evidence was rechecked for classification and acquisition; unresolved fields remain unchanged where evidence does not support a deterministic correction. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "id": "skill-strike-of-revelation",
       "source_mentor": [
         "mentor-whis"
@@ -12176,7 +12176,7 @@
       "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ55. The user fires an energy ring and can add inputs for up to eight rings; current skill-specific evidence reports 5% damage for one ring and 20% when all eight are fired. The move is Gotenks-associated and is also documented as a Future Warrior PQ reward. Exact inter-ring timing, hit confirmation, and scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Donut_Volley",
@@ -12185,7 +12185,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 55,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Ki Blast Super, PQ55 acquisition, and up to eight additional-input energy rings. One ring is documented at approximately 5% damage and all eight at approximately 20%; exact frame data remains unresolved.\n2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ55. The user fires an energy ring and can add inputs for up to eight rings; current skill-specific evidence reports 5% damage for one ring and 20% when all eight are fired. The move is Gotenks-associated and is also documented as a Future Warrior PQ reward. Exact inter-ring timing, hit confirmation, and scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Ki Blast Super, PQ55 acquisition, and up to eight additional-input energy rings. One ring is documented at approximately 5% damage and all eight at approximately 20%; exact frame data remains unresolved.\n2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ55. The user fires an energy ring and can add inputs for up to eight rings; current skill-specific evidence reports 5% damage for one ring and 20% when all eight are fired. The move is Gotenks-associated and is also documented as a Future Warrior PQ reward. Exact inter-ring timing, hit confirmation, and scaling remain unresolved.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "id": "skill-super-donut-volley",
       "source_parallel_quests": [
         55
@@ -12626,7 +12626,7 @@
       "ultimate_finish_required": false,
       "unlock_method": "Super Saiyan 2 is the second stage of the Super Saiyan Awoken Skill; complete the Capsule Corporation Saiyan Awakening/Vegeta route to obtain the Super Saiyan skill, then activate its second stage at 400 Ki.",
       "ki_cost": 400,
-      "notes": "Second stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation reward. It follows the Capsule Corporation Saiyan Awakening provenance and activates at 400 Ki. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-27 Batch 500 current-evidence frontier: current Xenoverse 2-specific evidence was rechecked against the canonical research record; bounded mechanics and provenance were preserved, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
+      "notes": "Second stage of the single Super Saiyan Awoken Skill, not a separate equipable transformation reward. It follows the Capsule Corporation Saiyan Awakening provenance and activates at 400 Ki. 2026-09-23 research refresh: current exact-name references and maintained repository evidence were rechecked; documented classification, acquisition endpoint, and evidence boundaries are preserved without adding unsupported conditions or numerical claims.\n2026-09-27 Batch 500 current-evidence frontier: current Xenoverse 2-specific evidence was rechecked against the canonical research record; bounded mechanics and provenance were preserved, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "last_verified": "2026-09-27",
       "mechanics_notes": "400 Ki is the second stage of the Super Saiyan Awoken Skill. Current Xenoverse 2-specific transformation documentation reports +15% Strike/+7.5% Ki Blast damage, +10% Strike/+5% Ki Blast defense, and reduced Ki restoration at this stage. Super Saiyan transformations also apply their documented vanish/teleport behavior to relevant combos and charged Ki Blasts; exact frame timing is not inferred.",
       "research_status": "enriched",
@@ -13647,7 +13647,7 @@
       "mechanics_notes": "300-Ki Strike Ultimate from PQ10, Saiyan Survivors. The user jumps back, charges, then rushes into the opponent for an 8-hit launching sequence; current skill-specific documentation reports 30% total damage and a roughly 3-second post-attack stun to the user.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage",
@@ -13656,7 +13656,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 10,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance strengthening: A maintained GameFAQs walkthrough independently lists PQ10 — Saiyan Survivors and Unrelenting Barrage in its reward table. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.\nBatch 449 promotion: current documentation confirms the 300-Ki Strike Ultimate classification, PQ10 endpoint, jump-back/charge/rush sequence, 8-hit launch, and source-reported 30% damage plus post-use stun. Exact frame timing and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-22 provenance strengthening: A maintained GameFAQs walkthrough independently lists PQ10 — Saiyan Survivors and Unrelenting Barrage in its reward table. No new drop probability, Ultimate Finish gate, or acquisition restriction is inferred from this source. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.\nBatch 449 promotion: current documentation confirms the 300-Ki Strike Ultimate classification, PQ10 endpoint, jump-back/charge/rush sequence, 8-hit launch, and source-reported 30% damage plus post-use stun. Exact frame timing and patch-independent scaling remain unresolved.\n2026-09-27 Batch 500 current-evidence refresh: current repository/dedicated skill evidence rechecked; canonical identity and existing bounded mechanics/provenance retained without unsupported exact frames, hidden interactions, universal scaling, or reward probabilities.",
       "id": "skill-unrelenting-barrage",
       "source_parallel_quests": [
         10
