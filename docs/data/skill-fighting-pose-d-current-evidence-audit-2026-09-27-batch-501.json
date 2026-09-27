@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-fighting-pose-d",
+  "skill_name": "Fighting Pose D",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "0-Ki Power Up Super from PQ15. The pose temporarily increases Boost Dash speed for 20 seconds. A legacy +20% figure is retained only as source context; current dedicated evidence confirms effect and duration without establishing the current multiplier or exact frames.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and maintained corroborating research.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
