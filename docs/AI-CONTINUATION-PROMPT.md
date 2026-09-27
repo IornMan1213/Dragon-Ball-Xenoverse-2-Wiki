@@ -1,3 +1,10 @@
+### 2026-09-27 continuation — Skill→PQ pre-projection duplicate hardening
+- [x] Inspected the live `scripts/validate_skill_pq_crosslinks.py`.
+- [x] Added an explicit pre-projection duplicate `source_parallel_quests` guard so duplicate endpoints are rejected before reverse-index generation.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json`; the canonical **474 skills / 246 edges / 170 represented PQs** projection remains unchanged.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the remaining live validator for another concrete integrity gap; preserve all missing-PQ/reward evidence boundaries.
+
 ### 2026-09-27 continuation — PQ cross-domain forward-path integrity hardening
 - [x] Inspected the live `scripts/validate_pq_cross_domain_index.py` after the Partner skill validator.
 - [x] Found a path-integrity gap: an absolute forward-index path could bypass the repository root when resolved with `ROOT / forward`, and parent-directory traversal was not rejected.
