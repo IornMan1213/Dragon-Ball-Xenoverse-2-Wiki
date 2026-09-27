@@ -3942,3 +3942,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries: no unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities were invented. Fighting Pose A's acquisition-page wording discrepancy is explicitly preserved rather than silently rewritten.
 - [ ] Next priority: perform a **new Batch 497 census** from the live 474-record corpus and continue evidence enrichment without reusing Batch 496's candidate list.
 - [ ] After Batch 497, continue reconciling PQ→skill and skill→PQ navigation projections and expand beyond the current 474-record canonical seed toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 497 current-evidence frontier
+- [x] Performed a fresh census from the live 474-record canonical corpus against the complete checked-in skill current-evidence audit tree; **446 audit artifacts** were present before this batch, leaving **95 canonical records without a registered current-evidence audit artifact**.
+- [x] Selected the first eight remaining unaudited records without reusing the Batch 496 candidate list: **Become Giant, Blaster Cannon, Burning Shot, Buu Buu Ball, Candy Beam, Chaos Wall, Core Breaker, Crazy Finger Shot**.
+- [x] Added eight dated Batch 497 current-evidence audit artifacts and the batch manifest.
+- [x] Refreshed the eight canonical records' current-evidence notes and synchronized their `last_verified` values to 2026-09-27; canonical identities and acquisition semantics were preserved.
+- [x] Synchronized the corresponding eight index records to the same verification date; the canonical/index identity contract remains **474/474**.
+- [x] Preserved evidence boundaries and historical snapshots; no unsupported frame data, hidden interactions, patch-independent universal scaling, or numerical reward probabilities were invented.
+- [ ] Next priority: fresh Batch 498 census from the post-Batch-497 corpus; do not reuse Batch 497 candidates. Continue reducing the remaining unaudited current-evidence frontier, then reconcile PQ→skill and skill→PQ projections.
