@@ -3363,3 +3363,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Coverage: trigger **94/168**, effect **102/168**, magnitude **96/168**, duration **81/168**, stacking **45/168**, Limit Burst **92/168**, Limit Burst effect **72/168**, CaC **102/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the next five evidence-backed Super Soul mechanics records.
+
+
+### 2026-09-27 continuation — Post-recovery Super Soul acquisition contract
+- [x] Reconfirmed the database restoration baseline on `main` from restoration commit `9e15797821d41304c7c62d889a79cf0acaf3fa05`; the critical canonical skill/reward layers are materially present, with the existing recovery audit recording **474 skills**, **246 skill→PQ edges**, **170 represented PQ IDs**, and **840 PQ relationship rows** across the six canonical relationship classes.
+- [x] Added `scripts/validate_super_soul_pq_acquisition_recovery.py` to make the recovered Super Soul acquisition projection deterministic: **137** canonical PQ→Super Soul relationships, **134** unique targets, and **134** acquisition-index targets, all resolving to canonical Super Soul identities.
+- [x] Added `docs/data/super-soul-pq-acquisition-recovery-contract-audit-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the canonical source-of-truth boundary: this validator does not invent rewards, mechanics, probabilities, shop rotations, or alternate acquisition routes.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** continue recovery-forward cross-domain enrichment from the restored database, prioritizing a live deterministic validator/consumer or an evidence-complete data frontier; do not rebuild already-recovered layers from partial historical branches.
