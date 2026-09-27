@@ -1,0 +1,77 @@
+{
+  "batch": 527,
+  "date": "2026-09-27",
+  "scope": "Sparse early Ki Blast Super records — direct mechanics/evidence enrichment",
+  "canonical_data_rule": "Canonical data remains the source of truth. This batch records evidence candidates and does not infer unsupported acquisition/UF semantics.",
+  "records": [
+    {
+      "skill_id": "skill-tyrant-lancer",
+      "name": "Tyrant Lancer",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "character_source": "Bardock",
+        "usable_by_cac": true
+      },
+      "mechanics": "Single-hit Ki Blast; independent damage-test source reports 2722 damage in its tested environment.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://www.scribd.com/document/1060493260/Damage-Skills"
+      ],
+      "promotion": "ki_cost and damage evidence are candidates; damage is test-contextual and should not be treated as universal scaling."
+    },
+    {
+      "skill_id": "skill-ki-explosion",
+      "name": "Ki Explosion",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "character_source": "Nappa",
+        "usable_by_cac": true
+      },
+      "mechanics": "Explosive-wave Super. Damage-test source reports 4-hit unheld output and a held version with approximately 350 Ki in that test.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://www.scribd.com/document/1060493260/Damage-Skills"
+      ],
+      "promotion": "Exact held cost/output needs direct in-game or skill-specific evidence before canonical promotion."
+    },
+    {
+      "skill_id": "skill-x10-kamehameha",
+      "name": "X10 Kamehameha",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 200,
+        "character_source": "Goku (Super Saiyan 4)",
+        "usable_by_cac": true
+      },
+      "mechanics": "Chargeable Kamehameha variant; damage-test source reports uncharged and fully charged outputs with differing hit counts.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://www.scribd.com/document/1060493260/Damage-Skills"
+      ],
+      "promotion": "Charge/damage figures are test-contextual; do not promote as universal scaling without stronger provenance."
+    },
+    {
+      "skill_id": "skill-kamekameha",
+      "name": "Kamekameha",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "character_source": "Goten",
+        "usable_by_cac": true
+      },
+      "mechanics": "Ki Blast Super; damage-test source reports six hits in its tested sequence.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://www.scribd.com/document/1060493260/Damage-Skills"
+      ],
+      "promotion": "Identity/cost/user evidence is stronger than the damage figure; retain test-context qualifier."
+    }
+  ],
+  "notes": "This batch targets four sparse records surfaced during null-field auditing. Existing Batch 254 established their identities but left costs/effects sparse. Current evidence supplies bounded enrichment without inventing acquisition or Ultimate-Finish conditions."
+}
