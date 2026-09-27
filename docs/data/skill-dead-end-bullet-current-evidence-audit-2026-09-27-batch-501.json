@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-dead-end-bullet",
+  "skill_name": "Dead End Bullet",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Ki Blast Ultimate from Expert Mission 8. The user rises and rains Ki Blasts downward in a long-range 21-hit sequence with knockback; approximately 30% total damage is retained as source-reported. Exact drop/guarantee, frames, and scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and maintained corroborating research.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
