@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/validate_skill_acquisition_metadata.py",
+  "changes": [
+    "Replaced bare assert-based validation with explicit deterministic failures; checks therefore remain active under python -O.",
+    "Added explicit invalid-JSON handling.",
+    "Added per-record required-field/type validation before downstream access.",
+    "Preserved explicit rejection of boolean PQ IDs despite bool being an int subclass."
+  ],
+  "canonical_data_changed": false,
+  "runtime_status": "unverified_by_user_direction"
+}
