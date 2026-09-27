@@ -1,0 +1,10 @@
+{
+  "skill_name": "Breaker Energy Wave",
+  "batch": 503,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "summary": "2026-09-27 Batch 503 refresh: current evidence reconfirms the 0-Ki Ki Blast Ultimate classification, Goku-only use, low-health single-use constraint, multi-hit yellow beam behavior, and PQ101 endpoint. No unsupported timing or scaling is added.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
