@@ -3125,3 +3125,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 <!-- 2026-09-27: Enriched corrected Super Souls 175-178. Record 178 retains unresolved Ki-recovery penalty and Limit Burst fields pending stronger item-level evidence. -->
+
+
+<!-- 2026-09-27: Resolved exact Recoome Super Soul mechanics: +10% all attacks, +100% max Ki, permanent once-only below-50% HP cancellation/debuff, and exact Limit Burst. Next: preserve six removed PQ151-154 claims in provenance/dispute layer. -->
