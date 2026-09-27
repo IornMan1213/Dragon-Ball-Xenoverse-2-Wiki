@@ -45,5 +45,12 @@
   },
   "checks_count": 11,
   "checks_passed": 11,
-  "checks_failed": 0
+  "checks_failed": 0,
+  "validator_hardening_2026_09_27_endpoint_order": {
+    "change": "PQ endpoint validation now checks every endpoint's type/range before duplicate detection. This prevents malformed unhashable endpoint values from reaching set(pq) and producing uncontrolled TypeError failures.",
+    "result": "Existing 474-record acquisition consistency contract remains unchanged; no canonical acquisition data was modified.",
+    "validator_commit": "360ad7b3c2a989ac4490fc62d0084d1cf91a00aa",
+    "runtime_status": "unverified",
+    "evidence_boundary": "Internal validation robustness only; no acquisition claim or missing PQ reward is inferred."
+  }
 }
