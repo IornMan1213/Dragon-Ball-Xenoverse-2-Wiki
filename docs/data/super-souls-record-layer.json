@@ -4054,8 +4054,8 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
-      "verification_status": "unresolved",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth. Historical provenance traced on 2026-09-27: commit 61c0de8 (2026-09-23) explicitly removed these five names from the canonical PQ151-155 layer as uncorroborated indexed-only/misidentified records. They must not be treated as unresolved valid catalogue identities or reacquired from the old PQ maps without new item-level evidence.",
+      "verification_status": "rejected_legacy",
       "last_verified": "2026-09-27",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
@@ -4063,8 +4063,11 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "git:61c0de8d3b1390713b44003c505de088a0cb8f75",
+        "git:bddb50b654215d6620516028146b6e5b96de1521"
+      ],
+      "provenance_status": "rejected_legacy_misidentification"
     },
     {
       "id": "super-soul-139",
@@ -4085,8 +4088,8 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
-      "verification_status": "unresolved",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth. Historical provenance traced on 2026-09-27: commit 61c0de8 (2026-09-23) explicitly removed these five names from the canonical PQ151-155 layer as uncorroborated indexed-only/misidentified records. They must not be treated as unresolved valid catalogue identities or reacquired from the old PQ maps without new item-level evidence.",
+      "verification_status": "rejected_legacy",
       "last_verified": "2026-09-27",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
@@ -4094,8 +4097,11 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "git:61c0de8d3b1390713b44003c505de088a0cb8f75",
+        "git:bddb50b654215d6620516028146b6e5b96de1521"
+      ],
+      "provenance_status": "rejected_legacy_misidentification"
     },
     {
       "id": "super-soul-140",
@@ -4116,8 +4122,8 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
-      "verification_status": "unresolved",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth. Historical provenance traced on 2026-09-27: commit 61c0de8 (2026-09-23) explicitly removed these five names from the canonical PQ151-155 layer as uncorroborated indexed-only/misidentified records. They must not be treated as unresolved valid catalogue identities or reacquired from the old PQ maps without new item-level evidence.",
+      "verification_status": "rejected_legacy",
       "last_verified": "2026-09-27",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
@@ -4125,8 +4131,11 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "git:61c0de8d3b1390713b44003c505de088a0cb8f75",
+        "git:bddb50b654215d6620516028146b6e5b96de1521"
+      ],
+      "provenance_status": "rejected_legacy_misidentification"
     },
     {
       "id": "super-soul-141",
@@ -4147,8 +4156,8 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
-      "verification_status": "unresolved",
+      "version_notes": "Canonical PQ attribution removed on 2026-09-27 after current direct PQ reward evidence did not list this Super Soul at the previously indexed PQ. The identity is preserved as a standalone catalogue record; no alternate acquisition or mechanics are inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth. Historical provenance traced on 2026-09-27: commit 61c0de8 (2026-09-23) explicitly removed these five names from the canonical PQ151-155 layer as uncorroborated indexed-only/misidentified records. They must not be treated as unresolved valid catalogue identities or reacquired from the old PQ maps without new item-level evidence.",
+      "verification_status": "rejected_legacy",
       "last_verified": "2026-09-27",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
@@ -4156,8 +4165,11 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "git:61c0de8d3b1390713b44003c505de088a0cb8f75",
+        "git:bddb50b654215d6620516028146b6e5b96de1521"
+      ],
+      "provenance_status": "rejected_legacy_misidentification"
     },
     {
       "id": "super-soul-142",
@@ -4178,13 +4190,16 @@
       "limit_burst_effect": null,
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Canonical PQ reward attribution was removed on 2026-09-27 after direct PQ 155 reward-list evidence omitted this Super Soul. The record is preserved as an unresolved catalogue identity; no mechanics or alternate acquisition route is inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth.",
-      "verification_status": "unresolved",
+      "version_notes": "Canonical PQ reward attribution was removed on 2026-09-27 after direct PQ 155 reward-list evidence omitted this Super Soul. The record is preserved as an unresolved catalogue identity; no mechanics or alternate acquisition route is inferred. Current catalogue/web searches rechecked 2026-09-27 for the exact quoted identity; no matching item-level entry was located. Record is retained as an unresolved historical/catalogue identity and no mechanics, acquisition route, or Limit Burst are inferred. Live pq-reward-relationships.json was re-read 2026-09-27: no active canonical PQ reward edge exists for this identity. Earlier audit text claiming these were canonical endpoints was stale/conflicting audit history and is not the current source of truth. Historical provenance traced on 2026-09-27: commit 61c0de8 (2026-09-23) explicitly removed these five names from the canonical PQ151-155 layer as uncorroborated indexed-only/misidentified records. They must not be treated as unresolved valid catalogue identities or reacquired from the old PQ maps without new item-level evidence.",
+      "verification_status": "rejected_legacy",
       "last_verified": "2026-09-27",
       "sources": [
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "git:61c0de8d3b1390713b44003c505de088a0cb8f75",
+        "git:bddb50b654215d6620516028146b6e5b96de1521"
+      ],
+      "provenance_status": "rejected_legacy_misidentification"
     },
     {
       "id": "super-soul-143",
