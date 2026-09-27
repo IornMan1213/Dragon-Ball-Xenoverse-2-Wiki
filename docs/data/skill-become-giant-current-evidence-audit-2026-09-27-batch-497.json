@@ -1,0 +1,13 @@
+{
+  "skill_id": "skill-become-giant",
+  "skill_name": "Become Giant",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "classification": "Awoken",
+  "acquisition_endpoint": "Namekian Awakening quest — Guru's House",
+  "mechanics": "300-Ki Namekian transformation; replaces normal moveset, provides hyper armor, continuously drains Stamina, and removes normal guard/Z-Vanish/Ultimate/Evasive access while active. Current source-reported modifiers are retained as current-scope values; exact frames and hidden interactions remain unresolved.",
+  "source_scope": "Existing current Xenoverse 2-specific repository evidence was freshly reconciled for this frontier; this is a dated audit refresh, not an invention of unsupported mechanics.",
+  "canonical_sync": "Canonical identity preserved. Synchronized current-facing skill/index records to 2026-09-27 without using verified:true data as source of truth.",
+  "evidence_boundary": "Exact frame data, hidden interactions, patch-independent universal scaling, and numerical reward probabilities are not asserted unless directly documented."
+}
