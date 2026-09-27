@@ -1,3 +1,14 @@
+### 2026-09-27 continuation — Partner skill relationship identity validation-order hardening
+- [x] Inspected the live `scripts/validate_partner_skill_relationships.py`.
+- [x] Found a concrete robustness gap: malformed/unhashable canonical skill IDs or partner names could reach `Counter`/set construction, and malformed relationship-row identifiers could reach set membership/duplicate-key tracking before type validation, causing uncontrolled `TypeError` failures.
+- [x] Reordered canonical identity projections to use only explicitly valid non-empty strings before hash/set operations.
+- [x] Hardened relationship-row validation so skill and partner identifiers are type/emptiness checked before canonical-set membership and duplicate tracking.
+- [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json`.
+- [x] No canonical Partner Customization relationship, skill, character, or acquisition data changed.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] Preserved the evidence boundary around inferred Partner Customization assignments and other missing cross-domain data.
+- [ ] **Exact next:** inspect the remaining live deterministic validator/consumer layer for another concrete integrity gap; do not reconstruct the missing general PQ reward layer.
+
 ### 2026-09-27 continuation — Character presentation identity validation-order hardening
 - [x] Inspected the live `scripts/validate_character_presentation_consumers.py`.
 - [x] Found a concrete robustness gap: preset/partner/reconciliation identifier projections could reach `set()`/sorting before malformed values were explicitly validated, allowing unhashable malformed IDs to raise uncontrolled `TypeError` failures.
