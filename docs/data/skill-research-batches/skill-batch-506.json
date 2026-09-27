@@ -20,5 +20,17 @@
     "docs/data/skills-index.json"
   ],
   "evidence_boundary": "Existing acquisition/reward-tier/source conflicts remain preserved. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.",
-  "projection_note": "No new Skill→PQ edges were inferred in this refresh."
+  "projection_note": "No new Skill→PQ edges were inferred in this refresh.",
+  "additional_refresh_completed": [
+    "Crusher Ball",
+    "Dark Inscription",
+    "Deadly Dance",
+    "Supreme Fury",
+    "Taunt",
+    "The Power to Overcome",
+    "Time Skip/Back Breaker"
+  ],
+  "total_records_refreshed_across_registered_batch": 15,
+  "latest_refresh_canonical_identity_changes": 0,
+  "latest_refresh_note": "A second bounded Batch 506 frontier pass refreshed seven additional records after the existing Batch 506 registration was discovered. No prior completed records were removed or rewritten as a different selection."
 }
