@@ -1,3 +1,11 @@
+### 2026-09-26 TODO progress update — PQ cross-domain forward-source boundary confirmed
+- [x] Confirmed `docs/data/pq-reward-relationships.json` is still absent from live `main`; the hardened cross-domain index validator correctly detects this.
+- [x] Searched for a current general-PQ reward producer/generator and found only historical/audit references, not an evidence-complete replacement source.
+- [x] Corrected the PQ index validator audit to distinguish structural schema success from the unresolved forward-source reachability failure.
+- [x] Preserved the separate canonical Skill→PQ reverse layer; it does not establish the missing general PQ reward dataset.
+- [ ] Do not reconstruct the missing forward/reverse PQ reward datasets without a complete canonical producer.
+- [x] **Exact next:** continue with the next live validator/consumer or identify a complete producer for the missing PQ reward layer before any regeneration.
+
 ### 2026-09-26 TODO progress update — PQ cross-domain index schema hardening
 - [x] Hardened `scripts/validate_pq_cross_domain_index.py` to require exactly **7** reverse-index declarations, unique report paths, and `farming.source` to match the canonical `forward_index`.
 - [x] Added and registered `docs/data/pq-cross-domain-index-validator-audit-2026-09-26.json` with the expanded structural contract recorded as passing.
