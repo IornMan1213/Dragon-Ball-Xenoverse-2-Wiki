@@ -639,7 +639,8 @@
     "pq_skill_crosslink_consumer": "scripts/validate_pq_skill_links.py",
     "super_soul_consumer_coverage": "scripts/audit_super_soul_consumer_coverage.py",
     "super_soul_record_layer": "scripts/validate_super_soul_record_layer.py",
-    "super_soul_mechanics_coverage": "scripts/audit_super_soul_mechanics_coverage.py"
+    "super_soul_mechanics_coverage": "scripts/audit_super_soul_mechanics_coverage.py",
+    "super_soul_mechanics_coverage_2026_09_27": "scripts/audit_super_soul_mechanics_coverage.py"
   },
   "skill_provenance_audit_2026_09_23_core_through_critical_upper": "docs/data/skill-provenance-audit-2026-09-23-core-through-critical-upper.json",
   "skill_stale_metadata_census_2026_09_23_core_through_critical_upper": "docs/data/skill-stale-metadata-census-2026-09-23-core-through-critical-upper.json",
