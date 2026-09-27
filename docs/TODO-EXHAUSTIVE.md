@@ -3485,3 +3485,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 ### 2026-09-27 continuation — Super Soul 143 audit
 - [x] Audited 143: Gamma 1, PQ 156, Just Guard effect corroborated; ambiguous second modifier preserved as unresolved.
 - [ ] Continue remaining Super Soul provenance/ID-drift audit.
+
+
+### 2026-09-27 continuation — Super Soul 146–150 audit
+- [x] Corroborated 146–150 against current catalogue and independent PQ/DLC evidence.
+- [x] Confirmed corrected +30% modifiers for 149 and preserved explicit provenance.
+- [ ] Continue Super Soul provenance/ID-drift audit from 151 onward.
