@@ -1,0 +1,35 @@
+{
+  "batch": 524,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Neo Tri-Beam",
+    "Neo Wolf Fang Fist",
+    "One-Handed Kamehameha mk.II",
+    "Pendulum Bullet",
+    "Perfect Shot",
+    "Petrifying Spit",
+    "Phantom Fist",
+    "Photon Swipe",
+    "Potential Unleashed",
+    "Power Blitz",
+    "Power Impact",
+    "Power Pole Combo",
+    "Power Pole Pro",
+    "Power Rush",
+    "Power Wall",
+    "Powered Shell"
+  ],
+  "records_refreshed": 16,
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data remains source of truth; current external evidence was used to recheck identity/classification/acquisition or documented technique presence. No unsupported reward probabilities, exact frames, hidden conditions, patch-independent scaling, or unverified numeric values were inferred.",
+  "sources": [
+    "https://dragonballxenoverse2wiki.wiki/mentors/dragon-ball-xenoverse-2-all-mentors/",
+    "https://www.gameskinny.com/tips/dragon-ball-xenoverse-2-instructor-guide/",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-all-ultimate-attacks/",
+    "https://www.gamersdecide.com/articles/dragon-ball-xenoverse-2-best-strike-supers",
+    "https://store.steampowered.com/news/posts/?appids=678950&enddate=1548868689&feed=steam_community_announcements"
+  ]
+}
