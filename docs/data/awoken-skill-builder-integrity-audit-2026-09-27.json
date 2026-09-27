@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "Awoken override application now validates JSON roots, record containers, and identity field types before constructing canonical keys.",
+    "Skill research builder no longer coerces malformed existing canonical identity fields into apparently valid keys; malformed existing rows are excluded from merge indexing.",
+    "No canonical records were intentionally modified by these validator/builder changes."
+  ]
+}
