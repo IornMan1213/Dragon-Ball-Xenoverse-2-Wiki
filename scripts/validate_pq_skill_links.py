@@ -9,11 +9,18 @@ def main():
  rel=json.loads(REL.read_text(encoding="utf-8")); rev=json.loads(REV.read_text(encoding="utf-8"))
  names={n for p in rev.get("pq_ids",{}).values() for n in p.get("skills",[])}
  rows=[r for r in rel.get("verified_relationships",[]) if r.get("relationship")=="pq_rewards_skill"]; seen=set(); links=[]; unresolved=[]; aliases=[]
- for r in rows:
-  key=(r.get("pq"),r.get("target"))
+ for index, r in enumerate(rows):
+  if not isinstance(r, dict):
+   raise SystemExit(f"malformed PQ-skill relationship row {index}: expected object")
+  pq=r.get("pq"); target=r.get("target")
+  if not isinstance(pq, str) or len(pq)!=6 or not pq.startswith("pq-") or not pq[3:].isdigit() or not 1 <= int(pq[3:]) <= 186:
+   raise SystemExit(f"malformed PQ-skill relationship row {index}: pq must be pq-001 through pq-186")
+  if not isinstance(target, str) or not target.strip():
+   raise SystemExit(f"malformed PQ-skill relationship row {index}: target must be a non-empty string")
+  key=(pq,target)
   if key in seen: raise SystemExit(f"duplicate PQ-skill relationship: {key}")
-  seen.add(key); target=r.get("target"); canonical=ALIASES.get(target,target)
-  if canonical not in names: unresolved.append({"pq":int(r["pq"][3:]),"skill":target})
+  seen.add(key); canonical=ALIASES.get(target,target)
+  if canonical not in names: unresolved.append({"pq":int(pq[3:]),"skill":target})
   else:
    item={"pq":int(r["pq"][3:]),"skill":target,"canonical_skill":canonical,"match":"alias" if canonical!=target else "exact"}; links.append(item)
    if item["match"]=="alias": aliases.append(item)
