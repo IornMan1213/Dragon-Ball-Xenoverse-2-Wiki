@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-god-of-destruction-s-wrath",
+  "skill_name": "God of Destruction's Wrath",
+  "batch": 502,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 502: current mentor documentation reconfirms Beerus Lesson 2 and the 100-Ki Ki Blast Super identity, including the backward jump and radial Ki-blast barrage. Unsupported exact frames, damage scaling, and hidden interactions remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
