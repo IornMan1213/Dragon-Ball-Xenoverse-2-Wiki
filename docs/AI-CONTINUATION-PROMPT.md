@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Skill→PQ endpoint uniqueness hardening
+- [x] Inspected the live `scripts/validate_skill_pq_crosslinks.py` after the PQ forward-source boundary.
+- [x] Hardened each canonical skill's `source_parallel_quests` contract to reject duplicate PQ IDs and boolean-as-integer IDs; strict supported PQ range **1–186** remains enforced.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json` with the new **0 duplicate / 0 boolean** endpoint checks; the canonical **474-skill / 246-edge / 170-PQ** projection remains unchanged.
+- [x] No canonical relationship data was added, removed, or inferred.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the next live deterministic validator/consumer or projection; keep the missing general PQ reward layer as an explicit evidence boundary.
+
 ### 2026-09-26 continuation — PQ cross-domain forward-source boundary confirmed
 - [x] The live validator hardening exposed a real source-vs-index mismatch: `docs/data/pq-cross-domain-index.json` declares `docs/data/pq-reward-relationships.json` as its forward source, but that file is absent from the live `main` tree.
 - [x] Searched the live repository for a current producer/generator or complete replacement source; only historical handoff/audit references were found.
