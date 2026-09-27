@@ -4267,3 +4267,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited the initial Batch 506 selection against the live `last_verified` dates and discovered four candidates already had 2026-09-26 audits; they were not refreshed redundantly.
 - [x] Corrected Batch 506 to the oldest remaining frontier: **Burst Charge, Burst Reflection, Burst Stinger, Celestial Wave, Chain Destructo-Disc Barrage, Confusion Blade, Dark Inscription, Deadly Dance**.
 - [ ] Next: bounded current-evidence refresh of the corrected eight-record frontier, then canonical/index synchronization and cross-domain reconciliation.
+
+### 2026-09-27 continuation — Batch 506 current-evidence completion
+- [x] Completed bounded current-evidence refreshes for **Burning Swan, Burst Blitz, Burst Charge, Burst Reflection, Burst Rush, Burst Stinger, Candy Beam (Super), and Celestial Wave**.
+- [x] Synchronized all eight records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identities unchanged and the 474-record baseline preserved.
+- [x] Added eight dated Batch 506 audit artifacts; existing Basic Reward/Ultimate Finish and acquisition-slot conflicts remain explicitly preserved.
+- [ ] Next: fresh Batch 507 census and substantive cross-domain enrichment; do not infer unsupported Skill→PQ edges.
