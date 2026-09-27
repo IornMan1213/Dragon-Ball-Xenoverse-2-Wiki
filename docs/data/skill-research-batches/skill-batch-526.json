@@ -147,7 +147,7 @@
       ]
     }
   ],
-  "notes": "This batch is intentionally an evidence-refresh manifest because the live canonical blob is large and connector-limited. No canonical field was changed from secondary snippets alone.",
+  "notes": "Web refresh found direct record-level candidate fields for Rakshasa's Claw, Rocket Tackle, and Savory Slicer. Canonical promotion is intentionally deferred until each live canonical record is inspected, preventing accidental overwrite of richer provenance.",
   "web_evidence_refresh": [
     {
       "skill": "Shine Shot",
@@ -180,6 +180,41 @@
         "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/79680756",
         "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
       ]
+    }
+  ],
+  "direct_record_level_refresh": [
+    {
+      "skill": "Rakshasa's Claw",
+      "canonical_candidate_fields": {
+        "attack_type": "Strike",
+        "skill_type": "Super",
+        "ki_used": 100,
+        "obtained_from": "Parallel Quest 57 - Hell Is A Picture?",
+        "character_source": "Janemba"
+      },
+      "status": "evidence-supported; canonical promotion requires comparison with current canonical record"
+    },
+    {
+      "skill": "Rocket Tackle",
+      "canonical_candidate_fields": {
+        "attack_type": "Strike",
+        "skill_type": "Super",
+        "ki_used": 100,
+        "obtained_from": "Training with Android 16",
+        "character_source": "Android 16"
+      },
+      "status": "evidence-supported; canonical promotion requires comparison with current canonical record"
+    },
+    {
+      "skill": "Savory Slicer",
+      "canonical_candidate_fields": {
+        "attack_type": "Strike",
+        "skill_type": "Super",
+        "ki_used": 100,
+        "obtained_from": "Parallel Quest 140 - Spirit Bomb Away!",
+        "character_source": "Android 21"
+      },
+      "status": "evidence-supported; canonical promotion requires comparison with current canonical record"
     }
   ]
 }
