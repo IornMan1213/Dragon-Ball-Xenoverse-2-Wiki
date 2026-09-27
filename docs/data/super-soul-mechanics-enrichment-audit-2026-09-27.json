@@ -7,40 +7,40 @@
   "records": 168,
   "fields": {
     "trigger_condition": {
-      "populated": 89,
-      "missing": 79
+      "populated": 94,
+      "missing": 74
     },
     "effect_text": {
-      "populated": 97,
-      "missing": 71
+      "populated": 102,
+      "missing": 66
     },
     "effect_magnitude": {
-      "populated": 91,
-      "missing": 77
+      "populated": 96,
+      "missing": 72
     },
     "duration": {
-      "populated": 76,
-      "missing": 92
+      "populated": 81,
+      "missing": 87
     },
     "stacking_behavior": {
-      "populated": 42,
-      "missing": 126
+      "populated": 43,
+      "missing": 125
     },
     "limit_burst": {
-      "populated": 87,
-      "missing": 81
+      "populated": 92,
+      "missing": 76
     },
     "limit_burst_trigger": {
       "populated": 0,
       "missing": 168
     },
     "limit_burst_effect": {
-      "populated": 67,
-      "missing": 101
+      "populated": 72,
+      "missing": 96
     },
     "usable_by_cac": {
-      "populated": 97,
-      "missing": 71
+      "populated": 102,
+      "missing": 66
     },
     "race_restriction": {
       "populated": 3,
@@ -56,12 +56,12 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-127",
-      "super-soul-128",
-      "super-soul-129",
-      "super-soul-130",
-      "super-soul-131"
+      "super-soul-132",
+      "super-soul-133",
+      "super-soul-134",
+      "super-soul-135",
+      "super-soul-136"
     ],
-    "evidence_basis": "Canonical record layer plus PQ guide and independent mechanics evidence. Source discrepancies retained; canonical acquisition remains authoritative."
+    "evidence_basis": "Super Soul catalogue plus PQ reward/guide evidence; canonical acquisition remains authoritative."
   }
 }
