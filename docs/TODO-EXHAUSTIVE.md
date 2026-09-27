@@ -3196,3 +3196,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-145` / "You need to be more careful." — Gamma 2, one-time guard-break recovery and one-time +500 Stamina response to an enemy Ultimate, Limit Burst, Hero of Justice Pack 1.
 - [x] Confirmed PQ 156/157 reward identities and DLC association against independent PQ/DLC evidence. citeturn1search1turn1search4
 - [ ] Continue with the next non-disputed thin canonical records.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 9
+- [x] Enriched `super-soul-148` "Enter the hero!" — Dr. Hedo / pose trigger / +5% Strike +5% Ki Blast / 5-stack cap / Revive Gauge Auto-Recovery / Hero of Justice Pack 2.
+- [x] Enriched `super-soul-149` "The Red Ribbon Army is back in business!" — Magenta / battle-start +20% Ki Auto-Recovery for 20 seconds / always +5% all attacks / Limit Burst / Hero of Justice Pack 2.
+- [x] Enriched `super-soul-150` "Is that all?" — Gohan (Beast) / Just Guard / +5% Strike +10% Ki Blast / 5-stack cap / Limit Burst / Hero of Justice Pack 2.
+- [x] Enriched `super-soul-151` "I'm a whole new me." — Piccolo (Power Awakening) / once below 50% Health / +5% Ki Auto-Recovery +20% Stamina recovery / Auto Just Guard.
+- [x] Enriched `super-soul-152` "Shenron really went the extra mile." — Orange Piccolo / -10% damage taken / +10% Ki restored / +25% item drop rate at battle end / Limit Burst.
+- [x] Independent DLC evidence confirms these records belong to Hero of Justice Pack 2 and PQs 159–162; the current catalogue supplies the mechanics. citeturn0search2turn1search0turn1search3
+- [ ] Continue into the next canonical thin records and then audit index propagation.
