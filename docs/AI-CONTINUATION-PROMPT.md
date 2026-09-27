@@ -3661,3 +3661,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-soul-flying-nimbus-pq-002-classification-audit-2026-09-27.json`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue auditing stale Super Soul endpoint metadata, distinguishing genuine canonical mismatches from incomplete reward-map coverage before changing canonical data.
+
+### 2026-09-27 continuation — PQ 007 Gyau!!!! reconciliation
+- [x] Audited the next Super Soul endpoint mismatch after the Flying Nimbus correction.
+- [x] Determined super-soul-007 (Gyau!!!!) was not stale: current PQ 07 evidence explicitly lists it as a Basic Reward, and the Super Soul catalogue independently lists PQ 07 as its acquisition.
+- [x] The discrepancy was incomplete canonical coverage, not incorrect endpoint metadata.
+- [x] Added Gyau!!!! to the PQ 7 normalized reward map, forward relationship layer, Super Soul acquisition index, unified reverse index, and crosslink projection.
+- [x] Added docs/data/super-soul-pq-007-gyau-reconciliation-audit-2026-09-27.json.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the acquisition-metadata parity scan; distinguish incomplete canonical coverage from genuinely stale/disputed endpoint metadata.
