@@ -3778,3 +3778,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source-bounded numerical observations and unresolved frame/scaling/hidden-interaction fields; no synthetic canonical facts were introduced.
 - [x] Git-blob validation confirms 474 records / 474 unique IDs in each live Skills layer.
 - [ ] Next priority: fresh Batch 502 census from the post-Batch-501 corpus, excluding completed frontier candidates; then reconcile PQ→Skill and Skill→PQ projections and continue toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Recovery baseline and Batch 504
+- [x] Confirmed the restored canonical PQ reward database baseline is intact at 840 evidence-backed relationships; recovery validation now recomputes counts instead of trusting declared counts.
+- [x] Confirmed PQ equipment endpoint enrichment is complete at 125 canonical edges / 123 unique targets / 123 exact endpoint matches / 0 identity gaps.
+- [x] Completed Batch 504 current-evidence refresh for Afterimage, All Clear, Android Rush, Angry Explosion, Angry Hit, Apocalyptic Burst, Arm Crash, and Assault Rain from a fresh live 474-record census.
+- [x] Synchronized all eight records into docs/data/skills.json and docs/data/skills-index.json; 474/474 identity parity remains intact.
+- [x] Added Batch 504 manifest, thin-frontier audit, eight evidence audits, and cross-domain index registrations.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] Next: fresh Batch 505 census, followed by PQ→Skill / Skill→PQ reconciliation and the next highest-value substantive cross-domain enrichment.
