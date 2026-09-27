@@ -3601,3 +3601,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json` to include the 148–152 enrichment batch while preserving its evidence policy.
 - [x] Confirmed the five Hero of Justice Pack 2 records 148–152 remain cross-linked to PQs 159–162; DLC documentation independently identifies five Super Souls across those four PQs. citeturn0search0turn0search2
 - [ ] Continue by resolving the remaining canonical mechanics gaps; do not enrich disputed historical records 137–141 and do not promote `verified` status as source-of-truth evidence.
+
+
+### 2026-09-27 continuation — Super Soul 164–172 Limit Burst parity enrichment
+- [x] Continued from the restored canonical database rather than rebuilding already-recovered layers from partial historical branches.
+- [x] Enriched the normalized `limit_burst_effect` field for canonical Super Soul records `super-soul-164` through `super-soul-172` using explicit current catalogue/character evidence.
+- [x] Updated `docs/data/super-souls-record-layer.json` for all nine records; no PQ reward identity, acquisition relationship, disputed PQ 151–154 claim, or unresolved classification was changed.
+- [x] Added `docs/data/super-soul-164-172-limit-burst-parity-audit-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Evidence-backed changes: 164 Revive Gauge Auto-Recovery; 165–171 explicit ATK/DEF + Ki/Guard/Recovery Limit Burst effects; 172 Kamehameha ATK Up.
+- [x] Write commits: record layer `16264b7984f29ab383233d499b0e2945ea857a90`; audit `233d28a6e9fc23bd9bda7805b08b127dd3671ca8`; cross-domain registration `2dd57aa2d728613fc7c33d509a5d087080de54a2`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** resolve the remaining canonical Super Soul/PQ reconciliation frontier with item-level evidence where available; specifically continue the PQ 155 / `super-soul-142` conflict investigation without substituting another Gamma Soul or inventing mechanics. If that endpoint remains blocked, continue the next evidence-complete thin-record batch and propagate confirmed mechanics through forward/reverse indexes.
