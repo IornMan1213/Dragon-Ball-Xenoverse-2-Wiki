@@ -4072,3 +4072,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved existing acquisition/reward conflicts and unresolved frame, hidden-condition, probability, and patch-independent-scaling fields.
 - [ ] 201 canonical Skill records remain older than 2026-09-27.
 - [ ] Continue stale Skill frontier: God Breaker → God of Destruction's Anger → God of Destruction's Menace → God of Destruction's Might → God of Destruction's Plaything → God of Destruction's Poise → God of Destruction's Rampage → God of Destruction's Roar → continue alphabetically.
+
+
+### 2026-09-27 continuation — Skill evidence Batch 520
+- [x] Refreshed 16 canonical skill records: God Breaker; God of Destruction's Anger; God of Destruction's Menace; God of Destruction's Might; God of Destruction's Plaything; God of Destruction's Poise; God of Destruction's Rampage; God of Destruction's Roar; God Punisher; Godly Chronos Cannon; Godly Display; Grand Smasher; Handy Canon; Headshot; Heat Dome Attack; Heat Wave.
+- [x] Synchronized the 16 corresponding skills-index projections.
+- [x] Added docs/data/skill-research-batches/skill-batch-520.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved canonical acquisition/reward conflicts and did not infer unsupported probabilities, hidden gates, exact frames, or patch-independent scaling.
+- [x] Canonical skill identity/relationship fields were unchanged; this cycle was evidence enrichment only.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Exact next: continue from the stale frontier after Batch 520; re-fetch live SHAs before mutation.
