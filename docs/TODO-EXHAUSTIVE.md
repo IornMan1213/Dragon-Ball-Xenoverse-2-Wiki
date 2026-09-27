@@ -3359,3 +3359,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added a dedicated projection-count audit.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue exhaustive parity auditing, then advance to the next highest-priority unfinished dataset area.
+
+### 2026-09-27 continuation — Do or Die skill endpoint validation
+- [x] Verified `skill-do-or-die` exists in the canonical Skill corpus and Skill→PQ reverse index at PQ 49.
+- [x] Confirmed existing current-evidence audits cover the Skill endpoint; no missing endpoint repair was required.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: advance to the next highest-priority cross-domain consistency/research gap.
