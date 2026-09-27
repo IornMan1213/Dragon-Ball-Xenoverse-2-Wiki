@@ -35,8 +35,8 @@
       "missing": 173
     },
     "limit_burst_effect": {
-      "populated": 105,
-      "missing": 67
+      "populated": 107,
+      "missing": 65
     },
     "usable_by_cac": {
       "populated": 118,
@@ -56,10 +56,10 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-038",
-      "super-soul-039"
+      "super-soul-036",
+      "super-soul-037"
     ],
-    "evidence_basis": "Broly Lite Raid reward documentation and current Broly Super Soul catalogue explicitly state the two Limit Burst effects; no unrelated mechanics were inferred.",
+    "evidence_basis": "Hit/Hit Lite Raid reward documentation and current Super Soul catalogue explicitly state the Limit Burst effects.",
     "note": "Two additional canonical records now have synchronized Limit Burst effect fields."
   },
   "last_batch": {
