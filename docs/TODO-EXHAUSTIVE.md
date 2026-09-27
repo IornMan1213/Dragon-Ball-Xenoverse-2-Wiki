@@ -2531,3 +2531,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** inspect PQ farming-route consumer coverage and reconcile it against the canonical forward relationship store; then continue remaining cross-domain/exhaustive enrichment gaps.
 
+### 2026-09-27 continuation — PQ farming-route consumer reconciliation
+- [x] Reconciled the canonical `pq_farming_route` relationships from `docs/data/pq-reward-relationships.json`.
+- [x] Added `docs/data/pq-farming-crosslink-report.json`: **7 canonical farming-route edges / 1 target (Dragon Balls)** across PQ 015, 022, 044, 045, 068, 083, and 088.
+- [x] Preserved explicit source provenance: six relationships from the all-186 PQ guide and one from Twinfinite; no additional farming routes were inferred.
+- [x] Registered the farming consumer projection in `pq-cross-domain-index.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** run a whole cross-domain projection/status audit now that skill, Super Soul, equipment, character, DLC, and farming consumers have deterministic canonical projections; identify the highest-impact remaining exhaustive enrichment gap rather than repeating completed consumer work.
+
