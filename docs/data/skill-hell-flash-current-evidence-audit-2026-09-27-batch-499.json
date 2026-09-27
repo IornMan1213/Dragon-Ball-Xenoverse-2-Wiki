@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-hell-flash",
+  "skill_name": "Hell Flash",
+  "batch": 499,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "evidence_summary": "Current Android 16 mentor documentation reconfirms 300 Ki Ki Blast Ultimate classification, ground-targeted beam/pillar sequence, 26-hit launching behavior, and source-reported approximately 70% total damage. Exact frames and patch-independent scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded repository corroboration.",
+  "canonical_sync": "Synchronized to the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
