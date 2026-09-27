@@ -29,12 +29,28 @@ RACE_BY_NAME = {
 }
 
 
+def load_json(path: Path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{path}: invalid JSON: {exc}")
+
 def main() -> int:
-    data = json.loads(SKILLS.read_text(encoding="utf-8"))
-    roster = json.loads(ROSTER.read_text(encoding="utf-8"))["canonical_transformation_roster"]
+    data = load_json(SKILLS)
+    if not isinstance(data, dict):
+        raise SystemExit("skills root must be an object")
+    roster_data = load_json(ROSTER)
+    if not isinstance(roster_data, dict):
+        raise SystemExit("Awoken roster correction root must be an object")
+    roster = roster_data.get("canonical_transformation_roster")
+    if not isinstance(roster, list) or not all(isinstance(x, str) and x.strip() for x in roster):
+        raise SystemExit("canonical_transformation_roster must be a list of non-empty strings")
+    existing_records = data.get("records")
+    if not isinstance(existing_records, list) or any(not isinstance(r, dict) for r in existing_records):
+        raise SystemExit("skills.records must be a list of objects")
     if set(PARENT_ROSTER) - set(roster):
         raise SystemExit("Awoken roster correction is missing a parent transformation.")
-    records = [r for r in data.get("records", []) if not (r.get("class") == "Awoken" and r.get("subcategory") == "Race")]
+    records = [r for r in existing_records if not (r.get("class") == "Awoken" and r.get("subcategory") == "Race")]
     source = "docs/data/awoken-research-batches/awoken-batch-07-canonical-roster-correction.json"
     for name in PARENT_ROSTER:
         records.append({
