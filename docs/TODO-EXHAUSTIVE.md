@@ -3770,3 +3770,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Validation remains **474 canonical / 474 index records** with the restored identity baseline intact.
 - [ ] Next priority: fresh **Batch 503** census from the live corpus, then reconcile PQ→Skill and Skill→PQ navigation projections after the enrichment frontier.
 - [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 501 current-evidence frontier
+- [x] Continued from the live 474-record corpus and refreshed eight records: Fighting Pose G, Weekend, Super Kamehameha (SS4 DAIMA), Kill Driver, Fake Death, Meteor Burst, Punisher Shield, and Mach Dash.
+- [x] Synchronized all eight refreshes into both docs/data/skills.json and docs/data/skills-index.json; canonical identities were unchanged.
+- [x] Preserved source-bounded numerical observations and unresolved frame/scaling/hidden-interaction fields; no synthetic canonical facts were introduced.
+- [x] Git-blob validation confirms 474 records / 474 unique IDs in each live Skills layer.
+- [ ] Next priority: fresh Batch 502 census from the post-Batch-501 corpus, excluding completed frontier candidates; then reconcile PQ→Skill and Skill→PQ projections and continue toward the 672 indexed-category target.
