@@ -32,7 +32,7 @@
     },
     "limit_burst_trigger": {
       "populated": 0,
-      "missing": 173
+      "missing": 172
     },
     "limit_burst_effect": {
       "populated": 107,
@@ -104,5 +104,6 @@
       "commit_c4c5a4": "later erroneous ID links for 140-142 were attached to different actual reward names, further demonstrating endpoint-ID/name mismatch",
       "decision": "retain records as rejected legacy artifacts, not active catalogue identities"
     }
-  }
+  },
+  "audit_note": "Integrity correction 2026-09-27: the canonical record layer contains 172 records; the prior limit_burst_trigger missing count of 173 was a stale audit arithmetic error. No canonical record was changed."
 }
