@@ -3,21 +3,52 @@
   "date": "2026-09-27",
   "scope": "Current-evidence mechanics frontier",
   "records": [
-    "skill-ice-cannon",
-    "skill-final-flash-super",
-    "skill-god-splitter",
-    "skill-formation",
-    "skill-majin-kamehameha",
-    "skill-feint-crash",
-    "skill-paralysis",
-    "skill-menacing-flare"
+    {
+      "id": "skill-ice-cannon",
+      "name": "Ice Cannon",
+      "status": "current_evidence_verified"
+    },
+    {
+      "id": "skill-final-flash-super",
+      "name": "Final Flash (Super)",
+      "status": "current_evidence_verified"
+    },
+    {
+      "id": "skill-god-splitter",
+      "name": "God Splitter",
+      "status": "current_evidence_verified"
+    },
+    {
+      "id": "skill-formation",
+      "name": "Formation!",
+      "status": "current_evidence_verified"
+    },
+    {
+      "id": "skill-majin-kamehameha",
+      "name": "Majin Kamehameha",
+      "status": "current_evidence_verified"
+    },
+    {
+      "id": "skill-feint-crash",
+      "name": "Feint Crash",
+      "status": "current_evidence_verified"
+    },
+    {
+      "id": "skill-paralysis",
+      "name": "Paralysis",
+      "status": "current_evidence_verified"
+    },
+    {
+      "id": "skill-menacing-flare",
+      "name": "Menacing Flare",
+      "status": "current_evidence_verified"
+    }
   ],
   "validation": {
-    "audit_artifacts": 8,
-    "canonical_skill_records": 474,
-    "index_skill_records": 474,
+    "canonical_records": 474,
+    "index_records": 474,
+    "synchronized_records": 8,
     "canonical_identity_changes": 0,
     "unsupported_claims_added": 0
-  },
-  "notes": "Fresh frontier following Batch 496. Candidate list was not reused. Numerical values remain source-reported where applicable; unresolved frames, scaling, hidden interactions, and reward probabilities remain explicitly bounded."
+  }
 }
