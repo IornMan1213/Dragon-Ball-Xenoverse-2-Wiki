@@ -2685,3 +2685,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] Exact next: continue forward from the recovered 474-record canonical corpus with a fresh live census for the next substantive data/research batch; do not rebuild already-recovered skill data from older branches.
 
+### 2026-09-27 continuation — Fresh post-recovery skill census and next-domain pivot
+- [x] Performed a fresh live census of the recovered canonical skill corpus instead of reusing the pre-corruption Batch 495 candidate list.
+- [x] All **474/474** canonical skill records currently have `research_status: enriched`; there is no remaining unaudited mechanics frontier inside the canonical skill corpus at this checkpoint.
+- [x] Added `scripts/validate_canonical_database_recovery.py` to make the recovery contract reproducible: 474 unique canonical skills, exact skills-index identity, 474/246/170 Skill→PQ reverse metrics, and required PQ reward count keys.
+- [x] Added the validator reference to `docs/data/canonical-database-recovery-integrity-audit-2026-09-27.json`.
+- [x] External source review confirms the repository's established all-PQ guide remains a useful independent reward-list source; no reward values were bulk-inferred from a secondary guide in this checkpoint.
+- [ ] Runtime execution/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** pivot the substantive research cycle from already-enriched skill mechanics to the highest-priority cross-domain gap: expand/reconcile PQ reward relationships and reverse navigation using evidence-complete PQ sources, while preserving the existing partial-source/evidence boundary and never treating missing canonical edges as negative reward claims.
+
