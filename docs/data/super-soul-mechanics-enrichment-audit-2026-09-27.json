@@ -56,13 +56,14 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-035"
+      "super-soul-032",
+      "super-soul-033"
     ],
-    "status": "limit_burst_effect_enriched",
+    "status": "secondary_evidence_refresh",
     "evidence": [
-      "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the/"
+      "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
     ],
-    "note": "Secondary player discussion explicitly identifies Auto Just Guard for this Super Soul. Promoted as verified_secondary only; no primary canonical mechanics source was substituted."
+    "note": "Current player testing discussion independently reports the already-recorded 20% values for the PQ 185 Super Souls. Values remain explicitly secondary; no Limit Burst data was inferred. The three active records lacking limit_burst_effect remain unresolved."
   },
   "last_batch": {
     "date": "2026-09-27",
