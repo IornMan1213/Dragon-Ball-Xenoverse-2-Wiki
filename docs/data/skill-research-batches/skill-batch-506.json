@@ -1,0 +1,24 @@
+{
+  "batch": 506,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Burning Swan",
+    "Burst Blitz",
+    "Burst Reflection",
+    "Burst Rush",
+    "Burst Stinger",
+    "Celestial Wave",
+    "Chain Destructo-Disc Barrage",
+    "Chaos Shot"
+  ],
+  "selection_rule": "Fresh post-Batch-505 census; each selected record lacked a registered 2026-09-27 Batch-506/current-evidence audit at selection time.",
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "evidence_boundary": "Existing acquisition/reward-tier/source conflicts remain preserved. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.",
+  "projection_note": "No new Skill→PQ edges were inferred in this refresh."
+}
