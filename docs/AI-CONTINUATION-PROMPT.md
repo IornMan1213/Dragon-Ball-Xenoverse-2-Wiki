@@ -1,3 +1,14 @@
+### 2026-09-27 continuation — Canonical PQ reward database recovery verification
+- [x] Reconciled the apparent missing-forward-layer report against the live main tree rather than recreating data from partial reverse indexes.
+- [x] Confirmed docs/data/pq-reward-relationships.json is present on current main through GitHub's live code-search index; the large-file content endpoint is connector-limited, not evidence of file absence.
+- [x] Confirmed the live indexed forward layer retains the established **840-edge** baseline: **236 skills / 137 Super Souls / 125 equipment / 247 character / 88 DLC / 7 farming**.
+- [x] Recorded recovery source commit 02b6306341c2d3a6cf6f6213a25386949d07a7ce and recovery audit docs/data/pq-reward-database-recovery-audit-2026-09-27.json.
+- [x] Corrected the stale PQ cross-domain forward-source audit so the live forward file is no longer incorrectly treated as absent.
+- [x] No replacement reward relationships were fabricated and no canonical forward data was overwritten.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** continue from the restored 840-edge canonical PQ relationship baseline; fresh-audit the remaining equipment endpoint-enrichment frontier and then resume Batch 496 skill/data enrichment.
+
+
 ### 2026-09-27 continuation — Runtime/CI intentionally non-blocking; Batch 495 data enrichment
 - [x] User-directed policy for this continuation: treat runtime execution/CI as non-blocking for the time being and continue substantive data/research work instead of waiting on runtime infrastructure.
 - [x] Fresh live mechanics frontier was re-censused after Batch 494; no stale candidate list was reused.
