@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-burning-attack",
+  "skill_name": "Burning Attack",
+  "batch": 502,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 502: current Xenoverse 2 documentation reconfirms 100 Ki, Ki Blast Super classification, Future Trunks association, the projectile/explosion sequence, and PQ41 acquisition. Current reward evidence places it in the Basic Reward presentation; no Ultimate Finish gate is inferred.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
