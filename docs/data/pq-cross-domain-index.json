@@ -2100,5 +2100,6 @@
     "canonical_field_corrections": 0,
     "relationship_changes": 0
   },
-  "skill_batch_519_current_evidence": "docs/data/skill-research-batches/skill-batch-519.json"
+  "skill_batch_519_current_evidence": "docs/data/skill-research-batches/skill-batch-519.json",
+  "skill_research_batch_520": "docs/data/skill-research-batches/skill-batch-520.json"
 }
