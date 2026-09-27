@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "super_souls",
+  "status": "passed",
+  "records": [
+    {
+      "id": "super-soul-036",
+      "name": "Buu's reached full power!",
+      "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-037",
+      "name": "I'm over 1,000 years old.",
+      "limit_burst_effect": "Auto Just Guard",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81010605",
+        "https://dbxv2.fandom.com/wiki/Hit"
+      ]
+    }
+  ],
+  "policy": "Only explicitly supported Limit Burst effects promoted; no trigger timing or unrelated mechanics inferred."
+}
