@@ -9,16 +9,31 @@ ALLOWED_CLASS={'Super','Ultimate','Evasive','Awoken','Counter','Mixed'}
 ALLOWED_SUB={'Ki Blast','Strike','Power Up','Other','Race','Special','Counter'}
 ALLOWED_RESEARCH={'indexed','partially_enriched','enriched','page_unavailable'}
 
-def key(r): return (str(r.get('name','')).casefold(),r.get('class',''),r.get('subcategory',''))
+def key(r):
+ if not isinstance(r,dict): return None
+ values=(r.get('name'),r.get('class'),r.get('subcategory'))
+ if any(not isinstance(v,str) or not v.strip() for v in values): return None
+ return (values[0].casefold(),values[1],values[2])
 
 def main():
- d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
+ try:
+  d=json.loads(DATA.read_text(encoding='utf-8')); idx=json.loads(INDEX.read_text(encoding='utf-8')); schema=json.loads(SCHEMA.read_text(encoding='utf-8'))
+ except (OSError,json.JSONDecodeError) as exc:
+  print(f'Skill validation failed: invalid JSON: {exc}'); return 1
+ if not all(isinstance(x,dict) for x in (d,idx,schema)):
+  print('Skill validation failed: skills, index, and schema roots must be objects'); return 1
  rs=d.get('records',[]); ir=idx.get('records',[]); errors=[]
+ if not isinstance(rs,list): errors.append('skills.json records must be a list'); rs=[]
+ if not isinstance(ir,list): errors.append('skills-index.json records must be a list'); ir=[]
+ if not isinstance(d.get('category_counts',{}),dict): errors.append('skills.json category_counts must be an object')
+ if not isinstance(d.get('target_category_counts',{}),dict): errors.append('skills.json target_category_counts must be an object')
  if d.get('record_count')!=len(rs):errors.append('skills.json record_count mismatch')
  if idx.get('record_count')!=len(ir):errors.append('skills-index.json record_count mismatch')
  if len(rs)!=len(ir):errors.append('skills/index record lengths differ')
  keys=[key(r) for r in rs]
- if len(keys)!=len(set(keys)):errors.append('duplicate canonical skill keys')
+ if any(k is None for k in keys): errors.append('canonical skill name/class/subcategory must be non-empty strings')
+ valid_keys=[k for k in keys if k is not None]
+ if len(valid_keys)!=len(set(valid_keys)):errors.append('duplicate canonical skill keys')
  for r in rs:
   if r.get('class') not in ALLOWED_CLASS:errors.append(f"{r.get('name')}: invalid class {r.get('class')}")
   if r.get('subcategory') not in ALLOWED_SUB:errors.append(f"{r.get('name')}: invalid subcategory {r.get('subcategory')}")
