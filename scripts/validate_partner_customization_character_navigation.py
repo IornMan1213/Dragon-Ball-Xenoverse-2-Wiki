@@ -45,11 +45,11 @@ def main() -> int:
     if any(not isinstance(x, dict) for x in bridge_records): failures.append("every bridge record must be an object")
     if not isinstance(chars, dict) or not isinstance(chars.get("character_names", []), list): failures.append("character_names must be a list")
     if isinstance(chars, dict) and isinstance(chars.get("character_names", []), list) and any(not isinstance(x, str) or not x.strip() for x in chars.get("character_names", [])): failures.append("every canonical character name must be a non-empty string")
-    if any(not isinstance(x.get("key_number"), int) or x.get("key_number") < 1 for x in key_records): failures.append("key_number must be a positive integer")
+    if any(not isinstance(x.get("key_number"), int) or isinstance(x.get("key_number"), bool) or x.get("key_number") < 1 for x in key_records): failures.append("key_number must be a positive integer")
     if any(not isinstance(x.get("id"), str) or not x.get("id").strip() for x in key_records): failures.append("key id must be a non-empty string")
     if any(not isinstance(x.get("character_id"), str) or not x.get("character_id").strip() for x in key_records): failures.append("key character_id must be a non-empty string")
     if any(not isinstance(x.get("partner"), str) or not x.get("partner").strip() for x in key_records): failures.append("key partner must be a non-empty string")
-    if any(not isinstance(x.get("key"), int) or x.get("key") < 1 for x in recon_records): failures.append("reconciliation key must be a positive integer")
+    if any(not isinstance(x.get("key"), int) or isinstance(x.get("key"), bool) or x.get("key") < 1 for x in recon_records): failures.append("reconciliation key must be a positive integer")
     if any(not isinstance(x.get("character_id"), str) or not x.get("character_id").strip() for x in recon_records): failures.append("reconciliation character_id must be a non-empty string")
     if any(not isinstance(x.get("partner"), str) or not x.get("partner").strip() for x in recon_records): failures.append("reconciliation partner must be a non-empty string")
     if any(not isinstance(x.get("character_id"), str) or not x.get("character_id").strip() for x in bridge_records): failures.append("bridge character_id must be a non-empty string")
@@ -66,12 +66,12 @@ def main() -> int:
     recon_numbers = [x.get("key") for x in recon_records]
     duplicate_key_numbers = sorted(k for k,v in Counter(key_numbers).items() if k is not None and v > 1)
     duplicate_recon_numbers = sorted(k for k,v in Counter(recon_numbers).items() if k is not None and v > 1)
-    malformed_key_numbers = [{"key_number": x.get("key_number"), "type": type(x.get("key_number")).__name__} for x in key_records if x.get("key_number") is not None and not isinstance(x.get("key_number"), int)]
+    malformed_key_numbers = [{"key_number": x.get("key_number"), "type": type(x.get("key_number")).__name__} for x in key_records if x.get("key_number") is not None and not isinstance(x.get("key_number"), int) or isinstance(x.get("key_number"), bool)]
     key_ids = [x.get("id") for x in key_records]
     duplicate_key_ids = sorted(k for k,v in Counter(key_ids).items() if k is not None and v > 1)
     malformed_key_ids = [{"id": x.get("id"), "type": type(x.get("id")).__name__} for x in key_records if x.get("id") is not None and not isinstance(x.get("id"), str)]
     expected_key_ids = [f"customization-key-{n:02d}" for n in expected]
-    malformed_recon_numbers = [{"key": x.get("key"), "type": type(x.get("key")).__name__} for x in recon_records if x.get("key") is not None and not isinstance(x.get("key"), int)]
+    malformed_recon_numbers = [{"key": x.get("key"), "type": type(x.get("key")).__name__} for x in recon_records if x.get("key") is not None and not isinstance(x.get("key"), int) or isinstance(x.get("key"), bool)]
 
     checks = {
         "exact_key_count": len(key_records) == 20,
