@@ -1,3 +1,10 @@
+### 2026-09-26 TODO progress update — Skill acquisition metadata schema hardening
+- [x] Hardened `scripts/validate_skill_acquisition_metadata.py` against malformed root/field types, duplicate `source_parallel_quests` IDs, and boolean-as-integer PQ endpoints.
+- [x] Recorded the expanded acquisition schema contract as **11/11** passing in `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json`.
+- [x] Preserved the canonical **474-skill** dataset; no acquisition relationship was added or inferred.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** continue the next live validator/consumer referenced by the PQ cross-domain index, prioritizing deterministic integrity gaps while keeping absent PQ reward/reverse datasets as provenance unless a complete source/generator exists.
+
 ### 2026-09-26 TODO progress update — Partner Customization key-ID projection hardening
 - [x] Found a remaining deterministic schema/projection gap in `scripts/validate_partner_customization_character_navigation.py`: stable customization-key record IDs were not validated against their numeric key numbers.
 - [x] Added explicit non-empty string, uniqueness, and exact `customization-key-01..20` projection checks.
