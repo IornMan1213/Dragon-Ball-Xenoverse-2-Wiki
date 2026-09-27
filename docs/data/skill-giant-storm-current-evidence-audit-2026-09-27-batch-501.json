@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-giant-storm",
+  "skill_name": "Giant Storm",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 501 refresh: current skill documentation reconfirms Skill Shop acquisition, 300-Ki Ki Blast Ultimate classification, long-range tracking explosion, single-hit launch, and backdraft-guard behavior. Exact tracking envelope, frames, and scaling remain unresolved.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
