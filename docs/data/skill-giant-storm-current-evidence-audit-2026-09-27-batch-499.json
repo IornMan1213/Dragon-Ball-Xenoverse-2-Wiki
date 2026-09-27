@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-giant-storm",
+  "skill_name": "Giant Storm",
+  "batch": 499,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "evidence_summary": "Current skill documentation reconfirms Skill Shop acquisition, 300 Ki Ki Blast Ultimate classification, long-range tracking explosion, single-hit launch, and the upward/backdraft escape behavior. Exact charge timing, tracking envelope, frames, and scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded repository corroboration.",
+  "canonical_sync": "Synchronized to the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
