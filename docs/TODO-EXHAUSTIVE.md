@@ -3131,3 +3131,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 <!-- 2026-09-27: Preserved six removed PQ151-154 Super Soul recovery claims in a dedicated disputed-provenance artifact; registered it in the cross-domain index. Next: stale canonical occurrence scan and validation. -->
+
+
+<!-- 2026-09-27: Stale canonical occurrence scan completed for six removed PQ151-154 recovery claims; five are absent from canonical indexes and the sixth is correctly retained at PQ138. Next: broader Super Soul canonical parity/reconciliation. -->
