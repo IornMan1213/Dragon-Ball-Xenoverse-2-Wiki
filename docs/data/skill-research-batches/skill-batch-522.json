@@ -1,0 +1,36 @@
+{
+  "batch": 522,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Innocence Breath",
+    "Innocence Bullet",
+    "Innocence Cannon",
+    "Instant Charge",
+    "Instant Rise",
+    "Instant Severance",
+    "Instant Transmission",
+    "Jumping Energy Wave",
+    "Justice Blade",
+    "Justice Combination",
+    "Justice Drive",
+    "Justice Kick",
+    "Justice Pose",
+    "Justice Rush",
+    "Kai Kai",
+    "Kaioken",
+    "Kaioken Kamehameha",
+    "Kairos Cannon",
+    "Kamehameha",
+    "Ki Explosion"
+  ],
+  "records_refreshed": 20,
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data remains the source of truth. Current evidence is appended as provenance support; unsupported frames, patch-independent scaling, probabilities, hidden conditions, and disputed acquisition semantics are not inferred.",
+  "sources": [
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://dbxenoverse.fandom.com/wiki/Category%3ASkill"
+  ]
+}
