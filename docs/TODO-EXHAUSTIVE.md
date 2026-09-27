@@ -4128,3 +4128,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved reward probabilities, exact frames, hidden conditions, disputed acquisition semantics, and patch-independent scaling rather than inferring them.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Exact next: continue the stale canonical Skill frontier after Raid Blast; re-fetch live SHAs before every mutation.
+
+
+### 2026-09-27 continuation — Recovery baseline correction / current frontier
+- [x] Verified the live recovery baseline: 474 canonical skills, 474 skill-index records, 474 canonical Skill→PQ reverse records, 246 Skill→PQ edges, 170 represented PQs, and 840 canonical PQ reward relationships (236 skill / 137 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming).
+- [x] Verified the current PQ equipment projection has 123 unique canonical targets and 123 endpoint identity matches with 0 gaps. Earlier notes reporting 72 remaining endpoint identity gaps are superseded by the later live reconciliation and must not be treated as outstanding work.
+- [x] Verified Super Soul PQ acquisition parity: 137 canonical PQ→Super Soul edges, 134 unique targets, 134 acquisition-index targets, and 168 canonical Super Soul records.
+- [x] Recovery remains source-bounded; no relationship or mechanic claims are to be reconstructed from secondary indexes when canonical source data survives.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Current frontier:** substantive Super Soul mechanics enrichment and remaining cross-domain coverage gaps. The latest Super Soul mechanics audit reports 172 records in the mechanics layer, with 80 records still carrying partial mechanics coverage; missing fields remain unresolved rather than inferred.
