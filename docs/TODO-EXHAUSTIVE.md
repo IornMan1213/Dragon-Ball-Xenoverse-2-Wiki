@@ -3452,3 +3452,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Restored Item Shop acquisition from current catalogue evidence.
 - [x] Preserved canonical-data-first handling and secondary XL interpretation.
 - [ ] Next: unresolved 138–142.
+
+
+### 2026-09-27 continuation — Super Souls 138–142 negative-evidence reconciliation
+- [x] Rechecked exact identities 138–142; no current item-level matches found.
+- [x] Preserved them as unresolved historical identities without invented mechanics/acquisition/Limit Burst data.
+- [ ] Next: trace provenance of the five legacy records.
