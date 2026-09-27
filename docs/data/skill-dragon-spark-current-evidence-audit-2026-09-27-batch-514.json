@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "skill_name": "Dragon Spark",
+  "skill_id": "skill-dragon-spark",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Spark"
+  ],
+  "findings": [
+    "100-Ki Strike Super from PQ177.",
+    "Power Pole uppercut followed by a second extension; holding the input charges the follow-up.",
+    "Existing 50% Ultimate Finish acquisition evidence and conflicting reward-table presentation remain preserved."
+  ]
+}
