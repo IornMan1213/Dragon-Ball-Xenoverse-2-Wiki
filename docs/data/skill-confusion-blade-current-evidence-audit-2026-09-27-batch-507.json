@@ -1,0 +1,15 @@
+{
+  "skill_name": "Confusion Blade",
+  "batch": 507,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "Current source refresh: 50% Tokipedia; 100 Ki; Ki Blast Super; tracking spikes; directional shift.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported values remain source-bounded observations; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted.",
+  "source_domains": [
+    "dbxv2.fandom.com",
+    "dragonball.fandom.com",
+    "dragon-ball-official.com"
+  ]
+}
