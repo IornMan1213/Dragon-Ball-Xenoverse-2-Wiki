@@ -99,5 +99,11 @@
     "result": "The established 474-skill / 246-edge / 170-represented-PQ projection is unchanged; no canonical skill relationship data was modified.",
     "validator_commit": "0779139d3d6456eaf32fe32ee28ba80262f900eb",
     "evidence_boundary": "This validates explicit skill→PQ endpoints represented by docs/data/skills.json. It does not infer missing skill rewards for PQs without canonical source_parallel_quests endpoints."
+  },
+  "validator_hardening_2026_09_27_duplicate_preprojection": {
+    "change": "Added an explicit duplicate source_parallel_quests assertion before reverse-index projection.",
+    "result": "The existing 474-skill / 246-edge / 170-PQ projection remains unchanged.",
+    "validator_commit": "ba43631d9bed84146a8d776d8552766528e08903",
+    "evidence_boundary": "Explicit skill→PQ endpoints only; no missing PQ rewards are inferred."
   }
 }
