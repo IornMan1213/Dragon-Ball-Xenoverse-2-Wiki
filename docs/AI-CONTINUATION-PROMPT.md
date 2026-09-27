@@ -3989,3 +3989,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Batch manifest validation records **474 canonical / 474 index records** and **8 synchronized records** with zero canonical identity changes and zero unsupported claims added.
 - [ ] Next priority: perform a new Batch 498 census from the live 474-record corpus, then continue current-evidence mechanics enrichment.
 - [ ] After Batch 498, reconcile PQ→skill and skill→PQ projections again and continue expansion toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 498 current-evidence frontier
+- [x] Performed a fresh post-Batch-497 frontier selection; Batch 497 candidates were not reused as the selection basis.
+- [x] Completed bounded current-evidence refreshes for 16 records: **Quick Sleep, Super Saiyan Blue Kaioken, Meteor Burst, Kill Driver, Fighting Pose G, Punisher Shield, Fighting Pose B, Fake Death, Mach Dash, Giant Storm, Meditation, Fighting Pose I, Fighting Pose J, Hell Flash, Weekend, and Super Kamehameha (SS4 DAIMA)**.
+- [x] Added 16 dated Batch 498 audit artifacts and recorded the Batch 498 manifest with **474 canonical / 474 index records** and zero canonical identity changes.
+- [x] Validated both live Skills layers after the frontier: **474 records / 474 unique IDs** in each layer.
+- [x] Preserved evidence boundaries and historical provenance; source-reported numbers remain source-bound and unsupported frames, hidden interactions, universal scaling, and reward probabilities were not invented.
+- [ ] Next priority: perform a fresh Batch 499 census from the post-Batch-498 corpus, then reconcile PQ→Skill and Skill→PQ projections after the enlarged evidence frontier.
+- [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
