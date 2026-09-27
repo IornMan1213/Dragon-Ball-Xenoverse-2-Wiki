@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "skill_name": "Dynamite Kick",
+  "skill_id": "skill-dynamite-kick",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dynamite_Kick"
+  ],
+  "findings": [
+    "100-Ki chargeable Strike Super learned through Hercule training.",
+    "Short-range kick; current source reports about 0.5% base damage and about 25% fully charged.",
+    "Exact charge timing and patch-independent damage remain unresolved."
+  ]
+}
