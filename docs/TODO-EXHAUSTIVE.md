@@ -3641,3 +3641,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries and historical provenance; source-reported numbers remain source-bound and unsupported frames, hidden interactions, universal scaling, and reward probabilities were not invented.
 - [ ] Next priority: perform a fresh Batch 499 census from the post-Batch-498 corpus, then reconcile PQ→Skill and Skill→PQ projections after the enlarged evidence frontier.
 - [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 497 synchronization and parity validation
+- [x] Completed fresh Batch 497 current-evidence frontier for **Ice Cannon, Final Flash (Super), God Splitter, Formation!, Majin Kamehameha, Feint Crash, Paralysis, and Menacing Flare**; candidate list was newly selected from the live corpus and did not reuse Batch 496 names.
+- [x] Added eight dedicated Batch 497 evidence audit records plus the Batch 497 frontier census.
+- [x] Synchronized all eight evidence refreshes into `docs/data/skills.json` and `docs/data/skills-index.json` without changing canonical IDs or names.
+- [x] Git-blob validation confirms **474 canonical Skills / 474 index records**, exact ID/name parity, **0 missing**, **0 extra**, parity=true.
+- [x] Preserved bounded evidence and historical snapshots; no unsupported exact frames, hidden gates, probabilities, or patch-independent scaling were promoted to canonical facts.
+- [ ] Next priority: perform a new **Batch 498** census from the live 474-record corpus, excluding Batch 496 and 497 candidates, then continue current-evidence/mechanics enrichment.
+- [ ] Re-run PQ→skill and skill→PQ navigation integrity after the next enrichment cycle and continue expansion toward the 672 indexed-category target.
