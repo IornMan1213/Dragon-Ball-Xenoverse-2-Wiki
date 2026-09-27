@@ -3111,3 +3111,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Kept reward-slot certainty, route/version provenance, and unresolved semantics separate from identity promotion.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue evidence-backed promotion of the remaining 67 endpoint identities, prioritizing explicit inventory names from PQ research and avoiding generic set/component labels.
+
+### 2026-09-27 continuation — PQ 152–183 accessory endpoint batch
+- [x] Promoted 13 explicitly named accessory endpoints from PQ reward normalization: Android 17 (DB Super) Ranger Wig, King Vegeta (DB Super) Wig, Gamma 2 Helmet, Dr. Hedo Hood, Red Ribbon Army Helmet, Videl (DB Super) Wig, SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Wig, Glorio Wig, Panzy Wig, Golden Frieza Head, Cheelai's Coat, and Broly Wig (Black Hair, Normal).
+- [x] Recomputed live PQ→equipment coverage: 125 edges / 123 unique targets / 68 exact endpoint identities / 55 remaining identity gaps.
+- [x] Refreshed the endpoint report and audit; reward conditions and version provenance remain explicitly unresolved where not established.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** promote the remaining 55 endpoint identities using explicit reward-normalization evidence, with clothing/accessory domain classification kept separate.
