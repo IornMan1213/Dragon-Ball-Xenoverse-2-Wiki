@@ -12,7 +12,10 @@
       "id": "acc-001",
       "name": "Piccolo's Turban",
       "category": "headwear",
-      "acquisition_routes": ["Parallel Quest 3", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 3",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -26,7 +29,10 @@
       "id": "acc-002",
       "name": "Pan's Bandana",
       "category": "headwear",
-      "acquisition_routes": ["Parallel Quest 93 reported", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 93 reported",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "DLC-related route reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -40,7 +46,10 @@
       "id": "acc-003",
       "name": "Dr. Gero's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop", "Parallel Quest 27 reported"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Parallel Quest 27 reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -54,7 +63,10 @@
       "id": "acc-004",
       "name": "Android 19's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop", "Parallel Quest 28 reported"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Parallel Quest 28 reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -68,7 +80,10 @@
       "id": "acc-005",
       "name": "Great Saiyaman Helmet",
       "category": "headwear",
-      "acquisition_routes": ["Parallel Quest 51 reported", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 51 reported",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -82,7 +97,9 @@
       "id": "acc-006",
       "name": "Chi-Chi's Helmet",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": "Female-only reported",
       "combat_effect": "cosmetic",
@@ -96,7 +113,9 @@
       "id": "acc-007",
       "name": "Ox-King's Helmet",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": "Male-only reported",
       "combat_effect": "cosmetic",
@@ -110,7 +129,10 @@
       "id": "acc-008",
       "name": "Mr. Popo's Turban",
       "category": "headwear",
-      "acquisition_routes": ["TP Medal Shop", "DLC PQ route reported"],
+      "acquisition_routes": [
+        "TP Medal Shop",
+        "DLC PQ route reported"
+      ],
       "dlc_provenance": "DLC-related",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -124,7 +146,10 @@
       "id": "acc-009",
       "name": "Saiyuki Hood",
       "category": "hood",
-      "acquisition_routes": ["Shenron wish reported", "TP Medal Shop reported"],
+      "acquisition_routes": [
+        "Shenron wish reported",
+        "TP Medal Shop reported"
+      ],
       "dlc_provenance": "base_game_and_shop_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -138,7 +163,9 @@
       "id": "acc-010",
       "name": "Launch's Wig",
       "category": "wig",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "GT-related DLC route reported",
       "restrictions": "Female-only reported",
       "combat_effect": "cosmetic",
@@ -152,7 +179,10 @@
       "id": "acc-011",
       "name": "Goku's Wig",
       "category": "wig",
-      "acquisition_routes": ["Parallel Quest 10 reported", "Parallel Quest 25 reported by another source"],
+      "acquisition_routes": [
+        "Parallel Quest 10 reported",
+        "Parallel Quest 25 reported by another source"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -167,7 +197,9 @@
       "id": "acc-012",
       "name": "Goku Wig (Super Saiyan)",
       "category": "wig",
-      "acquisition_routes": ["Parallel Quest 18"],
+      "acquisition_routes": [
+        "Parallel Quest 18"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -181,7 +213,9 @@
       "id": "acc-013",
       "name": "Angel Halo",
       "category": "halo",
-      "acquisition_routes": ["Parallel Quest 10"],
+      "acquisition_routes": [
+        "Parallel Quest 10"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -194,7 +228,9 @@
       "id": "acc-014",
       "name": "Angel Wings",
       "category": "wings",
-      "acquisition_routes": ["Parallel Quest 34"],
+      "acquisition_routes": [
+        "Parallel Quest 34"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -207,7 +243,9 @@
       "id": "acc-015",
       "name": "Old Model Scouter (Blue)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -221,7 +259,9 @@
       "id": "acc-016",
       "name": "Old Model Scouter (Green)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -235,7 +275,9 @@
       "id": "acc-017",
       "name": "Old Model Scouter (Purple)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -249,7 +291,9 @@
       "id": "acc-018",
       "name": "Old Model Scouter (Red)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -263,7 +307,9 @@
       "id": "acc-019",
       "name": "Scouter (Blue)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -277,7 +323,9 @@
       "id": "acc-020",
       "name": "Scouter (Green)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -291,7 +339,9 @@
       "id": "acc-021",
       "name": "Scouter (Purple)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -305,7 +355,9 @@
       "id": "acc-022",
       "name": "Scouter (Red)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -319,7 +371,9 @@
       "id": "acc-023",
       "name": "New Model Scouter (Blue)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -333,7 +387,9 @@
       "id": "acc-024",
       "name": "New Model Scouter (Green)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -347,7 +403,9 @@
       "id": "acc-025",
       "name": "New Model Scouter (Purple)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -361,7 +419,9 @@
       "id": "acc-026",
       "name": "New Model Scouter (Red)",
       "category": "scouter",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -375,7 +435,10 @@
       "id": "acc-027",
       "name": "Tapion's Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Parallel Quest 22 reported", "TP Medal Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 22 reported",
+        "TP Medal Shop reported"
+      ],
       "dlc_provenance": "base_game_and_shop_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -389,7 +452,9 @@
       "id": "acc-028",
       "name": "Yamcha's Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -402,7 +467,10 @@
       "id": "acc-029",
       "name": "Z-Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Parallel Quest 35", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Parallel Quest 35",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -416,7 +484,10 @@
       "id": "acc-030",
       "name": "Turtle Hermit's Shell",
       "category": "equipment accessory",
-      "acquisition_routes": ["Accessory Shop", "Turtle Hermit Set"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Turtle Hermit Set"
+      ],
       "dlc_provenance": "base_game_and_costume_pack_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -430,7 +501,9 @@
       "id": "acc-031",
       "name": "Turtle Hermit's Staff",
       "category": "staff",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -443,7 +516,10 @@
       "id": "acc-032",
       "name": "Turtle Hermit's Beard",
       "category": "beard",
-      "acquisition_routes": ["Accessory Shop", "Turtle Hermit Set"],
+      "acquisition_routes": [
+        "Accessory Shop",
+        "Turtle Hermit Set"
+      ],
       "dlc_provenance": "base_game_and_costume_pack_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -457,7 +533,9 @@
       "id": "acc-033",
       "name": "Arale-chan's Cap",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -470,7 +548,9 @@
       "id": "acc-034",
       "name": "Arale-chan's Poop Stick",
       "category": "prop",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -483,7 +563,9 @@
       "id": "acc-035",
       "name": "Fortune Teller Baba's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": "Female-only reported",
       "combat_effect": "cosmetic",
@@ -496,7 +578,9 @@
       "id": "acc-036",
       "name": "Gohan Mask",
       "category": "mask",
-      "acquisition_routes": ["Accessory Shop reported"],
+      "acquisition_routes": [
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -509,7 +593,9 @@
       "id": "acc-037",
       "name": "Master Korin's Staff",
       "category": "staff",
-      "acquisition_routes": ["Accessory Shop"],
+      "acquisition_routes": [
+        "Accessory Shop"
+      ],
       "dlc_provenance": "base_game",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -522,7 +608,11 @@
       "id": "acc-038",
       "name": "Frieza's Head (Final Form)",
       "category": "head",
-      "acquisition_routes": ["Time Patrol Support Pack", "Crystal Raid reward reported", "alternate in-game route reported"],
+      "acquisition_routes": [
+        "Time Patrol Support Pack",
+        "Crystal Raid reward reported",
+        "alternate in-game route reported"
+      ],
       "dlc_provenance": "DLC",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -536,7 +626,10 @@
       "id": "acc-039",
       "name": "Korin Wig with Ears & Tail",
       "category": "wig/tail",
-      "acquisition_routes": ["Time Patrol Support Pack", "alternate in-game route reported"],
+      "acquisition_routes": [
+        "Time Patrol Support Pack",
+        "alternate in-game route reported"
+      ],
       "dlc_provenance": "DLC",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -549,7 +642,10 @@
       "id": "acc-040",
       "name": "SS Rosé Wig",
       "category": "wig",
-      "acquisition_routes": ["Goku Character Gift reported", "Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Goku Character Gift reported",
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "event_and_gift_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -563,7 +659,11 @@
       "id": "acc-041",
       "name": "Golden Scouter",
       "category": "scouter",
-      "acquisition_routes": ["Nappa Character Gift reported", "Vegeta Character Gift reported", "Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Nappa Character Gift reported",
+        "Vegeta Character Gift reported",
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "event_and_gift_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -577,7 +677,10 @@
       "id": "acc-042",
       "name": "Golden Great Ape Hat & Tail",
       "category": "wig/tail",
-      "acquisition_routes": ["Gohan (Kid) Character Gift reported", "Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Gohan (Kid) Character Gift reported",
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "event_and_gift_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -591,7 +694,9 @@
       "id": "acc-043",
       "name": "Android 21 Wig & Glasses",
       "category": "wig/glasses",
-      "acquisition_routes": ["Raid reward reported"],
+      "acquisition_routes": [
+        "Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -604,7 +709,10 @@
       "id": "acc-044",
       "name": "Tapion Wig",
       "category": "wig",
-      "acquisition_routes": ["Ranked event reported", "raid/event research"],
+      "acquisition_routes": [
+        "Ranked event reported",
+        "raid/event research"
+      ],
       "dlc_provenance": "event",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -617,7 +725,9 @@
       "id": "acc-045",
       "name": "Fused Zamasu Wig",
       "category": "wig",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -630,7 +740,10 @@
       "id": "acc-046",
       "name": "Tiencha Wig",
       "category": "wig",
-      "acquisition_routes": ["Crystal Raid reward reported", "Accessory Shop reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported",
+        "Accessory Shop reported"
+      ],
       "dlc_provenance": "event_and_shop_routes_reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -644,7 +757,9 @@
       "id": "acc-047",
       "name": "Janemba's Sword",
       "category": "weapon-like cosmetic",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -657,7 +772,9 @@
       "id": "acc-048",
       "name": "Universe 6 Supreme Kai's Helper's Hat",
       "category": "headwear",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -670,7 +787,9 @@
       "id": "acc-049",
       "name": "Lord Zuno's Topknot Wig",
       "category": "wig",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
@@ -683,13 +802,30 @@
       "id": "acc-050",
       "name": "Tights Hat",
       "category": "headwear",
-      "acquisition_routes": ["Crystal Raid reward reported"],
+      "acquisition_routes": [
+        "Crystal Raid reward reported"
+      ],
       "dlc_provenance": "raid",
       "restrictions": null,
       "combat_effect": "cosmetic",
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest"
+      ]
+    },
+    {
+      "id": "acc-051",
+      "name": "Goku Wig (Ultra Instinct)",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 125"
+      ],
+      "dlc_provenance": "DLC-related route reported",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "indexed",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     }
   ]
