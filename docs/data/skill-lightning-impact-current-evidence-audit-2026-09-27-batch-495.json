@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-lightning-impact",
+  "skill_name": "Lightning Impact",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki, 20-hit chargeable Ki Blast Ultimate; source reports about 25% base and 35% fully charged damage, with protection while charging and paralysis if an attacker touches the charging user.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Lightning_Impact",
+    "https://dragonball.fandom.com/wiki/Lightning_Impact",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Numerical damage and defensive/paralysis behavior remain source-bound; exact frames, charge timing, and scaling are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}

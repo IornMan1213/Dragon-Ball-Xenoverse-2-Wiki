@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-jumping-energy-wave",
+  "skill_name": "Jumping Energy Wave",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super that fires a Ki wave directly beneath the user while the user rises; current record reports about 5% displayed damage and TP Medal Shop acquisition.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Jumping_Energy_Wave",
+    "https://dragonball.fandom.com/wiki/Jumping_Energy_Wave",
+    "https://store.steampowered.com/news/posts/?appids=454650&enddate=1519813421"
+  ],
+  "evidence_boundary": "Current acquisition/provenance and source-reported damage are supported; exact frames, hitbox geometry, and shop-rotation timing are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}

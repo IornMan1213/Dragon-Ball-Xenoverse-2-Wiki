@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-justice-kick",
+  "skill_name": "Justice Kick",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super; forward rolling kick that can cancel weak Ki Blasts; additional input consumes 100 Ki for Justice Crush. Dedicated source reports about 15% damage for each stage.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Justice_Kick",
+    "https://dragonball.fandom.com/wiki/Justice_Kick",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "evidence_boundary": "Source-reported damage is retained as bounded evidence; exact frames, universal scaling, and the repository's documented 40% reward-roll figure are not re-inferred.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}

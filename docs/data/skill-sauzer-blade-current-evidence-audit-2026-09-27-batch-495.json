@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-sauzer-blade",
+  "skill_name": "Sauzer Blade",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super; five tracking Ki-blade slashes for about 10% reported total damage, with weak-Ki-Blast cancellation and a brief airborne follow-up window.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Sauzer_Blade",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+  ],
+  "evidence_boundary": "Source-reported hit count/damage and tracking description are retained; exact tracking strength, frames, and scaling remain unresolved.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}

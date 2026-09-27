@@ -1,3 +1,13 @@
+### 2026-09-27 continuation — Runtime/CI intentionally non-blocking; Batch 495 data enrichment
+- [x] User-directed policy for this continuation: treat runtime execution/CI as non-blocking for the time being and continue substantive data/research work instead of waiting on runtime infrastructure.
+- [x] Fresh live mechanics frontier was re-censused after Batch 494; no stale candidate list was reused.
+- [x] Enriched 8 previously unaudited canonical skill records: Burst Charge, Super Gamma Blast, Justice Kick, Sauzer Blade, Lightning Impact, Instant Rise, Jumping Energy Wave, and Power Impact.
+- [x] Added eight current-evidence audit records plus Batch 495 and its thin-frontier audit; registered all artifacts in docs/data/pq-cross-domain-index.json.
+- [x] Preserved acquisition conflicts and source-bound numerical evidence rather than inventing reward probabilities, frames, or hidden mechanics.
+- [x] No missing general PQ reward dataset was fabricated; docs/data/pq-reward-relationships.json remains an evidence boundary.
+- [x] Runtime/CI note: runtime validator execution, GitHub Actions, and build execution are intentionally not gating this data-research cycle. Continue substantive repository data work while those systems are unavailable; mark runtime status unverified rather than treating it as a blocker.
+- [ ] Exact next: fresh live census before Batch 496 and continue enriching the highest-value remaining unaudited canonical skill/data records; do not reuse the Batch 495 candidate list.
+
 ### 2026-09-27 continuation — Partner skill relationship identity validation-order hardening
 - [x] Inspected the live `scripts/validate_partner_skill_relationships.py`.
 - [x] Found a concrete robustness gap: malformed/unhashable canonical skill IDs or partner names could reach `Counter`/set construction, and malformed relationship-row identifiers could reach set membership/duplicate-key tracking before type validation, causing uncontrolled `TypeError` failures.

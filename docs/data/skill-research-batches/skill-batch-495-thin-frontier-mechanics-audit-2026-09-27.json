@@ -1,0 +1,16 @@
+{
+  "date": "2026-09-27",
+  "type": "thin_frontier_mechanics_audit",
+  "method": "Fresh live census after Batch 494; prior candidate lists were not reused. Eight shortest remaining unaudited records were manually rechecked against current evidence.",
+  "selected": [
+    "skill-burst-charge",
+    "skill-super-gamma-blast",
+    "skill-justice-kick",
+    "skill-sauzer-blade",
+    "skill-lightning-impact",
+    "skill-instant-rise",
+    "skill-jumping-energy-wave",
+    "skill-power-impact"
+  ],
+  "next": "Fresh live census before Batch 496; do not reuse this candidate list."
+}

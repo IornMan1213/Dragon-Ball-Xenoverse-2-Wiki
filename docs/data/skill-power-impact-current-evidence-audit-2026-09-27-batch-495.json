@@ -1,0 +1,16 @@
+{
+  "skill_id": "skill-power-impact",
+  "skill_name": "Power Impact",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super; 5 base hits and up to 15 charged hits, with a maintained source-reported temporary Ultimate Attack power increase.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Power_Impact",
+    "https://dragonball.fandom.com/wiki/Power_Impact",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76369630"
+  ],
+  "evidence_boundary": "Source-reported numerical mechanics and PQ120 reward evidence are retained; reward-tier conflict, exact frames, hidden interactions, and universal scaling remain unresolved.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}

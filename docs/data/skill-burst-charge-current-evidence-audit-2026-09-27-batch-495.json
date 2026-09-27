@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-burst-charge",
+  "skill_name": "Burst Charge",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Other Super charge skill; starts charging extremely quickly and slows as charge time increases, making short bursts useful.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Burst_Charge",
+    "https://gamefaqs.gamespot.com/xboxone/190457-dragon-ball-xenoverse-2/answers/625344-how-do-i-get-ultimate-charge-pq-134",
+    "https://steamcommunity.com/app/454650/discussions/0/2564160288795268295/"
+  ],
+  "evidence_boundary": "Current-source charge behavior is supported. PQ134 reward-tier/Ultimate-Finish semantics remain conflicting across sources and are not normalized here.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; no skill identity or acquisition endpoint changed."
+}

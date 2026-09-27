@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-super-gamma-blast",
+  "skill_name": "Super Gamma Blast",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Ki Blast Ultimate; straight red blaster beam whose size and damage increase while the input is held.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Gamma_Blast",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://en.dragon-ball-official.com/news/01_1435.html"
+  ],
+  "evidence_boundary": "Charge behavior is supported; exact current damage, charge timing, frames, and scaling are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}

@@ -1,0 +1,17 @@
+{
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "complete",
+  "scope": "Fresh live mechanics frontier after Batch 494; eight genuinely unaudited records selected after excluding every prior registered current-evidence audit.",
+  "selected": [
+    "Burst Charge",
+    "Super Gamma Blast",
+    "Justice Kick",
+    "Sauzer Blade",
+    "Lightning Impact",
+    "Instant Rise",
+    "Jumping Energy Wave",
+    "Power Impact"
+  ],
+  "evidence_boundary": "Current Xenoverse 2-specific evidence and bounded source-reported values only; unsupported exact frames, probabilities, hidden interactions, and patch-independent scaling excluded."
+}

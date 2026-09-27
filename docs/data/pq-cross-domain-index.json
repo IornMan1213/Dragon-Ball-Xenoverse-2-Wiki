@@ -141,7 +141,17 @@
     "skill_batch_408_thin_frontier": "docs/data/skill-research-batches/skill-batch-408-thin-frontier-mechanics-audit-2026-09-25.json",
     "skill_batch_409": "docs/data/skill-research-batches/skill-batch-409.json",
     "partner_skill_relationships": "docs/data/partner-skill-relationships.json",
-    "partner_skill_relationship_census_2026_09_26": "docs/data/partner-skill-relationship-census-2026-09-26.json"
+    "partner_skill_relationship_census_2026_09_26": "docs/data/partner-skill-relationship-census-2026-09-26.json",
+    "skill_batch_495_current_evidence": "docs/data/skill-research-batches/skill-batch-495.json",
+    "skill_batch_495_thin_frontier_mechanics_audit": "docs/data/skill-research-batches/skill-batch-495-thin-frontier-mechanics-audit-2026-09-27.json",
+    "skill_burst_charge_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-burst-charge-current-evidence-audit-2026-09-27-batch-495.json",
+    "skill_super_gamma_blast_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-super-gamma-blast-current-evidence-audit-2026-09-27-batch-495.json",
+    "skill_justice_kick_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-justice-kick-current-evidence-audit-2026-09-27-batch-495.json",
+    "skill_sauzer_blade_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-sauzer-blade-current-evidence-audit-2026-09-27-batch-495.json",
+    "skill_lightning_impact_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-lightning-impact-current-evidence-audit-2026-09-27-batch-495.json",
+    "skill_instant_rise_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-instant-rise-current-evidence-audit-2026-09-27-batch-495.json",
+    "skill_jumping_energy_wave_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-jumping-energy-wave-current-evidence-audit-2026-09-27-batch-495.json",
+    "skill_power_impact_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-power-impact-current-evidence-audit-2026-09-27-batch-495.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",

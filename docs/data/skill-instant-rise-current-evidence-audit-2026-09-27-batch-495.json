@@ -1,0 +1,15 @@
+{
+  "skill_id": "skill-instant-rise",
+  "skill_name": "Instant Rise",
+  "batch": 495,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Stamina Evasive Skill that rapidly ascends to evade attacks; current record supports CaC availability and PQ37 acquisition.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Instant_Rise",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dragonball.fandom.com/wiki/Instant_Rise"
+  ],
+  "evidence_boundary": "Exact invulnerability frames, hidden timing windows, and patch-independent movement properties are not asserted.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json."
+}
