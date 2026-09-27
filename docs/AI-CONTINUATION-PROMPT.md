@@ -3785,3 +3785,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Rechecked recent community discussion; it did not provide a reliable mechanic for 034.
 - [x] Kept 034 mechanics and Limit Burst unresolved; no unsupported inference made.
 - [ ] Next priority: move to the remaining thin/unresolved Super Soul records.
+
+
+### 2026-09-27 continuation — Super Soul 137
+- [x] Reconciled 137 as Frieza (First Form): guard break reduces damage received from all attacks; Limit Burst = DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.
+- [x] Preserved XL as secondary evidence rather than treating its numeric interpretation as canonical.
+- [ ] Next: continue the remaining unresolved Super Soul records.
