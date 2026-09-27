@@ -4593,3 +4593,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the supporting research source and updated the mechanics audit. Active Limit Burst-effect coverage is now **164/167**, leaving 3 active records unresolved in that field.
 - [x] No acquisition relationship or unrelated mechanic was inferred; the existing ~5000 damage / 15% all-ability effect remains explicitly secondary evidence.
 - [ ] Continue source-backed enrichment of the remaining active mechanics gaps, prioritizing direct item-level evidence and keeping secondary findings labeled.
+
+
+### 2026-09-27 continuation — PQ 185 Super Soul evidence refresh
+- [x] Rechecked current 2026 player-testing evidence for `super-soul-032` and `super-soul-033` from PQ 185. The discussion independently reports the existing 20% mechanics values already recorded in the canonical layer.
+- [x] Added the current secondary research source and refreshed verification classification/date for both records. No new mechanics or Limit Burst behavior was inferred.
+- [x] The three active records still lacking `limit_burst_effect` remain `super-soul-032`, `super-soul-033`, and `super-soul-034`; the first two now have refreshed secondary mechanics evidence, while Super Soul 034 remains unresolved at item-mechanics level.
+- [ ] Continue searching for explicit Limit Burst/item-level evidence; do not manufacture missing values from neighboring records or names.
