@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "validate_skills now rejects malformed JSON/root/container types and malformed canonical identity fields instead of silently coercing them.",
+    "reconcile_pq_forward_reverse now handles malformed JSON deterministically and only accepts canonical pq-001 through pq-186 identifiers before numeric projection."
+  ],
+  "canonical_data_changed": false
+}
