@@ -3389,3 +3389,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-soul-pq-151-154-source-conflict-audit-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
 - [x] Preserved the canonical relationship layer and deliberately did **not** overwrite it or infer mechanics from the conflicting external table.
 - [ ] **Exact next:** continue from super-soul-137 onward using item-level evidence; resolve the documented conflict only when stronger evidence identifies the actual canonical item, and do not convert absence from an external table into a negative claim.
+
+
+### 2026-09-27 continuation — PQ 151–154 conflict deep reconciliation
+- [x] Expanded the PQ 151–154 conflict audit with exact independent reward names from the all-186-PQ guide and the current Super Soul table.
+- [x] Confirmed the external evidence explicitly gives: PQ151 = `I think I'm getting the hang of this.` + `I'll keep adding a bit of power to my attacks!`; PQ152 = `I will put a stop to you, fiend!`; PQ153 = `There's more where that came from!` + `You're not much of a fun fight!`; PQ154 has no Super Soul in the cited basic reward list.
+- [x] Confirmed these differ from the six currently stored canonical PQ 151–154 Super Soul endpoints.
+- [x] Kept the canonical relationship layer unchanged for now; the discrepancy is now explicitly structured as a correction candidate rather than silently overwriting recovered data.
+- [ ] **Exact next:** perform a dedicated canonical reward-normalization correction batch for PQ 151–154, using explicit item-level/DLC evidence and preserving disputed historical claims/provenance.
