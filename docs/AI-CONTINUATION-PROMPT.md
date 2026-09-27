@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — PQ cross-domain forward-path integrity hardening
+- [x] Inspected the live `scripts/validate_pq_cross_domain_index.py` after the Partner skill validator.
+- [x] Found a path-integrity gap: an absolute forward-index path could bypass the repository root when resolved with `ROOT / forward`, and parent-directory traversal was not rejected.
+- [x] Hardened the validator to require the declared forward index to be repository-relative and reject absolute/traversal paths before filesystem resolution.
+- [x] Updated `docs/data/pq-cross-domain-index-validator-audit-2026-09-26.json`; the existing missing `docs/data/pq-reward-relationships.json` boundary remains unchanged.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the next live deterministic validator for another concrete schema/type/range/identity/projection gap; do not reconstruct the missing general PQ reward layer without an evidence-complete source.
+
 ### 2026-09-27 continuation — Partner skill identity uniqueness hardening
 - [x] Inspected the live `scripts/validate_partner_skill_relationships.py` as the next deterministic relationship validator.
 - [x] Found a projection gap: canonical skill IDs and bridge partner names were converted to sets, so duplicate identity records could be silently collapsed and escape detection.
