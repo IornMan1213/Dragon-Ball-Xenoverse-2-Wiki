@@ -3151,3 +3151,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] This is a cross-link/navigation recovery, not a mechanics invention: unresolved Super Soul mechanics remain explicitly unresolved.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** fresh mechanics-frontier census of the 134 canonical Super Soul targets; select the next under-detailed records with independent evidence, then synchronize canonical record, reverse/index projections, audit, and handoff.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 2
+- [x] Continued the fresh mechanics frontier with five indexed records: `super-soul-055` Finally, some excitement.; `super-soul-056` I...hate you!!!; `super-soul-057` Strengthen me, Shadow Dragons!; `super-soul-059` Revival of the Demon Realm is at hand; `super-soul-060` I'll make you regret that!.
+- [x] Promoted explicit character, trigger, effect, magnitude, duration/stacking where supported, Limit Burst, and CaC usability from current catalogue/guide evidence.
+- [x] Refreshed `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json`.
+- [x] Current coverage after this batch: trigger 54/168; effect 62/168; magnitude 56/168; duration 46/168; stacking 27/168; Limit Burst 52/168; Limit Burst effect 32/168; CaC 62/168.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue through the remaining 120 partial/indexed records, prioritizing rows with direct catalogue evidence that can safely populate several fields at once; do not infer undocumented mechanics or drop conditions.
