@@ -5,24 +5,31 @@
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_skill_dataset": "docs/data/skills.json",
   "canonical_skill_records": 474,
-  "linked_skill_rewards": 236,
-  "alias_matches": [],
-  "unresolved": [
+  "linked_skill_rewards": 235,
+  "alias_matches": [
     {
       "pq": 46,
-      "skill": "Chain Destructo-disc Barrage"
-    },
-    {
-      "pq": 90,
-      "skill": "III Bomber"
+      "skill": "Chain Destructo-disc Barrage",
+      "canonical_skill": "Chain Destructo-Disc Barrage",
+      "match": "alias"
     },
     {
       "pq": 104,
-      "skill": "Starfall"
+      "skill": "Starfall",
+      "canonical_skill": "Destruction's Concerto: Starfall",
+      "match": "alias"
     },
     {
       "pq": 163,
-      "skill": "Giant Cluster"
+      "skill": "Giant Cluster",
+      "canonical_skill": "Gigantic Cluster",
+      "match": "alias"
+    }
+  ],
+  "unresolved": [
+    {
+      "pq": 90,
+      "skill": "III Bomber"
     }
   ],
   "status": "unresolved_links",
@@ -283,8 +290,8 @@
     {
       "pq": 46,
       "skill": "Chain Destructo-disc Barrage",
-      "canonical_skill": "Chain Destructo-disc Barrage",
-      "match": "exact"
+      "canonical_skill": "Chain Destructo-Disc Barrage",
+      "match": "alias"
     },
     {
       "pq": 48,
@@ -527,12 +534,6 @@
       "match": "exact"
     },
     {
-      "pq": 90,
-      "skill": "III Bomber",
-      "canonical_skill": "III Bomber",
-      "match": "exact"
-    },
-    {
       "pq": 91,
       "skill": "Final Kamehameha",
       "canonical_skill": "Final Kamehameha",
@@ -613,8 +614,8 @@
     {
       "pq": 104,
       "skill": "Starfall",
-      "canonical_skill": "Starfall",
-      "match": "exact"
+      "canonical_skill": "Destruction's Concerto: Starfall",
+      "match": "alias"
     },
     {
       "pq": 105,
@@ -1201,8 +1202,8 @@
     {
       "pq": 163,
       "skill": "Giant Cluster",
-      "canonical_skill": "Giant Cluster",
-      "match": "exact"
+      "canonical_skill": "Gigantic Cluster",
+      "match": "alias"
     },
     {
       "pq": 163,
