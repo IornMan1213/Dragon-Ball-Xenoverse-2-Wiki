@@ -3280,3 +3280,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected `super-soul-163` / "Send me back to the planet I came from!" — Cheelai, once-only +300 Stamina to allies after an enemy Ultimate and 7-second damage nullification after Evasive, with Revive Gauge Auto-Recovery. citeturn3search0
 - [x] Preserved canonical-data-first rule: external evidence was used to reconcile mechanics, not to replace the repository's canonical record layer.
 - [ ] Continue auditing remaining records and then propagate validated mechanics/acquisition relationships through all cross-domain indexes.
+
+
+### 2026-09-27 continuation — Super Soul crosslink propagation audit
+- [x] Rechecked the canonical Super Soul endpoint layer after batches 8–9: 173 detailed records are present; all 134 unique canonical PQ→Super Soul targets still have detailed endpoint identities and acquisition-index entries.
+- [x] Refreshed `docs/data/pq-super-soul-crosslink-report.json` from stale 168-record metadata to the current 173-record canonical layer and marked mechanics enrichment as ongoing rather than implying it is complete.
+- [x] Refreshed `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json` to include the 148–152 enrichment batch while preserving its evidence policy.
+- [x] Confirmed the five Hero of Justice Pack 2 records 148–152 remain cross-linked to PQs 159–162; DLC documentation independently identifies five Super Souls across those four PQs. citeturn0search0turn0search2
+- [ ] Continue by resolving the remaining canonical mechanics gaps; do not enrich disputed historical records 137–141 and do not promote `verified` status as source-of-truth evidence.
