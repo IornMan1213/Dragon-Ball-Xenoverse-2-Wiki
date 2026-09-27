@@ -3993,3 +3993,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved canonical-source priority and evidence boundaries; no unsupported Skill→PQ edges, probabilities, hidden gates, exact frames, or patch-independent scaling were inferred.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] **Exact next:** fresh Batch 513 census, then continue expanding/reconciling PQ↔Skill↔other-domain navigation toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 513
+- [x] Fresh lexical frontier census selected **Dodoria Beam, Dodoria Headbutt, Dodoria Launcher, Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, Dragon Burn**.
+- [x] Refreshed all eight with current bounded evidence; canonical identity changes remain **0**.
+- [x] Corrected **Double Death Slicer** from **Super / 100 Ki** to **Ultimate / 300 Ki** based on current Xenoverse 2-specific evidence.
+- [x] Added eight evidence audits, finalized the Batch 513 manifest, and registered the artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Skill→PQ projection remains **246 canonical edges / 246 forward edges / 0 missing endpoints / 170 represented PQ IDs**; no new edge was inferred.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] **Next:** fresh Batch 514 census and the next substantive cross-domain enrichment cycle.

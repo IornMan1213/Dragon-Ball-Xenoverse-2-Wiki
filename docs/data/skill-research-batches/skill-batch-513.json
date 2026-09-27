@@ -1,0 +1,30 @@
+{
+  "batch": 513,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Dodoria Beam",
+    "Dodoria Headbutt",
+    "Dodoria Launcher",
+    "Double Crush",
+    "Double Death Slicer",
+    "Double Sunday",
+    "Dragon Blitz",
+    "Dragon Burn"
+  ],
+  "selection_rule": "Fresh post-Batch-512 census from the live 474-record canonical corpus; first eight lexical frontier records whose last_verified was older than 2026-09-27.",
+  "baseline": {
+    "canonical_records": 474
+  },
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "canonical_field_corrections": 1,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "audit_artifacts": 8,
+  "projection_check": "246 canonical Skill→PQ edges remain reconciled with 246 forward pq_rewards_skill edges; no new Skill→PQ relationship was inferred in Batch 513.",
+  "evidence_boundary": "Canonical data remains the source of truth; unsupported probabilities, hidden gates, exact frames, universal scaling, and new Skill→PQ edges were not inferred.",
+  "completed": true
+}

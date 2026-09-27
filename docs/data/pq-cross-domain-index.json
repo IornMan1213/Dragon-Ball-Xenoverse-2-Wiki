@@ -1921,5 +1921,32 @@
   "skill_burst-stinger_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-burst-stinger-current-evidence-audit-2026-09-27-batch-506.json",
   "skill_celestial-wave_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-celestial-wave-current-evidence-audit-2026-09-27-batch-506.json",
   "skill_chain-destructo-disc-barrage_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-chain-destructo-disc-barrage-current-evidence-audit-2026-09-27-batch-506.json",
-  "skill_chaos-shot_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-chaos-shot-current-evidence-audit-2026-09-27-batch-506.json"
+  "skill_chaos-shot_current_evidence_audit_2026_09_27_batch_506": "docs/data/skill-chaos-shot-current-evidence-audit-2026-09-27-batch-506.json",
+  "skill_batch_513_current_evidence": "docs/data/skill-research-batches/skill-batch-513.json",
+  "skill_dodoria-beam_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-dodoria-beam-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_dodoria-headbutt_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-dodoria-headbutt-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_dodoria-launcher_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-dodoria-launcher-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_double-crush_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-double-crush-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_double-death-slicer_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-double-death-slicer-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_double-sunday_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-double-sunday-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_dragon-blitz_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-dragon-blitz-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_dragon-burn_current_evidence_audit_2026_09_27_batch_513": "docs/data/skill-dragon-burn-current-evidence-audit-2026-09-27-batch-513.json",
+  "skill_batch_513_current_evidence_summary": {
+    "selected": [
+      "Dodoria Beam",
+      "Dodoria Headbutt",
+      "Dodoria Launcher",
+      "Double Crush",
+      "Double Death Slicer",
+      "Double Sunday",
+      "Dragon Blitz",
+      "Dragon Burn"
+    ],
+    "canonical_records": 474,
+    "refreshed": 8,
+    "canonical_field_corrections": 1,
+    "skill_pq_edges": 246,
+    "forward_skill_edges": 246,
+    "missing_skill_pq_endpoints": 0
+  }
 }

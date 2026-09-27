@@ -1,0 +1,29 @@
+{
+  "batch": 513,
+  "date": "2026-09-27",
+  "type": "current-evidence-audit",
+  "skill": "Double Death Slicer",
+  "canonical_source_of_truth": "docs/data/skills.json",
+  "refreshed_last_verified": "2026-09-27",
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Double_Death_Slicer",
+    "https://dragonball.fandom.com/wiki/Double_Death_Saucer",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74599740"
+  ],
+  "findings": "Current Xenoverse 2-specific references identify a 300-Ki Ki Blast Ultimate from PQ24. The canonical class/cost correction from Super/100 Ki to Ultimate/300 Ki was applied.",
+  "canonical_identity_changed": false,
+  "canonical_correction": {
+    "field_changes": [
+      "class: Super -> Ultimate",
+      "ki_cost: 100 -> 300"
+    ],
+    "reason": "Current Xenoverse 2-specific documentation identifies the technique as a 300-Ki Ki Blast Ultimate."
+  },
+  "unsupported_fields_preserved": [
+    "exact frames",
+    "universal damage/scaling",
+    "hidden interactions",
+    "reward probabilities unless explicitly documented"
+  ],
+  "completed": true
+}

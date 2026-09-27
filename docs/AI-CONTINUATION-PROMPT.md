@@ -4385,3 +4385,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved canonical-source priority and evidence boundaries; no unsupported Skill→PQ edges, probabilities, hidden gates, exact frames, or patch-independent scaling were inferred.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] **Exact next:** fresh Batch 513 census, then continue expanding/reconciling PQ↔Skill↔other-domain navigation toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 513 current-evidence refresh and canonical correction
+- [x] Fresh post-Batch-512 census selected **Dodoria Beam, Dodoria Headbutt, Dodoria Launcher, Double Crush, Double Death Slicer, Double Sunday, Dragon Blitz, and Dragon Burn** from the live 474-record canonical corpus.
+- [x] Completed bounded current-evidence refreshes for all eight records.
+- [x] Corrected **Double Death Slicer** canonical taxonomy/cost from **Super / 100 Ki** to **Ultimate / 300 Ki**, matching current Xenoverse 2-specific evidence.
+- [x] Synchronized `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identity changes: **0**.
+- [x] Added the Batch 513 manifest and eight dated evidence audits; registered them in the cross-domain index.
+- [x] Preserved evidence boundaries and did not infer unsupported probabilities, hidden gates, exact frames, universal scaling, or new Skill→PQ edges.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] **Exact next:** fresh Batch 514 census, then continue substantive cross-domain enrichment beyond the 474-record canonical seed toward the 672 indexed-category target.

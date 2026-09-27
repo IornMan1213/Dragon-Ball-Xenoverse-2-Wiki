@@ -1,0 +1,23 @@
+{
+  "batch": 513,
+  "date": "2026-09-27",
+  "type": "current-evidence-audit",
+  "skill": "Dodoria Headbutt",
+  "canonical_source_of_truth": "docs/data/skills.json",
+  "refreshed_last_verified": "2026-09-27",
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Dodoria_Headbutt",
+    "https://dragonball.fandom.com/wiki/Dodoria_Head_Breaker",
+    "https://dbxv2.fandom.com/wiki/Mentors"
+  ],
+  "findings": "Current accessible Xenoverse 2 references reconfirm 100-Ki Strike Super identity and Dodoria Lesson 2 acquisition; charge/guard-break and Ultimate-transition behavior retained.",
+  "canonical_identity_changed": false,
+  "canonical_correction": null,
+  "unsupported_fields_preserved": [
+    "exact frames",
+    "universal damage/scaling",
+    "hidden interactions",
+    "reward probabilities unless explicitly documented"
+  ],
+  "completed": true
+}
