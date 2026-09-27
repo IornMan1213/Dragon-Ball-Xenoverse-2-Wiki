@@ -15,7 +15,7 @@ REL = ROOT / "docs/data/pq-reward-relationships.json"
 def load_object(path: Path) -> dict:
     try:
         value = json.loads(path.read_text(encoding="utf-8"))
-    except Exception as exc:
+    except (OSError, json.JSONDecodeError) as exc:
         raise SystemExit(f"{path}: invalid JSON: {exc}") from exc
     if not isinstance(value, dict):
         raise SystemExit(f"{path}: root must be an object")
