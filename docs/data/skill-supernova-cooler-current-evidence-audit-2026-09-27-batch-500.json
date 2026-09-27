@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-supernova-cooler",
+  "skill_name": "Supernova Cooler",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "500-Ki Ki Blast Ultimate. Throws a large, power-packed Ki blast; current Xenoverse 2 references identify mentor training with Cooler (Final Form) as the acquisition endpoint. Exact startup, tracking, damage, and charge-frame data remain bounded pending dedicated mechanics evidence.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
