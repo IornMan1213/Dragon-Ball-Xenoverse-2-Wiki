@@ -2881,3 +2881,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - Canonical forward relationships remain authoritative; endpoint gaps are not negative reward claims. Ambiguous/component-only identities remain unresolved rather than inferred.
 - Runtime/CI remains intentionally non-blocking and unverified.
 - **Next:** continue evidence-backed promotion from the remaining 81 equipment/accessory endpoint identities, then advance DLC detail/taxonomy coverage.
+
+## 2026-09-27 Continuation Update — Equipment Endpoint Audit
+
+- Continued the PQ equipment consumer frontier after Super Soul coverage.
+- Added and corrected `docs/data/pq-equipment-endpoint-coverage-audit-2026-09-27.json` from the current canonical PQ equipment crosslink projection.
+- Current canonical PQ→equipment coverage: 125 edges, 123 unique targets, 42 exact endpoint identity matches, 81 endpoint identity enrichment gaps.
+- Endpoint layers currently expose 108 unique named equipment/accessory endpoints; missing endpoint records remain enrichment gaps and are never treated as negative acquisition claims.
+- Runtime/CI remains intentionally non-blocking per user instruction.
+- Next priority: evidence-backed promotion/enrichment of the 81 missing equipment endpoint identities, preserving canonical relationship authority and provenance; then validate/reconcile the resulting projection.
