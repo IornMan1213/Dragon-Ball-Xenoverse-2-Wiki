@@ -1,0 +1,17 @@
+{
+  "audit_date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "skill_name": "Dragon Fist",
+  "skill_id": "skill-dragon-fist",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Fist"
+  ],
+  "findings": [
+    "500-Ki Strike Ultimate.",
+    "TP Medal Shop acquisition; current page lists a 200 TP Medal historical price.",
+    "Kick/punch setup followed by Shenron-image piercing attack; current page reports 14 hits and about 50% damage.",
+    "Follow-up can fail if interrupted or avoided; exact startup/recovery/hit-confirm timing remains unresolved."
+  ]
+}
