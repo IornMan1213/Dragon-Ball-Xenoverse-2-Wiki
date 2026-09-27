@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Skill→PQ crosslink validator hardening
+- [x] Hardened `scripts/validate_skill_pq_crosslinks.py` against malformed canonical skills JSON and malformed checked-in reverse-index JSON.
+- [x] Replaced the validator's core canonical-schema `assert` checks with explicit failures so optimization cannot disable them.
+- [x] Preserved deterministic 474-skill / 246-edge / 170-PQ expectations.
+- [x] No canonical skill or relationship data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue auditing validators/consumers for substantive schema, identity, provenance, and cross-link integrity gaps.
+
 ### 2026-09-27 continuation — Super Soul/Awoken validator hardening
 - [x] Hardened `scripts/validate_super_soul_record_layer.py`: every provenance source entry must be a non-empty string.
 - [x] Hardened `scripts/validate_awoken_model.py`: deterministic malformed-JSON handling for skills, overrides, and canonical transformation roster sources.
