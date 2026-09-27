@@ -1714,13 +1714,6 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-049",
-      "relationship": "pq_rewards_super_soul",
-      "target": "Do or Die",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq": "pq-063",
       "relationship": "pq_rewards_super_soul",
       "target": "Before creation comes ruin...",
@@ -6203,6 +6196,13 @@
       "pq": "pq-153",
       "relationship": "pq_rewards_super_soul",
       "target": "You're not much of a fun fight!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-049",
+      "relationship": "pq_rewards_skill",
+      "target": "Do or Die",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
