@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "validate_character_presentation_consumers.py now handles malformed JSON deterministically and requires object roots; bare assert checks were replaced with explicit failures so validation cannot be disabled with python -O.",
+    "validate_awoken_integrity.py now handles malformed JSON deterministically and requires both source roots to be objects."
+  ],
+  "canonical_data_changed": false
+}
