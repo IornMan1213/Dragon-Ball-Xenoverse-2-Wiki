@@ -1,3 +1,13 @@
+### 2026-09-27 continuation — Super Soul record-layer validator hardening
+- [x] Inspected `scripts/validate_super_soul_record_layer.py`.
+- [x] Found a concrete schema-integrity gap: malformed JSON roots and non-object relationship/record containers could reach downstream projections without explicit type validation.
+- [x] Added deterministic JSON/root validation for both the Super Soul endpoint layer and canonical PQ relationship store.
+- [x] Require `verified_relationships` to be a list and Super Soul records to be objects before field access.
+- [x] Prevent malformed non-string relationship targets from becoming endpoint identities.
+- [x] No canonical Super Soul or PQ relationship data changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap.
+
 ### 2026-09-27 continuation — Skill acquisition validator hardening
 - [x] Inspected `scripts/validate_skill_acquisition_metadata.py`.
 - [x] Found a concrete validator-integrity flaw: all substantive checks used Python `assert`, which can be disabled with `python -O`, potentially turning invalid data into a false PASS.
