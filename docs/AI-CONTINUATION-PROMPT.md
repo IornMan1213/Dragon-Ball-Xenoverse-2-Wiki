@@ -1,3 +1,12 @@
+### 2026-09-26 continuation — PQ cross-domain index schema hardening
+- [x] Inspected the live validator set and confirmed most older PQ validators listed in `pq-cross-domain-index.json` are historical/missing; `scripts/validate_pq_cross_domain_index.py` is a current live validator.
+- [x] Hardened `scripts/validate_pq_cross_domain_index.py` to require exactly **7** reverse-index declarations, unique reverse-index report paths, and an exact `farming.source == forward_index` relationship.
+- [x] Added `docs/data/pq-cross-domain-index-validator-audit-2026-09-26.json` recording the expanded schema contract as passing and registered it under the index's current `integrity_audits`.
+- [x] No PQ reward relationship, endpoint identity, or absent reverse dataset was created or inferred.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** inspect the next live validator or deterministic consumer/projection, using the live script tree rather than stale index registrations; preserve historical/unreachable PQ reward/reverse references as provenance unless a complete producer exists.
+
 ### 2026-09-26 continuation — Skill acquisition metadata schema hardening
 - [x] Inspected the next live deterministic validator, `scripts/validate_skill_acquisition_metadata.py`, after the Partner Customization identity pass.
 - [x] Hardened the validator to require the `skills.json` root to be an object, `source_quest_or_shop` and `acquisition_type` to be non-empty strings, and `source_parallel_quests` to be a list with no duplicate PQ IDs.
