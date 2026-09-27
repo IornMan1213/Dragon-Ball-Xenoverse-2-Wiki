@@ -1,0 +1,10 @@
+{
+  "skill_name": "Afterimage Strike",
+  "batch": 503,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "summary": "2026-09-27 Batch 503 refresh: current repository evidence reconfirms PQ81 acquisition, Other Super classification, all-CaC-race availability, afterimage movement, and follow-up attack behavior. The quest reward placement is retained as source-backed; exact frames, probabilities, and scaling remain unresolved.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
