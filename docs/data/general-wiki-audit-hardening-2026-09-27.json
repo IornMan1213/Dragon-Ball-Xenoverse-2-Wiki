@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/audit_wiki_data.py",
+  "changes": [
+    "JSON file errors are now handled uniformly, including unreadable files.",
+    "Record IDs and names are explicitly required to be non-empty strings when present instead of being coerced with str().",
+    "sources containers and individual provenance entries are explicitly type-checked.",
+    "verification_status must be a string in the allowed state set."
+  ],
+  "canonical_data_changed": false
+}
