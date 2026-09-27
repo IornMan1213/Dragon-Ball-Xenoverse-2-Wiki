@@ -1,3 +1,12 @@
+### 2026-09-26 continuation — Skill acquisition metadata schema hardening
+- [x] Inspected the next live deterministic validator, `scripts/validate_skill_acquisition_metadata.py`, after the Partner Customization identity pass.
+- [x] Hardened the validator to require the `skills.json` root to be an object, `source_quest_or_shop` and `acquisition_type` to be non-empty strings, and `source_parallel_quests` to be a list with no duplicate PQ IDs.
+- [x] Hardened PQ endpoint validation to reject booleans as integer-like values and retain the supported **1–186** range.
+- [x] Updated `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json` to record the expanded schema contract as **11/11** passing checks; the existing **474-record** canonical acquisition corpus and its values were not changed.
+- [ ] Runtime validator execution and CI/build remain unverified in this environment.
+- [ ] `docs/AI-CONTINUATION-PROMPT-EFFICIENCY-ADDENDUM.md` remains unavailable at the expected repository path (GitHub 404).
+- [x] **Exact next:** inspect the next live validator/consumer in `pq-cross-domain-index.json` for a concrete schema, endpoint-identity, projection, or source-vs-build-output mismatch; do not reconstruct absent PQ reward/reverse datasets without an evidence-complete producer.
+
 ### 2026-09-26 continuation — Partner Customization key-ID projection hardening
 - [x] Inspected the live Partner Customization navigation validator after its bridge/schema hardening pass and found a remaining deterministic identity gap: key records validated numeric key numbers and character/partner identities, but their stable `id` fields were not checked for uniqueness or exact key-number projection.
 - [x] Hardened `scripts/validate_partner_customization_character_navigation.py` to require non-empty string key IDs, reject duplicate key IDs, and require the exact deterministic mapping `customization-key-01` through `customization-key-20` in key-number order.
