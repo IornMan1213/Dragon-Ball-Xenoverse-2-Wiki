@@ -3877,3 +3877,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected the Batch 506 frontier after live-date validation removed four records that already had 2026-09-26 current-evidence audits.
 - [x] Corrected frontier: **Burst Charge, Burst Reflection, Burst Stinger, Celestial Wave, Chain Destructo-Disc Barrage, Confusion Blade, Dark Inscription, Deadly Dance**.
 - [ ] Complete the corrected Batch 506 current-evidence refresh and register its artifacts.
+
+### 2026-09-27 continuation — Batch 506 completion
+- [x] Refreshed eight frontier records: Burning Swan, Burst Blitz, Burst Charge, Burst Reflection, Burst Rush, Burst Stinger, Candy Beam (Super), Celestial Wave.
+- [x] Canonical/index identity parity preserved at 474/474; eight audit artifacts registered.
+- [x] Reward-tier/source conflicts and evidence boundaries preserved.
+- [ ] Next: Batch 507 census plus cross-domain enrichment toward the 672 indexed-category target.
