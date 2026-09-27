@@ -4230,3 +4230,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Savory Slicer already has canonical PQ140 crosslink/reward evidence and existing Strike Super/100-Ki research.
 - [x] Avoided duplicate canonical rewrites; Batch 526 is retained as an evidence-refresh layer.
 - [ ] **Next:** move beyond these already-covered records and identify the next genuinely under-enriched Skill records, prioritizing missing canonical mechanics/provenance rather than repeating established fields.
+
+
+### 2026-09-27 continuation — Skill Batch 527 sparse-record enrichment
+- [x] Created Skill Research Batch 527 for four sparse early Ki Blast Supers: **Tyrant Lancer, Ki Explosion, X10 Kamehameha, and Kamekameha**.
+- [x] Added bounded evidence for classification, Ki cost, notable character source/CaC availability, and mechanics/damage-test observations where available.
+- [x] Registered Batch 527 in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the canonical-data-first rule: test-contextual damage figures and unresolved acquisition/Ultimate-Finish semantics were not promoted blindly.
+- [ ] **Next:** inspect the four live canonical records and promote only fields whose provenance is strong enough; then continue the sparse-record audit to the next under-enriched cohort.
