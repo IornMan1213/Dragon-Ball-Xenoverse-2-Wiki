@@ -3440,3 +3440,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Recorded insufficient evidence for 034.
 - [x] Preserved unresolved canonical mechanics and Limit Burst state.
 - [ ] Next: broader thin/unresolved Super Soul completeness pass.
+
+
+### 2026-09-27 continuation — Super Soul 137
+- [x] Reconciled 137 mechanics and Limit Burst with provenance.
+- [x] Kept XL numeric interpretation secondary.
+- [ ] Next: remaining unresolved Super Soul records.
