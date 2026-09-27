@@ -1446,6 +1446,118 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
       ],
       "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-089",
+      "name": "Goku Wig",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 25 reward listing"
+      ],
+      "dlc_provenance": "DLC/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+      ],
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+    },
+    {
+      "id": "acc-090",
+      "name": "Perfect Cell's Wings",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 45 reward listing"
+      ],
+      "dlc_provenance": "DLC/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+      ],
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+    },
+    {
+      "id": "acc-091",
+      "name": "Pan's Bandanna",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 93 reward listing"
+      ],
+      "dlc_provenance": "DLC/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+      ],
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+    },
+    {
+      "id": "acc-092",
+      "name": "Yamcha's Baseball Hat",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 97 reward listing"
+      ],
+      "dlc_provenance": "DLC/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+      ],
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+    },
+    {
+      "id": "acc-093",
+      "name": "SS4 Wig & Tail (Goku)",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 110 reward listing"
+      ],
+      "dlc_provenance": "DLC/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+      ],
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+    },
+    {
+      "id": "acc-094",
+      "name": "Resistance Helmet",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 111 reward listing"
+      ],
+      "dlc_provenance": "DLC/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+      ],
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+    },
+    {
+      "id": "acc-095",
+      "name": "Toppo's Moustache",
+      "category": "accessory",
+      "acquisition_routes": [
+        "Parallel Quest 112 reward listing"
+      ],
+      "dlc_provenance": "DLC/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+      ],
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
     }
   ]
 }
