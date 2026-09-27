@@ -1,0 +1,33 @@
+{
+  "audit_id": "super-soul-pq-155-source-conflict-audit-2026-09-27",
+  "status": "documented_conflict_no_speculative_reconstruction",
+  "canonical_source_of_truth": "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+  "scope": {
+    "pq": 155,
+    "record_id": "super-soul-142",
+    "name": "This is the ultimate hero!"
+  },
+  "canonical_claim": {
+    "reward": "This is the ultimate hero!",
+    "source": "PQ 155",
+    "mechanics": null
+  },
+  "independent_evidence": [
+    {
+      "source": "Steam PQ guide",
+      "claim": "PQ 155's displayed rewards include Gamma 2's Helmet, Artwork 341/342/397, Heroic Counter, Gamma Blaster, and Gamma Impact, but not this Super Soul.",
+      "ref": "turn4search7"
+    },
+    {
+      "source": "Fandom Super Soul catalogue",
+      "claim": "The relevant Hero of Justice Pack 1 catalogue section lists the known PQ 156-158 Super Souls and does not expose a matching 'This is the ultimate hero!' entry.",
+      "ref": "turn4search0"
+    }
+  ],
+  "resolution": "Do not enrich super-soul-142 or substitute another Gamma Super Soul. Preserve the canonical reward-map claim while marking the external discrepancy for later item-level reconciliation.",
+  "next_steps": [
+    "Find item-level/game-data evidence for the exact PQ 155 reward endpoint.",
+    "Determine whether the phrase is a translation/catalogue alias, stale recovered claim, or classification error.",
+    "Only after reconciliation populate mechanics and ownership fields."
+  ]
+}
