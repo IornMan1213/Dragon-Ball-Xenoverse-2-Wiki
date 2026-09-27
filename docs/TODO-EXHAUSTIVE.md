@@ -2959,3 +2959,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reduced the remaining partial mechanics frontier to **90 records**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 9
+- [x] Enriched super-soul-112 through super-soul-116.
+- [x] Preserved the Ribrianne -20% description vs -50% registered-data discrepancy and documented the Hearts Ki Blast behavior.
+- [x] Refreshed canonical mechanics coverage: trigger 84/168, effect 92/168, magnitude 86/168, duration 65/168, stacking 40/168, Limit Burst 82/168, Limit Burst effect 60/168, CaC 92/168.
+- [x] Reduced the remaining partial mechanics frontier to **85 records**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment from super-soul-117 onward.
