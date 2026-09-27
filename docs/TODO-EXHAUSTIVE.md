@@ -3421,3 +3421,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Rechecked Super Soul 034 and preserved its unresolved status due to insufficient direct evidence.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed resolution of remaining Future Saga mechanics.
+
+
+### 2026-09-27 continuation — detailed Future Saga secondary mechanics
+- [x] Normalized secondary mechanics for Super Souls 032, 033, and 035 with provenance and explicit secondary status.
+- [x] Preserved unresolved implementation details and canonical-data-first policy.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: seek direct evidence for 032–035, especially 034, before promoting any secondary claims.
