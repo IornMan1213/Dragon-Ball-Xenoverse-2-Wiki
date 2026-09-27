@@ -3,16 +3,16 @@
   "date": "2026-09-27",
   "type": "current-evidence-refresh",
   "selected": [
-    "Burning Swan",
-    "Burst Blitz",
     "Burst Charge",
     "Burst Reflection",
-    "Burst Rush",
     "Burst Stinger",
-    "Candy Beam (Super)",
-    "Celestial Wave"
+    "Celestial Wave",
+    "Chain Destructo-Disc Barrage",
+    "Confusion Blade",
+    "Dark Inscription",
+    "Deadly Dance"
   ],
-  "selection_rule": "Fresh post-Batch-505 census; each selected record lacked a registered 2026-09-27 Batch-506/current-evidence audit at selection time.",
+  "selection_rule": "Corrected fresh census: exclude records already refreshed in Batches 504-505 and records with current-evidence audits dated 2026-09-26 or 2026-09-27; prioritize the oldest remaining evidence frontier.",
   "records_refreshed": 0,
   "canonical_identity_changes": 0,
   "synchronized_layers": [
@@ -33,6 +33,7 @@
   "total_records_refreshed_across_registered_batch": 15,
   "latest_refresh_canonical_identity_changes": 0,
   "latest_refresh_note": "A second bounded Batch 506 frontier pass refreshed seven additional records after the existing Batch 506 registration was discovered. No prior completed records were removed or rewritten as a different selection.",
-  "status": "census_complete",
-  "next_exact": "Bounded current-evidence refresh for all eight selected records, then synchronize canonical/index layers and register eight audit artifacts."
+  "status": "corrected_census",
+  "next_exact": "Bounded current-evidence refresh for all eight selected records, then synchronize canonical/index layers and register eight audit artifacts.",
+  "census_correction": "The initial Batch 506 draft incorrectly selected four records that already had 2026-09-26 audits. Those were removed before enrichment; no redundant refresh was promoted."
 }
