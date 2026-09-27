@@ -27,12 +27,21 @@ def main() -> int:
         failures.append("every canonical skill record must be an object")
     if any(not isinstance(row, dict) for row in bridge_records):
         failures.append("every character bridge record must be an object")
-    skill_ids = {row.get("id") for row in skill_records if isinstance(row, dict)}
-    canonical_names = {row.get("canonical_character_name") for row in bridge_records if isinstance(row, dict)}
+    skill_id_values = [row.get("id") for row in skill_records if isinstance(row, dict)]
+    bridge_name_values = [row.get("canonical_character_name") for row in bridge_records if isinstance(row, dict)]
+    from collections import Counter
+    duplicate_skill_ids = sorted(k for k,v in Counter(skill_id_values).items() if k is not None and v > 1)
+    duplicate_bridge_names = sorted(k for k,v in Counter(bridge_name_values).items() if k is not None and v > 1)
+    skill_ids = set(skill_id_values)
+    canonical_names = set(bridge_name_values)
     if any(not isinstance(skill_id, str) or not skill_id.strip() for skill_id in skill_ids):
         failures.append("canonical skill IDs must be non-empty strings")
+    if duplicate_skill_ids:
+        failures.append(f"duplicate canonical skill IDs: {duplicate_skill_ids}")
     if any(not isinstance(name, str) or not name.strip() for name in canonical_names):
         failures.append("canonical partner names must be non-empty strings")
+    if duplicate_bridge_names:
+        failures.append(f"duplicate canonical partner names: {duplicate_bridge_names}")
     if not isinstance(rel, dict):
         failures.append("relationship source must be an object")
         rel = {}
