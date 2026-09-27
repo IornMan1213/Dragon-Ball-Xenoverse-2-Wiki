@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-finishing-blow",
+  "skill_name": "Finishing Blow",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "100-Ki Strike Super taught by Whis. The user performs a purple-energy chop that restands the opponent; when the opponent is in the user's knockback or very close, the move quickly teleports the user into position. On hit, it permits immediate movement, basic attacks, or other skills, but not a direct raw stamina break. Its short range and restand make it primarily a combo-extension/restand tool. Exact damage, cancel-frame values, and drop-independent scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
