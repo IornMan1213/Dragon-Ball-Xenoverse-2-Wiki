@@ -3,21 +3,22 @@
   "date": "2026-09-27",
   "scope": "current-evidence frontier",
   "records": [
-    "Super Dragon Flight",
-    "Big Bang Kamehameha",
-    "Mach Punch",
-    "Gravity Impact",
-    "Sudden Storm",
-    "Change The Future",
-    "Stone Bullet",
-    "Supernova Cooler"
+    "Super Saiyan Blue Kaioken",
+    "Giant Storm",
+    "Meditation",
+    "Fighting Pose I",
+    "Fighting Pose B",
+    "Fighting Pose J",
+    "Hell Flash",
+    "Quick Sleep"
   ],
   "validation": {
-    "canonical_records": 474,
-    "index_records": 474,
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
     "synchronized_records": 8,
     "canonical_identity_changes": 0,
-    "evidence_boundary": "No unsupported exact frames, hidden interactions, universal scaling, or reward probabilities promoted.",
-    "note": "Batch 500 is retained as its existing historical manifest; this frontier is numbered 501 to avoid overwriting that prior batch."
-  }
+    "unsupported_claims_added": 0,
+    "evidence_boundaries_preserved": true
+  },
+  "next": "Batch 502 fresh census and PQ↔Skill projection reconciliation."
 }
