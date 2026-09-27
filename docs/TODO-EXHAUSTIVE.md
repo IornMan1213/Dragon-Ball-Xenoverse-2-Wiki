@@ -3186,3 +3186,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-089` "I hate what I've become!" — Kale / battle-start temporary reduction followed by the 30-second +15% all-attacks state / Limit Burst.
 - [x] Checked the current catalogue before writing these mechanics; the disputed PQ 151–154 recovery claims remain untouched and non-canonical.
 - [ ] Next: continue thin records, then audit propagation into acquisition/reverse cross-indexes.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 8
+- [x] Skipped disputed recovered `super-soul-137` through `super-soul-141`; these remain non-canonical historical claims under the existing PQ 151–154 conflict/provenance audits.
+- [x] Enriched `super-soul-142` / "This is your true power?" — Gamma 1, Just Guard trigger, -5% opponent attack strength for 10 seconds, Auto Just Guard, Hero of Justice Pack 1.
+- [x] Enriched `super-soul-143` / "Still haven't figured out you're gonna lose?" — Gamma 2, enemy-KO stacking Ki restoration +5% per KO, up to 10 stacks, Limit Burst, Hero of Justice Pack 1.
+- [x] Enriched `super-soul-144` / "I'll be the one to fight you!" — Gamma 1, battle-start 30-second targeting/all-attack/damage/Stamina effects, Limit Burst, Hero of Justice Pack 1.
+- [x] Enriched `super-soul-145` / "You need to be more careful." — Gamma 2, one-time guard-break recovery and one-time +500 Stamina response to an enemy Ultimate, Limit Burst, Hero of Justice Pack 1.
+- [x] Confirmed PQ 156/157 reward identities and DLC association against independent PQ/DLC evidence. citeturn1search1turn1search4
+- [ ] Continue with the next non-disputed thin canonical records.
