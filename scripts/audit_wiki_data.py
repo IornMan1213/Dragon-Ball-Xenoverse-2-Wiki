@@ -26,8 +26,11 @@ VALID_STATUS = {"indexed", "partially_verified", "verified"}
 
 
 def load_json(path: Path) -> Any:
-    with path.open(encoding="utf-8") as fh:
-        return json.load(fh)
+    try:
+        with path.open(encoding="utf-8") as fh:
+            return json.load(fh)
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"{path}: invalid JSON: {exc}") from exc
 
 
 def records_from(payload: Any) -> list[dict[str, Any]]:
@@ -60,7 +63,7 @@ def main() -> int:
             continue
         try:
             payload = load_json(path)
-        except json.JSONDecodeError as exc:
+        except ValueError as exc:
             findings.append({"severity": "error", "type": "invalid_json", "file": filename, "message": str(exc)})
             summary["errors"] += 1
             continue
@@ -72,10 +75,18 @@ def main() -> int:
         for idx, record in enumerate(records):
             record_id = record.get("id")
             name = record.get("name")
-            if record_id:
-                ids[str(record_id)].append(idx)
-            if name:
-                names[str(name).strip().casefold()].append(idx)
+            if record_id is not None:
+                if not isinstance(record_id, str) or not record_id.strip():
+                    findings.append({"severity": "error", "type": "invalid_id_type", "file": filename, "record": idx, "id": record_id})
+                    summary["errors"] += 1
+                else:
+                    ids[record_id].append(idx)
+            if name is not None:
+                if not isinstance(name, str) or not name.strip():
+                    findings.append({"severity": "error", "type": "invalid_name_type", "file": filename, "record": idx, "name": name})
+                    summary["errors"] += 1
+                else:
+                    names[name.strip().casefold()].append(idx)
 
             missing = [
                 field
@@ -87,12 +98,15 @@ def main() -> int:
                 summary["errors"] += 1
 
             sources = effective_value(record, "sources", payload)
+            if sources is not None and (not isinstance(sources, list) or any(not isinstance(source, str) or not source.strip() for source in sources)):
+                findings.append({"severity": "error", "type": "invalid_sources", "file": filename, "record": name or record_id})
+                summary["errors"] += 1
             if "sources" in record and not sources:
                 findings.append({"severity": "error", "type": "empty_sources", "file": filename, "record": name or record_id})
                 summary["errors"] += 1
 
             status = effective_value(record, "verification_status", payload)
-            if status is not None and status not in VALID_STATUS:
+            if status is not None and (not isinstance(status, str) or status not in VALID_STATUS):
                 findings.append({"severity": "error", "type": "invalid_verification_status", "file": filename, "record": name or record_id, "status": status})
                 summary["errors"] += 1
 
