@@ -6205,6 +6205,14 @@
       "target": "Do or Die",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-007",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Gyau!!!!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "PQ 07 basic rewards explicitly list Gyau!!!!."
     }
   ],
   "normalization_rules": [
