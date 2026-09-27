@@ -2926,3 +2926,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reduced the remaining partial mechanics frontier to **110 records**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment without inferring undocumented mechanics.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 5
+- [x] Enriched This heat...will be your downfall!, Right, then... Let's begin the experiment!, For beauty! For elegance! For love!, This Super Saiyan 2 is crazy strong!, and Don't think I'm the same as before!.
+- [x] Refreshed mechanics/integrity audits and advanced coverage to trigger 69/168, effect 77/168, magnitude 71/168, duration 59/168, stacking 32/168, Limit Burst 67/168, Limit Burst effect 47/168, CaC 77/168.
+- [x] Reduced the remaining partial mechanics frontier to **105 records**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
