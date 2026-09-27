@@ -3225,3 +3225,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current coverage: trigger **84/168**, effect **92/168**, magnitude **86/168**, duration **71/168**, stacking **39/168**, Limit Burst **82/168**, Limit Burst effect **62/168**, CaC **92/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the next five evidence-backed mechanics records.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 9
+- [x] Enriched super-soul-112 through super-soul-116.
+- [x] Corrected/validated the DLC 8 mechanics against the canonical catalogue/stat-sheet evidence; preserved Ribrianne's documented -20% description vs -50% registered-data discrepancy.
+- [x] Current canonical coverage: trigger 84/168, effect 92/168, magnitude 86/168, duration 65/168, stacking 40/168, Limit Burst 82/168, Limit Burst effect 60/168, CaC 92/168.
+- [x] Integrity frontier reduced to **85** partial mechanics records.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue with super-soul-117 onward, using canonical catalogue evidence first and preserving discrepancies.
