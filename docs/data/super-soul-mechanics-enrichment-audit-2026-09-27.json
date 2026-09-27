@@ -19,12 +19,12 @@
       "missing": 72
     },
     "duration": {
-      "populated": 81,
-      "missing": 87
+      "populated": 80,
+      "missing": 88
     },
     "stacking_behavior": {
-      "populated": 45,
-      "missing": 123
+      "populated": 43,
+      "missing": 125
     },
     "limit_burst": {
       "populated": 92,
@@ -62,6 +62,6 @@
       "super-soul-135",
       "super-soul-136"
     ],
-    "evidence_basis": "Super Soul catalogue and corroborating PQ/guide evidence. Canonical acquisition remains authoritative; discrepancies preserved."
+    "evidence_basis": "Canonical record layer plus PQ guide and independent Super Soul catalogue evidence; no unsupported probabilities inferred."
   }
 }
