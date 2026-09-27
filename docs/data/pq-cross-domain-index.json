@@ -1802,7 +1802,8 @@
   },
   "integrity_audits": {
     "cross_domain_index_reference_reachability_2026_09_26": "docs/data/cross-domain-index-reference-reachability-audit-2026-09-26.json",
-    "partner_skill_relationship_validator_2026_09_26": "docs/data/partner-skill-relationship-validator-audit-2026-09-26.json"
+    "partner_skill_relationship_validator_2026_09_26": "docs/data/partner-skill-relationship-validator-audit-2026-09-26.json",
+    "pq_cross_domain_index_validator_2026_09_26": "docs/data/pq-cross-domain-index-validator-audit-2026-09-26.json"
   },
   "skill_research_batch_492": "docs/data/skill-research-batches/skill-batch-492.json",
   "skill_batch_492_thin_frontier": "docs/data/skill-batch-492-thin-frontier-mechanics-audit-2026-09-26.json",
