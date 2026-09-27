@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-final-flash-super",
+  "skill_name": "Final Flash (Super)",
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "200-Ki character-exclusive Ki Blast Super used by SSGSS Vegeta (Evolved), unavailable to CaCs; long-range 24-hit beam/knockback sequence with source-reported ~30% damage. No CaC route or unsupported frame/scaling claim.",
+  "acquisition_endpoint": "SSGSS Vegeta (Evolved), character-only",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
+  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+}
