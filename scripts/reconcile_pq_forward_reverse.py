@@ -24,7 +24,10 @@ MAP = {
 }
 
 def load(path: Path):
-    value = json.loads(path.read_text(encoding="utf-8"))
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{path}: invalid JSON: {exc}")
     if not isinstance(value, dict):
         raise SystemExit(f"{path}: root must be an object")
     return value
@@ -50,10 +53,9 @@ def main() -> int:
             target = row.get("target")
             if not isinstance(pq, str) or not isinstance(target, str) or not target:
                 continue
-            try:
-                n = int(pq.removeprefix("pq-"))
-            except ValueError:
+            if not (pq.startswith("pq-") and pq[3:].isdigit() and 1 <= int(pq[3:]) <= 186):
                 continue
+            n = int(pq[3:])
             fw.setdefault(target, set()).add(n)
 
         rv = {}
