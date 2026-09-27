@@ -4288,3 +4288,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled the previously pending `skills-index.json` synchronization; all eight Batch 508 records now carry the current refresh date in the index layer.
 - [x] Finalized the Batch 508 manifest and preserved evidence/reward conflicts and the Skill→PQ evidence boundary.
 - [ ] Next exact: fresh Batch 509 census from the live 474-record corpus and next cross-domain enrichment.
+
+
+### 2026-09-27 continuation — Batch 506 completion
+- [x] Completed the corrected Batch 506 eight-record current-evidence frontier: **Burst Charge, Burst Reflection, Burst Stinger, Celestial Wave, Chain Destructo-Disc Barrage, Confusion Blade, Dark Inscription, Deadly Dance**.
+- [x] Synchronized canonical and index Skills layers; canonical identity changes: **0**; 474-record baseline preserved.
+- [x] Finalized `docs/data/skill-research-batches/skill-batch-506.json` as completed.
+- [x] Preserved existing acquisition/reward-tier conflicts and unresolved numerical/mechanics fields; no unsupported claims were promoted.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] Exact next: fresh Batch 507 census, then reconcile the cross-domain navigation projections and continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
