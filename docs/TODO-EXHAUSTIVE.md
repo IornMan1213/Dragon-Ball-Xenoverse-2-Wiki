@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — PQ reward validator root/count schema hardening
+- [x] Inspected the live `scripts/validate_pq_reward_relationships.py`.
+- [x] Found a concrete schema-integrity gap: the validator consumed the top-level documents and `current_counts` without first requiring object roots and an exact six-key, non-negative-integer count contract.
+- [x] Hardened the validator to require object roots for both the relationship store and schema, require exactly `skill`, `super_soul`, `equipment`, `character`, `dlc`, and `farming` count keys, and reject boolean/negative/non-integer count values.
+- [x] No canonical PQ relationship data was changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap; preserve the evidence boundary and avoid speculative relationship reconstruction.
+
 ### 2026-09-27 continuation — Canonical recovery count validation hardening
 - [x] Inspected the live `scripts/validate_canonical_database_recovery.py`.
 - [x] Found a concrete recovery-integrity gap: it previously verified only that `current_counts` had the six expected keys, without recomputing those counts from `verified_relationships`.
