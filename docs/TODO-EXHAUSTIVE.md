@@ -4052,3 +4052,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] 225 canonical skill records remain older than 2026-09-27.
 - [ ] Next: Batch 518 starts at Final Flash and continues alphabetically.
 
+
+## 2026-09-27 — Batch 518 completed
+- [x] Batch 518 current-evidence refresh: 12 Skill records from Final Flash through Galick Gun.
+- [x] Canonical and index layers remain 474/474.
+- [x] Batch manifest added and cross-domain index registered.
+- [x] No identity, canonical-field, or Skill→PQ relationship changes.
+- [ ] Resolve the three pre-existing canonical/index date mismatches only with provenance support.
+- [ ] Continue stale canonical Skill frontier alphabetically after Galick Gun.
