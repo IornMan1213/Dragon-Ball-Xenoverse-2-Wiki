@@ -5271,7 +5271,7 @@
       ],
       "trigger_condition": "When the battle begins; once only when health is below 50%",
       "effect_text": "Boosts the strength of all attacks and increases maximum Ki; below 50% HP, cancels the attack-strength boost and decreases Ki restored.",
-      "effect_magnitude": "+10% all attacks; +5 Ki bars maximum; below 50% HP removes the +10% attack boost and applies -? Ki recovery",
+      "effect_magnitude": "+10% all attacks; +5 Ki bars maximum; below 50% HP the +10% attack boost is removed; Ki-recovery decrease magnitude unresolved",
       "duration": "Battle-long; HP-threshold effect triggers once",
       "stacking_behavior": null,
       "limit_burst": "",
