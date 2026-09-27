@@ -1,0 +1,17 @@
+{
+  "audit_date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "skill_name": "Dual Destructo-Disc",
+  "skill_id": "skill-dual-destructo-disc",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dual_Destructo-Disc",
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+  ],
+  "findings": [
+    "300-Ki Ki Blast Ultimate learned through Android 18 training.",
+    "Two Destructo-Discs are thrown in a pincer pattern; current page describes tracking, unblockable behavior, and two hits.",
+    "Source-reported damage is bounded; exact tracking strength and frame data remain unresolved."
+  ]
+}
