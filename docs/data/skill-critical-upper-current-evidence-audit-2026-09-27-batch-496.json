@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-critical-upper",
+  "skill_name": "Critical Upper",
+  "batch": 496,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Current documentation reconfirms 100 Ki, launching uppercut, follow-up window, and about 10% displayed damage.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; no canonical skill identity changed.",
+  "acquisition_endpoint": "Dodoria training",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical probabilities are not asserted."
+}
