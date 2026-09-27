@@ -1,0 +1,10 @@
+{
+  "skill_name": "Chaotic Time Impact",
+  "batch": 503,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "summary": "2026-09-27 Batch 503 refresh: current evidence reconfirms 600 Ki, time-bubble trap/stun behavior, Power of Time accumulation scaling/reset, and PQ184 acquisition. The maintained reward-bonus figure remains source-bound rather than promoted as a universal probability.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
