@@ -4586,3 +4586,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the supporting research source and updated the mechanics audit. Active Limit Burst-effect coverage is now **164/167**, leaving 3 active records unresolved in that field.
 - [x] No acquisition relationship or unrelated mechanic was inferred; the existing ~5000 damage / 15% all-ability effect remains explicitly secondary evidence.
 - [ ] Continue source-backed enrichment of the remaining active mechanics gaps, prioritizing direct item-level evidence and keeping secondary findings labeled.
+
+
+### 2026-09-27 continuation — Super Soul 035 Limit Burst enrichment
+- [x] Enriched canonical `super-soul-035` (“I'll use this power to protect everyone!”) with `Auto Just Guard` as its Limit Burst/effect based on current secondary player evidence; classification remains `verified_secondary`.
+- [x] Added the supporting research source and updated the mechanics audit. Active Limit Burst-effect coverage is now **164/167**, leaving 3 active records unresolved in that field.
+- [x] No acquisition relationship or unrelated mechanic was inferred; the existing ~5000 damage / 15% all-ability effect remains explicitly secondary evidence.
+- [ ] Continue source-backed enrichment of the remaining active mechanics gaps, prioritizing direct item-level evidence and keeping secondary findings labeled.
