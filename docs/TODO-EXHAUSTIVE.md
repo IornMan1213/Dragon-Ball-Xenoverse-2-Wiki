@@ -3849,3 +3849,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added eight Batch 509 audit artifacts and finalized the manifest.
 - [ ] Next: fresh Batch 510 census and cross-domain enrichment; continue expansion beyond the 474 canonical seed toward 672 indexed categories.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 510 completion
+- [x] Refreshed **Demon Flash Strike, Demon Flurry, Demon Ray, Demonic Destruction, Destruction's Concerto: Comet, Destruction's Concerto: Meteor, Destruction's Concerto: Starfall, Destruction's Conductor**.
+- [x] Canonical/index synchronization completed with **0 identity changes**; 474/474 baseline preserved.
+- [x] Added eight dated audit artifacts and finalized Batch 510 manifest.
+- [x] Preserved evidence boundaries and added no unsupported Skill→PQ relationships.
+- [ ] Next: fresh Batch 511 census and substantive cross-domain enrichment toward the 672 indexed-category target.
+- [ ] Runtime/CI remains non-blocking.
