@@ -1,18 +1,21 @@
 {
-  "schema_version": "1.1",
+  "schema_version": "1.0",
   "audit_date": "2026-09-27",
   "domain": "super_souls",
-  "canonical_forward_rows": 137,
+  "canonical_forward_rows": 136,
   "canonical_forward_targets": 134,
-  "detailed_record_layer_records": 168,
-  "detailed_records_matching_forward_targets": 134,
-  "forward_targets_without_detailed_record": [],
+  "detailed_record_layer_records": 173,
+  "detailed_records_matching_forward_targets": 131,
+  "forward_targets_without_detailed_record": [
+    "I'll take all of you on at once!",
+    "This place Will be your grave!",
+    "You Will know the power of the gods!"
+  ],
   "pq_acquisition_index_records": 92,
   "pq_acquisition_index_targets": 134,
   "forward_targets_present_in_pq_acquisition_index": 134,
   "forward_targets_absent_from_pq_acquisition_index": [],
-  "promoted_indexed_endpoints": 134,
-  "status": "canonical_endpoint_identity_and_acquisition_index_complete_mechanics_enrichment_pending",
-  "interpretation": "All 134 canonical PQ Super Soul targets now have endpoint identities and unified PQ acquisition-index coverage. Indexed records may intentionally retain unresolved mechanics; absence of mechanics evidence is not a negative claim.",
-  "pq_acquisition_index": "docs/data/super-souls/pq-acquisition-index-001-186.json"
+  "projection_linked_super_soul_rewards": 137,
+  "status": "gap_identified",
+  "interpretation": "Partial endpoint coverage is an enrichment gap, not negative evidence against canonical forward relationships."
 }
