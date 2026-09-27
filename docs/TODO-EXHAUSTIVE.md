@@ -4015,3 +4015,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/canonical-database-recovery-restoration-audit-2026-09-27.json documenting the regression and source-preserving restoration.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] Exact next: fresh Batch 515 census from the restored 474-record canonical corpus; continue evidence-backed cross-domain enrichment and repair any newly detected canonical/projection drift before expanding the database further.
+
+
+### 2026-09-27 continuation — Batch 515 canonical evidence refresh
+- [x] Completed Batch 515 against the restored 474-record canonical corpus: refreshed 16 skills from Eagle Kick through Energy Shot.
+- [x] Synchronized canonical `docs/data/skills.json` and `docs/data/skills-index.json`; both remain at 474 records.
+- [x] Added `docs/data/skill-research-batches/skill-batch-515.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] No Skill identity changes, canonical field corrections, or new Skill→PQ relationship inferences were made in Batch 515.
+- [x] Current evidence strengthened bounded mechanics/provenance for Eagle Kick, Earth Splitting Galick Gun, Elegant Blaster, Elite Beam, Elite Shooting, Emperor's Blast, Emperor's Cannon, Emperor's Death Beam, Emperor's Edge, Endless Shoot, Energy Barrier, Energy Charge, Energy Field, Energy Minefield, Energy Release, and Energy Shot.
+- [x] Post-batch validation: canonical/index counts remain 474/474. The only remaining last_verified mismatches are the three pre-existing records Phantom Fist, Rise to Action, and Rising Rage; these were not normalized without resolving their provenance.
+- [ ] 247 canonical skill records remain older than 2026-09-27.
+- [ ] Exact next: Batch 516 starting at Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault, and Explosive Buu Buu Punch; continue in larger evidence-backed batches and resolve canonical/index drift separately.
