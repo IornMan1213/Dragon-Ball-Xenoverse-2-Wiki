@@ -4358,3 +4358,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the Skill↔PQ reconciliation audit artifact.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] Exact next: fresh Batch 507 census from the post-reconciliation 474-record corpus, then continue cross-domain reconciliation toward full PQ↔Skill navigation.
+
+### 2026-09-27 continuation — Batch 506 current-evidence completion
+- [x] Completed bounded current-evidence refresh for **Burning Swan, Burst Blitz, Burst Charge, Burst Reflection, Burst Rush, Burst Stinger, Candy Beam (Super), and Celestial Wave**.
+- [x] Refreshed `docs/data/skills.json`; canonical identities remain unchanged.
+- [x] Preserved known reward-tier/trigger conflicts and did not invent probabilities, frame data, hidden interactions, scaling, or Skill→PQ relationships.
+- [x] Finalized `docs/data/skill-research-batches/skill-batch-506.json`.
+- [ ] Next: register the eight dedicated Batch 506 audit artifacts and synchronize the Skills index layer, then perform the next cross-domain reconciliation.
