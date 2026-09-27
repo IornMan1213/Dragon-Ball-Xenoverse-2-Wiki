@@ -4189,3 +4189,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed PQ 186 evidence establishes `super-soul-034` identity/acquisition, while its effect and Limit Burst remain unresolved; `super-soul-032` retains only secondary 20% all-abilities-below-50%-HP evidence and an unresolved Limit Burst.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue direct-evidence research for `super-soul-032` and `super-soul-034`; then continue the broader cross-domain/exhaustive enrichment frontier without speculative reconstruction.
+
+
+### 2026-09-27 continuation — Super Soul 032/034 direct-evidence audit
+- [x] Added `docs/data/super-soul-032-034-direct-evidence-audit-2026-09-27.json` after another direct-evidence census.
+- [x] Confirmed PQ 185 reward inventory evidence for `super-soul-032` and retained the +20% below-50%-HP report strictly as secondary evidence.
+- [x] Confirmed PQ 186 reward inventory evidence for `super-soul-034`; no reliable mechanics evidence sufficient for canonical promotion was found.
+- [x] Preserved unresolved Limit Burst/effect fields instead of inferring them.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** pursue direct item-level/game-data evidence for Super Souls 032/034, then advance to the next substantive cross-domain enrichment gap if the evidence boundary remains unresolved.
