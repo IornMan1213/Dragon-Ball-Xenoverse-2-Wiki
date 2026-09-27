@@ -3739,3 +3739,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Limit Burst coverage advanced to **107/172** populated effects.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the remaining thin canonical set, prioritizing directly documented older catalogue mechanics; preserve unresolved Future Saga PQ 185/186 claims as secondary until stronger item-level evidence exists.
+
+
+### 2026-09-27 continuation — Future Saga Super Soul evidence reconciliation
+- [x] Reconciled newer secondary evidence for `super-soul-032` through `super-soul-035` without promoting community-only mechanics to canonical truth.
+- [x] Added current provenance for PQ 185/186 reward identity and reported mechanics; unresolved fields remain explicitly unresolved.
+- [x] Limit Burst coverage remains **107/172** because this pass intentionally changed provenance/context rather than asserting unsupported Limit Burst effects.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the remaining thin records (`001,005,007,013,015,016,076`) and seek direct item/catalogue evidence before filling missing mechanics.
