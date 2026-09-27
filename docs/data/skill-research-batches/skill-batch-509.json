@@ -1,0 +1,21 @@
+{
+  "batch": 509,
+  "date": "2026-09-27",
+  "type": "current-evidence-frontier-census",
+  "selected": [
+    "Death Ball",
+    "Death Beam",
+    "Death Crasher",
+    "Death Meteor",
+    "Death Psycho Bomb",
+    "Death Slash",
+    "Death Slicer",
+    "Death Wave"
+  ],
+  "selection_rule": "Fresh post-Batch-508 index synchronization census from the live 474-record canonical corpus; candidates lack a 2026-09-27 current-evidence refresh.",
+  "baseline": {
+    "canonical_records": 474
+  },
+  "next": "Bounded current-evidence refresh for the eight selected records, followed by cross-domain linkage reconciliation.",
+  "evidence_boundary": "Canonical data remains the source of truth. Verification flags do not override canonical evidence; unsupported acquisition gates, probabilities, exact frames, hidden interactions, universal scaling, or Skill→PQ edges will not be inferred."
+}
