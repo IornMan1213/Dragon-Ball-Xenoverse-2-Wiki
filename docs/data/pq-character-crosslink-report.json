@@ -8,5 +8,5 @@
   "endpoint_identity_matches": 75,
   "endpoint_identity_gaps": [],
   "semantics": "Canonical PQ→character relationships remain authoritative. Character endpoint layers are a secondary identity/enrichment projection; missing names are not negative claims about PQ character availability.",
-  "status": "canonical_projection_complete_endpoint_enrichment_incomplete"
+  "status": "canonical_projection_complete_endpoint_identity_coverage_complete"
 }
