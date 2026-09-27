@@ -4974,12 +4974,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Yamcha mentor training — Initiation Test",
       "mechanics_notes": "0-Ki Strike Super from Yamcha training. The user falls backward into the Yamcha fake-KO pose, can hold the input while lying down, then springs up with a kick. Current dedicated evidence documents generous invulnerability frames during the initial animation and get-up kick, with the move not necessarily placing the user on the ground. Exact frame counts and recovery remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Yamcha mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms Yamcha training acquisition, 0 Ki Strike Super classification, fake-KO/get-up-kick sequence, and documented invulnerability behavior during the relevant animation. Exact frame counts and recovery remain unresolved.",
       "id": "skill-fake-death",
       "source_mentor": [
         "mentor-yamcha"
@@ -8382,12 +8382,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
       "mechanics_notes": "100-Ki Ki Blast Super from Turles mentor training. The user creates and throws a ring-shaped projectile; charging enlarges and strengthens it. A target can pass through the hollow center, while an additional input detonates the ring to cover that weakness. Current secondary test evidence reports distinct uncharged/charged and detonated outcomes, but exact scaling remains source-bound.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated/secondary evidence revalidated the Turles training endpoint, 100-Ki ring projectile, charge behavior, hollow-center weakness, and detonation follow-up. Damage figures from secondary testing are retained only as source-reported observations; exact scaling and frames remain unresolved.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated/secondary evidence revalidated the Turles training endpoint, 100-Ki ring projectile, charge behavior, hollow-center weakness, and detonation follow-up. Damage figures from secondary testing are retained only as source-reported observations; exact scaling and frames remain unresolved.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms Turles training acquisition, 100 Ki Ki Blast Super classification, ring projectile, charge enlargement, hollow-center pass-through weakness, and additional-input detonation. Secondary damage observations remain source-bound; exact scaling and frames remain unresolved.",
       "id": "skill-kill-driver",
       "source_mentor": [
         "mentor-turles"
@@ -8565,7 +8565,7 @@
       ],
       "stamina_cost": 200,
       "unlock_method": "Parallel Quest 18 — \"Force Entrance Exam\" Basic Reward",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
       "source_quest": 18,
       "source_quest_or_shop": "Parallel Quest 18 — \"Force Entrance Exam\"",
@@ -8578,7 +8578,7 @@
       "ki_cost": 0,
       "ki_cost_note": " Evasive activation uses Stamina rather than Ki; current reference data lists a stamina cost for this skill.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 437 current-evidence audit: dedicated skill documentation reconfirms the 200-Stamina Power Up Evasive, PQ18 endpoint, safe-distance movement, and 1.5% speed increase. The current reference reports 11.5 seconds in its stat duration and 12 seconds in its property text; the discrepancy is preserved rather than silently normalized.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: dedicated skill documentation reconfirms the 200-Stamina Power Up Evasive, PQ18 endpoint, safe-distance movement, and 1.5% speed increase. The current reference reports 11.5 seconds in its stat duration and 12 seconds in its property text; the discrepancy is preserved rather than silently normalized.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms PQ18 acquisition, 200 Stamina Power Up Evasive classification, safe-distance movement, approximately 1.5% movement-speed increase, and the documented 11.5-versus-12-second duration discrepancy. Both source values remain preserved; exact frames and speed calculation remain unresolved.",
       "skill_description": "Mach Dash is a Power Up Evasive skill.",
       "id": "skill-mach-dash",
       "source_parallel_quests": [
@@ -8874,12 +8874,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
       "mechanics_notes": "300-Ki Ki Blast Ultimate learned through Turles training. The user first holds a barrier that absorbs attacks, then thrusts the hand forward to create a large Ki ball that erupts into a pillar. Current evidence documents 42 hits and approximately 80% total damage, with additional input allowing the sequence to fire faster.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 464 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms Turles training acquisition, 300 Ki Ultimate classification, barrier/absorption opening, large Ki-ball/pillar sequence, 42-hit behavior, approximately 80% source-reported damage, and faster execution via additional input. Exact frames and patch-independent scaling remain unresolved.",
       "id": "skill-meteor-burst",
       "source_mentor": [
         "mentor-turles"
@@ -10098,10 +10098,10 @@
       "source_quest_or_shop": "Parallel Quest 129 — \"Frieza Force on the Hunt\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Extra Pack 4",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "mechanics_notes": "100-Ki Ki Blast Super/counter from PQ129. The user creates a barrier that lingers for about 2 seconds; an incoming Ki Blast can be reflected and followed by a teleporting kick, while close-range use can trigger the kick directly. Current dedicated evidence reports approximately 7% total damage. Exact frames, recovery, and patch-independent scaling remain unresolved.",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 463 mechanics enrichment: current Xenoverse 2-specific evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms PQ129 acquisition, 100 Ki Ki Blast Super/counter classification, approximately 2-second barrier, Ki-Blast reflection/teleporting-kick behavior, close-range kick path, and approximately 7% source-reported damage. Exact frames and scaling remain unresolved.",
       "id": "skill-punisher-shield",
       "source_parallel_quests": [
         129
@@ -10180,11 +10180,11 @@
       "race_restriction": "Majin only",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Skill Shop after defeating Mira (Final Form) in the main story",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
       "mechanics_notes": "300-Ki Other Super restricted to Majin CaCs. The user falls asleep to recover Health; the user is vulnerable and cannot move or use an Evasive while sleeping, and releasing input ends the sleep after the wake-up sequence. In Purification, the skill also restores Ki and Stamina. Exact recovery rate and timing remain unresolved.",
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 445 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the current cost, acquisition, classification, and bounded mechanics; exact frames/recovery/scaling remain unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms 300 Ki, Other Super classification, Majin-CaC restriction, sleep-based Health recovery, vulnerability/mobility limitations while sleeping, and the Purification interaction that also restores Ki/Stamina. Exact recovery rate and timing remain unresolved.",
       "id": "skill-quick-sleep"
     },
     {
@@ -14213,7 +14213,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 16 — \"Defeat Frieza's Army!\"",
       "mechanics_notes": "0-Ki Power Up Super from PQ16. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, reward probability, and frame timing remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": 16,
       "dlc_requirement": "Base Game",
@@ -14222,7 +14222,7 @@
       "duration_seconds": 20,
       "ki_cost": 0,
       "id": "skill-fighting-pose-b",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ16 acquisition endpoint, and 20-second Strike boost; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ16 acquisition endpoint, and 20-second Strike boost; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms 0 Ki Power Up classification, PQ16 endpoint, and 20-second Strike-move damage boost. Exact percentage, stacking, reward probability, hidden gates, and frame timing remain unresolved.",
       "source_parallel_quests": [
         16
       ]
@@ -14270,7 +14270,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
       "mechanics_notes": "0-Ki Power Up Super that increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration; exact race-dependent duration variants, stacking behavior, and frame data remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "skill_shop",
@@ -14278,7 +14278,7 @@
       "duration_seconds": 20,
       "ki_cost": 0,
       "id": "skill-fighting-pose-g",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence reconciled the earlier catalog record with the dedicated skill reference. The repository retains the explicit 0-Ki cost, Skill Shop endpoint, Ki Blast-damage effect, and source-bounded duration; unsupported balance details remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence reconciled the earlier catalog record with the dedicated skill reference. The repository retains the explicit 0-Ki cost, Skill Shop endpoint, Ki Blast-damage effect, and source-bounded duration; unsupported balance details remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms 0 Ki Power Up classification, Skill Shop endpoint, Ki Blast-skill damage increase, approximately 8% source-reported increase, and 20-second duration. Race-dependent variants, stacking, and frame data remain unresolved.",
       "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
     },
     {
