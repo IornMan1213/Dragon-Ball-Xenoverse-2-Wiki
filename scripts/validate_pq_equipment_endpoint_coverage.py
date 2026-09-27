@@ -14,23 +14,57 @@ ACC = ROOT / "docs/data/equipment-accessories-record-layer.json"
 EQ = ROOT / "docs/data/equipment-record-layer.json"
 REPORT = ROOT / "docs/data/pq-equipment-endpoint-coverage-audit-2026-09-27.json"
 
+
 def load(path):
     return json.loads(path.read_text(encoding="utf-8"))
 
-def records(data):
-    return data.get("records", data) if isinstance(data, (dict, list)) else []
+
+def records(data, label):
+    if not isinstance(data, dict):
+        raise SystemExit(f"{label}: root must be an object")
+    value = data.get("records")
+    if not isinstance(value, list):
+        raise SystemExit(f"{label}: records must be a list")
+    if any(not isinstance(row, dict) for row in value):
+        raise SystemExit(f"{label}: every record must be an object")
+    return value
+
+
+def nonempty_string(value):
+    return isinstance(value, str) and bool(value.strip())
+
 
 def main():
-    rel = records(load(REL))
-    acc = records(load(ACC))
-    eq = records(load(EQ))
+    rel = records(load(REL), "pq-reward-relationships.json")
+    acc = records(load(ACC), "equipment-accessories-record-layer.json")
+    eq = records(load(EQ), "equipment-record-layer.json")
+
     forward = [r for r in rel if r.get("relationship") == "pq_rewards_equipment"]
-    targets = sorted({str(r.get("target", "")).strip() for r in forward if str(r.get("target", "")).strip()})
-    endpoint_names = {str(r.get("name", "")).strip() for r in acc + eq if str(r.get("name", "")).strip()}
+    malformed_forward = [i for i, r in enumerate(forward) if not nonempty_string(r.get("target"))]
+    if malformed_forward:
+        raise SystemExit(
+            "pq-reward-relationships.json: equipment target must be a non-empty string; "
+            f"bad rows: {malformed_forward[:20]}"
+        )
+    targets = sorted({r["target"].strip() for r in forward})
+
+    malformed_endpoints = [
+        f"{label}[{i}]"
+        for label, rows in (("accessories", acc), ("equipment", eq))
+        for i, r in enumerate(rows)
+        if not nonempty_string(r.get("name"))
+    ]
+    if malformed_endpoints:
+        raise SystemExit(
+            "equipment endpoint records: name must be a non-empty string; "
+            f"bad rows: {malformed_endpoints[:20]}"
+        )
+    endpoint_names = {r["name"].strip() for r in acc + eq}
+
     matches = sorted(set(targets) & endpoint_names)
     gaps = sorted(set(targets) - endpoint_names)
     report = {
-        "schema_version": "1.0",
+        "schema_version": "1.1",
         "audit_date": "2026-09-27",
         "domain": "pq_equipment",
         "canonical_edges": len(forward),
@@ -53,6 +87,7 @@ def main():
         if expected.get("endpoint_identity_gaps") != report["endpoint_identity_gaps"]:
             raise SystemExit("coverage audit endpoint gap list is stale")
     return 0
+
 
 if __name__ == "__main__":
     raise SystemExit(main())
