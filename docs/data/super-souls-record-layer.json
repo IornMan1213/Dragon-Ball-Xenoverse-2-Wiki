@@ -3235,7 +3235,7 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields remain intentionally unpopulated pending item-level evidence; no effect, trigger, magnitude, duration, or stacking behavior is inferred.",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -3267,7 +3267,7 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields remain intentionally unpopulated pending item-level evidence; no effect, trigger, magnitude, duration, or stacking behavior is inferred.",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -3299,7 +3299,7 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields remain intentionally unpopulated pending item-level evidence; no effect, trigger, magnitude, duration, or stacking behavior is inferred.",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -3331,7 +3331,7 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields remain intentionally unpopulated pending item-level evidence; no effect, trigger, magnitude, duration, or stacking behavior is inferred.",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -3363,7 +3363,7 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from canonical catalogue/stat-sheet evidence. The catalogue notes the in-game description says -20%, while the registered data value is -50%; the discrepancy is preserved explicitly. Independent reports confirm the Hearts Ki Blast behavior. Canonical PQ acquisition remains authoritative.",
+      "version_notes": "Mechanics promoted from canonical catalogue/stat-sheet evidence. The source discrepancy in the registered damage-reduction value is explicitly preserved rather than silently resolved; Hearts Ki Blast behavior is also documented. Canonical PQ acquisition remains authoritative.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
