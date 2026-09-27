@@ -4140,3 +4140,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Validation remains **474 canonical / 474 index records** with the restored identity baseline intact.
 - [ ] Next priority: fresh **Batch 503** census from the live corpus, then reconcile PQ→Skill and Skill→PQ navigation projections after the enrichment frontier.
 - [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 501/502 frontier recovery
+- [x] Inspected the live handoff and found Batch 501 was already completed with **Fruit of the Tree of Might, Dead End Bullet, Super Saiyan, Super Saiyan God, Brave Heat, Fighting Pose D, Super Ghost Buu Attack, and Dead End Rain**; manifest validation records 474/474 and zero identity changes.
+- [x] Avoided duplicating the previously selected Batch 500/501 candidate sets; the live manifest is treated as authoritative for completed frontier work.
+- [ ] Next priority: fresh Batch 502 census from the live 474-record corpus, then reconcile PQ→Skill and Skill→PQ projections before selecting another enrichment frontier.
+- [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target while preserving canonical-vs-indexed-vs-verified distinctions.
