@@ -551,13 +551,13 @@
       "skill_description": "Ki Blast Super Skill associated with Vegeta that fires a large beam after charging.",
       "mechanics_notes": "100-Ki chargeable Ki Blast Super from the TP Medal Shop. Current dedicated evidence documents 9 hits / about 20% damage at the lowest effective charge and 15 hits / about 30% at full charge; an uncharged attempt consumes no Ki and does nothing. Fully charged use by a Saiyan CaC with a Super Saiyan transformation equipped warps behind the opponent before firing.",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Big Bang Kamehameha as a 100-Ki Ki Blast Super acquired from the TP Medal Shop. It documents chargeable beam behavior, 9–15 hits, knockback, and a Super Saiyan warp interaction for Saiyan CaCs. The current record's TP Medal Shop acquisition is retained without adding an unsupported shop rotation/date claim.\n2026-09-26 Batch 436 current-evidence mechanics refresh: dedicated skill evidence rechecked cost, classification, acquisition, sequence/counter behavior, and bounded numeric mechanics; unsupported exact frame data, hidden interactions, patch-independent scaling, and probabilities remain unresolved.",
+      "notes": "2026-09-22 provenance verification: dedicated skill documentation confirms Big Bang Kamehameha as a 100-Ki Ki Blast Super acquired from the TP Medal Shop. It documents chargeable beam behavior, 9–15 hits, knockback, and a Super Saiyan warp interaction for Saiyan CaCs. The current record's TP Medal Shop acquisition is retained without adding an unsupported shop rotation/date claim.\n2026-09-26 Batch 436 current-evidence mechanics refresh: dedicated skill evidence rechecked cost, classification, acquisition, sequence/counter behavior, and bounded numeric mechanics; unsupported exact frame data, hidden interactions, patch-independent scaling, and probabilities remain unresolved. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-big-bang-kamehameha"
     },
     {
@@ -1713,13 +1713,13 @@
       "source_quest_or_shop": "Parallel Quest 43 — \"Change the Future\"",
       "ultimate_finish_required": false,
       "mechanics_notes": "100-Ki Ki Blast Super counter. During its active counter window, the user can intercept a basic Ki Blast or Ki Blast skill, become briefly invisible, move rapidly toward the attacker, and fire a Ki blast. The follow-up has i-frames and cannot be interrupted; unlike Shadow Crusher, the blast does not break guard or hyper armor, so it cannot reliably punish armored ultimate attacks. Its startup visually matches God Breaker, while current documentation describes lower endlag. The in-game description says it stops a Strike Attack, but the dedicated mechanics evidence identifies the actual trigger as Ki Blast attacks/skills.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
       "source_quest": 43,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 current-evidence refresh: dedicated Xenoverse 2 documentation reconfirms Super classification, 100-Ki cost, PQ43 \"Change The Future\" Basic Reward route, Ki Blast counter behavior, protected follow-up, guard/hyper-armor limitation, and God Breaker visual/startup similarity. No Ultimate Finish gate, exact active-frame count, exact endlag, damage, or drop probability is inferred. The in-game description's Strike wording is retained as a documented text discrepancy.",
+      "notes": "2026-09-26 current-evidence refresh: dedicated Xenoverse 2 documentation reconfirms Super classification, 100-Ki cost, PQ43 \"Change The Future\" Basic Reward route, Ki Blast counter behavior, protected follow-up, guard/hyper-armor limitation, and God Breaker visual/startup similarity. No Ultimate Finish gate, exact active-frame count, exact endlag, damage, or drop probability is inferred. The in-game description's Strike wording is retained as a documented text discrepancy. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-change-the-future",
       "source_parallel_quests": [
         43
@@ -6995,12 +6995,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cell (Perfect) mentor training",
       "mechanics_notes": "Mentor acquisition endpoint verified; combat mechanics intentionally deferred. 2026-09-23 refresh: current evidence reviewed; documented classification, acquisition, and mechanics were preserved, while unsupported numerical details or narrower CaC restrictions were not inferred.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Cell (Perfect) mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 canonical mentor expansion: exact mentor reward identity and classification verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-22 verification refresh: revalidated the existing acquisition/classification provenance against the repository's maintained evidence corpus; existing conflicts and unresolved mechanics remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-gravity-impact",
       "source_mentor": [
         "mentor-cell"
@@ -8603,7 +8603,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ19. The user briefly pulls back, then releases a six-punch barrage followed by a finishing kick for approximately 10% total source-reported damage. The attack is short-range and can be cancelled into an Ultimate on hit.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Mach_Punch",
@@ -8612,7 +8612,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 19,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 audit: Steam's live all-PQ guide explicitly lists Mach Punch in PQ19's Basic Reward pool. This replaces the prior generic PQ attribution with a concrete tier.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-20 audit: Steam's live all-PQ guide explicitly lists Mach Punch in PQ19's Basic Reward pool. This replaces the prior generic PQ attribution with a concrete tier.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, restriction, DLC/update provenance, and reward-tier semantics against the maintained evidence corpus; no unsupported probabilities, gates, or numerical mechanics were added. 2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint and maintained evidence set; no unsupported probability, gate, timer, damage, stacking, or restriction detail added.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-mach-punch",
       "source_parallel_quests": [
         19
@@ -11973,7 +11973,7 @@
       "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Strike Super from PQ56. The user throws small rocks, up to 22 in one use; holding the input extends range from roughly three feet to more than ten times that baseline. Current evidence retains the Future Warrior PQ56 endpoint and notes Hercule's character version uses Ki Blast classification. Exact timing, damage, and charge curve remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Stone_Bullet",
@@ -11983,7 +11983,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 56,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Strike Super, PQ56 acquisition, up to 22 rocks, and chargeable range extension. The maintained CaC restriction remains broad because no narrower race/gender/form restriction is established.\n2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Strike Super from PQ56. The user throws small rocks, up to 22 in one use; holding the input extends range from roughly three feet to more than ten times that baseline. Current evidence retains the Future Warrior PQ56 endpoint and notes Hercule's character version uses Ki Blast classification. Exact timing, damage, and charge curve remain unresolved.",
+      "notes": "2026-09-26 Batch 436 current-evidence audit: current Xenoverse 2 documentation confirms the 100-Ki Strike Super, PQ56 acquisition, up to 22 rocks, and chargeable range extension. The maintained CaC restriction remains broad because no narrower race/gender/form restriction is established.\n2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Strike Super from PQ56. The user throws small rocks, up to 22 in one use; holding the input extends range from roughly three feet to more than ten times that baseline. Current evidence retains the Future Warrior PQ56 endpoint and notes Hercule's character version uses Ki Blast classification. Exact timing, damage, and charge curve remain unresolved. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-stone-bullet",
       "source_parallel_quests": [
         56
@@ -12061,12 +12061,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Turles mentor training",
       "mechanics_notes": "200-Ki Ki Blast Super learned through Turles training. The user fires a scattering barrage of purple Ki bullets from the right hand, dealing about 15% total damage across 15 hits and ending in knockback. Exact projectile spread, tracking, startup, and recovery values remain unresolved.",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Turles mentor training",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 provenance refresh: current Ki Blast Super catalog evidence was rechecked; existing canonical classification and acquisition provenance are retained where no deterministic correction is supported. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.\n2026-09-25 Batch 413 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, and timing values remain unresolved.",
+      "notes": "2026-09-22 provenance refresh: current Ki Blast Super catalog evidence was rechecked; existing canonical classification and acquisition provenance are retained where no deterministic correction is supported. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved.\n2026-09-25 Batch 371 mechanics enrichment: promoted current skill-specific/repository evidence; unresolved frame, timing, probability, hidden-gate, and unsupported numeric fields remain bounded.\n2026-09-25 Batch 413 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, and timing values remain unresolved. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-sudden-storm",
       "source_mentor": [
         "mentor-turles"
@@ -12208,7 +12208,7 @@
       "mechanics_notes": "100-Ki Strike Super from PQ31. The user performs a Ki-powered uppercut for about 10% damage; on hit, another Super Attack can be used immediately as a direct follow-up. Current evidence identifies the transitional property as the defining mechanic. Exact cancel window, frame data, and scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
@@ -12218,7 +12218,7 @@
       "source_quest": 31,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved.",
+      "notes": "2026-09-20 source reconciliation: maintained PQ31 data lists Super Dragon Flight in the Basic Reward section; the prior Ultimate Finish wording was stale. 2026-09-23 research refresh: current exact-name references corroborate the maintained classification, acquisition endpoint, and documented mechanics; existing evidence boundaries and reward semantics are preserved. 2026-09-25 Batch 399 mechanics refresh: current evidence strengthened behavior/acquisition boundaries; unresolved numeric/frame details remain explicitly bounded.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-super-dragon-flight",
       "source_parallel_quests": [
         31
@@ -12848,7 +12848,7 @@
       "source_quest": "Cooler (Final Form) mentor training — Lesson 3",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "Cooler (Final Form) Lesson 3 is the verified mentor acquisition endpoint and Basic Reward. Current skill evidence records 500 Ki. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.\n2026-09-27 Batch 500 current-evidence frontier: current Xenoverse 2-specific evidence was rechecked against the canonical research record; bounded mechanics and provenance were preserved, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
+      "notes": "Cooler (Final Form) Lesson 3 is the verified mentor acquisition endpoint and Basic Reward. Current skill evidence records 500 Ki. 2026-09-23 provenance refresh: maintained exact-name/research evidence was rechecked; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved, with no unsupported probability, prerequisite, timer, stacking cap, or restriction inferred. 2026-09-25 mechanics enrichment: current evidence refreshed; unsupported frame data, hidden gates, probabilities, and unverified numeric values remain unresolved.\n2026-09-27 Batch 500 current-evidence frontier: current Xenoverse 2-specific evidence was rechecked against the canonical research record; bounded mechanics and provenance were preserved, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved. 2026-09-27 Batch 500 current-evidence refresh: current Xenoverse 2-specific repository evidence rechecked; canonical identity unchanged, source-reported numerical observations remain bounded, and unsupported exact frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.",
       "id": "skill-supernova-cooler",
       "source_mentor": [
         "mentor-cooler"
