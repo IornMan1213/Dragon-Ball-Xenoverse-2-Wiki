@@ -1,3 +1,10 @@
+### 2026-09-26 TODO progress update — PQ cross-domain index schema hardening
+- [x] Hardened `scripts/validate_pq_cross_domain_index.py` to require exactly **7** reverse-index declarations, unique report paths, and `farming.source` to match the canonical `forward_index`.
+- [x] Added and registered `docs/data/pq-cross-domain-index-validator-audit-2026-09-26.json` with the expanded structural contract recorded as passing.
+- [x] Preserved all canonical PQ relationship/provenance boundaries; no missing reward/reverse dataset was reconstructed.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** continue with the next validator/consumer that is actually present in the live repository, prioritizing deterministic schema/identity/projection gaps over stale historical index entries.
+
 ### 2026-09-26 TODO progress update — Skill acquisition metadata schema hardening
 - [x] Hardened `scripts/validate_skill_acquisition_metadata.py` against malformed root/field types, duplicate `source_parallel_quests` IDs, and boolean-as-integer PQ endpoints.
 - [x] Recorded the expanded acquisition schema contract as **11/11** passing in `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json`.
