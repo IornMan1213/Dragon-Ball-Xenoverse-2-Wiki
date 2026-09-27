@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0",
+  "audit_type": "canonical_database_recovery_integrity",
+  "audited_at": "2026-09-27",
+  "branch": "main",
+  "recovery_context": {
+    "restoration_commit": "9e15797821d41304c7c62d889a79cf0acaf3fa05",
+    "safety_branch": "recovery-before-main-restoration-2026-09-27",
+    "recovery_source_branch": "ai/continue-skill-acquisition-2026-09-19",
+    "note": "Main was previously sparse; restoration recovered missing repository paths. This audit verifies that critical canonical database artifacts are materially present on main rather than relying on UI/file previews."
+  },
+  "checks": {
+    "skills_records": 474,
+    "skills_unique_ids": 474,
+    "skills_blob_sha": "89e78acb10b69caaf911799e624435314e68ece7",
+    "skills_index_records": 474,
+    "skills_index_unique_ids": 474,
+    "skill_pq_reverse_canonical_skill_count": 474,
+    "skill_pq_reverse_edges": 246,
+    "skill_pq_reverse_pq_count": 170,
+    "pq_reward_current_counts": {
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    }
+  },
+  "status": "passing_critical_database_presence_and_identity",
+  "evidence_boundary": [
+    "The checked-in canonical skill blob is parseable and contains 474 unique skill records on main.",
+    "The skill index independently contains 474 unique records, and the Skill-to-PQ reverse artifact independently declares 474 canonical skills, 246 edges, and 170 represented PQ IDs.",
+    "This audit does not claim every historical reward/reverse relationship is complete; source-bounded omissions remain governed by repository evidence rules.",
+    "Runtime/CI execution remains intentionally non-blocking and unverified."
+  ]
+}
