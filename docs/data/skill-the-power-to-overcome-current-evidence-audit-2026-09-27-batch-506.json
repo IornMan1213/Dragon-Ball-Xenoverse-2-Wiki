@@ -1,0 +1,10 @@
+{
+  "skill_name": "The Power to Overcome",
+  "batch": 506,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 506 refresh: Future Saga Chapter 4 Awoken Skill; current evidence supports core identity and DLC unlock route while conflicting numerical measurements remain unresolved.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Existing conflicts are preserved. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
