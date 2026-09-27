@@ -2860,3 +2860,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Enrich promoted equipment endpoints with acquisition/provenance/mechanics fields where supported.
 - [ ] Re-run deterministic endpoint coverage/reconciliation after promotion.
 - [ ] Refresh stale Super Soul integrity audit once the GitHub write path is stable.
+
+### 2026-09-27 continuation — PQ equipment endpoint batch
+- [x] Promoted 5 explicit named accessory endpoints from PQ 121–142 research: Broly Wig (Legendary Super Saiyan), Kakunsa's Wig and Mask, Kakunsa's Tail, Rozie's Hood and Goggles, Universe 7 Baseball Cap.
+- [x] Recomputed canonical PQ→equipment endpoint coverage: 125 edges / 123 unique targets / 56 exact endpoint identities / 67 remaining identity gaps.
+- [x] Refreshed the endpoint coverage report and audit from the live canonical relationship source.
+- [x] Kept reward-slot certainty, route/version provenance, and unresolved semantics separate from identity promotion.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence-backed promotion of the remaining 67 endpoint identities, prioritizing explicit inventory names from PQ research and avoiding generic set/component labels.
