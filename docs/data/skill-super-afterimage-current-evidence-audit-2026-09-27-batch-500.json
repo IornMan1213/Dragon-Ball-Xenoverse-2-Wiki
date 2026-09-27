@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-super-afterimage",
+  "skill_name": "Super Afterimage",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 current-evidence refresh: current documentation reconfirms 100 Ki, Other Super classification, six-afterimage behavior, and the behind-target vanish option. Exact timing and hidden interactions remain unresolved.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
