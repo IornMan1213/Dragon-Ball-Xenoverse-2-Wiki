@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — Partner skill validator root-container hardening
+- [x] Inspected the live `scripts/validate_partner_skill_relationships.py` after the prior identity-uniqueness hardening.
+- [x] Found a concrete robustness gap: the validator could call `.get()` on malformed non-object JSON roots for the relationship source, skills source, or character bridge, producing an uncontrolled `AttributeError` instead of a deterministic validation failure.
+- [x] Hardened the validator to require all three source roots to be objects before field access; malformed roots now become explicit validation failures.
+- [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json` with the root-container hardening and validator commit.
+- [x] No canonical relationship, skill, character, or acquisition data was changed; the established **474-skill / 3 explicit relationship** projection is unchanged.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the remaining live deterministic consumer/projection layer for another concrete schema/type/range/identity/source-vs-output mismatch; preserve the missing general PQ reward layer as an evidence boundary.
+
 ### 2026-09-27 continuation — Skill→PQ pre-projection duplicate hardening
 - [x] Inspected the live `scripts/validate_skill_pq_crosslinks.py`.
 - [x] Added an explicit pre-projection duplicate `source_parallel_quests` guard so duplicate endpoints are rejected before reverse-index generation.
