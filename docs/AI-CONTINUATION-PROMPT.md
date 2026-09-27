@@ -3425,3 +3425,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Limit Burst: DEF Up! You've Got Super Armor! Ki Rec. SPD Down.
 - [x] Updated the canonical record and correction audit.
 - [ ] Next: create the provenance/dispute layer for the six removed recovered PQ 151–154 claims, preserving their historical source references without restoring them as canonical rewards.
+
+
+### 2026-09-27 continuation — disputed PQ 151–154 recovery provenance preserved
+- [x] Created `docs/data/super-soul-pq-151-154-disputed-provenance-2026-09-27.json` preserving the six removed recovered Super Soul/PQ claims as historical disputed provenance only.
+- [x] Explicitly marked those six claims non-canonical so they cannot be mistaken for current PQ rewards.
+- [x] Preserved the former PQ associations and external evidence references, including the confirmed conflict for `"I'm not gonna die until I defeat you!"` (current catalogue: PQ 138).
+- [x] Registered the provenance artifact in `docs/data/pq-cross-domain-index.json`.
+- [ ] Next: validate the provenance artifact against the canonical reward maps/reverse indexes and scan for any stale occurrences of the six removed claims that still present them as canonical PQ 151–154 rewards.
