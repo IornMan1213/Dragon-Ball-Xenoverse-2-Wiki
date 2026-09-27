@@ -3416,3 +3416,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched 177 (GT Vegeta): +10% all attacks; occasional initial-Ki-cost refund; current catalogue documents a 20% chance and independent reports clarify that the in-game 'completely restores Ki' wording is inaccurate.
 - [x] Enriched 178 (Recoome) partially: battle-start +10% all attacks and increased maximum Ki; below 50% HP the attack boost is removed. Exact Ki-recovery penalty and Limit Burst remain unresolved and were not guessed.
 - [ ] Next: resolve exact remaining 178 values, then preserve/alias the six removed recovered claims in a provenance/dispute layer.
+
+
+### 2026-09-27 continuation — Recoome Super Soul exact mechanics resolved
+- [x] Resolved the remaining exact mechanics for super-soul-178 ("You're not much of a fun fight!").
+- [x] Confirmed +10% all attacks and +100% maximum Ki at battle start.
+- [x] Confirmed the once-only below-50%-HP trigger cancels the +10% attack boost and reduces Ki restored by 100% for the remainder of the battle.
+- [x] Confirmed Limit Burst: DEF Up! You've Got Super Armor! Ki Rec. SPD Down.
+- [x] Updated the canonical record and correction audit.
+- [ ] Next: create the provenance/dispute layer for the six removed recovered PQ 151–154 claims, preserving their historical source references without restoring them as canonical rewards.
