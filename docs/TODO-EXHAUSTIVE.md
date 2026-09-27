@@ -2892,3 +2892,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed all three PQ equipment endpoint/crosslink audit artifacts.
 - [ ] Runtime/CI remains unverified and non-blocking.
 - [ ] **Next:** fresh census and substantive enrichment in the next highest-value incomplete cross-domain area; preserve canonical source-of-truth and evidence boundaries.
+
+
+### 2026-09-27 TODO progress update — Unified Super Soul PQ acquisition cross-link recovery
+- [x] Re-audited **137 PQ→Super Soul edges / 134 unique targets** against the detailed record layer.
+- [x] Replaced the structurally incomplete 041-186 acquisition index with `docs/data/super-souls/pq-acquisition-index-001-186.json` covering **PQ 1-186**, **92 populated PQ rows**, and **134 unique Super Soul targets**.
+- [x] Added missing acquisition rows for PQ5, 12, 21, 22, 26, 28, 29, 30, 35, 36, 38, and 40; preserved multi-PQ acquisition relationships.
+- [x] Updated the Super Soul consumer audit and crosslink report to **134/134 acquisition-index coverage with 0 missing targets**.
+- [x] Updated the audit script and cross-domain registry; retired the superseded partial index.
+- [x] No unsupported mechanics, drop rates, or trigger behavior were inferred.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** fresh 134-target Super Soul mechanics frontier census and evidence-backed enrichment of the next shortest genuinely under-detailed records.
