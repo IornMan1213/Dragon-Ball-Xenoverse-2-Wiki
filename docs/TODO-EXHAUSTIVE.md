@@ -3883,3 +3883,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical/index identity parity preserved at 474/474; eight audit artifacts registered.
 - [x] Reward-tier/source conflicts and evidence boundaries preserved.
 - [ ] Next: Batch 507 census plus cross-domain enrichment toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 507 live-state reconciliation
+- [x] Verified Batch 507 completion against the live canonical layer: eight selected records now carry `last_verified: 2026-09-27`.
+- [x] Batch 507 selected **Candy Beam (Super), Charge, Circle Flash, Comet Strike, Confusion Blade, Crush Cannon, Crush Stream, Crusher Ball** and preserved 474/474 identity parity.
+- [x] Existing evidence boundaries and source conflicts remain preserved.
+- [ ] Next: Batch 508 census and current-evidence enrichment, followed by cross-domain reconciliation.
