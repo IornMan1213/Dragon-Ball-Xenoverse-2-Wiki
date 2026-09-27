@@ -4225,3 +4225,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved reward-tier/provenance conflicts and unresolved mechanics; no unsupported Skill→PQ relationships were promoted.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] Exact next: fresh Batch 507 census, then prioritize substantive cross-domain linkage/enrichment rather than repeating completed 2026-09-27 candidates.
+
+### 2026-09-27 continuation — Batch 508 index reconciliation and Batch 509 census
+- [x] Completed the pending Batch 508 `docs/data/skills-index.json` synchronization for **Burst Charge, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, and Deadly Dance**; 8 records synchronized with 0 identity changes.
+- [x] Performed the fresh post-Batch-508 census from the live 474-record canonical corpus and selected **Death Ball, Death Beam, Death Crasher, Death Meteor, Death Psycho Bomb, Death Slash, Death Slicer, and Death Wave** for Batch 509.
+- [x] Added `docs/data/skill-research-batches/skill-batch-509.json` with the live selection baseline and evidence boundary.
+- [ ] Next exact: bounded current-evidence refreshes for all eight Batch 509 records, then cross-domain linkage reconciliation.
+- [ ] Runtime/CI remains non-blocking.
