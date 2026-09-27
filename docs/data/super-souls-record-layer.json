@@ -4654,7 +4654,7 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Provenance/ID-drift audit rechecked 2026-09-27: current catalogue evidence contains the same named identity and mechanics, and the repository's normalized PQ relationship points to the same acquisition endpoint. No 138–142-style legacy remapping was detected. Exact reward RNG/first-clear behavior remains unspecified unless directly documented.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4663,7 +4663,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4685,7 +4687,7 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Provenance/ID-drift audit rechecked 2026-09-27: current catalogue evidence contains the same named identity and mechanics, and the repository's normalized PQ relationship points to the same acquisition endpoint. No 138–142-style legacy remapping was detected. Exact reward RNG/first-clear behavior remains unspecified unless directly documented.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4694,7 +4696,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4716,7 +4720,7 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Provenance/ID-drift audit rechecked 2026-09-27: current catalogue evidence contains the same named identity and mechanics, and the repository's normalized PQ relationship points to the same acquisition endpoint. No 138–142-style legacy remapping was detected. Exact reward RNG/first-clear behavior remains unspecified unless directly documented.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4725,7 +4729,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4747,7 +4753,7 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Provenance/ID-drift audit rechecked 2026-09-27: current catalogue evidence contains the same named identity and mechanics, and the repository's normalized PQ relationship points to the same acquisition endpoint. No 138–142-style legacy remapping was detected. Exact reward RNG/first-clear behavior remains unspecified unless directly documented.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4756,7 +4762,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
@@ -4778,7 +4786,7 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "CORRECTED 2026-09-27: the prior record had conflated this PQ 180 reward with a different Beerus/Heavy Smash Super Soul. Current catalogue evidence identifies 'Damn it all!' as Super Saiyan 3 Vegeta (DAIMA)'s soul, triggered once below 25% Health, with +20% all attacks and temporary Ki Auto-Recovery, and Auto Just Guard Limit Burst. The PQ 180 reward relationship itself remains source-backed. The discarded Heavy Smash/+300 Ki/-10%/+10% package belongs to a different soul identity and is not retained here.",
+      "version_notes": "CORRECTED 2026-09-27: the prior record had conflated this PQ 180 reward with a different Beerus/Heavy Smash Super Soul. Current catalogue evidence identifies 'Damn it all!' as Super Saiyan 3 Vegeta (DAIMA)'s soul, triggered once below 25% Health, with +20% all attacks and temporary Ki Auto-Recovery, and Auto Just Guard Limit Burst. The PQ 180 reward relationship itself remains source-backed. The discarded Heavy Smash/+300 Ki/-10%/+10% package belongs to a different soul identity and is not retained here. Provenance/ID-drift audit rechecked 2026-09-27: current catalogue evidence contains the same named identity and mechanics, and the repository's normalized PQ relationship points to the same acquisition endpoint. No 138–142-style legacy remapping was detected. Exact reward RNG/first-clear behavior remains unspecified unless directly documented.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4789,7 +4797,8 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
-        "web:fandom-ss3-vegeta-daima-2026-09-27"
+        "web:fandom-ss3-vegeta-daima-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
