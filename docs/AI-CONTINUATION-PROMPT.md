@@ -3622,3 +3622,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Commits: canonical layer `75cbfda5d519621e8de66ce90e6d5cc7bcfe217e`; audit `ed07ed6815f92965963089093238c71803d8895e`; registration `606a87b1451b344db43ef5015a26931f4d097733`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue item-level evidence recovery for `super-soul-142` / PQ 155. Do not promote the unresolved record or substitute another Super Soul without direct evidence. If no new evidence is found, move to the next unresolved canonical Super Soul/reward relationship and keep forward/reverse indexes synchronized.
+
+
+### 2026-09-27 continuation — PQ 155 / Super Soul 142 canonical reconciliation
+- [x] Performed direct item-level web verification of PQ 155 instead of relying on the recovered canonical edge alone.
+- [x] Direct PQ 155 reward evidence lists Gamma 2 Helmet, Artworks 341/342/397, Heroic Counter, Gamma Blaster, and Gamma Impact; it does **not** list the Super Soul `This is the ultimate hero!`. DLC 14 evidence independently lists its five new Super Souls on PQs 156–158, not PQ 155. citeturn0search1turn0search3
+- [x] Corrected the canonical PQ 155 reward map, forward relationship layer, Super Soul acquisition index, unified reverse index, canonical crosslink report, and `super-soul-142` record.
+- [x] Preserved `super-soul-142` as a standalone unresolved catalogue identity; cleared unsupported PQ acquisition fields and did not invent an alternate source or mechanics.
+- [x] Added `docs/data/pq-155-super-soul-142-reconciliation-audit-2026-09-27.json` documenting the evidence and every affected layer.
+- [x] Commits: reward map `6350e3537d0b886e74c6e9ace70eb3756d9c255f`; relationship layer `1b3c1d692912b880569995a2fde442ea0acaa32e`; acquisition index `fe591548a34325f9421507e6bde53fbef00813c7`; reverse index `17fcae42f408bf4a31747fa74c9959890ac135c4`; record layer `2dce539dc607b61e47812409068daa431586ee1b`; crosslink report `98b3ed3af11dcdb7af2d97894928152e70c08022`; audit `c9f679e58acf30d0c5a059851cdb2186ce319035`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** audit the next unresolved/recovered canonical Super Soul relationship for the same class of stale-edge/map drift, prioritizing records whose acquisition fields are still populated but whose current direct PQ reward evidence omits the item. Keep the standalone record when identity evidence exists; remove only unsupported acquisition edges.
