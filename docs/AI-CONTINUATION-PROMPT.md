@@ -4100,3 +4100,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Final Git-blob validation: **474 records / 474 unique IDs** in `skills.json` and **474 records / 474 unique IDs** in `skills-index.json`.
 - [x] Batch 500 manifest finalized with 8 synchronized records, zero canonical identity changes, and zero unsupported claims promoted.
 - [ ] Next priority: fresh **Batch 501** census from the live 474-record corpus, then continue evidence/mechanics enrichment and reconcile PQ→Skill / Skill→PQ projections.
+
+
+### 2026-09-27 continuation — Batch 501 finalized
+- [x] Completed a fresh post-Batch-500 frontier for **Super Saiyan Blue Kaioken, Giant Storm, Meditation, Fighting Pose I, Fighting Pose B, Fighting Pose J, Hell Flash, and Quick Sleep**; prior frontier candidates were excluded from selection.
+- [x] Added eight dedicated Batch 501 current-evidence audit artifacts and finalized `docs/data/skill-research-batches/skill-batch-501.json`.
+- [x] Synchronized all eight records into both `docs/data/skills.json` and `docs/data/skills-index.json`; canonical IDs/names were unchanged.
+- [x] Preserved bounded evidence and existing provenance conflicts; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.
+- [x] Batch manifest validation remains **474 canonical / 474 index records**, 8 synchronized records, zero canonical identity changes, and evidence-boundary preservation.
+- [ ] Next priority: fresh Batch 502 census from the live corpus, then reconcile PQ→Skill and Skill→PQ projections after the enrichment frontier.
