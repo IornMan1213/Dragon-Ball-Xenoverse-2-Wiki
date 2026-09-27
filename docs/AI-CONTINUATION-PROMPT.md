@@ -4396,3 +4396,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries and did not infer unsupported probabilities, hidden gates, exact frames, universal scaling, or new Skill→PQ edges.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] **Exact next:** fresh Batch 514 census, then continue substantive cross-domain enrichment beyond the 474-record canonical seed toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Canonical skills regression recovery + Batch 514
+- [x] Detected a live canonical-skills regression: docs/data/skills.json had reverted to blob 89e78acb10b69caaf911799e624435314e68ece7, which lacked the completed Batch 496–513 canonical evidence history.
+- [x] Recovered the canonical Skills database from the surviving Batch 513 canonical blob 8cacd72ea4f1d02db2e2366c304f3efe3b03678d rather than reconstructing canonical data from the projection/index layer.
+- [x] Restored the full 474-record canonical Skills baseline and preserved the completed Batch 511–513 corrections/evidence, including the Double Death Slicer correction and the 2026-09-27 refresh history.
+- [x] Re-synchronized docs/data/skills-index.json; both canonical and index layers contain 474 records and Batch 514 identity parity is intact.
+- [x] Completed fresh Batch 514 current-evidence refreshes for Dragon Fist, Dragon Spark, Dragon Spiral, Dragon Thunder, Drain Field, Dual Destructo-Disc, Dust Attack, and Dynamite Kick with zero identity changes and no unsupported Skill→PQ relationships.
+- [x] Added eight Batch 514 evidence audits, the Batch 514 manifest, and cross-domain index registrations.
+- [x] Added docs/data/canonical-database-recovery-restoration-audit-2026-09-27.json documenting the regression and source-preserving restoration.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] Exact next: fresh Batch 515 census from the restored 474-record canonical corpus; continue evidence-backed cross-domain enrichment and repair any newly detected canonical/projection drift before expanding the database further.
