@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "Partner skill relationship validator now handles malformed JSON deterministically and cannot reference an uninitialized relationship key when evidence is malformed.",
+    "Awoken transformation normalization now validates JSON roots, canonical roster container/types, and canonical skill record containers before mutation."
+  ],
+  "canonical_data_changed": false
+}
