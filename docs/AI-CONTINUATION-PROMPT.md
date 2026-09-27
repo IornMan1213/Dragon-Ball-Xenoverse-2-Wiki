@@ -3670,3 +3670,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/super-soul-pq-007-gyau-reconciliation-audit-2026-09-27.json.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the acquisition-metadata parity scan; distinguish incomplete canonical coverage from genuinely stale/disputed endpoint metadata.
+
+### 2026-09-27 continuation — Super Soul reward-map parity sweep
+- [x] Recomputed parity between source-backed PQ→Super Soul relationships and normalized PQ reward maps.
+- [x] Found 15 relationship-backed Super Soul entries missing from the normalized map projections across PQ 12, 21, 22, 26, 28, 29, 30, 35, 36, 38, 164, 173, and 178.
+- [x] Synchronized those reward-map entries. The forward relationship layer, acquisition index, reverse index, and crosslink projection already contained the corresponding source-backed relationships, so no endpoint metadata was discarded.
+- [x] Added docs/data/super-soul-reward-map-parity-audit-2026-09-27.json.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: rerun parity and continue into other canonical projection gaps rather than assuming endpoint metadata is stale.
