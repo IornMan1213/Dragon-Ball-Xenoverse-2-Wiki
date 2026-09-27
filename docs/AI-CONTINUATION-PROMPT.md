@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Partner/Awoken tooling hardening
+- [x] Hardened `validate_partner_skill_relationships.py` for malformed JSON and malformed evidence without uninitialized-variable failures.
+- [x] Hardened `normalize_awoken_transformation_category.py` input/root/container validation before canonical mutation.
+- [x] Added `docs/data/partner-awoken-normalization-hardening-audit-2026-09-27.json`.
+- [x] No canonical data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the validator/audit sweep and then target substantive cross-domain coverage gaps rather than cosmetic work.
+
 ### 2026-09-27 continuation — Super Soul audit and PQ reverse-validator hardening
 - [x] Repaired `scripts/audit_super_soul_consumer_coverage.py`, including malformed source containing a literal escaped newline that joined statements.
 - [x] Removed assertion-dependent control flow from `scripts/validate_skill_pq_crosslinks.py`; validation now fails deterministically under `python -O` as well.
