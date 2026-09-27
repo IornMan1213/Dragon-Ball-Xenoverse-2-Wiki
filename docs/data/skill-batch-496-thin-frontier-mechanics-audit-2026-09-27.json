@@ -1,0 +1,21 @@
+{
+  "date": "2026-09-27",
+  "type": "thin_frontier_mechanics_audit",
+  "batch": 496,
+  "method": "Fresh live census after Batch 495; selected eight records with no registered current-evidence audit hit for the exact candidate names in repository search, then independently rechecked current Xenoverse 2 evidence.",
+  "selected": [
+    "skill-absolute-zero",
+    "skill-angry-shout",
+    "skill-audacious-laugh",
+    "skill-bomber-dx",
+    "skill-charged-ki-wave",
+    "skill-critical-upper",
+    "skill-fighting-pose-a",
+    "skill-fighting-pose-f"
+  ],
+  "result": "complete",
+  "canonical_records": 474,
+  "canonical_index_records": 474,
+  "canonical_sync": "All eight selected records received a 2026-09-27 evidence refresh in both canonical skills and skills-index files.",
+  "next": "Fresh live census before Batch 497; do not reuse this candidate list."
+}
