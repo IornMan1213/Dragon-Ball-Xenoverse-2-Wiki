@@ -2985,3 +2985,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reduced the remaining partial mechanics frontier to **85 records**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
+
+
+### 2026-09-27 TODO progress update — Super Soul restoration/reconciliation
+- [x] Restored super-soul-048, -049, -051, -052, and -053 from explicit catalogue/guide evidence.
+- [x] Recalculated field coverage from the live record layer; historical coverage figures are not treated as proof of persisted data.
+- [x] Flagged super-soul-050 / Do or Die for reward-type classification review rather than assigning unsupported Super Soul mechanics.
+- [x] Recalculated the current partial-mechanics frontier to **80 records**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: reconcile remaining early indexed endpoints from canonical reward classification and item-level evidence.
