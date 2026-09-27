@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-punisher-shield",
+  "skill_name": "Punisher Shield",
+  "batch": 498,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 498 current-evidence refresh: current documentation reconfirms the 100-Ki Ki Blast Super/counter from PQ129, approximately 2-second lingering barrier, Ki-Blast reflection/teleporting kick behavior, and source-reported approximately 7% damage. Exact frames and scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration already maintained in the repository.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
