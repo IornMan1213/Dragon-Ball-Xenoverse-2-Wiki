@@ -1,0 +1,9 @@
+{
+  "schema_version":"1.0",
+  "date":"2026-09-27",
+  "title":"Super Soul projection count audit",
+  "finding":"The canonical Super Soul record layer contains 172 records, while the projection reported 173. The linked PQ sets remain aligned at 135 edges and 133 unique targets.",
+  "correction":"Updated canonical_super_soul_records from 173 to 172. No reward relationships or acquisition edges were changed.",
+  "checks":{"relationship_vs_acquisition":"exact","acquisition_vs_reverse":"exact","relationship_targets_vs_records":"exact","reward_maps_vs_relationships":"exact"},
+  "status":"reconciled"
+}
