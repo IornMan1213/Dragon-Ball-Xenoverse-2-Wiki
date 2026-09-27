@@ -35,8 +35,8 @@
       "missing": 173
     },
     "limit_burst_effect": {
-      "populated": 103,
-      "missing": 69
+      "populated": 105,
+      "missing": 67
     },
     "usable_by_cac": {
       "populated": 118,
@@ -56,34 +56,21 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-029",
-      "super-soul-030",
-      "super-soul-044",
-      "super-soul-045",
-      "super-soul-046",
-      "super-soul-047",
-      "super-soul-076"
+      "super-soul-038",
+      "super-soul-039"
     ],
-    "evidence_basis": "Independent catalogue, character, and raid evidence explicitly states each Limit Burst effect; only limit_burst_effect was populated and no unrelated mechanics were inferred.",
-    "note": "Seven additional canonical records now have synchronized Limit Burst effect fields. Acquisition and unresolved mechanics were preserved."
+    "evidence_basis": "Broly Lite Raid reward documentation and current Broly Super Soul catalogue explicitly state the two Limit Burst effects; no unrelated mechanics were inferred.",
+    "note": "Two additional canonical records now have synchronized Limit Burst effect fields."
   },
   "last_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-029",
-      "super-soul-030",
-      "super-soul-044",
-      "super-soul-045",
-      "super-soul-046",
-      "super-soul-047",
-      "super-soul-076"
+      "super-soul-038",
+      "super-soul-039"
     ],
     "evidence": [
-      "https://dbxv2.fandom.com/wiki/Super_Soul",
-      "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29",
-      "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29",
-      "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80493233",
-      "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608362"
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134",
+      "https://dbxv2.fandom.com/wiki/Broly"
     ],
     "status": "limit_burst_effect_enriched"
   },
