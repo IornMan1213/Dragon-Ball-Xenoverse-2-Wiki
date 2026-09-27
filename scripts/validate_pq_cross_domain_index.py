@@ -34,6 +34,8 @@ def main() -> int:
         failures.append(f"forward_index must be a repository-relative path: {forward}")
     elif not (ROOT / forward).is_file():
         failures.append(f"forward_index file missing: {forward}")
+    elif not forward.startswith("docs/data/"):
+        failures.append("forward_index must resolve inside docs/data")
 
     entries = data.get("reverse_indexes_to_generate")
     if not isinstance(entries, list):
