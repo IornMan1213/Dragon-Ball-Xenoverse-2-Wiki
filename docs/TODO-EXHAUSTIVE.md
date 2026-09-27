@@ -3104,3 +3104,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Verified cross-layer parity against the live `main` data: **137** relationships, **134** unique targets, **134** indexed targets, **168** canonical Super Soul records, with zero missing/extra target identities.
 - [ ] Local/CI execution remains unverified.
 - [ ] **Exact next:** continue forward from the restored database with evidence-backed enrichment rather than reconstructing already-recovered layers.
+
+
+### 2026-09-27 TODO progress update — Super Soul PQ 151–154 conflict frontier
+- [x] Audited super-soul-137 through -141 against the canonical PQ relationship layer.
+- [x] Documented a source conflict affecting PQ 151–154 without changing the canonical reward relationships.
+- [x] Added and registered the conflict audit for future item-level reconciliation.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** pursue stronger item-level evidence for super-soul-137 through -141 before populating mechanics fields; preserve conflicts rather than manufacturing certainty.
