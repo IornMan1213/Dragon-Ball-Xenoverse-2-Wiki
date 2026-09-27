@@ -3339,3 +3339,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added a provenance/reconciliation audit.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the evidence-first Super Soul acquisition parity scan.
+
+### 2026-09-27 continuation — Super Soul reward-map parity sweep
+- [x] Synchronized 15 source-backed Super Soul relationships that were missing from normalized PQ reward-map projections.
+- [x] Preserved existing relationship/acquisition/reverse/crosslink data and added a parity audit.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-first projection/parity auditing across the remaining Super Soul dataset.
