@@ -4,7 +4,7 @@
   "domain": "super_souls",
   "record_layer": "docs/data/super-souls-record-layer.json",
   "validator": "scripts/audit_super_soul_mechanics_coverage.py",
-  "records": 173,
+  "records": 172,
   "fields": {
     "trigger_condition": {
       "populated": 110,
@@ -35,8 +35,8 @@
       "missing": 173
     },
     "limit_burst_effect": {
-      "populated": 91,
-      "missing": 82
+      "populated": 96,
+      "missing": 76
     },
     "usable_by_cac": {
       "populated": 118,
@@ -56,33 +56,32 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-174",
-      "super-soul-175",
-      "super-soul-176",
-      "super-soul-177",
-      "super-soul-178",
-      "super-soul-148",
-      "super-soul-149",
-      "super-soul-150",
-      "super-soul-151",
-      "super-soul-152"
+      "super-soul-031",
+      "super-soul-092",
+      "super-soul-101",
+      "super-soul-173",
+      "super-soul-175"
     ],
-    "evidence_basis": "Explicit PQ/DLC reward identity evidence; only super-soul-174 received mechanics from independent item-level/player-reference evidence.",
-    "note": "Batch 9 also populated Hero of Justice Pack 2 mechanics for records 148–152; canonical verification classifications remain unchanged."
+    "evidence_basis": "Explicit current Super Soul catalogue/character evidence for Limit Burst effects; only the previously missing limit_burst_effect field was populated, with no new trigger timing, magnitude, drop rate, or stacking inference.",
+    "note": "Five canonical records now have synchronized Limit Burst effect fields. Existing Limit Burst identity fields and acquisition relationships were preserved."
   },
   "last_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-054",
-      "super-soul-066",
-      "super-soul-067",
-      "super-soul-078"
+      "super-soul-031",
+      "super-soul-092",
+      "super-soul-101",
+      "super-soul-173",
+      "super-soul-175"
     ],
     "evidence": [
       "https://dbxv2.fandom.com/wiki/Super_Soul",
-      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      "https://dbxv2.fandom.com/wiki/Nappa",
+      "https://dbxv2.fandom.com/wiki/Turles",
+      "https://dbxv2.fandom.com/wiki/Raditz",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
     ],
-    "status": "mechanics_enriched"
+    "status": "limit_burst_effect_enriched"
   },
-  "record_count": 173
+  "record_count": 172
 }
