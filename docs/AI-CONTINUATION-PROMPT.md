@@ -3819,3 +3819,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reclassified `super-soul-138` through `super-soul-142` as **rejected legacy misidentifications**, preserving their history for auditability but preventing them from being treated as valid unresolved catalogue records or acquisition targets.
 - [x] Found an additional historical ID/name mismatch in commit `c4c5a4e`: IDs 140–142 were temporarily attached to different actual reward names from PQ 175–178.
 - [ ] Next: audit the remaining Super Soul record layer for other orphaned/rejected legacy identities created by similar ID/name drift.
+
+
+### 2026-09-27 continuation — post-legacy audit: Super Souls 143–145
+- [x] Began the remaining-ID legacy-drift audit after resolving 138–142.
+- [x] Rechecked 143–145 against current catalogue and independent PQ guide evidence.
+- [x] Super Soul 144 (“Still haven't figured out you're gonna lose?”) corroborated as Gamma 2 / PQ 156: +5% Ki restored per KO, stacks up to 10, Limit Burst ATK Up + Ki Auto-Recovery + Stamina Rec. SPD Down.
+- [x] Super Soul 145 (“I'll be the one to fight you!”) corroborated as Gamma 1 / PQ 157: battle-start 30-second package (+30% attacks, -30% damage taken, +30% Stamina recovery), with DEF Up + Super Armor + Ki Rec. SPD Down Limit Burst.
+- [ ] Continue auditing 143 and the next Super Soul records for independent provenance and historical ID/name drift.
