@@ -2994,3 +2994,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Recalculated the current partial-mechanics frontier to **80 records**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: reconcile remaining early indexed endpoints from canonical reward classification and item-level evidence.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 9
+- [x] Enriched super-soul-122 through super-soul-126.
+- [x] Refreshed mechanics/integrity audits: trigger 89/168, effect 97/168, magnitude 91/168, duration 75/168, stacking 41/168, Limit Burst 87/168, Limit Burst effect 67/168, CaC 97/168.
+- [x] Reduced the remaining partial mechanics frontier to **85 records**.
+- [x] Preserved known catalogue/data wording discrepancies instead of silently normalizing them.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
