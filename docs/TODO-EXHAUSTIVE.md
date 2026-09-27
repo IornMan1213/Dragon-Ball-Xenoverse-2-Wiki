@@ -4108,3 +4108,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved reward probabilities, exact frames, hidden conditions, disputed acquisition semantics, and patch-independent scaling rather than inferring them.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Exact next: continue the stale canonical Skill frontier after Mystic Flash; re-fetch live SHAs before mutation.
+
+
+### 2026-09-27 continuation — Skill evidence Batch 524
+- [x] Refreshed 16 stale canonical skill records: Neo Tri-Beam; Neo Wolf Fang Fist; One-Handed Kamehameha mk.II; Pendulum Bullet; Perfect Shot; Petrifying Spit; Phantom Fist; Photon Swipe; Potential Unleashed; Power Blitz; Power Impact; Power Pole Combo; Power Pole Pro; Power Rush; Power Wall; Powered Shell.
+- [x] Synchronized the corresponding skills-index projections; canonical/index record counts remain 474/474.
+- [x] Added docs/data/skill-research-batches/skill-batch-524.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Batch 524 made zero skill identity changes, zero canonical field corrections, and zero new Skill→PQ relationship inferences.
+- [x] Preserved unresolved reward probabilities, exact frames, hidden conditions, disputed acquisition semantics, and patch-independent scaling rather than inferring them.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Exact next: continue the stale canonical Skill frontier after Powered Shell; re-fetch live SHAs before every mutation.
