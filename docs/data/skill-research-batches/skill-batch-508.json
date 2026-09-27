@@ -18,7 +18,8 @@
   "synchronized_layers": [
     "docs/data/skills.json"
   ],
-  "index_sync_status": "Pending concurrent-mutation reconciliation for docs/data/skills-index.json; no index changes were forced over another writer.",
+  "index_sync_status": "Completed after concurrent-mutation reconciliation; docs/data/skills-index.json now carries the eight Batch 508 refresh dates.",
   "evidence_boundary": "Existing acquisition/reward-tier/source conflicts remain preserved. Unsupported exact frames, hidden interactions, universal scaling, reward probabilities, and new Skill→PQ edges were not promoted.",
-  "projection_note": "No new Skill→PQ edges inferred."
+  "projection_note": "No new Skill→PQ edges inferred.",
+  "status": "completed"
 }
