@@ -60,9 +60,15 @@
       "super-soul-175",
       "super-soul-176",
       "super-soul-177",
-      "super-soul-178"
+      "super-soul-178",
+      "super-soul-148",
+      "super-soul-149",
+      "super-soul-150",
+      "super-soul-151",
+      "super-soul-152"
     ],
-    "evidence_basis": "Explicit PQ/DLC reward identity evidence; only super-soul-174 received mechanics from independent item-level/player-reference evidence."
+    "evidence_basis": "Explicit PQ/DLC reward identity evidence; only super-soul-174 received mechanics from independent item-level/player-reference evidence.",
+    "note": "Batch 9 also populated Hero of Justice Pack 2 mechanics for records 148–152; canonical verification classifications remain unchanged."
   },
   "last_batch": {
     "date": "2026-09-27",
