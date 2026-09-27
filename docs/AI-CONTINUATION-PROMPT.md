@@ -2661,3 +2661,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No character identity, Partner Customization, DLC, acquisition, or skill relationship data changed.
 - [ ] Runtime validator execution and CI/build remain unverified in this environment.
 - [x] **Exact next:** inspect the next live consumer/validator or deterministic projection for another concrete schema/type/range/stale-reference gap; preserve the evidence boundary around absent PQ reward/reverse datasets.
+
+
+### 2026-09-27 continuation — Restore missing repository files onto main
+- [x] Investigated the report that main showed only a small subset of the repository while other branches still contained the broader codebase.
+- [x] Confirmed the live main tree was sparse at the repository root: it contained only docs/ and scripts/, while the recovery source branch ai/continue-skill-acquisition-2026-09-19 still contained the missing root files, GitHub workflows, wiki pages, older research records, and other repository artifacts.
+- [x] Created safety branch recovery-before-main-restoration-2026-09-27 at the pre-restoration main commit 8eb55741ddd8d21273434f52bec444178871544a before changing main.
+- [x] Restored every file path present on the recovery source branch that was absent from current main, while preserving the current main version for paths that already existed there. This avoids replacing the newer current canonical/evidence work with older branch versions while recovering missing files.
+- [x] Committed the restored union as 9e15797821d41304c7c62d889a79cf0acaf3fa05 (Restore missing repository files onto main) and moved main to that commit with a fast-forward update.
+- [x] Manually confirmed restored critical paths on main: README.md, .github/workflows/data-audit.yml, docs/index.md, docs/data/pq-reward-relationships.json, and scripts/validate_skill_acquisition_metadata.py.
+- [x] Live recursive tree inspection after restoration reports 1,502 tree entries and root files CHANGELOG.md, CONTRIBUTING.md, README.md, and TODO.md; main is no longer the sparse docs/scripts-only state.
+- [ ] Runtime validator execution and CI/build remain intentionally unverified and non-blocking per current project policy.
+- [x] **Exact next:** continue substantive data/research work from the restored main state; do not treat runtime/CI availability as a blocker.
