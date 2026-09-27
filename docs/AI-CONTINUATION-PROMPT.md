@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — PQ equipment endpoint coverage validator hardening
+- [x] Fresh live census confirmed the canonical skill mechanics frontier is already **474/474**, so no artificial Batch 496 was opened.
+- [x] Inspected the live `scripts/validate_pq_equipment_endpoint_coverage.py`.
+- [x] Found a concrete schema/type-integrity gap: the validator coerced relationship targets and endpoint names with `str(...)`, allowing malformed non-string JSON values to become apparently valid identities.
+- [x] Hardened the validator to require object roots, list-valued `records`, object records, non-empty string relationship targets, and non-empty string endpoint names before normalization/set operations.
+- [x] Updated `docs/data/pq-equipment-endpoint-coverage-audit-2026-09-27.json` to record the hardening contract; canonical equipment data remains unchanged.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next live deterministic validator/consumer for another concrete integrity gap; continue evidence-backed database enrichment only where canonical source evidence is explicit.
+
 ### 2026-09-27 continuation — PQ equipment endpoint recovery-forward batch
 - [x] Freshly re-censused the remaining PQ equipment endpoint gaps after database recovery; did not reuse an older candidate list as authoritative.
 - [x] Promoted four explicit canonical accessory identities from existing repository evidence: **Gamma 1's Helmet (PQ156), Golden Frieza Head (PQ182), Dragon Ball Balloon (PQ184), and Goku (Ultra Supervillain Quelled) Wig (PQ185)**.
