@@ -3828,3 +3828,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No unsupported Skill→PQ relationships or unsupported mechanics/probabilities were promoted.
 - [ ] Next: reconcile index synchronization, then Batch 509 census and cross-domain enrichment toward the 672 indexed-category target.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 506 additional frontier refresh
+- [x] Added current-evidence refreshes for **Crusher Ball, Dark Inscription, Deadly Dance, Supreme Fury, Taunt, The Power to Overcome, Time Skip/Back Breaker**.
+- [x] Preserved the pre-existing Batch 506 completed selection/history and extended the manifest rather than replacing it.
+- [x] Canonical/index identity parity remains intact; no unsupported Skill→PQ edges were added.
+- [ ] Next: fresh Batch 507 census and substantive cross-domain linkage/enrichment toward the 672 indexed-category target.
+- [ ] Runtime/CI remains non-blocking.
