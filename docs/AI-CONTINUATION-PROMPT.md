@@ -3747,3 +3747,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Limit Burst coverage remains **107/172** because this pass intentionally changed provenance/context rather than asserting unsupported Limit Burst effects.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the remaining thin records (`001,005,007,013,015,016,076`) and seek direct item/catalogue evidence before filling missing mechanics.
+
+
+### 2026-09-27 continuation — early Super Soul catalogue reconciliation
+- [x] Reconciled catalogue mechanics/provenance for `super-soul-001`, `005`, `007`, `013`, `015`, and `016` against the current Super Soul catalogue. citeturn0search9turn0search10
+- [x] Preserved explicit “No special effects” states instead of inventing passive mechanics for 005/007/015/016. citeturn0search8turn0search9
+- [x] Limit Burst coverage remains **107/172**; this pass reconciled ordinary catalogue mechanics/provenance rather than asserting new Limit Burst effects.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** investigate the remaining thin set: Future Saga 032–035 plus 076, with direct evidence preferred and unresolved mechanics kept unresolved.
