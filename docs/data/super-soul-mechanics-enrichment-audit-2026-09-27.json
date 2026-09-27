@@ -7,40 +7,40 @@
   "records": 168,
   "fields": {
     "trigger_condition": {
-      "populated": 74,
-      "missing": 94
+      "populated": 79,
+      "missing": 89
     },
     "effect_text": {
-      "populated": 82,
-      "missing": 86
+      "populated": 87,
+      "missing": 81
     },
     "effect_magnitude": {
-      "populated": 76,
-      "missing": 92
+      "populated": 81,
+      "missing": 87
     },
     "duration": {
-      "populated": 64,
-      "missing": 104
+      "populated": 66,
+      "missing": 102
     },
     "stacking_behavior": {
-      "populated": 33,
-      "missing": 135
+      "populated": 36,
+      "missing": 132
     },
     "limit_burst": {
-      "populated": 72,
-      "missing": 96
+      "populated": 77,
+      "missing": 91
     },
     "limit_burst_trigger": {
       "populated": 0,
       "missing": 168
     },
     "limit_burst_effect": {
-      "populated": 52,
-      "missing": 116
+      "populated": 57,
+      "missing": 111
     },
     "usable_by_cac": {
-      "populated": 82,
-      "missing": 86
+      "populated": 87,
+      "missing": 81
     },
     "race_restriction": {
       "populated": 3,
@@ -56,12 +56,12 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-097",
-      "super-soul-098",
-      "super-soul-099",
-      "super-soul-100",
-      "super-soul-101"
+      "super-soul-102",
+      "super-soul-103",
+      "super-soul-104",
+      "super-soul-105",
+      "super-soul-106"
     ],
-    "evidence_basis": "Current Super Soul catalogue, character-specific catalogue pages, independent stat-sheet extraction, and guide evidence; source discrepancy for Veku later attack boost explicitly preserved."
+    "evidence_basis": "Super Soul catalogue plus independent GameFAQs/Steam evidence; canonical PQ acquisition remains authoritative."
   }
 }
