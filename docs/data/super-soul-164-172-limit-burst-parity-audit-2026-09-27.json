@@ -1,0 +1,61 @@
+{
+  "audit_id": "super-soul-164-172-limit-burst-parity-audit-2026-09-27",
+  "status": "evidence_backed_enrichment",
+  "scope": {
+    "records": [
+      "super-soul-164",
+      "super-soul-165",
+      "super-soul-166",
+      "super-soul-167",
+      "super-soul-168",
+      "super-soul-169",
+      "super-soul-170",
+      "super-soul-171",
+      "super-soul-172"
+    ]
+  },
+  "changes": [
+    {
+      "id": "super-soul-164",
+      "limit_burst_effect": "Revive Gauge Auto-Recovery!"
+    },
+    {
+      "id": "super-soul-165",
+      "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down."
+    },
+    {
+      "id": "super-soul-166",
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+    },
+    {
+      "id": "super-soul-167",
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+    },
+    {
+      "id": "super-soul-168",
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+    },
+    {
+      "id": "super-soul-169",
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+    },
+    {
+      "id": "super-soul-170",
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+    },
+    {
+      "id": "super-soul-171",
+      "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+    },
+    {
+      "id": "super-soul-172",
+      "limit_burst_effect": "Kamehameha ATK Up!"
+    }
+  ],
+  "evidence_policy": "Existing canonical identities were enriched only where independent catalogue evidence explicitly supplies the Limit Burst effect; no reward identity, acquisition relationship, or unresolved classification was changed.",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "notes": [
+    "Only the previously absent normalized limit_burst_effect field was filled for this batch.",
+    "PQ 155 / super-soul-142 remains unresolved and untouched."
+  ]
+}
