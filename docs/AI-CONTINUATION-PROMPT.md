@@ -2751,3 +2751,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** inspect the PQ→Character consumer layer for stale-source/projection mismatch and rebuild its deterministic projection from canonical forward relationships where needed; then continue DLC and farming consumers.
 
+### 2026-09-27 continuation — PQ→Character consumer reconciliation
+- [x] Audited the PQ→character consumer layer against authoritative `docs/data/pq-reward-relationships.json` (`pq_features_character`).
+- [x] Added `docs/data/pq-character-crosslink-report.json`: **247 canonical edges / 75 unique character targets**.
+- [x] All **75/75 unique character identities** resolve against `characters-record-layer.json` (including its DLC character-name layer); no endpoint identity gaps remain for this canonical projection.
+- [x] Corrected an initial projection-counting implementation issue before finalizing the report; endpoint identity comparison is now exact string-set matching.
+- [x] Registered the character consumer projection in `pq-cross-domain-index.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** inspect the PQ→DLC consumer layer and rebuild/validate its deterministic projection from canonical forward relationships; then inspect farming-route consumer coverage.
+
