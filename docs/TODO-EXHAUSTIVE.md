@@ -2875,3 +2875,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed the endpoint report and audit; reward conditions and version provenance remain explicitly unresolved where not established.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** promote the remaining 55 endpoint identities using explicit reward-normalization evidence, with clothing/accessory domain classification kept separate.
+
+### 2026-09-27 continuation — legacy PQ accessory endpoint batch
+- [x] Promoted 7 explicit accessory identities: Goku Wig, Perfect Cell's Wings, Pan's Bandanna, Yamcha's Baseball Hat, SS4 Wig & Tail (Goku), Resistance Helmet, Toppo's Moustache.
+- [x] Recomputed PQ→equipment coverage: 125 edges / 123 unique targets / 75 exact endpoint identities / 48 remaining identity gaps.
+- [x] Removed an intermediate unsupported clothing promotion batch rather than retaining guessed PQ attribution; canonical data remains evidence-backed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue promoting only explicitly evidenced remaining endpoint identities, then reconcile clothing records separately from accessories.
