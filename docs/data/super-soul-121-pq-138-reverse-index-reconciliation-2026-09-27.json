@@ -1,0 +1,14 @@
+{
+  "schema_version":"1.0",
+  "date":"2026-09-27",
+  "title":"Super Soul 121 PQ 138/151 acquisition reconciliation",
+  "target":"I'm not gonna die until I defeat you!",
+  "finding":"The endpoint's canonical acquisition metadata contained a stale historical PQ 151 attribution in addition to the current PQ 138 attribution. Current PQ 138 reward evidence confirms the Super Soul; current DLC documentation also places it at PQ 138. The canonical acquisition index correctly retained only PQ 138, while the unified reverse index had omitted the target entirely.",
+  "correction":"Restored the reverse index entry to PQ 138 only. No PQ 151 relationship was added.",
+  "evidence":[
+    {"source":"Steam Community all-186 PQ guide","url":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","finding":"PQ 138 basic rewards explicitly list I'm not gonna die until I defeat you!."},
+    {"source":"Dragon Ball Xenoverse 2 Wiki — The Battle for Earth","url":"https://dbxv2.fandom.com/wiki/The_Battle_for_Earth","finding":"PQ 138 rewards include I'm not gonna die until I defeat you!."},
+    {"source":"Dragon Ball Xenoverse 2 Wiki — DLC","url":"https://dbxv2.fandom.com/wiki/DLC","finding":"Ultra Pack 2 documentation lists the Super Soul under PQ 138."}
+  ],
+  "status":"reconciled"
+}
