@@ -39,15 +39,17 @@ def main() -> int:
     skill_id_values = [row.get("id") for row in skill_records if isinstance(row, dict)]
     bridge_name_values = [row.get("canonical_character_name") for row in bridge_records if isinstance(row, dict)]
     from collections import Counter
-    duplicate_skill_ids = sorted(k for k,v in Counter(skill_id_values).items() if k is not None and v > 1)
-    duplicate_bridge_names = sorted(k for k,v in Counter(bridge_name_values).items() if k is not None and v > 1)
-    skill_ids = set(skill_id_values)
-    canonical_names = set(bridge_name_values)
-    if any(not isinstance(skill_id, str) or not skill_id.strip() for skill_id in skill_ids):
+    valid_skill_id_values = [value for value in skill_id_values if isinstance(value, str) and value.strip()]
+    valid_bridge_name_values = [value for value in bridge_name_values if isinstance(value, str) and value.strip()]
+    duplicate_skill_ids = sorted(k for k,v in Counter(valid_skill_id_values).items() if v > 1)
+    duplicate_bridge_names = sorted(k for k,v in Counter(valid_bridge_name_values).items() if v > 1)
+    skill_ids = set(valid_skill_id_values)
+    canonical_names = set(valid_bridge_name_values)
+    if len(valid_skill_id_values) != len(skill_id_values):
         failures.append("canonical skill IDs must be non-empty strings")
     if duplicate_skill_ids:
         failures.append(f"duplicate canonical skill IDs: {duplicate_skill_ids}")
-    if any(not isinstance(name, str) or not name.strip() for name in canonical_names):
+    if len(valid_bridge_name_values) != len(bridge_name_values):
         failures.append("canonical partner names must be non-empty strings")
     if duplicate_bridge_names:
         failures.append(f"duplicate canonical partner names: {duplicate_bridge_names}")
