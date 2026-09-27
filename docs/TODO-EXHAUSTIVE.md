@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Skill acquisition PQ-container falsey fallback hardening
+- [x] Inspected the next live deterministic validator, `scripts/validate_skill_acquisition_metadata.py`, after confirming the repository currently has only six live `validate_*.py` scripts and the previously hardened targets are already covered.
+- [x] Found a concrete acceptance gap: `source_parallel_quests` used a falsey fallback (`or []`), so a present malformed value such as `null`, `false`, `0`, or an empty string could be coerced into an apparently valid empty endpoint list.
+- [x] Hardened the validator to distinguish an omitted field (no explicit endpoints) from a present value: present `source_parallel_quests` values must be lists before duplicate/type/range checks run.
+- [x] Updated `docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json` with the hardening record; no canonical skill acquisition data was changed.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the remaining live deterministic consumer/projection layer for another concrete schema, type/range, identity, or source-vs-build-output mismatch; keep `docs/data/pq-reward-relationships.json` as an explicit evidence boundary until an evidence-complete producer exists.
+
 ### 2026-09-27 TODO progress update — Skill→PQ endpoint uniqueness hardening
 - [x] Hardened `scripts/validate_skill_pq_crosslinks.py` against duplicate PQ IDs and boolean-as-integer PQ IDs inside canonical skill endpoint lists.
 - [x] Recorded **0 duplicate / 0 boolean** endpoint violations in the Skill→PQ linkage audit; canonical **474 / 246 / 170** projection remains unchanged.
