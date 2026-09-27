@@ -1,0 +1,10 @@
+{
+  "schema_version":"1.0",
+  "date":"2026-09-27",
+  "title":"Super Soul canonical reward-map parity audit — early and late PQ gaps",
+  "status":"resolved_canonical_coverage_gaps",
+  "finding":"The forward PQ→Super Soul relationship layer already contained source-backed relationships that were missing from the normalized reward-map projections.",
+  "synchronized_pqs":[12,21,22,26,28,29,30,35,36,38,164,173,178],
+  "note":"The relationship layer and reverse index already represented these rewards; this cycle synchronized the normalized reward maps to the established canonical relationships rather than altering endpoint acquisition metadata.",
+  "crosslink_projection":"No new endpoint relationships were required; the existing projection already contained the source-backed edges."
+}
