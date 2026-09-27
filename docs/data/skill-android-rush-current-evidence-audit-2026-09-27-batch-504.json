@@ -1,0 +1,14 @@
+{
+  "skill_name": "Android Rush",
+  "batch": 504,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 504 refresh: current Xenoverse 2-specific evidence reconfirms Android Rush as a 100-Ki four-hit Strike Super from Android 16 Lesson 2. Directional input changes the final knockback route; source-reported total damage is about 10%, while exact launch distance and frames remain unresolved.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Android_Rush",
+    "https://dragonball.fandom.com/wiki/Android_Rush"
+  ],
+  "evidence_boundary": "Bounded current evidence only; source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
