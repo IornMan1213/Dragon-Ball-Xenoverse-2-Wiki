@@ -5006,7 +5006,7 @@
       "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Cooler training endpoint, 100-Ki Strike classification, restand/alternate knockback paths, and documented cancel/connectivity differences. No unsupported damage or frame values were inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Cooler training endpoint, 100-Ki Strike classification, restand/alternate knockback paths, and documented cancel/connectivity differences. No unsupported damage or frame values were inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current documentation reconfirms Cooler (Final Form) training, 100 Ki Strike Super classification, restand/alternate knockback paths, and documented cancel/connectivity distinctions; exact frames/damage scaling remain unresolved.",
       "id": "skill-feint-crash",
       "source_mentor": [
         "mentor-cooler"
@@ -5418,7 +5418,7 @@
       "race_restriction": "Character-only",
       "dlc_requirement": "Ultra Pack 1",
       "acquisition_type": "character_only",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 200-Ki cost, 24-hit long-range beam/knockback behavior, character-only scope, and source-reported ~30% damage. No CaC acquisition route, frame data, or scaling was inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 200-Ki cost, 24-hit long-range beam/knockback behavior, character-only scope, and source-reported ~30% damage. No CaC acquisition route, frame data, or scaling was inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current documentation reconfirms 200 Ki, character-only SSGSS Vegeta (Evolved) scope, 24-hit long-range beam/knockback behavior, and source-reported ~30% damage; no CaC acquisition, frame, or scaling claim added.",
       "id": "skill-final-flash-super"
     },
     {
@@ -5812,7 +5812,7 @@
       "source_quest": 133,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 442 refresh: current PQ133 evidence reconfirms Formation! as a reward in Ribrianne's Beauty Lesson, while the maintained research corpus retains the three charge-duration values (~30/~31.5/~33 seconds). The 25% reward-roll figure remains explicitly source-bound; no unsupported effect magnitude, frame data, or hidden restriction is added.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 442 refresh: current PQ133 evidence reconfirms Formation! as a reward in Ribrianne's Beauty Lesson, while the maintained research corpus retains the three charge-duration values (~30/~31.5/~33 seconds). The 25% reward-roll figure remains explicitly source-bound; no unsupported effect magnitude, frame data, or hidden restriction is added.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current PQ133 evidence reconfirms Ribrianne's Beauty Lesson acquisition and the documented ~30/~31.5/~33-second charge-duration levels; source-bound reward-roll figure remains explicitly non-canonical.",
       "id": "skill-formation",
       "source_parallel_quests": [
         133
@@ -6859,7 +6859,7 @@
       "source_quest": "Zamasu mentor training — lesson-1.",
       "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence expanded the previously deferred mechanics with the held Ki-ball setup, additional-input firing, guard cancellation, 8–17-hit characteristics, and source-reported ~5%/10% damage outcomes. Exact timing/scaling remains unresolved.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence expanded the previously deferred mechanics with the held Ki-ball setup, additional-input firing, guard cancellation, 8–17-hit characteristics, and source-reported ~5%/10% damage outcomes. Exact timing/scaling remains unresolved.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current documentation reconfirms 100 Ki, Zamasu training, held Ki-sphere setup, additional-input firing, guard cancellation, 8–17-hit behavior, and source-reported damage outcomes; exact timing/scaling remain unresolved.",
       "id": "skill-god-splitter",
       "source_mentor": [
         "mentor-zamasu"
@@ -7540,7 +7540,7 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "wish",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Shenron wish endpoint, 300-Ki Ultimate classification, five-hit freezing projectile, source-reported ~15% damage, and ~3-second freeze. Exact startup and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Shenron wish endpoint, 300-Ki Ultimate classification, five-hit freezing projectile, source-reported ~15% damage, and ~3-second freeze. Exact startup and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current Xenoverse 2-specific documentation reconfirms Shenron wish acquisition, 300-Ki Ki Blast Ultimate classification, five-hit freezing projectile, source-reported ~15% damage, and ~3-second freeze; exact startup and patch-independent scaling remain unresolved.",
       "id": "skill-ice-cannon"
     },
     {
@@ -8707,7 +8707,7 @@
       "race_restriction": "Majin",
       "source_quest": 60,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 437 current-evidence audit: corrected the canonical class from Ultimate to Super using dedicated current skill documentation; reconfirmed 100-Ki cost, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin-only CaC restriction.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: corrected the canonical class from Ultimate to Super using dedicated current skill documentation; reconfirmed 100-Ki cost, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin-only CaC restriction.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current documentation reconfirms 100 Ki, Super classification, PQ60 endpoint, three charge stages, 5–15-hit behavior, source-reported ~10–15% damage, and Majin-CaC restriction.",
       "id": "skill-majin-kamehameha",
       "source_parallel_quests": [
         60
@@ -8822,7 +8822,7 @@
       "dlc_requirement": "Free Update 2",
       "last_verified": "2026-09-27",
       "research_status": "enriched",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 100-Ki Skill Shop endpoint, beam/teleport/pseudo-Strike behavior, and approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 100-Ki Skill Shop endpoint, beam/teleport/pseudo-Strike behavior, and approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current documentation reconfirms Skill Shop acquisition, 100 Ki Ki Blast Super classification, beam/teleport/pseudo-Strike behavior, and source-reported ~10% damage on both paths; exact frame timing remains unresolved.",
       "id": "skill-menacing-flare"
     },
     {
@@ -9277,7 +9277,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 34,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 441 refresh: current evidence reconfirms PQ34 Basic Reward acquisition, Strike Ultimate classification, 300 Ki cost, immobilization/ice-pillar sequence, unblockable property, and the source-reported two-hit/25%-damage figure. The latter is retained as source-reported, not promoted to a timeless game-data constant.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 441 refresh: current evidence reconfirms PQ34 Basic Reward acquisition, Strike Ultimate classification, 300 Ki cost, immobilization/ice-pillar sequence, unblockable property, and the source-reported two-hit/25%-damage figure. The latter is retained as source-reported, not promoted to a timeless game-data constant.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence refresh: current documentation reconfirms PQ34 Basic Reward, 300 Ki Strike Ultimate classification, immobilization/ice-pillar sequence, unblockable property, and source-reported two-hit/~25% damage; freeze duration/frame timing remain unresolved.",
       "id": "skill-paralysis",
       "source_parallel_quests": [
         34
