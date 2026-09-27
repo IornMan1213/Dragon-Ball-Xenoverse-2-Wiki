@@ -36,5 +36,12 @@
     "I'm the one who will win!"
   ],
   "note": "The six prior endpoints remain documented in the conflict audit as disputed recovered claims rather than being silently discarded. Five corrected canonical records were added; PQ 154 has no Super Soul in the explicit cited reward list.",
-  "mechanics_policy": "Only 'I think I'm getting the hang of this.' received mechanics because independent item-level/player-reference evidence supports them. The other four corrected records remain mechanics-unresolved."
+  "mechanics_policy": "Only 'I think I'm getting the hang of this.' received mechanics because independent item-level/player-reference evidence supports them. The other four corrected records remain mechanics-unresolved.",
+  "mechanics_updates": {
+    "super-soul-175": "5% all-attack increase per throw, stacking to 10; Auto Just Guard Limit Burst",
+    "super-soul-176": "+10% movement speed and +10% Ki restored; ATK Up! Ki Auto-Recovery! Limit Burst",
+    "super-soul-177": "+10% all attacks; occasional refund of initial Ki cost; exact proc behavior documented as 20% in current catalogue",
+    "super-soul-178": "Battle-start +10% all attacks and increased maximum Ki; below 50% HP the attack boost is removed; exact Ki-recovery penalty magnitude and Limit Burst remain unresolved"
+  },
+  "next_action": "Audit exact item-level values for super-soul-178 and preserve unresolved fields until stronger evidence; then audit provenance aliases for the six removed recovered claims."
 }
