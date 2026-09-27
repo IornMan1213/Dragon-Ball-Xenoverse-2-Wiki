@@ -3103,3 +3103,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - Endpoint layers currently expose 108 unique named equipment/accessory endpoints; missing endpoint records remain enrichment gaps and are never treated as negative acquisition claims.
 - Runtime/CI remains intentionally non-blocking per user instruction.
 - Next priority: evidence-backed promotion/enrichment of the 81 missing equipment endpoint identities, preserving canonical relationship authority and provenance; then validate/reconcile the resulting projection.
+
+### 2026-09-27 continuation — PQ equipment endpoint batch
+- [x] Promoted 5 explicit named accessory endpoints from PQ 121–142 research: Broly Wig (Legendary Super Saiyan), Kakunsa's Wig and Mask, Kakunsa's Tail, Rozie's Hood and Goggles, Universe 7 Baseball Cap.
+- [x] Recomputed canonical PQ→equipment endpoint coverage: 125 edges / 123 unique targets / 56 exact endpoint identities / 67 remaining identity gaps.
+- [x] Refreshed the endpoint coverage report and audit from the live canonical relationship source.
+- [x] Kept reward-slot certainty, route/version provenance, and unresolved semantics separate from identity promotion.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence-backed promotion of the remaining 67 endpoint identities, prioritizing explicit inventory names from PQ research and avoiding generic set/component labels.
