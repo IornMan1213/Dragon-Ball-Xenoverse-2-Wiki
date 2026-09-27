@@ -5001,12 +5001,12 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Cooler (Final Form) mentor training — Initiation Test",
       "mechanics_notes": "100-Ki Strike Super learned through Cooler (Final Form) training. The user teleports behind the opponent for a restanding punch; an immediate additional input instead teleports to the opposite side for a kick that causes knockback. The regular path can directly cancel into many skills and stamina breaks, while the alternate path is more limited and does not properly connect against already-knocked-back targets.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Cooler (Final Form) mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Cooler training endpoint, 100-Ki Strike classification, restand/alternate knockback paths, and documented cancel/connectivity differences. No unsupported damage or frame values were inferred.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Cooler training endpoint, 100-Ki Strike classification, restand/alternate knockback paths, and documented cancel/connectivity differences. No unsupported damage or frame values were inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-feint-crash",
       "source_mentor": [
         "mentor-cooler"
@@ -5412,13 +5412,13 @@
       "unlock_method": "Character-exclusive skill; not equippable by CaCs",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Character skill",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "usable_by_cac": false,
       "mechanics_notes": "200-Ki character-exclusive Ki Blast Super used by SSGSS Vegeta (Evolved); unavailable to CaCs. The user fires a long beam from both hands, producing a 24-hit knockback sequence; dedicated current evidence reports approximately 30% total damage. It is the first Ultimate Attack repurposed as a Super variant.",
       "race_restriction": "Character-only",
       "dlc_requirement": "Ultra Pack 1",
       "acquisition_type": "character_only",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 200-Ki cost, 24-hit long-range beam/knockback behavior, character-only scope, and source-reported ~30% damage. No CaC acquisition route, frame data, or scaling was inferred.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 200-Ki cost, 24-hit long-range beam/knockback behavior, character-only scope, and source-reported ~30% damage. No CaC acquisition route, frame data, or scaling was inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-final-flash-super"
     },
     {
@@ -5801,7 +5801,7 @@
       "mechanics_notes": "100-Ki Power Up Super from PQ133. Charging/holding the technique produces three documented duration levels of approximately 30, 31.5, and 33 seconds. Current evidence confirms PQ133 as the acquisition endpoint and an Ultimate Finish requirement.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -5812,7 +5812,7 @@
       "source_quest": 133,
       "race_restriction": "All CaC races",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 442 refresh: current PQ133 evidence reconfirms Formation! as a reward in Ribrianne's Beauty Lesson, while the maintained research corpus retains the three charge-duration values (~30/~31.5/~33 seconds). The 25% reward-roll figure remains explicitly source-bound; no unsupported effect magnitude, frame data, or hidden restriction is added.",
+      "notes": "2026-09-26 Batch 442 refresh: current PQ133 evidence reconfirms Formation! as a reward in Ribrianne's Beauty Lesson, while the maintained research corpus retains the three charge-duration values (~30/~31.5/~33 seconds). The 25% reward-roll figure remains explicitly source-bound; no unsupported effect magnitude, frame data, or hidden restriction is added.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-formation",
       "source_parallel_quests": [
         133
@@ -6853,13 +6853,13 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Zamasu mentor training",
       "mechanics_notes": "100-Ki Ki Blast Super from Zamasu training. The user creates a Ki sphere in the left hand; an additional input fires it for a documented 10-hit sequence at about 5% total damage, while precise timing can produce a 17-hit sequence at about 10% total damage. Guard input can cancel before firing.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Zamasu mentor training — lesson-1.",
       "dlc_requirement": "Extra Pack 1",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence expanded the previously deferred mechanics with the held Ki-ball setup, additional-input firing, guard cancellation, 8–17-hit characteristics, and source-reported ~5%/10% damage outcomes. Exact timing/scaling remains unresolved.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence expanded the previously deferred mechanics with the held Ki-ball setup, additional-input firing, guard cancellation, 8–17-hit characteristics, and source-reported ~5%/10% damage outcomes. Exact timing/scaling remains unresolved.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-god-splitter",
       "source_mentor": [
         "mentor-zamasu"
@@ -7534,13 +7534,13 @@
       "mechanics_notes": "300-Ki Ki Blast Ultimate obtained from the Shenron wish for a new Ultimate Attack. The user spins vertically, fires a freezing projectile for five hits and about 15% source-reported damage, then freezes the opponent for about 3 seconds.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ice_Cannon"
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "wish",
-      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Shenron wish endpoint, 300-Ki Ultimate classification, five-hit freezing projectile, source-reported ~15% damage, and ~3-second freeze. Exact startup and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-26 Batch 447 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the Shenron wish endpoint, 300-Ki Ultimate classification, five-hit freezing projectile, source-reported ~15% damage, and ~3-second freeze. Exact startup and patch-independent scaling remain unresolved.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-ice-cannon"
     },
     {
@@ -8696,7 +8696,7 @@
       "mechanics_notes": "100-Ki Ki Blast Super from PQ60 — Blast the Super Spirit Bomb!. Fires a pink Kamehameha chargeable through three stages; current documentation reports 5 hits at base charge and up to 15 hits at maximum charge, with approximately 10% to 15% damage. Restricted to Majin CaCs. Exact charge timing, hit timing, and stat-scaling behavior remain unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Majin_Kamehameha",
@@ -8707,7 +8707,7 @@
       "race_restriction": "Majin",
       "source_quest": 60,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 437 current-evidence audit: corrected the canonical class from Ultimate to Super using dedicated current skill documentation; reconfirmed 100-Ki cost, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin-only CaC restriction.",
+      "notes": "2026-09-26 Batch 437 current-evidence audit: corrected the canonical class from Ultimate to Super using dedicated current skill documentation; reconfirmed 100-Ki cost, PQ60 endpoint, three charge stages, 5-to-15-hit behavior, approximately 10%-to-15% source-reported damage, and Majin-only CaC restriction.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-majin-kamehameha",
       "source_parallel_quests": [
         60
@@ -8820,9 +8820,9 @@
       "acquisition_type": "tp_medal_shop",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Free Update 2",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "research_status": "enriched",
-      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 100-Ki Skill Shop endpoint, beam/teleport/pseudo-Strike behavior, and approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.",
+      "notes": "2026-09-26 Batch 446 current-evidence audit: dedicated Xenoverse 2 evidence revalidated the 100-Ki Skill Shop endpoint, beam/teleport/pseudo-Strike behavior, and approximately 10% damage on both hit and miss-follow-up paths. Exact frame timing remains unresolved.\n2026-09-26 Batch 465 mechanics enrichment: current/recent evidence reviewed; source-reported numerical values remain bounded and unresolved frame/scaling fields are not inferred.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-menacing-flare"
     },
     {
@@ -9266,7 +9266,7 @@
       "mechanics_notes": "300-Ki Strike Ultimate from PQ34. Guldo's telekinetic effect immobilizes the opponent before an ice-pillar follow-up freezes the target. Current evidence describes the sequence as two hits and reports approximately 25% total damage; it also identifies the attack as unblockable. Exact freeze duration, frame timing, and patch-independent damage scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Paralysis",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
@@ -9277,7 +9277,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 34,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-26 Batch 441 refresh: current evidence reconfirms PQ34 Basic Reward acquisition, Strike Ultimate classification, 300 Ki cost, immobilization/ice-pillar sequence, unblockable property, and the source-reported two-hit/25%-damage figure. The latter is retained as source-reported, not promoted to a timeless game-data constant.",
+      "notes": "2026-09-26 Batch 441 refresh: current evidence reconfirms PQ34 Basic Reward acquisition, Strike Ultimate classification, 300 Ki cost, immobilization/ice-pillar sequence, unblockable property, and the source-reported two-hit/25%-damage figure. The latter is retained as source-reported, not promoted to a timeless game-data constant.\n2026-09-27 Batch 497 current-evidence audit: Current Xenoverse 2-specific evidence was rechecked for identity, acquisition, classification, and bounded mechanics; unsupported exact frames, hidden gates, probabilities, and patch-independent scaling remain unresolved.",
       "id": "skill-paralysis",
       "source_parallel_quests": [
         34
