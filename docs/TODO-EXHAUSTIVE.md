@@ -4143,3 +4143,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected the Super Soul mechanics audit arithmetic: canonical layer has 172 records, therefore missing `limit_burst_trigger` count is 172.
 - [x] Confirmed PQ 186 canonical reward relationships for both late Super Souls remain intact; independent PQ guide evidence also lists both rewards. No effect mechanics were inferred for the unresolved record.
 - [ ] Continue evidence-backed Super Soul mechanics enrichment; do not fill missing mechanics solely to improve coverage counts.
+
+
+### 2026-09-27 continuation — Active Super Soul coverage reconciliation
+- [x] Corrected Super Soul mechanics coverage auditing so five explicitly rejected legacy/misidentified records are excluded from active counts while remaining preserved historically.
+- [x] Active mechanics layer is now 167 records out of 172 historical records; coverage was recomputed without changing canonical gameplay data.
+- [ ] Continue mechanics enrichment against active records; never restore rejected identities without new direct provenance evidence.
