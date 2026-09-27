@@ -1,0 +1,12 @@
+{
+  "skill_id": "skill-fighting-pose-a",
+  "skill_name": "Fighting Pose A",
+  "batch": 496,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Current documentation reconfirms 0 Ki Auto Guard and 12-second duration; acquisition page wording differs from the canonical mentor lesson wording and is preserved as a source-granularity discrepancy.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized into docs/data/skills.json and docs/data/skills-index.json; no canonical skill identity changed.",
+  "acquisition_endpoint": "Captain Ginyu training",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical probabilities are not asserted."
+}
