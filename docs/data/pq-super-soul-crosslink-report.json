@@ -3,15 +3,15 @@
   "generated_by": "canonical PQ reward relationship consumer projection",
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_super_soul_dataset": "docs/data/super-souls-record-layer.json",
-  "canonical_super_soul_records": 168,
+  "canonical_super_soul_records": 173,
   "linked_super_soul_rewards": 136,
   "unique_super_soul_targets": 134,
   "detailed_endpoint_matches": 134,
   "partial_acquisition_index_matches": 134,
   "unresolved_endpoint_names": [],
   "endpoint_coverage_gaps": [],
-  "status": "canonical_relationships_endpoint_identity_and_acquisition_index_complete_mechanics_enrichment_pending",
-  "semantics": "Canonical PQ→Super Soul relationships remain authoritative. All 134 unique canonical targets now have endpoint identities; indexed records intentionally leave unsupported mechanics unresolved.",
+  "status": "canonical_relationships_endpoint_identity_and_acquisition_index_complete_mechanics_enrichment_in_progress",
+  "semantics": "Canonical PQ→Super Soul relationships remain authoritative. All 134 unique canonical targets have endpoint identities and acquisition-index entries; mechanics enrichment continues independently.",
   "resolved_super_soul_rewards": [
     {
       "pq": "pq-005",
