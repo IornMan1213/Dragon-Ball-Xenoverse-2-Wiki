@@ -3820,3 +3820,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source-bounded evidence and did not infer unsupported Skill→PQ relationships.
 - [ ] Next: fresh Batch 508 census and substantive cross-domain enrichment; continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 508 current-evidence completion
+- [x] Refreshed **Burst Charge, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, and Deadly Dance**.
+- [x] Canonical Skills layer updated with **0 identity changes**; eight dated audit artifacts and Batch 508 manifest added.
+- [ ] Complete index-layer synchronization after concurrent repository mutation; do not overwrite another writer's changes.
+- [x] No unsupported Skill→PQ relationships or unsupported mechanics/probabilities were promoted.
+- [ ] Next: reconcile index synchronization, then Batch 509 census and cross-domain enrichment toward the 672 indexed-category target.
+- [ ] Runtime/CI remains non-blocking.
