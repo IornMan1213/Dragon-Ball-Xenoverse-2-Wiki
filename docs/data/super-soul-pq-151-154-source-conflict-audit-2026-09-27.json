@@ -55,13 +55,13 @@
       "observation": "The independent all-186-PQ guide explicitly lists PQ 151's two Super Soul rewards as 'I think I'm getting the hang of this.' and 'I'll keep adding a bit of power to my attacks!'; PQ 152 as 'I will put a stop to you, fiend!'; PQ 153 as 'There's more where that came from!' and 'You're not much of a fun fight!'; and PQ 154's basic rewards contain no Super Soul."
     }
   ],
-  "resolution": "Do not overwrite canonical relationships or promote external mechanics from the conflicting table. The six canonical endpoints remain acquisition identities only until item-level evidence establishes their mechanics.",
+  "resolution": "The live canonical relationship file was re-read on 2026-09-27. Its active pq_rewards_super_soul rows for PQ 151-154 are the external reward names, not the five previously labeled canonical endpoints. Therefore super-soul-138 through 141 have no active canonical PQ acquisition edge; super-soul-142 likewise has no active canonical PQ 155 edge. Preserve the five identities as unresolved standalone records and retain this audit as historical provenance of the stale/conflicting claims.",
   "evidence_boundary": [
     "External sources are treated as corroboration/conflict evidence, not as a replacement for the repository canonical layer.",
     "No trigger, effect, magnitude, duration, stacking behavior, Limit Burst, character source, or CaC usability was inferred for these five records.",
     "The discrepancy itself is retained as research data so later reconciliation can be performed without losing the recovered canonical state."
   ],
-  "status": "confirmed_external_conflict_pending_canonical_research_reconciliation",
+  "status": "resolved_source_conflict_pending_item_level_research",
   "reconciliation_delta": {
     "pq151": {
       "canonical": [
@@ -98,5 +98,19 @@
       "external": []
     }
   },
-  "next_action": "Do not mutate canonical reward relationships solely from this audit. Reconcile the canonical reward-normalization layer against stronger item-level/DLC evidence in a dedicated correction batch, preserving the old canonical claims as disputed provenance until replaced with explicit evidence."
+  "next_action": "Trace the five orphaned identities to historical source data before restoring any acquisition relationship. Do not treat old audit text as canonical.",
+  "canonical_relationships_live_check": {
+    "pq-151": [
+      "I think I'm getting the hang of this.",
+      "I'll keep adding a bit of power to my attacks!"
+    ],
+    "pq-152": [
+      "I will put a stop to you, fiend!"
+    ],
+    "pq-153": [
+      "There's more where that came from!",
+      "You're not much of a fun fight!"
+    ],
+    "pq-154": []
+  }
 }
