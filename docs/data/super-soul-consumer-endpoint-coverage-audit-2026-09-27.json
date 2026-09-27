@@ -5,15 +5,13 @@
   "canonical_forward_rows": 136,
   "canonical_forward_targets": 134,
   "detailed_record_layer_records": 173,
-  "detailed_records_matching_forward_targets": 133,
-  "forward_targets_without_detailed_record": [
-    "I'll take all of you on at once!"
-  ],
+  "detailed_records_matching_forward_targets": 134,
+  "forward_targets_without_detailed_record": [],
   "pq_acquisition_index_records": 92,
   "pq_acquisition_index_targets": 134,
   "forward_targets_present_in_pq_acquisition_index": 134,
   "forward_targets_absent_from_pq_acquisition_index": [],
   "projection_linked_super_soul_rewards": 136,
-  "status": "gap_identified",
-  "interpretation": "Canonical PQ→Super Soul targets now use the exact canonical record names; remaining gaps, if any, are enrichment gaps rather than negative evidence."
+  "status": "aligned",
+  "interpretation": "All canonical PQ→Super Soul relationship targets have matching detailed records and acquisition-index entries, and the projection count matches the canonical forward relationship count."
 }
