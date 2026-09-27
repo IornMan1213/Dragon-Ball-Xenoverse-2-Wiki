@@ -2864,3 +2864,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved ambiguous/component-only accessory backlog and historical route conflicts; no canonical relationship was deleted, reclassified, or invented.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** continue evidence-backed endpoint promotion for the remaining 99 equipment identities, prioritizing explicit inventory-name matches and official/DLC-backed costume identities; keep ambiguous set/component labels unresolved.
+
+
+## 2026-09-27 continuation update — Super Soul audit recovery + equipment endpoint expansion
+- GitHub write operations recovered after the earlier 404 blocker. Refreshed `docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json`; canonical PQ Super Soul endpoint identity remains 134/134 and the record layer remains 168 records.
+- Promoted 10 additional evidence-backed canonical PQ equipment identities into `docs/data/equipment-record-layer.json`: Arabian Costume (PQ123), Janemba Suit (PQ127), Broly (Full Power Super Saiyan)'s Clothes (PQ130), SSGSS Gogeta's Clothes (PQ131), Kakunsa's Clothes (PQ133), Rozie's Clothes (PQ135), Android 21's Lab Uniform (PQ139), Universe 7 Baseball Uniform (PQ139), Universe 6 Baseball Uniform (PQ142), and King Vegeta (DB Super)'s Battle Suit (PQ154).
+- Refreshed `docs/data/pq-equipment-crosslink-report.json`: 125 canonical edges, 123 unique targets, 34 endpoint identity matches, 89 explicit enrichment gaps. Missing endpoints remain non-negative claims; canonical forward relationships remain authoritative.
+- Runtime/CI remains intentionally non-blocking per project instruction.
+- Next priority: continue evidence-backed equipment endpoint promotion/reconciliation in larger batches, while separately advancing Super Soul mechanics coverage where independent evidence exists. Do not infer missing mechanics or invent accessory identities from generic/set labels.
