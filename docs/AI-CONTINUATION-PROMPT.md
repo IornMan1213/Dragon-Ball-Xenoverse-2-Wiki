@@ -3327,3 +3327,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Coverage: trigger **89/168**, effect **97/168**, magnitude **91/168**, duration **76/168**, stacking **42/168**, Limit Burst **87/168**, Limit Burst effect **67/168**, CaC **97/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the next five evidence-backed Super Soul mechanics records.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 10
+- [x] Enriched super-soul-132 through super-soul-136 with explicit catalogue mechanics and PQ evidence.
+- [x] Cross-checked the PQ 146–150 reward identities against the independent all-PQ guide; the guide lists these five souls in those PQ rewards. citeturn1search1turn2search4
+- [x] Refreshed mechanics/integrity audits; **80** partial mechanics records remain.
+- [x] Coverage: trigger **94/168**, effect **102/168**, magnitude **96/168**, duration **81/168**, stacking **43/168**, Limit Burst **92/168**, Limit Burst effect **72/168**, CaC **102/168**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the next five evidence-backed Super Soul mechanics records.
