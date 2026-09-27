@@ -43,7 +43,7 @@ if existing_reverse is not None:
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
     for pq_id in record.get("source_parallel_quests", []):
-        assert isinstance(pq_id, int) and 1 <= pq_id <= 186, (record["id"], pq_id)
+        assert isinstance(pq_id, int) and not isinstance(pq_id, bool) and 1 <= pq_id <= 186, (record["id"], pq_id)
         by_pq[str(pq_id)].append({"skill_id": record["id"], "name": record["name"]})
 
 edge_count = sum(len(v) for v in by_pq.values())
