@@ -4682,3 +4682,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Kamekameha's PQ spelling alias is explicitly handled by the existing PQ crosslink validator; no new canonical skill or PQ edge was manufactured.
 - [x] No canonical rewrite was performed; Batch 527 is retained as a duplicate-screen/audit artifact documenting the superseded sparse Batch 254 state.
 - [ ] **Next:** identify the next genuinely uncovered or under-enriched records from the live frontier rather than expanding already-audited skills.
+
+
+### 2026-09-27 continuation — Super Soul 032/034 evidence refresh
+- [x] Returned to the exact unresolved Super Soul frontier specified by the persistent handoff instead of creating another duplicate Skill batch.
+- [x] Refreshed direct/record-specific secondary evidence for `super-soul-032` and `super-soul-034`.
+- [x] For 032, current player reporting documents a second activation/name-state: after KO, the displayed name changes to “Using this power should be no sweat for you guys.” This is recorded as secondary activation evidence, not as proof of the underlying effect.
+- [x] For 034, current discussion still does not establish a reliable mechanics description; this unresolved state is explicitly preserved.
+- [x] Updated `docs/data/super-soul-032-034-direct-evidence-audit-2026-09-27.json` and made no unsupported canonical mechanics mutation.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue searching for direct item-level/game-data evidence for 032/034; if primary evidence remains unavailable, move to the next substantive cross-domain integrity gap.
