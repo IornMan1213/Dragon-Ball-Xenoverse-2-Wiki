@@ -1,0 +1,24 @@
+{
+  "batch": 516,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "records_refreshed": 12,
+  "selected": [
+    "Eraser Bomb",
+    "Evil Blast",
+    "Evil Explosion",
+    "Evil Eyes",
+    "Evil Flame",
+    "Evil Flight Strike",
+    "Evil Ray Strike",
+    "Evil Rise Strike",
+    "Evil Whirlwind",
+    "Excellent Full Course",
+    "Explosive Assault",
+    "Explosive Buu Buu Punch"
+  ],
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data is source of truth. Existing acquisition conflicts remain preserved. No unsupported exact frames, patch-independent scaling, hidden gates, or drop probabilities were inferred."
+}
