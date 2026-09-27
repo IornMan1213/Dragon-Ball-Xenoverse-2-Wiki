@@ -4,8 +4,8 @@
   "batch": 500,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics_summary": "300-Ki Strike Ultimate from PQ117. The user readies a sword, rushes forward, and performs a slow-motion single-hit slash that knocks the opponent down; current dedicated evidence reports about 50% damage for the hit and a second input that readies the sword faster. Exact startup/recovery frames and patch-independent damage scaling remain unresolved.",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "mechanics": "Current documentation reconfirms PQ117 Basic Reward acquisition, 300 Ki Strike Ultimate classification, long-range rush, single-hit knockdown, source-reported approximately 50% damage, and faster-ready second input. Exact startup/recovery and reward probability remain unresolved.",
   "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
-  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted."
 }
