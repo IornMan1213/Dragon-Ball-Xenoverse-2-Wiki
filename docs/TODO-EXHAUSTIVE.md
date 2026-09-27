@@ -3491,3 +3491,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corroborated 146–150 against current catalogue and independent PQ/DLC evidence.
 - [x] Confirmed corrected +30% modifiers for 149 and preserved explicit provenance.
 - [ ] Continue Super Soul provenance/ID-drift audit from 151 onward.
+
+
+### 2026-09-27 continuation — Super Soul records 146–150
+- [x] Audited records 146–150 for legacy identity/remapping anomalies; none identified.
+- [x] Preserved canonical source-normalized acquisition relationships without inventing exact drop conditions.
+- [ ] Continue with 151 onward.
