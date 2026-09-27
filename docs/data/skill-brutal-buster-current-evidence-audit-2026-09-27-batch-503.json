@@ -1,0 +1,10 @@
+{
+  "skill_name": "Brutal Buster",
+  "batch": 503,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "summary": "2026-09-27 Batch 503 refresh: current evidence reconfirms the shockwave behavior, repeated-input charge mechanic, full-charge guard-break behavior, PQ acquisition endpoint, and existing bounded classification/cost evidence. Exact reward probability and frame data remain unresolved.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
