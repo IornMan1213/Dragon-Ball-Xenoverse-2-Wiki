@@ -6072,10 +6072,10 @@
       "source_quest_or_shop": "Parallel Quest 155 — \"I Need a Hero... Pose!\"",
       "ultimate_finish_required": true,
       "skill_description": "Gamma Blaster is a Super Ki Blast skill used by Gamma 2.",
-      "mechanics_notes": "100-Ki Ki Blast Super from PQ155. Uncharged use fires multiple scattered homing blasts; charging instead produces one larger concentrated blast shaped like Gamma 2's face. Current dedicated evidence confirms the charge/scatter choice and character association. 2026-09-23 refresh: preserved the uncharged scattered-homing versus charged concentrated-blast behavior and PQ155 Ultimate Finish route.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ155. Uncharged use fires scattered homing blasts; charging instead produces one larger concentrated blast shaped like Gamma 2's face. Current dedicated evidence reports 20% damage for the charged blast; exact frames and scaling remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Blaster",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -6086,7 +6086,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 mechanics refresh: current dedicated evidence confirms the uncharged scatter-shot versus charged concentrated-blast behavior; the existing PQ155 Ultimate Finish reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 mechanics refresh: current dedicated evidence confirms the uncharged scatter-shot versus charged concentrated-blast behavior; the existing PQ155 Ultimate Finish reward semantics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gamma-blaster",
       "source_parallel_quests": [
         155
@@ -6106,21 +6106,22 @@
       "source_quest_or_shop": "Parallel Quest 155 — \"I Need a Hero... Pose!\"",
       "ultimate_finish_required": true,
       "skill_description": "Gamma Impact is a Super Strike skill used by Gamma 2.",
-      "mechanics_notes": "100-Ki Strike Super from PQ155. It is a three-hit rush: punch, heel drop, then a backflip/pose that launches the opponent into an explosion. Current dedicated evidence describes the sequence as unvanishable during its animation because the target is locked into the attack sequence. 2026-09-23 refresh: preserved the three-hit rush/explosion sequence and documented animation lock behavior; no unsupported damage values added.",
+      "mechanics_notes": "100-Ki Strike Super from PQ155. A three-hit sequence lands a punch, heel drop, then a flip/pose with an explosion that launches the opponent. Current dedicated evidence reports about 15% total damage and describes the target as locked into the animation, preventing Evasive Skill or Limit Burst use during the sequence.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gamma_Impact",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Gamma_Impact",
-        "https://dbxv2.fandom.com/wiki/Gamma_Impact"
+        "https://dbxv2.fandom.com/wiki/Gamma_Impact",
+        "https://dragonball.fandom.com/wiki/Gamma_2"
       ],
       "race_restriction": null,
       "source_quest": 155,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: maintained PQ155 drop-condition data explicitly assigns Gamma Impact to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 correction: current dedicated evidence confirms PQ155 and the three-hit punch/heel-drop/pose sequence. The record's prior note said race_restriction should remain null while the field was still populated; the field is now explicitly null rather than inferred. The prior PQ153 wording in the note is also superseded by the canonical PQ155 endpoint.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 provenance refinement: maintained PQ155 drop-condition data explicitly assigns Gamma Impact to an Ultimate Finish bonus roll.2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance. 2026-09-22 correction: current dedicated evidence confirms PQ155 and the three-hit punch/heel-drop/pose sequence. The record's prior note said race_restriction should remain null while the field was still populated; the field is now explicitly null rather than inferred. The prior PQ153 wording in the note is also superseded by the canonical PQ155 endpoint.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gamma-impact",
       "source_parallel_quests": [
         155
@@ -6135,20 +6136,21 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
-        "https://dbxv2.fandom.com/wiki/Genocide_Shell"
+        "https://dbxv2.fandom.com/wiki/Genocide_Shell",
+        "https://dragonball.fandom.com/wiki/Genocide_Shell"
       ],
       "unlock_method": "Nappa's Lesson 2 — complete the instructor lesson to receive Genocide Shell as the Basic Reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Nappa mentor training — Lesson 2",
-      "mechanics_notes": "100-Ki Ki Blast Super from Nappa Lesson 2. Creates four stationary Ki spheres that persist for a limited duration or until triggered, making an area hazardous; current evidence preserves the four-sphere behavior and notes historical hit-detection adjustment without inferring a numeric damage value.",
-      "last_verified": "2026-09-26",
+      "mechanics_notes": "100-Ki Ki Blast Super from Nappa Lesson 2. Fires four stationary energy spheres that explode on contact; at close range all four can hit. Current evidence preserves the area-denial behavior without asserting unsupported numeric duration, damage, or drop probability.",
+      "last_verified": "2026-09-27",
       "race_restriction": "All CaC races",
       "source_quest": "Nappa mentor training — Lesson 2",
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 mechanics refresh: current dedicated evidence confirms the four stationary Ki spheres, 100 Ki cost, Nappa Lesson 2 acquisition, and trigger/duration behavior.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 461 current-evidence audit: dedicated frontier review synchronized bounded mechanics/provenance evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.",
+      "notes": "2026-09-21 canonical mentor expansion: exact lesson reward name and mentor endpoint verified; detailed mechanics remain subject to later evidence enrichment. 2026-09-21 Ki-cost verification: current skill reference records 100 Ki used. 2026-09-22 mechanics refresh: current dedicated evidence confirms the four stationary Ki spheres, 100 Ki cost, Nappa Lesson 2 acquisition, and trigger/duration behavior.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-26 Batch 461 current-evidence audit: dedicated frontier review synchronized bounded mechanics/provenance evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-genocide-shell",
       "source_mentor": [
         "mentor-nappa"
@@ -6199,10 +6201,10 @@
       "source_quest_or_shop": "Parallel Quest 126 — \"Catch Kefla If You Can!\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Breaker is a Ultimate Ki Blast skill associated with Kefla.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Gigantic Breaker as Kefla's Ki Blast Super; the Future Warrior can obtain it as a random PQ126 reward. CaC race/gender scope is not explicitly stated, so race_restriction remains null. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Breaker in the Basic Reward section of Parallel Quest 126, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward section; no Ultimate Finish-only gate is asserted. 2026-09-23 refresh: preserved the 200-Ki Ki Blast Super, PQ126 Basic Reward route, and unresolved CaC race/gender restriction as null. No drop probability is inferred.",
+      "mechanics_notes": "200-Ki Ki Blast Super from PQ126. The user charges the right fist and rushes forward for a single-hit attack; current dedicated evidence reports about 10% damage. On a miss, a smaller red Ki bullet is fired and the user briefly stumbles, leaving them vulnerable.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -6213,7 +6215,7 @@
       "race_restriction": "All CaC races",
       "source_quest": 126,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 200-Ki Ki Blast Super identity, Kefla association, and PQ126 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 200-Ki Ki Blast Super identity, Kefla association, and PQ126 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gigantic-breaker",
       "source_parallel_quests": [
         126
@@ -6236,14 +6238,14 @@
       "unlock_method": "Parallel Quest 127 — Basic Reward.",
       "source_quest_or_shop": "Parallel Quest 127 — Multiverse Match of the Century",
       "ultimate_finish_required": false,
-      "mechanics_notes": "Dedicated current-version skill evidence explicitly states that Gigantic Burst is a Ki Blast Ultimate used by Kefla (Super Saiyan) and is available for CaCs; PQ127 is the listed unlock. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Burst in the Basic Reward section of Parallel Quest 127 — Multiverse Match of the Century, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the Basic Reward route; no Ultimate Finish-only gate is asserted. 2026-09-23 refresh: preserved the 500-Ki Ki Blast Ultimate and PQ127 Basic Reward route; the existing non-Ultimate-Finish acquisition semantics remain explicit.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ127. The sequence sweeps three Ray Blasts forward, then charges and combines spinning discs into a final spiralling energy wave; current dedicated evidence reports 25 hits and about 40% total damage. The Ray Blast portion can transition into the Ultimate when sufficient Ki remains.",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "damage_type": "Ki Blast",
       "race_restriction": "All CaC races",
       "source_quest": 127,
       "acquisition_type": "quest_or_mission",
-      "notes": " 2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 500-Ki Ki Blast Ultimate identity, Kefla (Super Saiyan) association, and PQ127 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 mechanics/provenance refresh: current dedicated evidence confirms the 500-Ki Ki Blast Ultimate identity, Kefla (Super Saiyan) association, and PQ127 Basic Reward route. No Ultimate Finish-only gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gigantic-burst",
       "source_parallel_quests": [
         127
@@ -6263,10 +6265,10 @@
       "source_quest_or_shop": "Parallel Quest 128 — \"Legendary Super Saiyan Smackdown\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Charge is a Super Ki Blast skill associated with Broly (Full Power Super Saiyan).",
-      "mechanics_notes": "Dedicated current-version evidence corrects Gigantic Charge to a **200-Ki Strike Super**, with **300 Stamina** usable while being damaged. It is a chargeable, unblockable rush from PQ128; the prior Ki Blast classification was incorrect. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. 2026-09-23 refresh: preserved the corrected 200-Ki Strike classification, 300-Stamina damage-use behavior, chargeable/unblockable rush, and PQ128 route. Independent player documentation also describes its ability to continue through incoming attacks, while noting its slower charge timing.",
+      "mechanics_notes": "200-Ki Strike Super from PQ128, with 300 Stamina allowing use while damaged. The attack is a chargeable unblockable rush; current dedicated evidence reports about 20% damage, with greater charge increasing travel distance. Super Armor is documented for Broly's use; it is not generalized to CaC use.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Charge",
@@ -6275,7 +6277,7 @@
         "https://dragonball.fandom.com/wiki/Gigantic_Charge"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 deterministic mechanics correction retained: current dedicated evidence classifies this as a 200-Ki Strike Super with a 300-Stamina cost while damaged, rather than Ki Blast. The chargeable rush is unblockable; PQ128 is a Basic Reward route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-19 UF audit: current PQ reward evidence places this skill in the quest's Basic Reward set, separate from the Ultimate Finish reward conditions; therefore no Ultimate Finish is required for this acquisition route. 2026-09-19 deterministic acquisition verification: Parallel Quest 128 is documented as an acquisition route; no Ultimate Finish-only condition assigned without explicit condition evidence. 2026-09-20 reward-tier refinement: maintained PQ reward data explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 deterministic mechanics correction retained: current dedicated evidence classifies this as a 200-Ki Strike Super with a 300-Stamina cost while damaged, rather than Ki Blast. The chargeable rush is unblockable; PQ128 is a Basic Reward route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "source_quest": 128,
       "acquisition_type": "quest_or_mission",
       "id": "skill-gigantic-charge",
@@ -6297,18 +6299,19 @@
       "source_quest_or_shop": "Parallel Quest 163 — \"Broly the Invader\"",
       "ultimate_finish_required": true,
       "skill_description": "Gigantic Cluster is a Super Ki Blast skill associated with Broly.",
-      "mechanics_notes": "Current evidence confirms Giant Cluster as Broly's Ki Blast Super from PQ163. The existing 100-Ki value and random-PQ acquisition are retained; no unsupported CaC race/gender/form restriction inferred. Reviewed in the current null-race census; reviewed Future Warrior/CaC evidence establishes availability, but no narrower CaC race/gender/form restriction is established, so no narrower restriction is inferred. 2026-09-23 refresh: preserved the 100-Ki Broly Ki Blast Super and PQ163 route. Existing evidence supports CaC availability but not a narrower race/gender/form restriction.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ163. The user scatters multiple Ki Blasts toward the opponent; current dedicated evidence states that activating an Awoken Skill increases the number of blasts. Exact count, frames, and damage remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Cluster",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Gigantic_Cluster"
+        "https://dragonball.fandom.com/wiki/Gigantic_Cluster",
+        "https://dbxv2.fandom.com/wiki/Characters"
       ],
       "race_restriction": "All CaC races",
-      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Gigantic Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Gigantic Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 naming correction: authoritative current technique documentation and maintained PQ reward evidence identify the skill as “Gigantic Cluster.” The stable repository ID remains `skill-giant-cluster` to avoid breaking existing references. 2026-09-22 provenance refresh: explicit maintained PQ163 drop-condition data continues to support the 40% Ultimate Finish route despite the separate reward transcription displaying the name in a Basic Reward array; the conflict is preserved rather than silently flattened. The stable ID remains skill-giant-cluster.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 audit: dedicated skill documentation identifies PQ163 and describes Gigantic Cluster as a random Parallel Quest reward; no specific reward tier is inferred. 2026-09-20 provenance correction: maintained PQ163 datamined drop data explicitly assigns Gigantic Cluster a 40% Ultimate Finish roll. Although the reward transcription also displays the skill in the Basic Reward array, the explicit drop-condition field is stronger evidence for the gate; the canonical acquisition now records the Ultimate Finish requirement without inferring additional slot semantics. 2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-21 naming correction: authoritative current technique documentation and maintained PQ reward evidence identify the skill as “Gigantic Cluster.” The stable repository ID remains `skill-giant-cluster` to avoid breaking existing references. 2026-09-22 provenance refresh: explicit maintained PQ163 drop-condition data continues to support the 40% Ultimate Finish route despite the separate reward transcription displaying the name in a Basic Reward array; the conflict is preserved rather than silently flattened. The stable ID remains skill-giant-cluster.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "source_quest": 163,
       "acquisition_type": "quest_or_mission",
       "id": "skill-giant-cluster",
@@ -6330,10 +6333,10 @@
       "source_quest_or_shop": "Conton City Patrol 04 — Teach Me, Broly! (Part 1)",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Cross is a Ki Blast Super Attack used by Broly (DB Super).",
-      "mechanics_notes": "Fires a chargeable green mouth-generated Ki Blast that arcs forward and ends in an explosion; current skill evidence lists 100 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred. 2026-09-23 refresh: preserved the 100-Ki chargeable green mouth-generated Ki Blast, arc trajectory, terminal explosion, and Conton City Patrol 04 acquisition endpoint.",
+      "mechanics_notes": "100-Ki chargeable Ki Blast Super from Conton City Patrol 04. Fires a green mouth-generated blast that arcs forward/upward and ends in an explosion; holding the input increases its damage.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Cross",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
@@ -6342,7 +6345,7 @@
       "source_quest": "Conton City Patrol 04",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Cross as a Chapter 3 skill unlocked through Conton City Patrol 04. No unsupported reward/PQ gate was inferred. 2026-09-22 Chapter 3 provenance/mechanics refresh: current evidence confirms the Conton City Patrol 04 endpoint and a chargeable green mouth-generated Ki Blast ending in an explosion. No unsupported reward/PQ gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Cross as a Chapter 3 skill unlocked through Conton City Patrol 04. No unsupported reward/PQ gate was inferred. 2026-09-22 Chapter 3 provenance/mechanics refresh: current evidence confirms the Conton City Patrol 04 endpoint and a chargeable green mouth-generated Ki Blast ending in an explosion. No unsupported reward/PQ gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gigantic-cross"
     },
     {
@@ -6359,21 +6362,22 @@
       "source_quest_or_shop": "Parallel Quest 164 — \"Where is Goku?!\"",
       "ultimate_finish_required": true,
       "skill_description": "Gigantic Explosion is a Ultimate Ki Blast skill associated with Broly.",
-      "mechanics_notes": "600-Ki Ki Blast Ultimate from PQ164, Where is Goku?!, requiring an Awoken Skill to be active for CaCs. The user releases an explosion that expands through three stages; the user can spend 400 Stamina to continue the attack while taking damage. Current skill-specific documentation classifies it as a 3-hit explosion.",
+      "mechanics_notes": "600-Ki Ki Blast Ultimate from PQ164. CaCs require an Awoken Skill to use it; the explosion expands through three stages, and 400 Stamina can be spent to continue the attack while damaged. Current dedicated evidence classifies it as a three-hit explosion.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Gigantic_Explosion",
         "https://videogaming.fandom.com/wiki/Gigantic_Explosion_%28Dragon_Ball%3A_Xenoverse_2%29",
-        "https://dragonball.fandom.com/wiki/Gigantic_Explosion"
+        "https://dragonball.fandom.com/wiki/Gigantic_Explosion",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ],
       "mechanics": "Requires an Awoken Skill for CaCs; releases a large area explosion. Costs 600 Ki and can spend 400 Stamina to continue while taking damage.",
       "race_restriction": "All CaC races",
       "source_quest": 164,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 600-Ki Ultimate, 400-Stamina continuation while taking damage, CaC Awoken requirement, and PQ164 Ultimate Finish route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: refreshed 600-Ki Ki Blast Ultimate, PQ164 endpoint, Awoken requirement, 400-Stamina continuation, and maintained 40% Ultimate Finish route.\nBatch 449 promotion: current documentation confirms the 600-Ki Ultimate cost, PQ164 endpoint, Awoken Skill requirement, three-stage explosion, optional 400-Stamina continuation while damaged, and 3-hit classification. Exact damage and timing were not inferred.",
+      "notes": "2026-09-20 provenance census: source field normalized to the explicit maintained PQ quest name; no additional reward condition inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 600-Ki Ultimate, 400-Stamina continuation while taking damage, CaC Awoken requirement, and PQ164 Ultimate Finish route.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 current-evidence reconciliation: refreshed 600-Ki Ki Blast Ultimate, PQ164 endpoint, Awoken requirement, 400-Stamina continuation, and maintained 40% Ultimate Finish route.\nBatch 449 promotion: current documentation confirms the 600-Ki Ultimate cost, PQ164 endpoint, Awoken Skill requirement, three-stage explosion, optional 400-Stamina continuation while damaged, and 3-hit classification. Exact damage and timing were not inferred.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gigantic-explosion",
       "source_parallel_quests": [
         164
@@ -6422,10 +6426,10 @@
       "source_quest_or_shop": "Conton City Patrol 17 — Teach Me, Broly! (Part 3)",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Nova is a Ki Blast Ultimate Attack used by Broly (DB Super).",
-      "mechanics_notes": "Creates and launches a massive green Ki sphere that ends in a large explosion; current skill evidence lists 300 Ki. The current evidence establishes the Conton City Patrol acquisition endpoint but does not establish a narrower CaC race/gender restriction, so none is inferred. 2026-09-23 refresh: preserved the 300-Ki massive green Ki sphere and Conton City Patrol 17 acquisition endpoint; no narrower CaC restriction is inferred.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Conton City Patrol 17. The user rises, creates a massive green Ki sphere, launches it downward toward the opponent, and ends in an explosion. Exact damage, frames, and hidden conditions remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Nova",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=3606451640",
@@ -6434,7 +6438,7 @@
       "source_quest": "Conton City Patrol 17",
       "race_restriction": null,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Nova as a Chapter 3 skill unlocked through Conton City Patrol 17. No unsupported reward/PQ gate was inferred. 2026-09-22 Chapter 3 provenance/mechanics refresh: current evidence confirms the Conton City Patrol 17 endpoint, 300 Ki cost, and massive green Ki sphere followed by a large explosion. No unsupported reward/PQ gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-21 Future Saga Chapter 3 completeness correction: official DLC scope lists six additional moves, while the canonical registry previously contained only the three PQ-linked Chapter 3 skill endpoints. Current technique evidence identifies Gigantic Nova as a Chapter 3 skill unlocked through Conton City Patrol 17. No unsupported reward/PQ gate was inferred. 2026-09-22 Chapter 3 provenance/mechanics refresh: current evidence confirms the Conton City Patrol 17 endpoint, 300 Ki cost, and massive green Ki sphere followed by a large explosion. No unsupported reward/PQ gate is inferred.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gigantic-nova"
     },
     {
@@ -6480,20 +6484,21 @@
       "source_quest_or_shop": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Rage is a 200-Ki Strike Super obtainable by the Future Warrior.",
-      "mechanics_notes": "200 Ki; close-range grab sequence with five hits and hard knockdown. Super Armor is documented for Broly's own use; it should not be generalized to CaC use without direct evidence. UF audit 2026-09-19: explicit Basic Reward listing in the maintained PQ guide places this skill outside the Ultimate Finish reward condition. 2026-09-23 refresh: preserved the 200-Ki close-range grab/five-hit hard-knockdown behavior and PQ130 Basic Reward route. Independent Extra Pack 4 discussion corroborates the grab-and-ground-strike sequence; character Super Armor is not generalized to CaCs.",
+      "mechanics_notes": "200-Ki Strike Super from PQ130. A close-range grab slams the opponent to the ground five times for a hard knockdown; current dedicated evidence reports about 15% total damage. The attack is unblockable and Super Armor is documented for Broly's use only.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
         "https://dragonball.fandom.com/wiki/Gigantic_Fury",
-        "https://dbxv2.fandom.com/wiki/Gigantic_Rage"
+        "https://dbxv2.fandom.com/wiki/Gigantic_Rage",
+        "https://dbxv2.fandom.com/wiki/Unblockable_Attack"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 130,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 200-Ki Strike Super, five-hit close-range grab/hard-knockdown sequence, and PQ130 Basic Reward route. Super Armor documented for Broly is not generalized to CaC use.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-20 provenance refinement: the maintained PQ batch explicitly identifies this skill as a reward of the listed quest, but does not establish an exact reward tier or drop probability; no Ultimate Finish-only gate is inferred. 2026-09-20 reward-tier refinement: maintained PQ reward evidence explicitly lists this skill in the quest's Basic Reward section; no Ultimate Finish-only gate is inferred. 2026-09-22 mechanics/provenance refresh: current evidence confirms the 200-Ki Strike Super, five-hit close-range grab/hard-knockdown sequence, and PQ130 Basic Reward route. Super Armor documented for Broly is not generalized to CaC use.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gigantic-rage",
       "source_parallel_quests": [
         130
@@ -6513,19 +6518,20 @@
       "source_quest_or_shop": "Parallel Quest 132 — \"The Ultimate Legendary Super Saiyan\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Roar is a Ultimate Ki Blast skill associated with Broly (Full Power Super Saiyan).",
-      "mechanics_notes": "Dedicated current-version evidence confirms Gigantic Roar as a 500-Ki Ki Blast Ultimate used by Broly (Full Power Super Saiyan), obtained from PQ132. The reviewed page does not explicitly establish CaC race/gender/form scope. UF audit 2026-09-19: the maintained PQ guide lists this skill in Basic Reward, separate from the quest's Ultimate Finish conditions. 2026-09-20 verification: current PQ guide explicitly lists Gigantic Roar in the Basic Reward section of Parallel Quest 132, establishing the acquisition route without an Ultimate Finish requirement. 2026-09-20 PQ reward-tier refinement: maintained PQ data places this skill in the First-Clear Reward route; no Ultimate Finish-only gate is asserted. 2026-09-23 refresh: preserved the 500-Ki Ki Blast Ultimate and PQ132 acquisition. Existing reward evidence places it outside the Ultimate Finish-only route; no unsupported drop probability is added.",
+      "mechanics_notes": "500-Ki Ki Blast Ultimate from PQ132. Fires a long-range, tracking, unblockable mouth beam. Current dedicated evidence reports damage scaling from about 40% at base health to 60% while health is flashing and 80% at the lowest health; exact frame data remains unresolved.",
       "verification_status": "verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Gigantic_Roar",
         "https://dragonball.fandom.com/wiki/Gigantic_Roar",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Ultimate_Attack"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 132,
       "acquisition_type": "quest_or_mission",
-      "notes": "2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.",
+      "notes": "2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 519 current-evidence refresh: current Xenoverse 2-specific evidence was rechecked for identity, acquisition endpoint, classification, costs, restrictions, and documented mechanics. Existing canonical values and source conflicts are preserved; no unsupported frame data, patch-independent scaling, reward probability, or hidden-condition claims were introduced.",
       "id": "skill-gigantic-roar",
       "source_parallel_quests": [
         132
