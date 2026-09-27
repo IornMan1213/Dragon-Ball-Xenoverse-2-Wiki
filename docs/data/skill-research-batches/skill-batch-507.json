@@ -1,0 +1,29 @@
+{
+  "batch": 507,
+  "date": "2026-09-27",
+  "type": "fresh-current-evidence-frontier",
+  "selected": [
+    "Candy Beam (Super)",
+    "Charge",
+    "Circle Flash",
+    "Comet Strike",
+    "Confusion Blade",
+    "Crush Cannon",
+    "Crush Stream",
+    "Crusher Ball"
+  ],
+  "selection_rule": "Fresh post-Batch-506 census from the live 474-record corpus; selected records had no registered 2026-09-27 current-evidence audit at census time.",
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "evidence_boundary": "Source-reported mechanics, costs, acquisition, and availability are retained as bounded observations. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted.",
+  "source_basis": [
+    "DBXV2 Fandom skill pages",
+    "Dragon Ball Fandom for Crush Stream cross-check",
+    "DRAGON BALL OFFICIAL SITE for Legendary Pack 2 context"
+  ],
+  "next": "Fresh Batch 508 census and next substantive cross-domain enrichment."
+}
