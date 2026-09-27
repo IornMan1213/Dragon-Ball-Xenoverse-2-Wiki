@@ -4579,3 +4579,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Recomputed active mechanics coverage: trigger 162/167; effect text 167/167; magnitude 161/167; duration 126/167; stacking 72/167; Limit Burst 158/167; Limit Burst trigger 0/167; Limit Burst effect 163/167; CaC usability 164/167; race restriction 3/167; DLC requirement 67/167.
 - [x] No gameplay mechanics or reward relationships were inferred or altered by this correction.
 - [ ] Continue evidence-backed enrichment against the **167 active** Super Soul records. Treat the five rejected historical identities only as provenance/audit artifacts.
+
+
+### 2026-09-27 continuation — Super Soul 035 Limit Burst enrichment
+- [x] Enriched canonical `super-soul-035` (“I'll use this power to protect everyone!”) with `Auto Just Guard` as its Limit Burst/effect based on current secondary player evidence; classification remains `verified_secondary`.
+- [x] Added the supporting research source and updated the mechanics audit. Active Limit Burst-effect coverage is now **164/167**, leaving 3 active records unresolved in that field.
+- [x] No acquisition relationship or unrelated mechanic was inferred; the existing ~5000 damage / 15% all-ability effect remains explicitly secondary evidence.
+- [ ] Continue source-backed enrichment of the remaining active mechanics gaps, prioritizing direct item-level evidence and keeping secondary findings labeled.
