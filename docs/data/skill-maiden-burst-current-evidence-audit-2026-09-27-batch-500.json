@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-maiden-burst",
+  "skill_name": "Maiden Burst",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 current-evidence refresh: current documentation reconfirms PQ92 acquisition, 300-Stamina Ki Blast Evasive classification, short-range explosive counter behavior, and knockback. Exact timing and scaling remain unresolved.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
