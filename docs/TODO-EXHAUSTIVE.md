@@ -1,3 +1,10 @@
+### 2026-09-27 continuation — Presentation/Awoken validator hardening
+- [x] Hardened `scripts/validate_character_presentation_consumers.py`: explicit malformed-JSON/root checks and replaced bare `assert` validation with deterministic failures.
+- [x] Hardened `scripts/validate_awoken_integrity.py`: explicit malformed-JSON handling and source-root object checks.
+- [x] No canonical data changed.
+- [ ] Runtime/CI execution remains intentionally non-blocking.
+- [ ] **Exact next:** inspect another deterministic validator/consumer for a concrete integrity gap and continue evidence-backed coverage work.
+
 ### 2026-09-27 continuation — Research-batch validator hardening
 - [x] Inspected `scripts/validate_research_batches.py`.
 - [x] Found a concrete type-integrity gap: Python `bool` values could pass the PQ-number `int` test.
