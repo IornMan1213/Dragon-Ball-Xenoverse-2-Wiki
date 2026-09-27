@@ -3811,3 +3811,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed PQ 151–154 currently contain different source-backed Super Soul rewards; the five legacy identities 138–141 have **no active canonical PQ acquisition edges**, and 142 has no active PQ 155 edge.
 - [x] Corrected the stale conflict audit and annotated the five records so canonical-data-first policy is explicit.
 - [ ] Next: trace historical provenance of the five orphaned identities before restoring any acquisition relationships.
+
+
+### 2026-09-27 continuation — traced provenance of Super Souls 138–142
+- [x] Git history traced the five identities to the PQ151–155 drift/correction cycle.
+- [x] Commit `61c0de8` explicitly removed all five names as uncorroborated indexed-only/misidentified records; commit `bddb50b` confirms the corrected PQ151–155 reward listings omit them.
+- [x] Reclassified `super-soul-138` through `super-soul-142` as **rejected legacy misidentifications**, preserving their history for auditability but preventing them from being treated as valid unresolved catalogue records or acquisition targets.
+- [x] Found an additional historical ID/name mismatch in commit `c4c5a4e`: IDs 140–142 were temporarily attached to different actual reward names from PQ 175–178.
+- [ ] Next: audit the remaining Super Soul record layer for other orphaned/rejected legacy identities created by similar ID/name drift.
