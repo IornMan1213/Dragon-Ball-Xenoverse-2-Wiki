@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "audit": "super-soul-mechanics-acquisition-index-parity-2026-09-27",
+  "status": "passed",
+  "scope": [
+    "super-soul-148",
+    "super-soul-149",
+    "super-soul-150",
+    "super-soul-151",
+    "super-soul-152"
+  ],
+  "checks": [
+    {
+      "check": "forward_acquisition",
+      "status": "passed",
+      "details": {
+        "159": [
+          "Enter the hero!",
+          "The Red Ribbon Army is back in business!"
+        ],
+        "160": [
+          "Is that all?"
+        ],
+        "161": [
+          "I'm a whole new me."
+        ],
+        "162": [
+          "Shenron really went the extra mile."
+        ]
+      }
+    },
+    {
+      "check": "reverse_navigation",
+      "status": "passed",
+      "details": {
+        "Enter the hero!": [
+          159
+        ],
+        "The Red Ribbon Army is back in business!": [
+          159
+        ],
+        "Is that all?": [
+          160
+        ],
+        "I'm a whole new me.": [
+          161
+        ],
+        "Shenron really went the extra mile.": [
+          162
+        ]
+      }
+    },
+    {
+      "check": "canonical_mechanics_layer",
+      "status": "passed",
+      "details": "All five records retain populated mechanics fields in the canonical Super Soul record layer; this audit does not promote verification_status beyond the existing evidence classification."
+    }
+  ],
+  "source_policy": "Canonical data remains the source of truth; verified flags are not treated as source-of-truth evidence.",
+  "generated_at": "2026-09-27"
+}
