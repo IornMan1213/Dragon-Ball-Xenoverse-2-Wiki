@@ -4624,3 +4624,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the evidence boundary: no Limit Burst or effect mechanics were inferred from titles, neighboring rewards, or unsupported community speculation.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-backed Super Soul mechanics enrichment; prioritize direct item-level/character-data evidence for `super-soul-032` and `super-soul-034`, then resume larger cross-domain enrichment. Never reconstruct canonical data from projections when the canonical layer survives.
+
+
+### 2026-09-27 continuation — Super Soul 032/034 direct-evidence audit
+- [x] Re-censused the live canonical Super Soul records and performed another direct-evidence search for `super-soul-032` and `super-soul-034`.
+- [x] Added `docs/data/super-soul-032-034-direct-evidence-audit-2026-09-27.json` documenting the evidence boundary and source URLs.
+- [x] PQ 185 documentation independently confirms `super-soul-032` in the reward inventory; secondary player testing reports +20% to all abilities below 50% HP. This remains secondary and is not promoted to primary mechanics truth.
+- [x] PQ 186 documentation independently confirms `super-soul-034` in the reward inventory; current discussion reviewed does not establish a reliable effect. No mechanics were inferred.
+- [x] No canonical Super Soul mechanics were mutated because neither record has sufficient direct item-level evidence for the unresolved fields.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue direct item-level/game-data research for the two unresolved Super Soul records; if no primary evidence emerges, move to the next highest-value substantive cross-domain gap rather than filling fields speculatively.
