@@ -3465,3 +3465,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed 138–141 and 142 have no active canonical acquisition edges.
 - [x] Preserved orphaned identities and historical provenance without restoring unsupported relationships.
 - [ ] Next: historical provenance tracing for the five orphaned identities.
+
+
+### 2026-09-27 continuation — Super Souls 138–142 provenance resolution
+- [x] Traced 138–142 through Git history instead of continuing redundant web searches.
+- [x] Confirmed `61c0de8` removed the five names from canonical PQ151–155 data as uncorroborated/misidentified records.
+- [x] Reclassified 138–142 as rejected legacy artifacts while preserving provenance/history.
+- [x] Recorded the later 140–142 ID/name mismatch from `c4c5a4e`.
+- [ ] Audit remaining Super Soul IDs for analogous legacy ID/name drift and orphaned records.
