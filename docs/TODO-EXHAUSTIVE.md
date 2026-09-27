@@ -2523,3 +2523,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** inspect the PQ→DLC consumer layer and rebuild/validate its deterministic projection from canonical forward relationships; then inspect farming-route consumer coverage.
 
+### 2026-09-27 continuation — PQ→DLC consumer reconciliation
+- [x] Audited PQ→DLC provenance relationships against authoritative `docs/data/pq-reward-relationships.json` (`pq_requires_dlc`).
+- [x] Added `docs/data/pq-dlc-crosslink-report.json`: **88 canonical edges / 21 unique DLC targets**.
+- [x] Compared the projection with `docs/data/dlc-source-baseline.json`; the baseline contains **7 official pack-set taxonomy entries**, while the canonical PQ layer also tracks individual packs/chapters. The mismatch is documented as endpoint taxonomy incompleteness rather than a contradiction.
+- [x] Registered the DLC consumer projection in `pq-cross-domain-index.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** inspect PQ farming-route consumer coverage and reconcile it against the canonical forward relationship store; then continue remaining cross-domain/exhaustive enrichment gaps.
+
