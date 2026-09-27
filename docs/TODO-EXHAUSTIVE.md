@@ -3701,3 +3701,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries and did not overwrite historical Batch 500 research.
 - [ ] Next priority: fresh Batch 502 census from the live 474-record corpus, excluding prior frontier candidates, followed by bounded mechanics/provenance enrichment.
 - [ ] Then reconcile PQ→Skill and Skill→PQ projections and continue expansion toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 500 current-evidence frontier
+- [x] Performed a fresh post-Batch-499 census and selected eight records: Finish Breaker, Strike of Revelation, Force Shield, Super Donut Volley, Gorgeous Shot, Unrelenting Barrage, Hawk Charge, and Super Saiyan 2.
+- [x] Added eight dedicated Batch 500 current-evidence audit artifacts and recorded docs/data/skill-research-batches/skill-batch-500.json.
+- [x] Synchronized all eight records into both current Skills layers without canonical identity changes.
+- [x] Git-blob validation confirms 474 canonical / 474 index records, unique IDs match, and ordered ID parity remains true.
+- [x] Preserved bounded evidence and existing provenance conflicts; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not promoted.
+- [ ] Next priority: fresh Batch 501 census from the live 474-record corpus, excluding prior frontier candidates, then current-evidence/mechanics enrichment.
+- [ ] After Batch 501, reconcile PQ→Skill and Skill→PQ projections and continue expansion toward the 672 indexed-category target.
