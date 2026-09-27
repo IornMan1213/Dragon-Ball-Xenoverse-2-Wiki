@@ -3653,3 +3653,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Existing `docs/data/super-soul-pq-151-154-stale-canonical-occurrence-audit-2026-09-27.json` records the canonical occurrence scan and remains the provenance history for the disputed claims.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue through the remaining unresolved Super Soul endpoint frontier, prioritizing records with non-null acquisition metadata that is not represented in the canonical PQ relationship/index layers.
+
+### 2026-09-27 continuation — Flying Nimbus PQ 2 domain correction
+- [x] Detected stale Super Soul endpoint metadata for `Flying Nimbus!!`.
+- [x] External PQ 2 evidence identifies `Flying Nimbus!!` as a reward item; the canonical relationship layer already correctly classified it as equipment and the unified reverse index already maps it to clothing/PQ 2.
+- [x] Cleared the erroneous Super Soul acquisition metadata from `super-soul-002` while preserving the catalogue endpoint as unresolved historical data.
+- [x] Added `docs/data/super-soul-flying-nimbus-pq-002-classification-audit-2026-09-27.json`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue auditing stale Super Soul endpoint metadata, distinguishing genuine canonical mismatches from incomplete reward-map coverage before changing canonical data.
