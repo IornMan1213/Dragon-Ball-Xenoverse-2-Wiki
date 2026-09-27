@@ -1,5 +1,5 @@
 {
-  "schema_version": "1.4",
+  "schema_version": "1.5",
   "generated_on": "2026-09-27",
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "endpoint_layers": [
@@ -8,18 +8,14 @@
   ],
   "canonical_edges": 125,
   "unique_targets": 123,
-  "endpoint_identity_matches": 34,
+  "endpoint_identity_matches": 43,
   "endpoint_identity_gaps": [
-    "Janemba Head",
     "Broly Wig (Legendary Super Saiyan)",
     "Kakunsa's Wig and Mask",
     "Kakunsa's Tail",
     "Rozie's Hood and Goggles",
     "Universe 7 Baseball Cap",
     "Gine (DB Super) Set",
-    "Caulifla Wig",
-    "Kale Wig",
-    "Bulma (Kid) Wig",
     "Android 17 (DB Super) Ranger Wig",
     "King Vegeta (DB Super) Wig",
     "Gamma 2 Helmet",
@@ -29,7 +25,6 @@
     "Red Ribbon Army Helmet",
     "Red Ribbon Soldier 94 Clothes",
     "Dr. Hedo Suit",
-    "Gohan (Beast) Wig",
     "Goku Wig",
     "Dore's Scouter",
     "Hercule's Clothes",
@@ -38,7 +33,6 @@
     "Yamcha's Baseball Uniform",
     "Perfect Cell's Wings",
     "Vegito's Clothes",
-    "Flying Nimbus!!",
     "Goku's Damaged Turtle Hermit Gi",
     "Four-Star Dragon Ball Hat",
     "Goku's Turtle Hermit Gi (King Kai)",
@@ -85,11 +79,9 @@
     "Champa's Clothes",
     "Battle Suit (Cabba)",
     "Android 14's Clothes",
-    "Android 13's Clothes",
     "Super Android 13's Clothes",
     "Future Mai's Clothes",
     "Goku Black's Clothes",
-    "Zamasu's Clothes",
     "Super Saiyan 4 Suit (Goku)",
     "SS4 Wig & Tail (Goku)",
     "Resistance Clothes",
@@ -102,6 +94,6 @@
   ],
   "semantics": "Canonical PQ→equipment relationships remain authoritative. Endpoint record layers are incomplete projections; missing endpoint records are enrichment gaps, not negative reward claims.",
   "status": "canonical_projection_complete_endpoint_enrichment_incomplete",
-  "audit_note": "2026-09-27 refresh after evidence-backed promotion of 10 additional clothing/equipment identities.",
-  "endpoint_records": 99
+  "audit_note": "2026-09-27 refresh after evidence-backed promotion of nine additional endpoint identities.",
+  "endpoint_records": 108
 }
