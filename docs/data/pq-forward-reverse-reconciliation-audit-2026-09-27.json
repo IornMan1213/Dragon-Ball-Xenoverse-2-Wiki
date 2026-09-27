@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0",
+  "audited_at": "2026-09-27",
+  "status": "passed",
+  "authoritative_side": "docs/data/pq-reward-relationships.json",
+  "categories": {
+    "pq_rewards_skill": {
+      "forward_rows": 236,
+      "forward_targets": 231,
+      "reverse_targets": 231,
+      "forward_not_reverse": [],
+      "reverse_not_forward": [],
+      "exact_projection": true
+    },
+    "pq_rewards_super_soul": {
+      "forward_rows": 137,
+      "forward_targets": 134,
+      "reverse_targets": 134,
+      "forward_not_reverse": [],
+      "reverse_not_forward": [],
+      "exact_projection": true
+    },
+    "pq_rewards_equipment": {
+      "forward_rows": 125,
+      "forward_targets": 123,
+      "reverse_targets": 123,
+      "reverse_buckets": [
+        "clothing",
+        "accessories"
+      ],
+      "forward_not_reverse": [],
+      "reverse_not_forward": [],
+      "exact_projection": true
+    },
+    "pq_features_character": {
+      "forward_rows": 247,
+      "forward_targets": 75,
+      "reverse_targets": 75,
+      "forward_not_reverse": [],
+      "reverse_not_forward": [],
+      "exact_projection": true
+    },
+    "pq_requires_dlc": {
+      "forward_rows": 88,
+      "forward_targets": 21,
+      "reverse_targets": 21,
+      "forward_not_reverse": [],
+      "reverse_not_forward": [],
+      "exact_projection": true
+    },
+    "pq_farming_route": {
+      "forward_rows": 7,
+      "forward_targets": 1,
+      "reverse_targets": 1,
+      "forward_not_reverse": [],
+      "reverse_not_forward": [],
+      "exact_projection": true
+    }
+  },
+  "total_forward_rows": 840,
+  "total_unmatched_forward_edges": 0,
+  "total_unmatched_reverse_edges": 0,
+  "evidence_boundary": "Reverse files are projections. This audit identifies deterministic projection drift only; it does not infer absent rewards or mutate canonical forward relationships.",
+  "validator": "scripts/reconcile_pq_forward_reverse.py"
+}
