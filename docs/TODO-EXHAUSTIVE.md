@@ -3528,3 +3528,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited 151–155; no legacy ID/name misidentification found.
 - [x] PQ endpoints retained and provenance notes refreshed.
 - [ ] Continue remaining Super Soul provenance/ID-drift audit.
+
+
+### 2026-09-27 continuation — critical Super Soul 160 ID/name drift correction
+- [x] Corrected ID 160: `Damn it all!` was conflated with a different Beerus Heavy Smash Super Soul.
+- [x] Canonical record now follows the current catalogue identity for SS3 Vegeta (DAIMA), while preserving PQ 180 provenance.
+- [ ] Continue later-ID drift audit.
