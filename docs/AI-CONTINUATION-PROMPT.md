@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — PQ equipment endpoint promotion
+- [x] Promoted 11 explicit named accessory identities into `equipment-accessories-record-layer.json`: Four-Star Dragon Ball Hat, Chiaotzu's Hat (With Collar), Dore's Scouter, Jaco's State-of-the-Art Radio, Tagoma's Scouter, SSGSS Goku Wig, Yamcha Baseball Hat, SSGSS Vegeta Wig, Bulma (Kid) Wig, Android 14's Hat, and Bardock (DB Super)'s Scouter.
+- [x] Linked all 11 through `accessory-pq-canonical-bridge.json`.
+- [x] Recomputed the PQ equipment projection against the live endpoint layers: 123 unique canonical targets, 51 exact endpoint matches, 72 remaining identity gaps.
+- [x] Refreshed the endpoint coverage audit and bridge summary.
+- [x] Preserved unresolved route/condition semantics; no reward probability was inferred.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence-backed promotion of the remaining 72 endpoint gaps, prioritizing explicit inventory identities and preserving ambiguous set/component records.
+
 ### 2026-09-27 continuation — Research/Super Soul validator hardening
 - [x] Research-batch validation now rejects malformed roots and non-list `corrections`/`records` containers instead of silently skipping them.
 - [x] Super Soul record validation now catches only expected OSError/JSON decode failures.
