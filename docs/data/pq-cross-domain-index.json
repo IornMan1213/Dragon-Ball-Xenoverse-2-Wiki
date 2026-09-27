@@ -1850,6 +1850,7 @@
   "skill_acquisition_metadata_integrity_audit_2026_09_26": "docs/data/skill-acquisition-metadata-integrity-audit-2026-09-26.json",
   "consumer_projections": {
     "pq_super_soul": "docs/data/pq-super-soul-crosslink-report.json",
-    "pq_equipment": "docs/data/pq-equipment-crosslink-report.json"
+    "pq_equipment": "docs/data/pq-equipment-crosslink-report.json",
+    "pq_character": "docs/data/pq-character-crosslink-report.json"
   }
 }
