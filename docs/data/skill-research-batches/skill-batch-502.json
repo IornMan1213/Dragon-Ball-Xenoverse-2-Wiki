@@ -3,20 +3,21 @@
   "date": "2026-09-27",
   "type": "current-evidence-frontier",
   "records": [
-    "Freedom Kick",
-    "Ice Claw",
-    "Energy Dome",
-    "Force Edge",
-    "Fighting Pose H",
-    "Flash Bomber",
-    "Symphonic Destruction",
-    "Burst Kamehameha"
+    "Super Saiyan God Super Saiyan",
+    "Fighting Pose C",
+    "Burning Attack",
+    "Final Kamehameha",
+    "God of Destruction's Wrath",
+    "Wolf Fang Fist",
+    "Ki Blast Thrust",
+    "Punisher Guard"
   ],
   "validation": {
-    "canonical_skill_records": 474,
-    "index_skill_records": 474,
+    "canonical_records": 474,
+    "index_records": 474,
     "synchronized_records": 8,
     "canonical_identity_changes": 0,
-    "evidence_boundary": "No unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities promoted."
-  }
+    "evidence_boundary_violations": 0
+  },
+  "notes": "Fresh frontier selected from the live corpus after Batch 501. Existing provenance conflicts are preserved; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
 }
