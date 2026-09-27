@@ -3365,3 +3365,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed existing current-evidence audits cover the Skill endpoint; no missing endpoint repair was required.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: advance to the next highest-priority cross-domain consistency/research gap.
+
+
+### 2026-09-27 continuation — Recovery verification and Super Soul Limit Burst batch
+- [x] Confirmed main remains the recovery-forward canonical line: preserved safety branch `recovery-before-main-restoration-2026-09-27` is **568 commits behind main / 0 ahead** and has not replaced the restored database.
+- [x] Fresh Super Soul acquisition scan found no new stale populated PQ acquisition edge after the PQ 155 / `super-soul-142` reconciliation; only the already-documented Flying Nimbus equipment exception and unresolved `super-soul-142` remain outside the acquisition index.
+- [x] Enriched `super-soul-031`, `092`, `101`, `173`, and `175` with directly supported normalized Limit Burst effects.
+- [x] Added `docs/data/super-soul-limit-burst-effect-batch-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Updated the Super Soul mechanics coverage audit to the live **172-record** canonical layer and **96/172** populated Limit Burst-effect fields.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Next:** continue the remaining thin Super Soul mechanics records with direct evidence, then perform forward/reverse/acquisition/crosslink parity after each substantive batch; preserve unresolved identities rather than inventing acquisition or mechanics.
