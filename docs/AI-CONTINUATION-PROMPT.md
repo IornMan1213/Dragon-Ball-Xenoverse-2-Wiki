@@ -4262,3 +4262,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Registered eight Batch 506 audit artifacts and finalized the Batch 506 frontier manifest.
 - [x] Preserved reward-tier/source conflicts and did not infer unsupported probabilities, frames, hidden interactions, scaling, or Skill→PQ edges.
 - [ ] Next exact: fresh Batch 507 census and the next substantive cross-domain enrichment.
+
+### 2026-09-27 continuation — Batch 506 census correction
+- [x] Audited the initial Batch 506 selection against the live `last_verified` dates and discovered four candidates already had 2026-09-26 audits; they were not refreshed redundantly.
+- [x] Corrected Batch 506 to the oldest remaining frontier: **Burst Charge, Burst Reflection, Burst Stinger, Celestial Wave, Chain Destructo-Disc Barrage, Confusion Blade, Dark Inscription, Deadly Dance**.
+- [ ] Next: bounded current-evidence refresh of the corrected eight-record frontier, then canonical/index synchronization and cross-domain reconciliation.
