@@ -2559,3 +2559,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Next:** move from endpoint identity completion to mechanics/enrichment coverage, then address the largest remaining cross-domain gap (equipment endpoint enrichment and DLC detail/taxonomy) rather than creating duplicate relationship projections.
 
+### 2026-09-27 continuation — Super Soul mechanics enrichment pass
+- [x] Enriched the **10 previously identity-only canonical Super Soul endpoints** using independently surfaced item/character evidence: trigger conditions, effects, magnitudes, Limit Bursts, character associations, and CAC usability where supported.
+- [x] Updated `docs/data/super-souls-record-layer.json` (168 records total); canonical PQ relationship identities were not altered.
+- [x] Mechanics field population increased to **44 trigger conditions, 52 effect descriptions, 46 effect magnitudes, 42 Limit Bursts, and 52 CAC-usability values**.
+- [x] Added `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json` and registered it in `pq-cross-domain-index.json`.
+- [x] Kept unresolved values explicit; no unsupported numeric conversion, duration, stacking, or trigger behavior was invented.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Next:** continue deterministic Super Soul mechanics enrichment from the staged research/evidence corpus, prioritizing records with acquisition identity already resolved but missing structured effects/triggers; then return to equipment endpoint enrichment and DLC detail coverage.
+
