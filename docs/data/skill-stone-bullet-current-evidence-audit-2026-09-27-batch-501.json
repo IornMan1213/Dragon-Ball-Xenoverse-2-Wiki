@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-stone-bullet",
+  "skill_name": "Stone Bullet",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 refresh: current documentation reconfirms PQ56 acquisition, 100-Ki Strike Super classification, up to 22 thrown rocks, and chargeable range extension. Exact projectile timing and patch-independent damage scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
