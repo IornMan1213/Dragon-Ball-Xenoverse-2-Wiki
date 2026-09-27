@@ -2568,3 +2568,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Next:** continue deterministic Super Soul mechanics enrichment from the staged research/evidence corpus, prioritizing records with acquisition identity already resolved but missing structured effects/triggers; then return to equipment endpoint enrichment and DLC detail coverage.
 
+
+### 2026-09-27 continuation — Super Soul audit drift reconciliation
+- [x] Added `scripts/audit_super_soul_mechanics_coverage.py`, a deterministic read-only coverage auditor over the canonical 168-record Super Soul layer; it reports field population without inferring mechanics or promoting secondary evidence into canonical facts.
+- [x] Refreshed `docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json` to the current **168 records / 134 canonical PQ targets / 134 endpoint matches / 0 endpoint gaps**. The prior 158-record audit was stale after the final ten endpoint promotions.
+- [x] Reconciled `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json` with the live canonical record layer. Current coverage is **44 trigger conditions, 52 effect descriptions, 46 effect magnitudes, 40 durations, 25 stacking behaviors, 42 Limit Burst values, 22 Limit Burst effects, 52 CAC-usability values, 3 race restrictions, and 30 DLC requirements**; `limit_burst_trigger` remains unpopulated across the 168 records.
+- [x] Registered the new mechanics auditor and both refreshed audits in `docs/data/pq-cross-domain-index.json`.
+- [x] Confirmed staged Super Soul research batches 03–04 do not contain additional values that can be deterministically merged into currently-null canonical schema fields without a separate evidence reconciliation; no speculative promotion was made.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Next:** continue evidence-backed Super Soul mechanics reconciliation where repository sources can fill currently-null canonical fields; otherwise pivot to the **107 unique PQ→equipment endpoint-enrichment gaps** and the **21-target PQ→DLC taxonomy/detail gap**. Preserve canonical relationship data as authoritative and keep unresolved mechanics explicit.
