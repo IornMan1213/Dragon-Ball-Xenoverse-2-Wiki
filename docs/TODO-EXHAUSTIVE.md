@@ -2934,3 +2934,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reduced the remaining partial mechanics frontier to **105 records**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 6
+- [x] Enriched Super Souls super-soul-097 through super-soul-101.
+- [x] Refreshed mechanics/integrity audits: trigger 74/168, effect 82/168, magnitude 76/168, duration 64/168, stacking 33/168, Limit Burst 72/168, Limit Burst effect 52/168, CaC 82/168.
+- [x] Reduced the remaining partial mechanics frontier to **100 records**.
+- [x] Preserved the Veku source discrepancy as research data rather than collapsing conflicting evidence.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
