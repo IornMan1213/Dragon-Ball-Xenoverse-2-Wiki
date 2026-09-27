@@ -1,0 +1,13 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/validate_awoken_integrity.py",
+  "changes": [
+    "Require canonical and override records containers to be lists.",
+    "Require Awoken identity fields name/class/subcategory to be non-empty strings without coercion.",
+    "Reject duplicate canonical Awoken identities before override matching."
+  ],
+  "canonical_data_changed": false,
+  "runtime_status": "unverified_by_user_direction"
+}
