@@ -4155,3 +4155,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source-bounded numerical observations and unresolved frame/scaling/hidden-interaction fields; no synthetic canonical facts were introduced.
 - [x] Git-blob validation confirms 474 records / 474 unique IDs in each live Skills layer.
 - [ ] Next priority: fresh Batch 502 census from the post-Batch-501 corpus, excluding completed frontier candidates; then reconcile PQ→Skill and Skill→PQ projections and continue toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Database recovery verification and Batch 504
+- [x] Re-read the live recovery state and verified that the restored canonical PQ reward forward layer remains the evidence boundary at 840 relationships (236 skills / 137 Super Souls / 125 equipment / 247 character / 88 DLC / 7 farming); no replacement reward layer was fabricated.
+- [x] Reconciled the live PQ equipment endpoint audit: 125 canonical edges / 123 unique targets / 123 endpoint identity matches / 0 identity gaps; endpoint enrichment is complete for that projection.
+- [x] Performed a fresh 474-record Skills census and selected eight records without a 2026-09-27 current-evidence audit: Afterimage, All Clear, Android Rush, Angry Explosion, Angry Hit, Apocalyptic Burst, Arm Crash, Assault Rain.
+- [x] Completed bounded Batch 504 current-evidence refreshes and synchronized all eight records into both Skills layers; canonical identities remain unchanged and the live baseline remains 474/474.
+- [x] Preserved evidence boundaries, including Apocalyptic Burst's Basic Reward versus Ultimate-Finish placement conflict and unresolved reward probabilities.
+- [x] Added the Batch 504 manifest, thin-frontier audit, eight current-evidence audit records, and cross-domain index registrations.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Exact next: fresh Batch 505 census from the live 474-record corpus; then reconcile PQ→Skill and Skill→PQ projections and target the next substantive cross-domain enrichment gap.
