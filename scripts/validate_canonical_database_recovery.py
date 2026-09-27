@@ -1,0 +1,82 @@
+#!/usr/bin/env python3
+"""Validate the critical canonical database recovery contract.
+
+This is intentionally deterministic and does not infer missing research data.
+It checks that the restored canonical skill corpus and its navigation artifacts
+remain present, parseable, and identity-consistent.
+"""
+from __future__ import annotations
+
+import json
+from pathlib import Path
+
+ROOT = Path(__file__).resolve().parents[1]
+SKILLS = ROOT / "docs/data/skills.json"
+SKILL_INDEX = ROOT / "docs/data/skills-index.json"
+SKILL_PQ = ROOT / "docs/data/skill-pq-reverse-index-2026-09-26.json"
+PQ_REWARDS = ROOT / "docs/data/pq-reward-relationships.json"
+
+
+def load(path: Path) -> dict:
+    if not path.is_file():
+        raise SystemExit(f"missing required database artifact: {path}")
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except Exception as exc:
+        raise SystemExit(f"invalid JSON in {path}: {exc}") from exc
+    if not isinstance(value, dict):
+        raise SystemExit(f"database artifact root must be an object: {path}")
+    return value
+
+
+def unique_ids(records: object, label: str) -> set[str]:
+    if not isinstance(records, list):
+        raise SystemExit(f"{label}.records must be a list")
+    ids: list[str] = []
+    for index, record in enumerate(records):
+        if not isinstance(record, dict):
+            raise SystemExit(f"{label}.records[{index}] must be an object")
+        skill_id = record.get("id")
+        if not isinstance(skill_id, str) or not skill_id:
+            raise SystemExit(f"{label}.records[{index}].id must be a non-empty string")
+        ids.append(skill_id)
+    result = set(ids)
+    if len(result) != len(ids):
+        raise SystemExit(f"{label} contains duplicate skill IDs")
+    return result
+
+
+def main() -> None:
+    skills = load(SKILLS)
+    skill_index = load(SKILL_INDEX)
+    skill_pq = load(SKILL_PQ)
+    pq_rewards = load(PQ_REWARDS)
+
+    skill_ids = unique_ids(skills, "skills")
+    index_ids = unique_ids(skill_index, "skills-index")
+
+    if len(skill_ids) != 474:
+        raise SystemExit(f"expected 474 canonical skills, found {len(skill_ids)}")
+    if index_ids != skill_ids:
+        raise SystemExit("skills-index identity set does not exactly match skills.json")
+    if skill_pq.get("canonical_skill_count") != 474:
+        raise SystemExit("skill-PQ reverse artifact canonical_skill_count is not 474")
+    if skill_pq.get("total_skill_pq_edges") != 246:
+        raise SystemExit("skill-PQ reverse artifact edge count is not 246")
+    if skill_pq.get("represented_pq_count") != 170:
+        raise SystemExit("skill-PQ reverse artifact represented PQ count is not 170")
+
+    current_counts = pq_rewards.get("current_counts")
+    required_counts = {"skill", "super_soul", "equipment", "character", "dlc", "farming"}
+    if not isinstance(current_counts, dict) or set(current_counts) != required_counts:
+        raise SystemExit("PQ reward current_counts contract is malformed")
+
+    print("PASS: canonical database recovery contract is structurally intact.")
+    print(f"canonical skills: {len(skill_ids)}")
+    print("skills-index identities: exact match")
+    print("skill→PQ reverse: 474 skills / 246 edges / 170 represented PQs")
+    print("PQ reward relationship count keys: skill, super_soul, equipment, character, dlc, farming")
+
+
+if __name__ == "__main__":
+    main()
