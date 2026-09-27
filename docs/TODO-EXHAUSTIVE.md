@@ -3414,3 +3414,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved explicit no-effect entries rather than fabricating mechanics.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: resolve remaining thin records 032–035 and 076 where evidence permits.
+
+
+### 2026-09-27 continuation — Zamasu mechanics reconciliation
+- [x] Strengthened Super Soul 076 with direct catalogue mechanics and durations.
+- [x] Rechecked Super Soul 034 and preserved its unresolved status due to insufficient direct evidence.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed resolution of remaining Future Saga mechanics.
