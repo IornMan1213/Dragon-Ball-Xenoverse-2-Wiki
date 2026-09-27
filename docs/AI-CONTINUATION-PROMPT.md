@@ -4184,3 +4184,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Recorded Batch 505 and the projection reconciliation artifact; existing detailed research was not overwritten merely because a record lacked a current-dated frontier audit.
 - [ ] Next: perform bounded current-evidence refreshes for the Batch 505 frontier, then update the canonical/index layers only where evidence materially supports a change; preserve unresolved naming, reward-tier, CaC, and Ultimate-Finish conflicts.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 505 current-evidence completion
+- [x] Completed bounded current-evidence refreshes for all eight Batch 505 frontier records: **Assault Vanish, Bloody Counter, Blue Hurricane, Body Change, Brave Sword Slash, Break Cannon, Burning Blast, Burning Slash**.
+- [x] Synchronized the eight refreshes into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identity changes: **0**; 474-record baseline preserved.
+- [x] Added eight dated Batch 505 current-evidence audit artifacts and finalized `docs/data/skill-research-batches/skill-batch-505.json`.
+- [x] Evidence confirms the documented acquisition/mechanics boundaries for the selected skills while preserving unsupported frame data, hidden interactions, reward probabilities, and unresolved conflicts as unresolved.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] Exact next: fresh Batch 506 census from the post-Batch-505 474-record corpus, then perform the next substantive cross-domain enrichment rather than repeating completed candidates.
