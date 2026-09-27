@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "skill_name": "Dust Attack",
+  "skill_id": "skill-dust-attack",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dust_Attack"
+  ],
+  "findings": [
+    "100-Ki Other Super associated with Piccolo.",
+    "Canonical acquisition remains PQ78 Basic Reward.",
+    "Accessible current documentation is sparse; exact hit sequence, damage, tracking, and cancel behavior remain unresolved."
+  ]
+}
