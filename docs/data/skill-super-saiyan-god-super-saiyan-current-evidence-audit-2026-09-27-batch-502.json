@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-saiyan-god-super-saiyan",
+  "skill_name": "Super Saiyan God Super Saiyan",
+  "batch": 502,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 502: current transformation documentation reconfirms this as a 500-Ki Saiyan CaC Awoken Skill, with level 90+ and maximum Whis friendship as the documented award condition; current evidence also retains the documented +25% all-attack damage, 5% damage reduction, and continuous Ki drain. No unsupported stacking or timing claim added.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
