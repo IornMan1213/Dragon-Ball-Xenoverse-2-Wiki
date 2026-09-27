@@ -2409,7 +2409,7 @@
     {
       "pq": "pq-164",
       "relationship": "pq_rewards_super_soul",
-      "target": "This place Will be your grave!",
+      "target": "This place will be your grave!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -2430,7 +2430,7 @@
     {
       "pq": "pq-173",
       "relationship": "pq_rewards_super_soul",
-      "target": "You Will know the power of the gods!",
+      "target": "You will know the power of the gods!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
