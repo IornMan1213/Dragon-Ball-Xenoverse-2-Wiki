@@ -13,5 +13,6 @@
   "indexed_endpoint_promotions": 126,
   "mechanics_enrichment_pending": 130,
   "status": "passed",
-  "interpretation": "All canonical PQ Super Soul target identities have endpoint records. Mechanics fields remain explicitly partial where repository evidence has not been promoted; missing values are not negative claims."
+  "interpretation": "All canonical PQ Super Soul target identities have endpoint records. Mechanics fields remain explicitly partial where repository evidence has not been promoted; missing values are not negative claims.",
+  "audit_tool_write_probe": "2026-09-27"
 }
