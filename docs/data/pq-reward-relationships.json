@@ -2330,48 +2330,6 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-151",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I'll never forgive you!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-151",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I'm not gonna die until I defeat you!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-152",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I'll show you the power of a true warrior!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-153",
-      "relationship": "pq_rewards_super_soul",
-      "target": "Don't underestimate my power!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-153",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I won't forgive you!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-154",
-      "relationship": "pq_rewards_super_soul",
-      "target": "I'm the one who will win!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq": "pq-155",
       "relationship": "pq_rewards_super_soul",
       "target": "This is the ultimate hero!",
@@ -6219,6 +6177,41 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Reward explicitly listed in the all-186 PQ guide; this closes the previously undocumented PQ 1-14 coverage boundary."
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I think I'm getting the hang of this.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I'll keep adding a bit of power to my attacks!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I will put a stop to you, fiend!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_rewards_super_soul",
+      "target": "There's more where that came from!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You're not much of a fun fight!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "normalization_rules": [
@@ -6247,6 +6240,7 @@
     "2026-09-19: Corrected an overly aggressive reconciliation pass. Canonical PQ batch reward arrays are explicitly partial, so edge-only relationships were restored. Only 24 canonical typed reward entries absent from the prior forward layer were added.",
     "2026-09-19: Added 46 reward relationships supported by the repository's source-normalized reward maps. These are marked source_normalized rather than source_backed because the map layer is explicitly partial.",
     "2026-09-19: Promoted 76 source-only normalized reward entries to source_backed using the repository's all-186 PQ guide as independent reward-list evidence.",
-    "2026-09-19: Promoted 46 previously source_normalized reward edges to source_backed after matching them to the all-186 PQ guide."
+    "2026-09-19: Promoted 46 previously source_normalized reward edges to source_backed after matching them to the all-186 PQ guide.",
+    "2026-09-27: PQ 151-154 Super Soul relationships corrected to the explicit reward lists in the all-PQ guide; previous six endpoint names are retained only in the conflict audit as disputed recovered claims."
   ]
 }
