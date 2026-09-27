@@ -1,0 +1,10 @@
+{
+  "skill_name": "Burst Charge",
+  "batch": 508,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "Fresh 2026-09-27 evidence refresh reconfirmed the existing canonical identity and documented classification/acquisition context. No unsupported mechanics, exact frames, hidden interactions, universal scaling, or reward probabilities were promoted.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical layer refreshed; index-layer update encountered concurrent repository mutation and is being preserved as a synchronization follow-up.",
+  "evidence_boundary": "Existing source/provenance conflicts remain preserved."
+}
