@@ -1,0 +1,16 @@
+{
+  "schema_version":"1.0",
+  "date":"2026-09-27",
+  "title":"PQ 007 Gyau!!!! Super Soul provenance reconciliation",
+  "target":"Gyau!!!!",
+  "pq":7,
+  "finding":"The Super Soul endpoint metadata was correct, but canonical PQ reward/index coverage was incomplete.",
+  "evidence":[
+    {"source":"Steam Community all-186 PQ guide","url":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","finding":"PQ 07 Attack of the Saiyans explicitly lists Gyau!!!! as a Basic Reward."},
+    {"source":"YouTube PQ 07 gameplay listing","url":"https://www.youtube.com/watch?v=hS7gr8I8PlU","finding":"PQ 07 reward description independently lists Gyau!!!! and Shine Shot."},
+    {"source":"Dragon Ball Xenoverse 2 Wiki Super Soul catalogue","url":"https://dbxv2.fandom.com/wiki/Super_Soul","finding":"The catalogue identifies Gyau!!!! as Super Soul 7 and lists Parallel Quest 07 as its acquisition."}
+  ],
+  "correction":"Added Gyau!!!! to the canonical PQ 7 Super Soul reward map, forward relationship layer, Super Soul acquisition index, unified reverse index, and crosslink projection.",
+  "classification":"confirmed_super_soul_pq_reward",
+  "note":"Unlike Flying Nimbus!!, this endpoint should retain its PQ acquisition metadata because independent current catalogue and PQ reward evidence agree."
+}
