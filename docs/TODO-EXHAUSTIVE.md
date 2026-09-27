@@ -3375,3 +3375,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the Super Soul mechanics coverage audit to the live **172-record** canonical layer and **96/172** populated Limit Burst-effect fields.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Next:** continue the remaining thin Super Soul mechanics records with direct evidence, then perform forward/reverse/acquisition/crosslink parity after each substantive batch; preserve unresolved identities rather than inventing acquisition or mechanics.
+
+
+### 2026-09-27 continuation — Super Soul Limit Burst batch B
+- [x] Added direct-evidence Limit Burst effects for Super Souls 029, 030, 044, 045, 046, 047, and 076.
+- [x] Added/registered `docs/data/super-soul-limit-burst-effect-batch-2026-09-27-b.json`.
+- [x] Mechanics coverage advanced to **103/172** populated Limit Burst effects.
+- [x] Post-batch parity remains aligned: 135 active Super Soul relationship edges and 133 unique acquisition targets; mechanics-only changes did not alter acquisition relationships.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Next:** continue evidence-backed enrichment of the remaining thin canonical Super Souls; do not promote unresolved PQ 185/186 or other disputed claims without item-level evidence.
