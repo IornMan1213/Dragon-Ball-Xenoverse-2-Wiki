@@ -13,7 +13,7 @@
     "Deadly Dance"
   ],
   "selection_rule": "Corrected fresh census: exclude records already refreshed in Batches 504-505 and records with current-evidence audits dated 2026-09-26 or 2026-09-27; prioritize the oldest remaining evidence frontier.",
-  "records_refreshed": 0,
+  "records_refreshed": 8,
   "canonical_identity_changes": 0,
   "synchronized_layers": [
     "docs/data/skills.json",
@@ -33,7 +33,9 @@
   "total_records_refreshed_across_registered_batch": 15,
   "latest_refresh_canonical_identity_changes": 0,
   "latest_refresh_note": "A second bounded Batch 506 frontier pass refreshed seven additional records after the existing Batch 506 registration was discovered. No prior completed records were removed or rewritten as a different selection.",
-  "status": "corrected_census",
-  "next_exact": "Bounded current-evidence refresh for all eight selected records, then synchronize canonical/index layers and register eight audit artifacts.",
-  "census_correction": "The initial Batch 506 draft incorrectly selected four records that already had 2026-09-26 audits. Those were removed before enrichment; no redundant refresh was promoted."
+  "status": "completed",
+  "next_exact": "Fresh Batch 507 census, then cross-domain projection reconciliation and expansion beyond the 474 canonical seed.",
+  "census_correction": "The initial Batch 506 draft incorrectly selected four records that already had 2026-09-26 audits. Those were removed before enrichment; no redundant refresh was promoted.",
+  "completed_at": "2026-09-27",
+  "audit_artifacts": 8
 }
