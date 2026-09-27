@@ -3428,3 +3428,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved implementation details and canonical-data-first policy.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: seek direct evidence for 032–035, especially 034, before promoting any secondary claims.
+
+
+### 2026-09-27 continuation — Super Soul 034 evidence recheck
+- [x] Rechecked 034 against current catalogue/PQ 186/community evidence.
+- [x] No direct item-level mechanics or Limit Burst evidence found; record remains unresolved.
+- [ ] Seek direct item-level evidence before promotion; otherwise proceed to remaining thin Super Soul records.
