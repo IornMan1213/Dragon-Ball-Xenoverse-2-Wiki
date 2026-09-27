@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-finish-breaker",
+  "skill_name": "Finish Breaker",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_refreshed",
+  "mechanics": "2026-09-27 Batch 500 refresh: existing dedicated evidence remains consistent with the canonical identity and current mechanics boundary; no new unsupported timing, scaling, hidden condition, or reward probability is promoted.",
+  "source_scope": "Current repository evidence and dedicated Xenoverse 2 skill documentation already retained in the research corpus.",
+  "canonical_sync": "474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "No unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities asserted."
+}
