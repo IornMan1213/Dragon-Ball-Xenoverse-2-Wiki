@@ -3407,3 +3407,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed mechanics coverage for the expanded 173-record Super Soul layer.
 - [x] Programmatically verified the four corrected PQ mappings.
 - [ ] Next: research item-level mechanics for 175–178 and preserve the six removed recovered claims in a provenance/dispute layer.
+
+
+### 2026-09-27 continuation — mechanics enrichment for corrected PQ 151–153 Super Souls
+- [x] Researched item mechanics for corrected records 175–178 using the current Super Soul catalogue, character data, and independent player reports.
+- [x] Enriched 175 (Raditz): +5% all-attack per throw, up to 10 stacks; Auto Just Guard Limit Burst.
+- [x] Enriched 176 (Dyspo): +10% movement speed and +10% Ki restored; ATK Up! Ki Auto-Recovery! Limit Burst.
+- [x] Enriched 177 (GT Vegeta): +10% all attacks; occasional initial-Ki-cost refund; current catalogue documents a 20% chance and independent reports clarify that the in-game 'completely restores Ki' wording is inaccurate.
+- [x] Enriched 178 (Recoome) partially: battle-start +10% all attacks and increased maximum Ki; below 50% HP the attack boost is removed. Exact Ki-recovery penalty and Limit Burst remain unresolved and were not guessed.
+- [ ] Next: resolve exact remaining 178 values, then preserve/alias the six removed recovered claims in a provenance/dispute layer.
