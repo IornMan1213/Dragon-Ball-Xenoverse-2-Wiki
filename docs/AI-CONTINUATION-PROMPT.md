@@ -4607,3 +4607,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the current secondary research source and refreshed verification classification/date for both records. No new mechanics or Limit Burst behavior was inferred.
 - [x] The three active records still lacking `limit_burst_effect` remain `super-soul-032`, `super-soul-033`, and `super-soul-034`; the first two now have refreshed secondary mechanics evidence, while Super Soul 034 remains unresolved at item-mechanics level.
 - [ ] Continue searching for explicit Limit Burst/item-level evidence; do not manufacture missing values from neighboring records or names.
+
+
+### 2026-09-27 continuation — Super Soul 033 Limit Burst enrichment
+- [x] Enriched `super-soul-033` (`Malice... Existence... Cruelty...`) with `Super Armor` as its Limit Burst/effect from current player evidence.
+- [x] Classified the finding as `verified_secondary`; no primary-source claim was made.
+- [x] Updated the mechanics audit. The unresolved active Limit Burst-effect gap is now **2 records**: `super-soul-032` and `super-soul-034`.
+- [ ] Continue searching for explicit item-level evidence for Super Souls 032 and 034; do not infer missing mechanics.
