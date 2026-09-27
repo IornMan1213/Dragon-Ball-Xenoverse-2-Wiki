@@ -3695,3 +3695,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/super-soul-projection-count-audit-2026-09-27.json.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue exhaustive parity auditing beyond this Super Soul projection count, then move to the next highest-priority unfinished dataset area.
+
+### 2026-09-27 continuation — Do or Die skill endpoint validation
+- [x] Verified the dedicated canonical Skill endpoint `skill-do-or-die` exists and is represented in the Skill→PQ reverse index for PQ 49.
+- [x] Existing skill evidence audits already document current acquisition/mechanics evidence, so the PQ 49 domain correction did not leave a missing Skill endpoint.
+- [x] No additional canonical data change was necessary in the Skill layer.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the highest-priority cross-domain consistency/research gap rather than revisiting the resolved PQ 49 classification.
