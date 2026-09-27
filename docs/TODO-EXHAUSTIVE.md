@@ -1,3 +1,10 @@
+### 2026-09-27 TODO progress update — Skill→PQ endpoint uniqueness hardening
+- [x] Hardened `scripts/validate_skill_pq_crosslinks.py` against duplicate PQ IDs and boolean-as-integer PQ IDs inside canonical skill endpoint lists.
+- [x] Recorded **0 duplicate / 0 boolean** endpoint violations in the Skill→PQ linkage audit; canonical **474 / 246 / 170** projection remains unchanged.
+- [x] Preserved the evidence boundary around the missing general PQ reward forward layer.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** continue with the next live deterministic validator/consumer or projection.
+
 ### 2026-09-26 TODO progress update — PQ cross-domain forward-source boundary confirmed
 - [x] Confirmed `docs/data/pq-reward-relationships.json` is still absent from live `main`; the hardened cross-domain index validator correctly detects this.
 - [x] Searched for a current general-PQ reward producer/generator and found only historical/audit references, not an evidence-complete replacement source.
