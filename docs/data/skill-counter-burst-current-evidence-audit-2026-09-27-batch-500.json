@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-counter-burst",
+  "skill_name": "Counter Burst",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 current-evidence refresh: current PQ reward documentation reconfirms the Basic Reward relationship and the maintained Evasive classification. Exact trigger timing, damage, and reward probability are not promoted without direct evidence.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
