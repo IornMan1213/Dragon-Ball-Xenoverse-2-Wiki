@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-beast",
+  "skill_name": "Beast",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Batch 501 current-evidence refresh completed against the repository's current Xenoverse 2-specific evidence; canonical mechanics and acquisition semantics were retained, with unresolved fields kept bounded.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Existing source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
