@@ -3812,3 +3812,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Existing evidence conflicts and evidence boundaries were preserved; no unsupported Skill→PQ relationships were inferred.
 - [ ] Next: fresh Batch 507 census and substantive cross-domain enrichment; continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 507 current-evidence completion
+- [x] Completed current-evidence refreshes for **Candy Beam (Super), Charge, Circle Flash, Comet Strike, Confusion Blade, Crush Cannon, Crush Stream, and Crusher Ball**.
+- [x] Canonical/index synchronization completed with **0 identity changes**; 474/474 baseline remains intact.
+- [x] Added eight audit artifacts, Batch 507 manifest, and cross-domain registrations.
+- [x] Preserved source-bounded evidence and did not infer unsupported Skill→PQ relationships.
+- [ ] Next: fresh Batch 508 census and substantive cross-domain enrichment; continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+- [ ] Runtime/CI remains non-blocking.
