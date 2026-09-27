@@ -5262,7 +5262,7 @@
       "acquisition_source": "Parallel Quest 153",
       "first_clear_or_repeat": null,
       "shop_rotation": null,
-      "version_notes": "Current Super Soul catalogue and player discussion support the trigger structure and attack/maximum-Ki effects. Exact Ki-recovery magnitude and Limit Burst require stronger item-level evidence; the unresolved magnitude is deliberately marked rather than guessed.",
+      "version_notes": "Exact values confirmed by the current Super Soul catalogue and independent player documentation. The below-50% trigger is once-only and the attack boost does not return after healing.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -5270,13 +5270,13 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "trigger_condition": "When the battle begins; once only when health is below 50%",
-      "effect_text": "Boosts the strength of all attacks and increases maximum Ki; below 50% HP, cancels the attack-strength boost and decreases Ki restored.",
-      "effect_magnitude": "+10% all attacks; +5 Ki bars maximum; below 50% HP the +10% attack boost is removed; Ki-recovery decrease magnitude unresolved",
-      "duration": "Battle-long; HP-threshold effect triggers once",
+      "effect_text": "Boosts the strength of all attacks and increases maximum Ki. Once health falls below 50%, cancels the attack-strength boost and decreases the amount of Ki restored.",
+      "effect_magnitude": "+10% all attacks; +100% maximum Ki; below 50% HP: cancels +10% attack boost and -100% amount of Ki restored",
+      "duration": "Battle-long until the one-time below-50%-HP trigger; the penalties are permanent for the remainder of the battle",
       "stacking_behavior": null,
-      "limit_burst": "",
+      "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "limit_burst_trigger": null,
-      "limit_burst_effect": "",
+      "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null
     }
