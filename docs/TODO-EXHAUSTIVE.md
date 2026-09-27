@@ -3206,3 +3206,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-152` "Shenron really went the extra mile." — Orange Piccolo / -10% damage taken / +10% Ki restored / +25% item drop rate at battle end / Limit Burst.
 - [x] Independent DLC evidence confirms these records belong to Hero of Justice Pack 2 and PQs 159–162; the current catalogue supplies the mechanics. citeturn0search2turn1search0turn1search3
 - [ ] Continue into the next canonical thin records and then audit index propagation.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 10
+- [x] Enriched `super-soul-153` "This place will be your grave!" — Broly (Restrained), -30% Ki restored, Awoken Skill trigger for +20% all attacks/+50% Ki restored, Limit Burst.
+- [x] Enriched `super-soul-154` "Hope you're ready for a trip!" — Android 18 (DB Super), battle-start +20% attacks/+100% Ki restored/+10% damage taken for 20 seconds, Auto Just Guard.
+- [x] Enriched `super-soul-155` "I'm not about to let Pan see me lose!" — Videl (DB Super), threshold-based Strike Skill/Ki-restoration boosts; preserved the documented 20% registered-value discrepancy.
+- [x] Enriched `super-soul-156` "You will know the power of the gods!" — Goku Black Rosé Ultra Supervillain, full Ki at battle start and +10% attacks at max Ki for 10 seconds.
+- [x] Enriched `super-soul-157` "It's about time..." — God of Destruction Belmod, below-25%-enemy-health trigger, +200 Ki and +25% Strike/Ki Blast Skills for 10 seconds.
+- [x] Enriched `super-soul-158` "Strength is justice! Strength is absolute!" — Jiren Full Power Ultra Supervillain, full Ki at battle start and +30% attacks/+30% damage taken below 10% Health.
+- [x] Corrected `super-soul-159` name to "I'll take you all on at once!" and enriched Goku (Mini)'s battle-start and opponent-count scaling effects.
+- [x] Enriched `super-soul-160` "Damn it all!" — God of Destruction Beerus, Heavy Smash trigger, +300 Ki and temporary -10% attack/+10% damage-taken effects.
+- [x] Cross-checked the batch against the current Super Soul catalogue and PQ guide; PQ 178 and PQ 180 reward identities are independently confirmed. citeturn1search0turn1search1
+- [ ] Continue through the remaining thin canonical Super Soul records, then run cross-domain index propagation/parity audits.
