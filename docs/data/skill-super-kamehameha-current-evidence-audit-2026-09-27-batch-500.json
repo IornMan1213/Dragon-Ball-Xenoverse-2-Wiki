@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-super-kamehameha",
+  "skill_name": "Super Kamehameha",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 current-evidence refresh: current mentor documentation reconfirms the established mentor lesson endpoint, classification, and acquisition identity. Detailed mechanics remain bounded to directly evidenced behavior.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
