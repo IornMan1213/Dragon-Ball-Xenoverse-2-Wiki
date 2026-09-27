@@ -3516,3 +3516,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited 151–155; no legacy ID/name drift found.
 - [x] Retained source-backed PQ endpoints and unresolved RNG details.
 - [ ] Continue remaining Super Soul provenance/ID-drift audit.
+
+
+### 2026-09-27 continuation — Super Souls 151–155 provenance audit
+- [x] Audited 151–155 for legacy ID/name drift; none found.
+- [x] PQ provenance retained with explicit uncertainty for exact RNG/first-clear behavior.
+- [ ] Continue Super Soul provenance/ID-drift audit.
