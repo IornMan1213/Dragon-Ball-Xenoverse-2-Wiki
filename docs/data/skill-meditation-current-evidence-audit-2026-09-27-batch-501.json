@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-meditation",
+  "skill_name": "Meditation",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 501 refresh: current documentation reconfirms PQ122 acquisition, 0 Ki, temporary 1500 maximum Ki, and 20-second Ki Auto-Recovery. Exact recovery rate and frame timing remain unresolved.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
