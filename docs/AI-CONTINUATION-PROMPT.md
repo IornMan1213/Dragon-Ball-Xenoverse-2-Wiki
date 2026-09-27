@@ -3125,3 +3125,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Removed an intermediate unsupported clothing promotion batch rather than retaining guessed PQ attribution; canonical data remains evidence-backed.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue promoting only explicitly evidenced remaining endpoint identities, then reconcile clothing records separately from accessories.
+
+
+### 2026-09-27 continuation — Database recovery-forward equipment endpoint completion
+- [x] Re-verified the recovered canonical database through Git blobs because the large skills.json and skills-index.json contents are connector-large-file limited when fetched by path; both blobs are materially present on main and independently contain **474 records / 474 unique IDs**. The skill↔PQ reverse artifact independently declares **474 canonical skills / 246 edges / 170 represented PQs**.
+- [x] Confirmed the earlier main restoration remains in history: restoration commit `9e15797821d41304c7c62d889a79cf0ac9c8c7109` recovered missing repository paths from `ai/continue-skill-acquisition-2026-09-19` while preserving newer main paths, with safety branch `recovery-before-main-restoration-2026-09-27` retained.
+- [x] Freshly reconciled the live canonical pq_rewards_equipment projection against both endpoint layers instead of trusting stale gap lists.
+- [x] Promoted **48 explicit equipment identities** from canonical source-backed PQ relationships into docs/data/equipment-record-layer.json as identity-only records equip-053 through equip-100.
+- [x] Preserved unresolved fields: stats, exact inventory slots/component granularity, shop/event fallbacks, restrictions, and reward probabilities were not invented. Records remain indexed where only identity + canonical PQ endpoint evidence is established.
+- [x] Refreshed docs/data/pq-equipment-endpoint-coverage-audit-2026-09-27.json, docs/data/pq-equipment-crosslink-integrity-audit-2026-09-27.json, and docs/data/pq-equipment-crosslink-report.json from the live endpoint layers.
+- [x] Current PQ equipment projection is **125 canonical edges / 123 unique targets / 123 exact endpoint identity matches / 0 identity gaps / 194 endpoint records**.
+- [x] This closes the current PQ equipment endpoint identity frontier without claiming that every equipment record is fully stat/restriction verified.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** fresh live census of the next highest-value incomplete cross-domain dataset; prioritize substantive acquisition/mechanics/reverse-navigation enrichment and preserve canonical-data source-of-truth rules. Do not reuse stale candidate lists.
