@@ -3621,3 +3621,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries: source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities were not invented.
 - [x] Canonical baseline remains 474/474 with zero identity changes in this batch.
 - [ ] Next priority: fresh Batch 498 census, then continue mechanics/provenance enrichment and reconcile PQ↔Skill projections.
+
+
+### 2026-09-27 continuation — Batch 497 current-evidence frontier
+- [x] Performed a fresh post-Batch-496 census and selected eight additional records without reusing the Batch 496 candidate list: **Ice Cannon, Final Flash (Super), God Splitter, Formation!, Majin Kamehameha, Feint Crash, Paralysis, and Menacing Flare**.
+- [x] Added/updated eight dated Batch 497 current-evidence audit artifacts and recorded the batch manifest at `docs/data/skill-research-batches/skill-batch-497.json`.
+- [x] Synchronized all eight records into both `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identities were not added, removed, or renamed.
+- [x] Preserved bounded evidence: source-reported damage/duration values remain source-reported, while unsupported exact frames, universal scaling, hidden interactions, and reward probabilities remain unresolved.
+- [x] Batch manifest validation records **474 canonical / 474 index records** and **8 synchronized records** with zero canonical identity changes and zero unsupported claims added.
+- [ ] Next priority: perform a new Batch 498 census from the live 474-record corpus, then continue current-evidence mechanics enrichment.
+- [ ] After Batch 498, reconcile PQ→skill and skill→PQ projections again and continue expansion toward the 672 indexed-category target.
