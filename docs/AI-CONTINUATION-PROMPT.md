@@ -3261,3 +3261,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Integrity frontier recalculated from live records: **80** records remain partial by the current audit predicate.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: reconcile the remaining early indexed endpoints and continue only from live record-layer state.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 9
+- [x] Enriched super-soul-122 through super-soul-126.
+- [x] Promoted evidence-backed triggers, effects, magnitudes, durations, stacking behavior, Limit Bursts, and CaC usability.
+- [x] Preserved catalogue/data discrepancies where explicitly documented, including Super Spirit Bomb and enemy-damage wording.
+- [x] Refreshed mechanics and integrity audits; **85** partial mechanics records remain.
+- [x] Current coverage: trigger **89/168**, effect **97/168**, magnitude **91/168**, duration **75/168**, stacking **41/168**, Limit Burst **87/168**, Limit Burst effect **67/168**, CaC **97/168**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the next five evidence-backed mechanics records.
