@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-mach-dash",
+  "skill_name": "Mach Dash",
+  "batch": 498,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 498 continued refresh: current documentation reconfirms the 200-Stamina Power Up Evasive, PQ18 endpoint, safe-distance movement, and source-reported 1.5% speed increase. The 11.5-vs-12-second source discrepancy remains preserved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration already maintained in the repository.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
