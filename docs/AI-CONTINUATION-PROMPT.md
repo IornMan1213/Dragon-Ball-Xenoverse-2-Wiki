@@ -3763,3 +3763,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Limit Burst coverage remains **107/172**; no unsupported Limit Burst effect was promoted in this pass.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue evidence search for remaining unresolved Future Saga records 032–035/034, while preserving secondary reports as provenance rather than canonical truth.
+
+
+### 2026-09-27 continuation — detailed Future Saga secondary mechanics
+- [x] Normalized newer secondary evidence for `super-soul-032`, `033`, and `035` into explicit trigger/effect/magnitude/duration fields where the reports support them. citeturn0reddit43turn0reddit42turn0reddit45
+- [x] Preserved all numerical/mechanical claims as **secondary evidence**, with unresolved implementation details explicitly marked unresolved.
+- [x] Canonical-data-first policy remains intact; no community-tested mechanic was promoted to fully verified item-level truth.
+- [x] Limit Burst coverage remains **107/172**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue searching for direct/item-level evidence for 032–035 and review whether 034 can be resolved; otherwise proceed to broader Super Soul data completeness rather than inventing unsupported values.
