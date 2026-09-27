@@ -78,5 +78,12 @@
     "result": "Existing 474-skill / 3-relationship clean projection remains unchanged; no canonical relationship data was modified.",
     "validator_commit": "36f7357f286d63d207596eb2f33c1c0f1b345143",
     "runtime_status": "unverified"
+  },
+  "validator_hardening_2026_09_27_identity_validation_order": {
+    "change": "Reordered canonical skill/partner identity projections to filter explicitly valid non-empty strings before Counter/set operations, and validate relationship-row identity fields before set membership and duplicate-key tracking. Malformed unhashable identifiers now produce deterministic validation failures instead of uncontrolled TypeError paths.",
+    "result": "Existing 474-skill / 3-relationship clean projection remains unchanged; no canonical relationship data was modified.",
+    "validator_commit": "db6977266d947b4b72cc4999ea09613c5d57cad7",
+    "runtime_status": "unverified",
+    "evidence_boundary": "Internal validator robustness only; no additional Partner Customization assignments, character identity mappings, DLC ownership, acquisition routes, or skill mechanics are inferred."
   }
 }
