@@ -9,8 +9,13 @@ ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"docs"/"data"
 
 def load(p):
-    with p.open(encoding="utf-8") as f:
-        return json.load(f)
+    try:
+        value = json.loads(p.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{p}: invalid JSON: {exc}")
+    if not isinstance(value, dict):
+        raise SystemExit(f"{p}: root must be an object")
+    return value
 
 def main():
     canonical_source=load(DATA/"characters-record-layer.json")
@@ -18,17 +23,21 @@ def main():
     preset_source=load(DATA/"character-presets-record-layer.json")
     partner_source=load(DATA/"partner-customization-key-record-layer.json")
     recon_source=load(DATA/"partner-customization-key-reconciliation.json")
-    canon_raw=canonical_source.get("character_names",[]) if isinstance(canonical_source,dict) else []
-    bridge=bridge_source.get("records",[]) if isinstance(bridge_source,dict) else []
-    presets=preset_source.get("records",[]) if isinstance(preset_source,dict) else []
-    partners=partner_source.get("records",[]) if isinstance(partner_source,dict) else []
-    recon=recon_source.get("records",[]) if isinstance(recon_source,dict) else []
-    assert isinstance(canon_raw,list), "canonical character_names must be a list"
-    assert all(isinstance(name,str) and name.strip() for name in canon_raw), "canonical character names must be non-empty strings"
+    canon_raw=canonical_source.get("character_names", [])
+    bridge=bridge_source.get("records", [])
+    presets=preset_source.get("records", [])
+    partners=partner_source.get("records", [])
+    recon=recon_source.get("records", [])
+    if not isinstance(canon_raw,list):
+        raise SystemExit("canonical character_names must be a list")
+    if not all(isinstance(name,str) and name.strip() for name in canon_raw):
+        raise SystemExit("canonical character names must be non-empty strings")
     canon=set(canon_raw)
     for label, records in (("bridge",bridge),("presets",presets),("partners",partners),("reconciliation",recon)):
-        assert isinstance(records,list), f"{label} records must be a list"
-        assert all(isinstance(row,dict) for row in records), f"every {label} record must be an object"
+        if not isinstance(records,list):
+            raise SystemExit(f"{label} records must be a list")
+        if not all(isinstance(row,dict) for row in records):
+            raise SystemExit(f"every {label} record must be an object")
     explorer_path=ROOT/"docs"/"Characters-All.html"
     explorer_exists=explorer_path.is_file()
     explorer=explorer_path.read_text(encoding="utf-8") if explorer_exists else ""
