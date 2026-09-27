@@ -2621,3 +2621,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed PQ equipment crosslink report and integrity audit; canonical relationships remain authoritative.
 - [ ] Continue evidence-backed promotion of the remaining 99 endpoint identities; preserve ambiguous/component-only cases and route conflicts.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
+
+
+## 2026-09-27 continuation update — equipment endpoint expansion
+- Completed and retained: Super Soul integrity audit refresh; canonical PQ Super Soul endpoint identity remains 134/134 across 168 records.
+- Completed: promoted 10 evidence-backed canonical PQ equipment identities into the equipment endpoint layer and refreshed the PQ equipment crosslink projection.
+- Current PQ equipment crosslink state: 125 canonical edges, 123 unique targets, 34 endpoint identity matches, 89 explicit endpoint-enrichment gaps.
+- Remaining: continue the giant equipment endpoint backlog using canonical forward relationships plus independent source evidence; preserve historical disagreements and do not infer generic accessory/set labels into new identities.
+- Runtime/CI remains intentionally ignored until billing/runtime access is restored.
