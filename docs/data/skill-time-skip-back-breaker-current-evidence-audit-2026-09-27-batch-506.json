@@ -1,0 +1,10 @@
+{
+  "skill_name": "Time Skip/Back Breaker",
+  "batch": 506,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 506 refresh: Hit mentor/skill route; defensive counter against attacks from behind; no Ultimate Finish gate or unsupported detailed combat measurements inferred.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Existing conflicts are preserved. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
