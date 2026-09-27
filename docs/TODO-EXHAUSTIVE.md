@@ -3407,3 +3407,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved canonical-data-first policy; no community-only mechanics promoted to verified truth.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: direct-evidence sweep for remaining thin records 001,005,007,013,015,016,076.
+
+
+### 2026-09-27 continuation — early Super Soul catalogue reconciliation
+- [x] Reconciled Super Souls 001, 005, 007, 013, 015, and 016 against current catalogue evidence.
+- [x] Preserved explicit no-effect entries rather than fabricating mechanics.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: resolve remaining thin records 032–035 and 076 where evidence permits.
