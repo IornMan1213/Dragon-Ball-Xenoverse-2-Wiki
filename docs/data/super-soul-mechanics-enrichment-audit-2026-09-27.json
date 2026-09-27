@@ -56,14 +56,13 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-032",
       "super-soul-033"
     ],
-    "status": "secondary_evidence_refresh",
+    "status": "limit_burst_enrichment",
     "evidence": [
-      "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+      "https://www.reddit.com/r/dbxv/comments/1v2thx9/sometimes_you_just_gotta_know_when_its_wraps_lmao/"
     ],
-    "note": "Current player testing discussion independently reports the already-recorded 20% values for the PQ 185 Super Souls. Values remain explicitly secondary; no Limit Burst data was inferred. The three active records lacking limit_burst_effect remain unresolved."
+    "note": "Current player discussion explicitly identifies the Limit Burst as Super Armor. Classified as verified_secondary; no primary-source claim made."
   },
   "last_batch": {
     "date": "2026-09-27",
