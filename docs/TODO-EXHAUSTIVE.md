@@ -3458,3 +3458,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Rechecked exact identities 138–142; no current item-level matches found.
 - [x] Preserved them as unresolved historical identities without invented mechanics/acquisition/Limit Burst data.
 - [ ] Next: trace provenance of the five legacy records.
+
+
+### 2026-09-27 continuation — canonical relationship source correction
+- [x] Reconciled stale PQ 151–154 audit prose against the live canonical relationship file.
+- [x] Confirmed 138–141 and 142 have no active canonical acquisition edges.
+- [x] Preserved orphaned identities and historical provenance without restoring unsupported relationships.
+- [ ] Next: historical provenance tracing for the five orphaned identities.
