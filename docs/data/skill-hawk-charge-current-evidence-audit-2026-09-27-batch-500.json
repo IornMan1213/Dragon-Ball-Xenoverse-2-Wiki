@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-hawk-charge",
+  "skill_name": "Hawk Charge",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_refreshed",
+  "mechanics": "2026-09-27 Batch 500 refresh: current repository evidence remains consistent with the existing skill identity and bounded mechanics/provenance; unsupported numerical and hidden-condition claims remain unresolved.",
+  "source_scope": "Current repository evidence and dedicated Xenoverse 2 skill documentation already retained in the research corpus.",
+  "canonical_sync": "474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "No unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities asserted."
+}
