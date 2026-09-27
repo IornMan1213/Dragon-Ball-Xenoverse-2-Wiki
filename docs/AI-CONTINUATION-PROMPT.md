@@ -1,3 +1,10 @@
+### 2026-09-27 continuation — PQ index validator hardening
+- [x] Hardened `scripts/validate_pq_skill_links.py`: deterministic JSON errors; strict reverse-index root/entry/skill-list validation; explicit canonical relationship-list validation.
+- [x] Hardened `scripts/validate_pq_cross_domain_index.py`: deterministic malformed-JSON failure handling.
+- [x] No canonical PQ relationship data changed.
+- [ ] Runtime/CI execution remains intentionally non-blocking.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap; prioritize substantive schema/identity checks over cosmetic work.
+
 ### 2026-09-27 continuation — Presentation/Awoken validator hardening
 - [x] Hardened `scripts/validate_character_presentation_consumers.py`: explicit malformed-JSON/root checks and replaced bare `assert` validation with deterministic failures.
 - [x] Hardened `scripts/validate_awoken_integrity.py`: explicit malformed-JSON handling and source-root object checks.
