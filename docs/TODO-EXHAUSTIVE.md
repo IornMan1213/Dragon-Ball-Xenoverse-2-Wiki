@@ -2550,3 +2550,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** investigate the remaining 10 Super Soul target identities against existing repository research/evidence and promote only evidence-complete records; after that, continue the broader cross-domain/exhaustive enrichment frontier (especially equipment's 107 endpoint gaps and DLC taxonomy/detail gaps).
 
+### 2026-09-27 continuation — Super Soul endpoint identity completion
+- [x] Investigated all **10 remaining canonical PQ→Super Soul endpoint gaps** against repository PQ batches, unified reverse indexing, and the canonical relationship store.
+- [x] Confirmed each remaining target has source-backed PQ acquisition evidence; no new relationship was invented.
+- [x] Promoted all 10 remaining identities into `docs/data/super-souls-record-layer.json`. The layer now contains **168 records** and has **134/134 canonical PQ Super Soul target identity coverage**.
+- [x] Refreshed `super-soul-consumer-endpoint-coverage-audit-2026-09-27.json` and `pq-super-soul-crosslink-report.json`; endpoint identity gaps are now **0**.
+- [x] Mechanics remain explicitly unresolved where evidence is absent; indexed endpoint creation does not imply verified effects, triggers, magnitude, stacking, or Limit Burst behavior.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Next:** move from endpoint identity completion to mechanics/enrichment coverage, then address the largest remaining cross-domain gap (equipment endpoint enrichment and DLC detail/taxonomy) rather than creating duplicate relationship projections.
+
