@@ -23,8 +23,8 @@
       "missing": 92
     },
     "stacking_behavior": {
-      "populated": 44,
-      "missing": 124
+      "populated": 42,
+      "missing": 126
     },
     "limit_burst": {
       "populated": 87,
@@ -62,6 +62,6 @@
       "super-soul-130",
       "super-soul-131"
     ],
-    "evidence_basis": "Existing canonical record-layer mechanics plus cited catalogue/supporting-guide evidence; no unsupported values inferred."
+    "evidence_basis": "Canonical record layer plus PQ guide and independent mechanics evidence. Source discrepancies retained; canonical acquisition remains authoritative."
   }
 }
