@@ -1162,6 +1162,86 @@
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
       "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+    },
+    {
+      "id": "acc-072",
+      "name": "Broly Wig (Legendary Super Saiyan)",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 132 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-record-batches/pq-121-142.json"
+      ],
+      "notes": "Explicitly named endpoint from canonical PQ research; reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-073",
+      "name": "Kakunsa's Wig and Mask",
+      "category": "wig/mask",
+      "acquisition_routes": [
+        "Parallel Quest 133 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-record-batches/pq-121-142.json"
+      ],
+      "notes": "Explicitly named endpoint from canonical PQ research; reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-074",
+      "name": "Kakunsa's Tail",
+      "category": "tail",
+      "acquisition_routes": [
+        "Parallel Quest 133 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-record-batches/pq-121-142.json"
+      ],
+      "notes": "Explicitly named endpoint from canonical PQ research; reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-075",
+      "name": "Rozie's Hood and Goggles",
+      "category": "hood/goggles",
+      "acquisition_routes": [
+        "Parallel Quest 135 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-record-batches/pq-121-142.json"
+      ],
+      "notes": "Explicitly named endpoint from canonical PQ research; reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-076",
+      "name": "Universe 7 Baseball Cap",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 139 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-record-batches/pq-121-142.json"
+      ],
+      "notes": "Explicitly named endpoint from canonical PQ research; reward-slot/condition semantics remain separate."
     }
   ]
 }
