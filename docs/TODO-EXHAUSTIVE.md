@@ -3243,3 +3243,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `pq-reward-relationships.json`, `super-souls/pq-acquisition-index-001-186.json`, `pq-unified-reverse-index-1-186.json`, and `pq-super-soul-crosslink-report.json` so canonical targets resolve to the detailed record layer.
 - [x] Refreshed `super-soul-consumer-endpoint-coverage-audit-2026-09-27.json`: 136 canonical forward rows / 134 unique targets; all 134 have detailed records and acquisition-index entries; projection count is 136; status `aligned`.
 - [ ] Continue with the next unfinished cross-domain/database priority.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 10 / cross-index normalization
+- [x] Audited the canonical Super Soul consumer chain after batch 9: 134 canonical PQ→Super Soul targets and 134 acquisition-index targets; no missing or extra acquisition targets remain.
+- [x] Identified the remaining thin canonical endpoints instead of assuming the previous batch had exhausted the layer.
+- [x] Enriched `super-soul-147` "Heh heh! I'm not as rusty as I look!" — Gohan (DBS Super Hero), permanent +20% guard-break time, Just Guard +10% all attacks per stack up to 3, Auto Just Guard Limit Burst, Hero of Justice Pack 1.
+- [x] Enriched the missing Limit Burst data for `super-soul-167` "I got back my youth and vigor!" — ATK Up / Ki Auto-Recovery / Stamina Rec. SPD Down.
+- [x] Corrected the repository-wide canonical spelling of `Heh heh! I'm not as rusty as I look!` across the PQ relationship, acquisition, reverse-index, reconciliation, batch, and cross-link layers so the endpoint resolves consistently.
+- [x] Preserved `super-soul-032`–`035` as unresolved/secondary Chapter 4 research rather than inventing mechanics; `super-soul-050` remains classification-review work.
+- [x] Re-ran the cross-domain parity calculation after normalization: 134 relationship targets = 134 acquisition targets, with zero missing/extra targets; remaining thin canonical mechanics are now limited to the unresolved research/classification set plus any endpoint whose evidence is intentionally incomplete.
+- [ ] Continue with evidence-backed mechanics reconciliation and canonical index propagation; do not promote unresolved Chapter 4 or classification-conflict claims without item-level evidence.
