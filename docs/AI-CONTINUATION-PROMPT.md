@@ -3827,3 +3827,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Super Soul 144 (“Still haven't figured out you're gonna lose?”) corroborated as Gamma 2 / PQ 156: +5% Ki restored per KO, stacks up to 10, Limit Burst ATK Up + Ki Auto-Recovery + Stamina Rec. SPD Down.
 - [x] Super Soul 145 (“I'll be the one to fight you!”) corroborated as Gamma 1 / PQ 157: battle-start 30-second package (+30% attacks, -30% damage taken, +30% Stamina recovery), with DEF Up + Super Armor + Ki Rec. SPD Down Limit Burst.
 - [ ] Continue auditing 143 and the next Super Soul records for independent provenance and historical ID/name drift.
+
+
+### 2026-09-27 continuation — Super Soul 143 audit
+- [x] Rechecked Super Soul 143 ("This is your true power?") against current catalogue and PQ 156 guide evidence.
+- [x] Confirmed Gamma 1 / PQ 156 provenance and Just Guard trigger.
+- [x] Preserved the catalogue's ambiguous second -5% damage-taken line rather than inventing a corrected interpretation.
+- [ ] Continue remaining-ID audit for legacy ID/name drift and provenance anomalies.
