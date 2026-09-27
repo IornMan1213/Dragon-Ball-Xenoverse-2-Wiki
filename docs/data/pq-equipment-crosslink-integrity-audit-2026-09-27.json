@@ -9,8 +9,8 @@
   ],
   "canonical_edges": 125,
   "unique_targets": 123,
-  "endpoint_records": 108,
-  "endpoint_identity_matches": 42,
+  "endpoint_records": 112,
+  "endpoint_identity_matches": 46,
   "endpoint_identity_gaps": [
     "Broly Wig (Legendary Super Saiyan)",
     "Kakunsa's Wig and Mask",
@@ -21,7 +21,6 @@
     "Android 17 (DB Super) Ranger Wig",
     "King Vegeta (DB Super) Wig",
     "Gamma 2 Helmet",
-    "Gamma 1's Helmet",
     "Gamma 2's Clothes",
     "Dr. Hedo Hood",
     "Red Ribbon Army Helmet",
@@ -61,12 +60,9 @@
     "Glorio Wig",
     "Panzy Wig",
     "Golden Frieza Suit",
-    "Golden Frieza Head",
     "Cheelai's Coat",
     "Broly Wig (Black Hair, Normal)",
-    "Dragon Ball Balloon",
     "Goku (Ultra Supervillain Quelled)'s Clothes",
-    "Goku (Ultra Supervillain Quelled) Wig",
     "Fu (Ultra Supervillain)'s Clothes",
     "Fu (Ultra Supervillain) Set",
     "Fu Set 2",
@@ -94,7 +90,7 @@
     "Ribrianne's Hood",
     "Goku's Turtle Hermit Gi (Go)"
   ],
-  "status": "passed_with_endpoint_enrichment_gaps",
+  "status": "canonical_projection_complete_endpoint_enrichment_incomplete",
   "semantics": "Canonical PQ→equipment relationships are authoritative. Endpoint layers are secondary identity/enrichment projections; an absent endpoint record is not a negative reward claim.",
   "validator": "scripts/validate_pq_equipment_crosslinks.py",
   "promotion_batch": {
@@ -110,5 +106,47 @@
       "Flying Nimbus!!",
       "Gohan (Beast) Wig"
     ]
-  }
+  },
+  "promotions_2026_09_27": [
+    {
+      "name": "Gamma 1's Helmet",
+      "source": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "docs/Accessory-Acquisition-Matrix.md",
+        "docs/data/accessory-acquisition-matrix.json"
+      ],
+      "route": "Parallel Quest 156",
+      "status": "partially_verified"
+    },
+    {
+      "name": "Golden Frieza Head",
+      "source": [
+        "docs/data/accessory-pq-audit-169-186.json",
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json"
+      ],
+      "route": "Parallel Quest 182",
+      "status": "indexed"
+    },
+    {
+      "name": "Dragon Ball Balloon",
+      "source": [
+        "docs/data/accessory-pq-audit-169-186.json",
+        "docs/data/accessory-pq-research.json",
+        "docs/data/pq-late-accessory-reconciliation.json"
+      ],
+      "route": "Parallel Quest 184",
+      "status": "partially_verified"
+    },
+    {
+      "name": "Goku (Ultra Supervillain Quelled) Wig",
+      "source": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-bridge.json",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "route": "Parallel Quest 185",
+      "status": "indexed"
+    }
+  ]
 }
