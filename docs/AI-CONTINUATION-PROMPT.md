@@ -4458,3 +4458,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] 225 canonical skill records remain older than 2026-09-27.
 - [ ] Exact next: Batch 518 beginning with Final Flash, Final Flash (SS3 DAIMA), Final Pose, Flash Chaser, Flash Fist Crush, Focus Flash, Full Power Charge, Full Power Destruction, Future Super Saiyan, Galactic Donuts, Galick Cannon, and Galick Gun.
 
+
+### 2026-09-27 continuation — Batch 518 canonical evidence refresh
+- [x] Completed Batch 518: refreshed 12 skills: Final Flash; Final Flash (SS3 DAIMA); Final Pose; Flash Chaser; Flash Fist Crush; Focus Flash; Full Power Charge; Full Power Destruction; Future Super Saiyan; Galactic Donuts; Galick Cannon; Galick Gun.
+- [x] Synchronized docs/data/skills.json and docs/data/skills-index.json; both remain at 474 records.
+- [x] Added docs/data/skill-research-batches/skill-batch-518.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Batch 518 made zero skill identity changes, zero canonical field corrections, and zero new Skill→PQ relationship inferences.
+- [x] Preserved existing acquisition/reward conflicts and unresolved frame, scaling, hidden-condition, and probability fields rather than normalizing them without evidence.
+- [x] Post-batch validation target: canonical/index counts remain 474/474; the three pre-existing last_verified mismatches remain isolated (Phantom Fist, Rise to Action, Rising Rage).
+- [ ] Continue stale canonical Skill frontier alphabetically after Galick Gun.
