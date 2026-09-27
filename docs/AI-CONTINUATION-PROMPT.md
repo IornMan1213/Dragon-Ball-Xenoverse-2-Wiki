@@ -3308,3 +3308,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current coverage: trigger **89/168**, effect **97/168**, magnitude **91/168**, duration **76/168**, stacking **42/168**, Limit Burst **87/168**, Limit Burst effect **67/168**, CaC **97/168**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the next five evidence-backed mechanics records.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 9
+- [x] Enriched/normalized super-soul-127 through super-soul-131 (PQ 142–145 frontier).
+- [x] Preserved canonical PQ acquisition as authoritative and retained documented mechanics/source discrepancies rather than silently resolving them.
+- [x] Refreshed mechanics and integrity audits; **85** partial mechanics records remain.
+- [x] Current coverage: trigger **89/168**, effect **97/168**, magnitude **91/168**, duration **76/168**, stacking **42/168**, Limit Burst **87/168**, Limit Burst effect **67/168**, CaC **97/168**.
+- [x] Independent PQ guide evidence confirms the PQ 142 reward identity and PQ 143 reward identity for this frontier. citeturn0search7
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the next five evidence-backed Super Soul mechanics records.
