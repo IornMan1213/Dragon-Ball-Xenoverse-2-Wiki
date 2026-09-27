@@ -2606,3 +2606,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the canonical `pq_rewards_equipment` relationship store as authoritative; no relationship was deleted, reclassified, or invented.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Next:** promote only unambiguous equipment/accessory endpoint identities from existing evidence, prioritizing records with explicit canonical inventory names and PQ routes; preserve ambiguous/component-only cases as backlog. Then continue DLC detail/taxonomy enrichment.
+
+
+### 2026-09-27 continuation — PQ equipment consumer integrity baseline
+- [x] Added deterministic `scripts/validate_pq_equipment_crosslinks.py` and integrity audit `docs/data/pq-equipment-crosslink-integrity-audit-2026-09-27.json`.
+- [x] Current canonical equipment projection: **125 edges / 123 unique targets**; endpoint layers: **118 records / 15 exact matches / 108 identity gaps**.
+- [ ] Continue evidence-backed reconciliation of the 108 endpoint gaps; use `docs/data/accessory-pq-canonical-remaining.json` as an explicit backlog and do not infer inventory identities from generic set/component labels.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
