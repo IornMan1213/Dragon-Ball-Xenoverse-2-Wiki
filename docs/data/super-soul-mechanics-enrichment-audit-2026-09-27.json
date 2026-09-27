@@ -7,40 +7,40 @@
   "records": 168,
   "fields": {
     "trigger_condition": {
-      "populated": 94,
-      "missing": 74
+      "populated": 109,
+      "missing": 59
     },
     "effect_text": {
-      "populated": 102,
-      "missing": 66
+      "populated": 117,
+      "missing": 51
     },
     "effect_magnitude": {
-      "populated": 96,
-      "missing": 72
+      "populated": 111,
+      "missing": 57
     },
     "duration": {
-      "populated": 81,
-      "missing": 87
+      "populated": 76,
+      "missing": 92
     },
     "stacking_behavior": {
-      "populated": 43,
-      "missing": 125
+      "populated": 49,
+      "missing": 119
     },
     "limit_burst": {
-      "populated": 92,
-      "missing": 76
+      "populated": 107,
+      "missing": 61
     },
     "limit_burst_trigger": {
       "populated": 0,
       "missing": 168
     },
     "limit_burst_effect": {
-      "populated": 72,
-      "missing": 96
+      "populated": 90,
+      "missing": 78
     },
     "usable_by_cac": {
-      "populated": 102,
-      "missing": 66
+      "populated": 117,
+      "missing": 51
     },
     "race_restriction": {
       "populated": 3,
