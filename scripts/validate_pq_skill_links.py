@@ -5,10 +5,37 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 REL=ROOT/"docs/data/pq-reward-relationships.json"; REV=ROOT/"docs/data/skill-pq-reverse-index-2026-09-26.json"; REPORT=ROOT/"docs/data/pq-skill-crosslink-report.json"
 ALIASES={"Chain Destructo-disc Barrage":"Chain Destructo-Disc Barrage","Starfall":"Destruction's Concerto: Starfall","Giant Cluster":"Gigantic Cluster","III Bomber":"Ill Bomber"}
+def load_object(path):
+ try:
+  value=json.loads(path.read_text(encoding="utf-8"))
+ except (OSError,json.JSONDecodeError) as exc:
+  raise SystemExit(f"{path}: invalid JSON: {exc}")
+ if not isinstance(value,dict):
+  raise SystemExit(f"{path}: root must be an object")
+ return value
 def main():
- rel=json.loads(REL.read_text(encoding="utf-8")); rev=json.loads(REV.read_text(encoding="utf-8"))
- names={n for p in rev.get("pq_ids",{}).values() for n in p.get("skills",[])}
- rows=[r for r in rel.get("verified_relationships",[]) if r.get("relationship")=="pq_rewards_skill"]; seen=set(); links=[]; unresolved=[]; aliases=[]
+ rel=load_object(REL); rev=load_object(REV)
+ pq_ids=rev.get("pq_ids",{})
+ if not isinstance(pq_ids,dict):
+  raise SystemExit("skill reverse index pq_ids must be an object")
+ names=set()
+ for pq, payload in pq_ids.items():
+  if not isinstance(payload,dict):
+   raise SystemExit(f"skill reverse index entry {pq!r} must be an object")
+  skills=payload.get("skills",[])
+  if not isinstance(skills,list) or any(not isinstance(n,str) or not n.strip() for n in skills):
+   raise SystemExit(f"skill reverse index entry {pq!r} skills must be a list of non-empty strings")
+  names.update(skills)
+ relationships=rel.get("verified_relationships")
+ if not isinstance(relationships,list):
+  raise SystemExit("pq-reward-relationships.json: verified_relationships must be a list")
+ rows=[]
+ for i,r in enumerate(relationships):
+  if not isinstance(r,dict):
+   continue
+  if r.get("relationship")=="pq_rewards_skill":
+   rows.append(r)
+ seen=set(); links=[]; unresolved=[]; aliases=[]
  for index, r in enumerate(rows):
   if not isinstance(r, dict):
    raise SystemExit(f"malformed PQ-skill relationship row {index}: expected object")
