@@ -3345,3 +3345,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved existing relationship/acquisition/reverse/crosslink data and added a parity audit.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-first projection/parity auditing across the remaining Super Soul dataset.
+
+### 2026-09-27 continuation — Super Soul 121 reverse-index reconciliation
+- [x] Reconciled the missing reverse-index entry for `I'm not gonna die until I defeat you!` to PQ 138.
+- [x] Preserved PQ 151 as stale historical attribution rather than a canonical acquisition.
+- [x] Added a dedicated reconciliation audit.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue cross-layer Super Soul parity auditing.
