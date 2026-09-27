@@ -2045,6 +2045,35 @@
         "https://dragonball.fandom.com/"
       ],
       "manifest_path": "docs/data/skill-research-batches/skill-batch-518.json"
+    },
+    {
+      "batch": 519,
+      "date": "2026-09-27",
+      "type": "current-evidence-refresh",
+      "selected": [
+        "Gamma Blaster",
+        "Gamma Impact",
+        "Genocide Shell",
+        "Gigantic Breaker",
+        "Gigantic Burst",
+        "Gigantic Charge",
+        "Gigantic Cluster",
+        "Gigantic Cross",
+        "Gigantic Explosion",
+        "Gigantic Nova",
+        "Gigantic Rage",
+        "Gigantic Roar"
+      ],
+      "records_refreshed": 12,
+      "identity_changes": 0,
+      "canonical_field_corrections": 0,
+      "relationship_changes": 0,
+      "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Conflicting reward semantics, exact frames, patch-independent scaling, probabilities, and hidden conditions are not inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/",
+        "https://dragonball.fandom.com/"
+      ],
+      "manifest_path": "docs/data/skill-research-batches/skill-batch-519.json"
     }
   ],
   "skill_batch_517_current_evidence": "docs/data/skill-research-batches/skill-batch-517.json",
@@ -2070,5 +2099,6 @@
     "identity_changes": 0,
     "canonical_field_corrections": 0,
     "relationship_changes": 0
-  }
+  },
+  "skill_batch_519_current_evidence": "docs/data/skill-research-batches/skill-batch-519.json"
 }
