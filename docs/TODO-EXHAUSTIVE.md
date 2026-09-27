@@ -2882,3 +2882,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Removed an intermediate unsupported clothing promotion batch rather than retaining guessed PQ attribution; canonical data remains evidence-backed.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue promoting only explicitly evidenced remaining endpoint identities, then reconcile clothing records separately from accessories.
+
+
+### 2026-09-27 TODO progress update — Database recovery-forward equipment endpoint completion
+- [x] Re-verified recovered canonical skill/index blobs: **474 canonical skills / 474 unique IDs / 474 index IDs**, with the independent Skill→PQ reverse projection at **246 edges / 170 PQ IDs**.
+- [x] Freshly reconciled canonical PQ→equipment targets against both live endpoint layers.
+- [x] Added 48 explicit source-backed equipment endpoint identities as equip-053–equip-100, keeping stats/slot/component/reward-condition uncertainty explicit.
+- [x] PQ equipment endpoint coverage is now **123/123 exact target identities**, with **0 remaining identity gaps** and **194 endpoint records**.
+- [x] Refreshed all three PQ equipment endpoint/crosslink audit artifacts.
+- [ ] Runtime/CI remains unverified and non-blocking.
+- [ ] **Next:** fresh census and substantive enrichment in the next highest-value incomplete cross-domain area; preserve canonical source-of-truth and evidence boundaries.
