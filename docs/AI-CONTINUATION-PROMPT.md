@@ -2734,3 +2734,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** use the existing Super Soul research/acquisition batches to expand the detailed Super Soul endpoint layer from evidence-backed records, prioritizing the 134 canonical PQ targets lacking detailed coverage; do not fabricate trigger/effect/Limit Burst fields merely to close the endpoint count.
 
+### 2026-09-27 continuation — PQ→Super Soul consumer projection refreshed
+- [x] Added/refreshed `docs/data/pq-super-soul-crosslink-report.json` from the authoritative `pq-reward-relationships.json` rather than stale historical PQ projections.
+- [x] Projection contains **137 canonical PQ→Super Soul edges / 134 unique targets** with no unresolved canonical target identities.
+- [x] **122** targets appear in the partial PQ 41-186 Super Soul acquisition index; **8** currently have promoted detailed Super Soul records. The remaining detail gaps are explicitly retained as enrichment work, not treated as missing rewards.
+- [x] Registered the projection in `docs/data/pq-cross-domain-index.json` and strengthened the Super Soul coverage validator to check projection parity.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** inspect the equipment/accessory consumer layer for the same stale-source/projection mismatch, then repair the highest-impact deterministic projection from canonical forward relationships while preserving partial reverse-index semantics.
+
