@@ -3397,3 +3397,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed these differ from the six currently stored canonical PQ 151–154 Super Soul endpoints.
 - [x] Kept the canonical relationship layer unchanged for now; the discrepancy is now explicitly structured as a correction candidate rather than silently overwriting recovered data.
 - [ ] **Exact next:** perform a dedicated canonical reward-normalization correction batch for PQ 151–154, using explicit item-level/DLC evidence and preserving disputed historical claims/provenance.
+
+
+### 2026-09-27 continuation — PQ 151–154 canonical Super Soul correction completed
+- [x] Corrected PQ 151–154 canonical rewards from explicit independent reward evidence.
+- [x] Propagated the correction through the PQ reward map, relationship layer, Super Soul acquisition index, and unified reverse index.
+- [x] Added five corrected Super Soul records (174–178); only 174 has mechanics promoted so far.
+- [x] Added and registered the dedicated canonical-correction audit.
+- [x] Refreshed mechanics coverage for the expanded 173-record Super Soul layer.
+- [x] Programmatically verified the four corrected PQ mappings.
+- [ ] Next: research item-level mechanics for 175–178 and preserve the six removed recovered claims in a provenance/dispute layer.
