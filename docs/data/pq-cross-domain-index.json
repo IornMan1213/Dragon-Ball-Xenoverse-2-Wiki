@@ -1869,5 +1869,8 @@
     "pq_character": "docs/data/pq-character-crosslink-report.json",
     "pq_dlc": "docs/data/pq-dlc-crosslink-report.json",
     "pq_farming": "docs/data/pq-farming-crosslink-report.json"
+  },
+  "registered": {
+    "super_soul_pq_151_154_disputed_provenance_2026_09_27": "docs/data/super-soul-pq-151-154-disputed-provenance-2026-09-27.json"
   }
 }
