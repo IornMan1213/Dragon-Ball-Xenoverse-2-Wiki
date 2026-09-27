@@ -1242,6 +1242,210 @@
         "docs/data/pq-record-batches/pq-121-142.json"
       ],
       "notes": "Explicitly named endpoint from canonical PQ research; reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-077",
+      "name": "Android 17 (DB Super) Ranger Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 152 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-078",
+      "name": "King Vegeta (DB Super) Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 154 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-079",
+      "name": "Gamma 2 Helmet",
+      "category": "helmet",
+      "acquisition_routes": [
+        "Parallel Quest 155 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-080",
+      "name": "Dr. Hedo Hood",
+      "category": "hood",
+      "acquisition_routes": [
+        "Parallel Quest 159 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-081",
+      "name": "Red Ribbon Army Helmet",
+      "category": "helmet",
+      "acquisition_routes": [
+        "Parallel Quest 160 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-082",
+      "name": "Videl (DB Super) Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 168 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-083",
+      "name": "SS4 Goku (DAIMA) Wig & Tail",
+      "category": "wig/tail",
+      "acquisition_routes": [
+        "Parallel Quest 179 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-084",
+      "name": "SS3 Vegeta (DAIMA) Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 180 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-085",
+      "name": "Glorio Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 181 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-086",
+      "name": "Panzy Wig",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 181 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-087",
+      "name": "Cheelai's Coat",
+      "category": "clothing/accessory",
+      "acquisition_routes": [
+        "Parallel Quest 183 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
+    },
+    {
+      "id": "acc-088",
+      "name": "Broly Wig (Black Hair, Normal)",
+      "category": "wig",
+      "acquisition_routes": [
+        "Parallel Quest 183 reward listing"
+      ],
+      "dlc_provenance": "DLC-era route; exact pack/version reconciliation pending",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json"
+      ],
+      "notes": "Explicitly named endpoint from PQ reward normalization; exact reward-slot/condition semantics remain separate."
     }
   ]
 }
