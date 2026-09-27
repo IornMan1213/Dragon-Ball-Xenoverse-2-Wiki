@@ -156,7 +156,7 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
+      "version_notes": " Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-16",
       "sources": [
@@ -210,7 +210,7 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
+      "version_notes": " Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-16",
       "sources": [
@@ -426,7 +426,7 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Passive-effect details require deeper reconciliation.",
+      "version_notes": "Passive-effect details require deeper reconciliation. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-16",
       "sources": [
@@ -453,7 +453,7 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Passive-effect details require deeper reconciliation.",
+      "version_notes": "Passive-effect details require deeper reconciliation. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-16",
       "sources": [
@@ -752,13 +752,14 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics.",
+      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-19",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
