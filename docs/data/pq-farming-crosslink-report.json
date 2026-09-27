@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-27",
+  "source_dataset": "docs/data/pq-reward-relationships.json",
+  "canonical_edges": 7,
+  "unique_targets": 1,
+  "targets": [
+    "Dragon Balls"
+  ],
+  "pq_ids": [
+    "pq-015",
+    "pq-022",
+    "pq-044",
+    "pq-045",
+    "pq-068",
+    "pq-083",
+    "pq-088"
+  ],
+  "source_count": {
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543": 6,
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/": 1
+  },
+  "semantics": "Canonical PQ farming-route relationships are authoritative. This projection records explicitly source-backed farming routes and does not infer additional farming routes from missing data.",
+  "status": "resolved"
+}
