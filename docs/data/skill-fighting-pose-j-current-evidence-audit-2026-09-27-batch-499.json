@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-fighting-pose-j",
+  "skill_name": "Fighting Pose J",
+  "batch": 499,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "evidence_summary": "Current skill-specific and PQ documentation reconfirms the 0 Ki Power Up identity, Recoome/PQ17 acquisition endpoint, and temporary Stamina-recovery effect. Exact multiplier, duration, frame data, and reward probability remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded repository corroboration.",
+  "canonical_sync": "Synchronized to the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
