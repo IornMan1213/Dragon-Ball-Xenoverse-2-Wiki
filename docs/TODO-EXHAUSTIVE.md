@@ -2505,3 +2505,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** inspect the equipment/accessory consumer layer for the same stale-source/projection mismatch, then repair the highest-impact deterministic projection from canonical forward relationships while preserving partial reverse-index semantics.
 
+### 2026-09-27 continuation — PQ→Equipment consumer reconciliation
+- [x] Audited the PQ equipment/accessory consumer layers against authoritative `docs/data/pq-reward-relationships.json`.
+- [x] Added `docs/data/pq-equipment-crosslink-report.json`, projecting all **125 canonical PQ→equipment edges / 123 unique targets** without inventing or deleting relationships.
+- [x] Compared both endpoint layers: `equipment-accessories-record-layer.json` and `equipment-record-layer.json`. Only **16** canonical targets currently have exact endpoint-name records; **107 unique target identities remain endpoint-enrichment gaps**.
+- [x] Explicitly classified endpoint gaps as incomplete consumer-layer coverage, not evidence that the canonical PQ reward relationship is false or unavailable.
+- [x] Registered the projection in `docs/data/pq-cross-domain-index.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** inspect the PQ→Character consumer layer for stale-source/projection mismatch and rebuild its deterministic projection from canonical forward relationships where needed; then continue DLC and farming consumers.
+
