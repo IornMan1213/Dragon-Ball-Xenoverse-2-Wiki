@@ -1,3 +1,11 @@
+### 2026-09-26 continuation — PQ cross-domain forward-source boundary confirmed
+- [x] The live validator hardening exposed a real source-vs-index mismatch: `docs/data/pq-cross-domain-index.json` declares `docs/data/pq-reward-relationships.json` as its forward source, but that file is absent from the live `main` tree.
+- [x] Searched the live repository for a current producer/generator or complete replacement source; only historical handoff/audit references were found.
+- [x] Corrected `docs/data/pq-cross-domain-index-validator-audit-2026-09-26.json` so the structural declaration checks are recorded as passing while the full live contract remains blocked by the missing forward source.
+- [x] Preserved the evidence boundary: the independent 474-skill / 246-edge Skill→PQ reverse layer cannot substitute for the absent general PQ reward forward layer.
+- [ ] Runtime execution/CI remains unverified; the validator's direct forward-file check is expected to fail until an evidence-complete producer/source exists.
+- [x] **Exact next:** continue with the next live deterministic validator/consumer or, if returning to the critical PQ forward layer, only regenerate `pq-reward-relationships.json` after identifying an evidence-complete canonical producer and deterministic schema.
+
 ### 2026-09-26 continuation — PQ cross-domain index schema hardening
 - [x] Inspected the live validator set and confirmed most older PQ validators listed in `pq-cross-domain-index.json` are historical/missing; `scripts/validate_pq_cross_domain_index.py` is a current live validator.
 - [x] Hardened `scripts/validate_pq_cross_domain_index.py` to require exactly **7** reverse-index declarations, unique reverse-index report paths, and an exact `farming.source == forward_index` relationship.
