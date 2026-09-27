@@ -3702,3 +3702,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No additional canonical data change was necessary in the Skill layer.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the highest-priority cross-domain consistency/research gap rather than revisiting the resolved PQ 49 classification.
+
+
+### 2026-09-27 continuation — Recovery baseline confirmed; Super Soul Limit Burst frontier advanced
+- [x] Reconfirmed the recovery baseline on live GitHub: main remains the restored/recovery-forward line rooted from the preserved safety branch `recovery-before-main-restoration-2026-09-27`; comparison shows main is **568 commits ahead, 0 behind**, so the preserved safety branch has not overwritten or replaced the recovered main history.
+- [x] Preserved the recovered database-first state rather than rebuilding canonical layers from partial historical branches. Current canonical recovery remains the authoritative baseline, including the recovered 474 skills, 840 PQ relationship rows, and restored Super Soul/PQ relationship layers.
+- [x] Re-ran the Super Soul stale-acquisition scan after the PQ 155 / `super-soul-142` correction: no additional record currently has a populated PQ acquisition source that is absent from the canonical Super Soul acquisition index. The only two acquisition-text candidates are already resolved/unresolved catalogue exceptions: `super-soul-002` (Flying Nimbus!!, equipment correction) and `super-soul-142` (PQ 155 endpoint removed after direct evidence conflict).
+- [x] Advanced the next evidence-complete mechanics frontier by populating the previously missing normalized `limit_burst_effect` field for `super-soul-031`, `092`, `101`, `173`, and `175` from current catalogue/character evidence; no acquisition relationship, trigger timing, reward probability, or unrelated mechanic was inferred.
+- [x] Added `docs/data/super-soul-limit-burst-effect-batch-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Refreshed `docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json`: canonical record count is now **172** and normalized `limit_burst_effect` coverage is **96 populated / 76 missing**.
+- [ ] Runtime/CI remains intentionally non-blocking, per the established recovery rule.
+- [ ] **Exact next:** continue the evidence-first Super Soul mechanics frontier with the remaining thin records, while preserving unresolved Chapter 4/classification records and never treating `verified` status as canonical source-of-truth. After each mechanics batch, rerun acquisition/forward/reverse/crosslink parity and keep all databases cross-navigable.
