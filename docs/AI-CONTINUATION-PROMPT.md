@@ -3686,3 +3686,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/super-soul-121-pq-138-reverse-index-reconciliation-2026-09-27.json.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue parity checks across acquisition, reverse, relationship, and normalized reward projections.
+
+### 2026-09-27 continuation — Super Soul projection count parity
+- [x] Completed another full parity pass across Super Soul relationships, acquisition index, reverse index, normalized PQ reward maps, and the canonical record layer.
+- [x] Confirmed relationship ↔ acquisition edge sets are exact (135), acquisition ↔ reverse-index sets are exact, normalized reward maps contain all source-backed relationship rewards, and all relationship targets have canonical records.
+- [x] Found one projection-only metadata error: `canonical_super_soul_records` reported 173 while the canonical record layer contains 172 records.
+- [x] Corrected the projection to 172 without changing any reward relationship or acquisition edge.
+- [x] Added docs/data/super-soul-projection-count-audit-2026-09-27.json.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue exhaustive parity auditing beyond this Super Soul projection count, then move to the next highest-priority unfinished dataset area.
