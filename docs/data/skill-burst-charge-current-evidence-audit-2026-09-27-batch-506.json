@@ -1,0 +1,10 @@
+{
+  "skill_name": "Burst Charge",
+  "batch": 506,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "Other Super; PQ134; reward-tier/slot conflict retained.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "evidence_boundary": "Canonical data remains source of truth. Existing source/reward-tier conflicts are preserved; unsupported probabilities, exact frames, hidden interactions, and patch-independent scaling are not promoted."
+}
