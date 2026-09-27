@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Character presentation source-container hardening
+- [x] Inspected the live `scripts/validate_character_presentation_consumers.py` as the next deterministic consumer after the skill-acquisition validator.
+- [x] Found a robustness gap: canonical names and consumer records were projected into sets/maps before their container/item types were validated, allowing malformed data to raise uncontrolled type errors rather than deterministic validation failures.
+- [x] Hardened the validator to require canonical character names to be a list of non-empty strings and bridge/preset/Partner Customization/reconciliation sources to be lists of objects before projections run.
+- [x] Updated `docs/data/characters/character-presentation-consumer-audit.json`; the established clean identity/navigation projection and canonical data remain unchanged.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the remaining live deterministic validator/consumer for another concrete schema/type/range/identity/projection mismatch; preserve the missing general PQ reward layer as an evidence boundary.
+
 ### 2026-09-27 continuation — Skill acquisition PQ-container falsey fallback hardening
 - [x] Inspected the next live deterministic validator, `scripts/validate_skill_acquisition_metadata.py`, after confirming the repository currently has only six live `validate_*.py` scripts and the previously hardened targets are already covered.
 - [x] Found a concrete acceptance gap: `source_parallel_quests` used a falsey fallback (`or []`), so a present malformed value such as `null`, `false`, `0`, or an empty string could be coerced into an apparently valid empty endpoint list.
