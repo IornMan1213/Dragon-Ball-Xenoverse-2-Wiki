@@ -66,5 +66,11 @@
       "status": "clean",
       "commit": "49a7f611e2c4887fc01a24d73523d31f389b7414"
     }
+  },
+  "validator_hardening_2026_09_27": {
+    "change": "Canonical skill IDs and canonical bridge partner names are now checked for duplicate values before relationship resolution; duplicate identity rows cannot be silently collapsed by set construction.",
+    "result": "Existing 474-skill / 3-relationship clean projection remains unchanged; no canonical relationship data was modified.",
+    "validator_commit": "36a5d13bce7b4ab2a641e3082d3a6ec04483d416",
+    "evidence_boundary": "Internal identity uniqueness and relationship reachability only; no additional Partner Customization assignments are inferred."
   }
 }
