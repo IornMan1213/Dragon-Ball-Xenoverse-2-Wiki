@@ -2903,3 +2903,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No unsupported mechanics, drop rates, or trigger behavior were inferred.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** fresh 134-target Super Soul mechanics frontier census and evidence-backed enrichment of the next shortest genuinely under-detailed records.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 2
+- [x] Enriched five additional indexed Super Souls: Finally, some excitement.; I...hate you!!!; Strengthen me, Shadow Dragons!; Revival of the Demon Realm is at hand; I'll make you regret that!.
+- [x] Refreshed the Super Soul mechanics enrichment audit and advanced field coverage to trigger 54/168, effect 62/168, magnitude 56/168, duration 46/168, stacking 27/168, Limit Burst 52/168, Limit Burst effect 32/168, CaC 62/168.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed mechanics enrichment without treating missing fields as negative facts.
