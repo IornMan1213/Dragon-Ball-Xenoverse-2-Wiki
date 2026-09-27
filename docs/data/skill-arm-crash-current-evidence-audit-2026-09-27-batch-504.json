@@ -1,0 +1,14 @@
+{
+  "skill_name": "Arm Crash",
+  "batch": 504,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 504 refresh: current Xenoverse 2-specific evidence reconfirms Arm Crash as a 100-Ki Strike Super from Nappa training. The lariat breaks guard, and holding the input extends travel to 1.5 times base distance; source-reported damage is about 20%. Exact frames remain unresolved.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Arm_Crash",
+    "https://dragonball.fandom.com/wiki/Arm_Crash"
+  ],
+  "evidence_boundary": "Bounded current evidence only; source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
