@@ -15,6 +15,15 @@ def main() -> int:
     bridge = json.loads(BRIDGE.read_text(encoding="utf-8"))
 
     failures: list[str] = []
+    if not isinstance(rel, dict):
+        failures.append("relationship source must be an object")
+        rel = {}
+    if not isinstance(skills, dict):
+        failures.append("skills source must be an object")
+        skills = {}
+    if not isinstance(bridge, dict):
+        failures.append("character bridge source must be an object")
+        bridge = {}
     skill_records = skills.get("records")
     bridge_records = bridge.get("records")
     if not isinstance(skill_records, list):
@@ -42,9 +51,6 @@ def main() -> int:
         failures.append("canonical partner names must be non-empty strings")
     if duplicate_bridge_names:
         failures.append(f"duplicate canonical partner names: {duplicate_bridge_names}")
-    if not isinstance(rel, dict):
-        failures.append("relationship source must be an object")
-        rel = {}
     relationships = rel.get("relationships", [])
     if not isinstance(relationships, list):
         failures.append("relationships must be a list")
