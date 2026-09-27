@@ -3678,3 +3678,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/super-soul-reward-map-parity-audit-2026-09-27.json.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: rerun parity and continue into other canonical projection gaps rather than assuming endpoint metadata is stale.
+
+### 2026-09-27 continuation — Super Soul 121 reverse-index reconciliation
+- [x] Parity scan found the remaining acquisition/reverse-index mismatch: super-soul-121 (`I'm not gonna die until I defeat you!`).
+- [x] Current canonical acquisition metadata and PQ reward evidence establish PQ 138; the old PQ 151 attribution is historical/stale and was not reintroduced.
+- [x] Restored the missing unified reverse-index entry as PQ 138 only.
+- [x] Added docs/data/super-soul-121-pq-138-reverse-index-reconciliation-2026-09-27.json.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue parity checks across acquisition, reverse, relationship, and normalized reward projections.
