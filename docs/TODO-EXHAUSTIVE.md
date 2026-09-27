@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Super Soul/equipment audit hardening
+- [x] Hardened `audit_super_soul_mechanics_coverage.py` for JSON/root/record integrity.
+- [x] Hardened `audit_pq_equipment_endpoint_coverage.py` for relationship and endpoint-container integrity and non-coercive identities.
+- [x] Added `docs/data/super-soul-pq-equipment-audit-hardening-2026-09-27.json`.
+- [x] No canonical data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the integrity sweep, then move into larger substantive cross-domain enrichment gaps.
+
 ### 2026-09-27 continuation — Partner/Awoken tooling hardening
 - [x] Hardened `validate_partner_skill_relationships.py` for malformed JSON and malformed evidence without uninitialized-variable failures.
 - [x] Hardened `normalize_awoken_transformation_category.py` input/root/container validation before canonical mutation.
