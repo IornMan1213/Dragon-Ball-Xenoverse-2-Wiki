@@ -4762,23 +4762,23 @@
     {
       "id": "super-soul-160",
       "name": "Damn it all!",
-      "character_source": "God of Destruction Beerus",
+      "character_source": "Super Saiyan 3 Vegeta (DAIMA)",
       "dlc_requirement": "DLC 21 / Dragon Ball DAIMA Pack",
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 180",
       "first_clear_or_repeat": null,
       "shop_rotation": null,
-      "trigger_condition": "When a Heavy Smash hits",
-      "effect_text": "Extends Heavy Smash guard-break time, restores Ki, then temporarily reduces all attack strength while increasing damage taken.",
-      "effect_magnitude": "+10% guard-break extension; +300 Ki; -10% all attacks; +10% damage taken",
-      "duration": "15 seconds for the attack/damage effects",
-      "stacking_behavior": null,
-      "limit_burst": "Auto Health and Stamina Recovery! DEF Down.",
+      "trigger_condition": "Once only when Health is below 25%",
+      "effect_text": "Temporarily boosts all attacks and activates Ki Auto-Recovery.",
+      "effect_magnitude": "+20% all attacks",
+      "duration": "Temporary; exact duration not established by the current catalogue evidence",
+      "stacking_behavior": "Once only",
+      "limit_burst": "Auto Just Guard",
       "limit_burst_trigger": null,
-      "limit_burst_effect": "Auto Health and Stamina Recovery; Defense Down",
+      "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
+      "version_notes": "CORRECTED 2026-09-27: the prior record had conflated this PQ 180 reward with a different Beerus/Heavy Smash Super Soul. Current catalogue evidence identifies 'Damn it all!' as Super Saiyan 3 Vegeta (DAIMA)'s soul, triggered once below 25% Health, with +20% all attacks and temporary Ki Auto-Recovery, and Auto Just Guard Limit Burst. The PQ 180 reward relationship itself remains source-backed. The discarded Heavy Smash/+300 Ki/-10%/+10% package belongs to a different soul identity and is not retained here.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4787,7 +4787,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:fandom-ss3-vegeta-daima-2026-09-27"
       ]
     },
     {
