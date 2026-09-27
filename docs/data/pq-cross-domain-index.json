@@ -1961,5 +1961,35 @@
   "skill_batch_514_current_evidence": "docs/data/skill-research-batches/skill-batch-514.json",
   "canonical_database_recovery_restoration_2026_09_27": "docs/data/canonical-database-recovery-restoration-audit-2026-09-27.json",
   "skill_batch_515_current_evidence": "docs/data/skill-research-batches/skill-batch-515.json",
-  "skill_batch_516_current_evidence": "docs/data/skill-research-batches/skill-batch-516.json"
+  "skill_batch_516_current_evidence": "docs/data/skill-research-batches/skill-batch-516.json",
+  "skill_research_batches": [
+    {
+      "batch": 516,
+      "date": "2026-09-27",
+      "type": "current-evidence-refresh",
+      "selected": [
+        "Eraser Bomb",
+        "Evil Blast",
+        "Evil Explosion",
+        "Evil Eyes",
+        "Evil Flame",
+        "Evil Flight Strike",
+        "Evil Ray Strike",
+        "Evil Rise Strike",
+        "Evil Whirlwind",
+        "Excellent Full Course",
+        "Explosive Assault",
+        "Explosive Buu Buu Punch"
+      ],
+      "records_refreshed": 12,
+      "identity_changes": 0,
+      "canonical_field_corrections": 0,
+      "relationship_changes": 0,
+      "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Conflicting reward semantics, exact frames, patch-independent scaling, probabilities, and hidden conditions are not inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/",
+        "https://dragonball.fandom.com/"
+      ]
+    }
+  ]
 }
