@@ -3134,3 +3134,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 <!-- 2026-09-27: Stale canonical occurrence scan completed for six removed PQ151-154 recovery claims; five are absent from canonical indexes and the sixth is correctly retained at PQ138. Next: broader Super Soul canonical parity/reconciliation. -->
+
+
+<!-- 2026-09-27: Enriched Super Souls 054, 066, 067, and 078 with item-level mechanics and refreshed the enrichment audit. Next: systematic enrichment of remaining thin records with classification checks. -->
