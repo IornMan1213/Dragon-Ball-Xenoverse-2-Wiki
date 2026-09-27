@@ -3532,3 +3532,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-160` "Damn it all!" — God of Destruction Beerus, Heavy Smash trigger, +300 Ki and temporary -10% attack/+10% damage-taken effects.
 - [x] Cross-checked the batch against the current Super Soul catalogue and PQ guide; PQ 178 and PQ 180 reward identities are independently confirmed. citeturn1search0turn1search1
 - [ ] Continue through the remaining thin canonical Super Soul records, then run cross-domain index propagation/parity audits.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 10
+- [x] Enriched `super-soul-161` "Rejoice! A new ruler is born!" — Golden Frieza (Ultra Supervillain), battle-start +200 Ki, Super Attack hit/block gives +10% all attacks and +20% Ki Auto-Recovery for 5 seconds, Limit Burst.
+- [x] Enriched `super-soul-162` "AAAAAAAAAGH!" — Broly (DB Super), low-Health Evasive restores +10% Health/+300 Stamina, Awoken restores +10% Health/+300 Ki, each once only, Limit Burst.
+- [x] Enriched `super-soul-163` "Send me back to the planet I came from!" — Cheelai, opponent Ultimate restores +300 Stamina to allies other than user, Evasive grants 7-second damage nullification, each once only, Revive Gauge Auto-Recovery.
+- [x] Confirmed mechanics against the current Super Soul catalogue; PQ 182–184 independently establish these as the corresponding rewards. citeturn1search0turn1search1
+- [ ] Continue with remaining canonical thin records and perform cross-index parity propagation/audit.
