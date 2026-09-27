@@ -85,5 +85,18 @@
     "result": "unresolved",
     "direct_source_found": false,
     "canonical_promotion": false
+  },
+  "latest_source_truth_correction": {
+    "date": "2026-09-27",
+    "scope": [
+      "super-soul-138",
+      "super-soul-139",
+      "super-soul-140",
+      "super-soul-141",
+      "super-soul-142"
+    ],
+    "result": "current canonical PQ relationship file contains no active acquisition edges for these five identities",
+    "rule": "canonical relationship file outranks stale audit prose",
+    "action": "preserve as unresolved orphaned identities; trace historical provenance before restoring edges"
   }
 }
