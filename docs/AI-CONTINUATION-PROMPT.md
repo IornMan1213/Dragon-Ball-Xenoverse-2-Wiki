@@ -3876,3 +3876,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Retained PQ endpoints and added independent provenance references.
 - [x] Preserved unresolved exact RNG/first-clear behavior rather than inventing it.
 - [ ] Continue remaining Super Soul IDs in order.
+
+
+### 2026-09-27 continuation — Super Souls 151–155 provenance audit
+- [x] Audited IDs 151–155 for legacy identity/ID drift and stale acquisition provenance.
+- [x] No 138–142-style legacy remapping/misidentification found; PQ endpoints remain aligned with the normalized reward layer.
+- [x] Preserved partially-verified status and did not invent drop/RNG behavior.
+- [ ] Continue the remaining Super Soul IDs in order.
