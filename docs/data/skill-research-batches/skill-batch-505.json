@@ -1,7 +1,7 @@
 {
   "batch": 505,
   "date": "2026-09-27",
-  "type": "projection-reconciliation-and-frontier-census",
+  "type": "projection-reconciliation-and-current-evidence-refresh",
   "selected": [
     "Assault Vanish",
     "Bloody Counter",
@@ -15,5 +15,16 @@
   "selection_rule": "Fresh live 474-record census after Batch 504; candidates had no registered 2026-09-27 current-evidence audit at census time.",
   "projection_reconciliation": "docs/data/skill-pq-projection-reconciliation-2026-09-27-batch-505.json",
   "evidence_boundary": "No canonical Skill→PQ edges are added without explicit skill-specific evidence. Existing source conflicts and unresolved Ultimate-Finish/reward semantics remain preserved.",
-  "note": "This batch records the next frontier and reconciles the reverse projection before further enrichment. Existing detailed research for several selected skills was discovered during the census; it is not overwritten or treated as new evidence merely because the frontier registry lacked a current-dated audit."
+  "note": "This batch records the next frontier and reconciles the reverse projection before further enrichment. Existing detailed research for several selected skills was discovered during the census; it is not overwritten or treated as new evidence merely because the frontier registry lacked a current-dated audit.",
+  "completed_current_evidence_refresh": true,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "canonical_identity_changes": 0,
+  "records_refreshed": 8,
+  "evidence_sources": [
+    "dbxv2.fandom.com skill pages for each selected record"
+  ],
+  "validation": "474 canonical skill records remain the baseline; no unsupported Skill→PQ edges promoted."
 }
