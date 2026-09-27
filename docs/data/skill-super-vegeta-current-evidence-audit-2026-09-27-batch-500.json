@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-vegeta",
+  "skill_name": "Super Vegeta",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "Stages use 300/400 Ki. Current Xenoverse 2-specific documentation identifies Super Vegeta 1 as +5% Strike/+10% Ki Blast damage with +5% Ki Blast defense, and Super Vegeta 2 as +10% Strike/+17.5% Ki Blast damage with +5% physical/+12.5% Ki Blast defense. The form's fully charged Ki Blast behavior also inherits the Super Saiyan charged-blast teleport effect. Exact Ki-generation reduction is retained as a separate researched value rather than inferred here.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
