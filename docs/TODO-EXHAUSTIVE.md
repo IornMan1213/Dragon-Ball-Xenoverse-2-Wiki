@@ -4064,3 +4064,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] Batch 516 — refresh next 12 stale canonical Skills records (Eraser Bomb, Evil Blast, Evil Explosion, Evil Eyes, Evil Flame, Evil Flight Strike, Evil Ray Strike, Evil Rise Strike, Evil Whirlwind, Excellent Full Course, Explosive Assault, Explosive Buu Buu Punch); synchronize skills index; register cross-domain batch.
 - [ ] Continue stale Skills frontier: Explosive Wave → Eye Beam → Fake Blast → Feint Shot → Fierce Fist → Fighting Pose E → Fighting Pose K → Final Cannon → Final Charge → Final Explosion → Final Flash → Final Flash (SS3 DAIMA) → continue alphabetically.
+
+### 2026-09-27 continuation — Batch 519 canonical evidence refresh
+- [x] Batch 519 refreshed 12 stale canonical Skill records from Gamma Blaster through Gigantic Roar.
+- [x] Canonical/index parity remains 474/474; no identity or Skill→PQ relationship changes.
+- [x] Added and registered the Batch 519 research manifest.
+- [x] Preserved existing acquisition/reward conflicts and unresolved frame, hidden-condition, probability, and patch-independent-scaling fields.
+- [ ] 201 canonical Skill records remain older than 2026-09-27.
+- [ ] Continue stale Skill frontier: God Breaker → God of Destruction's Anger → God of Destruction's Menace → God of Destruction's Might → God of Destruction's Plaything → God of Destruction's Poise → God of Destruction's Rampage → God of Destruction's Roar → continue alphabetically.
