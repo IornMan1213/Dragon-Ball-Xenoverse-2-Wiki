@@ -11,7 +11,11 @@ EXPECTED_PQS = 186
 EXPECTED_ENTITIES = {"skills", "super_souls", "equipment", "accessories", "characters", "dlc", "farming"}
 
 def main() -> int:
-    data = json.loads(INDEX.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(INDEX.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"FAIL: invalid PQ cross-domain index JSON: {exc}")
+        return 1
     failures: list[str] = []
 
     if not isinstance(data, dict):
