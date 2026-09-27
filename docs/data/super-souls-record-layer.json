@@ -752,9 +752,9 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data.",
+      "version_notes": "Community-tested effect retained as secondary evidence; not promoted to fully verified item-level mechanics. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Secondary community testing dated July/August 2026 reports that below 50% HP this soul increases all abilities by 20%, including offensive/defensive and resource/recovery-related stats. This remains secondary evidence and is not promoted to canonical item-level verification.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -778,13 +778,14 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Only secondary community evidence is currently available.",
+      "version_notes": "Only secondary community evidence is currently available. Secondary community testing dated July 2026 reports automatic health regeneration while not guard-broken, with XL damage taken and damage dealt penalties while guard-broken. These reports remain secondary and are not promoted to canonical item-level verification.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/"
+        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/",
+        "https://www.reddit.com/r/dbxv/comments/1v2thx9/sometimes_you_just_gotta_know_when_its_wraps_lmao"
       ]
     },
     {
@@ -803,9 +804,9 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Do not infer mechanics from the title.",
+      "version_notes": "Do not infer mechanics from the title. Current PQ 186 reward documentation confirms the soul's identity and acquisition, while recent community discussion explicitly reports that its effect remains unknown. No mechanics were inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -827,9 +828,9 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data.",
+      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Secondary community testing reports approximately 5000 damage distributed over 30 seconds at battle start followed by a 15% all-ability increase. These values remain secondary and are not promoted to canonical item-level verification.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-19",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
