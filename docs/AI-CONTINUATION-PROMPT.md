@@ -2694,3 +2694,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime execution/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** pivot the substantive research cycle from already-enriched skill mechanics to the highest-priority cross-domain gap: expand/reconcile PQ reward relationships and reverse navigation using evidence-complete PQ sources, while preserving the existing partial-source/evidence boundary and never treating missing canonical edges as negative reward claims.
 
+### 2026-09-27 continuation — PQ reward relationship integrity and recovery-forward correction
+- [x] Re-read the live handoff/TODO and inspected the restored PQ reward layer rather than assuming the earlier missing-source note was still current.
+- [x] Corrected the recovery understanding: `docs/data/pq-reward-relationships.json` is present on `main` and contains **840 unique relationship rows** across PQ 1–186.
+- [x] Independently checked every relationship row against the repository schema contract: **0 malformed rows, 0 duplicate `(pq, relationship, target)` keys**, and exact count parity with the stored summary: **236 skills / 137 Super Souls / 125 equipment / 247 characters / 88 DLC / 7 farming**.
+- [x] Added `scripts/validate_pq_reward_relationships.py`, a deterministic structural validator for the canonical PQ relationship store. It deliberately does not infer absent rewards.
+- [x] Added `docs/data/pq-reward-relationship-integrity-audit-2026-09-27.json` with the current passing structural census.
+- [x] Registered the new validator and audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the partial normalized reverse-index boundary: `pq-unified-reverse-index-1-186.json` is explicitly `source_normalized_partial`; its missing entries are not negative claims and must not be used to delete canonical forward relationships.
+- [ ] Runtime execution/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** reconcile the canonical 840-row forward relationship store against the normalized reverse-index projections and identify deterministic projection drift (without deleting source-backed forward edges); then expand reverse navigation only from evidence-backed canonical relationships.
+
