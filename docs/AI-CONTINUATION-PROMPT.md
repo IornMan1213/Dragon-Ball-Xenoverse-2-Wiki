@@ -3459,3 +3459,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `super-soul-075` "This fight is only just beginning!" with the below-50%-HP trigger, +15% Ki Blast attacks, +30% Stamina recovery speed for 20 seconds, once-only behavior, Limit Burst, and DLC provenance.
 - [x] Cross-checked these records against current Super Soul catalogue evidence and independent item/PQ documentation before writing mechanics.
 - [ ] Continue systematic enrichment of remaining thin records; preserve classification conflicts rather than filling fields by inference.
+
+
+### 2026-09-27 continuation — Super Soul parity batch 3
+- [x] Enriched `super-soul-076` "I shall show you my great godly might!" with battle-start no-Ki-depletion/Awoken Skill seal mechanics, durations, Limit Burst, and DLC provenance.
+- [x] Enriched `super-soul-077` "I feel it... Everyone, lend me your power!" with Sword of Hope trigger, +20% Strike Skills, -20% damage taken, duration, Limit Burst, and DLC provenance.
+- [x] Enriched `super-soul-079` "I ain't losin'! Here's my full power!" with Kamehameha-type Ultimate trigger, +20% Ki Blast attacks for 10 seconds, Limit Burst, and DLC provenance.
+- [x] Enriched `super-soul-080` "I'm never going to forgive him!" with the once-only below-50%-Health trigger, full Ki restoration, Limit Burst, and DLC provenance.
+- [ ] Continue the thin-record parity pass; `super-soul-078` was already enriched and remains unchanged.
