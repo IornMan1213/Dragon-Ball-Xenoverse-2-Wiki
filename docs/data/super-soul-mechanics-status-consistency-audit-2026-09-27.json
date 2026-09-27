@@ -1,0 +1,42 @@
+{
+  "audit_id": "super-soul-mechanics-status-consistency-audit-2026-09-27",
+  "status": "documentation_consistency_correction",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "changed_records": [
+    "super-soul-083",
+    "super-soul-084",
+    "super-soul-085",
+    "super-soul-089",
+    "super-soul-144",
+    "super-soul-145",
+    "super-soul-146",
+    "super-soul-148",
+    "super-soul-150",
+    "super-soul-151",
+    "super-soul-152",
+    "super-soul-153",
+    "super-soul-154",
+    "super-soul-156",
+    "super-soul-157",
+    "super-soul-158",
+    "super-soul-159",
+    "super-soul-160",
+    "super-soul-161",
+    "super-soul-162",
+    "super-soul-163"
+  ],
+  "rule": "A record with populated trigger/effect/magnitude mechanics must not simultaneously claim that mechanics are intentionally unpopulated.",
+  "excluded_unresolved_records": [
+    "super-soul-137",
+    "super-soul-138",
+    "super-soul-139",
+    "super-soul-140",
+    "super-soul-141",
+    "super-soul-142"
+  ],
+  "notes": [
+    "No reward identity, acquisition source, mechanic value, or verification classification was changed.",
+    "This audit corrects contradictory version_notes left behind by the recovery/partial-promotion workflow.",
+    "PQ 155 / super-soul-142 remains intentionally unresolved."
+  ]
+}
