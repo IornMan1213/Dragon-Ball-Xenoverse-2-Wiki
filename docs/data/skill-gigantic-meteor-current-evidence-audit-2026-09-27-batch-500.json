@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-gigantic-meteor",
+  "skill_name": "Gigantic Meteor",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "300-Ki Ki Blast Ultimate learned from Broly training. The user throws a small tracking Ki Blast that explodes after about a second; current skill-specific evidence reports 45% damage over 4 hits. Kale (SSJ2)'s unique variant begins with an uppercut before the distant explosion. Exact timing and patch-independent scaling remain source-bound.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
