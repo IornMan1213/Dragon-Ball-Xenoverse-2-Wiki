@@ -56,10 +56,15 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-137"
+      "super-soul-138",
+      "super-soul-139",
+      "super-soul-140",
+      "super-soul-141",
+      "super-soul-142"
     ],
-    "status": "canonical_acquisition_reconciled",
-    "note": "Current catalogue corroborates Item Shop acquisition plus guard-break effect and Limit Burst. Community/source numeric XL interpretation remains secondary; canonical-data-first rule preserved."
+    "status": "negative_evidence_reconciled",
+    "canonical_promotion": false,
+    "note": "Exact-name repository and current web/catalogue searches did not locate matching item-level entries. Records remain unresolved historical identities; no mechanics, acquisition, or Limit Burst inferred."
   },
   "last_batch": {
     "date": "2026-09-27",
