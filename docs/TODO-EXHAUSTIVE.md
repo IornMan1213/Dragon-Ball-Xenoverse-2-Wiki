@@ -3128,3 +3128,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 <!-- 2026-09-27: Resolved exact Recoome Super Soul mechanics: +10% all attacks, +100% max Ki, permanent once-only below-50% HP cancellation/debuff, and exact Limit Burst. Next: preserve six removed PQ151-154 claims in provenance/dispute layer. -->
+
+
+<!-- 2026-09-27: Preserved six removed PQ151-154 Super Soul recovery claims in a dedicated disputed-provenance artifact; registered it in the cross-domain index. Next: stale canonical occurrence scan and validation. -->
