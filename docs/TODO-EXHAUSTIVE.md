@@ -3312,3 +3312,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/pq-155-super-soul-142-reconciliation-audit-2026-09-27.json`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: audit the next unresolved/recovered Super Soul relationship for stale canonical attribution and synchronize every dependent index.
+
+
+### 2026-09-27 continuation — PQ 49 cross-domain reward classification
+- [x] Reconciled PQ 49 `Do or Die` from the incorrect Super Soul domain to the Skill domain using independent reward/type evidence.
+- [x] Synchronized the PQ 49 normalized reward map, forward relationship layer, Super Soul acquisition index, unified reverse index, Super Soul record layer, and Super Soul crosslink projection.
+- [x] Added `docs/data/pq-049-do-or-die-reward-type-reconciliation-2026-09-27.json` to preserve the prior classification as audit history.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: verify `Do or Die` exists in the dedicated Skill layer/reverse index, then continue the next evidence-backed cross-domain classification/reward reconciliation.
