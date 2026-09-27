@@ -806,12 +806,13 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Do not infer mechanics from the title. Current PQ 186 reward documentation confirms the soul's identity and acquisition, while recent community discussion explicitly reports that its effect remains unknown. No mechanics were inferred. A current search of indexed Limit Burst/effect sources did not produce sufficient direct item-level evidence for this soul's mechanics; remains unresolved rather than inferred.",
+      "version_notes": "Do not infer mechanics from the title. Current PQ 186 reward documentation confirms the soul's identity and acquisition, while recent community discussion explicitly reports that its effect remains unknown. No mechanics were inferred. A current search of indexed Limit Burst/effect sources did not produce sufficient direct item-level evidence for this soul's mechanics; remains unresolved rather than inferred. Secondary discussion reviewed 2026-09-27; discussion explicitly does not identify a reliable effect for this Soul, so no mechanic is promoted from it.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super/"
       ]
     },
     {
