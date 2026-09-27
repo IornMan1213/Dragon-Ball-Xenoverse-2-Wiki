@@ -4650,3 +4650,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence confirms the current skill identities/character associations and, where available, CaC usability; canonical mechanics/acquisition fields were deliberately not mutated from secondary evidence alone.
 - [x] Batch 526 remains registered in the cross-domain index and preserves an explicit provenance boundary.
 - [ ] **Next:** continue record-level evidence enrichment beyond Batch 526 and only promote canonical fields when sufficiently direct provenance is available.
+
+
+### 2026-09-27 continuation — Batch 526 direct-record evidence
+- [x] Added direct record-level evidence candidates for Rakshasa's Claw, Rocket Tackle, and Savory Slicer: type, Ki cost, acquisition source, and character source where directly supported.
+- [x] Preserved the canonical-data-first boundary: candidates were recorded in the research manifest rather than blindly overwriting the live canonical database.
+- [x] Independent current sources corroborate Rakshasa's Claw as a Strike Super from PQ 57, Rocket Tackle as a 100-Ki Strike Super from Android 16 training, and Savory Slicer as a 100-Ki Strike Super from PQ 140. citeturn0search1turn0search10turn0search4
+- [ ] **Next:** inspect the live canonical records for these candidates and promote only fields that are actually missing/stale; then reconcile Skill→PQ endpoints and continue the next frontier.
