@@ -1,0 +1,16 @@
+{
+  "audit_date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical data is the source of truth. Existing conflicts and unresolved fields are preserved; no unsupported probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges are inferred.",
+  "skill_name": "Dragon Spiral",
+  "skill_id": "skill-dragon-spiral",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Dragon_Spiral"
+  ],
+  "findings": [
+    "100-Ki Strike Super associated with Goku (Ultra Supervillain Quelled).",
+    "Canonical repository acquisition remains PQ185 Basic Reward.",
+    "Historical PQ186 association remains a provenance conflict; exact guard duration, hit count, damage scaling, and resource behavior remain unresolved."
+  ]
+}
