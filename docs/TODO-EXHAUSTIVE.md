@@ -1,3 +1,10 @@
+### 2026-09-27 continuation — Super Soul audit and PQ reverse-validator hardening
+- [x] Repaired `scripts/audit_super_soul_consumer_coverage.py`, including malformed source containing a literal escaped newline that joined statements.
+- [x] Removed assertion-dependent control flow from `scripts/validate_skill_pq_crosslinks.py`; validation now fails deterministically under `python -O` as well.
+- [x] Preserved canonical source-of-truth policy; no canonical records were changed.
+- [x] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** inspect remaining audit/validator scripts for assertion use, unsafe coercion, and malformed-container handling, then consolidate any related hardening into auditable commits.
+
 ### 2026-09-27 continuation — General wiki audit hardening
 - [x] Hardened `scripts/audit_wiki_data.py` against unreadable/malformed JSON and type-coercive identity handling.
 - [x] Added explicit non-empty string validation for IDs/names and provenance source entries.
