@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-weekend",
+  "skill_name": "Weekend",
+  "batch": 499,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "evidence_summary": "Current Raditz Lesson 3 documentation reconfirms 300 Ki, controllable long-range beam behavior, 16-hit sequence, and source-reported approximately 30% damage. Exact frame timing and damage scaling remain source-bound.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded repository corroboration.",
+  "canonical_sync": "Synchronized to the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
