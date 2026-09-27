@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0",
+  "audit_type": "canonical_database_recovery_restoration",
+  "audited_at": "2026-09-27",
+  "branch": "main",
+  "observed_regression": {
+    "previously_live_canonical_blob": "89e78acb10b69caaf911799e624435314e68ece7",
+    "recovered_canonical_blob": "8cacd72ea4f1d02db2e2366c304f3efe3b03678d",
+    "recovered_records": 474,
+    "recovered_evidence": "The surviving canonical blob from the Batch 513 canonical refresh contains the completed Batch 496-513 evidence history, including 2026-09-27 refreshes that were absent from the regressed blob."
+  },
+  "restoration": {
+    "commit": "6d96517b8fafc7222e81f5223dc877e847b0a1ef",
+    "status": "restored_then_batch_514_refreshed",
+    "identity_changes": 0,
+    "note": "Canonical skills data was restored from the surviving Batch 513 canonical blob rather than reconstructed from the skills index. This preserves canonical-source priority."
+  },
+  "validation_boundary": {
+    "skill_count": 474,
+    "skill_index_count": 474,
+    "pq_reward_relationship_baseline": 840,
+    "runtime_ci": "intentionally non-blocking/unverified"
+  }
+}
