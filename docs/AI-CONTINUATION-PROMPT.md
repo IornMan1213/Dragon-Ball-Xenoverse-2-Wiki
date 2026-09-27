@@ -3908,3 +3908,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] **Recovery gap:** 22 canonical skill identities remain to be recovered/reconstructed from surviving repository evidence before treating the Skills layer as fully restored to the pre-corruption 474-record state.
 - [ ] Runtime/CI remains intentionally non-blocking per the established project rule.
 - [ ] **Exact next:** identify the 22 missing canonical skill identities from surviving research batches/commits and recover them into `docs/data/skills.json` and `docs/data/skills-index.json`; validate exact ID parity before any new mechanics-enrichment batch. Do not mark 474/474 until deterministic parity is restored.
+
+
+### 2026-09-27 continuation — Full 474-record canonical database recovery completed
+- [x] Recovered the **actual surviving 474-record canonical baseline**, correcting the earlier 452-record partial recovery assessment. The surviving source was the 2026-09-26 Batch 470 research commit lineage, whose canonical files are independently confirmed at **474 skills / 474 skill-index records**.
+- [x] Used the Git blob layer to retrieve the complete large-file contents without truncation, then restored both `docs/data/skills.json` and `docs/data/skills-index.json` on `main`.
+- [x] Verified deterministic parity after restoration: **474 canonical skill records, 474 canonical index records**.
+- [x] The restored baseline includes the complete canonical identity set and the Batch 470 mechanics/provenance state; no synthetic records were invented and no `verified: true` dataset was treated as the source of truth.
+- [x] Created `recovery/canonical-skills-474-source-2026-09-27` at the surviving 2026-09-26 commit so the recovered source lineage remains directly addressable for future recovery/audit work.
+- [x] Supersedes the earlier same-day note claiming a 22-record recovery gap: that note remains in history as the initial partial-recovery finding, but the gap is now closed by deterministic restoration from the surviving 474-record blob.
+- [ ] Next priority: reconcile all current-facing skill consumers and reverse indexes against the restored 474/474 baseline, preserving dated historical snapshots and avoiding mass rewriting of historical research artifacts.
+- [ ] Then resume the highest-priority unfinished cross-domain work: PQ → skill → mechanics navigation and exhaustive acquisition/provenance/mechanics enrichment.
+- [ ] Runtime/CI remains non-blocking per the established project rule.
