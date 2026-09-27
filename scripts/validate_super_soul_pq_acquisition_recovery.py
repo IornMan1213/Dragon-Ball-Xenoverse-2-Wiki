@@ -54,9 +54,15 @@ for row in rows:
     pq = row.get("pq")
     if not isinstance(target, str) or not target.strip():
         raise SystemExit("ERROR: Super Soul relationship target must be a non-empty string")
-    if type(pq) is not int or not 1 <= pq <= 186:
+    if not isinstance(pq, str) or not pq.startswith("pq-") or len(pq) != 6:
         raise SystemExit(f"ERROR: invalid Super Soul PQ id: {pq!r}")
-    soul_rows.append((pq, target))
+    try:
+        pq_number = int(pq[3:])
+    except ValueError:
+        raise SystemExit(f"ERROR: invalid Super Soul PQ id: {pq!r}")
+    if not 1 <= pq_number <= 186:
+        raise SystemExit(f"ERROR: invalid Super Soul PQ id: {pq!r}")
+    soul_rows.append((pq_number, target))
 
 if len(soul_rows) != EXPECTED_RELATIONSHIPS:
     raise SystemExit(
