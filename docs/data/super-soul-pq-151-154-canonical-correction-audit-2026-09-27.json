@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "audit_type": "pq_151_154_super_soul_canonical_correction",
+  "status": "corrected_with_explicit_reward_evidence",
+  "canonical_sources": [
+    "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/super-souls/pq-acquisition-index-001-186.json",
+    "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
+  ],
+  "evidence": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/DLC"
+  ],
+  "corrections": {
+    "pq-151": [
+      "I think I'm getting the hang of this.",
+      "I'll keep adding a bit of power to my attacks!"
+    ],
+    "pq-152": [
+      "I will put a stop to you, fiend!"
+    ],
+    "pq-153": [
+      "There's more where that came from!",
+      "You're not much of a fun fight!"
+    ],
+    "pq-154": []
+  },
+  "removed_recovered_claims": [
+    "I'll never forgive you!",
+    "I'm not gonna die until I defeat you!",
+    "I'll show you the power of a true warrior!",
+    "Don't underestimate my power!",
+    "I won't forgive you!",
+    "I'm the one who will win!"
+  ],
+  "note": "The six prior endpoints remain documented in the conflict audit as disputed recovered claims rather than being silently discarded. Five corrected canonical records were added; PQ 154 has no Super Soul in the explicit cited reward list.",
+  "mechanics_policy": "Only 'I think I'm getting the hang of this.' received mechanics because independent item-level/player-reference evidence supports them. The other four corrected records remain mechanics-unresolved."
+}
