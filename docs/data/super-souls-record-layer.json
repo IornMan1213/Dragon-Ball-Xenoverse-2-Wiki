@@ -774,12 +774,12 @@
       "effect_magnitude": "XL modifiers reported as 20% each (secondary community report)",
       "duration": "While the corresponding condition applies (secondary report)",
       "stacking_behavior": "Unresolved",
-      "limit_burst": null,
+      "limit_burst": "Super Armor",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Super Armor",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Only secondary community evidence is currently available. Secondary community testing dated July 2026 reports automatic health regeneration while not guard-broken, with XL damage taken and damage dealt penalties while guard-broken. These reports remain secondary and are not promoted to canonical item-level verification. Current July 2026 community testing reports automatic health regeneration outside guard break and XL damage dealt/received penalties during guard break. The report interprets XL as 20%; this interpretation remains secondary and is not promoted to canonical item-level truth. Reviewed current 2026 player testing discussion on 2026-09-27; the reported values are retained as secondary evidence and are not promoted to primary canonical mechanics.",
+      "version_notes": "Only secondary community evidence is currently available. Secondary community testing dated July 2026 reports automatic health regeneration while not guard-broken, with XL damage taken and damage dealt penalties while guard-broken. These reports remain secondary and are not promoted to canonical item-level verification. Current July 2026 community testing reports automatic health regeneration outside guard break and XL damage dealt/received penalties during guard break. The report interprets XL as 20%; this interpretation remains secondary and is not promoted to canonical item-level truth. Reviewed current 2026 player testing discussion on 2026-09-27; the reported values are retained as secondary evidence and are not promoted to primary canonical mechanics. Current July 2026 player discussion explicitly identifies the Limit Burst as Super Armor; retained as secondary evidence.",
       "verification_status": "verified_secondary",
       "last_verified": "2026-09-27",
       "sources": [
@@ -787,7 +787,8 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/",
         "https://www.reddit.com/r/dbxv/comments/1v2thx9/sometimes_you_just_gotta_know_when_its_wraps_lmao",
-        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
+        "https://www.reddit.com/r/dbxv/comments/1v2thx9/sometimes_you_just_gotta_know_when_its_wraps_lmao/"
       ],
       "trigger_condition": "Not guard-broken"
     },
