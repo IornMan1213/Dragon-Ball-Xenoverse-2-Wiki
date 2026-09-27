@@ -16,13 +16,18 @@ EXPECTED_SKILLS = 474
 EXPECTED_EDGES = 246
 EXPECTED_REPRESENTED_PQS = 170
 
-data = json.loads(SKILLS.read_text(encoding="utf-8"))
+try:
+    data = json.loads(SKILLS.read_text(encoding="utf-8"))
+except (OSError, json.JSONDecodeError) as exc:
+    raise SystemExit(f"{SKILLS}: invalid JSON: {exc}")
+if not isinstance(data, dict):
+    raise SystemExit("skills root must be an object")
 records = data.get("records") if isinstance(data, dict) else None
-assert isinstance(records, list), "canonical skill records must be a list"
-assert len(records) == EXPECTED_SKILLS, f"skill count {len(records)} != {EXPECTED_SKILLS}"
-assert all(isinstance(r, dict) for r in records), "every canonical skill record must be an object"
-assert all(isinstance(r.get("id"), str) and r.get("id").strip() for r in records), "every canonical skill must have a non-empty string id"
-assert all(isinstance(r.get("name"), str) and r.get("name").strip() for r in records), "every canonical skill must have a non-empty string name"
+if not isinstance(records, list): raise SystemExit("canonical skill records must be a list")
+if len(records) != EXPECTED_SKILLS: raise SystemExit(f"skill count {len(records)} != {EXPECTED_SKILLS}")
+if any(not isinstance(r, dict) for r in records): raise SystemExit("every canonical skill record must be an object")
+if any(not isinstance(r.get("id"), str) or not r.get("id").strip() for r in records): raise SystemExit("every canonical skill must have a non-empty string id")
+if any(not isinstance(r.get("name"), str) or not r.get("name").strip() for r in records): raise SystemExit("every canonical skill must have a non-empty string name")
 assert all("source_parallel_quests" not in r or isinstance(r["source_parallel_quests"], list) for r in records), "source_parallel_quests must be a list when present"
 for record in records:
     endpoints = record.get("source_parallel_quests", [])
@@ -30,7 +35,7 @@ for record in records:
         assert isinstance(pq_id, int) and not isinstance(pq_id, bool) and 1 <= pq_id <= 186, (record["id"], pq_id)
     assert len(endpoints) == len(set(endpoints)), f"duplicate source_parallel_quests IDs: {record['id']}"
 ids = [r["id"] for r in records]
-assert len(set(ids)) == EXPECTED_SKILLS, "duplicate canonical skill IDs"
+if len(set(ids)) != EXPECTED_SKILLS: raise SystemExit("duplicate canonical skill IDs")
 
 # Keep the checked-in reverse artifact synchronized with the deterministic source projection.
 # A count-only check can pass while individual PQ edges drift.
