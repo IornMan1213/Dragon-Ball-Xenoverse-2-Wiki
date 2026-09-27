@@ -151,7 +151,8 @@
     "skill_lightning_impact_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-lightning-impact-current-evidence-audit-2026-09-27-batch-495.json",
     "skill_instant_rise_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-instant-rise-current-evidence-audit-2026-09-27-batch-495.json",
     "skill_jumping_energy_wave_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-jumping-energy-wave-current-evidence-audit-2026-09-27-batch-495.json",
-    "skill_power_impact_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-power-impact-current-evidence-audit-2026-09-27-batch-495.json"
+    "skill_power_impact_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-power-impact-current-evidence-audit-2026-09-27-batch-495.json",
+    "super_soul_record_layer_integrity": "docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
@@ -339,7 +340,8 @@
     "partner_customization_character_recovery_2026_09_26": "docs/data/partner-customization-character-navigation-recovery-audit-2026-09-26.json",
     "character_preset_consumer_reconciliation_2026_09_26": "docs/data/character-preset-consumer-reconciliation-2026-09-26.json",
     "critical_unreachable_reference_reconciliation": "docs/data/critical-unreachable-reference-reconciliation-audit-2026-09-26.json",
-    "skill_pq_cross_domain_linkage_integrity": "docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json"
+    "skill_pq_cross_domain_linkage_integrity": "docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json",
+    "super_soul_record_layer_validator": "scripts/validate_super_soul_record_layer.py"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
