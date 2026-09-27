@@ -4221,3 +4221,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the canonical-data-first boundary: candidates were recorded in the research manifest rather than blindly overwriting the live canonical database.
 - [x] Independent current sources corroborate Rakshasa's Claw as a Strike Super from PQ 57, Rocket Tackle as a 100-Ki Strike Super from Android 16 training, and Savory Slicer as a 100-Ki Strike Super from PQ 140. citeturn0search1turn0search10turn0search4
 - [ ] **Next:** inspect the live canonical records for these candidates and promote only fields that are actually missing/stale; then reconcile Skill→PQ endpoints and continue the next frontier.
+
+
+### 2026-09-27 continuation — Batch 526 canonical reconciliation
+- [x] Reconciled the new Batch 526 direct-evidence candidates against existing repository research before touching canonical data.
+- [x] Confirmed Rakshasa's Claw already has detailed Batch 481/489 evidence and an existing PQ57 canonical reward edge.
+- [x] Confirmed Rocket Tackle already has dedicated Batch 471 mechanics evidence establishing the 100-Ki Strike Super / Android 16 relationship.
+- [x] Confirmed Savory Slicer already has canonical PQ140 crosslink/reward evidence and existing Strike Super/100-Ki research.
+- [x] Avoided duplicate canonical rewrites; Batch 526 is retained as an evidence-refresh layer.
+- [ ] **Next:** move beyond these already-covered records and identify the next genuinely under-enriched Skill records, prioritizing missing canonical mechanics/provenance rather than repeating established fields.
