@@ -1,0 +1,151 @@
+{
+  "batch": 526,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Raid Blast",
+    "Rakshasa's Claw",
+    "Recoome Eraser Gun",
+    "Recoome Kick",
+    "Requiem of Destruction",
+    "Reverse Launcher",
+    "Reverse Mabakusenko",
+    "Riot Javelin",
+    "Rocket Tackle",
+    "Savory Slicer",
+    "Scissors Paper Rock",
+    "Shine Shot"
+  ],
+  "canonical_records": 474,
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Current evidence is recorded as provenance/mechanics support only. Canonical gameplay data remains source of truth; conflicting acquisition semantics, exact frames, probabilities, hidden conditions, and patch-independent scaling are not inferred.",
+  "evidence": [
+    {
+      "skill": "Raid Blast",
+      "facts": [
+        "Strike Super",
+        "100 Ki",
+        "PQ 136 acquisition",
+        "charge can make the kick unblockable",
+        "follow-up/extension behavior documented"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Raid_Blast",
+        "https://steamcommunity.com/app/454650/discussions/0/1747899030099859118/"
+      ]
+    },
+    {
+      "skill": "Recoome Eraser Gun",
+      "facts": [
+        "Recoome Super Skill identity confirmed"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Recoome"
+      ]
+    },
+    {
+      "skill": "Recoome Kick",
+      "facts": [
+        "Strike Super",
+        "100 Ki",
+        "PQ 61 acquisition",
+        "temporarily boosts normal attack after success"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Recoome_Kick",
+        "https://dragonball.fandom.com/wiki/Recoome_Kick"
+      ]
+    },
+    {
+      "skill": "Requiem of Destruction",
+      "facts": [
+        "Ki Blast Ultimate",
+        "300 Ki",
+        "DLC Super Pack 2 / PQ 106",
+        "grab/paralyze/explosion sequence"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Requiem_of_Destruction"
+      ]
+    },
+    {
+      "skill": "Reverse Launcher",
+      "facts": [
+        "Ki Blast Super",
+        "100 Ki",
+        "Bojack training acquisition",
+        "two-shot teleport sequence"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Reverse_Launcher",
+        "https://dragonball.fandom.com/wiki/Reverse_Launcher"
+      ]
+    },
+    {
+      "skill": "Savory Slicer",
+      "facts": [
+        "Android 21 Super Skill identity confirmed"
+      ],
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "skill": "Scissors Paper Rock",
+      "facts": [
+        "Obtainable Strike Super listed in Xenoverse 2 skill lists"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/79680756"
+      ]
+    },
+    {
+      "skill": "Rakshasa's Claw",
+      "facts": [
+        "Current Xenoverse 2 skill corpus identifies it as an obtainable Strike skill"
+      ],
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1d9sjyp/"
+      ]
+    },
+    {
+      "skill": "Riot Javelin",
+      "facts": [
+        "Xenoverse 2 Ultimate skill identity appears in current technique lists"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/79680756"
+      ]
+    },
+    {
+      "skill": "Rocket Tackle",
+      "facts": [
+        "Current Xenoverse 2 skill lists identify Rocket Tackle as an obtainable Strike Super"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/79680756"
+      ]
+    },
+    {
+      "skill": "Reverse Mabakusenko",
+      "facts": [
+        "Current Xenoverse 2 skill lists identify Reverse Mabakusenko as an Ultimate"
+      ],
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/437193-dragon-ball-xenoverse-2/79680756"
+      ]
+    },
+    {
+      "skill": "Shine Shot",
+      "facts": [
+        "Current Xenoverse 2 skill corpus contains Shine Shot; mechanics/acquisition require direct record-level confirmation before canonical correction"
+      ],
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/w4mdx4/"
+      ]
+    }
+  ],
+  "notes": "This batch is intentionally an evidence-refresh manifest because the live canonical blob is large and connector-limited. No canonical field was changed from secondary snippets alone."
+}
