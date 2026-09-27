@@ -1,0 +1,28 @@
+{
+  "batch": 498,
+  "date": "2026-09-27",
+  "purpose": "Fresh current-evidence frontier after Batch 497",
+  "records": [
+    "Quick Sleep",
+    "Super Saiyan Blue Kaioken",
+    "Meteor Burst",
+    "Kill Driver",
+    "Fighting Pose G",
+    "Punisher Shield",
+    "Fighting Pose B",
+    "Fake Death",
+    "Mach Dash",
+    "Giant Storm",
+    "Meditation",
+    "Fighting Pose I",
+    "Fighting Pose J",
+    "Hell Flash",
+    "Weekend",
+    "Super Kamehameha (SS4 DAIMA)"
+  ],
+  "synchronized_record_count": 16,
+  "canonical_skill_records": 474,
+  "index_skill_records": 474,
+  "canonical_identity_changes": 0,
+  "evidence_boundary": "Source-reported numerical observations remain bounded; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
