@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-flash-strike",
+  "skill_name": "Flash Strike",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "100-Ki Ki Blast Super taught by Vegeta. It creates a remote explosion at the opponent's current destination; when used after a knockback, the tracking version can follow the target and deal additional damage. Dedicated documentation notes fast startup but significant endlag, during which the user cannot activate an Evasive. The move can also trigger its tracking version after certain other attacks or an ally's knockback. Exact damage, tracking window, endlag frames, and patch-independent scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
