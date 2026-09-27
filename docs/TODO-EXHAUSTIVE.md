@@ -3497,3 +3497,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited records 146–150 for legacy identity/remapping anomalies; none identified.
 - [x] Preserved canonical source-normalized acquisition relationships without inventing exact drop conditions.
 - [ ] Continue with 151 onward.
+
+
+### 2026-09-27 continuation — Super Souls 146–150 provenance audit
+- [x] Audited 146–150; no legacy ID/name misidentification found.
+- [x] Acquisition endpoints retained with external provenance notes; exact RNG behavior remains unresolved where not directly documented.
+- [ ] Continue remaining Super Soul provenance/ID-drift audit.
