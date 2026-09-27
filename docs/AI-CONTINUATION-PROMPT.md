@@ -2853,3 +2853,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** enrich the 108 equipment endpoint gaps only where repository evidence can reconcile an exact inventory identity; prioritize the existing `accessory-pq-canonical-remaining.json` backlog and preserve unresolved/conflicting routes rather than silently merging them.
 
+
+
+### 2026-09-27 continuation — PQ equipment endpoint identity promotion
+- [x] Promoted 9 unambiguous canonical PQ→equipment endpoint identities into the appropriate endpoint layers: 8 clothing/equipment records and 1 accessory record.
+- [x] Added: Tuxedo (PQ121), Wedding Dress (PQ121), Gine (DB Super)'s Clothes (PQ144), Bardock (DB Super)'s Clothes (PQ146), Caulifla's Clothes (PQ147), Kale's Clothes (PQ148), Bulma (Kid)'s Clothes (PQ149), Android 17 (DB Super) Ranger Outfit (PQ152), and Goku Wig (Ultra Instinct) (PQ125).
+- [x] Endpoint records are intentionally `indexed`: identity/acquisition provenance is recorded while stats, component granularity, restrictions, and current fallback routes remain unresolved.
+- [x] Refreshed `docs/data/pq-equipment-crosslink-report.json` and `docs/data/pq-equipment-crosslink-integrity-audit-2026-09-27.json`.
+- [x] Current canonical projection remains **125 edges / 123 unique targets**; endpoint layer is now **127 records**, with **24/123 exact identity matches** and **99 explicit enrichment gaps**.
+- [x] Preserved ambiguous/component-only accessory backlog and historical route conflicts; no canonical relationship was deleted, reclassified, or invented.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** continue evidence-backed endpoint promotion for the remaining 99 equipment identities, prioritizing explicit inventory-name matches and official/DLC-backed costume identities; keep ambiguous set/component labels unresolved.
