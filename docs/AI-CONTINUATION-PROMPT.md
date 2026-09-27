@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Awoken model validator identity hardening
+- [x] Inspected the live `scripts/validate_awoken_model.py` after the PQ equipment coverage validator hardening.
+- [x] Found a concrete integrity gap: the validator used `str(...)` identity coercion and a dict projection that could silently collapse malformed/duplicate canonical skill keys instead of deterministically rejecting them.
+- [x] Hardened the validator to require expected JSON root/container types, non-empty string identity fields, explicit duplicate-key rejection, valid roster names, and non-boolean integer Ki costs.
+- [x] Added `docs/data/awoken-model-validator-audit-2026-09-27.json`; no canonical Awoken data changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next live deterministic validator/consumer for a concrete integrity gap; continue evidence-backed database enrichment only where canonical source evidence is explicit.
+
 ### 2026-09-27 continuation — PQ equipment endpoint coverage validator hardening
 - [x] Fresh live census confirmed the canonical skill mechanics frontier is already **474/474**, so no artificial Batch 496 was opened.
 - [x] Inspected the live `scripts/validate_pq_equipment_endpoint_coverage.py`.
