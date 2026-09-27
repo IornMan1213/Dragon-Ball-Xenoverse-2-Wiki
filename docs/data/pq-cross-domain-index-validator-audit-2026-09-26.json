@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-26",
+  "scope": "Canonical PQ cross-domain index schema and reverse-index declaration contract",
+  "source_index": "docs/data/pq-cross-domain-index.json",
+  "validator": "scripts/validate_pq_cross_domain_index.py",
+  "checks": {
+    "root_object": true,
+    "schema_version": "1.0",
+    "scope": "PQ 1-186",
+    "forward_index_is_non_empty_string": true,
+    "forward_index_exists": true,
+    "reverse_index_container_is_list": true,
+    "reverse_index_entry_count": {
+      "expected": 7,
+      "actual": 7,
+      "pass": true
+    },
+    "reverse_index_entities_exact": {
+      "expected": [
+        "accessories",
+        "characters",
+        "dlc",
+        "equipment",
+        "farming",
+        "skills",
+        "super_souls"
+      ],
+      "actual": [
+        "accessories",
+        "characters",
+        "dlc",
+        "equipment",
+        "farming",
+        "skills",
+        "super_souls"
+      ],
+      "pass": true
+    },
+    "reverse_index_reports_unique": {
+      "expected": 7,
+      "actual": 7,
+      "pass": true
+    },
+    "farming_source_matches_forward_index": {
+      "expected": "docs/data/pq-reward-relationships.json",
+      "actual": "docs/data/pq-reward-relationships.json",
+      "pass": true
+    },
+    "completion_rule_is_non_empty_string": true
+  },
+  "status": "pass",
+  "interpretation": "This audit validates the structural declaration contract of the canonical PQ cross-domain index. It does not prove the underlying PQ reward relationships, endpoint identities, or absent reverse datasets.",
+  "validator_hardening_2026_09_26": {
+    "change": "Hardened the live validator to require exactly seven reverse-index declarations, unique report paths, and an exact farming source equal to forward_index.",
+    "result": "The current index satisfies the expanded schema contract; no relationship endpoint or provenance reference was changed.",
+    "validator_commit": "2d6261e1eaf08b42d0aca258a0f6fbcb131983ca",
+    "evidence_boundary": "Schema/declaration integrity only; no missing PQ reward or reverse-index dataset was reconstructed."
+  }
+}
