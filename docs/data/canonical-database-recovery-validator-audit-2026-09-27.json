@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "validator": "scripts/validate_canonical_database_recovery.py",
+  "changes": [
+    "Require verified_relationships to be a list of objects.",
+    "Map all six canonical PQ relationship types explicitly and reject unknown types.",
+    "Recompute current_counts from stored relationship rows and require exact equality with the declared counts.",
+    "Require the recovered canonical PQ relationship baseline to total exactly 840 rows."
+  ],
+  "data_changed": false,
+  "runtime_status": "unverified_by_user_direction"
+}
