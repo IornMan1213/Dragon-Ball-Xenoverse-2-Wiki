@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-saiyan-2",
+  "skill_name": "Super Saiyan 2",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "400 Ki is the second stage of the Super Saiyan Awoken Skill. Current Xenoverse 2-specific transformation documentation reports +15% Strike/+7.5% Ki Blast damage, +10% Strike/+5% Ki Blast defense, and reduced Ki restoration at this stage. Super Saiyan transformations also apply their documented vanish/teleport behavior to relevant combos and charged Ki Blasts; exact frame timing is not inferred.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
