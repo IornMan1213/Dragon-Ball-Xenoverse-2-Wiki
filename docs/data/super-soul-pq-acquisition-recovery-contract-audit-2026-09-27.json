@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0",
+  "audit_type": "super_soul_pq_acquisition_recovery_contract",
+  "audited_at": "2026-09-27",
+  "branch": "main",
+  "recovery_context": {
+    "restoration_commit": "9e15797821d41304c7c62d889a79cf0acaf3fa05",
+    "canonical_recovery_audit": "docs/data/canonical-database-recovery-integrity-audit-2026-09-27.json",
+    "purpose": "Lock the recovered Super Soul PQ acquisition layer to deterministic cross-layer identity parity before further mechanics enrichment."
+  },
+  "contract": {
+    "pq_reward_super_soul_relationships": 137,
+    "unique_super_soul_relationship_targets": 134,
+    "acquisition_index_unique_targets": 134,
+    "canonical_super_soul_record_population": 134
+  },
+  "checks": [
+    "Every pq_rewards_super_soul relationship has a non-empty string target and a PQ identifier in the supported 1-186 range.",
+    "Every Super Soul relationship target resolves to a unique canonical Super Soul record name.",
+    "Every acquisition-index target resolves back to a canonical relationship target; no unsupported extra target is permitted.",
+    "Boolean PQ identifiers are rejected because bool is a Python subclass of int."
+  ],
+  "status": "recovery_contract_defined",
+  "runtime_status": "validator_added; local/CI execution intentionally remains unverified",
+  "evidence_boundary": [
+    "The validator verifies identity and cross-layer parity only.",
+    "It does not infer missing PQ rewards, mechanics, probabilities, shop rotations, or alternate acquisition routes.",
+    "The canonical PQ reward relationship layer remains the source of truth for this acquisition projection."
+  ],
+  "validator": "scripts/validate_super_soul_pq_acquisition_recovery.py"
+}
