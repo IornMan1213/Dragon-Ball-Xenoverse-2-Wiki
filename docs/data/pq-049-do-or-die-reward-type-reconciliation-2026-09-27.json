@@ -1,0 +1,43 @@
+{
+  "audit_id": "pq-049-do-or-die-reward-type-reconciliation-2026-09-27",
+  "date": "2026-09-27",
+  "pq": 49,
+  "target": "Do or Die",
+  "previous_classification": "super_soul",
+  "corrected_classification": "skill",
+  "reason": "The canonical reward type is determined by the item classification. Independent reward evidence lists the target as a PQ 49 skill reward, and dedicated skill references identify it as a Power Up Type Super Skill.",
+  "evidence": [
+    {
+      "source": "GameFAQs Dragon Ball: Xenoverse 2 Guide and Walkthrough",
+      "url": "https://gamefaqs.gamespot.com/pc/190457-dragon-ball-xenoverse-2/faqs/73880",
+      "finding": "The PQ 49 Namek Berserker reward listing places the target in the skill reward context."
+    },
+    {
+      "source": "Dragon Ball Xenoverse 2 Fandom",
+      "url": "https://dragonball.fandom.com/wiki/Stalling",
+      "finding": "The Xenoverse 2 entry identifies Stalling, appearing as Do or Die, as a Power Up Type Super Skill obtainable from PQ 49."
+    }
+  ],
+  "affected_layers": [
+    "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/super-souls/pq-acquisition-index-001-186.json",
+    "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+    "docs/data/super-souls-record-layer.json",
+    "docs/data/pq-super-soul-crosslink-report.json"
+  ],
+  "correction": {
+    "forward_reward_map": "PQ 49 now lists the target under skills and has no Super Soul entry.",
+    "relationship_layer": "The pq-049 Super Soul edge was replaced by a pq-049 skill edge.",
+    "super_soul_acquisition_index": "The PQ 49 Super Soul entry was cleared.",
+    "reverse_index": "The target was removed from super_souls and mapped to skills [49].",
+    "super_soul_record_layer": "The erroneous super-soul-050 endpoint was removed.",
+    "crosslink_projection": "The stale PQ 49 Super Soul edge was removed and aggregate counts were decremented consistently."
+  },
+  "historical_note": "The prior misclassification is retained here as audit history; canonical data is corrected rather than treating the former verified relationship as authoritative.",
+  "validation_required": [
+    "Confirm PQ 49 forward/reverse skill parity.",
+    "Confirm no active Super Soul layer references remain for this target.",
+    "Confirm the dedicated skill record/reverse index contains the target."
+  ]
+}
