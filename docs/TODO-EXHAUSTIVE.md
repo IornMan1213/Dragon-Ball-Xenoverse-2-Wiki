@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Skill acquisition endpoint-order hardening
+- [x] Hardened `scripts/validate_skill_acquisition_metadata.py` so malformed/unhashable PQ endpoints are rejected before duplicate-set construction.
+- [x] Hardened canonical skill-ID uniqueness ordering so type validation precedes set construction.
+- [x] Updated the acquisition integrity audit; canonical data remains unchanged.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] Preserved the evidence boundary around missing `docs/data/pq-reward-relationships.json`.
+- [ ] Next deterministic audit: inspect the remaining live validator/consumer/projection layer for a concrete integrity gap.
+
 ### 2026-09-27 continuation — Partner skill validator root-container hardening
 - [x] Hardened `scripts/validate_partner_skill_relationships.py` so relationship, skill, and character-bridge JSON roots must be objects before `.get()` access.
 - [x] Added the hardening record to `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json`.
