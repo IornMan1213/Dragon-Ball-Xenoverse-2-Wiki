@@ -7,11 +7,11 @@
   "linked_super_soul_rewards": 135,
   "unique_super_soul_targets": 133,
   "detailed_endpoint_matches": 133,
-  "partial_acquisition_index_matches": 133,
+  "partial_acquisition_index_matches": 135,
   "unresolved_endpoint_names": [],
   "endpoint_coverage_gaps": [],
-  "status": "canonical_relationships_reconciled; one previously promoted PQ-155 Super Soul edge removed after direct reward-list contradiction; mechanics enrichment continues",
-  "semantics": "Canonical PQ→Super Soul relationships remain authoritative. PQ 155 no longer links to 'This is the ultimate hero!' because the direct PQ 155 reward list does not enumerate it; the standalone Super Soul identity remains preserved as unresolved rather than deleted.",
+  "status": "canonical_forward_layer_reconciled; forward/reverse endpoint parity aligned",
+  "semantics": "This report is a projection of the current canonical PQ→Super Soul relationship layer. Disputed or removed historical claims are not retained as active resolved edges; historical conflicts belong in dedicated audit/provenance records.",
   "resolved_super_soul_rewards": [
     {
       "pq": "pq-005",
@@ -572,42 +572,6 @@
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
     {
-      "pq": "pq-151",
-      "target": "I'll never forgive you!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-151",
-      "target": "I'm not gonna die until I defeat you!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-152",
-      "target": "I'll show you the power of a true warrior!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-153",
-      "target": "Don't underestimate my power!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-153",
-      "target": "I won't forgive you!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-154",
-      "target": "I'm the one who will win!",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
       "pq": "pq-156",
       "target": "This is your true power?",
       "status": "source_backed",
@@ -669,7 +633,7 @@
     },
     {
       "pq": "pq-164",
-      "target": "This place Will be your grave!",
+      "target": "This place will be your grave!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -687,7 +651,7 @@
     },
     {
       "pq": "pq-173",
-      "target": "You Will know the power of the gods!",
+      "target": "You will know the power of the gods!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -705,7 +669,7 @@
     },
     {
       "pq": "pq-178",
-      "target": "I'll take all of you on at once!",
+      "target": "I'll take you all on at once!",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -828,11 +792,42 @@
       "target": "I actually felt that one...",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "target": "I think I'm getting the hang of this.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-151",
+      "target": "I'll keep adding a bit of power to my attacks!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-152",
+      "target": "I will put a stop to you, fiend!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "target": "There's more where that came from!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-153",
+      "target": "You're not much of a fun fight!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "acquisition_index": "docs/data/super-souls/pq-acquisition-index-001-186.json",
-  "acquisition_index_semantics": "Unified PQ 1-186 acquisition index now represents all 134 unique canonical Super Soul targets; duplicate acquisition routes remain preserved.",
+  "acquisition_index_semantics": "Unified PQ 1-186 acquisition index must contain every active canonical Super Soul relationship. Duplicate acquisition routes remain preserved.",
   "research_notes": [
-    "2026-09-27: removed the previously promoted PQ 155 → 'This is the ultimate hero!' Super Soul edge after direct PQ 155 reward-list evidence was checked; the same guide lists Gamma 2 Helmet, artworks 341/342/397, Heroic Counter, Gamma Blaster, and Gamma Impact, but no Super Soul. The standalone Super Soul record is preserved as unresolved and no alternate acquisition route is inferred."
+    "2026-09-27: regenerated the active resolved projection from pq-reward-relationships.json. This removes six disputed PQ 151–154 claims and three stale capitalization variants that had remained in this report despite prior canonical-layer corrections.",
+    "2026-09-27: PQ 155 → 'This is the ultimate hero!' remains absent from the active projection after direct reward-list contradiction; super-soul-142 remains preserved as unresolved standalone catalogue data."
   ]
 }
