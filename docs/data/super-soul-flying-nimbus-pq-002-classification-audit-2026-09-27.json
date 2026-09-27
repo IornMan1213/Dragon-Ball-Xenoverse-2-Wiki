@@ -1,0 +1,19 @@
+{
+  "schema_version":"1.0",
+  "date":"2026-09-27",
+  "title":"Flying Nimbus!! PQ 2 reward-domain classification audit",
+  "target":"Flying Nimbus!!",
+  "previous_classification":"Super Soul endpoint",
+  "corrected_classification":"equipment/clothing",
+  "pq":2,
+  "evidence":[
+    {"source":"Xenoverse Wiki — PQ 02 A Deal?! The Saiyan Brothers","url":"https://dbxenoverse.fandom.com/wiki/02_-_A_Deal%3F%21_The_Saiyan_Brothers","finding":"PQ 2 basic rewards list Flying Nimbus!!, Goku's Damaged Turtle Hermit Gi, and Spirit Slash; Flying Nimbus!! is therefore a reward item, not a Super Soul."},
+    {"source":"Dragon Ball Xenoverse 2 Guide and Walkthrough — GameFAQs","url":"https://gamefaqs.gamespot.com/switch/204216-dragon-ball-xenoverse-2/faqs/74285","finding":"The guide identifies PQ reward categories and independently supports the game's PQ 2 reward inventory."}
+  ],
+  "canonical_state":{
+    "relationship_layer":"pq-002 -> pq_rewards_equipment -> Flying Nimbus!!",
+    "reverse_index":"Flying Nimbus!! -> clothing -> PQ 2",
+    "super_soul_record":"acquisition metadata cleared and endpoint retained only as unresolved historical catalogue data"
+  },
+  "rule":"Canonical reward domain is determined by the item's actual in-game/catalogue classification; a stale Super Soul endpoint must not override canonical reward typing."
+}
