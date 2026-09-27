@@ -1,0 +1,11 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "PQ→equipment validator now enforces pq-001 through pq-186 identifier format and range.",
+    "PQ→equipment validator now rejects unsupported relationship status values and whitespace-only source values.",
+    "PQ cross-domain index validator now requires its forward index path to reside under docs/data/."
+  ],
+  "canonical_data_changed": false
+}
