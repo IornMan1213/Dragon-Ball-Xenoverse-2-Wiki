@@ -32,10 +32,15 @@ def require_records(payload, label):
     return records
 
 
+def load_json(path):
+    try:
+        return json.loads(path.read_text(encoding='utf-8'))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{path}: invalid JSON: {exc}")
 def main():
-    skills=json.loads(SKILLS.read_text(encoding='utf-8'))
-    ov=json.loads(OVERRIDES.read_text(encoding='utf-8'))
-    roster_payload=json.loads(ROSTER.read_text(encoding='utf-8'))
+    skills=load_json(SKILLS)
+    ov=load_json(OVERRIDES)
+    roster_payload=load_json(ROSTER)
     skill_records=require_records(skills,'skills')
     override_records=require_records(ov,'overrides')
     if not isinstance(roster_payload, dict):
