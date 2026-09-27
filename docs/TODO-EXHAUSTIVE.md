@@ -2613,3 +2613,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current canonical equipment projection: **125 edges / 123 unique targets**; endpoint layers: **118 records / 15 exact matches / 108 identity gaps**.
 - [ ] Continue evidence-backed reconciliation of the 108 endpoint gaps; use `docs/data/accessory-pq-canonical-remaining.json` as an explicit backlog and do not infer inventory identities from generic set/component labels.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
+
+
+### 2026-09-27 continuation — PQ equipment endpoint identity promotion
+- [x] Promoted 9 unambiguous canonical PQ→equipment endpoint identities: 8 clothing/equipment + 1 accessory.
+- [x] Current PQ equipment projection: 125 edges / 123 unique targets; 127 endpoint records; 24 exact identity matches; 99 explicit endpoint-enrichment gaps.
+- [x] Refreshed PQ equipment crosslink report and integrity audit; canonical relationships remain authoritative.
+- [ ] Continue evidence-backed promotion of the remaining 99 endpoint identities; preserve ambiguous/component-only cases and route conflicts.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
