@@ -35,8 +35,8 @@
       "missing": 173
     },
     "limit_burst_effect": {
-      "populated": 96,
-      "missing": 76
+      "populated": 103,
+      "missing": 69
     },
     "usable_by_cac": {
       "populated": 118,
@@ -56,30 +56,34 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-031",
-      "super-soul-092",
-      "super-soul-101",
-      "super-soul-173",
-      "super-soul-175"
+      "super-soul-029",
+      "super-soul-030",
+      "super-soul-044",
+      "super-soul-045",
+      "super-soul-046",
+      "super-soul-047",
+      "super-soul-076"
     ],
-    "evidence_basis": "Explicit current Super Soul catalogue/character evidence for Limit Burst effects; only the previously missing limit_burst_effect field was populated, with no new trigger timing, magnitude, drop rate, or stacking inference.",
-    "note": "Five canonical records now have synchronized Limit Burst effect fields. Existing Limit Burst identity fields and acquisition relationships were preserved."
+    "evidence_basis": "Independent catalogue, character, and raid evidence explicitly states each Limit Burst effect; only limit_burst_effect was populated and no unrelated mechanics were inferred.",
+    "note": "Seven additional canonical records now have synchronized Limit Burst effect fields. Acquisition and unresolved mechanics were preserved."
   },
   "last_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-031",
-      "super-soul-092",
-      "super-soul-101",
-      "super-soul-173",
-      "super-soul-175"
+      "super-soul-029",
+      "super-soul-030",
+      "super-soul-044",
+      "super-soul-045",
+      "super-soul-046",
+      "super-soul-047",
+      "super-soul-076"
     ],
     "evidence": [
       "https://dbxv2.fandom.com/wiki/Super_Soul",
-      "https://dbxv2.fandom.com/wiki/Nappa",
-      "https://dbxv2.fandom.com/wiki/Turles",
-      "https://dbxv2.fandom.com/wiki/Raditz",
-      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29",
+      "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29",
+      "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80493233",
+      "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608362"
     ],
     "status": "limit_burst_effect_enriched"
   },
