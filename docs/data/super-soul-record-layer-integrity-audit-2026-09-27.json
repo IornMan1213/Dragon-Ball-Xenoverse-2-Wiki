@@ -11,8 +11,20 @@
   "canonical_targets_with_endpoint": 134,
   "canonical_targets_without_endpoint": [],
   "indexed_endpoint_promotions": 126,
-  "mechanics_enrichment_pending": 130,
+  "mechanics_enrichment_pending": 115,
   "status": "passed",
   "interpretation": "All canonical PQ Super Soul target identities have endpoint records. Mechanics fields remain explicitly partial where repository evidence has not been promoted; missing values are not negative claims.",
-  "audit_tool_write_probe": "2026-09-27"
+  "audit_tool_write_probe": "2026-09-27",
+  "latest_mechanics_batch": {
+    "date": "2026-09-27",
+    "records_enriched": 5,
+    "records": [
+      "super-soul-061",
+      "super-soul-062",
+      "super-soul-063",
+      "super-soul-064",
+      "super-soul-065"
+    ],
+    "remaining_partial_mechanics_records": 115
+  }
 }
