@@ -4554,3 +4554,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved reward probabilities, exact frames, hidden conditions, disputed acquisition semantics, and patch-independent scaling rather than inferring them.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Exact next: continue the stale canonical Skill frontier after Raid Blast; re-fetch live SHAs before every mutation.
+
+
+### 2026-09-27 continuation — Recovery baseline supersedes stale endpoint-gap note
+- [x] Reconciled the recovery state against the current live main tree after the latest recovery-forward promotions.
+- [x] Confirmed canonical database recovery is materially present: 474 unique canonical skills, 474 matching skill-index records, 474 canonical skills represented by the Skill→PQ reverse layer, 246 Skill→PQ edges across 170 PQs, and 840 canonical PQ reward relationships (236 skill / 137 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming).
+- [x] Confirmed the recovered canonical PQ equipment projection is currently 125 edges / 123 unique targets with 123 endpoint identity matches and **0 endpoint identity gaps**. Any older handoff text stating 72 remaining equipment endpoint identity gaps is stale and must not be used as the current frontier.
+- [x] Confirmed the recovered Super Soul PQ acquisition layer has 137 canonical relationships, 134 unique targets, 134 endpoint targets, and 168 canonical Super Soul records; all canonical PQ Super Soul targets currently resolve to endpoint identities.
+- [x] Preserved canonical-source priority: recovery used surviving canonical blobs/relationship stores rather than rebuilding canonical data from secondary indexes or datasets marked verified true.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue substantive evidence-backed enrichment from the live frontier. Prioritize the Super Soul mechanics backlog (80 records still marked partial in the latest integrity audit) and other cross-domain coverage gaps; do not reopen already-complete equipment endpoint identity work unless a fresh census proves regression.
