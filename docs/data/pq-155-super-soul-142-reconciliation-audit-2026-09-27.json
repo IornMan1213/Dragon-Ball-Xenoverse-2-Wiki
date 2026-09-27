@@ -1,0 +1,32 @@
+{
+  "audit_id": "pq-155-super-soul-142-reconciliation-audit-2026-09-27",
+  "status": "corrected_canonical_attribution",
+  "decision": "remove_pq_reward_edge",
+  "target": "This is the ultimate hero!",
+  "target_id": "super-soul-142",
+  "pq": 155,
+  "evidence": [
+    {
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "finding": "Direct PQ 155 reward list enumerates Gamma 2 Helmet, artworks 341/342/397, Heroic Counter, Gamma Blaster, and Gamma Impact; no Super Soul is listed."
+    },
+    {
+      "source": "https://dbxv2.fandom.com/wiki/DLC",
+      "finding": "DLC 14 lists five new Super Souls and associates them with PQ 156–158; it does not associate this title with PQ 155."
+    }
+  ],
+  "changes": [
+    "docs/data/pq-reward-normalization/pq-143-162-reward-map.json → PQ 155 super_souls=[]",
+    "docs/data/pq-reward-relationships.json → removed pq-155/pq_rewards_super_soul edge",
+    "docs/data/super-souls/pq-acquisition-index-001-186.json → PQ 155 super_souls=[]",
+    "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json → removed reverse index entry",
+    "docs/data/super-souls-record-layer.json → cleared unsupported PQ 155 acquisition fields; preserved standalone identity as unresolved",
+    "docs/data/pq-super-soul-crosslink-report.json → removed stale resolved crosslink"
+  ],
+  "rule": "Do not infer an acquisition route from a recovered/stale relationship when direct item/reward evidence contradicts it.",
+  "notes": [
+    "This is a correction, not deletion of the standalone Super Soul record.",
+    "No alternate acquisition source is asserted.",
+    "The older disputed-provenance history remains available through repository history/audit files."
+  ]
+}
