@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — Skill→PQ endpoint validation-order hardening
+- [x] Inspected the live `scripts/validate_skill_pq_crosslinks.py` after the prior duplicate guard.
+- [x] Found a concrete robustness gap: duplicate detection ran before endpoint type/range validation, so a malformed unhashable `source_parallel_quests` value could reach `set()` and raise an uncontrolled `TypeError`.
+- [x] Hardened the validator so a present `source_parallel_quests` field must be a list, each endpoint is validated as a non-boolean integer in supported range **1–186**, and only then is duplicate detection performed.
+- [x] Updated `docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json`; the canonical **474-skill / 246-edge / 170-represented-PQ** projection remains unchanged.
+- [x] No canonical skill, PQ reward, or cross-domain relationship data was inferred or modified.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the remaining live validator/consumer layer for another concrete integrity gap; preserve the missing general `docs/data/pq-reward-relationships.json` evidence boundary.
+
 ### 2026-09-27 continuation — Skill acquisition endpoint-order hardening
 - [x] Hardened `scripts/validate_skill_acquisition_metadata.py` so malformed/unhashable PQ endpoints are rejected before duplicate-set construction.
 - [x] Hardened canonical skill-ID uniqueness ordering so type validation precedes set construction.
