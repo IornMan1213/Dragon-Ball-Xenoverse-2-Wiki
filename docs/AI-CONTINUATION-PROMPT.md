@@ -4281,3 +4281,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical/index synchronization and eight audit registrations are recorded in the Batch 507 manifest; canonical identity changes remain 0.
 - [x] No unsupported Skill→PQ edges or unsupported mechanics/probability claims were promoted.
 - [ ] Next exact: Batch 508 fresh census from the current live corpus; oldest remaining frontier begins with **Destructive Fission, Destructive Flare, Destructive Fracture, Destructo-Disc, DIE DIE Missile Barrage, Dimension Cannon, Dimension Ray, Dimensional Hole**.
+
+
+### 2026-09-27 continuation — Batch 508 reconciliation
+- [x] Verified live Batch 508 state: **Burst Charge, Dark Inscription, Darkness Eye Beam, Darkness Rush (Melee), Darkness Rush (Ranged), Darkness Twin Star, Data Input, Deadly Dance** were refreshed with 0 canonical identity changes.
+- [x] Reconciled the previously pending `skills-index.json` synchronization; all eight Batch 508 records now carry the current refresh date in the index layer.
+- [x] Finalized the Batch 508 manifest and preserved evidence/reward conflicts and the Skill→PQ evidence boundary.
+- [ ] Next exact: fresh Batch 509 census from the live 474-record corpus and next cross-domain enrichment.
