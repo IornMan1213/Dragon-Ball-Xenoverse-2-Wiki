@@ -4037,3 +4037,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Post-batch validation: canonical/index counts are 474/474; the same three pre-existing last_verified mismatches remain isolated (Phantom Fist, Rise to Action, Rising Rage).
 - [ ] 235 canonical skill records remain older than 2026-09-27.
 - [ ] Exact next: Batch 517 beginning with Explosive Wave, Eye Beam, Fake Blast, Feint Shot, Fierce Fist, Fighting Pose E, Fighting Pose K, Final Cannon, Final Charge, and Final Explosion.
+
+## 2026-09-27 — Batch 516 completed
+- [x] Batch 516 current-evidence refresh: 12 Skill records from Eraser Bomb through Explosive Buu Buu Punch.
+- [x] Canonical/index parity maintained; no identity or relationship changes.
+- [ ] Continue stale canonical Skill frontier: 235 records remain, starting Explosive Wave → Eye Beam → Fake Blast → Feint Shot → Fierce Fist → Fighting Pose E → Fighting Pose K → Final Cannon.
+- [ ] Resolve the three pre-existing canonical/index date mismatches only with provenance support.
