@@ -1,0 +1,24 @@
+{
+  "batch": 508,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Burst Charge",
+    "Dark Inscription",
+    "Darkness Eye Beam",
+    "Darkness Rush (Melee)",
+    "Darkness Rush (Ranged)",
+    "Darkness Twin Star",
+    "Data Input",
+    "Deadly Dance"
+  ],
+  "selection_rule": "Fresh post-Batch-507 census from the live 474-record corpus; each selected record lacked a 2026-09-27 current-evidence refresh.",
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "synchronized_layers": [
+    "docs/data/skills.json"
+  ],
+  "index_sync_status": "Pending concurrent-mutation reconciliation for docs/data/skills-index.json; no index changes were forced over another writer.",
+  "evidence_boundary": "Existing acquisition/reward-tier/source conflicts remain preserved. Unsupported exact frames, hidden interactions, universal scaling, reward probabilities, and new Skill→PQ edges were not promoted.",
+  "projection_note": "No new Skill→PQ edges inferred."
+}
