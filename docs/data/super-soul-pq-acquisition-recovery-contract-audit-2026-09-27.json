@@ -12,13 +12,13 @@
     "pq_reward_super_soul_relationships": 137,
     "unique_super_soul_relationship_targets": 134,
     "acquisition_index_unique_targets": 134,
-    "canonical_super_soul_record_population": 134
+    "canonical_super_soul_record_population": 168
   },
   "checks": [
     "Every pq_rewards_super_soul relationship has a non-empty string target and a PQ identifier in the supported 1-186 range.",
     "Every Super Soul relationship target resolves to a unique canonical Super Soul record name.",
     "Every acquisition-index target resolves back to a canonical relationship target; no unsupported extra target is permitted.",
-    "Boolean PQ identifiers are rejected because bool is a Python subclass of int."
+    "PQ relationship identifiers must use the canonical `pq-###` string format and resolve to the supported 1-186 range."
   ],
   "status": "recovery_contract_defined",
   "runtime_status": "validator_added; local/CI execution intentionally remains unverified",
