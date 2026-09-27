@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Partner skill identity uniqueness hardening
+- [x] Inspected the live `scripts/validate_partner_skill_relationships.py` as the next deterministic relationship validator.
+- [x] Found a projection gap: canonical skill IDs and bridge partner names were converted to sets, so duplicate identity records could be silently collapsed and escape detection.
+- [x] Hardened the validator to detect duplicate canonical skill IDs and duplicate canonical bridge partner names before set-based relationship resolution.
+- [x] Updated `docs/data/partner-skill-relationship-validator-audit-2026-09-26.json`; the existing **474-skill / 3 explicit relationship** projection remains unchanged.
+- [ ] Runtime validator execution and CI/build remain unverified.
+- [x] **Exact next:** inspect the remaining live deterministic validator/consumer for another concrete schema/type/range/identity/projection mismatch; preserve the missing general PQ reward layer as an evidence boundary.
+
 ### 2026-09-27 continuation — Character presentation source-container hardening
 - [x] Inspected the live `scripts/validate_character_presentation_consumers.py` as the next deterministic consumer after the skill-acquisition validator.
 - [x] Found a robustness gap: canonical names and consumer records were projected into sets/maps before their container/item types were validated, allowing malformed data to raise uncontrolled type errors rather than deterministic validation failures.
