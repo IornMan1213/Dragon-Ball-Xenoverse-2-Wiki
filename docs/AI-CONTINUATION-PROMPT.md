@@ -1,3 +1,12 @@
+### 2026-09-27 continuation — Awoken/skill builder integrity hardening
+- [x] Hardened `apply_awoken_overrides.py` against malformed JSON, wrong root/container types, and malformed Awoken identity fields.
+- [x] Removed Awoken identity coercion during override matching.
+- [x] Hardened `build_skills_from_research.py` existing-record identity loading so malformed identity fields are not silently normalized.
+- [x] Added `docs/data/awoken-skill-builder-integrity-audit-2026-09-27.json`.
+- [x] No canonical data was intentionally changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue auditing remaining builders/auditors for concrete schema, identity, provenance, and cross-domain integrity gaps.
+
 ### 2026-09-27 continuation — Skills/PQ reconciliation validator hardening
 - [x] Hardened `scripts/validate_skills.py` against malformed JSON, wrong root/container types, and malformed canonical identity fields.
 - [x] Removed identity coercion in the canonical skill-key projection.
