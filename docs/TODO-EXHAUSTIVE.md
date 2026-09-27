@@ -2910,3 +2910,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed the Super Soul mechanics enrichment audit and advanced field coverage to trigger 54/168, effect 62/168, magnitude 56/168, duration 46/168, stacking 27/168, Limit Burst 52/168, Limit Burst effect 32/168, CaC 62/168.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed mechanics enrichment without treating missing fields as negative facts.
+
+
+### 2026-09-27 TODO progress update — Super Soul mechanics batch 3
+- [x] Enriched Don't quit! Get up!, This is not a weapon., I've been saving this! Kaioken!, Now you understand. Surrender., and How Dare You...! That's My Bulma.
+- [x] Refreshed mechanics/integrity audits and advanced coverage to trigger 59/168, effect 67/168, magnitude 61/168, duration 49/168, stacking 28/168, Limit Burst 57/168, Limit Burst effect 37/168, CaC 67/168.
+- [x] Reduced the remaining partial mechanics frontier to **115 records**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment without treating missing fields as negative facts.
