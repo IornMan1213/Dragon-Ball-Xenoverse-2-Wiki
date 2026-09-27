@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-warp-kamehameha",
+  "skill_name": "Warp Kamehameha",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "Current dedicated skill evidence reconfirms the corrected 400-Ki cost, tracking/warp behavior, and current classification. The earlier stale 300-Ki value is not reintroduced; unsupported exact frames and scaling remain unresolved.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and reward probabilities are not asserted."
+}
