@@ -3400,3 +3400,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Limit Burst coverage is now **107/172**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the evidence-backed thin-record sweep; do not promote unresolved PQ 185/186 community claims to canonical truth.
+
+
+### 2026-09-27 continuation — Future Saga evidence reconciliation
+- [x] Added newer secondary evidence/provenance for Super Souls 032–035.
+- [x] Preserved canonical-data-first policy; no community-only mechanics promoted to verified truth.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: direct-evidence sweep for remaining thin records 001,005,007,013,015,016,076.
