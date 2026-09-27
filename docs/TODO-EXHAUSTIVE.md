@@ -3651,3 +3651,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved bounded evidence and historical snapshots; no unsupported exact frames, hidden gates, probabilities, or patch-independent scaling were promoted to canonical facts.
 - [ ] Next priority: perform a new **Batch 498** census from the live 474-record corpus, excluding Batch 496 and 497 candidates, then continue current-evidence/mechanics enrichment.
 - [ ] Re-run PQ→skill and skill→PQ navigation integrity after the next enrichment cycle and continue expansion toward the 672 indexed-category target.
+
+
+### 2026-09-27 — Batch 498 completion
+- [x] Eight additional Skills received current-evidence refresh: Quick Sleep; Meteor Burst; Kill Driver; Fighting Pose G; Punisher Shield; Fighting Pose B; Fake Death; Mach Dash.
+- [x] Canonical/index synchronization completed with no identity changes; 474/474 baseline retained.
+- [x] Batch 498 manifest and dated audit artifacts recorded; historical research snapshots were not mass-rewritten.
+- [x] Evidence boundaries preserved; unresolved exact frames/scaling/hidden interactions/probabilities remain unresolved.
+- [ ] Batch 499 fresh census and enrichment.
+- [ ] Post-Batch-499 PQ↔Skill projection reconciliation.
