@@ -3332,3 +3332,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added a dedicated classification audit preserving the historical discrepancy.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue stale Super Soul endpoint audit with evidence-first validation.
+
+### 2026-09-27 continuation — PQ 007 Gyau!!!! reconciliation
+- [x] Confirmed Gyau!!!! is a genuine PQ 7 Super Soul reward rather than stale endpoint metadata.
+- [x] Synchronized the normalized PQ map, relationship layer, acquisition index, reverse index, and crosslink projection.
+- [x] Added a provenance/reconciliation audit.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the evidence-first Super Soul acquisition parity scan.
