@@ -1,0 +1,155 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "pq_equipment",
+  "source": "docs/data/accessory-pq-research.json",
+  "purpose": "Evidence-backed candidate queue for accessory endpoint enrichment. Candidates are not promoted into the canonical endpoint layer automatically.",
+  "candidate_count": 23,
+  "candidates": [
+    {
+      "research_id": "pqacc-002",
+      "name": "Four-Star Dragon Ball Hat",
+      "pq": 5,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-003",
+      "name": "Chiaotzu's Hat (With Collar)",
+      "pq": 9,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-006",
+      "name": "Dore's Scouter",
+      "pq": 27,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-009",
+      "name": "Great Saiyaman Bandana 1",
+      "pq": 51,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-010",
+      "name": "Great Saiyaman Bandana 2",
+      "pq": 53,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-012",
+      "name": "Jaco's State-of-the-Art Radio",
+      "pq": 72,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-013",
+      "name": "Tagoma's Scouter",
+      "pq": 73,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-014",
+      "name": "SSGSS Goku Wig",
+      "pq": 76,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-016",
+      "name": "Yamcha Baseball Hat",
+      "pq": 97,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-017",
+      "name": "SSGSS Vegeta Wig",
+      "pq": 100,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-018",
+      "name": "SS4 Wig & Tail (Goku)",
+      "pq": 110,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-021",
+      "name": "Resistance Helmet",
+      "pq": 111,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-022",
+      "name": "Android 13's Hat",
+      "pq": 105,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-023",
+      "name": "Android 14's Hat",
+      "pq": 104,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-025",
+      "name": "Bardock (DB Super)'s Scouter",
+      "pq": 146,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-030",
+      "name": "Red Ribbon Army Helmet",
+      "pq": 160,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-031",
+      "name": "Gohan (Beast) Wig",
+      "pq": 162,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-032",
+      "name": "Videl (DB Super) Wig",
+      "pq": 168,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-033",
+      "name": "Dr. Hedo Hood",
+      "pq": 159,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-040",
+      "name": "Dragon Ball Balloon",
+      "pq": 184,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-042",
+      "name": "Android 17 (DB Super) Wig",
+      "pq": 152,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-043",
+      "name": "King Vegeta (DB Super) Wig",
+      "pq": 154,
+      "endpoint_status": "candidate_not_promoted"
+    },
+    {
+      "research_id": "pqacc-045",
+      "name": "Gamma 1's Helmet",
+      "pq": 156,
+      "endpoint_status": "candidate_not_promoted"
+    }
+  ],
+  "rules": [
+    "Research-layer evidence is sufficient to queue these identities for endpoint enrichment, but does not by itself establish canonical inventory identity.",
+    "Historical conflicts and component-level ambiguities remain preserved in accessory-pq-canonical-remaining.json.",
+    "No canonical endpoint is created merely because a PQ research record exists.",
+    "Canonical PQ→equipment relationships remain authoritative; this queue is an enrichment aid only."
+  ],
+  "status": "ready_for_identity_reconciliation"
+}
