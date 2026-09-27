@@ -1,0 +1,10 @@
+{
+  "skill_name": "Freedom Kick",
+  "batch": 502,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Strike Super from PQ29; current evidence reconfirms tracking multi-kick rush and downward knockback. Exact frames and scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded corroboration.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
