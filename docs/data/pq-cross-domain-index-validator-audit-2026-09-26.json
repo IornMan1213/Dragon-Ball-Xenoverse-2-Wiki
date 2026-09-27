@@ -56,5 +56,11 @@
     "result": "The expanded declaration checks pass, while the live forward-index existence check remains failed because docs/data/pq-reward-relationships.json is absent. No relationship endpoint or provenance reference was changed.",
     "validator_commit": "2d6261e1eaf08b42d0aca258a0f6fbcb131983ca",
     "evidence_boundary": "Schema/declaration integrity and direct forward-index reachability only; the missing general PQ reward layer is not reconstructed from partial skill/reverse data."
+  },
+  "validator_hardening_2026_09_27": {
+    "change": "Forward-index declarations must now be repository-relative paths; absolute paths and parent-directory traversal segments are rejected before filesystem resolution.",
+    "result": "The current declared forward source remains unavailable in the live tree, so the existing forward-index reachability failure is unchanged.",
+    "validator_commit": "35888ac54a1b9fd63f5d55ef47011eaf79646d77",
+    "evidence_boundary": "Path-integrity/schema validation only; this does not create or infer the missing PQ reward relationship layer."
   }
 }
