@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "scope": "Super Soul 032/034 direct-evidence recovery follow-up",
+  "source_policy": "Canonical identity and acquisition remain authoritative; secondary evidence is retained only with explicit provenance and does not become primary mechanics truth.",
+  "records": [
+    {
+      "id": "super-soul-032",
+      "name": "This power... It's different from any I've ever had.",
+      "acquisition_source": "PQ 185",
+      "effect": "Boosts all abilities.",
+      "limit_burst": null,
+      "limit_burst_effect": null,
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    },
+    {
+      "id": "super-soul-034",
+      "name": "The final battle begins now.",
+      "acquisition_source": "PQ 186",
+      "effect": "Effect unresolved; identity and PQ inventory presence are established, but item-level mechanics have not been independently confirmed.",
+      "limit_burst": null,
+      "limit_burst_effect": null,
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super/"
+      ]
+    }
+  ],
+  "evidence_findings": [
+    {
+      "record_id": "super-soul-032",
+      "finding": "Current independent evidence supports PQ185 reward inventory identity and a secondary report of +20% to all abilities below 50% HP. No direct item-level Limit Burst evidence sufficient for canonical promotion was found.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/"
+      ]
+    },
+    {
+      "record_id": "super-soul-034",
+      "finding": "Current independent PQ documentation confirms PQ186 reward inventory identity. Current community discussion does not establish a reliable effect; no direct item-level mechanics or Limit Burst evidence sufficient for canonical promotion was found.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super/"
+      ]
+    }
+  ],
+  "decision": "No canonical mechanics mutation. Evidence boundary preserved; continue research through direct item-level/game-data evidence."
+}
