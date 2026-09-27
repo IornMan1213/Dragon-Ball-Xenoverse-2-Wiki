@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "super_souls",
+  "record_layer": "docs/data/super-souls-record-layer.json",
+  "validator": "scripts/validate_super_soul_record_layer.py",
+  "record_count": 158,
+  "unique_ids": 158,
+  "unique_names": 158,
+  "canonical_pq_super_soul_targets": 134,
+  "canonical_targets_with_endpoint": 124,
+  "canonical_targets_without_endpoint": [
+    "I'm neither Kami nor Piccolo...",
+    "Time to dismantle you androids!",
+    "I am the universe's strongest!",
+    "I got back my youth and vigor!",
+    "Goku the legendary Super Saiyan!",
+    "I'll use all my strength to kill you.",
+    "I wanted to kill you with my own hands.",
+    "I am...Super Vegeta!!",
+    "This fight...is truly pointless...",
+    "I actually felt that one..."
+  ],
+  "indexed_endpoint_promotions": 116,
+  "mechanics_enrichment_pending": 124,
+  "status": "passed_with_enrichment_gaps",
+  "interpretation": "All promoted endpoints have deterministic identity, required source, and verification-status fields. Missing ten canonical target endpoints remain explicit enrichment gaps; no mechanics are inferred to close them."
+}
