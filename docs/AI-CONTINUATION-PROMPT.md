@@ -3633,3 +3633,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Commits: reward map `6350e3537d0b886e74c6e9ace70eb3756d9c255f`; relationship layer `1b3c1d692912b880569995a2fde442ea0acaa32e`; acquisition index `fe591548a34325f9421507e6bde53fbef00813c7`; reverse index `17fcae42f408bf4a31747fa74c9959890ac135c4`; record layer `2dce539dc607b61e47812409068daa431586ee1b`; crosslink report `98b3ed3af11dcdb7af2d97894928152e70c08022`; audit `c9f679e58acf30d0c5a059851cdb2186ce319035`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** audit the next unresolved/recovered canonical Super Soul relationship for the same class of stale-edge/map drift, prioritizing records whose acquisition fields are still populated but whose current direct PQ reward evidence omits the item. Keep the standalone record when identity evidence exists; remove only unsupported acquisition edges.
+
+
+### 2026-09-27 continuation — PQ 49 reward-type reconciliation
+- [x] Identified a cross-domain classification error: `Do or Die` had been represented as a Super Soul even though independent reward evidence identifies it as a Super Skill from PQ 49.
+- [x] Corrected `docs/data/pq-reward-normalization/pq-041-080-reward-map.json`: PQ 49 now lists `Do or Die` under skills and has no Super Soul entry.
+- [x] Corrected `docs/data/pq-reward-relationships.json`: replaced the PQ 49 Super Soul edge with a PQ 49 skill edge.
+- [x] Corrected `docs/data/super-souls/pq-acquisition-index-001-186.json` and `docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json`.
+- [x] Removed the erroneous `super-soul-050` endpoint from `docs/data/super-souls-record-layer.json`.
+- [x] Removed the stale PQ 49 Super Soul projection and synchronized its aggregate counts in `docs/data/pq-super-soul-crosslink-report.json`.
+- [x] Added `docs/data/pq-049-do-or-die-reward-type-reconciliation-2026-09-27.json` with evidence, affected layers, and historical correction rationale.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: verify the dedicated skill record/reverse index for `Do or Die`, then continue auditing the next cross-domain reward-type mismatch or unresolved canonical Super Soul relationship.
