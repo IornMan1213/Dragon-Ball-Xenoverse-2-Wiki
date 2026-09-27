@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Partner Customization integer identity hardening
+- [x] Inspected the live `scripts/validate_partner_customization_character_navigation.py`.
+- [x] Found a concrete Python type-integrity gap: `bool` is a subclass of `int`, so boolean values could satisfy positive-integer checks for Partner Customization key numbers.
+- [x] Hardened key-number and reconciliation-key validation, including malformed-field reporting, to explicitly reject booleans.
+- [x] No canonical Partner Customization or character data changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap.
+
 ### 2026-09-27 continuation — Awoken integrity identity validation hardening
 - [x] Inspected the live `scripts/validate_awoken_integrity.py`.
 - [x] Found a concrete identity-integrity gap: canonical and override keys used `str(...)` coercion, and canonical records were projected directly into a dictionary, allowing malformed identity fields to be silently normalized or duplicate identities to overwrite earlier records.
