@@ -5,7 +5,7 @@
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_skill_dataset": "docs/data/skills.json",
   "canonical_skill_records": 474,
-  "linked_skill_rewards": 235,
+  "linked_skill_rewards": 236,
   "alias_matches": [
     {
       "pq": 46,
@@ -24,15 +24,16 @@
       "skill": "Giant Cluster",
       "canonical_skill": "Gigantic Cluster",
       "match": "alias"
-    }
-  ],
-  "unresolved": [
+    },
     {
       "pq": 90,
-      "skill": "III Bomber"
+      "skill": "III Bomber",
+      "canonical_skill": "Ill Bomber",
+      "match": "alias"
     }
   ],
-  "status": "unresolved_links",
+  "unresolved": [],
+  "status": "resolved",
   "unique_forward_relationships": 236,
   "resolved_skill_rewards": [
     {
@@ -1444,6 +1445,12 @@
       "skill": "Kaioken Kamehameha",
       "canonical_skill": "Kaioken Kamehameha",
       "match": "exact"
+    },
+    {
+      "pq": 90,
+      "skill": "III Bomber",
+      "canonical_skill": "Ill Bomber",
+      "match": "alias"
     }
   ],
   "legacy_batch_projection": {
