@@ -1,0 +1,10 @@
+{
+  "skill_id": "skill-super-saiyan-blue-kaioken",
+  "skill_name": "Super Saiyan Blue Kaioken",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 501 refresh: current transformation documentation reconfirms this as a character-only Goku transformation rather than an independently unlockable CaC Awoken Skill; normal and x10 stages remain documented. Existing 500-Ki activation and stamina-drain behavior are retained without adding unsupported stacking caps or timing.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
+}
