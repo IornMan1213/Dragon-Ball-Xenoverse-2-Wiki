@@ -1,0 +1,28 @@
+{
+  "batch": 519,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "records_refreshed": 12,
+  "selected": [
+    "Gamma Blaster",
+    "Gamma Impact",
+    "Genocide Shell",
+    "Gigantic Breaker",
+    "Gigantic Burst",
+    "Gigantic Charge",
+    "Gigantic Cluster",
+    "Gigantic Cross",
+    "Gigantic Explosion",
+    "Gigantic Nova",
+    "Gigantic Rage",
+    "Gigantic Roar"
+  ],
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Existing acquisition/reward conflicts are preserved. Unsupported exact frames, hidden conditions, patch-independent scaling, and reward probabilities are not inferred.",
+  "sources": [
+    "https://dbxv2.fandom.com/",
+    "https://dragonball.fandom.com/"
+  ]
+}
