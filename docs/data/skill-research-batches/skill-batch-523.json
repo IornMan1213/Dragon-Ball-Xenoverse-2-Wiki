@@ -1,0 +1,34 @@
+{
+  "batch": 523,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Last Emperor",
+    "Light Grenade",
+    "Lightning Impact",
+    "Lightning of Absolution",
+    "Lovely Cyclone",
+    "Maiden Blast",
+    "Masenko",
+    "Maximum Charge",
+    "Meteor Blow",
+    "Meteor Crash",
+    "Meteor Explosion",
+    "Meteor Strike",
+    "Mighty Explosive Wave",
+    "Milky Cannon",
+    "Murder Grenade",
+    "Mystic Flash"
+  ],
+  "records_refreshed": 16,
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data remains source of truth; current external evidence was used to recheck identity/classification/acquisition or documented technique presence. No unsupported reward probabilities, exact frames, hidden conditions, patch-independent scaling, or unverified numeric values were inferred.",
+  "sources": [
+    "https://dragonballxenoverse2wiki.wiki/mentors/dragon-ball-xenoverse-2-all-mentors/",
+    "https://www.gameskinny.com/tips/dragon-ball-xenoverse-2-instructor-guide/",
+    "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/79680756",
+    "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+  ]
+}
