@@ -1,0 +1,30 @@
+{
+  "batch": 497,
+  "date": "2026-09-27",
+  "status": "complete",
+  "scope": "Fresh post-Batch-496 census against the complete 474-record canonical Skills corpus and the full checked-in current-evidence audit tree.",
+  "methodology": "Compared canonical skill slugs against 446 existing skill current-evidence audit artifacts. Selected the first eight canonical records without a registered current-evidence audit artifact, then refreshed their existing current Xenoverse 2 evidence and synchronized current-facing records. Historical research batches were not rewritten.",
+  "selected": [
+    "Become Giant",
+    "Blaster Cannon",
+    "Burning Shot",
+    "Buu Buu Ball",
+    "Candy Beam",
+    "Chaos Wall",
+    "Core Breaker",
+    "Crazy Finger Shot"
+  ],
+  "evidence_files": [
+    "docs/data/skill-become-giant-current-evidence-audit-2026-09-27-batch-497.json",
+    "docs/data/skill-blaster-cannon-current-evidence-audit-2026-09-27-batch-497.json",
+    "docs/data/skill-burning-shot-current-evidence-audit-2026-09-27-batch-497.json",
+    "docs/data/skill-buu-buu-ball-current-evidence-audit-2026-09-27-batch-497.json",
+    "docs/data/skill-candy-beam-current-evidence-audit-2026-09-27-batch-497.json",
+    "docs/data/skill-chaos-wall-current-evidence-audit-2026-09-27-batch-497.json",
+    "docs/data/skill-core-breaker-current-evidence-audit-2026-09-27-batch-497.json",
+    "docs/data/skill-crazy-finger-shot-current-evidence-audit-2026-09-27-batch-497.json"
+  ],
+  "canonical_sync": "474 canonical Skills and 474 index records retained; selected eight last_verified values synchronized to 2026-09-27.",
+  "remaining_unaudited_before_batch": 95,
+  "next": "Fresh census for Batch 498; continue from the remaining unaudited canonical records without reusing Batch 497 candidates."
+}
