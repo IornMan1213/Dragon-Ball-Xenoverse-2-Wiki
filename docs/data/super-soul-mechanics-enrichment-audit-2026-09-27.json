@@ -7,40 +7,40 @@
   "records": 168,
   "fields": {
     "trigger_condition": {
-      "populated": 44,
-      "missing": 124
+      "populated": 54,
+      "missing": 114
     },
     "effect_text": {
-      "populated": 52,
-      "missing": 116
+      "populated": 62,
+      "missing": 106
     },
     "effect_magnitude": {
+      "populated": 56,
+      "missing": 112
+    },
+    "duration": {
       "populated": 46,
       "missing": 122
     },
-    "duration": {
-      "populated": 40,
-      "missing": 128
-    },
     "stacking_behavior": {
-      "populated": 25,
-      "missing": 143
+      "populated": 27,
+      "missing": 141
     },
     "limit_burst": {
-      "populated": 42,
-      "missing": 126
+      "populated": 52,
+      "missing": 116
     },
     "limit_burst_trigger": {
       "populated": 0,
       "missing": 168
     },
     "limit_burst_effect": {
-      "populated": 22,
-      "missing": 146
+      "populated": 32,
+      "missing": 136
     },
     "usable_by_cac": {
-      "populated": 52,
-      "missing": 116
+      "populated": 62,
+      "missing": 106
     },
     "race_restriction": {
       "populated": 3,
@@ -52,5 +52,16 @@
     }
   },
   "policy": "Coverage counts are read directly from canonical records. Missing values remain unresolved; no mechanics are inferred or filled solely to increase coverage.",
-  "status": "passed_with_partial_mechanics_coverage"
+  "status": "passed_with_partial_mechanics_coverage",
+  "latest_batch": {
+    "date": "2026-09-27",
+    "promoted_records": [
+      "super-soul-055",
+      "super-soul-056",
+      "super-soul-057",
+      "super-soul-059",
+      "super-soul-060"
+    ],
+    "evidence_basis": "Current Super Soul catalogue and guide/character evidence; no unsupported drop or undocumented mechanics inferred."
+  }
 }
