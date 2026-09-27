@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "validate_pq_skill_links.py now rejects malformed JSON deterministically, validates reverse-index pq_ids/entries/skill arrays before projection, and requires canonical verified_relationships to be a list.",
+    "validate_pq_cross_domain_index.py now converts malformed JSON into a deterministic validation failure instead of an uncaught parser exception."
+  ],
+  "canonical_data_changed": false
+}
