@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — Research/Super Soul validator hardening
+- [x] Research-batch validation now rejects malformed roots and non-list `corrections`/`records` containers instead of silently skipping them.
+- [x] Super Soul record validation now catches only expected OSError/JSON decode failures.
+- [x] Added `docs/data/research-super-soul-validator-hardening-audit-2026-09-27.json`.
+- [x] No canonical data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** finish the remaining validator integrity sweep and begin substantive endpoint/cross-domain enrichment where integrity is already sufficient.
+
 ### 2026-09-27 continuation — Super Soul/equipment audit hardening
 - [x] Hardened `audit_super_soul_mechanics_coverage.py` for JSON/root/record integrity.
 - [x] Hardened `audit_pq_equipment_endpoint_coverage.py` for relationship and endpoint-container integrity and non-coercive identities.
