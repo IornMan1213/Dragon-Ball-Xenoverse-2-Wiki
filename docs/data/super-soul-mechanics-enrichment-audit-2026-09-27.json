@@ -35,8 +35,8 @@
       "missing": 167
     },
     "limit_burst_effect": {
-      "populated": 163,
-      "missing": 4
+      "populated": 164,
+      "missing": 3
     },
     "usable_by_cac": {
       "populated": 164,
@@ -56,15 +56,13 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-138",
-      "super-soul-139",
-      "super-soul-140",
-      "super-soul-141",
-      "super-soul-142"
+      "super-soul-035"
     ],
-    "status": "legacy_provenance_rejected",
-    "canonical_promotion": false,
-    "note": "Git history traced on 2026-09-27. Commit 61c0de8 (2026-09-23) explicitly removed the five names from PQ151-155 as uncorroborated indexed-only/misidentified records. Commit bddb50b confirms corrected PQ151-155 reward listings omit them. Preserve their history for auditability, but do not treat them as valid unresolved catalogue identities or acquisition targets."
+    "status": "limit_burst_effect_enriched",
+    "evidence": [
+      "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the/"
+    ],
+    "note": "Secondary player discussion explicitly identifies Auto Just Guard for this Super Soul. Promoted as verified_secondary only; no primary canonical mechanics source was substituted."
   },
   "last_batch": {
     "date": "2026-09-27",
@@ -105,7 +103,7 @@
       "decision": "retain records as rejected legacy artifacts, not active catalogue identities"
     }
   },
-  "audit_note": "Integrity correction 2026-09-27: active mechanics coverage excludes five explicitly rejected legacy/misidentified identities (super-soul-138 through super-soul-142). Total historical layer remains 172; active records are 167. No gameplay mechanics were inferred or changed.",
+  "audit_note": "Active coverage excludes five rejected legacy/misidentified identities. Historical layer remains 172 records; active records remain 167. Missing mechanics remain unresolved unless explicit evidence supports enrichment.",
   "total_record_count": 172,
   "excluded_legacy_misidentification_count": 5
 }
