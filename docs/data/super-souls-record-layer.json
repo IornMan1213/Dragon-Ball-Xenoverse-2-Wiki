@@ -4220,7 +4220,7 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics retained with an explicit source discrepancy: independent catalogue evidence confirms the Just Guard trigger and -5% opponent attack-strength effect for 10 seconds, but its table formatting reports the second damage-taken modifier inconsistently with the prose. The repository does not invent a corrected sign/value; canonical reconciliation remains pending.",
+      "version_notes": "Mechanics retained with an explicit source discrepancy: independent catalogue evidence confirms the Just Guard trigger and -5% opponent attack-strength effect for 10 seconds, but its table formatting reports the second damage-taken modifier inconsistently with the prose. The repository does not invent a corrected sign/value; canonical reconciliation remains pending. Rechecked 2026-09-27: current catalogue independently lists the Gamma 1 Just Guard trigger and 10-second -5% opponent-attack effect, plus a second -5% damage-taken line whose wording/table semantics remain internally inconsistent. Steam PQ guide confirms the soul is a basic reward of PQ 156. Repository intentionally preserves the discrepancy rather than normalizing the ambiguous second modifier.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
@@ -4229,7 +4229,9 @@
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "web:fandom-super-soul-2026-09-27",
+        "web:steam-pq-guide-2026-09-27"
       ]
     },
     {
