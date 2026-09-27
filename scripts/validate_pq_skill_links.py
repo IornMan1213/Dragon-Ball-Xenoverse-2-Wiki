@@ -4,7 +4,7 @@ import json
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 REL=ROOT/"docs/data/pq-reward-relationships.json"; REV=ROOT/"docs/data/skill-pq-reverse-index-2026-09-26.json"; REPORT=ROOT/"docs/data/pq-skill-crosslink-report.json"
-ALIASES={"Chain Destructo-disc Barrage":"Chain Destructo-Disc Barrage","Starfall":"Destruction's Concerto: Starfall","Giant Cluster":"Gigantic Cluster"}
+ALIASES={"Chain Destructo-disc Barrage":"Chain Destructo-Disc Barrage","Starfall":"Destruction's Concerto: Starfall","Giant Cluster":"Gigantic Cluster","III Bomber":"Ill Bomber"}
 def main():
  rel=json.loads(REL.read_text(encoding="utf-8")); rev=json.loads(REV.read_text(encoding="utf-8"))
  names={n for p in rev.get("pq_ids",{}).values() for n in p.get("skills",[])}
