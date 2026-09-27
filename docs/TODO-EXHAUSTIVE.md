@@ -2968,3 +2968,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reduced the remaining partial mechanics frontier to **85 records**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment from super-soul-117 onward.
+
+
+### 2026-09-27 TODO progress update — Super Soul audit reconciliation
+- [x] Reconciled Super Soul records 112-116 metadata and refreshed their evidence notes.
+- [x] Corrected the mechanics audit counters from the canonical record layer: trigger 84/168, effect 92/168, magnitude 86/168, duration 65/168, stacking 40/168, Limit Burst 82/168, Limit Burst effect 60/168, CaC 92/168, race restriction 3/168, DLC requirement 30/168.
+- [x] Confirmed 155/168 records still have at least one unresolved core mechanics field; this is a broader measure than the narrower enrichment-frontier counter.
+- [x] Preserved source conflicts rather than manufacturing certainty.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: derive subsequent enrichment batches from canonical missing-field state and evidence availability.
