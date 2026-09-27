@@ -4515,3 +4515,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Existing acquisition/reward conflicts and unresolved exact frames, reward probabilities, hidden conditions, and patch-independent scaling were preserved rather than inferred.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Exact next: continue the stale canonical Skill frontier after Indomitable; re-fetch live SHAs before every mutation.
+
+
+### 2026-09-27 continuation — Skill evidence Batch 522
+- [x] Refreshed 20 canonical skill records: Innocence Breath; Innocence Bullet; Innocence Cannon; Instant Charge; Instant Rise; Instant Severance; Instant Transmission; Jumping Energy Wave; Justice Blade; Justice Combination; Justice Drive; Justice Kick; Justice Pose; Justice Rush; Kai Kai; Kaioken; Kaioken Kamehameha; Kairos Cannon; Kamehameha; Ki Explosion.
+- [x] Synchronized the 20 corresponding skills-index projections.
+- [x] Added docs/data/skill-research-batches/skill-batch-522.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Preserved canonical source-of-truth rules and did not infer unsupported frames, universal scaling, reward probabilities, hidden conditions, or disputed acquisition semantics.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Exact next: continue the stale canonical Skill frontier after Ki Explosion; re-fetch live SHAs before mutation.
