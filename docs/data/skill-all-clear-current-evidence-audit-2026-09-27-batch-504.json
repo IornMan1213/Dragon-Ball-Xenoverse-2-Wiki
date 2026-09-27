@@ -1,0 +1,13 @@
+{
+  "skill_name": "All Clear",
+  "batch": 504,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 504 refresh: current Xenoverse 2-specific evidence reconfirms All Clear as a 100-Ki Strike Super from Cell (Perfect)'s training; it creates a frontal sweeping wave, can negate Ki Waves, knocks the target away, and can be used while guarding. Source-reported damage remains bounded.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/All_Clear"
+  ],
+  "evidence_boundary": "Bounded current evidence only; source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
