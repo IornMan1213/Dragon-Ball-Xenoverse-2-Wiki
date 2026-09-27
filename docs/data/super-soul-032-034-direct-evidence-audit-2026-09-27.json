@@ -54,5 +54,19 @@
       ]
     }
   ],
-  "decision": "No canonical mechanics mutation. Evidence boundary preserved; continue research through direct item-level/game-data evidence."
+  "decision": "No canonical mechanics mutation. New evidence strengthens the record of activation/name-state behavior for 032 but still does not directly establish its Limit Burst or full mechanics; 034 remains unresolved.",
+  "additional_evidence": [
+    {
+      "record": "super-soul-032",
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=10",
+      "finding": "Recent player report says the soul's name changes to 'Using this power should be no sweat for you guys.' when the user is KO'd. This establishes a second activation/name-state observation, but not the underlying stat effect.",
+      "weight": "secondary"
+    },
+    {
+      "record": "super-soul-034",
+      "source": "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super_souls/",
+      "finding": "Recent player discussion explicitly says the commenter did not know what 'The final battle begins now.' does. No reliable mechanics were established for this record in the reviewed discussion.",
+      "weight": "secondary/negative evidence"
+    }
+  ]
 }
