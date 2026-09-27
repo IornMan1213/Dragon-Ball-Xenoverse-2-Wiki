@@ -1,3 +1,13 @@
+### 2026-09-27 continuation — Awoken integrity identity validation hardening
+- [x] Inspected the live `scripts/validate_awoken_integrity.py`.
+- [x] Found a concrete identity-integrity gap: canonical and override keys used `str(...)` coercion, and canonical records were projected directly into a dictionary, allowing malformed identity fields to be silently normalized or duplicate identities to overwrite earlier records.
+- [x] Replaced coercive identity construction with explicit non-empty string validation for `name`, `class`, and `subcategory`.
+- [x] Added deterministic duplicate canonical-identity rejection before override matching.
+- [x] Required both canonical and override record containers to be lists.
+- [x] No canonical Awoken data changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap.
+
 ### 2026-09-27 continuation — PQ→skill link validator validation-order hardening
 - [x] Inspected the live `scripts/validate_pq_skill_links.py`.
 - [x] Found a concrete robustness gap: malformed relationship identifiers were used in duplicate-set construction and PQ integer parsing before type/format/range validation, allowing malformed values to trigger uncontrolled exceptions.
