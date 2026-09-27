@@ -1,0 +1,20 @@
+{
+  "batch": 510,
+  "date": "2026-09-27",
+  "type": "current-evidence-frontier-census",
+  "selected": [
+    "Demon Flash Strike",
+    "Demon Flurry",
+    "Demon Ray",
+    "Demonic Destruction",
+    "Destruction's Concerto: Comet",
+    "Destruction's Concerto: Meteor",
+    "Destruction's Concerto: Starfall",
+    "Destruction's Conductor"
+  ],
+  "selection_rule": "Fresh post-Batch-509 census from the live 474-record canonical corpus; excludes records with last_verified dated 2026-09-27.",
+  "baseline": {
+    "canonical_records": 474
+  },
+  "evidence_boundary": "Canonical data remains the source of truth. No unsupported acquisition gates, probabilities, exact frames, hidden interactions, universal scaling, or Skill→PQ edges will be inferred."
+}
