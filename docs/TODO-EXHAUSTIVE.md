@@ -3842,3 +3842,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the Batch 509 frontier manifest.
 - [ ] Complete Batch 509 evidence refreshes and then prioritize substantive cross-domain linkage toward the 672 indexed-category target.
 - [ ] Runtime/CI remains non-blocking.
+
+### 2026-09-27 continuation — Batch 509 completion
+- [x] Refreshed **Death Ball, Death Beam, Death Crasher, Death Meteor, Death Psycho Bomb, Death Slash, Death Slicer, Death Wave** with current bounded evidence.
+- [x] Canonical/index Skills synchronization completed with **0 identity changes**; 474/474 remains intact.
+- [x] Added eight Batch 509 audit artifacts and finalized the manifest.
+- [ ] Next: fresh Batch 510 census and cross-domain enrichment; continue expansion beyond the 474 canonical seed toward 672 indexed categories.
+- [ ] Runtime/CI remains non-blocking.
