@@ -105,5 +105,12 @@
     "result": "The existing 474-skill / 246-edge / 170-PQ projection remains unchanged.",
     "validator_commit": "ba43631d9bed84146a8d776d8552766528e08903",
     "evidence_boundary": "Explicit skill→PQ endpoints only; no missing PQ rewards are inferred."
+  },
+  "validator_hardening_2026_09_27_endpoint_order": {
+    "change": "Reordered source_parallel_quests validation so present fields must first be list-shaped and every endpoint must be a non-boolean integer in PQ range 1–186 before duplicate detection runs. This prevents malformed unhashable endpoints from reaching set() and causing uncontrolled TypeError failures.",
+    "result": "The existing 474-skill / 246-edge / 170-represented-PQ projection remains unchanged; no canonical skill or PQ relationship data was modified.",
+    "validator_commit": "1b414bba10a840a414febadb3c7f71b0355fc831",
+    "runtime_status": "unverified",
+    "evidence_boundary": "Internal validator robustness only; validates explicit skill→PQ endpoints and does not infer missing PQ rewards."
   }
 }
