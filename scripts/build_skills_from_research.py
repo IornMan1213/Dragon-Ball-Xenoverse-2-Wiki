@@ -38,7 +38,14 @@ def classify(d):
 def load_existing():
  try:d=json.loads(OUT.read_text(encoding='utf-8'))
  except (OSError,json.JSONDecodeError):return {}
- return {(r.get('name','').casefold(),r.get('class',''),r.get('subcategory','')):r for r in d.get('records',[]) if r.get('name')}
+ if not isinstance(d,dict) or not isinstance(d.get('records'),list): return {}
+ out={}
+ for r in d['records']:
+  if not isinstance(r,dict): continue
+  values=(r.get('name'),r.get('class'),r.get('subcategory'))
+  if any(not isinstance(v,str) or not v.strip() for v in values): continue
+  out[(values[0].casefold(),values[1],values[2])]=r
+ return out
 def merge_record(m,r,protected=None,blocked=None):
  protected=protected if protected is not None else set(); blocked=blocked if blocked is not None else set()
  n=r.get('name');
