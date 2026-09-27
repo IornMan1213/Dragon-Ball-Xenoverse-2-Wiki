@@ -20,7 +20,7 @@ assert all(isinstance(r["acquisition_type"], str) and r["acquisition_type"].stri
 anomalies=[]
 invalid_pq_endpoints=[]
 for r in records:
-    pq=r.get("source_parallel_quests") or []
+    pq=r.get("source_parallel_quests", [])
     assert isinstance(pq, list), f"source_parallel_quests must be a list for {r["id"]}"
     assert len(pq) == len(set(pq)), f"source_parallel_quests must not contain duplicate PQ IDs for {r["id"]}"
     invalid_pq_endpoints.extend({"skill_id": r["id"], "pq_id": pq_id} for pq_id in pq if not isinstance(pq_id, int) or isinstance(pq_id, bool) or not 1 <= pq_id <= 186)
