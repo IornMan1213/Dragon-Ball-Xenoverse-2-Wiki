@@ -2639,3 +2639,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved ambiguous/component-only identities and did not infer generic set labels into new records.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** continue the remaining 81 endpoint identities using existing accessory/equipment research evidence, prioritizing explicit inventory names and retaining route/source conflicts; then revisit DLC detail/taxonomy coverage.
+
+
+## 2026-09-27 — PQ Equipment Endpoint Frontier
+
+- [x] Audit current canonical PQ→equipment endpoint coverage (125 edges / 123 unique targets / 42 endpoint matches / 81 gaps).
+- [ ] Promote evidence-backed endpoint identities for the 81 missing PQ equipment targets without altering canonical reward relationships.
+- [ ] Enrich promoted equipment endpoints with acquisition/provenance/mechanics fields where supported.
+- [ ] Re-run deterministic endpoint coverage/reconciliation after promotion.
+- [ ] Refresh stale Super Soul integrity audit once the GitHub write path is stable.
