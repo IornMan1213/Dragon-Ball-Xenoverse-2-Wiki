@@ -1,3 +1,11 @@
+### 2026-09-27 continuation — PQ validator hardening
+- [x] Hardened `validate_pq_equipment_crosslinks.py`: enforce canonical `pq-001`–`pq-186` identifiers, reject unsupported relationship statuses, and reject whitespace-only sources.
+- [x] Hardened `validate_pq_cross_domain_index.py`: forward index must resolve inside `docs/data/`.
+- [x] Added `docs/data/pq-validator-hardening-audit-2026-09-27.json`.
+- [x] No canonical relationship/data records changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue validator/consumer integrity audit, prioritizing substantive schema and cross-domain consistency gaps.
+
 ### 2026-09-27 continuation — Skill→PQ crosslink validator hardening
 - [x] Hardened `scripts/validate_skill_pq_crosslinks.py` against malformed canonical skills JSON and malformed checked-in reverse-index JSON.
 - [x] Replaced the validator's core canonical-schema `assert` checks with explicit failures so optimization cannot disable them.
