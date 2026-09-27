@@ -35,6 +35,12 @@
       "result": "The established 474-record acquisition consistency contract is unchanged; no canonical acquisition data was modified.",
       "validator_commit": "latest main update in this continuation cycle",
       "evidence_boundary": "Internal schema/consistency only; no external acquisition claim is being inferred."
+    },
+    "schema_hardening_3": {
+      "change": "Removed the falsey-value fallback from source_parallel_quests validation. A present null, string, number, boolean, or other non-list value is now rejected instead of being coerced to an empty endpoint list; an omitted field remains equivalent to no explicit PQ endpoints.",
+      "result": "Validator contract strengthened without modifying the canonical 474-record skill corpus.",
+      "validator_commit": "af987245a035b39f7af76b1e89b69fb4e9f7469a",
+      "evidence_boundary": "Internal container/type validation only; this does not infer missing PQ rewards or prove acquisition claims against external sources."
     }
   },
   "checks_count": 11,
