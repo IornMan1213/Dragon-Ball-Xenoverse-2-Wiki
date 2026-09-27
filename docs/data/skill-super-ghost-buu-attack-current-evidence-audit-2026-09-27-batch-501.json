@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-ghost-buu-attack",
+  "skill_name": "Super Ghost Buu Attack",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "100-Ki Ki Blast Super from PQ113 Basic Reward. Creates five Buu-shaped ghosts; a second input launches them, while leaving them in place for about five seconds also sends them toward the opponent. Current evidence reports 5% total damage across five hits; no narrower CaC restriction is established.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and maintained corroborating research.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
