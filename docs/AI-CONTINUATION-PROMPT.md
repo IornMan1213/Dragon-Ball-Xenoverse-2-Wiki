@@ -4192,3 +4192,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence confirms the documented acquisition/mechanics boundaries for the selected skills while preserving unsupported frame data, hidden interactions, reward probabilities, and unresolved conflicts as unresolved.
 - [ ] Runtime/CI remains non-blocking.
 - [ ] Exact next: fresh Batch 506 census from the post-Batch-505 474-record corpus, then perform the next substantive cross-domain enrichment rather than repeating completed candidates.
+
+### 2026-09-27 continuation — Batch 506 current-evidence completion
+- [x] Performed a fresh post-Batch-505 census and selected **Burning Swan, Burst Blitz, Burst Reflection, Burst Rush, Burst Stinger, Celestial Wave, Chain Destructo-Disc Barrage, and Chaos Shot**; none had a registered 2026-09-27 Batch-506 audit at selection time.
+- [x] Completed bounded current-evidence refreshes for all eight records and synchronized `docs/data/skills.json` plus `docs/data/skills-index.json`; canonical identity changes: **0**.
+- [x] Added eight dated Batch 506 audit artifacts, finalized `docs/data/skill-research-batches/skill-batch-506.json`, and registered the artifacts in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved existing reward-tier/source conflicts and did not promote unsupported exact frames, hidden interactions, universal scaling, reward probabilities, or new Skill→PQ edges.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] Exact next: fresh Batch 507 census, then target the next substantive cross-domain gap toward the 672 indexed-category target.
