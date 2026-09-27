@@ -46,18 +46,19 @@ def main():
     duplicate_bridge_ids=sorted(k for k,v in Counter(bridge_ids).items() if k is not None and v>1)
     duplicate_bridge_source_names=sorted(k for k,v in Counter(bridge_source_names).items() if k is not None and v>1)
     malformed_bridge_ids=[{"source_name":r.get("source_name"),"type":type(r.get("character_id")).__name__} for r in bridge if r.get("character_id") is not None and not isinstance(r.get("character_id"),str)]
-    preset_ids=sorted({r["character_id"] for r in presets if r.get("character_id")})
     preset_record_ids=[r.get("id") for r in presets]
     duplicate_preset_ids=sorted(k for k,v in Counter(preset_record_ids).items() if k is not None and v>1)
     malformed_preset_ids=[{"id":r.get("id"),"type":type(r.get("id")).__name__} for r in presets if r.get("id") is not None and not isinstance(r.get("id"),str)]
-    numbered_pairs=[(r.get("character_id"),r.get("preset_number")) for r in presets if r.get("preset_number") is not None]
+    valid_preset_ids=[x for x in preset_record_ids if isinstance(x,str) and x.strip()]
+    preset_ids=[r.get("character_id") for r in presets if r.get("character_id") is not None and isinstance(r.get("character_id"),str) and r.get("character_id").strip()]
+    numbered_pairs=[(r.get("character_id"),r.get("preset_number")) for r in presets if isinstance(r.get("character_id"),str) and r.get("character_id").strip() and r.get("preset_number") is not None]
     duplicate_character_preset_pairs=sorted([list(k) for k,v in Counter(numbered_pairs).items() if v>1])
     allowed_record_types={"preset","separate_character"}
     special_records=[{"id":r.get("id"),"record_type":r.get("record_type"),"character_id":r.get("character_id"),"preset_number":r.get("preset_number")} for r in presets if r.get("record_type") and r.get("record_type")!="preset"]
     invalid_record_types=sorted({r.get("record_type") for r in presets if r.get("record_type") not in {None,"preset","separate_character"}})
     special_numbering_conflicts=sorted(r.get("id") for r in presets if r.get("record_type")=="separate_character" and r.get("preset_number") is not None)
-    partner_ids=sorted({r["character_id"] for r in partners if r.get("character_id")})
-    recon_ids=sorted({r["character_id"] for r in recon if r.get("character_id")})
+    partner_ids=sorted({r["character_id"] for r in partners if isinstance(r.get("character_id"),str) and r.get("character_id").strip()})
+    recon_ids=sorted({r["character_id"] for r in recon if isinstance(r.get("character_id"),str) and r.get("character_id").strip()})
     unresolved_preset=sorted(set(preset_ids)-set(bridge_map))
     unresolved_partner=sorted(set(partner_ids)-set(bridge_map))
     invalid_targets=sorted((cid,name) for cid,name in bridge_map.items() if name not in canon)
@@ -89,7 +90,7 @@ def main():
         "partner_display_names_match_canonical_bridge":not partner_name_mismatches,
         "preset_explorer_has_character_search_navigation":preset_navigation_contract_satisfied,
         "generated_character_explorer_navigation_checked":(not explorer_exists) or preset_navigation_contract_satisfied,
-        "preset_record_ids_unique":not duplicate_preset_ids and len(preset_record_ids)==len(set(preset_record_ids)),
+        "preset_record_ids_unique":not duplicate_preset_ids and len(valid_preset_ids)==len(preset_record_ids) and len(valid_preset_ids)==len(set(valid_preset_ids)),
         "preset_id_fields_are_strings":not malformed_preset_ids,
         "numbered_character_preset_pairs_unique":not duplicate_character_preset_pairs,
         "record_types_allowed":not invalid_record_types,
