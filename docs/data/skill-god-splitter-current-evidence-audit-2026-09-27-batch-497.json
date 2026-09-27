@@ -4,9 +4,8 @@
   "batch": 497,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics": "100-Ki Ki Blast Super from Zamasu training; held Ki sphere followed by additional-input firing, with documented 8–17-hit outcomes and source-reported ~5%/~10% damage. Guard can cancel before firing; exact timing/scaling remain unresolved.",
-  "acquisition_endpoint": "Zamasu mentor training",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
-  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
-  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+  "mechanics": "Current documentation reconfirms 100 Ki, Zamasu training acquisition, held Ki-sphere setup, additional-input firing, guard cancellation, and documented 8–17-hit behavior with source-reported damage outcomes. Exact timing and scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
 }
