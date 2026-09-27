@@ -1890,5 +1890,7 @@
   "skill_angry_hit_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-angry-hit-current-evidence-audit-2026-09-27-batch-504.json",
   "skill_apocalyptic_burst_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-apocalyptic-burst-current-evidence-audit-2026-09-27-batch-504.json",
   "skill_arm_crash_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-arm-crash-current-evidence-audit-2026-09-27-batch-504.json",
-  "skill_assault_rain_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-assault-rain-current-evidence-audit-2026-09-27-batch-504.json"
+  "skill_assault_rain_current_evidence_audit_2026_09_27_batch_504": "docs/data/skill-assault-rain-current-evidence-audit-2026-09-27-batch-504.json",
+  "skill_batch_505_projection_reconciliation": "docs/data/skill-pq-projection-reconciliation-2026-09-27-batch-505.json",
+  "skill_batch_505_frontier": "docs/data/skill-research-batches/skill-batch-505.json"
 }
