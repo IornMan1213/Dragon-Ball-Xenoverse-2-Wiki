@@ -1,0 +1,10 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "status": "hardening_complete",
+  "changes": [
+    "Research-batch validator now reports malformed root and corrections/records containers instead of silently treating them as empty.",
+    "Super Soul record validator now catches only expected filesystem/JSON parse errors, avoiding broad exception masking."
+  ],
+  "canonical_data_changed": false
+}
