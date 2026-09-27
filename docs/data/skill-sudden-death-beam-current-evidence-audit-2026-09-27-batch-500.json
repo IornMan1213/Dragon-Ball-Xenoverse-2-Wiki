@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-sudden-death-beam",
+  "skill_name": "Sudden Death Beam",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics_summary": "100-Ki Ki Blast Super counter/teleport technique. The user adopts the Instant Transmission pose; if struck by a basic, Strike, or Ki Blast attack before teleporting, the user appears behind the attacker and fires a red Ki blast. If nothing triggers the counter, the teleport still occurs and consumes Ki without firing. The teleport/follow-up cannot be canceled into another Super, leaving a punishable recovery window. Current documentation treats it as an all-attack counter and evasive repositioning option; exact counter-active timing, damage, and frame data remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration already recorded in the canonical research corpus.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical values remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
