@@ -1,0 +1,13 @@
+{
+  "skill_name": "Angry Hit",
+  "batch": 504,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 504 refresh: current Xenoverse 2-specific evidence reconfirms Angry Hit as a 100-Ki Strike Super from Majin Buu training; it teleports toward the target and produces a single-hit knockdown. The maintained source reports about 20% damage; exact frames remain unresolved.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Angry_Hit"
+  ],
+  "evidence_boundary": "Bounded current evidence only; source-reported numerical observations remain source-bound; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
