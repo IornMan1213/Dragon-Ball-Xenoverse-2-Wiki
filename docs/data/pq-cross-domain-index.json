@@ -152,7 +152,8 @@
     "skill_instant_rise_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-instant-rise-current-evidence-audit-2026-09-27-batch-495.json",
     "skill_jumping_energy_wave_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-jumping-energy-wave-current-evidence-audit-2026-09-27-batch-495.json",
     "skill_power_impact_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-power-impact-current-evidence-audit-2026-09-27-batch-495.json",
-    "super_soul_record_layer_integrity": "docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json"
+    "super_soul_record_layer_integrity": "docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json",
+    "super_soul_mechanics_enrichment": "docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
