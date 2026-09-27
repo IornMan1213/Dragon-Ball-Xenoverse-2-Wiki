@@ -4614,3 +4614,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Classified the finding as `verified_secondary`; no primary-source claim was made.
 - [x] Updated the mechanics audit. The unresolved active Limit Burst-effect gap is now **2 records**: `super-soul-032` and `super-soul-034`.
 - [ ] Continue searching for explicit item-level evidence for Super Souls 032 and 034; do not infer missing mechanics.
+
+
+### 2026-09-27 continuation — Post-corruption canonical recovery checkpoint + Super Soul 032/034 frontier
+- [x] Added `docs/data/canonical-database-recovery-checkpoint-2026-09-27.json` as a durable recovery checkpoint containing live-main canonical baseline counts, source blob SHAs, corruption-recovery history, and explicit evidence boundaries.
+- [x] Re-verified the recovered canonical baseline before advancing: 474 canonical Skills / 474 Skills index records; 246 Skill→PQ edges across 170 PQs; 840 canonical PQ reward relationships (236 Skill / 137 Super Soul / 125 equipment / 247 character / 88 DLC / 7 farming); 172 historical Super Soul records with 167 active records.
+- [x] Confirmed the current live main contains the recovered 474-record Skills corpus after the earlier corruption/regression and subsequent restoration/concurrent-write repairs.
+- [x] Re-searched the remaining active Super Soul Limit Burst frontier. `super-soul-032` still has secondary evidence for a 20% all-abilities increase below 50% HP, but no direct item-level Limit Burst evidence was found. `super-soul-034` is confirmed as the PQ 186 reward identity, but current evidence still does not establish its effect or Limit Burst.
+- [x] Preserved the evidence boundary: no Limit Burst or effect mechanics were inferred from titles, neighboring rewards, or unsupported community speculation.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-backed Super Soul mechanics enrichment; prioritize direct item-level/character-data evidence for `super-soul-032` and `super-soul-034`, then resume larger cross-domain enrichment. Never reconstruct canonical data from projections when the canonical layer survives.
