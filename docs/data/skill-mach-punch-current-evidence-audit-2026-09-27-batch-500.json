@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-mach-punch",
+  "skill_name": "Mach Punch",
+  "batch": 500,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "2026-09-27 Batch 500 refresh: current PQ evidence reconfirms PQ19 Basic Reward acquisition and 100-Ki Strike Super classification. The move performs a six-punch barrage followed by a finishing kick; source-reported damage remains bounded and exact frames/scaling remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
+  "canonical_sync": "Synchronized with restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, hidden interactions, universal scaling, and numerical reward probabilities are not asserted."
+}
