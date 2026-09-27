@@ -4198,3 +4198,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved Limit Burst/effect fields instead of inferring them.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** pursue direct item-level/game-data evidence for Super Souls 032/034, then advance to the next substantive cross-domain enrichment gap if the evidence boundary remains unresolved.
+
+
+### 2026-09-27 continuation — Skill evidence Batch 526
+- [x] Added `docs/data/skill-research-batches/skill-batch-526.json` covering 12 records: Raid Blast; Rakshasa's Claw; Recoome Eraser Gun; Recoome Kick; Requiem of Destruction; Reverse Launcher; Reverse Mabakusenko; Riot Javelin; Rocket Tackle; Savory Slicer; Scissors Paper Rock; Shine Shot.
+- [x] Registered Batch 526 in `docs/data/pq-cross-domain-index.json`.
+- [x] Current evidence confirms several concrete mechanics/acquisition facts, including Raid Blast (PQ136/100 Ki/charge and extension behavior), Recoome Kick (PQ61/100 Ki/temporary ATK boost), Requiem of Destruction (PQ106/300 Ki/grab-explosion sequence), and Reverse Launcher (Bojack training/100 Ki/two-shot teleport sequence).
+- [x] No canonical identity, field, or Skill→PQ relationship was changed from secondary snippets alone; evidence boundaries remain explicit.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the stale Skill frontier after Shine Shot with fresh live evidence; promote canonical fields only when record-level provenance is sufficient, then reconcile any resulting Skill↔PQ cross-domain changes.
