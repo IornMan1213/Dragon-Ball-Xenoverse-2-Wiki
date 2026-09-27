@@ -2597,3 +2597,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed and registered the equipment projection without altering any canonical PQ→equipment relationship.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Next:** use existing equipment/accessory research evidence to promote unambiguous endpoint identities into the appropriate clothing/equipment or accessory layer; do not merge ambiguous names or classify clothing as accessories. Then continue DLC detail/taxonomy enrichment.
+
+
+### 2026-09-27 continuation — equipment endpoint audit write recovery
+- [x] GitHub content writes are operational again; the earlier 404 write blocker is no longer preventing repository updates.
+- [x] Refreshed `docs/data/pq-equipment-crosslink-report.json` to schema 1.2 with the current **15/123 exact endpoint identity matches** and **108 explicit endpoint-enrichment gaps**.
+- [x] Confirmed `scripts/audit_pq_equipment_endpoint_coverage.py` already exists on `main`; no duplicate script was created.
+- [x] Preserved the canonical `pq_rewards_equipment` relationship store as authoritative; no relationship was deleted, reclassified, or invented.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Next:** promote only unambiguous equipment/accessory endpoint identities from existing evidence, prioritizing records with explicit canonical inventory names and PQ routes; preserve ambiguous/component-only cases as backlog. Then continue DLC detail/taxonomy enrichment.
