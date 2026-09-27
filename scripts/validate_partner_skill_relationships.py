@@ -9,10 +9,16 @@ REL = ROOT / "docs/data/partner-skill-relationships.json"
 SKILLS = ROOT / "docs/data/skills.json"
 BRIDGE = ROOT / "docs/data/characters/character-id-identity-bridge.json"
 
+def load_json(path: Path):
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{path}: invalid JSON: {exc}")
+
 def main() -> int:
-    rel = json.loads(REL.read_text(encoding="utf-8"))
-    skills = json.loads(SKILLS.read_text(encoding="utf-8"))
-    bridge = json.loads(BRIDGE.read_text(encoding="utf-8"))
+    rel = load_json(REL)
+    skills = load_json(SKILLS)
+    bridge = load_json(BRIDGE)
 
     failures: list[str] = []
     if not isinstance(rel, dict):
@@ -91,6 +97,7 @@ def main() -> int:
             seen.add(key)
         if row.get("relationship") != "custom_partner_availability":
             failures.append(f"unexpected relationship: {row.get('relationship')}")
+        key = (skill_id, partner_name) if valid_skill_id and valid_partner_name else (skill_id, partner_name)
         evidence = row.get("evidence", [])
         if not isinstance(evidence, list):
             failures.append(f"evidence must be a list: {key}")
