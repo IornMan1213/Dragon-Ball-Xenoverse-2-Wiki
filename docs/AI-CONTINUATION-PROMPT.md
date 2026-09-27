@@ -4273,3 +4273,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Synchronized all eight records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identities unchanged and the 474-record baseline preserved.
 - [x] Added eight dated Batch 506 audit artifacts; existing Basic Reward/Ultimate Finish and acquisition-slot conflicts remain explicitly preserved.
 - [ ] Next: fresh Batch 507 census and substantive cross-domain enrichment; do not infer unsupported Skill→PQ edges.
+
+
+### 2026-09-27 continuation — Batch 507 live-state reconciliation
+- [x] Verified the live 474-record canonical corpus and confirmed Batch 507 was already completed despite stale earlier handoff entries.
+- [x] Batch 507 refreshed **Candy Beam (Super), Charge, Circle Flash, Comet Strike, Confusion Blade, Crush Cannon, Crush Stream, and Crusher Ball**; all eight show `last_verified: 2026-09-27` in the live canonical layer.
+- [x] Canonical/index synchronization and eight audit registrations are recorded in the Batch 507 manifest; canonical identity changes remain 0.
+- [x] No unsupported Skill→PQ edges or unsupported mechanics/probability claims were promoted.
+- [ ] Next exact: Batch 508 fresh census from the current live corpus; oldest remaining frontier begins with **Destructive Fission, Destructive Flare, Destructive Fracture, Destructo-Disc, DIE DIE Missile Barrage, Dimension Cannon, Dimension Ray, Dimensional Hole**.
