@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0",
+  "generated_on": "2026-09-27",
+  "source_dataset": "docs/data/pq-reward-relationships.json",
+  "endpoint_layer": "docs/data/dlc-source-baseline.json",
+  "canonical_edges": 88,
+  "unique_dlc_targets": 21,
+  "canonical_targets": [
+    "Dragon Ball DAIMA Pack",
+    "FUTURE SAGA Chapter 4",
+    "Super Pack 1",
+    "Super Pack 2",
+    "Super Pack 3",
+    "Super Pack 4",
+    "Extra Pack 1",
+    "Extra Pack 2",
+    "Extra Pack 3",
+    "Extra Pack 4",
+    "Ultra Pack 1",
+    "Ultra Pack 2",
+    "Legendary Pack 1",
+    "Legendary Pack 2",
+    "Conton City Vote Pack",
+    "Hero of Justice Pack 1",
+    "Hero of Justice Pack 2",
+    "Future Saga Chapter 1",
+    "Future Saga Chapter 2",
+    "Future Saga Chapter 3",
+    "Future Saga Chapter 4"
+  ],
+  "baseline_pack_sets": [
+    "Dragon Ball DAIMA Pack",
+    "HERO OF JUSTICE Pack Set",
+    "Conton City Vote Pack",
+    "Legendary Pack Set",
+    "Ultra Pack Set",
+    "Extra Pass",
+    "Super Pass"
+  ],
+  "semantics": "Canonical PQ→DLC provenance relationships remain authoritative. The DLC baseline is a provenance taxonomy, not a complete mission-level DLC endpoint database; absence from its pack-set names is not treated as a negative claim.",
+  "status": "canonical_projection_complete_endpoint_taxonomy_partial"
+}
