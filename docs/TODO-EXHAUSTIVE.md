@@ -3540,3 +3540,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited 156–160; no legacy ID/name misidentification found.
 - [x] Provenance notes refreshed and source references retained.
 - [ ] Continue remaining Super Soul provenance/ID-drift audit.
+
+
+### 2026-09-27 continuation — Database recovery baseline rebuilt after main corruption
+- [x] Confirmed the recent corruption/wipe boundary by comparing the surviving recovery branch history with the current main lineage; the recovery branch preserves the pre-corruption database lineage while current main had an empty canonical `docs/data/skills.json` and `docs/data/skills-index.json`.
+- [x] Restored the surviving canonical Skills database and index onto `main` from `ai/2026-09-22-dancing-through-darkness-batch`: **452 canonical skill records / 452 index records**.
+- [x] Preserved the current main branch's later recovery/audit history instead of force-resetting main to an older branch.
+- [x] Confirmed the repository's later handoff/audit state still documents a **474-record** canonical skill contract; therefore the restored 452-record layer is a recovery baseline, not a claim that all 474 records have been recovered.
+- [ ] **Recovery gap:** 22 canonical skill identities remain to be recovered/reconstructed from surviving repository evidence before treating the Skills layer as fully restored to the pre-corruption 474-record state.
+- [ ] Runtime/CI remains intentionally non-blocking per the established project rule.
+- [ ] **Exact next:** identify the 22 missing canonical skill identities from surviving research batches/commits and recover them into `docs/data/skills.json` and `docs/data/skills-index.json`; validate exact ID parity before any new mechanics-enrichment batch. Do not mark 474/474 until deterministic parity is restored.
