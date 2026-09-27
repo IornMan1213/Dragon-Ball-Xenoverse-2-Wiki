@@ -4,20 +4,9 @@
   "domain": "super_souls",
   "canonical_forward_rows": 137,
   "canonical_forward_targets": 134,
-  "detailed_record_layer_records": 158,
-  "detailed_records_matching_forward_targets": 124,
-  "forward_targets_without_detailed_record": [
-    "I'm neither Kami nor Piccolo...",
-    "Time to dismantle you androids!",
-    "I am the universe's strongest!",
-    "I got back my youth and vigor!",
-    "Goku the legendary Super Saiyan!",
-    "I'll use all my strength to kill you.",
-    "I wanted to kill you with my own hands.",
-    "I am...Super Vegeta!!",
-    "This fight...is truly pointless...",
-    "I actually felt that one..."
-  ],
+  "detailed_record_layer_records": 168,
+  "detailed_records_matching_forward_targets": 134,
+  "forward_targets_without_detailed_record": [],
   "pq_acquisition_index_records": 80,
   "pq_acquisition_index_targets": 120,
   "forward_targets_present_in_pq_acquisition_index": 120,
@@ -38,6 +27,6 @@
     "I actually felt that one..."
   ],
   "promoted_indexed_endpoints": 116,
-  "status": "enrichment_frontier_reduced",
-  "interpretation": "Canonical PQ relationships remain authoritative. Evidence-backed names from the explicitly partial PQ acquisition index have been promoted as indexed endpoint records with mechanics fields intentionally unresolved; absence from the partial index is not negative evidence."
+  "status": "canonical_endpoint_identity_complete_mechanics_enrichment_pending",
+  "interpretation": "All 134 canonical PQ Super Soul targets now have endpoint identities. Indexed records may intentionally retain unresolved mechanics; absence of mechanics evidence is not a negative claim."
 }
