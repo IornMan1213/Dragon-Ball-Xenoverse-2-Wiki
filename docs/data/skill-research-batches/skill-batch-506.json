@@ -53,5 +53,12 @@
     "burning-swan"
   ],
   "canonical_records": 474,
-  "evidence_result": "Existing acquisition/mechanics evidence was refreshed without promoting unresolved reward probabilities, exclusive gates, exact frames, hidden interactions, or unsupported Skill→PQ edges."
+  "evidence_result": "Existing acquisition/mechanics evidence was refreshed without promoting unresolved reward probabilities, exclusive gates, exact frames, hidden interactions, or unsupported Skill→PQ edges.",
+  "completed_current_evidence_refresh": true,
+  "validation": {
+    "canonical_records": 474,
+    "index_records": 474,
+    "duplicate_name_count": 1,
+    "note": "474-record baseline preserved; the single duplicate display-name condition is not an identity collision and was not altered in this batch."
+  }
 }
