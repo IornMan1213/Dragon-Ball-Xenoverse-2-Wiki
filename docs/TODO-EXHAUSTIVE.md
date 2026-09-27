@@ -4238,3 +4238,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Registered Batch 527 in `docs/data/pq-cross-domain-index.json`.
 - [x] Preserved the canonical-data-first rule: test-contextual damage figures and unresolved acquisition/Ultimate-Finish semantics were not promoted blindly.
 - [ ] **Next:** inspect the four live canonical records and promote only fields whose provenance is strong enough; then continue the sparse-record audit to the next under-enriched cohort.
+
+
+### 2026-09-27 continuation — Batch 527 duplicate-screen reconciliation
+- [x] Reconciled Batch 527's four sparse-record targets against the live repository's later dedicated evidence audits.
+- [x] Tyrant Lancer is already covered by Batch 417; Ki Explosion by Batch 458; x10 Kamehameha by Batch 421; Kamekameha by Batch 49.
+- [x] Confirmed Kamekameha's PQ spelling alias is explicitly handled by the existing PQ crosslink validator; no new canonical skill or PQ edge was manufactured.
+- [x] No canonical rewrite was performed; Batch 527 is retained as a duplicate-screen/audit artifact documenting the superseded sparse Batch 254 state.
+- [ ] **Next:** identify the next genuinely uncovered or under-enriched records from the live frontier rather than expanding already-audited skills.
