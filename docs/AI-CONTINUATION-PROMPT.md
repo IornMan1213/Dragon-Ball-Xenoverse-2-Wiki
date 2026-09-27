@@ -3931,3 +3931,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Next priority: perform a **new** thin-record census for Batch 496 (do not reuse Batch 495's candidate list), then enrich the next genuinely unaudited skill records with bounded current evidence.
 - [ ] After Batch 496, regenerate/reconcile the relevant skill→PQ and PQ→skill consumer artifacts and record exact parity/count changes.
 - [ ] Continue the broader 672 indexed-category target beyond the 474 canonical seed, while preserving canonical-vs-indexed-vs-verified distinctions.
+
+
+### 2026-09-27 continuation — Batch 496 current-evidence frontier
+- [x] Performed a fresh live census after Batch 495 instead of reusing its candidate list; selected eight records with no registered current-evidence audit hit for the exact candidate names in repository search.
+- [x] Completed Batch 496 evidence refresh for **Absolute Zero, Angry Shout, Audacious Laugh, Bomber DX, Charged Ki Wave, Critical Upper, Fighting Pose A, and Fighting Pose F**.
+- [x] Added eight dated current-evidence audit artifacts plus `docs/data/skill-research-batches/skill-batch-496.json` and the Batch 496 thin-frontier audit.
+- [x] Synchronized all eight records into both current Skills data layers with `last_verified: 2026-09-27`; no canonical skill identity was added, removed, or renamed.
+- [x] Revalidated the restored canonical layers through Git blobs: **474 unique canonical records / 474 unique index records**, with exact ID/name parity and no missing, extra, or name-drift IDs.
+- [x] Preserved evidence boundaries: no unsupported exact frames, universal scaling, hidden interactions, or numerical reward probabilities were invented. Fighting Pose A's acquisition-page wording discrepancy is explicitly preserved rather than silently rewritten.
+- [ ] Next priority: perform a **new Batch 497 census** from the live 474-record corpus and continue evidence enrichment without reusing Batch 496's candidate list.
+- [ ] After Batch 497, continue reconciling PQ→skill and skill→PQ navigation projections and expand beyond the current 474-record canonical seed toward the 672 indexed-category target.
