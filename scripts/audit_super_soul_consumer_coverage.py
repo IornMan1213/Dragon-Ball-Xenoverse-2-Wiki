@@ -5,7 +5,7 @@ from pathlib import Path
 R=Path(__file__).resolve().parents[1]/"docs/data"
 rel=json.loads((R/"pq-reward-relationships.json").read_text(encoding="utf-8"))
 ss=json.loads((R/"super-souls-record-layer.json").read_text(encoding="utf-8"))
-ai=json.loads((R/"super-souls/pq-acquisition-index-041-186.json").read_text(encoding="utf-8"))
+ai=json.loads((R/"super-souls/pq-acquisition-index-001-186.json").read_text(encoding="utf-8"))
 projection=json.loads((R/"pq-super-soul-crosslink-report.json").read_text(encoding="utf-8"))
 targets={x["target"] for x in rel["verified_relationships"] if x["relationship"]=="pq_rewards_super_soul"}
 detailed={x.get("name") for x in ss["records"]}
