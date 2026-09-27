@@ -1,3 +1,13 @@
+### 2026-09-27 continuation — Skill acquisition validator hardening
+- [x] Inspected `scripts/validate_skill_acquisition_metadata.py`.
+- [x] Found a concrete validator-integrity flaw: all substantive checks used Python `assert`, which can be disabled with `python -O`, potentially turning invalid data into a false PASS.
+- [x] Replaced bare assertions with explicit deterministic failures.
+- [x] Added explicit malformed-JSON handling and per-record required-field/type checks.
+- [x] Preserved strict rejection of boolean PQ IDs and the existing acquisition consistency rules.
+- [x] No canonical skill data changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap.
+
 ### 2026-09-27 continuation — Partner Customization integer identity hardening
 - [x] Inspected the live `scripts/validate_partner_customization_character_navigation.py`.
 - [x] Found a concrete Python type-integrity gap: `bool` is a subclass of `int`, so boolean values could satisfy positive-integer checks for Partner Customization key numbers.
