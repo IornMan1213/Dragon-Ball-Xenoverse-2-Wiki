@@ -2715,3 +2715,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime execution/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** move from projection integrity to the next concrete cross-domain consumer gap: inspect PQ/skill page-generation/navigation consumers for stale, missing, or non-bidirectional links, then harden the highest-impact deterministic consumer without altering canonical evidence.
 
+### 2026-09-27 continuation — PQ→skill consumer projection repaired
+- [x] Found and corrected a concrete stale consumer: `docs/data/pq-skill-crosslink-report.json` was still based on the historical PQ-batch projection (229 links / 283 canonical skill names) instead of the recovered canonical forward relationship layer.
+- [x] Reworked `scripts/validate_pq_skill_links.py` to derive its PQ→skill consumer projection from `docs/data/pq-reward-relationships.json`, with the live skill→PQ reverse artifact used to validate target identity.
+- [x] Regenerated `docs/data/pq-skill-crosslink-report.json` to **236 current canonical forward skill edges**, resolving all 236 and preserving four documented presentation-name aliases: Chain Destructo-disc Barrage → Chain Destructo-Disc Barrage; III Bomber → Ill Bomber; Starfall → Destruction's Concerto: Starfall; Giant Cluster → Gigantic Cluster.
+- [x] Added `docs/data/pq-skill-consumer-reconciliation-audit-2026-09-27.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Historical 229-link/283-name output is retained as provenance metadata rather than treated as current truth.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** inspect the other declared PQ reverse consumers (Super Soul, equipment/accessory, character, DLC, farming) for the same stale-report/source mismatch; repair the highest-impact deterministic consumer next, without altering canonical evidence-backed forward relationships.
+
