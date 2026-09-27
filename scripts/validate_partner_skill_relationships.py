@@ -72,14 +72,23 @@ def main() -> int:
         if not isinstance(row, dict):
             failures.append(f"relationship record must be an object: {row!r}")
             continue
-        key = (row.get("skill_id", ""), row.get("partner_name", ""))
-        if row.get("skill_id") not in skill_ids:
-            failures.append(f"unknown canonical skill_id: {row.get('skill_id')}")
-        if row.get("partner_name") not in canonical_names:
-            failures.append(f"unknown canonical partner_name: {row.get('partner_name')}")
-        if key in seen:
-            failures.append(f"duplicate relationship: {key}")
-        seen.add(key)
+        skill_id = row.get("skill_id")
+        partner_name = row.get("partner_name")
+        valid_skill_id = isinstance(skill_id, str) and bool(skill_id.strip())
+        valid_partner_name = isinstance(partner_name, str) and bool(partner_name.strip())
+        if not valid_skill_id:
+            failures.append(f"relationship skill_id must be a non-empty string: {skill_id!r}")
+        elif skill_id not in skill_ids:
+            failures.append(f"unknown canonical skill_id: {skill_id}")
+        if not valid_partner_name:
+            failures.append(f"relationship partner_name must be a non-empty string: {partner_name!r}")
+        elif partner_name not in canonical_names:
+            failures.append(f"unknown canonical partner_name: {partner_name}")
+        if valid_skill_id and valid_partner_name:
+            key = (skill_id, partner_name)
+            if key in seen:
+                failures.append(f"duplicate relationship: {key}")
+            seen.add(key)
         if row.get("relationship") != "custom_partner_availability":
             failures.append(f"unexpected relationship: {row.get('relationship')}")
         evidence = row.get("evidence", [])
