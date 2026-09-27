@@ -1,0 +1,11 @@
+{
+  "skill_id": "skill-super-saiyan",
+  "skill_name": "Super Saiyan",
+  "batch": 501,
+  "date": "2026-09-27",
+  "status": "current_evidence_verified",
+  "mechanics": "300-Ki Saiyan CaC Awoken Skill from the Capsule Corporation Saiyan progression. The multi-stage transformation uses 300/400/500 Ki for stages 1–3, increases offensive/defensive performance while reducing Ki regeneration, has no fixed time limit, and can be powered down manually. Current exact multipliers remain version-sensitive.",
+  "source_scope": "Current Xenoverse 2-specific repository evidence and maintained corroborating research.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Source-reported numerical observations remain source-bound. Unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not asserted."
+}
