@@ -1,26 +1,23 @@
 {
   "batch": 497,
   "date": "2026-09-27",
-  "type": "current-evidence-frontier",
-  "candidate_count": 10,
-  "candidates": [
-    "Ice Cannon",
-    "Final Flash (Super)",
-    "God Splitter",
-    "Formation!",
-    "Majin Kamehameha",
-    "Feint Crash",
-    "Paralysis",
-    "Menacing Flare",
-    "Quick Sleep",
-    "Meteor Burst"
+  "scope": "Current-evidence mechanics frontier",
+  "records": [
+    "skill-ice-cannon",
+    "skill-final-flash-super",
+    "skill-god-splitter",
+    "skill-formation",
+    "skill-majin-kamehameha",
+    "skill-feint-crash",
+    "skill-paralysis",
+    "skill-menacing-flare"
   ],
-  "selection_rule": "Fresh census from the live 474-record canonical corpus; candidates had not received a Batch 496 current-evidence marker.",
   "validation": {
-    "canonical_source": "docs/data/skills.json",
-    "canonical_records": 474,
-    "index_target": 474,
-    "identity_changes": 0,
-    "evidence_boundary": "No unsupported exact frames, patch-independent scaling, hidden interactions, or reward probabilities introduced."
-  }
+    "audit_artifacts": 8,
+    "canonical_skill_records": 474,
+    "index_skill_records": 474,
+    "canonical_identity_changes": 0,
+    "unsupported_claims_added": 0
+  },
+  "notes": "Fresh frontier following Batch 496. Candidate list was not reused. Numerical values remain source-reported where applicable; unresolved frames, scaling, hidden interactions, and reward probabilities remain explicitly bounded."
 }
