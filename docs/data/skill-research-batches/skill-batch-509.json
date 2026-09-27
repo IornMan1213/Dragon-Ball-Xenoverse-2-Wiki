@@ -1,7 +1,7 @@
 {
   "batch": 509,
   "date": "2026-09-27",
-  "type": "current-evidence-frontier-census",
+  "type": "current-evidence-refresh",
   "selected": [
     "Death Ball",
     "Death Beam",
@@ -17,5 +17,13 @@
     "canonical_records": 474
   },
   "next": "Bounded current-evidence refresh for the eight selected records, followed by cross-domain linkage reconciliation.",
-  "evidence_boundary": "Canonical data remains the source of truth. Verification flags do not override canonical evidence; unsupported acquisition gates, probabilities, exact frames, hidden interactions, universal scaling, or Skill→PQ edges will not be inferred."
+  "evidence_boundary": "Canonical data remains the source of truth. Verification flags do not override canonical evidence; unsupported acquisition gates, probabilities, exact frames, hidden interactions, universal scaling, or Skill→PQ edges will not be inferred.",
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "audit_artifacts": 8,
+  "projection_note": "No new Skill→PQ edges inferred."
 }
