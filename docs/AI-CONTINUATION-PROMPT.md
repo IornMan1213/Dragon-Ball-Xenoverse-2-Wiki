@@ -2814,3 +2814,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed staged Super Soul research batches 03–04 do not contain additional values that can be deterministically merged into currently-null canonical schema fields without a separate evidence reconciliation; no speculative promotion was made.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Next:** continue evidence-backed Super Soul mechanics reconciliation where repository sources can fill currently-null canonical fields; otherwise pivot to the **107 unique PQ→equipment endpoint-enrichment gaps** and the **21-target PQ→DLC taxonomy/detail gap**. Preserve canonical relationship data as authoritative and keep unresolved mechanics explicit.
+
+### 2026-09-27 continuation — Super Soul mechanics coverage audit hardening
+- [x] Re-audited the current 168-record Super Soul endpoint layer after the mechanics enrichment pass; canonical PQ→Super Soul endpoint identity remains 134/134.
+- [x] Refreshed `docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json` so its counts no longer describe the pre-promotion 158-record state; it now records 168 unique records, 134/134 canonical endpoint coverage, and zero endpoint identity gaps.
+- [x] Added `scripts/audit_super_soul_mechanics_coverage.py`, a deterministic coverage-only auditor that reports population/missing counts for trigger, effect, magnitude, duration, stacking, Limit Burst, CAC, race, and DLC fields without inferring mechanics.
+- [x] Registered the mechanics coverage auditor and refreshed integrity audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Current field census: trigger 44/168, effect text 52/168, effect magnitude 46/168, duration 40/168, stacking 25/168, Limit Burst 42/168, Limit Burst effect 22/168, CAC usability 52/168, race restriction 3/168, DLC requirement 30/168. These are coverage measurements, not negative claims.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Next:** use only existing repository evidence/staged research to make a substantive Super Soul mechanics enrichment batch; if no additional evidence-backed batch is available, pivot to the 107 unique PQ→equipment endpoint-enrichment gaps and avoid creating duplicate projections.
+
