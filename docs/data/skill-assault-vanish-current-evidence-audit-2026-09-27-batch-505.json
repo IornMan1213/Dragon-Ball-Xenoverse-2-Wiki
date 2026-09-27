@@ -1,0 +1,11 @@
+{
+  "skill_name": "Assault Vanish",
+  "batch": 505,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "summary": "2026-09-27 Batch 505 refresh: PQ131; 100 Ki / 100 Stamina; Other Super; invincible disappearance; warp behind opponent or reappear at origin; Boost Dash compatible.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_sync": "Canonical identity unchanged; synchronized with skills index.",
+  "source": "https://dbxv2.fandom.com/wiki/Assault_Vanish",
+  "evidence_boundary": "Source-reported values remain source-bounded observations; unsupported exact frames, hidden interactions, universal scaling, and reward probabilities are not promoted."
+}
