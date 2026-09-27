@@ -2868,7 +2868,7 @@
       "shop_rotation": null,
       "trigger_condition": "When the battle begins; a bit of time after the battle begins",
       "effect_text": "Temporarily lowers strength of all attacks and movement speed, then temporarily boosts strength of all attacks and movement speed.",
-      "effect_magnitude": "-10% all attacks; -10% movement speed; later +10% all attacks; later +10% movement speed",
+      "effect_magnitude": "-10% all attacks initially; -10% movement speed initially; later attack/movement boosts are reported as +10% in the catalogue, while an independent stat-sheet extraction reports a +20% later attack boost. Preserve this discrepancy for research reconciliation.",
       "duration": "30 seconds for each listed temporary effect",
       "stacking_behavior": null,
       "limit_burst": "Revive Gauge Auto-Recovery!",
@@ -2876,7 +2876,7 @@
       "limit_burst_effect": null,
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics fields promoted from explicit Super Soul catalogue/stat-sheet evidence and independent guide evidence. Canonical PQ acquisition remains authoritative; no unsupported drop probability or undocumented trigger behavior inferred.",
+      "version_notes": "Mechanics promoted from explicit catalogue/stat-sheet evidence. The later attack boost has a documented source discrepancy (+10% catalogue versus +20% independent stat-sheet extraction), so the discrepancy is preserved rather than silently choosing one value. Canonical PQ acquisition remains authoritative.",
       "verification_status": "partially_verified",
       "last_verified": "2026-09-27",
       "sources": [
