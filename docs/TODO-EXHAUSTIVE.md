@@ -1,3 +1,13 @@
+### 2026-09-27 continuation — Research-batch validator hardening
+- [x] Inspected `scripts/validate_research_batches.py`.
+- [x] Found a concrete type-integrity gap: Python `bool` values could pass the PQ-number `int` test.
+- [x] Hardened PQ-number validation to reject booleans explicitly.
+- [x] Found coercive `str(...)` construction of skill identity keys; malformed class/subcategory values could be silently normalized into canonical-key comparisons.
+- [x] Require skill identity fields `name`, `class`, and `subcategory` to be strings before constructing research-batch keys.
+- [x] No canonical research data changed.
+- [ ] Runtime validator execution/CI/build remains intentionally unverified.
+- [ ] **Exact next:** inspect the next deterministic validator/consumer for a concrete integrity gap.
+
 ### 2026-09-27 continuation — Super Soul record-layer validator hardening
 - [x] Inspected `scripts/validate_super_soul_record_layer.py`.
 - [x] Found a concrete schema-integrity gap: malformed JSON roots and non-object relationship/record containers could reach downstream projections without explicit type validation.
