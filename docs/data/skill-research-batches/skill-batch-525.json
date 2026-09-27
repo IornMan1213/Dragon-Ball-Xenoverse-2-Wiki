@@ -1,0 +1,32 @@
+{
+  "batch": 525,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Prelude to Destruction",
+    "Prepare to be Punished",
+    "Present For You",
+    "Pressure Sign",
+    "Pretty Cannon",
+    "Pretty Charge",
+    "Prominence Flash",
+    "Psychic Move",
+    "Psycho Barrier",
+    "Psycho Escape",
+    "Punisher Guard",
+    "Punisher Shield",
+    "Pure Progress",
+    "Purification",
+    "Quick Sleep",
+    "Raid Blast"
+  ],
+  "records_refreshed": 16,
+  "identity_changes": 0,
+  "canonical_field_corrections": 0,
+  "relationship_changes": 0,
+  "evidence_boundary": "Canonical data remains source of truth; current evidence is appended as provenance/mechanics support. Conflicting reward semantics, exact frames, patch-independent scaling, probabilities, and hidden conditions are not inferred.",
+  "sources": [
+    "https://dbxv2.fandom.com/",
+    "https://dragonball.fandom.com/"
+  ]
+}
