@@ -9,18 +9,33 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "docs/data/skills.json"
 OVERRIDES = ROOT / "docs/data/awoken-canonical-overrides.json"
 
-KEY = lambda r: (str(r.get("name", "")).casefold(), str(r.get("class", "")), str(r.get("subcategory", "")))
+def canonical_key(record: object, label: str) -> tuple[str, str, str]:
+    if not isinstance(record, dict):
+        raise SystemExit(f"{label} must be an object")
+    values = tuple(record.get(field) for field in ("name", "class", "subcategory"))
+    if any(not isinstance(value, str) or not value.strip() for value in values):
+        raise SystemExit(f"{label} name/class/subcategory must be non-empty strings")
+    return (values[0].casefold(), values[1], values[2])
 
 
 def main() -> int:
     skills = json.loads(SKILLS.read_text(encoding="utf-8"))
     overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
-    records = {KEY(r): r for r in skills.get("records", [])}
+    skill_records = skills.get("records")
+    override_records = overrides.get("records")
+    if not isinstance(skill_records, list) or not isinstance(override_records, list):
+        raise SystemExit("skills.records and awoken overrides.records must be lists")
+    records = {}
+    for i, record in enumerate(skill_records):
+        key = canonical_key(record, f"skills.records[{i}]")
+        if key in records:
+            raise SystemExit(f"duplicate canonical Awoken identity: {key}")
+        records[key] = record
     promoted = 0
     missing = []
     mismatches = []
-    for expected in overrides.get("records", []):
-        target = records.get(KEY(expected))
+    for i, expected in enumerate(override_records):
+        target = records.get(canonical_key(expected, f"awoken overrides.records[{i}]"))
         if target is None:
             missing.append(expected.get("name", "<unnamed>"))
             continue
