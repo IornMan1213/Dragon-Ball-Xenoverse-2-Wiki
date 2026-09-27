@@ -7,40 +7,40 @@
   "records": 168,
   "fields": {
     "trigger_condition": {
-      "populated": 79,
-      "missing": 89
+      "populated": 84,
+      "missing": 84
     },
     "effect_text": {
-      "populated": 87,
-      "missing": 81
+      "populated": 92,
+      "missing": 76
     },
     "effect_magnitude": {
-      "populated": 81,
-      "missing": 87
+      "populated": 86,
+      "missing": 82
     },
     "duration": {
-      "populated": 66,
-      "missing": 102
+      "populated": 71,
+      "missing": 97
     },
     "stacking_behavior": {
-      "populated": 36,
-      "missing": 132
+      "populated": 39,
+      "missing": 129
     },
     "limit_burst": {
-      "populated": 77,
-      "missing": 91
+      "populated": 82,
+      "missing": 86
     },
     "limit_burst_trigger": {
       "populated": 0,
       "missing": 168
     },
     "limit_burst_effect": {
-      "populated": 57,
-      "missing": 111
+      "populated": 62,
+      "missing": 106
     },
     "usable_by_cac": {
-      "populated": 87,
-      "missing": 81
+      "populated": 92,
+      "missing": 76
     },
     "race_restriction": {
       "populated": 3,
@@ -56,12 +56,12 @@
   "latest_batch": {
     "date": "2026-09-27",
     "promoted_records": [
-      "super-soul-102",
-      "super-soul-103",
-      "super-soul-104",
-      "super-soul-105",
-      "super-soul-106"
+      "super-soul-107",
+      "super-soul-108",
+      "super-soul-109",
+      "super-soul-110",
+      "super-soul-111"
     ],
-    "evidence_basis": "Super Soul catalogue plus independent GameFAQs/Steam evidence; canonical PQ acquisition remains authoritative."
+    "evidence_basis": "Super Soul catalogue plus independent guide evidence; canonical PQ acquisition remains authoritative."
   }
 }
