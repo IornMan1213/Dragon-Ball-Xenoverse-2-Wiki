@@ -4475,3 +4475,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - Synchronized the 474-record skills index and registered Batch 516 in the PQ cross-domain index.
 - Batch 516 remains an evidence refresh only: canonical data is authoritative; existing reward/acquisition conflicts and unresolved exact frames, probabilities, hidden conditions, and patch-independent scaling remain preserved.
 - Next stale frontier after Batch 516: Explosive Wave, Eye Beam, Fake Blast, Feint Shot, Fierce Fist, Fighting Pose E, Fighting Pose K, Final Cannon, Final Charge, Final Explosion, Final Flash, Final Flash (SS3 DAIMA), then continue alphabetically.
+
+### 2026-09-27 continuation — Batch 519 canonical evidence refresh
+- [x] Completed Batch 519: refreshed 12 skills: Gamma Blaster; Gamma Impact; Genocide Shell; Gigantic Breaker; Gigantic Burst; Gigantic Charge; Gigantic Cluster; Gigantic Cross; Gigantic Explosion; Gigantic Nova; Gigantic Rage; Gigantic Roar.
+- [x] Synchronized docs/data/skills.json and docs/data/skills-index.json; both remain at 474 records.
+- [x] Added docs/data/skill-research-batches/skill-batch-519.json and registered it in docs/data/pq-cross-domain-index.json.
+- [x] Batch 519 made zero skill identity changes, zero canonical field corrections, and zero new Skill→PQ relationship inferences.
+- [x] Preserved existing acquisition/reward conflicts and unresolved frame, hidden-condition, probability, and patch-independent-scaling fields.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] 201 canonical skill records remain older than 2026-09-27.
+- [ ] Exact next: continue after Gigantic Roar, beginning with God Breaker and the God of Destruction skill series.
