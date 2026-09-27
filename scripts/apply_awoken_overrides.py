@@ -13,7 +13,10 @@ INDEX_FIELDS = ("name", "class", "subcategory", "verification_status", "research
 
 
 def key(record: dict) -> tuple[str, str, str]:
-    return (str(record.get("name", "")).casefold(), str(record.get("class", "")), str(record.get("subcategory", "")))
+    values = (record.get("name"), record.get("class"), record.get("subcategory"))
+    if any(not isinstance(value, str) or not value.strip() for value in values):
+        raise ValueError("Awoken identity fields must be non-empty strings")
+    return (values[0].casefold(), values[1], values[2])
 
 
 def rebuild_index(data: dict) -> None:
@@ -42,14 +45,29 @@ def rebuild_index(data: dict) -> None:
 
 
 def main() -> int:
-    data = json.loads(SKILLS.read_text(encoding="utf-8"))
-    overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
+    try:
+        data = json.loads(SKILLS.read_text(encoding="utf-8"))
+        overrides = json.loads(OVERRIDES.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        print(f"Awoken override application failed: invalid JSON: {exc}")
+        return 1
+    if not isinstance(data, dict) or not isinstance(overrides, dict):
+        print("Awoken override application failed: source roots must be objects")
+        return 1
     records = data.get("records", [])
-    by_key = {key(r): r for r in records}
+    override_records = overrides.get("records", [])
+    if not isinstance(records, list) or not isinstance(override_records, list):
+        print("Awoken override application failed: records containers must be lists")
+        return 1
+    try:
+        by_key = {key(r): r for r in records}
+    except ValueError as exc:
+        print(f"Awoken override application failed: {exc}")
+        return 1
 
     applied = 0
     missing = []
-    for override in overrides.get("records", []):
+    for override in override_records:
         target = by_key.get(key(override))
         if target is None:
             missing.append(override.get("name", "<unnamed>"))
