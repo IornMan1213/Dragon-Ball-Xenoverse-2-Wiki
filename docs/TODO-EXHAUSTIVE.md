@@ -4043,3 +4043,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical/index parity maintained; no identity or relationship changes.
 - [ ] Continue stale canonical Skill frontier: 235 records remain, starting Explosive Wave → Eye Beam → Fake Blast → Feint Shot → Fierce Fist → Fighting Pose E → Fighting Pose K → Final Cannon.
 - [ ] Resolve the three pre-existing canonical/index date mismatches only with provenance support.
+
+### 2026-09-27 — Batch 517
+- [x] Refreshed 10 skills: Explosive Wave; Eye Beam; Fake Blast; Feint Shot; Fierce Fist; Fighting Pose E; Fighting Pose K; Final Cannon; Final Charge; Final Explosion.
+- [x] Canonical and index layers remain 474/474.
+- [x] Batch manifest added and cross-domain index registered.
+- [x] No identity, canonical-field, or Skill→PQ relationship changes.
+- [ ] 225 canonical skill records remain older than 2026-09-27.
+- [ ] Next: Batch 518 starts at Final Flash and continues alphabetically.
+
