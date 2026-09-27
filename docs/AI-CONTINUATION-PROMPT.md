@@ -3548,3 +3548,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed reverse navigation parity for all five Super Souls in `pq-unified-reverse-index-1-186.json`.
 - [x] Added and registered `docs/data/super-soul-148-152-acquisition-mechanics-parity-audit-2026-09-27.json`.
 - [ ] Continue with the next canonical Super Soul research frontier and repeat forward/reverse parity checks as mechanics are enriched.
+
+
+### 2026-09-27 continuation — Super Soul cross-domain parity repair
+- [x] Audited the canonical PQ→Super Soul forward layer against detailed Super Soul records, PQ acquisition index, and cross-link projection.
+- [x] Reconciled three capitalization/name mismatches: `This place Will be your grave!` → `This place will be your grave!`; `You Will know the power of the gods!` → `You will know the power of the gods!`; `I'll take all of you on at once!` → canonical `I'll take you all on at once!`.
+- [x] Updated `pq-reward-relationships.json`, `super-souls/pq-acquisition-index-001-186.json`, `pq-unified-reverse-index-1-186.json`, and `pq-super-soul-crosslink-report.json` so canonical targets resolve to the detailed record layer.
+- [x] Refreshed `super-soul-consumer-endpoint-coverage-audit-2026-09-27.json`: 136 canonical forward rows / 134 unique targets; all 134 have detailed records and acquisition-index entries; projection count is 136; status `aligned`.
+- [ ] Continue with the next unfinished cross-domain/database priority.
