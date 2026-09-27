@@ -3320,3 +3320,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/pq-049-do-or-die-reward-type-reconciliation-2026-09-27.json` to preserve the prior classification as audit history.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: verify `Do or Die` exists in the dedicated Skill layer/reverse index, then continue the next evidence-backed cross-domain classification/reward reconciliation.
+
+### 2026-09-27 continuation — stale Super Soul endpoint cleanup
+- [x] Cleared stale PQ acquisition metadata from Super Souls 137–141 after confirming their former PQ 151–154 attribution is absent from the current canonical reward/index layers.
+- [x] Preserved the catalogue identities as unresolved rather than deleting them or inventing alternate acquisition routes.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: audit the next unresolved Super Soul endpoint with acquisition metadata that lacks a matching canonical relationship.
