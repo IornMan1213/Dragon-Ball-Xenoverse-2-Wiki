@@ -826,19 +826,20 @@
       "effect_magnitude": "Approximately 5000 initial damage; 15% all-ability boost (secondary community-tested report)",
       "duration": "Approximately 30 seconds for the initial damage phase; boost duration unresolved",
       "stacking_behavior": "Unresolved",
-      "limit_burst": null,
+      "limit_burst": "Auto Just Guard",
       "limit_burst_trigger": null,
-      "limit_burst_effect": null,
+      "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Secondary community testing reports approximately 5000 damage distributed over 30 seconds at battle start followed by a 15% all-ability increase. These values remain secondary and are not promoted to canonical item-level verification. Current July/August 2026 community testing reports approximately 5000 distributed damage over 30 seconds followed by a 15% all-ability increase. These numerical values remain secondary evidence and are not treated as canonical item-level verification.",
-      "verification_status": "partially_verified",
+      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Secondary community testing reports approximately 5000 damage distributed over 30 seconds at battle start followed by a 15% all-ability increase. These values remain secondary and are not promoted to canonical item-level verification. Current July/August 2026 community testing reports approximately 5000 distributed damage over 30 seconds followed by a 15% all-ability increase. These numerical values remain secondary evidence and are not treated as canonical item-level verification. Secondary player testing/discussion reviewed 2026-09-27 also identifies Auto Just Guard as the Limit Burst; retained as verified-secondary evidence rather than primary canonical item documentation.",
+      "verification_status": "verified_secondary",
       "last_verified": "2026-09-27",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
-        "https://www.reddit.com/r/dbxv/comments/1v0ionai/build_ideas/"
+        "https://www.reddit.com/r/dbxv/comments/1v0ionai/build_ideas/",
+        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the/"
       ],
       "trigger_condition": "When the battle begins"
     },
