@@ -3841,3 +3841,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corroborated 146 (PQ157), 147 (PQ158), 148–149 (PQ159), and 150 (PQ160).
 - [x] Preserved partial verification and did not invent RNG/drop-condition details.
 - [ ] Continue with Super Soul 151 onward for legacy ID/name drift and source reconciliation.
+
+
+### 2026-09-27 continuation — Super Soul records 146–150
+- [x] Audited 146–150 for legacy ID/name drift signals; none found in the current canonical record layer.
+- [x] Preserved source-normalized PQ provenance for 146–150 and explicitly kept exact drop/first-clear behavior unresolved where not independently established.
+- [ ] Continue the provenance/ID-drift audit with Super Soul 151 onward.
