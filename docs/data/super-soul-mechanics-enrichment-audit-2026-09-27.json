@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "super_souls",
+  "records": 168,
+  "fields": {
+    "trigger_condition": 44,
+    "effect_text": 52,
+    "effect_magnitude": 46,
+    "limit_burst": 42,
+    "usable_by_cac": 52
+  },
+  "mechanics_enrichment_pass": {
+    "records_updated": 10,
+    "source_policy": "secondary evidence may enrich structured fields; unresolved values remain explicit and canonical relationship identities are not altered.",
+    "targets": [
+      "I'm neither Kami nor Piccolo...",
+      "Time to dismantle you androids!",
+      "I am the universe's strongest!",
+      "I got back my youth and vigor!",
+      "Goku the legendary Super Saiyan!",
+      "I'll use all my strength to kill you.",
+      "I wanted to kill you with my own hands.",
+      "I am...Super Vegeta!!",
+      "This fight...is truly pointless...",
+      "I actually felt that one..."
+    ]
+  },
+  "status": "passed_with_partial_mechanics_coverage"
+}
