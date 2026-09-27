@@ -3670,3 +3670,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill identity was added, removed, renamed, or synthetically reconstructed; source-reported values remain bounded and unsupported frames, hidden interactions, universal scaling, and reward probabilities remain unresolved.
 - [ ] Next priority: fresh Batch 500 census from the post-Batch-499 corpus, then continue mechanics/provenance enrichment.
 - [ ] Reconcile PQ→Skill and Skill→PQ navigation projections after the next enrichment cycle and continue expansion beyond the 474 canonical seed toward the 672 indexed-category target.
+
+
+### 2026-09-27 continuation — Batch 500 current-evidence frontier
+- [x] Performed a fresh post-Batch-499 census from the live 474-record corpus and selected 16 additional records without reusing the prior frontier candidate lists: **Gigantic Meteor, Super Saiyan 2, Supernova Cooler, Gigantic Omega, Brave Sword Attack, Super Vegeta, Blaster Ball, Perfect Kamehameha, Namek Finger, Blaster Meteor, Flash Strike, Paralyze Beam, Super Black Kamehameha Rosé, Finishing Blow, Bending Kamehameha, and Sudden Death Beam**.
+- [x] Added 16 dated Batch 500 current-evidence audit artifacts and recorded `docs/data/skill-research-batches/skill-batch-500.json`.
+- [x] Synchronized all 16 records into `docs/data/skills.json` and `docs/data/skills-index.json`; canonical identities were unchanged.
+- [x] Validation manifest records **474 canonical / 474 index records**, **16 synchronized records**, and zero canonical identity changes or unsupported claims added.
+- [x] Preserved source-bound numerical observations and explicit evidence boundaries; no unsupported exact frames, hidden interactions, universal scaling, or reward probabilities were promoted to canonical facts.
+- [ ] Next priority: fresh **Batch 501** census from the live corpus, excluding all prior frontier candidates, followed by another larger mechanics/provenance enrichment cycle.
+- [ ] After Batch 501, reconcile PQ→Skill and Skill→PQ projections and identify unresolved cross-domain endpoints rather than rewriting historical snapshots.
+- [ ] Continue expansion beyond the 474 canonical seed toward the 672 indexed-category target; runtime/CI remains non-blocking.
