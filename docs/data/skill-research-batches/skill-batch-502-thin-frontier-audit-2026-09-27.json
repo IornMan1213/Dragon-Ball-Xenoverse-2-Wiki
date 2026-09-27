@@ -1,0 +1,8 @@
+{
+  "batch": 502,
+  "date": "2026-09-27",
+  "selection_rule": "Fresh post-Batch-501 census; prior frontier names excluded from selection basis.",
+  "selected_records": 8,
+  "validation": "Eight records synchronized to both canonical-facing Skills layers; canonical identity unchanged.",
+  "next": "Fresh Batch 503 census followed by PQ→Skill / Skill→PQ projection reconciliation."
+}
