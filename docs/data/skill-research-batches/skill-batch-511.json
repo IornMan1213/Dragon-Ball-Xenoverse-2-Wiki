@@ -1,0 +1,29 @@
+{
+  "batch": 511,
+  "date": "2026-09-27",
+  "type": "current-evidence-refresh",
+  "selected": [
+    "Destructive Fission",
+    "Destructive Flare",
+    "Destructive Fracture",
+    "Destructo-Disc",
+    "DIE DIE Missile Barrage",
+    "Dimension Cannon",
+    "Dimension Ray",
+    "Dimensional Hole"
+  ],
+  "selection_rule": "Fresh post-Batch-510 census from the live 474-record canonical corpus; first eight lexical frontier records whose last_verified was older than 2026-09-27.",
+  "baseline": {
+    "canonical_records": 474
+  },
+  "evidence_boundary": "Canonical data remains the source of truth; unsupported acquisition gates, probabilities, exact frames, hidden interactions, universal scaling, and Skill→PQ edges were not inferred.",
+  "records_refreshed": 8,
+  "canonical_identity_changes": 0,
+  "synchronized_layers": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "audit_artifacts": 8,
+  "projection_note": "No new Skill→PQ edges inferred.",
+  "completed": true
+}

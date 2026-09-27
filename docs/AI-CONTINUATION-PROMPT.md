@@ -4365,3 +4365,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved known reward-tier/trigger conflicts and did not invent probabilities, frame data, hidden interactions, scaling, or Skill→PQ relationships.
 - [x] Finalized `docs/data/skill-research-batches/skill-batch-506.json`.
 - [ ] Next: register the eight dedicated Batch 506 audit artifacts and synchronize the Skills index layer, then perform the next cross-domain reconciliation.
+
+### 2026-09-27 continuation — Batch 511 current-evidence completion
+- [x] Fresh post-Batch-510 census from the live 474-record canonical corpus selected **Destructive Fission, Destructive Flare, Destructive Fracture, Destructo-Disc, DIE DIE Missile Barrage, Dimension Cannon, Dimension Ray, Dimensional Hole**.
+- [x] Completed bounded current-evidence refreshes for all eight; canonical identity changes: **0**.
+- [x] Synchronized docs/data/skills.json and docs/data/skills-index.json; added eight dated Batch 511 audit artifacts and finalized docs/data/skill-research-batches/skill-batch-511.json.
+- [x] Registered Batch 511 and all eight audit artifacts in docs/data/pq-cross-domain-index.json.
+- [x] Preserved canonical-source priority and did not infer unsupported Skill→PQ relationships, reward probabilities, hidden gates, exact frames, or patch-independent scaling.
+- [ ] Runtime/CI remains non-blocking.
+- [ ] **Exact next:** fresh Batch 512 census and next substantive cross-domain enrichment toward the 672 indexed-category target.

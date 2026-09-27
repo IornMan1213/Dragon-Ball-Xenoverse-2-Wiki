@@ -1,0 +1,19 @@
+{
+  "skill_name": "Dimension Cannon",
+  "batch": 511,
+  "date": "2026-09-27",
+  "status": "current_evidence_refresh",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_identity": "skill-dimension-cannon",
+  "classification": {
+    "class": "Evasive",
+    "subcategory": "Ki Blast"
+  },
+  "acquisition": "Parallel Quest 59 — \"Potara Warrior\" Basic Reward",
+  "source_parallel_quests": [
+    59
+  ],
+  "summary": "Batch 511 refresh: Dimension Cannon remains canonically classified as Evasive / Ki Blast; existing acquisition endpoint and documented mechanics were rechecked without changing canonical identity.",
+  "evidence_boundary": "Canonical data remains the source of truth. Existing source conflicts and unresolved mechanics remain bounded; no unsupported reward probabilities, hidden gates, exact frames, patch-independent scaling, or new Skill→PQ edges were inferred.",
+  "canonical_identity_changes": 0
+}
