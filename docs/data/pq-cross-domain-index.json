@@ -1080,7 +1080,7 @@
   "skill_research_batch_401": "docs/data/skill-research-batches/skill-batch-401.json",
   "skill_holy_inscription_current_evidence_audit_2026_09_25": "docs/data/skill-holy-inscription-current-evidence-audit-2026-09-25.json",
   "skill_research_batch_402": "docs/data/skill-research-batches/skill-batch-402.json",
-  "last_updated": "2026-09-26",
+  "last_updated": "2026-09-27",
   "skill_batch_403": "docs/data/skill-research-batches/skill-batch-403.json",
   "skill_batch_403_thin_frontier_mechanics_audit_2026_09_25": "docs/data/skill-batch-403-thin-frontier-mechanics-audit-2026-09-25.json",
   "skill_buu_buu_ball_mechanics_audit_2026_09_25": "docs/data/skill-buu-buu-ball-mechanics-audit-2026-09-25.json",
@@ -2047,5 +2047,28 @@
       "manifest_path": "docs/data/skill-research-batches/skill-batch-518.json"
     }
   ],
-  "skill_batch_517_current_evidence": "docs/data/skill-research-batches/skill-batch-517.json"
+  "skill_batch_517_current_evidence": "docs/data/skill-research-batches/skill-batch-517.json",
+  "skill_research_batch_516_2026_09_27": {
+    "batch": 516,
+    "date": "2026-09-27",
+    "type": "current-evidence-refresh",
+    "selected": [
+      "Eraser Bomb",
+      "Evil Blast",
+      "Evil Explosion",
+      "Evil Eyes",
+      "Evil Flame",
+      "Evil Flight Strike",
+      "Evil Ray Strike",
+      "Evil Rise Strike",
+      "Evil Whirlwind",
+      "Excellent Full Course",
+      "Explosive Assault",
+      "Explosive Buu Buu Punch"
+    ],
+    "records_refreshed": 12,
+    "identity_changes": 0,
+    "canonical_field_corrections": 0,
+    "relationship_changes": 0
+  }
 }
