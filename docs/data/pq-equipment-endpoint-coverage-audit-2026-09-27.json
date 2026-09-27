@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "domain": "pq_equipment",
+  "canonical_relationship_source": "docs/data/pq-reward-relationships.json",
+  "endpoint_sources": [
+    "docs/data/equipment-accessories-record-layer.json",
+    "docs/data/equipment-record-layer.json"
+  ],
+  "canonical_edges": 125,
+  "unique_targets": 123,
+  "endpoint_identity_matches": 0,
+  "endpoint_identity_gaps": [],
+  "endpoint_records": {
+    "accessories": 56,
+    "equipment": 52,
+    "unique_named_endpoints": 108
+  },
+  "status": "passed_with_endpoint_enrichment_gaps",
+  "semantics": "Canonical PQ→equipment relationships remain authoritative. Missing endpoint identities are enrichment gaps and must not be interpreted as negative acquisition claims."
+}
