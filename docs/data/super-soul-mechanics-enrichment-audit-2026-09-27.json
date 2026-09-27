@@ -58,9 +58,8 @@
     "records": [
       "super-soul-137"
     ],
-    "status": "mechanics_and_limit_burst_reconciled",
-    "canonical_promotion": false,
-    "note": "Guard-break damage reduction and Limit Burst are supported by secondary/current evidence; XL numeric interpretation remains secondary."
+    "status": "canonical_acquisition_reconciled",
+    "note": "Current catalogue corroborates Item Shop acquisition plus guard-break effect and Limit Burst. Community/source numeric XL interpretation remains secondary; canonical-data-first rule preserved."
   },
   "last_batch": {
     "date": "2026-09-27",
