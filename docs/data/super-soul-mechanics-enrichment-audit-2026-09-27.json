@@ -55,12 +55,15 @@
   "status": "passed_with_partial_mechanics_coverage",
   "latest_batch": {
     "date": "2026-09-27",
-    "promoted_records": [
-      "super-soul-036",
-      "super-soul-037"
+    "records": [
+      "super-soul-032",
+      "super-soul-033",
+      "super-soul-034",
+      "super-soul-035"
     ],
-    "evidence_basis": "Hit/Hit Lite Raid reward documentation and current Super Soul catalogue explicitly state the Limit Burst effects.",
-    "note": "Two additional canonical records now have synchronized Limit Burst effect fields."
+    "status": "secondary_evidence_reconciled",
+    "canonical_promotion": false,
+    "note": "Recent community reports and PQ reward documentation were added as provenance/context only. No unresolved community mechanic was promoted to canonical verified truth."
   },
   "last_batch": {
     "date": "2026-09-27",
