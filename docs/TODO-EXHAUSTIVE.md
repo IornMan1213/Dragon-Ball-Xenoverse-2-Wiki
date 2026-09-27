@@ -2487,3 +2487,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** inspect the other declared PQ reverse consumers (Super Soul, equipment/accessory, character, DLC, farming) for the same stale-report/source mismatch; repair the highest-impact deterministic consumer next, without altering canonical evidence-backed forward relationships.
 
+### 2026-09-27 continuation — Super Soul consumer endpoint gap identified
+- [x] Audited the next declared PQ consumer domain instead of assuming reverse-index parity means page-level endpoint completeness.
+- [x] Canonical forward store contains **137 source-backed PQ→Super Soul edges / 134 unique targets** and remains authoritative.
+- [x] The normalized PQ acquisition index is explicitly partial (PQ 41-186) and contains 80 acquisition records; it must not be interpreted as exhaustive negative evidence.
+- [x] The promoted `super-souls-record-layer.json` currently contains only **42 detailed records**, so many source-backed PQ Super Soul targets do not yet have a fully promoted detailed endpoint record.
+- [x] Added `scripts/audit_super_soul_consumer_coverage.py` and `docs/data/super-soul-consumer-endpoint-coverage-audit-2026-09-27.json` to track this gap without deleting or weakening any canonical forward relationship.
+- [x] Registered the audit/validator in `docs/data/pq-cross-domain-index.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** use the existing Super Soul research/acquisition batches to expand the detailed Super Soul endpoint layer from evidence-backed records, prioritizing the 134 canonical PQ targets lacking detailed coverage; do not fabricate trigger/effect/Limit Burst fields merely to close the endpoint count.
+
