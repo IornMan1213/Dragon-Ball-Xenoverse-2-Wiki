@@ -3243,3 +3243,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed the core-field audit currently has **155 records with at least one unresolved core mechanics field**; this is distinct from the narrower enrichment-frontier counter used by the handoff.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: use the canonical layer and audit script outputs as the source for progress accounting before promoting additional mechanics.
+
+
+### 2026-09-27 continuation — Super Soul mechanics enrichment batch 9
+- [x] Enriched super-soul-117 through super-soul-121.
+- [x] Promoted evidence-backed triggers, effects, magnitudes, durations, stacking behavior, Limit Bursts, and CaC usability.
+- [x] Refreshed mechanics and integrity audits; **85** partial mechanics records remain.
+- [x] Current coverage: trigger **89/168**, effect **97/168**, magnitude **91/168**, duration **72/168**, stacking **44/168**, Limit Burst **87/168**, Limit Burst effect **67/168**, CaC **97/168**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the next five evidence-backed mechanics records.
