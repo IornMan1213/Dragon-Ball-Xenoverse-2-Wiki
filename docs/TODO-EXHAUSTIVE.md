@@ -4161,3 +4161,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added secondary evidence-backed `Auto Just Guard` Limit Burst data to Super Soul 035 and classified it as verified-secondary.
 - [x] Active Limit Burst-effect coverage increased from 163/167 to **164/167**.
 - [ ] Continue remaining active Super Soul mechanics gaps; do not promote secondary evidence to primary canonical truth without provenance support.
+
+
+### 2026-09-27 continuation — PQ 185 Super Soul evidence refresh
+- [x] Refreshed current secondary evidence for the two PQ 185 Super Souls already carrying 20% mechanics values.
+- [x] Preserved the three-record Limit Burst-effect gap; no unsupported Limit Burst values were added.
+- [ ] Continue evidence search for `super-soul-032`, `super-soul-033`, and especially unresolved `super-soul-034`.
