@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0",
+  "audit_type": "pq_reward_database_recovery",
+  "audited_at": "2026-09-27",
+  "branch": "main",
+  "status": "recovered_and_live",
+  "recovery_source_commit": "02b6306341c2d3a6cf6f6213a25386949d07a7ce",
+  "recovery_source_blob_sha": "51317db2f5a3633f1bc138e5adb4ae63059384f0",
+  "recovery_source_bytes": 247551,
+  "live_main_evidence": {
+    "path": "docs/data/pq-reward-relationships.json",
+    "indexed_by_github_code_search": true,
+    "current_counts": {
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "total_edges": 840,
+    "live_current_count_evidence": "GitHub code-search index on main at 01f78acd34c55d6250fd3bd638727862044c5a1a",
+    "sample_live_relationship": "PQ 105 / pq_rewards_skill / Sonic Bomb"
+  },
+  "restoration_interpretation": "The canonical forward reward database is present on current main. The direct repository-file connector cannot return this large blob, but indexed live-main evidence confirms the file and its current baseline. No replacement dataset was fabricated.",
+  "validation_boundary": "Runtime execution/CI remains intentionally non-blocking and unverified."
+}
