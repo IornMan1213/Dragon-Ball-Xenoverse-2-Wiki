@@ -56,14 +56,11 @@
   "latest_batch": {
     "date": "2026-09-27",
     "records": [
-      "super-soul-032",
-      "super-soul-033",
-      "super-soul-035"
+      "super-soul-137"
     ],
-    "status": "secondary_mechanics_reconciled",
+    "status": "mechanics_and_limit_burst_reconciled",
     "canonical_promotion": false,
-    "note": "Detailed recent community-tested mechanics were normalized into the secondary-evidence fields; they remain explicitly secondary and do not override canonical-data-first policy.",
-    "limit_burst_coverage": "107/172"
+    "note": "Guard-break damage reduction and Limit Burst are supported by secondary/current evidence; XL numeric interpretation remains secondary."
   },
   "last_batch": {
     "date": "2026-09-27",
