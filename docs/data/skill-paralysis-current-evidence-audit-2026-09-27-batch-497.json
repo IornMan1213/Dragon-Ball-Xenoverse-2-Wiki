@@ -4,9 +4,8 @@
   "batch": 497,
   "date": "2026-09-27",
   "status": "current_evidence_verified",
-  "mechanics": "300-Ki Strike Ultimate from PQ34; immobilization followed by ice-pillar freeze, documented as two hits, unblockable, with source-reported ~25% total damage. Exact freeze duration/scaling remain unresolved.",
-  "acquisition_endpoint": "PQ34",
-  "source_scope": "Current Xenoverse 2-specific repository evidence and bounded corroboration.",
-  "canonical_sync": "Synchronized conceptually against the live 474-record canonical layer; identity is unchanged.",
-  "evidence_boundary": "Exact frame timing, patch-independent scaling, hidden interactions, and unsupported probabilities are not asserted."
+  "mechanics": "Current documentation reconfirms PQ34 Basic Reward acquisition, 300 Ki Strike Ultimate classification, immobilization/ice-pillar sequence, unblockable property, and source-reported two-hit/approximately 25% damage. Freeze duration and frame timing remain unresolved.",
+  "source_scope": "Current Xenoverse 2-specific documentation and bounded independent corroboration.",
+  "canonical_sync": "Synchronized with the restored 474-record canonical Skills baseline; canonical identity unchanged.",
+  "evidence_boundary": "Unsupported exact frames, universal scaling, hidden interactions, and numerical reward probabilities are not asserted."
 }
