@@ -5308,3 +5308,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Rechecked the Dual Masenko frontier: canonical restoration is already complete; TP Medal Shop remains the supported acquisition route, while PQ118 remains intentionally unresolved because repository evidence conflicts.
 - [x] Rechecked the restored-skill evidence batches; no unsupported PQ relationships were introduced from Skill Shop/default-skill evidence.
 - [ ] **Next:** move beyond the restored identity/acquisition frontier into the remaining evidence-backed mechanics/acquisition gaps and bidirectional cross-domain reconciliation.
+
+
+### 2026-09-28 continuation — Restored-skill mechanics frontier consolidation
+- [x] Re-audited the next evidence-backed mechanics frontier after canonical identity/acquisition recovery.
+- [x] Consolidated five existing canonical identities into `docs/data/restored-skill-mechanics-frontier-reconciliation-2026-09-28.json`: Assault Rain, Super Electric Strike, Ki Explosion, Heavenly Arrow, and Counter Burst.
+- [x] Preserved source/version boundaries for damage, frame data, scaling, counter windows, and reward probabilities instead of promoting unsupported constants.
+- [x] Preserved acquisition-vs-PQ semantics: Expert Mission/training/shop/PQ acquisition endpoints do not become PQ reward edges without explicit reward evidence.
+- [ ] **Next:** compare these consolidated mechanics boundaries against the live canonical records and apply only field-level corrections supported by direct evidence; then continue the remaining mechanics frontier and PQ bidirectional reconciliation.
