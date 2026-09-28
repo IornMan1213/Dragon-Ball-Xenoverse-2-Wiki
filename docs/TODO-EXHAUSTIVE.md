@@ -5422,3 +5422,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/restored-skill-mechanics-frontier-reconciliation-2026-09-28-batch-05.json`.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the mechanics/acquisition frontier with the next genuinely unaudited canonical records, while maintaining the 493/493 identity boundary and explicit provenance limits.
+
+
+### 2026-09-28 continuation — PQ crosslink coverage synchronization
+- [x] Reconciled the stale `docs/COVERAGE-AUDIT.md` PQ→skill summary against the latest persisted crosslink state after PQ48 promotion.
+- [x] Updated the summary from **248 edges / 170 PQ IDs / 16 endpoint gaps** to **249 edges / 171 PQ IDs / 15 endpoint gaps**.
+- [x] Preserved the evidence boundary: an absent canonical endpoint is not treated as proof that a PQ has no skill reward.
+- [x] No canonical skill identities or unsupported relationships were introduced by this synchronization.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining unaudited mechanics/acquisition frontier and keep cross-domain coverage summaries synchronized with the canonical relationship layer.
