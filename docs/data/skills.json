@@ -7703,7 +7703,10 @@
       "ki_cost": null,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Captain Ginyu utility Super that damages the user and instantly charges two bars of Ki in Xenoverse 2.",
-      "id": "skill-holstein-shock"
+      "id": "skill-holstein-shock",
+      "source_parallel_quests": [
+        15
+      ]
     },
     {
       "name": "Holy Inscription",
@@ -10690,7 +10693,10 @@
       "ki_cost": 100,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Ki Blast Super used by Recoome: after a roughly two-second startup, the user fires a long-range mouth beam. Current documentation lists 100 Ki and PQ17 acquisition.",
-      "id": "skill-recoome-eraser-gun"
+      "id": "skill-recoome-eraser-gun",
+      "source_parallel_quests": [
+        17
+      ]
     },
     {
       "name": "Recoome Kick",
