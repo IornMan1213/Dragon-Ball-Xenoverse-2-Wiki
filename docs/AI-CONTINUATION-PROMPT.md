@@ -5579,3 +5579,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Commit: `5d9cbd9ce63e40f07a3200d07286088c8f6f09da`.
 - [x] Confirmed the 4 partner customization relationships are still the current stored set; no change was made because that is a small domain-specific relationship layer, not evidence of corruption.
 - [ ] **Exact next:** continue auditing remaining validators for frozen recovery-era assumptions, then expand canonical PQ/QQ Bang/equipment coverage.
+
+### 2026-09-28 continuation — canonical recovery validator stale PQ baseline repair
+- [x] Continued repository-wide stale-count auditing using live code search.
+- [x] Found `scripts/validate_canonical_database_recovery.py` still hardcoded the pre-recovery PQ relationship total of 840.
+- [x] Live canonical `pq-reward-relationships.json` contains 850 relationship rows, with `current_counts` matching that live total.
+- [x] Replaced the obsolete fixed 840 assertion with a structural check that the actual relationship total equals the canonical `current_counts` total.
+- [x] Commit: `6d190d6805999ea16d6f30bed8be3821ceeec8e2`.
+- [ ] **Exact next:** continue searching for remaining frozen recovery-era baselines and stale generated audits, then resume substantive cross-domain coverage expansion.
