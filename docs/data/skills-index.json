@@ -10405,7 +10405,8 @@
       "race_restriction": "Not separately established in this promotion",
       "notes": "2026-09-23 canonical promotion: existing Expert Mission acquisition evidence associates this skill with EM11. Exact drop rate and guarantee condition remain unresolved; no per-clear guarantee is asserted. 2026-09-23 independent Expert Mission provenance verification: the maintained all-Expert-Missions guide independently identifies the documented Expert Mission and skill pairing and places the skill in that mission's Basic Reward list.\n2026-09-25 Batch 360 zero-mechanics frontier completion: current Xenoverse 2-specific evidence expanded bounded combat mechanics while preserving existing Expert Mission acquisition semantics. No unsupported probability, hidden prerequisite, Ultimate Finish gate, frame data, exact timing, or stacking cap was inferred.\n2026-09-26 Batch 458 current-evidence audit: current Xenoverse 2-specific mechanics and acquisition evidence were rechecked; bounded mechanics were synchronized without promoting unsupported frames, probabilities, or patch-independent scaling.",
       "source_quest_or_shop": "Expert Mission 11 — \"The Devil Born from the Dragon Balls\"",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 11. The user launches a large tracked Ki wave with long-range coverage; current dedicated evidence documents 17 hits, knockback, and about 40% total damage. Existing EM11 acquisition semantics remain unchanged; exact drop probability and frame data remain unresolved."
+      "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 11. The user launches a large tracked Ki wave with long-range coverage; current dedicated evidence documents 17 hits, knockback, and about 40% total damage. Existing EM11 acquisition semantics remain unchanged; exact drop probability and frame data remain unresolved.",
+      "ki_cost": 300
     },
     {
       "id": "skill-super-elite-combo",
