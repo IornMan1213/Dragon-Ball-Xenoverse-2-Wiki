@@ -104,6 +104,14 @@
       "date": null,
       "url": "https://dbxv2.fandom.com/wiki/DLC",
       "scope": "Independently identifies the six canonical Chapter 3 skills and associates them with Golden Frieza (Ultra Supervillain) and Broly (DB Super)."
+    },
+    {
+      "id": "official_ch4_dlc_page",
+      "publisher": "Bandai Namco Entertainment",
+      "title": "DRAGON BALL XENOVERSE 2 - FUTURE SAGA Chapter 4",
+      "date": null,
+      "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+      "scope": "Official DLC page identifies Chapter 4 as containing four new moves including one Awoken Skill and names Goku (Ultra Supervillain Quelled) and Supreme Kai of Time (Ultra Supervillain) as playable characters."
     }
   ],
   "events": [
@@ -184,7 +192,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Continue with Future Saga Chapter 4 and DAIMA Pack; map individual skills only where event scope plus named skill evidence supports the relationship.",
+  "next_step": "Audit DAIMA Pack skills next, then reconcile the four Chapter 4 moves against the official named character/move evidence where available; preserve any ambiguity rather than infer.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -390,6 +398,50 @@
       ],
       "confidence": "corroborated",
       "basis": "The official Chapter 3 announcement establishes the DLC and its Golden Frieza (Ultra Supervillain) and Broly (DB Super) content; the maintained named skill catalog identifies the six canonical Chapter 3 skills and matches the repository records."
+    },
+    {
+      "skill_id": "skill-dragon-spiral",
+      "skill_name": "Dragon Spiral",
+      "event_id": "future-saga-chapter-4-announced",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_ch4_dlc_page"
+      ],
+      "confidence": "direct_scope",
+      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+    },
+    {
+      "skill_id": "skill-indomitable",
+      "skill_name": "Indomitable",
+      "event_id": "future-saga-chapter-4-announced",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_ch4_dlc_page"
+      ],
+      "confidence": "direct_scope",
+      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+    },
+    {
+      "skill_id": "skill-the-power-to-overcome",
+      "skill_name": "The Power to Overcome",
+      "event_id": "future-saga-chapter-4-announced",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_ch4_dlc_page"
+      ],
+      "confidence": "direct_scope",
+      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+    },
+    {
+      "skill_id": "skill-venus-fist",
+      "skill_name": "Venus Fist",
+      "event_id": "future-saga-chapter-4-announced",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_ch4_dlc_page"
+      ],
+      "confidence": "direct_scope",
+      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
     }
   ]
 }
