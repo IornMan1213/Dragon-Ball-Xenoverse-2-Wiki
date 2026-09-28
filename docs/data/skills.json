@@ -2017,20 +2017,21 @@
       "name": "Consecutive Energy Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast"
+        "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast",
+        "https://dragonball.fandom.com/wiki/Continuous_Energy_Bullet"
       ],
       "stamina_cost": 0,
       "unlock_method": "Skill Shop",
-      "last_verified": "2026-09-27",
-      "research_status": "catalog_gap_promoted",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
       "usable_by_cac": true,
-      "character_source": null,
+      "character_source": "Multiple characters and customizable partners",
       "ultimate_finish_required": false,
       "ki_cost": 100,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Tracking barrage of 10 Ki blasts.",
+      "mechanics_notes": "100-Ki Ki Blast Super that fires a wide-range barrage of 10 tracking Ki blasts at the target.",
       "id": "skill-consecutive-energy-blast"
     },
     {
@@ -8643,20 +8644,21 @@
       "name": "Ki Blast Cannon",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon"
+        "https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "stamina_cost": null,
-      "unlock_method": "Skill Shop / Gohan & Videl training conflict",
-      "last_verified": "2026-09-27",
-      "research_status": "catalog_gap_promoted",
+      "unlock_method": "Skill Shop after \"Galactic Emperor\"",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
       "usable_by_cac": true,
-      "character_source": "Gohan (Adult), Goku (Super Saiyan God), and customizable partners",
+      "character_source": "Gohan (Adult), Goku (Super Saiyan God), and multiple customizable partners",
       "ultimate_finish_required": null,
       "ki_cost": 100,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Ki Blast shockwave Super with stagger/restand behavior.",
+      "mechanics_notes": "Ki Blast Super that fires a yellow shockwave from the palm. It can stagger a juggled/knocked-down opponent and can be repeated immediately without additional Ki; against a standing target it instead knocks the opponent back.",
       "id": "skill-ki-blast-cannon"
     },
     {
@@ -12528,20 +12530,20 @@
       "name": "Super Back Jump",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Back_Jump"
+        "https://dbxv2.fandom.com/wiki/Super_Back_Jump",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "stamina_cost": 200,
-      "unlock_method": "Skill Shop / starting move",
-      "last_verified": "2026-09-27",
-      "research_status": "catalog_gap_promoted",
+      "unlock_method": "Skill Shop / Starting move for \"Long range\"",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
       "usable_by_cac": true,
-      "character_source": "Long-range starter / customizable Future Warrior",
+      "character_source": "Multiple base-game and customizable characters",
       "ultimate_finish_required": false,
       "ki_cost": 0,
-      "damage_type": "Ki Blast",
-      "mechanics_notes": "Defensive backward evasive movement.",
+      "mechanics_notes": "Other Evasive using 200 Stamina. The user jumps and somersaults backward to escape danger; current Evasive documentation also lists it as the starting move for the Long range choice.",
       "id": "skill-super-back-jump"
     },
     {
@@ -12778,20 +12780,21 @@
       "name": "Super Galick Gun",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Galick_Gun"
+        "https://dbxv2.fandom.com/wiki/Super_Galick_Gun",
+        "https://dragonball.fandom.com/wiki/Super_Galick_Gun"
       ],
       "stamina_cost": null,
-      "unlock_method": "Skill Shop",
-      "last_verified": "2026-09-27",
-      "research_status": "catalog_gap_promoted",
+      "unlock_method": "TP Medal Shop",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
       "usable_by_cac": true,
-      "character_source": "Vegeta",
+      "character_source": "Vegeta and multiple customizable variants/partners",
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Long-range Galick Gun Ultimate.",
+      "mechanics_notes": "300-Ki chargeable Ki Blast Ultimate. The user charges a Galick Gun and fires a long beam; current dedicated documentation describes a 15-hit base sequence and up to 24 hits at maximum charge. Exact damage percentages are retained as source-reported rather than treated as patch-independent.",
       "id": "skill-super-galick-gun"
     },
     {
@@ -13074,20 +13077,21 @@
       "name": "Super Ki Explosion",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Super_Ki_Explosion",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "stamina_cost": null,
-      "unlock_method": null,
-      "last_verified": "2026-09-27",
-      "research_status": "catalog_gap_promoted",
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
       "usable_by_cac": true,
-      "character_source": null,
+      "character_source": "Goku, Gohan (Adult), Gohan (Future), Tien, Piccolo, Raditz, Nappa, Vegeta, Zarbon, Dodoria, Captain Ginyu, Turles, Lord Slug, Frieza (1st Form), Cooler (Final Form), Android 16, Android 18, Cell (Perfect), Majin Buu, Gotenks, Beerus, Pan, Bardock, Masked Saiyan, and other customizable partners",
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Ki Blast Ultimate identity established by the current Ki Blast Ultimate catalog.",
+      "mechanics_notes": "Ki Blast Ultimate with a 300-Ki base cost. The user creates a large surrounding Ki explosion; holding the input prolongs the explosion and consumes additional Ki.",
       "id": "skill-super-ki-explosion"
     },
     {
@@ -14104,20 +14108,21 @@
       "name": "Ultra Fighting Bomber",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Ultra_Fighting_Bomber",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
       "stamina_cost": null,
-      "unlock_method": null,
-      "last_verified": "2026-09-27",
-      "research_status": "catalog_gap_promoted",
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
       "usable_by_cac": true,
       "character_source": "Recoome",
       "ultimate_finish_required": null,
-      "ki_cost": null,
+      "ki_cost": 300,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Ki Blast Ultimate identity established by the current Xenoverse 2 skill catalog.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate with an 8-hit short-range explosion. The current dedicated reference states that the user poses for about 3 seconds before launching the explosion; exact damage is not promoted as a version-independent canonical value.",
       "id": "skill-ultra-fighting-bomber"
     },
     {
