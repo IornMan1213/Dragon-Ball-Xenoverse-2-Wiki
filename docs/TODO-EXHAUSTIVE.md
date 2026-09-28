@@ -6026,3 +6026,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added/indexed batch-565 canonical coverage audit.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ101-PQ110 recovery-forward reconciliation; separately research canonical evidence for the PQ91-PQ99 relationship gap.
+
+
+### 2026-09-28 continuation — PQ101-PQ110 recovery-forward reconciliation
+- [x] Repaired maintained reward projections for PQ101-PQ110 from existing canonical source-backed relationships.
+- [x] Repaired skill/equipment/Super Soul projections and applicable accessory cross-links.
+- [x] Added and indexed batch-566 audit; canonical data unchanged.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ111-PQ120 recovery-forward reconciliation.
