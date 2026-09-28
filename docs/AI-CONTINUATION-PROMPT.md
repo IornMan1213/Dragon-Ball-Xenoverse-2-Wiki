@@ -5669,3 +5669,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed PQ48 should **not** be promoted into the canonical skill corpus merely from the reward transcription: `Kamekameha` remains an indexed/research identity, while the canonical skill corpus has no corresponding endpoint.
 - [x] Commits: `e7012eaed1ec4d1d2c8fd9debf57e2e6313df1cc` (audit-note correction), `a0376800c5923f5e761180b3770b6766d2cd920f` (typed-reward reconciliation audit).
 - [ ] **Exact next:** move to remaining cross-domain reverse-index integrity and indexed-only skill identities, with PQ48/Kamekameha retained as a focused evidence-boundary task.
+
+### 2026-09-28 continuation — 16-PQ typed-reward expansion batch
+- [x] Audited the canonical relationship layer for the 16 PQs without explicit skill endpoints rather than treating the skill gap as a general reward gap.
+- [x] Promoted two explicit, source-backed equipment reward relationships: **Hercule's Clothes → PQ30** and **Broly's Clothes → PQ47**.
+- [x] Added corresponding bidirectional `pq_links` to `equip-057` and `equip-112`.
+- [x] Preserved unresolved Z-Sword/PQ35 evidence and other historical/ambiguous accessory claims instead of promoting weaker evidence into canonical relationships.
+- [x] Updated canonical relationship counts from 850 to **852** total, with equipment relationships 125→127.
+- [x] Commits: relationship layer `5830366db8c7b87c4a37b144e18f4d9d4dcd9bc7`; equipment layer `0f99516e4fc45436ba1c9e096c0a0b11d0a5d343`.
+- [ ] **Exact next:** continue the same evidence-first typed-reward audit across the remaining 16 PQs, prioritizing explicit accessory/equipment identities that already exist canonically; do not promote historical-only or conflicting routes.
