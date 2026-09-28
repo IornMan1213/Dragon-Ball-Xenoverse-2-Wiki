@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "batch_id": 544,
+  "type": "canonical_ki_cost_enrichment",
+  "scope": "Fill previously null canonical ki_cost fields only where current repository evidence explicitly states the activation cost.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Assault Rain",
+      "ki_cost": 300,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Blue Hurricane",
+      "ki_cost": 300,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Dead End Bullet",
+      "ki_cost": 300,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Death Meteor",
+      "ki_cost": 300,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Death Wave",
+      "ki_cost": 100,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Hellzone Grenade",
+      "ki_cost": 300,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Murder Grenade",
+      "ki_cost": 100,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Shocking Death Ball",
+      "ki_cost": 300,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Spirit Sword",
+      "ki_cost": 400,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    },
+    {
+      "name": "Super Electric Strike",
+      "ki_cost": 300,
+      "evidence": "Existing canonical mechanics notes and repository research batches explicitly state this activation cost."
+    }
+  ],
+  "excluded": {
+    "Holstein Shock": "ki_cost remains null; existing evidence does not establish a numeric Ki activation cost.",
+    "Hyper Movement": "ki_cost remains unresolved; existing evidence establishes Stamina cost and evasive behavior but no explicit numeric Ki cost."
+  },
+  "validation": {
+    "canonical_skill_records": 497,
+    "records_enriched": 10,
+    "remaining_null_ki_cost": 2,
+    "boundary": "No class-wide cost inference; unresolved costs remain null."
+  }
+}
