@@ -1,0 +1,28 @@
+{
+  "batch_id": 573,
+  "date": "2026-09-28",
+  "type": "pq-171-180-cross-domain-reconciliation",
+  "scope": "PQ171-PQ180",
+  "status": "reconciled_maintained_projection_live_state",
+  "findings": {
+    "records_audited": 10,
+    "skill_reward_projections_restored": 17,
+    "equipment_reward_projections_restored": 4,
+    "super_soul_reward_projections_restored": 6,
+    "accessory_links_restored": 2,
+    "canonical_skill_relationships_present": 17,
+    "canonical_equipment_relationships_present": 6,
+    "canonical_super_soul_relationships_present": 6,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false,
+    "notes": [
+      "Live-state reconciliation found maintained reward projections absent after corruption and restored only existing source-backed canonical relationships.",
+      "PQ176 Belmod's Clothes uses equipment endpoint equip-073; PQ178 Goku (Mini)'s Gi uses equip-074; PQ179 SS4 Goku (DAIMA) Suit uses equip-075; PQ180 SS3 Vegeta (DAIMA) Battle Suit uses equip-076.",
+      "PQ179 SS4 Goku (DAIMA) Wig & Tail and PQ180 SS3 Vegeta (DAIMA) Wig remain accessory endpoints acc-083 and acc-084 rather than fabricated equipment IDs.",
+      "Canonical reward relationship records classify the named PQ179/PQ180 wig rewards in the equipment relationship layer, but the repository's dedicated accessory layer provides the correct typed endpoint; this reconciliation preserves that endpoint distinction.",
+      "PQ173's Super Soul is normalized to the canonical relationship spelling `You will know the power of the gods!`; PQ178's maintained Super Soul follows the canonical relationship spelling `I'll take you all on at once!` rather than the differing research transcription.",
+      "Exact reward/drop mechanics remain distinct from reward identity and are not inferred beyond the research record."
+    ]
+  },
+  "next": "PQ181-PQ186 final numbered-block recovery-forward reconciliation"
+}
