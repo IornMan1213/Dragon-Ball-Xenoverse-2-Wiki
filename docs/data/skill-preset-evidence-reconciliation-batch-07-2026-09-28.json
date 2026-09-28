@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Canonical enrichment of Shockwave after direct Xenoverse 2 evidence reconciliation",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Shockwave",
+      "skill_id": "skill-shockwave",
+      "prior_status": "evidence_sufficient_for_field_reconciliation",
+      "decision": "Canonical record enriched and promoted to verified_current_scope as a Strike Super with 100 Ki, Skill Shop availability after A Desperate Future, and no unsupported stamina or Ultimate Finish requirement.",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Shockwave",
+        "https://dbxv2.fandom.com/wiki/Goku",
+        "https://videogaming.fandom.com/wiki/Burter",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497091"
+      ],
+      "mechanics_boundary": "Preserves the documented unblockable interrupt/push behavior without promoting version-sensitive frame or damage measurements.",
+      "status": "resolved"
+    }
+  ],
+  "counts": {
+    "canonical_skills": 493,
+    "skill_index": 493
+  },
+  "policy": "Canonical skills.json remains authoritative; index is synchronized consumer data and historical conflicting research remains preserved."
+}
