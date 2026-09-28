@@ -5591,17 +5591,16 @@
       "skill_rewards": [
         "Emperor's Cannon"
       ],
-      "equipment_rewards": [
-        {
-          "equipment_id": "acc-087",
-          "relationship": "acquisition_source",
-          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
-        }
-      ],
+      "equipment_rewards": [],
       "super_soul_rewards": [
         "AAAAAAAAAGH!"
       ],
       "accessory_links": [
+        {
+          "accessory_id": "acc-087",
+          "relationship": "reward",
+          "evidence_note": "Cheelai's Coat is represented by the canonical accessory endpoint; exact drop mechanics remain unresolved."
+        },
         {
           "accessory_id": "acc-088",
           "relationship": "reward",
