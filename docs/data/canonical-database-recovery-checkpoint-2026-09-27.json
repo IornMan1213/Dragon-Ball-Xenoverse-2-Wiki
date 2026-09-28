@@ -104,7 +104,7 @@
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "With the explicit equipment→PQ queue exhausted and endpoint reconciliation clean, move to the next evidence-backed cross-domain gap: QQ Bang/equipment identity and provenance reconciliation, while preserving unresolved conflicts and avoiding speculative mappings.",
+  "next_target": "Audit remaining QQ Bang equipment identities and provenance for contradictions between link records and reconciliation statuses, then promote only evidence-backed corrections.",
   "equipment_records": 112,
-  "latest_change": "Completed and validated the full explicit equipment→PQ reconciliation queue (33 entries). Final endpoint audit: 48 unique equipment→PQ endpoints and 48 matching PQ→equipment endpoints, with zero duplicate or asymmetric endpoints after legacy cleanup."
+  "latest_change": "Started QQ Bang/equipment identity reconciliation after the equipment↔PQ queue closure. The Beerus Clothes (Lower Body) identity was corrected from unresolved usage to explicitly reconciled because Prima recipe observation qq-observed-prima-013 directly names that component as an input. Its stats/acquisition remain unresolved."
 }
