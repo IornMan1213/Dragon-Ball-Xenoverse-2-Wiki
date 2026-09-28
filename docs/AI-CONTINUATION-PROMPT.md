@@ -5626,3 +5626,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Evidence review also confirms the 16 PQs previously lacking canonical skill endpoints remain an evidence-boundary issue rather than a missing-forward-edge issue; the current forward/reverse skill relationship sets are already parity-complete. PQ48's `Kamekameha` remains separately documented as a distinct skill whose canonical source-parallel-quest endpoint still requires canonical-layer mutation tooling before promotion.
 - [x] Commits: `d6278e7f92ba23e56f9e539b4f996c266d8b06ea`, `7c47c670d9bd20d3201fa1b38d09b777fef9a254`.
 - [ ] **Exact next:** continue substantive PQ reward/acquisition coverage using the remaining typed-reward gaps and evidence audits; separately resolve the canonical Kamekameha→PQ48 endpoint when safe full-file canonical mutation is available.
+
+### 2026-09-28 continuation — late-DLC typed reward coverage frontier
+- [x] Audited canonical typed reward coverage across **PQ163–PQ186**, the late-DLC range most likely to expose current Future Saga acquisition gaps.
+- [x] Confirmed the skill side is already complete for documented late-DLC skill rewards: PQ182→Dark Inscription, PQ183→Emperor's Cannon, PQ184→Chaotic Time Impact, PQ185→Dragon Spiral + Indomitable, and PQ186→Venus Fist are all present in the canonical skill→PQ projection.
+- [x] Added `docs/data/pq-late-dlc-typed-reward-coverage-audit-2026-09-28.json` documenting exact Super Soul/equipment coverage gaps for PQ163–186 without treating missing relationship rows as proof of no reward.
+- [x] Current canonical late-DLC Super Soul relationships are explicitly represented for PQ164, 166, 168, 173, 175, 177, 178, 180, and 182–186. The remaining late-DLC Super Soul gaps are now bounded research targets rather than an undifferentiated TODO.
+- [x] Current late-DLC equipment relationships are similarly bounded by the new audit for evidence-driven expansion.
+- [x] Commit: `a304ea942d5b194217b53aa8d263df8016069328`.
+- [ ] **Exact next:** research the missing late-DLC typed reward relationships against the existing PQ163–186 reward records/reward normalization sources, promoting only explicit item-level evidence and preserving empty/unknown distinctions.
