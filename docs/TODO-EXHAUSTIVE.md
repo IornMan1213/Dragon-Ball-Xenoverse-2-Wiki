@@ -6162,3 +6162,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/game-content-version-provenance-registry.json` with batch 577 and the next evidence-bound task.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue individual skill-name primary-source reconciliation where official sources explicitly name moves; otherwise preserve corroborated mappings and move to the next evidence-backed provenance gap. Do not infer versions from research dates or aggregate DLC counts.
+
+
+### 2026-09-28 continuation — Festival skill recovery candidate reconciliation batch 578
+- [x] Investigated the open Free Update 20 Festival provenance gap instead of leaving the four named skills as unexplained missing identities.
+- [x] Recovered four named Festival candidates: **God Bind (Festival)**, **Egret Waltz (Festival)**, **Gamma Force: Code-R (Festival)**, and **Gamma Force: Code-B (Festival)**.
+- [x] Reconciled character associations and Festival camaraderie acquisition routes from existing repository research plus independent current evidence; God Bind also has a detailed mechanics/acquisition record in the historical Batch 264 research layer.
+- [x] Confirmed **Galaxy Breaker (Festival)** is already represented canonically, leaving these four as the outstanding named Festival recovery candidates.
+- [x] Added `docs/data/skill-research-batches/skill-batch-578.json` and updated the authoritative provenance registry.
+- [x] Deliberately did **not** invent canonical IDs or mutate `skills.json`; complete schema-level identity recovery is required before canonical propagation.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** recover complete field sets and canonical identity evidence for these four Festival candidates, then perform controlled canonical propagation if uniqueness/schema completeness is proven.
