@@ -20,7 +20,7 @@ records = data.get("records")
 if not isinstance(records, list):
     fail("records must be a list")
 if len(records) != 475:
-    fail(f"skill record count {len(records)} != 474")
+    fail(f"skill record count {len(records)} != 475")
 if any(not isinstance(r, dict) for r in records):
     fail("every skill record must be an object")
 
