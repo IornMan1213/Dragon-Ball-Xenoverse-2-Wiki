@@ -6689,3 +6689,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-151-160-cross-domain-reconciliation-2026-09-28.json` (batch 571).
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ161-PQ170 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ161-PQ170 recovery-forward reconciliation batch 572
+- [x] Re-read the live continuation prompt/TODO and audited PQ161-PQ170 against dedicated research, maintained PQ records, canonical typed reward relationships, and equipment/accessory endpoint records.
+- [x] Restored maintained skill projections for PQ163-PQ168; PQ161-PQ162 skill projections were already present.
+- [x] Restored canonical-backed equipment projections for PQ161 (equip-055), PQ162 (equip-052/equip-056), PQ169 (equip-071), and PQ170 (equip-072).
+- [x] Restored five missing maintained Super Soul projections across PQ161, PQ162, PQ164, PQ166, and PQ168.
+- [x] Restored Videl (DB Super) Wig for PQ168 as accessory endpoint acc-082 rather than fabricating an equipment ID.
+- [x] Preserved the canonical source-of-truth boundary; canonical relationship data was not modified and no unsupported relationship was invented.
+- [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-161-170-cross-domain-reconciliation-2026-09-28.json` (batch 572).
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ171-PQ180 recovery-forward reconciliation.
