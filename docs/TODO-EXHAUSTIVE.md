@@ -4853,3 +4853,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Committed the repair at `9f0b1fa248d07ae85cf030d516120c67b2f8c16f`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: inspect remaining cross-domain validators for comparable concrete integrity defects, then resume restored-preset enrichment and PQ reward navigation.
+
+
+### 2026-09-28 continuation — PQ validator source normalization
+- [x] Normalized the repaired `scripts/validate_pq_skill_links.py` source so its generated newline statements are syntactically valid Python.
+- [x] Final repair commit: `b737a2bf11dbe67a02198b79c7360db4fa0b1c95`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: inspect the next cross-domain validator for concrete stale invariants or parser/integrity defects.
