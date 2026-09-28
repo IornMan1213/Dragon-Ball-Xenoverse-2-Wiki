@@ -58,6 +58,10 @@
     "verification_status": "verified_secondary",
     "last_verified": "2026-09-27"
   },
-  "restoration_status": "prepared_record_pending_atomic_insertion",
-  "restoration_blocker": "The complete skills.json payload cannot currently be retrieved without truncation through the GitHub connector; atomic preservation of the 474 existing canonical records is required."
+  "restoration_status": "canonical_restored",
+  "restoration_blocker": "The complete skills.json payload cannot currently be retrieved without truncation through the GitHub connector; atomic preservation of the 474 existing canonical records is required.",
+  "canonical_commit": "c76809bcde9d4bb23f708be170ed8f03fd3ad48a",
+  "index_commit": "9a8dc86e6b9d56825ca5ff96e44a84f7f624348",
+  "partner_relationship_commit": "b26cf2fb774bbf4ab4653bc0cdbc2897abd13d3b",
+  "post_restoration_note": "Canonical and index layers now contain skill-dual-masenko. Partner Customization relationship for Future Trunks (Time Patrol) was restored. PQ118 remains unresolved and no Skill→PQ edge was manufactured."
 }
