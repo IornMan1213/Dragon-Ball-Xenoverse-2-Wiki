@@ -4843,3 +4843,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence refreshed from a 2025 community guide documenting the three recipe families and the Super Mix Capsule Z workflow. citeturn0youtube21
 - [x] Updated `docs/data/coverage-gaps.json` to record the QQ Bang expansion while keeping the domain explicitly incomplete.
 - [ ] Next QQ Bang frontier: expand observed six-stat outputs and acquisition/material provenance, especially version-aware Super Mix Capsule/Z evidence, without converting community recipe expectations into deterministic results.
+
+
+### 2026-09-27 continuation — Post-corruption QQ Bang record recovery reconciliation
+- [x] Inspected the live QQ Bang layer against its immediately preceding expansion commits rather than trusting the stale handoff count.
+- [x] Detected a concrete regression: `docs/data/qq-bangs-record-layer.json` was at 15 records even though commit `4a6753753811ed18525d5c2dcb37f73b29be2420` had added `qq-recipe-003`, `qq-recipe-004`, and `qq-recipe-005` and the later handoff/TODO recorded 18.
+- [x] Restored all three missing recipe-family records atomically from the surviving Git commit evidence. The layer is now **18 records / 11 observed six-stat vectors**.
+- [x] Updated `canonical-database-recovery-checkpoint-2026-09-27.json` to the current live baselines: **475 Skills / 475 Skill Index records**, **840 canonical PQ reward relationships**, **172 historical / 167 active Super Souls**, **100 equipment records**, **33 mentors**, **15 Awoken records**, and **18 QQ Bang records**.
+- [x] Updated `docs/TODO-EXHAUSTIVE.md` with the recovery reconciliation and retained the next QQ Bang frontier.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue QQ Bang expansion with additional non-duplicate observed six-stat vectors and version-aware Super Mix Capsule Z/material provenance, then add reproducible equipment/build cross-links. Do not treat recipe families as deterministic outputs.
