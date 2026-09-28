@@ -6095,3 +6095,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-151-160-cross-domain-reconciliation-2026-09-28.json` (batch 571).
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ161-PQ170 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ161-PQ170 recovery-forward reconciliation batch 572
+- [x] Repaired canonical-backed maintained reward projections across PQ161-PQ170: skills, equipment, Super Souls, and the PQ168 Videl (DB Super) Wig accessory endpoint.
+- [x] Preserved equipment/accessory endpoint types and did not modify canonical relationship data.
+- [x] Added and indexed batch-572 reconciliation audit.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ171-PQ180 recovery-forward reconciliation.
