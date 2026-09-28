@@ -4398,3 +4398,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Audited PQ 61-186 batch equipment rewards against canonical equipment; no new safe exact-name promotions found.
 - [ ] Reconcile the maintained Yamcha's Sword PQ29/PQ36 historical conflict before any PQ36 equipment cross-link is promoted.
+
+- [x] 2026-09-27: Enriched canonical PQ36 from the maintained batch with full objectives, enemies, rewards, and provenance while preserving Yamcha's Sword as an unresolved equipment identity/route.
+- [ ] Reconcile Yamcha's Sword accessory identity and PQ29/PQ36 route conflict before creating a canonical equipment cross-link.
