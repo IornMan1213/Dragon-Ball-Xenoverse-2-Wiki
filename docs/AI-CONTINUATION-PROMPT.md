@@ -6520,3 +6520,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-555.json` and updated the authoritative provenance registry.
 - [x] Canonical skill records and IDs remain unchanged.
 - [ ] Next: continue primary-source named-move research where explicit evidence exists, then advance to the next unresolved provenance or cross-domain enrichment frontier.
+
+
+### 2026-09-28 continuation — Primary-source move-name boundary batch 556
+- [x] Performed a targeted primary-source search for the individual Chapter 3 and Chapter 4 move names.
+- [x] Confirmed official Bandai Namco/Nintendo material establishes the Chapter 3 six-move and Chapter 4 four-move counts, but the reviewed primary-source text does not individually name those moves.
+- [x] Added `docs/data/skill-research-batches/skill-batch-556.json` documenting the evidence boundary.
+- [x] Synchronized the skill catalog and PQ cross-domain indexes.
+- [x] Preserved existing individual-skill evidence tiers; no unsupported primary attribution, fabricated ID, or version history was added.
+- [ ] **Next:** advance to the next unresolved provenance or cross-domain enrichment frontier rather than repeatedly searching the same source text.
