@@ -27,16 +27,16 @@
       "missing": 95
     },
     "limit_burst": {
-      "populated": 158,
-      "missing": 9
+      "populated": 160,
+      "missing": 7
     },
     "limit_burst_trigger": {
       "populated": 0,
       "missing": 167
     },
     "limit_burst_effect": {
-      "populated": 164,
-      "missing": 3
+      "populated": 165,
+      "missing": 2
     },
     "usable_by_cac": {
       "populated": 164,
@@ -54,15 +54,16 @@
   "policy": "Coverage counts are read directly from canonical active records. Records with provenance_status=rejected_legacy_misidentification remain in the layer for auditability but are excluded from active mechanics coverage. Missing values remain unresolved; no mechanics are inferred or filled solely to increase coverage.",
   "status": "passed_with_partial_mechanics_coverage",
   "latest_batch": {
-    "date": "2026-09-27",
+    "date": "2026-09-28",
     "records": [
-      "super-soul-033"
+      "super-soul-049"
     ],
-    "status": "limit_burst_enrichment",
+    "status": "mechanics_enrichment",
     "evidence": [
-      "https://www.reddit.com/r/dbxv/comments/1v2thx9/sometimes_you_just_gotta_know_when_its_wraps_lmao/"
+      "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
     ],
-    "note": "Current player discussion explicitly identifies the Limit Burst as Super Armor. Classified as verified_secondary; no primary-source claim made."
+    "note": "Enriched trigger/effect/magnitude for Getting beat up makes me cranky...; no unsupported timing or stacking behavior was promoted."
   },
   "last_batch": {
     "date": "2026-09-27",
