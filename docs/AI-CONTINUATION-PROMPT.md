@@ -4980,3 +4980,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited equipment rewards against canonical equipment; no exact-name equipment matches were safe to promote.
 - [x] Preserved unresolved accessory identities and historical conflicts without speculative links.
 - [ ] Continue systematic cross-domain reconciliation across the now-restored PQ layer.
+
+### 2026-09-27 continuation — PQ41-100 restoration
+- [x] Restored 0 missing PQ41-100 canonical records from maintained batch data.
+- [x] Added 0 exact-name bidirectional equipment links where canonical identities existed.
+- [x] Did not invent identities for unmatched rewards.
+- [ ] Continue PQ101-186 canonical restoration and cross-domain linking.
