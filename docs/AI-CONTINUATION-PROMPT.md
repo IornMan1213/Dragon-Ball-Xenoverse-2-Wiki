@@ -6565,3 +6565,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical reward relationships were invented or removed; canonical source-of-truth policy remains unchanged.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the recovery-forward PQ cross-domain audit from **PQ51 onward**, prioritizing concrete reward-list/relationship contradictions and malformed consumer artifacts; do not create redundant audits where layers already agree.
+
+
+### 2026-09-28 continuation — PQ51-PQ60 recovery-forward reconciliation
+- [x] Audited PQ51-PQ60 across the dedicated PQ research batch, maintained PQ record layer, and canonical PQ→reward relationship store.
+- [x] Found and repaired one real recovery omission: maintained PQ57 had an empty skill_rewards array even though the dedicated research batch and canonical relationship store both document **Rakshasa's Claw**.
+- [x] Confirmed PQ51-PQ56, PQ58-PQ60 skill relationships agree with canonical data; PQ59's Force Shield/Dimension Cannon ordering difference is non-semantic and was not treated as a contradiction.
+- [x] Added docs/data/pq-reward-boundary-audits/pq-51-60-cross-domain-reconciliation-2026-09-28.json (batch 561) and indexed it in docs/data/pq-cross-domain-index.json.
+- [x] Canonical relationship data was not changed and no unsupported relationship was invented.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue PQ61-PQ70 using the same three-layer comparison and repair actual omissions before enrichment.
