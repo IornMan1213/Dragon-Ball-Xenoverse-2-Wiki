@@ -5754,3 +5754,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Kept remaining DLC skill records unmapped where available official evidence only establishes the DLC aggregate move count rather than naming individual skills.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue direct skill-to-release mapping with Chapter 2/3/4 and DAIMA candidates only when an authoritative source names the individual skill; then add version/patch provenance for documented balance changes separately from first-release provenance.
+
+
+### 2026-09-28 direct release provenance
+- [x] Added 5 direct skill to release mappings: Beast to Free Update 16; Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger to Future Saga Chapter 1.
+- [x] Added official Dragon Ball source evidence for the four named Chapter 1 moves.
+- [x] Kept unmapped DLC skills unchanged when official evidence only gives an aggregate move count.
+- [ ] Next: map Chapter 2, Chapter 3, Chapter 4, and DAIMA skills only when individual skills are directly named by authoritative evidence.
