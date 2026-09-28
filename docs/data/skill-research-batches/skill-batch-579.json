@@ -1,0 +1,63 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 579,
+  "date": "2026-09-28",
+  "status": "complete",
+  "type": "official_festival_character_scope_reconciliation",
+  "scope": "Strengthen the four Free Update 20 / 4th Festival skill recovery identities with the official Dragon Ball event source, while retaining the canonical-ID boundary.",
+  "canonical_source": "docs/data/skills.json",
+  "official_sources": [
+    {
+      "id": "db_official_4th_festival_2025",
+      "url": "https://en.dragon-ball-official.com/news/01_3550.html",
+      "date": "2025-07-15",
+      "finding": "Official Dragon Ball coverage identifies Goku (Super Saiyan God), Videl (DB Super), Gamma 1, and Gamma 2 as the four camaraderie characters in the 4th Festival of Universes and states that increasing camaraderie grants special rewards. The page labels Goku's Festival Skill in the accompanying material but does not expose the skill name in accessible text."
+    }
+  ],
+  "recovered_identities": [
+    {
+      "name": "God Bind (Festival)",
+      "character": "Goku (Super Saiyan God)",
+      "official_character_scope": true,
+      "individual_name_source": [
+        "skill-batch-549",
+        "skill-batch-550"
+      ],
+      "canonical_id": null
+    },
+    {
+      "name": "Egret Waltz (Festival)",
+      "character": "Videl (DB Super)",
+      "official_character_scope": true,
+      "individual_name_source": [
+        "skill-batch-549",
+        "skill-batch-550"
+      ],
+      "canonical_id": null
+    },
+    {
+      "name": "Gamma Force: Code-R (Festival)",
+      "character": "Gamma 1",
+      "official_character_scope": true,
+      "individual_name_source": [
+        "skill-batch-549",
+        "skill-batch-550"
+      ],
+      "canonical_id": null
+    },
+    {
+      "name": "Gamma Force: Code-B (Festival)",
+      "character": "Gamma 2",
+      "official_character_scope": true,
+      "individual_name_source": [
+        "skill-batch-549",
+        "skill-batch-550"
+      ],
+      "canonical_id": null
+    }
+  ],
+  "evidence_boundary": "The official source independently establishes the four character endpoints and special-reward relationship, while independent/repository evidence supplies the individual skill names. Because the official accessible text does not expose internal IDs or all four names, this batch does not promote any record into skills.json.",
+  "canonical_action": "No skills.json mutation.",
+  "unsupported_ids_invented": 0,
+  "next": "Retain these four identities in the non-canonical recovery layer and prioritize the next evidence-backed canonical enrichment frontier; revisit ID recovery only if an exact historical/structured identifier source appears."
+}
