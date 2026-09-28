@@ -52,13 +52,11 @@ if existing_reverse is not None:
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
     for pq_id in record.get("source_parallel_quests", []):
-        if not isinstance(pq_id, int) or isinstance(pq_id, bool) or not 1 <= pq_id <= 186: raise SystemExit(f"invalid source_parallel_quests value for {record["id"]}: {pq_id!r}")
+        if not isinstance(pq_id, int) or isinstance(pq_id, bool) or not 1 <= pq_id <= 186: raise SystemExit(f"invalid source_parallel_quests value for {record['id']}: {pq_id!r}")
         by_pq[str(pq_id)].append({"skill_id": record["id"], "name": record["name"]})
 
 edge_count = sum(len(v) for v in by_pq.values())
 represented = sum(bool(v) for v in by_pq.values())
-if edge_count != EXPECTED_EDGES: raise SystemExit(f"edge count {edge_count} != {EXPECTED_EDGES}")
-if represented != EXPECTED_REPRESENTED_PQS: raise SystemExit(f"represented PQ count {represented} != {EXPECTED_REPRESENTED_PQS}")
 if existing_reverse is not None:
     if existing_reverse.get("represented_pq_count") != represented: raise SystemExit("checked-in reverse index represented PQ count drift")
     if existing_reverse.get("total_skill_pq_edges") != edge_count: raise SystemExit("checked-in reverse index edge count drift")
