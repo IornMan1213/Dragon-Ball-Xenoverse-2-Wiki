@@ -1,0 +1,30 @@
+{
+  "batch_id": 563,
+  "date": "2026-09-28",
+  "type": "pq-71-80-cross-domain-reconciliation",
+  "scope": "PQ71-PQ80",
+  "status": "reconciled",
+  "findings": {
+    "records_audited": 10,
+    "skill_relationship_missing_before_repair": 0,
+    "equipment_reward_projections_missing_before_repair": 4,
+    "repairs": [
+      "PQ72 restored Jaco's State-of-the-Art Radio.",
+      "PQ73 restored Tagoma's Scouter.",
+      "PQ76 restored SSGSS Goku Wig.",
+      "PQ79 restored Vegeta's Shirt."
+    ],
+    "preserved_boundaries": [
+      "PQ73 Qipao (CC) remains in dedicated PQ research/basic rewards but lacks a source-backed canonical PQ reward relationship in the current relationship store; not promoted.",
+      "PQ76 Whis Symbol Gi remains in dedicated PQ research/basic rewards but lacks a source-backed canonical PQ reward relationship; not promoted."
+    ]
+  },
+  "canonical_data_changed": false,
+  "unsupported_relationships_invented": false,
+  "evidence": [
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/parallel-quest-research-batches/pq-batch-08.json",
+    "docs/data/accessory-pq-canonical-bridge.json"
+  ],
+  "next": "Continue PQ81-PQ90 with canonical-first reward projection/reconciliation."
+}
