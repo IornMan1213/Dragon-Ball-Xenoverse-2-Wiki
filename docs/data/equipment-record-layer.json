@@ -2974,6 +2974,38 @@
         "status": "unresolved_identity_usage",
         "note": "This distinct lower-body Beerus clothing record was introduced from a QQ Bang research input identity. No current QQ Bang observation explicitly requires this lower-body variant as a separate component, so no recipe link is inferred."
       }
+    },
+    {
+      "id": "equip-111",
+      "name": "Android 18's Clothes (Skirt)",
+      "slot": "upper/lower/feet set",
+      "rarity": null,
+      "health": 0,
+      "ki": -1,
+      "stamina": 1,
+      "basic_attack": 1,
+      "strike_supers": 1,
+      "ki_blast_supers": -1,
+      "usable_by": "Female Time Patroller clothing; historical sources identify the skirt variant as a separate clothing set.",
+      "set_name": "Android 18's Clothes (Skirt)",
+      "acquisition_method": "unresolved",
+      "source_quest_or_shop": null,
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Exact identity is now established as a distinct skirt variant. Historical sources report PQ25 as an acquisition route, but the recovered canonical PQ25 record currently lists different rewards, so acquisition is deliberately unresolved pending reconciliation.",
+      "verification_status": "indexed_with_historical_stats",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=403805311",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74429476"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-005",
+          "input": "Android 18 Skirt",
+          "relationship": "QQ Bang clothing input"
+        }
+      ]
     }
   ],
   "research_notes": [
@@ -3012,6 +3044,15 @@
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
         "docs/data/equipment-record-layer.json"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Established a distinct canonical Android 18's Clothes (Skirt) identity as equip-111 from historical clothing references. Historical stats are retained, while acquisition remains unresolved because historical PQ25 claims conflict with the recovered canonical PQ25 reward record.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=403805311",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74429476",
+        "docs/data/parallel-quests-record-layer.json"
       ]
     }
   ]
