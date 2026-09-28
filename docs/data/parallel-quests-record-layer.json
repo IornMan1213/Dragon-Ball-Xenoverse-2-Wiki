@@ -17,7 +17,18 @@
       "enemies": [],
       "rewards": [],
       "skill_rewards": [],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-001",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "equipment_id": "equip-017",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "indexed",
@@ -113,7 +124,13 @@
       "enemies": [],
       "rewards": [],
       "skill_rewards": [],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-088",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
       "verification_status": "indexed",
