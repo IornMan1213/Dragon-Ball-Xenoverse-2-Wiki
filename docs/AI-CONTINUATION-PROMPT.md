@@ -5877,3 +5877,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Created `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` as a non-destructive exact patch queue for the canonical `skills.json` and synchronized index.
 - [x] **Did not reconstruct or overwrite the large canonical files from truncated API output.** Canonical source-of-truth integrity takes precedence over forcing an unsafe mutation.
 - [ ] **Next:** apply the queued Energy Wave Combo mutation through a safe complete-blob/repository-tree edit path; then validate canonical/index identity parity and continue remaining mechanics/acquisition enrichment.
+
+
+### 2026-09-28 continuation — Energy Wave Combo canonical propagation completed
+- [x] Retrieved the complete canonical `skills.json` blob safely through its blob SHA instead of reconstructing truncated API output.
+- [x] Updated canonical `skill-energy-wave-combo`: Skill Shop/default Future Warrior acquisition, current verification date 2026-09-28, and refreshed evidence/mechanics note.
+- [x] Updated `skills-index.json` to the same acquisition state.
+- [x] Validated both layers: **493 records each**, matching Energy Wave Combo identity, acquisition, and verification date; Ultimate-Finish requirement remains null.
+- [x] Closed `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` as applied and validated.
+- [ ] **Next:** continue the remaining restored-skill acquisition/mechanics frontier with explicit current evidence; preserve unresolved fields and do not infer PQ ownership from Skill Shop/default-skill evidence.
