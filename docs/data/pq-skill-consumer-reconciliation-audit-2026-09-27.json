@@ -8,7 +8,7 @@
   "consumer_report": "docs/data/pq-skill-crosslink-report.json",
   "validator": "scripts/validate_pq_skill_links.py",
   "checks": {
-    "canonical_skill_records": 474,
+    "canonical_skill_records": 493,
     "forward_pq_skill_edges": 246,
     "resolved_consumer_links": 246,
     "unresolved": 0,
