@@ -4286,3 +4286,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Re-audit PQ118 ↔ Dual Masenko; documented conflicting external reward evidence and retained the relationship as unresolved rather than manufacturing a canonical edge.
 - [ ] 2026-09-27: Obtain direct item-level/game-data evidence to resolve the PQ118 Dual Masenko conflict before changing canonical Skill→PQ relationships.
+
+
+- [x] 2026-09-27: Reconcile Dual Masenko DLC/acquisition metadata: removed unsupported `Free Update 4` DLC requirement; retain TP Medal Shop acquisition.
+- [x] 2026-09-27: Recheck PQ118 ↔ Dual Masenko conflict; preserve unresolved status because current repository/Steam reward evidence conflicts with a newer ambiguous web guide.
+- [ ] 2026-09-27: Continue exhaustive missing/under-enriched endpoint discovery; do not manufacture PQ118 relationship data.
