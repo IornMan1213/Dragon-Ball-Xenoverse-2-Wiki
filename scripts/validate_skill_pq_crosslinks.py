@@ -51,7 +51,7 @@ if existing_reverse is not None:
     if existing_reverse.get("schema_version") != "1.0": raise SystemExit("checked-in reverse index schema_version must be 1.0")
     if existing_reverse.get("scope") != "Canonical skill dataset → Parallel Quest reverse navigation": raise SystemExit("checked-in reverse index scope drift")
     if existing_reverse.get("source") != "docs/data/skills.json": raise SystemExit("checked-in reverse index source drift")
-    if existing_reverse.get("generated_on") != "2026-09-26": raise SystemExit("checked-in reverse index generated_on drift")
+    if existing_reverse.get("generated_on") != "2026-09-27": raise SystemExit("checked-in reverse index generated_on drift")
     if existing_reverse.get("canonical_skill_count") != EXPECTED_SKILLS: raise SystemExit("checked-in reverse index canonical skill count drift")
     if existing_reverse.get("represented_pq_count") != EXPECTED_REPRESENTED_PQS: raise SystemExit("checked-in reverse index represented PQ count drift")
     if existing_reverse.get("total_skill_pq_edges") != EXPECTED_EDGES: raise SystemExit("checked-in reverse index edge count drift")
