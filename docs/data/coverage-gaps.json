@@ -18,7 +18,8 @@
     "Core Awoken batch 41: verified Kaioken, Potential Unleashed, Ultra Instinct, Beast, Super Saiyan, Super Vegeta, Super Saiyan God, Turn Golden, Purification, Become Giant, and Power Pole Pro.",
     "Transformation batch 42 reconciled Super Saiyan 2 as a stage of the Super Saiyan skill and documented The Power to Overcome's verified core behavior while preserving unresolved numeric conflicts.",
     "Power to Overcome mechanics batch 43: documented corroborated Stage 1/2 effects and preserved conflicting Stage 2 speed/cooldown and exact regeneration values.",
-    "Awoken mechanics batch 44 synchronized current stage/resource mechanics across the canonical transformation records, including Kaioken, Super Saiyan branches, God/Blue/Evolved, Beast, Ultra Instinct, and race-exclusive forms."
+    "Awoken mechanics batch 44 synchronized current stage/resource mechanics across the canonical transformation records, including Kaioken, Super Saiyan branches, God/Blue/Evolved, Beast, Ultra Instinct, and race-exclusive forms.",
+    "Expanded QQ Bang structured research with three additional 6-star community recipe-family records (SS4 Goku + Goku Black, Bardock + Light Heart Suit, Beerus + Light Heart Suit) while preserving RNG uncertainty."
   ],
   "critical": [
     "Ki Blast Supers complete set reconciliation",
@@ -30,9 +31,10 @@
   "high": [
     "33 mentor lesson records",
     "Expert Mission records",
-    "equipment records",
     "DLC-to-content relationship resolution",
-    "automated cross-reference audit"
+    "automated cross-reference audit",
+    "equipment records",
+    "QQ Bang recipe/output inventory expansion"
   ],
   "next_priority": {
     "1": "Finish remaining Awoken/version audit by reconciling disputed values and documenting version provenance, then move to QQ Bang expansion.",
