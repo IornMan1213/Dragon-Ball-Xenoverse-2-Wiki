@@ -5954,3 +5954,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/pq-reward-boundary-audits/pq-15-skill-reward-reconciliation-2026-09-28.json` and indexed it in the PQ cross-domain index.
 - [x] Did not invent a canonical Spinning Blade relationship because the name is indexed in a category catalog but is not currently present in authoritative `docs/data/skills.json`.
 - [ ] Next: resolve the canonical Spinning Blade identity if direct canonical evidence becomes available; otherwise continue the next PQ cross-domain boundary.
+
+
+2026-09-28: PQ22 reward reconciliation batch 558 completed. Corrected PQ22 research-layer omission: Energy Shot is explicitly a PQ22 skill reward; canonical relationship already existed, so no duplicate edge or canonical skill mutation was made. Added and indexed a dedicated reconciliation audit. Next: continue auditing concrete PQ research records for reward-list contradictions.
