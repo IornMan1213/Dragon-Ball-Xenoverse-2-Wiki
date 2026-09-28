@@ -5248,3 +5248,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Synchronized equipment reverse coverage to 126/126 with zero missing and zero reverse-only endpoints.
 - [x] Validated the corrected JSON artifacts.
 - [ ] Next major task: inspect cross-domain navigation consumers for stale counts/endpoint assumptions, then expand evidence-backed PQ typed rewards.
+
+
+### 2026-09-28 continuation — Cross-domain consumer audit
+- [x] Audited direct PQ relationship consumers/validators and documented that they consume `pq-reward-relationships.json` as the authoritative forward layer.
+- [x] Recorded the corrected 851-edge state and 126-equipment reverse parity in `docs/COVERAGE-AUDIT.md`.
+- [x] Preserved historical 840 and superseded 852/127 counts as provenance only.
+- [ ] Next major task: audit concrete unresolved QQ Bang input names, then continue evidence-backed PQ typed-reward expansion.
