@@ -27,7 +27,7 @@
       ],
       "action": "Replace only the stale acquisition-null fields for the existing skill-energy-wave-combo identity; preserve all unrelated canonical fields and historical provenance.",
       "pq_rule": "Do not create or alter PQ relationships from this acquisition evidence.",
-      "status": "queued_safe_edit_pending"
+      "status": "applied_and_validated"
     }
   ],
   "boundaries": [
@@ -36,5 +36,18 @@
     "Index is a synchronized consumer, not source of truth.",
     "Do not infer acquisition from preset membership when direct acquisition evidence is unavailable."
   ],
-  "next": "Use a safe whole-blob or repository-tree edit path to apply the queued patch, then validate skills.json and skills-index.json identity/count parity."
+  "next": "Continue remaining restored-skill mechanics/acquisition enrichment; prioritize explicit current evidence and preserve unresolved fields.",
+  "applied_commits": [
+    "161a79d6ba0ca282736999b8906f08241acc0262",
+    "dbb85de6e0156d487d0ae176613fa6a9ccf1a8cd"
+  ],
+  "validation": {
+    "skills_json_records": 493,
+    "skills_index_records": 493,
+    "canonical_record_present": true,
+    "index_record_present": true,
+    "unlock_method_synchronized": true,
+    "last_verified_synchronized": true,
+    "ultimate_finish_required": null
+  }
 }
