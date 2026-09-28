@@ -4525,3 +4525,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Kept research associations distinct from guaranteed-drop claims; PQ5 uses the stronger `reward` relationship because its canonical reward table explicitly names Four-Star Dragon Ball Hat.
 - [x] Preserved unresolved historical conflicts and component-only accessory candidates rather than forcing them into canonical identity links.
 - [ ] **Next:** investigate the remaining historical/conflicting accessory routes, beginning with Yamcha's Sword (PQ29/PQ36 conflict) and Goku Wig (Super Saiyan) (PQ18/PQ63 conflict), using explicit reward evidence before promotion.
+
+
+## 2026-09-27 continuation — historical accessory PQ conflict reconciliation
+
+- [x] Reviewed Yamcha's Sword using independent PQ reward evidence. PQ36 explicitly lists Yamcha's Sword, so PQ36 is represented as the explicit reward relationship; the historical PQ29 report remains preserved as `historical_conflict` rather than promoted.
+- [x] Reviewed Goku Wig (Super Saiyan). PQ63 explicitly lists the wig in independent reward-table evidence, while the canonical accessory record retains the historical PQ18 route. Both endpoints are preserved with distinct relationship types; no unsupported silent replacement was made.
+- [x] Added matching forward/reverse PQ links for these conflict cases.
+- [x] Updated the canonical accessory notes to document the evidence review and the unresolved nature of the historical disagreement.
+- [ ] **Next:** audit the remaining unresolved accessory candidates, especially component-unresolved PQ144/PQ147/PQ148/PQ152 entries, then continue equipment/accessory↔PQ navigation integrity checks.
