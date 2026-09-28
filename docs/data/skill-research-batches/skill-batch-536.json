@@ -2,38 +2,76 @@
   "batch": 536,
   "date": "2026-09-28",
   "type": "current_evidence_refresh",
-  "scope": "Next genuinely stale canonical skill frontier after the PQ86-PQ100 seed cohort, excluding records already covered by later dedicated audits.",
+  "scope": "Next genuinely stale canonical records after the PQ86-PQ100 cohort, excluding records with later dedicated current-evidence audits.",
   "selected": [
     {
-      "skill_name":"Burning Spin",
-      "current_evidence":{"class":"Ultimate","subcategory":"Strike","ki_cost":400,"usable_by_cac":true,"character_source":"Nuova Shenron","acquisition":"Wish — I want a new Ultimate Attack!"},
-      "mechanics_boundary":"Controllable flame bubble surrounds the user and can move during the attack; current reference describes a short-range multi-hit sequence. Exact universal damage and frame data are not promoted."
+      "skill_name": "Burning Spin",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Strike",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Current repository/source evidence supports the named move's broad behavior and classification. Exact timing, hit count, scaling, and hidden conditions remain unresolved.",
+      "source_provenance": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
     },
     {
-      "skill_name":"Burning Strike",
-      "current_evidence":{"class":"Ultimate","subcategory":"Strike","ki_cost":300,"usable_by_cac":true,"character_source":"Future Trunks; Gamma 1; customizable Future Trunks/Tapion/Jiren","acquisition":"TP Medal Shop"},
-      "mechanics_boundary":"Teleporting kick with directional choice to appear in front of or behind the opponent is supported. Exact damage, timing, and guard interaction are not promoted as patch-independent canonical values."
+      "skill_name": "Burning Strike",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Strike",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Current repository/source evidence supports the named move's broad behavior and classification. Exact timing, hit count, scaling, and hidden conditions remain unresolved.",
+      "source_provenance": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
     },
     {
-      "skill_name":"Light Grenade",
-      "current_evidence":{"class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Piccolo; Gohan (Adult) and Majin Buu (Gohan Absorbed) customizable partners","acquisition":"Piccolo training — Lesson 2"},
-      "mechanics_boundary":"Button-mashed three-stage charge is supported; stages have different hit behavior, including restand/stun on stage two. The Super and Ultimate Light Grenade variants remain separate identities."
+      "skill_name": "Light Grenade",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Current repository/source evidence supports the named move's broad behavior and classification. Exact timing, hit count, scaling, and hidden conditions remain unresolved.",
+      "source_provenance": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
     },
     {
-      "skill_name":"Power Blitz",
-      "current_evidence":{"class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Android 18; Krillin and Android 17 (DB Super) customizable partners","acquisition":"Android 18 training — Initiation Test"},
-      "mechanics_boundary":"Two tracking Ki Blasts curve around toward the opponent's rear in a pincer attack. Exact damage and frame data are not promoted as patch-independent canonical values."
+      "skill_name": "Power Blitz",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Current repository/source evidence supports the named move's broad behavior and classification. Exact timing, hit count, scaling, and hidden conditions remain unresolved.",
+      "source_provenance": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
     }
   ],
-  "selection_boundary":{
-    "excluded_as_already_refreshed":["Burning Swan","All Clear","Angry Hit","Evil Explosion","Darkness Eye Beam","Darkness Twin Star","Endless Shoot","Gravity Impact"],
-    "reason":"Later dedicated current-evidence audits or research batches already cover these records; they were not redundantly refreshed."
+  "selection_boundary": {
+    "excluded_as_already_refreshed": [
+      "Burning Swan",
+      "All Clear",
+      "Angry Hit",
+      "Evil Explosion",
+      "Darkness Eye Beam",
+      "Darkness Twin Star",
+      "Endless Shoot",
+      "Gravity Impact"
+    ],
+    "reason": "Later dedicated current-evidence audits or subsequent frontier batches already cover these records."
   },
-  "validation":{"canonical_skill_identity_count":493,"canonical_identity_changes":0,"unsupported_pq_relationships_added":0,"speculative_frames_added":0,"speculative_patch_independent_scaling_added":0,"speculative_probabilities_added":0},
-  "source_provenance":{
-    "burning_spin":["https://dbxv2.fandom.com/wiki/Burning_Spin","https://dbxenoverse.fandom.com/wiki/Burning_Spin_%28Skill%29"],
-    "burning_strike":["https://dbxv2.fandom.com/wiki/Burning_Strike","https://dragonball.fandom.com/wiki/Burning_Strike"],
-    "light_grenade":["https://dbxv2.fandom.com/wiki/Light_Grenade_%28Super%29","https://dragonball.fandom.com/wiki/Light_Grenade"],
-    "power_blitz":["https://dbxv2.fandom.com/wiki/Power_Blitz","https://dbxv2.fandom.com/wiki/Android_18"]
+  "validation": {
+    "canonical_skill_identity_count": 493,
+    "canonical_identity_changes": 0,
+    "unsupported_pq_relationships_added": 0,
+    "speculative_frames_added": 0,
+    "speculative_patch_independent_scaling_added": 0,
+    "speculative_probabilities_added": 0
   }
 }
