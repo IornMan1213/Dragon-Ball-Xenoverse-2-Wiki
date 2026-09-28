@@ -129,8 +129,11 @@
       "pq_record_id": "pqacc-020",
       "name": "Great Saiyaman Helmet",
       "pq": 51,
-      "status": "unmatched",
-      "reason": "Likely distinct inventory item, but exact PQ/reward relationship requires confirmation against accessory catalog terminology."
+      "status": "resolved_to_canonical",
+      "reason": "Likely distinct inventory item, but exact PQ/reward relationship requires confirmation against accessory catalog terminology.",
+      "canonical_accessory_id": "acc-005",
+      "resolution_date": "2026-09-28",
+      "resolution_basis": "Exact named accessory identity is present in the canonical accessory layer and the PQ route is explicitly recorded; no component/set inference is required."
     },
     {
       "pq_record_id": "pqacc-023",
@@ -225,6 +228,18 @@
         "pqacc-029"
       ],
       "rule": "Component-unresolved labels were re-audited against canonical accessory identities. No exact separately named inventory identity was established; preserve unresolved status."
+    },
+    {
+      "date": "2026-09-28",
+      "resolved": [
+        "pqacc-020",
+        "pqacc-022",
+        "pqacc-042",
+        "pqacc-043",
+        "pqacc-044",
+        "pqacc-045"
+      ],
+      "rule": "Synchronized canonical-remaining statuses after authoritative PQ relationship promotions; no unresolved historical conflicts or component identities were merged."
     }
   ]
 }
