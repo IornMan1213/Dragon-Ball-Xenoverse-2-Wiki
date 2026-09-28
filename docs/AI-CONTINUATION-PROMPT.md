@@ -6092,3 +6092,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 534 and reconcile safe field-level improvements.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 535
+- [x] Audited the remaining PQ86-PQ100 cohort against later dedicated research before refreshing anything redundantly.
+- [x] Refreshed the two genuinely stale records: **Emperor's Edge** and **X100 Big Bang Kamehameha**.
+- [x] Confirmed **Absolute Zero, Charged Ki Wave, Phantom Fist, and Dimension Ray** already have later dedicated current-evidence coverage and were excluded from duplicate work.
+- [x] Added `docs/data/skill-research-batches/skill-batch-535.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** move beyond the PQ86-PQ100 seed cohort and identify the next genuinely stale canonical skill frontier without repeating later audits.
