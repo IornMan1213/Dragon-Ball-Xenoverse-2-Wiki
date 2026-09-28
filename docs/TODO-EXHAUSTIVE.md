@@ -5736,3 +5736,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the canonical schema boundary: skills.json currently has no dedicated version_history/patch_history field, so no inferred version values were written into canonical records.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** extract explicit game-version/update evidence from cited sources for the strongest provenance candidates, define a version-provenance schema before changing canonical records, and keep research-date metadata separate from game-version metadata.
+
+
+### 2026-09-28 continuation — Authoritative release/version provenance registry foundation
+- [x] Reconciled the version/patch audit against official Bandai Namco Xenoverse 2 release/update announcements instead of assigning game versions from research dates.
+- [x] Added `docs/data/game-content-version-provenance-registry.json` with source IDs and event-level provenance for the 2018 free update, 2023 Beast free update, Future Saga Chapters 1-3, 2025 DAIMA Pack, and 2026 Future Saga Chapter 4 announcement.
+- [x] Linked the registry from `docs/data/skill-version-provenance-audit-2026-09-28.json`.
+- [x] Established the provenance rule that DLC/update event provenance and individual skill first-release/version assignment are separate claims; individual skills will only be mapped when direct skill-to-event evidence exists.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** map the strongest directly evidenced canonical skill IDs to the new release-event registry, beginning with explicit official skill mentions such as Beast; then expand to Future Saga/DAIMA skills only where direct linkage exists.
