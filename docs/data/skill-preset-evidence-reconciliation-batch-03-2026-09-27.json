@@ -1,0 +1,81 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "scope": "Third post-recovery canonical-field reconciliation for restored preset-skill identities.",
+  "canonical_source": "docs/data/skills.json",
+  "source_policy": "Canonical skills.json remains authoritative; direct skill-level evidence is used only to correct or enrich fields supported by that evidence. Verified/index/projection layers are not treated as source of truth.",
+  "canonical_record_count_after_reconciliation": 493,
+  "index_record_count_after_reconciliation": 493,
+  "records": [
+    {
+      "name": "Super Dragon Fist",
+      "skill_id": "skill-super-dragon-fist",
+      "changes": ["100 Ki cost", "direct skill source", "expanded character-source provenance", "bounded three-hit rush mechanics"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Super_Dragon_Fist","https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Holstein Shock",
+      "skill_id": "skill-holstein-shock",
+      "changes": ["PQ15 acquisition route", "direct skill/self-harm sources", "instant two-bar Ki recharge and self-damage behavior"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Gotta_Find_That_Dragon_Ball%21","https://dragonball.fandom.com/wiki/Self-Harm"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Backflip",
+      "skill_id": "skill-backflip",
+      "changes": ["strengthened direct sources", "bounded repeated-input defensive behavior"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Backflip"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Turn Retreat",
+      "skill_id": "skill-turn-retreat",
+      "changes": ["strengthened current evasive-category and character sources", "bounded directional/stun mechanics"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Turn_Retreat","https://dbxv2.fandom.com/wiki/Evasive_Skill"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Full Power Energy Wave",
+      "skill_id": "skill-full-power-energy-wave",
+      "changes": ["specific Skill Shop/story gate", "direct Ultimate page source", "bounded 18-hit beam context"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_%28Ultimate%29"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Recoome Eraser Gun",
+      "skill_id": "skill-recoome-eraser-gun",
+      "changes": ["100 Ki", "PQ17 acquisition", "direct skill source", "bounded startup/beam mechanics"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Recoome_Eraser_Gun","https://dragonball.fandom.com/wiki/Recoome_Eraser_Gun"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Break Strike",
+      "skill_id": "skill-break-strike",
+      "changes": ["removed unsupported false Ultimate-Finish assertion; restored null uncertainty"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Break_Strike"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Energy Wave Combo",
+      "skill_id": "skill-energy-wave-combo",
+      "changes": ["removed unsupported Skill Shop acquisition", "removed generic non-character source label", "preserved null acquisition uncertainty"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers","https://dbxv2.fandom.com/wiki/Super_Attack"],
+      "status": "reconciled"
+    },
+    {
+      "name": "Sledgehammer",
+      "skill_id": "skill-sledgehammer",
+      "changes": ["expanded direct provenance", "bounded charge/knockdown mechanics", "explicit Skill Shop endpoint"],
+      "sources": ["https://dbxv2.fandom.com/wiki/Sledgehammer","https://dragonball.fandom.com/wiki/Double_Axe_Handle"],
+      "status": "reconciled"
+    }
+  ],
+  "preservation": [
+    "No exact damage percentage was promoted for Super Dragon Fist, Holstein Shock, Turn Retreat, or Sledgehammer as version-independent canonical numeric mechanics.",
+    "No Ultimate Finish requirement was inferred for non-PQ routes.",
+    "Energy Wave Combo retains null acquisition because current repository evidence establishes identity/class/cost but not a safe current route.",
+    "Super Ki Explosion and Ultra Fighting Bomber remain blocked pending direct skill-level evidence."
+  ],
+  "next": "Continue record-level reconciliation for the remaining restored identities, prioritizing Super Back Jump, Ki Blast Cannon, Consecutive Energy Blast, Super Galick Gun, and the blocked Super Ki Explosion/Ultra Fighting Bomber evidence gaps."
+}
