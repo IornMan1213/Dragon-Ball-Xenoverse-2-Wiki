@@ -80,30 +80,31 @@
     "Restored PQ41-100 sparse reward fields from maintained batches; applied 2 exact-name equipment link occurrences.",
     "Restored 0 missing canonical PQ41-100 records from maintained batches; equipment audit found no additional exact-name canonical equipment matches in this range.",
     "QQ Bang component-identity reconciliation mapped explicit Beerus upper-body aliases to equip-101, added equip-110 for the distinct Beerus lower-body input documented by Prima Games, and mapped the Bardock Battle Suit naming variant to equip-024; no stats or acquisition routes were inferred.",
-    "Verified the live canonical Parallel Quest record layer now contains all 186 PQ records after the corruption-recovery passes; the earlier checkpoint value of 10 was stale and has been corrected to 186."
+    "Verified the live canonical Parallel Quest record layer now contains all 186 PQ records after the corruption-recovery passes; the earlier checkpoint value of 10 was stale and has been corrected to 186.",
+    "Completed the explicit equipment→PQ reconciliation queue: all 33 queued acquisition-source candidates were promoted where canonical equipment source fields explicitly named a PQ, and both directions were reconciled. A subsequent audit found 12 legacy reverse-link gaps and 2 duplicate legacy forward representations; those were repaired without changing uncertain reward/drop semantics."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
     "qq_bang_observed_vectors": 16,
     "targets": [
-      "reconcile remaining QQ Bang equipment identities",
-      "expand equipment ↔ PQ acquisition links where direct evidence exists",
-      "equipment/build cross-domain relationships",
-      "deeper patch/item-table evidence only where direct evidence exists"
+      "continue cross-domain reconciliation beyond the completed explicit equipment→PQ queue",
+      "audit remaining QQ Bang/equipment identities and unresolved acquisition conflicts",
+      "continue equipment/build and skill/PQ cross-navigation enrichment",
+      "synchronize stale status metadata and update automated validation coverage where repository write paths permit"
     ],
     "note": "QQ Bang clothing component identities are reconciled where explicit evidence supports them; continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships, preserving unresolved inputs rather than guessing."
   },
-  "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint.",
+  "validation_boundary": "Canonical JSON integrity and endpoint reconciliation have been validated through direct repository reads; Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint.",
   "last_updated": "2026-09-27",
   "recovery_state": "active_recovery_with_exact_qq_bang_equipment_identity_audit",
   "live_baseline": {
-    "equipment_records": 111,
+    "equipment_records": 112,
     "qq_bang_records": 23,
     "observed_vectors": 16,
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "Continue promoting the next validated explicit equipment→PQ queue entries in small batches, then run cumulative forward/reverse integrity checks against the PQ cross-domain baseline.",
+  "next_target": "With the explicit equipment→PQ queue exhausted and endpoint reconciliation clean, move to the next evidence-backed cross-domain gap: QQ Bang/equipment identity and provenance reconciliation, while preserving unresolved conflicts and avoiding speculative mappings.",
   "equipment_records": 112,
-  "latest_change": "Completed the second five-item equipment→PQ promotion batch and reconciled its PQ-side links: equip-026→PQ13, equip-028→PQ12, equip-029→PQ25, equip-031→PQ121, equip-032→PQ121."
+  "latest_change": "Completed and validated the full explicit equipment→PQ reconciliation queue (33 entries). Final endpoint audit: 48 unique equipment→PQ endpoints and 48 matching PQ→equipment endpoints, with zero duplicate or asymmetric endpoints after legacy cleanup."
 }
