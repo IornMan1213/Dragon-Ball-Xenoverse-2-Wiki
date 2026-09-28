@@ -4368,3 +4368,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Extended Super Mix Capsule Z provenance with 2025 official support-pack distribution evidence and 2026 community evidence; distinguished paid DLC distribution from base-game Tour/drop behavior.
 - [ ] Next: reconcile remaining QQ Bang clothing identities and establish equipment/build cross-domain links; only promote patch/item-table claims when directly supported.
+
+- [x] 2026-09-27: Added reverse `qq_bang_links` to 14 canonical equipment records so QQ Bang clothing-input relationships are navigable in both directions.
+- [ ] Next: expand QQ Bang ↔ equipment ↔ PQ relationships and equipment/build cross-domain links without inventing absent canonical build entities.
