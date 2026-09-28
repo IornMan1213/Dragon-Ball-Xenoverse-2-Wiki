@@ -214,7 +214,14 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=545333338",
         "https://www.gameskinny.com/tips/dragon-ball-xenoverse-parallel-quest-requirements-guide/"
       ],
-      "recovery_note": "Corrected during 2026-09-27 recovery: the prior canonical PQ25 contents were inconsistent with multiple historical reward records. This correction restores the documented PQ25 reward set while preserving exact drop mechanics as unresolved."
+      "recovery_note": "Corrected during 2026-09-27 recovery: the prior canonical PQ25 contents were inconsistent with multiple historical reward records. This correction restores the documented PQ25 reward set while preserving exact drop mechanics as unresolved.",
+      "equipment_links": [
+        {
+          "equipment_id": "equip-111",
+          "relationship": "reward",
+          "evidence_note": "Android 18's Clothes (Skirt) is explicitly listed in multiple PQ25 reward records."
+        }
+      ]
     },
     {
       "id": "pq-026",
