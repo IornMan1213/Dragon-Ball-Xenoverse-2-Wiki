@@ -220,9 +220,15 @@
         {
           "pq_id": "pq-018",
           "relationship": "acquisition_source",
-          "evidence_note": "Historical PQ18 route is retained in the canonical accessory record; PQ63 is a separate conflicting historical report and is not promoted."
+          "evidence_note": "Canonical historical route retained; exact reward/drop condition remains unresolved."
+        },
+        {
+          "pq_id": "pq-063",
+          "relationship": "historical_conflict",
+          "evidence_note": "Independent reward-table evidence explicitly lists Goku Wig (Super Saiyan) on PQ63; retained as conflict rather than silently replacing canonical PQ18."
         }
-      ]
+      ],
+      "notes": "Historical PQ18/PQ63 conflict reviewed 2026-09-27. PQ63 has explicit later-era reward-table evidence, while canonical route retains PQ18; both are preserved as historical sources pending reconciliation."
     },
     {
       "id": "acc-013",
@@ -483,6 +489,14 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxenoverse.fandom.com/wiki/Accessories"
+      ],
+      "notes": "Historical PQ29/PQ36 conflict reviewed 2026-09-27. Current explicit reward-table evidence supports PQ36; PQ29 is not promoted. Shop acquisition remains separate.",
+      "pq_links": [
+        {
+          "pq_id": "pq-036",
+          "relationship": "reward",
+          "evidence_note": "PQ36 explicit reward table lists Yamcha's Sword; exact drop mechanics remain unresolved. Historical PQ29 report retained as conflict, not promoted."
+        }
       ]
     },
     {
