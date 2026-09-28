@@ -5850,3 +5850,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed `qq-observed-013` contains one explicitly unspecified 5-star clothing input; no equipment identity was inferred from its output vector.
 - [x] Recorded the boundary in `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json`: 0 new promotable links, 0 invalid existing links, 1 unresolved concrete input.
 - [ ] **Next:** resume evidence-backed PQ typed-reward expansion/acquisition-gap research.
+
+
+### 2026-09-28 continuation — PQ typed-reward drift audit closed
+- [x] Re-read the live continuation/TODO files and canonical relationship store before proceeding.
+- [x] Reconciled the remaining normalized-map `source_only` reward cases against canonical forward relationships. All identified source-only clothing/accessory entries already have canonical equipment relationships; the source-only skill entries Time Control, Mach Dash, and Warp Kamehameha are already represented at their documented PQ endpoints.
+- [x] Confirmed no new canonical PQ typed-reward promotion is justified by the remaining normalized-map drift; partial-map omissions remain historical drift, not deletion evidence.
+- [x] Updated `docs/data/pq-cross-domain-reconciliation.json` with the current 851-edge state and explicit unresolved boundaries.
+- [x] Preserved PQ48 Kamekameha/Kamehameha as an evidence conflict and Dual Masenko as a separate canonical skill-record restoration candidate; no unsupported PQ118 edge was added.
+- [ ] **Next:** advance the explicit canonical skill-record/acquisition-gap frontier, beginning with documented candidates such as Dual Masenko, then continue mechanics-field enrichment.
