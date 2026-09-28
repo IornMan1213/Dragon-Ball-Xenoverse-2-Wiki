@@ -4,7 +4,7 @@
   "scope": "Deterministic reverse navigation audit for the 18 skill identities promoted to close the verified preset-loadout canonical identity gap.",
   "source_canonical_skills": "docs/data/skills.json",
   "source_presets": "docs/data/character-presets-record-layer.json",
-  "canonical_skill_records": 493,
+  "canonical_skill_records": 497,
   "preset_records": 51,
   "verified_preset_records": 25,
   "verified_loadout_skill_entries": 162,
