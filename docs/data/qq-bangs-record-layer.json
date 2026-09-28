@@ -86,7 +86,47 @@
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eaium7",
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/1swpysp",
         "https://www.youtube.com/watch?v=dZE9_VysgAw"
-      ]
+      ],
+      "material_provenance": {
+        "primary_item": "Super Mix Capsule Z",
+        "direct_tour_routes": [
+          {
+            "route": "Online Parallel Quest Tour",
+            "evidence_date": "2020-12-26",
+            "source": "https://www.youtube.com/watch?v=dZE9_VysgAw"
+          },
+          {
+            "route": "Online Parallel Quest / Expert Mission Tours",
+            "evidence_date": "2023-07-21",
+            "source": "https://steamcommunity.com/app/454650/discussions/0/3803903461254245268/"
+          },
+          {
+            "route": "Parallel Quest Tour / Expert Mission Tour",
+            "evidence_date": "2024-11-26",
+            "source": "https://www.reddit.com/r/DragonBallXenoverse2/comments/1gzw3o8/"
+          }
+        ],
+        "synthesis_route": {
+          "input_a": "Super Mix Capsule",
+          "input_b": "Demon Realm Crystal",
+          "output": "Super Mix Capsule Z",
+          "evidence_date": "2020-08-30",
+          "source": "https://www.reddit.com/r/DragonBallXenoverse2/comments/ijcy6b/"
+        },
+        "demon_realm_crystal_routes": [
+          {
+            "route": "Expert Missions / Expert Mission Tour",
+            "evidence_date": "2023-07-21",
+            "source": "https://steamcommunity.com/app/454650/discussions/0/3803903461254245268/"
+          },
+          {
+            "route": "Expert Mission 18 community farming report",
+            "evidence_date": "2023-07-21",
+            "source": "https://steamcommunity.com/app/454650/discussions/0/3803903461254245268/"
+          }
+        ],
+        "version_boundary": "The reviewed evidence spans 2020-2026 and confirms the same two acquisition families; no patch-specific rule change was established by this pass. Exact drop percentages remain unpromoted."
+      }
     },
     {
       "id": "qq-recipe-001",
@@ -845,6 +885,16 @@
       "note": "Expanded canonical QQ Bang/equipment normalization. Indexed missing explicit input identities and refreshed safe equipment links across 21 QQ Bang records; incomplete/unspecified inputs remain unlinked.",
       "sources": [
         "docs/data/equipment-record-layer.json"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Version-aware Super Mix Capsule Z provenance pass: consolidated dated evidence from 2020-2026 for direct Tour acquisition and the Super Mix Capsule + Demon Realm Crystal synthesis route. No patch-specific acquisition-rule change was established, so the record preserves a dated evidence boundary instead of asserting universal permanence.",
+      "sources": [
+        "https://www.youtube.com/watch?v=dZE9_VysgAw",
+        "https://steamcommunity.com/app/454650/discussions/0/3803903461254245268/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1gzw3o8/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/ijcy6b/"
       ]
     }
   ],
