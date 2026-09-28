@@ -4942,3 +4942,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Linked `pq-059` ↔ `equip-061` Vegito's Clothes.
 - [x] Preserved unresolved exact drop mechanics.
 - [ ] Next: continue scanning remaining PQ batches for source-backed promotions.
+
+### 2026-09-27 continuation — PQ equipment conflict boundary
+- [x] Audited PQ 61-186 batch equipment rewards against the canonical equipment layer.
+- [x] Found no additional safe exact-name equipment promotions in those batches.
+- [x] Preserved `Yamcha's Sword` as unresolved at the PQ36 cross-link because maintained accessory research explicitly records a PQ29-vs-PQ36 historical conflict.
+- [ ] Next: reconcile the Yamcha's Sword route/identity evidence, then continue broader PQ reward/equipment promotion.
