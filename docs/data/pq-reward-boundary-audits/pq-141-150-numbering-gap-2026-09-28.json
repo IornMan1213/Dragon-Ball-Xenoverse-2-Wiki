@@ -1,0 +1,40 @@
+{
+  "batch_id": 570,
+  "date": "2026-09-28",
+  "type": "pq-141-150-numbering-gap-reconciliation",
+  "scope": "PQ141-PQ150",
+  "status": "explicit_numbering_gap_preserved",
+  "findings": {
+    "numbers_audited": 10,
+    "populated_records": 0,
+    "canonical_reward_relationships": 0,
+    "maintained_pq_records": 0,
+    "fabricated_records": 0,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false,
+    "findings": [
+      {
+        "range": "PQ141-PQ150",
+        "status": "numbering_gap",
+        "evidence": "Existing repository numbering reconciliation explicitly records PQ141-PQ150 as an additional numbering gap after PQ140; the next populated structured block begins at PQ151."
+      },
+      {
+        "range": "PQ141-PQ150",
+        "status": "no_record_promotion",
+        "policy": "No quest names, rewards, skills, Super Souls, equipment, accessories, characters, DLC requirements, or objectives were fabricated for the unpopulated numbers."
+      },
+      {
+        "range": "PQ36",
+        "status": "separate_historical_conflict",
+        "policy": "The existing PQ36 cut/historical conflict remains distinct from the PQ141-PQ150 numbering gap and is not altered by this audit."
+      }
+    ],
+    "source_basis": [
+      "docs/data/parallel-quest-research-batches/pq-batch-19-numbering-reconciliation.json",
+      "docs/Parallel-Quest-Audit.md",
+      "docs/data/pq-reward-relationships.json"
+    ],
+    "validation_policy": "Cross-domain consumers must treat PQ141-PQ150 as an explicit numbering-gap state rather than ten missing-data records; canonical endpoint validation must not require fabricated PQ records for these numbers."
+  },
+  "next": "PQ151-PQ160 recovery-forward reconciliation"
+}
