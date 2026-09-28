@@ -5953,3 +5953,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/pq-176-180-skill-reward-parity-audit-2026-09-28.json` as the reproducible audit artifact.
 - [x] Preserved the boundary between PQ reward membership and CaC eligibility: Force Edge/Burning Blast reward edges do not by themselves establish `usable_by_cac`.
 - [ ] **Next:** continue the next unreconciled cross-domain range and then return to remaining evidence-backed mechanics/acquisition gaps.
+
+
+### 2026-09-28 continuation — PQ181-PQ185 typed skill-reward parity
+- [x] Audited PQ181-PQ185 at record level against the canonical forward reward relationship layer and maintained PQ/research evidence.
+- [x] Confirmed **7/7 documented skill-reward edges** are represented: PQ181 (Super Kamehameha (SS4 DAIMA), Final Flash (SS3 DAIMA)), PQ182 (Dark Inscription), PQ183 (Emperor's Cannon), PQ184 (Chaotic Time Impact), and PQ185 (Dragon Spiral, Indomitable).
+- [x] Confirmed all seven endpoints are represented without an unresolved canonical skill identity gap.
+- [x] Preserved unresolved exact reward-slot percentages; PQ184's documented Ultimate-Finish bonus-slot context remains evidence-bounded.
+- [x] Preserved the known Dragon Spiral source conflict and did not manufacture a PQ186 relationship from the conflicting guide.
+- [x] Added `docs/data/pq-181-185-skill-reward-parity-audit-2026-09-28.json` as the reproducible audit artifact.
+- [ ] **Next:** audit PQ186 separately, then continue remaining typed-reward gaps and evidence-backed mechanics/acquisition enrichment.
