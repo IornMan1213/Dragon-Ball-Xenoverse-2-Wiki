@@ -6051,3 +6051,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added and indexed batch-568 audit; canonical source unchanged.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ131-PQ140 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ121-PQ130 live-state reconciliation correction
+- [x] Re-inspected the live maintained PQ layer instead of relying on the earlier batch summary.
+- [x] Found and repaired the two remaining maintained equipment projection omissions: PQ123 Arabian Costume -> equip-039 and PQ127 Janemba Suit -> equip-040.
+- [x] Confirmed PQ125 Goku Wig (Ultra Instinct) and PQ127 Janemba Head remain accessory endpoints (acc-051/acc-052), not fabricated equipment IDs.
+- [x] Confirmed PQ121-PQ130 skill and Super Soul projections align with the existing canonical relationship store; no unsupported canonical relationship was added.
+- [x] Corrected the batch-568 audit to describe the live recovery state and indexed it in pq-cross-domain-index.json.
+- [x] Canonical source data was not changed.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ131-PQ140 recovery-forward reconciliation.
