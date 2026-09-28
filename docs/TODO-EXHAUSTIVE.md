@@ -5342,3 +5342,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/pq-166-170-skill-reward-parity-audit-2026-09-28.json as a reproducible audit artifact.
 - [x] No new relationship was inferred or promoted during this pass.
 - [ ] **Next:** continue record-level forward/reverse PQ typed-reward parity across the next unreconciled range, prioritizing skill endpoints and preserving source conflicts.
+
+
+### 2026-09-28 continuation — PQ171-PQ175 typed skill-reward parity
+- [x] Audited PQ171-PQ175 at record level against the maintained forward reward map, reverse PQ skill index, PQ records/research, canonical relationship layer, and canonical skill cross-link report.
+- [x] Confirmed the eight skill edges in this range are mutually represented: PQ171 (Crimson Edge, Divine Spear), PQ172 (Big Bang Knuckle, Wild Stinger), PQ173 (Divine Ray Bomb), PQ174 (Final Rampage), and PQ175 (God of Destruction's Plaything, God of Destruction's Poise).
+- [x] Confirmed all eight names resolve to exact canonical skill identities; no unresolved canonical skill endpoint or forward/reverse mismatch was found.
+- [x] Added docs/data/pq-171-175-skill-reward-parity-audit-2026-09-28.json as the reproducible audit artifact.
+- [x] Did not infer additional PQ edges from character ownership, presets, or non-PQ acquisition evidence.
+- [ ] **Next:** continue the next unreconciled PQ typed-reward range, then resume remaining mechanics/acquisition enrichment.
