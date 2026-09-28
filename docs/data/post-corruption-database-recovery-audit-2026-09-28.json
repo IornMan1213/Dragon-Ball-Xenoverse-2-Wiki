@@ -29,8 +29,11 @@
     "orphan_skill_reward_targets": 0,
     "pq_numbers_with_typed_relationships": 185,
     "pq_range": "PQ1-PQ186",
-    "pq_without_typed_skill_super_soul_equipment_relationship": "PQ1",
-    "pq1_rule": "PQ1 is not treated as missing data solely because the cited source does not provide a typed skill/Super Soul/equipment relationship."
+    "pq_without_typed_skill_super_soul_equipment_relationship": [],
+    "pq1_rule": "PQ1 is an intentional zero-typed-reward boundary: its canonical research record documents only Zeni and an Energy Capsule, with no skill, Super Soul, or equipment reward. See docs/data/pq-reward-boundary-audits/pq-1-typed-reward-boundary-2026-09-28.json.",
+    "typed_relationship_boundary_exceptions": [
+      "PQ1"
+    ]
   },
   "recovery_history": {
     "pre_preset_skill_recovery": 474,
