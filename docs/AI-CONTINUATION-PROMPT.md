@@ -6625,3 +6625,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added/indexed batch-566 reconciliation audit.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ111-PQ120 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ111-PQ120 recovery-forward reconciliation
+- [x] Audited PQ111-PQ120 across dedicated research, maintained PQ records, and canonical typed reward relationships.
+- [x] Repaired maintained skill/equipment/Super Soul projections for canonical-backed rewards.
+- [x] Normalized accessory endpoints for Resistance Helmet (PQ111) and Toppo's Moustache (PQ112); no unsupported equipment identities were fabricated.
+- [x] Preserved PQ113's researched `Candy Beam (Super)` boundary; did not project the separate canonical `Candy Beam` without research evidence.
+- [x] Added/indexed batch-567 reconciliation audit; canonical data unchanged.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ121-PQ130 recovery-forward reconciliation.
