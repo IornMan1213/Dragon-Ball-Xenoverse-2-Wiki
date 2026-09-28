@@ -6008,3 +6008,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added/indexed batch-563 reconciliation audit.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ81-PQ90 canonical-first reward projection/reconciliation.
+
+
+### 2026-09-28 continuation — PQ81-PQ90 recovery-forward reconciliation
+- [x] Restored maintained skill projections for PQ86 and PQ87.
+- [x] Normalized PQ90 `III Bomber` → canonical `Ill Bomber` while retaining the source spelling in research provenance.
+- [x] Added/indexed batch-564 reconciliation audit.
+- [x] Confirmed no canonical equipment/Super Soul reward projections for this range.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ91-PQ100 canonical-first reward projection/reconciliation.
