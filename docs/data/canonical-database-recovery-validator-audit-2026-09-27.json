@@ -1,14 +1,18 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-27",
+  "audit_date": "2026-09-28",
   "status": "hardening_complete",
   "validator": "scripts/validate_canonical_database_recovery.py",
   "changes": [
     "Require verified_relationships to be a list of objects.",
     "Map all six canonical PQ relationship types explicitly and reject unknown types.",
     "Recompute current_counts from stored relationship rows and require exact equality with the declared counts.",
-    "Require the recovered canonical PQ relationship baseline to total exactly 840 rows."
+    "Require the recovered canonical PQ relationship baseline to total exactly 840 rows.",
+    "Updated stale pre-recovery skill invariants from 475 canonical skills / 246 Skill→PQ edges to the live recovered 493 canonical skills / 248 Skill→PQ edges; represented PQ count remains 170.",
+    "Updated validator output text to report the live 493-skill / 248-edge recovery state."
   ],
   "data_changed": false,
-  "runtime_status": "unverified_by_user_direction"
+  "runtime_status": "source-level repair committed; runtime execution remains non-blocking by project policy",
+  "validator_commit": "858f6d25a00c3baceee6120e30c7b35d32a6bcd8",
+  "evidence_boundary": "Validator contract only; canonical recovery data was not modified by this hardening change."
 }
