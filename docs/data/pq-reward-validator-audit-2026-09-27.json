@@ -1,14 +1,14 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-27",
+  "audit_date": "2026-09-28",
   "status": "hardening_complete",
   "validator": "scripts/validate_pq_reward_relationships.py",
   "changes": [
-    "Require relationship-store root to be an object.",
-    "Require cross-domain schema root to be an object.",
-    "Require current_counts to contain exactly the six canonical count keys.",
-    "Require every current_counts value to be a non-negative integer and reject booleans."
+    "Require invalid JSON in both source documents to fail deterministically with a controlled validation error.",
+    "Remove duplicated current_counts validation branches so each schema contract is evaluated exactly once.",
+    "Preserve strict relationship-type, status, PQ-range, target/source, duplicate-key, and declared-count reconciliation checks.",
+    "No canonical PQ reward relationship data was changed."
   ],
-  "canonical_data_changed": false,
-  "runtime_status": "unverified_by_user_direction"
+  "data_changed": false,
+  "runtime_status": "source inspection complete; repository runtime/CI remains intentionally non-blocking"
 }
