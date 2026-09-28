@@ -4704,3 +4704,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Canonical restoration remains pending because the complete current `skills.json` / `skills-index.json` payload could not be safely retrieved through the GitHub connector for an atomic full-file edit; do not risk overwriting the surviving canonical database with a truncated reconstruction.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** safely restore/add the Dual Masenko canonical record and corresponding index entry from the complete live canonical payload, then re-run partner/custom and PQ118 reconciliation before moving to the next gap.
+
+
+### 2026-09-27 continuation — Dual Masenko restoration preparation
+- [x] Re-verified the Dual Masenko omission against current Xenoverse 2-specific sources: TP Medal Shop acquisition, Ki Blast classification, Super classification, and 100 Ki cost. Historical shop evidence records 170 TP Medals. Sources: https://dbxv2.fandom.com/wiki/Dual_Masenko ; https://www.dbzgames.org/news/dragon-ball-xenoverse-2-free-update-details-tp-medal-shop-schedule/ ; https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75501935
+- [x] Prepared the complete intended canonical record fields inside `docs/data/dual-masenko-canonical-gap-audit-2026-09-27.json`.
+- [x] Explicitly retained TP Medal Shop as acquisition truth and did not carry forward Batch 261's stale “Training with Future Trunks” acquisition field.
+- [x] Did not mutate `skills.json` or `skills-index.json`: the connector cannot safely retrieve the complete large canonical payload, so replacing it from a truncated response would recreate the corruption risk this recovery cycle is designed to prevent.
+- [ ] Atomic insertion of `skill-dual-masenko` into canonical Skills and index remains the exact next task once a complete payload/edit path is available.
+- [ ] After insertion, regenerate/reconcile Partner Customization and PQ118 relationships; do not manufacture PQ118 until explicit reward evidence is confirmed.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
