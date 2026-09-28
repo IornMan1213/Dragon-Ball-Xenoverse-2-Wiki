@@ -4371,3 +4371,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Added reverse `qq_bang_links` to 14 canonical equipment records so QQ Bang clothing-input relationships are navigable in both directions.
 - [ ] Next: expand QQ Bang ↔ equipment ↔ PQ relationships and equipment/build cross-domain links without inventing absent canonical build entities.
+
+- [x] 2026-09-27: Linked Super Mix Capsule Z ↔ PQ 83 as a bidirectional community farming-route relationship, explicitly preserving Online PQ Tour context and avoiding guaranteed-drop/exact-rate claims.
+- [ ] Next: reconcile remaining QQ Bang equipment identities and expand equipment ↔ PQ acquisition links where directly evidenced.
