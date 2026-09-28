@@ -4828,3 +4828,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected the reverse-index generation-date expectation to **2026-09-28** so the validator matches the regenerated live artifact.
 - [x] Preserved the existing 170 represented PQ IDs and zero unresolved canonical skill endpoints; no unsupported PQ→skill edges were invented.
 - [ ] **Next:** run/inspect the remaining cross-domain validators and continue enrichment of restored preset identities and PQ reward navigation.
+
+## 2026-09-28 continuation — restored preset audit sync and Skill→PQ validator follow-up
+- [x] Synchronized the Full Power Energy Blast Volley reverse-navigation expected class from stale `Super` to canonical `Ultimate`.
+- [x] Removed Full Power Energy Blast Volley from the stale remaining-unresolved list in the canonical preset evidence reconciliation audit and recorded batch 06 as the resolution.
+- [x] Found a remaining bare `assert` in `scripts/validate_skill_pq_crosslinks.py` despite the earlier hardening pass.
+- [x] Replaced that assertion with an explicit deterministic failure and recorded the follow-up in `docs/data/skill-pq-crosslink-validator-audit-2026-09-27.json`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: inspect the remaining cross-domain validators for concrete integrity gaps, then continue restored preset enrichment and bidirectional PQ reward coverage.
