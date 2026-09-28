@@ -3447,7 +3447,13 @@
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-040",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
       "super_soul_rewards": [],
       "accessory_links": [
         {
