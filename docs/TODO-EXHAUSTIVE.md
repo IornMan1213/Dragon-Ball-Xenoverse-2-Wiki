@@ -5980,3 +5980,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed the PQ cross-domain audit to current **862** canonical relationship edges.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue PQ51-PQ60 concrete reward/relationship reconciliation, preserving evidence boundaries and canonical source-of-truth rules.
+
+
+### 2026-09-28 continuation — PQ51-PQ60 recovery-forward reconciliation
+- [x] Audited PQ51-PQ60 across dedicated research, maintained records, and canonical reward relationships.
+- [x] Repaired maintained PQ57 skill_rewards omission: restored **Rakshasa's Claw**.
+- [x] Confirmed remaining PQ51-PQ60 skill relationships agree; PQ59 ordering difference is non-semantic.
+- [x] Added and indexed batch-561 reconciliation audit.
+- [x] Canonical relationship data unchanged; no unsupported relationship invented.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ61-PQ70 recovery-forward reconciliation.
