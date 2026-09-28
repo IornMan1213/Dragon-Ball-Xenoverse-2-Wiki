@@ -359,7 +359,11 @@
       "unlock_method": "Conton City Skill Shop / Ability Shop",
       "ultimate_finish_required": null,
       "last_verified": "2026-09-27",
-      "mechanics_notes": "Defensive backflip used to evade attacks; current individual documentation states that it requires neither Ki nor Stamina and repeated input can extend the backflip sequence."
+      "mechanics_notes": "Defensive backflip used to evade attacks; current individual documentation states that it requires neither Ki nor Stamina and repeated input can extend the backflip sequence.",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 acquisition enrichment: current skill references identify Backflip as obtainable from the Conton City Skill Shop; no DLC gate applies to the Future Warrior acquisition endpoint."
     },
     {
       "id": "skill-beast",
@@ -935,7 +939,11 @@
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
       "last_verified": "2026-09-27",
-      "mechanics_notes": "Close-range explosion evasive that launches the opponent upward."
+      "mechanics_notes": "Close-range explosion evasive that launches the opponent upward.",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 acquisition enrichment: current Xenoverse 2 references identify Break Strike as obtainable from the Skill Shop; character DLC appearances are kept separate from the Future Warrior acquisition endpoint."
     },
     {
       "id": "skill-breaker-energy-wave",
@@ -1650,7 +1658,11 @@
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-28",
-      "mechanics_notes": "100-Ki Ki Blast Super that fires a wide-range barrage of 10 tracking Ki blasts at the target."
+      "mechanics_notes": "100-Ki Ki Blast Super that fires a wide-range barrage of 10 tracking Ki blasts at the target.",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 acquisition enrichment: the current skill reference lists Consecutive Energy Blast as obtained from the Skill Shop. No DLC gate is attached to the canonical Future Warrior acquisition endpoint."
     },
     {
       "id": "skill-core-breaker",
@@ -3753,7 +3765,11 @@
       "unlock_method": "Skill Shop / default Future Warrior Super Skill",
       "ultimate_finish_required": null,
       "last_verified": "2026-09-28",
-      "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current Xenoverse 2-specific evidence supports Skill Shop availability and identifies Energy Wave Combo as a default Future Warrior Super Skill. Exact Ultimate-Finish requirement remains unresolved."
+      "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current Xenoverse 2-specific evidence supports Skill Shop availability and identifies Energy Wave Combo as a default Future Warrior Super Skill. Exact Ultimate-Finish requirement remains unresolved.",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 acquisition enrichment: the current skill reference lists Energy Wave Combo as obtained from the Skill Shop. Character/preset appearances are retained separately from the CaC acquisition endpoint."
     },
     {
       "id": "skill-eraser-bomb",
@@ -10239,7 +10255,11 @@
       "unlock_method": "Skill Shop / Starting move for \"Long range\"",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-28",
-      "mechanics_notes": "Other Evasive using 200 Stamina. The user jumps and somersaults backward to escape danger; current Evasive documentation also lists it as the starting move for the Long range choice."
+      "mechanics_notes": "Other Evasive using 200 Stamina. The user jumps and somersaults backward to escape danger; current Evasive documentation also lists it as the starting move for the Long range choice.",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City) / starting move for Long range",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 acquisition enrichment: repository evidence reconciliation identifies Super Back Jump as a Skill Shop acquisition and the starting move for the Long range fighting-style choice; no separate DLC gate is established."
     },
     {
       "id": "skill-super-black-kamehameha-rose",
@@ -12072,7 +12092,7 @@
       "skill_description": "Zigzag Express is a Strike Super skill associated with Majin (Male)."
     }
   ],
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "audit_registry": {
     "skill_mach_dash_current_evidence_audit_2026_09_25": "docs/data/skill-mach-dash-current-evidence-audit-2026-09-25.json",
     "skill_mach_punch_current_evidence_audit_2026_09_25": "docs/data/skill-mach-punch-current-evidence-audit-2026-09-25.json",
