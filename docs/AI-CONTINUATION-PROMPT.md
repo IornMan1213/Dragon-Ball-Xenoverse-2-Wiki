@@ -6241,3 +6241,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Duplicate key validation returned **0 duplicates** across the canonical relationship tuples.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: proceed to substantive mechanics/acquisition enrichment and bidirectional cross-domain gaps, using canonical records as source of truth and retaining unresolved evidence boundaries.
+
+
+### 2026-09-28 continuation — Canonical skill acquisition enrichment batch 541
+- [x] Recounted the authoritative `docs/data/skills.json` directly through the GitHub contents API: **497 canonical skill records**.
+- [x] Identified 20 canonical records with missing acquisition metadata fields; enriched five with direct current/repository evidence: **Backflip, Break Strike, Consecutive Energy Blast, Energy Wave Combo, Super Back Jump**.
+- [x] Added the missing `acquisition_type`, `source_quest_or_shop`, and/or `dlc_requirement` fields without converting character/preset DLC appearances into CaC acquisition gates.
+- [x] Synchronized the five records into `docs/data/skills-index.json` and registered `docs/data/skill-research-batches/skill-batch-541.json` in the cross-domain registry.
+- [x] Updated the canonical skill acquisition-gap census: **15 records remain** with at least one target acquisition field missing.
+- [x] Preserved evidence boundaries: no unsupported drop probabilities, Ultimate Finish requirements, prerequisites, or variant identities were inferred.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** enrich the remaining 15 canonical acquisition gaps in evidence-backed batches, then deepen mechanics/restriction/version fields and PQ↔skill navigation where gaps remain.
