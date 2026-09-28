@@ -5909,3 +5909,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved source/version boundaries for damage, frame data, scaling, counter windows, and reward probabilities instead of promoting unsupported constants.
 - [x] Preserved acquisition-vs-PQ semantics: Expert Mission/training/shop/PQ acquisition endpoints do not become PQ reward edges without explicit reward evidence.
 - [ ] **Next:** compare these consolidated mechanics boundaries against the live canonical records and apply only field-level corrections supported by direct evidence; then continue the remaining mechanics frontier and PQ bidirectional reconciliation.
+
+
+### 2026-09-28 continuation — Restored-skill mechanics frontier reconciliation
+- [x] Compared the five-record mechanics frontier against the live canonical corpus.
+- [x] Confirmed Assault Rain, Super Electric Strike, Ki Explosion, and Heavenly Arrow already carried the intended bounded mechanics; no unnecessary canonical rewrite was made.
+- [x] Enriched **Counter Burst** in both canonical `skills.json` and synchronized `skills-index.json`: frontal Ki counter barrier, 6-hit counter projectile, knockback, and 20% source-reported damage are now explicitly documented; exact counter window, coverage, frame data, and patch-independent scaling remain unresolved.
+- [x] Preserved the distinction between source-reported damage and patch-independent canonical constants.
+- [x] Updated the mechanics frontier audit to record the reconciliation and retain the remaining unresolved fields.
+- [ ] **Next:** continue the remaining skill mechanics/acquisition gaps, then resume bidirectional PQ typed-reward reconciliation without inferring PQ ownership from non-PQ acquisition endpoints.
