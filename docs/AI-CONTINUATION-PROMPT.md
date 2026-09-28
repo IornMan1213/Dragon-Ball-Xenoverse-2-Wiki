@@ -6409,3 +6409,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Audited canonical `skills.json`: only `Galaxy Breaker (Festival)` is explicitly represented as a Festival skill; no safe basis exists to invent three additional IDs/names.
 - [x] Recorded a dedicated evidence gap requiring recovery from authoritative screenshots/video or a reliable independent catalog.
 - [ ] **Next:** recover the four names, match them to canonical IDs, and assign provenance only after identity reconciliation.
+
+
+### 2026-09-28 continuation — Free Update 20 Festival skill names recovered
+- [x] Reconciled Free Update 20's four Budokai/Festival skills with the 4th Festival event evidence and independent Festival catalog: **God Bind (Festival), Egret Waltz (Festival), Gamma Force: Code-R (Festival), Gamma Force: Code-B (Festival)**.
+- [x] Confirmed the 4th Festival introduced Goku (Super Saiyan God), Videl (DB Super), Gamma 1, and Gamma 2; official event material establishes the character scope. citeturn4search6
+- [x] Discovered an important canonical-data gap: only Galaxy Breaker (Festival) currently exists in `skills.json`; the four recovered names do not yet have canonical records there.
+- [x] Recorded the four names as **named-but-canonical-record-missing** rather than fabricating IDs or incomplete skill records.
+- [ ] **Next:** recover complete canonical records/IDs and full fields for these four Festival skills from existing research batches/catalog evidence, then assign Free Update 20 provenance.
