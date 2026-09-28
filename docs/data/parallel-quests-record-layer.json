@@ -2896,6 +2896,11 @@
           "accessory_id": "acc-094",
           "relationship": "research_acquisition_association",
           "evidence_note": "Accessory PQ research identifies PQ111; exact reward condition remains unresolved."
+        },
+        {
+          "accessory_id": "accr-028",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ; exact reward/drop condition remains separately unresolved."
         }
       ],
       "skill_rewards": [
@@ -2904,12 +2909,7 @@
       ],
       "equipment_rewards": [
         {
-          "name": "Resistance Clothes",
-          "relationship": "acquisition_source",
-          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
-        },
-        {
-          "name": "Resistance Helmet",
+          "equipment_id": "equip-096",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
         }
@@ -2947,6 +2947,13 @@
         "I ain't losin'! Here's my full power!",
         "I'm never going to forgive him!",
         "Sorry. You were way open there."
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-095",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ; exact reward/drop condition remains separately unresolved."
+        }
       ]
     },
     {
@@ -3005,18 +3012,20 @@
       ],
       "equipment_rewards": [
         {
-          "name": "Pride Trooper Uniform",
-          "relationship": "acquisition_source",
-          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
-        },
-        {
-          "name": "Toppo's Moustache",
+          "equipment_id": "equip-097",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
         }
       ],
       "super_soul_rewards": [
         "The real fight starts now!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-095",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity exists for the explicitly named PQ reward; exact reward/drop condition remains separately unresolved."
+        }
       ]
     },
     {
@@ -3046,12 +3055,12 @@
       ],
       "equipment_rewards": [
         {
-          "name": "Ribrianne's Clothes",
+          "equipment_id": "equip-098",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
         },
         {
-          "name": "Ribrianne's Hood",
+          "equipment_id": "equip-099",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
         }
