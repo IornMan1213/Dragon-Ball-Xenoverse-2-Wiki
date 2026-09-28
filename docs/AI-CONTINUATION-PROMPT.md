@@ -4756,3 +4756,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json` to preserve the conflict and explicitly retain TP Medal Shop as the canonical Dual Masenko acquisition endpoint.
 - [x] No Skill→PQ relationship was manufactured; the canonical Skill→PQ projection remains 246 edges / 170 PQs.
 - [ ] Future work: obtain direct item-level/game-data evidence that resolves the PQ118 conflict before considering a canonical relationship.
+
+
+### 2026-09-27 continuation — Dual Masenko acquisition/DLC conflict reconciliation
+- [x] Rechecked PQ118 against current repository records and independent PQ documentation. The live repository's PQ118 reward set lists `Now we're even.` and `I hate what I've become!`, while the long-running Steam 186-PQ guide likewise does not list Dual Masenko. A separate newer web guide incorrectly/ambiguously labels a different PQ118 as `A Desperate Fight` and claims Dual Masenko there; this conflicting evidence is not sufficient to manufacture a Skill→PQ edge. citeturn0search0turn1search0
+- [x] Preserved the stronger TP Medal Shop acquisition evidence for Dual Masenko and kept PQ118 unresolved.
+- [x] Removed the unsupported `Free Update 4` value from the restored canonical Dual Masenko record; `dlc_requirement` is now null, consistent with the existing Batch 261 research record.
+- [x] Updated the Dual Masenko gap audit with the conflict and decision.
+- [ ] Next: continue exhaustive discovery of genuine missing/under-enriched records and reconcile only when evidence is sufficiently direct and consistent.
