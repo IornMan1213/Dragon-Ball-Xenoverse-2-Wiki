@@ -6701,3 +6701,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-161-170-cross-domain-reconciliation-2026-09-28.json` (batch 572).
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ171-PQ180 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ171-PQ180 recovery-forward reconciliation batch 573
+- [x] Re-read the live continuation prompt/TODO and audited PQ171-PQ180 against dedicated research, maintained PQ records, canonical typed reward relationships, and equipment/accessory endpoint records.
+- [x] Restored 17 maintained skill reward projections across PQ171-PQ180.
+- [x] Restored four canonical equipment projections: PQ176 Belmod's Clothes (equip-073), PQ178 Goku (Mini)'s Gi (equip-074), PQ179 SS4 Goku (DAIMA) Suit (equip-075), and PQ180 SS3 Vegeta (DAIMA) Battle Suit (equip-076).
+- [x] Restored accessory endpoint links for PQ179 SS4 Goku (DAIMA) Wig & Tail (acc-083) and PQ180 SS3 Vegeta (DAIMA) Wig (acc-084); no accessory was represented as a fabricated equipment ID.
+- [x] Restored six maintained Super Soul reward projections across PQ173, PQ175-PQ178, and PQ180.
+- [x] Preserved canonical spelling boundaries where research transcriptions differ: PQ173 uses `You will know the power of the gods!`; PQ178 uses `I'll take you all on at once!`.
+- [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-171-180-cross-domain-reconciliation-2026-09-28.json` (batch 573).
+- [x] Canonical relationship data was not modified and no unsupported relationship was invented.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ181-PQ186 final numbered-block recovery-forward reconciliation; after that, move to the next substantive cross-domain/provenance frontier rather than fabricating PQ numbers beyond the final populated block.
