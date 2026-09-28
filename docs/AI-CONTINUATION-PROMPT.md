@@ -5503,3 +5503,12 @@ Next frontier: continue the remaining restored preset-skill identity queue. Prio
 ## 2026-09-28 Continuation Frontier — Super Galick Gun Also Resolved
 
 Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP Medal Shop / CaC usable. Current dedicated Xenoverse 2 documentation and independent corroboration support the identity and acquisition; exact patch-independent damage/timing remain bounded. Resolution is recorded in `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`. Continue with the next genuinely unresolved restored identity or cross-domain reconciliation task; do not repeat completed records.
+
+
+### 2026-09-28 continuation — fresh Super Soul mechanics census
+- [x] Recomputed the active Super Soul mechanics coverage directly from the canonical record layer: 172 historical records, 167 active records, 5 rejected legacy identities excluded from active coverage.
+- [x] Triaged the missing trigger/magnitude frontier and separated intentional no-effect/categorical records from substantive unresolved mechanics.
+- [x] Confirmed `super-soul-034` ("The final battle begins now.") remains substantively unresolved: PQ186 reward identity is established, but current checked evidence does not safely establish the item-level trigger/effect mechanics.
+- [x] Added `docs/data/super-soul-mechanics-census-2026-09-28.json`; no unsupported canonical mechanics were invented.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the next cross-domain integrity/enrichment frontier; preserve unresolved mechanics rather than filling fields solely to increase coverage.
