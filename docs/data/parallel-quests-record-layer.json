@@ -231,6 +231,88 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
+    },
+    {
+      "id": "pq-041",
+      "number": 41,
+      "name": "Warriors' Annihilation - Future Chapters",
+      "difficulty": 5,
+      "objectives": [
+        "Defeat Gohan",
+        "Clear without Android 17 and Android 18 being KO'd",
+        "Defeat Trunks"
+      ],
+      "ultimate_finish": "Keep Android 17 and Android 18 alive, then defeat Trunks.",
+      "enemies": [
+        "Gohan",
+        "Android 17",
+        "Android 18",
+        "Trunks"
+      ],
+      "rewards": [
+        "1980 Zeni",
+        "Med. Mix Capsule",
+        "Yamcha's Baseball Uniform",
+        "Burning Attack"
+      ],
+      "skill_rewards": [
+        "Burning Attack"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-060",
+          "relationship": "acquisition_source",
+          "evidence_note": "Maintained PQ batch explicitly lists Yamcha's Baseball Uniform as an equipment reward; canonical equipment record names Warriors' Annihilation - Future Chapters as its acquisition source. Exact drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-059",
+      "number": 59,
+      "name": "Potara Warrior",
+      "difficulty": 6,
+      "objectives": [
+        "Defeat Vegito",
+        "Clear with Super Buu's health over 50%",
+        "Defeat Super Vegito"
+      ],
+      "ultimate_finish": "Keep Super Buu above 50% health, then defeat Super Vegito.",
+      "enemies": [
+        "Vegito",
+        "Super Buu",
+        "Super Vegito"
+      ],
+      "rewards": [
+        "2630 Zeni",
+        "Vegito's Clothes",
+        "Force Shield",
+        "Dimension Cannon"
+      ],
+      "skill_rewards": [
+        "Force Shield",
+        "Dimension Cannon"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-061",
+          "relationship": "acquisition_source",
+          "evidence_note": "Maintained PQ batch explicitly lists Vegito's Clothes as an equipment reward; canonical equipment record names Potara Warrior as its acquisition source. Exact drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
     }
   ],
   "record_fields": []
