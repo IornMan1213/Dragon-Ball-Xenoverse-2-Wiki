@@ -8,19 +8,19 @@
   "findings": [
     {
       "name": "Sledgehammer",
-      "status": "promotion_candidate",
+      "status": "canonical_reconciled",
       "evidence": [
         "docs/data/skill-research-batches/skill-batch-159.json"
       ],
-      "note": "Dedicated research batch explicitly establishes Xenoverse 2 identity, Super/Strike classification, Skill Shop acquisition, 100 Ki, CaC usability, and version-sensitive charge mechanics. Canonical record is absent."
+      "note": "Dedicated research and direct skill documentation now reconciled into canonical fields: Super/Strike, 100 Ki, Skill Shop, CaC usable, bounded charge/knockdown mechanics."
     },
     {
       "name": "Energy Wave Combo",
-      "status": "evidence_insufficient_for_promotion",
+      "status": "canonical_reconciled_with_acquisition_null",
       "evidence": [
         "docs/data/skill-research-batches/skill-batch-265.json"
       ],
-      "note": "Catalog expansion establishes name/class/subcategory/100 Ki/CaC usability, but acquisition is null and evidence is category-level rather than a dedicated current skill source."
+      "note": "Identity/class/100 Ki/CaC evidence is retained, but the previously promoted Skill Shop acquisition was removed because the current batch does not establish a safe route."
     },
     {
       "name": "Super Galick Gun",
@@ -33,12 +33,12 @@
     },
     {
       "name": "Full Power Energy Wave",
-      "status": "needs_direct_skill_evidence",
+      "status": "canonical_reconciled",
       "evidence": [
         "docs/Character-Core-Profiles.md",
         "docs/data/character-presets-record-layer.json"
       ],
-      "note": "Preset identity is confirmed; canonical promotion requires direct skill evidence."
+      "note": "Direct Xenoverse 2 skill documentation now reconciled into canonical fields: Ultimate/Ki Blast, 300 Ki, Skill Shop after God of Destruction's Anger, CaC usable."
     },
     {
       "name": "Galaxy Breaker (Festival)",
@@ -61,10 +61,32 @@
     "Consecutive Energy Blast",
     "Backflip",
     "Super Ki Explosion",
-    "Recoome Eraser Gun",
     "Ultra Fighting Bomber",
     "Turn Retreat"
   ],
   "result": "research_gap_reconciliation",
-  "next": "Continue direct-evidence research for the remaining unmatched names; promote only records meeting canonical evidence thresholds, and otherwise retain the gap with explicit provenance."
+  "next": "Continue record-level reconciliation for Super Back Jump, Ki Blast Cannon, Consecutive Energy Blast, Super Galick Gun, then pursue direct primary evidence for Super Ki Explosion and Ultra Fighting Bomber.",
+  "reconciliation_2026_09_27_batch_03": {
+    "status": "completed",
+    "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-03-2026-09-27.json",
+    "canonical_record_count": 493,
+    "index_record_count": 493,
+    "reconciled": [
+      "Super Dragon Fist",
+      "Holstein Shock",
+      "Backflip",
+      "Turn Retreat",
+      "Full Power Energy Wave",
+      "Recoome Eraser Gun",
+      "Break Strike",
+      "Energy Wave Combo",
+      "Sledgehammer"
+    ],
+    "canonical_source_rule": "skills.json remains authoritative; index and verified/projection layers are synchronized consumers/evidence only.",
+    "preserved_uncertainty": [
+      "Energy Wave Combo acquisition remains null",
+      "Break Strike Ultimate Finish remains null",
+      "Super Ki Explosion and Ultra Fighting Bomber remain blocked"
+    ]
+  }
 }
