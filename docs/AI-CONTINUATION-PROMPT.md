@@ -4918,3 +4918,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Completed the identified Light Heart Suit identity gap: qq-recipe-004 and qq-recipe-005 now link to canonical equip-105.
 - [x] Audited every QQ Bang equipment_link against the canonical equipment layer; no broken equipment IDs remain.
 - [ ] Next: expand equipment ↔ PQ acquisition links where direct canonical evidence exists, then continue broader cross-domain reconciliation.
+
+### 2026-09-27 continuation — equipment/PQ audit boundary
+- [x] Audited all equipment `source_quest_or_shop` PQ references against the sparse canonical PQ record layer.
+- [x] Confirmed no additional direct equipment↔PQ links can be safely promoted without reconciling the broader PQ datasets into the sparse canonical layer.
+- [x] Avoided speculative PQ stub creation.
+- [ ] Next: reconcile broader maintained PQ datasets with the sparse canonical PQ record layer, then promote additional equipment↔PQ links where supported.
