@@ -10,7 +10,7 @@
   "current_live_baseline": {
     "canonical_skills": 497,
     "skills_index": 497,
-    "pq_reward_relationships": 861,
+    "pq_reward_relationships": 862,
     "pq_reward_counts": {
       "skill": 249,
       "super_soul": 135,
@@ -45,12 +45,9 @@
     "Runtime/CI/build remains unverified/non-blocking."
   ],
   "next_frontier": [
-    "SSGSS Goku Wig→PQ76 is now canonical; next accessory frontier is unresolved identity work, not forced matching of Great Saiyaman Bandana variants or component records.",
-    "Continue accessory/PQ identity reconciliation; Android 13's Hat and Android 17 (DB Super) Wig are now canonical source-backed PQ relationships. Preserve unresolved Ranger/component and route-conflict identities.",
-    "Continue canonical accessory/PQ identity promotion from the remaining candidate queue; five already-canonical identities were promoted in the latest cycle.",
-    "Continue explicit PQ↔equipment identity promotion; the 2026-09-28 cycle promoted PQ51 Great Saiyaman Helmet without asserting drop probability.",
-    "Continue current-evidence mechanics/acquisition reconciliation for the repaired canonical skill corpus.",
-    "Continue evidence-backed PQ cross-domain enrichment and bidirectional navigation.",
-    "Keep historical recovery counts explicitly separated from current live counts."
+    "Post-corruption database recovery audit is clean: 497 canonical skills/index records and 862 canonical PQ relationship edges with zero duplicate relationship keys and zero orphaned skill targets.",
+    "Continue evidence-backed restriction review only where direct evidence can establish a narrower rule; preserve null race_restriction where evidence is insufficient.",
+    "Build version/patch provenance from explicit source evidence rather than manufacturing a new field or assigning versions by inference.",
+    "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores."
   ]
 }
