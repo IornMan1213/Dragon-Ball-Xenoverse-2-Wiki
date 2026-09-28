@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "scope": "PQ 1-186",
-  "status": "relationship_index_consistency_audited_after_pq_12_14",
+  "status": "relationship_index_consistency_audited_after_recovery_2026_09_27",
   "canonical_range": {
     "first": 1,
     "last": 186,
@@ -12,9 +12,9 @@
   "audit": "docs/data/pq-cross-domain-audit.json",
   "reverse_index_plan": "docs/data/pq-cross-domain-index.json",
   "current_edges": {
-    "skill": 232,
-    "super_soul": 135,
-    "equipment": 122,
+    "skill": 236,
+    "super_soul": 137,
+    "equipment": 125,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -49,16 +49,12 @@
       14
     ],
     "relationship_PQ_coverage": {
-      "covered_PQs": 182,
-      "missing_PQs": [
-        1,
-        12,
-        13,
-        14
-      ]
+      "covered_PQs": 186,
+      "missing_PQs": [],
+      "note": "Live canonical forward relationship store covers PQ 1-186; PQ 1 has no typed skill/Super Soul/equipment reward relationship in the cited Basic Reward source."
     },
     "equipment_reverse_coverage": {
-      "forward_edges": 122,
+      "forward_edges": 125,
       "missing_reverse_edges": 0,
       "dual_subtype_edges_before_fix": 31,
       "dual_subtype_edges_after_fix": 0
@@ -75,7 +71,21 @@
       1
     ],
     "pq_12_14_added": true,
-    "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated."
+    "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated.",
+    "counts": {
+      "skill": 236,
+      "super_soul": 137,
+      "equipment": 125,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "reverse_reward_counts": {
+      "skills": 236,
+      "super_souls": 137,
+      "clothing": 87,
+      "accessories": 38
+    }
   },
   "non_reward_audit": {
     "date": "2026-09-19",
@@ -230,5 +240,11 @@
       "Character edges are limited to explicit objective/ultimate-finish references; generic appearances are not inferred.",
       "DLC and farming edges require explicit source evidence."
     ]
-  }
+  },
+  "correction_history": [
+    {
+      "date": "2026-09-27",
+      "note": "Synchronized stale status-layer projections to the live canonical 840-edge relationship store: 236 skill, 137 Super Soul, 125 equipment, 247 character, 88 DLC, 7 farming; PQ coverage corrected from historical 182 to live 186."
+    }
+  ]
 }
