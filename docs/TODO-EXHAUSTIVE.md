@@ -5054,3 +5054,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current late-DLC equipment relationships are similarly bounded by the new audit for evidence-driven expansion.
 - [x] Commit: `a304ea942d5b194217b53aa8d263df8016069328`.
 - [ ] **Exact next:** research the missing late-DLC typed reward relationships against the existing PQ163–186 reward records/reward normalization sources, promoting only explicit item-level evidence and preserving empty/unknown distinctions.
+
+### 2026-09-28 continuation — late-DLC typed reward reconciliation correction
+- [x] Reconciled the previously identified PQ163–PQ186 Super Soul/equipment coverage targets against the canonical normalized reward map instead of assuming missing PQ rows represented missing data.
+- [x] Confirmed **all 15 canonical Super Soul relationship edges** in PQ163–186 reconcile to the normalized reward map after three documented name variants/capitalization differences are normalized.
+- [x] Confirmed **all 23 canonical equipment relationships** in PQ163–186 exactly reconcile to the normalized reward map; no equipment relationship was missing or extra.
+- [x] Added `docs/data/pq-late-dlc-typed-reward-reconciliation-2026-09-28.json` so the evidence boundary is explicit: sparse PQ coverage is not proof of an empty reward pool.
+- [x] Commit: `a76bf4e4f8e33e6216f983ef44f726f27a881829`.
+- [ ] **Exact next:** move the substantive expansion frontier away from already-reconciled PQ163–186 typed rewards and investigate the global 16 PQ IDs without explicit skill endpoints using their individual reward records and evidence, promoting only source-backed canonical relationships.
