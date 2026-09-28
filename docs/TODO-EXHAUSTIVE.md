@@ -5325,3 +5325,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the distinction between source-reported damage and patch-independent canonical constants.
 - [x] Updated the mechanics frontier audit to record the reconciliation and retain the remaining unresolved fields.
 - [ ] **Next:** continue the remaining skill mechanics/acquisition gaps, then resume bidirectional PQ typed-reward reconciliation without inferring PQ ownership from non-PQ acquisition endpoints.
+
+
+### 2026-09-28 continuation — Restored-skill mechanics frontier batch 02
+- [x] Added `docs/data/restored-skill-mechanics-frontier-reconciliation-2026-09-28-batch-02.json` covering Brutal Buster, Apocalyptic Burst, Gigantic Rage, Shooting Strike, and Time Skip/Jump Spike.
+- [x] Reconciled documented mechanics against existing repository evidence without forcing canonical rewrites where the evidence does not establish stronger field-level facts.
+- [x] Preserved unresolved exact frames, scaling, hit counts, hidden interactions, and reward probabilities rather than inventing constants.
+- [x] Preserved the acquisition/PQ boundary: non-PQ acquisition evidence was not converted into PQ reward edges.
+- [ ] **Next:** continue with the next unaudited mechanics/acquisition cohort and separately reconcile PQ forward/reverse typed-reward parity.
