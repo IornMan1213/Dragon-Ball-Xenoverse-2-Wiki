@@ -5893,3 +5893,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `scripts/apply_canonical_skill_patch.py`, an identity-scoped patcher that requires exactly one canonical match, preserves unrelated records, supports dry-run before write, and keeps the index as a consumer rather than a source of truth.
 - [x] Added the Energy Wave Combo patch to the propagation queue with the execution and validation sequence.
 - [ ] **Next:** execute the patcher from a complete checkout, validate `skills.json`/index parity and acquisition metadata, then commit the canonical mutation and continue mechanics enrichment.
+
+
+### 2026-09-28 continuation — Propagation queue reconciliation
+- [x] Reconciled the handoff against the live canonical state: Energy Wave Combo propagation was already completed through the safe complete-blob path (493 canonical / 493 index records), despite the older queue section still saying it was pending.
+- [x] Closed `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` as applied and validated while preserving the queue as historical provenance.
+- [x] Rechecked the Dual Masenko frontier: canonical restoration is already complete; TP Medal Shop remains the supported acquisition route, while PQ118 remains intentionally unresolved because repository evidence conflicts.
+- [x] Rechecked the restored-skill evidence batches; no unsupported PQ relationships were introduced from Skill Shop/default-skill evidence.
+- [ ] **Next:** move beyond the restored identity/acquisition frontier into the remaining evidence-backed mechanics/acquisition gaps and bidirectional cross-domain reconciliation.
