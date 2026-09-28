@@ -1,0 +1,333 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Evidence census for the next version/patch provenance layer. This report does not assign game versions by inference and does not alter canonical skills.json.",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_skill_count": 497,
+  "field_status": {
+    "dedicated_version_or_patch_fields": false,
+    "records_with_explicit_version_number": 0
+  },
+  "evidence_census": {
+    "explicit_patch_mention": 284,
+    "explicit_version_sensitive": 287,
+    "explicit_dlc_update_provenance": 295,
+    "dated_research_history": 497
+  },
+  "interpretation": [
+    "The canonical skill schema currently has no dedicated version_history or patch_history field.",
+    "Many canonical records contain dated research-history notes or explicit statements that values are version-sensitive, but those statements are not equivalent to a documented game patch/version assignment.",
+    "Future provenance enrichment must use explicit release/update/patch evidence and preserve historical conflicts rather than deriving versions from research dates."
+  ],
+  "next_research": [
+    "Extract explicit game-version/update evidence from cited sources for records with documented release/update provenance.",
+    "Keep research-date metadata separate from game-version metadata.",
+    "Do not add a canonical version field until the schema contract and evidence model are defined."
+  ],
+  "samples": {
+    "explicit_version_sensitive": [
+      {
+        "id": "skill-afterimage",
+        "name": "Afterimage",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-all-clear",
+        "name": "All Clear",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-assault-vanish",
+        "name": "Assault Vanish",
+        "dlc_requirement": "Extra Pack 4",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-audacious-laugh",
+        "name": "Audacious Laugh",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-beast",
+        "name": "Beast",
+        "dlc_requirement": "Free Update 16",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-become-giant",
+        "name": "Become Giant",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-big-bang-attack",
+        "name": "Big Bang Attack",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-big-bang-kamehameha",
+        "name": "Big Bang Kamehameha",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-ball",
+        "name": "Blaster Ball",
+        "dlc_requirement": "Extra Pack 3",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-cannon",
+        "name": "Blaster Cannon",
+        "dlc_requirement": "Legendary Pack 2",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-meteor",
+        "name": "Blaster Meteor",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-shell",
+        "name": "Blaster Shell",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-bloody-counter",
+        "name": "Bloody Counter",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-brave-sword-attack",
+        "name": "Brave Sword Attack",
+        "dlc_requirement": "Extra Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-break-cannon",
+        "name": "Break Cannon",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burning-blast",
+        "name": "Burning Blast",
+        "dlc_requirement": "Dragon Ball DAIMA Pack",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burning-shot",
+        "name": "Burning Shot",
+        "dlc_requirement": "Legendary Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burning-swan",
+        "name": "Burning Swan",
+        "dlc_requirement": "Future Saga Chapter 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-blitz",
+        "name": "Burst Blitz",
+        "dlc_requirement": "Future Saga Chapter 2",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-charge",
+        "name": "Burst Charge",
+        "dlc_requirement": "Ultra Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-kamehameha",
+        "name": "Burst Kamehameha",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-reflection",
+        "name": "Burst Reflection",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-rush",
+        "name": "Burst Rush",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-stinger",
+        "name": "Burst Stinger",
+        "dlc_requirement": "Ultra Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-buu-buu-ball",
+        "name": "Buu Buu Ball",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      }
+    ],
+    "explicit_patch_mention": [
+      {
+        "id": "skill-all-clear",
+        "name": "All Clear",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-assault-vanish",
+        "name": "Assault Vanish",
+        "dlc_requirement": "Extra Pack 4",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-audacious-laugh",
+        "name": "Audacious Laugh",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-beast",
+        "name": "Beast",
+        "dlc_requirement": "Free Update 16",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-become-giant",
+        "name": "Become Giant",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-big-bang-attack",
+        "name": "Big Bang Attack",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-big-bang-kamehameha",
+        "name": "Big Bang Kamehameha",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-ball",
+        "name": "Blaster Ball",
+        "dlc_requirement": "Extra Pack 3",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-cannon",
+        "name": "Blaster Cannon",
+        "dlc_requirement": "Legendary Pack 2",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-meteor",
+        "name": "Blaster Meteor",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-blaster-shell",
+        "name": "Blaster Shell",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-bloody-counter",
+        "name": "Bloody Counter",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-brave-sword-attack",
+        "name": "Brave Sword Attack",
+        "dlc_requirement": "Extra Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-break-cannon",
+        "name": "Break Cannon",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burning-blast",
+        "name": "Burning Blast",
+        "dlc_requirement": "Dragon Ball DAIMA Pack",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burning-shot",
+        "name": "Burning Shot",
+        "dlc_requirement": "Legendary Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burning-swan",
+        "name": "Burning Swan",
+        "dlc_requirement": "Future Saga Chapter 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-blitz",
+        "name": "Burst Blitz",
+        "dlc_requirement": "Future Saga Chapter 2",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-charge",
+        "name": "Burst Charge",
+        "dlc_requirement": "Ultra Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-kamehameha",
+        "name": "Burst Kamehameha",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-reflection",
+        "name": "Burst Reflection",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-rush",
+        "name": "Burst Rush",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-burst-stinger",
+        "name": "Burst Stinger",
+        "dlc_requirement": "Ultra Pack 1",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-buu-buu-ball",
+        "name": "Buu Buu Ball",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      },
+      {
+        "id": "skill-candy-beam",
+        "name": "Candy Beam",
+        "dlc_requirement": "Base Game",
+        "last_verified": "2026-09-27"
+      }
+    ]
+  }
+}
