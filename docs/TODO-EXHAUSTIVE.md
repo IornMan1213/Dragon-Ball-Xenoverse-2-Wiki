@@ -5293,3 +5293,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Validated **493/493** canonical/index record counts and matching Energy Wave Combo acquisition state.
 - [x] Closed the propagation queue as applied and validated.
 - [ ] **Exact next:** continue remaining restored-skill acquisition/mechanics enrichment using explicit current evidence, with null/conflict boundaries preserved.
+
+
+### 2026-09-28 continuation — Safe canonical patch tooling
+- [x] Inspected existing skill build/validation scripts and confirmed the canonical files require complete local content for safe mutation.
+- [x] Added `scripts/apply_canonical_skill_patch.py` for identity-scoped, dry-run-first canonical skill edits.
+- [x] Wired Energy Wave Combo's exact patch into the propagation queue and specified post-write validators.
+- [ ] **Exact next:** run the patcher against a complete checkout, validate both canonical skill layers and acquisition metadata, commit the mutation, then continue the remaining evidence-backed mechanics/acquisition frontier.
