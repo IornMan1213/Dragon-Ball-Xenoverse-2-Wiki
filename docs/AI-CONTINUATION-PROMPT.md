@@ -6544,3 +6544,6 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 
 
 2026-09-28: Batch 559 PQ23 audit completed. Death Slash reward data was already internally consistent and independently corroborated; no canonical or research mutation was needed. Next frontier: PQ24-PQ28 reward contradiction audit.
+
+
+2026-09-28: PQ34 reconciliation batch 559 completed. Corrected research-layer omission: Crusher Ball was listed in PQ34 basic rewards but omitted from skill_rewards; independent PQ reward transcription confirms both Crusher Ball and Paralysis. Canonical forward relationships already contained both, so no duplicate edge or canonical mutation was made. Dedicated reconciliation audit added. PQ cross-domain index update remains pending if write guard permits; next continue with PQ35-PQ40 parity audit.
