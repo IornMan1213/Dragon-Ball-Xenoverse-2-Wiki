@@ -1,11 +1,11 @@
 {
   "schema_version": "2.0",
   "generated_by": "scripts/validate_pq_skill_links.py",
-  "generated_at": "2026-09-27",
+  "generated_at": "2026-09-28",
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_skill_dataset": "docs/data/skills.json",
-  "canonical_skill_records": 475,
-  "linked_skill_rewards": 236,
+  "canonical_skill_records": 493,
+  "linked_skill_rewards": 238,
   "alias_matches": [
     {
       "pq": 46,
@@ -34,7 +34,7 @@
   ],
   "unresolved": [],
   "status": "resolved",
-  "unique_forward_relationships": 236,
+  "unique_forward_relationships": 238,
   "resolved_skill_rewards": [
     {
       "pq": 2,
@@ -86,14 +86,14 @@
     },
     {
       "pq": 10,
-      "skill": "Wall of Defense",
-      "canonical_skill": "Wall of Defense",
+      "skill": "Unrelenting Barrage",
+      "canonical_skill": "Unrelenting Barrage",
       "match": "exact"
     },
     {
       "pq": 10,
-      "skill": "Unrelenting Barrage",
-      "canonical_skill": "Unrelenting Barrage",
+      "skill": "Wall of Defense",
+      "canonical_skill": "Wall of Defense",
       "match": "exact"
     },
     {
@@ -103,9 +103,51 @@
       "match": "exact"
     },
     {
-      "pq": 18,
+      "pq": 11,
+      "skill": "Mach Dash",
+      "canonical_skill": "Mach Dash",
+      "match": "exact"
+    },
+    {
+      "pq": 11,
       "skill": "Time Control",
       "canonical_skill": "Time Control",
+      "match": "exact"
+    },
+    {
+      "pq": 12,
+      "skill": "Meteor Crash",
+      "canonical_skill": "Meteor Crash",
+      "match": "exact"
+    },
+    {
+      "pq": 13,
+      "skill": "Fighting Pose C",
+      "canonical_skill": "Fighting Pose C",
+      "match": "exact"
+    },
+    {
+      "pq": 13,
+      "skill": "Psycho Escape",
+      "canonical_skill": "Psycho Escape",
+      "match": "exact"
+    },
+    {
+      "pq": 14,
+      "skill": "Kaioken Kamehameha",
+      "canonical_skill": "Kaioken Kamehameha",
+      "match": "exact"
+    },
+    {
+      "pq": 15,
+      "skill": "Holstein Shock",
+      "canonical_skill": "Holstein Shock",
+      "match": "exact"
+    },
+    {
+      "pq": 17,
+      "skill": "Recoome Eraser Gun",
+      "canonical_skill": "Recoome Eraser Gun",
       "match": "exact"
     },
     {
@@ -115,15 +157,21 @@
       "match": "exact"
     },
     {
-      "pq": 19,
-      "skill": "Mach Punch",
-      "canonical_skill": "Mach Punch",
+      "pq": 18,
+      "skill": "Time Control",
+      "canonical_skill": "Time Control",
       "match": "exact"
     },
     {
       "pq": 19,
       "skill": "Fighting Pose E",
       "canonical_skill": "Fighting Pose E",
+      "match": "exact"
+    },
+    {
+      "pq": 19,
+      "skill": "Mach Punch",
+      "canonical_skill": "Mach Punch",
       "match": "exact"
     },
     {
@@ -182,14 +230,14 @@
     },
     {
       "pq": 29,
-      "skill": "Freedom Kick",
-      "canonical_skill": "Freedom Kick",
+      "skill": "Energy Field",
+      "canonical_skill": "Energy Field",
       "match": "exact"
     },
     {
       "pq": 29,
-      "skill": "Energy Field",
-      "canonical_skill": "Energy Field",
+      "skill": "Freedom Kick",
+      "canonical_skill": "Freedom Kick",
       "match": "exact"
     },
     {
@@ -272,14 +320,14 @@
     },
     {
       "pq": 44,
-      "skill": "God Breaker",
-      "canonical_skill": "God Breaker",
+      "skill": "Burning Slash",
+      "canonical_skill": "Burning Slash",
       "match": "exact"
     },
     {
       "pq": 44,
-      "skill": "Burning Slash",
-      "canonical_skill": "Burning Slash",
+      "skill": "God Breaker",
+      "canonical_skill": "God Breaker",
       "match": "exact"
     },
     {
@@ -350,14 +398,14 @@
     },
     {
       "pq": 59,
-      "skill": "Force Shield",
-      "canonical_skill": "Force Shield",
+      "skill": "Dimension Cannon",
+      "canonical_skill": "Dimension Cannon",
       "match": "exact"
     },
     {
       "pq": 59,
-      "skill": "Dimension Cannon",
-      "canonical_skill": "Dimension Cannon",
+      "skill": "Force Shield",
+      "canonical_skill": "Force Shield",
       "match": "exact"
     },
     {
@@ -368,14 +416,14 @@
     },
     {
       "pq": 61,
-      "skill": "Recoome Kick",
-      "canonical_skill": "Recoome Kick",
+      "skill": "Fighting Pose H",
+      "canonical_skill": "Fighting Pose H",
       "match": "exact"
     },
     {
       "pq": 61,
-      "skill": "Fighting Pose H",
-      "canonical_skill": "Fighting Pose H",
+      "skill": "Recoome Kick",
+      "canonical_skill": "Recoome Kick",
       "match": "exact"
     },
     {
@@ -406,6 +454,12 @@
       "pq": 66,
       "skill": "Candy Beam",
       "canonical_skill": "Candy Beam",
+      "match": "exact"
+    },
+    {
+      "pq": 66,
+      "skill": "Warp Kamehameha",
+      "canonical_skill": "Warp Kamehameha",
       "match": "exact"
     },
     {
@@ -535,6 +589,12 @@
       "match": "exact"
     },
     {
+      "pq": 90,
+      "skill": "III Bomber",
+      "canonical_skill": "Ill Bomber",
+      "match": "alias"
+    },
+    {
       "pq": 91,
       "skill": "Final Kamehameha",
       "canonical_skill": "Final Kamehameha",
@@ -554,14 +614,14 @@
     },
     {
       "pq": 95,
-      "skill": "Flash Bomber",
-      "canonical_skill": "Flash Bomber",
+      "skill": "Drain Field",
+      "canonical_skill": "Drain Field",
       "match": "exact"
     },
     {
       "pq": 95,
-      "skill": "Drain Field",
-      "canonical_skill": "Drain Field",
+      "skill": "Flash Bomber",
+      "canonical_skill": "Flash Bomber",
       "match": "exact"
     },
     {
@@ -620,12 +680,6 @@
     },
     {
       "pq": 105,
-      "skill": "Sonic Bomb",
-      "canonical_skill": "Sonic Bomb",
-      "match": "exact"
-    },
-    {
-      "pq": 105,
       "skill": "God of Destruction's Menace",
       "canonical_skill": "God of Destruction's Menace",
       "match": "exact"
@@ -634,6 +688,12 @@
       "pq": 105,
       "skill": "God of Destruction's Roar",
       "canonical_skill": "God of Destruction's Roar",
+      "match": "exact"
+    },
+    {
+      "pq": 105,
+      "skill": "Sonic Bomb",
+      "canonical_skill": "Sonic Bomb",
       "match": "exact"
     },
     {
@@ -650,14 +710,14 @@
     },
     {
       "pq": 111,
-      "skill": "Lightning of Absolution",
-      "canonical_skill": "Lightning of Absolution",
+      "skill": "Holy Wrath",
+      "canonical_skill": "Holy Wrath",
       "match": "exact"
     },
     {
       "pq": 111,
-      "skill": "Holy Wrath",
-      "canonical_skill": "Holy Wrath",
+      "skill": "Lightning of Absolution",
+      "canonical_skill": "Lightning of Absolution",
       "match": "exact"
     },
     {
@@ -674,26 +734,26 @@
     },
     {
       "pq": 113,
-      "skill": "Super Ghost Buu Attack",
-      "canonical_skill": "Super Ghost Buu Attack",
-      "match": "exact"
-    },
-    {
-      "pq": 113,
       "skill": "Candy Beam",
       "canonical_skill": "Candy Beam",
       "match": "exact"
     },
     {
-      "pq": 114,
-      "skill": "Petrifying Spit",
-      "canonical_skill": "Petrifying Spit",
+      "pq": 113,
+      "skill": "Super Ghost Buu Attack",
+      "canonical_skill": "Super Ghost Buu Attack",
       "match": "exact"
     },
     {
       "pq": 114,
       "skill": "Evil Blast",
       "canonical_skill": "Evil Blast",
+      "match": "exact"
+    },
+    {
+      "pq": 114,
+      "skill": "Petrifying Spit",
+      "canonical_skill": "Petrifying Spit",
       "match": "exact"
     },
     {
@@ -722,14 +782,14 @@
     },
     {
       "pq": 117,
-      "skill": "Evil Flame",
-      "canonical_skill": "Evil Flame",
+      "skill": "Brave Sword Attack",
+      "canonical_skill": "Brave Sword Attack",
       "match": "exact"
     },
     {
       "pq": 117,
-      "skill": "Brave Sword Attack",
-      "canonical_skill": "Brave Sword Attack",
+      "skill": "Evil Flame",
+      "canonical_skill": "Evil Flame",
       "match": "exact"
     },
     {
@@ -806,26 +866,26 @@
     },
     {
       "pq": 128,
-      "skill": "Powered Shell",
-      "canonical_skill": "Powered Shell",
-      "match": "exact"
-    },
-    {
-      "pq": 128,
       "skill": "Gigantic Charge",
       "canonical_skill": "Gigantic Charge",
       "match": "exact"
     },
     {
-      "pq": 129,
-      "skill": "Spirit Blaster",
-      "canonical_skill": "Spirit Blaster",
+      "pq": 128,
+      "skill": "Powered Shell",
+      "canonical_skill": "Powered Shell",
       "match": "exact"
     },
     {
       "pq": 129,
       "skill": "Punisher Shield",
       "canonical_skill": "Punisher Shield",
+      "match": "exact"
+    },
+    {
+      "pq": 129,
+      "skill": "Spirit Blaster",
+      "canonical_skill": "Spirit Blaster",
       "match": "exact"
     },
     {
@@ -842,20 +902,14 @@
     },
     {
       "pq": 132,
-      "skill": "God Punisher",
-      "canonical_skill": "God Punisher",
-      "match": "exact"
-    },
-    {
-      "pq": 132,
       "skill": "Gigantic Roar",
       "canonical_skill": "Gigantic Roar",
       "match": "exact"
     },
     {
-      "pq": 133,
-      "skill": "Pretty Cannon",
-      "canonical_skill": "Pretty Cannon",
+      "pq": 132,
+      "skill": "God Punisher",
+      "canonical_skill": "God Punisher",
       "match": "exact"
     },
     {
@@ -865,9 +919,9 @@
       "match": "exact"
     },
     {
-      "pq": 134,
-      "skill": "Ultimate Charge",
-      "canonical_skill": "Ultimate Charge",
+      "pq": 133,
+      "skill": "Pretty Cannon",
+      "canonical_skill": "Pretty Cannon",
       "match": "exact"
     },
     {
@@ -877,9 +931,21 @@
       "match": "exact"
     },
     {
+      "pq": 134,
+      "skill": "Ultimate Charge",
+      "canonical_skill": "Ultimate Charge",
+      "match": "exact"
+    },
+    {
       "pq": 135,
       "skill": "Lovely Cyclone",
       "canonical_skill": "Lovely Cyclone",
+      "match": "exact"
+    },
+    {
+      "pq": 136,
+      "skill": "Blazing Attack",
+      "canonical_skill": "Blazing Attack",
       "match": "exact"
     },
     {
@@ -895,21 +961,15 @@
       "match": "exact"
     },
     {
-      "pq": 136,
-      "skill": "Blazing Attack",
-      "canonical_skill": "Blazing Attack",
+      "pq": 137,
+      "skill": "Prominence Flash",
+      "canonical_skill": "Prominence Flash",
       "match": "exact"
     },
     {
       "pq": 137,
       "skill": "Ribrianne's Eternal Love",
       "canonical_skill": "Ribrianne's Eternal Love",
-      "match": "exact"
-    },
-    {
-      "pq": 137,
-      "skill": "Prominence Flash",
-      "canonical_skill": "Prominence Flash",
       "match": "exact"
     },
     {
@@ -920,14 +980,14 @@
     },
     {
       "pq": 139,
-      "skill": "Total Detonation Ball",
-      "canonical_skill": "Total Detonation Ball",
+      "skill": "Photon Swipe",
+      "canonical_skill": "Photon Swipe",
       "match": "exact"
     },
     {
       "pq": 139,
-      "skill": "Photon Swipe",
-      "canonical_skill": "Photon Swipe",
+      "skill": "Total Detonation Ball",
+      "canonical_skill": "Total Detonation Ball",
       "match": "exact"
     },
     {
@@ -938,20 +998,14 @@
     },
     {
       "pq": 141,
-      "skill": "Dragon Blitz",
-      "canonical_skill": "Dragon Blitz",
-      "match": "exact"
-    },
-    {
-      "pq": 141,
       "skill": "Brutal Buster",
       "canonical_skill": "Brutal Buster",
       "match": "exact"
     },
     {
-      "pq": 142,
-      "skill": "Lightning Impact",
-      "canonical_skill": "Lightning Impact",
+      "pq": 141,
+      "skill": "Dragon Blitz",
+      "canonical_skill": "Dragon Blitz",
       "match": "exact"
     },
     {
@@ -961,9 +1015,9 @@
       "match": "exact"
     },
     {
-      "pq": 143,
-      "skill": "Hyper Tornado",
-      "canonical_skill": "Hyper Tornado",
+      "pq": 142,
+      "skill": "Lightning Impact",
+      "canonical_skill": "Lightning Impact",
       "match": "exact"
     },
     {
@@ -973,9 +1027,9 @@
       "match": "exact"
     },
     {
-      "pq": 145,
-      "skill": "Destructive Fracture",
-      "canonical_skill": "Destructive Fracture",
+      "pq": 143,
+      "skill": "Hyper Tornado",
+      "canonical_skill": "Hyper Tornado",
       "match": "exact"
     },
     {
@@ -985,15 +1039,21 @@
       "match": "exact"
     },
     {
-      "pq": 146,
-      "skill": "Thunder Flash",
-      "canonical_skill": "Thunder Flash",
+      "pq": 145,
+      "skill": "Destructive Fracture",
+      "canonical_skill": "Destructive Fracture",
       "match": "exact"
     },
     {
       "pq": 146,
       "skill": "Destructive Fission",
       "canonical_skill": "Destructive Fission",
+      "match": "exact"
+    },
+    {
+      "pq": 146,
+      "skill": "Thunder Flash",
+      "canonical_skill": "Thunder Flash",
       "match": "exact"
     },
     {
@@ -1004,26 +1064,26 @@
     },
     {
       "pq": 147,
-      "skill": "Double Crush",
-      "canonical_skill": "Double Crush",
-      "match": "exact"
-    },
-    {
-      "pq": 147,
       "skill": "Crush Stream",
       "canonical_skill": "Crush Stream",
       "match": "exact"
     },
     {
-      "pq": 148,
-      "skill": "Blaster Cannon",
-      "canonical_skill": "Blaster Cannon",
+      "pq": 147,
+      "skill": "Double Crush",
+      "canonical_skill": "Double Crush",
       "match": "exact"
     },
     {
       "pq": 148,
       "skill": "Blaster Bomb",
       "canonical_skill": "Blaster Bomb",
+      "match": "exact"
+    },
+    {
+      "pq": 148,
+      "skill": "Blaster Cannon",
+      "canonical_skill": "Blaster Cannon",
       "match": "exact"
     },
     {
@@ -1058,8 +1118,8 @@
     },
     {
       "pq": 151,
-      "skill": "Ultrasonic Blitz",
-      "canonical_skill": "Ultrasonic Blitz",
+      "skill": "Celestial Wave",
+      "canonical_skill": "Celestial Wave",
       "match": "exact"
     },
     {
@@ -1070,14 +1130,8 @@
     },
     {
       "pq": 151,
-      "skill": "Celestial Wave",
-      "canonical_skill": "Celestial Wave",
-      "match": "exact"
-    },
-    {
-      "pq": 152,
-      "skill": "Justice Kick",
-      "canonical_skill": "Justice Kick",
+      "skill": "Ultrasonic Blitz",
+      "canonical_skill": "Ultrasonic Blitz",
       "match": "exact"
     },
     {
@@ -1087,9 +1141,15 @@
       "match": "exact"
     },
     {
+      "pq": 152,
+      "skill": "Justice Kick",
+      "canonical_skill": "Justice Kick",
+      "match": "exact"
+    },
+    {
       "pq": 153,
-      "skill": "Wild Buster",
-      "canonical_skill": "Wild Buster",
+      "skill": "Counter Impact",
+      "canonical_skill": "Counter Impact",
       "match": "exact"
     },
     {
@@ -1100,14 +1160,8 @@
     },
     {
       "pq": 153,
-      "skill": "Counter Impact",
-      "canonical_skill": "Counter Impact",
-      "match": "exact"
-    },
-    {
-      "pq": 154,
-      "skill": "Sign of Awakening",
-      "canonical_skill": "Sign of Awakening",
+      "skill": "Wild Buster",
+      "canonical_skill": "Wild Buster",
       "match": "exact"
     },
     {
@@ -1117,9 +1171,9 @@
       "match": "exact"
     },
     {
-      "pq": 155,
-      "skill": "Heroic Counter",
-      "canonical_skill": "Heroic Counter",
+      "pq": 154,
+      "skill": "Sign of Awakening",
+      "canonical_skill": "Sign of Awakening",
       "match": "exact"
     },
     {
@@ -1132,6 +1186,12 @@
       "pq": 155,
       "skill": "Gamma Impact",
       "canonical_skill": "Gamma Impact",
+      "match": "exact"
+    },
+    {
+      "pq": 155,
+      "skill": "Heroic Counter",
+      "canonical_skill": "Heroic Counter",
       "match": "exact"
     },
     {
@@ -1148,20 +1208,14 @@
     },
     {
       "pq": 158,
-      "skill": "Super Gamma Blast",
-      "canonical_skill": "Super Gamma Blast",
-      "match": "exact"
-    },
-    {
-      "pq": 158,
       "skill": "Core Breaker",
       "canonical_skill": "Core Breaker",
       "match": "exact"
     },
     {
-      "pq": 159,
-      "skill": "Fierce Fist",
-      "canonical_skill": "Fierce Fist",
+      "pq": 158,
+      "skill": "Super Gamma Blast",
+      "canonical_skill": "Super Gamma Blast",
       "match": "exact"
     },
     {
@@ -1171,9 +1225,9 @@
       "match": "exact"
     },
     {
-      "pq": 160,
-      "skill": "Demon Ray",
-      "canonical_skill": "Demon Ray",
+      "pq": 159,
+      "skill": "Fierce Fist",
+      "canonical_skill": "Fierce Fist",
       "match": "exact"
     },
     {
@@ -1186,6 +1240,12 @@
       "pq": 160,
       "skill": "Demon Flurry",
       "canonical_skill": "Demon Flurry",
+      "match": "exact"
+    },
+    {
+      "pq": 160,
+      "skill": "Demon Ray",
+      "canonical_skill": "Demon Ray",
       "match": "exact"
     },
     {
@@ -1202,15 +1262,15 @@
     },
     {
       "pq": 163,
-      "skill": "Giant Cluster",
-      "canonical_skill": "Gigantic Cluster",
-      "match": "alias"
-    },
-    {
-      "pq": 163,
       "skill": "Eraser Bomb",
       "canonical_skill": "Eraser Bomb",
       "match": "exact"
+    },
+    {
+      "pq": 163,
+      "skill": "Giant Cluster",
+      "canonical_skill": "Gigantic Cluster",
+      "match": "alias"
     },
     {
       "pq": 164,
@@ -1220,14 +1280,14 @@
     },
     {
       "pq": 165,
-      "skill": "Variable Snipe Shot",
-      "canonical_skill": "Variable Snipe Shot",
+      "skill": "Steel Mirage",
+      "canonical_skill": "Steel Mirage",
       "match": "exact"
     },
     {
       "pq": 165,
-      "skill": "Steel Mirage",
-      "canonical_skill": "Steel Mirage",
+      "skill": "Variable Snipe Shot",
+      "canonical_skill": "Variable Snipe Shot",
       "match": "exact"
     },
     {
@@ -1238,14 +1298,14 @@
     },
     {
       "pq": 167,
-      "skill": "Seagull Combination",
-      "canonical_skill": "Seagull Combination",
+      "skill": "Burning Swan",
+      "canonical_skill": "Burning Swan",
       "match": "exact"
     },
     {
       "pq": 167,
-      "skill": "Burning Swan",
-      "canonical_skill": "Burning Swan",
+      "skill": "Seagull Combination",
+      "canonical_skill": "Seagull Combination",
       "match": "exact"
     },
     {
@@ -1310,14 +1370,14 @@
     },
     {
       "pq": 177,
-      "skill": "Full Power Destruction",
-      "canonical_skill": "Full Power Destruction",
+      "skill": "Dragon Spark",
+      "canonical_skill": "Dragon Spark",
       "match": "exact"
     },
     {
       "pq": 177,
-      "skill": "Dragon Spark",
-      "canonical_skill": "Dragon Spark",
+      "skill": "Full Power Destruction",
+      "canonical_skill": "Full Power Destruction",
       "match": "exact"
     },
     {
@@ -1346,26 +1406,26 @@
     },
     {
       "pq": 180,
-      "skill": "Force Edge",
-      "canonical_skill": "Force Edge",
-      "match": "exact"
-    },
-    {
-      "pq": 180,
       "skill": "Burning Blast",
       "canonical_skill": "Burning Blast",
       "match": "exact"
     },
     {
-      "pq": 181,
-      "skill": "Super Kamehameha (SS4 DAIMA)",
-      "canonical_skill": "Super Kamehameha (SS4 DAIMA)",
+      "pq": 180,
+      "skill": "Force Edge",
+      "canonical_skill": "Force Edge",
       "match": "exact"
     },
     {
       "pq": 181,
       "skill": "Final Flash (SS3 DAIMA)",
       "canonical_skill": "Final Flash (SS3 DAIMA)",
+      "match": "exact"
+    },
+    {
+      "pq": 181,
+      "skill": "Super Kamehameha (SS4 DAIMA)",
+      "canonical_skill": "Super Kamehameha (SS4 DAIMA)",
       "match": "exact"
     },
     {
@@ -1403,54 +1463,6 @@
       "skill": "Venus Fist",
       "canonical_skill": "Venus Fist",
       "match": "exact"
-    },
-    {
-      "pq": 11,
-      "skill": "Time Control",
-      "canonical_skill": "Time Control",
-      "match": "exact"
-    },
-    {
-      "pq": 11,
-      "skill": "Mach Dash",
-      "canonical_skill": "Mach Dash",
-      "match": "exact"
-    },
-    {
-      "pq": 66,
-      "skill": "Warp Kamehameha",
-      "canonical_skill": "Warp Kamehameha",
-      "match": "exact"
-    },
-    {
-      "pq": 12,
-      "skill": "Meteor Crash",
-      "canonical_skill": "Meteor Crash",
-      "match": "exact"
-    },
-    {
-      "pq": 13,
-      "skill": "Fighting Pose C",
-      "canonical_skill": "Fighting Pose C",
-      "match": "exact"
-    },
-    {
-      "pq": 13,
-      "skill": "Psycho Escape",
-      "canonical_skill": "Psycho Escape",
-      "match": "exact"
-    },
-    {
-      "pq": 14,
-      "skill": "Kaioken Kamehameha",
-      "canonical_skill": "Kaioken Kamehameha",
-      "match": "exact"
-    },
-    {
-      "pq": 90,
-      "skill": "III Bomber",
-      "canonical_skill": "Ill Bomber",
-      "match": "alias"
     }
   ],
   "legacy_batch_projection": {
