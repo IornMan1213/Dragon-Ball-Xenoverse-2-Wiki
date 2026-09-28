@@ -6307,3 +6307,17 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Created and registered `docs/data/skill-research-batches/skill-batch-548.json` and updated the skill catalog audit.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Remaining restriction-gap census is **27**; continue only where direct evidence can establish a restriction, then move into version/patch provenance without inventing new canonical schema semantics.
+
+
+### 2026-09-28 continuation — Post-corruption database rebuild/reconciliation checkpoint
+- [x] Re-read the live continuation prompt and exhaustive TODO and treated the repaired canonical forward stores as the only source of truth.
+- [x] Directly reconciled docs/data/skills.json against docs/data/skills-index.json: **497/497** records, zero duplicate IDs, zero index identity/order mismatches.
+- [x] Directly recounted docs/data/pq-reward-relationships.json: **862 unique edges** — 249 Skill, 135 Super Soul, 136 Equipment, 247 Character, 88 DLC, 7 Farming; zero duplicate relationship keys.
+- [x] Confirmed every canonical PQ→skill target resolves to a canonical skill identity; no orphan skill reward targets remain.
+- [x] Confirmed acquisition target coverage is complete for the current 497-record canonical corpus (0 gaps) and mechanics_notes coverage is 497/497.
+- [x] Confirmed 27 null race_restriction records remain evidence-bound gaps; no restriction was inferred from usable_by_cac, preset/NPC usage, or null-field presence.
+- [x] Confirmed PQ1-PQ186 are represented in the relationship store's PQ range; PQ1 has no typed skill/Super Soul/equipment relationship in the cited source and is intentionally not fabricated.
+- [x] Added docs/data/post-corruption-database-recovery-audit-2026-09-28.json and corrected the stale recovery baseline from 861 to the live **862-edge** state.
+- [x] Updated docs/data/skill-catalog-audit.json to Batch 548 and current recovery reconciliation.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue direct-evidence restriction review where a narrower rule can actually be established; then create the version/patch provenance layer from explicit evidence and continue bidirectional PQ↔skill/Super Soul/equipment enrichment. Do not recreate recovered records, do not treat verified/index/projection layers as canonical, and preserve historical recovery counts as provenance.
