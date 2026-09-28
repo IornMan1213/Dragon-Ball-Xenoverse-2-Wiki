@@ -4974,17 +4974,21 @@
     {
       "id": "skill-full-power-energy-blast-volley",
       "name": "Full Power Energy Blast Volley",
-      "class": "Super",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Blast_Volley"
       ],
-      "unlock_method": "Nappa Training Lesson 4",
+      "unlock_method": "Starting move for all types",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Large volley of Ki blasts that rains down in front of the user."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "Large volley of Ki blasts that rains down in front of the user.",
+      "ki_cost": 300,
+      "stamina_cost": 0,
+      "usable_by_cac": true,
+      "character_source": "Broad roster; Future Warrior default Ultimate"
     },
     {
       "id": "skill-full-power-energy-wave",
