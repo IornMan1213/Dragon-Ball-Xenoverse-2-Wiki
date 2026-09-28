@@ -55,7 +55,7 @@
     }
   ],
   "validation": {
-    "canonical_records": 493,
+    "canonical_records": 497,
     "index_records": 493,
     "canonical_index_mechanics_parity": true,
     "last_verified_synchronized": true
