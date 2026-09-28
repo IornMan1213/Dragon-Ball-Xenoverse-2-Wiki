@@ -4789,6 +4789,16 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-055",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I'm a whole new me."
       ]
     },
     {
@@ -4830,6 +4840,21 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-052",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "equipment_id": "equip-056",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Shenron really went the extra mile."
       ]
     },
     {
@@ -4853,7 +4878,11 @@
         "Giant Cluster",
         "Eraser Bomb"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Giant Cluster",
+        "Eraser Bomb"
+      ]
     },
     {
       "id": "pq-164",
@@ -4876,7 +4905,13 @@
         "Artwork 583",
         "Gigantic Explosion"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Gigantic Explosion"
+      ],
+      "super_soul_rewards": [
+        "This place Will be your grave!"
+      ]
     },
     {
       "id": "pq-165",
@@ -4900,7 +4935,11 @@
         "Variable Snipe Shot",
         "Steel Mirage"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Variable Snipe Shot",
+        "Steel Mirage"
+      ]
     },
     {
       "id": "pq-166",
@@ -4924,7 +4963,13 @@
         "Artwork 604",
         "Pendulum Bullet"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Pendulum Bullet"
+      ],
+      "super_soul_rewards": [
+        "Hope you're ready for a trip!"
+      ]
     },
     {
       "id": "pq-167",
@@ -4947,7 +4992,11 @@
         "Seagull Combination",
         "Burning Swan"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Seagull Combination",
+        "Burning Swan"
+      ]
     },
     {
       "id": "pq-168",
@@ -4971,7 +5020,20 @@
         "Artwork 590",
         "Justice Drive"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Justice Drive"
+      ],
+      "super_soul_rewards": [
+        "I'm not about to let Pan see me lose!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-082",
+          "relationship": "reward",
+          "evidence_note": "Videl (DB Super) Wig is explicitly listed in PQ168's documented basic rewards; exact accessory/drop mechanics remain unresolved."
+        }
+      ]
     },
     {
       "id": "pq-169",
@@ -4992,7 +5054,14 @@
         "Artwork 595",
         "Artwork 596"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-071",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ]
     },
     {
       "id": "pq-170",
@@ -5013,7 +5082,14 @@
         "Artwork 577",
         "Artwork 597"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-072",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ]
     },
     {
       "id": "pq-171",
