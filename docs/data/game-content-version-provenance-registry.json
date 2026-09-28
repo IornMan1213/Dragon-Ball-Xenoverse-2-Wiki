@@ -72,6 +72,14 @@
       "date": "2018-03-01",
       "url": "https://en.bandainamcoent.eu/dragon-ball/news/free-update-and-extra-pack-2-available-for-dragon-ball-xenoverse-2",
       "scope": "Free Update and Extra Pack 2 release; SSGSS and Limit Burst examples."
+    },
+    {
+      "id": "db_official_future_saga_ch1_moves",
+      "publisher": "Dragon Ball Official Site",
+      "title": "Goku Black (Super Saiyan Rosé) Ultra Supervillain and Vegeta (Super Saiyan God) Ultra Supervillain Join the Fight in Dragon Ball Xenoverse 2's New FUTURE SAGA Chapter 1 DLC!",
+      "date": "2024-04-24",
+      "url": "https://en.dragon-ball-official.com/news/01_2604.html",
+      "scope": "Directly names Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger as Chapter 1 character special moves."
     }
   ],
   "events": [
@@ -152,5 +160,62 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Use this registry to map individual canonical skill IDs only when an official or independently corroborated source directly identifies the skill as part of the release/update. Do not infer a skill's first-release date from current DLC labels alone."
+  "next_step": "Use this registry to map individual canonical skill IDs only when an official or independently corroborated source directly identifies the skill as part of the release/update. Do not infer a skill's first-release date from current DLC labels alone.",
+  "direct_skill_mappings": [
+    {
+      "skill_id": "skill-crimson-edge",
+      "skill_name": "Crimson Edge",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "db_official_future_saga_ch1_moves"
+      ],
+      "confidence": "direct",
+      "basis": "Dragon Ball Official explicitly names Crimson Edge as one of Goku Black (Super Saiyan Rosé) Ultra Supervillain's Super Attacks in FUTURE SAGA Chapter 1."
+    },
+    {
+      "skill_id": "skill-divine-spear",
+      "skill_name": "Divine Spear",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "db_official_future_saga_ch1_moves"
+      ],
+      "confidence": "direct",
+      "basis": "Dragon Ball Official explicitly names Divine Spear as one of Goku Black (Super Saiyan Rosé) Ultra Supervillain's Super Attacks in FUTURE SAGA Chapter 1."
+    },
+    {
+      "skill_id": "skill-big-bang-knuckle",
+      "skill_name": "Big Bang Knuckle",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "db_official_future_saga_ch1_moves"
+      ],
+      "confidence": "direct",
+      "basis": "Dragon Ball Official explicitly names Big Bang Knuckle as one of Vegeta (Super Saiyan God) Ultra Supervillain's special moves in FUTURE SAGA Chapter 1."
+    },
+    {
+      "skill_id": "skill-wild-stinger",
+      "skill_name": "Wild Stinger",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "db_official_future_saga_ch1_moves"
+      ],
+      "confidence": "direct",
+      "basis": "Dragon Ball Official explicitly names Wild Stinger as one of Vegeta (Super Saiyan God) Ultra Supervillain's special moves in FUTURE SAGA Chapter 1."
+    },
+    {
+      "skill_id": "skill-beast",
+      "skill_name": "Beast",
+      "event_id": "free-update-2023-03-22",
+      "evidence_type": "official_update_content",
+      "source_ids": [
+        "bn_xv2_free_updates_2023"
+      ],
+      "confidence": "direct",
+      "basis": "The official free-update announcement identifies Beast as the Awoken Skill added in Free Update #16."
+    }
+  ]
 }
