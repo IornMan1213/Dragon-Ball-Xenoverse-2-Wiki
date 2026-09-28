@@ -6802,3 +6802,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-581.json`.
 - [x] This closes the PQ181–PQ186 final skill-reward parity block with zero unresolved canonical skill endpoints.
 - [ ] Next: move outside this settled range to unresolved typed-reward ranges and active mechanics/version-provenance frontiers.
+
+
+### 2026-09-28 continuation — Late-DLC typed-reward reconciliation batch 582
+- [x] Reconciled the apparent PQ163-PQ186 Super Soul/equipment coverage gaps against the normalized late-DLC reward map.
+- [x] Confirmed **15/15 Super Soul edges** reconcile exactly between the normalized map and canonical relationship layer after documented name normalization.
+- [x] Confirmed **23/23 equipment edges** reconcile exactly between the normalized map and canonical relationship layer.
+- [x] Confirmed there are no map-only or relationship-only edges in either typed category.
+- [x] Added `docs/data/skill-research-batches/skill-batch-582.json`.
+- [x] Preserved the distinction between coverage sparsity and demonstrated missing canonical relationships; absent PQ IDs are not treated as proof of no reward.
+- [ ] Next: prioritize genuinely unresolved global typed-reward cases and skill mechanics/version-provenance enrichment rather than duplicating reconciled PQ163-PQ186 relationships.
