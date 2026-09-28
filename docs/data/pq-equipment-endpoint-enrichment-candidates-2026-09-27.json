@@ -52,7 +52,7 @@
       "research_id": "pqacc-014",
       "name": "SSGSS Goku Wig",
       "pq": 76,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-016",
@@ -153,6 +153,6 @@
   ],
   "status": "canonical_relationships_reconciled",
   "last_promotion_date": "2026-09-28",
-  "promoted_count": 7,
+  "promoted_count": 8,
   "synchronized_existing_relationships": 15
 }
