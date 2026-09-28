@@ -1223,9 +1223,9 @@
       "acquisition_source": "Parallel Quest 44",
       "first_clear_or_repeat": null,
       "shop_rotation": null,
-      "trigger_condition": "Always; when Stamina is maxed out",
-      "effect_text": "Activates Ki Auto-Recovery Mode; at max Stamina, boosts Ki Blast-based attacks.",
-      "effect_magnitude": "+5% Ki Auto-Recovery; +15% Ki Blast-based attacks",
+      "trigger_condition": "[Always] Activates Ki Auto-Recovery Mode; [When Stamina is maxed out] Boosts Ki Blast-based attacks.",
+      "effect_text": "Activates Ki Auto-Recovery Mode; boosts the strength of Ki Blast-based attacks when Stamina is maxed out.",
+      "effect_magnitude": "+5% Ki auto-recovery; +15% Ki Blast-based attacks",
       "duration": null,
       "stacking_behavior": null,
       "limit_burst": "Rush",
@@ -1233,9 +1233,9 @@
       "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics restored from explicit Super Soul catalogue/guide evidence after endpoint promotion. Canonical PQ acquisition remains authoritative; no unsupported probabilities inferred.",
+      "version_notes": "Mechanics rechecked against current Xenoverse 2-specific character/Super Soul documentation and independent guide evidence on 2026-09-28. The documented +5% Ki auto-recovery and +15% Ki Blast-based attack effect is preserved; no unsupported timing, stacking, or frame data is inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -1244,7 +1244,8 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29"
       ]
     },
     {
