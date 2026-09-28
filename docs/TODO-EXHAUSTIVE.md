@@ -4731,3 +4731,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Kept Galaxy Breaker (Festival) explicitly non-CaC rather than converting festival/cast-only evidence into ordinary CaC availability.
 - [x] Updated the canonical identity audit so its census, interpretation, and next step match the live canonical state.
 - [ ] Next: reconcile each of the 18 newly represented records against its existing research-batch evidence, replacing broad/placeholder fields with exact evidence where available and preserving unresolved/conflicting fields as null or explicitly historical.
+
+
+## 2026-09-27 continuation — record-level reconciliation of first unmatched preset skills
+
+- [x] Reconciled **Sledgehammer** against `skill-batch-159`: exact 100-Ki Strike Super identity, Skill Shop acquisition, CaC usability, charge-stage/knockdown behavior, and unresolved stamina/frame/damage boundaries are now documented as the evidence baseline.
+- [x] Reconciled **Energy Wave Combo** against `skill-batch-265`: exact Super/Ki Blast identity, 100 Ki, CaC usability, and multi-wave behavior confirmed; acquisition remains null because the batch does not establish a safe current route.
+- [x] Reconciled **Galaxy Breaker (Festival)** against `skill-batch-264`: Festival of Universes provenance, Max Camaraderie with Vegeta unlock, 200 Ki, zero Stamina, Vegeta source, 13-hit purple Ki-pillar behavior, and explicit non-CaC boundary confirmed.
+- [x] Canonical coverage remains **493** records; these three records remain `partially_verified` pending broader record-level review rather than being incorrectly promoted to fully verified status.
+- [ ] **Next:** continue the same evidence-first reconciliation across the remaining newly represented preset skills, prioritizing records with dedicated research batches and leaving unsupported acquisition/mechanics fields null.
