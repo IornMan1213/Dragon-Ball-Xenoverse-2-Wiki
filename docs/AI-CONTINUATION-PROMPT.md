@@ -5409,3 +5409,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - Continue by finding a safe targeted mutation path for the single canonical record and its stale reverse-navigation expected class. Do not rewrite the entire recovered skills corpus from an incomplete payload.
 - Galaxy Breaker (Festival) remains intentionally outside the CaC canonical promotion boundary: repository evidence identifies it as a Festival/cast-only Super, 200 Ki, unusable by CaC. Do not promote it merely because it appears in a verified preset. 
 - Next after the safe targeted correction: resume remaining restored-identity enrichment, then audit recovered Skill→PQ/PQ→Skill coverage without inferring unsupported edges.
+
+### 2026-09-28 continuation — Skill→PQ validator recovery sync
+- Live state confirmed Full Power Energy Blast Volley canonical resolution is already committed: Ultimate / Ki Blast / 300 Ki / starting move, with 493 canonical skills and 493 index records.
+- Audited `scripts/validate_skill_pq_crosslinks.py` and corrected stale recovery-era expectations from 475 skills / 246 edges to 493 skills / 248 edges, plus reverse-index date 2026-09-28.
+- The recovered Skill→PQ graph currently has 248 forward edges, 248 resolved consumer links, 0 unresolved endpoints, 4 documented aliases, and 170 represented PQ IDs.
+- No unsupported PQ→skill edges were added merely to increase coverage.
+- **Next exact task:** run/inspect the remaining cross-domain validators, then continue restored-preset skill enrichment and bidirectional PQ reward navigation.
