@@ -3186,8 +3186,8 @@
       "source_quest_or_shop": null,
       "cost": null,
       "dlc_requirement": null,
-      "version_notes": "Identity indexed from explicit QQ Bang input evidence. This is the lower-body component named by the observed recipe table; stats, acquisition route, and current inventory conditions remain unresolved.",
-      "verification_status": "indexed",
+      "version_notes": "Identity is explicitly corroborated by QQ Bang input evidence: the observed recipe names Beerus Clothes (Lower Body) as a distinct input. Stats, acquisition route, and current inventory conditions remain unresolved.",
+      "verification_status": "indexed_with_explicit_qq_input_identity",
       "last_verified": "2026-09-27",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
@@ -3200,8 +3200,8 @@
         }
       ],
       "qq_bang_reconciliation": {
-        "status": "unresolved_identity_usage",
-        "note": "This distinct lower-body Beerus clothing record was introduced from a QQ Bang research input identity. No current QQ Bang observation explicitly requires this lower-body variant as a separate component, so no recipe link is inferred."
+        "status": "identity_usage_reconciled",
+        "note": "Explicit Prima Games recipe observation qq-observed-prima-013 names Beerus Clothes (Lower Body) as a clothing input and links this canonical identity. The identity usage is therefore reconciled; stats, acquisition route, and current inventory conditions remain unresolved."
       }
     },
     {
