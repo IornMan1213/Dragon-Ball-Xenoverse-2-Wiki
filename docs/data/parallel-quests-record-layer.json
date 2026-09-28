@@ -2427,7 +2427,14 @@
         "God of Destruction's Menace",
         "God of Destruction's Roar"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "equipment_links": [
+        {
+          "equipment_id": "equip-049",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+        }
+      ]
     },
     {
       "id": "pq-106",
@@ -2530,7 +2537,14 @@
         "I shall show you my great godly might!",
         "Divinity Unleashed"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "equipment_links": [
+        {
+          "equipment_id": "equip-050",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+        }
+      ]
     },
     {
       "id": "pq-111",
@@ -3440,6 +3454,11 @@
           "equipment_id": "equip-033",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+        },
+        {
+          "equipment_id": "equip-053",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
       ]
     },
@@ -4040,6 +4059,13 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-052",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+        }
       ]
     },
     {
@@ -4662,7 +4688,14 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
+      "equipment_links": [
+        {
+          "equipment_id": "equip-051",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+        }
+      ]
     },
     {
       "id": "pq-003",
