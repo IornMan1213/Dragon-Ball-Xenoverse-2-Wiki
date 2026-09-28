@@ -1641,15 +1641,16 @@
       "name": "Consecutive Energy Blast",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast"
+        "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast",
+        "https://dragonball.fandom.com/wiki/Continuous_Energy_Bullet"
       ],
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Tracking barrage of 10 Ki blasts."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "100-Ki Ki Blast Super that fires a wide-range barrage of 10 tracking Ki blasts at the target."
     },
     {
       "id": "skill-core-breaker",
@@ -6955,15 +6956,16 @@
       "name": "Ki Blast Cannon",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon"
+        "https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
-      "unlock_method": "Skill Shop / Gohan & Videl training conflict",
+      "unlock_method": "Skill Shop after \"Galactic Emperor\"",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Ki Blast shockwave Super with stagger/restand behavior."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "Ki Blast Super that fires a yellow shockwave from the palm. It can stagger a juggled/knocked-down opponent and can be repeated immediately without additional Ki; against a standing target it instead knocks the opponent back."
     },
     {
       "id": "skill-ki-blast-thrust",
@@ -10146,15 +10148,16 @@
       "name": "Super Back Jump",
       "class": "Evasive",
       "subcategory": "Other",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Back_Jump"
+        "https://dbxv2.fandom.com/wiki/Super_Back_Jump",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
-      "unlock_method": "Skill Shop / starting move",
+      "unlock_method": "Skill Shop / Starting move for \"Long range\"",
       "ultimate_finish_required": false,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Defensive backward evasive movement."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "Other Evasive using 200 Stamina. The user jumps and somersaults backward to escape danger; current Evasive documentation also lists it as the starting move for the Long range choice."
     },
     {
       "id": "skill-super-black-kamehameha-rose",
@@ -10354,15 +10357,16 @@
       "name": "Super Galick Gun",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Galick_Gun"
+        "https://dbxv2.fandom.com/wiki/Super_Galick_Gun",
+        "https://dragonball.fandom.com/wiki/Super_Galick_Gun"
       ],
-      "unlock_method": "Skill Shop",
+      "unlock_method": "TP Medal Shop",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Long-range Galick Gun Ultimate."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "300-Ki chargeable Ki Blast Ultimate. The user charges a Galick Gun and fires a long beam; current dedicated documentation describes a 15-hit base sequence and up to 24 hits at maximum charge. Exact damage percentages are retained as source-reported rather than treated as patch-independent."
     },
     {
       "id": "skill-super-gamma-blast",
@@ -10597,15 +10601,16 @@
       "name": "Super Ki Explosion",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Super_Ki_Explosion",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "unlock_method": null,
+      "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Ki Blast Ultimate identity established by the current Ki Blast Ultimate catalog."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "Ki Blast Ultimate with a 300-Ki base cost. The user creates a large surrounding Ki explosion; holding the input prolongs the explosion and consumes additional Ki."
     },
     {
       "id": "skill-super-saiyan",
@@ -11438,15 +11443,16 @@
       "name": "Ultra Fighting Bomber",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Ultimates"
+        "https://dbxv2.fandom.com/wiki/Ultra_Fighting_Bomber",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ],
-      "unlock_method": null,
+      "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Ki Blast Ultimate identity established by the current Xenoverse 2 skill catalog."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate with an 8-hit short-range explosion. The current dedicated reference states that the user poses for about 3 seconds before launching the explosion; exact damage is not promoted as a version-independent canonical value."
     },
     {
       "id": "skill-ultra-instinct",
