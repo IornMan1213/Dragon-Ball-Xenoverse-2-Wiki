@@ -440,7 +440,12 @@
       "ki_cost": 0,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Defensive backflip used to evade attacks; current individual documentation states that it requires neither Ki nor Stamina and repeated input can extend the backflip sequence.",
-      "id": "skill-backflip"
+      "id": "skill-backflip",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "note": "2026-09-28 acquisition enrichment: current skill references identify Backflip as obtainable from the Conton City Skill Shop; no DLC gate applies to the Future Warrior acquisition endpoint.",
+      "notes": "2026-09-28 acquisition enrichment: current skill references identify Backflip as obtainable from the Conton City Skill Shop; no DLC gate applies to the Future Warrior acquisition endpoint."
     },
     {
       "name": "Beast",
@@ -1157,7 +1162,12 @@
       "ki_cost": 0,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Close-range explosion evasive that launches the opponent upward.",
-      "id": "skill-break-strike"
+      "id": "skill-break-strike",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "note": "2026-09-28 acquisition enrichment: current Xenoverse 2 references identify Break Strike as obtainable from the Skill Shop; character DLC appearances are kept separate from the Future Warrior acquisition endpoint.",
+      "notes": "2026-09-28 acquisition enrichment: current Xenoverse 2 references identify Break Strike as obtainable from the Skill Shop; character DLC appearances are kept separate from the Future Warrior acquisition endpoint."
     },
     {
       "name": "Breaker Energy Wave",
@@ -2036,7 +2046,12 @@
       "ki_cost": 100,
       "damage_type": "Ki Blast",
       "mechanics_notes": "100-Ki Ki Blast Super that fires a wide-range barrage of 10 tracking Ki blasts at the target.",
-      "id": "skill-consecutive-energy-blast"
+      "id": "skill-consecutive-energy-blast",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "note": "2026-09-28 acquisition enrichment: the current skill reference lists Consecutive Energy Blast as obtained from the Skill Shop. No DLC gate is attached to the canonical Future Warrior acquisition endpoint.",
+      "notes": "2026-09-28 acquisition enrichment: the current skill reference lists Consecutive Energy Blast as obtained from the Skill Shop. No DLC gate is attached to the canonical Future Warrior acquisition endpoint."
     },
     {
       "name": "Core Breaker",
@@ -4653,7 +4668,12 @@
       "ki_cost": 100,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current Xenoverse 2-specific evidence supports Skill Shop availability and identifies Energy Wave Combo as a default Future Warrior Super Skill. Exact Ultimate-Finish requirement remains unresolved.",
-      "id": "skill-energy-wave-combo"
+      "id": "skill-energy-wave-combo",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City)",
+      "dlc_requirement": "Base Game",
+      "note": "2026-09-28 acquisition enrichment: the current skill reference lists Energy Wave Combo as obtained from the Skill Shop. Character/preset appearances are retained separately from the CaC acquisition endpoint.",
+      "notes": "2026-09-28 acquisition enrichment: the current skill reference lists Energy Wave Combo as obtained from the Skill Shop. Character/preset appearances are retained separately from the CaC acquisition endpoint."
     },
     {
       "name": "Eraser Bomb",
@@ -12669,7 +12689,12 @@
       "ultimate_finish_required": false,
       "ki_cost": 0,
       "mechanics_notes": "Other Evasive using 200 Stamina. The user jumps and somersaults backward to escape danger; current Evasive documentation also lists it as the starting move for the Long range choice.",
-      "id": "skill-super-back-jump"
+      "id": "skill-super-back-jump",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop (Conton City) / starting move for Long range",
+      "dlc_requirement": "Base Game",
+      "note": "2026-09-28 acquisition enrichment: repository evidence reconciliation identifies Super Back Jump as a Skill Shop acquisition and the starting move for the Long range fighting-style choice; no separate DLC gate is established.",
+      "notes": "2026-09-28 acquisition enrichment: repository evidence reconciliation identifies Super Back Jump as a Skill Shop acquisition and the starting move for the Long range fighting-style choice; no separate DLC gate is established."
     },
     {
       "name": "Super Black Kamehameha Rosé",
