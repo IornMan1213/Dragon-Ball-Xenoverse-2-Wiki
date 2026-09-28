@@ -1,0 +1,108 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "scope": "PQ163-PQ186 typed reward relationship coverage",
+  "source": "docs/data/pq-reward-relationships.json",
+  "method": "Compare explicit canonical typed reward relationships against the 24-PQ late-DLC scope. Missing typed relationships are coverage targets only; absence is not interpreted as proof that the PQ has no such reward.",
+  "coverage": {
+    "pq_rewards_skill": {
+      "represented_pqs": [
+        163,
+        164,
+        165,
+        166,
+        167,
+        168,
+        171,
+        172,
+        173,
+        174,
+        175,
+        176,
+        177,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "missing_pqs": [
+        169,
+        170
+      ],
+      "represented_count": 22
+    },
+    "pq_rewards_super_soul": {
+      "represented_pqs": [
+        164,
+        166,
+        168,
+        173,
+        175,
+        177,
+        178,
+        180,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "missing_pqs": [
+        163,
+        165,
+        167,
+        169,
+        170,
+        171,
+        172,
+        174,
+        176,
+        179,
+        181
+      ],
+      "represented_count": 13
+    },
+    "pq_rewards_equipment": {
+      "represented_pqs": [
+        168,
+        169,
+        170,
+        176,
+        178,
+        179,
+        180,
+        181,
+        182,
+        183,
+        184,
+        185,
+        186
+      ],
+      "missing_pqs": [
+        163,
+        164,
+        165,
+        166,
+        167,
+        171,
+        172,
+        173,
+        174,
+        175,
+        177
+      ],
+      "represented_count": 13
+    }
+  },
+  "findings": [
+    "All six final Future Saga Chapter 3/4 skill reward endpoints (PQ183-PQ186) are already represented canonically: Emperor's Cannon, Chaotic Time Impact, Dragon Spiral, Indomitable, and Venus Fist.",
+    "Late-DLC Super Soul coverage is sparse but patterned: explicit relationships are present for PQ164, 166, 168, 173, 175, 177, 178, 180, and 182-186; missing IDs are research targets and are not asserted to have no Super Soul rewards.",
+    "Late-DLC equipment coverage is also sparse and requires evidence-driven expansion; missing IDs are not interpreted as empty reward pools.",
+    "Skill coverage in this range is complete for every PQ with documented canonical skill rewards; the remaining global 16-PQ skill-endpoint gap lies outside this 163-186 range."
+  ]
+}
