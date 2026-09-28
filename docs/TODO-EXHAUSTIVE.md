@@ -4880,3 +4880,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical PQ reward relationship data changed.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** inspect the next live cross-domain validator/consumer for a concrete integrity defect, then resume restored-preset enrichment and bidirectional PQ reward coverage.
+
+### 2026-09-28 continuation — canonical recovery validator stale-invariant repair
+- [x] Inspected the live `scripts/validate_canonical_database_recovery.py` as the next cross-domain/recovery validator after PQ reward validator hardening.
+- [x] Found a concrete stale invariant: the validator still required the pre-recovery 475 canonical skills / 246 Skill→PQ edges even though the recovered live corpus is 493 skills / 248 Skill→PQ edges.
+- [x] Updated the validator to require the live recovered baseline of 493 canonical skills, exact skills-index identity parity, 493 canonical skills in the Skill→PQ reverse artifact, 248 Skill→PQ edges, and 170 represented PQ IDs.
+- [x] Preserved the 840-row PQ reward relationship contract and all existing structural checks; no canonical database records were changed.
+- [x] Updated `docs/data/canonical-database-recovery-validator-audit-2026-09-27.json` with the repair and evidence boundary.
+- [x] Validator source repair committed at `858f6d25a00c3baceee6120e30c7b35d32a6bcd8`; audit update committed at `8ab1a0423b3a1e6d82dedc64a0a2fca2dbd09f05`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** inspect the next remaining validator/consumer for a concrete stale invariant or parser/integrity defect, then resume restored-preset enrichment and bidirectional PQ reward coverage.
