@@ -2785,7 +2785,8 @@
     "skill_batch_538": "docs/data/skill-research-batches/skill-batch-538.json",
     "skill_batch_539": "docs/data/skill-research-batches/skill-batch-539.json",
     "skill_batch_540": "docs/data/skill-research-batches/skill-batch-540.json",
-    "pq_51_60_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-51-60-cross-domain-reconciliation-2026-09-28.json"
+    "pq_51_60_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-51-60-cross-domain-reconciliation-2026-09-28.json",
+    "pq_61_70_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-61-70-cross-domain-reconciliation-2026-09-28.json"
   },
   "skill_research_batch_541": "docs/data/skill-research-batches/skill-batch-541.json",
   "skill_research_batch_543": "docs/data/skill-research-batches/skill-batch-543.json",
