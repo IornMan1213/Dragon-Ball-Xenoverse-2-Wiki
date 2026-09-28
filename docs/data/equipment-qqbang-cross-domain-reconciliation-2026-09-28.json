@@ -35,7 +35,9 @@
     "current_records": 25,
     "records_with_explicit_equipment_links": 23,
     "invalid_equipment_links": 0,
-    "identity_audit": "All explicit QQ Bang equipment_links resolve to current equipment/accessory endpoint IDs; the two unlinked system/mixing records intentionally contain no concrete clothing identities."
+    "identity_audit": "All explicit QQ Bang equipment_links resolve to current equipment/accessory endpoint IDs; the two unlinked system/mixing records intentionally contain no concrete clothing identities.",
+    "unresolved_concrete_input_identities": 1,
+    "promotable_new_input_links": 0
   },
   "findings": [
     {
@@ -62,12 +64,17 @@
       "id": "qq-bang-equipment-link-integrity",
       "status": "resolved",
       "detail": "23 QQ Bang records contain explicit equipment links; all resolve to current endpoint IDs. Two system-level records intentionally have no concrete equipment links."
+    },
+    {
+      "id": "qq-bang-concrete-input-identity-audit",
+      "status": "resolved_to_boundary",
+      "detail": "Reviewed all QQ Bang records with clothing_inputs text not exactly duplicated in equipment_links. Generic system/mixing prose is not a concrete identity; qq-recipe-001 and qq-research-002 already contain component-level links; qq-observed-013 explicitly names an unspecified 5-star clothing item and remains intentionally unresolved. No new equipment link can be promoted without a source naming that item."
     }
   ],
   "next_frontier": [
-    "Audit unresolved QQ Bang input identities only where concrete clothing names remain unlinked.",
     "Continue evidence-backed reward expansion for underrepresented PQ typed rewards.",
-    "Validate cross-domain navigation consumers against the corrected 851-edge canonical relationship total."
+    "Validate cross-domain navigation consumers against the corrected 851-edge canonical relationship total.",
+    "Retain qq-observed-013's unspecified clothing input as unresolved until direct source evidence identifies it."
   ],
   "source_rule": "Canonical forward datasets are authoritative; reverse indexes, verified layers, projections, and community observations are derived evidence or research layers."
 }
