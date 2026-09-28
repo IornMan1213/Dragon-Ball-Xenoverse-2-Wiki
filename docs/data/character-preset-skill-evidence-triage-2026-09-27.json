@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-27",
+  "scope": "Evidence triage for the 18 verified-preset skill names absent from authoritative skills.json.",
+  "canonical_source": "docs/data/skills.json",
+  "evidence_policy": "Research/index/projection layers are evidence only; canonical promotion requires direct record-level support and must not be inferred from preset usage alone.",
+  "records": [
+    {
+      "name": "Super Galick Gun",
+      "status": "research_required",
+      "notes": "No direct canonical record identified in current corpus; preserve as unresolved until direct skill-level evidence establishes identity and acquisition."
+    },
+    {
+      "name": "Sledgehammer",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence before promotion."
+    },
+    {
+      "name": "Energy Wave Combo",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence before promotion."
+    },
+    {
+      "name": "Full Power Energy Wave",
+      "status": "research_candidate",
+      "notes": "Skill-batch-275 directly documents a distinct Ultimate identity, 300 Ki, Skill Shop acquisition, and CaC usability; canonical promotion should be handled as a separate evidence-backed reconciliation."
+    },
+    {
+      "name": "Full Power Energy Blast Volley",
+      "status": "research_required",
+      "notes": "Direct skill-level identity/acquisition evidence still needs to be reconciled before canonical promotion."
+    },
+    {
+      "name": "Super Back Jump",
+      "status": "research_required",
+      "notes": "Preset identity alone is insufficient for canonical promotion."
+    },
+    {
+      "name": "Galaxy Breaker (Festival)",
+      "status": "cast_only_candidate",
+      "notes": "Skill-batch-264 explicitly documents Super/Ki Blast, 200 Ki, Vegeta, Festival of Universes, max camaraderie acquisition, and usable_by_cac=false; unavailable-cac index independently lists it. Strong cast-only evidence; canonical corpus should represent it only if canonical schema intentionally includes unavailable-for-CaC skills."
+    },
+    {
+      "name": "Ki Blast Cannon",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence and acquisition reconciliation."
+    },
+    {
+      "name": "Shockwave",
+      "status": "research_required",
+      "notes": "Name is too generic for identity inference; direct character/skill evidence required."
+    },
+    {
+      "name": "Super Dragon Fist",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence."
+    },
+    {
+      "name": "Holstein Shock",
+      "status": "research_required",
+      "notes": "Character-only/preset evidence is insufficient; direct skill documentation required."
+    },
+    {
+      "name": "Break Strike",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence."
+    },
+    {
+      "name": "Consecutive Energy Blast",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence."
+    },
+    {
+      "name": "Backflip",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence."
+    },
+    {
+      "name": "Super Ki Explosion",
+      "status": "research_required",
+      "notes": "Generic catalog evidence must be reconciled to a specific Xenoverse 2 skill identity before promotion."
+    },
+    {
+      "name": "Recoome Eraser Gun",
+      "status": "research_candidate",
+      "notes": "Skill-batch-526 directly confirms the Recoome Super Skill identity; acquisition/mechanics remain unresolved, so promotion should wait for record-level acquisition evidence."
+    },
+    {
+      "name": "Ultra Fighting Bomber",
+      "status": "research_required",
+      "notes": "Catalog identity appears plausible, but direct Xenoverse 2 record-level evidence is needed before promotion."
+    },
+    {
+      "name": "Turn Retreat",
+      "status": "research_required",
+      "notes": "Preset identity is clear but canonical absence requires direct skill-level evidence."
+    }
+  ],
+  "findings": {
+    "direct_candidates": [
+      "Full Power Energy Wave",
+      "Galaxy Breaker (Festival)",
+      "Recoome Eraser Gun"
+    ],
+    "cast_only_strong": [
+      "Galaxy Breaker (Festival)"
+    ],
+    "unresolved_count": 15,
+    "promotion_count": 0
+  },
+  "next": "Perform direct evidence reconciliation for the three candidates first, then batch-research the remaining 15 names. Do not mutate canonical skills.json from preset/index evidence alone."
+}
