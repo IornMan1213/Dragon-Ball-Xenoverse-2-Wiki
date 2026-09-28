@@ -5540,3 +5540,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Registered Batch 537 and its recovery audit in docs/data/pq-cross-domain-index.json.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: recompute the indexed-only skill frontier against the new 497-record canonical corpus, then promote the next directly evidenced Future Warrior identities while preserving cast-only, variant, and duplicate-name boundaries. Separately keep PQ reward crosslinks synchronized; do not infer relationships from category catalogs alone.
+
+
+### 2026-09-28 continuation — Canonical PQ/skill projection recount correction
+- [x] Directly recounted `docs/data/pq-reward-relationships.json` instead of trusting stale status metadata: **852 total edges** = 249 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming.
+- [x] Corrected active PQ status/audit projections from stale 851/248-skill metadata to the live 852/249-skill state; historical 840 and superseded projections remain preserved as provenance.
+- [x] Refreshed PQ→skill reconciliation/consumer projections to the recovered **497-record canonical skill corpus** and **249 forward Skill→PQ edges**.
+- [x] No new PQ reward relationship was inferred during this correction; the discrepancy was projection metadata drift.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** recompute the indexed-only skill frontier against the 497-record canonical corpus and promote the next directly evidenced Future Warrior identities, preserving cast-only/variant boundaries; then continue QQ Bang/equipment and remaining skill/PQ cross-domain enrichment.
