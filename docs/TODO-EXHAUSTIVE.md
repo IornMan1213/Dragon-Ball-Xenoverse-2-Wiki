@@ -5333,3 +5333,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved exact frames, scaling, hit counts, hidden interactions, and reward probabilities rather than inventing constants.
 - [x] Preserved the acquisition/PQ boundary: non-PQ acquisition evidence was not converted into PQ reward edges.
 - [ ] **Next:** continue with the next unaudited mechanics/acquisition cohort and separately reconcile PQ forward/reverse typed-reward parity.
+
+
+### 2026-09-28 continuation — PQ166-PQ170 typed skill-reward parity
+- [x] Audited canonical forward skill-reward relationships against the current PQ record layer for PQ166-PQ170.
+- [x] Confirmed exact parity for PQ166 → Pendulum Bullet, PQ167 → Seagull Combination/Burning Swan, and PQ168 → Justice Drive.
+- [x] Confirmed PQ169 and PQ170 currently carry no skill rewards in the canonical PQ record layer; this is retained as a record-layer state, not generalized into a universal negative claim.
+- [x] Added docs/data/pq-166-170-skill-reward-parity-audit-2026-09-28.json as a reproducible audit artifact.
+- [x] No new relationship was inferred or promoted during this pass.
+- [ ] **Next:** continue record-level forward/reverse PQ typed-reward parity across the next unreconciled range, prioritizing skill endpoints and preserving source conflicts.
