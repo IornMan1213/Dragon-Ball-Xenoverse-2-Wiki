@@ -3,7 +3,7 @@
   "generated_on": "2026-09-27",
   "scope": "Canonical skill dataset → Parallel Quest reverse navigation",
   "source": "docs/data/skills.json",
-  "canonical_skill_count": 475,
+  "canonical_skill_count": 493,
   "represented_pq_count": 170,
   "total_skill_pq_edges": 246,
   "pq_ids": {
