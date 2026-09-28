@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "audit_type": "unrepresented_pq_typed_reward_coverage",
+  "scope": [
+    1,
+    30,
+    35,
+    47,
+    48,
+    93,
+    102,
+    103,
+    107,
+    108,
+    118,
+    121,
+    144,
+    157,
+    169,
+    170
+  ],
+  "purpose": "Cross-domain reconciliation of the 16 PQs without explicit canonical skill endpoints. Existing source-backed non-skill relationships are recorded as already covered; this audit does not infer missing relationships from absence.",
+  "findings": [
+    {
+      "pq": 30,
+      "covered": [
+        "pq_rewards_equipment:Hercule's Clothes",
+        "pq_rewards_equipment:Tien Shinhan's Gi"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 35,
+      "covered": [
+        "accessory research lead: Z-Sword"
+      ],
+      "status": "research_only",
+      "note": "Accessory identity remains a shop candidate; PQ35 route is historical research evidence and is not promoted into the canonical relationship layer."
+    },
+    {
+      "pq": 47,
+      "covered": [
+        "pq_rewards_equipment:Broly's Clothes"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 93,
+      "covered": [
+        "pq_rewards_equipment:Pan's Bandanna",
+        "pq_rewards_equipment:Pan's Clothes",
+        "accessory canonical bridge: Pan's Bandana→PQ93"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 102,
+      "covered": [
+        "pq_rewards_equipment:Battle Suit (Cabba)",
+        "pq_rewards_super_soul:Don't quit! Get up!",
+        "pq_rewards_super_soul:I'll make you regret that!"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 103,
+      "covered": [
+        "pq_rewards_super_soul:I've been saving this! Kaioken!",
+        "pq_rewards_super_soul:Now you understand. Surrender.",
+        "pq_rewards_super_soul:This is not a weapon."
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 107,
+      "covered": [
+        "pq_rewards_equipment:Future Mai's Clothes",
+        "pq_rewards_super_soul:You can't win..."
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 108,
+      "covered": [
+        "pq_rewards_equipment:Goku Black's Clothes",
+        "pq_rewards_super_soul:Eehee hee hee heee!",
+        "pq_rewards_super_soul:Now, give your father a message for me."
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 118,
+      "covered": [
+        "pq_rewards_super_soul:I hate what I've become!",
+        "pq_rewards_super_soul:Now we're even."
+      ],
+      "status": "covered",
+      "note": "Dual Masenko association remains conflicting and is not promoted."
+    },
+    {
+      "pq": 121,
+      "covered": [
+        "pq_rewards_equipment:Tuxedo",
+        "pq_rewards_equipment:Wedding Dress",
+        "pq_rewards_super_soul:Right, then... Let's begin the experiment!"
+      ],
+      "status": "covered",
+      "note": "Godly Display/Soaring Fist association remains unresolved and is not promoted."
+    },
+    {
+      "pq": 144,
+      "covered": [
+        "pq_rewards_equipment:Gine (DB Super) Set",
+        "pq_rewards_equipment:Gine (DB Super)'s Clothes",
+        "pq_rewards_super_soul:I won't forgive those who best my comrades!",
+        "pq_rewards_super_soul:You've awakened my true power..."
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 157,
+      "covered": [
+        "pq_rewards_super_soul:I'll be the one to fight you!",
+        "pq_rewards_super_soul:You need to be more careful."
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 169,
+      "covered": [
+        "pq_rewards_equipment:Orange Piccolo's Clothes"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 170,
+      "covered": [
+        "pq_rewards_equipment:Videl (DB Super)'s Clothes"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": 1,
+      "covered": [],
+      "status": "no_promotable_typed_relationship_found"
+    },
+    {
+      "pq": 48,
+      "covered": [],
+      "status": "skill_conflict_unresolved",
+      "note": "Kamekameha/Kamehameha remains an evidence conflict; no PQ48 skill edge promoted."
+    }
+  ],
+  "conclusion": "The review found no safe new canonical typed-reward relationship to promote in this pass. Most typed rewards for the 16 PQs are already represented in the canonical relationship layer; the remaining evidence is either research-only or conflicting. PQ1, PQ35 and PQ48 remain bounded research targets rather than inferred gaps."
+}
