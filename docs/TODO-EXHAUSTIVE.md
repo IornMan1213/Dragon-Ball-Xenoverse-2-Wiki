@@ -5632,3 +5632,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current canonical PQ relationship store is now **862 edges**: 249 Skill, 135 Super Soul, 136 Equipment, 247 Character, 88 DLC, 7 Farming.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: inspect for any remaining canonical-source discrepancies before broader mechanics/acquisition enrichment; preserve unresolved component identities and historical route conflicts.
+
+
+### 2026-09-28 continuation — Accessory canonical backlog synchronization
+- [x] Reconciled stale statuses in `accessory-pq-canonical-remaining.json` after the authoritative PQ promotions: Great Saiyaman Helmet, Android 13's Hat, Android 17 (DB Super) Wig, King Vegeta (DB Super) Wig, Gamma 2's Helmet, and Gamma 1's Helmet are now explicitly marked `resolved_to_canonical` with their canonical IDs.
+- [x] Preserved genuinely unresolved records: Great Saiyaman Bandana 1/2, Tapion's Sword historical route conflict, Yamcha's Sword PQ conflict, Goku wig PQ conflicts, Android 15's Sunglasses, and component-unresolved Gine/Kale/Caulifla/Android 17 Ranger entries.
+- [x] No new PQ relationship was inferred in this metadata-only synchronization; the authoritative relationship count remains **862 edges / 136 equipment**.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: continue broader mechanics/acquisition enrichment rather than manufacturing accessory identities or resolving historical route conflicts without independent evidence.
