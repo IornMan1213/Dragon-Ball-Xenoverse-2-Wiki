@@ -2310,5 +2310,27 @@
     "source_only_cases_resolved": 68,
     "source_only_entries_resolved": 76,
     "remaining_unresolved_source_only_entries": 0
-  }
+  },
+  "latest_audit": {
+    "date": "2026-09-28",
+    "type": "post_consumer_cross_domain_endpoint_reconciliation",
+    "canonical_relationship_source": "docs/data/pq-reward-relationships.json",
+    "canonical_counts": {
+      "total": 851,
+      "skills": 248,
+      "super_souls": 135,
+      "equipment": 126,
+      "characters": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "result": "No new canonical PQ typed-reward promotions are justified from the remaining normalized-map source-only cases. All currently identified source-only clothing/accessory entries resolve to existing canonical equipment relationships; source-only skill entries Time Control, Mach Dash, and Warp Kamehameha are already represented by canonical PQ skill edges at their documented PQs.",
+    "unresolved_boundaries": [
+      "Normalized-map/forward-edge drift remains historical reconciliation data and is not a deletion signal.",
+      "PQ48 Kamekameha/Kamehameha remains an evidence conflict.",
+      "Dual Masenko remains a canonical skill-record restoration candidate; its strongest current acquisition evidence points to TP Medal Shop, while PQ118 association remains unresolved."
+    ],
+    "rule": "Canonical forward relationship data remains authoritative; do not infer or duplicate relationships from partial normalized maps."
+  },
+  "next_frontier": "Proceed to the next substantive evidence frontier: canonical skill-record/acquisition-gap reconciliation (starting with explicitly documented candidates such as Dual Masenko) and then mechanics-field enrichment, without deriving relationships from preset membership."
 }
