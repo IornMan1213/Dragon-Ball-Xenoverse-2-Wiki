@@ -6387,3 +6387,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed the canonical database has six explicitly DAIMA Pack skills and no separately labeled May 2025 free-update skill records.
 - [x] Preserved the distinction between paid-pack provenance and free-update provenance; no individual free-update skill was guessed.
 - [ ] **Next:** search direct patch-note/community catalog evidence for the unnamed free-update skills; if none is sufficiently direct, move on to Chapter 4 named-move reconciliation.
+
+
+### 2026-09-28 continuation — Free Update 20 evidence boundary
+- [x] Added a community Free Update catalog source identifying Free Update 20 as the May 21, 2025 update associated with the DAIMA Pack.
+- [x] Cross-checked the canonical skill database: the six DAIMA Pack skills are sourced to PQ179–181, while no additional canonical skills are explicitly labeled as Free Update 20.
+- [x] Preserved the unresolved individual free-update skill mapping because the available evidence in this pass does not directly establish skill-name → canonical-ID matches.
+- [ ] **Next:** reconcile Free Update 20 skill names against direct catalog evidence; if still unresolved, move to Future Saga Chapter 4 named-move evidence.
