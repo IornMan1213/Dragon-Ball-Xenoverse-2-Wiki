@@ -8,16 +8,16 @@
     "skills": {
       "canonical_records": 493,
       "index_records": 493,
-      "skill_pq_edges": 246,
+      "skill_pq_edges": 248,
       "represented_pqs": 170,
       "canonical_blob_sha": "63bd1b72f7f054f92bcc2ac662512e359cc9596c",
       "index_blob_sha": "2b2e74c9d31f0b54a93a2a28c750412eb21845c2"
     },
     "pq_rewards": {
-      "total_relationships": 840,
-      "skill": 236,
-      "super_soul": 137,
-      "equipment": 125,
+      "total_relationships": 852,
+      "skill": 248,
+      "super_soul": 135,
+      "equipment": 127,
       "character": 247,
       "dlc": 88,
       "farming": 7,
@@ -96,7 +96,7 @@
   },
   "validation_boundary": "Canonical JSON integrity and endpoint reconciliation have been validated through direct repository reads; Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint.",
   "last_updated": "2026-09-28",
-  "recovery_state": "active_recovery_with_skill_catalog_gap_reconciliation",
+  "recovery_state": "active_recovery_with_cross_domain_relationship_expansion",
   "live_baseline": {
     "equipment_records": 112,
     "qq_bang_records": 23,
@@ -121,3 +121,13 @@
     "boundary": "Observed community output only; no deterministic recipe guarantee inferred."
   }
 }
+
+
+  ,"relationship_expansion_2026_09_28": {
+    "status": "live_852_edge_store_reconciled",
+    "current_counts": {"total": 852, "skill": 248, "super_soul": 135, "equipment": 127, "character": 247, "dlc": 88, "farming": 7},
+    "historical_baseline": 840,
+    "skill_bidirectional_status": "248 canonical Skill→PQ edges and matching forward PQ skill relationships are reconciled; 16 PQ IDs remain without explicit canonical Skill endpoints.",
+    "next_frontier": "Expand evidence-backed PQ reward coverage beyond the 248 Skill→PQ relationships, then reconcile equipment/QQ Bang and remaining reverse indexes.",
+    "source_rule": "Canonical forward datasets remain authoritative; verified/index/projection layers are consumers/evidence only."
+  }
