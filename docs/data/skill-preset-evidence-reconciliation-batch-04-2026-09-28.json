@@ -1,0 +1,18 @@
+{
+  "schema_version":"1.0.0",
+  "audit_date":"2026-09-28",
+  "scope":"Fourth post-recovery direct-evidence reconciliation for restored skill identities.",
+  "canonical_source":"docs/data/skills.json",
+  "canonical_record_count":493,
+  "index_record_count":493,
+  "records":[
+    {"name":"Super Back Jump","skill_id":"skill-super-back-jump","status":"reconciled","changes":["200 Stamina","Skill Shop/Long range starting move","corrected classification provenance","removed inappropriate Ki Blast damage_type"],"sources":["https://dbxv2.fandom.com/wiki/Super_Back_Jump","https://dbxv2.fandom.com/wiki/Evasive_Skill"]},
+    {"name":"Ki Blast Cannon","skill_id":"skill-ki-blast-cannon","status":"reconciled","changes":["Skill Shop after Galactic Emperor","direct character provenance","stagger/restand mechanics"],"sources":["https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon"]},
+    {"name":"Consecutive Energy Blast","skill_id":"skill-consecutive-energy-blast","status":"reconciled","changes":["100 Ki","Skill Shop","multiple-user provenance","10-hit tracking barrage"],"sources":["https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast","https://dragonball.fandom.com/wiki/Continuous_Energy_Bullet"]},
+    {"name":"Super Galick Gun","skill_id":"skill-super-galick-gun","status":"reconciled","changes":["corrected acquisition from Skill Shop to TP Medal Shop","300 Ki","charge/15-24 hit mechanics","expanded Vegeta provenance"],"sources":["https://dbxv2.fandom.com/wiki/Super_Galick_Gun"]},
+    {"name":"Super Ki Explosion","skill_id":"skill-super-ki-explosion","status":"reconciled","changes":["Skill Shop acquisition","300 Ki base cost","direct user provenance","extendable Ki explosion mechanics"],"sources":["https://dbxv2.fandom.com/wiki/Super_Ki_Explosion","https://dbxv2.fandom.com/wiki/Ultimate_Attack"]},
+    {"name":"Ultra Fighting Bomber","skill_id":"skill-ultra-fighting-bomber","status":"reconciled","changes":["Skill Shop acquisition","300 Ki","Recoome provenance","8-hit/approximately 3-second startup mechanics"],"sources":["https://dbxv2.fandom.com/wiki/Ultra_Fighting_Bomber","https://dbxv2.fandom.com/wiki/Ultimate_Attack"]}
+  ],
+  "preservation":["No source-reported damage percentage was promoted as a patch-independent canonical number.","Ki Blast Cannon retains null Ultimate Finish status because the direct source establishes the acquisition route but not a quest reward gate.","Super Ki Explosion's extendable cost is represented as a 300-Ki base rather than an invented fixed maximum."],
+  "next":"Continue through the remaining restored identities and audit cross-domain Skill→PQ links created or preserved by the recovery; prioritize unresolved identity/acquisition gaps over cosmetic enrichment."
+}
