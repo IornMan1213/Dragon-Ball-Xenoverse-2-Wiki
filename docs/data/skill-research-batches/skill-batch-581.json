@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 581,
+  "date": "2026-09-28",
+  "status": "complete",
+  "type": "pq-186-final-skill-reward-parity",
+  "scope": "PQ186 final numbered-block reconciliation",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "record": {
+    "pq": "pq-186",
+    "documented_skills": [
+      "Venus Fist"
+    ],
+    "status": "parity_confirmed",
+    "reverse_skill_endpoint": "Venus Fist -> PQ186",
+    "evidence": [
+      "docs/data/pq-186-skill-reward-parity-audit-2026-09-28.json",
+      "docs/data/skill-research-batches/skill-batch-120.json",
+      "docs/data/skill-research-batches/skill-batch-488.json"
+    ]
+  },
+  "findings": [
+    "Current typed reward mapping lists Venus Fist for PQ186.",
+    "Canonical forward relationship and maintained reverse skill map agree on Venus Fist -> PQ186.",
+    "Current reward documentation does not establish an additional PQ186 skill endpoint.",
+    "Exact reward-slot/drop probability and mandatory Ultimate Finish semantics remain unresolved."
+  ],
+  "counts": {
+    "documented_skill_edges": 1,
+    "parity_confirmed_edges": 1,
+    "new_relationships_promoted": 0,
+    "unresolved_endpoint_count": 0
+  },
+  "action": "No canonical mutation; this closes the PQ181-PQ186 final skill-reward parity block.",
+  "next": "Move to unresolved typed-reward ranges outside PQ163-PQ186 and the remaining mechanics/version-provenance frontiers; do not reopen settled PQ186 acquisition semantics without new evidence."
+}
