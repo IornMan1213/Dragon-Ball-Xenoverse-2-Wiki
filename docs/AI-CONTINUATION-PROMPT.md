@@ -4714,3 +4714,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Atomic insertion of `skill-dual-masenko` into canonical Skills and index remains the exact next task once a complete payload/edit path is available.
 - [ ] After insertion, regenerate/reconcile Partner Customization and PQ118 relationships; do not manufacture PQ118 until explicit reward evidence is confirmed.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
+
+
+### 2026-09-27 continuation — Dual Masenko restoration preparation
+- [x] Re-verified the Dual Masenko omission against current Xenoverse 2-specific evidence: TP Medal Shop acquisition, Ki Blast classification, Super classification, and 100 Ki cost.
+- [x] Prepared the intended canonical record fields inside the Dual Masenko gap-audit artifact.
+- [x] Retained TP Medal Shop as acquisition truth and did not carry forward Batch 261's stale training-only acquisition field.
+- [x] Did not mutate skills.json or skills-index.json: the connector cannot safely retrieve the complete large canonical payload, so replacing it from a truncated response would recreate the corruption risk this recovery cycle is designed to prevent.
+- [ ] Atomic insertion of skill-dual-masenko into canonical Skills and index remains the exact next task once a complete payload/edit path is available.
+- [ ] After insertion, regenerate/reconcile Partner Customization and PQ118 relationships; do not manufacture PQ118 until explicit reward evidence is confirmed.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
