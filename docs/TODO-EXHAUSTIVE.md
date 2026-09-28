@@ -5529,3 +5529,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships or speculative technical values.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the post-PQ100 stale canonical frontier with the same duplicate-audit and evidence-boundary rules.
+
+
+### 2026-09-28 continuation — Post-recovery canonical skill promotion batch 537
+- [x] Revalidated the authoritative post-corruption skill blob and index before promotion: 493 canonical records / 493 index records with no duplicate canonical names.
+- [x] Promoted four directly evidenced indexed-only Future Warrior skills into authoritative docs/data/skills.json: Divine Retribution, Final Shine Attack, Savage Strike, and Sword of Hope.
+- [x] Synchronized docs/data/skills-index.json; canonical and index layers are now 497/497.
+- [x] Preserved evidence boundaries: TP Medal Shop rotation is an acquisition endpoint, not a guaranteed current schedule; source-reported damage/hit measurements are not promoted as universal constants; unresolved frame/scaling/probability fields remain unresolved.
+- [x] Added docs/data/skill-canonical-recovery-promotion-audit-2026-09-28.json and docs/data/skill-research-batches/skill-batch-537.json.
+- [x] Registered Batch 537 and its recovery audit in docs/data/pq-cross-domain-index.json.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: recompute the indexed-only skill frontier against the new 497-record canonical corpus, then promote the next directly evidenced Future Warrior identities while preserving cast-only, variant, and duplicate-name boundaries. Separately keep PQ reward crosslinks synchronized; do not infer relationships from category catalogs alone.
