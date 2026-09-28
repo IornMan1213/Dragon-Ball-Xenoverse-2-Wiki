@@ -1,0 +1,44 @@
+{
+  "batch_id": 551,
+  "date": "2026-09-28",
+  "type": "festival_canonical_id_reconciliation",
+  "status": "evidence_reconciled_id_unresolved",
+  "scope": "Search repository history/catalogs and current public datamine-oriented references for internal identifiers for the four 4th Festival skills.",
+  "findings": [
+    {
+      "name": "God Bind (Festival)",
+      "repository_evidence": [
+        "docs/data/skill-research-batches/skill-batch-264.json",
+        "docs/data/skill-catalog-batches/unavailable-cac.json"
+      ],
+      "result": "Existing repository research already contains a detailed non-canonical God Bind record, including Super/Ki Blast, 100 Ki, Goku (Super Saiyan God), Festival max-camaraderie acquisition, and CaC restriction. No internal canonical identifier is present."
+    },
+    {
+      "name": "Egret Waltz (Festival)",
+      "result": "Current repository search finds preset/evidence references but no canonical internal identifier."
+    },
+    {
+      "name": "Gamma Force: Code-R (Festival)",
+      "result": "Current repository search finds no canonical internal identifier."
+    },
+    {
+      "name": "Gamma Force: Code-B (Festival)",
+      "result": "Current repository search finds no canonical internal identifier."
+    }
+  ],
+  "external_cross_checks": [
+    "Festival of Universes documentation lists all four 4th Festival character-to-skill mappings.",
+    "Independent preset/community evidence confirms the four names and Super Attack classification.",
+    "A public datamine-oriented Xenoverse 2 wiki notes Festival variants as separate skill entries, but does not expose the internal identifiers in the accessible page text."
+  ],
+  "identifier_policy": "Do not derive canonical IDs from names, preset slots, mod attachment filenames, or guessed sequential numbering.",
+  "canonical_action": "none",
+  "validation": {
+    "four_identities_checked": 4,
+    "canonical_ids_recovered": 0,
+    "canonical_records_promoted": 0,
+    "skills_json_changed": false,
+    "unsupported_ids_invented": 0
+  },
+  "next": "Advance to the next unresolved canonical enrichment field while retaining the four Festival identities in the dedicated recovery layer. Revisit ID recovery if a historical canonical blob, structured datamine table, or repository artifact exposes exact identifiers."
+}
