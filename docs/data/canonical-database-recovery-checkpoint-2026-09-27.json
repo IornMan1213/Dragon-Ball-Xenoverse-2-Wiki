@@ -29,8 +29,7 @@
       "blob_sha": "92fcb0bf11632cc6d0de8b0d9ccdf0e14981379f"
     },
     "equipment": {
-      "record_layer_records": 109,
-      "blob_sha": "5e1dfc9742b7291e34dd3f31ff67caf0dd2ecdc9"
+      "record_layer_records": 109
     },
     "mentors": {
       "records": 33,
@@ -49,8 +48,7 @@
       "blob_sha": "c52da790ea8e81e88d52c626f01f2f045c0cc67e"
     },
     "parallel_quests": {
-      "record_layer_records": 7,
-      "blob_sha": "846cf6884f34b231cc587d83a4b04d780929bb50"
+      "record_layer_records": 7
     }
   },
   "corruption_recovery_history": [
@@ -65,7 +63,8 @@
     "Refined PQ 83 ↔ Super Mix Capsule Z provenance with 2024 Steam/Reddit/GameFAQs evidence and explicitly preserved observed drop variability rather than promoting a guaranteed reward or exact rate.",
     "Added bidirectional equipment ↔ Parallel Quest acquisition provenance for Goku's Turtle Hermit Gi and Demon Clothes (Gohan, Kid) ↔ PQ 04, and Whis Symbol Battle Suit ↔ PQ 100, using explicit canonical equipment source fields.",
     "Completed the identified QQ Bang equipment-link gap by mapping Light Heart Suit to equip-105 in qq-recipe-004 and qq-recipe-005; audited all QQ Bang equipment_links against the canonical equipment layer with no broken IDs.",
-    "Audited the full equipment source-quest list against the sparse canonical PQ record layer; added no speculative PQ stubs. Confirmed the three directly representable equipment↔PQ links remain the complete safe set in the current sparse layer."
+    "Audited the full equipment source-quest list against the sparse canonical PQ record layer; added no speculative PQ stubs. Confirmed the three directly representable equipment↔PQ links remain the complete safe set in the current sparse layer.",
+    "Promoted source-backed PQ 134 ↔ equip-041 Broly clothes relationship from pq-121-142 batch into canonical equipment and PQ layers; retained acquisition-source semantics without drop-rate claims."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -76,7 +75,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "QQ Bang equipment IDs are fully reconciled against the canonical equipment layer (0 broken IDs). Bidirectional equipment ↔ PQ acquisition links currently cover every directly representable PQ in the sparse canonical PQ layer; additional equipment source quests exist in other maintained PQ datasets but their full PQ records are not currently present in the sparse record layer, so no unsupported stub records were created."
+    "note": "Promoted the directly supported PQ 134 ↔ Broly (Full Power Super Saiyan)'s Clothes relationship from the broader PQ batch into both sparse canonical directions. PQ 29 remains a broader-dataset candidate but is not yet represented in the sparse canonical PQ layer."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
