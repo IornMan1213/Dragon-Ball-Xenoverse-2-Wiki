@@ -5972,3 +5972,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/pq-186-skill-reward-parity-audit-2026-09-28.json` as the reproducible record-level audit artifact.
 - [x] Preserved unresolved exact reward-slot/drop probability and Ultimate-Finish-condition fields rather than inferring them.
 - [ ] **Next:** continue the remaining global PQ skill-endpoint gap outside PQ163-PQ186, then resume evidence-backed mechanics/acquisition enrichment.
+
+
+### 2026-09-28 continuation — Restored-skill mechanics enrichment
+- [x] Enriched canonical **Gravity Impact** with current-evidence mechanics: Ki-Blast cancellation behavior, long knockback, and follow-up window; exact frames and complete interaction scope remain unresolved.
+- [x] Enriched canonical **Hawk Charge** with the elbow-to-palm sequence, bounded source-reported damage, rush-to-palm input cancel, and separate DBS Super Hero presentation; exact timing remains unresolved.
+- [x] Refreshed **Remote Serious Bomb** two-stage seal/bomb mechanics and preserved the second-stage resource-cost conflict instead of inventing a version-independent value.
+- [x] Synchronized `skills-index.json`; both canonical layers remain **493/493** and mechanics/verification fields were checked for parity.
+- [x] Added `docs/data/skill-mechanics-enrichment-audit-2026-09-28.json` documenting promoted evidence and unresolved boundaries.
+- [ ] **Next:** continue through the remaining mechanics frontier, prioritizing records where current evidence can materially replace deferred mechanics notes without manufacturing frame/scaling/probability data.
