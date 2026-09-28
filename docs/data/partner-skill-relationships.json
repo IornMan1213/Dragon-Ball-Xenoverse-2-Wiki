@@ -43,13 +43,13 @@
     {
       "skill_id": "skill-dual-masenko",
       "skill_name": "Dual Masenko",
-      "partner_name": "Future Trunks (Time Patrol)",
+      "partner_name": "Future Trunks",
       "relationship": "custom_partner_availability",
       "evidence": [
         "docs/data/dual-masenko-canonical-gap-audit-2026-09-27.json",
         "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
       ],
-      "evidence_note": "Current repository evidence records Dual Masenko as a canonical Xenoverse 2 Super Skill and documents Future Trunks (Time Patrol) Customize Partner availability."
+      "evidence_note": "Current repository evidence records Dual Masenko as a canonical Xenoverse 2 Super Skill and documents availability in Future Trunks' Customize Partner skillset."
     }
   ],
   "excluded_candidates": [],
