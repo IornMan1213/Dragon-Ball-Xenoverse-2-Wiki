@@ -42,7 +42,7 @@
     },
     "qq_bangs": {
       "record_layer_records": 23,
-      "blob_sha": "d0c83983d6c347dc484a38bb2f94336398fef486"
+      "blob_sha": "41619a13d564955988369ca5ec99fcb4e26b8d4e"
     },
     "partner_skill_relationships": {
       "relationships_count": 3,
@@ -55,17 +55,18 @@
     "Later concurrent-write restoration commits were verified through the live main state before continuing enrichment.",
     "QQ Bang expansion recovery reconciled the current 15-record file against the immediately preceding live expansion commit and restored three recipe-family records (qq-recipe-003 through qq-recipe-005) that had regressed from main.",
     "Post-recovery QQ Bang/equipment reconciliation added four canonical equipment identities and linked eight QQ Bang records; a transient incorrect identifier mapping for two existing equipment records was detected and corrected against the canonical equipment layer.",
-    "Expanded canonical QQ Bang input normalization by indexing five additional clothing identities and refreshing safe QQ Bang-to-equipment links; unresolved inputs remain explicitly unresolved."
+    "Expanded canonical QQ Bang input normalization by indexing five additional clothing identities and refreshing safe QQ Bang-to-equipment links; unresolved inputs remain explicitly unresolved.",
+    "Version-aware QQ Bang material provenance was expanded with dated 2020-2026 evidence for direct Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; no patch-specific rule change was established."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
     "qq_bang_observed_vectors": 16,
     "targets": [
-      "version-aware Super Mix Capsule Z/material provenance",
       "complete remaining QQ Bang clothing identity reconciliation",
+      "deeper item-table/version evidence for Super Mix Capsule Z and Demon Realm Crystal drop behavior",
       "equipment/build cross-domain relationships"
     ],
-    "note": "Equipment layer now contains 109 canonical identity records. QQ Bang links are promoted only where input identity can be matched without guessing."
+    "note": "QQ Bang layer remains 23 records / 16 complete observed vectors. Super Mix Capsule Z now carries dated acquisition/material provenance, while exact drop rates and patch-specific changes remain unresolved."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
