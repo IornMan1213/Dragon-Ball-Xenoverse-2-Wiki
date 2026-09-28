@@ -6043,3 +6043,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added and indexed batch-567 audit.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ121-PQ130 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ121-PQ130 recovery-forward reconciliation
+- [x] Repaired canonical-backed maintained rewards across PQ121-PQ130.
+- [x] Restored equipment, Super Soul, and accessory cross-domain projections while preserving endpoint types.
+- [x] Added and indexed batch-568 audit; canonical source unchanged.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ131-PQ140 recovery-forward reconciliation.
