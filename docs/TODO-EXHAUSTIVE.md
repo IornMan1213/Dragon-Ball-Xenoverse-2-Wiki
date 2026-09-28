@@ -5745,3 +5745,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Established the provenance rule that DLC/update event provenance and individual skill first-release/version assignment are separate claims; individual skills will only be mapped when direct skill-to-event evidence exists.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** map the strongest directly evidenced canonical skill IDs to the new release-event registry, beginning with explicit official skill mentions such as Beast; then expand to Future Saga/DAIMA skills only where direct linkage exists.
+
+
+### 2026-09-28 continuation — Direct skill-to-release provenance mappings
+- [x] Added **5 direct canonical skill→release-event mappings** to `docs/data/game-content-version-provenance-registry.json`: Beast → Free Update 16; Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger → Future Saga Chapter 1.
+- [x] Added the Dragon Ball Official Site Chapter 1 article as a named provenance source; it explicitly identifies the four Chapter 1 moves and their associated Ultra Supervillain characters.
+- [x] Added the official-update provenance for Beast; the free-update source explicitly identifies Beast as the Awoken Skill added in Update 16.
+- [x] Kept remaining DLC skill records unmapped where available official evidence only establishes the DLC aggregate move count rather than naming individual skills.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue direct skill-to-release mapping with Chapter 2/3/4 and DAIMA candidates only when an authoritative source names the individual skill; then add version/patch provenance for documented balance changes separately from first-release provenance.
