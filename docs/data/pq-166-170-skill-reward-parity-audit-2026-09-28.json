@@ -1,0 +1,66 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "PQ166-PQ170 typed skill-reward parity spot audit",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "method": "Compare the canonical forward PQ relationship store with the current PQ record-layer skill_rewards and current evidence batches; do not infer missing rewards from character/preset ownership.",
+  "results": [
+    {
+      "pq": "pq-166",
+      "skills": [
+        "Pendulum Bullet"
+      ],
+      "canonical_forward_edges": 1,
+      "record_layer_skill_rewards": [
+        "Pendulum Bullet"
+      ],
+      "status": "parity"
+    },
+    {
+      "pq": "pq-167",
+      "skills": [
+        "Seagull Combination",
+        "Burning Swan"
+      ],
+      "canonical_forward_edges": 2,
+      "record_layer_skill_rewards": [
+        "Seagull Combination",
+        "Burning Swan"
+      ],
+      "status": "parity"
+    },
+    {
+      "pq": "pq-168",
+      "skills": [
+        "Justice Drive"
+      ],
+      "canonical_forward_edges": 1,
+      "record_layer_skill_rewards": [
+        "Justice Drive"
+      ],
+      "status": "parity"
+    },
+    {
+      "pq": "pq-169",
+      "skills": [],
+      "canonical_forward_edges": 0,
+      "record_layer_skill_rewards": [],
+      "status": "no_skill_reward"
+    },
+    {
+      "pq": "pq-170",
+      "skills": [],
+      "canonical_forward_edges": 0,
+      "record_layer_skill_rewards": [],
+      "status": "no_skill_reward"
+    }
+  ],
+  "evidence_boundaries": [
+    "PQ166 Pendulum Bullet is explicitly listed as a skill reward.",
+    "PQ167 Seagull Combination and Burning Swan are explicitly listed as skill rewards.",
+    "PQ168 Justice Drive is explicitly listed as a skill reward.",
+    "PQ169 and PQ170 have no skill rewards in the current PQ record layer; absence is not converted into a negative claim about every external source.",
+    "No new relationship is promoted by this audit; it verifies canonical forward parity for this slice."
+  ],
+  "next": "Continue the same record-level forward/reverse parity audit across the next unreconciled PQ range, prioritizing typed skill rewards and preserving source conflicts."
+}
