@@ -13918,7 +13918,7 @@
       "name": "Time Skip/Back Breaker",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Back_Breaker",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -13927,26 +13927,28 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Lesson 1 — complete the instructor lesson to receive Time Skip/Back Breaker as the Basic Reward.",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 1",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Super Pack 1",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rear-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
+      "mechanics_notes": "100-Ki Strike Super counter. The user briefly guards the rear and, on a successful trigger, uppercuts the opponent; current documentation classifies it as a back-only launcher. Source-reported damage is retained only as bounded evidence.",
       "source_quest": "Hit mentor training — Lesson 1",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.\n2026-09-27 Batch 506 current-evidence refresh: current/recent acquisition and mechanics evidence was rechecked against the maintained source trail. Existing reward-tier conflicts, unresolved numerical measurements, and source-bounded claims are preserved; no unsupported probabilities, frame data, hidden interactions, or new Skill→PQ relationships were inferred.",
       "id": "skill-time-skip-back-breaker",
       "source_mentor": [
         "mentor-hit"
-      ]
+      ],
+      "pve_notes": "A rear-facing counter designed to catch attacks from behind and launch the opponent.",
+      "pvp_notes": "The back-only trigger condition makes positioning central to its use; exact counter timing and frame data remain unresolved."
     },
     {
       "name": "Time Skip/Flash Skewer",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Flash_Skewer",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -13956,26 +13958,28 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Initiation Test — complete the instructor lesson to receive Time Skip/Flash Skewer as the Basic Reward.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-28",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Initiation Test",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Super Pack 1",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with a front-facing strike-counter behavior. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
+      "mechanics_notes": "100-Ki Strike Super counter. A front-facing defensive stance triggers a short-range counter and can be used as a combo extender; current documentation classifies it as unblockable. Source-reported damage is retained only as bounded evidence.",
       "source_quest": "Hit mentor training — Initiation Test",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
       "id": "skill-time-skip-flash-skewer",
       "source_mentor": [
         "mentor-hit"
-      ]
+      ],
+      "pve_notes": "A front-facing counter that can extend combos after a successful trigger.",
+      "pvp_notes": "The front-facing stance and documented unblockable classification shape its counter and combo-extension use; exact timing and hidden interactions remain unresolved."
     },
     {
       "name": "Time Skip/Jump Spike",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Time_Skip/Jump_Spike",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -13985,20 +13989,22 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Hit's Lesson 2 — complete the instructor lesson to receive Time Skip/Jump Spike as the Basic Reward.",
-      "last_verified": "2026-09-24",
+      "last_verified": "2026-09-28",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Hit mentor training — Lesson 2",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Super Pack 1",
-      "mechanics_notes": "Dedicated current-version evidence confirms this is a 100-Ki Strike Super, obtained through Hit training, with rush/counter behavior and variable flight range. No explicit CaC race/gender/form restriction is stated. Reviewed in the current null-race census; no narrower CaC race/gender/form restriction is established, so character-specific usage is not converted into a race restriction. 2026-09-21 cross-domain normalization: canonical mentor endpoint mentor-hit added for the documented mentor-training acquisition route.",
+      "mechanics_notes": "100-Ki Strike Super. The user flies forward and strikes; current documentation reports Strike immunity during the rush and that holding the input extends travel distance. Hit training is the acquisition endpoint. Source-reported damage is retained only as bounded evidence.",
       "source_quest": "Hit mentor training — Lesson 2",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-19 deterministic mentor/wish acquisition verification: the documented training/wish route is not an Ultimate Finish reward. 2026-09-20 non-PQ provenance normalization: source remains a deterministic mentor/test/Expert Mission route; no Ultimate Finish-only gate is inferred. 2026-09-20 mentor provenance refinement: current maintained instructor reward evidence identifies the exact initiation/lesson that awards this skill; no Ultimate Finish gate is inferred. 2026-09-21 DLC provenance verification: Hit's mentor skills are explicitly included in Super Pack 1; current DLC/mentor references identify this skill as one of Hit's four training rewards. No acquisition details beyond the existing mentor route were changed. 2026-09-22 batch verification: acquisition/classification evidence was rechecked from the existing repository research trail; unresolved reward probabilities and detailed combat measurements remain explicitly bounded. 2026-09-23 P1 provenance refresh: maintained repository research and current exact-name evidence were rechecked for identity, classification, acquisition endpoint, and evidence boundaries; existing conflicts and unresolved numerical mechanics are preserved, and no unsupported probability, prerequisite, timer, frame data, stacking cap, or damage value is inferred.",
       "id": "skill-time-skip-jump-spike",
       "source_mentor": [
         "mentor-hit"
-      ]
+      ],
+      "pve_notes": "A forward-rushing Strike Super with documented Strike immunity during the rush and chargeable travel distance.",
+      "pvp_notes": "The rush's Strike immunity and adjustable travel distance affect approach and timing; exact frame data and hidden interactions remain unresolved."
     },
     {
       "name": "Time Skip/Tremor Pulse",
