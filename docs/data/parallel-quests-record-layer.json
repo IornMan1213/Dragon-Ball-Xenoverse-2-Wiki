@@ -183,6 +183,54 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ]
+    },
+    {
+      "id": "pq-029",
+      "number": 29,
+      "name": "The Androids Attack",
+      "difficulty": 4,
+      "objectives": [
+        "Defeat Androids 16, 17, and 18",
+        "Clear with Cell's health over 50%",
+        "Defeat Piccolo"
+      ],
+      "ultimate_finish": "Keep Cell above 50% health, defeat the Androids, then defeat Piccolo.",
+      "enemies": [
+        "Android 16",
+        "Android 17",
+        "Android 18",
+        "Cell",
+        "Piccolo"
+      ],
+      "rewards": [
+        "1480 Zeni",
+        "Aura Shard",
+        "I'll use all my strength to kill you.",
+        "Android 18's Clothes (Vest & Pants)",
+        "Freedom Kick",
+        "Energy Field"
+      ],
+      "skill_rewards": [
+        "Freedom Kick",
+        "Energy Field"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-008",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical PQ batch explicitly lists Android 18's Clothes (Vest & Pants) as an equipment reward; exact drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I'll use all my strength to kill you."
+      ],
+      "dragon_ball_farming": false,
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
     }
   ],
   "record_fields": []
