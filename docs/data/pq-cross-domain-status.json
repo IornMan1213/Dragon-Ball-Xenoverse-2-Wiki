@@ -31,9 +31,9 @@
     "remaining_unresolved_source_only_entries": 0
   },
   "current_counts": {
-    "skill": 236,
-    "super_soul": 137,
-    "equipment": 125,
+    "skill": 248,
+    "super_soul": 135,
+    "equipment": 127,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -62,7 +62,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 852,
+    "total_edges": 840,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
@@ -147,9 +147,9 @@
     },
     "counts": {
       "forward": {
-        "skill": 248,
-        "super_soul": 135,
-        "equipment": 127,
+        "skill": 236,
+        "super_soul": 137,
+        "equipment": 125,
         "character": 247,
         "dlc": 88,
         "farming": 7
