@@ -5442,3 +5442,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the post-recovery current-evidence frontier with the next genuinely stale canonical records, then reconcile any safe field-level promotions into the canonical layer.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 529
+- [x] Continued past Batch 528 into the next genuinely stale Other Evasive cohort.
+- [x] Refreshed **Armored Boost, Backflip, Candy Beam (Evasive), and Science Vanish**.
+- [x] Preserved the Candy Beam Evasive/Super distinction and Science Vanish's cast-exclusive status rather than inferring player acquisition.
+- [x] Preserved bounded mechanics only; no unsupported frames, hidden conditions, scaling, or probabilities were introduced.
+- [x] Added `docs/data/skill-research-batches/skill-batch-529.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 529 and reconcile any directly supported field-level improvements.
