@@ -57,6 +57,6 @@ def main():
    if item["match"]=="alias": aliases.append(item)
  report=json.loads(REPORT.read_text(encoding="utf-8")) if REPORT.exists() else {}
  report.update({"schema_version":"2.0","generated_by":"scripts/validate_pq_skill_links.py","generated_at":"2026-09-28","source_dataset":"docs/data/pq-reward-relationships.json","canonical_skill_dataset":"docs/data/skills.json","canonical_skill_records":canonical_skill_count,"linked_skill_rewards":len(links),"alias_matches":aliases,"unresolved":unresolved,"status":"resolved" if not unresolved else "unresolved_links","unique_forward_relationships":len(rows),"resolved_skill_rewards":links})
- REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8"); if len(links) != 248:\n  raise SystemExit(f"expected 248 resolved canonical PQ-skill links in recovered live state, found {len(links)}")\n print(f"Validated {len(links)} canonical PQ-skill links; aliases={len(aliases)}; unresolved={len(unresolved)}")
+ REPORT.write_text(json.dumps(report,indent=2,ensure_ascii=False)+"\n",encoding="utf-8")\n if len(links) != len(rows):\n  raise SystemExit(f"PQ-skill relationship projection mismatch: {len(rows)} forward rows but {len(links)} resolved canonical links")\n print(f"Validated {len(links)} canonical PQ-skill links; aliases={len(aliases)}; unresolved={len(unresolved)}")
  return 0 if not unresolved else 1
 if __name__=="__main__": raise SystemExit(main())
