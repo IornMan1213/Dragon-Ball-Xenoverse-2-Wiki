@@ -5999,3 +5999,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved character-feature relationships as non-reward data.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ71-PQ80 canonical-first reward projection/reconciliation.
+
+
+### 2026-09-28 continuation — PQ71-PQ80 recovery-forward reconciliation
+- [x] Restored four canonical-backed equipment projections in maintained PQ records: PQ72, PQ73, PQ76, PQ79.
+- [x] Verified zero missing canonical skill relationships across PQ71-PQ80.
+- [x] Preserved Qipao (CC) and Whis Symbol Gi as unresolved reward-boundary items rather than inventing canonical links.
+- [x] Added/indexed batch-563 reconciliation audit.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ81-PQ90 canonical-first reward projection/reconciliation.
