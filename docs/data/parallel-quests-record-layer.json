@@ -423,6 +423,13 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
         }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-028",
+          "relationship": "historical_conflict",
+          "evidence_note": "Historical source conflict reports Yamcha's Sword for PQ29; current explicit reward-table evidence instead supports PQ36. Conflict retained without promotion."
+        }
       ]
     },
     {
@@ -686,6 +693,13 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-028",
+          "relationship": "reward",
+          "evidence_note": "Explicit PQ36 reward table lists Yamcha's Sword; exact drop mechanics remain unresolved."
+        }
       ]
     },
     {
@@ -1562,7 +1576,14 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-012",
+          "relationship": "historical_conflict",
+          "evidence_note": "Explicit reward table lists Goku Wig (Super Saiyan); canonical record retains PQ18 as the historical route pending reconciliation."
+        }
+      ]
     },
     {
       "id": "pq-064",
@@ -5396,8 +5417,8 @@
       "accessory_links": [
         {
           "accessory_id": "acc-012",
-          "relationship": "research_acquisition_association",
-          "evidence_note": "Canonical accessory research retains PQ18 as the documented route; a conflicting PQ63 historical report remains unresolved and is not treated as a second canonical route."
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical historical route retained; PQ63 conflict remains separate."
         }
       ]
     },
