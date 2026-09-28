@@ -4435,3 +4435,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Restored 0 missing canonical PQ records across PQ41-100 from maintained batch data.
 - [x] 2026-09-27: Audited PQ41-100 equipment rewards against canonical equipment; no additional exact-name equipment matches were found, so no speculative links were added.
 - [ ] Continue canonical PQ restoration through the remaining maintained batches (PQ101+).
+
+
+- [x] 2026-09-27: Verified the recovered canonical Parallel Quest record layer contains all 186 PQ records; corrected the recovery checkpoint baseline from stale 10 to 186.
+- [x] 2026-09-27: Reconciled QQ Bang component identities after recovery: Bardock Battle Suit → equip-024; Beerus upper-body naming variants → equip-101; Beerus Clothes (Lower Body) → new canonical equip-110.
+- [x] 2026-09-27: Added bidirectional QQ Bang ↔ equipment links for the newly reconciled component identities and recorded the evidence boundary in docs/data/qq-bang-equipment-component-reconciliation-2026-09-27.json.
+- [ ] 2026-09-27: Continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; do not invent unresolved clothing stats/acquisition routes.
