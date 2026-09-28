@@ -4423,3 +4423,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Restored 0 missing canonical PQ records from maintained PQ41-100 batches.
 - [x] 2026-09-27: Added 0 exact-name bidirectional PQ↔equipment links during PQ41-100 restoration.
 - [ ] Continue canonical PQ restoration through PQ101-186 maintained batches; preserve unresolved identities and conflicts.
+
+- [x] 2026-09-27: Audited/restored PQ101-186 against all maintained PQ batches; 0 missing canonical records restored and 0 exact-name equipment links added.
+- [ ] Continue post-restoration integrity audit across the full canonical PQ layer and unresolved reward identities.
