@@ -41,7 +41,13 @@
         "https://dbxv2.fandom.com/wiki/Equipment",
         "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html"
       ],
-      "pq_links": []
+      "pq_links": [
+        {
+          "pq_id": "pq-093",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical accessory/PQ bridge matches Pan's Bandana to PQ93; the route remains partially verified and does not assert a guaranteed drop rate."
+        }
+      ]
     },
     {
       "id": "acc-003",
