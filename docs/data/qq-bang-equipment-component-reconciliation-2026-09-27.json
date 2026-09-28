@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "purpose": "Evidence-bounded reconciliation of explicit QQ Bang clothing component names against the canonical equipment layer after post-corruption recovery.",
+  "source_policy": "Canonical equipment identities remain authoritative; observed/index/projection layers may identify missing explicit inputs but cannot supply unverified stats or acquisition routes.",
+  "changes": [
+    {
+      "qq_bang_id": "qq-research-002",
+      "input": "Bardock Battle Suit",
+      "canonical_equipment_id": "equip-024",
+      "reason": "Naming variant of canonical Battle Suit (Bardock); no new equipment identity required."
+    },
+    {
+      "qq_bang_id": "qq-observed-prima-013",
+      "input": "Beerus Clothes (Upper Body)",
+      "canonical_equipment_id": "equip-101",
+      "reason": "Explicit upper-body Beerus component is represented by canonical Beerus Top identity; alias link added without duplicating the record."
+    },
+    {
+      "qq_bang_id": "qq-observed-prima-013",
+      "input": "Beerus Clothes (Lower Body)",
+      "canonical_equipment_id": "equip-110",
+      "reason": "Distinct lower-body component is explicitly named in the observed recipe source; new identity stub added with unresolved stats/acquisition."
+    },
+    {
+      "qq_bang_id": "qq-observed-prima-014",
+      "input": "Beerus Clothes (Upper Body)",
+      "canonical_equipment_id": "equip-101",
+      "reason": "Explicit component alias mapped to existing canonical Beerus Top identity."
+    },
+    {
+      "qq_bang_id": "qq-observed-steam-001",
+      "input": "Beerus clothing (upper body)",
+      "canonical_equipment_id": "equip-101",
+      "reason": "Upper-body naming variant mapped to existing canonical Beerus Top identity."
+    }
+  ],
+  "unresolved": [
+    "qq-observed-prima-013 and qq-observed-prima-014 do not establish lower-body stats or acquisition mechanics.",
+    "The incomplete clothing input in qq-observed-013 remains intentionally unresolved.",
+    "No deterministic QQ Bang output was inferred from recipe-family evidence."
+  ],
+  "counts": {
+    "qq_bang_records": 23,
+    "equipment_records_before": 109,
+    "equipment_records_after": 110
+  }
+}
