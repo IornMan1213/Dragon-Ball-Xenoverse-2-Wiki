@@ -5703,3 +5703,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/unrepresented-pq-typed-reward-cross-domain-audit-2026-09-28.json` documenting the current evidence boundary and unresolved PQ35/PQ48 issues.
 - [x] Commits: `7106fbc3f42fd758422ba29d5f5ff789364f8793`, `be5815ee8022ba65ada0f4d14e14173e3386afa7`.
 - [ ] **Exact next:** continue canonical accessory/equipment identity reconciliation for the remaining unrepresented-PQ research leads, then validate cross-domain indexes before considering any new PQ skill endpoint.
+
+### 2026-09-28 continuation — 16-PQ typed-reward coverage audit
+- [x] Audited the remaining 16 PQs without explicit canonical skill endpoints against the current typed reward relationship layer and accessory/equipment research evidence.
+- [x] Confirmed substantial non-skill coverage already exists for PQ30, 47, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169, and 170; no duplicate canonical relationships were promoted.
+- [x] Preserved research-only evidence such as Z-Sword→PQ35 and conflicting skill evidence for PQ48 rather than converting it into unsupported canonical relationships.
+- [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json`.
+- [x] Commit: `187d12f868095a8c05d6dca1311d1c7552ac6d53`.
+- [ ] **Exact next:** inspect the canonical accessory/equipment bridge artifacts for PQ1/PQ35/PQ48 and determine whether any existing canonical identity has explicit item-level evidence strong enough for a safe relationship promotion; otherwise document those as unresolved research boundaries.
