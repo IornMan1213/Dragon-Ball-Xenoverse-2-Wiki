@@ -2792,7 +2792,8 @@
     "pq_91_100_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-91-100-cross-domain-reconciliation-2026-09-28.json",
     "pq_101_110_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-101-110-cross-domain-reconciliation-2026-09-28.json",
     "pq_111_120_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-111-120-cross-domain-reconciliation-2026-09-28.json",
-    "pq_121_130_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-121-130-cross-domain-reconciliation-2026-09-28.json"
+    "pq_121_130_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-121-130-cross-domain-reconciliation-2026-09-28.json",
+    "pq_131_140_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-131-140-cross-domain-reconciliation-2026-09-28.json"
   },
   "skill_research_batch_541": "docs/data/skill-research-batches/skill-batch-541.json",
   "skill_research_batch_543": "docs/data/skill-research-batches/skill-batch-543.json",
@@ -2811,5 +2812,6 @@
   "pq_31_40_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-31-40-cross-domain-reconciliation-2026-09-28.json",
   "pq_23_26_skill_reward_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-23-26-skill-reward-reconciliation-2026-09-28.json",
   "pq_41_50_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-41-50-cross-domain-reconciliation-2026-09-28.json",
-  "pq_reward_boundary_audit_568": "docs/data/pq-reward-boundary-audits/pq-121-130-cross-domain-reconciliation-2026-09-28.json"
+  "pq_reward_boundary_audit_568": "docs/data/pq-reward-boundary-audits/pq-121-130-cross-domain-reconciliation-2026-09-28.json",
+  "pq_reward_boundary_audit_569": "docs/data/pq-reward-boundary-audits/pq-131-140-cross-domain-reconciliation-2026-09-28.json"
 }
