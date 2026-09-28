@@ -6358,3 +6358,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added 6 Chapter 3 skill-level provenance mappings: Chaotic Time Impact, Dark Inscription, Emperor's Cannon, Gigantic Cross, Gigantic Nova, and Saiyan Blaster.
 - [x] Bound Chapter 3 mapping to the official event announcement plus a named independent skill catalog; no release/version date was inferred from research dates.
 - [ ] **Next:** map Future Saga Chapter 4 and DAIMA Pack individual skills using the same evidence-bound method.
+
+
+### 2026-09-28 continuation — Future Saga Chapter 4 provenance
+- [x] Added 4 Chapter 4 skill-level release-event mappings: Dragon Spiral, Indomitable, The Power to Overcome, and Venus Fist.
+- [x] Used the official Bandai Namco Chapter 4 DLC page to establish the four-move event scope; the canonical records identify the individual four Chapter 4 moves.
+- [x] Explicitly treated this as release-event scope, not an inferred patch/version date.
+- [ ] **Next:** audit the DAIMA Pack individual skills and then reconcile Chapter 4 named character/move evidence where available.
