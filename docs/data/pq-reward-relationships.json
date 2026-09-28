@@ -6378,6 +6378,14 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Canonical accessory layer and canonical bridge explicitly identify SSGSS Goku Wig with PQ76; exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-155",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gamma 2's Helmet",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Canonical accessory record acc-056 and accessory/PQ research record pqacc-044 identify Gamma 2's Helmet with PQ155; exact reward/drop condition remains separate."
     }
   ],
   "normalization_rules": [
@@ -6394,13 +6402,13 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 135,
+    "pq_rewards_equipment": 136,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 861
+    "total": 862
   },
   "last_reconciled_scope": "2026-09-28 PQ48 Kamekameha/Kamehameha typed-skill reward reconciliation",
   "notes": [
