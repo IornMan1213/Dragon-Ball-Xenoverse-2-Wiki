@@ -896,6 +896,43 @@
           "equipment_id": "equip-104"
         }
       ]
+    },
+    {
+      "id": "qq-observed-017",
+      "record_type": "observed_output",
+      "name": "Beerus Clothing Top + 4-Star Dragon Ball Top observed 6-star output",
+      "stars": 6,
+      "health": -1,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": 4,
+      "strike_supers": 3,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Clothing Top + 4-Star Dragon Ball Clothing Top",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Observed community 6-star QQ Bang craft report",
+      "rng_notes": "Secondary player-reported output. The source identifies the clothing inputs and Super Mix Capsule Z but does not establish a deterministic recipe; QQ Bang synthesis remains RNG-dependent.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Ki + Stamina",
+        "Ki Blast-focused"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-28",
+      "sources": [
+        "https://www.reddit.com/r/dbxv/comments/s6i8l0"
+      ],
+      "equipment_links": [
+        {
+          "input": "Beerus Clothing Top",
+          "equipment_id": "equip-101"
+        },
+        {
+          "input": "4-Star Dragon Ball Clothing Top",
+          "equipment_id": "equip-108"
+        }
+      ]
     }
   ],
   "last_updated": "2026-09-28",
