@@ -286,8 +286,8 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Nappa mentor training — Lesson 1",
-      "mechanics_notes": "100-Ki Strike Super. The user pulls the right arm back and rushes forward with a lariat that breaks an opponent's guard on contact. Holding the input extends travel to about 1.5 times the base distance. Current skill documentation reports about 20% damage; the value is retained as source-reported rather than universal.",
-      "last_verified": "2026-09-27",
+      "mechanics_notes": "100-Ki Strike Super from Nappa. Holding the input extends travel distance and increases power; full charge can break an opponent's guard. Current Xenoverse 2 documentation identifies Nappa's Lesson 1 training as the acquisition endpoint and notes Bardock/Turles custom-partner availability after Partner Customization purchase.",
+      "last_verified": "2026-09-28",
       "race_restriction": "All CaC races",
       "source_quest": "Nappa mentor training — Lesson 1",
       "dlc_requirement": "Base Game",
@@ -297,7 +297,9 @@
       "source_mentor": [
         "mentor-nappa"
       ],
-      "ki_cost": 100
+      "ki_cost": 100,
+      "pve_notes": "The charge mechanic allows the move to trade time for reach and power; the guard-breaking full-charge property is useful against blocking targets when sufficient setup is available.",
+      "pvp_notes": "Variable travel distance and charge strength create distinct timing states; the full-charge guard break is documented, while exact startup, release windows, and frame data remain unresolved."
     },
     {
       "name": "Assault Rain",
@@ -6916,7 +6918,7 @@
       "name": "God Breaker",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_Breaker",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -6931,14 +6933,16 @@
       "source_quest_or_shop": "Parallel Quest 44 — \"Dragon Balls of the Future\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Base Game",
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Current evidence confirms God Breaker as a 100-Ki Ki Blast Super from PQ44 and a Strike counter. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races. 2026-09-23 refresh: preserved the 100-Ki Ki Blast Super/counter classification and PQ44 route. No narrower CaC race/gender/form restriction is inferred.",
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "100-Ki Ki Blast Super strike counter from PQ44. The user poses for incoming Strike/basic melee attacks, then stuns and fires a yellow blast at the triggering opponent; current documentation notes broad active coverage and that the blast may be vanished.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 provenance reconciliation: current maintained PQ44 reward evidence explicitly lists God Breaker in the Basic Reward set. Dedicated skill documentation describes PQ44 acquisition but does not establish an Ultimate Finish-only gate. Older community reports describe the acquisition as RNG, so exact individual reward-slot probability remains unresolved; the canonical record now uses the explicit Basic Reward classification without inferring a probability. 2026-09-22 verification refresh: revalidated against the repository's maintained skill/PQ/mentor provenance corpus; existing evidence conflicts and unresolved mechanics are preserved.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-27 Batch 520 current-evidence refresh: Current dedicated evidence reconfirms the 100-Ki Ki Blast Strike Counter from PQ44. The counter activates against strike/melee attacks, including grabs, then stuns and fires a yellow blast; no narrower CaC restriction or reward probability is inferred. No unsupported exact frames, patch-independent scaling, hidden conditions, or reward probabilities were promoted.",
       "id": "skill-god-breaker",
       "source_parallel_quests": [
         44
-      ]
+      ],
+      "pve_notes": "Functions as a reactive counter against close-range Strike/basic melee attacks and can convert a successful trigger into a ranged blast.",
+      "pvp_notes": "Its counter trigger rewards correctly reading incoming Strike/basic melee attacks; the resulting blast can be vanished, providing documented counterplay. Exact active timing and hidden interaction rules remain unresolved."
     },
     {
       "name": "God of Destruction's Anger",
@@ -7466,10 +7470,10 @@
       "source_quest_or_shop": "Parallel Quest 69 — \"God of Destruction and His Master\"",
       "ultimate_finish_required": false,
       "skill_description": "Headshot is a 300-Stamina Strike Evasive associated with Beerus.",
-      "mechanics_notes": "Current Xenoverse 2 evidence reconfirms Headshot as Beerus's 300-Stamina Strike Evasive from PQ69. The user flicks the opponent with a close-range single hit that knocks them away; current skill documentation records about 10% damage. Current reward evidence places Headshot in PQ69 Basic Reward, with no Ultimate Finish-only gate established. 2026-09-25 current-evidence refresh: current skill-specific and independent Dragon Ball references reconfirm Beerus attribution, Strike Evasive classification, 300-Stamina cost, PQ69 endpoint, and knockback behavior; the source-reported 10% damage value is retained as source-specific rather than generalized.",
+      "mechanics_notes": "300-Stamina Strike Evasive from PQ69. Beerus plants himself and flicks the opponent with a single close-range forehead strike, knocking the target away. Current documentation reports about 10% source-reported damage; this is retained as bounded evidence rather than a universal balance constant.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Headshot",
@@ -7484,7 +7488,9 @@
       "id": "skill-headshot",
       "source_parallel_quests": [
         69
-      ]
+      ],
+      "pve_notes": "Provides an evasive option that can also create separation through its close-range hit; exact invulnerability and recovery timing remain unresolved.",
+      "pvp_notes": "The close-range strike can punish an opponent who is already committed to a nearby attack, but exact startup/active/recovery and hidden interaction rules remain unresolved."
     },
     {
       "name": "Heat Dome Attack",
@@ -9880,7 +9886,7 @@
       "name": "Phantom Fist",
       "class": "Super",
       "subcategory": "Other",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category:Other_Supers",
         "https://dbxv2.fandom.com/wiki/Phantom_Fist",
@@ -9893,8 +9899,8 @@
       "race_restriction": "All CaC races",
       "source_quest_or_shop": "Parallel Quest 97 — \"Insidious Plot\"",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Confirmed as a 100-Ki Other Super from PQ97, usable by all CaC races. The technique feints/teleports behind the opponent before striking; timing and follow-up behavior remain implementation-sensitive. UF audit 2026-09-19: maintained PQ reward guide explicitly lists this skill under Basic Reward, separate from the quest's Ultimate Finish conditions.",
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "100-Ki Other Super obtained from PQ97. The move behaves like Afterimage: incoming attacks pass through the afterimage and the user reappears elsewhere; successful evasion restores about 100 Stamina according to current skill documentation. Xenoverse 2 documentation also records Hit, Mira, Frost and Fu among users/skillset contexts.",
       "source_quest": 97,
       "dlc_requirement": "Base Game",
       "acquisition_type": "quest_or_mission",
@@ -9902,7 +9908,9 @@
       "id": "skill-phantom-fist",
       "source_parallel_quests": [
         97
-      ]
+      ],
+      "pve_notes": "Provides an evasive repositioning tool against incoming attacks; the documented Stamina restoration makes a successful evade materially useful, but the source-reported amount is not treated as a universal patch-independent value.",
+      "pvp_notes": "The afterimage/reposition behavior can evade committed attacks and alter spacing; exact startup, active, recovery, and target-selection behavior remain unresolved."
     },
     {
       "name": "Photon Swipe",
