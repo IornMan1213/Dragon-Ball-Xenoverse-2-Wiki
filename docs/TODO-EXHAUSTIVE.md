@@ -5925,3 +5925,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Beast and the 6 DAIMA Pack mappings remain correctly separated from free-update provenance.
 - [x] Added `docs/data/skill-research-batches/skill-batch-554.json`; no canonical skills or unsupported IDs were changed.
 - [ ] **Next:** strengthen the six Chapter 3 and four Chapter 4 mappings with primary-source named-move evidence where available.
+
+
+### 2026-09-28 continuation — Future Saga Chapter 3/4 provenance batch 555
+- [x] Strengthened all 6 Chapter 3 skill mappings with the official Chapter 3 release source while retaining independent named-skill evidence.
+- [x] Reconciled all 4 Chapter 4 mappings from the announcement event to the released Chapter 4 event.
+- [x] Added the July 8, 2026 Dragon Ball Official Site release confirmation for Chapter 4.
+- [x] Preserved evidence tiers; official release articles establish the DLC/event while independent sources provide individual move names where needed.
+- [x] Added `docs/data/skill-research-batches/skill-batch-555.json` and updated the authoritative provenance registry.
+- [x] Canonical skill records and IDs remain unchanged.
+- [ ] Next: continue primary-source named-move research where explicit evidence exists, then advance to the next unresolved provenance or cross-domain enrichment frontier.
