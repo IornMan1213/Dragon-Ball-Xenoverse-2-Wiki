@@ -5006,3 +5006,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Replaced the obsolete fixed 840 assertion with a structural check that the actual relationship total equals the canonical `current_counts` total.
 - [x] Commit: `6d190d6805999ea16d6f30bed8be3821ceeec8e2`.
 - [ ] **Exact next:** continue searching for remaining frozen recovery-era baselines and stale generated audits, then resume substantive cross-domain coverage expansion.
+
+### 2026-09-28 continuation — skill→PQ reverse-index stale-count hardening
+- [x] Continued code-search audit and found `scripts/validate_skill_pq_crosslinks.py` still froze the recovered skill corpus at 493 skills, 248 skill→PQ edges, and 170 represented PQs.
+- [x] Removed those historical fixed-count assumptions. The validator now derives the canonical skill count, edge count, and represented-PQ count from `docs/data/skills.json` and compares the checked-in reverse artifact against that deterministic projection.
+- [x] Preserved the explicit PQ range (1–186), canonical ID/schema checks, reverse-index projection parity, and generated-date contract; no canonical skill records were modified.
+- [x] Commits: `8a2d4bead1b1de78974fc83ceb712ec5d7afd51d` (initial hardening) and `67f3b7e35cb1175967a52de610b743cb39329ab9` (ordering correction so derived counts are computed before reverse-artifact comparison).
+- [ ] **Exact next:** continue the remaining validator/audit search for stale fixed baselines, then resume substantive restored-database coverage.
