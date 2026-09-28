@@ -3272,6 +3272,11 @@
           "qq_id": "qq-observed-prima-012",
           "input": "Broly Clothes",
           "relationship": "recipe_input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-012",
+          "relationship": "recipe_input",
+          "evidence_note": "Exact QQ Bang recipe input 'Broly Clothes' was reconciled to canonical equip-112; recipe output remains RNG."
         }
       ]
     }
