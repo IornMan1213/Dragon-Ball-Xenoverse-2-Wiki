@@ -114,6 +114,12 @@
       "sources": [
         "https://www.youtube.com/watch?v=XBy_oawrYnk",
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/kztvqf/qq_bang_tips/"
+      ],
+      "equipment_links": [
+        {
+          "input": "Battle Suit (Bardock)",
+          "equipment_id": "equip-024"
+        }
       ]
     },
     {
@@ -259,6 +265,12 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ],
+      "equipment_links": [
+        {
+          "input": "Battle Suit (Bardock)",
+          "equipment_id": "equip-024"
+        }
       ]
     },
     {
@@ -427,6 +439,16 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://www.youtube.com/watch?v=XBy_oawrYnk"
+      ],
+      "equipment_links": [
+        {
+          "input": "Goku Black clothing",
+          "equipment_id": "equip-010"
+        },
+        {
+          "input": "Super Saiyan 4 Goku clothing",
+          "equipment_id": "equip-011"
+        }
       ]
     },
     {
@@ -453,6 +475,12 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://www.youtube.com/watch?v=XBy_oawrYnk"
+      ],
+      "equipment_links": [
+        {
+          "input": "Battle Suit (Bardock)",
+          "equipment_id": "equip-024"
+        }
       ]
     },
     {
@@ -506,6 +534,12 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/app/454650/discussions/0/217691032448171443/"
+      ],
+      "equipment_links": [
+        {
+          "input": "Beerus Top",
+          "equipment_id": "equip-101"
+        }
       ]
     },
     {
@@ -558,6 +592,16 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ],
+      "equipment_links": [
+        {
+          "input": "Pikkon's clothing",
+          "equipment_id": "equip-102"
+        },
+        {
+          "input": "Towa's clothing",
+          "equipment_id": "equip-103"
+        }
       ]
     },
     {
@@ -584,6 +628,16 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ],
+      "equipment_links": [
+        {
+          "input": "Pikkon's clothing",
+          "equipment_id": "equip-102"
+        },
+        {
+          "input": "Towa's clothing",
+          "equipment_id": "equip-103"
+        }
       ]
     },
     {
@@ -610,6 +664,16 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ],
+      "equipment_links": [
+        {
+          "input": "Pikkon's clothing",
+          "equipment_id": "equip-102"
+        },
+        {
+          "input": "Future Trunks clothing",
+          "equipment_id": "equip-104"
+        }
       ]
     }
   ],
@@ -662,12 +726,19 @@
         "https://steamcommunity.com/app/454650/discussions/0/2916598577618776811/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Cross-domain link pass attached canonical equipment identifiers to 8 QQ Bang records where input names could be matched without guessing. Unresolved names remain explicitly unlinked.",
+      "sources": [
+        "docs/data/equipment-record-layer.json"
+      ]
     }
   ],
   "research_frontier": {
     "last_cycle": "2026-09-27",
     "promoted_observed_vectors": 16,
     "total_records": 23,
-    "next_target": "reconcile observed vectors with canonical clothing/equipment records and continue version-aware Super Mix Capsule Z/material provenance"
+    "next_target": "complete canonical clothing identifier coverage for remaining QQ Bang inputs, then version-aware Super Mix Capsule Z/material provenance"
   }
 }
