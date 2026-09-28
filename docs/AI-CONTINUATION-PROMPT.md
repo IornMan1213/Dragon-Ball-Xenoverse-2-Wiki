@@ -6480,3 +6480,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-551.json` documenting the negative ID reconciliation result.
 - [x] Preserved the no-inference rule: no IDs derived from names, preset positions, mod filenames, or guessed numbering; `skills.json` remains unchanged.
 - [ ] **Next:** advance to the next unresolved canonical enrichment field while retaining these four identities in the recovery layer; revisit ID recovery only if an exact historical/structured identifier source becomes available.
+
+
+### 2026-09-28 continuation — PQ1 typed-reward boundary closure batch 552
+- [x] Re-examined the post-recovery audit's apparent PQ1 typed-reward gap against the authoritative PQ research record.
+- [x] Confirmed **PQ1 — Being a Time Patroller** documents only `120 Zeni` and `Energy Capsule S`; it has no documented skill, Super Soul, or equipment reward.
+- [x] Added `docs/data/pq-reward-boundary-audits/pq-1-typed-reward-boundary-2026-09-28.json` documenting this as an intentional zero-typed-reward boundary.
+- [x] Updated `docs/data/post-corruption-database-recovery-audit-2026-09-28.json` so PQ1 is no longer reported as a missing typed relationship endpoint.
+- [x] Indexed the boundary audit in `docs/data/pq-cross-domain-index.json`.
+- [x] Created **zero** new reward relationships; no unsupported edge was invented.
+- [ ] **Next:** continue substantive cross-domain enrichment and explicit version/provenance research, while preserving intentional zero-reward boundaries separately from missing-data gaps.
