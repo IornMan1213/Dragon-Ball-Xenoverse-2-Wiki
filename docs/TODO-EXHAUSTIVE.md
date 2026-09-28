@@ -5816,3 +5816,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed the current canonical skills store exposes only one explicitly Festival-labeled skill record (`Galaxy Breaker (Festival)`).
 - [x] Recorded the discrepancy as an open canonical-data gap rather than inventing three skill IDs.
 - [ ] **Next:** research the 4th Festival of Universes reward schedule to identify the four named Festival skills and reconcile them to canonical IDs; then continue Chapter 4 named-move evidence.
+
+
+### 2026-09-28 continuation — Free Update 20 Budokai Festival skill gap
+- [x] Found official Bandai Namco Free Update 20 documentation confirming **exactly 4 Budokai Festival skills** were added.
+- [x] Confirmed the accessible official text does not name those four skills individually.
+- [x] Audited canonical `skills.json`: only `Galaxy Breaker (Festival)` is explicitly represented as a Festival skill; no safe basis exists to invent three additional IDs/names.
+- [x] Recorded a dedicated evidence gap requiring recovery from authoritative screenshots/video or a reliable independent catalog.
+- [ ] **Next:** recover the four names, match them to canonical IDs, and assign provenance only after identity reconciliation.
