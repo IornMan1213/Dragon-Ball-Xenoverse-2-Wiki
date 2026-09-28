@@ -5603,3 +5603,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the live recovery baseline to 858 edges.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: continue remaining accessory candidates only where canonical identity is established; keep Gine, Kale, Caulifla, Android 17 Ranger, and Android 15 Sunglasses unresolved until direct identity evidence exists. Then resume mechanics/acquisition and bidirectional enrichment.
+
+
+### 2026-09-28 continuation — Accessory/PQ reconciliation batch
+- [x] Promoted **Android 13's Hat→PQ105** and **Android 17 (DB Super) Wig→PQ152** as source-backed canonical equipment relationships using explicit reward-listing evidence and existing canonical identities.
+- [x] Preserved the separate **Android 17 (DB Super)'s Ranger Accessory** component identity; no merge was made.
+- [x] Reconciled stale candidate-queue statuses where canonical equipment relationships already existed, avoiding duplicate relationship creation.
+- [x] Current canonical PQ relationship store is now **860 edges**: 249 Skill, 135 Super Soul, 134 Equipment, 247 Character, 88 DLC, 7 Farming.
+- [x] Updated the live recovery baseline and PQ status/audit projections.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue only with remaining candidates having direct canonical identity evidence; preserve Great Saiyaman Bandana variants, Android 15 Sunglasses, Gine/Kale/Caulifla accessories, and Android 17 Ranger Accessory as unresolved until inventory-level evidence supports reconciliation. Then return to broader mechanics/acquisition enrichment.
