@@ -5798,3 +5798,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Repaired an accidental malformed recovery-checkpoint JSON edit by reconstructing it from the prior valid checkpoint and recording the new live 852-edge state.
 - [ ] Next: expand evidence-backed PQ reward coverage beyond the 248 Skill relationships, prioritizing unresolved/underrepresented reward fields while preserving the canonical-source rule and null/conflict boundaries.
 - [ ] Then reconcile equipment/QQ Bang and remaining reverse-index coverage, followed by cross-domain navigation validation.
+
+
+### 2026-09-28 continuation — Equipment/QQ Bang endpoint reconciliation
+- [x] Audited the equipment reverse projection against the live canonical PQ relationship layer and found stale projection metadata: 125 equipment edges versus 127 canonical forward edges.
+- [x] Synchronized `docs/data/pq-equipment-crosslink-report.json` to the live 127-edge state without changing canonical reward ownership.
+- [x] Confirmed the newly reconciled PQ12-14 equipment rewards are represented in the canonical forward layer and reverse equipment projection.
+- [x] Added `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json` documenting the endpoint boundary and QQ Bang identity/stat rules.
+- [x] Preserved QQ Bang uncertainty: observed vectors remain observations; unresolved clothing aliases are not inferred into canonical equipment links.
+- [ ] Next: audit equipment/accessory reverse navigation across all 127 equipment edges and reconcile unresolved QQ Bang input identities, then continue evidence-backed reward expansion.
