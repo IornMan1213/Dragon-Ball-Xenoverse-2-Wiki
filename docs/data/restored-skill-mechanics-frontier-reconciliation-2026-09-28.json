@@ -84,6 +84,71 @@
       ],
       "evidence": "docs/data/skill-research-batches/skill-batch-468.json",
       "status": "canonical_enriched_2026-09-28"
+    },
+    {
+      "skill_id": "skill-shooting-strike",
+      "name": "Shooting Strike",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 156",
+      "mechanics_boundary": "Ranged Gamma 1 ray-gun projectile followed on connection by a flying-kick follow-up; current repository evidence maintains the PQ156 endpoint and source-reported 10% damage.",
+      "unresolved": [
+        "startup timing",
+        "hit-confirm window",
+        "frame data",
+        "reward probability",
+        "patch-independent scaling"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-467.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-apocalyptic-burst",
+      "name": "Apocalyptic Burst",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "mechanics_boundary": "Ranged multi-stage Ki Blast Ultimate; current repository evidence confirms the staged burst behavior but does not establish a safe universal hit count, frame profile, scaling formula, or reward probability.",
+      "unresolved": [
+        "exact hit count",
+        "frame data",
+        "damage scaling",
+        "reward probability"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-477.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-time-skip-jump-spike",
+      "name": "Time Skip/Jump Spike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "mechanics_boundary": "Forward rush that strikes the target; holding input extends flight range. Current evidence also records Strike immunity during the rush and Hit-training provenance, while preserving the historical lesson-description naming issue.",
+      "unresolved": [
+        "exact startup/active/recovery frames",
+        "patch-independent scaling",
+        "training lesson naming resolution"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-472.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-gigantic-rage",
+      "name": "Gigantic Rage",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 200,
+      "acquisition": "Parallel Quest 130",
+      "mechanics_boundary": "Grab-and-slam sequence with five ground slams and hard knockdown on the final slam; source reports 15% total damage. Broly (Full Power Super Saiyan)'s use includes Super Armor, which is not generalized to Kale or Broly (DB Super).",
+      "unresolved": [
+        "exact frames",
+        "patch-independent scaling",
+        "reward probability",
+        "version-specific armor conditions"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-473.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
     }
   ],
   "validation": {
@@ -91,10 +156,10 @@
     "index_count": 493,
     "identity_scope": "These records already exist in the canonical corpus; this pass does not create duplicate identities.",
     "pq_boundary": "Acquisition endpoints are not converted into PQ reward edges unless explicit reward evidence exists.",
-    "mechanics_reconciliation": "Counter Burst canonical and index records updated together; 493-record corpus preserved."
+    "mechanics_reconciliation": "Batch 03 appended as evidence-only boundaries; no canonical mutation performed."
   },
   "next_frontier": [
-    "Continue remaining skill mechanics/acquisition gaps outside this five-record frontier.",
-    "Continue bidirectional PQ typed-reward reconciliation without inferring relationships from non-PQ acquisition endpoints."
+    "Continue mechanics evidence census on skills without current dedicated audits.",
+    "Reconcile explicit PQ typed-reward edges separately from skill acquisition endpoints."
   ]
 }
