@@ -6499,3 +6499,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-553.json` and synchronized the research/catalog indexes.
 - [x] Preserved the canonical-ID boundary for the four Festival skills; no unsupported IDs or version assignments were invented.
 - [ ] **Next:** audit the authoritative release registry against all 28 direct skill→event mappings and strengthen any weak event classification/source evidence.
+
+
+### 2026-09-28 continuation — Direct skill-event provenance audit batch 554
+- [x] Audited all **28 existing direct skill→release-event mappings** against `docs/data/game-content-version-provenance-registry.json`.
+- [x] Confirmed 4 Chapter 1 mappings are directly named by primary Dragon Ball Official evidence.
+- [x] Confirmed 7 Chapter 2 mappings are corroborated by official event evidence plus the maintained individual-skill catalog.
+- [x] Confirmed 6 Chapter 3 mappings remain catalog-supported with the Chapter 3 event itself established by the authoritative registry.
+- [x] Confirmed 4 Chapter 4 mappings remain independently corroborated through current skill/PQ evidence; no unsupported reassignment was made.
+- [x] Confirmed Beast and the 6 DAIMA Pack mappings remain correctly separated from free-update provenance.
+- [x] Added `docs/data/skill-research-batches/skill-batch-554.json`; no canonical skills or unsupported IDs were changed.
+- [ ] **Next:** strengthen the six Chapter 3 and four Chapter 4 mappings with primary-source named-move evidence where available.
