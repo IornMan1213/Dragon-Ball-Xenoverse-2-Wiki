@@ -1,0 +1,87 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 549,
+  "date": "2026-09-28",
+  "status": "complete",
+  "research_scope": "Recovery evidence audit for the four Free Update 20 / Budokai Festival skills whose names were recovered but whose canonical skill IDs are still absent from docs/data/skills.json.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "God Bind (Festival)",
+      "recovery_id": "festival-god-bind",
+      "character": "Goku (Super Saiyan God)",
+      "skill_class": "Super Attack",
+      "festival_character_mapping": "4th Festival of Universes",
+      "acquisition_evidence": "Festival character/camaraderie reward mapping identifies Goku (Super Saiyan God) with God Bind (Festival).",
+      "canonical_id": null,
+      "canonical_promotion": false,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Festival_of_Universes",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=2",
+        "https://www.patreon.com/Shukakussj/posts/daima-dlc-with-4-129617116"
+      ]
+    },
+    {
+      "name": "Egret Waltz (Festival)",
+      "recovery_id": "festival-egret-waltz",
+      "character": "Videl (DB Super)",
+      "skill_class": "Super Attack",
+      "festival_character_mapping": "4th Festival of Universes",
+      "acquisition_evidence": "Festival character/camaraderie reward mapping identifies Videl (DB Super) with Egret Waltz (Festival).",
+      "canonical_id": null,
+      "canonical_promotion": false,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Festival_of_Universes",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=2",
+        "https://www.patreon.com/Shukakussj/posts/daima-dlc-with-4-129617116"
+      ]
+    },
+    {
+      "name": "Gamma Force: Code-R (Festival)",
+      "recovery_id": "festival-gamma-force-code-r",
+      "character": "Gamma 1",
+      "skill_class": "Super Attack",
+      "festival_character_mapping": "4th Festival of Universes",
+      "acquisition_evidence": "Festival character/camaraderie reward mapping identifies Gamma 1 with Gamma Force: Code-R (Festival).",
+      "canonical_id": null,
+      "canonical_promotion": false,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Festival_of_Universes",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=2",
+        "https://www.patreon.com/Shukakussj/posts/daima-dlc-with-4-129617116"
+      ]
+    },
+    {
+      "name": "Gamma Force: Code-B (Festival)",
+      "recovery_id": "festival-gamma-force-code-b",
+      "character": "Gamma 2",
+      "skill_class": "Super Attack",
+      "festival_character_mapping": "4th Festival of Universes",
+      "acquisition_evidence": "Festival character/camaraderie reward mapping identifies Gamma 2 with Gamma Force: Code-B (Festival).",
+      "canonical_id": null,
+      "canonical_promotion": false,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Festival_of_Universes",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=2",
+        "https://www.patreon.com/Shukakussj/posts/daima-dlc-with-4-129617116"
+      ]
+    }
+  ],
+  "event_boundary": {
+    "free_update": "Free Update 20",
+    "free_update_version": "1.24.0",
+    "free_update_date": "2025-05-21",
+    "official_scope": "Bandai Namco's Free Update 20 announcement states that four Budokai Festival skills were included, but the accessible official text does not individually name them.",
+    "official_source": "https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
+    "festival_period_source": "https://dbxv2.fandom.com/wiki/Festival_of_Universes"
+  },
+  "validation": {
+    "names_recovered": 4,
+    "character_mappings_recovered": 4,
+    "canonical_records_promoted": 0,
+    "canonical_skill_json_changed": false,
+    "unsupported_ids_invented": 0,
+    "evidence_policy": "Independent catalogs/community evidence may establish a recovery identity, but cannot override or manufacture canonical skills.json records."
+  },
+  "next": "Recover the missing canonical skill IDs/full schema records from surviving historical/datamined/catalog evidence before any promotion. If no authoritative identifier survives, retain this evidence layer and continue other post-recovery database enrichment."
+}
