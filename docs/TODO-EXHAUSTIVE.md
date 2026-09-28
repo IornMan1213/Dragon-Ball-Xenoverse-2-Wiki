@@ -4667,3 +4667,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Synchronized docs/data/skill-catalog-audit.json to the live 493-record canonical corpus and current research frontier (Batch 526), while preserving the distinction between the 561-record indexed source universe and canonical truth.
 - [x] Preserved the canonical-source rule: indexed/catalog/research/projection layers are evidence or derived views only and cannot override docs/data/skills.json.
 - [ ] Next: audit the remaining skill catalog/index projections and deterministic skill↔character/mentor/partner relationships for stale counts, missing reverse endpoints, and duplicate identities; do not promote indexed-only records without direct evidence.
+
+
+## 2026-09-27 continuation — unmatched preset-skill evidence triage
+
+- [x] Triaged all **18 unique unmatched skill names / 45 preset skill-slot references** from the verified-preset canonical identity audit without mutating the authoritative skill corpus from preset/index evidence alone.
+- [x] Added `docs/data/character-preset-skill-evidence-triage-2026-09-27.json` with per-skill status and evidence boundaries.
+- [x] Identified **3 direct research candidates** for focused reconciliation: **Full Power Energy Wave**, **Galaxy Breaker (Festival)**, and **Recoome Eraser Gun**.
+- [x] Confirmed **Galaxy Breaker (Festival)** has explicit cast-only evidence in skill batch 264 and the unavailable-for-CaC catalog; it is not promoted into canonical `skills.json` yet because canonical corpus scope must be respected.
+- [x] Confirmed **Recoome Eraser Gun** has direct identity evidence in Batch 526, but acquisition/mechanics evidence remains insufficient for promotion.
+- [x] Confirmed **Full Power Energy Wave** has direct research evidence in Batch 275 establishing an Ultimate, 300 Ki, Skill Shop acquisition, and CaC usability; canonical promotion remains a separate controlled reconciliation step.
+- [ ] **Next:** reconcile the 3 direct candidates against canonical schema and current evidence, then research the remaining 15 unmatched names in batches. Preserve unresolved identity/acquisition fields rather than guessing.
