@@ -1,0 +1,68 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 541,
+  "date": "2026-09-28",
+  "status": "complete",
+  "scope": "Canonical acquisition enrichment of five previously identified skill records with missing acquisition endpoint metadata.",
+  "records": [
+    {
+      "name": "Backflip",
+      "skill_id": "skill-backflip",
+      "fields": [
+        "acquisition_type",
+        "source_quest_or_shop",
+        "dlc_requirement"
+      ]
+    },
+    {
+      "name": "Break Strike",
+      "skill_id": "skill-break-strike",
+      "fields": [
+        "acquisition_type",
+        "source_quest_or_shop",
+        "dlc_requirement"
+      ]
+    },
+    {
+      "name": "Consecutive Energy Blast",
+      "skill_id": "skill-consecutive-energy-blast",
+      "fields": [
+        "acquisition_type",
+        "source_quest_or_shop",
+        "dlc_requirement"
+      ]
+    },
+    {
+      "name": "Energy Wave Combo",
+      "skill_id": "skill-energy-wave-combo",
+      "fields": [
+        "acquisition_type",
+        "source_quest_or_shop",
+        "dlc_requirement"
+      ]
+    },
+    {
+      "name": "Super Back Jump",
+      "skill_id": "skill-super-back-jump",
+      "fields": [
+        "acquisition_type",
+        "source_quest_or_shop",
+        "dlc_requirement"
+      ]
+    }
+  ],
+  "evidence_sources": [
+    "https://dbxv2.fandom.com/wiki/Backflip",
+    "https://dbxv2.fandom.com/wiki/Break_Strike",
+    "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast",
+    "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+    "docs/data/skill-preset-evidence-reconciliation-batch-01-2026-09-27.json",
+    "docs/data/skill-preset-evidence-reconciliation-batch-04-2026-09-28.json"
+  ],
+  "evidence_boundary": "Only acquisition endpoint fields directly supported by current repository evidence and current skill references were added. Character/preset DLC appearances were not converted into CaC acquisition gates. No drop probabilities, Ultimate Finish conditions, or unsupported prerequisites were inferred.",
+  "validation": {
+    "canonical_records": 497,
+    "records_enriched": 5,
+    "remaining_records_with_any_target_gap": 15
+  }
+}
