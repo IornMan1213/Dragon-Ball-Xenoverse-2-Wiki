@@ -747,6 +747,13 @@
       "last_verified": "2026-09-16",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-013",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
+        }
       ]
     },
     {
@@ -795,6 +802,13 @@
       "last_verified": "2026-09-16",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-012",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
+        }
       ]
     },
     {
@@ -819,6 +833,13 @@
       "last_verified": "2026-09-16",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-025",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
+        }
       ]
     },
     {
@@ -867,6 +888,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-121",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
+        }
       ]
     },
     {
@@ -891,6 +919,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-121",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
+        }
       ]
     },
     {
