@@ -6123,3 +6123,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships or speculative technical values.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the post-PQ100 stale canonical frontier with the same duplicate-audit and evidence-boundary rules.
+
+
+### 2026-09-28 continuation — Post-recovery canonical skill promotion batch 537
+- [x] Revalidated the authoritative post-corruption skill blob and index before promotion: 493/493.
+- [x] Promoted four directly evidenced indexed-only Future Warrior skills: Divine Retribution, Final Shine Attack, Savage Strike, Sword of Hope.
+- [x] Synchronized canonical/index layers to 497/497.
+- [x] Added recovery-promotion audit + skill research Batch 537 and registered both in the cross-domain index.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: recompute the indexed-only skill frontier against the 497-record canonical corpus; continue evidence-backed restoration/promotion of genuinely canonical Future Warrior skills, then return to remaining mechanics/acquisition enrichment and PQ crosslink synchronization. Never treat indexed-only catalogs as authoritative and never infer cast-only/variant records into the canonical corpus without direct evidence.
