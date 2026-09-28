@@ -38,5 +38,179 @@
     "Shockwave"
   ],
   "remaining_unmatched": [],
-  "promotion_note": "The final unmatched Shockwave reference was promoted using existing repository research batch 134, which explicitly establishes its Super / Strike identity, 100 Ki cost, Skill Shop acquisition, CaC availability, and current provenance. No unsupported mechanics or probability fields were added."
+  "promotion_note": "The final unmatched Shockwave reference was promoted using existing repository research batch 134, which explicitly establishes its Super / Strike identity, 100 Ki cost, Skill Shop acquisition, CaC availability, and current provenance. No unsupported mechanics or probability fields were added.",
+  "research_reconciliation": {
+    "date": "2026-09-27",
+    "method": "Repository search for each unmatched preset skill name, followed by direct inspection of representative skill-research batches. Research/index layers are evidence only; no canonical identity is promoted from them without record-level reconciliation.",
+    "results": [
+      {
+        "name": "Super Galick Gun",
+        "status": "evidence_found_in_preset_and_related_skill_research",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-301.json",
+          "docs/data/skill-research-batches/skill-batch-287.json"
+        ],
+        "decision": "defer_canonical_promotion"
+      },
+      {
+        "name": "Sledgehammer",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-159.json",
+          "docs/data/skill-research-batches/skill-batch-463.json"
+        ],
+        "decision": "candidate_for_canonical_promotion"
+      },
+      {
+        "name": "Energy Wave Combo",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-265.json"
+        ],
+        "decision": "candidate_for_canonical_promotion"
+      },
+      {
+        "name": "Full Power Energy Wave",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-82.json",
+          "docs/data/skill-research-batches/skill-batch-275.json",
+          "docs/data/skill-research-batches/skill-batch-273.json",
+          "docs/data/skill-catalog-batches/unavailable-cac.json"
+        ],
+        "decision": "candidate_for_canonical_promotion"
+      },
+      {
+        "name": "Full Power Energy Blast Volley",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-253.json",
+          "docs/data/skill-research-batches/skill-batch-310.json"
+        ],
+        "decision": "candidate_for_canonical_promotion"
+      },
+      {
+        "name": "Super Back Jump",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-237.json"
+        ],
+        "decision": "candidate_for_canonical_promotion"
+      },
+      {
+        "name": "Galaxy Breaker (Festival)",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-264.json",
+          "docs/data/skill-catalog-batches/unavailable-cac.json"
+        ],
+        "decision": "retain_outside_CaC_canonical_scope"
+      },
+      {
+        "name": "Ki Blast Cannon",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-70.json",
+          "docs/data/skill-research-batches/skill-batch-252.json",
+          "docs/data/skill-research-batches/skill-batch-134.json"
+        ],
+        "decision": "candidate_for_canonical_promotion"
+      },
+      {
+        "name": "Shockwave",
+        "status": "multiple_research_records",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-70.json",
+          "docs/data/skill-research-batches/skill-batch-79.json",
+          "docs/data/skill-research-batches/skill-batch-226.json",
+          "docs/data/skill-research-batches/skill-batch-202.json",
+          "docs/data/skill-research-batches/skill-batch-134.json",
+          "docs/data/skill-research-batches/skill-batch-224.json",
+          "docs/data/skill-research-batches/skill-batch-485.json",
+          "docs/data/skill-research-batches/skill-batch-275.json"
+        ],
+        "decision": "requires_identity_disambiguation_before_promotion"
+      },
+      {
+        "name": "Super Dragon Fist",
+        "status": "multiple_research_records",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-155.json",
+          "docs/data/skill-research-batches/skill-batch-171.json",
+          "docs/data/skill-research-batches/skill-batch-133.json",
+          "docs/data/skill-research-batches/skill-batch-05.json"
+        ],
+        "decision": "candidate_for_canonical_promotion_after_dedup_review"
+      },
+      {
+        "name": "Holstein Shock",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-296.json"
+        ],
+        "decision": "candidate_for_canonical_promotion_after_CaC_scope_review"
+      },
+      {
+        "name": "Break Strike",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-228.json",
+          "docs/data/skill-research-batches/skill-batch-227.json",
+          "docs/data/skill-research-batches/skill-batch-58.json"
+        ],
+        "decision": "candidate_for_canonical_promotion"
+      },
+      {
+        "name": "Consecutive Energy Blast",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-251.json",
+          "docs/data/skill-research-batches/skill-batch-01.json",
+          "docs/data/skill-research-batches/skill-batch-262.json"
+        ],
+        "decision": "candidate_for_canonical_promotion_after_dedup_review"
+      },
+      {
+        "name": "Backflip",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-237.json",
+          "docs/data/skill-research-batches/skill-batch-57.json"
+        ],
+        "decision": "candidate_for_canonical_promotion_after_classification_correction"
+      },
+      {
+        "name": "Super Ki Explosion",
+        "status": "no_skill_research_batch_found",
+        "research_paths": [],
+        "decision": "requires_primary_evidence_research"
+      },
+      {
+        "name": "Recoome Eraser Gun",
+        "status": "current_evidence_refresh",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-526.json",
+          "docs/data/skill-research-batches/skill-batch-262.json"
+        ],
+        "decision": "requires_record_level_identity_and_acquisition_review"
+      },
+      {
+        "name": "Ultra Fighting Bomber",
+        "status": "no_skill_research_batch_found",
+        "research_paths": [],
+        "decision": "requires_primary_evidence_research"
+      },
+      {
+        "name": "Turn Retreat",
+        "status": "direct_research_record",
+        "research_paths": [
+          "docs/data/skill-research-batches/skill-batch-223.json",
+          "docs/data/skill-research-batches/skill-batch-226.json",
+          "docs/data/skill-research-batches/skill-batch-222.json"
+        ],
+        "decision": "candidate_for_canonical_promotion_after_dedup_review"
+      }
+    ],
+    "conclusion": "The unmatched preset references are not a single error class. Most have existing repository research records and can be reconciled against the canonical schema; Galaxy Breaker (Festival) is explicitly non-CaC in current research and should remain outside the CaC canonical corpus. Shockwave and several repeated names require identity/dedup review before mutation. Super Ki Explosion and Ultra Fighting Bomber still lack repository research-batch evidence and must not be synthesized."
+  }
 }
