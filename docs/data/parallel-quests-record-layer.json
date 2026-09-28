@@ -2268,6 +2268,13 @@
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-002",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory record explicitly documents this PQ acquisition-source association; exact reward/drop condition remains unresolved."
+        }
       ]
     },
     {
