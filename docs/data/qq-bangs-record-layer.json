@@ -375,6 +375,33 @@
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
       ]
+    },
+    {
+      "id": "qq-observed-steam-001",
+      "record_type": "recipe_observation",
+      "name": "Steam observed recipe — Beerus Top + Beerus Top + Super Mix Capsule Z — output +3/+5/+5/-2/0/+5",
+      "stars": 6,
+      "health": 3,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -2,
+      "strike_supers": 0,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus clothing (upper body) + Beerus clothing (upper body)",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community-documented 6-star QQ Bang recipe/output observation",
+      "rng_notes": "One player's documented output, not a guaranteed result; repeated mixing produces variable outcomes.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Ki + Stamina",
+        "Ki Blast-focused"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/792200576013293230/"
+      ]
     }
   ],
   "last_updated": "2026-09-27",
@@ -413,8 +440,8 @@
   ],
   "research_frontier": {
     "last_cycle": "2026-09-27",
-    "promoted_observed_vectors": 10,
-    "total_records": 14,
+    "promoted_observed_vectors": 11,
+    "total_records": 15,
     "next_target": "expand observed six-stat QQ Bang vectors and recipe provenance without treating community recipes as deterministic"
   }
 }
