@@ -317,6 +317,13 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-063",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
       ]
     },
     {
@@ -1754,7 +1761,14 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-064",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
+      ]
     },
     {
       "id": "pq-073",
@@ -1774,7 +1788,14 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-065",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
+      ]
     },
     {
       "id": "pq-074",
@@ -1834,7 +1855,14 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-066",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
+      ]
     },
     {
       "id": "pq-077",
@@ -2293,6 +2321,13 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-067",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
       ]
     },
     {
@@ -2384,6 +2419,13 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
         }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-068",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
       ]
     },
     {
@@ -2465,7 +2507,14 @@
         "Destruction's Concerto: Comet",
         "Destruction's Concerto: Starfall"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "accessory_links": [
+        {
+          "accessory_id": "acc-070",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
+      ]
     },
     {
       "id": "pq-105",
@@ -3607,6 +3656,13 @@
           "equipment_id": "equip-034",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+        }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-071",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
         }
       ]
     },
@@ -4880,9 +4936,9 @@
       "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
       "accessory_links": [
         {
-          "accessory_id": "acc-002",
-          "relationship": "research_acquisition_association",
-          "evidence_note": "Accessory PQ research identifies PQ5; exact reward condition remains unresolved."
+          "accessory_id": "acc-061",
+          "relationship": "reward",
+          "evidence_note": "PQ5 reward table explicitly lists Four-Star Dragon Ball Hat; exact drop mechanics remain unresolved."
         }
       ]
     },
@@ -5025,7 +5081,14 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
+      "accessory_links": [
+        {
+          "accessory_id": "acc-062",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
+        }
+      ]
     },
     {
       "id": "pq-010",
