@@ -4910,3 +4910,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Record the resolution in `docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json`.
 - [x] Confirm canonical/index target remains 493 / 493.
 - [ ] Continue the remaining restored-identity evidence queue, starting with the highest-priority unresolved record in the handoff/TODO frontier; do not repeat reconciled identities.
+
+
+## 2026-09-28 Recovery Continuation Update — Super Galick Gun
+
+- [x] Reconcile Super Galick Gun from current Xenoverse 2-specific evidence.
+- [x] Confirm Ultimate / Ki Blast / 300 Ki / TP Medal Shop / CaC identity in canonical data.
+- [x] Record direct evidence and bounded mechanics in `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`.
+- [x] Close the corresponding evidence-gap entry in `docs/data/character-preset-skill-canonical-evidence-reconciliation-2026-09-27.json`.
