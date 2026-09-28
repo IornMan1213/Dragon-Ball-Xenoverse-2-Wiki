@@ -5200,3 +5200,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed no Skill→PQ edge should be inferred for these shop/starting-move reconciliations.
 - [ ] Continue canonical record-level reconciliation for the remaining restored identities, especially Super Dragon Fist, Holstein Shock, Break Strike, Backflip, Turn Retreat, Recoome Eraser Gun, Sledgehammer, Energy Wave Combo, and Full Power Energy Wave.
 - [ ] Keep Galaxy Breaker (Festival) outside ordinary CaC canonical scope unless dedicated corpus policy supports it; preserve Super Ki Explosion/Ultra Fighting Bomber evidence now resolved by direct sources.
+
+
+### 2026-09-28 continuation — Reconciled restored-identity frontier and pivoted to endpoint audit
+- [x] Cross-checked the remaining nine identities against the existing direct-evidence batch and canonical-evidence reconciliation. Super Dragon Fist, Holstein Shock, Backflip, Turn Retreat, Full Power Energy Wave, Recoome Eraser Gun, Break Strike, Energy Wave Combo, and Sledgehammer already have recorded canonical reconciliation; no duplicate mutation was made.
+- [x] Confirmed the 18-record restored preset-identity gap is closed for the current evidence frontier; the canonical source remains `docs/data/skills.json`.
+- [x] Confirmed Super Galick Gun and Shockwave also have dedicated 2026-09-28 reconciliation batches, with unresolved timing/damage/stamina/Ultimate-Finish fields intentionally preserved as null/bounded evidence.
+- [x] Confirmed Galaxy Breaker (Festival) remains a separate cast/festival boundary rather than an automatic CaC promotion.
+- [ ] **Next frontier:** audit recovered cross-domain endpoints and bidirectional navigation, beginning with Skill→PQ and PQ→Skill relationship completeness against the 840-edge canonical baseline; preserve nulls and do not infer acquisition routes from preset membership.
+- [ ] After Skill↔PQ endpoint auditing, continue equipment/QQ Bang endpoint reconciliation and cross-link validation.
