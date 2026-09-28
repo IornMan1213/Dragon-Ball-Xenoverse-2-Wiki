@@ -1381,7 +1381,9 @@
         "Vegeta"
       ],
       "rewards": [],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Rakshasa's Claw"
+      ],
       "equipment_rewards": [],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
