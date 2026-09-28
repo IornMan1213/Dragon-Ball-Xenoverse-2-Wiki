@@ -103,7 +103,7 @@
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "continue remaining canonical equipment endpoint gaps and QQ Bang identity/provenance reconciliation; prioritize explicit component names and bidirectional links",
+  "next_target": "Promote queued explicit equipment→PQ acquisition links into the canonical equipment layer in small validated batches; then reconcile reverse PQ equipment edges without disturbing the 840-edge baseline.",
   "equipment_records": 112,
-  "latest_change": "Completed generic QQ Bang clothing identity sweep and synchronized equipment catalog coverage by adding Android 18's Clothes (Skirt). Beerus generic inputs remain explicitly bounded to Beerus Top."
+  "latest_change": "Created an evidence queue for 33 explicit equipment-record → Parallel Quest acquisition references that are not yet promoted into the canonical equipment records. No drop guarantees were inferred."
 }
