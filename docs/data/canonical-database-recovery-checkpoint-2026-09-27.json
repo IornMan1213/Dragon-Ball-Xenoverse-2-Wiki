@@ -77,7 +77,8 @@
     "Restored 0 missing PQ41-100 records from maintained batches; added 0 exact-name bidirectional equipment links.",
     "PQ101-186 maintained-batch restoration pass: 0 missing records restored; 0 exact-name equipment links added.",
     "Restored missing canonical PQ1-20 records from maintained research batches, preserving sourced objectives/rewards and conservative uncertainty.",
-    "Restored PQ41-100 sparse reward fields from maintained batches; applied 2 exact-name equipment link occurrences."
+    "Restored PQ41-100 sparse reward fields from maintained batches; applied 2 exact-name equipment link occurrences.",
+    "Restored 0 missing canonical PQ41-100 records from maintained batches; equipment audit found no additional exact-name canonical equipment matches in this range."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -88,7 +89,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Restored missing reward-layer fields across canonical PQ41-100 directly from maintained batch records and added exact-name equipment reverse links where canonical identities exist."
+    "note": "Restored 0 missing PQ41-100 records from maintained batches. No new exact-name equipment identities were available in this range, so no speculative equipment records or links were created."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
