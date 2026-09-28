@@ -48,6 +48,7 @@
     "Post-corruption database recovery audit is clean: 497 canonical skills/index records and 862 canonical PQ relationship edges with zero duplicate relationship keys and zero orphaned skill targets.",
     "Continue evidence-backed restriction review only where direct evidence can establish a narrower rule; preserve null race_restriction where evidence is insufficient.",
     "Build version/patch provenance from explicit source evidence rather than manufacturing a new field or assigning versions by inference.",
-    "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores."
+    "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores.",
+    "Version/patch provenance evidence census now covers all 497 canonical skills; 284 contain explicit patch mentions, 287 explicit version-sensitive language, and 295 explicit DLC/update provenance signals. Build the provenance schema from source evidence before mutating canonical records."
   ]
 }
