@@ -274,10 +274,13 @@
         {
           "input": "Towa Clothes",
           "equipment_id": "equip-103"
-        },
+        }
+      ],
+      "unresolved_equipment_inputs": [
         {
           "input": "Android 18 Skirt",
-          "equipment_id": "equip-008"
+          "status": "unresolved",
+          "reason": "Canonical equipment layer contains Android 18's Clothes (Vest & Pants) and Android 18's Clothes (RR), but neither is an exact identity match for the specifically named skirt input."
         }
       ]
     },
@@ -970,6 +973,14 @@
     {
       "date": "2026-09-27",
       "note": "QQ Bang component-identity reconciliation: mapped explicit Beerus upper-body aliases to equip-101 (Beerus Top), added equip-110 for the distinct Beerus lower-body input named by the Prima Games observed recipe, and mapped the Bardock Battle Suit naming variant in qq-research-002 to equip-024. No clothing stats or acquisition routes were inferred.",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
+        "docs/data/equipment-record-layer.json"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "QQ Bang identity audit correction: Android 18 Skirt was detached from equip-008 after exact-name/variant review. No replacement canonical equipment ID was inferred.",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
         "docs/data/equipment-record-layer.json"
