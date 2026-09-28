@@ -12,7 +12,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "docs/data/skills.json"
 OUT = ROOT / "docs/data/skill-pq-reverse-index-2026-09-26.json"
 
-EXPECTED_SKILLS = 474
+EXPECTED_SKILLS = 475
 EXPECTED_EDGES = 246
 EXPECTED_REPRESENTED_PQS = 170
 
