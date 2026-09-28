@@ -6585,3 +6585,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Did not project pq_features_character links into reward fields; featured characters are not equivalent to acquisition rewards.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ71-PQ80 canonical-first reward projection/reconciliation.
+
+
+### 2026-09-28 continuation — PQ71-PQ80 recovery-forward reconciliation
+- [x] Audited PQ71-PQ80 across dedicated PQ research, maintained PQ records, and canonical typed reward relationships.
+- [x] Restored canonical-backed maintained equipment projections: PQ72 Jaco's State-of-the-Art Radio; PQ73 Tagoma's Scouter; PQ76 SSGSS Goku Wig; PQ79 Vegeta's Shirt.
+- [x] Confirmed all ten canonical skill relationships already project correctly into maintained skill_rewards.
+- [x] Preserved unresolved/non-canonical reward boundaries: PQ73 Qipao (CC) and PQ76 Whis Symbol Gi were not promoted without canonical relationship evidence.
+- [x] Added and indexed batch-563 audit; canonical source-of-truth data was not modified.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ81-PQ90 canonical-first reward projection/reconciliation.
