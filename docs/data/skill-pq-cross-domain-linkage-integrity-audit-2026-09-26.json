@@ -6,8 +6,8 @@
   "reverse_index": "docs/data/skill-pq-reverse-index-2026-09-26.json",
   "checks": {
     "canonical_skill_count": {
-      "expected": 474,
-      "actual": 474,
+      "expected": 493,
+      "actual": 493,
       "pass": true
     },
     "unique_skill_ids": {
