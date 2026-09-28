@@ -6605,3 +6605,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added and indexed batch-564 audit; canonical source-of-truth data was not modified.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ91-PQ100 canonical-first reward projection/reconciliation.
+
+
+### 2026-09-28 continuation — PQ91-PQ100 recovery-forward reconciliation
+- [x] Audited PQ91-PQ100 across dedicated PQ research, maintained PQ records, and canonical typed reward relationships.
+- [x] Confirmed zero research→maintained reward mismatches across the final ten base-game PQ records.
+- [x] Confirmed PQ100's canonical X 100 Big Bang Kamehameha relationship and existing maintained projection; SSGSS Vegeta Wig remains correctly represented through accessory `acc-068`, and Whis Symbol Battle Suit through equipment `equip-088`.
+- [x] Identified a canonical relationship coverage gap for researched/maintained skills in PQ91, PQ92, PQ94-PQ99 (9 skill relationships total) but did not promote them into canonical data without independent canonical evidence.
+- [x] Added and indexed batch-565 audit. Canonical source-of-truth data was not modified.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ101-PQ110 recovery-forward reconciliation, while retaining the PQ91-PQ99 canonical skill-coverage gap as an explicit follow-up research task.
