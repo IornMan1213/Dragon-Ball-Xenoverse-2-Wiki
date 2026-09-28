@@ -63,8 +63,8 @@ def main() -> int:
     if not isinstance(relationships, list):
         failures.append("relationships must be a list")
         relationships = []
-    elif len(relationships) != 3:
-        failures.append(f"unexpected relationship count: {len(relationships)} (expected 3)")
+    elif len(relationships) != 4:
+        failures.append(f"unexpected relationship count: {len(relationships)} (expected 4)")
     seen: set[tuple[str, str]] = set()
 
     if rel.get("schema_version") != "1.0":
