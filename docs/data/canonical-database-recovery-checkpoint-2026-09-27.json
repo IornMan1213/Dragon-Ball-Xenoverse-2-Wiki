@@ -48,7 +48,7 @@
       "blob_sha": "c52da790ea8e81e88d52c626f01f2f045c0cc67e"
     },
     "parallel_quests": {
-      "record_layer_records": 10
+      "record_layer_records": 186
     }
   },
   "corruption_recovery_history": [
@@ -79,7 +79,8 @@
     "Restored missing canonical PQ1-20 records from maintained research batches, preserving sourced objectives/rewards and conservative uncertainty.",
     "Restored PQ41-100 sparse reward fields from maintained batches; applied 2 exact-name equipment link occurrences.",
     "Restored 0 missing canonical PQ41-100 records from maintained batches; equipment audit found no additional exact-name canonical equipment matches in this range.",
-    "QQ Bang component-identity reconciliation mapped explicit Beerus upper-body aliases to equip-101, added equip-110 for the distinct Beerus lower-body input documented by Prima Games, and mapped the Bardock Battle Suit naming variant to equip-024; no stats or acquisition routes were inferred."
+    "QQ Bang component-identity reconciliation mapped explicit Beerus upper-body aliases to equip-101, added equip-110 for the distinct Beerus lower-body input documented by Prima Games, and mapped the Bardock Battle Suit naming variant to equip-024; no stats or acquisition routes were inferred.",
+    "Verified the live canonical Parallel Quest record layer now contains all 186 PQ records after the corruption-recovery passes; the earlier checkpoint value of 10 was stale and has been corrected to 186."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
