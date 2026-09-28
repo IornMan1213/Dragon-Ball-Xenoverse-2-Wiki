@@ -57,7 +57,8 @@
           "pq_id": "pq-004",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-004"
       ]
     },
     {
@@ -90,7 +91,8 @@
           "pq_id": "pq-003",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-003"
       ]
     },
     {
@@ -122,7 +124,8 @@
           "pq_id": "pq-098",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-098"
       ]
     },
     {
@@ -252,7 +255,8 @@
           "pq_id": "pq-029",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names Parallel Quest 29; broader PQ batch explicitly lists this equipment as a reward. Exact drop mechanics remain separately unresolved."
-        }
+        },
+        "pq-029"
       ]
     },
     {
@@ -355,7 +359,8 @@
           "pq_id": "pq-092",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-092"
       ]
     },
     {
@@ -461,7 +466,8 @@
           "pq_id": "pq-003",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-003"
       ]
     },
     {
@@ -492,7 +498,8 @@
           "pq_id": "pq-004",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-004"
       ]
     },
     {
@@ -652,7 +659,8 @@
           "pq_id": "pq-087",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-087"
       ]
     },
     {
@@ -753,7 +761,8 @@
           "pq_id": "pq-013",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-013"
       ]
     },
     {
@@ -808,7 +817,8 @@
           "pq_id": "pq-012",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-012"
       ]
     },
     {
@@ -839,7 +849,8 @@
           "pq_id": "pq-025",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-025"
       ]
     },
     {
@@ -894,7 +905,8 @@
           "pq_id": "pq-121",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-121"
       ]
     },
     {
@@ -925,7 +937,8 @@
           "pq_id": "pq-121",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-121"
       ]
     },
     {
@@ -956,7 +969,8 @@
           "pq_id": "pq-144",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-144"
       ]
     },
     {
@@ -987,7 +1001,8 @@
           "pq_id": "pq-146",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-146"
       ]
     },
     {
@@ -1018,7 +1033,8 @@
           "pq_id": "pq-147",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-147"
       ]
     },
     {
@@ -1049,7 +1065,8 @@
           "pq_id": "pq-148",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-148"
       ]
     },
     {
@@ -1080,7 +1097,8 @@
           "pq_id": "pq-149",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-149"
       ]
     },
     {
@@ -1111,7 +1129,8 @@
           "pq_id": "pq-152",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-152"
       ]
     },
     {
@@ -1142,7 +1161,8 @@
           "pq_id": "pq-123",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-123"
       ]
     },
     {
@@ -1173,7 +1193,8 @@
           "pq_id": "pq-127",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-127"
       ]
     },
     {
@@ -1211,7 +1232,8 @@
           "pq_id": "pq-134",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical PQ batch evidence explicitly lists Broly (Full Power Super Saiyan)'s Clothes as an equipment reward for PQ 134; added bidirectional link without asserting drop guarantee/rate."
-        }
+        },
+        "pq-134"
       ]
     },
     {
@@ -1242,7 +1264,8 @@
           "pq_id": "pq-131",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-131"
       ]
     },
     {
@@ -1273,7 +1296,8 @@
           "pq_id": "pq-133",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-133"
       ]
     },
     {
@@ -1304,7 +1328,8 @@
           "pq_id": "pq-135",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-135"
       ]
     },
     {
@@ -1335,7 +1360,8 @@
           "pq_id": "pq-139",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-139"
       ]
     },
     {
@@ -1366,7 +1392,8 @@
           "pq_id": "pq-139",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-139"
       ]
     },
     {
@@ -1397,7 +1424,8 @@
           "pq_id": "pq-142",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-142"
       ]
     },
     {
@@ -1428,7 +1456,8 @@
           "pq_id": "pq-154",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-154"
       ]
     },
     {
@@ -1460,7 +1489,8 @@
           "pq_id": "pq-105",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-105"
       ]
     },
     {
@@ -1492,7 +1522,8 @@
           "pq_id": "pq-110",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-110"
       ]
     },
     {
@@ -1524,7 +1555,8 @@
           "pq_id": "pq-002",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-002"
       ]
     },
     {
@@ -1557,7 +1589,8 @@
           "pq_id": "pq-162",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-162"
       ]
     },
     {
@@ -1588,7 +1621,8 @@
           "pq_id": "pq-144",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-144"
       ]
     },
     {
@@ -1619,7 +1653,8 @@
           "pq_id": "pq-158",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-158"
       ]
     },
     {
@@ -1650,7 +1685,8 @@
           "pq_id": "pq-161",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-161"
       ]
     },
     {
@@ -1681,7 +1717,8 @@
           "pq_id": "pq-162",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; no guaranteed drop or exact rate inferred."
-        }
+        },
+        "pq-162"
       ]
     },
     {
@@ -1794,7 +1831,8 @@
           "pq_id": "pq-041",
           "relationship": "acquisition_source",
           "evidence_note": "Maintained PQ batch explicitly lists Yamcha's Baseball Uniform as an equipment reward; canonical equipment record names Warriors' Annihilation - Future Chapters as its acquisition source. Exact drop mechanics remain separately unresolved."
-        }
+        },
+        "pq-041"
       ]
     },
     {
@@ -1825,7 +1863,8 @@
           "pq_id": "pq-059",
           "relationship": "acquisition_source",
           "evidence_note": "Maintained PQ batch explicitly lists Vegito's Clothes as an equipment reward; canonical equipment record names Potara Warrior as its acquisition source. Exact drop mechanics remain separately unresolved."
-        }
+        },
+        "pq-059"
       ]
     },
     {
@@ -2480,7 +2519,8 @@
           "pq_id": "pq-100",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not assert a guaranteed drop or exact reward rate."
-        }
+        },
+        "pq-100"
       ]
     },
     {
@@ -3240,7 +3280,8 @@
           "pq_id": "pq-025",
           "relationship": "acquisition_source",
           "evidence_note": "PQ25 reward records explicitly list Android 18's Clothes (Skirt); exact drop/condition mechanics remain unresolved."
-        }
+        },
+        "pq-025"
       ]
     },
     {
