@@ -5559,3 +5559,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No new skill identity or PQ reward relationship was inferred.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining completed-but-pending canonical skill evidence audits (especially the Batch 472/473 prepared records) before starting new speculative enrichment; then return to QQ Bang/equipment and remaining PQ cross-domain gaps.
+
+
+### 2026-09-28 continuation — Canonical evidence synchronization batch 540
+- [x] Synchronized three remaining prepared Time Skip audits into authoritative `docs/data/skills.json`: **Time Skip/Jump Spike, Time Skip/Back Breaker, Time Skip/Flash Skewer**.
+- [x] Synchronized the skill index, marked the three source audits as synchronized, and registered `skill-batch-540.json`.
+- [x] Maintained the recovered **497 canonical / 497 index** identity boundary; no unsupported skill identity or PQ relationship was added.
+- [x] Preserved evidence limits: source-reported damage is bounded evidence; exact frames, scaling, hidden interactions, and reward probabilities remain unresolved where not directly established.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** reconcile the remaining prepared-audit status against the actual source files (search indexing may lag), then move to unresolved mechanics/acquisition enrichment and the remaining PQ/skill/equipment cross-domain gaps.
