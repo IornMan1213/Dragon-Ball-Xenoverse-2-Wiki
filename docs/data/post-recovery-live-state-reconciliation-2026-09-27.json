@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "purpose": "Reconcile recovery checkpoint metadata against the current live-main state after corruption recovery and the subsequent canonical preset-skill identity restoration.",
+  "source_policy": "docs/data/skills.json is authoritative; indexes, research batches, verified layers, and projections are evidence or derived views only.",
+  "live_state": {
+    "canonical_skills": 493,
+    "skills_index": 493,
+    "verified_preset_records": 25,
+    "verified_preset_skill_entries": 162,
+    "exact_preset_to_canonical_matches": 162,
+    "unmatched_preset_skill_entries": 0,
+    "pq_skill_edges": 246,
+    "pq_reward_relationships": 840,
+    "parallel_quests": 186,
+    "equipment_records": 112,
+    "qq_bang_records": 23,
+    "qq_bang_observed_vectors": 16
+  },
+  "recovery_reconciliation": {
+    "recovered_skill_baseline_before_preset_gap_restoration": 474,
+    "post_recovery_canonical_skill_count": 493,
+    "newly_represented_preset_skill_identities": 18,
+    "identity_coverage_status": "complete_for_current_verified_preset_loadout_layer",
+    "verification_status_policy": "The 18 restored identities remain partially_verified/catalog-gap-promoted until record-level provenance and mechanics are independently reconciled."
+  },
+  "canonical_blob": {
+    "current_fetch_blob_sha": "63bd1b72f7f054f92bcc2ac662512e359cc9596c",
+    "current_index_blob_sha": "2b2e74c9d31f0b54a93a2a28c750412eb21845c2"
+  },
+  "stale_metadata_found": [
+    {
+      "file": "docs/data/canonical-database-recovery-checkpoint-2026-09-27.json",
+      "issue": "Recovery history/current frontier still described the skill layer as 475 records even though live main now contains 493 after the 18 preset-identity restorations.",
+      "action": "Reconcile checkpoint baseline and frontier metadata without changing canonical skill records."
+    },
+    {
+      "file": "docs/data/dual-masenko-canonical-gap-audit-2026-09-27.json",
+      "issue": "Historical canonical-state section still records the pre-restoration 474-skill state.",
+      "action": "Retain the historical finding but explicitly point its current state to the post-restoration 493-record corpus."
+    }
+  ],
+  "evidence_boundary": [
+    "The 18 additional canonical skill identities were already restored on main before this audit; this pass does not infer or synthesize additional skill records.",
+    "Preset occurrence establishes identity coverage only; it does not establish acquisition, cost, mechanics, or current verification by itself.",
+    "No PQ118 Dual Masenko edge is inferred because repository evidence remains conflicting.",
+    "Runtime/CI remains intentionally non-blocking and unverified."
+  ],
+  "next_frontier": [
+    "Reconcile the remaining 18 catalog-gap-promoted skill records against their dedicated research batches, beginning with records that have direct current evidence.",
+    "Preserve nulls and conflicts for acquisition/mechanics fields rather than copying broad catalog placeholders into canonical data.",
+    "After skill reconciliation, resume cross-domain PQ/equipment/Super Soul navigation enrichment."
+  ]
+}
