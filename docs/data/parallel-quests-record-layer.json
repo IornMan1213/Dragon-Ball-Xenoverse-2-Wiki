@@ -3602,6 +3602,18 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "super_soul_rewards": [
+        "Leave the rest to me!",
+        "Shall we pick up where we left off?",
+        "You'd better survive, you got that?!"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-042",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
       ]
     },
     {
@@ -3631,6 +3643,18 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "I can't have you dying on me!",
+        "This is no time to mess around...",
+        "Whoa, it's freezing here!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-072",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory record explicitly names this PQ in its acquisition route; relationship does not assert a guaranteed drop."
+        }
       ]
     },
     {
@@ -3668,6 +3692,29 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "super_soul_rewards": [
+        "Here it comes!",
+        "I got my claws in you, and fangs too!"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-043",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-074",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory record explicitly names this PQ in its acquisition route; relationship does not assert a guaranteed drop."
+        },
+        {
+          "accessory_id": "acc-073",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory record explicitly names this PQ in its acquisition route; relationship does not assert a guaranteed drop."
+        }
       ]
     },
     {
@@ -3681,7 +3728,10 @@
       "ultimate_finish": null,
       "enemies": [],
       "rewards": [],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Burst Charge",
+        "Ultimate Charge"
+      ],
       "equipment_rewards": [
         {
           "equipment_id": "equip-041",
@@ -3689,7 +3739,9 @@
           "evidence_note": "Canonical PQ batch evidence explicitly lists Broly (Full Power Super Saiyan)'s Clothes as an equipment reward for PQ 134; added bidirectional link without asserting drop guarantee/rate."
         }
       ],
-      "super_soul_rewards": [],
+      "super_soul_rewards": [
+        "Power! A lotta power! It's great!"
+      ],
       "dragon_ball_farming": null,
       "verification_status": "indexed",
       "sources": [
@@ -3734,6 +3786,20 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-044",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-075",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory record explicitly names this PQ in its acquisition route; relationship does not assert a guaranteed drop."
+        }
       ]
     },
     {
@@ -3763,6 +3829,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "Justice is nothing to me now.",
+        "Pathetic"
       ]
     },
     {
@@ -3790,6 +3860,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "That heat... I'll have to match it.",
+        "This is everything I've got!"
       ]
     },
     {
@@ -3815,6 +3889,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "I just flew around the whole world!",
+        "I'm not gonna die until I defeat you!"
       ]
     },
     {
@@ -3855,6 +3933,25 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-045",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "equipment_id": "equip-046",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-076",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory record explicitly names this PQ in its acquisition route; relationship does not assert a guaranteed drop."
+        }
       ]
     },
     {
@@ -3880,6 +3977,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "Now then, time for another delightful hunt!",
+        "This thing carries hopes of everyone on Earth!"
       ]
     },
     {
