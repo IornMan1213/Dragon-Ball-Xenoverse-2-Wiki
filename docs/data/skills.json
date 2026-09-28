@@ -4075,13 +4075,13 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": null,
+      "dlc_requirement": "Base Game",
       "acquisition_type": "tp_medal_shop",
       "character_source": "Future Trunks",
       "mechanics_notes": "100-Ki Ki Blast Super used by Future Trunks. The user spins in a semicircle while firing Ki Blasts from both hands; current skill documentation describes the move as a short-range attack effective against nearby opponents and pursuing targets. Exact damage scaling, frames, and hitbox timing remain unresolved.",
       "last_verified": "2026-09-27",
       "research_status": "enriched",
-      "notes": "2026-09-27 canonical restoration: current Xenoverse 2-specific evidence confirms TP Medal Shop acquisition, 100 Ki, Ki Blast Super classification, Future Trunks association, and the documented semicircular dual-blast behavior. Historical TP Medal Shop evidence records a 170 TP Medal price in the July 1 rotation. Batch 261's older training-only acquisition statement is superseded by direct TP Medal Shop evidence; no PQ acquisition is asserted.",
+      "notes": "2026-09-27 canonical restoration: current Xenoverse 2-specific evidence confirms TP Medal Shop acquisition, 100 Ki, Ki Blast Super classification, Future Trunks association, and the documented semicircular dual-blast behavior. Historical TP Medal Shop evidence records a 170 TP Medal price in the July 1 rotation. Batch 261's older training-only acquisition statement is superseded by direct TP Medal Shop evidence; no PQ acquisition is asserted.\n2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to TP Medal Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability.",
       "id": "skill-dual-masenko"
     },
     {
@@ -5828,7 +5828,7 @@
       "subcategory": "Ki Blast",
       "usable_by_cac": true,
       "character_source": "Vegeta (Super Saiyan 4)",
-      "dlc_requirement": null,
+      "dlc_requirement": "Base Game",
       "ki_cost": "300+",
       "stamina_cost": 0,
       "damage_type": "Ki Blast",
@@ -5850,7 +5850,8 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 documentation confirmed TP Medal Shop acquisition, 300+ Ki cost, 9–45 hit beam behavior, and Super Saiyan 4 Vegeta source identity. Historical TP Medal Shop records corroborate the skill's availability; no unsupported drop or rotation guarantee is inferred."
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 documentation confirmed TP Medal Shop acquisition, 300+ Ki cost, 9–45 hit beam behavior, and Super Saiyan 4 Vegeta source identity. Historical TP Medal Shop records corroborate the skill's availability; no unsupported drop or rotation guarantee is inferred.\n2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to TP Medal Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability.",
+      "id": "skill-final-shine-attack"
     },
     {
       "name": "Finish Breaker",
@@ -6317,7 +6318,11 @@
       "ki_cost": 300,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Fast-acting long-range Ki Blast Ultimate beam; current documentation describes an 18-hit beam. Exact damage is version-sensitive and is not promoted here as a timeless canonical percentage.",
-      "id": "skill-full-power-energy-wave"
+      "id": "skill-full-power-energy-wave",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after \"God of Destruction's Anger\"",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop after \"God of Destruction's Anger\"; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Future Super Saiyan",
@@ -6403,7 +6408,11 @@
       "ki_cost": 200,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Grab-based 13-hit purple Ki pillar attack.",
-      "id": "skill-galaxy-breaker-festival"
+      "id": "skill-galaxy-breaker-festival",
+      "acquisition_type": "festival_event",
+      "source_quest_or_shop": "Festival of Universes — Max Camaraderie with Vegeta",
+      "dlc_requirement": "Festival of Universes",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Festival of Universes — Max Camaraderie with Vegeta; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Galick Cannon",
@@ -7810,7 +7819,11 @@
       "id": "skill-holstein-shock",
       "source_parallel_quests": [
         15
-      ]
+      ],
+      "acquisition_type": "quest_or_mission",
+      "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Holy Inscription",
@@ -8768,7 +8781,11 @@
       "ki_cost": 100,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Ki Blast Super that fires a yellow shockwave from the palm. It can stagger a juggled/knocked-down opponent and can be repeated immediately without additional Ki; against a standing target it instead knocks the opponent back.",
-      "id": "skill-ki-blast-cannon"
+      "id": "skill-ki-blast-cannon",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after \"Galactic Emperor\"",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop after \"Galactic Emperor\"; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Ki Blast Thrust",
@@ -10073,7 +10090,7 @@
       "race_restriction": null,
       "usable_by_cac": true,
       "character_source": "Goku (GT) / Goku (GT) customizable partner",
-      "dlc_requirement": null,
+      "dlc_requirement": "Base Game",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
@@ -10095,7 +10112,7 @@
         "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9nrrjxr84xt0"
       ],
       "acquisition_type": "skill_shop",
-      "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence provenance refresh: official Nintendo and Xbox Time Patrol Support Pack listings independently name Power Pole Combo among the included Super Attacks, corroborating package provenance without changing the broader Skill Shop acquisition endpoint. Dedicated Xenoverse 2 skill evidence continues to support the 100-Ki Strike Super, seven-hit repeated-input behavior, tracking, and Goku (GT) association. No exclusive-purchase claim, new prerequisite, reward probability, or Ultimate Finish gate is inferred.\n2026-09-27 Batch 524 current-evidence refresh: rechecked the existing Xenoverse 2 identity, classification, acquisition endpoint, and documented mechanics against current corroborating references. Canonical values were retained; unsupported exact frames, hidden conditions, reward probabilities, patch-independent scaling, and unverified numeric values were not inferred.",
+      "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence provenance refresh: official Nintendo and Xbox Time Patrol Support Pack listings independently name Power Pole Combo among the included Super Attacks, corroborating package provenance without changing the broader Skill Shop acquisition endpoint. Dedicated Xenoverse 2 skill evidence continues to support the 100-Ki Strike Super, seven-hit repeated-input behavior, tracking, and Goku (GT) association. No exclusive-purchase claim, new prerequisite, reward probability, or Ultimate Finish gate is inferred.\n2026-09-27 Batch 524 current-evidence refresh: rechecked the existing Xenoverse 2 identity, classification, acquisition endpoint, and documented mechanics against current corroborating references. Canonical values were retained; unsupported exact frames, hidden conditions, reward probabilities, patch-independent scaling, and unverified numeric values were not inferred.\n2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability.",
       "id": "skill-power-pole-combo"
     },
     {
@@ -10804,7 +10821,11 @@
       "id": "skill-recoome-eraser-gun",
       "source_parallel_quests": [
         17
-      ]
+      ],
+      "acquisition_type": "quest_or_mission",
+      "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\"",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Parallel Quest 17 — \"Ginyu and the Fruit\"; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Recoome Kick",
@@ -11815,12 +11836,12 @@
       "race_restriction": null,
       "usable_by_cac": true,
       "character_source": "Goku / Burter and numerous customizable partners",
-      "dlc_requirement": null,
+      "dlc_requirement": "Base Game",
       "ki_cost": 100,
       "stamina_cost": null,
       "damage_type": "Strike",
       "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop after A Desperate Future",
+      "source_quest_or_shop": "Skill Shop after \"A Desperate Future\"",
       "ultimate_finish_required": null,
       "skill_description": "Release a fast, unblockable shockwave from the hand that can interrupt attacks or blocking and push the opponent away.",
       "mechanics_notes": "The Xenoverse 2 skill reference classifies Shockwave as an unblockable Strike Super. It can interrupt certain actions such as basic attacks or blocking and launches the opponent back in slow motion; when it does not interrupt an action, the effect is a smaller push. Shockwave and Ki Blast Cannon remain separate identities despite historical description/property confusion.",
@@ -11834,7 +11855,9 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497091"
       ],
       "id": "skill-shockwave",
-      "research_status": "enriched"
+      "research_status": "enriched",
+      "acquisition_type": "skill_shop",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop after \"A Desperate Future\"; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Shooting Strike",
@@ -11955,7 +11978,10 @@
       "damage_type": "Strike",
       "mechanics_notes": "Chargeable close-range Strike Super that swings both hands downward. Higher charge levels increase damage and knockdown strength; full charge can produce a hard knockdown and documented guard/Hyper Armor interactions. Exact frame and damage values are version-sensitive.",
       "id": "skill-sledgehammer",
-      "source_quest_or_shop": "Skill Shop"
+      "source_quest_or_shop": "Skill Shop",
+      "acquisition_type": "skill_shop",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Sneaky Strike",
@@ -12809,7 +12835,11 @@
       "ki_cost": 100,
       "damage_type": "Strike",
       "mechanics_notes": "Long-range Strike Super: the user flies toward the opponent and, on connection, rushes into a rapid three-hit punch sequence.",
-      "id": "skill-super-dragon-fist"
+      "id": "skill-super-dragon-fist",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Super Dragon Flight",
@@ -12945,7 +12975,11 @@
       "ki_cost": 300,
       "damage_type": "Ki Blast",
       "mechanics_notes": "300-Ki chargeable Ki Blast Ultimate. The user charges a Galick Gun and fires a long beam; current dedicated documentation describes a 15-hit base sequence and up to 24 hits at maximum charge. Exact damage percentages are retained as source-reported rather than treated as patch-independent.",
-      "id": "skill-super-galick-gun"
+      "id": "skill-super-galick-gun",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to TP Medal Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Super Gamma Blast",
@@ -13242,7 +13276,11 @@
       "ki_cost": 300,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Ki Blast Ultimate with a 300-Ki base cost. The user creates a large surrounding Ki explosion; holding the input prolongs the explosion and consumes additional Ki.",
-      "id": "skill-super-ki-explosion"
+      "id": "skill-super-ki-explosion",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Super Saiyan",
@@ -14228,7 +14266,11 @@
       "ki_cost": 0,
       "damage_type": "Strike",
       "mechanics_notes": "Strike Evasive using 300 Stamina: spins backward with directional control and can strike/stun nearby opponents while creating distance.",
-      "id": "skill-turn-retreat"
+      "id": "skill-turn-retreat",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Tyrant Lancer",
@@ -14309,7 +14351,11 @@
       "ki_cost": 300,
       "damage_type": "Ki Blast",
       "mechanics_notes": "300-Ki Ki Blast Ultimate with an 8-hit short-range explosion. The current dedicated reference states that the user poses for about 3 seconds before launching the explosion; exact damage is not promoted as a version-independent canonical value.",
-      "id": "skill-ultra-fighting-bomber"
+      "id": "skill-ultra-fighting-bomber",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game",
+      "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
     },
     {
       "name": "Ultra Instinct",
