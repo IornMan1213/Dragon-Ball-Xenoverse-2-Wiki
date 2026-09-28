@@ -5698,3 +5698,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Registered batch 545 in `docs/data/pq-cross-domain-index.json` and updated `skill-catalog-audit.json`.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Next: prioritize mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity beyond the current 249 canonical skill edges; only revisit the two null Ki-cost records if direct numeric evidence appears.
+
+### 2026-09-28 — Skill acquisition/mechanics/parity audit batch 546
+- [x] Audited the completed acquisition layer: **0/497** canonical records remain missing `acquisition_type`, `source_quest_or_shop`, or `dlc_requirement`.
+- [x] Audited PQ↔skill bidirectional parity: **249** canonical PQ→skill edges; **0** canonical skills with PQ metadata missing an edge; **0** relationship targets lacking a canonical skill identity.
+- [x] Confirmed `mechanics_notes` coverage for all **497** canonical skill records.
+- [ ] Kept **27** null `race_restriction` records as explicit enrichment gaps; no restriction was inferred from `usable_by_cac` or null fields.
+- [ ] Version/patch provenance remains an open enrichment layer; no schema fields were invented during this audit.
