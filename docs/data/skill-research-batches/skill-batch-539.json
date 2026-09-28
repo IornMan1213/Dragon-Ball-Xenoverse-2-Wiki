@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 539,
+  "date": "2026-09-28",
+  "status": "complete",
+  "scope": "Synchronize seven completed current-evidence audits into the authoritative canonical skill corpus.",
+  "records": [
+    "Gigantic Rage",
+    "Punisher Drive",
+    "Heroic Counter",
+    "Counter Impact",
+    "Big Bang Knuckle",
+    "Time Skip/Molotov",
+    "Justice Combination"
+  ],
+  "evidence_boundary": [
+    "Only facts already established by dedicated completed audits were synchronized.",
+    "Source-reported damage values remain bounded evidence, not universal constants.",
+    "Exact frame data, hidden interactions, scaling formulas, and reward probabilities remain unresolved where not directly established.",
+    "No new skill identity or PQ reward relationship was inferred."
+  ]
+}
