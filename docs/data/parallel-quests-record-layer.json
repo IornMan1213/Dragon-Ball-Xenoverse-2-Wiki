@@ -131,6 +131,13 @@
       ],
       "equipment_links": [
         "equip-020"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-027",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Accessory PQ research identifies PQ22 from historical evidence; exact reward condition remains unresolved."
+        }
       ]
     },
     {
@@ -1186,6 +1193,13 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-005",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Accessory PQ research identifies PQ51; exact reward condition remains unresolved."
+        }
       ]
     },
     {
@@ -2613,7 +2627,14 @@
         "Lightning of Absolution",
         "Holy Wrath"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "accessory_links": [
+        {
+          "accessory_id": "acc-094",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Accessory PQ research identifies PQ111; exact reward condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "pq-112",
@@ -4856,7 +4877,14 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
+      "accessory_links": [
+        {
+          "accessory_id": "acc-002",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Accessory PQ research identifies PQ5; exact reward condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "pq-006",
@@ -5301,7 +5329,14 @@
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
+      "accessory_links": [
+        {
+          "accessory_id": "acc-012",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory research retains PQ18 as the documented route; a conflicting PQ63 historical report remains unresolved and is not treated as a second canonical route."
+        }
+      ]
     },
     {
       "id": "pq-019",
@@ -5374,5 +5409,15 @@
       "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
     }
   ],
-  "record_fields": []
+  "record_fields": [],
+  "research_notes": [
+    {
+      "date": "2026-09-27",
+      "note": "Added explicit PQ-side accessory research links for five exact canonical accessory identities promoted in the equipment-accessory layer. These are research acquisition associations, not guarantees of normal-clear or Ultimate-Finish drops; unresolved reward semantics remain separate.",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/equipment-accessories-record-layer.json"
+      ]
+    }
+  ]
 }
