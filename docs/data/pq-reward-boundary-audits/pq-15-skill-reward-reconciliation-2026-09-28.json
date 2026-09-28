@@ -1,0 +1,27 @@
+{
+  "batch_id":557,
+  "date":"2026-09-28",
+  "type":"pq15_skill_reward_reconciliation",
+  "pq":"PQ15",
+  "name":"Gotta Find That Dragon Ball!",
+  "status":"evidence_reconciled_canonical_boundary_preserved",
+  "evidence":{
+    "skills":["Holstein Shock","Spinning Blade","Fighting Pose D"],
+    "source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "cross_check":"https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76955928"
+  },
+  "findings":[
+    "The current independent PQ transcription explicitly lists Holstein Shock, Spinning Blade, and Fighting Pose D among PQ15 rewards.",
+    "The repository already contains a PQ15 relationship for Holstein Shock and Fighting Pose D.",
+    "Spinning Blade has a documented acquisition-source conflict in prior research: PQ15 Ultimate Finish evidence versus TP Medal Shop evidence.",
+    "Spinning Blade is present in an indexed Strike Evasives catalog but is not present as a canonical record in docs/data/skills.json, so no new canonical relationship edge was invented during this reconciliation."
+  ],
+  "actions":{
+    "pq_batch_02_updated":true,
+    "canonical_pq_relationships_added":0,
+    "canonical_skills_changed":false,
+    "conflicting_acquisition_evidence_preserved":true,
+    "unsupported_relationships_invented":false
+  },
+  "next":"Recover or reconcile the canonical Spinning Blade identity if direct canonical evidence becomes available; otherwise continue the next PQ cross-domain boundary."
+}
