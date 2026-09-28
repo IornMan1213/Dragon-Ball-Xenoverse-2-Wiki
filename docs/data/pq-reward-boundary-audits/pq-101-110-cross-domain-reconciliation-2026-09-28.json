@@ -1,0 +1,29 @@
+{
+  "batch_id": 566,
+  "date": "2026-09-28",
+  "type": "pq-101-110-cross-domain-reconciliation",
+  "scope": "PQ101-PQ110",
+  "status": "reconciled_maintained_projection",
+  "findings": {
+    "records_audited": 10,
+    "maintained_repairs": [
+      "PQ101 restored Breaker Energy Wave and Champa's Clothes",
+      "PQ102 restored Battle Suit (Cabba) and two Super Souls",
+      "PQ103 restored three Super Souls",
+      "PQ104 restored two skills, Android 14's Clothes, Android 14's Hat link, and one Super Soul",
+      "PQ105 restored three skills, Android 13's Clothes, Android 13's Hat link, and two Super Souls",
+      "PQ106 restored three skills, Super Android 13's Clothes, and three Super Souls",
+      "PQ107 restored Future Mai's Clothes and You can't win...",
+      "PQ108 restored Goku Black's Clothes and two Super Souls",
+      "PQ109 restored Super Black Kamehameha Rosé, Zamasu's Clothes, and two Super Souls",
+      "PQ110 restored Divinity Unleashed, Super Saiyan 4 Suit (Goku), SS4 Wig & Tail (Goku) accessory link, and two Super Souls"
+    ],
+    "canonical_alignment": "Every restored reward projection is backed by an existing source-backed canonical relationship. Canonical relationship store was not modified.",
+    "unresolved": [
+      "Some reward names in the broad research/reward lists do not yet have canonical typed endpoints; these were not invented or projected without canonical evidence."
+    ]
+  },
+  "canonical_data_changed": false,
+  "unsupported_relationships_invented": false,
+  "next": "PQ111-PQ120 recovery-forward reconciliation"
+}
