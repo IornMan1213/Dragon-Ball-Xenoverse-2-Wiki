@@ -6655,3 +6655,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical source data was not changed.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ131-PQ140 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ131-PQ140 recovery-forward reconciliation
+- [x] Re-read the live continuation prompt/TODO and audited PQ131-PQ140 across dedicated research, maintained PQ records, canonical typed reward relationships, and accessory endpoint records.
+- [x] Repaired maintained PQ134 skill projections: Burst Charge and Ultimate Charge.
+- [x] Restored canonical-backed equipment projections: PQ131 SSGSS Gogeta's Clothes (equip-042); PQ133 Kakunsa's Clothes (equip-043); PQ135 Rozie's Clothes (equip-044); PQ139 Android 21's Lab Uniform (equip-045) and Universe 7 Baseball Uniform (equip-046).
+- [x] Restored accessory cross-links for Broly Wig (Legendary Super Saiyan) (PQ132, acc-072), Kakunsa's Tail (PQ133, acc-074), Kakunsa's Wig and Mask (PQ133, acc-073), Rozie's Hood and Goggles (PQ135, acc-075), and Universe 7 Baseball Cap (PQ139, acc-076).
+- [x] Restored all eight missing canonical-backed Super Soul projections across PQ131-PQ140.
+- [x] Confirmed all ten canonical skill relationships now project into maintained skill_rewards; only PQ134 required repair.
+- [x] Added/indexed batch-569 reconciliation audit; canonical source-of-truth data was not modified.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ141-PQ150 numbering-gap audit; do not fabricate ten quests. Then continue PQ151-PQ160 recovery-forward reconciliation.
