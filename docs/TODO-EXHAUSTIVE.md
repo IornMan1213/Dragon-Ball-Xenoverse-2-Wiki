@@ -5592,3 +5592,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/current-live-recovery-baseline-2026-09-28.json` to the new 853-edge live baseline.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining explicit accessory/PQ identity gaps, then return to larger mechanics/acquisition and bidirectional cross-domain enrichment; do not promote unresolved component identities or historical conflicts without new evidence.
+
+
+### 2026-09-28 continuation — Canonical accessory/PQ promotion batch
+- [x] Audited the remaining accessory endpoint candidate queue against the canonical accessory layer and forward PQ relationship store.
+- [x] Promoted five already-canonical accessory identities: Jaco's State-of-the-Art Radio→PQ72, Tagoma's Scouter→PQ73, Yamcha Baseball Hat→PQ97, Android 14's Hat→PQ104, and Bardock (DB Super)'s Scouter→PQ146.
+- [x] Used the existing all-186 PQ guide evidence and did not infer any drop rate, probability, or reward-slot condition.
+- [x] Marked those five candidates as promoted and synchronized the cross-domain status/audit projections.
+- [x] Current canonical PQ relationship store is now 858 edges: 249 Skill, 135 Super Soul, 132 Equipment, 247 Character, 88 DLC, 7 Farming.
+- [x] Updated the live recovery baseline to 858 edges.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: continue remaining accessory candidates only where canonical identity is established; keep Gine, Kale, Caulifla, Android 17 Ranger, and Android 15 Sunglasses unresolved until direct identity evidence exists. Then resume mechanics/acquisition and bidirectional enrichment.
