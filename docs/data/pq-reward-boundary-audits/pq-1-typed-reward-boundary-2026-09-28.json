@@ -1,0 +1,29 @@
+{
+  "schema_version":"1.0.0",
+  "batch_id":552,
+  "date":"2026-09-28",
+  "status":"complete",
+  "type":"pq_typed_relationship_boundary_audit",
+  "scope":"Resolve the apparent PQ1 typed-reward gap identified by the post-recovery audit.",
+  "canonical_source":"docs/data/pq-reward-relationships.json",
+  "quest":{
+    "id":"pq-1",
+    "number":1,
+    "name":"Being a Time Patroller",
+    "source_research":"docs/data/parallel-quest-research-batches/pq-batch-01.json"
+  },
+  "finding":{
+    "basic_rewards":["120 Zeni","Energy Capsule S"],
+    "skill_rewards":[],
+    "super_soul_rewards":[],
+    "equipment_rewards":[],
+    "typed_relationships_required":false,
+    "reason":"The canonical PQ research record contains only Zeni and an Energy Capsule for PQ1; no skill, Super Soul, or equipment reward is documented. Therefore the absence of a typed skill/Super Soul/equipment edge is an intentional zero-reward boundary, not missing relationship data."
+  },
+  "validation":{
+    "new_relationships":0,
+    "unsupported_relationships_invented":0,
+    "pq1_reclassified_as_intentional_zero_typed_reward":true
+  },
+  "next":"Continue PQ cross-domain enrichment for actual typed reward endpoints and preserve zero-typed-reward quests as explicit audit exceptions."
+}
