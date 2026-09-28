@@ -2645,6 +2645,21 @@
           "qq_bang_id": "qq-observed-012",
           "input": "Beerus Top",
           "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-013",
+          "input": "Beerus Clothes (Upper Body)",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-014",
+          "input": "Beerus Clothes (Upper Body)",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-steam-001",
+          "input": "Beerus clothing (upper body)",
+          "relationship": "QQ Bang clothing input"
         }
       ]
     },
@@ -2915,6 +2930,37 @@
           "relationship": "QQ Bang clothing input"
         }
       ]
+    },
+    {
+      "id": "equip-110",
+      "name": "Beerus Clothes (Lower Body)",
+      "slot": "lower body",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing system; exact component restrictions remain unresolved.",
+      "set_name": "Beerus' Clothes",
+      "acquisition_method": "unresolved",
+      "source_quest_or_shop": null,
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity indexed from explicit QQ Bang input evidence. This is the lower-body component named by the observed recipe table; stats, acquisition route, and current inventory conditions remain unresolved.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-013",
+          "input": "Beerus Clothes (Lower Body)",
+          "relationship": "QQ Bang clothing input"
+        }
+      ]
     }
   ],
   "research_notes": [
@@ -2929,6 +2975,13 @@
     {
       "date": "2026-09-27",
       "note": "Indexed additional QQ Bang input identities (Light Hearts Suit, Android 16 Top, Great Saiyaman Legs, 4-Star Dragon Ball Costume, Goku's End of Z Gi) without inferring stats or acquisition. Existing canonical records were reused where identity was sufficiently clear.",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "QQ Bang component identity reconciliation: added Beerus Clothes (Lower Body) as equip-110 from explicit Prima Games recipe input evidence; attached upper-body naming aliases to equip-101 without duplicating the canonical Beerus Top identity. No stats/acquisition values were inferred.",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
       ]
