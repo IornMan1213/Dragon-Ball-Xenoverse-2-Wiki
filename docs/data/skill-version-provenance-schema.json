@@ -32,6 +32,7 @@
     ],
     "confidence_values": [
       "direct",
+      "direct_scope",
       "corroborated",
       "context_only",
       "conflicted",
