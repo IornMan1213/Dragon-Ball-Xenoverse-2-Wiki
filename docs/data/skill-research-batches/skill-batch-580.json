@@ -1,0 +1,98 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 580,
+  "date": "2026-09-28",
+  "status": "complete",
+  "type": "official_third_festival_named_skill_reconciliation",
+  "scope": "Identify officially named 3rd Festival of Universes skill variants and compare them with the recovered canonical skill corpus without manufacturing variant IDs.",
+  "canonical_source": "docs/data/skills.json",
+  "official_sources": [
+    {
+      "id": "official_3rd_festival_week1",
+      "url": "https://en.dragon-ball-official.com/news/01_3252.html",
+      "skills": [
+        "Galaxy Breaker (Festival)",
+        "Charge (Festival)"
+      ],
+      "characters": [
+        "Vegeta",
+        "Goten"
+      ]
+    },
+    {
+      "id": "official_3rd_festival_week2",
+      "url": "https://en.dragon-ball-official.com/news/01_3260.html",
+      "skills": [
+        "Galick Rush (Festival)"
+      ],
+      "characters": [
+        "Cabba"
+      ]
+    },
+    {
+      "id": "official_3rd_festival_week3",
+      "url": "https://en.dragon-ball-official.com/news/01_3283.html",
+      "skills": [
+        "Hellzone Grenade (Festival)"
+      ],
+      "characters": [
+        "Piccolo"
+      ]
+    },
+    {
+      "id": "official_3rd_festival_week4",
+      "url": "https://en.dragon-ball-official.com/news/01_3306.html",
+      "skills": [
+        "Sonic Bomb (Festival)"
+      ],
+      "characters": [
+        "Frieza (1st Form)"
+      ]
+    }
+  ],
+  "records": [
+    {
+      "name": "Galaxy Breaker (Festival)",
+      "character": "Vegeta",
+      "official_name": true,
+      "canonical_presence": "present",
+      "canonical_id": "skill-galaxy-breaker-festival",
+      "action": "no_change"
+    },
+    {
+      "name": "Charge (Festival)",
+      "character": "Goten",
+      "official_name": true,
+      "canonical_presence": "not_found_in_current_search",
+      "canonical_id": null,
+      "action": "recovery_candidate"
+    },
+    {
+      "name": "Galick Rush (Festival)",
+      "character": "Cabba",
+      "official_name": true,
+      "canonical_presence": "not_found_in_current_search",
+      "canonical_id": null,
+      "action": "recovery_candidate"
+    },
+    {
+      "name": "Hellzone Grenade (Festival)",
+      "character": "Piccolo",
+      "official_name": true,
+      "canonical_presence": "not_found_in_current_search",
+      "canonical_id": null,
+      "action": "recovery_candidate"
+    },
+    {
+      "name": "Sonic Bomb (Festival)",
+      "character": "Frieza (1st Form)",
+      "official_name": true,
+      "canonical_presence": "not_found_in_current_search",
+      "canonical_id": null,
+      "action": "recovery_candidate"
+    }
+  ],
+  "evidence_boundary": "Official sources explicitly name these four 3rd Festival skills and associate them with their character rewards. Search absence is not treated as proof that an internal canonical ID does not exist; exact ID recovery must use repository/historical structured evidence. No ID is derived from the base skill name, character, order, or preset.",
+  "canonical_action": "No skills.json mutation.",
+  "next": "Search historical recovery layers and structured sources for exact identifiers for Charge, Galick Rush, Hellzone Grenade, and Sonic Bomb Festival variants. If IDs remain unavailable, retain them as a named official-evidence layer and continue other canonical enrichment."
+}
