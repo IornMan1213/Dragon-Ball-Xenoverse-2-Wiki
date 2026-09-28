@@ -320,5 +320,38 @@
     "verification_policy": "Identity coverage may be reconciled into canonical records, but verification_status remains partially_verified until record-level evidence is reconciled. Preset occurrence alone is never sufficient evidence for acquisition, cost, mechanics, or CaC availability.",
     "evidence_boundary": "Existing research batches are evidence; canonical skills.json remains the source of truth. No verified/index/projection layer is treated as authoritative.",
     "known_followup": "Some newly represented records contain broad or placeholder fields that must be replaced with exact research-batch evidence before they can be considered enriched/current-scope."
-  }
+  },
+  "research_passes": [
+    {
+      "date": "2026-09-27",
+      "pass_id": "unmatched-preset-skill-evidence-screen-01",
+      "scope": "evidence screening for unmatched verified-preset skill names",
+      "reviewed": [
+        "Sledgehammer",
+        "Energy Wave Combo",
+        "Galaxy Breaker (Festival)"
+      ],
+      "findings": [
+        {
+          "name": "Sledgehammer",
+          "status": "existing-research-evidence",
+          "evidence": "skill-batch-159",
+          "canonical_action": "defer canonical promotion until schema-safe reconciliation; existing research explicitly identifies Super/Strike, 100 Ki, Skill Shop, and CaC usability."
+        },
+        {
+          "name": "Energy Wave Combo",
+          "status": "existing-research-evidence",
+          "evidence": "skill-batch-265",
+          "canonical_action": "defer canonical promotion; batch establishes Super/Ki Blast, 100 Ki, CaC usability, but leaves acquisition unresolved."
+        },
+        {
+          "name": "Galaxy Breaker (Festival)",
+          "status": "existing-research-evidence",
+          "evidence": "skill-batch-264 + unavailable-cac catalog",
+          "canonical_action": "defer canonical promotion; preserve Festival-specific identity and non-CaC boundary until canonical schema/source authority is reconciled."
+        }
+      ],
+      "result": "evidence_found_no_safe_promotion"
+    }
+  ]
 }
