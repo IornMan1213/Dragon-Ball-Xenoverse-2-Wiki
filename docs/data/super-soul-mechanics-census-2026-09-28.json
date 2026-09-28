@@ -1,0 +1,77 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Fresh active Super Soul mechanics census after the 2026-09-28 super-soul-049 enrichment",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "policy": "Canonical Super Soul records remain authoritative. Missing mechanics are not filled from projections, verified layers, or inference; intentional no-effect/categorical mechanics are distinguished from substantive unresolved mechanics.",
+  "counts": {
+    "total_records": 172,
+    "active_records": 167,
+    "excluded_rejected_legacy_records": 5,
+    "trigger_condition_populated": 162,
+    "trigger_condition_missing": 5,
+    "effect_text_populated": 167,
+    "effect_text_missing": 0,
+    "effect_magnitude_populated": 161,
+    "effect_magnitude_missing": 6,
+    "duration_populated": 126,
+    "duration_missing": 41,
+    "stacking_behavior_populated": 72,
+    "stacking_behavior_missing": 95,
+    "limit_burst_populated": 160,
+    "limit_burst_missing": 7,
+    "limit_burst_effect_populated": 165,
+    "limit_burst_effect_missing": 2
+  },
+  "triage": [
+    {
+      "id": "super-soul-001",
+      "name": "Hee Hee Sunglasses",
+      "status": "intentional_categorical_effect",
+      "reason": "Blindness immunity is not a numeric magnitude; current direct documentation describes the immunity and Auto Just Guard."
+    },
+    {
+      "id": "super-soul-005",
+      "name": "Your power is 5? ...Scum.",
+      "status": "intentional_no_effect",
+      "reason": "Current Super Soul listings explicitly report no special effects."
+    },
+    {
+      "id": "super-soul-007",
+      "name": "Gyau!!!!",
+      "status": "intentional_no_effect",
+      "reason": "Current Super Soul listings explicitly report no special effects; Limit Burst is documented separately."
+    },
+    {
+      "id": "super-soul-013",
+      "name": "Kieeeee!!",
+      "status": "intentional_categorical_effect",
+      "reason": "The current effect is a status ailment rather than a numeric magnitude; direct Guldo/Super Soul documentation identifies the Charged Ki Blast trigger and Slow effect."
+    },
+    {
+      "id": "super-soul-015",
+      "name": "I must tell Lord Frieza...",
+      "status": "intentional_no_effect",
+      "reason": "Current Super Soul listings report no special effects."
+    },
+    {
+      "id": "super-soul-016",
+      "name": "Tch... Guess I have no choice.",
+      "status": "intentional_no_effect",
+      "reason": "Current Super Soul listings report no special effects."
+    },
+    {
+      "id": "super-soul-034",
+      "name": "The final battle begins now.",
+      "status": "substantive_unresolved",
+      "reason": "Identity and PQ186 reward presence are established, but the checked current evidence does not independently establish item-level trigger/effect mechanics; preserve unresolved fields."
+    }
+  ],
+  "evidence_for_034": [
+    "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super/"
+  ],
+  "conclusion": "No canonical Super Soul mutation is justified by this census. The only clearly substantive active mechanics gap in the sampled missing-trigger/magnitude frontier is super-soul-034; it remains intentionally unresolved rather than being populated from community speculation.",
+  "next": "Continue with the next cross-domain integrity/enrichment frontier; do not reopen intentional no-effect records."
+}
