@@ -4480,3 +4480,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Synchronized `equipment-catalog-index.json` with the established canonical `equip-111` Android 18's Clothes (Skirt) identity.
 - [x] 2026-09-27: Preserved explicit component distinctions and did not fabricate full-set records from generic recipe wording.
 - [ ] 2026-09-27: Move to remaining canonical equipment endpoint gaps and provenance/cross-domain reconciliation, prioritizing explicit component identities and bidirectional links.
+
+### 2026-09-27 recovery — explicit equipment↔PQ queue closure
+- [x] Completed all 33 explicit equipment→PQ acquisition-source candidates from the reconciliation queue.
+- [x] Reconciled both canonical directions without inferring guaranteed drops, rates, or conditions.
+- [x] Repaired 12 legacy reverse-link gaps and removed 2 duplicate legacy forward representations discovered during the cumulative audit.
+- [x] Final endpoint audit: 48 unique equipment→PQ endpoints and 48 matching PQ→equipment endpoints; zero duplicate or asymmetric endpoints.
+- [ ] Continue evidence-backed QQ Bang/equipment identity and provenance reconciliation.
+- [ ] Continue equipment/build and skill/PQ cross-navigation enrichment.
+
