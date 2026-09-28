@@ -71,7 +71,8 @@
     "Enriched canonical PQ36 (The Cell Games Begin) from the maintained batch, including Yamcha's Sword as a raw equipment reward. Did not create a canonical equipment link because the maintained accessory research still records a PQ29-vs-PQ36 historical conflict.",
     "Restored 17 missing PQ21-40 canonical records from the maintained batch and created 7 exact-name bidirectional equipment links.",
     "Restored 18 missing PQ41-60 canonical records and 0 exact-name bidirectional equipment links.",
-    "Restored 20 missing PQ61-80 canonical PQ records and 0 exact-name equipment links."
+    "Restored 20 missing PQ61-80 canonical PQ records and 0 exact-name equipment links.",
+    "Restored 18 additional missing PQ records from maintained PQ batches; equipment-link audit found no safe exact-name canonical matches in this batch."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -82,7 +83,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Restored missing PQ61-80 canonical records from maintained batch data; exact-name equipment links were added where canonical equipment identities existed."
+    "note": "Restored 18 additional missing PQ records from maintained batches after the PQ21-40 recovery. No exact-name equipment links were added in this cycle because the newly restored records did not match canonical equipment identities safely."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
