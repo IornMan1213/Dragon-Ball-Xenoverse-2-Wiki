@@ -307,12 +307,12 @@
     "date": "2026-09-28",
     "total_edges": 862,
     "counts": {
-      "pq_rewards_skill": 249,
-      "pq_rewards_super_soul": 135,
-      "pq_rewards_equipment": 136,
-      "pq_features_character": 247,
-      "pq_requires_dlc": 88,
-      "pq_farming_route": 7
+      "skill": 249,
+      "super_soul": 135,
+      "equipment": 136,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
     },
     "duplicate_edges": 0,
     "source_backed_edges": 862,
@@ -320,5 +320,25 @@
   },
   "notes": [
     "Historical audit snapshots are preserved; latest live counts are taken only from the canonical forward relationship store."
-  ]
+  ],
+  "latest_pq_41_50_reconciliation": {
+    "date": "2026-09-28",
+    "batch_id": 560,
+    "scope": "PQ41-PQ50",
+    "status": "reconciled",
+    "documented_skill_reward_records": 9,
+    "canonical_skill_relationships_missing": 0,
+    "research_skill_reward_contradictions": 0,
+    "zero_skill_boundary_pqs": [
+      47
+    ],
+    "identity_notes": {
+      "pq48": "Kamekameha is the maintained reward spelling; canonical target is Kamehameha.",
+      "pq49": "Do or Die is retained as a skill relationship after the prior reward-type correction.",
+      "pq46": "Chain Destructo-disc Barrage is normalized to the canonical Chain Destructo-Disc Barrage identity."
+    },
+    "canonical_data_changed": false,
+    "new_relationships_added": 0,
+    "audit_file": "docs/data/pq-reward-boundary-audits/pq-41-50-cross-domain-reconciliation-2026-09-28.json"
+  }
 }
