@@ -6667,3 +6667,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added/indexed batch-569 reconciliation audit; canonical source-of-truth data was not modified.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ141-PQ150 numbering-gap audit; do not fabricate ten quests. Then continue PQ151-PQ160 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ141-PQ150 numbering-gap reconciliation batch 570
+- [x] Audited PQ141-PQ150 as a numbering-gap state using the repository's existing numbering reconciliation and PQ audit documentation.
+- [x] Confirmed there are no populated maintained PQ records or canonical reward relationships for PQ141-PQ150; the next populated structured block begins at PQ151.
+- [x] Added `docs/data/pq-reward-boundary-audits/pq-141-150-numbering-gap-2026-09-28.json` (batch 570) and indexed it in `docs/data/pq-cross-domain-index.json`.
+- [x] Preserved the evidence boundary: no quest records, rewards, skills, Super Souls, equipment, accessories, characters, DLC requirements, or objectives were fabricated for the ten unpopulated numbers.
+- [x] Kept the separate historical/cut PQ36 conflict unchanged.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ151-PQ160 recovery-forward reconciliation.
