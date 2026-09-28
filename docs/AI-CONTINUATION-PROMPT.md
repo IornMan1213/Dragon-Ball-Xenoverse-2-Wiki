@@ -6113,3 +6113,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next genuinely stale canonical skill frontier after Batch 536, checking later dedicated audits before any refresh.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 536
+- [x] Moved beyond the PQ86-PQ100 seed cohort and screened later batches/audits to avoid repeating already refreshed records.
+- [x] Refreshed **Burning Spin, Burning Strike, Light Grenade, and Power Blitz** as the next genuinely stale canonical records.
+- [x] Excluded records already covered by later dedicated evidence work, including Burning Swan, All Clear, Angry Hit, Evil Explosion, Darkness Eye Beam, Darkness Twin Star, Endless Shoot, and Gravity Impact.
+- [x] Added `docs/data/skill-research-batches/skill-batch-536.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships or speculative technical values.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the post-PQ100 stale canonical frontier with the same duplicate-audit and evidence-boundary rules.
