@@ -1,0 +1,22 @@
+{
+  "batch_id":559,
+  "date":"2026-09-28",
+  "type":"pq23_26_skill_reward_reconciliation",
+  "scope":["PQ23","PQ24","PQ25","PQ26"],
+  "status":"evidence_reconciled",
+  "findings":[
+    {"pq":23,"skill":"Death Slash","finding":"Research record contained the skill in basic_rewards but omitted skill_rewards."},
+    {"pq":24,"skill":"Double Death Slicer","finding":"Research record contained the skill in basic_rewards but omitted skill_rewards; external player reports also confirm it as a PQ24 drop, with Ultimate Finish/drop conditions not fully settled."},
+    {"pq":25,"skill":"Spirit Explosion","finding":"Research record contained the skill in basic_rewards but omitted skill_rewards."},
+    {"pq":26,"skill":"Crazy Finger Shot","finding":"Research record contained the skill in basic_rewards but omitted skill_rewards; independent skill documentation identifies PQ26 as its acquisition source."}
+  ],
+  "sources":[
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://xvguide.neocities.org/Skill",
+    "https://dbxv2.fandom.com/wiki/Spirit_Explosion",
+    "https://dbxv2.fandom.com/wiki/Crazy_Finger_Shot"
+  ],
+  "actions":{"pq_batch_03_updated":true,"canonical_pq_relationships_added":false,"canonical_data_changed":false,"unsupported_relationships_invented":false},
+  "note":"The canonical relationship store already contains these reward edges. This batch repairs research-layer omissions only and deliberately leaves exact drop-slot/probability semantics unresolved."
+}
