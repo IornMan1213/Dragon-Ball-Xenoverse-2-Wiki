@@ -4938,3 +4938,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the QQ Bang research frontier metadata: 23 records, 16 promoted observed vectors, next target equipment/build cross-domain relationships and non-duplicate observations.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Next:** continue equipment/build cross-navigation and provenance enrichment without inventing missing identities or reward guarantees.
+
+
+### 2026-09-28 continuation — QQ Bang observed-vector expansion
+- [x] Added canonical research record `qq-observed-017` for a distinct documented 6-star QQ Bang output: **-1 Health / +5 Ki / +5 Stamina / +4 Basic Attack / +3 Strike Supers / +5 Ki Blast Supers**.
+- [x] Preserved the source as `verified_secondary`; the community report documents Beerus Clothing Top + 4-Star Dragon Ball Clothing Top + Super Mix Capsule Z, but does not establish a deterministic recipe or guaranteed output.
+- [x] Added bidirectional QQ Bang↔equipment navigation for `equip-101` (Beerus Top) and `equip-108` (4-Star Dragon Ball Costume).
+- [x] Registered the observation in `docs/data/pq-cross-domain-index.json` and updated the recovery checkpoint to **24 QQ Bang records / 17 observed vectors**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Next:** continue the QQ Bang/equipment build-navigation census for genuinely new non-duplicate observed outputs and exact equipment identities; preserve RNG and recipe uncertainty.
