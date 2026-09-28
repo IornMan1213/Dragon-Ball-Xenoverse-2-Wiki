@@ -1374,6 +1374,9 @@
     ],
     "Goku's Turtle Hermit Gi (Go)": [
       14
+    ],
+    "Broly's Clothes": [
+      47
     ]
   },
   "accessories": {
@@ -1503,7 +1506,8 @@
     "2026-09-19: Reverse index extended from the forward relationship layer after adding 46 source-normalized reward edges.",
     "2026-09-19: Subtype-aware reverse-index reconciliation added normalized-map clothing/accessory provenance without changing forward equipment relationship semantics. The forward layer intentionally uses one equipment relationship type; reverse index retains subtype where the source identifies it.",
     "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it.",
-    "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated."
+    "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated.",
+    "2026-09-28 reverse audit: added the missing derived clothing reverse endpoint for canonical PQ47 → Broly's Clothes; no canonical forward relationship was created here."
   ],
   "dlc": {
     "Conton City Vote Pack": [
