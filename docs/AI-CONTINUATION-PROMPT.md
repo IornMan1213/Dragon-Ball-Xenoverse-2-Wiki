@@ -6373,3 +6373,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added official Bandai Namco DAIMA Pack release provenance and mapped all 6 records to the event scope without inventing patch/version numbers.
 - [x] Synchronized `skill-version-provenance-audit-2026-09-28.json` with the registry's current direct-mapping count.
 - [ ] **Next:** separate remaining free-update DAIMA-era skills from paid-pack content, then reconcile Chapter 4 named-move evidence.
+
+
+### 2026-09-28 continuation — DAIMA free-update skill boundary
+- [x] Verified the official May 2025 DAIMA Pack announcement explicitly says a **free update also included Skills**. citeturn1search0
+- [x] Audited canonical skill records: none currently carries an explicit DAIMA/free-update label identifying that separate free-update skill subset.
+- [x] Recorded this as an explicit provenance gap rather than guessing which skills belonged to the free update.
+- [ ] **Next:** seek direct skill-level evidence for the May 2025 free-update skills, then continue Chapter 4 named-move reconciliation.
