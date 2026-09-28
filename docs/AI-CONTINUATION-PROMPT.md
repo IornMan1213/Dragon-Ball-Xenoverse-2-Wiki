@@ -4953,3 +4953,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Enriched `pq-036` with the maintained batch's objectives, ultimate-finish condition, enemies, rewards, skill reward, Super Soul reward, and provenance.
 - [x] Preserved `Yamcha's Sword` as a raw equipment reward without a canonical equipment link because the accessory research layer explicitly retains a PQ29/PQ36 conflict.
 - [ ] Resolve the Yamcha's Sword identity/route conflict before promoting the cross-domain link.
+
+### 2026-09-27 continuation — PQ21-40 restoration
+- [x] Restored 17 missing PQ21-40 records into the canonical PQ layer from the maintained batch.
+- [x] Added 7 exact-name bidirectional equipment links where canonical equipment identities were present.
+- [x] Preserved unresolved accessory conflicts (including Yamcha's Sword) without speculative canonical equipment promotion.
+- [ ] Continue restoring subsequent missing PQ records from maintained batches and cross-link only evidence-supported identities.
