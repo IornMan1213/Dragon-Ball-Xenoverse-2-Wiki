@@ -4966,3 +4966,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] QQ Bang record layer advanced from **24 to 25 records**; the research frontier now tracks **19 promoted observed vectors**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the QQ Bang/equipment/build-navigation census for additional genuinely new vectors or unresolved exact input identities, then resume the remaining restored cross-domain/PQ reward coverage queue.
+
+### 2026-09-28 continuation — QQ Bang vector bidirectional navigation completion
+- [x] Completed reverse navigation for `qq-observed-018` on `equip-101` and `equip-108`; the new observation is now navigable in both directions.
+- [x] Updated `docs/data/qq-bang-observed-vector-expansion-2026-09-28.json` to record the two reverse links.
+- [x] Final live check confirms the canonical QQ Bang record, both equipment endpoints, and both handoff files are synchronized.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Next:** continue the QQ Bang/equipment/build-navigation census and then return to the remaining restored cross-domain/PQ reward coverage frontier; do not repeat reconciled records.
