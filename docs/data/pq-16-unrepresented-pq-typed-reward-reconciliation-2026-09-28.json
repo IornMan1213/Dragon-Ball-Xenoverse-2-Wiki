@@ -1,0 +1,173 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "scope": "16 PQs without explicit canonical skill endpoints",
+  "source_layers": [
+    "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/super-souls/pq-acquisition-index-001-186.json"
+  ],
+  "pq_ids": [
+    1,
+    30,
+    35,
+    47,
+    48,
+    93,
+    102,
+    103,
+    107,
+    108,
+    118,
+    121,
+    144,
+    157,
+    169,
+    170
+  ],
+  "findings": [
+    {
+      "pq": 1,
+      "status": "no_typed_reward_gap_identified"
+    },
+    {
+      "pq": 30,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "I'm neither Kami nor Piccolo..."
+      ],
+      "equipment": [
+        "Hercule's Clothes",
+        "Tien Shinhan's Gi"
+      ]
+    },
+    {
+      "pq": 35,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "I wanted to kill you with my own hands."
+      ]
+    },
+    {
+      "pq": 47,
+      "status": "no_typed_reward_gap_identified"
+    },
+    {
+      "pq": 48,
+      "status": "skill_evidence_boundary",
+      "skill_research_identity": "Kamekameha",
+      "canonical_skill_endpoint": false
+    },
+    {
+      "pq": 93,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "Finally, some excitement.",
+        "I...hate you!!!"
+      ],
+      "equipment": [
+        "Pan's Bandanna",
+        "Pan's Clothes"
+      ],
+      "accessory": [
+        "Pan's Bandanna"
+      ]
+    },
+    {
+      "pq": 102,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "I'll make you regret that!",
+        "Don't quit! Get up!"
+      ],
+      "equipment": [
+        "Battle Suit (Cabba)"
+      ]
+    },
+    {
+      "pq": 103,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "This is not a weapon.",
+        "I've been saving this! Kaioken!",
+        "Now you understand. Surrender."
+      ]
+    },
+    {
+      "pq": 107,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "You can't win..."
+      ],
+      "equipment": [
+        "Future Mai's Clothes"
+      ]
+    },
+    {
+      "pq": 108,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "Eehee hee hee heee!",
+        "Now, give your father a message for me."
+      ],
+      "equipment": [
+        "Goku Black's Clothes"
+      ]
+    },
+    {
+      "pq": 118,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "Now we're even.",
+        "I hate what I've become!"
+      ]
+    },
+    {
+      "pq": 121,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "Right, then... Let's begin the experiment!"
+      ],
+      "equipment": [
+        "Tuxedo",
+        "Wedding Dress"
+      ]
+    },
+    {
+      "pq": 144,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "You've awakened my true power...",
+        "I won't forgive those who best my comrades!"
+      ],
+      "equipment": [
+        "Gine (DB Super)'s Clothes",
+        "Gine (DB Super) Set"
+      ]
+    },
+    {
+      "pq": 157,
+      "status": "canonical_typed_rewards_reconciled",
+      "super_souls": [
+        "I'll be the one to fight you!",
+        "You need to be more careful."
+      ]
+    },
+    {
+      "pq": 169,
+      "status": "canonical_typed_rewards_reconciled",
+      "equipment": [
+        "Orange Piccolo's Clothes"
+      ]
+    },
+    {
+      "pq": 170,
+      "status": "canonical_typed_rewards_reconciled",
+      "equipment": [
+        "Videl (DB Super)'s Clothes"
+      ]
+    }
+  ],
+  "result": "The 16-PQ frontier does not currently justify additional canonical Skill→PQ edges. Existing canonical Super Soul and equipment relationships cover the explicitly normalized typed rewards examined here. PQ48 remains an indexed-only Kamekameha research identity and is not promoted into the canonical skill corpus solely from the PQ reward transcription. No reward absence is inferred from empty arrays.",
+  "next": "Shift from this 16-PQ endpoint census to remaining cross-domain reverse-index integrity and skill research identities, while retaining PQ48 as an explicit evidence-boundary task."
+}
