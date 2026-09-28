@@ -87,16 +87,16 @@
     "qq_bang_records": 23,
     "qq_bang_observed_vectors": 16,
     "targets": [
-      "continue cross-domain reconciliation beyond the completed explicit equipment→PQ queue",
-      "audit remaining QQ Bang/equipment identities and unresolved acquisition conflicts",
-      "continue equipment/build and skill/PQ cross-navigation enrichment",
-      "synchronize stale status metadata and update automated validation coverage where repository write paths permit"
+      "reconcile the 18 post-recovery catalog-gap-promoted skill identities against direct research evidence, beginning with the five already screened in skill-preset-evidence-reconciliation-batch-01",
+      "continue evidence-backed QQ Bang/equipment identity and acquisition reconciliation, including unresolved endpoint gaps",
+      "continue bidirectional equipment/skill/PQ/Super Soul cross-navigation enrichment",
+      "refresh validation/audit metadata whenever a substantive recovery or reconciliation batch changes the live baseline"
     ],
     "note": "QQ Bang clothing component identities are reconciled where explicit evidence supports them; continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships, preserving unresolved inputs rather than guessing."
   },
   "validation_boundary": "Canonical JSON integrity and endpoint reconciliation have been validated through direct repository reads; Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint.",
   "last_updated": "2026-09-28",
-  "recovery_state": "active_recovery_with_exact_qq_bang_equipment_identity_audit",
+  "recovery_state": "active_recovery_with_skill_catalog_gap_reconciliation",
   "live_baseline": {
     "equipment_records": 112,
     "qq_bang_records": 23,
@@ -105,9 +105,9 @@
     "pq_cross_domain_edges": 840,
     "qq_bang_observed_vectors": 17
   },
-  "next_target": "Reconcile the 18 post-recovery catalog-gap-promoted skill identities against direct research evidence, then resume QQ Bang/equipment and skill/PQ cross-domain enrichment.",
+  "next_target": "Reconcile the first five post-recovery catalog-gap-promoted skill identities against their direct research batches (Full Power Energy Blast Volley, Super Back Jump, Ki Blast Cannon, Break Strike, Consecutive Energy Blast), then proceed through the remaining 13 with the same canonical-source/evidence-boundary rules.",
   "equipment_records": 112,
-  "latest_change": "Post-corruption recovery metadata was reconciled against the live 493-record canonical skill corpus. The 18 preset-loadout identities restored after the 474-record recovery baseline are now tracked as canonical identity coverage while retaining partially_verified status until record-level evidence reconciliation is complete.",
+  "latest_change": "Recovery checkpoint reconciled on 2026-09-28: live canonical skill/index parity is 493/493, PQ reward relationship baseline is 840, all 186 PQ records are present, equipment record layer is 112, QQ Bang record layer is 23, and the observed-vector layer is 17. The next recovery-forward task is record-level evidence reconciliation for the 18 catalog-gap-promoted skills.",
   "qq_bang_2026_09_28_observation_017": {
     "status": "completed",
     "record_id": "qq-observed-017",
