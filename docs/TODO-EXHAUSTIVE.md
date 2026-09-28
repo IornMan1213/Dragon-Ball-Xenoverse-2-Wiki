@@ -5613,3 +5613,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the live recovery baseline and PQ status/audit projections.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue only with remaining candidates having direct canonical identity evidence; preserve Great Saiyaman Bandana variants, Android 15 Sunglasses, Gine/Kale/Caulifla accessories, and Android 17 Ranger Accessory as unresolved until inventory-level evidence supports reconciliation. Then return to broader mechanics/acquisition enrichment.
+
+
+### 2026-09-28 continuation — SSGSS Goku Wig/PQ76 reconciliation
+- [x] Detected a stale candidate status: the canonical bridge already matched SSGSS Goku Wig to canonical accessory acc-066, but the candidate queue still said not promoted.
+- [x] Promoted SSGSS Goku Wig→PQ76 into the authoritative PQ reward relationship store using the explicit canonical identity and PQ association.
+- [x] Kept reward/drop-condition certainty separate from identity-level relationship evidence.
+- [x] Current canonical PQ relationship store is now 861 edges: 249 Skill, 135 Super Soul, 135 Equipment, 247 Character, 88 DLC, 7 Farming.
+- [x] Synchronized the enrichment queue, cross-domain status/audit, live recovery baseline, TODO, and continuation handoff.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: do not force-match Great Saiyaman Bandana 1/2, Android 15 Sunglasses, or unresolved component identities without inventory-level evidence; after remaining safe identity checks, return to broader mechanics/acquisition enrichment.
