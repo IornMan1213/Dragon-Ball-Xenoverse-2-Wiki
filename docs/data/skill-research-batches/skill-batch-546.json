@@ -1,5 +1,64 @@
 {
+  "schema_version": "1.0",
   "batch": 546,
   "date": "2026-09-28",
-  "type": "canonical-skill-cross-domain-audit"
+  "type": "canonical-skill-cross-domain-audit",
+  "scope": "Audit the completed acquisition layer, mechanics/restriction field coverage, and bidirectional PQ↔skill parity after batch 545.",
+  "canonical_source": "docs/data/skills.json",
+  "findings": {
+    "canonical_skill_records": 497,
+    "acquisition_target_gaps": 0,
+    "mechanics_notes_gaps": 0,
+    "race_restriction_gaps": 27,
+    "ki_cost_nulls": 2,
+    "pq_skill_relationships": 249,
+    "skills_with_pq_metadata": 244,
+    "pq_metadata_without_relationship": 0,
+    "pq_skill_relationships_without_canonical_skill": 0
+  },
+  "pq_skill_parity": {
+    "status": "complete_for_current_canonical_scope",
+    "rule": "Every canonical skill carrying source_parallel_quests/source_quest is represented by a pq_rewards_skill relationship, and every canonical pq_rewards_skill target resolves to a canonical skill name.",
+    "unmatched_forward": 0,
+    "orphan_reverse": 0
+  },
+  "restriction_review": {
+    "status": "open",
+    "records": [
+      "Backflip",
+      "Blaster Stream",
+      "Break Strike",
+      "Chaotic Time Impact",
+      "Circle Flash",
+      "Consecutive Energy Blast",
+      "Core Breaker",
+      "Energy Wave Combo",
+      "Full Power Destruction",
+      "Full Power Energy Wave",
+      "Galaxy Breaker (Festival)",
+      "Gamma Impact",
+      "Gigantic Cross",
+      "Gigantic Nova",
+      "Holstein Shock",
+      "Ki Blast Cannon",
+      "Power Pole Combo",
+      "Recoome Eraser Gun",
+      "Saiyan Blaster",
+      "Shockwave",
+      "Sledgehammer",
+      "Super Back Jump",
+      "Super Dragon Fist",
+      "Super Galick Gun",
+      "Super Ki Explosion",
+      "Turn Retreat",
+      "Ultra Fighting Bomber"
+    ],
+    "boundary": "Null race_restriction is an enrichment gap, not evidence of a hidden race restriction. usable_by_cac is not converted into a race restriction without direct identity/restriction evidence."
+  },
+  "mechanics_boundary": {
+    "mechanics_notes_complete": 497,
+    "version_history_fields_absent": 497,
+    "interpretation": "The canonical schema currently stores bounded mechanics in mechanics_notes and does not require separate version-history fields. Version/patch provenance remains a future enrichment layer."
+  },
+  "evidence_boundary": "No race restriction, patch history, exact frames, damage scaling, reward probability, hidden condition, or variant identity is inferred from null fields or from usable_by_cac alone. Canonical skills.json remains authoritative."
 }
