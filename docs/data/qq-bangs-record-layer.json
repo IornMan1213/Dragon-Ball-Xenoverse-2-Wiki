@@ -145,5 +145,15 @@
       ]
     }
   ],
-  "last_updated": "2026-09-27"
+  "last_updated": "2026-09-27",
+  "research_notes": [
+    {
+      "date": "2026-09-27",
+      "note": "System-level evidence refresh: QQ Bangs override clothing stat effects across the four clothing slots; each bang exposes six independent stat modifiers; six-star synthesis uses Super Mix Capsule Z in documented high-tier recipes. Recipe outputs remain RNG/distribution data, so no single community recipe is promoted as a guaranteed spread.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    }
+  ]
 }
