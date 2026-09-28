@@ -4392,3 +4392,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Promoted PQ 29 into the sparse canonical PQ layer and linked it bidirectionally with Android 18's Clothes (Vest & Pants) (`equip-008`).
 - [ ] Next: scan remaining maintained PQ batches for equipment rewards that can be safely promoted and cross-linked.
+
+- [x] 2026-09-27: Promoted PQ 41 and PQ 59 into canonical PQ data and linked their equipment rewards bidirectionally.
+- [ ] Next: continue broader PQ-batch promotion and equipment cross-domain reconciliation.
