@@ -5020,3 +5020,5 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Synchronized the recovery checkpoint to **110 equipment records / 23 QQ Bang records / 16 observed vectors / 186 PQ records**.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; preserve unresolved QQ Bang inputs where evidence does not establish canonical identity.
+
+- [x] 2026-09-27 follow-up: Closed the reverse-link audit by adding equipment-side QQ Bang links for equip-024/Bardock Battle Suit and equip-105/Light Heart Suit; forward/reverse reconciliation is now clean for the newly promoted identities.
