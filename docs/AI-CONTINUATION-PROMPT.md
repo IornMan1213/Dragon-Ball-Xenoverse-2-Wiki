@@ -5789,3 +5789,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed the current 18 restored preset identities have reached the evidence frontier; Galaxy Breaker (Festival) remains outside ordinary CaC canonical promotion.
 - [x] Updated the TODO frontier to the next substantive recovery task: bidirectional Skill↔PQ endpoint auditing against the 840-edge canonical relationship baseline, followed by equipment/QQ Bang endpoint reconciliation.
 - [ ] Next: audit Skill→PQ and PQ→Skill coverage for orphaned or asymmetric endpoints; only promote relationships backed by canonical acquisition evidence.
+
+
+### 2026-09-28 continuation — Skill↔PQ recovery frontier advanced
+- [x] Audited the live canonical `docs/data/pq-reward-relationships.json` rather than relying on the historical 840-edge checkpoint. Current live relationship counts are **852 total**: 248 Skill, 135 Super Soul, 127 equipment, 247 character, 88 DLC, 7 farming.
+- [x] Confirmed the Skill↔PQ bidirectional reconciliation is current at 248 Skill→PQ edges across 170 PQs, with the same 16 PQ IDs lacking explicit canonical Skill endpoints. No unsupported relationships were promoted.
+- [x] Updated current PQ status/audit/recovery metadata while preserving dated 840-edge historical provenance.
+- [x] Repaired an accidental malformed recovery-checkpoint JSON edit by reconstructing it from the prior valid checkpoint and recording the new live 852-edge state.
+- [ ] Next: expand evidence-backed PQ reward coverage beyond the 248 Skill relationships, prioritizing unresolved/underrepresented reward fields while preserving the canonical-source rule and null/conflict boundaries.
+- [ ] Then reconcile equipment/QQ Bang and remaining reverse-index coverage, followed by cross-domain navigation validation.
