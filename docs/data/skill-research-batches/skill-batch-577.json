@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 577,
+  "date": "2026-09-28",
+  "status": "complete",
+  "type": "official_release_event_provenance_reconciliation",
+  "scope": "Strengthen release-event provenance for the existing Chapter 3 and Chapter 4 skill mappings without inventing individual move names from aggregate official counts.",
+  "canonical_source": "docs/data/skills.json",
+  "official_sources": [
+    {
+      "id": "official_xv2_dlc_catalog_2026",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+      "finding": "Official Bandai Namco DLC catalog states Future Saga Chapter 3 contains 6 Additional Moves and Chapter 4 contains 4 New Moves including 1 Awoken Skill."
+    },
+    {
+      "id": "official_xv2_ch3_launch_2025",
+      "url": "https://en.dragon-ball-official.com/news/01_3796.html",
+      "date": "2025-10-28",
+      "finding": "Dragon Ball Official Site launch coverage confirms Future Saga Chapter 3 is available and identifies Golden Frieza (Ultra Supervillain) and Broly (DB Super) as its new playable characters."
+    },
+    {
+      "id": "official_xv2_ch4_launch_2026",
+      "url": "https://en.dragon-ball-official.com/news/01_4313.html",
+      "date": "2026-08-07",
+      "finding": "Dragon Ball Official Site launch coverage confirms Future Saga Chapter 4 is available and identifies Goku (Ultra Supervillain Quelled) and Supreme Kai of Time (Ultra Supervillain) as its new playable characters."
+    }
+  ],
+  "event_reconciliation": [
+    {
+      "event_id": "future-saga-chapter-3",
+      "official_release_date": "2025-10-30",
+      "official_move_count": 6,
+      "canonical_direct_skill_mappings": 6,
+      "status": "event_scope_confirmed_individual_names_not_listed_by_cited_official_source"
+    },
+    {
+      "event_id": "future-saga-chapter-4",
+      "official_release_date": "2026-07-08",
+      "official_move_count": 4,
+      "official_awoken_included": true,
+      "canonical_direct_skill_mappings": 4,
+      "status": "event_scope_confirmed_individual_names_not_listed_by_cited_official_source"
+    }
+  ],
+  "mappings": [
+    {
+      "event_id": "future-saga-chapter-3",
+      "skill_ids": [
+        "skill-gigantic-cross",
+        "skill-gigantic-nova",
+        "skill-saiyan-blaster",
+        "skill-dragon-spiral",
+        "skill-indomitable",
+        "skill-the-power-to-overcome"
+      ]
+    },
+    {
+      "event_id": "future-saga-chapter-4",
+      "skill_ids": [
+        "skill-venus-fist",
+        "skill-dark-inscription",
+        "skill-emperor-s-cannon",
+        "skill-chaotic-time-impact"
+      ]
+    }
+  ],
+  "conclusion": "Official sources independently confirm the DLC event scope and aggregate move counts. They do not name all individual moves in the cited pages, so the existing individual skill mappings remain corroborated repository mappings rather than being promoted to direct-name primary-source mappings.",
+  "canonical_action": "No canonical skills.json mutation.",
+  "unsupported_ids_invented": 0,
+  "next": "Continue individual skill-name primary-source reconciliation where a source explicitly names the move; otherwise preserve corroborated event mappings and move to the next evidence-backed provenance gap."
+}
