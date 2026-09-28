@@ -5780,3 +5780,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Used the official Bandai Namco Chapter 4 DLC page to establish the four-move event scope; the canonical records identify the individual four Chapter 4 moves.
 - [x] Explicitly treated this as release-event scope, not an inferred patch/version date.
 - [ ] **Next:** audit the DAIMA Pack individual skills and then reconcile Chapter 4 named character/move evidence where available.
+
+
+### 2026-09-28 continuation — Dragon Ball DAIMA Pack provenance
+- [x] Audited canonical skills whose `dlc_requirement` is `Dragon Ball DAIMA Pack`.
+- [x] Confirmed 6 paid-pack skill records: Burning Blast, Final Flash (SS3 DAIMA), Force Edge, Heat Wave, Super Kamehameha (SS4 DAIMA), and Supreme Fury.
+- [x] Added official Bandai Namco DAIMA Pack release provenance and mapped all 6 records to the event scope without inventing patch/version numbers.
+- [x] Synchronized `skill-version-provenance-audit-2026-09-28.json` with the registry's current direct-mapping count.
+- [ ] **Next:** separate remaining free-update DAIMA-era skills from paid-pack content, then reconcile Chapter 4 named-move evidence.
