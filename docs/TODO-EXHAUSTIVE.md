@@ -5262,3 +5262,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No safe new canonical equipment link was identified; generic recipe prose and explicitly unspecified inputs remain unlinked by design.
 - [x] Updated `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json` with the final boundary.
 - [ ] **Next:** continue evidence-backed PQ typed-reward expansion and acquisition-gap research.
+
+
+### 2026-09-28 continuation — PQ typed-reward drift audit
+- [x] Completed the remaining normalized-map source-only cross-check against canonical PQ relationships.
+- [x] Confirmed no additional safe typed-reward promotions remain from that drift set.
+- [x] Documented the result in `docs/data/pq-cross-domain-reconciliation.json`.
+- [ ] **Next:** continue the explicit canonical skill-record/acquisition-gap frontier (Dual Masenko candidate) and mechanics enrichment.
