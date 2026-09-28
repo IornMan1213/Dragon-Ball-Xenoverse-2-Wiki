@@ -5369,3 +5369,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Re-synchronized skills-index.json; final checked counts remain 493 canonical / 493 index.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Exact next: continue remaining restored identities, then audit Skill→PQ cross-domain relationships for unresolved or unsupported recovered edges.
+
+### 2026-09-28 continuation — Bidirectional restored Skill→PQ reconciliation
+- [x] Re-read the live continuation/TODO state and inspected the actual PQ relationship/reverse-index artifacts before mutating them.
+- [x] Identified a concrete recovery inconsistency: Holstein Shock and Recoome Eraser Gun had direct PQ acquisition evidence in canonical `skills.json`, but their PQ reward edges were absent from `pq-reward-relationships.json`.
+- [x] Added source-backed PQ15→Holstein Shock and PQ17→Recoome Eraser Gun relationships.
+- [x] Added `[15]` and `[17]` to the corresponding canonical `source_parallel_quests` arrays.
+- [x] Rebuilt `skill-pq-reverse-index-2026-09-26.json` from the canonical skill corpus; it now records **248 Skill→PQ edges**, **170 represented PQs**, and **493 canonical skills**.
+- [x] Updated `pq-skill-crosslink-report.json` and the PQ skill consumer reconciliation audit to the 248-edge live state.
+- [x] Added `docs/data/skill-pq-recovery-reconciliation-2026-09-28.json` with evidence and preservation boundaries.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** audit remaining recovered cross-domain endpoints, then expand evidence-backed PQ reward coverage beyond the current 248 Skill→PQ relationships.
