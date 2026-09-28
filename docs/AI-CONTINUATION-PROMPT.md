@@ -5066,3 +5066,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the recovery checkpoint with this completed state.
 - [ ] Next: move beyond the exhausted explicit equipment→PQ queue into evidence-backed QQ Bang/equipment identity and provenance reconciliation, then equipment/build and skill/PQ cross-navigation.
 
+
+
+## 2026-09-27 Final Recovery Reconciliation — live main
+
+- [x] Re-read the live continuation state and reconciled the post-corruption recovery baseline against current main commit `db6b7c96fef86ab0f690369a6f13f585491da7fb`.
+- [x] Confirmed canonical database recovery baseline: **475 Skills / 475 skill-index records / 246 Skill→PQ edges / 170 represented PQs; 840 PQ cross-domain edges; 186 PQ records; 172 historical / 167 active Super Souls; 112 equipment records; 33 mentors; 15 Awoken records; 23 QQ Bang records / 16 observed vectors; 3 Partner Skill relationships**.
+- [x] Added `docs/data/recovery-reconciliation-audit-2026-09-27-final.json` as the post-corruption recovery checkpoint and recorded the canonical-source-of-truth boundary.
+- [x] Confirmed the explicit 33-entry equipment→PQ queue is exhausted and its endpoint graph remains 48 forward / 48 reverse with zero duplicate or asymmetric endpoints.
+- [x] Confirmed Skill research has progressed through Batch 527; Batch 527 was screened against later dedicated evidence and made no unsupported canonical rewrite.
+- [x] Preserved the repository rule that canonical data, not `verified: true` or projection/index layers, is authoritative for reconstruction.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified because connector-side execution evidence is unavailable.
+- [ ] **Exact next:** continue evidence-backed QQ Bang/equipment provenance reconciliation, then equipment/build and skill/PQ cross-navigation enrichment. Promote only exact identities supported by canonical or explicit source evidence; preserve historical conflicts, RNG/drop-rate uncertainty, and unresolved acquisition semantics.
