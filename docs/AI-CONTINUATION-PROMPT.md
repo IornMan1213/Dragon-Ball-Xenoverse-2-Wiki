@@ -4833,3 +4833,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] QQ Bang record layer now contains 15 records and 11 promoted observed vectors.
 - [ ] Continue QQ Bang expansion with additional non-duplicate observed vectors and exact input provenance; avoid duplicating the same output or converting community recipes into guaranteed results.
 - [ ] Runtime/CI validation remains unverified in the connector environment.
+
+
+### 2026-09-27 continuation — QQ Bang research expansion
+- [x] Advanced the next-priority QQ Bang work instead of manufacturing a PQ118 relationship.
+- [x] Expanded `docs/data/qq-bangs-record-layer.json` from 15 to 18 structured records.
+- [x] Added three 6-star community recipe-family records: Super Saiyan 4 Goku + Goku Black clothing; Battle Suit (Bardock) + Light Heart Suit; Beerus clothing + Light Heart Suit.
+- [x] Preserved the repository's RNG/provenance rule: these are recipe families, not guaranteed six-stat outputs; exact results remain separate observations.
+- [x] Evidence refreshed from a 2025 community guide documenting the three recipe families and the Super Mix Capsule Z workflow. citeturn0youtube21
+- [x] Updated `docs/data/coverage-gaps.json` to record the QQ Bang expansion while keeping the domain explicitly incomplete.
+- [ ] Next QQ Bang frontier: expand observed six-stat outputs and acquisition/material provenance, especially version-aware Super Mix Capsule/Z evidence, without converting community recipe expectations into deterministic results.
