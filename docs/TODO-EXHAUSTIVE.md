@@ -4740,3 +4740,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled **Galaxy Breaker (Festival)** against `skill-batch-264`: Festival of Universes provenance, Max Camaraderie with Vegeta unlock, 200 Ki, zero Stamina, Vegeta source, 13-hit purple Ki-pillar behavior, and explicit non-CaC boundary confirmed.
 - [x] Canonical coverage remains **493** records; these three records remain `partially_verified` pending broader record-level review rather than being incorrectly promoted to fully verified status.
 - [ ] **Next:** continue the same evidence-first reconciliation across the remaining newly represented preset skills, prioritizing records with dedicated research batches and leaving unsupported acquisition/mechanics fields null.
+
+
+## 2026-09-27 — Post-corruption recovery reconciliation tracking
+
+- [x] Confirm live canonical recovery state: **493 skills**, **493 skill-index records**, **162/162 verified preset skill references exact-match canonical identities**, **246 Skill→PQ edges**, **840 canonical PQ reward relationships**, and **186 canonical PQ records**.
+- [x] Record the live-state reconciliation in `docs/data/post-recovery-live-state-reconciliation-2026-09-27.json`.
+- [x] Reconcile stale recovery-checkpoint metadata with the live 493-record canonical skill state without reconstructing canonical data from projections.
+- [x] Reconcile the historical Dual Masenko gap audit with its current restored canonical state; preserve the unresolved PQ118 boundary.
+- [x] Complete first post-recovery evidence batch for Full Power Energy Blast Volley, Super Back Jump, Ki Blast Cannon, Break Strike, and Consecutive Energy Blast.
+- [ ] Reconcile Super Dragon Fist, Holstein Shock, Backflip, and Turn Retreat against direct research evidence.
+- [ ] Reconcile remaining promoted preset-skill records; preserve null/conflicting acquisition and mechanics fields where evidence is insufficient.
+- [ ] Obtain direct evidence for Super Ki Explosion and Ultra Fighting Bomber before any further canonical field promotion.
+- [ ] Resume QQ Bang/equipment and Skill/PQ cross-domain enrichment after the post-recovery skill evidence frontier is sufficiently reconciled.
