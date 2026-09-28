@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Evidence-bounded expansion of the recovered QQ Bang observed-output layer.",
+  "source_policy": "Observed vectors are stored as observations, not deterministic recipes. Canonical equipment identities are reused only where the input names match existing explicit identities.",
+  "record": {
+    "id": "qq-observed-018",
+    "vector": {
+      "health": 5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": 2,
+      "strike_supers": 1,
+      "ki_blast_supers": -1
+    },
+    "stars": 6,
+    "inputs": [
+      "Beerus Clothing Top",
+      "4-Star Dragon Ball Clothing Top"
+    ],
+    "equipment_ids": [
+      "equip-101",
+      "equip-108"
+    ],
+    "mixing_item": "Super Mix Capsule Z",
+    "source": "https://www.reddit.com/r/DragonBallXenoverse2/comments/16ljuul",
+    "verification_status": "verified_secondary"
+  },
+  "evidence_boundary": "The community report documents this concrete output from the named clothing combination, but does not establish deterministic reproduction, exact odds, or a universal recipe rule.",
+  "counts": {
+    "records_before": 24,
+    "records_after": 25,
+    "promoted_observed_vectors_before": 17,
+    "promoted_observed_vectors_after": 19,
+    "new_equipment_identities": 0
+  }
+}
