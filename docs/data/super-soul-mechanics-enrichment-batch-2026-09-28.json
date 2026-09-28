@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Super Soul mechanics enrichment for a previously under-detailed active canonical record.",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-049",
+      "name": "Getting beat up makes me cranky...",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ],
+      "reconciled_fields": {
+        "trigger_condition": "[Always] Activates Ki Auto-Recovery Mode; [When Stamina is maxed out] Boosts Ki Blast-based attacks.",
+        "effect_magnitude": "+5% Ki auto-recovery; +15% Ki Blast-based attacks",
+        "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down."
+      },
+      "status": "reconciled",
+      "policy": "Canonical Super Soul record remains authoritative; missing timing, stacking, and frame semantics remain null."
+    }
+  ],
+  "status": "completed"
+}
