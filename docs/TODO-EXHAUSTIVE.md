@@ -4458,3 +4458,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Corrected an unsafe QQ Bang equipment identity: `Android 18 Skirt` is no longer linked to canonical `equip-008` (`Android 18's Clothes (Vest & Pants)`); the input is explicitly unresolved pending an exact canonical skirt record.
 - [ ] 2026-09-27: Continue exact-identity audit of remaining QQ Bang clothing inputs and equipment-side reverse links; do not substitute near-name clothing variants.
+
+- [x] 2026-09-27: Established canonical `equip-111` for the distinct `Android 18's Clothes (Skirt)` QQ Bang input using historical exact-variant evidence; retained historical stats while leaving acquisition unresolved because the historical PQ25 claim conflicts with the recovered canonical PQ25 reward layer.
+- [x] 2026-09-27: Reattached `qq-observed-prima-005` to `equip-111` and preserved the acquisition conflict boundary without fabricating a PQ link.
+- [ ] 2026-09-27: Continue exact QQ Bang clothing identity audit and reconcile historical acquisition conflicts before promoting equipment↔PQ links.
