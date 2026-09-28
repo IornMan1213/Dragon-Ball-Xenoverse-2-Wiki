@@ -4365,6 +4365,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "I think I'm getting the hang of this.",
+        "I'll keep adding a bit of power to my attacks!"
       ]
     },
     {
@@ -4401,8 +4405,25 @@
         {
           "equipment_id": "equip-038",
           "relationship": "acquisition_source",
-          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+          "evidence_note": "Canonical equipment record names this Parallel Quest as an acquisition source; exact reward/drop mechanics remain separately unresolved."
         }
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-038",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "accr-029",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I will put a stop to you, fiend!"
       ]
     },
     {
@@ -4435,6 +4456,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "There's more where that came from!",
+        "You're not much of a fun fight!"
       ]
     },
     {
@@ -4470,7 +4495,21 @@
         {
           "equipment_id": "equip-048",
           "relationship": "acquisition_source",
-          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+          "evidence_note": "Canonical equipment record names this Parallel Quest as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-048",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "accr-030",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
         }
       ]
     },
@@ -4503,6 +4542,13 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-056",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
       ]
     },
     {
@@ -4535,6 +4581,17 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-057",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "This is your true power?",
+        "Still haven't figured out you're gonna lose?"
       ]
     },
     {
@@ -4561,6 +4618,10 @@
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "super_soul_rewards": [
+        "I'll be the one to fight you!",
+        "You need to be more careful."
       ]
     },
     {
@@ -4597,8 +4658,18 @@
         {
           "equipment_id": "equip-054",
           "relationship": "acquisition_source",
-          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+          "evidence_note": "Canonical equipment record names this Parallel Quest as an acquisition source; exact reward/drop mechanics remain separately unresolved."
         }
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-054",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment relationship names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Heh heh! I'm not as rusty as I look!"
       ]
     },
     {
@@ -4630,6 +4701,17 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-080",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Enter the hero!",
+        "The Red Ribbon Army is back in business!"
       ]
     },
     {
@@ -4662,6 +4744,16 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-081",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Is that all?"
       ]
     },
     {
