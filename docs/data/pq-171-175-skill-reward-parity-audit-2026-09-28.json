@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Record-level bidirectional skill-reward parity audit for PQ171-PQ175.",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "forward_source": "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
+  "reverse_source": "docs/data/pq-reward-normalization/pq-reverse-index-163-186.json",
+  "pqs": {
+    "171": [
+      "Crimson Edge",
+      "Divine Spear"
+    ],
+    "172": [
+      "Big Bang Knuckle",
+      "Wild Stinger"
+    ],
+    "173": [
+      "Divine Ray Bomb"
+    ],
+    "174": [
+      "Final Rampage"
+    ],
+    "175": [
+      "God of Destruction's Plaything",
+      "God of Destruction's Poise"
+    ]
+  },
+  "findings": [
+    "The maintained PQ reward map lists the same skill endpoints for PQ171-PQ175 as the reverse skill index.",
+    "The PQ record/research layer independently lists the corresponding skill rewards for this range.",
+    "The canonical PQ relationship layer contains source-backed pq_rewards_skill relationships for these endpoints.",
+    "The canonical cross-link report resolves these skill names to exact canonical skill identities.",
+    "No additional skill edge is promoted from character ownership, preset membership, or non-PQ acquisition evidence."
+  ],
+  "counts": {
+    "pq_count": 5,
+    "skill_edge_count": 8,
+    "forward_reverse_mismatches": 0,
+    "unresolved_canonical_skill_names": 0
+  },
+  "status": "parity_resolved",
+  "next_frontier": "Continue with the next unreconciled PQ range after PQ171-PQ175, then return to remaining mechanics/acquisition gaps."
+}
