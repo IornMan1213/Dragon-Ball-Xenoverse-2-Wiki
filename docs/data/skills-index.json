@@ -11650,6 +11650,27 @@
       "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence confirmed the 0-Ki Power Up classification and PQ17 acquisition endpoint. The core Stamina-recovery effect is retained from the established research record, while exact magnitude, duration, frame data, reward probabilities, and hidden gates remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved. 2026-09-27 Batch 501 current-evidence audit synchronized.",
       "mechanics_notes": "0-Ki Power Up Super associated with Recoome and PQ17. It temporarily increases Stamina recovery. Current evidence supports the PQ17 endpoint and core Power Up identity; exact multiplier, duration, frame data, reward probability, and hidden gates remain unresolved.",
       "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward"
+    },
+    {
+      "id": "skill-dual-masenko",
+      "name": "Dual Masenko",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dual_Masenko",
+        "https://dragonball.fandom.com/wiki/Dual_Masenko",
+        "https://steamcommunity.com/app/454650/discussions/0/1368380934257020994/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75501935"
+      ],
+      "unlock_method": "TP Medal Shop purchase",
+      "ultimate_finish_required": false,
+      "last_verified": "2026-09-27",
+      "race_restriction": "All CaC races",
+      "source_quest_or_shop": "TP Medal Shop",
+      "notes": "2026-09-27 canonical restoration: direct Xenoverse 2 evidence confirms TP Medal Shop acquisition and 100-Ki Ki Blast Super identity; historical shop evidence records 170 TP Medals."
     }
   ],
   "last_updated": "2026-09-27",
