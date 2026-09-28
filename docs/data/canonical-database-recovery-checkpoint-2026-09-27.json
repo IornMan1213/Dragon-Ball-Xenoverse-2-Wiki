@@ -103,7 +103,7 @@
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "continue exact QQ Bang clothing identity audit; reconcile generic/set/component names such as Beerus Clothes before promoting additional relationships",
+  "next_target": "continue exact QQ Bang clothing identity audit, prioritizing any remaining generic names that could conflate distinct set components",
   "equipment_records": 112,
-  "latest_change": "Established equip-112 Broly's Clothes as distinct from Broly (Full Power Super Saiyan)'s Clothes and corrected qq-observed-prima-012."
+  "latest_change": "Audited Beerus clothing identity boundary: retained equip-101 Beerus Top for generic QQ Bang inputs, with explicit evidence notes preventing inference that Beerus lower-body was used."
 }
