@@ -61,7 +61,12 @@
     {
       "pq": 118,
       "status": "unresolved_conflict",
-      "reason": "Known Dual Masenko/PQ118 evidence conflict remains intentionally unresolved; no unsupported relationship added."
+      "reason": "The conflict was re-audited against the maintained Steam all-186-PQ guide and independent skill documentation. The maintained PQ118 reward transcription lists Zeni, Regen Capsule L, and Super Souls but no Dual Masenko, while independent Dual Masenko documentation identifies TP Medal Shop as the Future Warrior acquisition route. A conflicting third-party DLC guide associates Dual Masenko with PQ118, so the canonical PQ reward edge remains intentionally unpromoted pending direct item-level evidence.",
+      "supporting_sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Dual_Masenko",
+        "https://dbxv2.fandom.com/wiki/Dual_Masenko"
+      ]
     },
     {
       "pq": 121,
