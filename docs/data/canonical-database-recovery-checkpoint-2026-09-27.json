@@ -42,7 +42,7 @@
     },
     "qq_bangs": {
       "record_layer_records": 23,
-      "blob_sha": "41619a13d564955988369ca5ec99fcb4e26b8d4e"
+      "blob_sha": "90ddf815ac7e3ff8e58ce809f5a9ad3aa748523d"
     },
     "partner_skill_relationships": {
       "relationships_count": 3,
@@ -63,10 +63,10 @@
     "qq_bang_observed_vectors": 16,
     "targets": [
       "complete remaining QQ Bang clothing identity reconciliation",
-      "deeper item-table/version evidence for Super Mix Capsule Z and Demon Realm Crystal drop behavior",
-      "equipment/build cross-domain relationships"
+      "equipment/build cross-domain relationships",
+      "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "QQ Bang layer remains 23 records / 16 complete observed vectors. Super Mix Capsule Z now carries dated acquisition/material provenance, while exact drop rates and patch-specific changes remain unresolved."
+    "note": "QQ Bang layer remains 23 records / 16 complete observed vectors. Super Mix Capsule Z provenance now spans 2020-2026 and distinguishes base-game Tour/synthesis evidence from 2025 paid support-pack distribution. Exact drop tables remain unresolved."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
