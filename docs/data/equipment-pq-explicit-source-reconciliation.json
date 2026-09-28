@@ -249,7 +249,7 @@
       "name": "Gamma 2's Clothes",
       "pq_id": "pq-158",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -257,7 +257,7 @@
       "name": "Red Ribbon Soldier 94 Clothes",
       "pq_id": "pq-161",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -265,16 +265,16 @@
       "name": "Dr. Hedo Suit",
       "pq_id": "pq-162",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     }
   ],
   "audit_summary": {
     "date": "2026-09-27",
     "entry_count": 33,
-    "pending": 3,
-    "promoted": 30,
-    "reconciled": 25,
+    "pending": 0,
+    "promoted": 33,
+    "reconciled": 28,
     "rule": "Queue records are evidence-backed acquisition-source references only; no guaranteed drop or rate is inferred."
   }
 }
