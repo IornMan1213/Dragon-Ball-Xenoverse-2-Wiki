@@ -4973,3 +4973,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Final live check confirms the canonical QQ Bang record, both equipment endpoints, and both handoff files are synchronized.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Next:** continue the QQ Bang/equipment/build-navigation census and then return to the remaining restored cross-domain/PQ reward coverage frontier; do not repeat reconciled records.
+
+### 2026-09-28 continuation — skill acquisition validator recovery hardening
+- [x] Inspected the remaining live cross-domain validators after the QQ Bang/equipment recovery work.
+- [x] Found a concrete stale pre-recovery invariant in `scripts/validate_skill_acquisition_metadata.py`: it still required exactly **475** canonical skill records and unique IDs against that obsolete count, while the recovered canonical corpus is **493**.
+- [x] Removed the frozen 475-record requirement and made the validator report/validate uniqueness against the live canonical record set instead of rejecting the recovered 493-record corpus.
+- [x] No canonical skill data was changed.
+- [x] Validator repair committed at `66b5635186eeffefa8ef6e7bf33631e08a6bedc6`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue inspecting the remaining validators for stale pre-recovery assumptions, then resume the restored preset/PQ reward and QQ Bang/equipment coverage queues.
