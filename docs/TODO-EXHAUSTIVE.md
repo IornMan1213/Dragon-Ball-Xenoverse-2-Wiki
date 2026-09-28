@@ -4810,3 +4810,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Full Power Energy Blast Volley canonical fields still require explicit canonical correction/review because conflicting repository research must not be silently overwritten.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** resolve the Full Power Energy Blast Volley canonical conflict from the surviving direct evidence, then continue the remaining restored preset identities and cross-domain coverage audit.
+
+
+### 2026-09-28 continuation — Restored preset skill evidence batch 06
+- [x] Resolved the **Full Power Energy Blast Volley** canonical conflict using current Xenoverse 2-specific direct evidence and independent corroboration: **Ultimate / Ki Blast / 300 Ki / starting move**.
+- [x] Preserved the older conflicting batch-253 Super/100-Ki/Nappa-training research as historical provenance rather than deleting it.
+- [x] Updated `docs/data/skills.json` and synchronized `docs/data/skills-index.json`.
+- [x] Added `docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json`.
+- [x] Canonical and index counts remain **493/493**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the remaining restored preset identities and systematically audit recovered cross-domain endpoints, prioritizing canonical acquisition routes that can be compared bidirectionally against PQ reward data.
