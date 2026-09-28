@@ -4603,18 +4603,20 @@
       "verification_status": "partially_verified",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+        "https://videogaming.fandom.com/wiki/Energy_Wave_Combo_%28Dragon_Ball%3A_Xenoverse_2%29"
       ],
       "stamina_cost": null,
-      "unlock_method": null,
-      "last_verified": "2026-09-27",
+      "unlock_method": "Skill Shop / default Future Warrior Super Skill",
+      "last_verified": "2026-09-28",
       "research_status": "catalog_gap_promoted",
       "usable_by_cac": true,
       "character_source": null,
       "ultimate_finish_required": null,
       "ki_cost": 100,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current repository research establishes the identity and 100 Ki cost but does not safely establish a current acquisition route or a unique character source.",
+      "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current Xenoverse 2-specific evidence supports Skill Shop availability and identifies Energy Wave Combo as a default Future Warrior Super Skill. Exact Ultimate-Finish requirement remains unresolved.",
       "id": "skill-energy-wave-combo"
     },
     {
