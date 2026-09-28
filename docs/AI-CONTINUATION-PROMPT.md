@@ -6550,3 +6550,6 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 
 
 2026-09-28: Batch 559 completed PQ31-PQ40 cross-domain reconciliation. All 9 typed skill-reward records have matching canonical PQ→skill edges; no research/canonical contradictions were found. PQ36 numbering/existence conflict remains explicitly preserved because maintained reward/objective sources document the quest while a separate datamined corpus disputes the numbering. Added and indexed the reconciliation audit; no canonical data or unsupported relationships were changed. Next frontier: PQ41 onward, prioritizing concrete reward-list/relationship contradictions.
+
+
+2026-09-28: PQ23-PQ26 reward reconciliation batch 559 completed. Corrected research-layer omissions for Death Slash (PQ23), Double Death Slicer (PQ24), Spirit Explosion (PQ25), and Crazy Finger Shot (PQ26). Canonical reward relationships already existed; no duplicate edges or unsupported canonical mutations were made. Exact drop-slot/probability semantics remain unresolved. Added and indexed dedicated audit. Next: continue the same concrete PQ reward-boundary audit into PQ28+.
