@@ -5781,3 +5781,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Verified that shop/starting-move reconciliations do not create unsupported Skill→PQ acquisition edges.
 - [x] Advanced the persistent frontier to the remaining restored skill identities requiring direct evidence reconciliation.
 - [ ] Next: reconcile Super Dragon Fist, Holstein Shock, Break Strike, Backflip, Turn Retreat, Recoome Eraser Gun, Sledgehammer, Energy Wave Combo, and Full Power Energy Wave; preserve unresolved fields/conflicts and do not infer from preset/index evidence alone.
+
+
+### 2026-09-28 continuation — Restored skill identity scope closed
+- [x] Reconciled the apparent remaining nine-skill task against existing direct-evidence records instead of duplicating work. The nine are already reconciled in `skill-preset-evidence-reconciliation-batch-03-2026-09-27.json` and the canonical-evidence reconciliation audit.
+- [x] Confirmed dedicated later batches for Shockwave and Super Galick Gun, and preserved their explicitly unresolved fields rather than inventing values.
+- [x] Confirmed the current 18 restored preset identities have reached the evidence frontier; Galaxy Breaker (Festival) remains outside ordinary CaC canonical promotion.
+- [x] Updated the TODO frontier to the next substantive recovery task: bidirectional Skill↔PQ endpoint auditing against the 840-edge canonical relationship baseline, followed by equipment/QQ Bang endpoint reconciliation.
+- [ ] Next: audit Skill→PQ and PQ→Skill coverage for orphaned or asymmetric endpoints; only promote relationships backed by canonical acquisition evidence.
