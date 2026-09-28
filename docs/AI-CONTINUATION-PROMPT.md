@@ -4996,3 +4996,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Restored missing PQ1-20 canonical records from maintained research batches.
 - [x] Preserved source-backed reward/objective uncertainty rather than inventing drop rates.
 - [ ] Reconcile PQ36's maintained numbering/cut conflict before final-board treatment.
+
+### 2026-09-27 continuation — PQ41-100 reward restoration
+- [x] Restored missing rewards/skill/equipment/Super Soul and related maintained batch fields across canonical PQ41-100 where canonical fields were sparse.
+- [x] Added exact-name equipment links and reverse PQ links where canonical equipment identities exist.
+- [ ] Continue auditing later PQ ranges for sparse canonical fields; preserve unresolved identities rather than guessing.
