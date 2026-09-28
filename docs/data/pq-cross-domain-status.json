@@ -12,16 +12,16 @@
   "audit": "docs/data/pq-cross-domain-audit.json",
   "reverse_index_plan": "docs/data/pq-cross-domain-index.json",
   "current_edges": {
-    "skill": 236,
-    "super_soul": 137,
-    "equipment": 125,
+    "skill": 248,
+    "super_soul": 135,
+    "equipment": 127,
     "character": 247,
     "dlc": 88,
     "farming": 7
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Leave the 840-edge baseline intact and perform only evidence-driven expansion when stronger source coverage is found; re-run the same integrity/reconciliation checks after any additions.",
+  "next_gate": "The historical 840-edge recovery baseline remains provenance only. The live canonical store is now 852 edges; continue evidence-driven expansion and re-run integrity/reconciliation checks after each addition.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -62,7 +62,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 840,
+    "total_edges": 852,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
@@ -147,9 +147,9 @@
     },
     "counts": {
       "forward": {
-        "skill": 236,
-        "super_soul": 137,
-        "equipment": 125,
+        "skill": 248,
+        "super_soul": 135,
+        "equipment": 127,
         "character": 247,
         "dlc": 88,
         "farming": 7
@@ -242,6 +242,10 @@
     ]
   },
   "correction_history": [
+    {
+      "date": "2026-09-28",
+      "note": "Synchronized current status counts to the live canonical relationship store: 852 total edges (248 skill, 135 Super Soul, 127 equipment, 247 character, 88 DLC, 7 farming). The prior 840-edge snapshot remains historical provenance."
+    },
     {
       "date": "2026-09-27",
       "note": "Synchronized stale status-layer projections to the live canonical 840-edge relationship store: 236 skill, 137 Super Soul, 125 equipment, 247 character, 88 DLC, 7 farming; PQ coverage corrected from historical 182 to live 186."
