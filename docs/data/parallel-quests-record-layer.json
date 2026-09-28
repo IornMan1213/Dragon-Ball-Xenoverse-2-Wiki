@@ -179,34 +179,42 @@
       "name": "The Emperor's Brother",
       "difficulty": 3,
       "objectives": [
-        "Defeat Cooler",
-        "Clear in under 5 minutes",
-        "Defeat Metal Cooler"
+        "Defeat Android 17 and Android 18",
+        "Clear with Vegeta and Piccolo surviving",
+        "Defeat revived Android 17 and Android 18"
       ],
-      "ultimate_finish": "Defeat Cooler within five minutes, then defeat Metal Cooler.",
+      "ultimate_finish": "Defeat Android 17 and Android 18, keep Vegeta and Piccolo surviving, then defeat the revived Android 17 and Android 18.",
       "enemies": [
-        "Cooler",
-        "Metal Cooler"
+        "Android 17",
+        "Android 18"
       ],
       "rewards": [
-        "1100 Zeni",
-        "Goku Wig",
-        "Small Mix Capsule",
-        "Spirit Explosion"
+        "2800 Zeni",
+        "Medium Mix Capsule",
+        "Soul Diffusion Mix Dev.",
+        "Now I'm fighting for real!",
+        "Oh, well done!",
+        "Android 18's Clothes (Skirt)",
+        "Android 17's Clothes",
+        "Energy Field",
+        "Super Electric Strike"
       ],
       "skill_rewards": [
         "Spirit Explosion"
       ],
       "equipment_rewards": [
-        "Goku Wig"
+        "Android 18's Clothes (Skirt)",
+        "Android 17's Clothes"
       ],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://dbxenoverse.fandom.com/wiki/25_-_17_and_18_of_the_Official_History",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=545333338",
+        "https://www.gameskinny.com/tips/dragon-ball-xenoverse-parallel-quest-requirements-guide/"
+      ],
+      "recovery_note": "Corrected during 2026-09-27 recovery: the prior canonical PQ25 contents were inconsistent with multiple historical reward records. This correction restores the documented PQ25 reward set while preserving exact drop mechanics as unresolved."
     },
     {
       "id": "pq-026",
