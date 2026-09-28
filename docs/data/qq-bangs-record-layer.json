@@ -149,8 +149,12 @@
             "Super Mix Capsule Z x5"
           ],
           "interpretation": "This is a separately sold support pack distribution path, not evidence that the items became ordinary shop inventory or that Tour drop behavior changed.",
-          "source": "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/"
-        }
+          "source": "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
+          "sources": [
+            "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/"
+          ]
+        },
+        "evidence_boundary": "Community reports support Tour acquisition and SMC + Demon Realm Crystal synthesis. Official 2025 store evidence supports a separate Time Patrol Support Pack distribution. Exact drop rates, universal patch-specific reward tables, and canonical synthesis quantities remain unresolved."
       },
       "related_pq_links": [
         {
