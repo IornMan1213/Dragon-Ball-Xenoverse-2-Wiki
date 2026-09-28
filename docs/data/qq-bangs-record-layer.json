@@ -652,6 +652,10 @@
         {
           "input": "Battle Suit (Bardock)",
           "equipment_id": "equip-024"
+        },
+        {
+          "input": "Light Heart Suit",
+          "equipment_id": "equip-105"
         }
       ]
     },
@@ -685,6 +689,10 @@
         {
           "input": "Beerus clothing",
           "equipment_id": "equip-101"
+        },
+        {
+          "input": "Light Heart Suit",
+          "equipment_id": "equip-105"
         }
       ]
     },
