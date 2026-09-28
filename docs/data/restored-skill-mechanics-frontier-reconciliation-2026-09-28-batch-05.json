@@ -1,0 +1,86 @@
+{
+  "batch": 5,
+  "date": "2026-09-28",
+  "type": "restored_skill_mechanics_frontier_reconciliation",
+  "selected": [
+    "Tyrant Lancer",
+    "Ki Explosion",
+    "X10 Kamehameha",
+    "Kamekameha"
+  ],
+  "method": "Follow-up reconciliation of sparse restored records using the latest repository evidence already collected in Batch 527. This artifact is evidence-only unless a field is directly supported and already represented by the canonical record.",
+  "findings": [
+    {
+      "skill": "Tyrant Lancer",
+      "skill_id": "skill-tyrant-lancer",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "character_source": "Bardock",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Single-hit Ki Blast behavior is supported. A source-reported damage-test value exists but is test-contextual and is not promoted as universal scaling.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Tyrant_Lancer",
+        "https://www.scribd.com/document/1060493260/Damage-Skills"
+      ]
+    },
+    {
+      "skill": "Ki Explosion",
+      "skill_id": "skill-ki-explosion",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "character_source": "Nappa",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Explosive-wave behavior and held/extended behavior are documented. Historical/source-test resource figures remain version or test-contextual and are not promoted as universal constants.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ki_Explosion",
+        "https://www.scribd.com/document/1060493260/Damage-Skills"
+      ]
+    },
+    {
+      "skill": "X10 Kamehameha",
+      "skill_id": "skill-x10-kamehameha",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 200,
+        "character_source": "Goku (Super Saiyan 4)",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Chargeable Kamehameha behavior is supported. Reported charge-stage hit/damage figures are test-contextual and remain provenance rather than patch-independent scaling.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://www.scribd.com/document/1060493260/Damage-Skills"
+      ]
+    },
+    {
+      "skill": "Kamekameha",
+      "skill_id": "skill-kamekameha",
+      "confirmed": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "character_source": "Goten",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Ki Blast beam behavior and a source-reported six-hit sequence are documented. The six-hit figure remains source/test-contextual. Historical spelling is retained as the skill identity while PQ48 canonical crosslink maps its reward spelling to Kamehameha.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://www.scribd.com/document/1060493260/Damage-Skills",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_skill_identity_count": 493,
+    "unsupported_pq_relationships_added": 0,
+    "speculative_frames_added": 0,
+    "speculative_patch_independent_scaling_added": 0,
+    "speculative_probabilities_added": 0
+  }
+}
