@@ -4918,3 +4918,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirm Ultimate / Ki Blast / 300 Ki / TP Medal Shop / CaC identity in canonical data.
 - [x] Record direct evidence and bounded mechanics in `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`.
 - [x] Close the corresponding evidence-gap entry in `docs/data/character-preset-skill-canonical-evidence-reconciliation-2026-09-27.json`.
+
+
+### 2026-09-28 — PQ reward relationship serialization integrity
+- [x] Normalized the malformed character-array `notes` container in docs/data/pq-reward-relationships.json without changing relationship counts.
+- [ ] Continue PQ reward integrity sweep; then resume Super Soul/equipment endpoint promotion.
