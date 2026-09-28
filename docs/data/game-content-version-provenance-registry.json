@@ -80,6 +80,22 @@
       "date": "2024-04-24",
       "url": "https://en.dragon-ball-official.com/news/01_2604.html",
       "scope": "Directly names Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger as Chapter 1 character special moves."
+    },
+    {
+      "id": "db_official_future_saga_ch2_goku_mini",
+      "publisher": "Dragon Ball Official Site",
+      "title": "Goku (Mini) Joins the Fight in Dragon Ball Xenoverse 2's Newest DLC FUTURE SAGA Chapter 2",
+      "date": "2024-10-18",
+      "url": "https://en.dragon-ball-official.com/news/01_2959.html",
+      "scope": "Officially confirms Goku (Mini)'s skills can be equipped on the player avatar in FUTURE SAGA Chapter 2."
+    },
+    {
+      "id": "community_ch2_skill_catalog",
+      "publisher": "Dragon Ball Xenoverse 2 Wiki / maintained community reference",
+      "title": "FUTURE SAGA Chapter 2 skill catalog and character data",
+      "date": null,
+      "url": "https://dbxv2.fandom.com/wiki/DLC",
+      "scope": "Independently identifies the seven Chapter 2 skills: God of Destruction's Poise, God of Destruction's Plaything, God of Destruction's Might, Full Power Destruction, Soaring Rush, Dragon Spark, Burst Blitz."
     }
   ],
   "events": [
@@ -160,7 +176,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Use this registry to map individual canonical skill IDs only when an official or independently corroborated source directly identifies the skill as part of the release/update. Do not infer a skill's first-release date from current DLC labels alone.",
+  "next_step": "Continue with Chapter 3, Chapter 4, and DAIMA; use direct official naming where available and corroborated independent named catalogs only when the official event establishes the relevant content scope.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -216,6 +232,90 @@
       ],
       "confidence": "direct",
       "basis": "The official free-update announcement identifies Beast as the Awoken Skill added in Free Update #16."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-poise",
+      "skill_name": "God of Destruction's Poise",
+      "event_id": "future-saga-chapter-2",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "db_official_future_saga_ch2_goku_mini",
+        "community_ch2_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-plaything",
+      "skill_name": "God of Destruction's Plaything",
+      "event_id": "future-saga-chapter-2",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "db_official_future_saga_ch2_goku_mini",
+        "community_ch2_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-might",
+      "skill_name": "God of Destruction's Might",
+      "event_id": "future-saga-chapter-2",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "db_official_future_saga_ch2_goku_mini",
+        "community_ch2_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
+    },
+    {
+      "skill_id": "skill-full-power-destruction",
+      "skill_name": "Full Power Destruction",
+      "event_id": "future-saga-chapter-2",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "db_official_future_saga_ch2_goku_mini",
+        "community_ch2_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
+    },
+    {
+      "skill_id": "skill-soaring-rush",
+      "skill_name": "Soaring Rush",
+      "event_id": "future-saga-chapter-2",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "db_official_future_saga_ch2_goku_mini",
+        "community_ch2_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
+    },
+    {
+      "skill_id": "skill-dragon-spark",
+      "skill_name": "Dragon Spark",
+      "event_id": "future-saga-chapter-2",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "db_official_future_saga_ch2_goku_mini",
+        "community_ch2_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
+    },
+    {
+      "skill_id": "skill-burst-blitz",
+      "skill_name": "Burst Blitz",
+      "event_id": "future-saga-chapter-2",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "db_official_future_saga_ch2_goku_mini",
+        "community_ch2_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
     }
   ]
 }
