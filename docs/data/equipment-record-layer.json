@@ -2988,11 +2988,11 @@
       "ki_blast_supers": -1,
       "usable_by": "Female Time Patroller clothing; historical sources identify the skirt variant as a separate clothing set.",
       "set_name": "Android 18's Clothes (Skirt)",
-      "acquisition_method": "unresolved",
-      "source_quest_or_shop": null,
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 25",
       "cost": null,
       "dlc_requirement": null,
-      "version_notes": "Exact identity is now established as a distinct skirt variant. Historical sources report PQ25 as an acquisition route, but the recovered canonical PQ25 record currently lists different rewards, so acquisition is deliberately unresolved pending reconciliation.",
+      "version_notes": "Historical and current-maintained PQ25 evidence identifies this distinct skirt as a PQ25 reward. Exact drop mechanics remain unresolved.",
       "verification_status": "indexed_with_historical_stats",
       "last_verified": "2026-09-27",
       "sources": [
@@ -3004,6 +3004,13 @@
           "qq_bang_id": "qq-observed-prima-005",
           "input": "Android 18 Skirt",
           "relationship": "QQ Bang clothing input"
+        }
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-025",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ25 reward records explicitly list Android 18's Clothes (Skirt); exact drop/condition mechanics remain unresolved."
         }
       ]
     }
@@ -3053,6 +3060,15 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=403805311",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74429476",
         "docs/data/parallel-quests-record-layer.json"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Resolved the Android 18 Skirt acquisition conflict by reconciling PQ25 to the documented historical reward set. equip-111 now links bidirectionally to pq-025; exact drop mechanics remain unresolved.",
+      "sources": [
+        "docs/data/parallel-quests-record-layer.json",
+        "https://dbxenose.fandom.com/wiki/25_-_17_and_18_of_the_Official_History",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=545333338"
       ]
     }
   ]
