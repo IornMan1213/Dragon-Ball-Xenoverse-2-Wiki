@@ -4374,3 +4374,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Linked Super Mix Capsule Z ↔ PQ 83 as a bidirectional community farming-route relationship, explicitly preserving Online PQ Tour context and avoiding guaranteed-drop/exact-rate claims.
 - [ ] Next: reconcile remaining QQ Bang equipment identities and expand equipment ↔ PQ acquisition links where directly evidenced.
+
+- [x] 2026-09-27: Refined PQ 83 ↔ Super Mix Capsule Z provenance with 2024 evidence showing variable observed drops; guaranteed-reward and exact-rate claims remain intentionally excluded.
+- [ ] Next: reconcile remaining QQ Bang equipment identities and expand equipment ↔ PQ acquisition links where directly evidenced.
