@@ -4656,3 +4656,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Synchronized skill↔PQ audit metadata to the live **493-record** canonical corpus while preserving the existing **246-edge / 170-PQ** relationship contract.
 - [x] No projection/index layer was used as canonical truth; `docs/data/skills.json` remained authoritative.
 - [ ] **Next:** continue the cross-domain audit from the synchronized 493-record skill corpus, checking remaining skill indexes/catalogs and deterministic skill↔character/mentor/partner relationships for stale counts, missing reverse endpoints, or asymmetric records. Preserve unresolved and historical evidence boundaries.
+
+
+## 2026-09-27 continuation — canonical skill corpus cross-domain synchronization audit
+
+- [x] Reconciled the verified preset-loadout identity audit against the live canonical docs/data/skills.json: 493 canonical skills, 25 verified presets, 162 skill-slot entries, 162 exact matches, 0 unmatched.
+- [x] Audited docs/data/skill-acquisition-index.json: all 18/18 indexed Expert Mission skill endpoints resolve to canonical skill identities; no duplicate skill identities were found.
+- [x] Audited docs/data/skill-pq-reverse-index-2026-09-26.json: reported 493 canonical skills, 246 skill↔PQ edges, and 170 PQs match the live canonical corpus; 0 invalid skill IDs were found.
+- [x] Audited docs/data/partner-skill-relationships.json: all 4 evidence-backed relationship records resolve to canonical skills; 0 exact duplicate relationship objects and 0 missing skill endpoints were found.
+- [x] Synchronized docs/data/skill-catalog-audit.json to the live 493-record canonical corpus and current research frontier (Batch 526), while preserving the distinction between the 561-record indexed source universe and canonical truth.
+- [x] Preserved the canonical-source rule: indexed/catalog/research/projection layers are evidence or derived views only and cannot override docs/data/skills.json.
+- [ ] Next: audit the remaining skill catalog/index projections and deterministic skill↔character/mentor/partner relationships for stale counts, missing reverse endpoints, and duplicate identities; do not promote indexed-only records without direct evidence.
