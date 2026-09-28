@@ -40,11 +40,27 @@
     "Patch-era and DLC-era provenance",
     "Dual Ultimate relationships where applicable"
   ],
-  "last_audited": "2026-09-18",
-  "latest_research_batch": 315,
-  "canonical_catalog_generated": "2026-09-14",
-  "canonical_sync_pending": true,
-  "current_research_focus": "Ki Blast Ultimate coverage with strict canonical-identity duplicate checks",
+  "last_audited": "2026-09-27",
+  "latest_research_batch": 526,
+  "canonical_catalog_generated": "2026-09-27",
+  "canonical_sync_pending": false,
+  "current_research_focus": "Cross-domain synchronization of the 493-record canonical skill corpus; remaining indexed-only categories stay explicitly noncanonical until evidence promotion.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
-  "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json."
+  "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
+  "canonical_reconciliation_2026_09_27": {
+    "canonical_skill_records": 493,
+    "batch_indexed_records": 561,
+    "distinction": "The 561 source-category index is a coverage universe, not a canonical-record count. Canonical skills.json remains authoritative.",
+    "preset_loadout_identity_check": {
+      "verified_preset_records": 25,
+      "verified_skill_slot_entries": 162,
+      "exact_canonical_matches": 162,
+      "unmatched_entries": 0
+    },
+    "promoted_preset_gap_identities": 18,
+    "cast_cac_boundary_preserved": [
+      "Galaxy Breaker (Festival)"
+    ],
+    "projection_rule": "Indexes/catalogs/research batches are evidence or projections only and cannot override canonical skills.json."
+  }
 }
