@@ -5807,3 +5807,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json` documenting the endpoint boundary and QQ Bang identity/stat rules.
 - [x] Preserved QQ Bang uncertainty: observed vectors remain observations; unresolved clothing aliases are not inferred into canonical equipment links.
 - [ ] Next: audit equipment/accessory reverse navigation across all 127 equipment edges and reconcile unresolved QQ Bang input identities, then continue evidence-backed reward expansion.
+
+
+### 2026-09-28 continuation — Equipment reverse audit correction and endpoint repair
+- [x] Performed a record-level comparison of the canonical `pq_rewards_equipment` relationships against the unified clothing/accessory reverse index instead of trusting metadata counts.
+- [x] Found one genuine reverse-navigation gap: canonical PQ47 → **Broly's Clothes** existed in the forward relationship layer but was absent from the reverse index.
+- [x] Added the missing derived reverse endpoint for Broly's Clothes → PQ47; no canonical acquisition edge was invented.
+- [x] Found a separate stale-count problem: the canonical forward dataset contains **126 unique source-backed equipment edges**, not 127. Corrected total canonical relationship metadata from 852/127-equipment to **851 total / 126 equipment** (248 Skill, 135 Super Soul, 247 character, 88 DLC, 7 farming).
+- [x] Synchronized the equipment projection, recovery checkpoint, and QQ Bang/equipment audit to the corrected 126-edge source-of-truth count.
+- [ ] Next: re-run the complete equipment/accessory reverse comparison after the repair, then audit QQ Bang equipment-input identities and continue evidence-backed reward expansion.
