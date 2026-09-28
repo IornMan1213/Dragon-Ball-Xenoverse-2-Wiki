@@ -5735,3 +5735,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved research-only/ambiguous evidence for PQ35 (Z-Sword), PQ48 (Kamekameha/Kamehameha), and PQ1 rather than promoting unsupported canonical relationships.
 - [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json`.
 - [ ] **Next:** move beyond the already-reconciled 16-PQ endpoint audit and expand another substantive canonical domain, prioritizing accessory/equipment crosslinks and unresolved acquisition evidence rather than inventing PQ relationships.
+
+### 2026-09-28 continuation — accessory↔PQ bidirectional parity repair
+- [x] Compared all canonical accessory `pq_links` against PQ-side `accessory_links` in the live `parallel-quests-record-layer.json`.
+- [x] Found 11 non-conflicting canonical accessory→PQ links that lacked corresponding PQ-side links.
+- [x] Added the 11 PQ-side reverse links for Four-Star Dragon Ball Hat/PQ5, Chiaotzu's Hat/PQ9, Jaco's Radio/PQ72, Tagoma's Scouter/PQ73, SSGSS Goku Wig/PQ76, Pan's Bandana/PQ93, Yamcha Baseball Hat/PQ97, SSGSS Vegeta Wig/PQ100, Android 14's Hat/PQ104, Resistance Helmet/PQ111, and Bardock (DB Super)'s Scouter/PQ146.
+- [x] Preserved the Goku Wig (Super Saiyan)→PQ63 historical conflict instead of treating it as a canonical acquisition route.
+- [x] Recomputed parity: 95 canonical accessory records, 16 non-conflicting accessory↔PQ links, **0 missing reverse links**.
+- [x] Added `docs/data/accessory-pq-bidirectional-parity-audit-2026-09-28.json`.
+- [x] PQ-layer commit: `4df1fe267f9e3b658de60078df9fa3d9052d2b89`; audit commit: `c1b17c1e1b73fab5fdca4baf330e90958cc3908a`.
+- [ ] **Exact next:** inspect the remaining canonical relationship consumers for similar bidirectional gaps, especially equipment↔PQ and Super Soul↔PQ, and repair only source-backed reverse links.
