@@ -4692,3 +4692,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/super-soul-032-034-direct-evidence-audit-2026-09-27.json` and made no unsupported canonical mechanics mutation.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue searching for direct item-level/game-data evidence for 032/034; if primary evidence remains unavailable, move to the next substantive cross-domain integrity gap.
+
+
+### 2026-09-27 continuation — Dual Masenko canonical-gap audit
+- [x] Investigated the next substantive frontier instead of repeating already-audited Skill records.
+- [x] Found a likely canonical omission: `Dual Masenko` is present in the Ki Blast skill catalog and prior research, but no `skill-dual-masenko` record exists in the 474-record canonical Skills layer.
+- [x] Current Xenoverse 2-specific evidence independently identifies Dual Masenko as a 100-Ki Ki Blast Super obtainable by the Future Warrior from the TP Medal Shop; historical shop evidence records a 170 TP Medal price. citeturn3search2turn3search0turn3search5turn3search12
+- [x] Created `docs/data/dual-masenko-canonical-gap-audit-2026-09-27.json` documenting the evidence and the repository-layer discrepancy.
+- [x] Corrected the interpretation boundary: Batch 261's older “Training with Future Trunks” acquisition field is stale/contradictory and must not be promoted over direct TP Medal Shop evidence.
+- [x] Did **not** manufacture a PQ118 Skill→PQ edge. The strongest acquisition evidence is TP Medal Shop, while PQ118 evidence remains unresolved/conflicting.
+- [ ] Canonical restoration remains pending because the complete current `skills.json` / `skills-index.json` payload could not be safely retrieved through the GitHub connector for an atomic full-file edit; do not risk overwriting the surviving canonical database with a truncated reconstruction.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** safely restore/add the Dual Masenko canonical record and corresponding index entry from the complete live canonical payload, then re-run partner/custom and PQ118 reconciliation before moving to the next gap.
