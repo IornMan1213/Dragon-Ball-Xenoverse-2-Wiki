@@ -1,0 +1,72 @@
+{
+  "batch": 529,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Other Evasives whose dedicated evidence remains anchored to the early research corpus and lacked a post-recovery current-evidence refresh.",
+  "selected": [
+    {
+      "skill_id": "skill-armored-boost",
+      "skill_name": "Armored Boost",
+      "current_evidence": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "stamina_cost": 300,
+        "usable_by_cac": true,
+        "acquisition": "TP Medal Shop"
+      },
+      "mechanics_boundary": "Current repository evidence documents controllable movement with Super Armor for Trunks variants. Exact armor duration, movement timing, and hidden interaction rules are not promoted."
+    },
+    {
+      "skill_id": "skill-backflip",
+      "skill_name": "Backflip",
+      "current_evidence": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "ki_cost": 0,
+        "stamina_cost": 0,
+        "usable_by_cac": true,
+        "acquisition": "Conton City Skill Shop / Ability Shop"
+      },
+      "mechanics_boundary": "Individual skill documentation describes Backflip as a defensive evasive requiring neither Ki nor Stamina. No exact invulnerability window or repeated-input timing is promoted."
+    },
+    {
+      "skill_id": "skill-candy-beam-evasive",
+      "skill_name": "Candy Beam (Evasive)",
+      "current_evidence": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "stamina_cost": 300,
+        "usable_by_cac": true,
+        "cac_restriction": "Majin CaCs only",
+        "acquisition": "Parallel Quest 66 — Stop Beerus' Destruction"
+      },
+      "mechanics_boundary": "The Evasive Candy Beam variant is kept distinct from the later Candy Beam Super. No unsupported duration, hitbox, or transformation timing is promoted."
+    },
+    {
+      "skill_id": "skill-science-vanish",
+      "skill_name": "Science Vanish",
+      "current_evidence": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "stamina_cost": 300,
+        "usable_by_cac": false,
+        "character_source": "Towa"
+      },
+      "mechanics_boundary": "Current repository evidence identifies Science Vanish as a cast-exclusive Towa evasive. No player acquisition route is inferred."
+    }
+  ],
+  "validation": {
+    "canonical_skill_identity_count": 493,
+    "canonical_identity_changes": 0,
+    "unsupported_pq_relationships_added": 0,
+    "speculative_frames_added": 0,
+    "speculative_patch_independent_scaling_added": 0,
+    "speculative_probabilities_added": 0
+  },
+  "source_provenance": {
+    "armored_boost": ["https://dbxv2.fandom.com/wiki/Armored_Boost"],
+    "backflip": ["https://dbxv2.fandom.com/wiki/Backflip"],
+    "candy_beam_evasive": ["https://dbxv2.fandom.com/wiki/Candy_Beam_%28Evasive%29"],
+    "science_vanish": ["https://dbxv2.fandom.com/wiki/Science_Vanish"]
+  }
+}
