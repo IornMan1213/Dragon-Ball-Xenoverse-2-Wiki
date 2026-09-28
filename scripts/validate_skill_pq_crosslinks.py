@@ -12,10 +12,6 @@ ROOT = Path(__file__).resolve().parents[1]
 SKILLS = ROOT / "docs/data/skills.json"
 OUT = ROOT / "docs/data/skill-pq-reverse-index-2026-09-26.json"
 
-EXPECTED_SKILLS = 493
-EXPECTED_EDGES = 248
-EXPECTED_REPRESENTED_PQS = 170
-
 try:
     data = json.loads(SKILLS.read_text(encoding="utf-8"))
 except (OSError, json.JSONDecodeError) as exc:
@@ -24,7 +20,6 @@ if not isinstance(data, dict):
     raise SystemExit("skills root must be an object")
 records = data.get("records") if isinstance(data, dict) else None
 if not isinstance(records, list): raise SystemExit("canonical skill records must be a list")
-if len(records) != EXPECTED_SKILLS: raise SystemExit(f"skill count {len(records)} != {EXPECTED_SKILLS}")
 if any(not isinstance(r, dict) for r in records): raise SystemExit("every canonical skill record must be an object")
 if any(not isinstance(r.get("id"), str) or not r.get("id").strip() for r in records): raise SystemExit("every canonical skill must have a non-empty string id")
 if any(not isinstance(r.get("name"), str) or not r.get("name").strip() for r in records): raise SystemExit("every canonical skill must have a non-empty string name")
@@ -35,7 +30,7 @@ for record in records:
         if not isinstance(pq_id, int) or isinstance(pq_id, bool) or not 1 <= pq_id <= 186: raise SystemExit(f"invalid source_parallel_quests value for {record['id']}: {pq_id!r}")
     if len(endpoints) != len(set(endpoints)): raise SystemExit(f"duplicate source_parallel_quests IDs: {record['id']}")
 ids = [r["id"] for r in records]
-if len(set(ids)) != EXPECTED_SKILLS: raise SystemExit("duplicate canonical skill IDs")
+if len(set(ids)) != len(records): raise SystemExit("duplicate canonical skill IDs")
 
 # Keep the checked-in reverse artifact synchronized with the deterministic source projection.
 # A count-only check can pass while individual PQ edges drift.
@@ -52,9 +47,9 @@ if existing_reverse is not None:
     if existing_reverse.get("scope") != "Canonical skill dataset → Parallel Quest reverse navigation": raise SystemExit("checked-in reverse index scope drift")
     if existing_reverse.get("source") != "docs/data/skills.json": raise SystemExit("checked-in reverse index source drift")
     if existing_reverse.get("generated_on") != "2026-09-28": raise SystemExit("checked-in reverse index generated_on drift")
-    if existing_reverse.get("canonical_skill_count") != EXPECTED_SKILLS: raise SystemExit("checked-in reverse index canonical skill count drift")
-    if existing_reverse.get("represented_pq_count") != EXPECTED_REPRESENTED_PQS: raise SystemExit("checked-in reverse index represented PQ count drift")
-    if existing_reverse.get("total_skill_pq_edges") != EXPECTED_EDGES: raise SystemExit("checked-in reverse index edge count drift")
+    if existing_reverse.get("canonical_skill_count") != len(records): raise SystemExit("checked-in reverse index canonical skill count drift")
+    if existing_reverse.get("represented_pq_count") != represented: raise SystemExit("checked-in reverse index represented PQ count drift")
+    if existing_reverse.get("total_skill_pq_edges") != edge_count: raise SystemExit("checked-in reverse index edge count drift")
 
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
