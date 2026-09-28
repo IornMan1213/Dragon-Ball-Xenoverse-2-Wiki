@@ -5416,3 +5416,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - The recovered Skill→PQ graph currently has 248 forward edges, 248 resolved consumer links, 0 unresolved endpoints, 4 documented aliases, and 170 represented PQ IDs.
 - No unsupported PQ→skill edges were added merely to increase coverage.
 - **Next exact task:** run/inspect the remaining cross-domain validators, then continue restored-preset skill enrichment and bidirectional PQ reward navigation.
+
+### 2026-09-28 continuation — restored preset audit synchronization and validator follow-up
+- [x] Confirmed the live canonical Full Power Energy Blast Volley resolution is already committed as Ultimate / Ki Blast / 300 Ki / starting move; historical batch-253 conflict remains preserved as provenance.
+- [x] Synchronized `character-preset-skill-reverse-navigation-audit-2026-09-27.json` so Full Power Energy Blast Volley expects the canonical Ultimate slot class.
+- [x] Synchronized `character-preset-skill-canonical-evidence-reconciliation-2026-09-27.json` to remove the resolved Full Power Energy Blast Volley from the remaining-unresolved list and record batch 06.
+- [x] Found and removed the final remaining bare `assert` in `scripts/validate_skill_pq_crosslinks.py`; duplicate `source_parallel_quests` validation now fails explicitly and remains active under `python -O`.
+- [x] Recorded that validator follow-up in `docs/data/skill-pq-crosslink-validator-audit-2026-09-27.json`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** inspect the remaining cross-domain validators for comparable concrete integrity gaps, then resume restored-preset enrichment and bidirectional PQ reward coverage without inferring unsupported relationships.
