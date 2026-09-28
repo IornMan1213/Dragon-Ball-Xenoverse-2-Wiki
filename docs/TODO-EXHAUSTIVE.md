@@ -5209,3 +5209,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Galaxy Breaker (Festival) remains a separate cast/festival boundary rather than an automatic CaC promotion.
 - [ ] **Next frontier:** audit recovered cross-domain endpoints and bidirectional navigation, beginning with Skill→PQ and PQ→Skill relationship completeness against the 840-edge canonical baseline; preserve nulls and do not infer acquisition routes from preset membership.
 - [ ] After Skill↔PQ endpoint auditing, continue equipment/QQ Bang endpoint reconciliation and cross-link validation.
+
+
+### 2026-09-28 continuation — Live relationship store reconciled
+- [x] Verified the canonical PQ relationship store has advanced from the historical 840-edge recovery baseline to **852 live edges**: 248 Skill, 135 Super Soul, 127 equipment, 247 character, 88 DLC, 7 farming.
+- [x] Confirmed Skill↔PQ bidirectional coverage at 248 explicit Skill→PQ edges and 170 represented PQ IDs; the 16 unrepresented PQ IDs remain an evidence-boundary task, not automatic missing relationships.
+- [x] Synchronized current PQ status/audit/recovery metadata and retained the 840-edge values as historical provenance rather than rewriting completed history.
+- [ ] **Next major task:** expand evidence-backed PQ reward coverage beyond the current 248 Skill edges, then continue equipment/QQ Bang and reverse-index reconciliation.
