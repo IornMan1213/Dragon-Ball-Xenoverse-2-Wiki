@@ -5087,3 +5087,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Kept these links typed as `research_acquisition_association`; they do not assert guaranteed normal-clear/Ultimate-Finish drops.
 - [x] Preserved the Goku Wig (Super Saiyan) PQ63 historical conflict instead of promoting a second route.
 - [ ] **Next:** continue exact accessory identity reconciliation for the remaining candidate queue, prioritizing candidates whose canonical identity already exists; do not manufacture identities for generic/component labels.
+
+
+## 2026-09-27 continuation — exact accessory identity reconciliation
+
+- [x] Closed 10 remaining accessory-PQ identity candidates against existing canonical accessory records: Four-Star Dragon Ball Hat, Chiaotzu's Hat (With Collar), Dore's Scouter, Jaco's State-of-the-Art Radio, Tagoma's Scouter, SSGSS Goku Wig, Yamcha Baseball Hat, SSGSS Vegeta Wig, Android 14's Hat, and Bardock (DB Super)'s Scouter.
+- [x] Updated `accessory-pq-canonical-remaining.json` with the exact canonical IDs and resolution basis for each; no new identity was manufactured.
+- [x] Preserved unresolved component-only and historical-conflict candidates for separate evidence work.
+- [ ] **Next:** reconcile the remaining historical/conflicting accessory routes (especially Yamcha's Sword and Goku Wig PQ18/PQ63) and separately audit component-unresolved entries; then continue broader equipment/build navigation.
