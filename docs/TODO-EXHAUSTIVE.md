@@ -5832,3 +5832,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Discovered an important canonical-data gap: only Galaxy Breaker (Festival) currently exists in `skills.json`; the four recovered names do not yet have canonical records there.
 - [x] Recorded the four names as **named-but-canonical-record-missing** rather than fabricating IDs or incomplete skill records.
 - [ ] **Next:** recover complete canonical records/IDs and full fields for these four Festival skills from existing research batches/catalog evidence, then assign Free Update 20 provenance.
+
+
+### 2026-09-28 continuation — Free Update 20 audit boundary closed
+- [x] Cross-checked the official May 21, 2025 announcement with the maintained Free Update 20 catalog.
+- [x] Established Free Update 20 as version 1.24.0 / May 21, 2025 and confirmed the official announcement's separate free-update Skills statement.
+- [x] The available catalog does not provide a sufficiently direct named skill list to map additional canonical skill IDs; therefore **no additional skill provenance was fabricated**.
+- [x] Closed this subtask as an explicitly documented unresolved provenance gap and advanced the frontier.
+- [ ] **Next:** Future Saga Chapter 4 named-move reconciliation.
