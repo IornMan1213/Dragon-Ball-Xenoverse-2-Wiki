@@ -4890,3 +4890,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Validator source repair committed at `858f6d25a00c3baceee6120e30c7b35d32a6bcd8`; audit update committed at `8ab1a0423b3a1e6d82dedc64a0a2fca2dbd09f05`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** inspect the next remaining validator/consumer for a concrete stale invariant or parser/integrity defect, then resume restored-preset enrichment and bidirectional PQ reward coverage.
+
+
+### 2026-09-28 continuation — Super Soul mechanics enrichment batch 7
+- [x] Enriched canonical Super Soul `super-soul-049` **Getting beat up makes me cranky...** with source-backed trigger/effect data: always-on +5% Ki auto-recovery and +15% Ki Blast-based attack strength while Stamina is maxed.
+- [x] Preserved unresolved timing/stacking/frame semantics rather than inferring them.
+- [x] Added `docs/data/super-soul-mechanics-enrichment-batch-2026-09-28.json`, refreshed the canonical mechanics coverage audit, and registered the batch in `docs/data/pq-cross-domain-index.json`.
+- [x] Current Xenoverse 2 documentation corroborates the two passive effects and Limit Burst; independent guide evidence also identifies the Soul as the Android 17 Ki-regeneration option. 
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [x] **Exact next:** run a fresh active Super Soul mechanics census and select the next under-detailed record where independent evidence can safely populate missing structured fields; skip intentional no-effect blanks.
