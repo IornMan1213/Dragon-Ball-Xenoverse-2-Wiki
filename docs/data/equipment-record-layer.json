@@ -664,6 +664,11 @@
           "qq_bang_id": "qq-recipe-004",
           "input": "Battle Suit (Bardock)",
           "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-research-002",
+          "input": "Bardock Battle Suit",
+          "relationship": "QQ Bang clothing input"
         }
       ]
     },
@@ -2804,6 +2809,16 @@
           "qq_bang_id": "qq-observed-prima-010",
           "input": "Light Hearts Suit",
           "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-recipe-004",
+          "input": "Light Heart Suit",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-recipe-005",
+          "input": "Light Heart Suit",
+          "relationship": "QQ Bang clothing input"
         }
       ]
     },
@@ -2984,6 +2999,13 @@
       "note": "QQ Bang component identity reconciliation: added Beerus Clothes (Lower Body) as equip-110 from explicit Prima Games recipe input evidence; attached upper-body naming aliases to equip-101 without duplicating the canonical Beerus Top identity. No stats/acquisition values were inferred.",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Completed reverse-link reconciliation for QQ Bang component mappings: added missing equipment-side links for Bardock Battle Suit and both Light Heart Suit recipe-family records.",
+      "sources": [
+        "docs/data/qq-bangs-record-layer.json"
       ]
     }
   ]
