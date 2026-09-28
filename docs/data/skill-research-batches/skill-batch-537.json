@@ -1,0 +1,90 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 537,
+  "date": "2026-09-28",
+  "status": "complete",
+  "research_scope": "Post-recovery promotion of four indexed-only skills with explicit Future Warrior acquisition evidence: Divine Retribution, Final Shine Attack, Savage Strike, Sword of Hope.",
+  "verification_policy": "Promote only where current Xenoverse 2-specific evidence establishes canonical identity, acquisition endpoint, classification, and core mechanics; preserve unresolved timing/scaling/probability fields.",
+  "records": [
+    {
+      "name": "Divine Retribution",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "ki_cost": "100–200",
+      "stamina_cost": 0,
+      "damage_type": "Strike",
+      "unlock_method": "TP Medal Shop limited-time rotation",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A branching Strike Super that opens with a Ki Blast and can teleport above the target for a downward Ki-blade strike or spend additional Ki for a further attack.",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation classifies Divine Retribution as a Strike Super using 100–200 Ki. The first input fires a Ki Blast; an additional input before release teleports the user above the target for a downward slice, and further Ki can extend the sequence. Current documentation describes a 1–4-hit branching move. Exact frame data and universal damage scaling remain unresolved.",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Divine_Retribution",
+        "https://dragonball.fandom.com/wiki/Divine_Retribution",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
+      ]
+    },
+    {
+      "name": "Final Shine Attack",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "ki_cost": "300+",
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A long-range extendable Ki Blast Ultimate that continues firing while additional Ki is spent.",
+      "mechanics_notes": "Current Xenoverse 2 documentation classifies Final Shine Attack as a 300+ Ki Blast Ultimate. The beam starts at 9 hits and can be extended to 45 hits by repeated input, with current documentation reporting substantially greater total damage at maximum output. Exact current frame data and universal damage scaling are not asserted.",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Shine_Attack",
+        "https://dragonball.fandom.com/wiki/Final_Shine_Attack",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74469258"
+      ]
+    },
+    {
+      "name": "Savage Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Strike",
+      "unlock_method": "TP Medal Shop limited-time rotation",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A long-distance Strike Super with grab properties and an alternate teleport-above route.",
+      "mechanics_notes": "Current Xenoverse 2 documentation classifies Savage Strike as a 100-Ki Strike Super. The standard route lunges forward into a grab-property punch; an additional input before the move begins teleports the user above the opponent for a downward strike. Current documentation also describes hard knockdown behavior. Exact frame data and universal damage scaling remain unresolved.",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Savage_Strike",
+        "https://dragonball.fandom.com/wiki/Savage_Strike",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/517228"
+      ]
+    },
+    {
+      "name": "Sword of Hope",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "ki_cost": "300+",
+      "stamina_cost": 0,
+      "damage_type": "Strike",
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A Strike Ultimate that creates a large Ki sword and temporarily replaces the user's moveset with multiple sword attacks while draining Ki.",
+      "mechanics_notes": "Current Xenoverse 2 documentation classifies Sword of Hope as a 300+ Ki Strike Ultimate. The stance provides separate weak melee, strong melee, Ki-blast, and finisher inputs; the move ends when Ki is exhausted, the finisher is used, or the stance is canceled. Current documentation also notes that grabs can interrupt the move. Exact current Ki-drain rate and frame data remain unresolved.",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sword_of_Hope",
+        "https://dragonball.fandom.com/wiki/Sword_of_Hope",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/473547"
+      ]
+    }
+  ]
+}
