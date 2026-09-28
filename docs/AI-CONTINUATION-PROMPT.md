@@ -4935,3 +4935,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the source-backed `pq-029` ↔ `equip-008` Android 18's Clothes relationship in both directions.
 - [x] Kept exact drop mechanics unresolved rather than inventing them.
 - [ ] Next: scan remaining maintained PQ batches for directly supported equipment rewards and promote safe cross-links.
+
+### 2026-09-27 continuation — PQ 41/59 promotion
+- [x] Promoted `pq-041` and `pq-059` from `pq-041-060.json` into the sparse canonical PQ layer.
+- [x] Linked `pq-041` ↔ `equip-060` Yamcha's Baseball Uniform.
+- [x] Linked `pq-059` ↔ `equip-061` Vegito's Clothes.
+- [x] Preserved unresolved exact drop mechanics.
+- [ ] Next: continue scanning remaining PQ batches for source-backed promotions.
