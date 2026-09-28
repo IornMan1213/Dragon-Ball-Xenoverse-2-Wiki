@@ -33,6 +33,11 @@
       "input": "Beerus clothing (upper body)",
       "canonical_equipment_id": "equip-101",
       "reason": "Upper-body naming variant mapped to existing canonical Beerus Top identity."
+    },
+    {
+      "scope": "reverse_links",
+      "status": "completed",
+      "details": "Equipment-side QQ Bang links were added for Bardock Battle Suit (equip-024) and Light Heart Suit (equip-105) so every newly reconciled forward edge is navigable in both directions."
     }
   ],
   "unresolved": [
