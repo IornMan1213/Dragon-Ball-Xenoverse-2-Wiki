@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0.0",
+  "record_layer": "festival_named_skill_recovery",
+  "status": "non_canonical_recovery_layer",
+  "purpose": "Preserve directly evidenced Free Update 20 / 4th Festival skill identities that are named by current evidence but are not yet present as canonical records in docs/data/skills.json. This layer is not a source of truth for canonical skill identity and must not be used to manufacture canonical IDs.",
+  "source_of_truth_policy": "docs/data/skills.json remains authoritative. These records are recovery/evidence records only.",
+  "event": {
+    "event_id": "free-update-20-budokai-festival",
+    "event_name": "Free Update 20 / 4th Festival of Universes",
+    "official_scope_source": "https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
+    "official_character_scope_source": "https://dragon-ball-official.com/news/01_3550.html"
+  },
+  "records": [
+    {
+      "recovery_id": "festival-god-bind",
+      "name": "God Bind (Festival)",
+      "canonical_skill_id": null,
+      "canonical_status": "named_but_canonical_record_missing",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Goku (Super Saiyan God)",
+      "acquisition": "Festival of Universes - Max Camaraderie with Goku (Super Saiyan God)",
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "mechanics": "Close-range Ki prison that stun-locks the opponent before a follow-up palm strike and Ki blast.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/God_Bind_%28Festival%29",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=1"
+      ]
+    },
+    {
+      "recovery_id": "festival-egret-waltz",
+      "name": "Egret Waltz (Festival)",
+      "canonical_skill_id": null,
+      "canonical_status": "named_but_canonical_record_missing",
+      "class": "Super",
+      "subcategory": null,
+      "usable_by_cac": false,
+      "character_source": "Videl (DB Super)",
+      "acquisition": "Festival of Universes - Max Camaraderie with Videl (DB Super)",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "mechanics": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Videl_%28DB_Super%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=10",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=1"
+      ]
+    },
+    {
+      "recovery_id": "festival-gamma-force-code-r",
+      "name": "Gamma Force: Code-R (Festival)",
+      "canonical_skill_id": null,
+      "canonical_status": "named_but_canonical_record_missing",
+      "class": "Super",
+      "subcategory": null,
+      "usable_by_cac": false,
+      "character_source": "Gamma 1",
+      "acquisition": "Festival of Universes - Max Camaraderie with Gamma 1",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "mechanics": "Gamma 1 fires a blast, attacks the opponent, then snaps his fingers to send the opponent flying.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-R",
+        "https://gamefaqs.gamespot.com/boards/190457-games/81001000?page=13",
+        "https://www.youtube.com/watch?v=FDgr5EVmDA4"
+      ]
+    },
+    {
+      "recovery_id": "festival-gamma-force-code-b",
+      "name": "Gamma Force: Code-B (Festival)",
+      "canonical_skill_id": null,
+      "canonical_status": "named_but_canonical_record_missing",
+      "class": "Super",
+      "subcategory": null,
+      "usable_by_cac": false,
+      "character_source": "Gamma 2",
+      "acquisition": "Festival of Universes - Max Camaraderie with Gamma 2",
+      "ki_cost": null,
+      "stamina_cost": null,
+      "mechanics": "Gamma 2 fires a charged blast, attacks the opponent, then sends the opponent flying with a kick.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-B",
+        "https://dbxv2.fandom.com/wiki/Gamma_2",
+        "https://gamefaqs.gamespot.com/boards/190457-games/81001000?page=13",
+        "https://www.youtube.com/watch?v=FDgr5EVmDA4"
+      ]
+    }
+  ],
+  "evidence_boundary": [
+    "The four names are independently recoverable and align with the four 4th Festival characters named by the official Dragon Ball event article.",
+    "The layer does not assign canonical skill IDs because the current canonical skills.json does not contain these four identities.",
+    "Null fields remain unresolved rather than being copied from unrelated Festival skills or inferred from character usage.",
+    "The record layer is not a replacement for canonical skills.json and must not be promoted without identity/schema reconciliation."
+  ]
+}
