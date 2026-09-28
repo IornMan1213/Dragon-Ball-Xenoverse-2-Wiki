@@ -4882,3 +4882,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] QQ Bang cross-links refreshed across **21 records**, using canonical identifiers only when the match was safe.
 - [x] Recovery checkpoint synchronized to the live hashes/counts.
 - [ ] Next exact research frontier: version-aware **Super Mix Capsule Z/material provenance**, while continuing to resolve any remaining clothing-name mismatches and later equipment/build relationships.
+
+### 2026-09-27 continuation — version-aware QQ Bang materials
+- [x] Super Mix Capsule Z now has dated 2020-2026 provenance for direct PQ/Expert Mission Tour acquisition and the Super Mix Capsule + Demon Realm Crystal synthesis route.
+- [x] No patch-specific acquisition-rule change was promoted without direct evidence; exact drop percentages remain unresolved.
+- [ ] Next exact frontier: deeper item-table/patch evidence, remaining QQ Bang clothing identity reconciliation, then equipment/build cross-links.
