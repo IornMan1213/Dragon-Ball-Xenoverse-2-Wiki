@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-28",
-  "latest_research_batch": 543,
+  "latest_research_batch": 544,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Acquisition target-field census is complete at 0 gaps. Post-recovery audit metadata has been synchronized to the 497-record canonical corpus; next prioritize mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity while preserving evidence boundaries.",
+  "current_research_focus": "Canonical acquisition fields are complete at 0 gaps. Batch 544 filled 10 explicit canonical Ki-cost gaps from existing repository evidence; 2 records remain intentionally null because current evidence does not establish numeric Ki activation costs. Next prioritize mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -220,5 +220,15 @@
     "stale_audit_artifacts_corrected": 6,
     "identity_changes": 0,
     "relationship_changes": 0
+  },
+  "ki_cost_gap_census_2026_09_28": {
+    "canonical_records": 497,
+    "records_with_null_ki_cost": 2,
+    "enriched_in_batch_544": 10,
+    "remaining": [
+      "Holstein Shock",
+      "Hyper Movement"
+    ],
+    "rule": "Null is preserved where evidence does not establish a numeric activation cost; evasive Stamina costs are not converted into Ki costs by inference."
   }
 }
