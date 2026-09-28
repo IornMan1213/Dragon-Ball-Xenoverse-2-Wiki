@@ -237,6 +237,10 @@
         {
           "input": "Beerus clothing",
           "equipment_id": "equip-101"
+        },
+        {
+          "input": "Bardock Battle Suit",
+          "equipment_id": "equip-024"
         }
       ]
     },
@@ -522,6 +526,14 @@
         {
           "input": "Beerus Clothes",
           "equipment_id": "equip-101"
+        },
+        {
+          "input": "Beerus Clothes (Upper Body)",
+          "equipment_id": "equip-101"
+        },
+        {
+          "input": "Beerus Clothes (Lower Body)",
+          "equipment_id": "equip-110"
         }
       ]
     },
@@ -550,6 +562,10 @@
       "equipment_links": [
         {
           "input": "Beerus Clothes",
+          "equipment_id": "equip-101"
+        },
+        {
+          "input": "Beerus Clothes (Upper Body)",
           "equipment_id": "equip-101"
         }
       ]
@@ -583,6 +599,10 @@
       "equipment_links": [
         {
           "input": "Beerus clothing",
+          "equipment_id": "equip-101"
+        },
+        {
+          "input": "Beerus clothing (upper body)",
           "equipment_id": "equip-101"
         }
       ]
@@ -942,12 +962,20 @@
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/1gzw3o8/",
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/ijcy6b/"
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "QQ Bang component-identity reconciliation: mapped explicit Beerus upper-body aliases to equip-101 (Beerus Top), added equip-110 for the distinct Beerus lower-body input named by the Prima Games observed recipe, and mapped the Bardock Battle Suit naming variant in qq-research-002 to equip-024. No clothing stats or acquisition routes were inferred.",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
+        "docs/data/equipment-record-layer.json"
+      ]
     }
   ],
   "research_frontier": {
     "last_cycle": "2026-09-27",
     "promoted_observed_vectors": 16,
     "total_records": 23,
-    "next_target": "version-aware Super Mix Capsule Z/material provenance and remaining equipment identity reconciliation"
+    "next_target": "version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; remaining unresolved QQ Bang inputs stay explicitly unresolved where evidence is incomplete"
   }
 }
