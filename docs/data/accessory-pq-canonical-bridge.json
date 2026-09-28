@@ -158,8 +158,9 @@
       "pq_record_id": "pqacc-020",
       "name": "Great Saiyaman Helmet",
       "pq": 51,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "acc-005",
+      "match_status": "matched",
+      "note": "Canonical accessory identity acc-005 is explicitly associated with PQ51; reward-condition certainty remains separate."
     },
     {
       "pq_record_id": "pqacc-021",
@@ -341,8 +342,8 @@
   ],
   "summary": {
     "pq_records": 45,
-    "matched": 36,
-    "unmatched_or_unresolved": 9,
+    "matched": 37,
+    "unmatched_or_unresolved": 8,
     "note": "The 25 matched records are identity matches only. They do not promote reward conditions or drop rates to verified status."
   },
   "sources": [
