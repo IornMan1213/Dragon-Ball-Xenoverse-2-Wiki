@@ -4959,3 +4959,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added 7 exact-name bidirectional equipment links where canonical equipment identities were present.
 - [x] Preserved unresolved accessory conflicts (including Yamcha's Sword) without speculative canonical equipment promotion.
 - [ ] Continue restoring subsequent missing PQ records from maintained batches and cross-link only evidence-supported identities.
+
+### 2026-09-27 continuation — PQ41-60 restoration
+- [x] Restored 18 missing PQ41-60 records from maintained batch data.
+- [x] Added 0 exact-name bidirectional equipment links where canonical identities existed.
+- [ ] Continue canonical PQ restoration through PQ186, preserving unresolved identity conflicts.
