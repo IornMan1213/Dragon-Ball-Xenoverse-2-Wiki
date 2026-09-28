@@ -5462,3 +5462,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 530 and reconcile any directly supported field-level improvements.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 531
+- [x] Continued with five stale PQ71-PQ75 cohort records: **Last Emperor, Burst Kamehameha, Psychic Move, Final Pose, and Counter Burst**.
+- [x] Preserved documented class, resource cost where supported, acquisition, character source, and bounded mechanics evidence; unresolved costs remain unresolved.
+- [x] Added `docs/data/skill-research-batches/skill-batch-531.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 531 and reconcile safe field-level improvements.
