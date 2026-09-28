@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Post-recovery bidirectional Skill↔PQ reconciliation",
+  "canonical_source": "docs/data/skills.json",
+  "forward_source": "docs/data/pq-reward-relationships.json",
+  "reverse_projection": "docs/data/skill-pq-reverse-index-2026-09-26.json",
+  "canonical_skill_records": 493,
+  "skill_pq_edges": 248,
+  "represented_pq_ids": 170,
+  "additions": [
+    {
+      "pq": "pq-015",
+      "skill_id": "skill-holstein-shock",
+      "skill": "Holstein Shock",
+      "evidence": "Direct skill documentation identifies Parallel Quest 15, Gotta Find That Dragon Ball!, as the acquisition route.",
+      "source": "https://dbxv2.fandom.com/wiki/Gotta_Find_That_Dragon_Ball%21"
+    },
+    {
+      "pq": "pq-017",
+      "skill_id": "skill-recoome-eraser-gun",
+      "skill": "Recoome Eraser Gun",
+      "evidence": "Direct skill documentation identifies Parallel Quest 17, Ginyu and the Fruit, as the acquisition route.",
+      "source": "https://dbxv2.fandom.com/wiki/Recoome_Eraser_Gun"
+    }
+  ],
+  "checks": {
+    "canonical_to_reverse": "248 explicit source_parallel_quests edges are represented in the reverse projection.",
+    "forward_to_canonical": "248 pq_rewards_skill relationships resolve to canonical skill identities.",
+    "pq15_reverse": [
+      "skill-fighting-pose-d",
+      "skill-holstein-shock"
+    ],
+    "pq17_reverse": [
+      "skill-fighting-pose-j",
+      "skill-recoome-eraser-gun"
+    ]
+  },
+  "preservation": [
+    "No PQ reward probability was inferred.",
+    "No Skill Shop/TP Medal Shop acquisition was converted into a PQ relationship.",
+    "The canonical skills.json layer remains the source of truth.",
+    "Historical audit artifacts with stale 246-edge metadata were updated where they are current consumer reports; historical completed-work records were not deleted."
+  ],
+  "status": "reconciled_bidirectionally",
+  "next": "Continue auditing remaining recovered cross-domain endpoints and then expand evidence-backed PQ reward coverage beyond the currently represented 248 Skill→PQ relationships."
+}
