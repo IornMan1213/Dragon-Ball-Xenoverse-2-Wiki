@@ -2235,5 +2235,8 @@
   "skill_research_batch_534_current_evidence": "docs/data/skill-research-batches/skill-batch-534.json",
   "skill_research_batch_535_current_evidence": "docs/data/skill-research-batches/skill-batch-535.json",
   "skill_research_batch_536_current_evidence": "docs/data/skill-research-batches/skill-batch-536.json",
-  "skill_research_batch_536_current_evidence": "docs/data/skill-research-batches/skill-batch-536.json"
+  "research_batches": {
+    "skill_batch_537": "docs/data/skill-research-batches/skill-batch-537.json",
+    "skill_canonical_recovery_promotion_audit_2026_09_28": "docs/data/skill-canonical-recovery-promotion-audit-2026-09-28.json"
+  }
 }
