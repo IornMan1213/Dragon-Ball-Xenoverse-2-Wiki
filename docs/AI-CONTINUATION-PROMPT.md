@@ -5022,3 +5022,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] **Exact next:** continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; preserve unresolved QQ Bang inputs where evidence does not establish canonical identity.
 
 - [x] 2026-09-27 follow-up: Closed the reverse-link audit by adding equipment-side QQ Bang links for equip-024/Bardock Battle Suit and equip-105/Light Heart Suit; forward/reverse reconciliation is now clean for the newly promoted identities.
+
+
+## 2026-09-27 Recovery Continuation
+
+- Rechecked the recovered live baseline: PQ 1-186 and 840 canonical cross-domain relationship edges remain intact; the forward/reverse reconciliation remains clean.
+- Hardened the Super Mix Capsule Z provenance boundary in `docs/data/qq-bangs-record-layer.json`: Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis remain evidence-backed research routes, while exact drop rates, universal patch-specific reward tables, and canonical synthesis quantities remain unresolved.
+- Updated `docs/data/canonical-database-recovery-checkpoint-2026-09-27.json` with the current recovery baseline (110 equipment, 23 QQ Bang, 16 observed vectors, 186 PQ, 840 PQ cross-domain edges).
+- Identified stale PQ status-layer metadata (older 232/135/122 and 182-PQ snapshot) as a synchronization task; do not treat those historical values as the live canonical baseline.
+- Next: synchronize the stale PQ status metadata when the GitHub mutation path permits, then continue evidence-driven equipment/build cross-domain enrichment and unresolved QQ Bang identity reconciliation. Preserve uncertainty; do not infer missing canonical data.
