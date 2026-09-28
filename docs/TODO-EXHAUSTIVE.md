@@ -4860,3 +4860,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Final repair commit: `b737a2bf11dbe67a02198b79c7360db4fa0b1c95`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: inspect the next cross-domain validator for concrete stale invariants or parser/integrity defects.
+
+
+### 2026-09-28 continuation — PQ skill validator executable-source repair
+- [x] Re-inspected the live `scripts/validate_pq_skill_links.py` after the prior hardening commits.
+- [x] Found that the final projection-check statements were still stored as literal `\\n` escape text inside executable source, so the checked-in validator was not actually normalized.
+- [x] Replaced that malformed tail with real Python newlines and committed the repair at `0df96adecc96d3955eb526e6ae11b39c799c6af4`.
+- [x] Re-fetched the live file and confirmed the projection-check tail is now syntactically laid out as executable Python statements.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: inspect the next live cross-domain validator/consumer for a concrete integrity defect, then resume restored-preset enrichment and PQ reward navigation.
