@@ -4974,3 +4974,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Restored 18 additional missing PQ records from maintained batch data.
 - [x] Audited their equipment rewards against canonical equipment; no safe exact-name matches were found, so no speculative links were created.
 - [ ] Continue restoring the remaining sparse PQ layer and then expand cross-domain skill/equipment links from canonical evidence.
+
+### 2026-09-27 continuation — PQ101-186 restoration
+- [x] Restored 84 missing canonical PQ records from the maintained PQ101-186 batches.
+- [x] Audited equipment rewards against canonical equipment; no exact-name equipment matches were safe to promote.
+- [x] Preserved unresolved accessory identities and historical conflicts without speculative links.
+- [ ] Continue systematic cross-domain reconciliation across the now-restored PQ layer.
