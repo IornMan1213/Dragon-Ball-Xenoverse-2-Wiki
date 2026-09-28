@@ -4913,3 +4913,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added bidirectional acquisition links for equip-001 and equip-017 ↔ pq-004, and equip-088 ↔ pq-100.
 - [x] Links derive from explicit canonical equipment source_quest_or_shop fields; no guaranteed-drop or exact-rate claims were added.
 - [ ] Next: continue QQ Bang equipment identity reconciliation and expand equipment ↔ PQ links only where direct canonical evidence exists.
+
+### 2026-09-27 continuation — QQ Bang equipment reconciliation
+- [x] Completed the identified Light Heart Suit identity gap: qq-recipe-004 and qq-recipe-005 now link to canonical equip-105.
+- [x] Audited every QQ Bang equipment_link against the canonical equipment layer; no broken equipment IDs remain.
+- [ ] Next: expand equipment ↔ PQ acquisition links where direct canonical evidence exists, then continue broader cross-domain reconciliation.
