@@ -5339,3 +5339,21 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/TODO-EXHAUSTIVE.md` with the completed four-record evidence frontier and the next canonical comparison task.
 - [ ] Next: compare these four evidence records against the live canonical 493-record entries and apply only stronger evidence-backed corrections; then continue through the remaining restored identities.
 - [ ] Keep **Super Ki Explosion** and **Ultra Fighting Bomber** blocked until direct skill-level evidence is obtained.
+
+
+### 2026-09-27 continuation — Restored skill canonical evidence reconciliation batch 03
+- [x] Re-read the live continuation/TODO state and compared the actual canonical `skills.json` records against the prior evidence batch rather than assuming the promoted identities were already enriched.
+- [x] Reconciled **Super Dragon Fist**: direct source, 100 Ki, expanded user provenance, bounded three-hit rush mechanics.
+- [x] Reconciled **Holstein Shock**: direct sources, PQ15 acquisition, self-damage and instant two-bar Ki behavior.
+- [x] Reconciled **Backflip** and **Turn Retreat** with direct skill/category evidence and bounded mechanics.
+- [x] Reconciled **Full Power Energy Wave**: specific Skill Shop/story gate and direct Ultimate evidence.
+- [x] Reconciled **Recoome Eraser Gun**: 100 Ki, PQ17 acquisition, direct skill evidence, bounded startup/beam behavior.
+- [x] Corrected **Break Strike** by restoring `ultimate_finish_required=null` instead of preserving an unsupported negative assertion.
+- [x] Corrected **Energy Wave Combo** by removing an unsupported Skill Shop acquisition and generic character-source label; current evidence does not safely establish either field.
+- [x] Strengthened **Sledgehammer** with direct provenance and bounded charge/knockdown mechanics.
+- [x] Added `docs/data/skill-preset-evidence-reconciliation-batch-03-2026-09-27.json`.
+- [x] Discovered and repaired a live synchronization gap: canonical `skills.json` contained **493** records while `skills-index.json` contained **475**; the index now contains **493** records and the restored identities are represented there.
+- [x] Verified the reconciled IDs in both layers after the writes.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** reconcile Super Back Jump, Ki Blast Cannon, Consecutive Energy Blast, and Super Galick Gun; keep Super Ki Explosion and Ultra Fighting Bomber blocked until direct skill-level evidence is obtained.
+
