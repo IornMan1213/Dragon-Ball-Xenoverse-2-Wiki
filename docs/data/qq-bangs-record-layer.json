@@ -128,7 +128,7 @@
       "mixing_item": "Super Mix Capsule Z",
       "mixing_location": "Capsule Corporation Clothing Mixing Shop",
       "acquisition_route": "Community-documented 6-star QQ Bang recipe family",
-      "rng_notes": "This is an observed recipe family, not a guaranteed stat output. Current evidence confirms substantial RNG variation; record exact six-stat results separately when observed.",
+      "rng_notes": "Observed/community recipe family only. Current evidence supports 5-star clothing inputs plus Super Mix Capsule Z for 6-star attempts, while the exact six-stat result remains RNG-dependent; do not promote any single spread to guaranteed output.",
       "build_tags": [
         "6-star QQ Bang research",
         "Ki + Stamina",
@@ -139,7 +139,9 @@
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
         "https://steamcommunity.com/app/454650/discussions/0/3879347492855720788/",
-        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
+        "https://steamcommunity.com/app/454650/discussions/0/3076495389984558741/"
       ]
     }
   ],
