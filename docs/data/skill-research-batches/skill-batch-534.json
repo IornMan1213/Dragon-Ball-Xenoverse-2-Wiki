@@ -1,0 +1,19 @@
+{
+  "batch": 534,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Stale early/base-game PQ91-PQ95 skill records lacking a post-recovery current-evidence refresh.",
+  "selected": [
+    {"skill_name":"Final Kamehameha","current_evidence":{"class":"Ultimate","subcategory":"Ki Blast","ki_cost":500,"usable_by_cac":true,"character_source":"Vegito; Super Saiyan Blue Vegito","acquisition":"Parallel Quest 91 — Saiyan Revolt"},"mechanics_boundary":"Massive combined Final Flash/Kamehameha beam is supported. TP Medal Shop association is preserved; reward-slot semantics remain unresolved."},
+    {"skill_name":"Maiden Burst","current_evidence":{"class":"Evasive","subcategory":"Ki Blast","stamina_cost":300,"usable_by_cac":true,"character_source":"Pan (GT)","acquisition":"Parallel Quest 92 — Revenge of the Tuffle"},"mechanics_boundary":"Defensive Ki explosion while evading is supported. Exact hit timing, scaling, and secondary effects are not promoted."},
+    {"skill_name":"Bluff Kamehameha","current_evidence":{"class":"Super","subcategory":"Other","ki_cost":100,"usable_by_cac":true,"character_source":"Goku","acquisition":"Parallel Quest 94 — Ultimate Power, Ultimate Saiyan"},"mechanics_boundary":"Fake Kamehameha behavior intended to manipulate the opponent is supported. Exact trigger and interaction details are not promoted."},
+    {"skill_name":"Drain Field","current_evidence":{"class":"Evasive","subcategory":"Other","stamina_cost":200,"usable_by_cac":true,"character_source":"Android 17 (Super)","acquisition":"Parallel Quest 95 — Super 17, the Ultimate Android"},"mechanics_boundary":"Energy-draining field used during evasion is supported. Exact drain amount, duration, and reward-slot semantics remain unresolved."}
+  ],
+  "validation":{"canonical_skill_identity_count":493,"canonical_identity_changes":0,"unsupported_pq_relationships_added":0,"speculative_frames_added":0,"speculative_patch_independent_scaling_added":0,"speculative_probabilities_added":0},
+  "source_provenance":{
+    "final_kamehameha":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "maiden_burst":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "bluff_kamehameha":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "drain_field":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+  }
+}
