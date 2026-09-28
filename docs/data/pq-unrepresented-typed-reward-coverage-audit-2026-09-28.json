@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "audit_type": "unrepresented_pq_typed_reward_coverage_2026-09-28",
+  "scope": [
+    1,
+    30,
+    35,
+    47,
+    48,
+    93,
+    102,
+    103,
+    107,
+    108,
+    118,
+    121,
+    144,
+    157,
+    169,
+    170
+  ],
+  "methodology": "Reconciled the 16 PQs without explicit canonical skill endpoints against the canonical PQ reward relationship layer, equipment/accessory research layers, and existing PQ-specific audits. Only explicit item-level canonical identities are treated as promotable relationships; research-only candidates remain evidence.",
+  "findings": {
+    "canonical_typed_reward_coverage_confirmed": [
+      "PQ30: Hercule's Clothes; Tien Shinhan's Gi",
+      "PQ47: Broly's Clothes",
+      "PQ93: Pan's Bandanna; Pan's Clothes",
+      "PQ102: Battle Suit (Cabba); two Super Souls",
+      "PQ103: three Super Souls",
+      "PQ107: Future Mai's Clothes; one Super Soul",
+      "PQ108: Goku Black's Clothes; two Super Souls",
+      "PQ118: two Super Souls",
+      "PQ121: Tuxedo; Wedding Dress; one Super Soul",
+      "PQ144: Gine (DB Super) equipment; two Super Souls",
+      "PQ157: two Super Souls",
+      "PQ169: Orange Piccolo's Clothes",
+      "PQ170: Videl (DB Super)'s Clothes"
+    ],
+    "evidence_only_or_unresolved": [
+      "PQ1: no canonical typed reward relationship established by the current evidence boundary.",
+      "PQ35: Z-Sword is documented as a historical accessory acquisition lead, but its canonical accessory identity is still a new-identity candidate; no canonical PQ relationship is promoted.",
+      "PQ48: Kamekameha/Kamehameha remains a known skill-source conflict; no PQ48 skill relationship is promoted.",
+      "PQ118/PQ121: conflicting third-party skill associations remain unresolved and do not override canonical shop acquisition.",
+      "PQ169/PQ170: current accessory audit explicitly finds no accessory in the basic reward extract; clothing relationships remain canonical."
+    ]
+  },
+  "conclusion": "The 16-PQ gap is not a demonstrated global typed-reward gap. Most IDs already have canonical Super Soul/equipment relationships. Remaining work should target the small evidence-boundary cases rather than duplicating already-reconciled relationships.",
+  "sources": [
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/equipment-record-layer.json",
+    "docs/data/accessory-canonical-reconciliation.json",
+    "docs/data/accessory-pq-research.json",
+    "docs/data/accessory-pq-canonical-bridge.json",
+    "docs/data/accessory-pq-audit-169-186.json",
+    "docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json"
+  ],
+  "status": "reconciled_no_unsupported_promotions"
+}
