@@ -4441,3 +4441,5 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Reconciled QQ Bang component identities after recovery: Bardock Battle Suit → equip-024; Beerus upper-body naming variants → equip-101; Beerus Clothes (Lower Body) → new canonical equip-110.
 - [x] 2026-09-27: Added bidirectional QQ Bang ↔ equipment links for the newly reconciled component identities and recorded the evidence boundary in docs/data/qq-bang-equipment-component-reconciliation-2026-09-27.json.
 - [ ] 2026-09-27: Continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; do not invent unresolved clothing stats/acquisition routes.
+
+- [x] 2026-09-27 follow-up: Completed the reverse-link audit for the QQ Bang component reconciliation; newly promoted Bardock Battle Suit and Light Heart Suit relationships now navigate in both directions.
