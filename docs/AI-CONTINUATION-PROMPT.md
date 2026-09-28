@@ -6339,3 +6339,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Established the provenance rule that DLC/update event provenance and individual skill first-release/version assignment are separate claims; individual skills will only be mapped when direct skill-to-event evidence exists.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** map the strongest directly evidenced canonical skill IDs to the new release-event registry, beginning with explicit official skill mentions such as Beast; then expand to Future Saga/DAIMA skills only where direct linkage exists.
+
+
+### 2026-09-28 direct release provenance
+- [x] Added 5 direct skill to release mappings: Beast to Free Update 16; Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger to Future Saga Chapter 1.
+- [x] Added official Dragon Ball source evidence for the four named Chapter 1 moves.
+- [x] Kept unmapped DLC skills unchanged when official evidence only gives an aggregate move count.
+- [ ] Next: map Chapter 2, Chapter 3, Chapter 4, and DAIMA skills only when individual skills are directly named by authoritative evidence.
