@@ -5216,3 +5216,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Skill↔PQ bidirectional coverage at 248 explicit Skill→PQ edges and 170 represented PQ IDs; the 16 unrepresented PQ IDs remain an evidence-boundary task, not automatic missing relationships.
 - [x] Synchronized current PQ status/audit/recovery metadata and retained the 840-edge values as historical provenance rather than rewriting completed history.
 - [ ] **Next major task:** expand evidence-backed PQ reward coverage beyond the current 248 Skill edges, then continue equipment/QQ Bang and reverse-index reconciliation.
+
+
+### 2026-09-28 continuation — Equipment/QQ Bang endpoint reconciliation
+- [x] Audited the equipment reverse projection against the live 127-edge canonical PQ equipment relationship layer.
+- [x] Repaired stale equipment projection metadata (125 → 127 canonical edges) and preserved historical counts as provenance.
+- [x] Confirmed PQ12-14 equipment additions are represented without speculative acquisition semantics.
+- [x] Added `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json` for cross-domain provenance and QQ Bang uncertainty boundaries.
+- [ ] Next major task: exhaustive equipment/accessory reverse navigation audit across the 127 canonical equipment edges, then unresolved QQ Bang input-identity reconciliation.
