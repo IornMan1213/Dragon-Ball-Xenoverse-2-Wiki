@@ -15,9 +15,9 @@ def load_object(path):
  return value
 def main():
  rel=load_object(REL); rev=load_object(REV); skills=load_object(SKILLS)
- skill_records=skills.get("skills")
+ skill_records=skills.get("records")
  if not isinstance(skill_records,list):
-  raise SystemExit("skills.json: skills must be a list")
+  raise SystemExit("skills.json: records must be a list")
  canonical_skill_count=len(skill_records)
  pq_ids=rev.get("pq_ids",{})
  if not isinstance(pq_ids,dict):
