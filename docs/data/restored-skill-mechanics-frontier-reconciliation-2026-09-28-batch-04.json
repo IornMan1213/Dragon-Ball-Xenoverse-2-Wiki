@@ -1,0 +1,148 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Fourth post-recovery mechanics frontier reconciliation for existing canonical skill identities; evidence-only promotion of the next unaudited cohort from the repository's research layer.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "skill_id": "skill-energy-release",
+      "name": "Energy Release",
+      "class": "Other Super",
+      "mechanics_boundary": "Towa-exclusive stationary Ki-charge stance. Current Xenoverse 2 evidence describes it as slower than Energy Charge; Towa is the documented user and the skill is not separately obtainable by CaCs. Exact charge rate, frame timing, and total refill timing remain unresolved.",
+      "unresolved": [
+        "charge rate",
+        "frame timing",
+        "total refill timing",
+        "CaC acquisition"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-super-destructo-disc",
+      "name": "Super Destructo-Disc",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 200,
+      "acquisition": "Expert Mission 4",
+      "mechanics_boundary": "Chargeable large Destructo-Disc that tracks and is unblockable; current evidence distinguishes it from the normal Destructo-Disc by faster travel, no restand, and combo potential after sufficiently long knockback. Tracking can be engaged after firing while unlocked and then locking on.",
+      "unresolved": [
+        "exact tracking window",
+        "frame data",
+        "damage scaling",
+        "reward probability"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-android-rush",
+      "name": "Android Rush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "ki_cost": 100,
+      "acquisition": "Android 16 training",
+      "mechanics_boundary": "Four-hit rush: three kicks followed by a final backhand/punch/kick that launches the opponent. Directional input changes the final knockback route: neutral forward, up downward, down upward. Current evidence reports about 10% total damage.",
+      "unresolved": [
+        "exact directional timing",
+        "frame data",
+        "damage scaling"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-burning-attack",
+      "name": "Burning Attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 41",
+      "mechanics_boundary": "Long hand-seal startup followed by a large projectile that explodes on impact, launches the opponent upward, and can briefly stun/trip them. Current skill-specific evidence reports about 15% damage.",
+      "unresolved": [
+        "startup/active/recovery frames",
+        "damage scaling",
+        "reward probability"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-chaos-shot",
+      "name": "Chaos Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "TP Medal Shop",
+      "mechanics_boundary": "Uncharged version fires Ki Blasts in multiple directions for two hits; holding the input concentrates the attack forward for nine hits. Current source-reported damage is about 10% uncharged and 15% charged; the move is associated with Frost.",
+      "unresolved": [
+        "exact charge timing",
+        "frame data",
+        "damage scaling"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-surging-spirit",
+      "name": "Surging Spirit",
+      "class": "Other Super",
+      "mechanics_boundary": "Built-in Ultra Instinct Ki-charge action rather than a separately acquired equipable skill. Goku (Ultra Instinct) and Goku (Ultra Instinct -Sign-) use it; CaCs can access it while Ultra Instinct is active through the dedicated guard+heavy input. Current evidence describes roughly five seconds to refill Ki and identifies it as slightly faster than Maximum Charge.",
+      "unresolved": [
+        "exact refill timing",
+        "frame data",
+        "input-state edge cases"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-reverse-shot",
+      "name": "Reverse Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 123",
+      "mechanics_boundary": "Four Ki bullets fire initially; if a blast has not hit after roughly one second it reverses and tracks from behind. At red health the move instead fires eight blasts. Current references report about 5% total damage normally and 15% at red health.",
+      "unresolved": [
+        "exact reversal timing",
+        "red-health threshold details",
+        "frame data",
+        "damage scaling",
+        "reward probability"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    },
+    {
+      "skill_id": "skill-grand-smasher",
+      "name": "Grand Smasher",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "acquisition": "Bojack training",
+      "mechanics_boundary": "Large Ki ball Ultimate; current evidence reports 21 hits and about 35% damage. While the projectile is touching the opponent, an additional input spends 100 more Ki and detonates it for five extra unblockable hits, establishing a documented 300–400 Ki resource range.",
+      "unresolved": [
+        "exact detonation timing",
+        "frame data",
+        "damage scaling",
+        "miss/recovery behavior"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-470.json",
+      "status": "evidence_reconciled_no_safe_canonical_change"
+    }
+  ],
+  "evidence_policy": [
+    "Canonical skills.json remains authoritative; this artifact is evidence-only.",
+    "Source-reported costs, hit counts, damage, durations, and timing are bounded by their cited evidence and are not treated as patch-independent constants.",
+    "Do not infer unsupported frames, hidden gates, probabilities, or scaling.",
+    "Keep built-in Surging Spirit distinct from separately acquired equipable charge skills.",
+    "Do not create PQ reward relationships from acquisition endpoints without explicit reward evidence."
+  ],
+  "validation": {
+    "canonical_skill_records": 493,
+    "index_skill_records": 493,
+    "identity_scope": "All eight identities already exist; no canonical duplicate identities or unsupported relationships were created.",
+    "ci_build": "unverified"
+  }
+}
