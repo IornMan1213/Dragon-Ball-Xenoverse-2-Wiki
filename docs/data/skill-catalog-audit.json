@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-27",
-  "latest_research_batch": 537,
+  "latest_research_batch": 538,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Post-recovery synchronization of the 497-record canonical skill corpus; continue evidence-backed promotion of genuinely indexed-only Future Warrior skills while preserving cast-only and variant boundaries.",
+  "current_research_focus": "Synchronize completed current-evidence audits into the 497-record canonical corpus, then continue the post-PQ100 stale/enrichment frontier without treating indexes as authoritative.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -190,5 +190,17 @@
       "Lovely Showtime"
     ],
     "next": "Recompute indexed-only universe against the 497-record canonical corpus; prioritize directly evidenced Future Warrior skills and preserve cast-only/variant exclusions."
+  },
+  "recent_recovery_sync": {
+    "batch": 538,
+    "date": "2026-09-28",
+    "records": [
+      "Headshot",
+      "Arm Crash",
+      "God Breaker",
+      "Phantom Fist"
+    ],
+    "canonical_records": 497,
+    "index_records": 497
   }
 }
