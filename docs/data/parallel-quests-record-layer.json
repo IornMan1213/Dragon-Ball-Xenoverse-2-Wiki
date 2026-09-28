@@ -1817,6 +1817,9 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
         }
+      ],
+      "equipment_rewards": [
+        "Jaco's State-of-the-Art Radio"
       ]
     },
     {
@@ -1844,6 +1847,9 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
         }
+      ],
+      "equipment_rewards": [
+        "Tagoma's Scouter"
       ]
     },
     {
@@ -1911,6 +1917,9 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
         }
+      ],
+      "equipment_rewards": [
+        "SSGSS Goku Wig"
       ]
     },
     {
@@ -1984,7 +1993,10 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "equipment_rewards": [
+        "Vegeta's Shirt"
+      ]
     },
     {
       "id": "pq-080",
