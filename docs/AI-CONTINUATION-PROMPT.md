@@ -5859,3 +5859,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated `docs/data/pq-cross-domain-reconciliation.json` with the current 851-edge state and explicit unresolved boundaries.
 - [x] Preserved PQ48 Kamekameha/Kamehameha as an evidence conflict and Dual Masenko as a separate canonical skill-record restoration candidate; no unsupported PQ118 edge was added.
 - [ ] **Next:** advance the explicit canonical skill-record/acquisition-gap frontier, beginning with documented candidates such as Dual Masenko, then continue mechanics-field enrichment.
+
+
+### 2026-09-28 continuation — Restored skill acquisition evidence refresh
+- [x] Re-read the live continuation/TODO files and verified the Dual Masenko gap is already resolved; PQ118 remains intentionally unresolved.
+- [x] Reconciled the next restored-skill evidence frontier using the existing batches plus current Xenoverse 2-specific references.
+- [x] Confirmed **Energy Wave Combo** is a canonical Ki Blast Super with 100 Ki and a Skill Shop/default Future Warrior acquisition route. This resolves the earlier overly conservative acquisition-null boundary at the evidence level; it does **not** imply a PQ reward relationship.
+- [x] Confirmed Full Power Energy Wave's Skill Shop/story-gated acquisition remains supported while Ultimate-Finish requirement stays null because explicit evidence is absent.
+- [x] Recorded the refresh in `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`.
+- [ ] **Next:** safely propagate the Energy Wave Combo acquisition correction into canonical `docs/data/skills.json` and `docs/data/skills-index.json` without reconstructing unrelated large-file content, then continue the remaining acquisition/mechanics nulls.
