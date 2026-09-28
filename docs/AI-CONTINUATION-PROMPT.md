@@ -5519,3 +5519,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical JSON re-fetched and validated after mutation; the edited record and provenance sources resolve cleanly.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue equipment/build cross-domain relationships and additional non-duplicate observed QQ Bang vectors, while preserving unresolved inputs, RNG variance, and version boundaries.
+
+
+### 2026-09-28 continuation — QQ Bang observed-vector expansion
+- [x] Added `qq-observed-017`: distinct observed 6-star output **-1/+5/+5/+4/+3/+5** from Beerus Clothing Top + 4-Star Dragon Ball Clothing Top + Super Mix Capsule Z.
+- [x] Classified the record `verified_secondary`; no deterministic recipe guarantee was inferred.
+- [x] Added reverse equipment links on `equip-101` and `equip-108`, registered the observation in `docs/data/pq-cross-domain-index.json`, and refreshed the recovery checkpoint.
+- [x] Current QQ Bang research layer: **24 records / 17 observed vectors**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the QQ Bang/equipment build-navigation census, prioritizing genuinely new observed vectors and exact input identities rather than repeating existing observations.
