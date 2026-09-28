@@ -40,11 +40,11 @@
     "Patch-era and DLC-era provenance",
     "Dual Ultimate relationships where applicable"
   ],
-  "last_audited": "2026-09-27",
-  "latest_research_batch": 540,
+  "last_audited": "2026-09-28",
+  "latest_research_batch": 541,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Complete synchronization of prepared skill evidence, then resume unresolved mechanics/acquisition enrichment and PQ/skill/equipment cross-domain gaps.",
+  "current_research_focus": "Continue canonical acquisition/mechanics enrichment from the 497-record corpus. Batch 541 reduced the targeted acquisition-field gap set from 20 to 15; next prioritize the remaining canonical records with missing acquisition endpoints, while preserving cast-only/variant boundaries and evidence conflicts.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -201,5 +201,33 @@
     ],
     "canonical_records": 497,
     "index_records": 497
+  },
+  "acquisition_gap_census_2026_09_28": {
+    "canonical_records": 497,
+    "records_with_any_target_gap": 15,
+    "records_enriched_in_batch_541": 5,
+    "remaining": [
+      "Dual Masenko",
+      "Final Shine Attack",
+      "Full Power Energy Wave",
+      "Galaxy Breaker (Festival)",
+      "Holstein Shock",
+      "Ki Blast Cannon",
+      "Power Pole Combo",
+      "Recoome Eraser Gun",
+      "Shockwave",
+      "Sledgehammer",
+      "Super Dragon Fist",
+      "Super Galick Gun",
+      "Super Ki Explosion",
+      "Turn Retreat",
+      "Ultra Fighting Bomber"
+    ],
+    "target_fields": [
+      "acquisition_type",
+      "source_quest_or_shop",
+      "dlc_requirement"
+    ],
+    "rule": "Missing fields are treated as enrichment gaps, not evidence of missing identities; canonical skills.json remains authoritative."
   }
 }
