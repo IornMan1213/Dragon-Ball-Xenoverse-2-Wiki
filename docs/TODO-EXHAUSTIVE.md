@@ -4709,3 +4709,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the canonical-source rule: no skill was synthesized or promoted merely because it appears in preset/index/projection data.
 - [x] Added `docs/data/character-preset-skill-canonical-evidence-reconciliation-2026-09-27.json` documenting the evidence boundary and remaining unresolved names.
 - [ ] Continue direct-evidence research for the remaining unmatched preset skill names and promote only identities meeting the canonical evidence threshold.
+
+
+## 2026-09-27 continuation — unmatched preset skill research reconciliation
+
+- [x] Screened the **18 unique unmatched verified-preset skill names** against existing skill research batches and cast-only catalog evidence.
+- [x] Confirmed record-level research support for Sledgehammer, Energy Wave Combo, Full Power Energy Wave, Full Power Energy Blast Volley, Super Back Jump, Ki Blast Cannon, Super Dragon Fist, Holstein Shock, Break Strike, Consecutive Energy Blast, Backflip, and Turn Retreat.
+- [x] Confirmed dedicated identity evidence for Super Galick Gun and Recoome Eraser Gun, while retaining the requirement for a full canonical record-level reconciliation before promotion.
+- [x] Confirmed Galaxy Breaker (Festival) is explicitly treated as CaC-unavailable/cast-or-event-exclusive in existing research evidence; it must not be promoted as an ordinary CaC skill merely because a preset references it.
+- [x] Identified Shockwave as requiring record-level reconciliation because multiple research batches reference the name without this pass establishing one safe canonical identity.
+- [x] Confirmed no record-level research evidence was found for Super Ki Explosion or Ultra Fighting Bomber in the screened research-batch set; preset references alone are insufficient for canonical promotion.
+- [x] Expanded `docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json` with the evidence-screening results. No canonical skill records were synthesized or rewritten.
+- [ ] **Next:** reconcile the research-supported names against the canonical `skills.json` schema one record at a time, preserving null/conflict fields and the canonical-source rule; separately resolve Shockwave, Super Ki Explosion, and Ultra Fighting Bomber with stronger direct evidence.
