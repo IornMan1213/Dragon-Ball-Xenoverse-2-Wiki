@@ -2275,3 +2275,13 @@ Resolved four skill acquisition gates: **Counter Burst = false**, **Counter Impa
 
 ### 2026-09-19 skill acquisition update
 - **Ultrasonic Blitz**: `ultimate_finish_required=true`; dedicated acquisition evidence identifies it as a PQ151 Ultimate Finish reward.
+
+
+## 2026-09-28 — Canonical relationship metadata correction and consumer audit
+
+- Revalidated the canonical relationship source `docs/data/pq-reward-relationships.json`: **851 total edges** (248 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming).
+- Revalidated the repaired unified reverse equipment layer: **126 forward equipment edges / 126 reverse pairs / 0 missing / 0 reverse-only**.
+- Corrected stale current-state metadata in `docs/data/pq-cross-domain-status.json` and `docs/data/pq-cross-domain-audit.json`; the superseded **852/127** state remains only as dated provenance.
+- Reviewed the repository's direct cross-domain consumers/validators: `scripts/reconcile_pq_forward_reverse.py`, `scripts/validate_pq_skill_links.py`, `scripts/validate_pq_equipment_crosslinks.py`, `scripts/validate_pq_equipment_endpoint_coverage.py`, `scripts/audit_pq_equipment_endpoint_coverage.py`, and `scripts/audit_super_soul_consumer_coverage.py`. They reference the canonical relationship file rather than embedding the corrected aggregate as an independent source of truth.
+- Network-isolated local execution could not clone the public repository for a fresh runtime validation; repository-native JSON parsing and cross-domain metadata reconciliation were completed through the live repository API instead.
+- Historical 840-edge and superseded 852/127 values are retained for provenance and must not be treated as current counts.
