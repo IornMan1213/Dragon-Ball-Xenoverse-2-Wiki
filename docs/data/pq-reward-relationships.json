@@ -6298,6 +6298,14 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Explicit equipment acquisition source in the canonical equipment record; promoted as a reward relationship without asserting a guaranteed drop or exact rate."
+    },
+    {
+      "pq": "pq-048",
+      "relationship": "pq_rewards_skill",
+      "target": "Kamehameha",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "PQ48's maintained record layer and the all-PQ source list the basic reward as 'Kamekameha'. The canonical skill identity is 'Kamehameha'. This promotes the explicit documented reward while retaining the historical spelling variant rather than inventing a new skill identity."
     }
   ],
   "normalization_rules": [
@@ -6315,14 +6323,14 @@
   ],
   "current_counts": {
     "pq_rewards_equipment": 126,
-    "pq_rewards_skill": 248,
+    "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 851
+    "total": 852
   },
-  "last_reconciled_scope": "PQ 1-186; current canonical relationship reconciliation 2026-09-28; equipment reverse audit corrected stale metadata from 127 to 126",
+  "last_reconciled_scope": "2026-09-28 PQ48 Kamekameha/Kamehameha typed-skill reward reconciliation",
   "notes": [
     "2",
     "0",
@@ -7944,6 +7952,7 @@
     "d",
     ".",
     "2026-09-28 audit correction: PQ30/PQ35/PQ93 Super Soul relationships were already present in the canonical forward relationship layer; this audit confirmed parity with the Super Soul acquisition index and did not promote duplicate relationships.",
-    "2026-09-28 equipment reverse audit correction: verified_relationships contains 126 unique source-backed pq_rewards_equipment edges. The prior metadata value 127 was stale and has been corrected; no additional equipment edge is inferred from projection counts."
+    "2026-09-28 equipment reverse audit correction: verified_relationships contains 126 unique source-backed pq_rewards_equipment edges. The prior metadata value 127 was stale and has been corrected; no additional equipment edge is inferred from projection counts.",
+    "PQ48 Kamekameha spelling is retained as source evidence; canonical relationship target resolves to existing skill Kamehameha."
   ]
 }
