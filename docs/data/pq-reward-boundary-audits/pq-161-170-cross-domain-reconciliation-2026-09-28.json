@@ -1,0 +1,41 @@
+{
+  "batch_id": 572,
+  "date": "2026-09-28",
+  "scope": "PQ161-PQ170",
+  "audit_type": "cross_domain_reconciliation",
+  "source_layers": [
+    "docs/data/parallel-quest-research-batches/pq-batch-16.json",
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/equipment-record-layer.json",
+    "docs/data/equipment-accessories-record-layer.json"
+  ],
+  "summary": {
+    "records_audited": 10,
+    "research_to_maintained_reward_repairs": 10,
+    "skill_projection_repairs": 7,
+    "equipment_projection_repairs": 5,
+    "super_soul_projection_repairs": 5,
+    "accessory_link_repairs": 1,
+    "canonical_relationships_reviewed": 24,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false
+  },
+  "repairs": [
+    "PQ161 restored Apocalyptic Burst, Red Ribbon Soldier 94 Clothes (equip-055), and I'm a whole new me.",
+    "PQ162 restored Dr. Hedo Suit (equip-056), Gohan (Beast) Wig (equip-052), and Shenron really went the extra mile.",
+    "PQ163 restored Giant Cluster and Eraser Bomb.",
+    "PQ164 restored Gigantic Explosion and This place will be your grave! using the canonical relationship spelling.",
+    "PQ165 restored Variable Snipe Shot and Steel Mirage.",
+    "PQ166 restored Pendulum Bullet and Hope you're ready for a trip!",
+    "PQ167 restored Seagull Combination and Burning Swan.",
+    "PQ168 restored Justice Drive, I'm not about to let Pan see me lose!, and Videl (DB Super) Wig (acc-082) as an accessory endpoint.",
+    "PQ169 restored Orange Piccolo's Clothes (equip-071).",
+    "PQ170 restored Videl (DB Super)'s Clothes (equip-072)."
+  ],
+  "evidence_boundary": [
+    "Existing canonical relationship edges were projected into the maintained layer; canonical relationship data itself was not changed.",
+    "Accessory endpoints were kept distinct from equipment endpoints.",
+    "Reward listing does not assert guaranteed drops or exact rates beyond the dedicated research layer."
+  ]
+}
