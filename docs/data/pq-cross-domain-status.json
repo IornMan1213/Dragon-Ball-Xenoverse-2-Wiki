@@ -268,6 +268,10 @@
     {
       "date": "2026-09-28",
       "note": "Promoted five source-backed canonical accessory/PQ relationships; live canonical store is now 858 total edges with 132 equipment edges."
+    },
+    {
+      "date": "2026-09-28",
+      "note": "Promoted Android 13's Hat→PQ105 and Android 17 (DB Super) Wig→PQ152 as source-backed canonical equipment relationships; also reconciled stale candidate statuses where relationships already existed."
     }
   ]
 }
