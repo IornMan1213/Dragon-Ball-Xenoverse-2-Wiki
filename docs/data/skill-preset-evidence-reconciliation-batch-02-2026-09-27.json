@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "scope": "Second post-recovery evidence reconciliation batch for restored preset-skill identities.",
+  "canonical_source": "docs/data/skills.json",
+  "source_policy": "Canonical data remains authoritative. External/current research is recorded as evidence and is not treated as an automatic canonical overwrite.",
+  "records": [
+    {
+      "name": "Super Dragon Fist",
+      "skill_id": "skill-super-dragon-fist",
+      "expected_class": "Super",
+      "expected_subcategory": "Strike",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Fist",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ],
+      "supported_fields": {
+        "ki_cost": 100,
+        "unlock_method": "Skill Shop",
+        "usable_by_cac": true,
+        "character_source": "Goku and multiple Goku/Gohan/Vegito/Gogeta/Majuub variants",
+        "effect": "Long-range strike rush that connects into a rapid three-hit sequence."
+      },
+      "mechanics_boundary": "Current source describes a three-hit rush and 100 Ki cost. Exact damage percentage is not promoted as a canonical numeric mechanic without version-specific corroboration.",
+      "status": "evidence_sufficient_for_field_reconciliation"
+    },
+    {
+      "name": "Holstein Shock",
+      "skill_id": "skill-holstein-shock",
+      "expected_class": "Super",
+      "expected_subcategory": "Other",
+      "evidence": [
+        "https://dragonball.fandom.com/wiki/Self-Harm",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+        "https://dbxv2.fandom.com/wiki/Gotta_Find_That_Dragon_Ball!"
+      ],
+      "supported_fields": {
+        "usable_by_cac": true,
+        "character_source": "Captain Ginyu",
+        "unlock_method": "Parallel Quest 15 - Gotta Find That Dragon Ball!",
+        "mechanics": "Damages the user and instantly charges two bars of Ki in Xenoverse 2."
+      },
+      "mechanics_boundary": "The sources establish the self-damage/instant-two-bar-Ki behavior and PQ15 acquisition. Exact self-damage amount is not promoted.",
+      "status": "evidence_sufficient_for_field_reconciliation"
+    },
+    {
+      "name": "Backflip",
+      "skill_id": "skill-backflip",
+      "expected_class": "Evasive",
+      "expected_subcategory": "Other",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Backflip",
+        "https://dbxv2.fandom.com/wiki/Category:Other_Evasives"
+      ],
+      "supported_fields": {
+        "ki_cost": 0,
+        "stamina_cost": 0,
+        "unlock_method": "Ability/Skill Shop",
+        "usable_by_cac": true,
+        "effect": "Defensive backflip used to evade attacks; repeated input can extend the jump."
+      },
+      "mechanics_boundary": "Current source explicitly reports no Ki or Stamina expenditure. Shop naming differs between sources, so the canonical acquisition field should preserve the repository's normalized shop terminology rather than invent a currency.",
+      "status": "evidence_sufficient_for_field_reconciliation"
+    },
+    {
+      "name": "Turn Retreat",
+      "skill_id": "skill-turn-retreat",
+      "expected_class": "Evasive",
+      "expected_subcategory": "Strike",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Turn_Retreat",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Goku"
+      ],
+      "supported_fields": {
+        "stamina_cost": 300,
+        "unlock_method": "Skill Shop",
+        "usable_by_cac": true,
+        "effect": "Spins backward while allowing directional control; contact can deal a small hit and stun nearby opponents."
+      },
+      "mechanics_boundary": "The current source explicitly classifies it as a Strike Evasive and gives 300 Stamina. Exact damage/stun duration is retained as source-level context rather than promoted to a version-independent canonical numeric mechanic.",
+      "status": "evidence_sufficient_for_field_reconciliation"
+    }
+  ],
+  "preset_identity_check": {
+    "status": "all_four_identities_already_resolve_exactly_in_restored_preset_graph",
+    "note": "This batch strengthens record-level evidence; it does not synthesize duplicate skill IDs."
+  },
+  "recovery_note": "These four records are part of the post-corruption restored canonical identity frontier. Their evidence can now be reconciled without using verified projection layers as the source of truth.",
+  "next": "Continue direct evidence reconciliation for the remaining restored identities, with Super Ki Explosion and Ultra Fighting Bomber still blocked until direct skill-level evidence is found."
+}
