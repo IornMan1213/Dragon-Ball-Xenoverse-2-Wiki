@@ -24,16 +24,15 @@ PQ_RE = re.compile(r"^pq-(\d{3})$")
 
 
 def load(path: Path):
-    return json.loads(path.read_text(encoding="utf-8"))
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise SystemExit(f"{path}: invalid JSON: {exc}") from exc
 
 
 def main() -> int:
     data = load(SOURCE)
     schema = load(SCHEMA)
-    if not isinstance(data, dict):
-        raise SystemExit("PQ reward relationship root must be an object")
-    if not isinstance(schema, dict):
-        raise SystemExit("cross-domain schema root must be an object")
     if not isinstance(data, dict):
         raise SystemExit("PQ reward relationship root must be an object")
     if not isinstance(schema, dict):
@@ -98,11 +97,6 @@ def main() -> int:
         "pq_requires_dlc": "dlc",
         "pq_farming_route": "farming",
     }
-    if not isinstance(expected, dict) or set(expected) != set(expected_map.values()):
-        malformed.append((-1, "current_counts must contain exactly skill, super_soul, equipment, character, dlc, farming"))
-    elif any(not isinstance(expected[key], int) or isinstance(expected[key], bool) or expected[key] < 0 for key in expected_map.values()):
-        malformed.append((-1, "current_counts values must be non-negative integers"))
-
     if not isinstance(expected, dict) or set(expected) != set(expected_map.values()):
         malformed.append((-1, "current_counts must contain exactly skill, super_soul, equipment, character, dlc, farming"))
     elif any(not isinstance(expected[key], int) or isinstance(expected[key], bool) or expected[key] < 0 for key in expected_map.values()):
