@@ -4489,3 +4489,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Continue evidence-backed QQ Bang/equipment identity and provenance reconciliation.
 - [ ] Continue equipment/build and skill/PQ cross-navigation enrichment.
 
+
+
+## 2026-09-27 Final Recovery Reconciliation
+
+- [x] Reconciled the live main recovery state at commit `db6b7c96fef86ab0f690369a6f13f585491da7fb` before opening new enrichment work.
+- [x] Confirmed the recovered canonical baseline: 475 Skills, 475 skill-index records, 246 Skill→PQ edges, 170 represented PQs, 840 PQ cross-domain edges, 186 PQ records, 172 historical/167 active Super Souls, 112 equipment records, 33 mentors, 15 Awoken records, 23 QQ Bang records with 16 observed vectors, and 3 Partner Skill relationships.
+- [x] Added `docs/data/recovery-reconciliation-audit-2026-09-27-final.json` so future corruption recovery has a direct live-main checkpoint rather than relying on projections.
+- [x] Confirmed the explicit equipment→PQ reconciliation queue is closed: 48 unique forward endpoints and 48 matching reverse endpoints, with zero duplicate/asymmetric endpoints.
+- [x] Confirmed Skill Batch 527 is the current completed skill-evidence frontier in the recovered repository; no unsupported canonical rewrite was made from its duplicate-screening findings.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue evidence-backed QQ Bang/equipment provenance reconciliation, then equipment/build and skill/PQ cross-navigation. Preserve unresolved identities and historical conflicts instead of substituting near-name records.
