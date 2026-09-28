@@ -5007,3 +5007,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited equipment rewards against canonical equipment; no additional exact-name matches were found.
 - [x] Avoided speculative equipment identity/link creation.
 - [ ] Continue restoration through PQ101+ maintained batches.
+
+
+### 2026-09-27 continuation — QQ Bang component identity reconciliation after database recovery
+- [x] Verified the live canonical Parallel Quest record layer contains all **186 PQ records**; corrected the recovery checkpoint's stale parallel_quests.record_layer_records value from 10 to 186.
+- [x] Reconciled explicit QQ Bang clothing naming variants against canonical equipment without inferring stats or acquisition.
+- [x] Mapped **Bardock Battle Suit** in qq-research-002 to canonical **equip-024** (Battle Suit (Bardock)).
+- [x] Mapped explicit **Beerus Clothes (Upper Body)** / **Beerus clothing (upper body)** inputs to canonical **equip-101** (Beerus Top).
+- [x] Added canonical **equip-110** for the distinct **Beerus Clothes (Lower Body)** input explicitly documented by the Prima Games recipe table; stats/acquisition remain unresolved.
+- [x] Updated both directions of QQ Bang ↔ equipment navigation for the reconciled component identities.
+- [x] Added docs/data/qq-bang-equipment-component-reconciliation-2026-09-27.json documenting the evidence boundary and unresolved fields.
+- [x] Synchronized the recovery checkpoint to **110 equipment records / 23 QQ Bang records / 16 observed vectors / 186 PQ records**.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; preserve unresolved QQ Bang inputs where evidence does not establish canonical identity.
