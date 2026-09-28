@@ -5,8 +5,8 @@
   "canonical_source": "docs/data/skills.json",
   "forward_source": "docs/data/pq-reward-relationships.json",
   "reverse_projection": "docs/data/skill-pq-reverse-index-2026-09-26.json",
-  "canonical_skill_records": 493,
-  "skill_pq_edges": 248,
+  "canonical_skill_records": 497,
+  "skill_pq_edges": 249,
   "represented_pq_ids": 170,
   "additions": [
     {
@@ -25,8 +25,8 @@
     }
   ],
   "checks": {
-    "canonical_to_reverse": "248 explicit source_parallel_quests edges are represented in the reverse projection.",
-    "forward_to_canonical": "248 pq_rewards_skill relationships resolve to canonical skill identities.",
+    "canonical_to_reverse": "249 explicit source_parallel_quests edges are represented in the reverse projection.",
+    "forward_to_canonical": "249 pq_rewards_skill relationships resolve to canonical skill identities.",
     "pq15_reverse": [
       "skill-fighting-pose-d",
       "skill-holstein-shock"
@@ -43,5 +43,5 @@
     "Historical audit artifacts with stale 246-edge metadata were updated where they are current consumer reports; historical completed-work records were not deleted."
   ],
   "status": "reconciled_bidirectionally",
-  "next": "Continue auditing remaining recovered cross-domain endpoints and then expand evidence-backed PQ reward coverage beyond the currently represented 248 Skill→PQ relationships."
+  "next": "Continue auditing remaining recovered cross-domain endpoints and expand evidence-backed PQ reward coverage beyond the currently represented 249 Skill→PQ relationships; the canonical skill corpus is now 497 records."
 }
