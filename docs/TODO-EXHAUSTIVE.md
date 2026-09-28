@@ -4291,3 +4291,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Reconcile Dual Masenko DLC/acquisition metadata: removed unsupported `Free Update 4` DLC requirement; retain TP Medal Shop acquisition.
 - [x] 2026-09-27: Recheck PQ118 ↔ Dual Masenko conflict; preserve unresolved status because current repository/Steam reward evidence conflicts with a newer ambiguous web guide.
 - [ ] 2026-09-27: Continue exhaustive missing/under-enriched endpoint discovery; do not manufacture PQ118 relationship data.
+
+
+- [x] 2026-09-27: Expand QQ Bang canonical research layer from 3 to 4 structured records with an explicitly RNG-bounded 6-star Bardock + Beerus + Super Mix Capsule Z recipe-family record.
+- [ ] 2026-09-27: Add observed QQ Bang six-stat outputs with individual provenance; recipe families must not be treated as deterministic results.
+- [ ] 2026-09-27: Reconcile QQ Bang clothing-input records and acquisition endpoints after observed-result expansion.
