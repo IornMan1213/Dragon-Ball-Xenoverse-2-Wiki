@@ -5112,7 +5112,15 @@
         "Crimson Edge",
         "Divine Spear"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Crimson Edge",
+        "Divine Spear"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "accessory_links": [],
+      "equipment_links": []
     },
     {
       "id": "pq-172",
@@ -5136,7 +5144,15 @@
         "Big Bang Knuckle",
         "Wild Stinger"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Big Bang Knuckle",
+        "Wild Stinger"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "accessory_links": [],
+      "equipment_links": []
     },
     {
       "id": "pq-173",
@@ -5160,7 +5176,16 @@
         "Artwork 603",
         "Divine Ray Bomb"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Divine Ray Bomb"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "You will know the power of the gods!"
+      ],
+      "accessory_links": [],
+      "equipment_links": []
     },
     {
       "id": "pq-174",
@@ -5183,7 +5208,14 @@
         "Artwork 599",
         "Final Rampage"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Final Rampage"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "accessory_links": [],
+      "equipment_links": []
     },
     {
       "id": "pq-175",
@@ -5207,7 +5239,17 @@
         "God of Destruction's Plaything",
         "God of Destruction's Poise"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "God of Destruction's Plaything",
+        "God of Destruction's Poise"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "It's about time..."
+      ],
+      "accessory_links": [],
+      "equipment_links": []
     },
     {
       "id": "pq-176",
@@ -5228,7 +5270,26 @@
         "Artwork 614",
         "God of Destruction's Might"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "God of Destruction's Might"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-073",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [],
+      "accessory_links": [],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-073",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ]
     },
     {
       "id": "pq-177",
@@ -5252,7 +5313,18 @@
         "Dragon Spark",
         "Soaring Rush"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Full Power Destruction",
+        "Dragon Spark",
+        "Soaring Rush"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Strength is justice! Strength is absolute!"
+      ],
+      "accessory_links": [],
+      "equipment_links": []
     },
     {
       "id": "pq-178",
@@ -5273,7 +5345,28 @@
         "Artwork 625",
         "Burst Blitz"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Burst Blitz"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-074",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I'll take you all on at once!"
+      ],
+      "accessory_links": [],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-074",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ]
     },
     {
       "id": "pq-179",
@@ -5296,7 +5389,33 @@
         "Heat Wave",
         "Supreme Fury"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Heat Wave",
+        "Supreme Fury"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-075",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-083",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-075",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ]
     },
     {
       "id": "pq-180",
@@ -5320,7 +5439,35 @@
         "Force Edge",
         "Burning Blast"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Force Edge",
+        "Burning Blast"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-076",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Damn it all!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-084",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-076",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ]
     },
     {
       "id": "pq-181",
