@@ -5225,3 +5225,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/character-preset-skill-reverse-navigation-audit-2026-09-27.json` as the deterministic reverse-navigation audit.
 - [x] Did **not** fabricate skill-side preset-link arrays: the current canonical preset layer stores loadout skill names, so the audit records exact reverse endpoints without changing the schema.
 - [ ] **Next:** audit/synchronize the 493 canonical skills against the maintained skill-index/catalog layers and existing skill↔PQ relationships; repair only deterministic omissions or asymmetries while keeping canonical data authoritative.
+
+
+## 2026-09-27 continuation — canonical skill/PQ projection synchronization after preset reconciliation
+
+- [x] Audited the maintained skill↔PQ reverse-navigation artifacts after the canonical skill corpus reached **493** records.
+- [x] Regenerated `docs/data/skill-pq-reverse-index-2026-09-26.json` deterministically from authoritative `docs/data/skills.json`; the reverse projection now records **493 canonical skills**, **246 explicit skill→PQ edges**, and **170 represented PQ IDs**.
+- [x] Confirmed the 18 skills promoted during preset reconciliation do not add unsupported PQ edges; the **246-edge** relationship graph remains unchanged.
+- [x] Synchronized skill↔PQ audit metadata to the live **493-record** canonical corpus while preserving the existing **246-edge / 170-PQ** relationship contract.
+- [x] No projection/index layer was used as canonical truth; `docs/data/skills.json` remained authoritative.
+- [ ] **Next:** continue the cross-domain audit from the synchronized 493-record skill corpus, checking remaining skill indexes/catalogs and deterministic skill↔character/mentor/partner relationships for stale counts, missing reverse endpoints, or asymmetric records. Preserve unresolved and historical evidence boundaries.
