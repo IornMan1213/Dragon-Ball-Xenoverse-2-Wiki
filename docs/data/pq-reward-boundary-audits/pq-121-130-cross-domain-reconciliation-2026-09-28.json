@@ -3,7 +3,7 @@
   "date": "2026-09-28",
   "type": "pq-121-130-cross-domain-reconciliation",
   "scope": "PQ121-PQ130",
-  "status": "reconciled_maintained_projection",
+  "status": "reconciled_maintained_projection_live_state",
   "findings": {
     "records_audited": 10,
     "skill_reward_projections_reconciled": 9,
@@ -13,9 +13,26 @@
     "canonical_data_changed": false,
     "unsupported_relationships_invented": false,
     "notes": [
-      "PQ121 dedicated research has no typed skill reward but canonical provides Tuxedo, Wedding Dress, and a Super Soul; these were restored to the maintained projection.",
-      "PQ125 Goku Wig (Ultra Instinct) and PQ127 Janemba Head are canonical accessory endpoints, not equipment.",
-      "Research/maintained skill sets for PQ123-PQ130 already aligned; missing canonical-backed Super Soul/equipment projections were restored."
+      "Live-state reconciliation found two remaining maintained equipment projection omissions and restored them.",
+      "PQ125 Goku Wig (Ultra Instinct) remains an accessory endpoint acc-051, not a fabricated equipment ID.",
+      "PQ127 Janemba Head remains an accessory endpoint acc-052; Janemba Suit uses equipment endpoint equip-040.",
+      "Research and maintained skill/Super Soul projections align with the existing canonical relationship store across PQ121-PQ130.",
+      "No unsupported canonical relationship was added."
+    ],
+    "current_live_maintained_repairs": 2,
+    "repaired": [
+      {
+        "pq": 123,
+        "field": "equipment_rewards",
+        "equipment_id": "equip-039",
+        "target": "Arabian Costume"
+      },
+      {
+        "pq": 127,
+        "field": "equipment_rewards",
+        "equipment_id": "equip-040",
+        "target": "Janemba Suit"
+      }
     ]
   },
   "next": "PQ131-PQ140 recovery-forward reconciliation"
