@@ -5070,3 +5070,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved PQ48 Kamekameha/Kamehameha and PQ118/PQ121 third-party conflicts as unresolved rather than promoting unsupported edges.
 - [x] Commit: `c77fe56ddf3deb4e4cd7e1d066b8ed820f031bb1`.
 - [ ] **Exact next:** investigate the remaining 16 PQs at the non-skill typed-reward layer (Super Souls/equipment/accessories) for cross-domain completeness, while treating skill-endpoint absence as unresolved unless explicit skill-specific evidence appears.
+
+### 2026-09-28 continuation — 16-PQ typed-reward reconciliation
+- [x] Compared the 16 PQs without canonical skill endpoints against the normalized unified reverse reward index.
+- [x] Reconciled **32 canonical typed reward edges** against **33 normalized typed reward edges**; there are **0 canonical-only edges** and exactly **1 normalized-only edge: PQ48 → Kamehameha**.
+- [x] Confirmed PQ1 and PQ47 have no explicit skill/Super Soul/equipment relationship in the normalized evidence; no unsupported relationship was fabricated.
+- [x] Added `docs/data/pq-unrepresented-typed-reward-reconciliation-2026-09-28.json`.
+- [x] Preserved the known PQ48 Kamekameha/Kamehameha conflict for separate direct-evidence resolution.
+- [x] Commit: `d218f3d890bdd8dd51b4f482ad732448c5a03d7f`.
+- [ ] **Exact next:** resolve the PQ48 Kamekameha evidence boundary if direct item-level evidence supports it; otherwise move to the next independent cross-domain coverage gap rather than repeatedly auditing the already-reconciled 16 PQs.
