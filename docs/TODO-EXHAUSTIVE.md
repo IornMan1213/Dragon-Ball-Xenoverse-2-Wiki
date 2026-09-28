@@ -4552,3 +4552,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Result: **0 invalid accessory IDs, 0 missing PQ endpoints, and 0 asymmetric forward/reverse accessory↔PQ relationships**.
 - [x] Confirmed the graph remains symmetric after the historical-conflict and component-unresolved passes; unresolved relationships are represented with explicit relationship types rather than broken endpoints.
 - [ ] **Next:** move beyond the clean accessory↔PQ graph into equipment/build cross-navigation and provenance enrichment, prioritizing exact canonical identities and bidirectional endpoints.
+
+
+## 2026-09-27 continuation — QQ Bang/equipment reverse-link integrity
+
+- [x] Audited all 39 QQ Bang→equipment component edges against the 112-record canonical equipment layer.
+- [x] Found and repaired the final asymmetric endpoint: `qq-observed-prima-012` → `equip-112` (Broly's Clothes) lacked the equipment-side reverse link.
+- [x] Added the exact `recipe_input` reverse relationship to canonical `equip-112`; no recipe output or stat guarantee was inferred.
+- [x] Post-fix graph status: all QQ Bang equipment endpoints resolve to canonical equipment IDs and the newly audited edge is now bidirectional.
+- [ ] **Next:** continue systematic equipment/build cross-navigation audits, including other recipe/component domains and provenance fields, while preserving exact-identity and RNG boundaries.
