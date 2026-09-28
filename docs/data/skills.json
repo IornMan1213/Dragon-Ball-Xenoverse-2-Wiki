@@ -6185,23 +6185,28 @@
     },
     {
       "name": "Full Power Energy Blast Volley",
-      "class": "Super",
+      "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
+      "verification_status": "verified_current_scope",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Blast_Volley"
+        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Blast_Volley",
+        "https://dragonball.fandom.com/wiki/Full_Power_Energy_Blast_Volley",
+        "docs/data/skill-research-batches/skill-batch-310.json"
       ],
       "stamina_cost": 0,
-      "unlock_method": "Nappa Training Lesson 4",
-      "last_verified": "2026-09-27",
-      "research_status": "catalog_gap_promoted",
+      "unlock_method": "Starting move for all types",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
       "usable_by_cac": true,
-      "character_source": "Nappa",
+      "character_source": "Broad roster; Future Warrior default Ultimate",
       "ultimate_finish_required": false,
-      "ki_cost": 100,
+      "ki_cost": 300,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Large volley of Ki blasts that rains down in front of the user.",
-      "id": "skill-full-power-energy-blast-volley"
+      "mechanics_notes": "Current Xenoverse 2-specific evidence identifies this as a common Ki Blast Ultimate and the Future Warrior's default starting Ultimate. The source describes a long-duration cone barrage whose projectiles track when used after knockback. Exact damage figures are retained only as source-reported measurements, not promoted as patch-independent canonical values.",
+      "id": "skill-full-power-energy-blast-volley",
+      "dlc_requirement": null,
+      "source_quest_or_shop": null,
+      "effect": "Fires a sustained barrage of Ki blasts; projectiles can track after knockback."
     },
     {
       "name": "Full Power Energy Wave",
