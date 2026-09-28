@@ -8,5 +8,12 @@
     "Core canonical skill schema assertions were replaced with explicit failures for normal and python -O execution.",
     "Checked-in skill→PQ reverse artifact now reports malformed JSON deterministically before projection."
   ],
-  "canonical_data_changed": false
+  "canonical_data_changed": false,
+  "followup_2026_09_28": {
+    "status": "completed",
+    "finding": "A remaining bare assert still guarded duplicate source_parallel_quests validation despite the earlier hardening pass.",
+    "correction": "Replaced the remaining assert with an explicit SystemExit failure so duplicate-edge validation remains active under python -O.",
+    "commit": "cacc41309c2eb5428a2f222ddae9db84e698f55a"
+  }
 }
+
