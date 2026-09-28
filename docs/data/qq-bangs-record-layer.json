@@ -23,7 +23,8 @@
     "build_tags",
     "verification_status",
     "last_verified",
-    "sources"
+    "sources",
+    "related_pq_links"
   ],
   "records": [
     {
@@ -150,7 +151,20 @@
           "interpretation": "This is a separately sold support pack distribution path, not evidence that the items became ordinary shop inventory or that Tour drop behavior changed.",
           "source": "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/"
         }
-      }
+      },
+      "related_pq_links": [
+        {
+          "pq_id": "pq-083",
+          "relationship": "community_farming_route",
+          "mode": "Online Parallel Quest Tour",
+          "evidence_note": "Multiple community reports identify PQ 83 as a fast Super Mix Capsule Z farming route in the Parallel Quest Tour. This does not establish a guaranteed per-run drop or a current exact drop rate.",
+          "sources": [
+            "https://reddit.com/r/dbxv/comments/17q7j3d",
+            "https://steamcommunity.com/app/454650/discussions/0/4369130369051210735/",
+            "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78940745"
+          ]
+        }
+      ]
     },
     {
       "id": "qq-recipe-001",
