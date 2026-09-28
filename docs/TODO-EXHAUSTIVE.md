@@ -4990,3 +4990,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Repair committed at `8c4ed790997b251cccf2f0cff6fde227bdaf83c3`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the stale-validator/schema audit, then resume canonical PQ reward and QQ Bang/equipment coverage expansion.
+
+### 2026-09-28 continuation — Super Soul acquisition validator recovery hardening
+- [x] Audited the recovered Super Soul PQ acquisition layer against its validator and found stale pre-recovery fixed counts: 137 relationships / 134 unique targets / 134 indexed targets.
+- [x] Live canonical data now contains 135 `pq_rewards_super_soul` relationships, 133 unique targets, 133 indexed targets, 172 Super Soul endpoint records, and 850 total PQ cross-domain relationship rows.
+- [x] Removed the obsolete frozen-count assertions from `scripts/validate_super_soul_pq_acquisition_recovery.py`; the validator now validates identity/parity between the canonical forward relationships, Super Soul records, and acquisition index instead of rejecting the recovered corpus for historical counts.
+- [x] Commit: `5d9cbd9ce63e40f07a3200d07286088c8f6f09da`.
+- [x] Confirmed the 4 partner customization relationships are still the current stored set; no change was made because that is a small domain-specific relationship layer, not evidence of corruption.
+- [ ] **Exact next:** continue auditing remaining validators for frozen recovery-era assumptions, then expand canonical PQ/QQ Bang/equipment coverage.
