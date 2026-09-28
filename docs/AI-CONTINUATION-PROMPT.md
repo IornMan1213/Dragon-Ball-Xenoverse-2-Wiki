@@ -6173,3 +6173,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated this continuation handoff and the exhaustive TODO with the same current baseline.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue substantive evidence-backed enrichment from the repaired 497-skill / 852-edge / PQ1-186 baseline, prioritizing remaining canonical skill mechanics/acquisition gaps and then PQ↔skill/Super Soul/equipment navigation gaps. Do not recreate recovered records or use verified/index/projection layers as canonical source of truth.
+
+
+### 2026-09-28 continuation — PQ51 equipment identity promotion
+- [x] Freshly checked the remaining accessory/PQ bridge gaps against the canonical accessory layer rather than treating the old bridge as authoritative.
+- [x] Promoted the explicit **Great Saiyaman Helmet ↔ PQ51** identity into the canonical PQ reward relationship store as a `source_backed` equipment relationship.
+- [x] Linked bridge record `pqacc-020` to canonical accessory `acc-005` and reduced the unresolved accessory/PQ bridge set by one.
+- [x] Preserved the evidence boundary: the relationship records the named PQ association only; it does not claim a guaranteed drop condition or probability.
+- [x] Current canonical PQ relationship store is now **853 edges**: 249 Skill, 135 Super Soul, 127 Equipment, 247 Character, 88 DLC, 7 Farming.
+- [x] Updated `docs/data/current-live-recovery-baseline-2026-09-28.json` to the new 853-edge live baseline.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining explicit accessory/PQ identity gaps, then return to larger mechanics/acquisition and bidirectional cross-domain enrichment; do not promote unresolved component identities or historical conflicts without new evidence.
