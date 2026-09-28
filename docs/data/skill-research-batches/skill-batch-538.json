@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 538,
+  "date": "2026-09-28",
+  "status": "complete",
+  "scope": "Synchronize four completed current-evidence audits into the authoritative canonical skill corpus after post-corruption recovery.",
+  "records": [
+    {
+      "name": "Headshot",
+      "canonical_id": "skill-headshot",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope"
+    },
+    {
+      "name": "Arm Crash",
+      "canonical_id": "skill-arm-crash",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope"
+    },
+    {
+      "name": "God Breaker",
+      "canonical_id": "skill-god-breaker",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope"
+    },
+    {
+      "name": "Phantom Fist",
+      "canonical_id": "skill-phantom-fist",
+      "last_verified": "2026-09-28",
+      "research_status": "enriched",
+      "verification_status": "verified_current_scope"
+    }
+  ],
+  "evidence_boundary": [
+    "Only mechanics and acquisition facts already present in dedicated completed audits were synchronized.",
+    "Source-reported damage/Stamina values remain bounded evidence, not universal balance constants.",
+    "Exact frame data, hidden interactions, scaling formulas, and reward probabilities remain unresolved unless directly established.",
+    "No new skill identity or PQ reward relationship was inferred."
+  ]
+}
