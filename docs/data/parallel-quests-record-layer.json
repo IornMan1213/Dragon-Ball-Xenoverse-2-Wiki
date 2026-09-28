@@ -5493,7 +5493,36 @@
         "Super Kamehameha (SS4 DAIMA)",
         "Final Flash (SS3 DAIMA)"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Super Kamehameha (SS4 DAIMA)",
+        "Final Flash (SS3 DAIMA)"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-077",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "equipment_id": "equip-078",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-085",
+          "relationship": "reward",
+          "evidence_note": "Documented PQ reward/accessory endpoint; exact drop mechanics remain unresolved."
+        },
+        {
+          "accessory_id": "acc-086",
+          "relationship": "reward",
+          "evidence_note": "Documented PQ reward/accessory endpoint; exact drop mechanics remain unresolved."
+        }
+      ]
     },
     {
       "id": "pq-182",
@@ -5515,7 +5544,27 @@
         "Artwork 772",
         "Dark Inscription"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Dark Inscription"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-079",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Rejoice! A new ruler is born!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-058",
+          "relationship": "reward",
+          "evidence_note": "Documented PQ reward/accessory endpoint; exact drop mechanics remain unresolved."
+        }
+      ]
     },
     {
       "id": "pq-183",
@@ -5538,7 +5587,27 @@
         "Artwork 771",
         "Emperor's Cannon"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Emperor's Cannon"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "acc-087",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "AAAAAAAAAGH!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-088",
+          "relationship": "reward",
+          "evidence_note": "Documented PQ reward/accessory endpoint; exact drop mechanics remain unresolved."
+        }
+      ]
     },
     {
       "id": "pq-184",
@@ -5561,7 +5630,21 @@
         "Artwork 758",
         "Chaotic Time Impact"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Chaotic Time Impact"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Send me back to the planet I came from!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-059",
+          "relationship": "reward",
+          "evidence_note": "Documented PQ reward/accessory endpoint; exact drop mechanics remain unresolved."
+        }
+      ]
     },
     {
       "id": "pq-185",
@@ -5585,7 +5668,29 @@
         "Dragon Spiral",
         "Indomitable"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Dragon Spiral",
+        "Indomitable"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-080",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "This power... It's different from any I've ever had.",
+        "Malice... Existence... Cruelty..."
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-060",
+          "relationship": "reward",
+          "evidence_note": "Documented PQ reward/accessory endpoint; exact drop mechanics remain unresolved."
+        }
+      ]
     },
     {
       "id": "pq-186",
@@ -5608,7 +5713,32 @@
         "Artwork 866",
         "Venus Fist"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Venus Fist"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-081",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "equipment_id": "equip-082",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "equipment_id": "equip-083",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "The final battle begins now.",
+        "I'll use this power to protect everyone!"
+      ],
+      "accessory_links": []
     },
     {
       "id": "pq-001",
