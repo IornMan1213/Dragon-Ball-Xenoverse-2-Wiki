@@ -40,13 +40,13 @@
       "research_id": "pqacc-012",
       "name": "Jaco's State-of-the-Art Radio",
       "pq": 72,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-013",
       "name": "Tagoma's Scouter",
       "pq": 73,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-014",
@@ -58,7 +58,7 @@
       "research_id": "pqacc-016",
       "name": "Yamcha Baseball Hat",
       "pq": 97,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-017",
@@ -88,13 +88,13 @@
       "research_id": "pqacc-023",
       "name": "Android 14's Hat",
       "pq": 104,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-025",
       "name": "Bardock (DB Super)'s Scouter",
       "pq": 146,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-030",
@@ -151,5 +151,7 @@
     "No canonical endpoint is created merely because a PQ research record exists.",
     "Canonical PQ→equipment relationships remain authoritative; this queue is an enrichment aid only."
   ],
-  "status": "ready_for_identity_reconciliation"
+  "status": "partial_promotion_completed",
+  "last_promotion_date": "2026-09-28",
+  "promoted_count": 5
 }
