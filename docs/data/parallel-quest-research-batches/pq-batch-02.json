@@ -175,9 +175,26 @@
         "Zeni",
         "Capsule/item rewards"
       ],
-      "skill_rewards": [],
-      "skill_drop_conditions": [],
-      "verification_status": "verified_objectives_partial_rewards",
+      "skill_rewards": [
+        "Holstein Shock",
+        "Spinning Blade",
+        "Fighting Pose D"
+      ],
+      "skill_drop_conditions": [
+        {
+          "skill": "Holstein Shock",
+          "condition": "Reward explicitly listed in the independent PQ15 reward transcription; exact current drop slot semantics remain unresolved."
+        },
+        {
+          "skill": "Spinning Blade",
+          "condition": "Reward explicitly listed in the independent PQ15 reward transcription; current repository research preserves a conflicting TP Medal Shop acquisition source."
+        },
+        {
+          "skill": "Fighting Pose D",
+          "condition": "Reward explicitly listed in the independent PQ15 reward transcription; exact current drop slot semantics remain unresolved."
+        }
+      ],
+      "verification_status": "verified_objectives_and_skill_rewards_with_acquisition_conflict_preserved",
       "last_verified": "2026-09-19",
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
