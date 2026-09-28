@@ -5268,3 +5268,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/skill-catalog-audit.json` with the deterministic coverage census, indexed-only universe, and next review priorities.
 - [x] Preserved the canonical-source rule: indexed catalogs and Unavailable-for-CaC data remain supporting evidence/coverage projections and do not override `docs/data/skills.json`.
 - [ ] **Next:** reconcile the 28 Unavailable-for-CaC overlaps and duplicate/variant families from direct record-level evidence, then work through the remaining indexed-only names in evidence-backed batches.
+
+
+## 2026-09-27 continuation — unmatched preset skill evidence reconciliation
+
+- [x] Researched all **18 unique unmatched preset skill names** from the verified-preset identity gap against repository skill-research/catalog evidence.
+- [x] Confirmed existing research evidence for **16 of 18** names; the remaining **Super Ki Explosion** and **Ultra Fighting Bomber** have no matching repository skill-research batch and require direct evidence research before any canonical mutation.
+- [x] Identified **Galaxy Breaker (Festival)** as explicitly non-CaC in the current research/catalog evidence; it is retained outside the CaC canonical skill scope rather than promoted from preset data.
+- [x] Flagged **Shockwave**, **Super Dragon Fist**, **Consecutive Energy Blast**, **Backflip**, **Turn Retreat**, and **Recoome Eraser Gun** for record-level identity/dedup/schema review before promotion; no unsupported canonical records were synthesized.
+- [x] Updated `docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json` with per-name research paths and conservative promotion decisions.
+- [ ] **Next:** perform record-level reconciliation for the evidence-backed candidates against the live canonical `skills.json` schema, promoting only identities supported by direct evidence and preserving cast-only/historical/ambiguous cases outside canonical CaC scope.
