@@ -6074,3 +6074,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 532 and reconcile safe field-level improvements.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 533
+- [x] Continued with four stale PQ86-PQ90 cohort records: **Neo Wolf Fang Fist, Buu Buu Ball, Victory Rush, and III Bomber**.
+- [x] Preserved supported class, costs, restrictions, acquisition, character source, and bounded mechanics; the III Bomber/Ill Bomber naming discrepancy remains provenance rather than a duplicate identity.
+- [x] Added `docs/data/skill-research-batches/skill-batch-533.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 533 and reconcile safe field-level improvements.
