@@ -1,0 +1,73 @@
+{
+  "batch": 547,
+  "date": "2026-09-28",
+  "status": "complete",
+  "research_scope": "Restriction evidence audit for six canonical DLC-era PQ skills with null race_restriction: Reverse Shot, Variant Drive, Revenge Final Flash, Blaster Ball, Ray Blast, Gigantic Breaker.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Reverse Shot",
+      "pq": 123,
+      "classification": "Ki Blast Super",
+      "notable_users": "Super Baby 2",
+      "race_restriction_finding": "No direct race-specific CaC restriction was established by the reviewed current skill pages; retain canonical null rather than infer from the NPC/partner user list.",
+      "evidence": "Current Xenoverse 2 skill reference page confirms identity, classification, PQ endpoint, and notable user(s). The reviewed pages do not state a CaC race restriction."
+    },
+    {
+      "name": "Variant Drive",
+      "pq": 123,
+      "classification": "Strike Super",
+      "notable_users": "Super Baby 2; Jiren - Customize Partner",
+      "race_restriction_finding": "No direct race-specific CaC restriction was established by the reviewed current skill pages; retain canonical null rather than infer from the NPC/partner user list.",
+      "evidence": "Current Xenoverse 2 skill reference page confirms identity, classification, PQ endpoint, and notable user(s). The reviewed pages do not state a CaC race restriction."
+    },
+    {
+      "name": "Revenge Final Flash",
+      "pq": 124,
+      "classification": "Ki Blast Super",
+      "notable_users": "Super Baby 2",
+      "race_restriction_finding": "No direct race-specific CaC restriction was established by the reviewed current skill pages; retain canonical null rather than infer from the NPC/partner user list.",
+      "evidence": "Current Xenoverse 2 skill reference page confirms identity, classification, PQ endpoint, and notable user(s). The reviewed pages do not state a CaC race restriction."
+    },
+    {
+      "name": "Blaster Ball",
+      "pq": 125,
+      "classification": "Ki Blast Super",
+      "notable_users": "Kefla (Super Saiyan)",
+      "race_restriction_finding": "No direct race-specific CaC restriction was established by the reviewed current skill pages; retain canonical null rather than infer from the NPC/partner user list.",
+      "evidence": "Current Xenoverse 2 skill reference page confirms identity, classification, PQ endpoint, and notable user(s). The reviewed pages do not state a CaC race restriction."
+    },
+    {
+      "name": "Ray Blast",
+      "pq": 125,
+      "classification": "Ki Blast Super",
+      "notable_users": "Kefla (Super Saiyan); Caulifla (Super Saiyan 2)",
+      "race_restriction_finding": "No direct race-specific CaC restriction was established by the reviewed current skill pages; retain canonical null rather than infer from the NPC/partner user list.",
+      "evidence": "Current Xenoverse 2 skill reference page confirms identity, classification, PQ endpoint, and notable user(s). The reviewed pages do not state a CaC race restriction."
+    },
+    {
+      "name": "Gigantic Breaker",
+      "pq": 126,
+      "classification": "Ki Blast Super",
+      "notable_users": "Kefla (Super Saiyan)",
+      "race_restriction_finding": "No direct race-specific CaC restriction was established by the reviewed current skill pages; retain canonical null rather than infer from the NPC/partner user list.",
+      "evidence": "Current Xenoverse 2 skill reference page confirms identity, classification, PQ endpoint, and notable user(s). The reviewed pages do not state a CaC race restriction."
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Reverse_Shot",
+    "https://dbxv2.fandom.com/wiki/Variant_Drive",
+    "https://dbxv2.fandom.com/wiki/Revenge_Final_Flash",
+    "https://dbxv2.fandom.com/wiki/Blaster_Ball",
+    "https://dbxv2.fandom.com/wiki/Ray_Blast",
+    "https://dbxv2.fandom.com/wiki/Gigantic_Breaker"
+  ],
+  "validation": {
+    "canonical_records": 497,
+    "records_reviewed": 6,
+    "records_promoted": 0,
+    "race_restriction_nulls_preserved": 6,
+    "unsupported_inferences": 0
+  },
+  "next": "Continue the remaining restriction-gap census in small evidence-backed batches; promote only when direct CaC/race evidence exists. Separately audit version/patch provenance for skills with documented update-sensitive mechanics."
+}
