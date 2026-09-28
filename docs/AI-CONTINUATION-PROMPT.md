@@ -4789,3 +4789,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/qq-bang-system-baseline.json` with the current evidence boundary and research update.
 - [x] Updated `docs/data/qq-bangs-record-layer.json` with a dated provenance note without inventing additional QQ Bang records or exact guaranteed recipes.
 - [ ] Next: expand QQ Bang records from the source/recipe universe into individual observed six-stat vectors with clothing inputs, mixing item, star rating, acquisition route, and provenance. Preserve RNG uncertainty and do not promote community recipe claims as guaranteed outputs.
+
+
+### 2026-09-27 continuation — QQ Bang acquisition/provenance enrichment
+- [x] Reviewed the live QQ Bang coverage gap and current canonical QQ Bang research layer instead of manufacturing exact six-stat vectors.
+- [x] Enriched `docs/data/qq-bangs-record-layer.json` record `qq-mix-001` with current secondary evidence for Super Mix Capsule Z acquisition through Online Parallel Quest/Expert Mission Tours and documented synthesis from Super Mix Capsule + Demon Realm Crystal.
+- [x] Refreshed the observed Bardock + Beerus + Super Mix Capsule Z recipe-family provenance while preserving RNG/output uncertainty.
+- [x] Updated `docs/data/qq-bang-system-baseline.json` with the same acquisition provenance and an explicit next step: promote individually observed six-stat vectors only when exact inputs, catalyst, star rating, output, and provenance are available.
+- [x] No guaranteed recipe result or unsupported drop percentage was added. Current evidence supports acquisition-family provenance, not exact item-table rates.
+- [ ] Next QQ Bang frontier: identify individually observed six-stat vectors or direct game-data reward/item records, then expand the record layer substantially without treating community recipe distributions as guarantees.
