@@ -80,7 +80,7 @@
         "6-star QQ Bang research"
       ],
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "sources": [
         "https://www.youtube.com/watch?v=XBy_oawrYnk",
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/mq9pnz/how_to_make_qq_bangs/",
@@ -89,7 +89,9 @@
         "https://www.youtube.com/watch?v=dZE9_VysgAw",
         "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
         "https://www.reddit.com/r/xenoverse2/comments/1uqw7h9/",
-        "https://www.youtube.com/watch?v=1bVCmKQdtxA"
+        "https://www.youtube.com/watch?v=1bVCmKQdtxA",
+        "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2/answers/608964-best-qq-bang-and-how-to-make-it-plz-answer",
+        "https://steamcommunity.com/app/454650/discussions/0/3076495389984558741"
       ],
       "material_provenance": {
         "primary_item": "Super Mix Capsule Z",
@@ -139,7 +141,7 @@
             "source": "https://steamcommunity.com/app/454650/discussions/0/3803903461254245268/"
           }
         ],
-        "version_boundary": "Evidence now spans 2020-2026, including a 2025 official platform store listing and 2026 community reports. The evidence supports continued availability of both Tour acquisition and the Super Mix Capsule + Demon Realm Crystal synthesis route. The 2025 support pack is recorded separately as paid DLC distribution and does not establish a change to base-game drop tables. Exact drop percentages remain unresolved.",
+        "version_boundary": "Evidence now spans 2020-2026, including current-2026 community reports and a 2025 official platform-store support-pack distribution. The evidence supports Tour acquisition and the Super Mix Capsule + Demon Realm Crystal synthesis route; the support pack is a separate distribution path. Exact drop percentages, patch-specific reward-table changes, and guaranteed six-stat outputs remain unresolved.",
         "current_official_distribution": {
           "product": "Time Patrol Support Pack",
           "platform_evidence": "Nintendo Switch store listing",
@@ -896,7 +898,7 @@
       ]
     }
   ],
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "research_notes": [
     {
       "date": "2026-09-27",
@@ -994,12 +996,20 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74429476",
         "docs/data/parallel-quests-record-layer.json"
       ]
+    },
+    {
+      "date": "2026-09-28",
+      "note": "Refreshed Super Mix Capsule Z provenance against current evidence: a current GameFAQs answer documents six-star QQ Bang use and the Super Mix Capsule + Demon Realm Crystal synthesis route, while a Steam report documents acquisition through new multiplayer missions and the same synthesis route. These sources strengthen route provenance but do not establish exact current drop rates or deterministic QQ Bang outputs.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2/answers/608964-best-qq-bang-and-how-to-make-it-plz-answer",
+        "https://steamcommunity.com/app/454650/discussions/0/3076495389984558741"
+      ]
     }
   ],
   "research_frontier": {
-    "last_cycle": "2026-09-27",
+    "last_cycle": "2026-09-28",
     "promoted_observed_vectors": 16,
     "total_records": 23,
-    "next_target": "version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; remaining unresolved QQ Bang inputs stay explicitly unresolved where evidence is incomplete"
+    "next_target": "equipment/build cross-domain relationships and additional non-duplicate observed QQ Bang vectors; preserve unresolved inputs, RNG variance, and version boundaries"
   }
 }
