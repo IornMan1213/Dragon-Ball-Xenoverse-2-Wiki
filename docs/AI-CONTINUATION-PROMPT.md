@@ -5047,3 +5047,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Corrected `qq-observed-prima-012` so its `Broly Clothes` input points to `equip-112` instead of the unsafe near-name `equip-041`.
 - [x] 2026-09-27: Preserved historical six-stat evidence and acquisition routes without asserting exact component drop conditions.
 - [ ] 2026-09-27: Continue auditing generic/set/component QQ Bang inputs, with Beerus Clothes as the next identity boundary to reconcile.
+
+- [x] 2026-09-27: Audited the `Beerus Clothes`/`Beerus Top` boundary. External recipe evidence explicitly uses Beerus top wording, while the equipment layer also contains a distinct Beerus lower-body record; generic QQ Bang inputs were retained on `equip-101` with an evidence note preventing inference that the lower-body component was used.
+- [x] 2026-09-27: Preserved generic historical wording rather than fabricating a new full-set identity or silently conflating components.
+- [ ] 2026-09-27: Continue exact QQ Bang clothing identity audit for remaining generic/set/component names.
