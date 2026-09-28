@@ -1,0 +1,96 @@
+{
+  "batch_id": 569,
+  "date": "2026-09-28",
+  "type": "pq-131-140-cross-domain-reconciliation",
+  "scope": "PQ131-PQ140",
+  "status": "reconciled_maintained_projection_live_state",
+  "findings": {
+    "records_audited": 10,
+    "skill_reward_projections_reconciled": 10,
+    "equipment_reward_projections_restored": 5,
+    "super_soul_reward_projections_restored": 8,
+    "accessory_links_restored": 5,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false,
+    "notes": [
+      "Live-state reconciliation found missing maintained skill, equipment, Super Soul, and accessory projections and restored only existing source-backed canonical relationships.",
+      "PQ134 Burst Charge and Ultimate Charge were restored to maintained skill_rewards.",
+      "Broly Wig (Legendary Super Saiyan), Kakunsa's Wig and Mask, Kakunsa's Tail, Rozie's Hood and Goggles, and Universe 7 Baseball Cap remain accessory endpoints rather than fabricated equipment IDs.",
+      "SSGSS Gogeta's Clothes, Kakunsa's Clothes, Rozie's Clothes, Android 21's Lab Uniform, and Universe 7 Baseball Uniform use canonical equipment endpoints.",
+      "No unsupported canonical relationship was added; exact reward/drop mechanics remain unresolved where the source layer does not establish them."
+    ],
+    "repaired": [
+      {
+        "pq": 131,
+        "field": "equipment_rewards",
+        "equipment_id": "equip-042",
+        "target": "SSGSS Gogeta's Clothes"
+      },
+      {
+        "pq": 132,
+        "field": "accessory_links",
+        "accessory_id": "acc-072",
+        "target": "Broly Wig (Legendary Super Saiyan)"
+      },
+      {
+        "pq": 133,
+        "field": "equipment_rewards",
+        "equipment_id": "equip-043",
+        "target": "Kakunsa's Clothes"
+      },
+      {
+        "pq": 133,
+        "field": "accessory_links",
+        "accessory_id": "acc-074",
+        "target": "Kakunsa's Tail"
+      },
+      {
+        "pq": 133,
+        "field": "accessory_links",
+        "accessory_id": "acc-073",
+        "target": "Kakunsa's Wig and Mask"
+      },
+      {
+        "pq": 135,
+        "field": "equipment_rewards",
+        "equipment_id": "equip-044",
+        "target": "Rozie's Clothes"
+      },
+      {
+        "pq": 135,
+        "field": "accessory_links",
+        "accessory_id": "acc-075",
+        "target": "Rozie's Hood and Goggles"
+      },
+      {
+        "pq": 139,
+        "field": "equipment_rewards",
+        "equipment_id": "equip-045",
+        "target": "Android 21's Lab Uniform"
+      },
+      {
+        "pq": 139,
+        "field": "equipment_rewards",
+        "equipment_id": "equip-046",
+        "target": "Universe 7 Baseball Uniform"
+      },
+      {
+        "pq": 139,
+        "field": "accessory_links",
+        "accessory_id": "acc-076",
+        "target": "Universe 7 Baseball Cap"
+      },
+      {
+        "pq": 134,
+        "field": "skill_rewards",
+        "target": "Burst Charge"
+      },
+      {
+        "pq": 134,
+        "field": "skill_rewards",
+        "target": "Ultimate Charge"
+      }
+    ]
+  },
+  "next": "PQ141-PQ150 numbering-gap audit; do not fabricate records; then PQ151-PQ160 recovery-forward reconciliation"
+}
