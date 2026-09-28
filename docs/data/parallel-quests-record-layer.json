@@ -2517,7 +2517,18 @@
         "Champa's Clothes",
         "Breaker Energy Wave"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Breaker Energy Wave"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-089",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": []
     },
     {
       "id": "pq-102",
@@ -2538,7 +2549,19 @@
         "Don't quit! Get up!",
         "Battle Suit (Cabba)"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-090",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Don't quit! Get up!",
+        "I'll make you regret that!"
+      ]
     },
     {
       "id": "pq-103",
@@ -2558,7 +2581,14 @@
         "I've been saving this! Kaioken!",
         "Now you understand. Surrender."
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "I've been saving this! Kaioken!",
+        "Now you understand. Surrender.",
+        "This is not a weapon."
+      ]
     },
     {
       "id": "pq-104",
@@ -2586,6 +2616,20 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
         }
+      ],
+      "skill_rewards": [
+        "Destruction's Concerto: Comet",
+        "Destruction's Concerto: Starfall"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-091",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "How Dare You...! That's My Bulma"
       ]
     },
     {
@@ -2616,6 +2660,29 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "skill_rewards": [
+        "Sonic Bomb",
+        "God of Destruction's Menace",
+        "God of Destruction's Roar"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-049",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Buu Don't Wanna!",
+        "Me...Protecting Some Pipsqueak"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "accr-027",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ; exact reward/drop condition remains separately unresolved."
+        }
       ]
     },
     {
@@ -2639,7 +2706,24 @@
         "Requiem of Destruction",
         "Destruction's Conductor"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Destruction's Concerto: Meteor",
+        "Requiem of Destruction",
+        "Destruction's Conductor"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-092",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Eehee hee hee heee!",
+        "Watch Your Tongue",
+        "You're Just Pieces in a Game"
+      ]
     },
     {
       "id": "pq-107",
@@ -2658,7 +2742,18 @@
         "Future Mai's Hat",
         "You can't win..."
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-093",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "You can't win..."
+      ]
     },
     {
       "id": "pq-108",
@@ -2677,7 +2772,19 @@
         "Now, give your father a message for me.",
         "Eehee hee hee heee!"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-094",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Eehee hee hee heee!",
+        "Now, give your father a message for me."
+      ]
     },
     {
       "id": "pq-109",
@@ -2698,7 +2805,21 @@
         "I like you better when you're mad!",
         "Super Black Kamehameha Rosé"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Super Black Kamehameha Rosé"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-050",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I like you better when you're mad!",
+        "I really do love being immortal."
+      ]
     },
     {
       "id": "pq-110",
@@ -2725,6 +2846,27 @@
           "equipment_id": "equip-050",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
+        }
+      ],
+      "skill_rewards": [
+        "Divinity Unleashed"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-095",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I shall show you my great godly might!",
+        "This fight is only just beginning!"
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "accr-018",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ; exact reward/drop condition remains separately unresolved."
         }
       ]
     },
