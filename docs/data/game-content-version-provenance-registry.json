@@ -136,6 +136,14 @@
       "date": "2025-05-23",
       "url": "https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
       "scope": "Official release announcement explicitly separates DAIMA Pack content from Free Update 20 and lists four Festival skills (武道祭スキル×4種) in the free update."
+    },
+    {
+      "id": "official_update20_budokai_skills",
+      "publisher": "Bandai Namco Entertainment",
+      "title": "Free Update 20 — Universe's Strongest Budokai content",
+      "date": "2025-05-21",
+      "url": "https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
+      "scope": "Official Bandai Namco press release identifies four 'Budokai Festival' skills as part of Free Update 20, but the text does not name the four skills."
     }
   ],
   "events": [
@@ -216,7 +224,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Research the 4th Festival of Universes reward schedule to identify the four Free Update 20 Festival skills by name, then reconcile each name to canonical skill IDs; separately continue Chapter 4 named-move evidence.",
+  "next_step": "Recover and name the four Free Update 20 Budokai Festival skills from authoritative visual/video or reliable catalog evidence; then reconcile each against canonical skills.json before assigning event provenance.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -562,6 +570,15 @@
         "official_daima_pack_2025"
       ],
       "resolution": "Treat the four-skill event scope as authoritative provenance, but do not manufacture three missing canonical skill IDs. Research the fourth Festival event reward schedule and canonical catalog to identify all four named skills."
+    },
+    {
+      "id": "free-update-20-four-budokai-skill-names",
+      "status": "open",
+      "claim": "Official Free Update 20 documentation establishes exactly four Budokai Festival skills, but the accessible text does not provide their names. The canonical skills dataset currently contains only one record explicitly labeled Festival of Universes (Galaxy Breaker (Festival)), so adding four named mappings would risk fabricating identities.",
+      "source_ids": [
+        "official_update20_budokai_skills"
+      ],
+      "action": "Recover the four names from authoritative screenshots/video or a reliable independent catalog, then match each to canonical IDs before assigning provenance."
     }
   ]
 }
