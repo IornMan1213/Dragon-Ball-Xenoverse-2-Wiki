@@ -5944,3 +5944,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Synchronized the skill catalog and PQ cross-domain indexes.
 - [x] Preserved existing individual-skill evidence tiers; no unsupported primary attribution, fabricated ID, or version history was added.
 - [ ] **Next:** advance to the next unresolved provenance or cross-domain enrichment frontier rather than repeatedly searching the same source text.
+
+
+### 2026-09-28 continuation — PQ15 skill-reward reconciliation batch 557
+- [x] Reconciled PQ15 (Gotta Find That Dragon Ball!) against independent reward transcriptions.
+- [x] Confirmed Holstein Shock, Spinning Blade, and Fighting Pose D are explicitly listed as PQ15 rewards.
+- [x] Updated `docs/data/parallel-quest-research-batches/pq-batch-02.json` so its PQ15 research record no longer incorrectly reports an empty skill-reward list.
+- [x] Preserved the existing Spinning Blade acquisition conflict rather than selecting a source without sufficient reconciliation.
+- [x] Added `docs/data/pq-reward-boundary-audits/pq-15-skill-reward-reconciliation-2026-09-28.json` and indexed it in the PQ cross-domain index.
+- [x] Did not invent a canonical Spinning Blade relationship because the name is indexed in a category catalog but is not currently present in authoritative `docs/data/skills.json`.
+- [ ] Next: resolve the canonical Spinning Blade identity if direct canonical evidence becomes available; otherwise continue the next PQ cross-domain boundary.
