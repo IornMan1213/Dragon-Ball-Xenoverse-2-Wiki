@@ -4429,6 +4429,652 @@
         "Venus Fist"
       ],
       "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-001",
+      "number": 1,
+      "name": "Being a Time Patroller",
+      "difficulty": 1,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Finish Elder Kai's Trial",
+        "Defeat the Saibamen",
+        "Defeat Yamcha and Tien"
+      ],
+      "ultimate_finish": "Complete all listed win conditions; the source presents the three conditions as the complete objective sequence.",
+      "enemies": [],
+      "rewards": [
+        "120 Zeni",
+        "Energy Capsule S"
+      ],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-002",
+      "number": 2,
+      "name": "A Deal?! The Saiyan Brothers",
+      "difficulty": 1,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat all enemies",
+        "Defeat Raditz last",
+        "Defeat Gohan (Kid)"
+      ],
+      "ultimate_finish": "Defeat Raditz last and then defeat Kid Gohan after satisfying the base objective sequence.",
+      "enemies": [],
+      "rewards": [
+        "140 Zeni",
+        "Power Capsule S",
+        "Flying Nimbus!!",
+        "Goku's Damaged Turtle Hermit Gi",
+        "Spirit Slash"
+      ],
+      "skill_rewards": [
+        "Spirit Slash"
+      ],
+      "equipment_rewards": [
+        "Goku's Damaged Turtle Hermit Gi"
+      ],
+      "super_soul_rewards": [
+        "Flying Nimbus!!"
+      ],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-003",
+      "number": 3,
+      "name": "World Tournament Tag Team",
+      "difficulty": 1,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat Yamcha, Krillin, and Tien",
+        "Clear in under 5 minutes",
+        "Defeat Piccolo and Gohan"
+      ],
+      "ultimate_finish": "Clear in under 5 minutes and defeat Piccolo and Gohan after the initial World Tournament team.",
+      "enemies": [],
+      "rewards": [
+        "200 Zeni",
+        "Demon Clothes (Piccolo, with Cape)",
+        "Piccolo's Turban",
+        "Solar Flare"
+      ],
+      "skill_rewards": [
+        "Solar Flare"
+      ],
+      "equipment_rewards": [
+        "Demon Clothes (Piccolo, with Cape)",
+        "Piccolo's Turban"
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-005",
+      "number": 5,
+      "name": "Saiyan Blood",
+      "difficulty": 1,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat Piccolo/Goku",
+        "Clear with Raditz's health over 50%",
+        "Defeat Gohan and revived Goku"
+      ],
+      "ultimate_finish": "Keep Raditz above 50% health and then defeat Gohan and revived Goku.",
+      "enemies": [],
+      "rewards": [
+        "270 Zeni",
+        "Four-Star Dragon Ball Hat",
+        "Energy Capsule S",
+        "Your death is imminent!",
+        "Kamehameha"
+      ],
+      "skill_rewards": [
+        "Kamehameha"
+      ],
+      "equipment_rewards": [
+        "Four-Star Dragon Ball Hat"
+      ],
+      "super_soul_rewards": [
+        "Your death is imminent!"
+      ],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-006",
+      "number": 6,
+      "name": "Saibamen's Revenge",
+      "difficulty": 1,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 5 minutes",
+        "Defeat Nappa and the Saibamen"
+      ],
+      "ultimate_finish": "Clear in under 5 minutes and defeat Nappa and the Saibamen after the initial enemy wave.",
+      "enemies": [],
+      "rewards": [
+        "300 Zeni",
+        "You cocky little...!",
+        "Meteor Strike"
+      ],
+      "skill_rewards": [
+        "Meteor Strike"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "You cocky little...!"
+      ],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-007",
+      "number": 7,
+      "name": "Attack of the Saiyans",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat Raditz, Nappa, and Vegeta",
+        "Beat all Saibamen",
+        "Defeat all revived Saiyans"
+      ],
+      "ultimate_finish": "Defeat the Saiyans, eliminate all Saibamen, and defeat all revived Saiyans.",
+      "enemies": [],
+      "rewards": [
+        "350 Zeni",
+        "Gyau!!!!",
+        "Shine Shot"
+      ],
+      "skill_rewards": [
+        "Shine Shot"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Gyau!!!!"
+      ],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-008",
+      "number": 8,
+      "name": "Invade Earth",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat Goku",
+        "Clear with Nappa surviving",
+        "Defeat revived Goku"
+      ],
+      "ultimate_finish": "Keep Nappa alive through the Goku encounter and defeat revived Goku.",
+      "enemies": [],
+      "rewards": [
+        "400 Zeni",
+        "Energy Capsule S",
+        "Goku's Turtle Hermit Gi (King Kai)",
+        "Kaioken"
+      ],
+      "skill_rewards": [
+        "Kaioken"
+      ],
+      "equipment_rewards": [
+        "Goku's Turtle Hermit Gi (King Kai)"
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-009",
+      "number": 9,
+      "name": "The Saiyan King is...Who?",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat Nappa",
+        "Clear with Vegeta's health over 50%",
+        "Defeat Great Ape Nappa"
+      ],
+      "ultimate_finish": "Keep Vegeta above 50% health and defeat Great Ape Nappa after the initial Nappa encounter.",
+      "enemies": [],
+      "rewards": [
+        "410 Zeni",
+        "Chiaotzu's Hat (With Collar)",
+        "Meteor Blow"
+      ],
+      "skill_rewards": [
+        "Meteor Blow"
+      ],
+      "equipment_rewards": [
+        "Chiaotzu's Hat (With Collar)"
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-010",
+      "number": 10,
+      "name": "Saiyan Survivors",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Complete the tutorial mission.",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 5 minutes",
+        "Defeat Piccolo and Gohan"
+      ],
+      "ultimate_finish": "Clear in under 5 minutes and defeat Piccolo and Gohan after the initial enemy sequence.",
+      "enemies": [],
+      "rewards": [
+        "420 Zeni",
+        "Wall of Defense",
+        "Unrelenting Barrage"
+      ],
+      "skill_rewards": [
+        "Wall of Defense",
+        "Unrelenting Barrage"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-011",
+      "number": 11,
+      "name": "Burst Open and Mix!",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Clear PQ 10",
+      "objectives": [
+        "Defeat Great Ape Vegeta",
+        "Clear within 10 minutes",
+        "Defeat the Time Patroller in training who appears"
+      ],
+      "ultimate_finish": "Defeat Great Ape Vegeta within 10 minutes, then defeat the training Time Patroller.",
+      "enemies": [],
+      "rewards": [
+        "430 Zeni",
+        "Mr. Antidote S",
+        "Energy Capsule/Mix Capsule pool",
+        "Earth Splitting Galick Gun"
+      ],
+      "skill_rewards": [
+        "Earth Splitting Galick Gun"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_and_reward_semantics",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-012",
+      "number": 12,
+      "name": "Simian Battlefront",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Opens with its early PQ board group; the maintained final quest data associates its board group with PQ93. It is available alongside the early-teens PQs.",
+      "objectives": [
+        "Defeat all initial enemies",
+        "Defeat Great Ape Vegeta last",
+        "Reduce Turles' health to 50%",
+        "Defeat the resulting Ultimate Finish enemies"
+      ],
+      "ultimate_finish": "Defeat Great Ape Vegeta last and reduce Turles to 50%, causing the additional phase.",
+      "enemies": [],
+      "rewards": [
+        "Zeni",
+        "Item/capsule rewards"
+      ],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_partial_rewards",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-013",
+      "number": 13,
+      "name": "Namekian Dragon Balls",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Clear PQ 12 (\"Simian Battlefront\").",
+      "objectives": [
+        "Defeat Guldo",
+        "Recover 7 Dragon Balls"
+      ],
+      "ultimate_finish": "Defeat Guldo as required and recover all 7 Dragon Balls.",
+      "enemies": [],
+      "rewards": [
+        "Zeni",
+        "Capsule/item rewards"
+      ],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": true,
+      "verification_status": "verified_objectives_partial_rewards",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-014",
+      "number": 14,
+      "name": "Saiyan Pride",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Opens with its early PQ board group; the maintained final quest data associates its board group with PQ81. It is available alongside the other early-teens PQs.",
+      "objectives": [
+        "Defeat the initial enemies",
+        "Keep Vegeta above 50% health",
+        "Defeat revived Goku and Gohan"
+      ],
+      "ultimate_finish": "Keep Vegeta above 50% health and defeat revived Goku and Gohan.",
+      "enemies": [],
+      "rewards": [
+        "Zeni",
+        "Capsule/item rewards"
+      ],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_partial_rewards",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-015",
+      "number": 15,
+      "name": "Gotta Find That Dragon Ball!",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Opens with its board group; the maintained final quest data associates its board group with PQ95. It is available alongside the mid-teens PQs.",
+      "objectives": [
+        "Defeat all enemies",
+        "Recover 7 Dragon Balls"
+      ],
+      "ultimate_finish": "Clear the enemy objective and recover all 7 Dragon Balls.",
+      "enemies": [],
+      "rewards": [
+        "Zeni",
+        "Capsule/item rewards"
+      ],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": true,
+      "verification_status": "verified_objectives_partial_rewards",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-016",
+      "number": 16,
+      "name": "Defeat Frieza's Army!",
+      "difficulty": 2,
+      "dlc_requirement": null,
+      "unlock_method": "Clear PQ 15 (\"Gotta Find That Dragon Ball!\").",
+      "objectives": [
+        "Defeat the required Frieza Force enemies",
+        "Clear within 10 minutes",
+        "Defeat Ginyu, Burter, and Jeice"
+      ],
+      "ultimate_finish": "Clear within 10 minutes and defeat Ginyu, Burter, and Jeice in the additional phase.",
+      "enemies": [],
+      "rewards": [
+        "Zeni",
+        "Capsule/item rewards"
+      ],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_partial_rewards",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-017",
+      "number": 17,
+      "name": "Ginyu and The Fruit",
+      "difficulty": 3,
+      "dlc_requirement": null,
+      "unlock_method": "Opens with its board group; the maintained final quest data associates its board group with PQ96. It is available alongside the late-teens PQs.",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear within 10 minutes",
+        "Defeat Vegeta and Turles"
+      ],
+      "ultimate_finish": "Clear within 10 minutes, then defeat Vegeta and Turles.",
+      "enemies": [],
+      "rewards": [
+        "Zeni",
+        "Capsule/item rewards"
+      ],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_partial_rewards",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-018",
+      "number": 18,
+      "name": "Force Entrance Exam",
+      "difficulty": 3,
+      "dlc_requirement": null,
+      "unlock_method": "Clear PQ 17 (\"Ginyu and the Fruit\").",
+      "objectives": [
+        "Defeat Burter, Jeice, and Recoome",
+        "Keep Guldo above 50% health",
+        "Defeat Ginyu, revived Jeice, and revived Recoome"
+      ],
+      "ultimate_finish": "Keep Guldo above 50% health, defeat the initial Ginyu Force members, then defeat Ginyu and the revived members.",
+      "enemies": [],
+      "rewards": [
+        "660 Zeni",
+        "Small Mix Capsule",
+        "Time Control",
+        "Mach Dash"
+      ],
+      "skill_rewards": [
+        "Time Control",
+        "Mach Dash"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-019",
+      "number": 19,
+      "name": "Fierce Battle! Ginyu Force",
+      "difficulty": 3,
+      "dlc_requirement": null,
+      "unlock_method": "Clear PQ 18 (\"Force Entrance Exam\").",
+      "objectives": [
+        "Defeat all Ginyu Force members",
+        "Clear within 5 minutes",
+        "Defeat Frieza and revived Ginyu"
+      ],
+      "ultimate_finish": "Clear within 5 minutes, then defeat Frieza and revived Ginyu.",
+      "enemies": [],
+      "rewards": [
+        "770 Zeni",
+        "Mach Punch",
+        "Fighting Pose E"
+      ],
+      "skill_rewards": [
+        "Mach Punch",
+        "Fighting Pose E"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+    },
+    {
+      "id": "pq-020",
+      "number": 20,
+      "name": "Frieza! Show Yourself",
+      "difficulty": 3,
+      "dlc_requirement": null,
+      "unlock_method": "Opens with its board group; the maintained final quest data associates its board group with PQ97. It is available alongside the other late-teens PQs.",
+      "objectives": [
+        "Defeat 20 of Frieza's underlings",
+        "Clear with at least 10 minutes remaining",
+        "Defeat Frieza"
+      ],
+      "ultimate_finish": "Defeat 20 underlings, retain at least 10 minutes, then defeat Frieza in the additional phase.",
+      "enemies": [],
+      "rewards": [
+        "780 Zeni",
+        "Energy Shard",
+        "Small Mix Capsule",
+        "Mystic Flash"
+      ],
+      "skill_rewards": [
+        "Mystic Flash"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "verified_objectives_and_basic_rewards_partial_drop_semantics",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-11.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
+      ],
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
     }
   ],
   "record_fields": []
