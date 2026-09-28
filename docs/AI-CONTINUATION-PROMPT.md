@@ -6553,3 +6553,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 
 
 2026-09-28: PQ23-PQ26 reward reconciliation batch 559 completed. Corrected research-layer omissions for Death Slash (PQ23), Double Death Slicer (PQ24), Spirit Explosion (PQ25), and Crazy Finger Shot (PQ26). Canonical reward relationships already existed; no duplicate edges or unsupported canonical mutations were made. Exact drop-slot/probability semantics remain unresolved. Added and indexed dedicated audit. Next: continue the same concrete PQ reward-boundary audit into PQ28+.
+
+
+### 2026-09-28 continuation — PQ41-PQ50 recovery-forward reconciliation + index repair
+- [x] Audited the recovered PQ41-PQ50 research records against the canonical PQ→skill relationship layer and existing reverse/research evidence.
+- [x] Confirmed all 9 documented skill-reward records in PQ41-PQ50 have corresponding canonical skill relationships; PQ47 remains an intentional no-skill row in the maintained reward evidence rather than a missing relationship claim.
+- [x] Preserved known identity boundaries: PQ48's maintained spelling "Kamekameha" resolves to canonical **Kamehameha**; PQ46's "Chain Destructo-disc Barrage" resolves to canonical **Chain Destructo-Disc Barrage**; PQ49's prior Do or Die Super Soul→skill correction remains intact.
+- [x] Added docs/data/pq-reward-boundary-audits/pq-41-50-cross-domain-reconciliation-2026-09-28.json (batch 560).
+- [x] Repaired a malformed docs/data/pq-cross-domain-index.json caused by a missing comma between the batch-547 and batch-549 entries, then indexed the new PQ41-PQ50 audit; the index now parses as valid JSON.
+- [x] Refreshed docs/data/pq-cross-domain-audit.json with the PQ41-PQ50 reconciliation and current canonical relationship recount: **862 edges** = 249 skills, 135 Super Souls, 136 equipment, 247 characters, 88 DLC, 7 farming.
+- [x] No canonical reward relationships were invented or removed; canonical source-of-truth policy remains unchanged.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the recovery-forward PQ cross-domain audit from **PQ51 onward**, prioritizing concrete reward-list/relationship contradictions and malformed consumer artifacts; do not create redundant audits where layers already agree.
