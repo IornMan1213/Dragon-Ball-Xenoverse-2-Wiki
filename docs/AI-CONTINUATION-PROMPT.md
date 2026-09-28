@@ -4924,3 +4924,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed no additional direct equipment↔PQ links can be safely promoted without reconciling the broader PQ datasets into the sparse canonical layer.
 - [x] Avoided speculative PQ stub creation.
 - [ ] Next: reconcile broader maintained PQ datasets with the sparse canonical PQ record layer, then promote additional equipment↔PQ links where supported.
+
+### 2026-09-27 continuation — PQ 134 equipment promotion
+- [x] Promoted the directly source-backed `pq-134` ↔ `equip-041` relationship for Broly (Full Power Super Saiyan)'s Clothes into both canonical directions.
+- [x] Preserved acquisition-source semantics; no unsupported drop-rate or guarantee claim was added.
+- [ ] Next: continue broader PQ-batch reconciliation; PQ 29 / Android 18's Clothes is an identified candidate once PQ 29 can be safely promoted into the sparse canonical layer.
