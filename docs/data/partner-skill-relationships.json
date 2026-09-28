@@ -46,10 +46,10 @@
       "partner_name": "Future Trunks (Time Patrol)",
       "relationship": "custom_partner_availability",
       "evidence": [
-        "https://dragonball.fandom.com/wiki/Dual_Masenko",
-        "https://dbxv2.fandom.com/wiki/Dual_Masenko"
+        "docs/data/dual-masenko-canonical-gap-audit-2026-09-27.json",
+        "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
       ],
-      "evidence_note": "Current Xenoverse 2 references identify Dual Masenko as available in Future Trunks (Time Patrol)'s Customize Partner skillset after purchasing the skill in Partner Customization."
+      "evidence_note": "Current repository evidence records Dual Masenko as a canonical Xenoverse 2 Super Skill and documents Future Trunks (Time Patrol) Customize Partner availability."
     }
   ],
   "excluded_candidates": [],
