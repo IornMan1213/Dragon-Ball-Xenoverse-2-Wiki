@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-26",
+  "audit_date": "2026-09-27",
   "purpose": "Canonical relationship layer for Partner Customization skill availability. This layer supplements, but does not duplicate, the canonical Future Warrior/CaC skill corpus.",
   "source_skill_corpus": "docs/data/skills.json",
   "relationship_type": "partner_customization",
@@ -39,15 +39,20 @@
         "docs/data/skill-research-batches/skill-batch-481.json"
       ],
       "evidence_note": "Current Xenoverse 2 evidence explicitly identifies Majin Buu (Gohan Absorbed) as using Reverse Mabakusenko via Partner Customization."
-    }
-  ],
-  "excluded_candidates": [
+    },
     {
+      "skill_id": "skill-dual-masenko",
       "skill_name": "Dual Masenko",
-      "reason": "The current corpus has no canonical skill-dual-masenko record; partner/custom availability alone is not sufficient to create a duplicate or new canonical record.",
-      "evidence": "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json"
+      "partner_name": "Future Trunks (Time Patrol)",
+      "relationship": "custom_partner_availability",
+      "evidence": [
+        "https://dragonball.fandom.com/wiki/Dual_Masenko",
+        "https://dbxv2.fandom.com/wiki/Dual_Masenko"
+      ],
+      "evidence_note": "Current Xenoverse 2 references identify Dual Masenko as available in Future Trunks (Time Patrol)'s Customize Partner skillset after purchasing the skill in Partner Customization."
     }
   ],
+  "excluded_candidates": [],
   "notes": [
     "Phantom Fist was investigated on 2026-09-26: current Batch 473/audit evidence names Hit, Mira, Frost and Fu as users/skillset contexts, but does not identify a concrete Partner Customization assignment. No partner relationship is recorded."
   ]
