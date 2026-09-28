@@ -5319,3 +5319,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled **Galaxy Breaker (Festival)** against `skill-batch-264`: Festival of Universes provenance, Max Camaraderie with Vegeta unlock, 200 Ki, zero Stamina, Vegeta source, 13-hit purple Ki-pillar behavior, and explicit non-CaC boundary confirmed.
 - [x] Canonical coverage remains **493** records; these three records remain `partially_verified` pending broader record-level review rather than being incorrectly promoted to fully verified status.
 - [ ] **Next:** continue the same evidence-first reconciliation across the remaining newly represented preset skills, prioritizing records with dedicated research batches and leaving unsupported acquisition/mechanics fields null.
+
+
+### 2026-09-27 continuation — post-corruption live-state reconciliation and first evidence batch
+- [x] Re-read the live recovery checkpoint and canonical state after the recent corruption/recovery cycle. The surviving canonical skill baseline was 474; subsequent restoration of 18 verified-preset skill identities brought the live canonical corpus to **493** records, with the deterministic skills index also at **493**.
+- [x] Created `docs/data/post-recovery-live-state-reconciliation-2026-09-27.json` to reconcile live counts, preserve the evidence boundary, and identify stale recovery metadata without rebuilding canonical data from projections.
+- [x] Reconciled `docs/data/canonical-database-recovery-checkpoint-2026-09-27.json` to the live 493-record skill state and current canonical blob SHA; no canonical skill records were synthesized from indexes or verified layers.
+- [x] Reconciled the historical Dual Masenko gap audit so its historical 474-record state is retained while the current state correctly records the restored canonical identity inside the 493-record corpus. PQ118 remains unresolved and no unsupported Skill→PQ edge was added.
+- [x] Performed the first post-recovery evidence reconciliation batch for **Full Power Energy Blast Volley, Super Back Jump, Ki Blast Cannon, Break Strike, and Consecutive Energy Blast** using their direct repository research batches. Acquisition conflicts and unresolved mechanics remain explicitly bounded.
+- [x] Created `docs/data/skill-preset-evidence-reconciliation-batch-01-2026-09-27.json` as the auditable field-level evidence record. The five identities already resolve exactly through the restored preset graph; this pass does not claim additional identity promotion.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** reconcile **Super Dragon Fist, Holstein Shock, Backflip, Turn Retreat**, then the remaining promoted records with direct research evidence. Keep **Super Ki Explosion** and **Ultra Fighting Bomber** blocked until direct evidence is found. After the skill frontier is reconciled, resume QQ Bang/equipment and skill/PQ cross-domain enrichment.
