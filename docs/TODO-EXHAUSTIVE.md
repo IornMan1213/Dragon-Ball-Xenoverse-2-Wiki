@@ -4699,3 +4699,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Flagged **Shockwave**, **Super Dragon Fist**, **Consecutive Energy Blast**, **Backflip**, **Turn Retreat**, and **Recoome Eraser Gun** for record-level identity/dedup/schema review before promotion; no unsupported canonical records were synthesized.
 - [x] Updated `docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json` with per-name research paths and conservative promotion decisions.
 - [ ] **Next:** perform record-level reconciliation for the evidence-backed candidates against the live canonical `skills.json` schema, promoting only identities supported by direct evidence and preserving cast-only/historical/ambiguous cases outside canonical CaC scope.
+
+## 2026-09-27 continuation — unmatched preset skill evidence reconciliation
+
+- [x] Researched the 18 unmatched verified-preset skill names against repository canonical-adjacent evidence.
+- [x] Confirmed **Sledgehammer** has a dedicated evidence-backed research record establishing Xenoverse 2 identity, Strike Super classification, 100 Ki, CaC usability, Skill Shop acquisition, and version-sensitive charge mechanics; it is now a promotion candidate.
+- [x] Confirmed **Energy Wave Combo** has catalog evidence for identity/class/100 Ki/CaC usability, but acquisition remains unresolved and the available evidence is category-level; no canonical promotion was made.
+- [x] Confirmed **Galaxy Breaker (Festival)** is explicitly represented in the unavailable-CaC/catalog research layer; it remains a cast/festival-boundary candidate rather than being promoted from preset data.
+- [x] Preserved the canonical-source rule: no skill was synthesized or promoted merely because it appears in preset/index/projection data.
+- [x] Added `docs/data/character-preset-skill-canonical-evidence-reconciliation-2026-09-27.json` documenting the evidence boundary and remaining unresolved names.
+- [ ] Continue direct-evidence research for the remaining unmatched preset skill names and promote only identities meeting the canonical evidence threshold.
