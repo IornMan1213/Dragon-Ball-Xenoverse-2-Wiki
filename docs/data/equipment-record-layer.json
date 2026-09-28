@@ -238,6 +238,13 @@
           "input": "Android 18 Skirt",
           "relationship": "QQ Bang clothing input"
         }
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-029",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names Parallel Quest 29; broader PQ batch explicitly lists this equipment as a reward. Exact drop mechanics remain separately unresolved."
+        }
       ]
     },
     {
