@@ -1061,6 +1061,13 @@
           "input": "Broly Clothes",
           "relationship": "QQ Bang clothing input"
         }
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-134",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical PQ batch evidence explicitly lists Broly (Full Power Super Saiyan)'s Clothes as an equipment reward for PQ 134; added bidirectional link without asserting drop guarantee/rate."
+        }
       ]
     },
     {
