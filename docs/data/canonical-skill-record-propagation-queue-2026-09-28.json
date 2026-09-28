@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-28",
+  "purpose": "Non-destructive queue for canonical skill.json/index mutations that cannot safely be performed until complete large-file content is retrievable.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "skill": "Energy Wave Combo",
+      "skill_id": "skill-energy-wave-combo",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "usable_by_cac": true,
+        "unlock_method": "Skill Shop / default Future Warrior Super Skill",
+        "source_quest_or_shop": "Skill Shop",
+        "ultimate_finish_required": null
+      },
+      "evidence": [
+        "docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json",
+        "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+        "https://videogaming.fandom.com/wiki/Energy_Wave_Combo_%28Dragon_Ball%3A_Xenoverse_2%29"
+      ],
+      "required_targets": [
+        "docs/data/skills.json",
+        "docs/data/skills-index.json"
+      ],
+      "action": "Replace only the stale acquisition-null fields for the existing skill-energy-wave-combo identity; preserve all unrelated canonical fields and historical provenance.",
+      "pq_rule": "Do not create or alter PQ relationships from this acquisition evidence.",
+      "status": "queued_safe_edit_pending"
+    }
+  ],
+  "boundaries": [
+    "Canonical skills.json remains authoritative.",
+    "Do not reconstruct a large canonical file from truncated API output.",
+    "Index is a synchronized consumer, not source of truth.",
+    "Do not infer acquisition from preset membership when direct acquisition evidence is unavailable."
+  ],
+  "next": "Use a safe whole-blob or repository-tree edit path to apply the queued patch, then validate skills.json and skills-index.json identity/count parity."
+}
