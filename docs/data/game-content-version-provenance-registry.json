@@ -1,0 +1,156 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Authoritative-source-backed game-content provenance registry foundation. This layer separates release/update evidence from research timestamps and does not rewrite canonical skill records unless an individual skill is directly tied to the cited release evidence.",
+  "rules": [
+    "A research date is not a game-version date.",
+    "A DLC/update announcement establishes content availability/provenance, not balance changes unless the source explicitly documents a change.",
+    "A skill is not assigned to a release event merely because its DLC label resembles the event; direct content linkage is required.",
+    "Conflicting historical evidence remains preserved."
+  ],
+  "sources": [
+    {
+      "id": "bn_xv2_official_site_2026",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "DRAGON BALL XENOVERSE 2 official website / DLC catalog",
+      "date": null,
+      "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2",
+      "scope": "Current official DLC/content catalog; confirms Future Saga Chapters 1-4 and current content structure."
+    },
+    {
+      "id": "bn_future_saga_ch1_2024",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "DRAGON BALL XENOVERSE 2 releases its brand new DLC!",
+      "date": "2024-05-22",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-releases-its-brand-new-dlc",
+      "scope": "Future Saga Chapter 1 and Free Update 18 content counts."
+    },
+    {
+      "id": "bn_future_saga_ch2_2024",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "DRAGON BALL Xenoverse 2 Release the new DLC to continue the story of the Future Saga",
+      "date": "2024-11-20",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-release-the-new-dlc-continue-the-story-of-the-future-saga",
+      "scope": "Future Saga Chapter 2 release and seven additional skills."
+    },
+    {
+      "id": "bn_daima_2025",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "Dragon Ball DAIMA Pack is now available in DRAGON BALL XENOVERSE 2",
+      "date": "2025-05-21",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-daima-pack-now-available-in-dragon-ball-xenoverse-2",
+      "scope": "DAIMA Pack release plus accompanying free update and Time Patrol Support Pack."
+    },
+    {
+      "id": "bn_future_saga_ch3_2025",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "DRAGON BALL XENOVERSE 2 Future Saga Chapter 3 is out now!",
+      "date": "2025-10-30",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-future-saga-chapter-3-out-now",
+      "scope": "Future Saga Chapter 3 release."
+    },
+    {
+      "id": "bn_future_saga_ch4_2026",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "DRAGON BALL Games Battle Hour 2026: ... The Final Chapter Begins in DRAGON BALL XENOVERSE 2",
+      "date": "2026-04-19",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-games-battle-hour-2026-dragon-ball-xenoverse-3-announced-and-more",
+      "scope": "Official announcement that Future Saga Chapter 4 is the final DLC chapter."
+    },
+    {
+      "id": "bn_xv2_free_updates_2023",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "Dragon Ball Xenoverse 2: Free Updates",
+      "date": "2023-03-22",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-free-updates",
+      "scope": "Free Update content including Beast Awoken Skill."
+    },
+    {
+      "id": "bn_xv2_free_update_extra2_2018",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "Free Update and Extra Pack 2 available for DRAGON BALL XENOVERSE 2",
+      "date": "2018-03-01",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/free-update-and-extra-pack-2-available-for-dragon-ball-xenoverse-2",
+      "scope": "Free Update and Extra Pack 2 release; SSGSS and Limit Burst examples."
+    }
+  ],
+  "events": [
+    {
+      "id": "free-update-2018-03-01",
+      "kind": "free_update",
+      "date": "2018-03-01",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018"
+      ],
+      "skill_scope": [
+        "SSGSS transformations",
+        "Limit Burst"
+      ],
+      "assignment_status": "event-level only"
+    },
+    {
+      "id": "free-update-2023-03-22",
+      "kind": "free_update",
+      "date": "2023-03-22",
+      "source_ids": [
+        "bn_xv2_free_updates_2023"
+      ],
+      "skill_scope": [
+        "Beast"
+      ],
+      "assignment_status": "direct skill linkage documented for Beast"
+    },
+    {
+      "id": "future-saga-chapter-1",
+      "kind": "dlc",
+      "date": "2024-05-22",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "bn_xv2_official_site_2026"
+      ],
+      "skill_count": 15,
+      "assignment_status": "DLC-level provenance established; individual skill mapping must remain evidence-backed"
+    },
+    {
+      "id": "future-saga-chapter-2",
+      "kind": "dlc",
+      "date": "2024-11-20",
+      "source_ids": [
+        "bn_future_saga_ch2_2024",
+        "bn_xv2_official_site_2026"
+      ],
+      "skill_count": 7,
+      "assignment_status": "DLC-level provenance established; individual skill mapping must remain evidence-backed"
+    },
+    {
+      "id": "dragon-ball-daima-pack",
+      "kind": "dlc",
+      "date": "2025-05-21",
+      "source_ids": [
+        "bn_daima_2025"
+      ],
+      "assignment_status": "DLC-level provenance established; accompanying free update kept separate"
+    },
+    {
+      "id": "future-saga-chapter-3",
+      "kind": "dlc",
+      "date": "2025-10-30",
+      "source_ids": [
+        "bn_future_saga_ch3_2025",
+        "bn_xv2_official_site_2026"
+      ],
+      "skill_count": 6,
+      "assignment_status": "DLC-level provenance established; individual skill mapping must remain evidence-backed"
+    },
+    {
+      "id": "future-saga-chapter-4-announced",
+      "kind": "dlc_announcement",
+      "date": "2026-04-19",
+      "source_ids": [
+        "bn_future_saga_ch4_2026"
+      ],
+      "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
+    }
+  ],
+  "next_step": "Use this registry to map individual canonical skill IDs only when an official or independently corroborated source directly identifies the skill as part of the release/update. Do not infer a skill's first-release date from current DLC labels alone."
+}
