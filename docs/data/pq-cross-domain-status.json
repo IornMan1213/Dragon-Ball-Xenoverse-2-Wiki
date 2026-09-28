@@ -264,6 +264,10 @@
     {
       "date": "2026-09-28",
       "note": "Promoted source-backed PQ51 Great Saiyaman Helmet equipment relationship; canonical forward store is now 853 total edges with 127 equipment edges. Previous 852/126 recount remains historical provenance."
+    },
+    {
+      "date": "2026-09-28",
+      "note": "Promoted five source-backed canonical accessory/PQ relationships; live canonical store is now 858 total edges with 132 equipment edges."
     }
   ]
 }
