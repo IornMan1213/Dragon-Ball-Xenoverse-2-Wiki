@@ -14,14 +14,14 @@
   "current_edges": {
     "skill": 249,
     "super_soul": 135,
-    "equipment": 126,
+    "equipment": 136,
     "character": 247,
     "dlc": 88,
     "farming": 7
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "The historical 840-edge recovery baseline and superseded 851/126 metadata remain provenance only; the live canonical relationship store is now 852 edges (249 skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming).",
+  "next_gate": "Live canonical forward relationship store directly recounted 2026-09-28: 862 edges (249 skill, 135 Super Soul, 136 equipment, 247 character, 88 DLC, 7 farming). Historical projections remain provenance only.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -33,7 +33,7 @@
   "current_counts": {
     "skill": 249,
     "super_soul": 135,
-    "equipment": 126,
+    "equipment": 136,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -280,6 +280,10 @@
     {
       "date": "2026-09-28",
       "note": "Promoted Gamma 2's Helmet→PQ155 after matching canonical accessory acc-056 with PQ research pqacc-044."
+    },
+    {
+      "date": "2026-09-28",
+      "note": "Directly reconciled status metadata to docs/data/pq-reward-relationships.json after accessory canonical backlog synchronization: 862 total edges (249 skill, 135 Super Soul, 136 equipment, 247 character, 88 DLC, 7 farming)."
     }
   ]
 }
