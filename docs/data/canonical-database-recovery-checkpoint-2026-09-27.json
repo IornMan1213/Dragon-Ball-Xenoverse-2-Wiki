@@ -76,7 +76,8 @@
     "Restored 84 missing canonical PQ records from maintained PQ101-186 batches. No speculative equipment links were created.",
     "Restored 0 missing PQ41-100 records from maintained batches; added 0 exact-name bidirectional equipment links.",
     "PQ101-186 maintained-batch restoration pass: 0 missing records restored; 0 exact-name equipment links added.",
-    "Restored missing canonical PQ1-20 records from maintained research batches, preserving sourced objectives/rewards and conservative uncertainty."
+    "Restored missing canonical PQ1-20 records from maintained research batches, preserving sourced objectives/rewards and conservative uncertainty.",
+    "Restored PQ41-100 sparse reward fields from maintained batches; applied 2 exact-name equipment link occurrences."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -87,7 +88,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Restored PQ1-20 into the canonical PQ layer from maintained research batches. PQ36 remains separately marked as a numbering/cut conflict; no new PQ36 conclusion was inferred."
+    "note": "Restored missing reward-layer fields across canonical PQ41-100 directly from maintained batch records and added exact-name equipment reverse links where canonical identities exist."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
