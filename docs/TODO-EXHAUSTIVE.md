@@ -5847,3 +5847,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reclassified the four Chapter 4 registry mappings from `direct_scope` to `corroborated`, because the official source establishes the four-move scope while the independent source supplies the individual names.
 - [x] Preserved the rule that this establishes release-event provenance, not an inferred patch/version number.
 - [ ] **Next:** find additional independent or official named-move evidence for Chapter 4 and continue the unresolved Free Update 20 individual-skill investigation.
+
+
+### 2026-09-28 continuation — Future Saga Chapter 4 skill corroboration
+- [x] Added an independent current Steam PQ guide as direct reward evidence for **Dragon Spiral** and **Indomitable** from PQ185 and **Venus Fist** from PQ186. citeturn7search1
+- [x] Upgraded those three registry mappings from generic event-scope evidence to direct community PQ-reward evidence.
+- [x] Kept **The Power to Overcome** separately tied to the story/canonical record rather than incorrectly treating it as a PQ reward.
+- [ ] **Next:** resolve the separately announced Free Update 20 skill set with direct patch/catalog evidence; official Bandai Namco confirms Skills were included but does not name them. citeturn0search1
