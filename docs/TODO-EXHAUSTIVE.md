@@ -4721,3 +4721,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed no record-level research evidence was found for Super Ki Explosion or Ultra Fighting Bomber in the screened research-batch set; preset references alone are insufficient for canonical promotion.
 - [x] Expanded `docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json` with the evidence-screening results. No canonical skill records were synthesized or rewritten.
 - [ ] **Next:** reconcile the research-supported names against the canonical `skills.json` schema one record at a time, preserving null/conflict fields and the canonical-source rule; separately resolve Shockwave, Super Ki Explosion, and Ultra Fighting Bomber with stronger direct evidence.
+
+
+## 2026-09-27 continuation — canonical preset-skill coverage reconciliation
+
+- [x] Reconciled the previously identified 18 unique unmatched preset skill names into the authoritative canonical skill corpus, raising canonical coverage from 475 to 493 records.
+- [x] Re-audited the 162 verified preset skill-slot entries: all 162 now resolve by exact case-insensitive canonical name; unmatched entries are 0.
+- [x] Preserved partially_verified status on the 18 newly represented records; preset occurrence is treated as identity/navigation evidence only, not as proof of acquisition, cost, mechanics, or CaC scope.
+- [x] Kept Galaxy Breaker (Festival) explicitly non-CaC rather than converting festival/cast-only evidence into ordinary CaC availability.
+- [x] Updated the canonical identity audit so its census, interpretation, and next step match the live canonical state.
+- [ ] Next: reconcile each of the 18 newly represented records against its existing research-batch evidence, replacing broad/placeholder fields with exact evidence where available and preserving unresolved/conflicting fields as null or explicitly historical.
