@@ -95,16 +95,29 @@
     "note": "QQ Bang clothing component identities are reconciled where explicit evidence supports them; continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships, preserving unresolved inputs rather than guessing."
   },
   "validation_boundary": "Canonical JSON integrity and endpoint reconciliation have been validated through direct repository reads; Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint.",
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-28",
   "recovery_state": "active_recovery_with_exact_qq_bang_equipment_identity_audit",
   "live_baseline": {
     "equipment_records": 112,
     "qq_bang_records": 23,
     "observed_vectors": 16,
     "parallel_quests": 186,
-    "pq_cross_domain_edges": 840
+    "pq_cross_domain_edges": 840,
+    "qq_bang_observed_vectors": 17
   },
   "next_target": "Reconcile the 18 post-recovery catalog-gap-promoted skill identities against direct research evidence, then resume QQ Bang/equipment and skill/PQ cross-domain enrichment.",
   "equipment_records": 112,
-  "latest_change": "Post-corruption recovery metadata was reconciled against the live 493-record canonical skill corpus. The 18 preset-loadout identities restored after the 474-record recovery baseline are now tracked as canonical identity coverage while retaining partially_verified status until record-level evidence reconciliation is complete."
+  "latest_change": "Post-corruption recovery metadata was reconciled against the live 493-record canonical skill corpus. The 18 preset-loadout identities restored after the 474-record recovery baseline are now tracked as canonical identity coverage while retaining partially_verified status until record-level evidence reconciliation is complete.",
+  "qq_bang_2026_09_28_observation_017": {
+    "status": "completed",
+    "record_id": "qq-observed-017",
+    "vector": "-1/+5/+5/+4/+3/+5",
+    "inputs": [
+      "equip-101",
+      "equip-108"
+    ],
+    "source": "https://www.reddit.com/r/dbxv/comments/s6i8l0",
+    "verification_status": "verified_secondary",
+    "boundary": "Observed community output only; no deterministic recipe guarantee inferred."
+  }
 }
