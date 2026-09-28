@@ -6792,3 +6792,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Official sources explicitly name the four skills; repository search did not expose exact internal IDs, so they remain recovery candidates rather than canonical mutations.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** search historical recovery layers/structured data for exact IDs for these four Festival variants; if unavailable, retain the official evidence layer and continue the next canonical enrichment frontier.
+
+
+### 2026-09-28 continuation — PQ186 final skill-reward parity batch 581
+- [x] Audited PQ186 separately as the final numbered PQ block after PQ181-PQ185.
+- [x] Confirmed the maintained forward/reverse relationship for **Venus Fist → PQ186**.
+- [x] Confirmed no additional PQ186 skill endpoint is supported by the current reward evidence.
+- [x] Preserved unresolved reward-slot/drop-probability and mandatory-Ultimate-Finish semantics rather than inferring them.
+- [x] Added `docs/data/skill-research-batches/skill-batch-581.json`.
+- [x] This closes the PQ181–PQ186 final skill-reward parity block with zero unresolved canonical skill endpoints.
+- [ ] Next: move outside this settled range to unresolved typed-reward ranges and active mechanics/version-provenance frontiers.
