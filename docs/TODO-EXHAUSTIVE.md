@@ -4395,3 +4395,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Promoted PQ 41 and PQ 59 into canonical PQ data and linked their equipment rewards bidirectionally.
 - [ ] Next: continue broader PQ-batch promotion and equipment cross-domain reconciliation.
+
+- [x] 2026-09-27: Audited PQ 61-186 batch equipment rewards against canonical equipment; no new safe exact-name promotions found.
+- [ ] Reconcile the maintained Yamcha's Sword PQ29/PQ36 historical conflict before any PQ36 equipment cross-link is promoted.
