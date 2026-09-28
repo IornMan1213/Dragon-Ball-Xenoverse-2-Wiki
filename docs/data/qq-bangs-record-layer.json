@@ -53,7 +53,7 @@
         "General-purpose"
       ],
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://www.gameskinny.com/tips/dragon-ball-xenoverse-2-qq-bangs-guide/",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md"
@@ -103,7 +103,7 @@
       "mixing_item": "Super Mix Capsule Z commonly reported for high-tier attempts.",
       "mixing_location": "Capsule Corporation Clothing Mixing Shop",
       "acquisition_route": "Recipe/farming research target",
-      "rng_notes": "This is a recipe family, not a guaranteed exact stat result. Individual outputs must be recorded when observed.",
+      "rng_notes": "Recipe-family evidence only; exact six-stat result is intentionally not asserted. Individual observed outputs are stored as separate recipe_observation records.",
       "build_tags": [
         "Ki + Stamina",
         "Ki Blast-focused",
@@ -410,5 +410,11 @@
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
       ]
     }
-  ]
+  ],
+  "research_frontier": {
+    "last_cycle": "2026-09-27",
+    "promoted_observed_vectors": 10,
+    "total_records": 14,
+    "next_target": "expand observed six-stat QQ Bang vectors and recipe provenance without treating community recipes as deterministic"
+  }
 }
