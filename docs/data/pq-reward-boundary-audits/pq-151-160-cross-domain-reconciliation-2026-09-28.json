@@ -1,0 +1,145 @@
+{
+  "batch_id": 571,
+  "date": "2026-09-28",
+  "type": "pq-151-160-cross-domain-reconciliation",
+  "scope": "PQ151-PQ160",
+  "status": "reconciled_maintained_projection_live_state",
+  "findings": {
+    "records_audited": 10,
+    "skill_reward_projections_reconciled": 10,
+    "equipment_reward_projections_restored": 3,
+    "accessory_links_restored": 6,
+    "super_soul_reward_projections_restored": 8,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false,
+    "notes": [
+      "Live maintained records already contained all ten canonical-backed skill reward projections.",
+      "Restored canonical-backed equipment projections for PQ152, PQ154, and PQ158 using canonical equipment IDs.",
+      "Restored six accessory endpoints for PQ152, PQ154, PQ155, PQ156, PQ159, and PQ160; accessory identities were kept separate from clothing/equipment records.",
+      "Restored eight maintained Super Soul projections from existing canonical PQ→Super Soul relationships.",
+      "The unresolved Android 17 Ranger Accessory component record was not promoted or merged with the distinct Android 17 (DB Super) Wig.",
+      "Exact reward/drop mechanics remain separate from acquisition-source relationships."
+    ]
+  },
+  "repaired": [
+    {
+      "pq": 152,
+      "field": "equipment_rewards",
+      "id": "equip-038",
+      "target": "Android 17 (DB Super) Ranger Outfit"
+    },
+    {
+      "pq": 154,
+      "field": "equipment_rewards",
+      "id": "equip-048",
+      "target": "King Vegeta (DB Super)'s Battle Suit"
+    },
+    {
+      "pq": 158,
+      "field": "equipment_rewards",
+      "id": "equip-054",
+      "target": "Gamma 2's Clothes"
+    },
+    {
+      "pq": 152,
+      "field": "accessory_links",
+      "id": "accr-029",
+      "target": "Android 17 (DB Super) Wig"
+    },
+    {
+      "pq": 154,
+      "field": "accessory_links",
+      "id": "accr-030",
+      "target": "King Vegeta (DB Super) Wig"
+    },
+    {
+      "pq": 155,
+      "field": "accessory_links",
+      "id": "acc-056",
+      "target": "Gamma 2's Helmet"
+    },
+    {
+      "pq": 156,
+      "field": "accessory_links",
+      "id": "acc-057",
+      "target": "Gamma 1's Helmet"
+    },
+    {
+      "pq": 159,
+      "field": "accessory_links",
+      "id": "acc-080",
+      "target": "Dr. Hedo Hood"
+    },
+    {
+      "pq": 160,
+      "field": "accessory_links",
+      "id": "acc-081",
+      "target": "Red Ribbon Army Helmet"
+    },
+    {
+      "pq": 151,
+      "field": "super_soul_rewards",
+      "target": "I think I'm getting the hang of this."
+    },
+    {
+      "pq": 151,
+      "field": "super_soul_rewards",
+      "target": "I'll keep adding a bit of power to my attacks!"
+    },
+    {
+      "pq": 152,
+      "field": "super_soul_rewards",
+      "target": "I will put a stop to you, fiend!"
+    },
+    {
+      "pq": 153,
+      "field": "super_soul_rewards",
+      "target": "There's more where that came from!"
+    },
+    {
+      "pq": 153,
+      "field": "super_soul_rewards",
+      "target": "You're not much of a fun fight!"
+    },
+    {
+      "pq": 156,
+      "field": "super_soul_rewards",
+      "target": "This is your true power?"
+    },
+    {
+      "pq": 156,
+      "field": "super_soul_rewards",
+      "target": "Still haven't figured out you're gonna lose?"
+    },
+    {
+      "pq": 157,
+      "field": "super_soul_rewards",
+      "target": "I'll be the one to fight you!"
+    },
+    {
+      "pq": 157,
+      "field": "super_soul_rewards",
+      "target": "You need to be more careful."
+    },
+    {
+      "pq": 158,
+      "field": "super_soul_rewards",
+      "target": "Heh heh! I'm not as rusty as I look!"
+    },
+    {
+      "pq": 159,
+      "field": "super_soul_rewards",
+      "target": "Enter the hero!"
+    },
+    {
+      "pq": 159,
+      "field": "super_soul_rewards",
+      "target": "The Red Ribbon Army is back in business!"
+    },
+    {
+      "pq": 160,
+      "field": "super_soul_rewards",
+      "target": "Is that all?"
+    }
+  ]
+}
