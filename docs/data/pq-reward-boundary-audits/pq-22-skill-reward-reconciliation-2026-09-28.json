@@ -1,0 +1,22 @@
+{
+  "batch_id":558,
+  "date":"2026-09-28",
+  "type":"pq22_skill_reward_reconciliation",
+  "pq":"PQ22",
+  "name":"Dragon Ball Brawl!",
+  "status":"evidence_reconciled",
+  "evidence":{
+    "skill":"Energy Shot",
+    "source":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "independent_source":"https://xvguide.neocities.org/Skill"
+  },
+  "finding":"The existing PQ22 research record listed Energy Shot in basic_rewards but incorrectly left skill_rewards empty. Independent PQ reward listings explicitly identify Energy Shot as the PQ22 skill reward.",
+  "actions":{
+    "pq_batch_03_updated":true,
+    "canonical_pq_relationship_added":false,
+    "canonical_data_changed":false,
+    "unsupported_relationship_invented":false
+  },
+  "note":"The canonical PQ relationship store already contains the Energy Shot relationship, so this batch repairs the research-layer contradiction without duplicating the canonical edge.",
+  "next":"Continue auditing concrete PQ research records for reward-list contradictions against the canonical forward relationship store."
+}
