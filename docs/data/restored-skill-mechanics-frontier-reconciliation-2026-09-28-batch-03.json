@@ -72,8 +72,8 @@
   ],
   "policy": "Source-reported numerical values remain attributed/bounded. No exact frames, universal scaling, hidden interactions, or reward probabilities are inferred. Acquisition endpoints do not create PQ relationship edges unless explicit reward evidence exists.",
   "validation": {
-    "canonical_count": 493,
-    "index_count": 493,
+    "canonical_count": 497,
+    "index_count": 497,
     "identity_scope": "All four identities already exist; no duplicate canonical records created."
   },
   "next_frontier": [
