@@ -4606,3 +4606,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected stale `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json` census from 26/25 to the live 25/26 split; no preset relationship or loadout was promoted/demoted.
 - [x] Kept numeric preset identity boundaries intact: unresolved Goku/Vegeta/Captain Ginyu mappings remain unresolved rather than being inferred from row/costume order.
 - [ ] **Next:** validate the 162 existing loadout skill names against the canonical `docs/data/skills.json` identity layer and establish deterministic reverse character/preset navigation only where canonical relationship fields/evidence support it.
+
+
+## 2026-09-27 continuation — verified preset skills vs canonical skill identity audit
+
+- [x] Compared all **162** skill-slot entries from the **25 verified preset loadouts** against the authoritative `docs/data/skills.json` corpus (**475** canonical records).
+- [x] Found **117 exact canonical-name matches** and **45 unmatched entries**, representing **18 unique skill names**.
+- [x] Confirmed a normalized punctuation/spacing comparison produces no additional matches; no alias or identity inference was made.
+- [x] Added `docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json` documenting the deterministic **canonical identity gap** and all 18 unmatched names with occurrence counts.
+- [x] No canonical skill records were synthesized or promoted from preset loadout data; canonical data remains authoritative.
+- [ ] **Next:** research the 18 unmatched preset skill names and determine, from direct evidence, whether each maps to an existing canonical skill, requires a cast-only/unavailable-for-CaC canonical record, or should remain outside the canonical skill corpus.
