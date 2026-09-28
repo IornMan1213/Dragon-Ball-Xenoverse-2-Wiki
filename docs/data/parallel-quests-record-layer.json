@@ -1526,7 +1526,10 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "equipment_rewards": [
+        "Battle Suit (CC)"
+      ]
     },
     {
       "id": "pq-062",
@@ -1551,7 +1554,10 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "equipment_rewards": [
+        "Frieza's Suit (Final Form)"
+      ]
     },
     {
       "id": "pq-063",
@@ -1585,6 +1591,12 @@
           "relationship": "historical_conflict",
           "evidence_note": "Explicit reward table lists Goku Wig (Super Saiyan); canonical record retains PQ18 as the historical route pending reconciliation."
         }
+      ],
+      "equipment_rewards": [
+        "Goku Wig (Super Saiyan)"
+      ],
+      "super_soul_rewards": [
+        "Before creation comes ruin..."
       ]
     },
     {
@@ -1611,7 +1623,10 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "super_soul_rewards": [
+        "Janemba! Janemba!"
+      ]
     },
     {
       "id": "pq-065",
@@ -1638,7 +1653,13 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "equipment_rewards": [
+        "Gohan's Gi (Adult)"
+      ],
+      "super_soul_rewards": [
+        "I never knew this world existed!"
+      ]
     },
     {
       "id": "pq-066",
@@ -1658,12 +1679,17 @@
       ],
       "verification_status": "partially_verified",
       "skill_rewards": [
-        "Candy Beam"
+        "Candy Beam",
+        "Warp Kamehameha"
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "equipment_rewards": [
+        "SSGSS Goku Wig",
+        "Whis Symbol Gi"
+      ]
     },
     {
       "id": "pq-067",
