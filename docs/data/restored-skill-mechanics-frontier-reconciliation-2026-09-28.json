@@ -279,8 +279,8 @@
     }
   ],
   "validation": {
-    "canonical_count": 493,
-    "index_count": 493,
+    "canonical_count": 497,
+    "index_count": 497,
     "identity_scope": "All frontier records already exist in the canonical corpus; evidence artifacts do not create duplicate identities.",
     "pq_boundary": "Acquisition endpoints are not converted into PQ reward edges unless explicit reward evidence exists.",
     "mechanics_reconciliation": "Batch 03 and Batch 04 are appended as evidence-only boundaries; canonical skills.json remains authoritative."
