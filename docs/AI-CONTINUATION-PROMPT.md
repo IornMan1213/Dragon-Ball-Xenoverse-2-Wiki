@@ -4781,3 +4781,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Deepened `qq-research-002` (Bardock Battle Suit + Beerus clothing + Super Mix Capsule Z) with independent repository research plus Steam evidence. Current evidence supports this as a six-star attempt/recipe family, while exact six-stat output remains RNG-dependent and is not promoted as guaranteed.
 - [x] Preserved the project's canonical evidence rule: observed outputs and recipe families remain distinct; no unsupported exact six-stat result was invented.
 - [ ] Next QQ Bang work: expand additional reproducible recipe families and observed six-stat result records, then capture version/material provenance and cross-links to equipment/build data.
+
+
+### 2026-09-27 continuation — QQ Bang system research refresh
+- [x] Reviewed the live coverage frontier after the Dual Masenko recovery; QQ Bang remains a critical under-populated domain with only four current structured records (system, mixing item, recipe family, recipe observation).
+- [x] Independently refreshed QQ Bang system evidence: QQ Bangs override clothing stat effects across the four clothing slots; six stat dimensions are tracked; high-tier six-star research uses Super Mix Capsule Z; recipe outputs must remain RNG/distribution observations rather than guarantees. Sources include independent GitHub research and Prima Games recipe documentation.
+- [x] Updated `docs/data/qq-bang-system-baseline.json` with the current evidence boundary and research update.
+- [x] Updated `docs/data/qq-bangs-record-layer.json` with a dated provenance note without inventing additional QQ Bang records or exact guaranteed recipes.
+- [ ] Next: expand QQ Bang records from the source/recipe universe into individual observed six-stat vectors with clothing inputs, mixing item, star rating, acquisition route, and provenance. Preserve RNG uncertainty and do not promote community recipe claims as guaranteed outputs.
