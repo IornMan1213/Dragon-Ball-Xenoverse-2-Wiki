@@ -2225,5 +2225,6 @@
     "evidence": "https://www.reddit.com/r/dbxv/comments/s6i8l0",
     "status": "verified_secondary",
     "boundary": "Observed output only; no deterministic recipe or guaranteed result inferred."
-  }
+  },
+  "skill_research_batch_528_current_evidence": "docs/data/skill-research-batches/skill-batch-528.json"
 }
