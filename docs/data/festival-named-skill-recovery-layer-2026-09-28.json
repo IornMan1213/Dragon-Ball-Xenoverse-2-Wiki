@@ -93,5 +93,55 @@
     "The layer does not assign canonical skill IDs because the current canonical skills.json does not contain these four identities.",
     "Null fields remain unresolved rather than being copied from unrelated Festival skills or inferred from character usage.",
     "The record layer is not a replacement for canonical skills.json and must not be promoted without identity/schema reconciliation."
-  ]
+  ],
+  "research_update_2026_09_28": {
+    "batch": 550,
+    "purpose": "Strengthen the recovery evidence without promoting non-canonical identities into skills.json.",
+    "new_evidence": [
+      {
+        "skill": "God Bind (Festival)",
+        "source": "https://dbxv2.fandom.com/wiki/God_Bind_%28Festival%29",
+        "confirmed": [
+          "unlock",
+          "character_user",
+          "skill_type",
+          "attack_type",
+          "ki_cost",
+          "exclusive_character_usage"
+        ],
+        "note": "Independent skill page directly documents Festival unlock, Goku (Super Saiyan God) usage, Super/Ki Blast classification, 100 Ki cost, and CaC unavailability."
+      },
+      {
+        "skill": "Egret Waltz (Festival)",
+        "source": "https://dbxv2.fandom.com/wiki/Videl_%28DB_Super%29",
+        "confirmed": [
+          "preset_placement",
+          "character_user"
+        ],
+        "note": "Independent preset evidence places Egret Waltz (Festival) in Videl (DB Super)'s second preset."
+      },
+      {
+        "skill": "Gamma Force: Code-R (Festival)",
+        "source": "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-R",
+        "confirmed": [
+          "skill_type",
+          "character_user",
+          "festival_unlock"
+        ],
+        "note": "Independent technique page identifies Gamma Force: Code-R as Gamma 1's Xenoverse 2 Super Skill and documents the Festival max-camaraderie appearance."
+      },
+      {
+        "skill": "Gamma Force: Code-B (Festival)",
+        "source": "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-B",
+        "confirmed": [
+          "skill_type",
+          "character_user",
+          "festival_unlock"
+        ],
+        "note": "Independent technique page identifies Gamma Force: Code-B as Gamma 2's Xenoverse 2 Super Skill and documents the Festival max-camaraderie appearance."
+      }
+    ],
+    "identifier_boundary": "These sources still do not expose a canonical internal skill identifier. No ID is inferred from filename, preset position, or mod attachment naming.",
+    "canonical_action": "none"
+  }
 }
