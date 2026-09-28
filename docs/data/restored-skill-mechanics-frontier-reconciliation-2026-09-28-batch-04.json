@@ -140,8 +140,8 @@
     "Do not create PQ reward relationships from acquisition endpoints without explicit reward evidence."
   ],
   "validation": {
-    "canonical_skill_records": 493,
-    "index_skill_records": 493,
+    "canonical_skill_records": 497,
+    "index_skill_records": 497,
     "identity_scope": "All eight identities already exist; no canonical duplicate identities or unsupported relationships were created.",
     "ci_build": "unverified"
   }
