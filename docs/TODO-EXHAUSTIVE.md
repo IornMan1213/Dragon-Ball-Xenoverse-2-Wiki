@@ -4947,3 +4947,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Registered the observation in `docs/data/pq-cross-domain-index.json` and updated the recovery checkpoint to **24 QQ Bang records / 17 observed vectors**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Next:** continue the QQ Bang/equipment build-navigation census for genuinely new non-duplicate observed outputs and exact equipment identities; preserve RNG and recipe uncertainty.
+
+
+### 2026-09-28 continuation — QQ Bang↔equipment cross-link recovery repair
+- [x] Re-audited the recovered QQ Bang/equipment relationship layer directly from the live canonical records rather than relying on the older recovery checkpoint.
+- [x] Found one concrete stale reverse relationship: `equip-041` (Broly (Full Power Super Saiyan)'s Clothes) still referenced `qq-observed-prima-012`, whose canonical forward input is explicitly **Broly Clothes → equip-112**.
+- [x] Removed the stale `equip-041` reverse link and restored the missing `equip-112` reverse link, making the explicit QQ Bang input relationship bidirectional without creating a new identity.
+- [x] Added `docs/data/qq-bang-equipment-crosslink-reconciliation-2026-09-28.json` documenting the repair and evidence boundary.
+- [x] Live QQ Bang/equipment census at repair time: **24 QQ Bang records / 112 equipment records**; no new canonical equipment identity, stat spread, acquisition route, or recipe guarantee was inferred.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the QQ Bang/equipment/build-navigation census, prioritizing genuinely new observed six-stat vectors and unresolved exact input identities; after that, return to the remaining restored cross-domain/PQ reward coverage queue.
