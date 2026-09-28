@@ -5689,3 +5689,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical corpus remains **497 records**; current null Ki-cost frontier is **2 records**.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity audits, starting with the remaining 2 unresolved Ki-cost records only if direct evidence appears; otherwise move to restriction/version gaps.
+
+
+### 2026-09-28 — Skill mechanics/resource boundary batch 545
+- [x] Audited the final two canonical records with null Ki-cost fields: **Holstein Shock** and **Hyper Movement**.
+- [x] Preserved both null Ki-cost values under the canonical evidence rule: Holstein Shock lacks reliable numeric Ki-cost evidence in the reviewed direct sources; Hyper Movement is an Evasive whose documented activation resource is **200 Stamina**, not Ki.
+- [x] Recorded bounded mechanics evidence and sources in `docs/data/skill-research-batches/skill-batch-545.json`; no unsupported numeric cost was manufactured.
+- [x] Registered batch 545 in `docs/data/pq-cross-domain-index.json` and updated `skill-catalog-audit.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Next: prioritize mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity beyond the current 249 canonical skill edges; only revisit the two null Ki-cost records if direct numeric evidence appears.
