@@ -343,13 +343,37 @@
     ],
     "note": "Official release announcements establish event-level provenance. Individual skill first-release/version assignments still require direct skill-to-event evidence."
   },
-  "direct_skill_event_mappings": 5,
+  "direct_skill_event_mappings": 28,
   "direct_skill_event_mapping_ids": [
-    "skill-beast",
     "skill-crimson-edge",
     "skill-divine-spear",
     "skill-big-bang-knuckle",
-    "skill-wild-stinger"
+    "skill-wild-stinger",
+    "skill-beast",
+    "skill-god-of-destruction-s-poise",
+    "skill-god-of-destruction-s-plaything",
+    "skill-god-of-destruction-s-might",
+    "skill-full-power-destruction",
+    "skill-soaring-rush",
+    "skill-dragon-spark",
+    "skill-burst-blitz",
+    "skill-chaotic-time-impact",
+    "skill-dark-inscription",
+    "skill-emperor-s-cannon",
+    "skill-gigantic-cross",
+    "skill-gigantic-nova",
+    "skill-saiyan-blaster",
+    "skill-dragon-spiral",
+    "skill-indomitable",
+    "skill-the-power-to-overcome",
+    "skill-venus-fist",
+    "skill-burning-blast",
+    "skill-final-flash-ss3-daima",
+    "skill-force-edge",
+    "skill-heat-wave",
+    "skill-super-kamehameha-ss4-daima",
+    "skill-supreme-fury"
   ],
-  "next_step": "Expand direct mappings only when authoritative or independently corroborated evidence names the skill within the release/update event; do not infer remaining DLC skill mappings from DLC membership alone."
+  "next_step": "Audit remaining free-update DAIMA-era skills separately from paid-pack skills, then reconcile Chapter 4 named-move evidence; do not assign version numbers without direct version evidence.",
+  "last_updated": "2026-09-28"
 }
