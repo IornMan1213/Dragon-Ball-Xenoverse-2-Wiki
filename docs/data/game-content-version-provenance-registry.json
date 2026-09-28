@@ -634,6 +634,12 @@
       "action": "Add/recover complete canonical records for the four named Festival skills, including IDs and full mechanics/acquisition fields, only after reconciling the catalog against existing research batches."
     }
   ],
+  "festival_skill_recovery_candidates": [
+    {"skill_name":"God Bind (Festival)","character":"Goku (Super Saiyan God)","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["skill-batch-264","fandom-god-bind-festival"]},
+    {"skill_name":"Egret Waltz (Festival)","character":"Videl (DB Super)","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["official_4th_festival_skills_2025","community_festival_skill_catalog"]},
+    {"skill_name":"Gamma Force: Code-R (Festival)","character":"Gamma 1","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["official_4th_festival_skills_2025","community_festival_skill_catalog"]},
+    {"skill_name":"Gamma Force: Code-B (Festival)","character":"Gamma 2","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["official_4th_festival_skills_2025","community_festival_skill_catalog"]}
+  ],
   "named_event_skill_evidence": [
     {
       "skill_name": "God Bind (Festival)",
