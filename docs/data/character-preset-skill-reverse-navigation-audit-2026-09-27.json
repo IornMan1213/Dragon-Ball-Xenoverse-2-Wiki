@@ -74,7 +74,7 @@
     {
       "name": "Full Power Energy Blast Volley",
       "skill_id": "skill-full-power-energy-blast-volley",
-      "expected_class": "Super",
+      "expected_class": "Ultimate",
       "preset_ids": [
         "vegeta-preset-6",
         "vegeta-preset-7",
