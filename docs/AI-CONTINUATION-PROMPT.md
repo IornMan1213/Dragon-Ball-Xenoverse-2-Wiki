@@ -5753,3 +5753,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json`.
 - [x] No unsupported canonical relationship was added; this pass found no safe new typed-reward promotion.
 - [ ] **Exact next:** inspect PQ1, PQ35, and PQ48 evidence at item/skill identity level, then continue broader canonical acquisition coverage outside the already-reconciled 16-PQ frontier.
+
+### 2026-09-28 continuation — 16-PQ typed-reward coverage audit
+- [x] Audited the remaining 16 PQs without explicit canonical skill endpoints against the canonical typed-reward relationship layer and accessory/equipment research evidence.
+- [x] Confirmed existing source-backed coverage for PQ30, PQ47, PQ93, PQ102, PQ103, PQ107, PQ108, PQ118, PQ121, PQ144, PQ157, PQ169, and PQ170.
+- [x] Preserved PQ35/Z-Sword as research-only evidence because the accessory identity is not yet canonicalized for a PQ relationship.
+- [x] Preserved PQ48 Kamekameha/Kamehameha as an unresolved skill-evidence conflict; no unsupported edge was promoted.
+- [x] Preserved PQ1 as a bounded evidence target because no promotable typed relationship was established in this pass.
+- [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json` documenting the results.
+- [x] No speculative canonical relationships were added.
+- [ ] **Exact next:** resume substantive expansion outside the already-covered 16-PQ typed-reward layer, prioritizing canonical skill/equipment/accessory acquisition gaps that have explicit item-level evidence and can be promoted safely.
