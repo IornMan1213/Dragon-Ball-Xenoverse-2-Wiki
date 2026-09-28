@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "scope": "PQ163-PQ186 typed reward relationship reconciliation",
+  "sources": [
+    "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
+    "docs/data/pq-reward-relationships.json"
+  ],
+  "normalization": {
+    "super_soul_name_variants": [
+      "This place Will be your grave!",
+      "This place will be your grave!",
+      "You Will know the power of the gods!",
+      "You will know the power of the gods!",
+      "I'll take all of you on at once!",
+      "I'll take you all on at once!"
+    ],
+    "note": "Variant capitalization/wording in the normalized reward map is reconciled to the canonical relationship spelling; no additional relationship is inferred from duplicate variants."
+  },
+  "checks": {
+    "super_souls": {
+      "normalized_map_edges": 15,
+      "canonical_relationship_edges": 15,
+      "map_only": [],
+      "relationship_only": []
+    },
+    "equipment": {
+      "normalized_map_edges": 23,
+      "canonical_relationship_edges": 23,
+      "map_only": [],
+      "relationship_only": []
+    }
+  },
+  "status": "reconciled",
+  "finding": "The apparent late-DLC typed-reward gaps identified in the prior audit were coverage-sparsity targets, not demonstrated missing canonical relationships. Every explicit Super Soul and equipment edge in the normalized PQ163-PQ186 reward map reconciles to the canonical relationship layer after documented Super Soul name normalization."
+}
