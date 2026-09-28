@@ -5679,3 +5679,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Registered `docs/data/skill-research-batches/skill-batch-543.json` in `docs/data/pq-cross-domain-index.json` and updated `skill-catalog-audit.json`.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue field-level mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity audits; acquisition endpoint completeness is now at 0 target-field gaps, and no relationship should be manufactured from an acquisition endpoint alone.
+
+
+### 2026-09-28 continuation — Canonical Ki-cost enrichment batch 544
+- [x] Audited the recovered **497-record** canonical skill corpus for null `ki_cost` fields after acquisition metadata completion.
+- [x] Filled **10** previously null Ki-cost fields from explicit existing repository mechanics/research evidence: **Assault Rain (300), Blue Hurricane (300), Dead End Bullet (300), Death Meteor (300), Death Wave (100), Hellzone Grenade (300), Murder Grenade (100), Shocking Death Ball (300), Spirit Sword (400), Super Electric Strike (300)**.
+- [x] Synchronized those ten values into `docs/data/skills-index.json` and registered `docs/data/skill-research-batches/skill-batch-544.json` in the cross-domain registry.
+- [x] Preserved **Holstein Shock** and **Hyper Movement** as null-cost records because current repository evidence does not establish a numeric Ki activation cost; no class-wide or Evasive-to-Ki inference was applied.
+- [x] Canonical corpus remains **497 records**; current null Ki-cost frontier is **2 records**.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity audits, starting with the remaining 2 unresolved Ki-cost records only if direct evidence appears; otherwise move to restriction/version gaps.
