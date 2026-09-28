@@ -5695,3 +5695,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/pq-unrepresented-typed-reward-coverage-audit-2026-09-28.json`.
 - [x] Commit: `650735c4c91fbb4a0177a6c93bc30971abaac98b`.
 - [ ] **Exact next:** move beyond the already-reconciled 16-PQ typed-reward layer and identify the next substantive cross-domain coverage gap, prioritizing canonical relationship stores whose projections or consumer reports still disagree with their source records.
+
+### 2026-09-28 continuation — 16-PQ typed-reward cross-domain refresh
+- [x] Audited current typed reward coverage for the 16 PQ IDs without explicit canonical skill endpoints.
+- [x] Confirmed existing canonical Super Soul/equipment relationships for PQ30, 47, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169 and 170; no unsupported skill endpoints were inferred.
+- [x] Promoted the already-supported **Pan's Bandana → PQ93** acquisition-source link into `docs/data/equipment-accessories-record-layer.json`, matching `accessory-pq-canonical-bridge.json`; no guaranteed-drop claim was added.
+- [x] Added `docs/data/unrepresented-pq-typed-reward-cross-domain-audit-2026-09-28.json` documenting the current evidence boundary and unresolved PQ35/PQ48 issues.
+- [x] Commits: `7106fbc3f42fd758422ba29d5f5ff789364f8793`, `be5815ee8022ba65ada0f4d14e14173e3386afa7`.
+- [ ] **Exact next:** continue canonical accessory/equipment identity reconciliation for the remaining unrepresented-PQ research leads, then validate cross-domain indexes before considering any new PQ skill endpoint.
