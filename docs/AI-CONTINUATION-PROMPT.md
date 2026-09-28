@@ -5122,3 +5122,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all four as `component_unresolved`; no canonical accessory identity was manufactured and no component was conflated with a set-level label.
 - [x] Added an explicit audit entry to `accessory-pq-canonical-remaining.json` documenting the evidence boundary.
 - [ ] **Next:** continue broader accessory↔PQ graph integrity and exact identity reconciliation, then move into equipment/build cross-navigation once accessory endpoint integrity is clean.
+
+
+## 2026-09-27 continuation — accessory↔PQ graph integrity audit
+
+- [x] Audited all canonical accessory→PQ links against the 186-record canonical PQ layer.
+- [x] Audited all PQ→accessory links against the 95-record canonical accessory layer.
+- [x] Result: **0 invalid accessory IDs, 0 missing PQ endpoints, and 0 asymmetric forward/reverse accessory↔PQ relationships**.
+- [x] Confirmed the graph remains symmetric after the historical-conflict and component-unresolved passes; unresolved relationships are represented with explicit relationship types rather than broken endpoints.
+- [ ] **Next:** move beyond the clean accessory↔PQ graph into equipment/build cross-navigation and provenance enrichment, prioritizing exact canonical identities and bidirectional endpoints.
