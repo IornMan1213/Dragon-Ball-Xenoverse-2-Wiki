@@ -1,0 +1,22 @@
+{
+  "batch_id": 568,
+  "date": "2026-09-28",
+  "type": "pq-121-130-cross-domain-reconciliation",
+  "scope": "PQ121-PQ130",
+  "status": "reconciled_maintained_projection",
+  "findings": {
+    "records_audited": 10,
+    "skill_reward_projections_reconciled": 9,
+    "equipment_reward_projections_restored": 4,
+    "super_soul_reward_projections_restored": 8,
+    "accessory_links_restored": 2,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false,
+    "notes": [
+      "PQ121 dedicated research has no typed skill reward but canonical provides Tuxedo, Wedding Dress, and a Super Soul; these were restored to the maintained projection.",
+      "PQ125 Goku Wig (Ultra Instinct) and PQ127 Janemba Head are canonical accessory endpoints, not equipment.",
+      "Research/maintained skill sets for PQ123-PQ130 already aligned; missing canonical-backed Super Soul/equipment projections were restored."
+    ]
+  },
+  "next": "PQ131-PQ140 recovery-forward reconciliation"
+}
