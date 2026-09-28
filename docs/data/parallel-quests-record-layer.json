@@ -60,21 +60,43 @@
       "id": "pq-036",
       "number": 36,
       "name": "The Cell Games Begin",
-      "difficulty": null,
+      "difficulty": 4,
       "dlc_requirement": null,
       "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
-      "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": null,
+      "objectives": [
+        "Defeat Piccolo, Goku, and Gohan",
+        "Defeat Piccolo and Goku before Gohan",
+        "Defeat Gohan without Cell getting KO'd"
+      ],
+      "ultimate_finish": "Defeat Piccolo and Goku before Gohan, then defeat Gohan while Cell survives.",
+      "enemies": [
+        "Piccolo",
+        "Goku",
+        "Gohan",
+        "Cell"
+      ],
+      "rewards": [
+        "1780 Zeni",
+        "Yamcha's Sword",
+        "All-Energy Shard",
+        "I am...Super Vegeta!!",
+        "Evil Whirlwind"
+      ],
+      "skill_rewards": [
+        "Evil Whirlwind"
+      ],
+      "equipment_rewards": [
+        "Yamcha's Sword"
+      ],
+      "super_soul_rewards": [
+        "I am...Super Vegeta!!"
+      ],
+      "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "historical_status": "numbering_conflict",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
