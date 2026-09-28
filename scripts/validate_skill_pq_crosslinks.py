@@ -48,8 +48,6 @@ if existing_reverse is not None:
     if existing_reverse.get("source") != "docs/data/skills.json": raise SystemExit("checked-in reverse index source drift")
     if existing_reverse.get("generated_on") != "2026-09-28": raise SystemExit("checked-in reverse index generated_on drift")
     if existing_reverse.get("canonical_skill_count") != len(records): raise SystemExit("checked-in reverse index canonical skill count drift")
-    if existing_reverse.get("represented_pq_count") != represented: raise SystemExit("checked-in reverse index represented PQ count drift")
-    if existing_reverse.get("total_skill_pq_edges") != edge_count: raise SystemExit("checked-in reverse index edge count drift")
 
 by_pq = {str(i): [] for i in range(1, 187)}
 for record in records:
@@ -61,6 +59,9 @@ edge_count = sum(len(v) for v in by_pq.values())
 represented = sum(bool(v) for v in by_pq.values())
 if edge_count != EXPECTED_EDGES: raise SystemExit(f"edge count {edge_count} != {EXPECTED_EDGES}")
 if represented != EXPECTED_REPRESENTED_PQS: raise SystemExit(f"represented PQ count {represented} != {EXPECTED_REPRESENTED_PQS}")
+if existing_reverse is not None:
+    if existing_reverse.get("represented_pq_count") != represented: raise SystemExit("checked-in reverse index represented PQ count drift")
+    if existing_reverse.get("total_skill_pq_edges") != edge_count: raise SystemExit("checked-in reverse index edge count drift")
 expected_pq_ids = {pq: {"skill_count": len(items), "skill_ids": [x["skill_id"] for x in items], "skills": [x["name"] for x in items], "relationship_status": ("canonical_skill_endpoint_present" if items else "no_canonical_skill_endpoint_in_current_skill_corpus")} for pq, items in by_pq.items()}
 if existing_reverse is not None:
     actual_projection = existing_reverse.get("pq_ids")
