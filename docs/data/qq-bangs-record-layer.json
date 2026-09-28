@@ -402,6 +402,85 @@
       "sources": [
         "https://steamcommunity.com/app/454650/discussions/0/792200576013293230/"
       ]
+    },
+    {
+      "id": "qq-recipe-003",
+      "record_type": "community_recipe",
+      "name": "Super Saiyan 4 Goku + Goku Black clothing recipe family",
+      "stars": 6,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Super Saiyan 4 Goku clothing + Goku Black clothing",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community-documented 6-star QQ Bang recipe family",
+      "rng_notes": "2025 community guide documents this pairing as a 6-star recipe family; exact six-stat output remains RNG-dependent and is not promoted as guaranteed.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Ki Blast-focused"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://www.youtube.com/watch?v=XBy_oawrYnk"
+      ]
+    },
+    {
+      "id": "qq-recipe-004",
+      "record_type": "community_recipe",
+      "name": "Bardock Battle Suit + Light Heart Suit recipe family",
+      "stars": 6,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Battle Suit (Bardock) + Light Heart Suit",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community-documented 6-star QQ Bang recipe family",
+      "rng_notes": "2025 community guide documents this pairing; no deterministic six-stat result is asserted.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Hybrid"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://www.youtube.com/watch?v=XBy_oawrYnk"
+      ]
+    },
+    {
+      "id": "qq-recipe-005",
+      "record_type": "community_recipe",
+      "name": "Beerus clothing + Light Heart Suit recipe family",
+      "stars": 6,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Beerus clothing + Light Heart Suit",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community-documented 6-star QQ Bang recipe family",
+      "rng_notes": "2025 community guide documents this pairing; exact outputs remain RNG-dependent and are not treated as guaranteed.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Ki + Stamina",
+        "General-purpose"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://www.youtube.com/watch?v=XBy_oawrYnk"
+      ]
     }
   ],
   "last_updated": "2026-09-27",
