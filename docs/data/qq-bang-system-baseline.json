@@ -52,6 +52,21 @@
         "https://www.reddit.com/r/dbxv/comments/15rhszd",
         "https://www.youtube.com/watch?v=dZE9_VysgAw"
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Version-aware Super Mix Capsule Z provenance",
+      "findings": [
+        "Dated evidence from 2020 through 2026 continues to support two acquisition families: direct Online Parallel Quest/Expert Mission Tour rewards and synthesis from Super Mix Capsule plus Demon Realm Crystal.",
+        "The repository now records the evidence dates and source types separately from guaranteed drop behavior.",
+        "No patch-specific acquisition-rule change was established in this pass; exact drop rates remain unresolved."
+      ],
+      "sources": [
+        "https://www.youtube.com/watch?v=dZE9_VysgAw",
+        "https://steamcommunity.com/app/454650/discussions/0/3803903461254245268/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1gzw3o8/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/ijcy6b/"
+      ]
     }
   ]
 }
