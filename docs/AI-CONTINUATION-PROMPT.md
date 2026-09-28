@@ -6352,3 +6352,9 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added 7 Chapter 2 skill-level provenance mappings: God of Destruction's Poise, God of Destruction's Plaything, God of Destruction's Might, Full Power Destruction, Soaring Rush, Dragon Spark, and Burst Blitz.
 - [x] Bound the mapping to official Chapter 2 event evidence plus an independently maintained named skill catalog; no version date was inferred from research dates.
 - [ ] **Next:** map Chapter 3, Chapter 4, and DAIMA individual skills using the same evidence-bound method.
+
+
+### 2026-09-28 continuation — Future Saga Chapter 3 provenance
+- [x] Added 6 Chapter 3 skill-level provenance mappings: Chaotic Time Impact, Dark Inscription, Emperor's Cannon, Gigantic Cross, Gigantic Nova, and Saiyan Blaster.
+- [x] Bound Chapter 3 mapping to the official event announcement plus a named independent skill catalog; no release/version date was inferred from research dates.
+- [ ] **Next:** map Future Saga Chapter 4 and DAIMA Pack individual skills using the same evidence-bound method.
