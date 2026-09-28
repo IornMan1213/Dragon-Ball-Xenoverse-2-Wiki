@@ -165,12 +165,17 @@
         "Paralysis"
       ],
       "skill_rewards": [
+        "Crusher Ball",
         "Paralysis"
       ],
       "skill_drop_conditions": [
         {
+          "skill": "Crusher Ball",
+          "condition": "Reward is explicitly listed; exact reward slot/drop percentage remains unresolved."
+        },
+        {
           "skill": "Paralysis",
-          "condition": "Reward is documented; exact reward slot/drop percentage remains unresolved."
+          "condition": "Reward is explicitly listed; exact reward slot/drop percentage remains unresolved."
         }
       ],
       "verification_status": "verified_objectives_basic_rewards_partial_reward_semantics",
