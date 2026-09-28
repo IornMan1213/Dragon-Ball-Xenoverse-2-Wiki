@@ -144,6 +144,14 @@
       "date": "2025-05-21",
       "url": "https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
       "scope": "Official Bandai Namco press release identifies four 'Budokai Festival' skills as part of Free Update 20, but the text does not name the four skills."
+    },
+    {
+      "id": "official_4th_festival_skills_2025",
+      "publisher": "Dragon Ball Official Site",
+      "title": "Dragon Ball Xenoverse 2 4th Festival of Universes",
+      "date": "2025-07-15",
+      "url": "https://dragon-ball-official.com/news/01_3550.html",
+      "scope": "Official event article identifies the four 4th Festival camaraderie characters: Goku (Super Saiyan God), Videl (DB Super), Gamma 1, and Gamma 2; these correspond to the four Festival skills later represented in independent catalog evidence."
     }
   ],
   "events": [
@@ -224,7 +232,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Recover and name the four Free Update 20 Budokai Festival skills from authoritative visual/video or reliable catalog evidence; then reconcile each against canonical skills.json before assigning event provenance.",
+  "next_step": "Recover complete canonical records for God Bind (Festival), Egret Waltz (Festival), Gamma Force: Code-R (Festival), and Gamma Force: Code-B (Festival); reconcile IDs/fields against existing research batches before assigning Free Update 20 provenance.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -573,12 +581,60 @@
     },
     {
       "id": "free-update-20-four-budokai-skill-names",
-      "status": "open",
+      "status": "names-recovered-canonical-gap",
       "claim": "Official Free Update 20 documentation establishes exactly four Budokai Festival skills, but the accessible text does not provide their names. The canonical skills dataset currently contains only one record explicitly labeled Festival of Universes (Galaxy Breaker (Festival)), so adding four named mappings would risk fabricating identities.",
       "source_ids": [
-        "official_update20_budokai_skills"
+        "official_update20_budokai_skills",
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
       ],
-      "action": "Recover the four names from authoritative screenshots/video or a reliable independent catalog, then match each to canonical IDs before assigning provenance."
+      "action": "Add/recover complete canonical records for the four named Festival skills, including IDs and full mechanics/acquisition fields, only after reconciling the catalog against existing research batches."
+    }
+  ],
+  "named_event_skill_evidence": [
+    {
+      "skill_name": "God Bind (Festival)",
+      "event_id": "free-update-20-budokai-festival",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ],
+      "canonical_skill_id": null,
+      "status": "named-but-canonical-record-missing",
+      "note": "Named event skill recovered from Festival catalog/event evidence; canonical skills.json currently lacks a matching record, so no canonical ID or direct skill mapping is invented."
+    },
+    {
+      "skill_name": "Egret Waltz (Festival)",
+      "event_id": "free-update-20-budokai-festival",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ],
+      "canonical_skill_id": null,
+      "status": "named-but-canonical-record-missing",
+      "note": "Named event skill recovered from Festival catalog/event evidence; canonical skills.json currently lacks a matching record, so no canonical ID or direct skill mapping is invented."
+    },
+    {
+      "skill_name": "Gamma Force: Code-R (Festival)",
+      "event_id": "free-update-20-budokai-festival",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ],
+      "canonical_skill_id": null,
+      "status": "named-but-canonical-record-missing",
+      "note": "Named event skill recovered from Festival catalog/event evidence; canonical skills.json currently lacks a matching record, so no canonical ID or direct skill mapping is invented."
+    },
+    {
+      "skill_name": "Gamma Force: Code-B (Festival)",
+      "event_id": "free-update-20-budokai-festival",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ],
+      "canonical_skill_id": null,
+      "status": "named-but-canonical-record-missing",
+      "note": "Named event skill recovered from Festival catalog/event evidence; canonical skills.json currently lacks a matching record, so no canonical ID or direct skill mapping is invented."
     }
   ]
 }
