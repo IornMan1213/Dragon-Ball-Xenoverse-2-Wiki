@@ -37,7 +37,7 @@
     "Index is a synchronized consumer, not source of truth.",
     "Do not infer acquisition from preset membership when direct acquisition evidence is unavailable."
   ],
-  "next": "Queue retained as historical audit/provenance. Continue restored-skill mechanics/acquisition enrichment and cross-domain reconciliation.",
+  "next": "Historical audit/provenance queue. Current canonical skill and index counts are 497 after the four 2026-09-28 recovery-forward promotions; continue substantive mechanics/acquisition enrichment.",
   "applied_commits": [
     "161a79d6ba0ca282736999b8906f08241acc0262",
     "dbb85de6e0156d487d0ae176613fa6a9ccf1a8cd"
@@ -49,7 +49,11 @@
     "index_record_present": true,
     "unlock_method_synchronized": true,
     "last_verified_synchronized": true,
-    "ultimate_finish_required": null
+    "ultimate_finish_required": null,
+    "historical_previous_count": 493,
+    "current_skills_json_records": 497,
+    "current_skills_index_records": 497,
+    "current_state_source": "docs/data/current-live-recovery-baseline-2026-09-28.json"
   },
   "safe_edit_tool": "scripts/apply_canonical_skill_patch.py",
   "execution": "Completed through the safe complete-blob path; canonical and index were updated and validated at 493 records each.",
@@ -67,6 +71,9 @@
       "last_verified_synchronized": true,
       "ultimate_finish_required": null
     },
-    "completion_date": "2026-09-28"
+    "completion_date": "2026-09-28",
+    "historical_previous_count": 493,
+    "current_live_count": 497,
+    "current_live_validation_source": "docs/data/current-live-recovery-baseline-2026-09-28.json"
   }
 }
