@@ -30,7 +30,7 @@
     },
     "equipment": {
       "record_layer_records": 109,
-      "blob_sha": "265501a5be20d3328fe2805cb8fd05cd79b6d38c"
+      "blob_sha": "afdd73bf362a2d6a43429e8fc3994e81ebb05431"
     },
     "mentors": {
       "records": 33,
@@ -62,11 +62,11 @@
     "qq_bang_records": 23,
     "qq_bang_observed_vectors": 16,
     "targets": [
-      "complete remaining QQ Bang clothing identity reconciliation",
+      "expand reverse/cross-domain QQ Bang ↔ equipment ↔ PQ relationships",
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "QQ Bang layer remains 23 records / 16 complete observed vectors. Super Mix Capsule Z provenance now spans 2020-2026 and distinguishes base-game Tour/synthesis evidence from 2025 paid support-pack distribution. Exact drop tables remain unresolved."
+    "note": "Added reverse QQ Bang links to 14 canonical equipment records, making the current QQ Bang clothing-input relationships bidirectionally navigable. No build entities were invented where no canonical build layer exists."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
