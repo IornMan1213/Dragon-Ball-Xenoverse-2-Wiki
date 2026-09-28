@@ -6538,3 +6538,6 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added and indexed the PQ15 reconciliation audit.
 - [x] No unsupported canonical Spinning Blade ID or relationship was created because the skill is not currently in authoritative skills.json.
 - [ ] **Next:** continue the next concrete PQ cross-domain enrichment frontier, or recover Spinning Blade only if direct canonical identity evidence becomes available.
+
+
+2026-09-28: PQ22 reward reconciliation batch 558 completed. Corrected PQ22 research-layer omission: Energy Shot is explicitly a PQ22 skill reward; canonical relationship already existed, so no duplicate edge or canonical skill mutation was made. Added and indexed a dedicated reconciliation audit. Next: continue auditing concrete PQ research records for reward-list contradictions.
