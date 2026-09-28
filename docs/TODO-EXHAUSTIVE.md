@@ -5761,3 +5761,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added official Dragon Ball source evidence for the four named Chapter 1 moves.
 - [x] Kept unmapped DLC skills unchanged when official evidence only gives an aggregate move count.
 - [ ] Next: map Chapter 2, Chapter 3, Chapter 4, and DAIMA skills only when individual skills are directly named by authoritative evidence.
+
+
+### 2026-09-28 continuation — Future Saga Chapter 2 provenance
+- [x] Added 7 Chapter 2 skill-level provenance mappings: God of Destruction's Poise, God of Destruction's Plaything, God of Destruction's Might, Full Power Destruction, Soaring Rush, Dragon Spark, and Burst Blitz.
+- [x] Bound the mapping to official Chapter 2 event evidence plus an independently maintained named skill catalog; no version date was inferred from research dates.
+- [ ] **Next:** map Chapter 3, Chapter 4, and DAIMA individual skills using the same evidence-bound method.
