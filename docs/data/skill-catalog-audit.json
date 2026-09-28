@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-28",
-  "latest_research_batch": 542,
+  "latest_research_batch": 543,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Continue canonical acquisition/mechanics enrichment from the 497-record corpus. Batch 541 reduced the targeted acquisition-field gap set from 20 to 15; next prioritize the remaining canonical records with missing acquisition endpoints, while preserving cast-only/variant boundaries and evidence conflicts.",
+  "current_research_focus": "Acquisition target-field census is complete at 0 gaps. Post-recovery audit metadata has been synchronized to the 497-record canonical corpus; next prioritize mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity while preserving evidence boundaries.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -213,5 +213,12 @@
       "dlc_requirement"
     ],
     "rule": "Canonical skills.json is authoritative; missing-field status is an enrichment metric only."
+  },
+  "post_recovery_metadata_reconciliation_2026_09_28": {
+    "batch": 543,
+    "canonical_skill_records": 497,
+    "stale_audit_artifacts_corrected": 6,
+    "identity_changes": 0,
+    "relationship_changes": 0
   }
 }
