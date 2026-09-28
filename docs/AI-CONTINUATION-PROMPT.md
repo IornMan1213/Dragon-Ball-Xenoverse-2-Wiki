@@ -4903,3 +4903,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added bidirectional `qq-mix-001` ↔ `pq-083` relationship for Super Mix Capsule Z farming evidence.
 - [x] Classified the relationship as a community farming route in the Online Parallel Quest Tour, not a guaranteed reward or exact drop-rate claim.
 - [ ] Next: reconcile remaining QQ Bang/equipment identities and expand equipment ↔ PQ acquisition links only where direct evidence exists.
+
+### 2026-09-27 continuation — refined PQ 83 evidence
+- [x] Refined the Super Mix Capsule Z ↔ PQ 83 cross-link with additional 2024 community evidence.
+- [x] Preserved inconsistent observed drop behavior and explicitly avoided guaranteed-reward/exact-rate claims.
+- [ ] Next: reconcile remaining QQ Bang equipment identities and expand equipment ↔ PQ acquisition links only where directly evidenced.
