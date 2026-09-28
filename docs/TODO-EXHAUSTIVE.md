@@ -5412,3 +5412,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/pq-global-skill-endpoint-gap-audit-2026-09-28.json` documenting the complete 16-ID census, including unresolved PQ118 evidence and the remaining no-skill states.
 - [x] Preserved the rule that empty record-layer `skill_rewards` fields are not universal negative claims, and that non-PQ acquisition evidence never creates PQ reward edges.
 - [ ] **Next:** continue the remaining 15 PQ endpoint gaps where external evidence may justify a safe promotion, beginning with PQ118's explicit conflict resolution; then return to the next unaudited skill mechanics cohort.
+
+
+### 2026-09-28 continuation — Restored-skill mechanics frontier batch 05
+- [x] Continued the mechanics frontier after the PQ endpoint census with a bounded reconciliation of **Tyrant Lancer, Ki Explosion, X10 Kamehameha, and Kamekameha**.
+- [x] Preserved current evidence for class/subcategory, Ki cost, character source, CaC usability, and documented move behavior where supported.
+- [x] Kept damage-test values explicitly test-contextual; no universal scaling, exact frame data, hidden conditions, or probabilities were inferred.
+- [x] Preserved Kamekameha's historical spelling identity and its existing PQ48 mapping to canonical Kamehameha; no duplicate identity or unsupported PQ relationship was added.
+- [x] Added `docs/data/restored-skill-mechanics-frontier-reconciliation-2026-09-28-batch-05.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the mechanics/acquisition frontier with the next genuinely unaudited canonical records, while maintaining the 493/493 identity boundary and explicit provenance limits.
