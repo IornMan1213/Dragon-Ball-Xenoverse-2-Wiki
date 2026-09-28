@@ -5,14 +5,14 @@
   "source_canonical": "docs/data/skills.json",
   "source_presets": "docs/data/character-presets-record-layer.json",
   "census": {
-    "canonical_skill_records": 475,
+    "canonical_skill_records": 492,
     "verified_preset_records": 25,
     "verified_loadout_skill_entries": 162,
-    "exact_canonical_name_matches": 117,
-    "unmatched_entries": 45,
-    "unique_unmatched_skill_names": 18
+    "exact_canonical_name_matches": 161,
+    "unmatched_entries": 1,
+    "unique_unmatched_skill_names": 1
   },
-  "result": "canonical_identity_gap",
+  "result": "canonical_identity_reconciled_except_one",
   "methodology": "Compared every skill-slot string in the 25 currently verified preset loadouts against canonical skill record names using exact case-insensitive identity matching. A normalized punctuation/spacing pass was also tested for unmatched entries and produced no additional matches. No alias, character-only, or historical identity was inferred.",
   "unmatched": [
     [
@@ -89,5 +89,31 @@
     ]
   ],
   "interpretation": "The verified preset layer contains 45 skill-slot references whose exact identities are not represented in the 475-record canonical skills corpus. This is a deterministic coverage gap, not evidence that the preset references are incorrect. The canonical corpus remains authoritative; no records were synthesized or promoted from preset data.",
-  "next": "Research the 18 unmatched names against primary/current skill evidence and determine whether each should become a canonical cast-only/unavailable-for-CaC skill record, map to an existing canonical identity, or remain outside the canonical skill corpus. Preserve evidence and historical boundaries."
+  "next": "Research the 18 unmatched names against primary/current skill evidence and determine whether each should become a canonical cast-only/unavailable-for-CaC skill record, map to an existing canonical identity, or remain outside the canonical skill corpus. Preserve evidence and historical boundaries.",
+  "promoted_to_canonical": [
+    "Super Galick Gun",
+    "Sledgehammer",
+    "Energy Wave Combo",
+    "Full Power Energy Wave",
+    "Full Power Energy Blast Volley",
+    "Super Back Jump",
+    "Galaxy Breaker (Festival)",
+    "Ki Blast Cannon",
+    "Super Dragon Fist",
+    "Holstein Shock",
+    "Break Strike",
+    "Consecutive Energy Blast",
+    "Backflip",
+    "Super Ki Explosion",
+    "Recoome Eraser Gun",
+    "Ultra Fighting Bomber",
+    "Turn Retreat"
+  ],
+  "remaining_unmatched": [
+    [
+      "Shockwave",
+      1
+    ]
+  ],
+  "promotion_note": "17 identities were promoted into docs/data/skills.json using existing repository research/catalog evidence, with verification_status=partially_verified and no unsupported fields invented. Shockwave was intentionally not promoted because its exact class/record-level evidence was not resolved in this cycle."
 }
