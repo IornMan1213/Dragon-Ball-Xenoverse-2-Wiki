@@ -14,7 +14,8 @@
       "reconciled_fields": {
         "trigger_condition": "[Always] Activates Ki Auto-Recovery Mode; [When Stamina is maxed out] Boosts Ki Blast-based attacks.",
         "effect_magnitude": "+5% Ki auto-recovery; +15% Ki Blast-based attacks",
-        "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down."
+        "limit_burst": "Rush",
+        "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down."
       },
       "status": "reconciled",
       "policy": "Canonical Super Soul record remains authoritative; missing timing, stacking, and frame semantics remain null."
