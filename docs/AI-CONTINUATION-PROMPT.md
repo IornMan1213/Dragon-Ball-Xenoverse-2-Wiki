@@ -6025,3 +6025,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill identities or unsupported relationships were introduced by this synchronization.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining unaudited mechanics/acquisition frontier and keep cross-domain coverage summaries synchronized with the canonical relationship layer.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 528
+- [x] Advanced to the next genuinely stale skill cohort after Batch 527 rather than repeating recent audits.
+- [x] Refreshed **Miracle Kneel, Kai Kai, Ill Rain, and Super God Fist**, whose dedicated evidence was still anchored to early September research and lacked a post-recovery current-evidence refresh artifact.
+- [x] Preserved unresolved resource-cost evidence for Kai Kai instead of inventing a value.
+- [x] Preserved explicit class, cost, acquisition, and bounded mechanics evidence where supported for the other three records.
+- [x] Added `docs/data/skill-research-batches/skill-batch-528.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the post-recovery current-evidence frontier with the next genuinely stale canonical records, then reconcile any safe field-level promotions into the canonical layer.
