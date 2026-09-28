@@ -5140,3 +5140,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the exact `recipe_input` reverse relationship to canonical `equip-112`; no recipe output or stat guarantee was inferred.
 - [x] Post-fix graph status: all QQ Bang equipment endpoints resolve to canonical equipment IDs and the newly audited edge is now bidirectional.
 - [ ] **Next:** continue systematic equipment/build cross-navigation audits, including other recipe/component domains and provenance fields, while preserving exact-identity and RNG boundaries.
+
+
+## 2026-09-27 continuation — equipment/QQ Bang duplicate-link audit
+
+- [x] Re-audited the complete QQ Bang ↔ canonical equipment graph after the Broly reverse-link repair: 39 forward edges, all endpoints valid, and all reverse endpoints present.
+- [x] Detected duplicate equipment-side QQ Bang relationships on canonical `equip-101` (Beerus Top): `qq-observed-prima-013`, `qq-observed-prima-014`, and `qq-observed-steam-001` each occurred twice.
+- [x] Removed only exact duplicate relationship objects; retained one evidence-bounded relationship for each source record.
+- [x] Repaired graph now has no QQ Bang→equipment missing reverse endpoints and no duplicate QQ Bang relationship objects on `equip-101`.
+- [ ] **Next:** continue equipment/build cross-navigation and provenance audits beyond QQ Bang links; do not infer missing identities, acquisition guarantees, or RNG outcomes.
