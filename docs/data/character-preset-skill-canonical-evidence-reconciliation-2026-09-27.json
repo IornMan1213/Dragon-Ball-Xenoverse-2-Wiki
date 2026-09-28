@@ -1,0 +1,70 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-27",
+  "scope": "Evidence reconciliation of the 18 unmatched verified-preset skill names against repository research/catalog layers.",
+  "canonical_source": "docs/data/skills.json",
+  "preset_audit": "docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json",
+  "policy": "Canonical skills.json remains authoritative. Research/index/catalog layers are evidence only; no canonical promotion is made unless identity and sufficient current evidence are established.",
+  "findings": [
+    {
+      "name": "Sledgehammer",
+      "status": "promotion_candidate",
+      "evidence": [
+        "docs/data/skill-research-batches/skill-batch-159.json"
+      ],
+      "note": "Dedicated research batch explicitly establishes Xenoverse 2 identity, Super/Strike classification, Skill Shop acquisition, 100 Ki, CaC usability, and version-sensitive charge mechanics. Canonical record is absent."
+    },
+    {
+      "name": "Energy Wave Combo",
+      "status": "evidence_insufficient_for_promotion",
+      "evidence": [
+        "docs/data/skill-research-batches/skill-batch-265.json"
+      ],
+      "note": "Catalog expansion establishes name/class/subcategory/100 Ki/CaC usability, but acquisition is null and evidence is category-level rather than a dedicated current skill source."
+    },
+    {
+      "name": "Super Galick Gun",
+      "status": "needs_direct_skill_evidence",
+      "evidence": [
+        "docs/Character-Core-Profiles.md",
+        "docs/data/character-presets-record-layer.json"
+      ],
+      "note": "Preset identity is confirmed, but current repository evidence inspected so far does not establish a standalone canonical acquisition/identity record; do not synthesize from preset data."
+    },
+    {
+      "name": "Full Power Energy Wave",
+      "status": "needs_direct_skill_evidence",
+      "evidence": [
+        "docs/Character-Core-Profiles.md",
+        "docs/data/character-presets-record-layer.json"
+      ],
+      "note": "Preset identity is confirmed; canonical promotion requires direct skill evidence."
+    },
+    {
+      "name": "Galaxy Breaker (Festival)",
+      "status": "cast_or_festival_candidate",
+      "evidence": [
+        "docs/data/skill-catalog-batches/unavailable-cac.json",
+        "docs/data/skill-research-batches/skill-batch-264.json"
+      ],
+      "note": "Explicitly appears in unavailable-CaC catalog/research. This supports a separate cast/festival boundary rather than automatic CaC canonical promotion."
+    }
+  ],
+  "remaining_unresolved_names": [
+    "Full Power Energy Blast Volley",
+    "Super Back Jump",
+    "Ki Blast Cannon",
+    "Shockwave",
+    "Super Dragon Fist",
+    "Holstein Shock",
+    "Break Strike",
+    "Consecutive Energy Blast",
+    "Backflip",
+    "Super Ki Explosion",
+    "Recoome Eraser Gun",
+    "Ultra Fighting Bomber",
+    "Turn Retreat"
+  ],
+  "result": "research_gap_reconciliation",
+  "next": "Continue direct-evidence research for the remaining unmatched names; promote only records meeting canonical evidence thresholds, and otherwise retain the gap with explicit provenance."
+}
