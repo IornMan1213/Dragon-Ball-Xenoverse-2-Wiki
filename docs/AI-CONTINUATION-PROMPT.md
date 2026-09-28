@@ -5330,3 +5330,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Created `docs/data/skill-preset-evidence-reconciliation-batch-01-2026-09-27.json` as the auditable field-level evidence record. The five identities already resolve exactly through the restored preset graph; this pass does not claim additional identity promotion.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** reconcile **Super Dragon Fist, Holstein Shock, Backflip, Turn Retreat**, then the remaining promoted records with direct research evidence. Keep **Super Ki Explosion** and **Ultra Fighting Bomber** blocked until direct evidence is found. After the skill frontier is reconciled, resume QQ Bang/equipment and skill/PQ cross-domain enrichment.
+
+
+### 2026-09-27 continuation — second post-recovery evidence batch
+- [x] Completed direct evidence reconciliation for **Super Dragon Fist, Holstein Shock, Backflip, and Turn Retreat**.
+- [x] Created `docs/data/skill-preset-evidence-reconciliation-batch-02-2026-09-27.json` with field-level evidence, mechanics boundaries, and provenance.
+- [x] Preserved the canonical-source rule: these findings do not automatically overwrite `docs/data/skills.json`; canonical fields must be compared and changed only where the evidence is stronger and directly applicable.
+- [x] Updated `docs/TODO-EXHAUSTIVE.md` with the completed four-record evidence frontier and the next canonical comparison task.
+- [ ] Next: compare these four evidence records against the live canonical 493-record entries and apply only stronger evidence-backed corrections; then continue through the remaining restored identities.
+- [ ] Keep **Super Ki Explosion** and **Ultra Fighting Bomber** blocked until direct skill-level evidence is obtained.
