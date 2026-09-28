@@ -5351,3 +5351,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/pq-171-175-skill-reward-parity-audit-2026-09-28.json as the reproducible audit artifact.
 - [x] Did not infer additional PQ edges from character ownership, presets, or non-PQ acquisition evidence.
 - [ ] **Next:** continue the next unreconciled PQ typed-reward range, then resume remaining mechanics/acquisition enrichment.
+
+
+### 2026-09-28 continuation — PQ176-PQ180 typed skill-reward parity
+- [x] Audited PQ176-PQ180 at record level against canonical forward PQ relationships, PQ records/research, and the canonical PQ skill cross-link report.
+- [x] Confirmed **9/9** documented skill-reward edges are represented and resolve to canonical skill identities.
+- [x] No unsupported reward relationship was promoted; CaC eligibility remains a separate field-level evidence question.
+- [x] Added `docs/data/pq-176-180-skill-reward-parity-audit-2026-09-28.json`.
+- [ ] **Next:** continue the next unreconciled cross-domain range, then resume remaining mechanics/acquisition enrichment.
