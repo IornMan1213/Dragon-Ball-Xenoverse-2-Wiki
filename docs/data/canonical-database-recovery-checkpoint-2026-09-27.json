@@ -93,5 +93,15 @@
     ],
     "note": "QQ Bang clothing component identities are reconciled where explicit evidence supports them; continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships, preserving unresolved inputs rather than guessing."
   },
-  "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
+  "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint.",
+  "last_updated": "2026-09-27",
+  "recovery_state": "active_recovery_with_qq_bang_provenance_boundary_hardened",
+  "live_baseline": {
+    "equipment_records": 110,
+    "qq_bang_records": 23,
+    "observed_vectors": 16,
+    "parallel_quests": 186,
+    "pq_cross_domain_edges": 840
+  },
+  "next_target": "Synchronize stale PQ cross-domain status metadata when write access permits, then continue evidence-driven equipment/build cross-domain enrichment and remaining unresolved QQ Bang identities."
 }
