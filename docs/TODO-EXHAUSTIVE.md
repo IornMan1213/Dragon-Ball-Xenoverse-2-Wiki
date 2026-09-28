@@ -5192,3 +5192,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries for acquisition conflicts, unresolved mechanics, and non-CaC/event-only identities; no speculative canonical relationship was introduced in this checkpoint pass.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** perform record-level canonical reconciliation for the five evidence-sufficient skills above, then continue through the remaining 13 catalog-gap-promoted identities before returning to broader QQ Bang/equipment and skill/PQ/Super Soul cross-domain enrichment.
+
+
+### 2026-09-28 continuation — Reconcile restored skill catalog after recovery
+- [x] Audited the existing post-recovery reconciliation batches before mutating canonical data; confirmed batches 04–06 already document direct evidence for Super Back Jump, Ki Blast Cannon, Consecutive Energy Blast, Super Galick Gun, Super Ki Explosion, Ultra Fighting Bomber, Full Power Energy Blast Volley, and Shockwave.
+- [x] Confirmed historical Full Power Energy Blast Volley conflict is explicitly preserved while current canonical evidence resolves it as Ultimate / Ki Blast / 300 Ki / starting move.
+- [x] Confirmed no Skill→PQ edge should be inferred for these shop/starting-move reconciliations.
+- [ ] Continue canonical record-level reconciliation for the remaining restored identities, especially Super Dragon Fist, Holstein Shock, Break Strike, Backflip, Turn Retreat, Recoome Eraser Gun, Sledgehammer, Energy Wave Combo, and Full Power Energy Wave.
+- [ ] Keep Galaxy Breaker (Festival) outside ordinary CaC canonical scope unless dedicated corpus policy supports it; preserve Super Ki Explosion/Ultra Fighting Bomber evidence now resolved by direct sources.
