@@ -4389,3 +4389,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Promoted the source-backed PQ 134 ↔ Broly (Full Power Super Saiyan)'s Clothes relationship into both canonical directions.
 - [ ] Next: promote additional equipment ↔ PQ relationships from broader PQ batches as their PQ records become safely representable in the sparse canonical layer (PQ 29 is an identified candidate).
+
+- [x] 2026-09-27: Promoted PQ 29 into the sparse canonical PQ layer and linked it bidirectionally with Android 18's Clothes (Vest & Pants) (`equip-008`).
+- [ ] Next: scan remaining maintained PQ batches for equipment rewards that can be safely promoted and cross-linked.
