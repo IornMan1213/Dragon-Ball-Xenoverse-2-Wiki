@@ -6595,3 +6595,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added and indexed batch-563 audit; canonical source-of-truth data was not modified.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ81-PQ90 canonical-first reward projection/reconciliation.
+
+
+### 2026-09-28 continuation — PQ81-PQ90 recovery-forward reconciliation
+- [x] Audited PQ81-PQ90 across dedicated PQ research, maintained PQ records, and canonical typed reward relationships.
+- [x] Repaired maintained skill omissions: PQ86 Neo Wolf Fang Fist and PQ87 Atomic Blast.
+- [x] Normalized PQ90 maintained `III Bomber` to canonical `Ill Bomber` using the repository's established alias rule; preserved the research spelling as provenance and did not create a duplicate skill.
+- [x] Confirmed no canonical equipment or Super Soul reward relationships exist for PQ81-PQ90.
+- [x] Added and indexed batch-564 audit; canonical source-of-truth data was not modified.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ91-PQ100 canonical-first reward projection/reconciliation.
