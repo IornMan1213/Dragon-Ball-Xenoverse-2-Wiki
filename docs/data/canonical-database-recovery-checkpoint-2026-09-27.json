@@ -42,7 +42,7 @@
     },
     "qq_bangs": {
       "record_layer_records": 23,
-      "blob_sha": "8a2115d0f330f16cf73940741dec8d8cefd86763"
+      "blob_sha": "d1ce3dcf7d47afb6c03cf8796116e7a77e234196"
     },
     "partner_skill_relationships": {
       "relationships_count": 3,
@@ -57,18 +57,19 @@
     "Post-recovery QQ Bang/equipment reconciliation added four canonical equipment identities and linked eight QQ Bang records; a transient incorrect identifier mapping for two existing equipment records was detected and corrected against the canonical equipment layer.",
     "Expanded canonical QQ Bang input normalization by indexing five additional clothing identities and refreshing safe QQ Bang-to-equipment links; unresolved inputs remain explicitly unresolved.",
     "Version-aware QQ Bang material provenance was expanded with dated 2020-2026 evidence for direct Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; no patch-specific rule change was established.",
-    "Added bidirectional QQ Bang ↔ PQ provenance for Super Mix Capsule Z and PQ 83, preserving the Tour-only/community-farming context without promoting a guaranteed drop or exact rate."
+    "Added bidirectional QQ Bang ↔ PQ provenance for Super Mix Capsule Z and PQ 83, preserving the Tour-only/community-farming context without promoting a guaranteed drop or exact rate.",
+    "Refined PQ 83 ↔ Super Mix Capsule Z provenance with 2024 Steam/Reddit/GameFAQs evidence and explicitly preserved observed drop variability rather than promoting a guaranteed reward or exact rate."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
     "qq_bang_observed_vectors": 16,
     "targets": [
-      "reconcile remaining QQ Bang clothing/equipment identities",
-      "expand equipment ↔ PQ relationships where direct acquisition evidence exists",
+      "reconcile remaining QQ Bang equipment identities",
+      "expand equipment ↔ PQ acquisition links where direct evidence exists",
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Linked Super Mix Capsule Z to PQ 83 as a community-documented Online Parallel Quest Tour farming route, with explicit uncertainty: this is not a guaranteed per-run reward or exact drop-rate claim. Added the reverse PQ → QQ Bang relationship."
+    "note": "Refined the bidirectional Super Mix Capsule Z ↔ PQ 83 relationship using additional 2024 community evidence. The relationship remains a farming-route association only; inconsistent observed drops mean no guaranteed reward or exact rate is asserted."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
