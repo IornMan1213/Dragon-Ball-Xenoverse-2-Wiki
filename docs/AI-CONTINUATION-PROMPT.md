@@ -4806,3 +4806,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the repository's uncertainty rule: each six-stat vector is stored as an observed historical output, not as a deterministic guarantee. Prima documents that QQ Bangs replace the four equipment-slot stat contributions and that recipe results vary; the repository therefore does not infer repeatability from a single observation. citeturn1view0
 - [x] The new observations cover Android 18/Towa, Android 16/Great Saiyaman, multiple Beerus-based combinations, Bardock/Beerus, Beerus/Light Hearts, Beerus/4-Star Dragon Ball, Beerus/Broly, and two Beerus upper/lower-body variants.
 - [ ] Next: continue QQ Bang expansion with additional documented recipe observations while deduplicating identical input/output vectors and preserving provenance; then normalize the QQ Bang index/coverage artifacts if their contracts require the new record count.
+
+
+### 2026-09-27 continuation — QQ Bang frontier audit
+- [x] Re-read the live coverage-gap priority after the Dual Masenko recovery. QQ Bang expansion remains the next major critical domain after the Awoken/version audit.
+- [x] Inspected the canonical QQ Bang research layer. It currently contains system/mixing/recipe-family records plus 10 discrete Prima Games observed six-stat outputs; exact outputs are correctly treated as observations rather than guaranteed recipes.
+- [x] Added a research-frontier note to `docs/data/qq-bangs-record-layer.json` documenting that the next expansion should seek additional non-duplicate observed vectors with exact input/mixing-item provenance rather than duplicating existing outputs.
+- [x] Preserved the repository's null/RNG policy: no exact QQ Bang result is inferred from a recipe family, and community claims are not promoted to deterministic outcomes without observed vectors.
+- [ ] Next: expand QQ Bang coverage with genuinely new observed six-stat vectors and source provenance, then normalize the QQ Bang record layer into canonical cross-domain relationships.
+- [ ] Runtime/CI execution remains unverified.
