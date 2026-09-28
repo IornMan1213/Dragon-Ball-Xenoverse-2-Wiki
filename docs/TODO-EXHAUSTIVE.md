@@ -5255,3 +5255,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Recorded the corrected 851-edge state and 126-equipment reverse parity in `docs/COVERAGE-AUDIT.md`.
 - [x] Preserved historical 840 and superseded 852/127 counts as provenance only.
 - [ ] Next major task: audit concrete unresolved QQ Bang input names, then continue evidence-backed PQ typed-reward expansion.
+
+
+### 2026-09-28 continuation — QQ Bang input identity boundary
+- [x] Completed the remaining concrete QQ Bang input-name audit.
+- [x] No safe new canonical equipment link was identified; generic recipe prose and explicitly unspecified inputs remain unlinked by design.
+- [x] Updated `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json` with the final boundary.
+- [ ] **Next:** continue evidence-backed PQ typed-reward expansion and acquisition-gap research.
