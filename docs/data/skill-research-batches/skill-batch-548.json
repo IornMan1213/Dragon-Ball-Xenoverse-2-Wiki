@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 548,
+  "date": "2026-09-28",
+  "status": "complete",
+  "research_scope": "Evidence-bound audit of six remaining canonical null race_restriction skills: Backflip, Break Strike, Consecutive Energy Blast, Energy Wave Combo, Power Pole Combo, Turn Retreat.",
+  "verification_policy": "Do not infer a race restriction from CaC usability, partner usage, Skill Shop availability, or generic Evasive availability. Populate race_restriction only when direct evidence establishes a narrower race/gender/form rule.",
+  "records": [
+    {
+      "id": "skill-backflip",
+      "name": "Backflip",
+      "finding": "Skill Shop evidence confirms Future Warrior acquisition; no narrower race restriction established.",
+      "race_restriction_result": null
+    },
+    {
+      "id": "skill-break-strike",
+      "name": "Break Strike",
+      "finding": "Skill Shop evidence confirms Future Warrior acquisition; no narrower race restriction established.",
+      "race_restriction_result": null
+    },
+    {
+      "id": "skill-consecutive-energy-blast",
+      "name": "Consecutive Energy Blast",
+      "finding": "CaC creation evidence lists the skill among selectable starting-style skills; no narrower race restriction established.",
+      "race_restriction_result": null
+    },
+    {
+      "id": "skill-energy-wave-combo",
+      "name": "Energy Wave Combo",
+      "finding": "Current partner/CaC evidence confirms customizable-character availability; no narrower race restriction established.",
+      "race_restriction_result": null
+    },
+    {
+      "id": "skill-power-pole-combo",
+      "name": "Power Pole Combo",
+      "finding": "Skill Shop endpoint and Goku GT/customizable-partner usage are established; no narrower CaC race restriction established.",
+      "race_restriction_result": null
+    },
+    {
+      "id": "skill-turn-retreat",
+      "name": "Turn Retreat",
+      "finding": "Current Evasive Skill reference lists it among Evasives available to CaCs; no narrower race restriction established.",
+      "race_restriction_result": null
+    }
+  ]
+}
