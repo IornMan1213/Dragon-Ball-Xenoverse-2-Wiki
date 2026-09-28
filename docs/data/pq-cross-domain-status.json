@@ -272,6 +272,10 @@
     {
       "date": "2026-09-28",
       "note": "Promoted Android 13's Hat→PQ105 and Android 17 (DB Super) Wig→PQ152 as source-backed canonical equipment relationships; also reconciled stale candidate statuses where relationships already existed."
+    },
+    {
+      "date": "2026-09-28",
+      "note": "Promoted SSGSS Goku Wig to PQ76 after confirming canonical accessory identity acc-066 and matched bridge record pqacc-014."
     }
   ]
 }
