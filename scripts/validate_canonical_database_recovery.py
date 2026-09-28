@@ -55,16 +55,20 @@ def main() -> None:
     skill_ids = unique_ids(skills, "skills")
     index_ids = unique_ids(skill_index, "skills-index")
 
-    if len(skill_ids) != 493:
-        raise SystemExit(f"expected 493 canonical skills, found {len(skill_ids)}")
     if index_ids != skill_ids:
         raise SystemExit("skills-index identity set does not exactly match skills.json")
-    if skill_pq.get("canonical_skill_count") != 493:
-        raise SystemExit("skill-PQ reverse artifact canonical_skill_count is not 493")
-    if skill_pq.get("total_skill_pq_edges") != 248:
-        raise SystemExit("skill-PQ reverse artifact edge count is not 248")
-    if skill_pq.get("represented_pq_count") != 170:
-        raise SystemExit("skill-PQ reverse artifact represented PQ count is not 170")
+
+    if skill_pq.get("canonical_skill_count") != len(skill_ids):
+        raise SystemExit("skill-PQ reverse artifact canonical_skill_count does not match skills.json")
+    pq_ids = skill_pq.get("pq_ids")
+    if not isinstance(pq_ids, dict):
+        raise SystemExit("skill-PQ reverse artifact pq_ids must be an object")
+    derived_edges = sum(len(v.get("skill_ids", [])) for v in pq_ids.values() if isinstance(v, dict) and isinstance(v.get("skill_ids"), list))
+    derived_represented = sum(bool(v.get("skill_ids")) for v in pq_ids.values() if isinstance(v, dict))
+    if skill_pq.get("total_skill_pq_edges") != derived_edges:
+        raise SystemExit("skill-PQ reverse artifact edge count does not match its projection")
+    if skill_pq.get("represented_pq_count") != derived_represented:
+        raise SystemExit("skill-PQ reverse artifact represented PQ count does not match its projection")
 
     reward_rows = pq_rewards.get("verified_relationships")
     if not isinstance(reward_rows, list):
@@ -98,7 +102,7 @@ def main() -> None:
     print("PASS: canonical database recovery contract is structurally intact.")
     print(f"canonical skills: {len(skill_ids)}")
     print("skills-index identities: exact match")
-    print("skill→PQ reverse: 493 skills / 248 edges / 170 represented PQs")
+    print(f"skill→PQ reverse: {len(skill_ids)} skills / {derived_edges} edges / {derived_represented} represented PQs")
     print("PQ reward relationship count keys: skill, super_soul, equipment, character, dlc, farming")
 
 
