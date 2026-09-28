@@ -1,0 +1,109 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "PQ176-PQ180 record-level typed skill-reward parity audit",
+  "canonical_sources": [
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/parallel-quest-research-batches/pq-batch-17.json",
+    "docs/data/pq-record-batches/pq-163-186.json",
+    "docs/data/pq-skill-crosslink-report.json"
+  ],
+  "policy": "Canonical forward PQ reward relationships are authoritative. PQ records, crosslink reports, and reverse indexes are reconciliation/consumer layers; do not infer ownership from character presets or non-PQ acquisition.",
+  "records": [
+    {
+      "pq": 176,
+      "name": "Havoc at the 3-Universe Feast",
+      "record_skill_rewards": [
+        "God of Destruction's Might"
+      ],
+      "canonical_forward": [
+        "God of Destruction's Might"
+      ],
+      "crosslink_matches": [
+        "God of Destruction's Might"
+      ],
+      "status": "parity_resolved"
+    },
+    {
+      "pq": 177,
+      "name": "Warped Sense of Justice",
+      "record_skill_rewards": [
+        "Full Power Destruction",
+        "Dragon Spark",
+        "Soaring Rush"
+      ],
+      "canonical_forward": [
+        "Full Power Destruction",
+        "Dragon Spark",
+        "Soaring Rush"
+      ],
+      "crosslink_matches": [
+        "Full Power Destruction",
+        "Dragon Spark",
+        "Soaring Rush"
+      ],
+      "status": "parity_resolved"
+    },
+    {
+      "pq": 178,
+      "name": "The Tireless Pursuit of Strength",
+      "record_skill_rewards": [
+        "Burst Blitz"
+      ],
+      "canonical_forward": [
+        "Burst Blitz"
+      ],
+      "crosslink_matches": [
+        "Burst Blitz"
+      ],
+      "status": "parity_resolved"
+    },
+    {
+      "pq": 179,
+      "name": "24/7 Time Patrol",
+      "record_skill_rewards": [
+        "Heat Wave",
+        "Supreme Fury"
+      ],
+      "canonical_forward": [
+        "Heat Wave",
+        "Supreme Fury"
+      ],
+      "crosslink_matches": [
+        "Heat Wave",
+        "Supreme Fury"
+      ],
+      "status": "parity_resolved"
+    },
+    {
+      "pq": 180,
+      "name": "Battle of Resolve: VS Goku Black",
+      "record_skill_rewards": [
+        "Force Edge",
+        "Burning Blast"
+      ],
+      "canonical_forward": [
+        "Force Edge",
+        "Burning Blast"
+      ],
+      "crosslink_matches": [
+        "Force Edge",
+        "Burning Blast"
+      ],
+      "status": "parity_resolved"
+    }
+  ],
+  "findings": [
+    "All 10 documented skill reward endpoints in PQ176-PQ180 are represented in the canonical forward relationship layer and the PQ skill cross-link report.",
+    "No additional skill reward was inferred from basic-reward prose, character ownership, or skill acquisition fields.",
+    "Force Edge and Burning Blast remain reward relationships even though direct CaC eligibility evidence is a separate field-level question; reward membership does not establish usable_by_cac.",
+    "PQ176's canonical record currently has one skill reward; PQ177 has three; PQ178 has one; PQ179 has two; PQ180 has two.",
+    "Ultimate Finish/drop conditions remain attached to the PQ record layer and were not converted into unsupported universal probability claims."
+  ],
+  "result": {
+    "pq_records_checked": 5,
+    "skill_reward_edges_checked": 9,
+    "unresolved_endpoint_mismatches": 0,
+    "new_relationships": 0
+  }
+}
