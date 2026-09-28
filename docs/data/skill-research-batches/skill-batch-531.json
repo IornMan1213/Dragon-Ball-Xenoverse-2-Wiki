@@ -1,0 +1,21 @@
+{
+  "batch": 531,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Stale early/base-game PQ71-PQ75 skill records lacking a post-recovery current-evidence refresh.",
+  "selected": [
+    {"skill_name":"Last Emperor","current_evidence":{"class":"Ultimate","subcategory":"Ki Blast","ki_cost":0,"usable_by_cac":true,"character_source":"Frieza (1st Form); Frieza (Full Power); Golden Frieza; Golden Frieza (Supervillain)","acquisition":"Parallel Quest 71 — Abominable Saiyans"},"mechanics_boundary":"Low-health, once-only powerful purple energy wave is documented. The prior 21-hit description is retained as bounded evidence; exact damage/scaling and trigger threshold are not promoted."},
+    {"skill_name":"Burst Kamehameha","current_evidence":{"class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"SSGSS Goku; Goku; Goku (Super Saiyan God); Goku (GT); Goku (Super Saiyan 4)","acquisition":"Parallel Quest 72 — First Training"},"mechanics_boundary":"Initial Kamehameha activation uses 100 Ki and a follow-up input can extend the attack for additional Ki. Exact scaling and timing are not promoted."},
+    {"skill_name":"Psychic Move","current_evidence":{"class":"Evasive","subcategory":"Other","usable_by_cac":true,"character_source":"Zamasu","acquisition":"Parallel Quest 73 — Frieza's Siege Against Earth!"},"mechanics_boundary":"Teleportation/repositioning Evasive is supported. Resource cost remains unresolved rather than being inferred."},
+    {"skill_name":"Final Pose","current_evidence":{"class":"Evasive","subcategory":"Other","usable_by_cac":true,"character_source":"Ginyu Force","acquisition":"Parallel Quest 74 — Galactic Patrol, Away!"},"mechanics_boundary":"Pose-based CaC Evasive is supported. Exact stamina cost and detailed effect remain unresolved."},
+    {"skill_name":"Counter Burst","current_evidence":{"class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Vegeta; SSGSS Vegeta; Trunks (Future)","acquisition":"Parallel Quest 75 — Room to Spare"},"mechanics_boundary":"Counters an incoming Ki Blast and returns a stronger projectile; prior research documents a six-hit counter projectile. Exact scaling and timing are not promoted."}
+  ],
+  "validation":{"canonical_skill_identity_count":493,"canonical_identity_changes":0,"unsupported_pq_relationships_added":0,"speculative_frames_added":0,"speculative_patch_independent_scaling_added":0,"speculative_probabilities_added":0},
+  "source_provenance":{
+    "last_emperor":["https://dbxv2.fandom.com/wiki/Last_Emperor","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"],
+    "burst_kamehameha":["https://dbxv2.fandom.com/wiki/Burst_Kamehameha","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"],
+    "psychic_move":["https://dbxv2.fandom.com/wiki/Psychic_Move","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"],
+    "final_pose":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"],
+    "counter_burst":["https://dbxv2.fandom.com/wiki/Counter_Burst","https://steamcommunity.com/sharedfiles/filedetails/?id=796204215"]
+  }
+}
