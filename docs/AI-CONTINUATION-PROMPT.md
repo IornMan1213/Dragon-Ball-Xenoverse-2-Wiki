@@ -6737,3 +6737,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Re-read and parsed the repaired skill catalog audit plus the post-corruption recovery audit and current live recovery baseline successfully.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the version/patch provenance frontier from the existing evidence census and authoritative release registry; do not assign game versions from research dates or inference. Then continue bidirectional PQ↔skill/Super Soul/equipment enrichment where direct evidence supports it.
+
+
+### 2026-09-28 continuation — Skill version/patch provenance schema foundation batch 576
+- [x] Established `docs/data/skill-version-provenance-schema.json` as the evidence-backed contract for future skill release/version provenance.
+- [x] Explicitly separated release-event provenance from balance-patch history, research timestamps, and unresolved version fields.
+- [x] Defined conservative confidence/evidence states and a patch-change contract requiring explicit source evidence before any balance-change record is populated.
+- [x] Recorded the current evidence census: **497** canonical skills; **28** direct skill→release-event mappings; **284** with explicit patch mentions, **287** with explicit version-sensitive language, and **295** with explicit DLC/update provenance signals in reviewed evidence.
+- [x] Preserved the four Free Update 20 Festival identities as named event skills with unresolved canonical internal IDs; no IDs were inferred and no canonical skill records were fabricated.
+- [x] Updated `docs/data/skill-catalog-audit.json` to make version/patch provenance the active field-level frontier.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** use the new provenance contract to audit canonical skills with explicit release/update evidence, prioritizing direct event/version evidence and leaving unsupported version fields null; then continue cross-domain enrichment.
