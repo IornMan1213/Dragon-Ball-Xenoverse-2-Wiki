@@ -4753,3 +4753,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Reconcile remaining promoted preset-skill records; preserve null/conflicting acquisition and mechanics fields where evidence is insufficient.
 - [ ] Obtain direct evidence for Super Ki Explosion and Ultra Fighting Bomber before any further canonical field promotion.
 - [ ] Resume QQ Bang/equipment and Skill/PQ cross-domain enrichment after the post-recovery skill evidence frontier is sufficiently reconciled.
+
+
+### Post-recovery evidence frontier — 2026-09-27 continuation
+- [x] Reconcile **Super Dragon Fist** against direct skill-page/catalog evidence: Strike Super, 100 Ki, Skill Shop, CaC-usable, three-hit rush behavior.
+- [x] Reconcile **Holstein Shock** against direct Xenoverse 2 technique/PQ evidence: Captain Ginyu Super, PQ15 reward route, self-damage, instant two-bar Ki behavior.
+- [x] Reconcile **Backflip** against direct Other Evasive evidence: zero Ki, zero Stamina, shop acquisition, defensive backflip behavior.
+- [x] Reconcile **Turn Retreat** against direct Strike Evasive evidence: 300 Stamina, Skill Shop, CaC usability, directional spinning/stun behavior.
+- [ ] Apply only evidence-backed field corrections to the canonical 493-record skill corpus after record-level comparison; do not overwrite stronger canonical provenance with weaker catalog evidence.
+- [ ] Continue remaining restored identity evidence research; keep unsupported fields null/conflicted.
