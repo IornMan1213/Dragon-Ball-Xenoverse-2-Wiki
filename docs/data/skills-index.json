@@ -3721,12 +3721,14 @@
       "research_status": "catalog_gap_promoted",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers",
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+        "https://videogaming.fandom.com/wiki/Energy_Wave_Combo_%28Dragon_Ball%3A_Xenoverse_2%29"
       ],
-      "unlock_method": null,
+      "unlock_method": "Skill Shop / default Future Warrior Super Skill",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current repository research establishes the identity and 100 Ki cost but does not safely establish a current acquisition route or a unique character source."
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current Xenoverse 2-specific evidence supports Skill Shop availability and identifies Energy Wave Combo as a default Future Warrior Super Skill. Exact Ultimate-Finish requirement remains unresolved."
     },
     {
       "id": "skill-eraser-bomb",
