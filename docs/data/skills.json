@@ -599,10 +599,10 @@
       "source_quest_or_shop": "Parallel Quest 172 — \"Little Big Brother\"",
       "ultimate_finish_required": true,
       "skill_description": "Big Bang Knuckle is a 100-Ki Strike Super associated with Vegeta (Super Saiyan God) Ultra Supervillain.",
-      "mechanics_notes": "Dedicated current-version evidence identifies Big Bang Knuckle as a 100-Ki Strike Super from PQ172 for Vegeta (Super Saiyan God) Ultra Supervillain; the current record remains non-CaC because no CaC acquisition/equip path is established. Current evidence marks this skill as non-CaC/character-exclusive, so a CaC race restriction is not applicable. Current dedicated skill evidence does not classify this PQ skill as unavailable for CaCs; its PQ Ultimate Finish reward acquisition is retained.",
+      "mechanics_notes": "100-Ki Strike Super from PQ172. Current skill documentation records up to seven Ki Blasts followed by a chase and aura-infused finishing punch, with an 11-hit classification and an immediate Final Rampage follow-up.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "sources": [
         "https://en.dragon-ball-official.com/news/01_2604.html",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -616,7 +616,9 @@
       "id": "skill-big-bang-knuckle",
       "source_parallel_quests": [
         172
-      ]
+      ],
+      "pve_notes": "A multi-stage Strike Super that can chain ranged blasts into a chase and finishing punch; the documented Final Rampage follow-up is preserved.",
+      "pvp_notes": "Its multi-stage sequence creates several commitment points; exact timing, scaling, and interruption behavior remain unresolved."
     },
     {
       "name": "Blades of Judgment",
@@ -2114,20 +2116,22 @@
       "research_status": "enriched",
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 153 — \"Seeing Double\" Ultimate Finish bonus reward (35% roll)",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "ultimate_finish_required": true,
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 153 — \"Seeing Double\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Conton City Vote Pack",
-      "mechanics_notes": "Current evidence confirms Counter Impact as a 100-Ki Ki Blast Super from PQ153; it deflects melee attacks, warps behind the opponent, and can release a Ki Wave. No CaC race/gender/form restriction is established. Future Warrior evidence explicitly includes this skill; no narrower CaC race/gender/form restriction is established, so the explicit scope is All CaC races.",
+      "mechanics_notes": "100-Ki Ki Blast Super from PQ153. A counter stance warps the user behind the attacker; continued input fires the follow-up Ki Wave. Official DLC material confirms the counter/warp sequence and extra-damage timing.",
       "source_quest": 153,
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-21 Conton City Vote Pack provenance audit: official publisher/store documentation confirms 4 new Parallel Quests and 10 additional moves; maintained PQ evidence identifies PQ151–154 as the pack's four PQs. The live canonical data contains eight PQ-linked skills across those quests plus the character-specific Supersonic Mode; the ten move set is represented without changing character-only acquisition semantics. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification, PQ153 acquisition, melee-deflection stance, warp-behind behavior, and optional Ki Wave follow-up. Current evidence also identifies Vegeta (GT) as the notable user; no new CaC scope restriction is inferred. 2026-09-23 provenance refresh: current dedicated evidence and independent corroboration were rechecked for the canonical acquisition/classification endpoint; existing reward-tier, cost, scope, and mechanics semantics are preserved, and no unsupported drop probability or additional gate is inferred.\n2026-09-27 Batch 503 current-evidence refresh: current evidence reconfirms 100 Ki, Ki Blast Super classification, PQ153 endpoint, melee deflection, behind-target warp, and optional Ki Wave release. No narrower CaC restriction is inferred.",
       "id": "skill-counter-impact",
       "source_parallel_quests": [
         153
-      ]
+      ],
+      "pve_notes": "A reactive counter that converts a successful trigger into repositioning and a follow-up Ki Wave.",
+      "pvp_notes": "The warp changes the user's position relative to the attacker and creates a follow-up timing decision; exact frame data and scaling remain unresolved."
     },
     {
       "name": "Crazy Finger Shot",
@@ -6861,10 +6865,10 @@
       "source_quest_or_shop": "Parallel Quest 130 — \"Legendary Starving Saiyan Broly\"",
       "ultimate_finish_required": false,
       "skill_description": "Gigantic Rage is a 200-Ki Strike Super obtainable by the Future Warrior.",
-      "mechanics_notes": "200-Ki Strike Super from PQ130. A close-range grab slams the opponent to the ground five times for a hard knockdown; current dedicated evidence reports about 15% total damage. The attack is unblockable and Super Armor is documented for Broly's use only.",
-      "verification_status": "verified",
+      "mechanics_notes": "200-Ki Strike Super from PQ130. The user grabs the opponent and slams them into the ground five times, with the final slam producing a hard knockdown; current documentation reports 15% total damage. The move has Super Armor when used by Broly (Full Power Super Saiyan), while Kale and Broly (DB Super) use it without that Broly-only armor property.",
+      "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77868870",
@@ -6879,7 +6883,9 @@
       "id": "skill-gigantic-rage",
       "source_parallel_quests": [
         130
-      ]
+      ],
+      "pve_notes": "A grab-based multi-hit Strike Super with a hard knockdown finish; the documented armor distinction is specific to Broly (Full Power Super Saiyan) and is not generalized to other users.",
+      "pvp_notes": "The close-range grab starter and repeated slams create a committed sequence; exact startup, active/recovery, scaling, and hidden interaction rules remain unresolved."
     },
     {
       "name": "Gigantic Roar",
@@ -7734,7 +7740,7 @@
       "name": "Heroic Counter",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "verified",
+      "verification_status": "verified_current_scope",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Heroic_Counter",
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
@@ -7750,14 +7756,16 @@
       "source_quest_or_shop": "Parallel Quest 155 — \"I Need a Hero... Pose!\"",
       "race_restriction": "All CaC races",
       "dlc_requirement": "Hero of Justice Pack 1",
-      "last_verified": "2026-09-27",
-      "mechanics_notes": "Current dedicated evidence confirms Heroic Counter as a 100-Ki Strike Super, universal counter, from PQ155. Gamma 2 is the notable user; the page does not establish a CaC race/gender/form restriction. Reviewed in the current null-race census: available to the Future Warrior/CaC, no narrower CaC race/gender/form restriction is established by the reviewed evidence; character-specific users are not treated as race restrictions.",
+      "last_verified": "2026-09-28",
+      "mechanics_notes": "100-Ki Strike Super from PQ155. A barrier pose counters an attack with a vanish-behind spinning kick; additional input can trigger the warp attack without requiring a successful block. Current source material reports approximately 10% damage and a tracking/movement buff.",
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-20 explicit drop-condition correction: The maintained PQ drop-condition data explicitly assigns this skill to an Ultimate Finish roll/bonus slot; the canonical UF flag follows that condition. Exact roll percentage is recorded as documented, without inferring additional prerequisites. 2026-09-20 provenance census: normalized source field to Parallel Quest 155 — \"I Need a Hero... Pose!\", matching the maintained PQ research record. 2026-09-21 Hero of Justice Pack 1 provenance audit: official Bandai Namco/Nintendo documentation identifies 4 new Parallel Quests and 7 additional moves; maintained PQ evidence identifies PQ155–158 and lists all seven canonical moves. The live repository maps each of the seven moves to its corresponding PQ and Hero of Justice Pack 1 provenance.\n2026-09-22 verification refresh: revalidated the existing acquisition, classification, DLC provenance, and mechanic claims against the repository's maintained evidence corpus; existing conflicts and unresolved details remain explicit, with no unsupported drop rates, gates, or restrictions inferred.\n2026-09-23 verification refresh: revalidated the existing acquisition, classification, mechanics, DLC/roster provenance, and documented reward-tier semantics against the maintained evidence corpus; no unsupported conditions or values added.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced. 2026-09-27 Batch 521 current-evidence refresh: current Xenoverse 2 skill evidence and the maintained repository evidence corpus were rechecked for acquisition, classification, usability, and documented mechanics. Existing canonical values and provenance boundaries were retained; unsupported exact frames, reward probabilities, hidden conditions, and patch-independent scaling were not inferred.",
       "id": "skill-heroic-counter",
       "source_parallel_quests": [
         155
-      ]
+      ],
+      "pve_notes": "Combines a defensive counter stance with a follow-up warp attack; the optional follow-up behavior is documented without inferring exact timing windows.",
+      "pvp_notes": "The counter pose can punish committed attacks, while the additional-input route provides a proactive variant; exact frame data and hidden interaction rules remain unresolved."
     },
     {
       "name": "Holstein Shock",
@@ -8427,8 +8435,8 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "source_quest_or_shop": "Gohan (Adult) and Videl mentor training",
-      "mechanics_notes": "300-Ki Strike Ultimate learned from Gohan (Adult) & Videl mentor training. Current evidence documents a fast high-kick opener into a multi-hit rush ending in a blue-energy palm strike; the final hit can be vanished. Exact universal damage/frame values remain unresolved.",
-      "last_verified": "2026-09-27",
+      "mechanics_notes": "300-Ki Strike Ultimate learned through Gohan (Adult) and Videl training. A quick blue-energy high kick starts the sequence; on connection it continues through multiple kicks and ends with an energy-coated palm strike that supplies most of the damage and knocks the opponent away. The final hit can be vanished.",
+      "last_verified": "2026-09-28",
       "race_restriction": "All CaC races",
       "source_quest": "Gohan (Adult) and Videl mentor training",
       "dlc_requirement": "Base Game",
@@ -8438,7 +8446,9 @@
       "source_mentor": [
         "mentor-gohan-videl"
       ],
-      "ki_cost": 300
+      "ki_cost": 300,
+      "pve_notes": "A training-derived multi-hit Strike Ultimate with a strong finishing palm strike and documented vanish interaction on the final hit.",
+      "pvp_notes": "The opening kick initiates a committed sequence and the final hit can be vanished, providing documented counterplay; exact frame data and scaling remain unresolved."
     },
     {
       "name": "Justice Drive",
