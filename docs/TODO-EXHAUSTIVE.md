@@ -4462,3 +4462,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Established canonical `equip-111` for the distinct `Android 18's Clothes (Skirt)` QQ Bang input using historical exact-variant evidence; retained historical stats while leaving acquisition unresolved because the historical PQ25 claim conflicts with the recovered canonical PQ25 reward layer.
 - [x] 2026-09-27: Reattached `qq-observed-prima-005` to `equip-111` and preserved the acquisition conflict boundary without fabricating a PQ link.
 - [ ] 2026-09-27: Continue exact QQ Bang clothing identity audit and reconcile historical acquisition conflicts before promoting equipment↔PQ links.
+
+- [x] 2026-09-27: Reconciled PQ25 against multiple historical reward records and restored its documented reward set, including Android 18's Clothes (Skirt); exact drop mechanics remain unresolved.
+- [x] 2026-09-27: Promoted `equip-111` Android 18's Clothes (Skirt) ↔ `pq-025` as a bidirectional acquisition relationship using the reconciled PQ25 evidence.
+- [ ] 2026-09-27: Continue the exact QQ Bang/equipment identity audit and reconcile any remaining historical PQ reward conflicts before broad promotion.
