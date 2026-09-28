@@ -6306,6 +6306,14 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "PQ48's maintained record layer and the all-PQ source list the basic reward as 'Kamekameha'. The canonical skill identity is 'Kamehameha'. This promotes the explicit documented reward while retaining the historical spelling variant rather than inventing a new skill identity."
+    },
+    {
+      "pq": "pq-051",
+      "relationship": "pq_rewards_equipment",
+      "target": "Great Saiyaman Helmet",
+      "status": "source_backed",
+      "source": "https://dbxv2.fandom.com/wiki/Equipment",
+      "notes": "Canonical accessory research explicitly associates Great Saiyaman Helmet with PQ51; the relationship records the named reward association without asserting a guaranteed drop condition."
     }
   ],
   "normalization_rules": [
@@ -6322,13 +6330,13 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 126,
+    "pq_rewards_equipment": 127,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 852
+    "total": 853
   },
   "last_reconciled_scope": "2026-09-28 PQ48 Kamekameha/Kamehameha typed-skill reward reconciliation",
   "notes": [
