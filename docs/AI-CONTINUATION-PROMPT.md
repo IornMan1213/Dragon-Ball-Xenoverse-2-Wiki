@@ -4862,3 +4862,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the research frontier to reconcile observed vectors with canonical clothing/equipment records next.
 - [ ] Runtime/CI execution remains unverified.
 - [ ] **Exact next:** normalize these observed vectors against canonical equipment/clothing identifiers, then continue version-aware Super Mix Capsule Z/material provenance and cross-domain build links.
+
+
+### 2026-09-27 continuation — QQ Bang/equipment cross-domain normalization
+- [x] Added four missing canonical equipment identity stubs: Beerus Top, Pikkon's Clothes, Towa's Clothes, and Future Trunks' Clothes. They were introduced because observed QQ Bang records explicitly use those inputs; no unsupported stats, acquisition routes, or restrictions were invented.
+- [x] Added equipment identifiers to **8 QQ Bang records** where input names matched canonical records safely. This establishes the beginning of the intended PQ → equipment/QQ Bang → build cross-navigation chain.
+- [ ] Continue resolving remaining QQ Bang clothing inputs (including existing-but-name-mismatched equipment records) and then add version-aware Super Mix Capsule Z/material provenance.
+- [ ] Runtime/CI execution remains unverified.
