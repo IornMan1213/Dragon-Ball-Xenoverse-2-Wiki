@@ -9,7 +9,7 @@
       "name": "Battle Suit (Raditz)",
       "pq_id": "pq-003",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -17,7 +17,7 @@
       "name": "Lord Slug's Clothes",
       "pq_id": "pq-098",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -25,7 +25,7 @@
       "name": "GT Goku's Gi",
       "pq_id": "pq-092",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -33,7 +33,7 @@
       "name": "Demon Clothes (Piccolo, with Cape)",
       "pq_id": "pq-003",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -41,7 +41,7 @@
       "name": "Training Suit",
       "pq_id": "pq-087",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -272,7 +272,8 @@
   "audit_summary": {
     "date": "2026-09-27",
     "entry_count": 33,
-    "pending": 33,
+    "pending": 28,
+    "promoted": 5,
     "rule": "Queue records are evidence-backed acquisition-source references only; no guaranteed drop or rate is inferred."
   }
 }
