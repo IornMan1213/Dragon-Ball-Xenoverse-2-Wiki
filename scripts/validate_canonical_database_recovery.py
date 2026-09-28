@@ -55,14 +55,14 @@ def main() -> None:
     skill_ids = unique_ids(skills, "skills")
     index_ids = unique_ids(skill_index, "skills-index")
 
-    if len(skill_ids) != 475:
-        raise SystemExit(f"expected 475 canonical skills, found {len(skill_ids)}")
+    if len(skill_ids) != 493:
+        raise SystemExit(f"expected 493 canonical skills, found {len(skill_ids)}")
     if index_ids != skill_ids:
         raise SystemExit("skills-index identity set does not exactly match skills.json")
-    if skill_pq.get("canonical_skill_count") != 475:
-        raise SystemExit("skill-PQ reverse artifact canonical_skill_count is not 475")
-    if skill_pq.get("total_skill_pq_edges") != 246:
-        raise SystemExit("skill-PQ reverse artifact edge count is not 246")
+    if skill_pq.get("canonical_skill_count") != 493:
+        raise SystemExit("skill-PQ reverse artifact canonical_skill_count is not 493")
+    if skill_pq.get("total_skill_pq_edges") != 248:
+        raise SystemExit("skill-PQ reverse artifact edge count is not 248")
     if skill_pq.get("represented_pq_count") != 170:
         raise SystemExit("skill-PQ reverse artifact represented PQ count is not 170")
 
@@ -98,7 +98,7 @@ def main() -> None:
     print("PASS: canonical database recovery contract is structurally intact.")
     print(f"canonical skills: {len(skill_ids)}")
     print("skills-index identities: exact match")
-    print("skill→PQ reverse: 475 skills / 246 edges / 170 represented PQs")
+    print("skill→PQ reverse: 493 skills / 248 edges / 170 represented PQs")
     print("PQ reward relationship count keys: skill, super_soul, equipment, character, dlc, farming")
 
 
