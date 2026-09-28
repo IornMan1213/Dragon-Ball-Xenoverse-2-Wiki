@@ -6047,3 +6047,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 529 and reconcile any directly supported field-level improvements.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 530
+- [x] Continued the post-recovery frontier with five stale PQ61-PQ70 cohort records: **Recoome Kick, Fighting Pose H, Teleporting Vanishing Ball, Angry Shout, and Headshot**.
+- [x] Preserved documented class, resource cost, acquisition, character source, and bounded mechanics evidence without inventing exact frames, scaling, hidden conditions, or probabilities.
+- [x] Added `docs/data/skill-research-batches/skill-batch-530.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 530 and reconcile any directly supported field-level improvements.
