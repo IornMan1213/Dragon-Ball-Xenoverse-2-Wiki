@@ -119,7 +119,7 @@
       "title": "Dragon Ball DAIMA Pack is now available in DRAGON BALL XENOVERSE 2",
       "date": "2025-05-21",
       "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-daima-pack-now-available-dragon-ball-xenoverse-2",
-      "scope": "Official release notice confirms the Dragon Ball DAIMA Pack includes player-character skills, alongside two new playable DAIMA characters."
+      "scope": "Official release notice confirms the Dragon Ball DAIMA Pack contains six player-character skills, while a separate free update released the same day included Skills among its free content. The announcement does not name the free-update Skills."
     },
     {
       "id": "community_free_update_20_catalog",
@@ -127,7 +127,7 @@
       "title": "Free Update catalog — Free Update 20",
       "date": "2025-05-21",
       "url": "https://dbxv2.fandom.com/wiki/Free_Update",
-      "scope": "Community reference identifies Free Update 20 as the May 21 2025 update associated with the DAIMA Pack and records its broader update contents; individual skill names must still be independently matched to canonical records before assignment."
+      "scope": "Community Free Update catalog identifies Free Update 20 as May 21 2025, version 1.24.0, associated with the DAIMA Pack. Its listed Free Update 20 section does not provide a direct named list of newly added player Skills sufficient to map additional canonical skill IDs."
     },
     {
       "id": "official_free_update_20_jp",
@@ -232,7 +232,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Recover complete canonical records for God Bind (Festival), Egret Waltz (Festival), Gamma Force: Code-R (Festival), and Gamma Force: Code-B (Festival); reconcile IDs/fields against existing research batches before assigning Free Update 20 provenance.",
+  "next_step": "Proceed to Future Saga Chapter 4 named-move reconciliation. The May 2025 Free Update 20 skill provenance remains explicitly unresolved because no direct named skill list was established.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
