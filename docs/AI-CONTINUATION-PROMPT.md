@@ -4736,3 +4736,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] PQ118 remains unresolved. No Skill→PQ edge was manufactured from weak/conflicting web material; the direct TP Medal Shop evidence remains the canonical acquisition endpoint.
 - [x] Updated `docs/data/dual-masenko-canonical-gap-audit-2026-09-27.json` to close the restoration gap.
 - [ ] Next: run/inspect canonical cross-domain validators and then identify the next genuine omission or under-enriched endpoint.
+
+
+### 2026-09-27 continuation — Post-restoration validator synchronization
+- [x] Audited the validators after Dual Masenko restoration. Several deterministic validators still encoded the pre-recovery 474-skill baseline; these were updated to the live 475-record canonical corpus.
+- [x] Updated `validate_skill_pq_crosslinks.py`, `validate_canonical_database_recovery.py`, `validate_skill_acquisition_metadata.py`, and `validate_pq_skill_links.py` to expect 475 canonical skills.
+- [x] Updated `validate_partner_skill_relationships.py` from 3 to 4 canonical partner relationships and aligned Dual Masenko's partner endpoint to the repository's canonical character name `Future Trunks`.
+- [x] Re-synchronized `docs/data/skill-pq-reverse-index-2026-09-26.json`: 475 canonical skills, 246 Skill→PQ edges, 170 represented PQs; no PQ edge was added for Dual Masenko.
+- [x] Re-synchronized `docs/data/pq-skill-crosslink-report.json` to 475 canonical skill records.
+- [x] Static Git-object checks confirm the canonical Skills layer contains 475 records including `skill-dual-masenko`, the Skills Index contains 475 matching identities, and the Skill→PQ projection remains 246 edges / 170 PQs.
+- [x] Corrected Dual Masenko partner evidence to repository-local evidence files so the partner validator's evidence-path contract remains valid.
+- [ ] Runtime execution of validators remains unverified in this connector environment; next continuation should inspect available CI/workflow artifacts or execute validators if an execution path becomes available.
+- [ ] Next substantive frontier: continue exhaustive missing/under-enriched endpoint discovery rather than cosmetic documentation changes. PQ118 ↔ Dual Masenko remains explicitly unresolved pending direct reward evidence.
