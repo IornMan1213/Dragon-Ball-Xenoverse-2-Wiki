@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Post-corruption recovery promotion of four directly evidenced indexed-only Future Warrior skill identities into the authoritative canonical corpus.",
+  "source_of_truth": "docs/data/skills.json",
+  "prior_canonical_count": 493,
+  "new_canonical_count": 497,
+  "promoted": [
+    {
+      "id": "skill-divine-retribution",
+      "name": "Divine Retribution",
+      "classification": "Super / Strike",
+      "acquisition": "TP Medal Shop limited-time rotation",
+      "verification": "verified"
+    },
+    {
+      "id": "skill-final-shine-attack",
+      "name": "Final Shine Attack",
+      "classification": "Ultimate / Ki Blast",
+      "acquisition": "TP Medal Shop",
+      "verification": "verified"
+    },
+    {
+      "id": "skill-savage-strike",
+      "name": "Savage Strike",
+      "classification": "Super / Strike",
+      "acquisition": "TP Medal Shop limited-time rotation",
+      "verification": "verified"
+    },
+    {
+      "id": "skill-sword-of-hope",
+      "name": "Sword of Hope",
+      "classification": "Ultimate / Strike",
+      "acquisition": "TP Medal Shop",
+      "verification": "verified"
+    }
+  ],
+  "evidence_boundary": [
+    "Only records with direct Xenoverse 2-specific evidence and explicit Future Warrior/CaC acquisition were promoted.",
+    "TP Medal Shop rotation is recorded as an acquisition endpoint; no fixed current rotation schedule or reward probability is inferred.",
+    "Source-reported damage/hit measurements remain bounded to their cited documentation rather than being treated as universal balance constants.",
+    "Canonical forward data remains authoritative; indexes and research artifacts are synchronized projections."
+  ],
+  "validation": {
+    "canonical_record_count": 497,
+    "index_record_count": 497,
+    "canonical_duplicate_names": true,
+    "index_duplicate_ids": false
+  }
+}
