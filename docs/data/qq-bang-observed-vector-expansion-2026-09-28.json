@@ -33,5 +33,13 @@
     "promoted_observed_vectors_before": 17,
     "promoted_observed_vectors_after": 19,
     "new_equipment_identities": 0
+  },
+  "bidirectional_navigation": {
+    "status": "reconciled",
+    "equipment_ids": [
+      "equip-101",
+      "equip-108"
+    ],
+    "reverse_links_added": 2
   }
 }
