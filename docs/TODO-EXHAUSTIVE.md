@@ -4365,3 +4365,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Added dated 2020-2026 provenance for direct Super Mix Capsule Z Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; preserved unresolved drop-rate/version uncertainty.
 - [ ] Next: obtain deeper item-table or patch-specific evidence for Super Mix Capsule Z/Demon Realm Crystal behavior, while finishing remaining QQ Bang clothing identity reconciliation and equipment/build links.
+
+- [x] 2026-09-27: Extended Super Mix Capsule Z provenance with 2025 official support-pack distribution evidence and 2026 community evidence; distinguished paid DLC distribution from base-game Tour/drop behavior.
+- [ ] Next: reconcile remaining QQ Bang clothing identities and establish equipment/build cross-domain links; only promote patch/item-table claims when directly supported.
