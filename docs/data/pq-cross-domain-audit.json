@@ -18,9 +18,9 @@
     "dlc_edges": "populated",
     "farming_edges": "populated"
   },
-  "next_completion_gate": "Treat the historical 840-edge baseline and superseded 852/127 metadata as provenance only; the current canonical relationship store is 851 edges (248 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming).",
+  "next_completion_gate": "Treat the historical 840-edge baseline and superseded 851/126 metadata as provenance only; the current canonical relationship store is 852 edges (249 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming).",
   "current_counts": {
-    "skill": 248,
+    "skill": 249,
     "super_soul": 135,
     "equipment": 126,
     "character": 247,
@@ -33,7 +33,7 @@
     "method": "Explicit character mentions in objectives/ultimate_finish; documented aliases only",
     "excluded": "Generic 'all enemies', appearance assumptions, and unmatched ambiguous names"
   },
-  "status": "reward_relationship_consistency_audited_after_pq_12_14_and_2026_09_28_expansion",
+  "status": "reward_relationship_consistency_audited_after_pq_12_14_and_2026_09_28_recovery_refresh",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
   "full_corpus_audit": {
     "canonical_reward_maps": 6,
@@ -60,6 +60,15 @@
         "edge_only": 39,
         "affected_pq": 45
       }
+    },
+    "current_canonical_relationship_counts": {
+      "skill": 249,
+      "super_soul": 135,
+      "equipment": 126,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7,
+      "total": 852
     }
   },
   "reward_provenance_tranche": {
@@ -174,10 +183,10 @@
     }
   },
   "live_2026_09_28_refresh": {
-    "status": "current_live_counts_synchronized_after_equipment_audit",
-    "total_edges": 851,
+    "status": "current_live_counts_synchronized_after_direct_relationship_recount",
+    "total_edges": 852,
     "counts": {
-      "skill": 248,
+      "skill": 249,
       "super_soul": 135,
       "equipment": 126,
       "character": 247,
@@ -185,8 +194,8 @@
       "farming": 7
     },
     "historical_baseline_preserved": 840,
-    "superseded_refresh_preserved": 852,
-    "note": "Record-level audit corrected stale 127 equipment metadata to 126; 840 baseline and superseded 852/127 refresh remain historical provenance."
+    "superseded_refresh_preserved": 851,
+    "note": "Direct recount of canonical relationship records corrected the stale 851 total by one skill edge. The earlier 852/127 projection remains historical provenance only; equipment is 126."
   },
   "schema_documentation_consumer_review": {
     "date": "2026-09-19",
