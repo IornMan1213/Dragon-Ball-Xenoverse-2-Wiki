@@ -212,5 +212,102 @@
       }
     ],
     "conclusion": "The unmatched preset references are not a single error class. Most have existing repository research records and can be reconciled against the canonical schema; Galaxy Breaker (Festival) is explicitly non-CaC in current research and should remain outside the CaC canonical corpus. Shockwave and several repeated names require identity/dedup review before mutation. Super Ki Explosion and Ultra Fighting Bomber still lack repository research-batch evidence and must not be synthesized."
+  },
+  "research_followup": {
+    "audited": "2026-09-27",
+    "method": "Repository research-batch evidence screening for the 18 unmatched verified-preset skill names. Research layers were treated as evidence only; no automatic canonical promotion was made.",
+    "findings": [
+      [
+        "Super Galick Gun",
+        "preset_reference_supported",
+        "Character preset and Character-Core-Profiles evidence confirms the exact skill name; dedicated canonical identity still requires record-level evidence before promotion."
+      ],
+      [
+        "Sledgehammer",
+        "research_supported",
+        "skill-batch-159 explicitly identifies Super/Strike, 100 Ki, Skill Shop acquisition, CaC usability, and version-sensitive charge mechanics."
+      ],
+      [
+        "Energy Wave Combo",
+        "research_supported",
+        "skill-batch-265 explicitly identifies Super/Ki Blast, 100 Ki, CaC usability; current acquisition route remains unresolved in that batch."
+      ],
+      [
+        "Full Power Energy Wave",
+        "research_supported",
+        "skill-batch-82 explicitly identifies Ultimate/Ki Blast, 300 Ki, Skill Shop/story-gated acquisition, and CaC usability."
+      ],
+      [
+        "Full Power Energy Blast Volley",
+        "research_supported",
+        "skill-batch-253 explicitly identifies Super/Ki Blast, 100 Ki, Nappa Lesson 4, CaC usability."
+      ],
+      [
+        "Super Back Jump",
+        "research_supported",
+        "skill-batch-237 explicitly identifies Evasive/Other, 200 Stamina, CaC usability, Skill Shop/Long-range starting route."
+      ],
+      [
+        "Galaxy Breaker (Festival)",
+        "cast_or_event_exclusive",
+        "skill-batch-264 and unavailable-cac catalog identify Super/Ki Blast, 200 Ki, Vegeta, Festival of Universes, and CaC=false; should not be treated as a normal CaC canonical skill without dedicated corpus policy confirmation."
+      ],
+      [
+        "Ki Blast Cannon",
+        "research_supported_with_conflict",
+        "skill-batch-70 identifies Super/Ki Blast, 100 Ki, Skill Shop acquisition, CaC usability, and preserves an older Gohan/Videl training conflict."
+      ],
+      [
+        "Shockwave",
+        "research_evidence_found",
+        "Multiple research batches reference the name, but exact identity/acquisition needs record-level reconciliation before canonical promotion."
+      ],
+      [
+        "Super Dragon Fist",
+        "research_supported",
+        "skill-batch-155 explicitly identifies Super/Strike, CaC usability, Skill Shop acquisition, with exact Ki value left null."
+      ],
+      [
+        "Holstein Shock",
+        "research_supported",
+        "skill-batch-296 explicitly identifies Super/Other, Captain Ginyu source, and CaC usability; acquisition and cost remain unresolved."
+      ],
+      [
+        "Break Strike",
+        "research_supported",
+        "skill-batch-58 identifies Evasive/Other and preserves unresolved Ultimate Finish semantics; additional batches provide current identity evidence."
+      ],
+      [
+        "Consecutive Energy Blast",
+        "research_supported",
+        "skill-batch-251 explicitly identifies Super/Ki Blast, 100 Ki, Skill Shop acquisition, CaC usability."
+      ],
+      [
+        "Backflip",
+        "research_supported",
+        "skill-batch-57/237 identify Evasive/Other, 0 Ki/0 Stamina, CaC usability; individual-page evidence is preferred over conflicting taxonomy-table omission."
+      ],
+      [
+        "Super Ki Explosion",
+        "no_record_level_research_found",
+        "No matching skill-research-batch evidence was found during this pass; do not promote from the preset reference alone."
+      ],
+      [
+        "Recoome Eraser Gun",
+        "identity_supported",
+        "skill-batch-526 confirms the Recoome Super Skill identity, but does not yet provide enough record-level fields for canonical promotion."
+      ],
+      [
+        "Ultra Fighting Bomber",
+        "no_record_level_research_found",
+        "No matching skill-research-batch evidence was found during this pass; do not promote from the preset reference alone."
+      ],
+      [
+        "Turn Retreat",
+        "research_supported",
+        "skill-batch-223 explicitly identifies Evasive/Strike, 300 Stamina, CaC usability, Skill Shop acquisition."
+      ]
+    ],
+    "conclusion": "The unmatched set is substantially supported by existing research evidence, but the evidence is heterogeneous and several records intentionally retain null/conflict fields. No canonical skill records were added or rewritten in this pass."
   }
 }
