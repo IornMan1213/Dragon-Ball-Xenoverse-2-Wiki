@@ -5097,3 +5097,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated canonical relationship counts from 850 to **852** total, with equipment relationships 125→127.
 - [x] Commits: relationship layer `5830366db8c7b87c4a37b144e18f4d9d4dcd9bc7`; equipment layer `0f99516e4fc45436ba1c9e096c0a0b11d0a5d343`.
 - [ ] **Exact next:** continue the same evidence-first typed-reward audit across the remaining 16 PQs, prioritizing explicit accessory/equipment identities that already exist canonically; do not promote historical-only or conflicting routes.
+
+### 2026-09-28 continuation — 16-PQ typed-reward coverage audit
+- [x] Audited the canonical typed-reward relationship layer for all 16 PQ IDs lacking explicit canonical skill endpoints.
+- [x] Confirmed existing source-backed typed relationships include PQ30 (Hercule's Clothes, Tien Shinhan's Gi), PQ47 (Broly's Clothes), and PQ93 (Pan's Bandanna, Pan's Clothes), with other sparse PQs retaining their already-recorded Super Soul/equipment relationships.
+- [x] Added `docs/data/pq-16-unrepresented-typed-reward-coverage-audit-2026-09-28.json`.
+- [x] No duplicate/new canonical relationship was promoted; absence from the relationship layer remains a coverage gap rather than proof of no reward.
+- [x] Commit: `fcee7af56f0dcb94da55f2a0e490972e0ce949fd`.
+- [ ] **Exact next:** investigate the sparse early-PQ cases (especially PQ1, PQ35, PQ48) and accessory/equipment evidence for the remaining IDs, promoting only explicit item-level evidence and preserving source conflicts.
