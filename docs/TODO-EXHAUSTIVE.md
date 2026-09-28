@@ -4869,3 +4869,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Re-fetched the live file and confirmed the projection-check tail is now syntactically laid out as executable Python statements.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: inspect the next live cross-domain validator/consumer for a concrete integrity defect, then resume restored-preset enrichment and PQ reward navigation.
+
+
+### 2026-09-28 continuation — PQ reward validator hardening
+- [x] Inspected the live `scripts/validate_pq_reward_relationships.py` after the Skill→PQ validator repair.
+- [x] Found a concrete integrity/robustness defect: source/schema JSON loading was not handled deterministically, and the `current_counts` contract was duplicated verbatim.
+- [x] Hardened both JSON loads to convert OSError/JSON decode failures into controlled validation failures.
+- [x] Removed the duplicated `current_counts` validation branch while preserving the six-key/non-negative-integer contract and exact recomputed-count comparison.
+- [x] Updated `docs/data/pq-reward-validator-audit-2026-09-27.json` to record the hardening.
+- [x] No canonical PQ reward relationship data changed.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** inspect the next live cross-domain validator/consumer for a concrete integrity defect, then resume restored-preset enrichment and bidirectional PQ reward coverage.
