@@ -65,7 +65,7 @@
       "name": "Android 17's Clothes",
       "pq_id": "pq-025",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "reverse_pq_link_reconciled_forward_pending",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -73,7 +73,7 @@
       "name": "Tuxedo",
       "pq_id": "pq-121",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "reverse_pq_link_reconciled_forward_pending",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -81,7 +81,7 @@
       "name": "Wedding Dress",
       "pq_id": "pq-121",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "reverse_pq_link_reconciled_forward_pending",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -272,7 +272,8 @@
   "audit_summary": {
     "date": "2026-09-27",
     "entry_count": 33,
-    "pending": 28,
+    "pending": 25,
+    "reverse_reconciled_forward_pending": 3,
     "promoted": 5,
     "rule": "Queue records are evidence-backed acquisition-source references only; no guaranteed drop or rate is inferred."
   }
