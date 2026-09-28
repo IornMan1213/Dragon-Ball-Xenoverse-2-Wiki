@@ -1,0 +1,19 @@
+{
+  "batch": 532,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Stale early/base-game PQ81-PQ85 skill records lacking a post-recovery current-evidence refresh.",
+  "selected": [
+    {"skill_name":"Afterimage Strike","current_evidence":{"class":"Super","subcategory":"Other","ki_cost":100,"usable_by_cac":true,"character_source":"Goku (GT); Goku (Super Saiyan 4); Beerus; Gogeta (Super Saiyan 4); Vegito","acquisition":"Parallel Quest 81 — Wake Up!"},"mechanics_boundary":"Creates afterimages around the opponent and allows movement into a follow-up technique. Exact movement timing, invulnerability, and scaling are not promoted."},
+    {"skill_name":"Dragon Burn","current_evidence":{"class":"Super","subcategory":"Strike","usable_by_cac":true,"character_source":"Janemba","acquisition":"Parallel Quest 82 — Ultimate Brotherly Battle"},"mechanics_boundary":"Close-range Janemba attack with a sustained sequence is supported. Resource cost and detailed timing remain unresolved."},
+    {"skill_name":"Saiyan Spirit","current_evidence":{"class":"Ultimate","subcategory":"Ki Blast","ki_cost":300,"usable_by_cac":true,"race_restriction":"Saiyan CaC","character_source":"Bardock; Goku (GT) Customize Partner","acquisition":"Parallel Quest 84 — Saiyan Warriors"},"mechanics_boundary":"Rush attack followed by a blue Ki Wave is supported. Exact hit distribution and scaling are not promoted."},
+    {"skill_name":"Zigzag Express","current_evidence":{"class":"Super","subcategory":"Strike","ki_cost":100,"usable_by_cac":true,"race_restriction":"Male Majin CaC","character_source":"Majin Buu (Good)","acquisition":"Parallel Quest 85 — Power Berserkers"},"mechanics_boundary":"Short-range controllable rush with documented four-hit behavior. Exact directional limits, timing, and scaling are not promoted."}
+  ],
+  "validation":{"canonical_skill_identity_count":493,"canonical_identity_changes":0,"unsupported_pq_relationships_added":0,"speculative_frames_added":0,"speculative_patch_independent_scaling_added":0,"speculative_probabilities_added":0},
+  "source_provenance":{
+    "afterimage_strike":["https://dbxv2.fandom.com/wiki/Afterimage_Strike","https://dragonball.fandom.com/wiki/Afterimage_Strike","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "dragon_burn":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "saiyan_spirit":["https://dbxv2.fandom.com/wiki/Saiyan_Spirit","https://dbxenoverse.fandom.com/wiki/Saiyan_Spirit_%28Skill%29","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "zigzag_express":["https://dbxv2.fandom.com/wiki/Zigzag_Express","https://dbxenoverse.fandom.com/wiki/Zigzag_Express_%28Skill%29","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+  }
+}
