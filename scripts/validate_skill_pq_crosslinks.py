@@ -33,7 +33,7 @@ for record in records:
     endpoints = record.get("source_parallel_quests", [])
     for pq_id in endpoints:
         if not isinstance(pq_id, int) or isinstance(pq_id, bool) or not 1 <= pq_id <= 186: raise SystemExit(f"invalid source_parallel_quests value for {record["id"]}: {pq_id!r}")
-    assert len(endpoints) == len(set(endpoints)), f"duplicate source_parallel_quests IDs: {record['id']}"
+    if len(endpoints) != len(set(endpoints)): raise SystemExit(f"duplicate source_parallel_quests IDs: {record['id']}")
 ids = [r["id"] for r in records]
 if len(set(ids)) != EXPECTED_SKILLS: raise SystemExit("duplicate canonical skill IDs")
 
