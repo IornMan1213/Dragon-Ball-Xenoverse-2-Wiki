@@ -67,7 +67,8 @@
     "Promoted source-backed PQ 134 ↔ equip-041 Broly clothes relationship from pq-121-142 batch into canonical equipment and PQ layers; retained acquisition-source semantics without drop-rate claims.",
     "Promoted PQ 29 from the maintained batch into the canonical PQ layer with its source-backed baseline reward/equipment data; linked equip-008 bidirectionally.",
     "Promoted PQ 41/equip-060 and PQ 59/equip-061 from the maintained PQ batch into the canonical layer, preserving source-backed acquisition semantics.",
-    "Audited PQ 61-186 batch equipment reward arrays against canonical equipment. No new exact canonical equipment promotions were found; Yamcha's Sword at PQ36 remains intentionally blocked because maintained accessory provenance records a PQ29-vs-PQ36 historical conflict."
+    "Audited PQ 61-186 batch equipment reward arrays against canonical equipment. No new exact canonical equipment promotions were found; Yamcha's Sword at PQ36 remains intentionally blocked because maintained accessory provenance records a PQ29-vs-PQ36 historical conflict.",
+    "Enriched canonical PQ36 (The Cell Games Begin) from the maintained batch, including Yamcha's Sword as a raw equipment reward. Did not create a canonical equipment link because the maintained accessory research still records a PQ29-vs-PQ36 historical conflict."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -78,7 +79,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "PQ-batch equipment reconciliation found no new safe exact-name promotions in PQ 61-186. PQ 36/Yamcha's Sword is explicitly blocked by an existing historical PQ29-vs-PQ36 conflict in the accessory research layer, so it must not be promoted into equipment links until identity/route evidence is reconciled."
+    "note": "Enriched PQ36 from the maintained PQ batch with its full objectives, enemies, rewards, and source provenance. Yamcha's Sword remains a raw/unresolved equipment reward because accessory research documents a PQ29-vs-PQ36 route conflict and no canonical equipment identity is established."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
