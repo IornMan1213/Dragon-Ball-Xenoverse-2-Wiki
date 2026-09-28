@@ -6262,3 +6262,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved event/cast/CaC boundaries and did not infer unsupported reward probabilities, Ultimate Finish gates, prerequisites, or hidden timing.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** audit the now-complete acquisition layer for semantic inconsistencies, then prioritize mechanics/restrictions/version history and bidirectional PQ↔skill navigation gaps.
+
+
+### 2026-09-28 continuation — Post-recovery skill audit metadata reconciliation batch 543
+- [x] Audited recent skill mechanics and preset-navigation artifacts for stale pre-recovery canonical counts.
+- [x] Synchronized six affected audit artifacts from the pre-recovery 493-record snapshot to the current **497-record** canonical/index corpus, without changing skill identities or PQ relationships.
+- [x] Preserved historical before/after counts where they document the recovery itself; only current-state counters were corrected.
+- [x] Registered `docs/data/skill-research-batches/skill-batch-543.json` in `docs/data/pq-cross-domain-index.json` and updated `skill-catalog-audit.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue field-level mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity audits; acquisition endpoint completeness is now at 0 target-field gaps, and no relationship should be manufactured from an acquisition endpoint alone.
