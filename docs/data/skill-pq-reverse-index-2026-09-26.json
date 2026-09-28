@@ -5,7 +5,7 @@
   "source": "docs/data/skills.json",
   "canonical_skill_count": 493,
   "represented_pq_count": 170,
-  "total_skill_pq_edges": 248,
+  "total_skill_pq_edges": 249,
   "pq_ids": {
     "1": {
       "skill_count": 0,
@@ -484,10 +484,14 @@
       "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
     },
     "48": {
-      "skill_count": 0,
-      "skill_ids": [],
-      "skills": [],
-      "relationship_status": "no_canonical_skill_endpoint_in_current_skill_corpus"
+      "skill_count": 1,
+      "skill_ids": [
+        "skill-kamehameha"
+      ],
+      "skills": [
+        "Kamehameha"
+      ],
+      "relationship_status": "canonical_skill_endpoint_present"
     },
     "49": {
       "skill_count": 1,
