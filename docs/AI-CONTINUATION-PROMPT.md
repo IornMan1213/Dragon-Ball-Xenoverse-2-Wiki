@@ -6065,3 +6065,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 531 and reconcile safe field-level improvements.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 532
+- [x] Continued with four stale PQ81-PQ85 cohort records: **Afterimage Strike, Dragon Burn, Saiyan Spirit, and Zigzag Express**.
+- [x] Preserved supported class, costs, restrictions, acquisition, character source, and bounded mechanics; unresolved technical fields remain unresolved.
+- [x] Added `docs/data/skill-research-batches/skill-batch-532.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 532 and reconcile safe field-level improvements.
