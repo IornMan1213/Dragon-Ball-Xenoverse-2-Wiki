@@ -1,0 +1,27 @@
+{
+  "batch_id": 559,
+  "date": "2026-09-28",
+  "type": "pq-31-40-cross-domain-reconciliation",
+  "scope": "PQ31-PQ40",
+  "status": "reconciled",
+  "findings": {
+    "records_audited": 10,
+    "skill_reward_records": 9,
+    "canonical_skill_relationships_missing": 0,
+    "research_skill_reward_contradictions": 0,
+    "pq36_numbering_conflict": "preserved",
+    "pq36_conflict_note": "Current maintained reward/objective sources document PQ36 as The Cell Games Begin, including Evil Whirlwind, while a separate datamined corpus claims a numbering gap. The repository retains PQ36 and preserves the conflict rather than deleting or inventing a replacement."
+  },
+  "external_cross_checks": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+    "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-parallel.html"
+  ],
+  "actions": {
+    "canonical_data_changed": false,
+    "research_records_changed": false,
+    "new_relationships_added": 0,
+    "unsupported_relationships_invented": false
+  },
+  "next": "Continue from PQ41 onward and prioritize actual reward-list/relationship contradictions rather than creating redundant audits where canonical and research layers already agree."
+}
