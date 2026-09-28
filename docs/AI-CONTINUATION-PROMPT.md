@@ -4798,3 +4798,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/qq-bang-system-baseline.json` with the same acquisition provenance and an explicit next step: promote individually observed six-stat vectors only when exact inputs, catalyst, star rating, output, and provenance are available.
 - [x] No guaranteed recipe result or unsupported drop percentage was added. Current evidence supports acquisition-family provenance, not exact item-table rates.
 - [ ] Next QQ Bang frontier: identify individually observed six-stat vectors or direct game-data reward/item records, then expand the record layer substantially without treating community recipe distributions as guarantees.
+
+
+### 2026-09-27 continuation — QQ Bang observed-output expansion
+- [x] Advanced the next documented coverage priority into the QQ Bang record layer instead of repeating already-completed Skill recovery work.
+- [x] Expanded `docs/data/qq-bangs-record-layer.json` from 4 to 14 records with 10 discrete observed recipe/output vectors from the documented Prima Games QQ Bang formula table.
+- [x] Preserved the repository's uncertainty rule: each six-stat vector is stored as an observed historical output, not as a deterministic guarantee. Prima documents that QQ Bangs replace the four equipment-slot stat contributions and that recipe results vary; the repository therefore does not infer repeatability from a single observation. citeturn1view0
+- [x] The new observations cover Android 18/Towa, Android 16/Great Saiyaman, multiple Beerus-based combinations, Bardock/Beerus, Beerus/Light Hearts, Beerus/4-Star Dragon Ball, Beerus/Broly, and two Beerus upper/lower-body variants.
+- [ ] Next: continue QQ Bang expansion with additional documented recipe observations while deduplicating identical input/output vectors and preserving provenance; then normalize the QQ Bang index/coverage artifacts if their contracts require the new record count.
