@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Post-recovery bidirectional QQ Bang↔equipment identity reconciliation.",
+  "source_policy": "Canonical equipment identities remain authoritative; repair only explicit mismatches without inferring new stats, acquisition routes, or recipe determinism.",
+  "changes": [
+    {
+      "qq_bang_id": "qq-observed-prima-012",
+      "input": "Broly Clothes",
+      "removed_stale_equipment_id": "equip-041",
+      "canonical_equipment_id": "equip-112",
+      "reason": "The QQ Bang record explicitly names Broly Clothes and already maps forward to equip-112; equip-041 is the distinct Broly (Full Power Super Saiyan)'s Clothes identity and was a stale reverse-only link."
+    },
+    {
+      "equipment_id": "equip-112",
+      "qq_bang_id": "qq-observed-prima-012",
+      "action": "added_reverse_link",
+      "reason": "Restores bidirectional navigation for the explicit forward mapping."
+    }
+  ],
+  "invariants": {
+    "qq_bang_records": 24,
+    "equipment_records": 112,
+    "affected_forward_links": 1,
+    "affected_reverse_links": 1,
+    "new_canonical_identities": 0
+  }
+}
