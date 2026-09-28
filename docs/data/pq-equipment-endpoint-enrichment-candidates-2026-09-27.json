@@ -10,19 +10,19 @@
       "research_id": "pqacc-002",
       "name": "Four-Star Dragon Ball Hat",
       "pq": 5,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-003",
       "name": "Chiaotzu's Hat (With Collar)",
       "pq": 9,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-006",
       "name": "Dore's Scouter",
       "pq": 27,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-009",
@@ -64,25 +64,25 @@
       "research_id": "pqacc-017",
       "name": "SSGSS Vegeta Wig",
       "pq": 100,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-018",
       "name": "SS4 Wig & Tail (Goku)",
       "pq": 110,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-021",
       "name": "Resistance Helmet",
       "pq": 111,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-022",
       "name": "Android 13's Hat",
       "pq": 105,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-023",
@@ -100,49 +100,49 @@
       "research_id": "pqacc-030",
       "name": "Red Ribbon Army Helmet",
       "pq": 160,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-031",
       "name": "Gohan (Beast) Wig",
       "pq": 162,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-032",
       "name": "Videl (DB Super) Wig",
       "pq": 168,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-033",
       "name": "Dr. Hedo Hood",
       "pq": 159,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-040",
       "name": "Dragon Ball Balloon",
       "pq": 184,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-042",
       "name": "Android 17 (DB Super) Wig",
       "pq": 152,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_promoted"
     },
     {
       "research_id": "pqacc-043",
       "name": "King Vegeta (DB Super) Wig",
       "pq": 154,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     },
     {
       "research_id": "pqacc-045",
       "name": "Gamma 1's Helmet",
       "pq": 156,
-      "endpoint_status": "candidate_not_promoted"
+      "endpoint_status": "canonical_relationship_present"
     }
   ],
   "rules": [
@@ -151,7 +151,8 @@
     "No canonical endpoint is created merely because a PQ research record exists.",
     "Canonical PQ→equipment relationships remain authoritative; this queue is an enrichment aid only."
   ],
-  "status": "partial_promotion_completed",
+  "status": "canonical_relationships_reconciled",
   "last_promotion_date": "2026-09-28",
-  "promoted_count": 5
+  "promoted_count": 7,
+  "synchronized_existing_relationships": 15
 }
