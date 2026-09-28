@@ -5563,3 +5563,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Validator repair committed at `66b5635186eeffefa8ef6e7bf33631e08a6bedc6`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue inspecting the remaining validators for stale pre-recovery assumptions, then resume the restored preset/PQ reward and QQ Bang/equipment coverage queues.
+
+### 2026-09-28 continuation — PQ skill validator recovery repair
+- [x] Continued the stale-validator audit and found a concrete schema mismatch in `scripts/validate_pq_skill_links.py`: it attempted to read `skills.json` from a nonexistent `skills` root property, while the canonical database uses `records`.
+- [x] Repaired the validator to consume `docs/data/skills.json.records`, matching the canonical schema used by the other validators and recovery artifacts.
+- [x] No canonical research data was modified.
+- [x] Repair committed at `8c4ed790997b251cccf2f0cff6fde227bdaf83c3`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the stale-validator/schema audit, then resume canonical PQ reward and QQ Bang/equipment coverage expansion.
