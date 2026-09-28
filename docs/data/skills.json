@@ -14361,7 +14361,7 @@
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "dlc_requirement": "Free Update 4",
+      "dlc_requirement": null,
       "acquisition_type": "tp_medal_shop",
       "character_source": "Future Trunks",
       "mechanics_notes": "100-Ki Ki Blast Super used by Future Trunks. The user spins in a semicircle while firing Ki Blasts from both hands; current skill documentation describes the move as a short-range attack effective against nearby opponents and pursuing targets. Exact damage scaling, frames, and hitbox timing remain unresolved.",
