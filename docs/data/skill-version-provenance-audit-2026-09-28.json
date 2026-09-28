@@ -329,5 +329,18 @@
         "last_verified": "2026-09-27"
       }
     ]
+  },
+  "authoritative_release_registry": "docs/data/game-content-version-provenance-registry.json",
+  "official_source_reconciliation": {
+    "current_official_catalog": "Bandai Namco Entertainment Europe Xenoverse 2 official site",
+    "confirmed_release_events": [
+      "Future Saga Chapter 1 (2024-05-22)",
+      "Future Saga Chapter 2 (2024-11-20)",
+      "Dragon Ball DAIMA Pack (2025-05-21)",
+      "Future Saga Chapter 3 (2025-10-30)",
+      "Future Saga Chapter 4 announcement (2026-04-19)",
+      "Free Update including Beast (2023-03-22)"
+    ],
+    "note": "Official release announcements establish event-level provenance. Individual skill first-release/version assignments still require direct skill-to-event evidence."
   }
 }
