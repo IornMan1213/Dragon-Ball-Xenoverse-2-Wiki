@@ -6615,3 +6615,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added and indexed batch-565 audit. Canonical source-of-truth data was not modified.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ101-PQ110 recovery-forward reconciliation, while retaining the PQ91-PQ99 canonical skill-coverage gap as an explicit follow-up research task.
+
+
+### 2026-09-28 continuation — PQ101-PQ110 recovery-forward reconciliation
+- [x] Audited PQ101-PQ110 against dedicated research, maintained PQ records, and canonical typed reward relationships.
+- [x] Repaired maintained reward projections for all canonical-backed rewards: skills, equipment, and Super Souls across PQ101-PQ110.
+- [x] Restored accessory links for Android 14's Hat (PQ104), Android 13's Hat (PQ105), and SS4 Wig & Tail (Goku) (PQ110) where canonical accessory identities are present.
+- [x] Preserved canonical source-of-truth boundary: no canonical relationship mutations were made.
+- [x] Added/indexed batch-566 reconciliation audit.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ111-PQ120 recovery-forward reconciliation.
