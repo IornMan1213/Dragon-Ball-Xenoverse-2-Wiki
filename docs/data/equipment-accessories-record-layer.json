@@ -41,13 +41,7 @@
         "https://dbxv2.fandom.com/wiki/Equipment",
         "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html"
       ],
-      "pq_links": [
-        {
-          "pq_id": "pq-005",
-          "relationship": "acquisition_source",
-          "evidence_note": "PQ5 reward association; exact reward/drop condition remains unresolved."
-        }
-      ]
+      "pq_links": []
     },
     {
       "id": "acc-003",
@@ -1019,7 +1013,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-005",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-062",
@@ -1036,7 +1037,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-009",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-063",
@@ -1053,7 +1061,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-027",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-064",
@@ -1070,7 +1085,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-072",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-065",
@@ -1087,7 +1109,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-073",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-066",
@@ -1104,7 +1133,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-076",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-067",
@@ -1121,7 +1157,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-097",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-068",
@@ -1138,7 +1181,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-100",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-069",
@@ -1172,7 +1222,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-104",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-071",
@@ -1189,7 +1246,14 @@
         "docs/data/accessory-pq-research.json",
         "docs/data/accessory-pq-canonical-bridge.json"
       ],
-      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity."
+      "notes": "Endpoint identity promoted from an explicit named accessory research record; exact reward condition remains separate from identity.",
+      "pq_links": [
+        {
+          "pq_id": "pq-146",
+          "relationship": "acquisition_source",
+          "evidence_note": "Exact named accessory identity is canonical; PQ association is retained from the accessory research layer. Exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-072",
