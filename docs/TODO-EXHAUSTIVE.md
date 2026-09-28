@@ -5062,3 +5062,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/pq-late-dlc-typed-reward-reconciliation-2026-09-28.json` so the evidence boundary is explicit: sparse PQ coverage is not proof of an empty reward pool.
 - [x] Commit: `a76bf4e4f8e33e6216f983ef44f726f27a881829`.
 - [ ] **Exact next:** move the substantive expansion frontier away from already-reconciled PQ163–186 typed rewards and investigate the global 16 PQ IDs without explicit skill endpoints using their individual reward records and evidence, promoting only source-backed canonical relationships.
+
+### 2026-09-28 continuation — current 16-PQ skill-endpoint projection refresh
+- [x] Rechecked the 16 PQ IDs without explicit canonical skill endpoints against the current 493-record skill corpus and current reverse projection.
+- [x] Confirmed the current projection remains **493 skills / 248 skill→PQ edges / 170 represented PQs**, with the same 16 IDs: PQ1, 30, 35, 47, 48, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169, 170.
+- [x] Added `docs/data/skill-pq-projection-reconciliation-2026-09-28-current.json` and explicitly separated stale 2026-09-27 snapshot counts (474/246) from current canonical state.
+- [x] Preserved PQ48 Kamekameha/Kamehameha and PQ118/PQ121 third-party conflicts as unresolved rather than promoting unsupported edges.
+- [x] Commit: `c77fe56ddf3deb4e4cd7e1d066b8ed820f031bb1`.
+- [ ] **Exact next:** investigate the remaining 16 PQs at the non-skill typed-reward layer (Super Souls/equipment/accessories) for cross-domain completeness, while treating skill-endpoint absence as unresolved unless explicit skill-specific evidence appears.
