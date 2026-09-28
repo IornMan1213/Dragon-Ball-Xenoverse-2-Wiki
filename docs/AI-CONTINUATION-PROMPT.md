@@ -6771,3 +6771,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Deliberately did **not** invent canonical IDs or mutate `skills.json`; complete schema-level identity recovery is required before canonical propagation.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** recover complete field sets and canonical identity evidence for these four Festival candidates, then perform controlled canonical propagation if uniqueness/schema completeness is proven.
+
+
+### 2026-09-28 continuation — Official 4th Festival scope reconciliation batch 579
+- [x] Added primary-source event evidence from the Dragon Ball Official Site for the four 4th Festival camaraderie characters: Goku (Super Saiyan God), Videl (DB Super), Gamma 1, and Gamma 2.
+- [x] Confirmed the official event source describes special rewards for increasing camaraderie with those four characters; the accessible page does not individually expose all four skill names or internal skill IDs.
+- [x] Cross-bound the official character scope to the existing four named recovery identities without promoting them into `skills.json`.
+- [x] Added `docs/data/skill-research-batches/skill-batch-579.json` and updated the version/provenance registry.
+- [x] Preserved the canonical-ID boundary: no identifier was inferred from character order, preset order, filenames, or skill names.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** move to the next evidence-backed canonical enrichment frontier; revisit Festival ID recovery only if an exact historical/structured identifier source appears.
