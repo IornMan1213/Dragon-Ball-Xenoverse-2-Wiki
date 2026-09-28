@@ -6,11 +6,11 @@
   "recovery_status": "recovered_and_reconciled",
   "baselines": {
     "skills": {
-      "canonical_records": 475,
-      "index_records": 475,
+      "canonical_records": 493,
+      "index_records": 493,
       "skill_pq_edges": 246,
       "represented_pqs": 170,
-      "canonical_blob_sha": "c5671ebe23bf6d149769cdde5ada77d85b91a98e",
+      "canonical_blob_sha": "63bd1b72f7f054f92bcc2ac662512e359cc9596c",
       "index_blob_sha": "2b2e74c9d31f0b54a93a2a28c750412eb21845c2"
     },
     "pq_rewards": {
@@ -104,7 +104,7 @@
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "Audit remaining QQ Bang equipment identities and provenance for contradictions between link records and reconciliation statuses, then promote only evidence-backed corrections.",
+  "next_target": "Reconcile the 18 post-recovery catalog-gap-promoted skill identities against direct research evidence, then resume QQ Bang/equipment and skill/PQ cross-domain enrichment.",
   "equipment_records": 112,
-  "latest_change": "Started QQ Bang/equipment identity reconciliation after the equipment↔PQ queue closure. The Beerus Clothes (Lower Body) identity was corrected from unresolved usage to explicitly reconciled because Prima recipe observation qq-observed-prima-013 directly names that component as an input. Its stats/acquisition remain unresolved."
+  "latest_change": "Post-corruption recovery metadata was reconciled against the live 493-record canonical skill corpus. The 18 preset-loadout identities restored after the 474-record recovery baseline are now tracked as canonical identity coverage while retaining partially_verified status until record-level evidence reconciliation is complete."
 }
