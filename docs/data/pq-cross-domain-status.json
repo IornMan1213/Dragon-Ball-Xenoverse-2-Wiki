@@ -14,14 +14,14 @@
   "current_edges": {
     "skill": 248,
     "super_soul": 135,
-    "equipment": 127,
+    "equipment": 126,
     "character": 247,
     "dlc": 88,
     "farming": 7
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "The historical 840-edge recovery baseline remains provenance only. The live canonical store is now 852 edges; continue evidence-driven expansion and re-run integrity/reconciliation checks after each addition.",
+  "next_gate": "The historical 840-edge recovery baseline remains provenance only. The live canonical store is now 851 edges; continue evidence-driven expansion and re-run integrity/reconciliation checks after each addition.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -33,7 +33,7 @@
   "current_counts": {
     "skill": 248,
     "super_soul": 135,
-    "equipment": 127,
+    "equipment": 126,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -54,10 +54,12 @@
       "note": "Live canonical forward relationship store covers PQ 1-186; PQ 1 has no typed skill/Super Soul/equipment reward relationship in the cited Basic Reward source."
     },
     "equipment_reverse_coverage": {
-      "forward_edges": 125,
+      "forward_edges": 126,
       "missing_reverse_edges": 0,
       "dual_subtype_edges_before_fix": 31,
-      "dual_subtype_edges_after_fix": 0
+      "dual_subtype_edges_after_fix": 0,
+      "reverse_pairs": 126,
+      "reverse_only_edges": 0
     },
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
@@ -249,6 +251,10 @@
     {
       "date": "2026-09-27",
       "note": "Synchronized stale status-layer projections to the live canonical 840-edge relationship store: 236 skill, 137 Super Soul, 125 equipment, 247 character, 88 DLC, 7 farming; PQ coverage corrected from historical 182 to live 186."
+    },
+    {
+      "date": "2026-09-28",
+      "note": "Corrected live status metadata after record-level equipment audit: canonical store is 851 total edges with 126 equipment edges. Superseded 852/127 metadata remains preserved as provenance."
     }
   ]
 }
