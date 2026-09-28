@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Record-level bidirectional skill-reward parity audit for PQ181-PQ185.",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "boundary": "Canonical forward relationships remain authoritative; reverse indexes and PQ records are parity consumers/evidence. No new relationship is inferred merely from a skill's acquisition field.",
+  "quests": [
+    {
+      "pq": "pq-181",
+      "documented_skills": [
+        "Super Kamehameha (SS4 DAIMA)",
+        "Final Flash (SS3 DAIMA)"
+      ],
+      "status": "parity_confirmed",
+      "notes": "PQ181 record/research and canonical relationship layer agree on the two documented skill endpoints; exact drop-slot percentages remain unresolved."
+    },
+    {
+      "pq": "pq-182",
+      "documented_skills": [
+        "Dark Inscription"
+      ],
+      "status": "parity_confirmed",
+      "notes": "PQ182 reward documentation and canonical relationship layer agree; exact drop-slot percentage remains unresolved."
+    },
+    {
+      "pq": "pq-183",
+      "documented_skills": [
+        "Emperor's Cannon"
+      ],
+      "status": "parity_confirmed",
+      "notes": "PQ183 reward documentation and canonical relationship layer agree; exact drop-slot percentage remains unresolved."
+    },
+    {
+      "pq": "pq-184",
+      "documented_skills": [
+        "Chaotic Time Impact"
+      ],
+      "status": "parity_confirmed",
+      "notes": "PQ184 relationship is represented canonically; maintained evidence documents the Ultimate Finish bonus-slot context, while this audit does not promote an unsupported universal drop probability beyond the documented evidence."
+    },
+    {
+      "pq": "pq-185",
+      "documented_skills": [
+        "Dragon Spiral",
+        "Indomitable"
+      ],
+      "status": "parity_confirmed",
+      "notes": "Current reward tables place both skills on PQ185. A historical conflicting guide is preserved as provenance and is not used to add PQ186->Dragon Spiral."
+    }
+  ],
+  "totals": {
+    "documented_skill_edges": 7,
+    "parity_confirmed_edges": 7,
+    "new_relationships_promoted": 0,
+    "unresolved_endpoint_count": 0
+  },
+  "sources": [
+    "docs/Parallel-Quest-Audit.md",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/skill-research-batches/skill-batch-31.json",
+    "docs/data/skill-research-batches/skill-batch-118.json",
+    "docs/data/pq-late-dlc-typed-reward-coverage-audit-2026-09-28.json"
+  ],
+  "next": "Audit PQ186 separately, then continue unresolved typed-reward ranges and mechanics/acquisition gaps."
+}
