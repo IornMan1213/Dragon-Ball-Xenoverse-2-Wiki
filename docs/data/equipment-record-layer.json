@@ -1220,13 +1220,7 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "qq_bang_links": [
-        {
-          "qq_bang_id": "qq-observed-prima-012",
-          "input": "Broly Clothes",
-          "relationship": "QQ Bang clothing input"
-        }
-      ],
+      "qq_bang_links": [],
       "pq_links": [
         {
           "pq_id": "pq-134",
@@ -3388,5 +3382,6 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=545333338"
       ]
     }
-  ]
+  ],
+  "last_updated": "2026-09-28"
 }
