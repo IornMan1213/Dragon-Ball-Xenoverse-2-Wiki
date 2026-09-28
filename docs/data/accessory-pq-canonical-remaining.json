@@ -164,28 +164,28 @@
       "name": "Gine (DB Super)'s Accessory",
       "pq": 144,
       "status": "component_unresolved",
-      "reason": "Current PQ evidence clearly establishes Gine's clothing/set rewards, but does not establish a separately named accessory inventory item. Do not manufacture one from the clothing set."
+      "reason": "Current PQ evidence clearly establishes Gine's clothing/set rewards, but does not establish a separately named accessory inventory item. Do not manufacture one from the clothing set. Reviewed 2026-09-27: no independently named accessory inventory identity was found in the canonical accessory layer; the corresponding clothing/wig records are distinct components. Remains component_unresolved and must not be promoted by inference."
     },
     {
       "pq_record_id": "pqacc-027",
       "name": "Kale's Accessory",
       "pq": 148,
       "status": "component_unresolved",
-      "reason": "Current PQ evidence clearly establishes Kale's clothing and wig; the generic accessory label is insufficient to create a separate canonical identity."
+      "reason": "Current PQ evidence clearly establishes Kale's clothing and wig; the generic accessory label is insufficient to create a separate canonical identity. Reviewed 2026-09-27: no independently named accessory inventory identity was found in the canonical accessory layer; the corresponding clothing/wig records are distinct components. Remains component_unresolved and must not be promoted by inference."
     },
     {
       "pq_record_id": "pqacc-028",
       "name": "Caulifla's Accessory",
       "pq": 147,
       "status": "component_unresolved",
-      "reason": "Current PQ evidence clearly establishes Caulifla's clothing and wig; the generic accessory label is insufficient to create a separate canonical identity."
+      "reason": "Current PQ evidence clearly establishes Caulifla's clothing and wig; the generic accessory label is insufficient to create a separate canonical identity. Reviewed 2026-09-27: no independently named accessory inventory identity was found in the canonical accessory layer; the corresponding clothing/wig records are distinct components. Remains component_unresolved and must not be promoted by inference."
     },
     {
       "pq_record_id": "pqacc-029",
       "name": "Android 17 (DB Super)'s Ranger Accessory",
       "pq": 152,
       "status": "component_unresolved",
-      "reason": "Current sources establish Android 17's Ranger Outfit and a separate Android 17 Wig. The generic Ranger Accessory label cannot safely be promoted without exact inventory evidence."
+      "reason": "Current sources establish Android 17's Ranger Outfit and a separate Android 17 Wig. The generic Ranger Accessory label cannot safely be promoted without exact inventory evidence. Reviewed 2026-09-27: no independently named accessory inventory identity was found in the canonical accessory layer; the corresponding clothing/wig records are distinct components. Remains component_unresolved and must not be promoted by inference."
     }
   ],
   "current_external_evidence": [
@@ -214,6 +214,17 @@
         "pqacc-025"
       ],
       "rule": "Promote only exact named identities already present in canonical accessory layer; do not resolve component-unresolved or historical-conflict entries by inference."
+    },
+    {
+      "date": "2026-09-27",
+      "resolved": [],
+      "audited": [
+        "pqacc-026",
+        "pqacc-027",
+        "pqacc-028",
+        "pqacc-029"
+      ],
+      "rule": "Component-unresolved labels were re-audited against canonical accessory identities. No exact separately named inventory identity was established; preserve unresolved status."
     }
   ]
 }
