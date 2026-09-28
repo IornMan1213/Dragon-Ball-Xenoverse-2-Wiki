@@ -4377,3 +4377,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Refined PQ 83 ↔ Super Mix Capsule Z provenance with 2024 evidence showing variable observed drops; guaranteed-reward and exact-rate claims remain intentionally excluded.
 - [ ] Next: reconcile remaining QQ Bang equipment identities and expand equipment ↔ PQ acquisition links where directly evidenced.
+
+- [x] 2026-09-27: Added bidirectional equipment ↔ PQ acquisition links for Goku's Turtle Hermit Gi and Demon Clothes (Gohan, Kid) ↔ PQ 04, plus Whis Symbol Battle Suit ↔ PQ 100, using explicit canonical source fields.
+- [ ] Next: continue reconciling QQ Bang equipment identities and expand equipment ↔ PQ links only when canonical source evidence supports them.
