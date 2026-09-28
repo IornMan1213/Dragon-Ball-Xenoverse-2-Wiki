@@ -5508,3 +5508,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** move beyond the PQ86-PQ100 seed cohort and identify the next genuinely stale canonical skill frontier without repeating later audits.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 536
+- [x] Moved beyond the PQ86-PQ100 seed cohort and selected four genuinely stale canonical records: **Burning Spin, Burning Strike, Light Grenade, and Power Blitz**.
+- [x] Cross-checked later repository audits first and excluded records already covered by newer dedicated evidence work.
+- [x] Refreshed supported class, costs, acquisition, character-source, and bounded mechanics evidence; exact patch-independent damage/frame values remain unpromoted.
+- [x] Preserved **Light Grenade Super vs. Ultimate** as separate identities and updated **Burning Spin** to the currently documented 400-Ki Ultimate cost.
+- [x] Added `docs/data/skill-research-batches/skill-batch-536.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next genuinely stale canonical skill frontier after Batch 536, checking later dedicated audits before any refresh.
