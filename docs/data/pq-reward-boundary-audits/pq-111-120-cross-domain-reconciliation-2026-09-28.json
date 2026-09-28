@@ -1,0 +1,23 @@
+{
+  "batch_id": 567,
+  "date": "2026-09-28",
+  "type": "pq-111-120-cross-domain-reconciliation",
+  "scope": "PQ111-PQ120",
+  "status": "reconciled_maintained_projection",
+  "findings": {
+    "records_audited": 10,
+    "research_to_maintained_reward_repairs": 10,
+    "canonical_skill_relationships_present": 11,
+    "canonical_equipment_relationships_projected": 6,
+    "canonical_super_soul_relationships_projected": 16,
+    "accessory_links_repaired": 2,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false,
+    "notes": [
+      "PQ113 research lists Candy Beam (Super) while canonical also contains Candy Beam; only the researched canonical-backed reward was projected.",
+      "Resistance Helmet and Toppo's Moustache are represented as accessory endpoints rather than fabricated equipment IDs.",
+      "Canonical equipment relationships for these PQs were projected only where canonical equipment identities exist."
+    ]
+  },
+  "next": "PQ121-PQ130 recovery-forward reconciliation"
+}
