@@ -4898,3 +4898,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `qq_bang_links` to the equipment schema and populated 14 canonical equipment records from existing canonical QQ Bang equipment links.
 - [x] Preserved bidirectional navigation without creating unsupported build records.
 - [ ] Next: expand QQ Bang ↔ equipment ↔ PQ cross-links and then build-domain relationships when a canonical build layer is established.
+
+### 2026-09-27 continuation — QQ Bang ↔ PQ cross-domain link
+- [x] Added bidirectional `qq-mix-001` ↔ `pq-083` relationship for Super Mix Capsule Z farming evidence.
+- [x] Classified the relationship as a community farming route in the Online Parallel Quest Tour, not a guaranteed reward or exact drop-rate claim.
+- [ ] Next: reconcile remaining QQ Bang/equipment identities and expand equipment ↔ PQ acquisition links only where direct evidence exists.
