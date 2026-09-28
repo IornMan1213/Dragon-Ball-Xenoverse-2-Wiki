@@ -2928,6 +2928,11 @@
           "qq_bang_id": "qq-observed-steam-001",
           "input": "Beerus clothing (upper body)",
           "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-017",
+          "input": "Beerus Clothing Top",
+          "relationship": "QQ Bang clothing input"
         }
       ]
     },
@@ -3174,6 +3179,11 @@
         {
           "qq_bang_id": "qq-observed-prima-011",
           "input": "4-Star Dragon Ball Costume",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-017",
+          "input": "4-Star Dragon Ball Clothing Top",
           "relationship": "QQ Bang clothing input"
         }
       ]
