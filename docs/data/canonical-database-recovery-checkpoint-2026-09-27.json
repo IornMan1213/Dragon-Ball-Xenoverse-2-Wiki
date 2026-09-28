@@ -103,7 +103,7 @@
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "Promote the pending equipment-layer links for equip-026→PQ13, equip-028→PQ12, equip-029→PQ25, equip-031→PQ121, and equip-032→PQ121 using an approved repository write path, then validate bidirectional reconciliation.",
+  "next_target": "Continue promoting the next validated explicit equipment→PQ queue entries in small batches, then run cumulative forward/reverse integrity checks against the PQ cross-domain baseline.",
   "equipment_records": 112,
-  "latest_change": "Reconciled three explicit PQ-side equipment reward links that were safe to add from the recovered canonical PQ records: PQ25→equip-029, PQ121→equip-031, and PQ121→equip-032. The corresponding equipment-layer promotions remain queued because the direct equipment-file mutation path was blocked."
+  "latest_change": "Completed the second five-item equipment→PQ promotion batch and reconciled its PQ-side links: equip-026→PQ13, equip-028→PQ12, equip-029→PQ25, equip-031→PQ121, equip-032→PQ121."
 }
