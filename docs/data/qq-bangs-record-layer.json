@@ -481,6 +481,136 @@
       "sources": [
         "https://www.youtube.com/watch?v=XBy_oawrYnk"
       ]
+    },
+    {
+      "id": "qq-observed-012",
+      "record_type": "observed_output",
+      "name": "Beerus Top + Beerus Top observed 6-star output (secondary report)",
+      "stars": 6,
+      "health": -5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -5,
+      "strike_supers": -5,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Top + Beerus Top",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Observed community 6-star QQ Bang craft report",
+      "rng_notes": "Observed secondary result; does not establish a deterministic recipe. Historical community reports explicitly describe QQ Bang outcomes as RNG/distribution-dependent.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Ki Blast-focused"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/217691032448171443/"
+      ]
+    },
+    {
+      "id": "qq-observed-013",
+      "record_type": "observed_output",
+      "name": "Goku End of Z Gi + item observed 6-star output family (+20/-0 example)",
+      "stars": 6,
+      "health": 0,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": 2,
+      "strike_supers": 3,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Goku's End of Z Gi + unspecified 5-star clothing item",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Observed community 6-star QQ Bang result",
+      "rng_notes": "The cited community report gives this as an example of a +20/-0 class result, but does not provide a fully reproducible clothing input for the exact vector; therefore the record is retained as an observation with incomplete input provenance.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "High-positive total"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/2916598577618776811/"
+      ]
+    },
+    {
+      "id": "qq-observed-014",
+      "record_type": "observed_output",
+      "name": "Pikkon clothing + Towa clothing observed output",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -3,
+      "strike_supers": -2,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Pikkon's clothing + Towa's clothing",
+      "mixing_item": "Senzu Beansprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Observed community QQ Bang result",
+      "rng_notes": "Historical community observation; this is not a deterministic recipe guarantee and is retained as provenance-backed output evidence.",
+      "build_tags": [
+        "Ki Blast-focused",
+        "Ki + Stamina"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
+    },
+    {
+      "id": "qq-observed-015",
+      "record_type": "observed_output",
+      "name": "Pikkon clothing + Towa clothing observed output variant",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -5,
+      "strike_supers": 0,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Pikkon's clothing + Towa's clothing",
+      "mixing_item": "Senzu Beansprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Observed community QQ Bang result",
+      "rng_notes": "Distinct reported output for the same input family; demonstrates output variance rather than a deterministic mapping.",
+      "build_tags": [
+        "Ki Blast-focused",
+        "Ki + Stamina"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
+    },
+    {
+      "id": "qq-observed-016",
+      "record_type": "observed_output",
+      "name": "Pikkon clothing + Future Trunks clothing observed output",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -2,
+      "strike_supers": -5,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Pikkon's clothing + Future Trunks clothing",
+      "mixing_item": "Senzu Beansprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Observed community QQ Bang result",
+      "rng_notes": "Historical community observation; exact output is not guaranteed on subsequent attempts.",
+      "build_tags": [
+        "Ki Blast-focused",
+        "Ki + Stamina"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
     }
   ],
   "last_updated": "2026-09-27",
@@ -523,12 +653,21 @@
         "https://www.youtube.com/watch?v=XBy_oawrYnk",
         "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/commit/4a6753753811ed18525d5c2dcb37f73b29be2420"
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Expanded observed-output evidence using independent historical community reports. Added five distinct output observations, including one 6-star Beerus Top + Beerus Top result and four lower-tier historical observations. Exact recipe determinism is not inferred; one record explicitly retains incomplete clothing provenance rather than guessing the missing input.",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/217691032448171443/",
+        "https://steamcommunity.com/app/454650/discussions/0/2916598577618776811/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
     }
   ],
   "research_frontier": {
     "last_cycle": "2026-09-27",
-    "promoted_observed_vectors": 11,
-    "total_records": 18,
-    "next_target": "expand observed six-stat QQ Bang vectors and acquisition/material provenance without treating community recipes as deterministic"
+    "promoted_observed_vectors": 16,
+    "total_records": 23,
+    "next_target": "reconcile observed vectors with canonical clothing/equipment records and continue version-aware Super Mix Capsule Z/material provenance"
   }
 }
