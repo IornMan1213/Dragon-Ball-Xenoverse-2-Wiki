@@ -1537,6 +1537,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-041",
+          "relationship": "acquisition_source",
+          "evidence_note": "Maintained PQ batch explicitly lists Yamcha's Baseball Uniform as an equipment reward; canonical equipment record names Warriors' Annihilation - Future Chapters as its acquisition source. Exact drop mechanics remain separately unresolved."
+        }
       ]
     },
     {
@@ -1561,6 +1568,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-059",
+          "relationship": "acquisition_source",
+          "evidence_note": "Maintained PQ batch explicitly lists Vegito's Clothes as an equipment reward; canonical equipment record names Potara Warrior as its acquisition source. Exact drop mechanics remain separately unresolved."
+        }
       ]
     },
     {
