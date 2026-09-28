@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Consolidate the next evidence-backed mechanics frontier after restored-skill identity/acquisition recovery.",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical skills.json remains authoritative. Research batches and audit artifacts are evidence layers. Source-reported numbers remain bounded by their source/version; unresolved frames, scaling, reward probabilities, and hidden gates remain null/unresolved.",
+  "records": [
+    {
+      "skill_id": "skill-assault-rain",
+      "name": "Assault Rain",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 9",
+      "mechanics_boundary": "Tracked aerial Ki-blast barrage; current evidence supports 10 hits, long range, launching behavior, and source-reported ~15% total damage.",
+      "unresolved": [
+        "reward probability",
+        "frame data",
+        "patch-independent scaling"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-476.json"
+    },
+    {
+      "skill_id": "skill-super-electric-strike",
+      "name": "Super Electric Strike",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "acquisition": "Expert Mission 11",
+      "mechanics_boundary": "Large tracked Ki wave; current evidence supports 17 hits, long range, knockback, and source-reported ~40% total damage.",
+      "unresolved": [
+        "drop probability",
+        "frame data",
+        "patch-independent scaling"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-458.json"
+    },
+    {
+      "skill_id": "skill-ki-explosion",
+      "name": "Ki Explosion",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 77",
+      "mechanics_boundary": "Short-range omnidirectional explosion; holding extends/repeats the explosion by consuming additional Ki, with current evidence allowing extension up to four Ki bars total. Official update history documents the historical 200→100 Ki change.",
+      "unresolved": [
+        "modern frame data",
+        "universal damage scaling",
+        "exact current extension formula"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-458.json"
+    },
+    {
+      "skill_id": "skill-heavenly-arrow",
+      "name": "Heavenly Arrow",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Training with Zamasu",
+      "mechanics_boundary": "Backward-moving 8-hit Ki barrage; forward input adds an unblockable Ki-powered hand strike and extra Ki bullet. Long-range/knockback behavior is documented.",
+      "unresolved": [
+        "exact timing",
+        "patch-independent scaling"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-457.json"
+    },
+    {
+      "skill_id": "skill-counter-burst",
+      "name": "Counter Burst",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 75",
+      "mechanics_boundary": "Ki-specific counter that projects an energy shield and retaliates against applicable Ki Blast attacks.",
+      "unresolved": [
+        "counter window",
+        "exact coverage of countered Ki attacks",
+        "returned damage"
+      ],
+      "evidence": "docs/data/skill-research-batches/skill-batch-468.json"
+    }
+  ],
+  "validation": {
+    "canonical_count": 493,
+    "index_count": 493,
+    "identity_scope": "These records already exist in the canonical corpus; this pass does not create duplicate identities.",
+    "pq_boundary": "Acquisition endpoints are not converted into PQ reward edges unless explicit reward evidence exists."
+  },
+  "next_frontier": [
+    "Reconcile any canonical field mismatches against these evidence boundaries.",
+    "Do not promote source-reported damage as patch-independent constants.",
+    "Continue bidirectional PQ typed-reward audits after mechanics fields are reconciled."
+  ]
+}
