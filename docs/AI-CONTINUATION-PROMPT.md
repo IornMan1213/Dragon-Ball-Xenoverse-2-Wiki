@@ -6290,3 +6290,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Created and registered `docs/data/skill-research-batches/skill-batch-545.json`; updated `docs/data/skill-catalog-audit.json` and the cross-domain batch registry.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: prioritize field-level mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity beyond the current 249 canonical Skill→PQ edges. Do not manufacture a PQ edge from non-PQ acquisition evidence, and do not fill the two null Ki-cost fields without direct numeric evidence.
+
+### 2026-09-28 continuation — Skill acquisition/mechanics/PQ parity audit batch 546
+- [x] Audited the post-batch-545 canonical skill corpus: **497 records** remain authoritative.
+- [x] Acquisition completeness remains **0 gaps** across `acquisition_type`, `source_quest_or_shop`, and `dlc_requirement`.
+- [x] PQ↔skill bidirectional parity is complete for current scope: **249** canonical PQ→skill relationships; 244 canonical skills carry PQ metadata; 0 forward mismatches and 0 reverse orphan relationships.
+- [x] `mechanics_notes` is populated for all 497 canonical records.
+- [ ] Identified **27** canonical records with null `race_restriction`. These remain evidence-gated enrichment targets; `usable_by_cac` is not treated as proof of an all-race restriction.
+- [ ] Separate version/patch provenance fields are not present in the current canonical schema; future work should enrich provenance without inventing schema semantics.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** research the 27 race/CaC restriction gaps using direct skill documentation or game/repository evidence, then advance version/patch provenance and deeper mechanics fields. Preserve all unresolved restrictions rather than filling them by inference.
