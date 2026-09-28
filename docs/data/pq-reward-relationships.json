@@ -6370,6 +6370,14 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Explicit reward listing and canonical accessory identity are both present; exact reward/drop condition remains separate. This identity is kept distinct from the unresolved Android 17 Ranger Accessory component record."
+    },
+    {
+      "pq": "pq-076",
+      "relationship": "pq_rewards_equipment",
+      "target": "SSGSS Goku Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Canonical accessory layer and canonical bridge explicitly identify SSGSS Goku Wig with PQ76; exact reward/drop condition remains separate."
     }
   ],
   "normalization_rules": [
@@ -6386,13 +6394,13 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 134,
+    "pq_rewards_equipment": 135,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 860
+    "total": 861
   },
   "last_reconciled_scope": "2026-09-28 PQ48 Kamekameha/Kamehameha typed-skill reward reconciliation",
   "notes": [
