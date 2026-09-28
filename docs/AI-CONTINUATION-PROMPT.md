@@ -5816,3 +5816,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Found a separate stale-count problem: the canonical forward dataset contains **126 unique source-backed equipment edges**, not 127. Corrected total canonical relationship metadata from 852/127-equipment to **851 total / 126 equipment** (248 Skill, 135 Super Soul, 247 character, 88 DLC, 7 farming).
 - [x] Synchronized the equipment projection, recovery checkpoint, and QQ Bang/equipment audit to the corrected 126-edge source-of-truth count.
 - [ ] Next: re-run the complete equipment/accessory reverse comparison after the repair, then audit QQ Bang equipment-input identities and continue evidence-backed reward expansion.
+
+
+### 2026-09-28 continuation — Equipment reverse parity and QQ Bang link-integrity audit
+- [x] Re-ran the complete equipment/accessory forward↔reverse comparison after the PQ47 repair: **126 canonical forward edges / 126 reverse pairs / 0 missing / 0 reverse-only**.
+- [x] Confirmed all explicit QQ Bang equipment links are valid: **23 QQ Bang records with concrete equipment links; 0 invalid endpoint IDs**.
+- [x] Preserved the two QQ Bang system/mixing records without equipment links because they intentionally describe generic synthesis rather than concrete clothing identities.
+- [x] Updated the equipment/QQ Bang reconciliation audit with the parity and endpoint-integrity results.
+- [ ] Next: audit any remaining concrete QQ Bang input names that are intentionally unresolved, then validate cross-domain navigation consumers against the corrected **851-edge** canonical relationship total and resume evidence-backed PQ reward expansion.
