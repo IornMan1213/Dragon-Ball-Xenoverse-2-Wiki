@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-28",
-  "latest_research_batch": 553,,
+  "latest_research_batch": 553,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical database integrity is reconciled at 497 skills and 862 PQ relationship edges. Acquisition fields are complete and PQ↔skill parity is complete for current canonical scope. Restriction-gap review remains evidence-bound with 27 null race_restriction records; version/patch provenance is the next substantive field-level layer.",
