@@ -6034,3 +6034,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added and indexed batch-566 audit; canonical data unchanged.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ111-PQ120 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ111-PQ120 recovery-forward reconciliation
+- [x] Repaired canonical-backed maintained rewards across PQ111-PQ120.
+- [x] Added accessory cross-links for Resistance Helmet and Toppo's Moustache and normalized equipment endpoints.
+- [x] Preserved research/canonical evidence boundaries; canonical data unchanged.
+- [x] Added and indexed batch-567 audit.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ121-PQ130 recovery-forward reconciliation.
