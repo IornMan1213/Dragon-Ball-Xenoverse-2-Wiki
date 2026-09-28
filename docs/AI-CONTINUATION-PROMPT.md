@@ -5042,3 +5042,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Reconciled PQ25 against multiple historical reward records and restored its documented reward set, including Android 18's Clothes (Skirt); exact drop mechanics remain unresolved.
 - [x] 2026-09-27: Promoted `equip-111` Android 18's Clothes (Skirt) ↔ `pq-025` as a bidirectional acquisition relationship using the reconciled PQ25 evidence.
 - [ ] 2026-09-27: Continue the exact QQ Bang/equipment identity audit and reconcile any remaining historical PQ reward conflicts before broad promotion.
+
+- [x] 2026-09-27: Established `equip-112` for exact identity `Broly's Clothes`, distinct from `Broly (Full Power Super Saiyan)'s Clothes`.
+- [x] 2026-09-27: Corrected `qq-observed-prima-012` so its `Broly Clothes` input points to `equip-112` instead of the unsafe near-name `equip-041`.
+- [x] 2026-09-27: Preserved historical six-stat evidence and acquisition routes without asserting exact component drop conditions.
+- [ ] 2026-09-27: Continue auditing generic/set/component QQ Bang inputs, with Beerus Clothes as the next identity boundary to reconcile.
