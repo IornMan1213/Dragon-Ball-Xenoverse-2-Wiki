@@ -4748,3 +4748,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected Dual Masenko partner evidence to repository-local evidence files so the partner validator's evidence-path contract remains valid.
 - [ ] Runtime execution of validators remains unverified in this connector environment; next continuation should inspect available CI/workflow artifacts or execute validators if an execution path becomes available.
 - [ ] Next substantive frontier: continue exhaustive missing/under-enriched endpoint discovery rather than cosmetic documentation changes. PQ118 ↔ Dual Masenko remains explicitly unresolved pending direct reward evidence.
+
+
+### 2026-09-27 continuation — PQ118 / Dual Masenko evidence conflict resolved as unresolved
+- [x] Re-checked PQ118 specifically against current external evidence after canonical Dual Masenko restoration.
+- [x] Steam's maintained 186-PQ transcription lists PQ118's reward set without Dual Masenko, while a separate current third-party DLC guide explicitly associates Dual Masenko with PQ118. This is a direct source conflict, not sufficient evidence for a canonical Skill→PQ edge.
+- [x] Updated `docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json` to preserve the conflict and explicitly retain TP Medal Shop as the canonical Dual Masenko acquisition endpoint.
+- [x] No Skill→PQ relationship was manufactured; the canonical Skill→PQ projection remains 246 edges / 170 PQs.
+- [ ] Future work: obtain direct item-level/game-data evidence that resolves the PQ118 conflict before considering a canonical relationship.
