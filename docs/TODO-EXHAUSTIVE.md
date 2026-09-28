@@ -5905,3 +5905,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Indexed the boundary audit in `docs/data/pq-cross-domain-index.json`.
 - [x] Created **zero** new reward relationships; no unsupported edge was invented.
 - [ ] **Next:** continue substantive cross-domain enrichment and explicit version/provenance research, while preserving intentional zero-reward boundaries separately from missing-data gaps.
+
+
+### 2026-09-28 continuation — Free Update 20 provenance batch 553
+- [x] Reconciled Free Update 20 against official Bandai Namco announcements.
+- [x] Confirmed the **six DAIMA Pack skills** are paid-DLC content while the **four Festival skills** belong to the accompanying Free Update 20; the two groups are not conflated.
+- [x] Recorded Free Update 20 as version **1.24.0 / May 21, 2025** based on the repository's existing release evidence and official announcement timing.
+- [x] Added `docs/data/skill-research-batches/skill-batch-553.json` and synchronized the research/catalog indexes.
+- [x] Preserved the canonical-ID boundary for the four Festival skills; no unsupported IDs or version assignments were invented.
+- [ ] **Next:** audit the authoritative release registry against all 28 direct skill→event mappings and strengthen any weak event classification/source evidence.
