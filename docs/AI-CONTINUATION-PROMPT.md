@@ -5601,3 +5601,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Kept the live PQ relationship `current_counts` reconciliation intact; no canonical research records were altered.
 - [x] Commit: `f3cde4077f6d2003dfc067ce9b74fb8fd35f22eb`.
 - [ ] **Exact next:** inspect the remaining active validators and generated audits for frozen recovery-era counts; then begin the next substantive coverage batch once stale validator assumptions are exhausted.
+
+### 2026-09-28 continuation — stale current-audit state reconciliation
+- [x] Refreshed `docs/COVERAGE-AUDIT.md` so its current PQ→skill status reflects the recovered 493-skill / 248 explicit skill→PQ edge / 170 represented-PQ state and the actual 16 PQ IDs without explicit canonical skill endpoints. Older 294/298-record statements remain historical rather than being presented as current.
+- [x] Refreshed `docs/data/canonical-database-recovery-validator-audit-2026-09-27.json` to describe the new derived-count validator behavior instead of claiming frozen 493/248/170 and 840 baselines.
+- [x] Refreshed `docs/data/pq-cross-domain-index-validator-audit-2026-09-26.json` so its historical 840-edge recovery snapshot is explicitly labeled historical and the current relationship total is delegated to the canonical forward dataset rather than a stale audit constant.
+- [x] No canonical relationship endpoints were inferred or changed in this reconciliation; evidence boundaries remain intact.
+- [x] Commits: `ec7a1816925685e301055894b5396dd2c5f0ff6f`, `13d5cf73b1875ef330caecee014f64be88b0d05f`, `0d0f4c1a83d42a50e87bd6c01a2fd7a5e9a87130`.
+- [ ] **Exact next:** finish the active-validator/current-audit stale-state sweep, then begin the next substantive PQ reward/acquisition coverage batch, prioritizing the remaining 16 PQs without explicit canonical skill endpoints and the documented empty typed-reward ranges.
