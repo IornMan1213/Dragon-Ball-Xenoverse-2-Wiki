@@ -6354,6 +6354,22 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Reward explicitly listed in the all-186 PQ guide; canonical accessory identity already exists. Exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 13's Hat",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit reward listing and canonical accessory identity are both present; exact reward/drop condition remains separate. This identity is kept distinct from the unresolved Android 17 Ranger Accessory component record."
+    },
+    {
+      "pq": "pq-152",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 17 (DB Super) Wig",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit reward listing and canonical accessory identity are both present; exact reward/drop condition remains separate. This identity is kept distinct from the unresolved Android 17 Ranger Accessory component record."
     }
   ],
   "normalization_rules": [
@@ -6370,13 +6386,13 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 132,
+    "pq_rewards_equipment": 134,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 858
+    "total": 860
   },
   "last_reconciled_scope": "2026-09-28 PQ48 Kamekameha/Kamehameha typed-skill reward reconciliation",
   "notes": [
