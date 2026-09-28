@@ -5997,3 +5997,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the distinction between built-in Surging Spirit and separately acquired charge skills, and preserved bounded source-reported values rather than treating them as patch-independent constants.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the mechanics census with the next unaudited canonical cohort, promote only field-level evidence that is safe to place in canonical `skills.json`, and separately continue explicit PQ typed-reward parity.
+
+
+### 2026-09-28 continuation — Global PQ skill-endpoint gap census
+- [x] Audited the 16 PQ IDs previously represented by the reverse skill index as having no canonical skill endpoint: PQ1, 30, 35, 47, 48, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169, and 170.
+- [x] Resolved **PQ48**: the maintained PQ record and all-PQ guide explicitly list the reward as **Kamekameha**; this maps to the existing canonical **Kamehameha** identity. Promoted the explicit `pq_rewards_skill` relationship while preserving the historical spelling variant.
+- [x] Refreshed `docs/data/pq-skill-crosslink-report.json` and `docs/data/skill-pq-reverse-index-2026-09-26.json`: canonical Skill→PQ edges are now **249**, with PQ48 represented bidirectionally.
+- [x] Added `docs/data/pq-global-skill-endpoint-gap-audit-2026-09-28.json` documenting the complete 16-ID census, including unresolved PQ118 evidence and the remaining no-skill states.
+- [x] Preserved the rule that empty record-layer `skill_rewards` fields are not universal negative claims, and that non-PQ acquisition evidence never creates PQ reward edges.
+- [ ] **Next:** continue the remaining 15 PQ endpoint gaps where external evidence may justify a safe promotion, beginning with PQ118's explicit conflict resolution; then return to the next unaudited skill mechanics cohort.
