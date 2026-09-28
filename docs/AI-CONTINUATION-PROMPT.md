@@ -6281,3 +6281,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical corpus remains **497 records**; current null Ki-cost frontier is **2 records**.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity audits, starting with the remaining 2 unresolved Ki-cost records only if direct evidence appears; otherwise move to restriction/version gaps.
+
+
+### 2026-09-28 continuation — Canonical skill resource/mechanics boundary batch 545
+- [x] Audited the last two canonical null Ki-cost records after batch 544: **Holstein Shock** and **Hyper Movement**.
+- [x] Preserved **Holstein Shock** `ki_cost=null` because reviewed direct evidence establishes its self-damaging behavior and PQ15 acquisition but does not establish a reliable numeric Ki activation cost.
+- [x] Preserved **Hyper Movement** `ki_cost=null`; direct evidence identifies it as an Evasive with a **200 Stamina** activation cost and TP Medal Shop acquisition. Stamina was not converted into a Ki cost.
+- [x] Created and registered `docs/data/skill-research-batches/skill-batch-545.json`; updated `docs/data/skill-catalog-audit.json` and the cross-domain batch registry.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: prioritize field-level mechanics/restriction/version enrichment and explicit PQ↔skill bidirectional parity beyond the current 249 canonical Skill→PQ edges. Do not manufacture a PQ edge from non-PQ acquisition evidence, and do not fill the two null Ki-cost fields without direct numeric evidence.
