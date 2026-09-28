@@ -5445,3 +5445,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Committed the validator repair and advanced `main` to `9f0b1fa248d07ae85cf030d516120c67b2f8c16f`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** inspect the next remaining cross-domain validator for a concrete stale invariant or parser/integrity defect, then resume restored-preset enrichment and bidirectional PQ reward coverage.
+
+
+### 2026-09-28 continuation — PQ validator source normalization
+- [x] Corrected the validator source serialization so the intended newline statements are actual Python newlines rather than literal `\\n` text.
+- [x] Final validator repair is now committed at `b737a2bf11dbe67a02198b79c7360db4fa0b1c95` on `main`.
+- [x] The validator derives the canonical skill count from `skills.json` and checks the forward/reverse Skill→PQ projection structurally rather than against a frozen 248-edge snapshot.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** inspect the next remaining cross-domain validator for a concrete integrity gap, then resume restored-preset enrichment and PQ reward navigation.
