@@ -4597,3 +4597,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed the relationship layer remains evidence-bounded and points to canonical skill identities rather than creating partner-specific duplicate skill records.
 - [x] Preserved the canonical-source rule: `docs/data/skills.json` remains authoritative; verified/index/projection layers are not promoted as canonical substitutes.
 - [ ] **Next:** continue canonical skill/build/loadout cross-navigation auditing, including the current 475-skill corpus, skill↔PQ reverse index, and partner/customization consumers; repair only deterministic identity/link inconsistencies.
+
+
+## 2026-09-27 continuation — preset/loadout census reconciliation
+
+- [x] Reconciled `docs/data/character-presets-record-layer.json` directly: **51** preset records = **25 verified loadouts + 26 unresolved loadouts**.
+- [x] Confirmed the 25 verified loadouts contain **162 skill-slot entries** across Super, Ultimate, Awoken, and Evasive fields where present.
+- [x] Corrected stale `docs/data/preset-loadout-current-evidence-audit-2026-09-24.json` census from 26/25 to the live 25/26 split; no preset relationship or loadout was promoted/demoted.
+- [x] Kept numeric preset identity boundaries intact: unresolved Goku/Vegeta/Captain Ginyu mappings remain unresolved rather than being inferred from row/costume order.
+- [ ] **Next:** validate the 162 existing loadout skill names against the canonical `docs/data/skills.json` identity layer and establish deterministic reverse character/preset navigation only where canonical relationship fields/evidence support it.
