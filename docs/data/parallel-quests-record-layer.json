@@ -220,6 +220,11 @@
           "equipment_id": "equip-111",
           "relationship": "reward",
           "evidence_note": "Android 18's Clothes (Skirt) is explicitly listed in multiple PQ25 reward records."
+        },
+        {
+          "equipment_id": "equip-029",
+          "relationship": "reward",
+          "evidence_note": "Android 17's Clothes is explicitly listed in the PQ25 reward set; exact drop mechanics remain unresolved."
         }
       ]
     },
@@ -2754,7 +2759,20 @@
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-031",
+          "relationship": "reward",
+          "evidence_note": "Tuxedo is explicitly listed in PQ121's documented basic rewards; exact piece/drop mechanics remain unresolved."
+        },
+        {
+          "equipment_id": "equip-032",
+          "relationship": "reward",
+          "evidence_note": "Wedding Dress is explicitly listed in PQ121's documented basic rewards; exact piece/drop mechanics remain unresolved."
+        }
+      ],
+      "equipment_rewards": []
     },
     {
       "id": "pq-122",
