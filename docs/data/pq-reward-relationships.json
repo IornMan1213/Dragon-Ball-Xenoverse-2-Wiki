@@ -6314,6 +6314,46 @@
       "status": "source_backed",
       "source": "https://dbxv2.fandom.com/wiki/Equipment",
       "notes": "Canonical accessory research explicitly associates Great Saiyaman Helmet with PQ51; the relationship records the named reward association without asserting a guaranteed drop condition."
+    },
+    {
+      "pq": "pq-072",
+      "relationship": "pq_rewards_equipment",
+      "target": "Jaco's State-of-the-Art Radio",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; canonical accessory identity already exists. Exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-073",
+      "relationship": "pq_rewards_equipment",
+      "target": "Tagoma's Scouter",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; canonical accessory identity already exists. Exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-097",
+      "relationship": "pq_rewards_equipment",
+      "target": "Yamcha Baseball Hat",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; canonical accessory identity already exists. Exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 14's Hat",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; canonical accessory identity already exists. Exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-146",
+      "relationship": "pq_rewards_equipment",
+      "target": "Bardock (DB Super)'s Scouter",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed in the all-186 PQ guide; canonical accessory identity already exists. Exact reward/drop condition remains separate."
     }
   ],
   "normalization_rules": [
@@ -6330,13 +6370,13 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 127,
+    "pq_rewards_equipment": 132,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 853
+    "total": 858
   },
   "last_reconciled_scope": "2026-09-28 PQ48 Kamekameha/Kamehameha typed-skill reward reconciliation",
   "notes": [
