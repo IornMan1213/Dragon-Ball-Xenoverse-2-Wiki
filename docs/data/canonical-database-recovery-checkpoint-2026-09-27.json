@@ -66,7 +66,8 @@
     "Audited the full equipment source-quest list against the sparse canonical PQ record layer; added no speculative PQ stubs. Confirmed the three directly representable equipment↔PQ links remain the complete safe set in the current sparse layer.",
     "Promoted source-backed PQ 134 ↔ equip-041 Broly clothes relationship from pq-121-142 batch into canonical equipment and PQ layers; retained acquisition-source semantics without drop-rate claims.",
     "Promoted PQ 29 from the maintained batch into the canonical PQ layer with its source-backed baseline reward/equipment data; linked equip-008 bidirectionally.",
-    "Promoted PQ 41/equip-060 and PQ 59/equip-061 from the maintained PQ batch into the canonical layer, preserving source-backed acquisition semantics."
+    "Promoted PQ 41/equip-060 and PQ 59/equip-061 from the maintained PQ batch into the canonical layer, preserving source-backed acquisition semantics.",
+    "Audited PQ 61-186 batch equipment reward arrays against canonical equipment. No new exact canonical equipment promotions were found; Yamcha's Sword at PQ36 remains intentionally blocked because maintained accessory provenance records a PQ29-vs-PQ36 historical conflict."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -77,7 +78,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Promoted PQ 41 and PQ 59 into the sparse canonical PQ layer and reconciled their source-backed equipment rewards bidirectionally (Yamcha's Baseball Uniform equip-060; Vegito's Clothes equip-061)."
+    "note": "PQ-batch equipment reconciliation found no new safe exact-name promotions in PQ 61-186. PQ 36/Yamcha's Sword is explicitly blocked by an existing historical PQ29-vs-PQ36 conflict in the accessory research layer, so it must not be promoted into equipment links until identity/route evidence is reconciled."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
