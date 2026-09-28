@@ -30,7 +30,7 @@
     },
     "equipment": {
       "record_layer_records": 109,
-      "blob_sha": "afdd73bf362a2d6a43429e8fc3994e81ebb05431"
+      "blob_sha": "5e1dfc9742b7291e34dd3f31ff67caf0dd2ecdc9"
     },
     "mentors": {
       "records": 33,
@@ -47,6 +47,10 @@
     "partner_skill_relationships": {
       "relationships_count": 3,
       "blob_sha": "c52da790ea8e81e88d52c626f01f2f045c0cc67e"
+    },
+    "parallel_quests": {
+      "record_layer_records": 7,
+      "blob_sha": "846cf6884f34b231cc587d83a4b04d780929bb50"
     }
   },
   "corruption_recovery_history": [
@@ -58,7 +62,8 @@
     "Expanded canonical QQ Bang input normalization by indexing five additional clothing identities and refreshing safe QQ Bang-to-equipment links; unresolved inputs remain explicitly unresolved.",
     "Version-aware QQ Bang material provenance was expanded with dated 2020-2026 evidence for direct Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; no patch-specific rule change was established.",
     "Added bidirectional QQ Bang ↔ PQ provenance for Super Mix Capsule Z and PQ 83, preserving the Tour-only/community-farming context without promoting a guaranteed drop or exact rate.",
-    "Refined PQ 83 ↔ Super Mix Capsule Z provenance with 2024 Steam/Reddit/GameFAQs evidence and explicitly preserved observed drop variability rather than promoting a guaranteed reward or exact rate."
+    "Refined PQ 83 ↔ Super Mix Capsule Z provenance with 2024 Steam/Reddit/GameFAQs evidence and explicitly preserved observed drop variability rather than promoting a guaranteed reward or exact rate.",
+    "Added bidirectional equipment ↔ Parallel Quest acquisition provenance for Goku's Turtle Hermit Gi and Demon Clothes (Gohan, Kid) ↔ PQ 04, and Whis Symbol Battle Suit ↔ PQ 100, using explicit canonical equipment source fields."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -69,7 +74,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Refined the bidirectional Super Mix Capsule Z ↔ PQ 83 relationship using additional 2024 community evidence. The relationship remains a farming-route association only; inconsistent observed drops mean no guaranteed reward or exact rate is asserted."
+    "note": "Added bidirectional canonical equipment ↔ PQ acquisition links for equip-001 and equip-017 ↔ PQ 04 and equip-088 ↔ PQ 100. Links are based on explicit equipment source_quest_or_shop fields and do not assert guaranteed drops or exact rates."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
