@@ -1,0 +1,139 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Cross-domain typed-reward coverage audit for the 16 PQs lacking explicit canonical skill endpoints.",
+  "method": "Read canonical pq-reward-relationships.json and retain only source-backed relationships; absence from this layer is treated as a coverage gap, not proof of no reward.",
+  "matrix": [
+    {
+      "pq": 1,
+      "typed_rewards": [],
+      "evidence_rows": 0
+    },
+    {
+      "pq": 30,
+      "typed_rewards": [],
+      "evidence_rows": 0
+    },
+    {
+      "pq": 35,
+      "typed_rewards": [],
+      "evidence_rows": 0
+    },
+    {
+      "pq": 47,
+      "typed_rewards": [],
+      "evidence_rows": 0
+    },
+    {
+      "pq": 48,
+      "typed_rewards": [],
+      "evidence_rows": 0
+    },
+    {
+      "pq": 93,
+      "typed_rewards": [],
+      "evidence_rows": 0
+    },
+    {
+      "pq": 102,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "equipment",
+        "super_soul"
+      ],
+      "evidence_rows": 6
+    },
+    {
+      "pq": 103,
+      "typed_rewards": [
+        "pq_requires_dlc",
+        "super_soul"
+      ],
+      "evidence_rows": 4
+    },
+    {
+      "pq": 107,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "equipment",
+        "super_soul"
+      ],
+      "evidence_rows": 7
+    },
+    {
+      "pq": 108,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "equipment",
+        "super_soul"
+      ],
+      "evidence_rows": 6
+    },
+    {
+      "pq": 118,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "super_soul"
+      ],
+      "evidence_rows": 5
+    },
+    {
+      "pq": 121,
+      "typed_rewards": [
+        "pq_requires_dlc",
+        "equipment",
+        "super_soul"
+      ],
+      "evidence_rows": 4
+    },
+    {
+      "pq": 144,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "equipment",
+        "super_soul"
+      ],
+      "evidence_rows": 8
+    },
+    {
+      "pq": 157,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "super_soul"
+      ],
+      "evidence_rows": 4
+    },
+    {
+      "pq": 169,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "equipment"
+      ],
+      "evidence_rows": 3
+    },
+    {
+      "pq": 170,
+      "typed_rewards": [
+        "pq_features_character",
+        "pq_requires_dlc",
+        "equipment"
+      ],
+      "evidence_rows": 4
+    }
+  ],
+  "confirmed_typed_reward_relationships": 70,
+  "notable_evidence": [
+    "PQ30: Hercule's Clothes and Tien Shinhan's Gi",
+    "PQ47: Broly's Clothes",
+    "PQ93: Pan's Bandanna and Pan's Clothes"
+  ],
+  "result": "No new canonical relationship is promoted in this pass because the discovered relationships are already present in the canonical relationship layer. Remaining work is evidence discovery for PQ1, PQ35, PQ48 and other sparse/unrepresented typed-reward domains.",
+  "status": "reconciled_no_new_promotions"
+}
