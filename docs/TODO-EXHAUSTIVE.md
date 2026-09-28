@@ -4443,3 +4443,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] 2026-09-27: Continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships; do not invent unresolved clothing stats/acquisition routes.
 
 - [x] 2026-09-27 follow-up: Completed the reverse-link audit for the QQ Bang component reconciliation; newly promoted Bardock Battle Suit and Light Heart Suit relationships now navigate in both directions.
+
+
+## 2026-09-27 Recovery Continuation
+
+- [x] Recheck recovered live PQ baseline: 186 PQ records and 840 canonical cross-domain edges.
+- [x] Harden Super Mix Capsule Z provenance boundaries in the QQ Bang research layer; preserve unresolved rates and synthesis quantities.
+- [x] Update the recovery checkpoint with the current 110-equipment / 23-QQ-Bang / 16-observed-vector / 186-PQ baseline.
+- [ ] Synchronize stale PQ cross-domain status metadata (historical 232/135/122 and 182-PQ snapshot) with the live canonical 840-edge baseline.
+- [ ] Continue evidence-driven equipment/build cross-domain enrichment and unresolved QQ Bang identity reconciliation.
