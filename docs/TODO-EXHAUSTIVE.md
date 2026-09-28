@@ -6062,3 +6062,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical source data was not changed.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ131-PQ140 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ131-PQ140 recovery-forward reconciliation
+- [x] Repaired PQ134 maintained skill projections (Burst Charge; Ultimate Charge) from existing canonical source-backed relationships.
+- [x] Restored canonical-backed equipment projections for PQ131, PQ133, PQ135, and PQ139 using canonical equipment IDs.
+- [x] Restored accessory endpoint links for five named accessory rewards across PQ132, PQ133, PQ135, and PQ139; no accessory was represented as fabricated equipment.
+- [x] Restored eight missing maintained Super Soul projections across PQ131-PQ140.
+- [x] Confirmed all canonical skill relationships project correctly after repair; no unsupported canonical relationship was invented.
+- [x] Added and indexed `docs/data/pq-reward-boundary-audits/pq-131-140-cross-domain-reconciliation-2026-09-28.json` (batch 569).
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** audit the PQ141-PQ150 numbering gap without fabricating records, then continue PQ151-PQ160.
