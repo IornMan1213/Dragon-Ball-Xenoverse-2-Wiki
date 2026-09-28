@@ -2810,5 +2810,6 @@
   "pq_23_skill_reward_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-23-skill-reward-reconciliation-2026-09-28.json",
   "pq_31_40_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-31-40-cross-domain-reconciliation-2026-09-28.json",
   "pq_23_26_skill_reward_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-23-26-skill-reward-reconciliation-2026-09-28.json",
-  "pq_41_50_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-41-50-cross-domain-reconciliation-2026-09-28.json"
+  "pq_41_50_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-41-50-cross-domain-reconciliation-2026-09-28.json",
+  "pq_reward_boundary_audit_568": "docs/data/pq-reward-boundary-audits/pq-121-130-cross-domain-reconciliation-2026-09-28.json"
 }
