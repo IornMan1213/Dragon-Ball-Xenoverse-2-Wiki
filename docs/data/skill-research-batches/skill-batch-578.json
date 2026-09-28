@@ -1,0 +1,76 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 578,
+  "date": "2026-09-28",
+  "status": "complete",
+  "type": "festival_skill_recovery_candidate_reconciliation",
+  "scope": "Recover named Free Update 20 Festival skill identities from existing repository research plus current independent evidence, without fabricating canonical IDs or mutating skills.json.",
+  "canonical_source": "docs/data/skills.json",
+  "evidence": [
+    {
+      "name": "God Bind (Festival)",
+      "character": "Goku (Super Saiyan God)",
+      "acquisition": "Festival of Universes - Max Camaraderie with Goku (Super Saiyan God)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "usable_by_cac": false,
+      "source_ids": [
+        "skill-batch-264",
+        "fandom-god-bind-festival"
+      ],
+      "status": "recovery_candidate"
+    },
+    {
+      "name": "Egret Waltz (Festival)",
+      "character": "Videl (DB Super)",
+      "acquisition": "Festival of Universes - Max Camaraderie with Videl (DB Super)",
+      "class": "Super",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ],
+      "status": "recovery_candidate"
+    },
+    {
+      "name": "Gamma Force: Code-R (Festival)",
+      "character": "Gamma 1",
+      "acquisition": "Festival of Universes - Max Camaraderie with Gamma 1",
+      "class": "Super",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ],
+      "status": "recovery_candidate"
+    },
+    {
+      "name": "Gamma Force: Code-B (Festival)",
+      "character": "Gamma 2",
+      "acquisition": "Festival of Universes - Max Camaraderie with Gamma 2",
+      "class": "Super",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ],
+      "status": "recovery_candidate"
+    }
+  ],
+  "official_context": {
+    "event": "free-update-20-budokai-festival",
+    "source_ids": [
+      "official_update20_budokai_skills",
+      "official_4th_festival_skills_2025"
+    ],
+    "finding": "The maintained registry already records four named Festival identities but lacked canonical records for all four. Current evidence independently recovers all four names and character associations."
+  },
+  "existing_canonical_gap": {
+    "galaxy_breaker_festival": "canonical record present",
+    "god_bind_festival": "canonical record absent",
+    "egret_waltz_festival": "canonical record absent",
+    "gamma_force_code_r_festival": "canonical record absent",
+    "gamma_force_code_b_festival": "canonical record absent"
+  },
+  "recovery_boundary": "The four names are now strong recovery candidates, but canonical IDs, full mechanics, and all schema fields must be reconciled against the historical catalog before inserting records into skills.json. No ID is fabricated from name order, preset order, or mod filenames.",
+  "canonical_action": "No skills.json mutation.",
+  "next": "Recover complete field sets for the four named Festival candidates from repository batches and primary/independent evidence, then perform a controlled canonical propagation only after identity uniqueness and schema completeness are proven."
+}
