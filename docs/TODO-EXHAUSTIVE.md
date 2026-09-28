@@ -4500,3 +4500,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Skill Batch 527 is the current completed skill-evidence frontier in the recovered repository; no unsupported canonical rewrite was made from its duplicate-screening findings.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue evidence-backed QQ Bang/equipment provenance reconciliation, then equipment/build and skill/PQ cross-navigation. Preserve unresolved identities and historical conflicts instead of substituting near-name records.
+
+
+## 2026-09-27 continuation — accessory↔PQ cross-domain pass
+
+- [x] Promoted five exact canonical accessory↔PQ research relationships: Four-Star Dragon Ball Hat↔PQ5, Great Saiyaman Helmet↔PQ51, Goku Wig (Super Saiyan)↔PQ18, Tapion's Sword↔PQ22, and Resistance Helmet↔PQ111.
+- [x] Added matching PQ-side accessory links for bidirectional navigation, explicitly typed as research acquisition associations rather than guaranteed drops.
+- [x] Preserved the Goku Wig (Super Saiyan) PQ63 historical conflict and did not promote it as an additional canonical route.
+- [ ] Continue the remaining accessory candidate queue, beginning with exact canonical identities and resolving historical route conflicts before broader promotion.
