@@ -5,7 +5,7 @@
   "source_canonical": "docs/data/skills.json",
   "source_presets": "docs/data/character-presets-record-layer.json",
   "census": {
-    "canonical_skill_records": 493,
+    "canonical_skill_records": 497,
     "verified_preset_records": 25,
     "verified_loadout_skill_entries": 162,
     "exact_canonical_name_matches": 162,
@@ -313,7 +313,7 @@
   "reconciliation_2026_09_27": {
     "status": "completed",
     "canonical_records_before": 475,
-    "canonical_records_after": 493,
+    "canonical_records_after": 497,
     "preset_skill_entries": 162,
     "exact_matches_after": 162,
     "newly_represented_names": 18,
