@@ -5617,3 +5617,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed `scripts/validate_canonical_database_recovery.py` now uses derived skill/PQ counts and canonical `current_counts`; no additional stale recovery constants remain in the inspected active validators.
 - [x] Commit: `1f149a196388ef03070f255e07afe047645201e1`.
 - [ ] **Exact next:** begin substantive PQ reward/acquisition coverage expansion, prioritizing the 16 PQ IDs without explicit canonical skill endpoints and the documented PQ typed-reward coverage gaps; preserve evidence boundaries and update canonical relationship/reverse layers together.
+
+### 2026-09-28 continuation — PQ→skill consumer report reconciliation
+- [x] Began the substantive PQ reward/acquisition coverage frontier by reconciling the live PQ→skill forward relationship store against the canonical skill→PQ reverse projection.
+- [x] Found that the canonical forward store already contains **248** `pq_rewards_skill` rows and the reverse projection contains **248** explicit skill→PQ edges with exact set parity; the stale persisted `docs/data/pq-skill-crosslink-report.json` still reported only 238 linked rows.
+- [x] Rebuilt `docs/data/pq-skill-crosslink-report.json` from the live canonical forward relationship store, preserving the four documented presentation aliases and recording all 248 resolved skill rewards with zero unresolved endpoints.
+- [x] Refreshed `docs/data/pq-skill-consumer-reconciliation-audit-2026-09-27.json` to reflect the current 493-skill / 248-edge / 170-PQ state and the refreshed consumer report.
+- [x] Evidence review also confirms the 16 PQs previously lacking canonical skill endpoints remain an evidence-boundary issue rather than a missing-forward-edge issue; the current forward/reverse skill relationship sets are already parity-complete. PQ48's `Kamekameha` remains separately documented as a distinct skill whose canonical source-parallel-quest endpoint still requires canonical-layer mutation tooling before promotion.
+- [x] Commits: `d6278e7f92ba23e56f9e539b4f996c266d8b06ea`, `7c47c670d9bd20d3201fa1b38d09b777fef9a254`.
+- [ ] **Exact next:** continue substantive PQ reward/acquisition coverage using the remaining typed-reward gaps and evidence audits; separately resolve the canonical Kamekameha→PQ48 endpoint when safe full-file canonical mutation is available.
