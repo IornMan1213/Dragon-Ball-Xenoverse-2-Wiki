@@ -4304,3 +4304,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Refresh QQ Bang system-level provenance and RNG/recipe evidence without inventing exact outputs.
 - [ ] 2026-09-27: Expand QQ Bang record layer into individual observed six-stat vectors, recipe inputs, mixing items, star ratings, acquisition routes, and source provenance.
+
+
+- [x] 2026-09-27: Enrich QQ Bang Super Mix Capsule Z acquisition provenance from current secondary evidence; preserve RNG and exact-drop-rate uncertainty.
+- [x] 2026-09-27: Refresh QQ Bang system baseline with catalyst acquisition/synthesis evidence and explicit observed-vector promotion rules.
+- [ ] 2026-09-27: Expand QQ Bang record layer with individually observed six-stat vectors and direct item-data provenance; do not promote recipe families as guaranteed outputs.
