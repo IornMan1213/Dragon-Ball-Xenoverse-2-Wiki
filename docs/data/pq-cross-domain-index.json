@@ -2797,4 +2797,5 @@
   "skill_research_batch_550_festival_evidence": "docs/data/skill-research-batches/skill-batch-550.json",
   "pq_1_typed_reward_boundary_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-1-typed-reward-boundary-2026-09-28.json",
   "skill_research_batch_553_free_update_20_provenance": "docs/data/skill-research-batches/skill-batch-553.json",
+  "pq_15_skill_reward_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-15-skill-reward-reconciliation-2026-09-28.json",
 }
