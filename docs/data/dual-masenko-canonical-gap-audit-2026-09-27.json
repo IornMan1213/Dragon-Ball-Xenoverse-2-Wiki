@@ -41,5 +41,23 @@
     "Restore/add skill-dual-masenko to canonical skills.json and skills-index.json using the existing canonical schema.",
     "Use TP Medal Shop as the documented acquisition route; do not inherit the stale 'Training with Future Trunks' field from Batch 261.",
     "Then re-run partner/custom relationship census and PQ118 reconciliation; only add PQ118 Skill→PQ if explicit skill-reward evidence survives source reconciliation."
-  ]
+  ],
+  "prepared_canonical_record": {
+    "id": "skill-dual-masenko",
+    "name": "Dual Masenko",
+    "class": "Super",
+    "subcategory": "Ki Blast",
+    "ki_cost": 100,
+    "stamina_cost": 0,
+    "usable_by_cac": true,
+    "character_source": "Future Trunks",
+    "dlc_requirement": null,
+    "unlock_method": "TP Medal Shop",
+    "ultimate_finish_required": false,
+    "effect": "Spin in a semicircle while firing Ki Waves from both hands; effective at close range.",
+    "verification_status": "verified_secondary",
+    "last_verified": "2026-09-27"
+  },
+  "restoration_status": "prepared_record_pending_atomic_insertion",
+  "restoration_blocker": "The complete skills.json payload cannot currently be retrieved without truncation through the GitHub connector; atomic preservation of the 474 existing canonical records is required."
 }
