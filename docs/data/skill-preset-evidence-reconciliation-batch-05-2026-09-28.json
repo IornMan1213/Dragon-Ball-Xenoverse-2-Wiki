@@ -14,7 +14,7 @@
         "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Blast_Volley",
         "https://dragonball.fandom.com/wiki/Full_Power_Energy_Blast_Volley"
       ],
-      "finding": "Current Xenoverse 2-specific direct page identifies this as an Ultimate Ki Blast skill, with 300 Ki and starting-move status. Repository batch 253 contains a conflicting Super/100-Ki/Nappa-training record under the same name, while batch 310 independently records the Ultimate/300-Ki identity. The conflict must be resolved in canonical data before field promotion; the weaker Super classification is not treated as authoritative.",
+      "finding": "Canonical reconciliation completed: current Xenoverse 2-specific evidence identifies Full Power Energy Blast Volley as an Ultimate Ki Blast skill using 300 Ki and serving as the starting move for all types. The older repository Super/100-Ki/Nappa-training record is retained as conflicting historical research only.",
       "reconciled_fields": {
         "class": "Ultimate",
         "subcategory": "Ki Blast",
@@ -23,7 +23,7 @@
         "unlock_method": "Starting move for all types",
         "mechanics": "Multi-projectile Ki-blast barrage; current source describes tracking after knockback."
       },
-      "status": "evidence_conflict_requires_canonical_review"
+      "status": "reconciled"
     },
     {
       "name": "Shockwave",
