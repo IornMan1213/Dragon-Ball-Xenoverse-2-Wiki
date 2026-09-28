@@ -63,7 +63,7 @@
     "Turn Retreat"
   ],
   "result": "research_gap_reconciliation",
-  "next": "Continue record-level reconciliation for the remaining restored identities, then audit recovered cross-domain endpoints against canonical PQ reward data.",
+  "next": "Continue record-level reconciliation for any remaining restored identities in the tracked frontier, then audit recovered cross-domain endpoints against canonical PQ reward data.",
   "reconciliation_2026_09_28_batch_06": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json",
@@ -106,6 +106,17 @@
     "preserved_uncertainty": [
       "Stamina cost remains null",
       "Ultimate Finish requirement remains null"
+    ]
+  },
+  "reconciliation_2026_09_28_batch_08": {
+    "status": "completed",
+    "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json",
+    "reconciled": [
+      "Super Galick Gun"
+    ],
+    "canonical_identity": "Ultimate/Ki Blast, 300 Ki, TP Medal Shop, CaC usable",
+    "preserved_uncertainty": [
+      "Exact patch-independent damage and timing remain unresolved."
     ]
   }
 }
