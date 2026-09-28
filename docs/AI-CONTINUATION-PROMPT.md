@@ -4724,3 +4724,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Atomic insertion of skill-dual-masenko into canonical Skills and index remains the exact next task once a complete payload/edit path is available.
 - [ ] After insertion, regenerate/reconcile Partner Customization and PQ118 relationships; do not manufacture PQ118 until explicit reward evidence is confirmed.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
+
+
+### 2026-09-27 continuation — Dual Masenko canonical restoration completed
+- [x] Retrieved the complete surviving canonical Skills blob directly by Git object SHA, avoiding truncated contents retrieval.
+- [x] Confirmed the pre-restoration canonical layer contained 474 records and no Dual Masenko record.
+- [x] Restored `skill-dual-masenko` into `docs/data/skills.json`; canonical Skills count is now 475.
+- [x] Restored the corresponding `skill-dual-masenko` entry into `docs/data/skills-index.json`; index count is now 475.
+- [x] Canonical fields use the stronger TP Medal Shop acquisition evidence, 100 Ki, Ki Blast Super classification, Future Trunks association, and bounded mechanics; the stale Batch 261 training-only acquisition statement was not promoted.
+- [x] Reconciled Partner Customization: added Future Trunks (Time Patrol) → Dual Masenko and removed the former excluded-candidate entry.
+- [x] PQ118 remains unresolved. No Skill→PQ edge was manufactured from weak/conflicting web material; the direct TP Medal Shop evidence remains the canonical acquisition endpoint.
+- [x] Updated `docs/data/dual-masenko-canonical-gap-audit-2026-09-27.json` to close the restoration gap.
+- [ ] Next: run/inspect canonical cross-domain validators and then identify the next genuine omission or under-enriched endpoint.
