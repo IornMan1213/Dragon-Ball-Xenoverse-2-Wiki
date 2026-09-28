@@ -4773,3 +4773,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Kept the new record explicitly RNG-bounded: it records a recipe family and provenance, not a guaranteed six-stat output. Independent current research confirms QQ Bang results vary and recipe outputs must be treated as observations rather than deterministic guarantees. citeturn0search0turn0search3
 - [x] Sources include repository research, Steam player documentation, and a dedicated QQ Bang recipe reference. Historical/community recipe evidence is retained as secondary evidence rather than promoted to unsupported exact mechanics. citeturn0search5turn0search6
 - [ ] Next: expand QQ Bang observed-result records with actual six-stat outputs and provenance, then reconcile clothing-input/equipment endpoints. Do not infer exact results from recipe names alone.
+
+
+### 2026-09-27 continuation — QQ Bang expansion pass
+- [x] Moved to the next documented coverage priority after canonical skill recovery: QQ Bang research.
+- [x] Audited the current QQ Bang record layer: 4 structured records (system, mixing item, recipe family, and recipe observation), with the recipe observation being the only concrete six-star recipe-result research target.
+- [x] Deepened `qq-research-002` (Bardock Battle Suit + Beerus clothing + Super Mix Capsule Z) with independent repository research plus Steam evidence. Current evidence supports this as a six-star attempt/recipe family, while exact six-stat output remains RNG-dependent and is not promoted as guaranteed.
+- [x] Preserved the project's canonical evidence rule: observed outputs and recipe families remain distinct; no unsupported exact six-stat result was invented.
+- [ ] Next QQ Bang work: expand additional reproducible recipe families and observed six-stat result records, then capture version/material provenance and cross-links to equipment/build data.
