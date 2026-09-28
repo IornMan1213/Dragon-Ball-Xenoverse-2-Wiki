@@ -5990,3 +5990,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical relationship data unchanged; no unsupported relationship invented.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ61-PQ70 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ61-PQ70 recovery-forward reconciliation
+- [x] Restored missing maintained reward projections for PQ61-PQ66 from source-backed canonical relationships.
+- [x] Restored PQ66 Warp Kamehameha alongside its two equipment rewards.
+- [x] Added/indexed batch-562 reconciliation audit.
+- [x] Preserved character-feature relationships as non-reward data.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ71-PQ80 canonical-first reward projection/reconciliation.
