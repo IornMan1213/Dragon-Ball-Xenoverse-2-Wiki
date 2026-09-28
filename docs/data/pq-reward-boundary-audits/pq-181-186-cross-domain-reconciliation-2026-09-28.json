@@ -1,0 +1,54 @@
+{
+  "batch_id": 574,
+  "date": "2026-09-28",
+  "type": "pq-181-186-cross-domain-reconciliation",
+  "scope": "PQ181-PQ186",
+  "status": "reconciled_maintained_projection_live_state",
+  "findings": {
+    "records_audited": 6,
+    "skill_reward_projections_restored": 6,
+    "equipment_reward_projections_restored": 7,
+    "super_soul_reward_projections_restored": 7,
+    "accessory_links_restored": 7,
+    "canonical_data_changed": false,
+    "unsupported_relationships_invented": false,
+    "notes": [
+      "Reconciled the final populated PQ block against dedicated PQ research, maintained records, and the existing canonical typed reward relationship store.",
+      "Canonical equipment endpoints were used only where the equipment layer contains a matching identity; accessory endpoints remain accessory_links.",
+      "Cheelai's Coat on PQ183 was explicitly corrected to accessory endpoint acc-087 rather than being represented as equipment.",
+      "PQ181-PQ186 skill and Super Soul projections now align with the existing canonical reward relationships.",
+      "No canonical relationship or unsupported drop probability was added."
+    ],
+    "repaired": {
+      "skills": [
+        "PQ181",
+        "PQ182",
+        "PQ183",
+        "PQ184",
+        "PQ185",
+        "PQ186"
+      ],
+      "equipment": [
+        "PQ181",
+        "PQ182",
+        "PQ185",
+        "PQ186"
+      ],
+      "accessories": [
+        "PQ181",
+        "PQ182",
+        "PQ183",
+        "PQ184",
+        "PQ185"
+      ],
+      "super_souls": [
+        "PQ182",
+        "PQ183",
+        "PQ184",
+        "PQ185",
+        "PQ186"
+      ]
+    }
+  },
+  "next": "Move to the next substantive cross-domain/provenance frontier after final PQ recovery; do not fabricate PQ numbers beyond PQ186."
+}
