@@ -3013,6 +3013,38 @@
           "evidence_note": "PQ25 reward records explicitly list Android 18's Clothes (Skirt); exact drop/condition mechanics remain unresolved."
         }
       ]
+    },
+    {
+      "id": "equip-112",
+      "name": "Broly's Clothes",
+      "slot": "upper/lower/hands/feet set",
+      "rarity": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": -5,
+      "basic_attack": 5,
+      "strike_supers": -5,
+      "ki_blast_supers": 5,
+      "usable_by": "Time Patroller clothing system; full set components are documented separately in equipment catalogs",
+      "set_name": "Broly's Clothes",
+      "acquisition_method": "parallel_quest; raid; crystal_raid",
+      "source_quest_or_shop": "Parallel Quest 47; Crystal Raid Battle; Online Raid Quest rewards",
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Established as distinct from Broly (Full Power Super Saiyan)'s Clothes. Current catalog evidence identifies PQ47 and Crystal Raid routes; exact component drop conditions remain unresolved.",
+      "verification_status": "indexed_with_historical_stats",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://steamcommunity.com/app/454650/discussions/0/341537671990112469"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_id": "qq-observed-prima-012",
+          "input": "Broly Clothes",
+          "relationship": "recipe_input"
+        }
+      ]
     }
   ],
   "research_notes": [
