@@ -6,12 +6,12 @@
     "docs/data/equipment-accessories-record-layer.json",
     "docs/data/equipment-record-layer.json"
   ],
-  "canonical_edges": 127,
-  "unique_targets": 123,
-  "endpoint_identity_matches": 123,
+  "canonical_edges": 126,
+  "unique_targets": 122,
+  "endpoint_identity_matches": 122,
   "endpoint_identity_gaps": [],
   "semantics": "Canonical PQ→equipment relationships remain authoritative. Endpoint record layers are incomplete projections; missing endpoint records are enrichment gaps, not negative reward claims.",
   "status": "canonical_projection_complete_endpoint_enrichment_complete",
-  "audit_note": "2026-09-28 recovery-forward refresh: synchronized the projection to the live canonical PQ equipment relationship layer after the PQ 12-14 reward expansion. The historical 125-edge value is retained in prior audit history; current canonical edges are 127. Missing endpoint records, if any, remain enrichment gaps rather than negative reward claims.",
+  "audit_note": "2026-09-28 correction: reverse audit found the forward canonical equipment relationship layer contains 126 unique source-backed edges, not 127. Projection metadata is synchronized to 126; no speculative edge was added.",
   "endpoint_records": 194
 }
