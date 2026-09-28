@@ -1,0 +1,272 @@
+{
+  "schema_version": "1.0",
+  "purpose": "Evidence queue for explicit equipment-record Parallel Quest acquisition references discovered during recovery. This is a reconciliation queue, not a claim of guaranteed drops.",
+  "generated": "2026-09-27",
+  "source_rule": "Only equipment records whose canonical source_quest_or_shop explicitly names a Parallel Quest are included.",
+  "entries": [
+    {
+      "equipment_id": "equip-002",
+      "name": "Battle Suit (Raditz)",
+      "pq_id": "pq-003",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-003",
+      "name": "Lord Slug's Clothes",
+      "pq_id": "pq-098",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-012",
+      "name": "GT Goku's Gi",
+      "pq_id": "pq-092",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-016",
+      "name": "Demon Clothes (Piccolo, with Cape)",
+      "pq_id": "pq-003",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-023",
+      "name": "Training Suit",
+      "pq_id": "pq-087",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-026",
+      "name": "Battle Suit (Ginyu Force Black)",
+      "pq_id": "pq-013",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-028",
+      "name": "Battle Suit (Turles)",
+      "pq_id": "pq-012",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-029",
+      "name": "Android 17's Clothes",
+      "pq_id": "pq-025",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-031",
+      "name": "Tuxedo",
+      "pq_id": "pq-121",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-032",
+      "name": "Wedding Dress",
+      "pq_id": "pq-121",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-033",
+      "name": "Gine (DB Super)'s Clothes",
+      "pq_id": "pq-144",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-034",
+      "name": "Bardock (DB Super)'s Clothes",
+      "pq_id": "pq-146",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-035",
+      "name": "Caulifla's Clothes",
+      "pq_id": "pq-147",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-036",
+      "name": "Kale's Clothes",
+      "pq_id": "pq-148",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-037",
+      "name": "Bulma (Kid)'s Clothes",
+      "pq_id": "pq-149",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-038",
+      "name": "Android 17 (DB Super) Ranger Outfit",
+      "pq_id": "pq-152",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-039",
+      "name": "Arabian Costume",
+      "pq_id": "pq-123",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-040",
+      "name": "Janemba Suit",
+      "pq_id": "pq-127",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-042",
+      "name": "SSGSS Gogeta's Clothes",
+      "pq_id": "pq-131",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-043",
+      "name": "Kakunsa's Clothes",
+      "pq_id": "pq-133",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-044",
+      "name": "Rozie's Clothes",
+      "pq_id": "pq-135",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-045",
+      "name": "Android 21's Lab Uniform",
+      "pq_id": "pq-139",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-046",
+      "name": "Universe 7 Baseball Uniform",
+      "pq_id": "pq-139",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-047",
+      "name": "Universe 6 Baseball Uniform",
+      "pq_id": "pq-142",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-048",
+      "name": "King Vegeta (DB Super)'s Battle Suit",
+      "pq_id": "pq-154",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-049",
+      "name": "Android 13's Clothes",
+      "pq_id": "pq-105",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-050",
+      "name": "Zamasu's Clothes",
+      "pq_id": "pq-110",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-051",
+      "name": "Flying Nimbus!!",
+      "pq_id": "pq-002",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-052",
+      "name": "Gohan (Beast) Wig",
+      "pq_id": "pq-162",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-053",
+      "name": "Gine (DB Super) Set",
+      "pq_id": "pq-144",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-054",
+      "name": "Gamma 2's Clothes",
+      "pq_id": "pq-158",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-055",
+      "name": "Red Ribbon Soldier 94 Clothes",
+      "pq_id": "pq-161",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    },
+    {
+      "equipment_id": "equip-056",
+      "name": "Dr. Hedo Suit",
+      "pq_id": "pq-162",
+      "relationship": "acquisition_source",
+      "status": "pending_equipment_layer_promotion",
+      "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
+    }
+  ]
+}
