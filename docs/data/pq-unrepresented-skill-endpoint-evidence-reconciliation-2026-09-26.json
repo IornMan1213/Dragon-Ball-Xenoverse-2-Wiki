@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-26",
+  "audit_date": "2026-09-27",
   "purpose": "Evidence reconciliation of PQ IDs absent from the canonical skill→PQ reverse index.",
   "methodology": "Compared the 16 unrepresented PQ IDs against current repository skill records/search results and external Xenoverse 2 PQ reward references. Only explicit canonical skill→PQ relationships are promoted; non-skill rewards, partner skills, shop acquisition, and ambiguous third-party mappings are not converted into canonical endpoints.",
   "unrepresented_pqs": {
@@ -45,8 +45,9 @@
       "evidence": "Steam reward transcription lists Goku Black clothing and Super Souls; no skill reward is listed."
     },
     "118": {
-      "status": "noncanonical_or_unresolved_skill_evidence",
-      "evidence": "Current Steam reward transcription shows only capsule/Super Soul rewards. Other DLC guides associate Dual Masenko with PQ118, but the live repository has no canonical `skill-dual-masenko` record; therefore no canonical edge is promoted."
+      "status": "conflicting_external_evidence_do_not_promote",
+      "evidence": "Current Steam reward transcription lists PQ118 rewards as capsules/Super Souls and does not list Dual Masenko. A separate current third-party DLC guide explicitly associates Dual Masenko with PQ118, creating a source conflict. The canonical skill record now independently establishes TP Medal Shop acquisition, so the conflicting PQ association is not promoted to a canonical Skill→PQ edge.",
+      "resolution": "Preserve TP Medal Shop as canonical acquisition endpoint; retain PQ118 association as unresolved/conflicting research evidence until direct item-level reward evidence resolves the conflict."
     },
     "121": {
       "status": "no_canonical_skill_endpoint_confirmed",
