@@ -1,0 +1,22 @@
+{
+  "batch_id":559,
+  "date":"2026-09-28",
+  "type":"pq34_skill_reward_reconciliation",
+  "pq":"PQ34",
+  "name":"Return of Ginyu Force!",
+  "status":"evidence_reconciled",
+  "evidence":{
+    "skills":["Crusher Ball","Paralysis"],
+    "source":"https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+    "corroborating_source":"https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+  },
+  "finding":"PQ34 basic_rewards already listed Crusher Ball and Paralysis, but skill_rewards only contained Paralysis. The independent all-PQ reward transcription explicitly lists both skills for PQ34.",
+  "actions":{
+    "pq_batch_04_updated":true,
+    "canonical_relationships_added":false,
+    "canonical_data_changed":false,
+    "unsupported_relationship_invented":false
+  },
+  "note":"The canonical forward relationship layer already contained both PQ34 skill edges, so this repairs the research layer without duplicating canonical relationships.",
+  "next":"Continue PQ reward-list parity auditing through the next batch."
+}
