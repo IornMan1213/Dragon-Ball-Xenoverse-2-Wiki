@@ -4893,3 +4893,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added 2026 community evidence for continued Tour farming and synthesis guidance.
 - [x] Explicitly separated paid DLC distribution from base-game acquisition/drop-table claims.
 - [ ] Next: remaining QQ Bang clothing identity reconciliation, then equipment/build cross-domain relationships; deeper item-table work only when direct evidence is available.
+
+### 2026-09-27 continuation — reverse QQ Bang/equipment relationships
+- [x] Added `qq_bang_links` to the equipment schema and populated 14 canonical equipment records from existing canonical QQ Bang equipment links.
+- [x] Preserved bidirectional navigation without creating unsupported build records.
+- [ ] Next: expand QQ Bang ↔ equipment ↔ PQ cross-links and then build-domain relationships when a canonical build layer is established.
