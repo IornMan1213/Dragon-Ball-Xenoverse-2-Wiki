@@ -107,7 +107,7 @@
   },
   "next_target": "Reconcile the 18 post-recovery catalog-gap-promoted skill identities against direct research evidence, then resume QQ Bang/equipment and skill/PQ cross-domain enrichment.",
   "equipment_records": 112,
-  "latest_change": "Recovery checkpoint refreshed on 2026-09-28: live canonical skill/index parity is 493/493 and the live canonical PQ reward relationship store is 852 edges (248 skill, 135 Super Soul, 127 equipment, 247 character, 88 DLC, 7 farming). The historical 840-edge recovery baseline remains provenance. The next recovery-forward task is evidence-backed PQ reward expansion beyond the reconciled 248 Skill→PQ relationships.",
+  "latest_change": "2026-09-28 reverse audit correction: canonical PQ reward relationships are 851 total, including 248 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC and 7 farming. The prior 852/127-equipment metadata was stale; no unsupported equipment relationship was promoted.",
   "qq_bang_2026_09_28_observation_017": {
     "status": "completed",
     "record_id": "qq-observed-017",
@@ -123,16 +123,16 @@
   "relationship_expansion_2026_09_28": {
     "status": "live_852_edge_store_reconciled",
     "current_counts": {
-      "total": 852,
+      "total": 851,
       "skill": 248,
       "super_soul": 135,
-      "equipment": 127,
+      "equipment": 126,
       "character": 247,
       "dlc": 88,
       "farming": 7
     },
     "historical_baseline": 840,
-    "skill_bidirectional_status": "248 canonical Skill→PQ edges and matching forward PQ skill relationships are reconciled; 16 PQ IDs remain without explicit canonical Skill endpoints.",
+    "skill_bidirectional_status": "248 canonical Skill→PQ edges remain reconciled; equipment reverse audit corrected stale equipment metadata from 127 to 126.",
     "next_frontier": "Expand evidence-backed PQ reward coverage beyond the 248 Skill→PQ relationships, then reconcile equipment/QQ Bang and remaining reverse indexes.",
     "source_rule": "Canonical forward datasets remain authoritative; verified/index/projection layers are consumers/evidence only."
   }
