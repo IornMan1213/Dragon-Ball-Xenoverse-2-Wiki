@@ -425,7 +425,8 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Backflip"
+        "https://dbxv2.fandom.com/wiki/Backflip",
+        "https://dbxv2.fandom.com/wiki/Category%3AOther_Evasives"
       ],
       "stamina_cost": 0,
       "unlock_method": "Conton City Skill Shop / Ability Shop",
@@ -436,7 +437,7 @@
       "ultimate_finish_required": null,
       "ki_cost": 0,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Defensive evasive requiring neither Ki nor Stamina.",
+      "mechanics_notes": "Defensive backflip used to evade attacks; current individual documentation states that it requires neither Ki nor Stamina and repeated input can extend the backflip sequence.",
       "id": "skill-backflip"
     },
     {
@@ -1148,7 +1149,7 @@
       "research_status": "catalog_gap_promoted",
       "usable_by_cac": true,
       "character_source": "Customizable Future Warrior",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "ki_cost": 0,
       "damage_type": "Ki Blast",
       "mechanics_notes": "Close-range explosion evasive that launches the opponent upward.",
@@ -6209,7 +6210,7 @@
         "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_%28Ultimate%29"
       ],
       "stamina_cost": null,
-      "unlock_method": "Skill Shop",
+      "unlock_method": "Skill Shop after \"God of Destruction's Anger\"",
       "last_verified": "2026-09-27",
       "research_status": "catalog_gap_promoted",
       "usable_by_cac": true,
@@ -6217,7 +6218,7 @@
       "ultimate_finish_required": null,
       "ki_cost": 300,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Fast-acting long-range Ki beam Ultimate.",
+      "mechanics_notes": "Fast-acting long-range Ki Blast Ultimate beam; current documentation describes an 18-hit beam. Exact damage is version-sensitive and is not promoted here as a timeless canonical percentage.",
       "id": "skill-full-power-energy-wave"
     },
     {
@@ -7686,10 +7687,12 @@
       "subcategory": "Other",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
+        "https://dbxv2.fandom.com/wiki/Super_Attack",
+        "https://dragonball.fandom.com/wiki/Self-Harm",
+        "https://dbxv2.fandom.com/wiki/Gotta_Find_That_Dragon_Ball%21"
       ],
       "stamina_cost": null,
-      "unlock_method": null,
+      "unlock_method": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
       "last_verified": "2026-09-27",
       "research_status": "catalog_gap_promoted",
       "usable_by_cac": true,
@@ -7697,7 +7700,7 @@
       "ultimate_finish_required": null,
       "ki_cost": null,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Captain Ginyu utility Super that damages its user.",
+      "mechanics_notes": "Captain Ginyu utility Super that damages the user and instantly charges two bars of Ki in Xenoverse 2.",
       "id": "skill-holstein-shock"
     },
     {
@@ -10671,18 +10674,19 @@
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Recoome"
+        "https://dbxv2.fandom.com/wiki/Recoome_Eraser_Gun",
+        "https://dragonball.fandom.com/wiki/Recoome_Eraser_Gun"
       ],
       "stamina_cost": null,
-      "unlock_method": null,
+      "unlock_method": "Parallel Quest 17 — \"Ginyu and the Fruit\"",
       "last_verified": "2026-09-27",
       "research_status": "catalog_gap_promoted",
       "usable_by_cac": true,
       "character_source": "Recoome",
       "ultimate_finish_required": null,
-      "ki_cost": null,
+      "ki_cost": 100,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "Recoome Super Skill identity confirmed by current Xenoverse 2 evidence.",
+      "mechanics_notes": "Ki Blast Super used by Recoome: after a roughly two-second startup, the user fires a long-range mouth beam. Current documentation lists 100 Ki and PQ17 acquisition.",
       "id": "skill-recoome-eraser-gun"
     },
     {
@@ -12635,18 +12639,19 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category%3AStrike_Supers"
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Fist",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "stamina_cost": null,
       "unlock_method": "Skill Shop",
       "last_verified": "2026-09-27",
       "research_status": "catalog_gap_promoted",
       "usable_by_cac": true,
-      "character_source": "Goku / Adult Gohan customizable partner",
+      "character_source": "Goku and multiple Goku/Gohan/Vegito/Gogeta/Majuub variants",
       "ultimate_finish_required": null,
-      "ki_cost": null,
+      "ki_cost": 100,
       "damage_type": "Strike",
-      "mechanics_notes": "Long-range rush Strike Super with a three-hit sequence.",
+      "mechanics_notes": "Long-range Strike Super: the user flies toward the opponent and, on connection, rushes into a rapid three-hit punch sequence.",
       "id": "skill-super-dragon-fist"
     },
     {
@@ -14014,7 +14019,9 @@
       "subcategory": "Strike",
       "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Turn_Retreat"
+        "https://dbxv2.fandom.com/wiki/Turn_Retreat",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dbxv2.fandom.com/wiki/Goku"
       ],
       "stamina_cost": 300,
       "unlock_method": "Skill Shop",
@@ -14025,7 +14032,7 @@
       "ultimate_finish_required": null,
       "ki_cost": 0,
       "damage_type": "Strike",
-      "mechanics_notes": "Directional backward evasive that can strike and stun nearby opponents.",
+      "mechanics_notes": "Strike Evasive using 300 Stamina: spins backward with directional control and can strike/stun nearby opponents while creating distance.",
       "id": "skill-turn-retreat"
     },
     {
