@@ -129,7 +129,7 @@
       "name": "Android 17 (DB Super) Ranger Outfit",
       "pq_id": "pq-152",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -137,7 +137,7 @@
       "name": "Arabian Costume",
       "pq_id": "pq-123",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -145,7 +145,7 @@
       "name": "Janemba Suit",
       "pq_id": "pq-127",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -153,7 +153,7 @@
       "name": "SSGSS Gogeta's Clothes",
       "pq_id": "pq-131",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -161,7 +161,7 @@
       "name": "Kakunsa's Clothes",
       "pq_id": "pq-133",
       "relationship": "acquisition_source",
-      "status": "pending_equipment_layer_promotion",
+      "status": "promoted_to_equipment_layer_and_reverse_reconciled",
       "evidence_note": "The canonical equipment record explicitly names this PQ as an acquisition source. Preserve acquisition-source semantics; do not infer guaranteed drop, rate, or exact reward condition."
     },
     {
@@ -272,9 +272,9 @@
   "audit_summary": {
     "date": "2026-09-27",
     "entry_count": 33,
-    "pending": 18,
-    "promoted": 15,
-    "reconciled": 10,
+    "pending": 13,
+    "promoted": 20,
+    "reconciled": 15,
     "rule": "Queue records are evidence-backed acquisition-source references only; no guaranteed drop or rate is inferred."
   }
 }
