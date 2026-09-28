@@ -6017,3 +6017,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed no canonical equipment/Super Soul reward projections for this range.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Next:** PQ91-PQ100 canonical-first reward projection/reconciliation.
+
+
+### 2026-09-28 continuation — PQ91-PQ100 recovery-forward reconciliation
+- [x] Verified maintained PQ reward projections match dedicated research for PQ91-PQ100.
+- [x] Verified PQ100 cross-domain equipment/accessory representations remain intact.
+- [x] Recorded, but did not fabricate, nine missing canonical skill relationship entries for researched rewards in PQ91, PQ92, PQ94-PQ99.
+- [x] Added/indexed batch-565 canonical coverage audit.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** PQ101-PQ110 recovery-forward reconciliation; separately research canonical evidence for the PQ91-PQ99 relationship gap.
