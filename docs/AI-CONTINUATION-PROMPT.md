@@ -5357,3 +5357,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** reconcile Super Back Jump, Ki Blast Cannon, Consecutive Energy Blast, and Super Galick Gun; keep Super Ki Explosion and Ultra Fighting Bomber blocked until direct skill-level evidence is obtained.
 
+
+### 2026-09-28 continuation — Restored skill canonical evidence reconciliation batch 04
+- [x] Reconciled Super Back Jump: 200 Stamina, Skill Shop/Long-range starting move, direct Evasive provenance, and removed the inappropriate Ki Blast damage-type field.
+- [x] Reconciled Ki Blast Cannon: direct user provenance, 100 Ki, Skill Shop-after-story endpoint, and bounded stagger/restand behavior.
+- [x] Reconciled Consecutive Energy Blast: 100 Ki, Skill Shop acquisition, multiple-user provenance, and 10-hit tracking barrage.
+- [x] Corrected Super Galick Gun from the stale Skill Shop route to TP Medal Shop, while retaining its 300-Ki chargeable Ultimate mechanics.
+- [x] Unblocked Super Ki Explosion after direct current evidence established Skill Shop acquisition, 300-Ki base cost, broad user provenance, and extendable explosion behavior.
+- [x] Unblocked Ultra Fighting Bomber after direct current evidence established Skill Shop acquisition, 300 Ki, Recoome provenance, 8-hit explosion, and approximately 3-second startup.
+- [x] Added docs/data/skill-preset-evidence-reconciliation-batch-04-2026-09-28.json.
+- [x] Re-synchronized skills-index.json; final checked counts remain 493 canonical / 493 index.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Exact next: continue remaining restored identities, then audit Skill→PQ cross-domain relationships for unresolved or unsupported recovered edges.
