@@ -96,6 +96,14 @@
       "date": null,
       "url": "https://dbxv2.fandom.com/wiki/DLC",
       "scope": "Independently identifies the seven Chapter 2 skills: God of Destruction's Poise, God of Destruction's Plaything, God of Destruction's Might, Full Power Destruction, Soaring Rush, Dragon Spark, Burst Blitz."
+    },
+    {
+      "id": "community_ch3_skill_catalog",
+      "publisher": "Dragon Ball Xenoverse 2 Wiki / maintained community reference",
+      "title": "FUTURE SAGA Chapter 3 skill catalog and character data",
+      "date": null,
+      "url": "https://dbxv2.fandom.com/wiki/DLC",
+      "scope": "Independently identifies the six canonical Chapter 3 skills and associates them with Golden Frieza (Ultra Supervillain) and Broly (DB Super)."
     }
   ],
   "events": [
@@ -176,7 +184,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Continue with Chapter 3, Chapter 4, and DAIMA; use direct official naming where available and corroborated independent named catalogs only when the official event establishes the relevant content scope.",
+  "next_step": "Continue with Future Saga Chapter 4 and DAIMA Pack; map individual skills only where event scope plus named skill evidence supports the relationship.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -316,6 +324,72 @@
       ],
       "confidence": "corroborated",
       "basis": "Official Chapter 2 material establishes the DLC and avatar-equippable Goku (Mini) skills; the maintained independent skill catalog names the individual Chapter 2 skill set and matches the canonical skill record."
+    },
+    {
+      "skill_id": "skill-chaotic-time-impact",
+      "skill_name": "Chaotic Time Impact",
+      "event_id": "future-saga-chapter-3",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "community_ch3_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 3 announcement establishes the DLC and its Golden Frieza (Ultra Supervillain) and Broly (DB Super) content; the maintained named skill catalog identifies the six canonical Chapter 3 skills and matches the repository records."
+    },
+    {
+      "skill_id": "skill-dark-inscription",
+      "skill_name": "Dark Inscription",
+      "event_id": "future-saga-chapter-3",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "community_ch3_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 3 announcement establishes the DLC and its Golden Frieza (Ultra Supervillain) and Broly (DB Super) content; the maintained named skill catalog identifies the six canonical Chapter 3 skills and matches the repository records."
+    },
+    {
+      "skill_id": "skill-emperor-s-cannon",
+      "skill_name": "Emperor's Cannon",
+      "event_id": "future-saga-chapter-3",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "community_ch3_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 3 announcement establishes the DLC and its Golden Frieza (Ultra Supervillain) and Broly (DB Super) content; the maintained named skill catalog identifies the six canonical Chapter 3 skills and matches the repository records."
+    },
+    {
+      "skill_id": "skill-gigantic-cross",
+      "skill_name": "Gigantic Cross",
+      "event_id": "future-saga-chapter-3",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "community_ch3_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 3 announcement establishes the DLC and its Golden Frieza (Ultra Supervillain) and Broly (DB Super) content; the maintained named skill catalog identifies the six canonical Chapter 3 skills and matches the repository records."
+    },
+    {
+      "skill_id": "skill-gigantic-nova",
+      "skill_name": "Gigantic Nova",
+      "event_id": "future-saga-chapter-3",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "community_ch3_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 3 announcement establishes the DLC and its Golden Frieza (Ultra Supervillain) and Broly (DB Super) content; the maintained named skill catalog identifies the six canonical Chapter 3 skills and matches the repository records."
+    },
+    {
+      "skill_id": "skill-saiyan-blaster",
+      "skill_name": "Saiyan Blaster",
+      "event_id": "future-saga-chapter-3",
+      "evidence_type": "official_event_plus_named_independent_catalog",
+      "source_ids": [
+        "community_ch3_skill_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 3 announcement establishes the DLC and its Golden Frieza (Ultra Supervillain) and Broly (DB Super) content; the maintained named skill catalog identifies the six canonical Chapter 3 skills and matches the repository records."
     }
   ]
 }
