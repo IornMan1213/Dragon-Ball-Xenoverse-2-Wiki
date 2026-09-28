@@ -5232,3 +5232,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected stale canonical metadata: equipment relationships are **126**, not 127; total canonical relationships are **851**, not 852.
 - [x] Synchronized the equipment projection and recovery/audit metadata while preserving historical 840/852 snapshots as provenance.
 - [ ] Next major task: re-run equipment/accessory parity after the repair, then reconcile unresolved QQ Bang equipment-input identities.
+
+
+### 2026-09-28 continuation — Equipment reverse parity and QQ Bang link-integrity audit
+- [x] Re-ran equipment/accessory reverse parity: **126 forward / 126 reverse / 0 missing / 0 reverse-only**.
+- [x] Verified all 23 QQ Bang records with explicit equipment links resolve to valid endpoint IDs; 0 invalid links.
+- [x] Preserved generic system/mixing records without concrete equipment links.
+- [x] Updated the cross-domain reconciliation artifact with these results.
+- [ ] Next major task: audit remaining concrete unresolved QQ Bang inputs, then validate cross-domain consumers against the corrected **851-edge** relationship state.
