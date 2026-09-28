@@ -5395,3 +5395,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved explicit mechanics boundaries, source-reported values, acquisition endpoints, and unresolved frame/scaling/reward-probability fields rather than inventing precision.
 - [x] Appended the four records to the consolidated mechanics frontier; canonical identity count remains 493/493 and no duplicate skill records or unsupported PQ edges were created.
 - [ ] **Next:** continue the mechanics census for skills lacking dedicated current-evidence audits, then separately reconcile explicit PQ typed-reward edges.
+
+### 2026-09-28 continuation — Restored-skill mechanics frontier batch 04
+- [x] Revalidated the post-corruption recovery baseline before advancing: canonical skill corpus remains 493 identities with matching index count; the recovery layer remains intact and no reconstruction from the inaccessible large skills blob was attempted.
+- [x] Added `docs/data/restored-skill-mechanics-frontier-reconciliation-2026-09-28-batch-04.json` covering Energy Release, Super Destructo-Disc, Android Rush, Burning Attack, Chaos Shot, Surging Spirit, Reverse Shot, and Grand Smasher.
+- [x] Consolidated Batch 04 into `docs/data/restored-skill-mechanics-frontier-reconciliation-2026-09-28.json` as evidence-only mechanics boundaries; no duplicate canonical identities, speculative frame/scaling/probability values, or unsupported PQ reward edges were created.
+- [x] Preserved the distinction between built-in Surging Spirit and separately acquired charge skills, and preserved bounded source-reported values rather than treating them as patch-independent constants.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the mechanics census with the next unaudited canonical cohort, promote only field-level evidence that is safe to place in canonical `skills.json`, and separately continue explicit PQ typed-reward parity.
