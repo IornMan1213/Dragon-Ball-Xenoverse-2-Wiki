@@ -5182,3 +5182,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json` documenting the results.
 - [x] No speculative canonical relationships were added.
 - [ ] **Exact next:** resume substantive expansion outside the already-covered 16-PQ typed-reward layer, prioritizing canonical skill/equipment/accessory acquisition gaps that have explicit item-level evidence and can be promoted safely.
+
+### 2026-09-28 continuation — Post-corruption recovery checkpoint reconciliation
+- [x] Re-read the live recovery checkpoint, canonical PQ reward recovery audit, post-recovery live-state reconciliation, and canonical identity audit against current main.
+- [x] Confirmed the recovered canonical baseline is **493 skills / 493 index records**, **840 PQ relationship edges** (236 skill, 137 Super Soul, 125 equipment, 247 character, 88 DLC, 7 farming), **186 PQ records**, **112 equipment records**, **23 QQ Bang records**, and **17 observed QQ Bang vectors**.
+- [x] Corrected stale recovery-checkpoint metadata that still pointed the skill layer at older 475-era state and clarified the active recovery frontier.
+- [x] Preserved the canonical-source rule: docs/data/skills.json and the canonical forward relationship layer remain authoritative; verified/index/projection layers are evidence/derived views only.
+- [x] Reconciled the next concrete recovery-forward target to the five post-recovery catalog-gap-promoted skills already screened in skill-preset-evidence-reconciliation-batch-01-2026-09-27.json: Full Power Energy Blast Volley, Super Back Jump, Ki Blast Cannon, Break Strike, and Consecutive Energy Blast.
+- [x] Preserved evidence boundaries for acquisition conflicts, unresolved mechanics, and non-CaC/event-only identities; no speculative canonical relationship was introduced in this checkpoint pass.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** perform record-level canonical reconciliation for the five evidence-sufficient skills above, then continue through the remaining 13 catalog-gap-promoted identities before returning to broader QQ Bang/equipment and skill/PQ/Super Soul cross-domain enrichment.
