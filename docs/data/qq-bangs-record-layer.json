@@ -274,13 +274,10 @@
         {
           "input": "Towa Clothes",
           "equipment_id": "equip-103"
-        }
-      ],
-      "unresolved_equipment_inputs": [
+        },
         {
           "input": "Android 18 Skirt",
-          "status": "unresolved",
-          "reason": "Canonical equipment layer contains Android 18's Clothes (Vest & Pants) and Android 18's Clothes (RR), but neither is an exact identity match for the specifically named skirt input."
+          "equipment_id": "equip-111"
         }
       ]
     },
@@ -984,6 +981,15 @@
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
         "docs/data/equipment-record-layer.json"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Android 18 Skirt identity upgraded from unresolved to equip-111 after exact variant evidence was found. Acquisition remains unresolved because historical PQ25 claims conflict with the current canonical PQ25 reward layer.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=403805311",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74429476",
+        "docs/data/parallel-quests-record-layer.json"
       ]
     }
   ],
