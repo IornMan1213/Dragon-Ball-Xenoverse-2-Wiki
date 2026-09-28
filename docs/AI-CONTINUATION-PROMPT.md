@@ -5215,3 +5215,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical skill corpus is now **493 records**; the preset identity gap is closed.
 - [x] Updated `docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json` to record **0 unmatched entries** and preserve the full promotion history.
 - [ ] **Next:** audit the 18 newly promoted preset skill records (including Shockwave) for canonical reverse character/preset navigation and synchronization with skill indexes/catalog projections; do not use projection/index layers as canonical truth.
+
+
+## 2026-09-27 continuation — promoted skill reverse preset navigation audit
+
+- [x] Re-audited the **18 skill identities** promoted to close the verified preset-loadout canonical identity gap against the live **493-record** canonical skill corpus and **51-record** preset layer.
+- [x] Joined all affected verified preset loadouts by exact canonical skill identity and recorded every deterministic preset endpoint: all 18 promoted skills now have explicit consumer coverage in the audit, with **0 unresolved canonical skill IDs** and **0 slot-class incompatibilities**.
+- [x] Preserved the cast/CaC boundary: **Galaxy Breaker (Festival)** remains a distinct canonical cast/preset skill and is not made CaC-usable merely because it appears in a verified Vegeta preset.
+- [x] Added `docs/data/character-preset-skill-reverse-navigation-audit-2026-09-27.json` as the deterministic reverse-navigation audit.
+- [x] Did **not** fabricate skill-side preset-link arrays: the current canonical preset layer stores loadout skill names, so the audit records exact reverse endpoints without changing the schema.
+- [ ] **Next:** audit/synchronize the 493 canonical skills against the maintained skill-index/catalog layers and existing skill↔PQ relationships; repair only deterministic omissions or asymmetries while keeping canonical data authoritative.
