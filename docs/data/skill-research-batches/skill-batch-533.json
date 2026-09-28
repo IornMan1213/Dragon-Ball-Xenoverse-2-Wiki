@@ -1,0 +1,19 @@
+{
+  "batch": 533,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Stale early/base-game PQ86-PQ90 skill records lacking a post-recovery current-evidence refresh.",
+  "selected": [
+    {"skill_name":"Neo Wolf Fang Fist","current_evidence":{"class":"Super","subcategory":"Strike","stamina_cost":100,"usable_by_cac":true,"character_source":"Yamcha","acquisition":"Parallel Quest 86 — Yamcha is Number One"},"mechanics_boundary":"Enhanced Wolf Fang Fist sequence with extension through held input is supported. Exact stamina progression and current scaling remain unresolved."},
+    {"skill_name":"Buu Buu Ball","current_evidence":{"class":"Ultimate","subcategory":"Ki Blast","ki_cost":300,"usable_by_cac":true,"character_source":"Super Buu","acquisition":"Parallel Quest 88 — Evil Seeks Dragon Balls Yet Again!"},"mechanics_boundary":"Large Majin energy projectile is supported. Exact technical behavior and reward-slot semantics are not promoted."},
+    {"skill_name":"Victory Rush","current_evidence":{"class":"Ultimate","subcategory":"Strike","ki_cost":300,"usable_by_cac":true,"character_source":"Goku; Gotenks","acquisition":"Parallel Quest 89 — Super-Super Ultimate Series of Battles!"},"mechanics_boundary":"Rapid multi-hit rush ending in a powerful strike is supported. Exact hit timing and scaling are not promoted."},
+    {"skill_name":"III Bomber","current_evidence":{"class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"race_restriction":"Majin CaC","character_source":"Majin Buu","acquisition":"Parallel Quest 90 — Gathering of the Great Evil Alliance"},"mechanics_boundary":"Sequence of Majin-style explosive projectiles is supported. The III Bomber/Ill Bomber naming discrepancy is preserved as provenance rather than creating a second identity."}
+  ],
+  "validation":{"canonical_skill_identity_count":493,"canonical_identity_changes":0,"unsupported_pq_relationships_added":0,"speculative_frames_added":0,"speculative_patch_independent_scaling_added":0,"speculative_probabilities_added":0},
+  "source_provenance":{
+    "neo_wolf_fang_fist":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "buu_buu_ball":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "victory_rush":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "iii_bomber":["https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+  }
+}
