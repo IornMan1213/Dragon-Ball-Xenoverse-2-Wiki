@@ -6575,3 +6575,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical relationship data was not changed and no unsupported relationship was invented.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue PQ61-PQ70 using the same three-layer comparison and repair actual omissions before enrichment.
+
+
+### 2026-09-28 continuation — PQ61-PQ70 recovery-forward reconciliation
+- [x] Audited PQ61-PQ70 against canonical typed reward relationships and the maintained PQ record layer.
+- [x] Repaired maintained reward projections missing after corruption: PQ61 Battle Suit (CC); PQ62 Frieza's Suit (Final Form); PQ63 Goku Wig (Super Saiyan) + Before creation comes ruin...; PQ64 Janemba! Janemba!; PQ65 Gohan's Gi (Adult) + I never knew this world existed!; PQ66 SSGSS Goku Wig + Whis Symbol Gi + Warp Kamehameha.
+- [x] Canonical skill relationships were already present except PQ66 Warp Kamehameha, which was restored to the maintained skill projection from the canonical source-backed relationship.
+- [x] Added batch-562 audit and indexed it in docs/data/pq-cross-domain-index.json.
+- [x] Did not project pq_features_character links into reward fields; featured characters are not equivalent to acquisition rewards.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ71-PQ80 canonical-first reward projection/reconciliation.
