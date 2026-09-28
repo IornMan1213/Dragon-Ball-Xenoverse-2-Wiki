@@ -4815,3 +4815,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the repository's null/RNG policy: no exact QQ Bang result is inferred from a recipe family, and community claims are not promoted to deterministic outcomes without observed vectors.
 - [ ] Next: expand QQ Bang coverage with genuinely new observed six-stat vectors and source provenance, then normalize the QQ Bang record layer into canonical cross-domain relationships.
 - [ ] Runtime/CI execution remains unverified.
+
+
+### 2026-09-27 continuation — QQ Bang frontier audit
+- [x] Audited the live QQ Bang record layer after the canonical skill recovery/validator synchronization.
+- [x] Confirmed `docs/data/qq-bangs-record-layer.json` currently contains 14 research records, including 10 records with complete observed six-stat vectors.
+- [x] Strengthened the QQ Bang research-layer metadata to explicitly separate observed vectors from recipe families and preserve RNG uncertainty; no deterministic community recipe was promoted.
+- [x] Refreshed the system/recipe research timestamps and recorded the next QQ Bang frontier.
+- [ ] Next substantive QQ Bang work: expand individually documented six-stat vectors and exact recipe provenance, then cross-link reproducible outputs into build/equipment research without claiming exhaustive inventory.
+- [ ] Runtime/CI validation remains unverified in the connector environment.
