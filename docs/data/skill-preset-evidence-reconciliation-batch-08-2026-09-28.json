@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Direct evidence reconciliation for Super Galick Gun after recovered preset identity audit.",
+  "canonical_source": "docs/data/skills.json",
+  "record": {
+    "name": "Super Galick Gun",
+    "skill_id": "skill-super-galick-gun",
+    "evidence": [
+      "https://dbxv2.fandom.com/wiki/Super_Galick_Gun",
+      "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+      "https://dragonball.fandom.com/wiki/Super_Galick_Gun",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74510965"
+    ],
+    "canonical_fields": {
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "ki_cost": 300,
+      "unlock_method": "TP Medal Shop",
+      "usable_by_cac": true
+    },
+    "finding": "Current Xenoverse 2-specific documentation identifies Super Galick Gun as a 300-Ki Ki Blast Ultimate obtained from the TP Medal Shop. Independent Dragon Ball documentation corroborates the TP Medal Shop acquisition and Ultimate identity; archived community evidence independently reports the TP shop route.",
+    "mechanics_boundary": "Current dedicated evidence supports a chargeable long-range beam with 15-24 hits and greater output at higher charge. Exact patch-independent damage and timing are not promoted.",
+    "status": "canonical_reconciled"
+  },
+  "preset_scope": {
+    "preset_ids": [
+      "vegeta-preset-1",
+      "vegeta-preset-3",
+      "vegeta-preset-7",
+      "vegeta-preset-9"
+    ],
+    "occurrence_count": 4
+  },
+  "policy": "Canonical skills.json remains authoritative; preset/index layers are evidence or consumers."
+}
