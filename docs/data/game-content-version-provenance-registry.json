@@ -120,6 +120,14 @@
       "date": "2025-05-21",
       "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-daima-pack-now-available-dragon-ball-xenoverse-2",
       "scope": "Official release notice confirms the Dragon Ball DAIMA Pack includes player-character skills, alongside two new playable DAIMA characters."
+    },
+    {
+      "id": "community_free_update_20_catalog",
+      "publisher": "Dragon Ball Xenoverse 2 Wiki / maintained community reference",
+      "title": "Free Update catalog — Free Update 20",
+      "date": "2025-05-21",
+      "url": "https://dbxv2.fandom.com/wiki/Free_Update",
+      "scope": "Community reference identifies Free Update 20 as the May 21 2025 update associated with the DAIMA Pack and records its broader update contents; individual skill names must still be independently matched to canonical records before assignment."
     }
   ],
   "events": [
@@ -200,7 +208,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Search official/community patch notes and skill catalogs for individually named May 21 2025 free-update skills; if direct evidence is unavailable, preserve the unresolved gap and move to Chapter 4 named-move reconciliation.",
+  "next_step": "Reconcile Free Update 20 skill names against canonical records using direct catalog evidence; do not infer from dates or neighboring DAIMA Pack PQs. If unresolved, proceed to Future Saga Chapter 4 named-move evidence.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
