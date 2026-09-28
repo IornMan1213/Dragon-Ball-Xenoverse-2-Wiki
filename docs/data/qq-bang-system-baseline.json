@@ -22,7 +22,7 @@
     "source_notes"
   ],
   "source": "https://dbxv2.fandom.com/wiki/QQ_Bang",
-  "next_reconciliation": "Normalize the record layer into observed six-stat vectors, star rating, clothing inputs, mixing item, acquisition route, and reproducibility notes. Treat recipe outputs as distributions rather than guarantees.",
+  "next_reconciliation": "Promote individually observed six-stat QQ Bang vectors with exact input clothing, mixing item, star rating, and provenance; keep recipe families separate from guaranteed outputs.",
   "research_updates": [
     {
       "date": "2026-09-27",
@@ -37,6 +37,20 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
         "https://steamcommunity.com/app/454650/discussions/0/2916598577618776811/"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "topic": "Super Mix Capsule Z acquisition provenance",
+      "findings": [
+        "Current secondary evidence consistently identifies Online Parallel Quest Tours / Expert Mission Tours as routes for Super Mix Capsule Z farming.",
+        "Secondary evidence also documents synthesis of Super Mix Capsule Z from a regular Super Mix Capsule plus a Demon Realm Crystal.",
+        "The repository continues to avoid asserting an exact drop percentage or guaranteed QQ Bang stat vector without direct item-table or observed-output evidence."
+      ],
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eaium7",
+        "https://www.reddit.com/r/dbxv/comments/15rhszd",
+        "https://www.youtube.com/watch?v=dZE9_VysgAw"
       ]
     }
   ]
