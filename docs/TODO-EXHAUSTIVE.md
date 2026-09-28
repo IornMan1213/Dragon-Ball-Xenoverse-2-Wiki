@@ -5269,3 +5269,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed no additional safe typed-reward promotions remain from that drift set.
 - [x] Documented the result in `docs/data/pq-cross-domain-reconciliation.json`.
 - [ ] **Next:** continue the explicit canonical skill-record/acquisition-gap frontier (Dual Masenko candidate) and mechanics enrichment.
+
+
+### 2026-09-28 continuation — Restored skill acquisition evidence refresh
+- [x] Independently source-backed Energy Wave Combo as a 100-Ki Ki Blast Super obtainable from the Skill Shop/default Future Warrior skill set.
+- [x] Preserved the distinction between acquisition evidence and PQ reward evidence; no PQ edge was created.
+- [x] Refreshed `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`.
+- [x] Preserved Full Power Energy Wave's unresolved Ultimate-Finish requirement as null.
+- [ ] **Exact next:** propagate the Energy Wave Combo acquisition correction into the canonical skill/index layers safely, then continue the remaining restored-skill acquisition/mechanics gaps.
