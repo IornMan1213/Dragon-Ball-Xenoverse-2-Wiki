@@ -5840,3 +5840,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] The available catalog does not provide a sufficiently direct named skill list to map additional canonical skill IDs; therefore **no additional skill provenance was fabricated**.
 - [x] Closed this subtask as an explicitly documented unresolved provenance gap and advanced the frontier.
 - [ ] **Next:** Future Saga Chapter 4 named-move reconciliation.
+
+
+### 2026-09-28 continuation — Future Saga Chapter 4 named-skill corroboration
+- [x] Added an independent July 8, 2026 guide that explicitly names all four Chapter 4 moves: The Power to Overcome, Dragon Spiral, Indomitable, and Venus Fist. citeturn2search0
+- [x] Reclassified the four Chapter 4 registry mappings from `direct_scope` to `corroborated`, because the official source establishes the four-move scope while the independent source supplies the individual names.
+- [x] Preserved the rule that this establishes release-event provenance, not an inferred patch/version number.
+- [ ] **Next:** find additional independent or official named-move evidence for Chapter 4 and continue the unresolved Free Update 20 individual-skill investigation.
