@@ -4820,3 +4820,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical and index counts remain **493/493**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the remaining restored preset identities and systematically audit recovered cross-domain endpoints, prioritizing canonical acquisition routes that can be compared bidirectionally against PQ reward data.
+
+
+### 2026-09-28 continuation — Skill→PQ validator recovery sync
+- [x] Audited `scripts/validate_skill_pq_crosslinks.py` against the recovered live graph.
+- [x] Corrected stale validator expectations from **475 skills / 246 edges** to **493 skills / 248 edges**.
+- [x] Corrected the reverse-index generation-date expectation to **2026-09-28** so the validator matches the regenerated live artifact.
+- [x] Preserved the existing 170 represented PQ IDs and zero unresolved canonical skill endpoints; no unsupported PQ→skill edges were invented.
+- [ ] **Next:** run/inspect the remaining cross-domain validators and continue enrichment of restored preset identities and PQ reward navigation.
