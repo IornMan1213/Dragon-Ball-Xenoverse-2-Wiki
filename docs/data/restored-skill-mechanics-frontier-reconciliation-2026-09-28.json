@@ -18,7 +18,8 @@
         "frame data",
         "patch-independent scaling"
       ],
-      "evidence": "docs/data/skill-research-batches/skill-batch-476.json"
+      "evidence": "docs/data/skill-research-batches/skill-batch-476.json",
+      "status": "canonical_boundary_aligned"
     },
     {
       "skill_id": "skill-super-electric-strike",
@@ -33,7 +34,8 @@
         "frame data",
         "patch-independent scaling"
       ],
-      "evidence": "docs/data/skill-research-batches/skill-batch-458.json"
+      "evidence": "docs/data/skill-research-batches/skill-batch-458.json",
+      "status": "canonical_boundary_aligned"
     },
     {
       "skill_id": "skill-ki-explosion",
@@ -48,7 +50,8 @@
         "universal damage scaling",
         "exact current extension formula"
       ],
-      "evidence": "docs/data/skill-research-batches/skill-batch-458.json"
+      "evidence": "docs/data/skill-research-batches/skill-batch-458.json",
+      "status": "canonical_boundary_aligned"
     },
     {
       "skill_id": "skill-heavenly-arrow",
@@ -62,7 +65,8 @@
         "exact timing",
         "patch-independent scaling"
       ],
-      "evidence": "docs/data/skill-research-batches/skill-batch-457.json"
+      "evidence": "docs/data/skill-research-batches/skill-batch-457.json",
+      "status": "canonical_boundary_aligned"
     },
     {
       "skill_id": "skill-counter-burst",
@@ -71,24 +75,26 @@
       "subcategory": "Ki Blast",
       "ki_cost": 100,
       "acquisition": "Parallel Quest 75",
-      "mechanics_boundary": "Ki-specific counter that projects an energy shield and retaliates against applicable Ki Blast attacks.",
+      "mechanics_boundary": "Frontal Ki counter barrier; current dedicated evidence supports a 6-hit counter projectile, knockback, and 20% source-reported damage when triggered by a Ki Blast skill. Exact counter window, complete coverage, frame data, and patch-independent scaling remain unresolved.",
       "unresolved": [
         "counter window",
         "exact coverage of countered Ki attacks",
-        "returned damage"
+        "frame data",
+        "patch-independent scaling"
       ],
-      "evidence": "docs/data/skill-research-batches/skill-batch-468.json"
+      "evidence": "docs/data/skill-research-batches/skill-batch-468.json",
+      "status": "canonical_enriched_2026-09-28"
     }
   ],
   "validation": {
     "canonical_count": 493,
     "index_count": 493,
     "identity_scope": "These records already exist in the canonical corpus; this pass does not create duplicate identities.",
-    "pq_boundary": "Acquisition endpoints are not converted into PQ reward edges unless explicit reward evidence exists."
+    "pq_boundary": "Acquisition endpoints are not converted into PQ reward edges unless explicit reward evidence exists.",
+    "mechanics_reconciliation": "Counter Burst canonical and index records updated together; 493-record corpus preserved."
   },
   "next_frontier": [
-    "Reconcile any canonical field mismatches against these evidence boundaries.",
-    "Do not promote source-reported damage as patch-independent constants.",
-    "Continue bidirectional PQ typed-reward audits after mechanics fields are reconciled."
+    "Continue remaining skill mechanics/acquisition gaps outside this five-record frontier.",
+    "Continue bidirectional PQ typed-reward reconciliation without inferring relationships from non-PQ acquisition endpoints."
   ]
 }
