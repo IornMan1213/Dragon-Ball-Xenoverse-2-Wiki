@@ -5,36 +5,11 @@
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_skill_dataset": "docs/data/skills.json",
   "canonical_skill_records": 493,
-  "linked_skill_rewards": 238,
-  "alias_matches": [
-    {
-      "pq": 46,
-      "skill": "Chain Destructo-disc Barrage",
-      "canonical_skill": "Chain Destructo-Disc Barrage",
-      "match": "alias"
-    },
-    {
-      "pq": 104,
-      "skill": "Starfall",
-      "canonical_skill": "Destruction's Concerto: Starfall",
-      "match": "alias"
-    },
-    {
-      "pq": 163,
-      "skill": "Giant Cluster",
-      "canonical_skill": "Gigantic Cluster",
-      "match": "alias"
-    },
-    {
-      "pq": 90,
-      "skill": "III Bomber",
-      "canonical_skill": "Ill Bomber",
-      "match": "alias"
-    }
-  ],
+  "linked_skill_rewards": 248,
+  "alias_matches": [],
   "unresolved": [],
   "status": "resolved",
-  "unique_forward_relationships": 238,
+  "unique_forward_relationships": 248,
   "resolved_skill_rewards": [
     {
       "pq": 2,
@@ -140,8 +115,26 @@
     },
     {
       "pq": 15,
+      "skill": "Fighting Pose D",
+      "canonical_skill": "Fighting Pose D",
+      "match": "exact"
+    },
+    {
+      "pq": 15,
       "skill": "Holstein Shock",
       "canonical_skill": "Holstein Shock",
+      "match": "exact"
+    },
+    {
+      "pq": 16,
+      "skill": "Fighting Pose B",
+      "canonical_skill": "Fighting Pose B",
+      "match": "exact"
+    },
+    {
+      "pq": 17,
+      "skill": "Fighting Pose J",
+      "canonical_skill": "Fighting Pose J",
       "match": "exact"
     },
     {
@@ -338,14 +331,14 @@
     },
     {
       "pq": 46,
-      "skill": "Chain Destructo-disc Barrage",
+      "skill": "Chain Destructo-Disc Barrage",
       "canonical_skill": "Chain Destructo-Disc Barrage",
-      "match": "alias"
+      "match": "exact"
     },
     {
-      "pq": 48,
-      "skill": "Kamehameha",
-      "canonical_skill": "Kamehameha",
+      "pq": 49,
+      "skill": "Do or Die",
+      "canonical_skill": "Do or Die",
       "match": "exact"
     },
     {
@@ -388,6 +381,12 @@
       "pq": 56,
       "skill": "Stone Bullet",
       "canonical_skill": "Stone Bullet",
+      "match": "exact"
+    },
+    {
+      "pq": 57,
+      "skill": "Rakshasa's Claw",
+      "canonical_skill": "Rakshasa's Claw",
       "match": "exact"
     },
     {
@@ -577,6 +576,18 @@
       "match": "exact"
     },
     {
+      "pq": 86,
+      "skill": "Neo Wolf Fang Fist",
+      "canonical_skill": "Neo Wolf Fang Fist",
+      "match": "exact"
+    },
+    {
+      "pq": 87,
+      "skill": "Atomic Blast",
+      "canonical_skill": "Atomic Blast",
+      "match": "exact"
+    },
+    {
       "pq": 88,
       "skill": "Buu Buu Ball",
       "canonical_skill": "Buu Buu Ball",
@@ -590,9 +601,9 @@
     },
     {
       "pq": 90,
-      "skill": "III Bomber",
+      "skill": "Ill Bomber",
       "canonical_skill": "Ill Bomber",
-      "match": "alias"
+      "match": "exact"
     },
     {
       "pq": 91,
@@ -674,9 +685,9 @@
     },
     {
       "pq": 104,
-      "skill": "Starfall",
+      "skill": "Destruction's Concerto: Starfall",
       "canonical_skill": "Destruction's Concerto: Starfall",
-      "match": "alias"
+      "match": "exact"
     },
     {
       "pq": 105,
@@ -694,6 +705,24 @@
       "pq": 105,
       "skill": "Sonic Bomb",
       "canonical_skill": "Sonic Bomb",
+      "match": "exact"
+    },
+    {
+      "pq": 106,
+      "skill": "Destruction's Concerto: Meteor",
+      "canonical_skill": "Destruction's Concerto: Meteor",
+      "match": "exact"
+    },
+    {
+      "pq": 106,
+      "skill": "Destruction's Conductor",
+      "canonical_skill": "Destruction's Conductor",
+      "match": "exact"
+    },
+    {
+      "pq": 106,
+      "skill": "Requiem of Destruction",
+      "canonical_skill": "Requiem of Destruction",
       "match": "exact"
     },
     {
@@ -736,6 +765,12 @@
       "pq": 113,
       "skill": "Candy Beam",
       "canonical_skill": "Candy Beam",
+      "match": "exact"
+    },
+    {
+      "pq": 113,
+      "skill": "Candy Beam (Super)",
+      "canonical_skill": "Candy Beam (Super)",
       "match": "exact"
     },
     {
@@ -1268,9 +1303,9 @@
     },
     {
       "pq": 163,
-      "skill": "Giant Cluster",
+      "skill": "Gigantic Cluster",
       "canonical_skill": "Gigantic Cluster",
-      "match": "alias"
+      "match": "exact"
     },
     {
       "pq": 164,
@@ -1464,11 +1499,5 @@
       "canonical_skill": "Venus Fist",
       "match": "exact"
     }
-  ],
-  "legacy_batch_projection": {
-    "historical_generated_at": "2026-09-19",
-    "historical_linked_skill_rewards": 229,
-    "historical_canonical_skill_records": 283,
-    "interpretation": "Historical PQ-batch projection retained for provenance comparison only; current navigation projection is derived from the canonical forward relationship store."
-  }
+  ]
 }
