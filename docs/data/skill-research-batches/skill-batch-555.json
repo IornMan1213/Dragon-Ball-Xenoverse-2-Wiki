@@ -1,0 +1,30 @@
+{
+  "schema_version":"1.0.0",
+  "batch_id":555,
+  "date":"2026-09-28",
+  "status":"complete",
+  "type":"chapter_3_4_provenance_strengthening",
+  "scope":"Strengthen the individual Future Saga Chapter 3 and Chapter 4 mappings without inventing undocumented version or patch history.",
+  "findings":[
+    {
+      "event":"future-saga-chapter-3",
+      "skills":["Chaotic Time Impact","Dark Inscription","Emperor's Cannon","Gigantic Cross","Gigantic Nova","Saiyan Blaster"],
+      "action":"Added the official Chapter 3 release source to each existing mapping while retaining the maintained independent named-skill catalog as the source that identifies individual move names.",
+      "boundary":"The official source establishes the DLC and its featured characters/release context but does not itself name every skill; therefore the independent named-skill evidence remains explicit rather than being silently upgraded to primary named-move evidence."
+    },
+    {
+      "event":"future-saga-chapter-4",
+      "skills":["Dragon Spiral","Indomitable","The Power to Overcome","Venus Fist"],
+      "action":"Replaced the stale announcement-only event identifier with the released Chapter 4 event and added the July 8, 2026 Dragon Ball Official Site release confirmation.",
+      "boundary":"Individual skill names remain supported by independent named-skill/acquisition evidence; the primary source confirms the DLC release and new-character context but does not name all four moves in the cited article."
+    }
+  ],
+  "validation":{
+    "chapter_3_mappings_changed":6,
+    "chapter_4_mappings_changed":4,
+    "unsupported_ids_invented":0,
+    "canonical_skills_changed":false,
+    "patch_history_inferred":false
+  },
+  "next":"Continue primary-source named-move research only where a source explicitly names the individual Chapter 3/4 skill; otherwise preserve the current evidence tiers and move to the next unresolved provenance or cross-domain enrichment frontier."
+}
