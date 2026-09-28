@@ -73,7 +73,7 @@ if existing_reverse is not None:
 
 payload = {
     "schema_version": "1.0",
-    "generated_on": "2026-09-26",
+    "generated_on": "2026-09-27",
     "scope": "Canonical skill dataset → Parallel Quest reverse navigation",
     "source": "docs/data/skills.json",
     "canonical_skill_count": len(records),
