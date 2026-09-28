@@ -5841,3 +5841,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Recorded the consumer audit and corrected-count state in `docs/COVERAGE-AUDIT.md`.
 - [x] Confirmed the repaired equipment reverse layer remains **126/126 with zero missing and zero reverse-only pairs**.
 - [ ] Next: continue the concrete unresolved QQ Bang input-name audit, then resume evidence-backed expansion of underrepresented PQ typed rewards.
+
+
+### 2026-09-28 continuation — QQ Bang input identity audit
+- [x] Audited every QQ Bang `clothing_inputs` value that was not an exact `equipment_links` input match.
+- [x] Confirmed generic system/mixing prose is not a concrete equipment identity and should not receive links.
+- [x] Confirmed `qq-recipe-001` and `qq-research-002` already have component-level equipment links; no duplicate links were added.
+- [x] Confirmed `qq-observed-013` contains one explicitly unspecified 5-star clothing input; no equipment identity was inferred from its output vector.
+- [x] Recorded the boundary in `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json`: 0 new promotable links, 0 invalid existing links, 1 unresolved concrete input.
+- [ ] **Next:** resume evidence-backed PQ typed-reward expansion/acquisition-gap research.
