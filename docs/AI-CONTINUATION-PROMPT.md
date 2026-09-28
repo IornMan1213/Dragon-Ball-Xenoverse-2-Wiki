@@ -5719,3 +5719,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json`.
 - [x] No safe new canonical relationship was identified in this pass.
 - [ ] **Exact next:** move beyond the 16-PQ endpoint gap and audit canonical relationship consumers for bidirectional parity (PQ→reward and reward→PQ), prioritizing known equipment/accessory records with explicit PQ provenance but missing reverse links.
+
+### 2026-09-28 continuation — unrepresented-PQ typed-reward coverage audit
+- [x] Audited the remaining 16 PQ IDs without explicit canonical skill endpoints against the canonical typed-reward relationship layer and accessory/equipment research bridges.
+- [x] Confirmed source-backed typed rewards already represented for PQ30, 47, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169, and 170.
+- [x] Preserved PQ35's Z-Sword evidence as research-only, because the accessory identity is currently a shop candidate and the historical PQ route is not strong enough for a canonical PQ relationship.
+- [x] Preserved PQ1 as an unresolved typed-reward research target and PQ48 as the existing Kamekameha/Kamehameha evidence conflict.
+- [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json`; no unsupported canonical relationships were promoted.
+- [x] Typed-reward audit commit: `AUDIT_COMMIT_PENDING`.
+- [ ] **Exact next:** expand the remaining bounded evidence targets (especially PQ1/PQ35/PQ48) using direct item-level sources, while continuing to avoid inferring relationships from absence or ambiguous third-party mappings.
