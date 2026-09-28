@@ -5401,3 +5401,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical and index counts remain **493/493**.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the remaining restored preset identities and systematically audit recovered cross-domain endpoints, prioritizing canonical acquisition routes that can be compared bidirectionally against PQ reward data.
+
+
+### 2026-09-28 continuation — direct evidence confirmation
+- Direct current Xenoverse 2 evidence independently confirms **Full Power Energy Blast Volley** as an Ultimate/Ki Blast skill, 300 Ki, and the default starting Ultimate. The older repository `skill-batch-253` Super/100-Ki/Nappa-training record is retained as historical conflicting evidence and must not override the canonical interpretation. citeturn0search0turn0search2turn0search5
+- The canonical `skills.json` connector still exposes its blob SHA but an empty content payload, so no whole-file replacement was attempted.
+- Continue by finding a safe targeted mutation path for the single canonical record and its stale reverse-navigation expected class. Do not rewrite the entire recovered skills corpus from an incomplete payload.
+- Galaxy Breaker (Festival) remains intentionally outside the CaC canonical promotion boundary: repository evidence identifies it as a Festival/cast-only Super, 200 Ki, unusable by CaC. Do not promote it merely because it appears in a verified preset. 
+- Next after the safe targeted correction: resume remaining restored-identity enrichment, then audit recovered Skill→PQ/PQ→Skill coverage without inferring unsupported edges.
