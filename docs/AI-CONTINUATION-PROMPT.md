@@ -4764,3 +4764,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Removed the unsupported `Free Update 4` value from the restored canonical Dual Masenko record; `dlc_requirement` is now null, consistent with the existing Batch 261 research record.
 - [x] Updated the Dual Masenko gap audit with the conflict and decision.
 - [ ] Next: continue exhaustive discovery of genuine missing/under-enriched records and reconcile only when evidence is sufficiently direct and consistent.
+
+
+### 2026-09-27 continuation — QQ Bang research expansion
+- [x] Moved the substantive frontier to the documented QQ Bang expansion priority after the Dual Masenko recovery/validator pass.
+- [x] Audited the current QQ Bang canonical research layer: 3 existing records covering the synthesis system, Super Mix Capsule Z, and a Bardock + Beerus recipe family.
+- [x] Added a fourth structured QQ Bang research record for the **Bardock Battle Suit + Beerus clothing + Super Mix Capsule Z** 6-star recipe family.
+- [x] Kept the new record explicitly RNG-bounded: it records a recipe family and provenance, not a guaranteed six-stat output. Independent current research confirms QQ Bang results vary and recipe outputs must be treated as observations rather than deterministic guarantees. citeturn0search0turn0search3
+- [x] Sources include repository research, Steam player documentation, and a dedicated QQ Bang recipe reference. Historical/community recipe evidence is retained as secondary evidence rather than promoted to unsupported exact mechanics. citeturn0search5turn0search6
+- [ ] Next: expand QQ Bang observed-result records with actual six-stat outputs and provenance, then reconcile clothing-input/equipment endpoints. Do not infer exact results from recipe names alone.
