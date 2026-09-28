@@ -1,0 +1,31 @@
+{
+  "batch_id": 564,
+  "date": "2026-09-28",
+  "type": "pq-81-90-cross-domain-reconciliation",
+  "scope": "PQ81-PQ90",
+  "status": "reconciled",
+  "findings": {
+    "records_audited": 10,
+    "skill_projection_repairs": 3,
+    "equipment_projection_repairs": 0,
+    "super_soul_projection_repairs": 0,
+    "repairs": [
+      "PQ86 restored Neo Wolf Fang Fist to maintained skill_rewards.",
+      "PQ87 restored Atomic Blast to maintained skill_rewards.",
+      "PQ90 normalized maintained III Bomber to canonical Ill Bomber using the repository's existing alias rule; no second skill was created."
+    ],
+    "boundary_notes": [
+      "PQ90 dedicated research preserves III Bomber as the researched/source spelling while canonical relationship and validation alias resolve it to Ill Bomber.",
+      "No equipment or Super Soul canonical reward relationships were present for PQ81-PQ90."
+    ]
+  },
+  "canonical_data_changed": false,
+  "unsupported_relationships_invented": false,
+  "evidence": [
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/parallel-quest-research-batches/pq-batch-09.json",
+    "scripts/validate_pq_skill_links.py",
+    "docs/data/skill-research-batches/skill-batch-54.json"
+  ],
+  "next": "Continue PQ91-PQ100 with canonical-first reward projection/reconciliation."
+}
