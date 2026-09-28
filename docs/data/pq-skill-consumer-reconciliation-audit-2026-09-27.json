@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-27",
+  "audit_date": "2026-09-28",
   "scope": "PQ→skill consumer projection",
   "source_forward": "docs/data/pq-reward-relationships.json",
   "source_canonical_skill": "docs/data/skills.json",
@@ -9,8 +9,8 @@
   "validator": "scripts/validate_pq_skill_links.py",
   "checks": {
     "canonical_skill_records": 493,
-    "forward_pq_skill_edges": 246,
-    "resolved_consumer_links": 246,
+    "forward_pq_skill_edges": 248,
+    "resolved_consumer_links": 248,
     "unresolved": 0,
     "aliases": 4,
     "status": "passed"
@@ -22,10 +22,10 @@
     "Starfall → Destruction's Concerto: Starfall",
     "Giant Cluster → Gigantic Cluster"
   ],
-  "historical_note": "The earlier 236-link count was stale metadata. The live recovered canonical dataset and forward PQ reward relationship store now both contain 246 Skill→PQ edges, with zero unresolved canonical endpoints.",
+  "historical_note": "The live recovered canonical dataset and forward PQ reward relationship store now contain 248 Skill→PQ edges, with zero unresolved canonical endpoints. Two recovered endpoints were added in this cycle: PQ15→Holstein Shock and PQ17→Recoome Eraser Gun.",
   "canonical_projection_check": {
-    "canonical_skill_pq_edges": 246,
-    "forward_skill_edges": 246,
+    "canonical_skill_pq_edges": 248,
+    "forward_skill_edges": 248,
     "missing_canonical_endpoints": 0,
     "represented_pq_ids": 170
   }
