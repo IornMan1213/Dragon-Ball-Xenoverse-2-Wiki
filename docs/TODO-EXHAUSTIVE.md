@@ -5969,3 +5969,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 2026-09-28: PQ23-PQ26 reward reconciliation batch 559 completed. Corrected research-layer omissions for Death Slash (PQ23), Double Death Slicer (PQ24), Spirit Explosion (PQ25), and Crazy Finger Shot (PQ26). Canonical reward relationships already existed; no duplicate edges or unsupported canonical mutations were made. Exact drop-slot/probability semantics remain unresolved. Added and indexed dedicated audit. Next: continue the same concrete PQ reward-boundary audit into PQ28+.
+
+
+### 2026-09-28 continuation — PQ41-PQ50 recovery-forward reconciliation + index repair
+- [x] Audited PQ41-PQ50 against canonical PQ→skill relationships and existing research/reverse evidence.
+- [x] Confirmed 9 documented skill-reward records have canonical relationships; PQ47 remains an intentional no-skill row.
+- [x] Preserved PQ48 Kamekameha→Kamehameha identity normalization, PQ46 Chain Destructo-disc Barrage→Chain Destructo-Disc Barrage normalization, and PQ49 Do or Die skill classification correction.
+- [x] Added docs/data/pq-reward-boundary-audits/pq-41-50-cross-domain-reconciliation-2026-09-28.json (batch 560).
+- [x] Repaired malformed docs/data/pq-cross-domain-index.json syntax and indexed batch 560; JSON now parses successfully.
+- [x] Refreshed the PQ cross-domain audit to current **862** canonical relationship edges.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue PQ51-PQ60 concrete reward/relationship reconciliation, preserving evidence boundaries and canonical source-of-truth rules.
