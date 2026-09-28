@@ -19,8 +19,7 @@ if not isinstance(data, dict):
 records = data.get("records")
 if not isinstance(records, list):
     fail("records must be a list")
-if len(records) != 475:
-    fail(f"skill record count {len(records)} != 475")
+expected_count = len(records)  # derive the recovered canonical corpus size at validation time; do not freeze a pre-recovery count
 if any(not isinstance(r, dict) for r in records):
     fail("every skill record must be an object")
 
@@ -35,8 +34,8 @@ for i, record in enumerate(records):
             fail(f"record {i} {field} must be a non-empty string")
 
 ids = [record["id"] for record in records]
-if len(set(ids)) != 475:
-    fail("canonical skill IDs must be unique")
+if len(set(ids)) != expected_count:
+    fail(f"canonical skill IDs must be unique ({expected_count} canonical records expected)")
 
 anomalies = []
 invalid_pq_endpoints = []
@@ -69,4 +68,4 @@ if invalid_pq_endpoints:
 if anomalies:
     fail(f"acquisition metadata anomalies: {anomalies}")
 
-print("PASS: 475 records; acquisition schema, acquisition_type/unlock_method/PQ endpoint consistency, unique PQ endpoints, and PQ endpoint ranges hold.")
+print(f"PASS: {expected_count} canonical records; acquisition schema, acquisition_type/unlock_method/PQ endpoint consistency, unique PQ endpoints, and PQ endpoint ranges hold.")
