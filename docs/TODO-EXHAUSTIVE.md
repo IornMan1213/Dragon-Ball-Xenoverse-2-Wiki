@@ -4332,3 +4332,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Expand QQ Bang structured research from 15 to 18 records with three additional 6-star recipe-family records; preserve RNG uncertainty and provenance.
 - [ ] 2026-09-27: Continue QQ Bang expansion with observed six-stat outputs, material provenance, and version-aware Super Mix Capsule/Z acquisition evidence.
+
+
+- [x] 2026-09-27: Post-corruption recovery reconciliation — restored the three QQ Bang recipe-family records (`qq-recipe-003` through `qq-recipe-005`) that were present in the immediately preceding live expansion commit but absent from the current main file; QQ Bang canonical research is back to **18 records / 11 observed vectors**.
+- [x] 2026-09-27: Synchronized `canonical-database-recovery-checkpoint-2026-09-27.json` with the current **475 Skills / 475 index records** and restored **18 QQ Bang records**, preserving canonical-source priority and recovery provenance.
+- [ ] 2026-09-27: Continue QQ Bang expansion with additional non-duplicate observed six-stat vectors, version-aware Super Mix Capsule Z/material provenance, and downstream equipment/build cross-links.
+- [ ] 2026-09-27: Execute the available validator/runtime path when an execution-capable environment is available; connector-side runtime remains unverified.
