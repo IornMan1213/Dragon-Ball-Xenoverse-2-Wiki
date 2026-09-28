@@ -4836,3 +4836,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Replaced that assertion with an explicit deterministic failure and recorded the follow-up in `docs/data/skill-pq-crosslink-validator-audit-2026-09-27.json`.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: inspect the remaining cross-domain validators for concrete integrity gaps, then continue restored preset enrichment and bidirectional PQ reward coverage.
+
+### 2026-09-28 continuation — Full Power Energy Blast Volley canonical resolution
+- [x] Resolved the restored preset-identity conflict using current Xenoverse 2-specific evidence plus independent corroboration.
+- [x] Corrected canonical `docs/data/skills.json` to Ultimate / Ki Blast / 300 Ki / Starting move for all types; removed the unsupported Nappa mentor route and unsupported 0-Stamina value.
+- [x] Synchronized `docs/data/skills-index.json` to the canonical identity and bounded mechanics.
+- [x] Preserved historical batch-253 conflict as provenance only.
+- [x] Verified canonical and index counts remain 493 / 493.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue the restored-identity evidence queue, then reconcile recovered skill/PQ cross-domain endpoints against canonical PQ reward data.
