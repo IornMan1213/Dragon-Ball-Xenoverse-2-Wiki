@@ -6529,3 +6529,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Synchronized the skill catalog and PQ cross-domain indexes.
 - [x] Preserved existing individual-skill evidence tiers; no unsupported primary attribution, fabricated ID, or version history was added.
 - [ ] **Next:** advance to the next unresolved provenance or cross-domain enrichment frontier rather than repeatedly searching the same source text.
+
+
+### 2026-09-28 continuation — PQ15 skill-reward reconciliation batch 557
+- [x] Reconciled PQ15 against independent reward evidence.
+- [x] Corrected the PQ15 research record to list Holstein Shock, Spinning Blade, and Fighting Pose D as documented skill rewards.
+- [x] Preserved the Spinning Blade acquisition conflict; current independent skill evidence identifies TP Medal Shop, while older PQ evidence records PQ15.
+- [x] Added and indexed the PQ15 reconciliation audit.
+- [x] No unsupported canonical Spinning Blade ID or relationship was created because the skill is not currently in authoritative skills.json.
+- [ ] **Next:** continue the next concrete PQ cross-domain enrichment frontier, or recover Spinning Blade only if direct canonical identity evidence becomes available.
