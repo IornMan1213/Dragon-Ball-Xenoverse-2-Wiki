@@ -25,7 +25,7 @@ The repository has strong research foundations for several systems, but multiple
 |---|---|---|---|
 | GitHub Actions validation | Blocked by reported billing error; connector also shows pre-run failures with no steps/logs | Restore executable validation path | P0 |
 | Skills | Large seeded/indexed catalogue plus hundreds of research batches | Reconcile research into canonical data; exact costs, acquisition, CaC restrictions, mechanics, UF conditions, version history | P1 |
-| Parallel Quests | Structured audit now covers PQ1–PQ186 with known numbering gaps/conflicts preserved; skill cross-links are not yet fully reconciled | Deepen the 248 resolved PQ→skill relationships and investigate the remaining 16 PQ IDs without explicit canonical skill endpoints; then deepen reward-slot, acquisition, unlock, DLC/version and cross-system provenance | P1 |
+| Parallel Quests | Structured audit now covers PQ1–PQ186 with known numbering gaps/conflicts preserved; skill cross-links are not yet fully reconciled | Deepen the 249 resolved PQ→skill relationships and investigate the remaining 16 PQ IDs without explicit canonical skill endpoints; then deepen reward-slot, acquisition, unlock, DLC/version and cross-system provenance | P1 |
 | Awoken/Transformations | Foundation exists in skill/index material, but broad exhaustive record coverage remains incomplete | CaC vs character-only, race/gender restrictions, resource costs, stages, prerequisites, effects, exceptions, version history | P1 |
 | Expert Missions | 20-mission index and individual-record framework exist | Complete EM01–20 mechanics, phases, rewards, skill drops, first-clear/repeat distinction, version differences | P1/P2 |
 | Super Souls | 18 canonical records plus staged research | Expand inventory and reconcile triggers, magnitudes, durations, stacking, Limit Burst, acquisition/rotation | P2 |
@@ -98,7 +98,7 @@ Every important nontrivial claim should retain:
 1. Keep GitHub Actions blocked as a billing/infrastructure issue; do not weaken validators.
 2. Reconcile the canonical skill layer against research and perform the active second-pass metadata audit: exact costs, acquisition routes, CaC/race/gender restrictions, character-only variants, Ultimate Finish requirements, DLC/version provenance, and mechanics.
 
-The PQ-to-skill cross-link audit is currently represented by the latest persisted reconciliation report: the canonical skill corpus contains 493 records, with 249 explicit skill→PQ reward edges across 171 PQ IDs and zero unresolved canonical skill endpoints in the forward PQ consumer projection. Older 294/298-record milestone text below is historical and must not be treated as the current corpus. The 15 PQ IDs without explicit canonical skill endpoints remain research targets; absence of an endpoint is not treated as proof of no skill reward.
+The PQ-to-skill cross-link audit is currently represented by the latest persisted reconciliation report: the canonical skill corpus contains 497 records, with 249 explicit skill→PQ reward edges across 170 PQ IDs and zero unresolved canonical skill endpoints in the forward PQ consumer projection. Older 294/298-record milestone text below is historical and must not be treated as the current corpus. The 16 PQ IDs without explicit canonical skill endpoints remain research targets; absence of an endpoint is not treated as proof of no skill reward.
 3. Deepen the existing Parallel Quest layer by filling remaining reward/acquisition/version fields now that skill cross-links are reconciled.
 4. Audit Awoken/Transformation records against the same exhaustive field standard.
 5. Finish EM01–20 verification.
@@ -2285,3 +2285,10 @@ Resolved four skill acquisition gates: **Counter Burst = false**, **Counter Impa
 - Reviewed the repository's direct cross-domain consumers/validators: `scripts/reconcile_pq_forward_reverse.py`, `scripts/validate_pq_skill_links.py`, `scripts/validate_pq_equipment_crosslinks.py`, `scripts/validate_pq_equipment_endpoint_coverage.py`, `scripts/audit_pq_equipment_endpoint_coverage.py`, and `scripts/audit_super_soul_consumer_coverage.py`. They reference the canonical relationship file rather than embedding the corrected aggregate as an independent source of truth.
 - Network-isolated local execution could not clone the public repository for a fresh runtime validation; repository-native JSON parsing and cross-domain metadata reconciliation were completed through the live repository API instead.
 - Historical 840-edge and superseded 852/127 values are retained for provenance and must not be treated as current counts.
+
+## 2026-09-28 — Post-recovery cross-domain count correction
+
+- Directly recounted `docs/data/pq-reward-relationships.json`: **852 total edges** = 249 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming.
+- Corrected the active PQ status/audit projections from the stale 851/248-skill state to the live 852/249-skill state. Historical 840 and superseded projections remain preserved as provenance.
+- Refreshed the PQ→skill consumer reports to the recovered **497-record canonical skill corpus** and **249 forward skill edges**.
+- No new PQ reward edge was inferred in this correction; the additional skill edge was already present in the canonical relationship store and the defect was projection metadata drift.
