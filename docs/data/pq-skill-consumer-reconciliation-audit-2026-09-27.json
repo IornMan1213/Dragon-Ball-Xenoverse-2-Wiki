@@ -8,9 +8,9 @@
   "consumer_report": "docs/data/pq-skill-crosslink-report.json",
   "validator": "scripts/validate_pq_skill_links.py",
   "checks": {
-    "canonical_skill_records": 493,
-    "forward_pq_skill_edges": 248,
-    "resolved_consumer_links": 248,
+    "canonical_skill_records": 497,
+    "forward_pq_skill_edges": 249,
+    "resolved_consumer_links": 249,
     "unresolved": 0,
     "aliases": 4,
     "status": "passed"
@@ -22,10 +22,10 @@
     "Starfall → Destruction's Concerto: Starfall",
     "Giant Cluster → Gigantic Cluster"
   ],
-  "historical_note": "The live recovered canonical dataset and forward PQ reward relationship store now reconcile at 248 Skill→PQ edges, with zero unresolved canonical endpoints. The persisted consumer report was refreshed on 2026-09-28 to include all 248 current forward skill relationships.",
+  "historical_note": "The live recovered canonical dataset and forward PQ reward relationship store now reconcile at 249 Skill→PQ edges, with zero unresolved canonical endpoints. The persisted consumer report was refreshed on 2026-09-28 to include all 249 current forward skill relationships.",
   "canonical_projection_check": {
-    "canonical_skill_pq_edges": 248,
-    "forward_skill_edges": 248,
+    "canonical_skill_pq_edges": 249,
+    "forward_skill_edges": 249,
     "missing_canonical_endpoints": 0,
     "represented_pq_ids": 170
   },
