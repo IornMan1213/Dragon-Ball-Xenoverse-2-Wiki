@@ -6748,3 +6748,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated `docs/data/skill-catalog-audit.json` to make version/patch provenance the active field-level frontier.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** use the new provenance contract to audit canonical skills with explicit release/update evidence, prioritizing direct event/version evidence and leaving unsupported version fields null; then continue cross-domain enrichment.
+
+
+### 2026-09-28 continuation — Official Future Saga provenance reconciliation batch 577
+- [x] Audited the authoritative release registry against current official Bandai Namco / Dragon Ball Official Site material.
+- [x] Confirmed official Future Saga Chapter 3 scope of **6 Additional Moves** and Chapter 4 scope of **4 New Moves including 1 Awoken Skill** from the official DLC catalog.
+- [x] Confirmed official Chapter 3 launch coverage and Chapter 4 launch coverage as independent event-level provenance sources.
+- [x] Preserved the six Chapter 3 and four Chapter 4 individual canonical mappings as corroborated mappings because the cited official pages provide aggregate move counts but do not name every individual move.
+- [x] Added `docs/data/skill-research-batches/skill-batch-577.json` documenting the evidence boundary and event-count reconciliation.
+- [x] Corrected the provenance schema confidence vocabulary to include the registry's existing `direct_scope` value.
+- [x] Updated `docs/data/game-content-version-provenance-registry.json` with batch 577 and the next evidence-bound task.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue individual skill-name primary-source reconciliation where official sources explicitly name moves; otherwise preserve corroborated mappings and move to the next evidence-backed provenance gap. Do not infer versions from research dates or aggregate DLC counts.
