@@ -4268,3 +4268,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Canonical restoration remains pending because the complete current `skills.json` / `skills-index.json` payload could not be safely retrieved through the GitHub connector for an atomic full-file edit; do not risk overwriting the surviving canonical database with a truncated reconstruction.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** safely restore/add the Dual Masenko canonical record and corresponding index entry from the complete live canonical payload, then re-run partner/custom and PQ118 reconciliation before moving to the next gap.
+
+
+- [ ] 2026-09-27: Restore Dual Masenko canonical record atomically; preserve existing 474 records; reconcile downstream links afterward.
