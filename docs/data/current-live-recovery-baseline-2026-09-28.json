@@ -10,11 +10,11 @@
   "current_live_baseline": {
     "canonical_skills": 497,
     "skills_index": 497,
-    "pq_reward_relationships": 853,
+    "pq_reward_relationships": 858,
     "pq_reward_counts": {
       "skill": 249,
       "super_soul": 135,
-      "equipment": 127,
+      "equipment": 132,
       "character": 247,
       "dlc": 88,
       "farming": 7
@@ -45,6 +45,7 @@
     "Runtime/CI/build remains unverified/non-blocking."
   ],
   "next_frontier": [
+    "Continue canonical accessory/PQ identity promotion from the remaining candidate queue; five already-canonical identities were promoted in the latest cycle.",
     "Continue explicit PQ↔equipment identity promotion; the 2026-09-28 cycle promoted PQ51 Great Saiyaman Helmet without asserting drop probability.",
     "Continue current-evidence mechanics/acquisition reconciliation for the repaired canonical skill corpus.",
     "Continue evidence-backed PQ cross-domain enrichment and bidirectional navigation.",
