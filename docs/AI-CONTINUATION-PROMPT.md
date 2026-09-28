@@ -5944,3 +5944,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added docs/data/pq-171-175-skill-reward-parity-audit-2026-09-28.json as the reproducible audit artifact.
 - [x] Did not infer additional PQ edges from character ownership, presets, or non-PQ acquisition evidence.
 - [ ] **Next:** continue the next unreconciled PQ typed-reward range, then resume remaining mechanics/acquisition enrichment.
+
+
+### 2026-09-28 continuation — PQ176-PQ180 typed skill-reward parity
+- [x] Audited PQ176-PQ180 against the canonical forward PQ reward relationship layer, PQ record/research data, and the canonical PQ skill cross-link report.
+- [x] Confirmed all **9 documented skill-reward edges** in this range are represented consistently: PQ176 (God of Destruction's Might), PQ177 (Full Power Destruction, Dragon Spark, Soaring Rush), PQ178 (Burst Blitz), PQ179 (Heat Wave, Supreme Fury), and PQ180 (Force Edge, Burning Blast).
+- [x] Confirmed all nine skill endpoints resolve to canonical skill identities; no unresolved endpoint mismatch or unsupported new relationship was found.
+- [x] Added `docs/data/pq-176-180-skill-reward-parity-audit-2026-09-28.json` as the reproducible audit artifact.
+- [x] Preserved the boundary between PQ reward membership and CaC eligibility: Force Edge/Burning Blast reward edges do not by themselves establish `usable_by_cac`.
+- [ ] **Next:** continue the next unreconciled cross-domain range and then return to remaining evidence-backed mechanics/acquisition gaps.
