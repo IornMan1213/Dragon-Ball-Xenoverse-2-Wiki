@@ -2897,6 +2897,25 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Accessory PQ research identifies PQ111; exact reward condition remains unresolved."
         }
+      ],
+      "skill_rewards": [
+        "Lightning of Absolution",
+        "Holy Wrath"
+      ],
+      "equipment_rewards": [
+        {
+          "name": "Resistance Clothes",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "name": "Resistance Helmet",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I feel it... Everyone, lend me your power!"
       ]
     },
     {
@@ -2918,7 +2937,17 @@
         "Blades of Judgment",
         "Divine Wrath: Purification"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Blades of Judgment",
+        "Divine Wrath: Purification"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "I ain't losin'! Here's my full power!",
+        "I'm never going to forgive him!",
+        "Sorry. You were way open there."
+      ]
     },
     {
       "id": "pq-113",
@@ -2939,7 +2968,16 @@
         "Super Ghost Buu Attack",
         "Candy Beam"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Super Ghost Buu Attack",
+        "Candy Beam (Super)"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "I'll make good use of you!",
+        "I'm stronger than ever now!"
+      ]
     },
     {
       "id": "pq-114",
@@ -2960,7 +2998,26 @@
         "Petrifying Spit",
         "Evil Blast"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Petrifying Spit",
+        "Evil Blast"
+      ],
+      "equipment_rewards": [
+        {
+          "name": "Pride Trooper Uniform",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "name": "Toppo's Moustache",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "The real fight starts now!"
+      ]
     },
     {
       "id": "pq-115",
@@ -2982,7 +3039,26 @@
         "Handy Cannon",
         "S.S. Deadly Bomber"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Handy Canon",
+        "S.S. Deadly Bomber"
+      ],
+      "equipment_rewards": [
+        {
+          "name": "Ribrianne's Clothes",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "name": "Ribrianne's Hood",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Looks like you're done!"
+      ]
     },
     {
       "id": "pq-116",
@@ -3002,7 +3078,16 @@
         "Brave Sword Slash",
         "Hero's Flute"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Brave Sword Slash",
+        "Hero's Flute"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Earth is in your hands now!",
+        "If I don't do it, who will?"
+      ]
     },
     {
       "id": "pq-117",
@@ -3022,7 +3107,15 @@
         "Evil Flame",
         "Brave Sword Attack"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Evil Flame",
+        "Brave Sword Attack"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Get serious, would you?"
+      ]
     },
     {
       "id": "pq-118",
@@ -3041,7 +3134,13 @@
         "Now we're even.",
         "I hate what I've become!"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "I hate what I've become!",
+        "Now we're even."
+      ]
     },
     {
       "id": "pq-119",
@@ -3060,7 +3159,14 @@
         "Time to get serious, I guess.",
         "Rough Ranger"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Rough Ranger"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Time to get serious, I guess."
+      ]
     },
     {
       "id": "pq-120",
@@ -3080,7 +3186,15 @@
         "This heat...will be your downfall!",
         "Power Impact"
       ],
-      "verification_status": "partially_verified"
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Power Impact"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Hmph! For justice!",
+        "This heat...will be your downfall!"
+      ]
     },
     {
       "id": "pq-121",
