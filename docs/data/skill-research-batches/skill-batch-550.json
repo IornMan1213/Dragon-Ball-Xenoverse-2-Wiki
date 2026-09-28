@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 550,
+  "date": "2026-09-28",
+  "status": "complete",
+  "scope": "Strengthen the four recovered Free Update 20 / 4th Festival skill identities using independent skill/preset evidence while preserving the canonical-ID boundary.",
+  "canonical_authority": "docs/data/skills.json",
+  "findings": [
+    {
+      "name": "God Bind (Festival)",
+      "evidence": "Independent skill page directly documents Festival unlock, Goku (Super Saiyan God) usage, Super/Ki Blast classification, 100 Ki cost, and CaC unavailability.",
+      "source": "https://dbxv2.fandom.com/wiki/God_Bind_%28Festival%29"
+    },
+    {
+      "name": "Egret Waltz (Festival)",
+      "evidence": "Independent Videl (DB Super) preset page places Egret Waltz (Festival) in the character's second preset.",
+      "source": "https://dbxv2.fandom.com/wiki/Videl_%28DB_Super%29"
+    },
+    {
+      "name": "Gamma Force: Code-R (Festival)",
+      "evidence": "Independent technique page identifies Gamma Force: Code-R as Gamma 1's Xenoverse 2 Super Skill and documents its Festival max-camaraderie appearance.",
+      "source": "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-R"
+    },
+    {
+      "name": "Gamma Force: Code-B (Festival)",
+      "evidence": "Independent technique page identifies Gamma Force: Code-B as Gamma 2's Xenoverse 2 Super Skill and documents its Festival max-camaraderie appearance.",
+      "source": "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-B"
+    }
+  ],
+  "cross_check": {
+    "festival_catalog": "https://dbxv2.fandom.com/wiki/Festival_of_Universes",
+    "community_reward_evidence": "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=2",
+    "mod_release_evidence": "https://www.patreon.com/Shukakussj/posts/daima-dlc-with-4-129617116"
+  },
+  "identifier_boundary": "The new evidence confirms identity, classification, user/preset linkage, and (for God Bind) numeric cost, but still does not expose a canonical internal skill identifier. No ID is inferred from filename, preset position, or mod attachment naming.",
+  "validation": {
+    "identities_strengthened": 4,
+    "canonical_records_promoted": 0,
+    "canonical_skills_json_changed": false,
+    "unsupported_ids_invented": 0
+  },
+  "next": "Search surviving structured/datamined sources for the actual internal identifiers or historical canonical records; if none are recoverable, move to the next unresolved canonical enrichment field rather than manufacturing IDs."
+}
