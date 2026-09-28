@@ -4923,3 +4923,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 ### 2026-09-28 — PQ reward relationship serialization integrity
 - [x] Normalized the malformed character-array `notes` container in docs/data/pq-reward-relationships.json without changing relationship counts.
 - [ ] Continue PQ reward integrity sweep; then resume Super Soul/equipment endpoint promotion.
+
+
+### 2026-09-28 continuation — fresh Super Soul mechanics census
+- [x] Recomputed the active Super Soul mechanics census directly from `docs/data/super-souls-record-layer.json`: 172 historical records, 167 active records, 5 rejected legacy identities excluded from active coverage.
+- [x] Triaged missing trigger/magnitude fields and distinguished intentional no-effect/categorical records from substantive unresolved mechanics.
+- [x] Confirmed `super-soul-034` ("The final battle begins now.") remains the only clearly substantive unresolved record in this missing-trigger/magnitude frontier; PQ186 identity/reward presence is established, but current checked evidence does not safely establish its item-level effect.
+- [x] Added `docs/data/super-soul-mechanics-census-2026-09-28.json`; no canonical Super Soul mutation was made from insufficient evidence.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Next:** continue the next cross-domain integrity/enrichment frontier; do not reopen intentional no-effect/categorical records.
