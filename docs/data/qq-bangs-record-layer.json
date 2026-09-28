@@ -933,6 +933,43 @@
           "equipment_id": "equip-108"
         }
       ]
+    },
+    {
+      "id": "qq-observed-018",
+      "record_type": "observed_output",
+      "name": "Beerus Clothing Top + 4-Star Dragon Ball Clothing Top observed 6-star output",
+      "stars": 6,
+      "health": 5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": 2,
+      "strike_supers": 1,
+      "ki_blast_supers": -1,
+      "clothing_inputs": "Beerus Clothing Top + 4-Star Dragon Ball Clothing Top",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Observed community 6-star QQ Bang craft report",
+      "rng_notes": "Secondary player-reported output. The source reports this concrete six-stat result from Beerus and 4-Star Dragon Ball clothing; it does not establish a deterministic recipe or guarantee on subsequent attempts.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Ki + Stamina",
+        "Resource-heavy"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-28",
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/16ljuul"
+      ],
+      "equipment_links": [
+        {
+          "input": "Beerus Clothing Top",
+          "equipment_id": "equip-101"
+        },
+        {
+          "input": "4-Star Dragon Ball Clothing Top",
+          "equipment_id": "equip-108"
+        }
+      ]
     }
   ],
   "last_updated": "2026-09-28",
@@ -1045,8 +1082,8 @@
   ],
   "research_frontier": {
     "last_cycle": "2026-09-28",
-    "promoted_observed_vectors": 16,
-    "total_records": 23,
+    "promoted_observed_vectors": 19,
+    "total_records": 25,
     "next_target": "equipment/build cross-domain relationships and additional non-duplicate observed QQ Bang vectors; preserve unresolved inputs, RNG variance, and version boundaries"
   }
 }
