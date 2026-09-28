@@ -6321,3 +6321,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated docs/data/skill-catalog-audit.json to Batch 548 and current recovery reconciliation.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue direct-evidence restriction review where a narrower rule can actually be established; then create the version/patch provenance layer from explicit evidence and continue bidirectional PQ↔skill/Super Soul/equipment enrichment. Do not recreate recovered records, do not treat verified/index/projection layers as canonical, and preserve historical recovery counts as provenance.
+
+
+### 2026-09-28 continuation — Version/patch provenance evidence census
+- [x] Audited all **497** authoritative canonical skill records for explicit version/patch/update provenance signals without treating research dates as game-version evidence.
+- [x] Found **284** records with explicit patch mentions, **287** with explicit version-sensitive/patch-independent language, **295** with explicit DLC/update provenance signals, and dated research-history notes in **497/497** records.
+- [x] Added docs/data/skill-version-provenance-audit-2026-09-28.json as a structured evidence census.
+- [x] Preserved the canonical schema boundary: skills.json currently has no dedicated version_history/patch_history field, so no inferred version values were written into canonical records.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** extract explicit game-version/update evidence from cited sources for the strongest provenance candidates, define a version-provenance schema before changing canonical records, and keep research-date metadata separate from game-version metadata.
