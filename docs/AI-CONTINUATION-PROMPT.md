@@ -6727,3 +6727,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-181-186-cross-domain-reconciliation-2026-09-28.json` (batch 574).
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** move to the next substantive cross-domain/provenance frontier after the final populated PQ block; do not fabricate PQ numbers beyond PQ186.
+
+
+### 2026-09-28 continuation — Post-recovery artifact integrity repair batch 575
+- [x] Freshly inspected the recovered live main state after the PQ181-PQ186 final recovery block; canonical recovery remains clean at **497 canonical skills** and **862 canonical PQ reward edges**.
+- [x] Found a concrete malformed-consumer artifact: `docs/data/skill-catalog-audit.json` contained `"latest_research_batch": 553,,`, which made that audit document invalid JSON even though canonical stores remained intact.
+- [x] Added `docs/data/skill-catalog-json-integrity-repair-2026-09-28.json` documenting the exact syntax repair and evidence boundary.
+- [x] Repaired `docs/data/skill-catalog-audit.json` without changing `skills.json`, `skills-index.json`, or `pq-reward-relationships.json`.
+- [x] Re-read and parsed the repaired skill catalog audit plus the post-corruption recovery audit and current live recovery baseline successfully.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the version/patch provenance frontier from the existing evidence census and authoritative release registry; do not assign game versions from research dates or inference. Then continue bidirectional PQ↔skill/Super Soul/equipment enrichment where direct evidence supports it.
