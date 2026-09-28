@@ -5158,3 +5158,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the missing canonical equipment `pq_links` strings, preserving the existing PQ-side relationship semantics and avoiding any new guaranteed-drop inference.
 - [x] Post-fix validation: 48/48 PQ→equipment edges have matching equipment→PQ reverse links; 0 invalid endpoints; 0 duplicate reverse links.
 - [ ] **Next:** continue equipment/build cross-navigation beyond PQs, especially skill/character/build relationships and provenance coverage, using canonical records as the authority.
+
+
+## 2026-09-27 continuation — character/build navigation parity re-audit
+
+- [x] Re-audited the live canonical character navigation surface: 152 canonical character names, 34 explicit presentation-ID bridge records, and 51 character-preset records across 17 presentation character IDs.
+- [x] Confirmed every preset `character_id` resolves through the explicit identity bridge to an existing canonical character name; 0 unresolved preset IDs and 0 invalid bridge targets.
+- [x] Preserved the bridge boundary: presentation IDs are navigation keys only and are not promoted into canonical identity or relationships.
+- [x] Refreshed `docs/data/characters/character-presentation-consumer-audit.json` with the live 2026-09-27 parity result.
+- [ ] **Next:** continue cross-navigation from characters/presets into skills and build/loadout consumers, using canonical skills data as the authority and treating verified/index/projection layers only as supporting evidence.
