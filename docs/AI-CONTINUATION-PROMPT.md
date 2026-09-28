@@ -4853,3 +4853,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/TODO-EXHAUSTIVE.md` with the recovery reconciliation and retained the next QQ Bang frontier.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue QQ Bang expansion with additional non-duplicate observed six-stat vectors and version-aware Super Mix Capsule Z/material provenance, then add reproducible equipment/build cross-links. Do not treat recipe families as deterministic outputs.
+
+
+### 2026-09-27 continuation — QQ Bang observed-output expansion
+- [x] Expanded the canonical QQ Bang record layer from 18 to **23 records**, including **16 complete observed six-stat vectors**.
+- [x] Added independent historical community observations rather than promoting recipe-family claims to deterministic outputs: a Beerus Top + Beerus Top 6-star result and four additional documented lower-tier output observations.
+- [x] Preserved the evidence boundary: observations are records of reported results, not guarantees; one source did not specify the exact second clothing input for its +20/-0 example, so that provenance remains explicitly incomplete instead of being guessed.
+- [x] Updated the research frontier to reconcile observed vectors with canonical clothing/equipment records next.
+- [ ] Runtime/CI execution remains unverified.
+- [ ] **Exact next:** normalize these observed vectors against canonical equipment/clothing identifiers, then continue version-aware Super Mix Capsule Z/material provenance and cross-domain build links.
