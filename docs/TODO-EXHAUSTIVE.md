@@ -5532,7 +5532,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 ### 2026-09-28 continuation — Post-recovery canonical skill promotion batch 537
-- [x] Revalidated the authoritative post-corruption skill blob and index before promotion: 493 canonical records / 493 index records with no duplicate canonical names.
+- [x] Revalidated the authoritative post-corruption skill blob and index before promotion: 493 canonical records / 493 index records; the pre-existing `Super Ghost Kamikaze Attack` duplicate-name collision was preserved and no new duplicate was introduced.
 - [x] Promoted four directly evidenced indexed-only Future Warrior skills into authoritative docs/data/skills.json: Divine Retribution, Final Shine Attack, Savage Strike, and Sword of Hope.
 - [x] Synchronized docs/data/skills-index.json; canonical and index layers are now 497/497.
 - [x] Preserved evidence boundaries: TP Medal Shop rotation is an acquisition endpoint, not a guaranteed current schedule; source-reported damage/hit measurements are not promoted as universal constants; unresolved frame/scaling/probability fields remain unresolved.
