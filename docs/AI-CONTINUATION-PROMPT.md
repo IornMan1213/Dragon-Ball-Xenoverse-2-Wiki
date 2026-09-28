@@ -5257,3 +5257,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed **Recoome Eraser Gun** has direct identity evidence in Batch 526, but acquisition/mechanics evidence remains insufficient for promotion.
 - [x] Confirmed **Full Power Energy Wave** has direct research evidence in Batch 275 establishing an Ultimate, 300 Ki, Skill Shop acquisition, and CaC usability; canonical promotion remains a separate controlled reconciliation step.
 - [ ] **Next:** reconcile the 3 direct candidates against canonical schema and current evidence, then research the remaining 15 unmatched names in batches. Preserve unresolved identity/acquisition fields rather than guessing.
+
+
+## 2026-09-27 continuation — canonical skill catalog coverage audit
+
+- [x] Compared the **12 maintained skill category catalogs** against authoritative `docs/data/skills.json` by exact case-insensitive skill name.
+- [x] Confirmed **493 canonical records**, **555 unique indexed category names** (the category counts sum to 561 because some names occur in multiple categories), and **112 indexed-only names**.
+- [x] Confirmed **28** of the 112 indexed-only names also occur in the dedicated Unavailable-for-CaC catalog; this is a cast-only review subset, not automatic canonical-promotion evidence.
+- [x] Detected one case-insensitive canonical duplicate name, **Super Ghost Kamikaze Attack**, requiring variant/identity reconciliation rather than blind deduplication.
+- [x] Updated `docs/data/skill-catalog-audit.json` with the deterministic coverage census, indexed-only universe, and next review priorities.
+- [x] Preserved the canonical-source rule: indexed catalogs and Unavailable-for-CaC data remain supporting evidence/coverage projections and do not override `docs/data/skills.json`.
+- [ ] **Next:** reconcile the 28 Unavailable-for-CaC overlaps and duplicate/variant families from direct record-level evidence, then work through the remaining indexed-only names in evidence-backed batches.
