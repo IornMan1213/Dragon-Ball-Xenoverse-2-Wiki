@@ -1,0 +1,75 @@
+{
+  "batch_id": 560,
+  "date": "2026-09-28",
+  "type": "pq-41-50-cross-domain-reconciliation",
+  "scope": "PQ41-PQ50",
+  "status": "reconciled",
+  "findings": {
+    "records_audited": 10,
+    "documented_skill_reward_records": 9,
+    "canonical_skill_relationships_missing": 0,
+    "research_skill_reward_contradictions": 0,
+    "zero_skill_boundary_pqs": [
+      47
+    ],
+    "spelling_or_identity_notes": {
+      "pq48": "Research/maintained PQ reward text uses 'Kamekameha'; canonical skill identity is 'Kamehameha'. The existing relationship preserves the documented reward while resolving the canonical identity without creating a duplicate skill.",
+      "pq49": "Do or Die was previously corrected from a Super Soul classification to a skill relationship; the correction is already present and was preserved.",
+      "pq46": "Research-layer spelling uses 'Chain Destructo-disc Barrage'; canonical relationship uses the normalized canonical skill identity 'Chain Destructo-Disc Barrage'."
+    }
+  },
+  "checked_skill_rewards": [
+    {
+      "pq": 41,
+      "skill": "Burning Attack"
+    },
+    {
+      "pq": 42,
+      "skill": "Rolling Bullet"
+    },
+    {
+      "pq": 43,
+      "skill": "Change The Future"
+    },
+    {
+      "pq": 44,
+      "skill": "God Breaker"
+    },
+    {
+      "pq": 44,
+      "skill": "Burning Slash"
+    },
+    {
+      "pq": 45,
+      "skill": "Taunt"
+    },
+    {
+      "pq": 46,
+      "skill": "Chain Destructo-Disc Barrage"
+    },
+    {
+      "pq": 48,
+      "skill": "Kamehameha"
+    },
+    {
+      "pq": 49,
+      "skill": "Do or Die"
+    },
+    {
+      "pq": 50,
+      "skill": "Explosive Buu Buu Punch"
+    }
+  ],
+  "external_cross_checks": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+    "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+  ],
+  "actions": {
+    "canonical_data_changed": false,
+    "research_records_changed": false,
+    "new_relationships_added": 0,
+    "unsupported_relationships_invented": false
+  },
+  "next": "Continue from PQ51 onward with the same concrete reward-list/relationship contradiction audit, while separately repairing any malformed consumer indexes discovered during recovery."
+}
