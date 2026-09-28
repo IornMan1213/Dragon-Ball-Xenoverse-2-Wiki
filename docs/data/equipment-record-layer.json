@@ -232,13 +232,7 @@
         "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
         "https://dbxv2.fandom.com/wiki/Equipment"
       ],
-      "qq_bang_links": [
-        {
-          "qq_bang_id": "qq-observed-prima-005",
-          "input": "Android 18 Skirt",
-          "relationship": "QQ Bang clothing input"
-        }
-      ],
+      "qq_bang_links": [],
       "pq_links": [
         {
           "pq_id": "pq-029",
@@ -3010,6 +3004,14 @@
       "note": "Completed reverse-link reconciliation for QQ Bang component mappings: added missing equipment-side links for Bardock Battle Suit and both Light Heart Suit recipe-family records.",
       "sources": [
         "docs/data/qq-bangs-record-layer.json"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Identity-audit correction: removed the previously unsafe qq-observed-prima-005 → equip-008 mapping because 'Android 18 Skirt' is not an exact identity match for canonical 'Android 18's Clothes (Vest & Pants)'. The QQ Bang input remains explicitly unresolved until a canonical skirt record is established.",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
+        "docs/data/equipment-record-layer.json"
       ]
     }
   ]
