@@ -4296,3 +4296,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Expand QQ Bang canonical research layer from 3 to 4 structured records with an explicitly RNG-bounded 6-star Bardock + Beerus + Super Mix Capsule Z recipe-family record.
 - [ ] 2026-09-27: Add observed QQ Bang six-stat outputs with individual provenance; recipe families must not be treated as deterministic results.
 - [ ] 2026-09-27: Reconcile QQ Bang clothing-input records and acquisition endpoints after observed-result expansion.
+
+
+- [x] 2026-09-27: QQ Bang research pass — enriched the Bardock + Beerus + Super Mix Capsule Z six-star recipe observation with independent provenance and an explicit RNG/non-guarantee boundary.
+- [ ] 2026-09-27: Expand QQ Bang recipe families and observed six-stat outputs; preserve exact observed results separately from expected/community recipes.
