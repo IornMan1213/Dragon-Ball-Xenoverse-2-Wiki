@@ -5568,3 +5568,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence limits: source-reported damage is bounded evidence; exact frames, scaling, hidden interactions, and reward probabilities remain unresolved where not directly established.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** reconcile the remaining prepared-audit status against the actual source files (search indexing may lag), then move to unresolved mechanics/acquisition enrichment and the remaining PQ/skill/equipment cross-domain gaps.
+
+
+### 2026-09-28 continuation — Post-corruption live baseline reconciliation and handoff repair
+- [x] Re-read the live continuation/TODO state and inspected recovery history before further changes.
+- [x] Confirmed the canonical recovery path is preserved: the surviving skill baseline was restored, PQ 1-186 records were restored/reconciled, and recovery validators/audits were added instead of reconstructing canonical data from derived indexes.
+- [x] Confirmed the current canonical skill corpus is **497 records** after four directly evidenced Future Warrior skill identities were promoted; `docs/data/skills.json` remains authoritative and `skills-index.json` is a synchronized consumer.
+- [x] Confirmed the current PQ cross-domain relationship store is **852 edges**: 249 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, and 7 farming. The historical 840-edge state remains provenance only.
+- [x] Confirmed the current Parallel Quest range is **PQ1-PQ186**; numbering gaps/conflicts remain explicitly represented rather than invented away.
+- [x] Added `docs/data/current-live-recovery-baseline-2026-09-28.json` with the current post-recovery counts, source-of-truth rules, historical baselines, and validation boundaries.
+- [x] Updated the canonical skill propagation queue so its old 493-record figures are explicitly historical/completed rather than current state.
+- [x] Updated this continuation handoff and the exhaustive TODO with the same current baseline.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue substantive evidence-backed enrichment from the repaired 497-skill / 852-edge / PQ1-186 baseline, prioritizing remaining canonical skill mechanics/acquisition gaps and then PQ↔skill/Super Soul/equipment navigation gaps. Do not recreate recovered records or use verified/index/projection layers as canonical source of truth.
