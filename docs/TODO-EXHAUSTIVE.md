@@ -4362,3 +4362,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Refreshed safe QQ Bang → equipment links across 21 records, reusing canonical IDs where available and retaining unresolved inputs explicitly.
 - [x] 2026-09-27: Synchronized recovery checkpoint to equipment 109 records and QQ Bang 23 records / 16 observed vectors.
 - [ ] Next: version-aware Super Mix Capsule Z/material provenance, then remaining identity and equipment/build cross-links.
+
+- [x] 2026-09-27: Added dated 2020-2026 provenance for direct Super Mix Capsule Z Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; preserved unresolved drop-rate/version uncertainty.
+- [ ] Next: obtain deeper item-table or patch-specific evidence for Super Mix Capsule Z/Demon Realm Crystal behavior, while finishing remaining QQ Bang clothing identity reconciliation and equipment/build links.
