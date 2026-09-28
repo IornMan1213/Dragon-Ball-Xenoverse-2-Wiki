@@ -5113,3 +5113,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added matching forward/reverse PQ links for these conflict cases.
 - [x] Updated the canonical accessory notes to document the evidence review and the unresolved nature of the historical disagreement.
 - [ ] **Next:** audit the remaining unresolved accessory candidates, especially component-unresolved PQ144/PQ147/PQ148/PQ152 entries, then continue equipment/accessory↔PQ navigation integrity checks.
+
+
+## 2026-09-27 continuation — component-unresolved accessory audit
+
+- [x] Re-audited `pqacc-026` Gine (DB Super)'s Accessory, `pqacc-027` Kale's Accessory, `pqacc-028` Caulifla's Accessory, and `pqacc-029` Android 17 (DB Super)'s Ranger Accessory against the canonical accessory identity layer.
+- [x] Confirmed that the available evidence establishes clothing/set and/or wig components, but not separately named accessory inventory identities for these generic labels.
+- [x] Preserved all four as `component_unresolved`; no canonical accessory identity was manufactured and no component was conflated with a set-level label.
+- [x] Added an explicit audit entry to `accessory-pq-canonical-remaining.json` documenting the evidence boundary.
+- [ ] **Next:** continue broader accessory↔PQ graph integrity and exact identity reconciliation, then move into equipment/build cross-navigation once accessory endpoint integrity is clean.
