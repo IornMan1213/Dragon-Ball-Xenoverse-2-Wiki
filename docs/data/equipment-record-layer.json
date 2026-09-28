@@ -2975,7 +2975,11 @@
           "input": "Beerus Clothes (Lower Body)",
           "relationship": "QQ Bang clothing input"
         }
-      ]
+      ],
+      "qq_bang_reconciliation": {
+        "status": "unresolved_identity_usage",
+        "note": "This distinct lower-body Beerus clothing record was introduced from a QQ Bang research input identity. No current QQ Bang observation explicitly requires this lower-body variant as a separate component, so no recipe link is inferred."
+      }
     }
   ],
   "research_notes": [
