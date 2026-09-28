@@ -6,18 +6,18 @@
   "recovery_status": "recovered_and_reconciled",
   "baselines": {
     "skills": {
-      "canonical_records": 493,
-      "index_records": 493,
-      "skill_pq_edges": 246,
+      "canonical_records": 497,
+      "index_records": 497,
+      "skill_pq_edges": 249,
       "represented_pqs": 170,
       "canonical_blob_sha": "63bd1b72f7f054f92bcc2ac662512e359cc9596c",
       "index_blob_sha": "2b2e74c9d31f0b54a93a2a28c750412eb21845c2"
     },
     "pq_rewards": {
-      "total_relationships": 840,
-      "skill": 236,
+      "total_relationships": 852,
+      "skill": 249,
       "super_soul": 137,
-      "equipment": 125,
+      "equipment": 126,
       "character": 247,
       "dlc": 88,
       "farming": 7,
@@ -102,12 +102,12 @@
     "qq_bang_records": 23,
     "observed_vectors": 16,
     "parallel_quests": 186,
-    "pq_cross_domain_edges": 840,
+    "pq_cross_domain_edges": 852,
     "qq_bang_observed_vectors": 17
   },
-  "next_target": "Reconcile the 18 post-recovery catalog-gap-promoted skill identities against direct research evidence, then resume QQ Bang/equipment and skill/PQ cross-domain enrichment.",
+  "next_target": "Recompute the indexed-only skill frontier against the 497-record canonical corpus, then promote the next directly evidenced Future Warrior identities while preserving cast-only/variant boundaries; continue QQ Bang/equipment and skill/PQ cross-domain enrichment.",
   "equipment_records": 112,
-  "latest_change": "2026-09-28 reverse audit correction: canonical PQ reward relationships are 851 total, including 248 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC and 7 farming. The prior 852/127-equipment metadata was stale; no unsupported equipment relationship was promoted.",
+  "latest_change": "2026-09-28 direct canonical recount: PQ reward relationships are 852 total, including 249 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC and 7 farming. The prior 851/248-skill projection was stale; no unsupported relationship was promoted.",
   "qq_bang_2026_09_28_observation_017": {
     "status": "completed",
     "record_id": "qq-observed-017",
@@ -123,8 +123,8 @@
   "relationship_expansion_2026_09_28": {
     "status": "live_852_edge_store_reconciled",
     "current_counts": {
-      "total": 851,
-      "skill": 248,
+      "total": 852,
+      "skill": 249,
       "super_soul": 135,
       "equipment": 126,
       "character": 247,
@@ -132,8 +132,8 @@
       "farming": 7
     },
     "historical_baseline": 840,
-    "skill_bidirectional_status": "248 canonical Skill→PQ edges remain reconciled; equipment reverse audit corrected stale equipment metadata from 127 to 126.",
-    "next_frontier": "Expand evidence-backed PQ reward coverage beyond the 248 Skill→PQ relationships, then reconcile equipment/QQ Bang and remaining reverse indexes.",
+    "skill_bidirectional_status": "249 canonical Skill→PQ edges remain reconciled; equipment reverse audit confirms 126 equipment edges.",
+    "next_frontier": "Expand evidence-backed PQ reward coverage beyond the 249 Skill→PQ relationships, then reconcile equipment/QQ Bang and remaining reverse indexes.",
     "source_rule": "Canonical forward datasets remain authoritative; verified/index/projection layers are consumers/evidence only."
   }
 }
