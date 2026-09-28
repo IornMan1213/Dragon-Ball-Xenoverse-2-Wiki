@@ -1,0 +1,70 @@
+{
+  "batch": 528,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Stale early/base-game skill records selected because their latest dedicated evidence predates the post-recovery frontier; no current-evidence audit artifact was present for these identities.",
+  "selected": [
+    {
+      "skill_id": "skill-miracle-kneel",
+      "skill_name": "Miracle Kneel",
+      "current_evidence": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "stamina_cost": 300,
+        "usable_by_cac": true,
+        "acquisition": "Skill Shop",
+        "documented_users": ["Hercule", "Guldo"]
+      },
+      "mechanics_boundary": "Current repository evidence preserves the Other Evasive classification, 300 Stamina cost, and Skill Shop acquisition. No exact invulnerability frames, timing windows, or hidden targeting behavior are promoted."
+    },
+    {
+      "skill_id": "skill-kai-kai",
+      "skill_name": "Kai Kai",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Other",
+        "acquisition": "Parallel Quest 61 — The Old Rivals",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "Teleportation behavior is supported by the existing skill research. The Ki/Stamina resource cost remains unresolved because the repository's prior cross-source research explicitly found insufficient reliable current cost evidence."
+    },
+    {
+      "skill_id": "skill-ill-rain",
+      "skill_name": "Ill Rain",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "acquisition": "Parallel Quest 64 — Beerus the Impulsive",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "The initial projectile travels upward/lingers before splitting into three smaller projectiles. No unsupported exact timing, damage scaling, or reward probability is promoted."
+    },
+    {
+      "skill_id": "skill-super-god-fist",
+      "skill_name": "Super God Fist",
+      "current_evidence": {
+        "class": "Super",
+        "subcategory": "Strike",
+        "ki_cost": 100,
+        "acquisition": "Parallel Quest 67 — Power of a Super Saiyan God",
+        "usable_by_cac": true
+      },
+      "mechanics_boundary": "A fast close-range single-hit Strike attack with grab-like properties is supported. Exact frame data, damage scaling, and hidden hit conditions remain unestablished."
+    }
+  ],
+  "validation": {
+    "canonical_skill_identity_count": 493,
+    "unsupported_pq_relationships_added": 0,
+    "speculative_frames_added": 0,
+    "speculative_patch_independent_scaling_added": 0,
+    "speculative_probabilities_added": 0,
+    "canonical_identity_changes": 0
+  },
+  "source_provenance": {
+    "miracle_kneel": ["https://dbxv2.fandom.com/wiki/Miracle_Kneel"],
+    "kai_kai": ["https://dbxv2.fandom.com/wiki/Kai_Kai", "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "ill_rain": ["https://dbxv2.fandom.com/wiki/Ill_Rain", "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "super_god_fist": ["https://dbxv2.fandom.com/wiki/Super_God_Fist", "https://dbxv2.fandom.com/wiki/Power_of_a_Super_Saiyan_God", "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+  }
+}
