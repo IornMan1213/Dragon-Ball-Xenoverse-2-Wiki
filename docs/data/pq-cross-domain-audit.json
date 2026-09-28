@@ -22,7 +22,7 @@
   "current_counts": {
     "skill": 249,
     "super_soul": 135,
-    "equipment": 126,
+    "equipment": 136,
     "character": 247,
     "dlc": 88,
     "farming": 7
@@ -302,5 +302,23 @@
       "Character edges are limited to explicit objective/ultimate-finish references; generic appearances are not inferred.",
       "DLC and farming edges require explicit source evidence."
     ]
-  }
+  },
+  "latest_live_recount": {
+    "date": "2026-09-28",
+    "total_edges": 862,
+    "counts": {
+      "pq_rewards_skill": 249,
+      "pq_rewards_super_soul": 135,
+      "pq_rewards_equipment": 136,
+      "pq_features_character": 247,
+      "pq_requires_dlc": 88,
+      "pq_farming_route": 7
+    },
+    "duplicate_edges": 0,
+    "source_backed_edges": 862,
+    "source": "docs/data/pq-reward-relationships.json"
+  },
+  "notes": [
+    "Historical audit snapshots are preserved; latest live counts are taken only from the canonical forward relationship store."
+  ]
 }
