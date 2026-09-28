@@ -1,0 +1,231 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-27",
+  "scope": "Deterministic reverse navigation audit for the 18 skill identities promoted to close the verified preset-loadout canonical identity gap.",
+  "source_canonical_skills": "docs/data/skills.json",
+  "source_presets": "docs/data/character-presets-record-layer.json",
+  "canonical_skill_records": 493,
+  "preset_records": 51,
+  "verified_preset_records": 25,
+  "verified_loadout_skill_entries": 162,
+  "result": "promotion_identity_join_clean",
+  "methodology": "Joined exact skill names from verified preset loadout fields to canonical skills. Checked slot-class compatibility and recorded every affected preset endpoint. No preset-number identity inference and no index/projection layer was treated as canonical authority.",
+  "records": [
+    {
+      "name": "Super Galick Gun",
+      "skill_id": "skill-super-galick-gun",
+      "expected_class": "Ultimate",
+      "preset_ids": [
+        "vegeta-preset-1",
+        "vegeta-preset-3",
+        "vegeta-preset-7",
+        "vegeta-preset-9"
+      ],
+      "preset_occurrence_count": 4,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Sledgehammer",
+      "skill_id": "skill-sledgehammer",
+      "expected_class": "Super",
+      "preset_ids": [
+        "vegeta-preset-2",
+        "vegeta-preset-6",
+        "vegeta-preset-8",
+        "vegito-preset-3",
+        "captain-ginyu-preset-2",
+        "captain-ginyu-preset-3",
+        "nappa-preset-1",
+        "recoome-preset-1"
+      ],
+      "preset_occurrence_count": 8,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Energy Wave Combo",
+      "skill_id": "skill-energy-wave-combo",
+      "expected_class": "Super",
+      "preset_ids": [
+        "vegeta-preset-2",
+        "vegeta-preset-8",
+        "bardock-preset-3",
+        "recoome-preset-2",
+        "zarbon-preset-2"
+      ],
+      "preset_occurrence_count": 5,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Full Power Energy Wave",
+      "skill_id": "skill-full-power-energy-wave",
+      "expected_class": "Ultimate",
+      "preset_ids": [
+        "vegeta-preset-2",
+        "gohan-adult-preset-3",
+        "frieza-first-preset-2",
+        "captain-ginyu-preset-2",
+        "captain-ginyu-preset-4",
+        "bardock-preset-1",
+        "recoome-preset-2"
+      ],
+      "preset_occurrence_count": 7,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Full Power Energy Blast Volley",
+      "skill_id": "skill-full-power-energy-blast-volley",
+      "expected_class": "Super",
+      "preset_ids": [
+        "vegeta-preset-6",
+        "vegeta-preset-7",
+        "frieza-final-preset-2"
+      ],
+      "preset_occurrence_count": 3,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Super Back Jump",
+      "skill_id": "skill-super-back-jump",
+      "expected_class": "Evasive",
+      "preset_ids": [
+        "vegeta-preset-6",
+        "bardock-preset-1"
+      ],
+      "preset_occurrence_count": 2,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Galaxy Breaker (Festival)",
+      "skill_id": "skill-galaxy-breaker-festival",
+      "expected_class": "Super",
+      "preset_ids": [
+        "vegeta-preset-9"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Ki Blast Cannon",
+      "skill_id": "skill-ki-blast-cannon",
+      "expected_class": "Super",
+      "preset_ids": [
+        "gohan-adult-preset-3"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Super Dragon Fist",
+      "skill_id": "skill-super-dragon-fist",
+      "expected_class": "Super",
+      "preset_ids": [
+        "vegetto-preset-2"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Holstein Shock",
+      "skill_id": "skill-holstein-shock",
+      "expected_class": "Super",
+      "preset_ids": [
+        "captain-ginyu-preset-2"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Break Strike",
+      "skill_id": "skill-break-strike",
+      "expected_class": "Evasive",
+      "preset_ids": [
+        "captain-ginyu-preset-2",
+        "captain-ginyu-preset-4",
+        "raditz-preset-1"
+      ],
+      "preset_occurrence_count": 3,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Consecutive Energy Blast",
+      "skill_id": "skill-consecutive-energy-blast",
+      "expected_class": "Super",
+      "preset_ids": [
+        "captain-ginyu-preset-3",
+        "zarbon-preset-1"
+      ],
+      "preset_occurrence_count": 2,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Backflip",
+      "skill_id": "skill-backflip",
+      "expected_class": "Evasive",
+      "preset_ids": [
+        "captain-ginyu-preset-4"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Super Ki Explosion",
+      "skill_id": "skill-super-ki-explosion",
+      "expected_class": "Ultimate",
+      "preset_ids": [
+        "bardock-preset-4"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Recoome Eraser Gun",
+      "skill_id": "skill-recoome-eraser-gun",
+      "expected_class": "Super",
+      "preset_ids": [
+        "recoome-preset-1"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Ultra Fighting Bomber",
+      "skill_id": "skill-ultra-fighting-bomber",
+      "expected_class": "Ultimate",
+      "preset_ids": [
+        "recoome-preset-1",
+        "recoome-preset-2"
+      ],
+      "preset_occurrence_count": 2,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Turn Retreat",
+      "skill_id": "skill-turn-retreat",
+      "expected_class": "Evasive",
+      "preset_ids": [
+        "recoome-preset-1"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    },
+    {
+      "name": "Shockwave",
+      "skill_id": "skill-shockwave",
+      "expected_class": "Super",
+      "preset_ids": [
+        "frieza-first-preset-2"
+      ],
+      "preset_occurrence_count": 1,
+      "canonical_identity_status": "exact"
+    }
+  ],
+  "slot_class_check": {
+    "status": "passed",
+    "incompatible_slot_class_records": 0
+  },
+  "reverse_endpoint_model": {
+    "status": "not_mutated",
+    "note": "character-presets-record-layer.json is the authoritative preset consumer layer and currently stores loadout skill names, not skill-side preset-link arrays. The audit therefore records deterministic reverse endpoints here without fabricating a new canonical reverse-link schema."
+  },
+  "notes": "The Festival skill remains a distinct cast/preset identity despite its canonical usable_by_cac=false flag; its appearance in Vegeta Preset 9 is compatible with that boundary. Newly promoted skills remain partially_verified and require later record-level enrichment where acquisition/mechanics are incomplete."
+}
