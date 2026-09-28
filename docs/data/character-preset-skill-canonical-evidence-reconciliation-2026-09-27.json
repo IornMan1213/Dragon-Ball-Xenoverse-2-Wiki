@@ -53,7 +53,6 @@
   "remaining_unresolved_names": [
     "Super Back Jump",
     "Ki Blast Cannon",
-    "Shockwave",
     "Super Dragon Fist",
     "Holstein Shock",
     "Break Strike",
@@ -64,11 +63,13 @@
     "Turn Retreat"
   ],
   "result": "research_gap_reconciliation",
-  "next": "Continue record-level reconciliation for the remaining restored identities, refresh this audit as each name is resolved, and then audit recovered cross-domain endpoints against canonical PQ reward data.",
+  "next": "Continue record-level reconciliation for the remaining restored identities, then audit recovered cross-domain endpoints against canonical PQ reward data.",
   "reconciliation_2026_09_28_batch_06": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json",
-    "reconciled": ["Full Power Energy Blast Volley"],
+    "reconciled": [
+      "Full Power Energy Blast Volley"
+    ],
     "canonical_identity": "Ultimate/Ki Blast, 300 Ki, starting move for all types",
     "preserved_conflict": "Historical repository batch-253 Super/100-Ki/Nappa-training evidence remains intact as historical provenance and does not override canonical skills.json."
   },
@@ -93,6 +94,18 @@
       "Energy Wave Combo acquisition remains null",
       "Break Strike Ultimate Finish remains null",
       "Super Ki Explosion and Ultra Fighting Bomber remain blocked"
+    ]
+  },
+  "reconciliation_2026_09_28_batch_07": {
+    "status": "completed",
+    "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-07-2026-09-28.json",
+    "reconciled": [
+      "Shockwave"
+    ],
+    "canonical_identity": "Super/Strike, 100 Ki, Skill Shop after A Desperate Future",
+    "preserved_uncertainty": [
+      "Stamina cost remains null",
+      "Ultimate Finish requirement remains null"
     ]
   }
 }
