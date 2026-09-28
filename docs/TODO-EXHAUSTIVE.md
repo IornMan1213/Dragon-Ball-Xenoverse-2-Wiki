@@ -4429,3 +4429,5 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Restored missing canonical PQ1-20 records from maintained research batches.
 - [ ] Reconcile the maintained PQ36 numbering/cut conflict before treating PQ36 as a live final-board quest.
+
+- [x] 2026-09-27: Restored missing reward-layer fields across canonical PQ41-100 from maintained batch records and applied exact-name equipment cross-links where identities exist.
