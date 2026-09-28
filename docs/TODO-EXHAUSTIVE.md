@@ -5795,3 +5795,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited canonical skill records: none currently carries an explicit DAIMA/free-update label identifying that separate free-update skill subset.
 - [x] Recorded this as an explicit provenance gap rather than guessing which skills belonged to the free update.
 - [ ] **Next:** seek direct skill-level evidence for the May 2025 free-update skills, then continue Chapter 4 named-move reconciliation.
+
+
+### 2026-09-28 continuation — DAIMA free-update evidence review
+- [x] Rechecked the official May 21, 2025 release announcement: it confirms the separate free update included Skills, but does **not name those Skills**. citeturn0search0
+- [x] Confirmed the canonical database has six explicitly DAIMA Pack skills and no separately labeled May 2025 free-update skill records.
+- [x] Preserved the distinction between paid-pack provenance and free-update provenance; no individual free-update skill was guessed.
+- [ ] **Next:** search direct patch-note/community catalog evidence for the unnamed free-update skills; if none is sufficiently direct, move on to Chapter 4 named-move reconciliation.
