@@ -5773,3 +5773,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved evidence boundaries for acquisition conflicts, unresolved mechanics, and non-CaC/event-only identities; no speculative canonical relationship was introduced in this checkpoint pass.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** perform record-level canonical reconciliation for the five evidence-sufficient skills above, then continue through the remaining 13 catalog-gap-promoted identities before returning to broader QQ Bang/equipment and skill/PQ/Super Soul cross-domain enrichment.
+
+
+### 2026-09-28 continuation — Restored skill reconciliation audit
+- [x] Before changing canonical data, inspected the existing post-recovery evidence batches 04, 05, and 06. They already record direct reconciliation for Super Back Jump, Ki Blast Cannon, Consecutive Energy Blast, Super Galick Gun, Super Ki Explosion, Ultra Fighting Bomber, Full Power Energy Blast Volley, and Shockwave.
+- [x] Verified that Full Power Energy Blast Volley’s conflicting historical batch-253 Super/100-Ki/Nappa-training data is preserved as historical provenance while current canonical evidence resolves it to Ultimate/Ki Blast/300 Ki/starting move.
+- [x] Verified that shop/starting-move reconciliations do not create unsupported Skill→PQ acquisition edges.
+- [x] Advanced the persistent frontier to the remaining restored skill identities requiring direct evidence reconciliation.
+- [ ] Next: reconcile Super Dragon Fist, Holstein Shock, Break Strike, Backflip, Turn Retreat, Recoome Eraser Gun, Sledgehammer, Energy Wave Combo, and Full Power Energy Wave; preserve unresolved fields/conflicts and do not infer from preset/index evidence alone.
