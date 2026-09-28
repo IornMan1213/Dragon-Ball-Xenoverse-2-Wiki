@@ -1,0 +1,73 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-28",
+  "batch": 576,
+  "purpose": "Schema foundation for evidence-backed skill release/version provenance. This is a derived research contract; it does not mutate canonical skill records.",
+  "source_of_truth": "docs/data/skills.json",
+  "authoritative_registry": "docs/data/game-content-version-provenance-registry.json",
+  "rules": [
+    "Research timestamps never become game release/version values.",
+    "An event assignment requires direct skill-to-event evidence or an explicitly corroborated mapping recorded in the authoritative registry.",
+    "A release event establishes content provenance, not balance changes, unless the cited source explicitly documents a balance change.",
+    "Patch/version fields remain null when the available evidence does not establish an exact version.",
+    "Conflicting provenance is retained as competing evidence rather than silently resolved.",
+    "Internal skill IDs are never inferred from filenames, preset positions, reward ordering, or mod attachment names."
+  ],
+  "record_contract": {
+    "required": [
+      "skill_id",
+      "event_id",
+      "evidence_type",
+      "source_ids",
+      "confidence",
+      "basis"
+    ],
+    "optional": [
+      "skill_name",
+      "event_kind",
+      "release_date",
+      "version_label",
+      "first_release_status",
+      "patch_change"
+    ],
+    "confidence_values": [
+      "direct",
+      "corroborated",
+      "context_only",
+      "conflicted",
+      "unresolved"
+    ],
+    "patch_change_contract": {
+      "required": [
+        "source_ids",
+        "basis"
+      ],
+      "optional": [
+        "version_label",
+        "change_type",
+        "old_value",
+        "new_value"
+      ],
+      "rule": "Only populate when the cited source explicitly documents a change; absence means unknown, not unchanged."
+    }
+  },
+  "current_registry_state": {
+    "canonical_skills": 497,
+    "direct_skill_event_mappings": 28,
+    "explicit_version_or_patch_fields_in_canonical_skills": 0,
+    "evidence_census": {
+      "explicit_patch_mentions": 284,
+      "explicit_version_sensitive_language": 287,
+      "explicit_dlc_update_provenance": 295
+    },
+    "free_update_20_named_festival_identities": [
+      "God Bind (Festival)",
+      "Egret Waltz (Festival)",
+      "Gamma Force: Code-R (Festival)",
+      "Gamma Force: Code-B (Festival)"
+    ],
+    "unresolved_festival_internal_ids": 4
+  },
+  "canonical_action": "No canonical skills.json mutation in this batch.",
+  "next": "Use this contract to structure future evidence-backed provenance records, prioritizing skills with explicit release/update evidence and leaving unsupported version fields null."
+}
