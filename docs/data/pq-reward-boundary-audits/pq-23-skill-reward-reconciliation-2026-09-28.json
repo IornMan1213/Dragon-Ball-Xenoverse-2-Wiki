@@ -1,0 +1,12 @@
+{
+  "batch_id":559,
+  "date":"2026-09-28",
+  "type":"pq23_skill_reward_reconciliation",
+  "pq":"PQ23",
+  "name":"The Explosion of Namek",
+  "status":"evidence_reconciled",
+  "finding":"PQ23 research already lists Death Slash in basic_rewards and skill_rewards. Independent reward transcription and the skill record both identify Death Slash as the PQ23 reward; no research-layer contradiction requiring mutation was found.",
+  "evidence":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://dbxv2.fandom.com/wiki/Death_Slash"],
+  "actions":{"pq_batch_03_changed":false,"canonical_pq_relationship_added":false,"canonical_data_changed":false,"unsupported_relationship_invented":false},
+  "next":"Continue the concrete PQ reward contradiction audit at PQ24-PQ28."
+}
