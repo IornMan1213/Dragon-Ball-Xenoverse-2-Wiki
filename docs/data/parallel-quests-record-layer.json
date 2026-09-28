@@ -2168,7 +2168,9 @@
       ],
       "ultimate_finish": "Defeat Yamcha",
       "rewards": [],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Neo Wolf Fang Fist"
+      ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
@@ -2184,7 +2186,9 @@
       ],
       "ultimate_finish": "Defeat Goku and the revived warriors",
       "rewards": [],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Atomic Blast"
+      ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
@@ -2245,7 +2249,7 @@
       "ultimate_finish": "Defeat revived Frieza, Cell, and Majin Buu",
       "rewards": [],
       "skill_rewards": [
-        "III Bomber"
+        "Ill Bomber"
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
