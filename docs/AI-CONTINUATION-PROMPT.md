@@ -5824,3 +5824,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the two QQ Bang system/mixing records without equipment links because they intentionally describe generic synthesis rather than concrete clothing identities.
 - [x] Updated the equipment/QQ Bang reconciliation audit with the parity and endpoint-integrity results.
 - [ ] Next: audit any remaining concrete QQ Bang input names that are intentionally unresolved, then validate cross-domain navigation consumers against the corrected **851-edge** canonical relationship total and resume evidence-backed PQ reward expansion.
+
+
+### 2026-09-28 continuation — Correct stale PQ cross-domain metadata after equipment audit
+- [x] Revalidated the live canonical relationship store against the repaired equipment reverse layer: 851 total edges = 248 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming.
+- [x] Corrected docs/data/pq-cross-domain-status.json and docs/data/pq-cross-domain-audit.json, which still contained superseded 852/127 current-state metadata.
+- [x] Preserved the historical 840 baseline and superseded 852/127 refresh as dated provenance rather than deleting history.
+- [x] Updated equipment reverse coverage in the cross-domain artifacts to 126 forward / 126 reverse / 0 missing / 0 reverse-only.
+- [x] Validated both corrected JSON artifacts after mutation.
+- [ ] Next: inspect actual cross-domain navigation/consumer files for hard-coded stale counts or endpoint assumptions, then resume evidence-backed PQ typed-reward expansion.
