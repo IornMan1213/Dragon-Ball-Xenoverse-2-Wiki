@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Current live baseline after corruption recovery and subsequent recovery-forward enrichment.",
+  "source_of_truth": {
+    "skills": "docs/data/skills.json",
+    "pq_rewards": "docs/data/pq-reward-relationships.json",
+    "rule": "Canonical forward datasets are authoritative; verified/index/projection layers are consumers or evidence only."
+  },
+  "current_live_baseline": {
+    "canonical_skills": 497,
+    "skills_index": 497,
+    "pq_reward_relationships": 852,
+    "pq_reward_counts": {
+      "skill": 249,
+      "super_soul": 135,
+      "equipment": 126,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "parallel_quests": 186,
+    "equipment_record_layer": 112,
+    "verified_preset_records": 25,
+    "verified_preset_skill_entries": 162,
+    "exact_preset_to_canonical_matches": 162,
+    "unmatched_verified_preset_skill_entries": 0,
+    "pq_skill_edges": 246
+  },
+  "historical_recovery_baselines": {
+    "pre_preset_skill_recovery": 474,
+    "post_preset_skill_recovery": 493,
+    "pq_reward_recovery": 840,
+    "note": "Historical values are provenance only."
+  },
+  "recovery_evidence": [
+    "Canonical skill data was restored from a surviving recovery baseline before later evidence-backed promotions.",
+    "PQ reward recovery was reconciled against the canonical forward relationship store rather than reverse indexes.",
+    "Four directly evidenced Future Warrior skills were promoted after the 493-record state, producing the current 497-record corpus."
+  ],
+  "validation_boundaries": [
+    "No canonical record was reconstructed from a verified/index/projection layer.",
+    "No reward probability or unresolved Ultimate Finish condition was inferred.",
+    "PQ numbering gaps/conflicts remain represented conservatively.",
+    "Runtime/CI/build remains unverified/non-blocking."
+  ],
+  "next_frontier": [
+    "Continue current-evidence mechanics/acquisition reconciliation for the repaired canonical skill corpus.",
+    "Continue evidence-backed PQ cross-domain enrichment and bidirectional navigation.",
+    "Keep historical recovery counts explicitly separated from current live counts."
+  ]
+}
