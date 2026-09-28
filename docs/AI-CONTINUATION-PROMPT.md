@@ -5195,3 +5195,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/character-preset-skill-canonical-identity-audit-2026-09-27.json` documenting the deterministic **canonical identity gap** and all 18 unmatched names with occurrence counts.
 - [x] No canonical skill records were synthesized or promoted from preset loadout data; canonical data remains authoritative.
 - [ ] **Next:** research the 18 unmatched preset skill names and determine, from direct evidence, whether each maps to an existing canonical skill, requires a cast-only/unavailable-for-CaC canonical record, or should remain outside the canonical skill corpus.
+
+
+## 2026-09-27 continuation — canonical promotion of preset skill gaps
+
+- [x] Resolved **17 of the 18** previously unmatched preset skill identities by promoting evidence-backed records into authoritative `docs/data/skills.json`.
+- [x] Canonical skill corpus increased from **475 → 492** records; the 162 verified preset skill-slot entries now resolve **161/162** by exact canonical identity.
+- [x] Preserved evidence status as `partially_verified` for these newly promoted records; no unsupported probabilities, hidden gates, or invented mechanics were added.
+- [x] Added provenance-backed canonical records for: Super Galick Gun; Sledgehammer; Energy Wave Combo; Full Power Energy Wave; Full Power Energy Blast Volley; Super Back Jump; Galaxy Breaker (Festival); Ki Blast Cannon; Super Dragon Fist; Holstein Shock; Break Strike; Consecutive Energy Blast; Backflip; Super Ki Explosion; Recoome Eraser Gun; Ultra Fighting Bomber; Turn Retreat.
+- [x] Left the final unmatched **Shockwave** reference unresolved rather than guessing its canonical classification/identity.
+- [ ] **Next:** resolve `Shockwave` from record-level evidence, then audit the newly promoted 17 records for reverse character/preset navigation and synchronization with supporting skill indexes/catalog layers.
