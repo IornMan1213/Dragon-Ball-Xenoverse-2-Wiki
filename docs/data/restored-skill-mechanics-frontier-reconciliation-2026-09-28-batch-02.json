@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "purpose": "Second post-recovery mechanics frontier reconciliation for existing canonical skill identities; distinguishes documented behavior from unresolved exact mechanics and acquisition/reward evidence.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "skill_id": "skill-brutal-buster",
+      "name": "Brutal Buster",
+      "status": "evidence_reconciled_no_safe_canonical_change",
+      "documented": "Ultimate associated with Broly (DB Super); current repository evidence places it in Broly's Future Saga-era moveset.",
+      "unresolved": [
+        "projectile behavior",
+        "charge/input timing",
+        "hit count",
+        "damage scaling",
+        "exact acquisition gate"
+      ],
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-479.json",
+        "docs/data/skill-brutal-buster-current-evidence-audit-2026-09-26-batch-479.json"
+      ]
+    },
+    {
+      "skill_id": "skill-apocalyptic-burst",
+      "name": "Apocalyptic Burst",
+      "status": "evidence_reconciled_no_safe_canonical_change",
+      "documented": "Ranged Ki Blast Ultimate with a multi-stage burst sequence; existing research preserves its acquisition/classification endpoint.",
+      "unresolved": [
+        "exact hit count",
+        "frame timings",
+        "damage scaling",
+        "reward probability"
+      ],
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-477.json",
+        "docs/data/skill-research-batches/skill-batch-09.json"
+      ]
+    },
+    {
+      "skill_id": "skill-gigantic-rage",
+      "name": "Gigantic Rage",
+      "status": "evidence_reconciled_no_safe_canonical_change",
+      "documented": "200-Ki Strike Super from PQ130; current documentation describes a grab followed by five ground slams and a final hard knockdown. Super Armor is documented specifically for Broly (Full Power Super Saiyan), not as a universal skill property.",
+      "unresolved": [
+        "exact frame data",
+        "patch-independent scaling",
+        "reward probability"
+      ],
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-473.json",
+        "docs/data/skill-gigantic-rage-current-evidence-audit-2026-09-26-batch-473.json"
+      ]
+    },
+    {
+      "skill_id": "skill-shooting-strike",
+      "name": "Shooting Strike",
+      "status": "evidence_reconciled_no_safe_canonical_change",
+      "documented": "100-Ki Ki Blast Super associated with Gamma 1; repository evidence links it to PQ156 and confirms current skill identity/availability.",
+      "unresolved": [
+        "exact startup timing",
+        "hit confirmation behavior",
+        "reward probability",
+        "patch-independent damage/scaling"
+      ],
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-467.json",
+        "docs/COVERAGE-AUDIT.md"
+      ]
+    },
+    {
+      "skill_id": "skill-time-skip-jump-spike",
+      "name": "Time Skip/Jump Spike",
+      "status": "evidence_reconciled_no_safe_canonical_change",
+      "documented": "Existing evidence identifies the move as a 100-Ki Strike Super from Hit training.",
+      "unresolved": [
+        "exact startup/active/recovery frames",
+        "patch-independent scaling",
+        "reward probabilities",
+        "hidden interactions"
+      ],
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-472.json",
+        "docs/data/pq-cross-domain-index.json"
+      ]
+    }
+  ],
+  "policy": {
+    "canonical_rule": "Canonical skills.json remains authoritative; research and audit artifacts provide evidence only.",
+    "preservation": "No unsupported exact frames, universal damage constants, hidden conditions, or reward probabilities are promoted.",
+    "acquisition_boundary": "A PQ/training/shop acquisition statement is not converted into a PQ reward relationship without explicit reward evidence.",
+    "result": "No canonical field change was justified by this batch; existing bounded mechanics are retained."
+  },
+  "next_frontier": "Continue with the next unaudited mechanics/acquisition cohort and separately reconcile PQ forward/reverse typed-reward parity."
+}
