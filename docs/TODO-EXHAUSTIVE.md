@@ -5660,3 +5660,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries: no unsupported drop probabilities, Ultimate Finish requirements, prerequisites, or variant identities were inferred.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** enrich the remaining 15 canonical acquisition gaps in evidence-backed batches, then deepen mechanics/restriction/version fields and PQ↔skill navigation where gaps remain.
+
+
+### 2026-09-28 continuation — Canonical skill acquisition completion batch 542
+- [x] Rechecked the 15 remaining acquisition-field gaps against the authoritative `docs/data/skills.json` and existing repository evidence.
+- [x] Completed acquisition metadata for **Dual Masenko, Final Shine Attack, Full Power Energy Wave, Galaxy Breaker (Festival), Holstein Shock, Ki Blast Cannon, Power Pole Combo, Recoome Eraser Gun, Shockwave, Sledgehammer, Super Dragon Fist, Super Galick Gun, Super Ki Explosion, Turn Retreat, and Ultra Fighting Bomber**.
+- [x] Restored the missing canonical `skill-final-shine-attack` ID while synchronizing its already evidenced identity; no new skill identity was invented.
+- [x] Added/registerd `docs/data/skill-research-batches/skill-batch-542.json` and closed the canonical acquisition-gap census: **0 records remain missing any of the three target acquisition fields** (`acquisition_type`, `source_quest_or_shop`, `dlc_requirement`).
+- [x] Preserved event/cast/CaC boundaries and did not infer unsupported reward probabilities, Ultimate Finish gates, prerequisites, or hidden timing.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** audit the now-complete acquisition layer for semantic inconsistencies, then prioritize mechanics/restrictions/version history and bidirectional PQ↔skill navigation gaps.
