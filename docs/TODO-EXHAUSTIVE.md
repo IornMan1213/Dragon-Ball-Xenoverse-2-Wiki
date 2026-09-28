@@ -4762,3 +4762,17 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconcile **Turn Retreat** against direct Strike Evasive evidence: 300 Stamina, Skill Shop, CaC usability, directional spinning/stun behavior.
 - [ ] Apply only evidence-backed field corrections to the canonical 493-record skill corpus after record-level comparison; do not overwrite stronger canonical provenance with weaker catalog evidence.
 - [ ] Continue remaining restored identity evidence research; keep unsupported fields null/conflicted.
+
+
+### 2026-09-27 continuation — Restored skill canonical evidence reconciliation batch 03
+- [x] Compared the live canonical records against the second evidence batch and directly reconciled Super Dragon Fist, Holstein Shock, Backflip, and Turn Retreat.
+- [x] Reconciled Full Power Energy Wave and Recoome Eraser Gun using direct Xenoverse 2 skill documentation; no duplicate identities were created.
+- [x] Corrected Break Strike's unsupported `ultimate_finish_required=false` to `null`, preserving the evidence boundary.
+- [x] Corrected Energy Wave Combo by removing the unsupported Skill Shop acquisition and generic character-source label; acquisition remains null until direct evidence establishes it.
+- [x] Strengthened Sledgehammer with direct provenance and bounded charge/knockdown mechanics.
+- [x] Added `docs/data/skill-preset-evidence-reconciliation-batch-03-2026-09-27.json`.
+- [x] Re-synchronized `docs/data/skills-index.json` from the live canonical corpus: **493 canonical / 493 index records**.
+- [x] Verified the nine reconciled skill IDs resolve in both canonical and index layers.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** reconcile Super Back Jump, Ki Blast Cannon, Consecutive Energy Blast, and Super Galick Gun; then pursue direct skill-level evidence for Super Ki Explosion and Ultra Fighting Bomber without guessing.
+
