@@ -103,7 +103,7 @@
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "Promote queued explicit equipment→PQ acquisition links into the canonical equipment layer in small validated batches; then reconcile reverse PQ equipment edges without disturbing the 840-edge baseline.",
+  "next_target": "Promote the next validated batch from the explicit equipment-PQ reconciliation queue, then add/reconcile corresponding PQ reverse equipment edges.",
   "equipment_records": 112,
-  "latest_change": "Created an evidence queue for 33 explicit equipment-record → Parallel Quest acquisition references that are not yet promoted into the canonical equipment records. No drop guarantees were inferred."
+  "latest_change": "Promoted the first five explicit equipment→PQ acquisition-source links (equip-002→PQ3, equip-003→PQ98, equip-012→PQ92, equip-016→PQ3, equip-023→PQ87) into the canonical equipment layer."
 }
