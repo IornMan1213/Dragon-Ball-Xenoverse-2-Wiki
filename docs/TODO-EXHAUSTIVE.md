@@ -5489,3 +5489,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 533 and reconcile safe field-level improvements.
+
+
+### 2026-09-28 continuation — Current-evidence skill frontier batch 534
+- [x] Continued with four stale PQ91-PQ95 cohort records: **Final Kamehameha, Maiden Burst, Bluff Kamehameha, and Drain Field**.
+- [x] Preserved supported class, costs, acquisition, character source, and bounded mechanics; unresolved reward-slot and technical fields remain unresolved.
+- [x] Added `docs/data/skill-research-batches/skill-batch-534.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Maintained the 493 canonical skill identity boundary and added no unsupported PQ relationships.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next genuinely stale canonical skill cohort after Batch 534 and reconcile safe field-level improvements.
