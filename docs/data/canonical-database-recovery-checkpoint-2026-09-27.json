@@ -42,7 +42,7 @@
     },
     "qq_bangs": {
       "record_layer_records": 23,
-      "blob_sha": "d1ce3dcf7d47afb6c03cf8796116e7a77e234196"
+      "blob_sha": "fe3ee7ab6ee7a59479a74c79dd6d43d7f531a2ed"
     },
     "partner_skill_relationships": {
       "relationships_count": 3,
@@ -63,7 +63,8 @@
     "Version-aware QQ Bang material provenance was expanded with dated 2020-2026 evidence for direct Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; no patch-specific rule change was established.",
     "Added bidirectional QQ Bang ↔ PQ provenance for Super Mix Capsule Z and PQ 83, preserving the Tour-only/community-farming context without promoting a guaranteed drop or exact rate.",
     "Refined PQ 83 ↔ Super Mix Capsule Z provenance with 2024 Steam/Reddit/GameFAQs evidence and explicitly preserved observed drop variability rather than promoting a guaranteed reward or exact rate.",
-    "Added bidirectional equipment ↔ Parallel Quest acquisition provenance for Goku's Turtle Hermit Gi and Demon Clothes (Gohan, Kid) ↔ PQ 04, and Whis Symbol Battle Suit ↔ PQ 100, using explicit canonical equipment source fields."
+    "Added bidirectional equipment ↔ Parallel Quest acquisition provenance for Goku's Turtle Hermit Gi and Demon Clothes (Gohan, Kid) ↔ PQ 04, and Whis Symbol Battle Suit ↔ PQ 100, using explicit canonical equipment source fields.",
+    "Completed the identified QQ Bang equipment-link gap by mapping Light Heart Suit to equip-105 in qq-recipe-004 and qq-recipe-005; audited all QQ Bang equipment_links against the canonical equipment layer with no broken IDs."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -74,7 +75,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Added bidirectional canonical equipment ↔ PQ acquisition links for equip-001 and equip-017 ↔ PQ 04 and equip-088 ↔ PQ 100. Links are based on explicit equipment source_quest_or_shop fields and do not assert guaranteed drops or exact rates."
+    "note": "Completed the remaining identified QQ Bang recipe-family equipment identity gap: Light Heart Suit is now linked to equip-105 in qq-recipe-004 and qq-recipe-005. Cross-layer audit reports no broken QQ Bang equipment IDs."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
