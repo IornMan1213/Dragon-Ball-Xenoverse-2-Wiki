@@ -11658,6 +11658,33 @@
       "mechanics_notes": "300-Ki Ki Blast Ultimate from Expert Mission 14. The user charges a large Ki ball with both hands and launches it in a straight line; current dedicated evidence documents a 17-hit sequence and approximately 30% total damage as source-reported. The move is categorized as a long-range projectile with knockback; exact reward probability, frame timing, and patch-independent scaling remain unresolved."
     },
     {
+      "name": "Shockwave",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku / Burter and numerous customizable partners",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop after A Desperate Future",
+      "ultimate_finish_required": null,
+      "skill_description": "Release a fast, unblockable shockwave from the hand that can interrupt attacks or blocking and push the opponent away.",
+      "mechanics_notes": "The Xenoverse 2 skill reference classifies Shockwave as an unblockable Strike Super. It can interrupt certain actions such as basic attacks or blocking and launches the opponent back in slow motion; when it does not interrupt an action, the effect is a smaller push. Shockwave and Ki Blast Cannon are kept as separate identities despite historical description/property confusion.",
+      "acquisition_notes": "The documented current route is Skill Shop availability after A Desperate Future. Multiple cast-character presets and partner-customization records confirm the skill's use across the roster.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Shockwave",
+        "https://dbxv2.fandom.com/wiki/Goku",
+        "https://videogaming.fandom.com/wiki/Burter"
+      ],
+      "id": "skill-shockwave",
+      "research_status": "catalog_gap_promoted"
+    },
+    {
       "name": "Shooting Strike",
       "class": "Super",
       "subcategory": "Ki Blast",
