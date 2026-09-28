@@ -106,6 +106,15 @@
       "scope": "Independently identifies the six canonical Chapter 3 skills and associates them with Golden Frieza (Ultra Supervillain) and Broly (DB Super)."
     },
     {
+      "id": "db_official_future_saga_ch4_release_2026",
+      "publisher": "Dragon Ball Official Site",
+      "title": "The Final DLC for DRAGON BALL XENOVERSE 2 FUTURE SAGA Chapter 4 Is Out Now!",
+      "date": "2026-07-08",
+      "url": "https://en.dragon-ball-official.com/news/01_4313.html",
+      "scope": "Primary release confirmation for FUTURE SAGA Chapter 4; confirms Chapter 4 is released and is the final DLC.",
+      "source_note_placeholder": true
+    },
+    {
       "id": "official_ch4_dlc_page",
       "publisher": "Bandai Namco Entertainment",
       "title": "DRAGON BALL XENOVERSE 2 - FUTURE SAGA Chapter 4",
@@ -248,7 +257,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Strengthen the six Chapter 3 and four Chapter 4 individual skill mappings with primary-source named-move evidence where available, without weakening or replacing existing corroborated evidence.",
+  "next_step": "Continue strengthening individual Chapter 3 and Chapter 4 skill provenance where primary sources name the move; otherwise preserve corroborated independent evidence and do not infer undocumented patch/version details.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -395,6 +404,7 @@
       "event_id": "future-saga-chapter-3",
       "evidence_type": "official_event_plus_named_independent_catalog",
       "source_ids": [
+        "bn_future_saga_ch3_2025",
         "community_ch3_skill_catalog"
       ],
       "confidence": "corroborated",
@@ -406,6 +416,7 @@
       "event_id": "future-saga-chapter-3",
       "evidence_type": "official_event_plus_named_independent_catalog",
       "source_ids": [
+        "bn_future_saga_ch3_2025",
         "community_ch3_skill_catalog"
       ],
       "confidence": "corroborated",
@@ -417,6 +428,7 @@
       "event_id": "future-saga-chapter-3",
       "evidence_type": "official_event_plus_named_independent_catalog",
       "source_ids": [
+        "bn_future_saga_ch3_2025",
         "community_ch3_skill_catalog"
       ],
       "confidence": "corroborated",
@@ -428,6 +440,7 @@
       "event_id": "future-saga-chapter-3",
       "evidence_type": "official_event_plus_named_independent_catalog",
       "source_ids": [
+        "bn_future_saga_ch3_2025",
         "community_ch3_skill_catalog"
       ],
       "confidence": "corroborated",
@@ -439,6 +452,7 @@
       "event_id": "future-saga-chapter-3",
       "evidence_type": "official_event_plus_named_independent_catalog",
       "source_ids": [
+        "bn_future_saga_ch3_2025",
         "community_ch3_skill_catalog"
       ],
       "confidence": "corroborated",
@@ -450,6 +464,7 @@
       "event_id": "future-saga-chapter-3",
       "evidence_type": "official_event_plus_named_independent_catalog",
       "source_ids": [
+        "bn_future_saga_ch3_2025",
         "community_ch3_skill_catalog"
       ],
       "confidence": "corroborated",
@@ -458,9 +473,10 @@
     {
       "skill_id": "skill-dragon-spiral",
       "skill_name": "Dragon Spiral",
-      "event_id": "future-saga-chapter-4-announced",
+      "event_id": "future-saga-chapter-4",
       "evidence_type": "community_pq_reward_catalog",
       "source_ids": [
+        "db_official_future_saga_ch4_release_2026",
         "official_ch4_dlc_page",
         "community_ch4_skill_guide_2026-07-08",
         "steam_pq_185_186_guide"
@@ -471,9 +487,10 @@
     {
       "skill_id": "skill-indomitable",
       "skill_name": "Indomitable",
-      "event_id": "future-saga-chapter-4-announced",
+      "event_id": "future-saga-chapter-4",
       "evidence_type": "community_pq_reward_catalog",
       "source_ids": [
+        "db_official_future_saga_ch4_release_2026",
         "official_ch4_dlc_page",
         "community_ch4_skill_guide_2026-07-08",
         "steam_pq_185_186_guide"
@@ -484,9 +501,10 @@
     {
       "skill_id": "skill-the-power-to-overcome",
       "skill_name": "The Power to Overcome",
-      "event_id": "future-saga-chapter-4-announced",
+      "event_id": "future-saga-chapter-4",
       "evidence_type": "official_event_plus_independent_named_skill_catalog",
       "source_ids": [
+        "db_official_future_saga_ch4_release_2026",
         "official_ch4_dlc_page",
         "community_ch4_skill_guide_2026-07-08",
         "steam_pq_185_186_guide"
@@ -497,9 +515,10 @@
     {
       "skill_id": "skill-venus-fist",
       "skill_name": "Venus Fist",
-      "event_id": "future-saga-chapter-4-announced",
+      "event_id": "future-saga-chapter-4",
       "evidence_type": "community_pq_reward_catalog",
       "source_ids": [
+        "db_official_future_saga_ch4_release_2026",
         "official_ch4_dlc_page",
         "community_ch4_skill_guide_2026-07-08",
         "steam_pq_185_186_guide"
