@@ -6314,15 +6314,15 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 127,
+    "pq_rewards_equipment": 126,
     "pq_rewards_skill": 248,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 852
+    "total": 851
   },
-  "last_reconciled_scope": "PQ 1-186; current canonical relationship reconciliation 2026-09-28",
+  "last_reconciled_scope": "PQ 1-186; current canonical relationship reconciliation 2026-09-28; equipment reverse audit corrected stale metadata from 127 to 126",
   "notes": [
     "2",
     "0",
@@ -7943,6 +7943,7 @@
     "e",
     "d",
     ".",
-    "2026-09-28 audit correction: PQ30/PQ35/PQ93 Super Soul relationships were already present in the canonical forward relationship layer; this audit confirmed parity with the Super Soul acquisition index and did not promote duplicate relationships."
+    "2026-09-28 audit correction: PQ30/PQ35/PQ93 Super Soul relationships were already present in the canonical forward relationship layer; this audit confirmed parity with the Super Soul acquisition index and did not promote duplicate relationships.",
+    "2026-09-28 equipment reverse audit correction: verified_relationships contains 126 unique source-backed pq_rewards_equipment edges. The prior metadata value 127 was stale and has been corrected; no additional equipment edge is inferred from projection counts."
   ]
 }
