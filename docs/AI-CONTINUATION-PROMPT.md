@@ -6677,3 +6677,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Kept the separate historical/cut PQ36 conflict unchanged.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ151-PQ160 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ151-PQ160 recovery-forward reconciliation batch 571
+- [x] Reconciled PQ151-PQ160 against dedicated research, maintained records, and the existing canonical PQ reward relationship store.
+- [x] Confirmed all 10 documented skill reward projections were already present in the maintained layer.
+- [x] Restored canonical-backed clothing/equipment projections for PQ152 (equip-038), PQ154 (equip-048), and PQ158 (equip-054).
+- [x] Restored accessory endpoint links for Android 17 (DB Super) Wig, King Vegeta (DB Super) Wig, Gamma 2's Helmet, Gamma 1's Helmet, Dr. Hedo Hood, and Red Ribbon Army Helmet.
+- [x] Restored eight maintained Super Soul reward projections across PQ151-PQ160.
+- [x] Preserved the unresolved Android 17 Ranger Accessory component boundary; no unsupported merge or canonical relationship was invented.
+- [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-151-160-cross-domain-reconciliation-2026-09-28.json` (batch 571).
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ161-PQ170 recovery-forward reconciliation.
