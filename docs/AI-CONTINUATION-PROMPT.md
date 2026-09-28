@@ -4887,3 +4887,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Super Mix Capsule Z now has dated 2020-2026 provenance for direct PQ/Expert Mission Tour acquisition and the Super Mix Capsule + Demon Realm Crystal synthesis route.
 - [x] No patch-specific acquisition-rule change was promoted without direct evidence; exact drop percentages remain unresolved.
 - [ ] Next exact frontier: deeper item-table/patch evidence, remaining QQ Bang clothing identity reconciliation, then equipment/build cross-links.
+
+### 2026-09-27 continuation — current QQ Bang evidence boundary
+- [x] Added 2025 official Time Patrol Support Pack evidence showing Demon Realm Crystal x5 and Super Mix Capsule Z x5 as paid DLC distribution.
+- [x] Added 2026 community evidence for continued Tour farming and synthesis guidance.
+- [x] Explicitly separated paid DLC distribution from base-game acquisition/drop-table claims.
+- [ ] Next: remaining QQ Bang clothing identity reconciliation, then equipment/build cross-domain relationships; deeper item-table work only when direct evidence is available.
