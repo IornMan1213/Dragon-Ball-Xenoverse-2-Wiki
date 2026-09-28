@@ -1,0 +1,37 @@
+{
+  "schema_version": "1.0.0",
+  "audit_type": "festival_named_skill_recovery_layer",
+  "audit_date": "2026-09-28",
+  "canonical_source": "docs/data/skills.json",
+  "recovery_layer": "docs/data/festival-named-skill-recovery-layer-2026-09-28.json",
+  "findings": {
+    "named_skills_recovered": 4,
+    "names": [
+      "God Bind (Festival)",
+      "Egret Waltz (Festival)",
+      "Gamma Force: Code-R (Festival)",
+      "Gamma Force: Code-B (Festival)"
+    ],
+    "canonical_ids_recovered": 0,
+    "canonical_records_present": 0,
+    "canonical_corpus_changed": false
+  },
+  "evidence": {
+    "official_free_update_scope": "https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
+    "official_4th_festival_character_scope": "https://dragon-ball-official.com/news/01_3550.html",
+    "independent_named_skill_catalog": "https://dbxv2.fandom.com/wiki/Festival_of_Universes",
+    "independent_preset_evidence": [
+      "https://dbxv2.fandom.com/wiki/God_Bind_%28Festival%29",
+      "https://dbxv2.fandom.com/wiki/Videl_%28DB_Super%29",
+      "https://dbxv2.fandom.com/wiki/Gamma_2"
+    ],
+    "community_event_evidence": [
+      "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=1",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=10",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=13"
+    ]
+  },
+  "decision": "Preserve the four identities in a dedicated non-canonical recovery layer rather than inventing canonical skill IDs or inserting incomplete records into skills.json.",
+  "next_action": "Reconcile these four named identities against any surviving datamined/catalog identifiers or historical canonical blobs before considering canonical promotion. Until then, the recovery layer is the authoritative record of the names themselves, not of canonical IDs.",
+  "validation_boundary": "No canonical skill, PQ relationship, or index identity was altered by this audit. Runtime/CI remains non-blocking and unverified."
+}
