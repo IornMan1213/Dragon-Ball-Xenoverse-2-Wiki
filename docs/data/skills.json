@@ -420,6 +420,26 @@
       "ki_cost": 100
     },
     {
+      "name": "Backflip",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Backflip"
+      ],
+      "stamina_cost": 0,
+      "unlock_method": "Conton City Skill Shop / Ability Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Customizable Future Warrior",
+      "ultimate_finish_required": null,
+      "ki_cost": 0,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Defensive evasive requiring neither Ki nor Stamina.",
+      "id": "skill-backflip"
+    },
+    {
       "name": "Beast",
       "class": "Awoken",
       "subcategory": "Race",
@@ -1113,6 +1133,26 @@
         "mentor-nappa"
       ],
       "ki_cost": "300+"
+    },
+    {
+      "name": "Break Strike",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Break_Strike"
+      ],
+      "stamina_cost": 300,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Customizable Future Warrior",
+      "ultimate_finish_required": false,
+      "ki_cost": 0,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Close-range explosion evasive that launches the opponent upward.",
+      "id": "skill-break-strike"
     },
     {
       "name": "Breaker Energy Wave",
@@ -1971,6 +2011,26 @@
       "acquisition_type": "quest_or_mission",
       "notes": "2026-09-21 Extra Pack 2 completeness correction: official DLC scope lists eight skills; Confusion Blade was one of four Fu/Tokipedia endpoints missing from the canonical registry. Current evidence identifies Tokipedia completion as the acquisition endpoint. 2026-09-22 provenance refresh: dedicated skill evidence confirms 100-Ki Ki Blast Super classification, Fu association, and Tokipedia completion acquisition. Independent GameFAQs reward reporting also identifies Confusion Blade at 20% Tokipedia completion; the repository's acquisition endpoint is retained. 2026-09-23 provenance refresh: dedicated skill evidence was rechecked against the current wiki reference; existing acquisition, cost, scope, and mechanics semantics are preserved, and no unsupported probability or additional gate is inferred.\n2026-09-25 Batch 412 mechanics enrichment: current evidence expanded the mechanics boundary; unsupported exact frames, universal scaling, hidden targeting rules, and timing values remain unresolved. 2026-09-27 Batch 507 refresh: 100-Ki Ki Blast Super obtained by completing 50% of Tokipedia; launches tracking Ki spikes and directional input can shift them. 2026-09-27 Batch 506 current-evidence refresh: canonical record revalidated; existing provenance/reward conflicts and unresolved numerical details remain preserved, with no unsupported claims promoted.",
       "id": "skill-confusion-blade"
+    },
+    {
+      "name": "Consecutive Energy Blast",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast"
+      ],
+      "stamina_cost": 0,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": null,
+      "ultimate_finish_required": false,
+      "ki_cost": 100,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Tracking barrage of 10 Ki blasts.",
+      "id": "skill-consecutive-energy-blast"
     },
     {
       "name": "Core Breaker",
@@ -3945,6 +4005,33 @@
       "ki_cost": 300
     },
     {
+      "name": "Dual Masenko",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Dual_Masenko",
+        "https://dragonball.fandom.com/wiki/Dual_Masenko",
+        "https://steamcommunity.com/app/454650/discussions/0/1368380934257020994/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75501935"
+      ],
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "unlock_method": "TP Medal Shop purchase",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "dlc_requirement": null,
+      "acquisition_type": "tp_medal_shop",
+      "character_source": "Future Trunks",
+      "mechanics_notes": "100-Ki Ki Blast Super used by Future Trunks. The user spins in a semicircle while firing Ki Blasts from both hands; current skill documentation describes the move as a short-range attack effective against nearby opponents and pursuing targets. Exact damage scaling, frames, and hitbox timing remain unresolved.",
+      "last_verified": "2026-09-27",
+      "research_status": "enriched",
+      "notes": "2026-09-27 canonical restoration: current Xenoverse 2-specific evidence confirms TP Medal Shop acquisition, 100 Ki, Ki Blast Super classification, Future Trunks association, and the documented semicircular dual-blast behavior. Historical TP Medal Shop evidence records a 170 TP Medal price in the July 1 rotation. Batch 261's older training-only acquisition statement is superseded by direct TP Medal Shop evidence; no PQ acquisition is asserted.",
+      "id": "skill-dual-masenko"
+    },
+    {
       "name": "Dust Attack",
       "class": "Super",
       "subcategory": "Other",
@@ -4506,6 +4593,26 @@
       "source_parallel_quests": [
         22
       ]
+    },
+    {
+      "name": "Energy Wave Combo",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers"
+      ],
+      "stamina_cost": null,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Ki Blast Super",
+      "ultimate_finish_required": null,
+      "ki_cost": 100,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Fires a sequence of energy waves with additional input extending the attack.",
+      "id": "skill-energy-wave-combo"
     },
     {
       "name": "Eraser Bomb",
@@ -5106,6 +5213,34 @@
       "ki_cost": 0
     },
     {
+      "name": "Fighting Pose B",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_B"
+      ],
+      "unlock_method": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 16 — \"Defeat Frieza's Army!\"",
+      "mechanics_notes": "0-Ki Power Up Super from PQ16. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, reward probability, and frame timing remain unresolved.",
+      "last_verified": "2026-09-27",
+      "race_restriction": "All CaC races",
+      "source_quest": 16,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "character_source": "Jeice; Captain Ginyu Customize Partner",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-b",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ16 acquisition endpoint, and 20-second Strike boost; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms 0 Ki Power Up classification, PQ16 endpoint, and 20-second Strike-move damage boost. Exact percentage, stacking, reward probability, hidden gates, and frame timing remain unresolved. 2026-09-27 Batch 501 current-evidence audit: refreshed current skill-specific evidence; canonical identity and existing provenance retained, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
+      "source_parallel_quests": [
+        16
+      ]
+    },
+    {
       "name": "Fighting Pose C",
       "class": "Super",
       "subcategory": "Power Up",
@@ -5134,6 +5269,34 @@
       ],
       "ki_cost": 0,
       "ki_cost_note": "Power Up Super; current skill evidence lists 0 Ki."
+    },
+    {
+      "name": "Fighting Pose D",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_D"
+      ],
+      "unlock_method": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\" Basic Reward",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
+      "mechanics_notes": "0-Ki Power Up Super from Parallel Quest 15. The user performs Burter's pose and temporarily increases Boost Dash speed for 20 seconds. A legacy community guide reports a +20% Dash-speed figure, but the current dedicated skill reference confirms only the effect and duration; the exact current multiplier and frame timing remain unresolved.",
+      "last_verified": "2026-09-27",
+      "race_restriction": "All CaC races",
+      "source_quest": 15,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "character_source": "Burter; Captain Ginyu Customize Partner",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-d",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ15 acquisition endpoint, and 20-second Boost Dash-speed effect; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.\n2026-09-26 Batch 431 mechanics enrichment: current dedicated Xenoverse 2 evidence was rechecked for sequence, effect, cost, and acquisition context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 501 current-evidence frontier: current Xenoverse 2-specific evidence was rechecked; bounded mechanics and provenance were preserved, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
+      "source_parallel_quests": [
+        15
+      ]
     },
     {
       "name": "Fighting Pose E",
@@ -5198,6 +5361,32 @@
       "ki_cost": 0
     },
     {
+      "name": "Fighting Pose G",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_G",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
+      "mechanics_notes": "0-Ki Power Up Super that increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration; exact race-dependent duration variants, stacking behavior, and frame data remain unresolved.",
+      "last_verified": "2026-09-27",
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop",
+      "character_source": "Jeice",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-g",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence reconciled the earlier catalog record with the dedicated skill reference. The repository retains the explicit 0-Ki cost, Skill Shop endpoint, Ki Blast-damage effect, and source-bounded duration; unsupported balance details remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms 0 Ki Power Up classification, Skill Shop endpoint, Ki Blast-skill damage increase, approximately 8% source-reported increase, and 20-second duration. Race-dependent variants, stacking, and frame data remain unresolved.\n2026-09-27 Batch 501 current-evidence refresh: Batch 501 current-evidence refresh: current Xenoverse 2 skill documentation reconfirms the 0-Ki Power Up classification, Skill Shop acquisition, Ki Blast skill-damage effect, approximately 8% source-reported increase, and 20-second duration. Race-specific duration variants, stacking behavior, and frame data remain unresolved.",
+      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
+    },
+    {
       "name": "Fighting Pose H",
       "class": "Super",
       "subcategory": "Power Up",
@@ -5227,6 +5416,59 @@
       "id": "skill-fighting-pose-h",
       "source_parallel_quests": [
         61
+      ]
+    },
+    {
+      "name": "Fighting Pose I",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_I"
+      ],
+      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
+      "mechanics_notes": "0-Ki Power Up Super. After the pose animation, the user gains a Basic Movement Speed increase for 20 seconds; current skill-specific documentation identifies the effect as a movement-speed buff rather than a damage or defensive modifier. Exact speed multiplier and frame timing remain unresolved.",
+      "last_verified": "2026-09-27",
+      "race_restriction": "All CaC races",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop",
+      "character_source": "Burter",
+      "duration_seconds": 20,
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-i",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, Skill Shop endpoint, and 20-second Basic Movement Speed effect; unsupported movement multipliers, frame data, hidden gates, and reward probabilities remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved. 2026-09-27 Batch 501 current-evidence audit: refreshed current skill-specific evidence; canonical identity and existing provenance retained, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
+      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
+    },
+    {
+      "name": "Fighting Pose J",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "verification_status": "verified_current_scope",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Pose_J",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/faqs/74285?page=1"
+      ],
+      "unlock_method": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward",
+      "research_status": "enriched",
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\"",
+      "mechanics_notes": "0-Ki Power Up Super associated with Recoome and PQ17. It temporarily increases Stamina recovery. Current evidence supports the PQ17 endpoint and core Power Up identity; exact multiplier, duration, frame data, reward probability, and hidden gates remain unresolved.",
+      "last_verified": "2026-09-27",
+      "race_restriction": "All CaC races",
+      "source_quest": 17,
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "parallel_quest",
+      "character_source": "Recoome; Captain Ginyu Customize Partner",
+      "ki_cost": 0,
+      "id": "skill-fighting-pose-j",
+      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence confirmed the 0-Ki Power Up classification and PQ17 acquisition endpoint. The core Stamina-recovery effect is retained from the established research record, while exact magnitude, duration, frame data, reward probabilities, and hidden gates remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved. 2026-09-27 Batch 501 current-evidence audit: refreshed current skill-specific evidence; canonical identity and existing provenance retained, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
+      "source_parallel_quests": [
+        17
       ]
     },
     {
@@ -5939,6 +6181,46 @@
       ]
     },
     {
+      "name": "Full Power Energy Blast Volley",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Blast_Volley"
+      ],
+      "stamina_cost": 0,
+      "unlock_method": "Nappa Training Lesson 4",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Nappa",
+      "ultimate_finish_required": false,
+      "ki_cost": 100,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Large volley of Ki blasts that rains down in front of the user.",
+      "id": "skill-full-power-energy-blast-volley"
+    },
+    {
+      "name": "Full Power Energy Wave",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_%28Ultimate%29"
+      ],
+      "stamina_cost": null,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Multiple base-game and customizable characters",
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Fast-acting long-range Ki beam Ultimate.",
+      "id": "skill-full-power-energy-wave"
+    },
+    {
       "name": "Future Super Saiyan",
       "class": "Awoken",
       "subcategory": "Race",
@@ -6003,6 +6285,26 @@
         "mentor-gotenks"
       ],
       "ki_cost": 100
+    },
+    {
+      "name": "Galaxy Breaker (Festival)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Galaxy_Breaker_%28Festival%29"
+      ],
+      "stamina_cost": 0,
+      "unlock_method": "Festival of Universes — Max Camaraderie with Vegeta",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": false,
+      "character_source": "Vegeta",
+      "ultimate_finish_required": null,
+      "ki_cost": 200,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Grab-based 13-hit purple Ki pillar attack.",
+      "id": "skill-galaxy-breaker-festival"
     },
     {
       "name": "Galick Cannon",
@@ -7379,6 +7681,26 @@
       ]
     },
     {
+      "name": "Holstein Shock",
+      "class": "Super",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ],
+      "stamina_cost": null,
+      "unlock_method": null,
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Captain Ginyu",
+      "ultimate_finish_required": null,
+      "ki_cost": null,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Captain Ginyu utility Super that damages its user.",
+      "id": "skill-holstein-shock"
+    },
+    {
       "name": "Holy Inscription",
       "class": "Super",
       "subcategory": "Strike",
@@ -8312,6 +8634,26 @@
       "source_parallel_quests": [
         5
       ]
+    },
+    {
+      "name": "Ki Blast Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon"
+      ],
+      "stamina_cost": null,
+      "unlock_method": "Skill Shop / Gohan & Videl training conflict",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Gohan (Adult), Goku (Super Saiyan God), and customizable partners",
+      "ultimate_finish_required": null,
+      "ki_cost": 100,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Ki Blast shockwave Super with stagger/restand behavior.",
+      "id": "skill-ki-blast-cannon"
     },
     {
       "name": "Ki Blast Thrust",
@@ -10324,6 +10666,26 @@
       ]
     },
     {
+      "name": "Recoome Eraser Gun",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Recoome"
+      ],
+      "stamina_cost": null,
+      "unlock_method": null,
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Recoome",
+      "ultimate_finish_required": null,
+      "ki_cost": null,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Recoome Super Skill identity confirmed by current Xenoverse 2 evidence.",
+      "id": "skill-recoome-eraser-gun"
+    },
+    {
       "name": "Recoome Kick",
       "class": "Super",
       "subcategory": "Strike",
@@ -11393,6 +11755,26 @@
       ]
     },
     {
+      "name": "Sledgehammer",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sledgehammer"
+      ],
+      "stamina_cost": null,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Multiple cast characters / customizable partners",
+      "ultimate_finish_required": null,
+      "ki_cost": 100,
+      "damage_type": "Strike",
+      "mechanics_notes": "Chargeable close-range Strike Super with stronger charged knockdown.",
+      "id": "skill-sledgehammer"
+    },
+    {
       "name": "Sneaky Strike",
       "class": "Super",
       "subcategory": "Strike",
@@ -12107,6 +12489,26 @@
       "id": "skill-super-afterimage"
     },
     {
+      "name": "Super Back Jump",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Back_Jump"
+      ],
+      "stamina_cost": 200,
+      "unlock_method": "Skill Shop / starting move",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Long-range starter / customizable Future Warrior",
+      "ultimate_finish_required": false,
+      "ki_cost": 0,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Defensive backward evasive movement.",
+      "id": "skill-super-back-jump"
+    },
+    {
       "name": "Super Black Kamehameha Rosé",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -12199,6 +12601,26 @@
       "source_parallel_quests": [
         55
       ]
+    },
+    {
+      "name": "Super Dragon Fist",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AStrike_Supers"
+      ],
+      "stamina_cost": null,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Goku / Adult Gohan customizable partner",
+      "ultimate_finish_required": null,
+      "ki_cost": null,
+      "damage_type": "Strike",
+      "mechanics_notes": "Long-range rush Strike Super with a three-hit sequence.",
+      "id": "skill-super-dragon-fist"
     },
     {
       "name": "Super Dragon Flight",
@@ -12314,6 +12736,26 @@
         "mentor-future-gohan"
       ],
       "ki_cost": 200
+    },
+    {
+      "name": "Super Galick Gun",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Galick_Gun"
+      ],
+      "stamina_cost": null,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Vegeta",
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Long-range Galick Gun Ultimate.",
+      "id": "skill-super-galick-gun"
     },
     {
       "name": "Super Gamma Blast",
@@ -12590,6 +13032,26 @@
       "source_parallel_quests": [
         181
       ]
+    },
+    {
+      "name": "Super Ki Explosion",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Ultimates"
+      ],
+      "stamina_cost": null,
+      "unlock_method": null,
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": null,
+      "ultimate_finish_required": null,
+      "ki_cost": 300,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Ki Blast Ultimate identity established by the current Ki Blast Ultimate catalog.",
+      "id": "skill-super-ki-explosion"
     },
     {
       "name": "Super Saiyan",
@@ -13520,6 +13982,26 @@
       ]
     },
     {
+      "name": "Turn Retreat",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Turn_Retreat"
+      ],
+      "stamina_cost": 300,
+      "unlock_method": "Skill Shop",
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Customizable Future Warrior",
+      "ultimate_finish_required": null,
+      "ki_cost": 0,
+      "damage_type": "Strike",
+      "mechanics_notes": "Directional backward evasive that can strike and stun nearby opponents.",
+      "id": "skill-turn-retreat"
+    },
+    {
       "name": "Tyrant Lancer",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -13578,6 +14060,26 @@
         134
       ],
       "notes_add": "2026-09-22 provenance refresh: current dedicated skill documentation confirms the slow-to-fast charge behavior. Independent PQ134 evidence continues to support an Ultimate Finish route, while the maintained reward presentation remains conflicting; no unsupported probability or prerequisite was promoted."
+    },
+    {
+      "name": "Ultra Fighting Bomber",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Ultimates"
+      ],
+      "stamina_cost": null,
+      "unlock_method": null,
+      "last_verified": "2026-09-27",
+      "research_status": "catalog_gap_promoted",
+      "usable_by_cac": true,
+      "character_source": "Recoome",
+      "ultimate_finish_required": null,
+      "ki_cost": null,
+      "damage_type": "Ki Blast",
+      "mechanics_notes": "Ki Blast Ultimate identity established by the current Xenoverse 2 skill catalog.",
+      "id": "skill-ultra-fighting-bomber"
     },
     {
       "name": "Ultra Instinct",
@@ -14207,168 +14709,6 @@
       "source_parallel_quests": [
         85
       ]
-    },
-    {
-      "name": "Fighting Pose B",
-      "class": "Super",
-      "subcategory": "Power Up",
-      "verification_status": "verified_current_scope",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Fighting_Pose_B"
-      ],
-      "unlock_method": "Parallel Quest 16 — \"Defeat Frieza's Army!\" Basic Reward",
-      "research_status": "enriched",
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 16 — \"Defeat Frieza's Army!\"",
-      "mechanics_notes": "0-Ki Power Up Super from PQ16. The pose grants a temporary Strike-move damage increase for 20 seconds. Current skill-specific documentation confirms the Strike-only scope and duration; exact percentage, stacking behavior, reward probability, and frame timing remain unresolved.",
-      "last_verified": "2026-09-27",
-      "race_restriction": "All CaC races",
-      "source_quest": 16,
-      "dlc_requirement": "Base Game",
-      "acquisition_type": "parallel_quest",
-      "character_source": "Jeice; Captain Ginyu Customize Partner",
-      "duration_seconds": 20,
-      "ki_cost": 0,
-      "id": "skill-fighting-pose-b",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ16 acquisition endpoint, and 20-second Strike boost; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms 0 Ki Power Up classification, PQ16 endpoint, and 20-second Strike-move damage boost. Exact percentage, stacking, reward probability, hidden gates, and frame timing remain unresolved. 2026-09-27 Batch 501 current-evidence audit: refreshed current skill-specific evidence; canonical identity and existing provenance retained, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
-      "source_parallel_quests": [
-        16
-      ]
-    },
-    {
-      "name": "Fighting Pose D",
-      "class": "Super",
-      "subcategory": "Power Up",
-      "verification_status": "verified_current_scope",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Fighting_Pose_D"
-      ],
-      "unlock_method": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\" Basic Reward",
-      "research_status": "enriched",
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
-      "mechanics_notes": "0-Ki Power Up Super from Parallel Quest 15. The user performs Burter's pose and temporarily increases Boost Dash speed for 20 seconds. A legacy community guide reports a +20% Dash-speed figure, but the current dedicated skill reference confirms only the effect and duration; the exact current multiplier and frame timing remain unresolved.",
-      "last_verified": "2026-09-27",
-      "race_restriction": "All CaC races",
-      "source_quest": 15,
-      "dlc_requirement": "Base Game",
-      "acquisition_type": "parallel_quest",
-      "character_source": "Burter; Captain Ginyu Customize Partner",
-      "duration_seconds": 20,
-      "ki_cost": 0,
-      "id": "skill-fighting-pose-d",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, PQ15 acquisition endpoint, and 20-second Boost Dash-speed effect; unsupported frame data, reward probabilities, hidden gates, and unverified balance values remain unresolved.\n2026-09-26 Batch 420 current-evidence enrichment: dedicated Xenoverse 2 documentation was rechecked for mechanics, resource cost, classification, and acquisition context. Source-reported damage and timing values are retained as current-scope evidence; exact frame data, hidden interactions, and unsupported probabilities remain unresolved.\n2026-09-26 Batch 431 mechanics enrichment: current dedicated Xenoverse 2 evidence was rechecked for sequence, effect, cost, and acquisition context. Unsupported exact frames, hidden interactions, probabilities, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 501 current-evidence frontier: current Xenoverse 2-specific evidence was rechecked; bounded mechanics and provenance were preserved, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
-      "source_parallel_quests": [
-        15
-      ]
-    },
-    {
-      "name": "Fighting Pose G",
-      "class": "Super",
-      "subcategory": "Power Up",
-      "verification_status": "verified_current_scope",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Fighting_Pose_G",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ],
-      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
-      "research_status": "enriched",
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
-      "mechanics_notes": "0-Ki Power Up Super that increases Ki Blast skill damage. Current dedicated evidence reports about 8% increased output and a 20-second duration; exact race-dependent duration variants, stacking behavior, and frame data remain unresolved.",
-      "last_verified": "2026-09-27",
-      "race_restriction": "All CaC races",
-      "dlc_requirement": "Base Game",
-      "acquisition_type": "skill_shop",
-      "character_source": "Jeice",
-      "duration_seconds": 20,
-      "ki_cost": 0,
-      "id": "skill-fighting-pose-g",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence reconciled the earlier catalog record with the dedicated skill reference. The repository retains the explicit 0-Ki cost, Skill Shop endpoint, Ki Blast-damage effect, and source-bounded duration; unsupported balance details remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 498 current-evidence audit: current Xenoverse 2-specific documentation reconfirms 0 Ki Power Up classification, Skill Shop endpoint, Ki Blast-skill damage increase, approximately 8% source-reported increase, and 20-second duration. Race-dependent variants, stacking, and frame data remain unresolved.\n2026-09-27 Batch 501 current-evidence refresh: Batch 501 current-evidence refresh: current Xenoverse 2 skill documentation reconfirms the 0-Ki Power Up classification, Skill Shop acquisition, Ki Blast skill-damage effect, approximately 8% source-reported increase, and 20-second duration. Race-specific duration variants, stacking behavior, and frame data remain unresolved.",
-      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
-    },
-    {
-      "name": "Fighting Pose I",
-      "class": "Super",
-      "subcategory": "Power Up",
-      "verification_status": "verified_current_scope",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Fighting_Pose_I"
-      ],
-      "unlock_method": "Skill Shop after \"The Ginyu Force Strikes\"",
-      "research_status": "enriched",
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "source_quest_or_shop": "Skill Shop after The Ginyu Force Strikes",
-      "mechanics_notes": "0-Ki Power Up Super. After the pose animation, the user gains a Basic Movement Speed increase for 20 seconds; current skill-specific documentation identifies the effect as a movement-speed buff rather than a damage or defensive modifier. Exact speed multiplier and frame timing remain unresolved.",
-      "last_verified": "2026-09-27",
-      "race_restriction": "All CaC races",
-      "dlc_requirement": "Base Game",
-      "acquisition_type": "skill_shop",
-      "character_source": "Burter",
-      "duration_seconds": 20,
-      "ki_cost": 0,
-      "id": "skill-fighting-pose-i",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current skill-specific evidence confirmed the 0-Ki Power Up classification, Skill Shop endpoint, and 20-second Basic Movement Speed effect; unsupported movement multipliers, frame data, hidden gates, and reward probabilities remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved. 2026-09-27 Batch 501 current-evidence audit: refreshed current skill-specific evidence; canonical identity and existing provenance retained, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
-      "source_quest": "The Ginyu Force Strikes — Skill Shop unlock"
-    },
-    {
-      "name": "Fighting Pose J",
-      "class": "Super",
-      "subcategory": "Power Up",
-      "verification_status": "verified_current_scope",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Fighting_Pose_J",
-        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/faqs/74285?page=1"
-      ],
-      "unlock_method": "Parallel Quest 17 — \"Ginyu and the Fruit\" Basic Reward",
-      "research_status": "enriched",
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\"",
-      "mechanics_notes": "0-Ki Power Up Super associated with Recoome and PQ17. It temporarily increases Stamina recovery. Current evidence supports the PQ17 endpoint and core Power Up identity; exact multiplier, duration, frame data, reward probability, and hidden gates remain unresolved.",
-      "last_verified": "2026-09-27",
-      "race_restriction": "All CaC races",
-      "source_quest": 17,
-      "dlc_requirement": "Base Game",
-      "acquisition_type": "parallel_quest",
-      "character_source": "Recoome; Captain Ginyu Customize Partner",
-      "ki_cost": 0,
-      "id": "skill-fighting-pose-j",
-      "notes": "2026-09-25 Batch 396 mechanics enrichment: current evidence confirmed the 0-Ki Power Up classification and PQ17 acquisition endpoint. The core Stamina-recovery effect is retained from the established research record, while exact magnitude, duration, frame data, reward probabilities, and hidden gates remain unresolved.\n2026-09-26 Batch 459 current-evidence audit: dedicated current mechanics frontier review synchronized bounded evidence; unsupported frames, probabilities, hidden gates, and patch-independent scaling remain unresolved.\n2026-09-27 Batch 499 current-evidence refresh: dedicated current repository evidence rechecked; existing acquisition and mechanics semantics retained, with unsupported frames, hidden interactions, universal scaling, and reward probabilities left unresolved. 2026-09-27 Batch 501 current-evidence audit: refreshed current skill-specific evidence; canonical identity and existing provenance retained, with unsupported exact frames, hidden interactions, universal scaling, and reward probabilities left unresolved.",
-      "source_parallel_quests": [
-        17
-      ]
-    },
-    {
-      "name": "Dual Masenko",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Dual_Masenko",
-        "https://dragonball.fandom.com/wiki/Dual_Masenko",
-        "https://steamcommunity.com/app/454650/discussions/0/1368380934257020994/",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75501935"
-      ],
-      "ki_cost": 100,
-      "stamina_cost": 0,
-      "unlock_method": "TP Medal Shop purchase",
-      "source_quest_or_shop": "TP Medal Shop",
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "race_restriction": "All CaC races",
-      "dlc_requirement": null,
-      "acquisition_type": "tp_medal_shop",
-      "character_source": "Future Trunks",
-      "mechanics_notes": "100-Ki Ki Blast Super used by Future Trunks. The user spins in a semicircle while firing Ki Blasts from both hands; current skill documentation describes the move as a short-range attack effective against nearby opponents and pursuing targets. Exact damage scaling, frames, and hitbox timing remain unresolved.",
-      "last_verified": "2026-09-27",
-      "research_status": "enriched",
-      "notes": "2026-09-27 canonical restoration: current Xenoverse 2-specific evidence confirms TP Medal Shop acquisition, 100 Ki, Ki Blast Super classification, Future Trunks association, and the documented semicircular dual-blast behavior. Historical TP Medal Shop evidence records a 170 TP Medal price in the July 1 rotation. Batch 261's older training-only acquisition statement is superseded by direct TP Medal Shop evidence; no PQ acquisition is asserted.",
-      "id": "skill-dual-masenko"
     }
   ],
   "last_verified": "2026-09-27",
