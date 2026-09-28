@@ -24,7 +24,8 @@
     "version_notes",
     "verification_status",
     "last_verified",
-    "sources"
+    "sources",
+    "qq_bang_links"
   ],
   "records": [
     {
@@ -223,6 +224,13 @@
       "sources": [
         "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-005",
+          "input": "Android 18 Skirt",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -607,6 +615,23 @@
       "last_verified": "2026-09-16",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-recipe-001",
+          "input": "Battle Suit (Bardock)",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-009",
+          "input": "Battle Suit (Bardock)",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-recipe-004",
+          "input": "Battle Suit (Bardock)",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -1015,6 +1040,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-012",
+          "input": "Broly Clothes",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2293,6 +2325,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-recipe-003",
+          "input": "Goku Black clothing",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2317,6 +2356,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-recipe-003",
+          "input": "Super Saiyan 4 Goku clothing",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2461,6 +2507,73 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://steamcommunity.com/app/454650/discussions/0/217691032448171443/"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-recipe-001",
+          "input": "Beerus clothing",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-research-002",
+          "input": "Beerus clothing",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-007",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-008",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-009",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-010",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-011",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-012",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-013",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-prima-014",
+          "input": "Beerus Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-steam-001",
+          "input": "Beerus clothing",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-recipe-005",
+          "input": "Beerus clothing",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-012",
+          "input": "Beerus Top",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2485,6 +2598,23 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-014",
+          "input": "Pikkon's clothing",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-015",
+          "input": "Pikkon's clothing",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-016",
+          "input": "Pikkon's clothing",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2509,6 +2639,23 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-005",
+          "input": "Towa Clothes",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-014",
+          "input": "Towa's clothing",
+          "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-015",
+          "input": "Towa's clothing",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2533,6 +2680,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-016",
+          "input": "Future Trunks clothing",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2557,6 +2711,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-010",
+          "input": "Light Hearts Suit",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2581,6 +2742,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-006",
+          "input": "Android 16 Top",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2605,6 +2773,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-006",
+          "input": "Great Saiyaman Legs",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2629,6 +2804,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-prima-011",
+          "input": "4-Star Dragon Ball Costume",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     },
     {
@@ -2653,6 +2835,13 @@
       "last_verified": "2026-09-27",
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-observed-013",
+          "input": "Goku's End of Z Gi",
+          "relationship": "QQ Bang clothing input"
+        }
       ]
     }
   ],
