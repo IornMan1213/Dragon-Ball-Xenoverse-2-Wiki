@@ -1,0 +1,32 @@
+{
+  "batch": 535,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Remaining genuinely stale PQ99-PQ100 skill records after exclusion of skills already refreshed by later dedicated audits.",
+  "selected": [
+    {
+      "skill_name":"Emperor's Edge",
+      "current_evidence":{"class":"Super","subcategory":"Ki Blast","ki_cost":100,"usable_by_cac":true,"character_source":"Frieza","acquisition":"Parallel Quest 99 — Frieza Race Revivified"},
+      "mechanics_boundary":"Frieza-style forward Ki Blast attack is supported. Exact hit count, timing, scaling, and acquisition-slot semantics are not promoted."
+    },
+    {
+      "skill_name":"X100 Big Bang Kamehameha",
+      "current_evidence":{"class":"Ultimate","subcategory":"Ki Blast","ki_cost":500,"usable_by_cac":true,"character_source":"Gogeta (Super Saiyan 4); Gogeta (Super Saiyan Blue)","acquisition":"Parallel Quest 100 — The Ultimate Rivalry"},
+      "mechanics_boundary":"Large combined Big Bang Attack/Kamehameha beam is supported. Exact charge/timing/scaling and reward-slot semantics are not promoted; TP Medal Shop association remains provenance rather than a replacement for the PQ route."
+    }
+  ],
+  "selection_boundary":{
+    "excluded_as_already_refreshed":[
+      "Absolute Zero",
+      "Charged Ki Wave",
+      "Phantom Fist",
+      "Dimension Ray"
+    ],
+    "reason":"These records have later dedicated current-evidence audits or research batches in the repository and were not redundantly refreshed."
+  },
+  "validation":{"canonical_skill_identity_count":493,"canonical_identity_changes":0,"unsupported_pq_relationships_added":0,"speculative_frames_added":0,"speculative_patch_independent_scaling_added":0,"speculative_probabilities_added":0},
+  "source_provenance":{
+    "emperor_s_edge":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "x100_big_bang_kamehameha":["https://steamcommunity.com/sharedfiles/filedetails/?id=796204215","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+  }
+}
