@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-28",
-  "latest_research_batch": 547,
+  "latest_research_batch": 548,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Acquisition fields and current PQ↔skill bidirectional parity are complete for the current canonical scope. Restriction-gap review is now active: batch 547 audited six null race_restriction records and preserved nulls because current evidence does not establish race-specific CaC restrictions. Next prioritize remaining restriction gaps and version/patch provenance without inference.",
+  "current_research_focus": "Post-corruption canonical database integrity is reconciled at 497 skills and 862 PQ relationship edges. Acquisition fields are complete and PQ↔skill parity is complete for current canonical scope. Restriction-gap review remains evidence-bound with 27 null race_restriction records; version/patch provenance is the next substantive field-level layer.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -251,5 +251,21 @@
     "audited_in_batch_548": 6,
     "remaining_after_batch_548": 27,
     "note": "Six additional null race_restriction records were directly reviewed; no narrower race/gender/form restriction was established, so null remains authoritative."
+  },
+  "post_recovery_database_audit_2026_09_28": {
+    "canonical_skills": 497,
+    "skills_index": 497,
+    "skill_identity_mismatches": 0,
+    "relationship_edges": 862,
+    "relationship_duplicates": 0,
+    "orphan_skill_reward_targets": 0,
+    "acquisition_gaps": 0,
+    "mechanics_notes_gaps": 0,
+    "race_restriction_gaps": 27,
+    "pq_range": "PQ1-PQ186",
+    "pq_without_typed_skill_super_soul_equipment_relationship": [
+      "PQ1"
+    ],
+    "audit_file": "docs/data/post-corruption-database-recovery-audit-2026-09-28.json"
   }
 }
