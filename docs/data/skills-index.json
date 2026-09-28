@@ -2785,6 +2785,31 @@
       ]
     },
     {
+      "id": "skill-divine-retribution",
+      "name": "Divine Retribution",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Divine_Retribution",
+        "https://dragonball.fandom.com/wiki/Divine_Retribution",
+        "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-content-update-now-live"
+      ],
+      "unlock_method": "TP Medal Shop limited-time rotation",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-28",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Strike Super classification, 100–200 Ki cost, and the branching teleport/blade behavior. Bandai Namco's 2017 content-update schedule independently documents Divine Retribution in the TP Medal Shop. No PQ acquisition or drop probability is inferred.",
+      "mechanics_notes": "Current Xenoverse 2-specific documentation classifies Divine Retribution as a Strike Super using 100–200 Ki. The first input fires a Ki Blast; an additional input before release teleports the user above the target for a downward slice, and further Ki can extend the sequence. Current documentation describes a 1–4-hit branching move. Exact frame data and universal damage scaling remain unresolved.",
+      "source_quest_or_shop": "TP Medal Shop",
+      "character_source": "Goku Black (Super Saiyan Rosé)",
+      "ki_cost": "100–200",
+      "damage_type": "Strike",
+      "skill_description": "A branching Strike Super that opens with a Ki Blast and can teleport above the target for a downward Ki-blade strike or spend additional Ki for a further attack."
+    },
+    {
       "id": "skill-divine-spear",
       "name": "Divine Spear",
       "class": "Super",
@@ -4634,6 +4659,31 @@
       "source_parallel_quests": [
         174
       ]
+    },
+    {
+      "id": "skill-final-shine-attack",
+      "name": "Final Shine Attack",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Shine_Attack",
+        "https://dragonball.fandom.com/wiki/Final_Shine_Attack",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74469258"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-28",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 documentation confirmed TP Medal Shop acquisition, 300+ Ki cost, 9–45 hit beam behavior, and Super Saiyan 4 Vegeta source identity. Historical TP Medal Shop records corroborate the skill's availability; no unsupported drop or rotation guarantee is inferred.",
+      "mechanics_notes": "Current Xenoverse 2 documentation classifies Final Shine Attack as a 300+ Ki Blast Ultimate. The beam starts at 9 hits and can be extended to 45 hits by repeated input, with current documentation reporting substantially greater total damage at maximum output. Exact current frame data and universal damage scaling are not asserted.",
+      "source_quest_or_shop": "TP Medal Shop",
+      "character_source": "Vegeta (Super Saiyan 4)",
+      "ki_cost": "300+",
+      "damage_type": "Ki Blast",
+      "skill_description": "A long-range extendable Ki Blast Ultimate that continues firing while additional Ki is spent."
     },
     {
       "id": "skill-finish-breaker",
@@ -9163,6 +9213,31 @@
       "ki_cost": 100
     },
     {
+      "id": "skill-savage-strike",
+      "name": "Savage Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Savage_Strike",
+        "https://dragonball.fandom.com/wiki/Savage_Strike",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/517228"
+      ],
+      "unlock_method": "TP Medal Shop limited-time rotation",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-28",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after current Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Super Pack 4 provenance, 100-Ki Strike classification, grab properties, and the alternate teleport route. Source-reported damage measurements are not promoted as universal values.",
+      "mechanics_notes": "Current Xenoverse 2 documentation classifies Savage Strike as a 100-Ki Strike Super. The standard route lunges forward into a grab-property punch; an additional input before the move begins teleports the user above the opponent for a downward strike. Current documentation also describes hard knockdown behavior. Exact frame data and universal damage scaling remain unresolved.",
+      "source_quest_or_shop": "TP Medal Shop",
+      "character_source": "SSGSS Vegito",
+      "ki_cost": 100,
+      "damage_type": "Strike",
+      "skill_description": "A long-distance Strike Super with grab properties and an alternate teleport-above route."
+    },
+    {
       "id": "skill-savory-slicer",
       "name": "Savory Slicer",
       "class": "Super",
@@ -10923,6 +10998,31 @@
       "notes": "2026-09-20 acquisition-status refinement: current Ultra Instinct documentation confirms Surging Spirit is a built-in CaC action while Ultra Instinct is active, rather than a separately acquired/equipped skill. It should not be treated as a standalone character-exclusive acquisition route. 2026-09-21 DLC provenance audit: composite requirement intentionally preserved because Surging Spirit is documented in both Extra Pack 2 (Ultra Instinct Goku) and Conton City Vote Pack (Ultra Instinct -Sign- Goku); collapsing to either single pack would lose meaningful character/DLC context. 2026-09-23 provenance refresh: synchronized with the canonical record after rechecking the maintained exact-name/research evidence; existing acquisition, mechanics, roster/DLC, reward-tier, and conflict semantics are preserved. 2026-09-26 Batch 470 current-evidence audit: The built-in Ultra Instinct scope and approximately five-second refill are source-reported; exact rate, frames, and patch-independent timing remain unresolved.",
       "mechanics_notes": "Built-in Ultra Instinct Ki-charge action rather than a separately acquired equipable skill. Goku (Ultra Instinct) and Goku (Ultra Instinct -Sign-) use it; CaCs can access it only while Ultra Instinct is active through the dedicated guard+heavy input. Current evidence describes roughly five seconds to refill the Ki bars and identifies it as slightly faster than Maximum Charge.",
       "source_quest_or_shop": "Character-exclusive"
+    },
+    {
+      "id": "skill-sword-of-hope",
+      "name": "Sword of Hope",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "acquisition_type": "tp_medal_shop",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sword_of_Hope",
+        "https://dragonball.fandom.com/wiki/Sword_of_Hope",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/473547"
+      ],
+      "unlock_method": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "last_verified": "2026-09-28",
+      "race_restriction": "All CaC races",
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Future Trunks source identity, 300+ Ki cost, multi-stage sword stance, and continuous Ki drain. No reward probability or fixed rotation guarantee is inferred.",
+      "mechanics_notes": "Current Xenoverse 2 documentation classifies Sword of Hope as a 300+ Ki Strike Ultimate. The stance provides separate weak melee, strong melee, Ki-blast, and finisher inputs; the move ends when Ki is exhausted, the finisher is used, or the stance is canceled. Current documentation also notes that grabs can interrupt the move. Exact current Ki-drain rate and frame data remain unresolved.",
+      "source_quest_or_shop": "TP Medal Shop",
+      "character_source": "Future Trunks",
+      "ki_cost": "300+",
+      "damage_type": "Strike",
+      "skill_description": "A Strike Ultimate that creates a large Ki sword and temporarily replaces the user's moveset with multiple sword attacks while draining Ki."
     },
     {
       "id": "skill-symphonic-destruction",
