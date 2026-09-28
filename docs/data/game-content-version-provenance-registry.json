@@ -128,6 +128,14 @@
       "date": "2025-05-21",
       "url": "https://dbxv2.fandom.com/wiki/Free_Update",
       "scope": "Community reference identifies Free Update 20 as the May 21 2025 update associated with the DAIMA Pack and records its broader update contents; individual skill names must still be independently matched to canonical records before assignment."
+    },
+    {
+      "id": "official_free_update_20_jp",
+      "publisher": "Bandai Namco Entertainment Japan",
+      "title": "Dragon Ball Xenoverse 2 DAIMA Pack / Free Update 20 release announcement",
+      "date": "2025-05-23",
+      "url": "https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
+      "scope": "Official release announcement explicitly separates DAIMA Pack content from Free Update 20 and lists four Festival skills (武道祭スキル×4種) in the free update."
     }
   ],
   "events": [
@@ -208,7 +216,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Reconcile Free Update 20 skill names against canonical records using direct catalog evidence; do not infer from dates or neighboring DAIMA Pack PQs. If unresolved, proceed to Future Saga Chapter 4 named-move evidence.",
+  "next_step": "Research the 4th Festival of Universes reward schedule to identify the four Free Update 20 Festival skills by name, then reconcile each name to canonical skill IDs; separately continue Chapter 4 named-move evidence.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -544,6 +552,16 @@
         "official_daima_pack_2025"
       ],
       "resolution": "Preserve the free-update event as provenance context only; do not assign individual skill IDs until direct evidence names them."
+    },
+    {
+      "id": "free-update-20-festival-skills-canonical-gap",
+      "status": "open",
+      "claim": "Official Free Update 20 announcement establishes four Festival skills, while the current canonical skills store exposes only one record explicitly labeled Festival of Universes (Galaxy Breaker (Festival)).",
+      "source_ids": [
+        "official_free_update_20_jp",
+        "official_daima_pack_2025"
+      ],
+      "resolution": "Treat the four-skill event scope as authoritative provenance, but do not manufacture three missing canonical skill IDs. Research the fourth Festival event reward schedule and canonical catalog to identify all four named skills."
     }
   ]
 }
