@@ -6183,3 +6183,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the canonical-ID boundary: no identifier was inferred from character order, preset order, filenames, or skill names.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** move to the next evidence-backed canonical enrichment frontier; revisit Festival ID recovery only if an exact historical/structured identifier source appears.
+
+
+### 2026-09-28 continuation — Official 3rd Festival named-skill reconciliation batch 580
+- [x] Expanded Festival provenance beyond the 4th Festival by reconciling the official 3rd Festival weekly reward announcements.
+- [x] Officially named **Charge (Festival)** (Goten), **Galick Rush (Festival)** (Cabba), **Hellzone Grenade (Festival)** (Piccolo), and **Sonic Bomb (Festival)** (Frieza 1st Form).
+- [x] Confirmed **Galaxy Breaker (Festival)** is already represented canonically and therefore did not create a duplicate recovery record.
+- [x] Added `docs/data/skill-research-batches/skill-batch-580.json`.
+- [x] Did not infer canonical IDs for the four newly identified variants from their base skill names, character identity, reward order, or preset positions.
+- [x] Official sources explicitly name the four skills; repository search did not expose exact internal IDs, so they remain recovery candidates rather than canonical mutations.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** search historical recovery layers/structured data for exact IDs for these four Festival variants; if unavailable, retain the official evidence layer and continue the next canonical enrichment frontier.
