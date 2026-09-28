@@ -4328,3 +4328,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Expand QQ Bang record layer with a distinct observed 6-star Beerus Top + Beerus Top + Super Mix Capsule Z vector (+3/+5/+5/-2/0/+5); preserve RNG uncertainty.
 - [ ] 2026-09-27: Continue QQ Bang observed-vector/provenance expansion with non-duplicate outputs.
+
+
+- [x] 2026-09-27: Expand QQ Bang structured research from 15 to 18 records with three additional 6-star recipe-family records; preserve RNG uncertainty and provenance.
+- [ ] 2026-09-27: Continue QQ Bang expansion with observed six-stat outputs, material provenance, and version-aware Super Mix Capsule/Z acquisition evidence.
