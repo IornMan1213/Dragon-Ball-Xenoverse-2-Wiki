@@ -5854,3 +5854,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Upgraded those three registry mappings from generic event-scope evidence to direct community PQ-reward evidence.
 - [x] Kept **The Power to Overcome** separately tied to the story/canonical record rather than incorrectly treating it as a PQ reward.
 - [ ] **Next:** resolve the separately announced Free Update 20 skill set with direct patch/catalog evidence; official Bandai Namco confirms Skills were included but does not name them. citeturn0search1
+
+
+### 2026-09-28 continuation — Free Update 20 Festival named-skill recovery layer
+- [x] Reconciled the four Free Update 20 / 4th Festival skill identities: **God Bind (Festival), Egret Waltz (Festival), Gamma Force: Code-R (Festival), and Gamma Force: Code-B**.
+- [x] Added `docs/data/festival-named-skill-recovery-layer-2026-09-28.json` as a dedicated **non-canonical recovery layer** preserving the recovered names, source characters, Festival camaraderie routes, and only directly supported mechanics/cost fields.
+- [x] Added `docs/data/festival-named-skill-recovery-audit-2026-09-28.json` documenting the evidence and canonical-promotion boundary.
+- [x] Preserved the source-of-truth rule: `docs/data/skills.json` remains authoritative; no canonical skill ID was invented and the 497-record canonical corpus was not changed.
+- [x] Strengthened the recovery evidence with official Free Update 20/4th Festival scope plus independent named-skill/preset evidence.
+- [ ] Canonical IDs/full records for these four identities remain unresolved and require surviving datamined/catalog identifiers or a historical canonical blob before promotion.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue substantive post-recovery enrichment by resolving remaining canonical restriction/version provenance gaps and cross-domain relationships; revisit the four Festival identities only when direct canonical identifiers become available.
