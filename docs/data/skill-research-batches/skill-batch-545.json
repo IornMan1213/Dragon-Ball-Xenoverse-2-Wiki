@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 545,
+  "date": "2026-09-28",
+  "status": "complete",
+  "scope": "Evidence-bound mechanics/resource audit for the final two canonical skill records with null Ki-cost fields",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "skill_id": "skill-holstein-shock",
+      "name": "Holstein Shock",
+      "ki_cost": null,
+      "mechanics_notes": "Self-damaging Super Skill used to reduce the user's health; current direct documentation establishes PQ15 acquisition. Secondary uses include deliberately reaching low health for Body Change setups or low-health effects. Numeric Ki activation cost is left null because current direct evidence reviewed here does not establish a reliable numeric Ki cost.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Holstein_Shock",
+        "https://dragonball.fandom.com/wiki/Self-Harm"
+      ]
+    },
+    {
+      "skill_id": "skill-hyper-movement",
+      "name": "Hyper Movement",
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "mechanics_notes": "Evasive Skill that teleports to an opponent and attacks from the opposite side/behind depending on relative facing; it can also be used after knocking an opponent away. Current evidence establishes a 200 Stamina cost and TP Medal Shop acquisition. Ki cost is not applicable as the activation resource for this evasive and is therefore not converted from the Stamina cost.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://dragonball.fandom.com/wiki/Hyper_Movement"
+      ]
+    }
+  ],
+  "validation": {
+    "canonical_records": 497,
+    "remaining_null_ki_cost": 2,
+    "policy": "Preserve null where a numeric Ki activation cost is not established; do not infer Ki costs from Stamina costs or class conventions."
+  }
+}
