@@ -517,5 +517,16 @@
       "confidence": "direct_scope",
       "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
     }
+  ],
+  "research_gaps": [
+    {
+      "id": "daima-free-update-skill-scope-2025-05-21",
+      "status": "open",
+      "claim": "Official Bandai Namco release notice confirms a free update shipped alongside the DAIMA Pack and included Skills, but the canonical skills database currently contains no skill record explicitly labeled with that free update or otherwise explicitly tied to the May 2025 free-update skill subset.",
+      "source_ids": [
+        "official_daima_pack_2025"
+      ],
+      "action": "Do not assign unidentified canonical skills to the free update by name, date, or proximity. Resolve only with direct skill-level evidence from authoritative/independent catalog sources."
+    }
   ]
 }
