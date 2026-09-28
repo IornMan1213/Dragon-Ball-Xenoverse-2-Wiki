@@ -4984,11 +4984,11 @@
       "unlock_method": "Starting move for all types",
       "ultimate_finish_required": false,
       "last_verified": "2026-09-28",
-      "mechanics_notes": "Large volley of Ki blasts that rains down in front of the user.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate and default starting Ultimate for the Future Warrior. Multi-projectile barrage; current evidence documents tracking/homing after knockback or as a combo finisher. Exact patch-independent hit count, damage, timing, and spread remain version-sensitive.",
       "ki_cost": 300,
-      "stamina_cost": 0,
+      "stamina_cost": null,
       "usable_by_cac": true,
-      "character_source": "Broad roster; Future Warrior default Ultimate"
+      "character_source": null
     },
     {
       "id": "skill-full-power-energy-wave",
