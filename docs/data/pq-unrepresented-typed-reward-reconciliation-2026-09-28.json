@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "audit_type": "unrepresented_pq_typed_reward_reconciliation",
+  "scope_pqs": [
+    1,
+    30,
+    35,
+    47,
+    48,
+    93,
+    102,
+    103,
+    107,
+    108,
+    118,
+    121,
+    144,
+    157,
+    169,
+    170
+  ],
+  "method": "Compared explicit pq_rewards_skill/super_soul/equipment relationships in the canonical forward relationship layer against the source-normalized unified reverse index, including accessories under the canonical equipment relationship.",
+  "results": {
+    "canonical_reward_edges": 32,
+    "normalized_reward_edges": 33,
+    "map_only": [
+      "PQ48 → Kamehameha (skill)"
+    ],
+    "canonical_only": [],
+    "reconciled_pqs_without_typed_reward_edges": [
+      1,
+      47
+    ],
+    "note": "PQ1 and PQ47 have no explicit typed reward relationship in the canonical layer; the current normalized reverse index likewise provides no skill/Super Soul/equipment reward for those PQs. Their documented capsule/artwork/non-typed reward evidence is not converted into unsupported relationship types."
+  },
+  "interpretation": "The remaining 16-PQ skill-endpoint gap is not accompanied by a demonstrated missing Super Soul/equipment/accessory relationship in the current normalized evidence. The sole normalized-vs-forward discrepancy is the existing PQ48 Kamehameha/Kamekameha conflict.",
+  "actions_taken": [
+    "No new canonical typed reward relationship was promoted because 32 of 33 normalized reward edges already exist in the canonical layer and the remaining edge is the known PQ48 skill conflict.",
+    "Preserved the canonical Kamehameha source endpoint at PQ5 rather than assigning PQ48 without direct item-level resolution."
+  ],
+  "status": "reconciled_with_one_known_skill_conflict",
+  "next": "Continue evidence work on the PQ48 Kamekameha label and independently audit other cross-domain gaps outside this 16-PQ subset."
+}
