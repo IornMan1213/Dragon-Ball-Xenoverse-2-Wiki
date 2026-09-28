@@ -1,0 +1,66 @@
+{
+  "schema_version":"1.0.0",
+  "batch_id":554,
+  "date":"2026-09-28",
+  "status":"complete",
+  "type":"direct_skill_event_mapping_audit",
+  "scope":"Audit all 28 existing direct skill-to-release-event mappings against the authoritative release registry.",
+  "canonical_source":"docs/data/skills.json",
+  "registry":"docs/data/game-content-version-provenance-registry.json",
+  "counts":{
+    "total_mappings_reviewed":28,
+    "future_saga_chapter_1":4,
+    "future_saga_chapter_2":7,
+    "future_saga_chapter_3":6,
+    "future_saga_chapter_4":4,
+    "free_update_2023_beast":1,
+    "dragon_ball_daima_pack":6
+  },
+  "findings":[
+    {
+      "event":"future-saga-chapter-1",
+      "mapping_count":4,
+      "result":"directly supported",
+      "note":"Crimson Edge, Divine Spear, Big Bang Knuckle, and Wild Stinger are explicitly named by the Dragon Ball Official Site as Chapter 1 character special moves."
+    },
+    {
+      "event":"future-saga-chapter-2",
+      "mapping_count":7,
+      "result":"corroborated",
+      "note":"The registry pairs official Chapter 2 material with the maintained independent catalog for the seven named skills. The official material establishes the DLC and avatar-equippable skills, while the independent catalog supplies the individual names."
+    },
+    {
+      "event":"future-saga-chapter-3",
+      "mapping_count":6,
+      "result":"catalog-supported",
+      "note":"The registry currently relies on the maintained independent catalog for the six individual Chapter 3 skill identities; the official registry establishes the Chapter 3 event itself. No unsupported IDs or event assignments were found."
+    },
+    {
+      "event":"future-saga-chapter-4",
+      "mapping_count":4,
+      "result":"independently corroborated",
+      "note":"The four canonical skills are associated with Chapter 4 by the current registry's independent acquisition/skill guide evidence and PQ185/PQ186 reward evidence. Official Chapter 4 material establishes the DLC and its new moves, but does not yet expose all four names in the cited official source."
+    },
+    {
+      "event":"free-update-2023-03-22",
+      "mapping_count":1,
+      "result":"directly supported",
+      "note":"Beast is explicitly identified as the Awoken Skill added in Free Update #16."
+    },
+    {
+      "event":"dragon-ball-daima-pack",
+      "mapping_count":6,
+      "result":"directly/cross-source supported",
+      "note":"The six named DAIMA Pack skills remain separated from the accompanying Free Update 20 skills. Official release evidence establishes the paid pack; named skill mapping is retained only where the repository already has direct skill-event evidence."
+    }
+  ],
+  "integrity":{
+    "orphan_skill_event_mappings":0,
+    "unsupported_ids_invented":0,
+    "event_reclassification_required":false,
+    "canonical_skills_changed":false,
+    "release_registry_schema_changed":false
+  },
+  "important_boundary":"The audit validates provenance classification; it does not convert research dates into game versions and does not infer balance-patch history.",
+  "next":"Strengthen the six Chapter 3 and four Chapter 4 individual skill mappings with primary-source named-move evidence where available, without weakening or replacing existing corroborated evidence."
+}
