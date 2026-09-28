@@ -69,7 +69,8 @@
     "Promoted PQ 41/equip-060 and PQ 59/equip-061 from the maintained PQ batch into the canonical layer, preserving source-backed acquisition semantics.",
     "Audited PQ 61-186 batch equipment reward arrays against canonical equipment. No new exact canonical equipment promotions were found; Yamcha's Sword at PQ36 remains intentionally blocked because maintained accessory provenance records a PQ29-vs-PQ36 historical conflict.",
     "Enriched canonical PQ36 (The Cell Games Begin) from the maintained batch, including Yamcha's Sword as a raw equipment reward. Did not create a canonical equipment link because the maintained accessory research still records a PQ29-vs-PQ36 historical conflict.",
-    "Restored 17 missing PQ21-40 canonical records from the maintained batch and created 7 exact-name bidirectional equipment links."
+    "Restored 17 missing PQ21-40 canonical records from the maintained batch and created 7 exact-name bidirectional equipment links.",
+    "Restored 18 missing PQ41-60 canonical records and 0 exact-name bidirectional equipment links."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -80,7 +81,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Restored the missing PQ21-40 canonical records from the maintained batch (excluding already-canonical PQ29 and PQ36). Added only exact-name equipment cross-links where canonical equipment identities exist; unresolved accessory identity conflicts remain untouched."
+    "note": "Restored missing PQ41-60 canonical records from the maintained batch and added exact-name equipment links where canonical equipment identities exist."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
