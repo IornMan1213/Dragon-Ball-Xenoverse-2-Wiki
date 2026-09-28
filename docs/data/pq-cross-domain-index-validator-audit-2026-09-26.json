@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "audit_date": "2026-09-26",
+  "audit_date": "2026-09-28",
   "scope": "Canonical PQ cross-domain index schema and reverse-index declaration contract",
   "source_index": "docs/data/pq-cross-domain-index.json",
   "validator": "scripts/validate_pq_cross_domain_index.py",
@@ -50,10 +50,10 @@
     "completion_rule_is_non_empty_string": true
   },
   "status": "schema_contract_pass_forward_source_recovered",
-  "interpretation": "The declared forward source docs/data/pq-reward-relationships.json is present on current main and is independently visible through GitHub's code-search index. The recovered forward layer carries the established 840-edge baseline (236 skills, 137 Super Souls, 125 equipment, 247 character, 88 DLC, 7 farming). The direct file-content connector is unable to return this large blob, so structural live-main confirmation is recorded through indexed evidence rather than treating the connector limitation as file absence.",
+  "interpretation": "The declared forward source docs/data/pq-reward-relationships.json is present on current main. The active validator checks schema/path/declaration integrity without freezing the relationship corpus to the historical 840-edge baseline. Current relationship counts are maintained by the canonical forward dataset and its current_counts field; historical 840-edge snapshots remain provenance only.",
   "validator_hardening_2026_09_26": {
     "change": "Hardened the live validator to require exactly seven reverse-index declarations, unique report paths, and an exact farming source equal to forward_index.",
-    "result": "The expanded declaration checks pass, while the live forward-index existence check remains failed because docs/data/pq-reward-relationships.json is absent. No relationship endpoint or provenance reference was changed.",
+    "result": "The expanded declaration checks pass. Historical forward-index reachability was recovered on 2026-09-27; no relationship endpoint or provenance reference was changed by the schema hardening.",
     "validator_commit": "2d6261e1eaf08b42d0aca258a0f6fbcb131983ca",
     "evidence_boundary": "Schema/declaration integrity and direct forward-index reachability only; the missing general PQ reward layer is not reconstructed from partial skill/reverse data."
   },
@@ -67,15 +67,10 @@
   "recovery_2026_09_27": {
     "change": "Confirmed the forward reward source exists on current main; no duplicate file or inferred replacement was created.",
     "source_commit": "02b6306341c2d3a6cf6f6213a25386949d07a7ce",
-    "current_main_head": "01f78acd34c55d6250fd3bd638727862044c5a1a",
+    "current_main_head": "current main after subsequent validator/audit hardening",
     "counts": {
-      "skill": 236,
-      "super_soul": 137,
-      "equipment": 125,
-      "character": 247,
-      "dlc": 88,
-      "farming": 7
+      "status": "historical 840-edge snapshot; not a current baseline"
     },
-    "total_edges": 840
+    "total_edges": "historical 840-edge snapshot; current total must be read from pq-reward-relationships.json"
   }
 }
