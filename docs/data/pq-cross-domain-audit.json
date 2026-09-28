@@ -184,18 +184,18 @@
   },
   "live_2026_09_28_refresh": {
     "status": "current_live_counts_synchronized_after_direct_relationship_recount",
-    "total_edges": 852,
+    "total_edges": 853,
     "counts": {
       "skill": 249,
       "super_soul": 135,
-      "equipment": 126,
+      "equipment": 127,
       "character": 247,
       "dlc": 88,
       "farming": 7
     },
     "historical_baseline_preserved": 840,
     "superseded_refresh_preserved": 851,
-    "note": "Direct recount of canonical relationship records corrected the stale 851 total by one skill edge. The earlier 852/127 projection remains historical provenance only; equipment is 126."
+    "note": "Direct recount of canonical relationship records corrected the stale 851 total by one skill edge. The earlier 852/127 projection remains historical provenance only; equipment is 127."
   },
   "schema_documentation_consumer_review": {
     "date": "2026-09-19",
