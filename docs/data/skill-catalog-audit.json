@@ -245,8 +245,11 @@
   "restriction_gap_census_2026_09_28": {
     "records": 27,
     "rule": "Null race_restriction is an enrichment gap, not a restriction claim; usable_by_cac is not converted into a race restriction without direct evidence.",
-    "latest_batch": 547,
+    "latest_batch": 548,
     "audited_in_batch_547": 6,
-    "remaining_after_batch_547": 27
+    "remaining_after_batch_547": 27,
+    "audited_in_batch_548": 6,
+    "remaining_after_batch_548": 27,
+    "note": "Six additional null race_restriction records were directly reviewed; no narrower race/gender/form restriction was established, so null remains authoritative."
   }
 }
