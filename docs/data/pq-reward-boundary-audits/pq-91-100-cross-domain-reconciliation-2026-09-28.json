@@ -1,0 +1,29 @@
+{
+  "batch_id": 565,
+  "date": "2026-09-28",
+  "type": "pq-91-100-cross-domain-reconciliation",
+  "scope": "PQ91-PQ100",
+  "status": "reconciled_with_canonical-coverage-gap",
+  "findings": {
+    "records_audited": 10,
+    "maintained_research_mismatches": 0,
+    "canonical_skill_relationships_present": 1,
+    "canonical_skill_relationships_absent_for_researched_rewards": 9,
+    "canonical_gap_detail": "PQ91 Final Kamehameha; PQ92 Maiden Burst; PQ94 Bluff Kamehameha; PQ95 Flash Bomber and Drain Field; PQ96 Absolute Zero; PQ97 Charged Ki Wave and Phantom Fist; PQ98 Dimension Ray; PQ99 Emperor's Edge are present in dedicated research and maintained PQ records but have no corresponding pq_rewards_skill entry in the current canonical relationship store.",
+    "repairs": [],
+    "boundary_notes": [
+      "No canonical relationship entries were added: the repository's canonical source-of-truth rule forbids promoting research/maintained data solely to fill a canonical-store gap.",
+      "PQ93 has no documented skill reward in the dedicated research layer.",
+      "PQ100 X 100 Big Bang Kamehameha has the canonical skill relationship; its maintained skill projection already matches. PQ100 SSGSS Vegeta Wig is represented through the accessory cross-link acc-068, while Whis Symbol Battle Suit is equip-088; both are already represented in the maintained record."
+    ]
+  },
+  "canonical_data_changed": false,
+  "unsupported_relationships_invented": false,
+  "evidence": [
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/parallel-quest-research-batches/pq-batch-10.json",
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/accessory-pq-canonical-bridge.json"
+  ],
+  "next": "Recover canonical relationship coverage for PQ91-PQ99 only when independently source-backed canonical evidence is available; otherwise continue the PQ101-PQ110 recovery-forward reconciliation."
+}
