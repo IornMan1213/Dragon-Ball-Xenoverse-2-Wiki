@@ -145,6 +145,236 @@
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
         "https://steamcommunity.com/app/454650/discussions/0/3076495389984558741/"
       ]
+    },
+    {
+      "id": "qq-observed-prima-005",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Android 18 Skirt + Towa Clothes + Hercule Badge (Legendary) — output -5/5/4/0/-4/5",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 4,
+      "basic_attack": 0,
+      "strike_supers": -4,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Android 18 Skirt + Towa Clothes",
+      "mixing_item": "Hercule Badge (Legendary)",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-006",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Android 16 Top + Great Saiyaman Legs + Senzu Bean Sprout — output -5/0/5/4/4/-2",
+      "stars": 5,
+      "health": -5,
+      "ki": 0,
+      "stamina": 5,
+      "basic_attack": 4,
+      "strike_supers": 4,
+      "ki_blast_supers": -2,
+      "clothing_inputs": "Android 16 Top + Great Saiyaman Legs",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-007",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes + Beerus Clothes + Senzu Bean Sprout — output -2/5/5/-5/-2/5",
+      "stars": 5,
+      "health": -2,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -5,
+      "strike_supers": -2,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Clothes + Beerus Clothes",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-008",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes + Beerus Clothes + Senzu Bean Sprout — output -5/5/5/-5/-5/5",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -5,
+      "strike_supers": -5,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Clothes + Beerus Clothes",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-009",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes + Battle Suit (Bardock) + Senzu Bean Sprout — output 5/-5/-5/2/4/5",
+      "stars": 5,
+      "health": 5,
+      "ki": -5,
+      "stamina": -5,
+      "basic_attack": 2,
+      "strike_supers": 4,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Clothes + Battle Suit (Bardock)",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-010",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes + Light Hearts Suit + Ultimate Mix Capsule — output -5/5/5/-5/-5/5",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -5,
+      "strike_supers": -5,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Clothes + Light Hearts Suit",
+      "mixing_item": "Ultimate Mix Capsule",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-011",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes + 4-Star Dragon Ball Costume + Senzu Bean Sprout — output 5/5/5/-5/-5/-5",
+      "stars": 5,
+      "health": 5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -5,
+      "strike_supers": -5,
+      "ki_blast_supers": -5,
+      "clothing_inputs": "Beerus Clothes + 4-Star Dragon Ball Costume",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-012",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes + Broly Clothes + Senzu Bean Sprout — output 1/-1/-2/5/3/-5",
+      "stars": 5,
+      "health": 1,
+      "ki": -1,
+      "stamina": -2,
+      "basic_attack": 5,
+      "strike_supers": 3,
+      "ki_blast_supers": -5,
+      "clothing_inputs": "Beerus Clothes + Broly Clothes",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-013",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes (Upper Body) + Beerus Clothes (Lower Body) + Senzu Bean Sprout — output -5/5/5/-5/-5/5",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 5,
+      "basic_attack": -5,
+      "strike_supers": -5,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Clothes (Upper Body) + Beerus Clothes (Lower Body)",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "id": "qq-observed-prima-014",
+      "record_type": "recipe_observation",
+      "name": "Prima Games observed recipe — Beerus Clothes (Upper Body) + Beerus Clothes (Upper Body) + Senzu Bean Sprout — output -5/5/4/1/-5/5",
+      "stars": 5,
+      "health": -5,
+      "ki": 5,
+      "stamina": 4,
+      "basic_attack": 1,
+      "strike_supers": -5,
+      "ki_blast_supers": 5,
+      "clothing_inputs": "Beerus Clothes (Upper Body) + Beerus Clothes (Upper Body)",
+      "mixing_item": "Senzu Bean Sprout",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Historical documented recipe/output observation",
+      "rng_notes": "This record preserves one documented output from a recipe list. It is not a guarantee that the same inputs always produce this spread; QQ Bang synthesis is RNG-dependent.",
+      "build_tags": [],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
     }
   ],
   "last_updated": "2026-09-27",
@@ -164,6 +394,13 @@
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eaium7",
         "https://www.reddit.com/r/dbxv/comments/15rhszd",
         "https://www.youtube.com/watch?v=dZE9_VysgAw"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Expanded QQ Bang record layer with 10 discrete observed recipe outputs from the documented Prima Games recipe table. Exact six-stat vectors are preserved as observations rather than promoted to deterministic recipe guarantees.",
+      "sources": [
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
       ]
     }
   ]
