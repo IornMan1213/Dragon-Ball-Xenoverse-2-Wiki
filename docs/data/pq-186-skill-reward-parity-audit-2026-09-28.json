@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Record-level bidirectional skill-reward parity audit for PQ186.",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "boundary": "Canonical forward relationships remain authoritative; reverse indexes and PQ reward maps are parity consumers/evidence. No relationship is inferred from non-PQ acquisition evidence.",
+  "quest": {
+    "pq": "pq-186",
+    "documented_skills": [
+      "Venus Fist"
+    ],
+    "canonical_forward_edges": [
+      "pq-186 -> Venus Fist"
+    ],
+    "reverse_skill_endpoint": "Venus Fist -> PQ186",
+    "status": "parity_confirmed",
+    "notes": "The current typed reward map lists Venus Fist for PQ186. The canonical forward relationship layer contains the corresponding source-backed Venus Fist edge, and the maintained reverse skill map also resolves Venus Fist to PQ186. PQ186's other typed rewards do not create additional skill endpoints. Exact reward-slot/drop probability and any mandatory Ultimate Finish condition remain unresolved unless independently established."
+  },
+  "totals": {
+    "documented_skill_edges": 1,
+    "parity_confirmed_edges": 1,
+    "new_relationships_promoted": 0,
+    "unresolved_endpoint_count": 0
+  },
+  "evidence": [
+    "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
+    "docs/data/pq-reward-normalization/pq-reverse-index-163-186.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/pq-late-dlc-typed-reward-coverage-audit-2026-09-28.json",
+    "docs/data/skill-research-batches/skill-batch-120.json"
+  ],
+  "next": "Continue the remaining global PQ skill-endpoint gap outside PQ163-PQ186, then resume evidence-backed skill mechanics/acquisition enrichment."
+}
