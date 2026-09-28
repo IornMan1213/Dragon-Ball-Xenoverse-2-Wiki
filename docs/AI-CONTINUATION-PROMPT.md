@@ -4991,3 +4991,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Audited all maintained PQ101-186 batches against the canonical PQ layer.
 - [x] Restored 0 missing records and added 0 exact-name equipment links.
 - [ ] Run full canonical PQ integrity/reward-link audit next.
+
+### 2026-09-27 continuation — PQ1-20 restoration
+- [x] Restored missing PQ1-20 canonical records from maintained research batches.
+- [x] Preserved source-backed reward/objective uncertainty rather than inventing drop rates.
+- [ ] Reconcile PQ36's maintained numbering/cut conflict before final-board treatment.
