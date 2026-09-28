@@ -5435,3 +5435,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reverse-navigation audit already records the correct **Ultimate** slot class for the three affected presets; no fabricated preset-side reverse schema was introduced.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the restored-identity evidence queue with the remaining unresolved record-level gaps, then reconcile recovered skill/PQ cross-domain endpoints against canonical PQ reward data.
+
+
+### 2026-09-28 continuation — PQ skill validator hardening follow-up
+- [x] Inspected the remaining cross-domain validators after the 248-edge Skill→PQ recovery sync.
+- [x] Found a concrete defect in `scripts/validate_pq_skill_links.py`: the checked-in source had an invalid compound-statement layout after `REPORT.write_text(...)`, so the validator could not parse successfully.
+- [x] Removed the stale hard-coded canonical skill count from the report and now derive it from the live `docs/data/skills.json` root at validation time.
+- [x] Replaced the frozen `248` edge expectation with a structural invariant: every `pq_rewards_skill` forward row must resolve through the reverse projection; unresolved endpoints still fail validation.
+- [x] Committed the validator repair and advanced `main` to `9f0b1fa248d07ae85cf030d516120c67b2f8c16f`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** inspect the next remaining cross-domain validator for a concrete stale invariant or parser/integrity defect, then resume restored-preset enrichment and bidirectional PQ reward coverage.
