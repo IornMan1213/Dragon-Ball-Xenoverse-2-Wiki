@@ -5277,3 +5277,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`.
 - [x] Preserved Full Power Energy Wave's unresolved Ultimate-Finish requirement as null.
 - [ ] **Exact next:** propagate the Energy Wave Combo acquisition correction into the canonical skill/index layers safely, then continue the remaining restored-skill acquisition/mechanics gaps.
+
+
+### 2026-09-28 continuation — Canonical skill propagation safety checkpoint
+- [x] Revalidated Energy Wave Combo acquisition evidence and upgraded its research status from acquisition-null to evidence-backed Skill Shop/default Future Warrior.
+- [x] Updated the canonical-evidence reconciliation artifact to record the evidence refresh without falsely claiming the canonical large-file mutation was applied.
+- [x] Created `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` with the exact intended canonical patch and safety boundaries.
+- [x] Refused unsafe reconstruction of `skills.json`/index from incomplete API output; no unrelated canonical records were risked.
+- [ ] **Exact next:** execute the queued Energy Wave Combo patch through a safe complete-file/repository-tree mechanism, validate identity/count parity, then resume mechanics enrichment.
