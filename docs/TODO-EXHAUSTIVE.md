@@ -4845,3 +4845,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Verified canonical and index counts remain 493 / 493.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue the restored-identity evidence queue, then reconcile recovered skill/PQ cross-domain endpoints against canonical PQ reward data.
+
+
+### 2026-09-28 continuation — PQ skill validator hardening follow-up
+- [x] Fixed `scripts/validate_pq_skill_links.py` so the checked-in validator is syntactically valid and no longer freezes the canonical skill count at 493.
+- [x] Replaced the stale hard-coded 248-edge expectation with a structural forward/reverse projection invariant.
+- [x] Committed the repair at `9f0b1fa248d07ae85cf030d516120c67b2f8c16f`.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: inspect remaining cross-domain validators for comparable concrete integrity defects, then resume restored-preset enrichment and PQ reward navigation.
