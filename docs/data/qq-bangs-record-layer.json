@@ -204,7 +204,8 @@
         },
         {
           "input": "Beerus clothing",
-          "equipment_id": "equip-101"
+          "equipment_id": "equip-101",
+          "evidence_note": "Generic historical wording retained; corroborating QQ Bang recipe evidence explicitly describes the material as Beerus Clothes/Beerus top, and the live equipment layer currently represents that material as equip-101 Beerus Top. Do not interpret this as evidence that the lower-body component was used."
         }
       ]
     },
@@ -240,7 +241,8 @@
       "equipment_links": [
         {
           "input": "Beerus clothing",
-          "equipment_id": "equip-101"
+          "equipment_id": "equip-101",
+          "evidence_note": "Generic historical wording retained; corroborating QQ Bang recipe evidence explicitly describes the material as Beerus Clothes/Beerus top, and the live equipment layer currently represents that material as equip-101 Beerus Top. Do not interpret this as evidence that the lower-body component was used."
         },
         {
           "input": "Bardock Battle Suit",
@@ -496,7 +498,8 @@
       "equipment_links": [
         {
           "input": "Beerus Clothes",
-          "equipment_id": "equip-101"
+          "equipment_id": "equip-101",
+          "evidence_note": "Generic historical wording retained; corroborating QQ Bang recipe evidence explicitly describes the material as Beerus Clothes/Beerus top, and the live equipment layer currently represents that material as equip-101 Beerus Top. Do not interpret this as evidence that the lower-body component was used."
         },
         {
           "input": "Broly Clothes",
