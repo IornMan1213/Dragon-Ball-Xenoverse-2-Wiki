@@ -4452,3 +4452,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Update the recovery checkpoint with the current 110-equipment / 23-QQ-Bang / 16-observed-vector / 186-PQ baseline.
 - [ ] Synchronize stale PQ cross-domain status metadata (historical 232/135/122 and 182-PQ snapshot) with the live canonical 840-edge baseline.
 - [ ] Continue evidence-driven equipment/build cross-domain enrichment and unresolved QQ Bang identity reconciliation.
+
+- [x] Synchronize `docs/data/pq-cross-domain-status.json` to the live 840-edge / 186-PQ baseline; preserve the historical correction in `correction_history`.
+- [x] Preserve the newly introduced `equip-110` Beerus lower-body identity without inventing QQ Bang recipe usage; mark its QQ Bang relationship as unresolved until explicit evidence exists.
