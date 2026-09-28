@@ -1,0 +1,21 @@
+{
+  "batch": 530,
+  "date": "2026-09-28",
+  "type": "current_evidence_refresh",
+  "scope": "Stale early/base-game skill records from the PQ61-PQ70 research cohort that lacked a post-recovery current-evidence refresh.",
+  "selected": [
+    {"skill_id":"skill-recoome-kick","skill_name":"Recoome Kick","current_evidence":{"class":"Super","subcategory":"Strike","ki_cost":100,"usable_by_cac":true,"character_source":"Recoome","acquisition":"Parallel Quest 61 — The Cell Games Continued"},"mechanics_boundary":"Fast flying knee/side kick with a documented temporary normal-attack boost after connection. Exact current scaling and timing are not promoted."},
+    {"skill_id":"skill-fighting-pose-h","skill_name":"Fighting Pose H","current_evidence":{"class":"Super","subcategory":"Power Up","ki_cost":0,"usable_by_cac":true,"character_source":"Guldo","acquisition":"Parallel Quest 61 — The Cell Games Continued"},"mechanics_boundary":"Pose-based temporary damage-reduction effect is supported; prior research documents about 20 seconds, but hidden interaction details are not promoted."},
+    {"skill_id":"skill-teleporting-vanishing-ball","skill_name":"Teleporting Vanishing Ball","current_evidence":{"class":"Ultimate","subcategory":"Ki Blast","ki_cost":300,"usable_by_cac":true,"character_source":"Kid Buu; Kid Buu (Supervillain)","acquisition":"Parallel Quest 62 — Frieza's Nightmare Returns!"},"mechanics_boundary":"Creates a Ki blast, teleports to the opponent, then throws it; prior research documents a 15-hit sequence and knockback. Exact timing/scaling is not promoted."},
+    {"skill_id":"skill-angry-shout","skill_name":"Angry Shout","current_evidence":{"class":"Evasive","subcategory":"Strike","stamina_cost":300,"usable_by_cac":true,"character_source":"Kid Buu; Kid Buu (Supervillain); Janemba; Janemba (Supervillain); Majin Buu (Gohan Absorbed)","acquisition":"Parallel Quest 68 — Old Rivals and Dragon Balls"},"mechanics_boundary":"Powerful shout can damage/knock back nearby opponents and restore Ki. Exact restoration amount, frames, and scaling remain unestablished."},
+    {"skill_id":"skill-headshot","skill_name":"Headshot","current_evidence":{"class":"Evasive","subcategory":"Strike","stamina_cost":300,"usable_by_cac":true,"character_source":"God of Destruction Beerus","acquisition":"Parallel Quest 69 — God of Destruction and His Master"},"mechanics_boundary":"Close-range single-hit forehead strike with knockback is supported. Exact hitbox, frames, and scaling are not promoted."}
+  ],
+  "validation":{"canonical_skill_identity_count":493,"canonical_identity_changes":0,"unsupported_pq_relationships_added":0,"speculative_frames_added":0,"speculative_patch_independent_scaling_added":0,"speculative_probabilities_added":0},
+  "source_provenance":{
+    "recoome_kick":["https://dbxv2.fandom.com/wiki/Recoome_Kick","https://dragonball.fandom.com/wiki/Recoome_Kick","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "fighting_pose_h":["https://dbxv2.fandom.com/wiki/Fighting_Pose_H","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "teleporting_vanishing_ball":["https://dbxv2.fandom.com/wiki/Teleporting_Vanishing_Ball","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "angry_shout":["https://dbxv2.fandom.com/wiki/Angry_Shout","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"],
+    "headshot":["https://dbxv2.fandom.com/wiki/Headshot","https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"]
+  }
+}
