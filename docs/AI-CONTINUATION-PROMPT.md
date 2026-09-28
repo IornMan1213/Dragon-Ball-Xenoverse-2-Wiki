@@ -5833,3 +5833,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated equipment reverse coverage in the cross-domain artifacts to 126 forward / 126 reverse / 0 missing / 0 reverse-only.
 - [x] Validated both corrected JSON artifacts after mutation.
 - [ ] Next: inspect actual cross-domain navigation/consumer files for hard-coded stale counts or endpoint assumptions, then resume evidence-backed PQ typed-reward expansion.
+
+
+### 2026-09-28 continuation — Cross-domain consumer audit and stale-count cleanup
+- [x] Revalidated canonical `pq-reward-relationships.json`: **851 edges** (248 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming).
+- [x] Reviewed the direct cross-domain validator/consumer scripts and confirmed they point to the canonical relationship store rather than maintaining a separate aggregate source of truth.
+- [x] Recorded the consumer audit and corrected-count state in `docs/COVERAGE-AUDIT.md`.
+- [x] Confirmed the repaired equipment reverse layer remains **126/126 with zero missing and zero reverse-only pairs**.
+- [ ] Next: continue the concrete unresolved QQ Bang input-name audit, then resume evidence-backed expansion of underrepresented PQ typed rewards.
