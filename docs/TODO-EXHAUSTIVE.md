@@ -5963,3 +5963,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 2026-09-28: PQ34 reconciliation batch 559 completed. Corrected research-layer omission: Crusher Ball was listed in PQ34 basic rewards but omitted from skill_rewards; independent PQ reward transcription confirms both Crusher Ball and Paralysis. Canonical forward relationships already contained both, so no duplicate edge or canonical mutation was made. Dedicated reconciliation audit added. PQ cross-domain index update remains pending if write guard permits; next continue with PQ35-PQ40 parity audit.
+
+
+2026-09-28: Batch 559 completed PQ31-PQ40 cross-domain reconciliation. All 9 typed skill-reward records have matching canonical PQ→skill edges; no research/canonical contradictions were found. PQ36 numbering/existence conflict remains explicitly preserved because maintained reward/objective sources document the quest while a separate datamined corpus disputes the numbering. Added and indexed the reconciliation audit; no canonical data or unsupported relationships were changed. Next frontier: PQ41 onward, prioritizing concrete reward-list/relationship contradictions.
