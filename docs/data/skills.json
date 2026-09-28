@@ -3489,7 +3489,8 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Strike Super classification, 100–200 Ki cost, and the branching teleport/blade behavior. Bandai Namco's 2017 content-update schedule independently documents Divine Retribution in the TP Medal Shop. No PQ acquisition or drop probability is inferred."
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Strike Super classification, 100–200 Ki cost, and the branching teleport/blade behavior. Bandai Namco's 2017 content-update schedule independently documents Divine Retribution in the TP Medal Shop. No PQ acquisition or drop probability is inferred.",
+      "id": "skill-divine-retribution"
     },
     {
       "name": "Divine Spear",
@@ -11508,7 +11509,8 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after current Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Super Pack 4 provenance, 100-Ki Strike classification, grab properties, and the alternate teleport route. Source-reported damage measurements are not promoted as universal values."
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after current Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Super Pack 4 provenance, 100-Ki Strike classification, grab properties, and the alternate teleport route. Source-reported damage measurements are not promoted as universal values.",
+      "id": "skill-savage-strike"
     },
     {
       "name": "Savory Slicer",
@@ -13688,7 +13690,8 @@
       ],
       "race_restriction": "All CaC races",
       "acquisition_type": "tp_medal_shop",
-      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Future Trunks source identity, 300+ Ki cost, multi-stage sword stance, and continuous Ki drain. No reward probability or fixed rotation guarantee is inferred."
+      "notes": "2026-09-28 canonical recovery promotion: restored from the indexed-only skill catalog after direct Xenoverse 2 evidence confirmed TP Medal Shop acquisition, Future Trunks source identity, 300+ Ki cost, multi-stage sword stance, and continuous Ki drain. No reward probability or fixed rotation guarantee is inferred.",
+      "id": "skill-sword-of-hope"
     },
     {
       "name": "Symphonic Destruction",
