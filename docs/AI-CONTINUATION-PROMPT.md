@@ -5660,3 +5660,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the known PQ48 Kamekameha/Kamehameha conflict for separate direct-evidence resolution.
 - [x] Commit: `d218f3d890bdd8dd51b4f482ad732448c5a03d7f`.
 - [ ] **Exact next:** resolve the PQ48 Kamekameha evidence boundary if direct item-level evidence supports it; otherwise move to the next independent cross-domain coverage gap rather than repeatedly auditing the already-reconciled 16 PQs.
+
+### 2026-09-28 continuation — 16-PQ typed-reward reconciliation
+- [x] Audited the remaining 16 PQ IDs without canonical skill endpoints against the normalized reverse index and canonical `pq-reward-relationships.json`.
+- [x] Confirmed the explicitly normalized Super Soul/equipment rewards examined for these PQs are already represented in the canonical forward relationship layer; no duplicate relationship promotion was needed.
+- [x] Corrected the prior relationship-layer audit note so it no longer falsely describes already-existing PQ30/PQ35/PQ93 Super Soul relationships as newly added.
+- [x] Added `docs/data/pq-16-unrepresented-pq-typed-reward-reconciliation-2026-09-28.json` documenting the evidence boundary, including PQ48's indexed-only `Kamekameha` identity.
+- [x] Confirmed PQ48 should **not** be promoted into the canonical skill corpus merely from the reward transcription: `Kamekameha` remains an indexed/research identity, while the canonical skill corpus has no corresponding endpoint.
+- [x] Commits: `e7012eaed1ec4d1d2c8fd9debf57e2e6313df1cc` (audit-note correction), `a0376800c5923f5e761180b3770b6766d2cd920f` (typed-reward reconciliation audit).
+- [ ] **Exact next:** move to remaining cross-domain reverse-index integrity and indexed-only skill identities, with PQ48/Kamekameha retained as a focused evidence-boundary task.
