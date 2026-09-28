@@ -1,0 +1,96 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "audit_type": "unrepresented_pq_typed_reward_cross_domain_refresh",
+  "scope": [
+    1,
+    30,
+    35,
+    47,
+    48,
+    93,
+    102,
+    103,
+    107,
+    108,
+    118,
+    121,
+    144,
+    157,
+    169,
+    170
+  ],
+  "purpose": "Refresh the typed-reward coverage boundary for the 16 PQ IDs without explicit canonical skill endpoints, using current canonical relationship and accessory/equipment layers. Absence of a skill edge is not treated as proof of no skill reward.",
+  "confirmed_canonical_typed_coverage": {
+    "1": "No canonical typed reward relationship currently recorded.",
+    "30": [
+      "Hercule's Clothes",
+      "Tien Shinhan's Gi"
+    ],
+    "35": "No canonical typed reward relationship currently recorded; Z-Sword remains a historical accessory research lead, not promoted here.",
+    "47": [
+      "Broly's Clothes"
+    ],
+    "48": "No canonical typed reward relationship promoted; Kamekameha/Kamehameha remains unresolved.",
+    "93": [
+      "Pan's Bandanna",
+      "Pan's Clothes",
+      "Pan's Bandana accessory identity via canonical accessory bridge"
+    ],
+    "102": [
+      "Battle Suit (Cabba)",
+      "Don't quit! Get up!",
+      "I'll make you regret that!"
+    ],
+    "103": [
+      "I've been saving this! Kaioken!",
+      "Now you understand. Surrender.",
+      "This is not a weapon."
+    ],
+    "107": [
+      "Future Mai's Clothes",
+      "You can't win..."
+    ],
+    "108": [
+      "Goku Black's Clothes",
+      "Eehee hee hee heee!",
+      "Now, give your father a message for me."
+    ],
+    "118": [
+      "I hate what I've become!",
+      "Now we're even."
+    ],
+    "121": [
+      "Tuxedo",
+      "Wedding Dress",
+      "Right, then... Let's begin the experiment!"
+    ],
+    "144": [
+      "Gine (DB Super) Set",
+      "Gine (DB Super)'s Clothes",
+      "I won't forgive those who best my comrades!",
+      "You've awakened my true power..."
+    ],
+    "157": [
+      "I'll be the one to fight you!",
+      "You need to be more careful."
+    ],
+    "169": [
+      "Orange Piccolo's Clothes"
+    ],
+    "170": [
+      "Videl (DB Super)'s Clothes"
+    ]
+  },
+  "changes_made": [
+    "Promoted the already-supported Pan's Bandana→PQ93 route into the canonical accessory record's pq_links, matching accessory-pq-canonical-bridge.json. This is an acquisition-source link, not a guaranteed-drop claim."
+  ],
+  "not_promoted": [
+    "No new skill→PQ relationships were inferred.",
+    "No new generic PQ reward relationships were invented where the canonical relationship layer already records the explicit typed rewards.",
+    "Z-Sword→PQ35 remains research evidence only.",
+    "PQ48 Kamekameha/Kamehameha remains unresolved.",
+    "Third-party-only skill associations for PQ118/PQ121 remain unresolved."
+  ],
+  "result": "The 16-PQ frontier is now more explicitly cross-navigable at the accessory layer while preserving evidence boundaries. The next substantive expansion should target canonical identity reconciliation for remaining accessory/equipment research leads and independently sourced reward evidence, rather than adding unsupported skill endpoints."
+}
