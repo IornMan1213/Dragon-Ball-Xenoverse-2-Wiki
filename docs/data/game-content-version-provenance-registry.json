@@ -160,6 +160,14 @@
       "date": "2026-07-08",
       "url": "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
       "scope": "Independent guide names The Power to Overcome, Dragon Spiral, Indomitable, and Venus Fist as Future Saga Chapter 4 skills and describes their acquisition."
+    },
+    {
+      "id": "steam_pq_185_186_guide",
+      "publisher": "Steam Community Guide",
+      "title": "Dragon Ball Xenoverse 2 - All 186 Parallel Quests - RANK Z - Videos",
+      "date": "2026-07-09",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "scope": "Current guide explicitly lists Future Saga Chapter 4 PQ185 rewards Dragon Spiral and Indomitable, and PQ186 reward Venus Fist."
     }
   ],
   "events": [
@@ -240,7 +248,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Search for additional independent/official Chapter 4 sources that name the four moves, and separately continue the unresolved Free Update 20 skill-name investigation.",
+  "next_step": "Investigate the separate Free Update 20 skill list through direct patch/catalog evidence; official Bandai Namco confirms Skills were included but does not name them. Then audit any remaining Chapter 4 character-specific provenance.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -451,25 +459,27 @@
       "skill_id": "skill-dragon-spiral",
       "skill_name": "Dragon Spiral",
       "event_id": "future-saga-chapter-4-announced",
-      "evidence_type": "official_event_plus_independent_named_skill_catalog",
+      "evidence_type": "community_pq_reward_catalog",
       "source_ids": [
         "official_ch4_dlc_page",
-        "community_ch4_skill_guide_2026-07-08"
+        "community_ch4_skill_guide_2026-07-08",
+        "steam_pq_185_186_guide"
       ],
-      "confidence": "corroborated",
-      "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
+      "confidence": "direct",
+      "basis": "A current Steam community guide explicitly lists the skill as a reward for the named Future Saga Chapter 4 Parallel Quest, independently corroborating the canonical record."
     },
     {
       "skill_id": "skill-indomitable",
       "skill_name": "Indomitable",
       "event_id": "future-saga-chapter-4-announced",
-      "evidence_type": "official_event_plus_independent_named_skill_catalog",
+      "evidence_type": "community_pq_reward_catalog",
       "source_ids": [
         "official_ch4_dlc_page",
-        "community_ch4_skill_guide_2026-07-08"
+        "community_ch4_skill_guide_2026-07-08",
+        "steam_pq_185_186_guide"
       ],
-      "confidence": "corroborated",
-      "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
+      "confidence": "direct",
+      "basis": "A current Steam community guide explicitly lists the skill as a reward for the named Future Saga Chapter 4 Parallel Quest, independently corroborating the canonical record."
     },
     {
       "skill_id": "skill-the-power-to-overcome",
@@ -478,7 +488,8 @@
       "evidence_type": "official_event_plus_independent_named_skill_catalog",
       "source_ids": [
         "official_ch4_dlc_page",
-        "community_ch4_skill_guide_2026-07-08"
+        "community_ch4_skill_guide_2026-07-08",
+        "steam_pq_185_186_guide"
       ],
       "confidence": "corroborated",
       "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
@@ -487,13 +498,14 @@
       "skill_id": "skill-venus-fist",
       "skill_name": "Venus Fist",
       "event_id": "future-saga-chapter-4-announced",
-      "evidence_type": "official_event_plus_independent_named_skill_catalog",
+      "evidence_type": "community_pq_reward_catalog",
       "source_ids": [
         "official_ch4_dlc_page",
-        "community_ch4_skill_guide_2026-07-08"
+        "community_ch4_skill_guide_2026-07-08",
+        "steam_pq_185_186_guide"
       ],
-      "confidence": "corroborated",
-      "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
+      "confidence": "direct",
+      "basis": "A current Steam community guide explicitly lists the skill as a reward for the named Future Saga Chapter 4 Parallel Quest, independently corroborating the canonical record."
     },
     {
       "skill_id": "skill-burning-blast",
