@@ -1,0 +1,119 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 542,
+  "date": "2026-09-28",
+  "status": "complete",
+  "scope": "Remaining canonical skill acquisition-field synchronization",
+  "records": [
+    {
+      "id": "skill-dual-masenko",
+      "name": "Dual Masenko",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-final-shine-attack",
+      "name": "Final Shine Attack",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-full-power-energy-wave",
+      "name": "Full Power Energy Wave",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after \"God of Destruction's Anger\"",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-galaxy-breaker-festival",
+      "name": "Galaxy Breaker (Festival)",
+      "acquisition_type": "festival_event",
+      "source_quest_or_shop": "Festival of Universes — Max Camaraderie with Vegeta",
+      "dlc_requirement": "Festival of Universes"
+    },
+    {
+      "id": "skill-holstein-shock",
+      "name": "Holstein Shock",
+      "acquisition_type": "quest_or_mission",
+      "source_quest_or_shop": "Parallel Quest 15 — \"Gotta Find That Dragon Ball!\"",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-ki-blast-cannon",
+      "name": "Ki Blast Cannon",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after \"Galactic Emperor\"",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-power-pole-combo",
+      "name": "Power Pole Combo",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-recoome-eraser-gun",
+      "name": "Recoome Eraser Gun",
+      "acquisition_type": "quest_or_mission",
+      "source_quest_or_shop": "Parallel Quest 17 — \"Ginyu and the Fruit\"",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-shockwave",
+      "name": "Shockwave",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop after \"A Desperate Future\"",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-sledgehammer",
+      "name": "Sledgehammer",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-super-dragon-fist",
+      "name": "Super Dragon Fist",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-super-galick-gun",
+      "name": "Super Galick Gun",
+      "acquisition_type": "tp_medal_shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-super-ki-explosion",
+      "name": "Super Ki Explosion",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-turn-retreat",
+      "name": "Turn Retreat",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game"
+    },
+    {
+      "id": "skill-ultra-fighting-bomber",
+      "name": "Ultra Fighting Bomber",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "dlc_requirement": "Base Game"
+    }
+  ],
+  "evidence_boundary": "Canonical acquisition endpoints were synchronized from existing repository evidence. Festival of Universes is retained as its own event provenance; Base Game labels are acquisition-route classifications, not claims about every cast/preset appearance. No unsupported reward probability, Ultimate Finish gate, prerequisite, or timing claim was added.",
+  "validation": {
+    "canonical_records": 497,
+    "remaining_records_with_any_target_gap": 0
+  }
+}
