@@ -34,6 +34,18 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-001",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        },
+        {
+          "equipment_id": "equip-017",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
       ]
     },
     {
@@ -390,6 +402,13 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-008",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
       ]
     },
     {
@@ -2065,6 +2084,13 @@
       "skill_rewards": [],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-023",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
       ]
     },
     {
@@ -2156,6 +2182,13 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-012",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
       ]
     },
     {
@@ -2264,6 +2297,13 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-003",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
       ]
     },
     {
@@ -2323,6 +2363,13 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-088",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
       ]
     },
     {
@@ -3156,6 +3203,13 @@
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "equipment_links": [
+        {
+          "equipment_id": "equip-041",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
       ]
     },
     {
@@ -4751,7 +4805,19 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/"
       ],
-      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
+      "equipment_links": [
+        {
+          "equipment_id": "equip-002",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        },
+        {
+          "equipment_id": "equip-016",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ]
     },
     {
       "id": "pq-005",
@@ -5032,7 +5098,14 @@
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
+      "equipment_links": [
+        {
+          "equipment_id": "equip-028",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ]
     },
     {
       "id": "pq-013",
@@ -5062,7 +5135,14 @@
         "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74485071"
       ],
-      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits."
+      "notes": "Restored from the maintained Parallel Quest research batch; reward semantics/drop percentages remain subject to the batch's stated verification limits.",
+      "equipment_links": [
+        {
+          "equipment_id": "equip-026",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ]
     },
     {
       "id": "pq-014",
