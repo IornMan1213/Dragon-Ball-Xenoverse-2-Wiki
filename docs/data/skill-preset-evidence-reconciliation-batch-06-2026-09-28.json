@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Canonical resolution of Full Power Energy Blast Volley source conflict",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Full Power Energy Blast Volley",
+      "skill_id": "skill-full-power-energy-blast-volley",
+      "prior_conflict": {
+        "repository_batch_253": {
+          "class": "Super",
+          "ki_cost": 100,
+          "character_source": "Nappa",
+          "unlock_method": "Nappa Training Lesson 4"
+        },
+        "stronger_current_evidence": {
+          "class": "Ultimate",
+          "ki_cost": 300,
+          "unlock_method": "Starting move for all types"
+        }
+      },
+      "decision": "Canonical record corrected to Ultimate / Ki Blast / 300 Ki / starting move. Current Xenoverse 2-specific skill page and Ultimate Attack taxonomy agree, and independent Dragon Ball Wiki corroborates that it is a common Ultimate and the Future Warrior's default Ultimate.",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Blast_Volley",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+        "https://dragonball.fandom.com/wiki/Full_Power_Energy_Blast_Volley",
+        "docs/data/skill-research-batches/skill-batch-310.json"
+      ],
+      "mechanics_boundary": "The canonical record preserves the barrage/tracking behavior but does not promote source-reported damage percentages as patch-independent facts.",
+      "projection_updates": [
+        "docs/data/skills-index.json"
+      ],
+      "status": "resolved"
+    }
+  ],
+  "counts": {
+    "canonical_skills": 493,
+    "skill_index": 493
+  },
+  "policy": "Canonical skills.json remains authoritative. Historical conflicting research batch 253 remains intact as provenance; it is not deleted or treated as current truth."
+}
