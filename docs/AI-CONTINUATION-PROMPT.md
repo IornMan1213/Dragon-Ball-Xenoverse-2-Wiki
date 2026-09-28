@@ -5868,3 +5868,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed Full Power Energy Wave's Skill Shop/story-gated acquisition remains supported while Ultimate-Finish requirement stays null because explicit evidence is absent.
 - [x] Recorded the refresh in `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`.
 - [ ] **Next:** safely propagate the Energy Wave Combo acquisition correction into canonical `docs/data/skills.json` and `docs/data/skills-index.json` without reconstructing unrelated large-file content, then continue the remaining acquisition/mechanics nulls.
+
+
+### 2026-09-28 continuation — Canonical skill propagation safety checkpoint
+- [x] Re-read the live continuation/TODO and verified the 18-record restored-skill frontier remains closed for identity reconciliation.
+- [x] Rechecked Energy Wave Combo against the latest evidence: Super / Ki Blast / 100 Ki / CaC usable, with independent evidence supporting Skill Shop/default Future Warrior acquisition.
+- [x] Corrected the canonical-evidence reconciliation artifact so this acquisition evidence is no longer described as an unresolved evidence gap.
+- [x] Created `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` as a non-destructive exact patch queue for the canonical `skills.json` and synchronized index.
+- [x] **Did not reconstruct or overwrite the large canonical files from truncated API output.** Canonical source-of-truth integrity takes precedence over forcing an unsafe mutation.
+- [ ] **Next:** apply the queued Energy Wave Combo mutation through a safe complete-blob/repository-tree edit path; then validate canonical/index identity parity and continue remaining mechanics/acquisition enrichment.
