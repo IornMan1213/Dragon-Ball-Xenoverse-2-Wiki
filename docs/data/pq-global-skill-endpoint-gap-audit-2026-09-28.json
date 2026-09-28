@@ -1,0 +1,105 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Global PQ skill-endpoint gap census across the 16 PQ IDs previously represented as having no canonical skill endpoint.",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "method": "Compare canonical forward PQ skill relationships, PQ record-layer skill_rewards, reverse skill index, and maintained research/source evidence. Promote only an explicit source-backed reward when the target resolves to an existing canonical skill identity.",
+  "results": [
+    {
+      "pq": 1,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ record/research layer documents no skill reward; no conflicting source-backed skill endpoint was established in this pass."
+    },
+    {
+      "pq": 30,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ record layer documents equipment/Super Soul rewards but no skill reward; no explicit skill endpoint established."
+    },
+    {
+      "pq": 35,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ record/research layer documents no skill reward; no explicit skill endpoint established."
+    },
+    {
+      "pq": 47,
+      "status": "no_skill_reward_promoted",
+      "reason": "Maintained PQ47 reward list contains equipment/Super Soul rewards and no skill; independent maintained guide agrees."
+    },
+    {
+      "pq": 48,
+      "status": "promoted",
+      "skill": "Kamehameha",
+      "source_name": "Kamekameha",
+      "reason": "PQ48 record layer and maintained all-PQ guide explicitly list 'Kamekameha' as a basic reward. The canonical skill identity is Kamehameha; the spelling variant is preserved as evidence rather than a new identity.",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": 93,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ93 record/research layer lists non-skill rewards; no explicit skill endpoint established."
+    },
+    {
+      "pq": 102,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ102 record layer is partially verified and has no documented skill reward in the maintained source layer; no safe promotion established."
+    },
+    {
+      "pq": 103,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ103 record layer is partially verified and has no documented skill reward in the maintained source layer; no safe promotion established."
+    },
+    {
+      "pq": 107,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ107 record/research layer contains no explicit skill reward; no safe promotion established."
+    },
+    {
+      "pq": 108,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ108 record/research layer contains no explicit skill reward; no safe promotion established."
+    },
+    {
+      "pq": 118,
+      "status": "unresolved_conflict",
+      "reason": "Known Dual Masenko/PQ118 evidence conflict remains intentionally unresolved; no unsupported relationship added."
+    },
+    {
+      "pq": 121,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ121 record layer explicitly has an empty skill_rewards field; documented equipment reward evidence does not imply a skill reward."
+    },
+    {
+      "pq": 144,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ144 record layer explicitly has an empty skill_rewards field; no explicit skill endpoint established."
+    },
+    {
+      "pq": 157,
+      "status": "no_skill_reward_promoted",
+      "reason": "Current PQ157 record layer explicitly has an empty skill_rewards field; no explicit skill endpoint established."
+    },
+    {
+      "pq": 169,
+      "status": "no_skill_reward_promoted",
+      "reason": "Existing PQ166-170 parity audit and current record layer retain PQ169 as skillless; absence is not generalized to every external source."
+    },
+    {
+      "pq": 170,
+      "status": "no_skill_reward_promoted",
+      "reason": "Existing PQ166-170 parity audit and current record layer retain PQ170 as skillless; absence is not generalized to every external source."
+    }
+  ],
+  "validation": {
+    "previous_zero_endpoint_pqs": 16,
+    "promoted_this_pass": 1,
+    "remaining_zero_endpoint_pqs": 15,
+    "current_skill_pq_edges": 249,
+    "current_total_pq_relationships": 852
+  },
+  "policy": [
+    "Canonical forward relationship data remains authoritative.",
+    "A non-PQ acquisition endpoint is never converted into a PQ reward relationship.",
+    "Historical spelling variants are resolved only through explicit evidence and existing canonical identities.",
+    "An empty current record-layer skill_rewards field is not by itself proof that every external source lacks a reward."
+  ]
+}
