@@ -4271,3 +4271,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 
 - [ ] 2026-09-27: Restore Dual Masenko canonical record atomically; preserve existing 474 records; reconcile downstream links afterward.
+
+
+- [x] 2026-09-27: Restore Dual Masenko to canonical Skills and Skills Index (475 records); reconcile Future Trunks (Time Patrol) Partner Customization relationship.
+- [ ] 2026-09-27: PQ118 ↔ Dual Masenko relationship remains unresolved; do not invent a Skill→PQ edge without explicit reward evidence.
+- [ ] 2026-09-27: Run/inspect canonical cross-domain validators after the Dual Masenko restoration, then continue to the next genuine omission/under-enriched endpoint.
