@@ -1,0 +1,95 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "scope": "First five post-recovery catalog-gap-promoted skills with direct repository research evidence.",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical skills.json remains authoritative. Research batches establish evidence for field reconciliation but do not override canonical records automatically.",
+  "records": [
+    {
+      "name": "Full Power Energy Blast Volley",
+      "skill_id": "skill-full-power-energy-blast-volley",
+      "evidence": ["docs/data/skill-research-batches/skill-batch-253.json"],
+      "reconciled_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "stamina_cost": 0,
+        "usable_by_cac": true,
+        "character_source": "Nappa",
+        "unlock_method": "Nappa Training Lesson 4",
+        "ultimate_finish_required": false
+      },
+      "mechanics_boundary": "Large Ki-blast volley/rain attack is supported; exact damage is not promoted without stable versioned evidence.",
+      "status": "evidence_sufficient_for_field_reconciliation"
+    },
+    {
+      "name": "Super Back Jump",
+      "skill_id": "skill-super-back-jump",
+      "evidence": ["docs/data/skill-research-batches/skill-batch-237.json"],
+      "reconciled_fields": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "stamina_cost": 200,
+        "usable_by_cac": true,
+        "unlock_method": "Skill Shop / starting move for Long range",
+        "ultimate_finish_required": false
+      },
+      "mechanics_boundary": "The source establishes the identity, cost, usability, and acquisition route; no unsupported frame or damage values are added.",
+      "status": "evidence_sufficient_for_field_reconciliation"
+    },
+    {
+      "name": "Ki Blast Cannon",
+      "skill_id": "skill-ki-blast-cannon",
+      "evidence": ["docs/data/skill-research-batches/skill-batch-70.json"],
+      "reconciled_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "usable_by_cac": true,
+        "character_source": "Gohan (Adult), Goku (Super Saiyan God), and customizable partners",
+        "unlock_method": "Skill Shop; older reference lists training with Gohan & Videl",
+        "source_quest_or_shop": "Skill Shop / Gohan & Videl training (source conflict retained)",
+        "ultimate_finish_required": null
+      },
+      "mechanics_boundary": "Shockwave/restand behavior is documented; acquisition conflict remains explicitly preserved rather than silently selecting one historical route.",
+      "status": "evidence_sufficient_with_acquisition_conflict"
+    },
+    {
+      "name": "Break Strike",
+      "skill_id": "skill-break-strike",
+      "evidence": ["docs/data/skill-research-batches/skill-batch-58.json"],
+      "reconciled_fields": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "ultimate_finish_required": null
+      },
+      "mechanics_boundary": "The batch specifically corrects an unsupported negative Ultimate Finish assertion; no acquisition or cost is inferred from this correction batch.",
+      "status": "evidence_sufficient_for_correction_only"
+    },
+    {
+      "name": "Consecutive Energy Blast",
+      "skill_id": "skill-consecutive-energy-blast",
+      "evidence": ["docs/data/skill-research-batches/skill-batch-251.json"],
+      "reconciled_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "stamina_cost": 0,
+        "usable_by_cac": true,
+        "unlock_method": "Skill Shop",
+        "ultimate_finish_required": false,
+        "effect": "Fires a tracking barrage of 10 Ki blasts."
+      },
+      "mechanics_boundary": "The direct skill page supports the ten-blast tracking description; no unsupported damage/frame values are added.",
+      "status": "evidence_sufficient_for_field_reconciliation"
+    }
+  ],
+  "canonical_graph_check": {
+    "verified_preset_skill_entries": 162,
+    "exact_canonical_identity_matches": 162,
+    "unmatched_entries": 0,
+    "note": "These five identities already resolve through the restored canonical preset graph. This batch records evidence reconciliation; it does not claim a new canonical identity promotion."
+  },
+  "result": "first_post_recovery_evidence_batch_reconciled",
+  "next": "Continue with Super Dragon Fist, Holstein Shock, Backflip, Turn Retreat, and the remaining promoted records; keep Super Ki Explosion and Ultra Fighting Bomber blocked until direct evidence is found."
+}
