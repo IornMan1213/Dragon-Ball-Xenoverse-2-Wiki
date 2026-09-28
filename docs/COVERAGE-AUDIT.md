@@ -98,7 +98,7 @@ Every important nontrivial claim should retain:
 1. Keep GitHub Actions blocked as a billing/infrastructure issue; do not weaken validators.
 2. Reconcile the canonical skill layer against research and perform the active second-pass metadata audit: exact costs, acquisition routes, CaC/race/gender restrictions, character-only variants, Ultimate Finish requirements, DLC/version provenance, and mechanics.
 
-The PQ-to-skill cross-link audit is currently represented by the latest persisted reconciliation report: the canonical skill corpus contains 493 records, with 248 explicit skill→PQ reward edges across 170 PQ IDs and zero unresolved canonical skill endpoints in the forward PQ consumer projection. Older 294/298-record milestone text below is historical and must not be treated as the current corpus. The 16 PQ IDs without explicit canonical skill endpoints remain research targets; absence of an endpoint is not treated as proof of no skill reward.
+The PQ-to-skill cross-link audit is currently represented by the latest persisted reconciliation report: the canonical skill corpus contains 493 records, with 249 explicit skill→PQ reward edges across 171 PQ IDs and zero unresolved canonical skill endpoints in the forward PQ consumer projection. Older 294/298-record milestone text below is historical and must not be treated as the current corpus. The 15 PQ IDs without explicit canonical skill endpoints remain research targets; absence of an endpoint is not treated as proof of no skill reward.
 3. Deepen the existing Parallel Quest layer by filling remaining reward/acquisition/version fields now that skill cross-links are reconciled.
 4. Audit Awoken/Transformation records against the same exhaustive field standard.
 5. Finish EM01–20 verification.
