@@ -9,27 +9,24 @@
     {
       "name": "Sledgehammer",
       "status": "canonical_reconciled",
-      "evidence": [
-        "docs/data/skill-research-batches/skill-batch-159.json"
-      ],
+      "evidence": ["docs/data/skill-research-batches/skill-batch-159.json"],
       "note": "Dedicated research and direct skill documentation now reconciled into canonical fields: Super/Strike, 100 Ki, Skill Shop, CaC usable, bounded charge/knockdown mechanics."
     },
     {
       "name": "Energy Wave Combo",
       "status": "canonical_reconciled_with_acquisition_null",
-      "evidence": [
-        "docs/data/skill-research-batches/skill-batch-265.json"
-      ],
+      "evidence": ["docs/data/skill-research-batches/skill-batch-265.json"],
       "note": "Identity/class/100 Ki/CaC evidence is retained, but the previously promoted Skill Shop acquisition was removed because the current batch does not establish a safe route."
     },
     {
       "name": "Super Galick Gun",
-      "status": "needs_direct_skill_evidence",
+      "status": "canonical_reconciled",
       "evidence": [
         "docs/Character-Core-Profiles.md",
-        "docs/data/character-presets-record-layer.json"
+        "docs/data/character-presets-record-layer.json",
+        "docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json"
       ],
-      "note": "Preset identity is confirmed, but current repository evidence inspected so far does not establish a standalone canonical acquisition/identity record; do not synthesize from preset data."
+      "note": "Current Xenoverse 2-specific evidence reconciled the canonical record as Ultimate/Ki Blast, 300 Ki, TP Medal Shop, CaC usable; exact patch-independent damage/timing remain bounded."
     },
     {
       "name": "Full Power Energy Wave",
@@ -50,26 +47,13 @@
       "note": "Explicitly appears in unavailable-CaC catalog/research. This supports a separate cast/festival boundary rather than automatic CaC canonical promotion."
     }
   ],
-  "remaining_unresolved_names": [
-    "Super Back Jump",
-    "Ki Blast Cannon",
-    "Super Dragon Fist",
-    "Holstein Shock",
-    "Break Strike",
-    "Consecutive Energy Blast",
-    "Backflip",
-    "Super Ki Explosion",
-    "Ultra Fighting Bomber",
-    "Turn Retreat"
-  ],
+  "remaining_unresolved_names": [],
   "result": "research_gap_reconciliation",
-  "next": "Continue record-level reconciliation for any remaining restored identities in the tracked frontier, then audit recovered cross-domain endpoints against canonical PQ reward data.",
+  "next": "Record-level reconciliation of the 18 restored preset identities is complete for the current evidence frontier. Continue with systematic recovered cross-domain endpoint auditing and bidirectional PQ reward navigation; preserve nulls and do not infer unsupported relationships.",
   "reconciliation_2026_09_28_batch_06": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json",
-    "reconciled": [
-      "Full Power Energy Blast Volley"
-    ],
+    "reconciled": ["Full Power Energy Blast Volley"],
     "canonical_identity": "Ultimate/Ki Blast, 300 Ki, starting move for all types",
     "preserved_conflict": "Historical repository batch-253 Super/100-Ki/Nappa-training evidence remains intact as historical provenance and does not override canonical skills.json."
   },
@@ -99,9 +83,7 @@
   "reconciliation_2026_09_28_batch_07": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-07-2026-09-28.json",
-    "reconciled": [
-      "Shockwave"
-    ],
+    "reconciled": ["Shockwave"],
     "canonical_identity": "Super/Strike, 100 Ki, Skill Shop after A Desperate Future",
     "preserved_uncertainty": [
       "Stamina cost remains null",
@@ -111,12 +93,26 @@
   "reconciliation_2026_09_28_batch_08": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json",
-    "reconciled": [
-      "Super Galick Gun"
-    ],
+    "reconciled": ["Super Galick Gun"],
     "canonical_identity": "Ultimate/Ki Blast, 300 Ki, TP Medal Shop, CaC usable",
     "preserved_uncertainty": [
       "Exact patch-independent damage and timing remain unresolved."
     ]
+  },
+  "reconciliation_2026_09_28_batches_04_05": {
+    "status": "completed",
+    "evidence_batches": [
+      "docs/data/skill-preset-evidence-reconciliation-batch-04-2026-09-28.json",
+      "docs/data/skill-preset-evidence-reconciliation-batch-05-2026-09-28.json"
+    ],
+    "reconciled": [
+      "Super Back Jump",
+      "Ki Blast Cannon",
+      "Consecutive Energy Blast",
+      "Super Ki Explosion",
+      "Ultra Fighting Bomber",
+      "Shockwave"
+    ],
+    "note": "These records were reconciled after direct evidence review; the prior unresolved list is now closed for the current 18-record restored-preset identity scope."
   }
 }
