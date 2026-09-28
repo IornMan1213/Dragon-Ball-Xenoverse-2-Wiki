@@ -9,14 +9,19 @@
     {
       "name": "Sledgehammer",
       "status": "canonical_reconciled",
-      "evidence": ["docs/data/skill-research-batches/skill-batch-159.json"],
+      "evidence": [
+        "docs/data/skill-research-batches/skill-batch-159.json"
+      ],
       "note": "Dedicated research and direct skill documentation now reconciled into canonical fields: Super/Strike, 100 Ki, Skill Shop, CaC usable, bounded charge/knockdown mechanics."
     },
     {
       "name": "Energy Wave Combo",
-      "status": "canonical_reconciled_with_acquisition_null",
-      "evidence": ["docs/data/skill-research-batches/skill-batch-265.json"],
-      "note": "Identity/class/100 Ki/CaC evidence is retained, but the previously promoted Skill Shop acquisition was removed because the current batch does not establish a safe route."
+      "status": "canonical_identity_reconciled_acquisition_evidence_refresh_pending",
+      "evidence": [
+        "docs/data/skill-research-batches/skill-batch-265.json",
+        "docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json"
+      ],
+      "note": "Identity/class/100 Ki/CaC evidence remains reconciled. A 2026-09-28 evidence refresh independently supports Skill Shop/default Future Warrior acquisition. The large canonical skills.json blob could not be safely retrieved for an in-place mutation through the available repository API, so canonical propagation remains explicitly queued rather than reconstructed."
     },
     {
       "name": "Super Galick Gun",
@@ -49,11 +54,13 @@
   ],
   "remaining_unresolved_names": [],
   "result": "research_gap_reconciliation",
-  "next": "Record-level reconciliation of the 18 restored preset identities is complete for the current evidence frontier. Continue with systematic recovered cross-domain endpoint auditing and bidirectional PQ reward navigation; preserve nulls and do not infer unsupported relationships.",
+  "next": "Safely propagate Energy Wave Combo acquisition evidence into canonical skills.json and skills-index.json when a non-destructive large-file edit path is available; otherwise continue independent mechanics/acquisition enrichment without treating index/evidence layers as canonical.",
   "reconciliation_2026_09_28_batch_06": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json",
-    "reconciled": ["Full Power Energy Blast Volley"],
+    "reconciled": [
+      "Full Power Energy Blast Volley"
+    ],
     "canonical_identity": "Ultimate/Ki Blast, 300 Ki, starting move for all types",
     "preserved_conflict": "Historical repository batch-253 Super/100-Ki/Nappa-training evidence remains intact as historical provenance and does not override canonical skills.json."
   },
@@ -83,7 +90,9 @@
   "reconciliation_2026_09_28_batch_07": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-07-2026-09-28.json",
-    "reconciled": ["Shockwave"],
+    "reconciled": [
+      "Shockwave"
+    ],
     "canonical_identity": "Super/Strike, 100 Ki, Skill Shop after A Desperate Future",
     "preserved_uncertainty": [
       "Stamina cost remains null",
@@ -93,10 +102,15 @@
   "reconciliation_2026_09_28_batch_08": {
     "status": "completed",
     "evidence_batch": "docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json",
-    "reconciled": ["Super Galick Gun"],
-    "canonical_identity": "Ultimate/Ki Blast, 300 Ki, TP Medal Shop, CaC usable",
+    "reconciled": [
+      "Super Galick Gun"
+    ],
+    "acquisition_evidence_refresh": [
+      "Energy Wave Combo"
+    ],
+    "canonical_propagation": "pending_safe_large_file_edit",
     "preserved_uncertainty": [
-      "Exact patch-independent damage and timing remain unresolved."
+      "Energy Wave Combo PQ ownership is not inferred from acquisition/default-skill evidence."
     ]
   },
   "reconciliation_2026_09_28_batches_04_05": {
