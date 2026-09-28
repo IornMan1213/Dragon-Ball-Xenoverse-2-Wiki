@@ -4276,3 +4276,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Restore Dual Masenko to canonical Skills and Skills Index (475 records); reconcile Future Trunks (Time Patrol) Partner Customization relationship.
 - [ ] 2026-09-27: PQ118 ↔ Dual Masenko relationship remains unresolved; do not invent a Skill→PQ edge without explicit reward evidence.
 - [ ] 2026-09-27: Run/inspect canonical cross-domain validators after the Dual Masenko restoration, then continue to the next genuine omission/under-enriched endpoint.
+
+
+- [x] 2026-09-27: Synchronize canonical validator baselines from 474 to 475 after Dual Masenko restoration; preserve 246 Skill→PQ edges / 170 represented PQs.
+- [x] 2026-09-27: Synchronize Skill→PQ reverse index and PQ-skill crosslink report with the restored 475-record canonical corpus.
+- [x] 2026-09-27: Reconcile Partner Customization validator and Dual Masenko partner endpoint to canonical Future Trunks identity.
+- [ ] 2026-09-27: Execute validators through an available runtime/CI path; connector-side runtime execution remains unverified.
