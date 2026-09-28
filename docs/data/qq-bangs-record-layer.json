@@ -515,12 +515,20 @@
       "sources": [
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
       ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Recovered three recipe-family records that were present in the immediately preceding live QQ Bang expansion commits but absent from the current file. These are preserved as community recipe families, not deterministic six-stat outputs.",
+      "sources": [
+        "https://www.youtube.com/watch?v=XBy_oawrYnk",
+        "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/commit/4a6753753811ed18525d5c2dcb37f73b29be2420"
+      ]
     }
   ],
   "research_frontier": {
     "last_cycle": "2026-09-27",
     "promoted_observed_vectors": 11,
-    "total_records": 15,
-    "next_target": "expand observed six-stat QQ Bang vectors and recipe provenance without treating community recipes as deterministic"
+    "total_records": 18,
+    "next_target": "expand observed six-stat QQ Bang vectors and acquisition/material provenance without treating community recipes as deterministic"
   }
 }
