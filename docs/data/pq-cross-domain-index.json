@@ -2227,5 +2227,6 @@
     "boundary": "Observed output only; no deterministic recipe or guaranteed result inferred."
   },
   "skill_research_batch_528_current_evidence": "docs/data/skill-research-batches/skill-batch-528.json",
-  "skill_research_batch_529_current_evidence": "docs/data/skill-research-batches/skill-batch-529.json"
+  "skill_research_batch_529_current_evidence": "docs/data/skill-research-batches/skill-batch-529.json",
+  "skill_research_batch_530_current_evidence": "docs/data/skill-research-batches/skill-batch-530.json"
 }
