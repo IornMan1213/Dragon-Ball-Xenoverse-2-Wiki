@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-27",
+  "purpose": "Post-corruption live-main recovery reconciliation checkpoint. Confirms that the surviving canonical database layers are restored to the current recovered baseline before forward enrichment.",
+  "live_main_commit": "db6b7c96fef86ab0f690369a6f13f585491da7fb",
+  "source_policy": "Canonical data is the source of truth. Indexes, verified layers, reverse projections, and presentation artifacts must not be used to reconstruct canonical records when canonical data survives.",
+  "recovery_status": "recovered_and_reconciled",
+  "baselines": {
+    "skills": {"canonical_records": 475, "index_records": 475, "skill_pq_edges": 246, "represented_pqs": 170},
+    "pq_rewards": {"total_relationships": 840, "skill": 236, "super_soul": 137, "equipment": 125, "character": 247, "dlc": 88, "farming": 7},
+    "super_souls": {"historical_records": 172, "active_records": 167},
+    "equipment": {"record_layer_records": 112},
+    "mentors": {"records": 33},
+    "awoken": {"records": 15},
+    "qq_bangs": {"record_layer_records": 23, "observed_vectors": 16},
+    "partner_skill_relationships": {"relationships_count": 3},
+    "parallel_quests": {"record_layer_records": 186}
+  },
+  "recovered_work_verified": [
+    "Canonical Skills regression recovery is preserved and the current skill/index parity is 475/475.",
+    "Canonical PQ reward relationship recovery remains the 840-edge baseline.",
+    "All 186 canonical Parallel Quest records are present.",
+    "QQ Bang recovery restored the expanded 23-record layer and 16 observed vectors.",
+    "QQ Bang/equipment identity reconciliation preserves exact component distinctions and unresolved acquisition fields.",
+    "The explicit 33-entry equipment-to-PQ acquisition queue is closed; the combined endpoint graph has 48 unique forward and 48 matching reverse endpoints with no duplicate or asymmetric endpoint.",
+    "Skill evidence refresh has reached Batch 527; Batch 527 was screened against later dedicated evidence and made no unsupported canonical rewrite."
+  ],
+  "integrity_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this connector-only recovery pass. No canonical record is considered proven merely because a projection or index contains it.",
+  "next_frontier": [
+    "Continue evidence-backed QQ Bang/equipment provenance reconciliation.",
+    "Continue equipment/build and skill/PQ cross-navigation enrichment.",
+    "Promote only exact identity matches supported by canonical or explicit source evidence.",
+    "Preserve historical conflicts, RNG uncertainty, drop-rate uncertainty, and unresolved acquisition semantics."
+  ]
+}
