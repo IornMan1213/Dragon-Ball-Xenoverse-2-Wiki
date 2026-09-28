@@ -6714,3 +6714,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical relationship data was not modified and no unsupported relationship was invented.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ181-PQ186 final numbered-block recovery-forward reconciliation; after that, move to the next substantive cross-domain/provenance frontier rather than fabricating PQ numbers beyond the final populated block.
+
+
+### 2026-09-28 continuation — PQ181-PQ186 final numbered-block recovery-forward reconciliation batch 574
+- [x] Re-read the live continuation prompt/TODO and audited the final populated PQ block PQ181-PQ186 against dedicated research, maintained PQ records, canonical typed reward relationships, and equipment/accessory endpoint records.
+- [x] Restored all six maintained skill reward projections: PQ181 Super Kamehameha (SS4 DAIMA) + Final Flash (SS3 DAIMA); PQ182 Dark Inscription; PQ183 Emperor's Cannon; PQ184 Chaotic Time Impact; PQ185 Dragon Spiral + Indomitable; PQ186 Venus Fist.
+- [x] Restored seven canonical equipment projections using equipment endpoints: PQ181 Glorio's Clothes/Panzy's Clothes, PQ182 Golden Frieza Suit, PQ185 Goku (Ultra Supervillain Quelled)'s Clothes, and PQ186 Fu (Ultra Supervillain)'s Clothes/Fu (Ultra Supervillain) Set/Fu Set 2.
+- [x] Restored seven accessory endpoints: PQ181 Glorio Wig/Panzy Wig, PQ182 Golden Frieza Head, PQ183 Cheelai's Coat/Broly Wig (Black Hair, Normal), PQ184 Dragon Ball Balloon, and PQ185 Goku (Ultra Supervillain Quelled) Wig.
+- [x] Restored seven maintained Super Soul projections across PQ182-PQ186.
+- [x] Corrected PQ183 Cheelai's Coat to the canonical accessory endpoint acc-087 instead of fabricating an equipment ID.
+- [x] Preserved the canonical source-of-truth boundary; canonical relationship data was not modified and no unsupported reward/drop relationship was invented.
+- [x] Added/indexed `docs/data/pq-reward-boundary-audits/pq-181-186-cross-domain-reconciliation-2026-09-28.json` (batch 574).
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** move to the next substantive cross-domain/provenance frontier after the final populated PQ block; do not fabricate PQ numbers beyond PQ186.
