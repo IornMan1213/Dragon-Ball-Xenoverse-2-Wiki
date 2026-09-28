@@ -6202,14 +6202,14 @@
       "ultimate_finish_required": false,
       "ki_cost": 300,
       "damage_type": "Ki Blast",
-      "mechanics_notes": "300-Ki Ki Blast Ultimate and default starting Ultimate for the Future Warrior. Fires a multi-projectile Ki-blast barrage; current Xenoverse 2-specific evidence documents tracking/homing behavior after knockback or as a combo finisher. Exact patch-independent hit count, damage, timing, and projectile spread remain version-sensitive and are not promoted.",
+      "mechanics_notes": "300-Ki Ki Blast Ultimate. The user fires a sustained multi-projectile barrage in a forward cone; current Xenoverse 2-specific evidence describes tracking after knockback. Exact frame timing and patch-independent damage values remain unresolved.",
       "id": "skill-full-power-energy-blast-volley",
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Starting move for all types",
       "effect": "Fires a sustained barrage of Ki blasts; projectiles can track after knockback.",
       "acquisition_type": "starting_move",
       "race_restriction": "All CaC races",
-      "notes": " 2026-09-28 Batch 06 canonical resolution: current Xenoverse 2-specific evidence and independent corroboration resolve the repository's historical Super/100-Ki/Nappa-training conflict in favor of Ultimate/Ki Blast, 300 Ki, and starting-move status. The conflicting historical research remains preserved in its source batch and is not treated as canonical authority."
+      "notes": " 2026-09-28 Batch 06 canonical resolution: current Xenoverse 2-specific evidence and independent corroboration resolve the repository's historical Super/100-Ki/Nappa-training conflict in favor of Ultimate/Ki Blast, 300 Ki, and starting-move status. The conflicting historical research remains preserved in its source batch and is not treated as canonical authority. 2026-09-28 Batch 05 canonical reconciliation: current Xenoverse 2-specific documentation identifies Full Power Energy Blast Volley as the default starting Ultimate for all types, a 300-Ki Ki Blast Ultimate. The older repository Super/100-Ki/Nappa-training entry is retained as conflicting historical research only and is not treated as canonical authority."
     },
     {
       "name": "Full Power Energy Wave",
