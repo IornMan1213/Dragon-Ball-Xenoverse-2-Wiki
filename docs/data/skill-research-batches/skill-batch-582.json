@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 582,
+  "date": "2026-09-28",
+  "status": "complete",
+  "type": "late_dlc_typed_reward_reconciliation_followup",
+  "scope": "PQ163-PQ186 Super Soul and equipment relationship coverage",
+  "finding": "The apparent typed-reward gaps in the coverage audit are not demonstrated missing canonical relationships. The normalized late-DLC reward map has 15 Super Soul edges and 23 equipment edges, and both sets reconcile exactly to the canonical relationship layer after documented Super Soul name normalization.",
+  "checks": {
+    "super_souls": {
+      "normalized_map_edges": 15,
+      "canonical_relationship_edges": 15,
+      "map_only": [],
+      "relationship_only": []
+    },
+    "equipment": {
+      "normalized_map_edges": 23,
+      "canonical_relationship_edges": 23,
+      "map_only": [],
+      "relationship_only": []
+    }
+  },
+  "policy": "Do not infer that a PQ has no typed reward merely because its ID is absent from this normalized map. Coverage gaps remain research targets, while explicit mapped edges are already reconciled.",
+  "canonical_mutation": false,
+  "next": "Prioritize genuinely unresolved global typed-reward cases and skill mechanics/version-provenance enrichment rather than duplicating reconciled PQ163-PQ186 edges.",
+  "sources": [
+    "docs/data/pq-late-dlc-typed-reward-reconciliation-2026-09-28.json",
+    "docs/data/pq-late-dlc-typed-reward-coverage-audit-2026-09-28.json"
+  ]
+}
