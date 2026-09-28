@@ -5300,3 +5300,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `scripts/apply_canonical_skill_patch.py` for identity-scoped, dry-run-first canonical skill edits.
 - [x] Wired Energy Wave Combo's exact patch into the propagation queue and specified post-write validators.
 - [ ] **Exact next:** run the patcher against a complete checkout, validate both canonical skill layers and acquisition metadata, commit the mutation, then continue the remaining evidence-backed mechanics/acquisition frontier.
+
+
+### 2026-09-28 continuation — Propagation queue reconciliation
+- [x] Reconciled the handoff against the live canonical state: Energy Wave Combo propagation was already completed through the safe complete-blob path (493 canonical / 493 index records), despite the older queue section still saying it was pending.
+- [x] Closed `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` as applied and validated while preserving the queue as historical provenance.
+- [x] Rechecked the Dual Masenko frontier: canonical restoration is already complete; TP Medal Shop remains the supported acquisition route, while PQ118 remains intentionally unresolved because repository evidence conflicts.
+- [x] Rechecked the restored-skill evidence batches; no unsupported PQ relationships were introduced from Skill Shop/default-skill evidence.
+- [ ] **Next:** move beyond the restored identity/acquisition frontier into the remaining evidence-backed mechanics/acquisition gaps and bidirectional cross-domain reconciliation.
