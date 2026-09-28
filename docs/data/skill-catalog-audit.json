@@ -41,14 +41,14 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-27",
-  "latest_research_batch": 526,
-  "canonical_catalog_generated": "2026-09-27",
+  "latest_research_batch": 537,
+  "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Cross-domain synchronization of the 493-record canonical skill corpus; remaining indexed-only categories stay explicitly noncanonical until evidence promotion.",
+  "current_research_focus": "Post-recovery synchronization of the 497-record canonical skill corpus; continue evidence-backed promotion of genuinely indexed-only Future Warrior skills while preserving cast-only and variant boundaries.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
-    "canonical_skill_records": 493,
+    "canonical_skill_records": 497,
     "batch_indexed_records": 561,
     "distinction": "The 561 source-category index is a coverage universe, not a canonical-record count. Canonical skills.json remains authoritative.",
     "preset_loadout_identity_check": {
@@ -64,7 +64,7 @@
     "projection_rule": "Indexes/catalogs/research batches are evidence or projections only and cannot override canonical skills.json."
   },
   "catalog_identity_reconciliation_2026_09_27": {
-    "canonical_skill_records": 493,
+    "canonical_skill_records": 497,
     "unique_indexed_category_records": 555,
     "category_count_sum": 561,
     "indexed_only_unique_names": 112,
@@ -189,6 +189,6 @@
       "The Saviour Has Come",
       "Lovely Showtime"
     ],
-    "next": "Prioritize the 28 unavailable-for-CaC overlaps and the duplicate/variant families for evidence reconciliation; do not promote the remaining 84 indexed-only names without direct record-level evidence."
+    "next": "Recompute indexed-only universe against the 497-record canonical corpus; prioritize directly evidenced Future Warrior skills and preserve cast-only/variant exclusions."
   }
 }
