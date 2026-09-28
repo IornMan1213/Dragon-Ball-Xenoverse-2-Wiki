@@ -824,6 +824,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_links": [
+        "equip-060"
       ]
     },
     {
@@ -971,7 +974,8 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "equipment_links": []
     },
     {
       "id": "pq-046",
@@ -1380,6 +1384,9 @@
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_links": [
+        "equip-061"
       ]
     },
     {
@@ -1926,14 +1933,25 @@
       "difficulty": null,
       "dlc_requirement": null,
       "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
+      "objectives": [
+        "Recover 3 Dragon Balls",
+        "Defeat Broly with Gohan surviving",
+        "Recover 7 Dragon Balls"
+      ],
+      "ultimate_finish": "Recover 7 Dragon Balls",
       "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
+      "rewards": [
+        "3860 Zeni",
+        "Energy Capsule L",
+        "High Mix Capsule",
+        "Charge"
+      ],
+      "skill_rewards": [
+        "Charge"
+      ],
       "equipment_rewards": [],
       "super_soul_rewards": [],
-      "dragon_ball_farming": null,
+      "dragon_ball_farming": true,
       "verification_status": "indexed",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Parallel_Quests"
@@ -2257,11 +2275,22 @@
       "difficulty": null,
       "dlc_requirement": null,
       "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
+      "objectives": [
+        "Defeat every opponent",
+        "Clear in 8 minutes or less",
+        "Defeat SSGSS Goku and SSGSS Vegeta"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku and SSGSS Vegeta",
       "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
+      "rewards": [
+        "5030 Zeni",
+        "SSGSS Vegeta Wig",
+        "Whis Symbol Battle Suit",
+        "X 100 Big Bang Kamehameha"
+      ],
+      "skill_rewards": [
+        "X 100 Big Bang Kamehameha"
+      ],
       "equipment_rewards": [
         {
           "equipment_id": "equip-088",
