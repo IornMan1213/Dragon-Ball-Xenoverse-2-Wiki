@@ -73,7 +73,8 @@
     "Restored 18 missing PQ41-60 canonical records and 0 exact-name bidirectional equipment links.",
     "Restored 20 missing PQ61-80 canonical PQ records and 0 exact-name equipment links.",
     "Restored 18 additional missing PQ records from maintained PQ batches; equipment-link audit found no safe exact-name canonical matches in this batch.",
-    "Restored 84 missing canonical PQ records from maintained PQ101-186 batches. No speculative equipment links were created."
+    "Restored 84 missing canonical PQ records from maintained PQ101-186 batches. No speculative equipment links were created.",
+    "Restored 0 missing PQ41-100 records from maintained batches; added 0 exact-name bidirectional equipment links."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -84,7 +85,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Restored all missing maintained PQ records through PQ186 into the canonical PQ layer. Exact-name equipment cross-links were not added for PQ101-186 because the canonical equipment layer currently has no exact-name matches; unresolved accessory identities remain governed by their research conflict records."
+    "note": "Restored 0 missing canonical PQ records across maintained PQ41-100 batches and created 0 exact-name equipment links where canonical equipment identities exist."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
