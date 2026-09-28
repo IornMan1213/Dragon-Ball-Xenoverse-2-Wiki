@@ -9444,18 +9444,19 @@
       "name": "Shockwave",
       "class": "Super",
       "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "catalog_gap_promoted",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Shockwave",
         "https://dbxv2.fandom.com/wiki/Goku",
-        "https://videogaming.fandom.com/wiki/Burter"
+        "https://videogaming.fandom.com/wiki/Burter",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74497091"
       ],
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-28",
       "race_restriction": null,
-      "mechanics_notes": "The Xenoverse 2 skill reference classifies Shockwave as an unblockable Strike Super. It can interrupt certain actions such as basic attacks or blocking and launches the opponent back in slow motion; when it does not interrupt an action, the effect is a smaller push. Shockwave and Ki Blast Cannon are kept as separate identities despite historical description/property confusion.",
+      "mechanics_notes": "Unblockable Strike Super that can interrupt attacks or blocking and push the opponent away; non-interrupt use produces a smaller push.",
       "source_quest_or_shop": "Skill Shop after A Desperate Future"
     },
     {
