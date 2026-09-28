@@ -4380,3 +4380,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Added bidirectional equipment ↔ PQ acquisition links for Goku's Turtle Hermit Gi and Demon Clothes (Gohan, Kid) ↔ PQ 04, plus Whis Symbol Battle Suit ↔ PQ 100, using explicit canonical source fields.
 - [ ] Next: continue reconciling QQ Bang equipment identities and expand equipment ↔ PQ links only when canonical source evidence supports them.
+
+- [x] 2026-09-27: Completed the identified QQ Bang equipment-link gap for Light Heart Suit in qq-recipe-004 and qq-recipe-005; audited all QQ Bang equipment IDs against canonical equipment with no broken links.
+- [ ] Next: expand equipment ↔ PQ acquisition links where direct canonical evidence exists, then continue broader cross-domain reconciliation.
