@@ -5285,3 +5285,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Created `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` with the exact intended canonical patch and safety boundaries.
 - [x] Refused unsafe reconstruction of `skills.json`/index from incomplete API output; no unrelated canonical records were risked.
 - [ ] **Exact next:** execute the queued Energy Wave Combo patch through a safe complete-file/repository-tree mechanism, validate identity/count parity, then resume mechanics enrichment.
+
+
+### 2026-09-28 continuation — Energy Wave Combo canonical propagation completed
+- [x] Safely retrieved the complete canonical `skills.json` blob and applied the queued Energy Wave Combo acquisition correction without reconstructing unrelated records.
+- [x] Synchronized `skills-index.json` with the canonical record.
+- [x] Validated **493/493** canonical/index record counts and matching Energy Wave Combo acquisition state.
+- [x] Closed the propagation queue as applied and validated.
+- [ ] **Exact next:** continue remaining restored-skill acquisition/mechanics enrichment using explicit current evidence, with null/conflict boundaries preserved.
