@@ -5623,3 +5623,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Synchronized the enrichment queue, cross-domain status/audit, live recovery baseline, TODO, and continuation handoff.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: do not force-match Great Saiyaman Bandana 1/2, Android 15 Sunglasses, or unresolved component identities without inventory-level evidence; after remaining safe identity checks, return to broader mechanics/acquisition enrichment.
+
+
+### 2026-09-28 continuation — Gamma 2 Helmet/PQ155 reconciliation
+- [x] Found one remaining candidate with a canonical identity and explicit PQ route that was missing from the authoritative relationship store: **Gamma 2's Helmet→PQ155** (`acc-056` / `pqacc-044`).
+- [x] Promoted the relationship as `source_backed`; exact reward/drop condition remains separate.
+- [x] Synchronized the enrichment queue, PQ status/audit, and live recovery baseline.
+- [x] Current canonical PQ relationship store is now **862 edges**: 249 Skill, 135 Super Soul, 136 Equipment, 247 Character, 88 DLC, 7 Farming.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: inspect for any remaining canonical-source discrepancies before broader mechanics/acquisition enrichment; preserve unresolved component identities and historical route conflicts.
