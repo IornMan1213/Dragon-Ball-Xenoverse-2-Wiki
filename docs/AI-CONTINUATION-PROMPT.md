@@ -5001,3 +5001,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Restored missing rewards/skill/equipment/Super Soul and related maintained batch fields across canonical PQ41-100 where canonical fields were sparse.
 - [x] Added exact-name equipment links and reverse PQ links where canonical equipment identities exist.
 - [ ] Continue auditing later PQ ranges for sparse canonical fields; preserve unresolved identities rather than guessing.
+
+### 2026-09-27 continuation — PQ41-100 restoration
+- [x] Restored 0 missing PQ41-100 canonical records from maintained batch data.
+- [x] Audited equipment rewards against canonical equipment; no additional exact-name matches were found.
+- [x] Avoided speculative equipment identity/link creation.
+- [ ] Continue restoration through PQ101+ maintained batches.
