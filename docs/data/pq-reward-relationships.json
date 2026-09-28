@@ -7935,6 +7935,6 @@
     "e",
     "d",
     ".",
-    "2026-09-28: Added four source-backed Super Soul→PQ relationships for PQ30, PQ35, and PQ93 from the maintained Steam all-PQ reward source; these were already represented in the canonical Super Soul acquisition index but missing from the forward relationship layer."
+    "2026-09-28 audit correction: PQ30/PQ35/PQ93 Super Soul relationships were already present in the canonical forward relationship layer; this audit confirmed parity with the Super Soul acquisition index and did not promote duplicate relationships."
   ]
 }
