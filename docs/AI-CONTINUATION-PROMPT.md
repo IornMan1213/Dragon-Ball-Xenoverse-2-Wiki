@@ -5149,3 +5149,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Removed only exact duplicate relationship objects; retained one evidence-bounded relationship for each source record.
 - [x] Repaired graph now has no QQ Bang→equipment missing reverse endpoints and no duplicate QQ Bang relationship objects on `equip-101`.
 - [ ] **Next:** continue equipment/build cross-navigation and provenance audits beyond QQ Bang links; do not infer missing identities, acquisition guarantees, or RNG outcomes.
+
+
+## 2026-09-27 continuation — canonical equipment ↔ PQ reverse-navigation closure
+
+- [x] Audited the canonical Parallel Quest equipment graph: 48 PQ-side equipment edges, all resolving to valid canonical equipment IDs.
+- [x] Found 41 missing reverse endpoints in `docs/data/equipment-record-layer.json`; the remaining seven were already present.
+- [x] Added the missing canonical equipment `pq_links` strings, preserving the existing PQ-side relationship semantics and avoiding any new guaranteed-drop inference.
+- [x] Post-fix validation: 48/48 PQ→equipment edges have matching equipment→PQ reverse links; 0 invalid endpoints; 0 duplicate reverse links.
+- [ ] **Next:** continue equipment/build cross-navigation beyond PQs, especially skill/character/build relationships and provenance coverage, using canonical records as the authority.
