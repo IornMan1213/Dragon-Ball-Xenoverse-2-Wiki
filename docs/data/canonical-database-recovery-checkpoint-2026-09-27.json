@@ -29,7 +29,7 @@
       "blob_sha": "92fcb0bf11632cc6d0de8b0d9ccdf0e14981379f"
     },
     "equipment": {
-      "record_layer_records": 109
+      "record_layer_records": 110
     },
     "mentors": {
       "records": 33,
@@ -78,7 +78,8 @@
     "PQ101-186 maintained-batch restoration pass: 0 missing records restored; 0 exact-name equipment links added.",
     "Restored missing canonical PQ1-20 records from maintained research batches, preserving sourced objectives/rewards and conservative uncertainty.",
     "Restored PQ41-100 sparse reward fields from maintained batches; applied 2 exact-name equipment link occurrences.",
-    "Restored 0 missing canonical PQ41-100 records from maintained batches; equipment audit found no additional exact-name canonical equipment matches in this range."
+    "Restored 0 missing canonical PQ41-100 records from maintained batches; equipment audit found no additional exact-name canonical equipment matches in this range.",
+    "QQ Bang component-identity reconciliation mapped explicit Beerus upper-body aliases to equip-101, added equip-110 for the distinct Beerus lower-body input documented by Prima Games, and mapped the Bardock Battle Suit naming variant to equip-024; no stats or acquisition routes were inferred."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -89,7 +90,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Restored 0 missing PQ41-100 records from maintained batches. No new exact-name equipment identities were available in this range, so no speculative equipment records or links were created."
+    "note": "QQ Bang clothing component identities are reconciled where explicit evidence supports them; continue version-aware Super Mix Capsule Z/material provenance and equipment/build cross-domain relationships, preserving unresolved inputs rather than guessing."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
