@@ -4869,3 +4869,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added equipment identifiers to **8 QQ Bang records** where input names matched canonical records safely. This establishes the beginning of the intended PQ → equipment/QQ Bang → build cross-navigation chain.
 - [ ] Continue resolving remaining QQ Bang clothing inputs (including existing-but-name-mismatched equipment records) and then add version-aware Super Mix Capsule Z/material provenance.
 - [ ] Runtime/CI execution remains unverified.
+
+
+### 2026-09-27 checkpoint reconciliation
+- [x] Recovery checkpoint synchronized to the live post-recovery layers: equipment **104** records and QQ Bang **23** records with **16** complete observed vectors.
+- [x] Audited QQ Bang equipment links against canonical equipment IDs; corrected provisional IDs for Goku Black's Clothes and Super Saiyan 4 Suit (Goku) using canonical records equip-094/equip-095.
+- [ ] Continue canonical identity matching for remaining QQ Bang inputs; next research target remains version-aware Super Mix Capsule Z/material provenance, followed by broader equipment/build cross-links.
