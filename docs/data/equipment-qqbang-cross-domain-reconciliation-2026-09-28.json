@@ -1,16 +1,52 @@
 {
-  "schema_version":"1.0",
-  "audit_date":"2026-09-28",
-  "audit_type":"equipment_qq_bang_cross_domain_reconciliation",
-  "canonical_sources":{"pq_relationships":"docs/data/pq-reward-relationships.json","equipment":"docs/data/equipment-record-layer.json","accessories":"docs/data/equipment-accessories-record-layer.json","qq_bangs":"docs/data/qq-bangs-record-layer.json"},
-  "pq_equipment_relationship_state":{"canonical_edges":127,"projection_report":"docs/data/pq-equipment-crosslink-report.json","projection_status":"synchronized_2026-09-28","identity_gaps_reported":0,"historical_baseline":125,"newly_reconciled_scope":"PQ12-14 typed equipment rewards are present in the canonical forward layer and equipment reverse projection."},
-  "equipment_endpoint_boundary":{"canonical_equipment_records":112,"rule":"Do not infer missing equipment records or acquisition relationships from normalized reverse-map omissions."},
-  "qq_bang_state":{"canonical_records":23,"observed_vectors":17,"identity_link_policy":"Only explicit clothing-input identities are linked to canonical equipment IDs; unresolved aliases remain unlinked.","stat_policy":"Observed six-stat vectors remain observations and are not promoted to deterministic recipe guarantees."},
-  "findings":[
-    {"id":"equipment-projection-drift","status":"resolved","detail":"Equipment PQ reverse projection was stale at 125 edges while the live forward relationship store contained 127; projection synchronized without changing canonical reward ownership."},
-    {"id":"pq-12-14-equipment-expansion","status":"resolved","detail":"Battle Suit (Turles), Battle Suit (Ginyu Force Black), and Goku's Turtle Hermit Gi (Go) are source-backed PQ equipment relationships for PQ12, PQ13, and PQ14."},
-    {"id":"qq-bang-input-boundaries","status":"preserved","detail":"QQ Bang observations do not establish guaranteed outputs; explicit equipment identities may be linked for navigation while unresolved aliases remain research evidence."}
+  "schema_version": "1.0",
+  "audit_date": "2026-09-28",
+  "audit_type": "equipment_qq_bang_cross_domain_reconciliation",
+  "canonical_sources": {
+    "pq_relationships": "docs/data/pq-reward-relationships.json",
+    "equipment": "docs/data/equipment-record-layer.json",
+    "accessories": "docs/data/equipment-accessories-record-layer.json",
+    "qq_bangs": "docs/data/qq-bangs-record-layer.json"
+  },
+  "pq_equipment_relationship_state": {
+    "canonical_edges": 126,
+    "projection_report": "docs/data/pq-equipment-crosslink-report.json",
+    "projection_status": "synchronized_2026-09-28",
+    "identity_gaps_reported": 0,
+    "historical_baseline": 125,
+    "newly_reconciled_scope": "PQ12-14 equipment rewards and the existing PQ47 Broly's Clothes edge are represented in the canonical forward layer; reverse audit found 126 unique equipment edges."
+  },
+  "equipment_endpoint_boundary": {
+    "canonical_equipment_records": 112,
+    "rule": "Do not infer missing equipment records or acquisition relationships from normalized reverse-map omissions."
+  },
+  "qq_bang_state": {
+    "canonical_records": 23,
+    "observed_vectors": 17,
+    "identity_link_policy": "Only explicit clothing-input identities are linked to canonical equipment IDs; unresolved aliases remain unlinked.",
+    "stat_policy": "Observed six-stat vectors remain observations and are not promoted to deterministic recipe guarantees."
+  },
+  "findings": [
+    {
+      "id": "equipment-projection-drift",
+      "status": "resolved",
+      "detail": "Equipment PQ reverse metadata had been stale at 127. Record-level audit of the canonical forward layer found 126 unique source-backed edges; the projection is now synchronized to 126."
+    },
+    {
+      "id": "pq-12-14-equipment-expansion",
+      "status": "resolved",
+      "detail": "Battle Suit (Turles), Battle Suit (Ginyu Force Black), and Goku's Turtle Hermit Gi (Go) are source-backed PQ equipment relationships for PQ12, PQ13, and PQ14."
+    },
+    {
+      "id": "qq-bang-input-boundaries",
+      "status": "preserved",
+      "detail": "QQ Bang observations do not establish guaranteed outputs; explicit equipment identities may be linked for navigation while unresolved aliases remain research evidence."
+    }
   ],
-  "next_frontier":["Audit equipment/accessory reverse navigation against all 127 canonical PQ equipment edges.","Reconcile unresolved QQ Bang equipment-input identities without alias inference.","Continue canonical reward expansion only where item-level evidence establishes identity and PQ association."],
-  "source_rule":"Canonical forward datasets are authoritative; reverse indexes, verified layers, projections, and community observations are derived evidence or research layers."
+  "next_frontier": [
+    "Audit equipment/accessory reverse navigation against all 127 canonical PQ equipment edges.",
+    "Reconcile unresolved QQ Bang equipment-input identities without alias inference.",
+    "Continue canonical reward expansion only where item-level evidence establishes identity and PQ association."
+  ],
+  "source_rule": "Canonical forward datasets are authoritative; reverse indexes, verified layers, projections, and community observations are derived evidence or research layers."
 }
