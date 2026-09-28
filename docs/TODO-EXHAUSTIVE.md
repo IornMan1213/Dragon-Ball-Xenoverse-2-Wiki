@@ -2497,8 +2497,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] **Exact next:** continue from the remaining critical cross-domain references and prioritize a live-present DLC/PQ navigation consumer or safely regenerable reverse-navigation artifact.
 
 
-### 2026-09-26 TODO progress update — Live-tree character consumer reconciliation
-- [x] Confirmed the historical `scripts/validate_character_explorer.py` reference is not a live source-tree file; the active validator is `scripts/validate_character_presentation_consumers.py`.
+### 2026-09-26 TODO progress update — Live-tree character consumer reconciliation- [x] Confirmed the historical `scripts/validate_character_explorer.py` reference is not a live source-tree file; the active validator is `scripts/validate_character_presentation_consumers.py`.
 - [x] Reconciled `docs/data/characters/character-presentation-consumer-audit.json` so its active consumer list names only the live presentation validator; documented generated HTML explorer artifacts as build outputs rather than source-tree invariants.
 - [x] Updated the cross-domain reachability audit and persistent handoff with this distinction.
 - [ ] CI/build remains unverified.
@@ -4932,3 +4931,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-soul-mechanics-census-2026-09-28.json`; no canonical Super Soul mutation was made from insufficient evidence.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Next:** continue the next cross-domain integrity/enrichment frontier; do not reopen intentional no-effect/categorical records.
+
+### 2026-09-28 — QQ Bang provenance refresh
+- [x] Refreshed canonical `qq-mix-001` (Super Mix Capsule Z) with current 2026 GameFAQs/Steam route evidence and updated its verification date.
+- [x] Preserved RNG/drop-rate/version uncertainty; no deterministic recipe output was inferred.
+- [x] Updated the QQ Bang research frontier metadata: 23 records, 16 promoted observed vectors, next target equipment/build cross-domain relationships and non-duplicate observations.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Next:** continue equipment/build cross-navigation and provenance enrichment without inventing missing identities or reward guarantees.
