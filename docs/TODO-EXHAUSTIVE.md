@@ -4899,3 +4899,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current Xenoverse 2 documentation corroborates the two passive effects and Limit Burst; independent guide evidence also identifies the Soul as the Android 17 Ki-regeneration option. 
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [x] **Exact next:** run a fresh active Super Soul mechanics census and select the next under-detailed record where independent evidence can safely populate missing structured fields; skip intentional no-effect blanks.
+
+
+## 2026-09-28 Recovery Continuation Update — Full Power Energy Blast Volley
+
+- [x] Reconcile `skill-full-power-energy-blast-volley` against current Xenoverse 2-specific evidence.
+- [x] Correct canonical identity to Ultimate / Ki Blast / 300 Ki / starting move for all types.
+- [x] Preserve the older batch-253 Super / 100-Ki / Nappa-training record as historical conflicting evidence; do not delete or treat it as canonical truth.
+- [x] Synchronize the reverse-navigation audit expected slot class to Ultimate.
+- [x] Record the resolution in `docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json`.
+- [x] Confirm canonical/index target remains 493 / 493.
+- [ ] Continue the remaining restored-identity evidence queue, starting with the highest-priority unresolved record in the handoff/TODO frontier; do not repeat reconciled identities.
