@@ -4314,3 +4314,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Expand QQ Bang canonical research record layer from 4 to 14 records with 10 provenance-backed observed recipe/output vectors.
 - [x] 2026-09-27: Preserve QQ Bang RNG uncertainty; observed six-stat outputs are not treated as guaranteed deterministic recipe results.
 - [ ] 2026-09-27: Continue QQ Bang recipe/output population and normalize downstream QQ Bang coverage/index artifacts after expansion.
+
+
+- [x] 2026-09-27: Audit QQ Bang canonical research layer after recovery; confirmed system/mixing/recipe-family coverage and 10 discrete observed Prima Games output vectors.
+- [x] 2026-09-27: Record QQ Bang RNG/provenance boundary: recipe families must not be promoted to guaranteed six-stat results; future expansion should add non-duplicate observed vectors.
+- [ ] 2026-09-27: Expand QQ Bang record layer with additional genuinely distinct observed six-stat vectors and exact input/mixing-item provenance.
