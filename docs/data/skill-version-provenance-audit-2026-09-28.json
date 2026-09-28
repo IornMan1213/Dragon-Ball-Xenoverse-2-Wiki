@@ -342,5 +342,14 @@
       "Free Update including Beast (2023-03-22)"
     ],
     "note": "Official release announcements establish event-level provenance. Individual skill first-release/version assignments still require direct skill-to-event evidence."
-  }
+  },
+  "direct_skill_event_mappings": 5,
+  "direct_skill_event_mapping_ids": [
+    "skill-beast",
+    "skill-crimson-edge",
+    "skill-divine-spear",
+    "skill-big-bang-knuckle",
+    "skill-wild-stinger"
+  ],
+  "next_step": "Expand direct mappings only when authoritative or independently corroborated evidence names the skill within the release/update event; do not infer the remaining DLC skill mappings from DLC membership alone."
 }
