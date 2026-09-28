@@ -166,5 +166,16 @@
     "validator_commit": "a8606c22076c34cb1a20cd1f0e1ab5e6988d38cc",
     "runtime_status": "unverified",
     "evidence_boundary": "Internal validator robustness only; this does not infer character identity, preset numbering, DLC ownership, unlock routes, or missing relationship data."
+  },
+  "live_reaudit_2026_09_27": {
+    "scope": "manual live-repository identity/navigation parity check",
+    "canonical_character_names": 152,
+    "bridge_records": 34,
+    "preset_records": 51,
+    "preset_character_ids": 17,
+    "unresolved_preset_character_ids": [],
+    "invalid_bridge_targets": [],
+    "result": "clean",
+    "evidence_boundary": "Canonical character names and explicit bridge mappings only; no identity, preset, unlock, DLC, or loadout facts inferred."
   }
 }
