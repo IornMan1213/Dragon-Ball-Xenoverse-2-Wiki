@@ -5164,3 +5164,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/accessory-pq-bidirectional-parity-audit-2026-09-28.json`.
 - [x] PQ-layer commit: `4df1fe267f9e3b658de60078df9fa3d9052d2b89`; audit commit: `c1b17c1e1b73fab5fdca4baf330e90958cc3908a`.
 - [ ] **Exact next:** inspect the remaining canonical relationship consumers for similar bidirectional gaps, especially equipment↔PQ and Super Soul↔PQ, and repair only source-backed reverse links.
+
+### 2026-09-28 continuation — 16-PQ typed-reward coverage audit
+- [x] Audited the remaining 16 PQ IDs without explicit canonical skill endpoints against the canonical typed-reward relationship layer and accessory/equipment research evidence.
+- [x] Confirmed most documented non-skill rewards are already represented canonically: PQ30, 47, 93, 102, 103, 107, 108, 118, 121, 144, 157, 169, and 170.
+- [x] Preserved research-only/conflicting cases instead of inferring relationships: PQ35/Z-Sword, PQ48 Kamekameha/Kamehameha, and the previously documented PQ118/PQ121 skill conflicts.
+- [x] Added `docs/data/unrepresented-pq-typed-reward-coverage-audit-2026-09-28.json`.
+- [x] No unsupported canonical relationship was added; this pass found no safe new typed-reward promotion.
+- [ ] **Exact next:** inspect PQ1, PQ35, and PQ48 evidence at item/skill identity level, then continue broader canonical acquisition coverage outside the already-reconciled 16-PQ frontier.
