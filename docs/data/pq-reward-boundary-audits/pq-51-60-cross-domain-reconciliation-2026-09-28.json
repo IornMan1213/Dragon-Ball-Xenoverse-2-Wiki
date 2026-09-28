@@ -1,0 +1,95 @@
+{
+  "batch_id": 561,
+  "date": "2026-09-28",
+  "type": "pq-51-60-cross-domain-reconciliation",
+  "scope": "PQ51-PQ60",
+  "status": "reconciled",
+  "findings": {
+    "records_audited": 10,
+    "canonical_skill_relationships_missing": 0,
+    "canonical_skill_relationship_duplicates": 0,
+    "maintained_skill_reward_mismatch_count": 1,
+    "repaired_mismatch": [
+      {
+        "pq": 57,
+        "skill": "Rakshasa's Claw",
+        "issue": "maintained parallel-quests record layer had an empty skill_rewards array despite the dedicated PQ research batch and canonical relationship layer both documenting the skill"
+      }
+    ],
+    "identity_order_only_difference": [
+      {
+        "pq": 59,
+        "skills": [
+          "Force Shield",
+          "Dimension Cannon"
+        ],
+        "canonical_order": [
+          "Dimension Cannon",
+          "Force Shield"
+        ],
+        "note": "Same canonical identities; ordering is not treated as a data contradiction."
+      }
+    ],
+    "zero_skill_pqs": []
+  },
+  "checked_skill_rewards": [
+    {
+      "pq": 51,
+      "skill": "Burst Rush"
+    },
+    {
+      "pq": 52,
+      "skill": "Final Cannon"
+    },
+    {
+      "pq": 53,
+      "skill": "Justice Pose"
+    },
+    {
+      "pq": 54,
+      "skill": "Victory Cannon"
+    },
+    {
+      "pq": 55,
+      "skill": "Super Donut Volley"
+    },
+    {
+      "pq": 56,
+      "skill": "Stone Bullet"
+    },
+    {
+      "pq": 57,
+      "skill": "Rakshasa's Claw"
+    },
+    {
+      "pq": 58,
+      "skill": "Vanishing Ball"
+    },
+    {
+      "pq": 59,
+      "skill": "Force Shield"
+    },
+    {
+      "pq": 59,
+      "skill": "Dimension Cannon"
+    },
+    {
+      "pq": 60,
+      "skill": "Majin Kamehameha"
+    }
+  ],
+  "actions": {
+    "canonical_data_changed": false,
+    "canonical_relationships_changed": false,
+    "maintained_record_layer_changed": true,
+    "research_batch_changed": false,
+    "unsupported_relationships_invented": false
+  },
+  "evidence": [
+    "docs/data/parallel-quest-research-batches/pq-batch-06.json",
+    "docs/data/pq-record-batches/pq-041-060.json",
+    "docs/data/pq-reward-relationships.json",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "next": "Continue from PQ61 onward with the same three-layer comparison: dedicated research, maintained record layer, and canonical relationship store. Prioritize actual omissions/contradictions and malformed artifacts."
+}
