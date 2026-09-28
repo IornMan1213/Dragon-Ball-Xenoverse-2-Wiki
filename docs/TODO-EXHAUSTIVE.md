@@ -4455,3 +4455,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] Synchronize `docs/data/pq-cross-domain-status.json` to the live 840-edge / 186-PQ baseline; preserve the historical correction in `correction_history`.
 - [x] Preserve the newly introduced `equip-110` Beerus lower-body identity without inventing QQ Bang recipe usage; mark its QQ Bang relationship as unresolved until explicit evidence exists.
+
+- [x] 2026-09-27: Corrected an unsafe QQ Bang equipment identity: `Android 18 Skirt` is no longer linked to canonical `equip-008` (`Android 18's Clothes (Vest & Pants)`); the input is explicitly unresolved pending an exact canonical skirt record.
+- [ ] 2026-09-27: Continue exact-identity audit of remaining QQ Bang clothing inputs and equipment-side reverse links; do not substitute near-name clothing variants.
