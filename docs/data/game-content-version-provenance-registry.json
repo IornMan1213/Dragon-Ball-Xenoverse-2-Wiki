@@ -112,6 +112,14 @@
       "date": null,
       "url": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
       "scope": "Official DLC page identifies Chapter 4 as containing four new moves including one Awoken Skill and names Goku (Ultra Supervillain Quelled) and Supreme Kai of Time (Ultra Supervillain) as playable characters."
+    },
+    {
+      "id": "official_daima_pack_2025",
+      "publisher": "Bandai Namco Entertainment",
+      "title": "Dragon Ball DAIMA Pack is now available in DRAGON BALL XENOVERSE 2",
+      "date": "2025-05-21",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-daima-pack-now-available-dragon-ball-xenoverse-2",
+      "scope": "Official release notice confirms the Dragon Ball DAIMA Pack includes player-character skills, alongside two new playable DAIMA characters."
     }
   ],
   "events": [
@@ -192,7 +200,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Audit DAIMA Pack skills next, then reconcile the four Chapter 4 moves against the official named character/move evidence where available; preserve any ambiguity rather than infer.",
+  "next_step": "Audit the remaining free-update DAIMA-era skills separately from paid-pack skills, then reconcile Chapter 4 named-move evidence; do not assign version numbers without direct version evidence.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -442,6 +450,72 @@
       ],
       "confidence": "direct_scope",
       "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+    },
+    {
+      "skill_id": "skill-burning-blast",
+      "skill_name": "Burning Blast",
+      "event_id": "dragon-ball-daima-pack-2025",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_daima_pack_2025"
+      ],
+      "confidence": "direct_scope",
+      "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
+    },
+    {
+      "skill_id": "skill-final-flash-ss3-daima",
+      "skill_name": "Final Flash (SS3 DAIMA)",
+      "event_id": "dragon-ball-daima-pack-2025",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_daima_pack_2025"
+      ],
+      "confidence": "direct_scope",
+      "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
+    },
+    {
+      "skill_id": "skill-force-edge",
+      "skill_name": "Force Edge",
+      "event_id": "dragon-ball-daima-pack-2025",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_daima_pack_2025"
+      ],
+      "confidence": "direct_scope",
+      "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
+    },
+    {
+      "skill_id": "skill-heat-wave",
+      "skill_name": "Heat Wave",
+      "event_id": "dragon-ball-daima-pack-2025",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_daima_pack_2025"
+      ],
+      "confidence": "direct_scope",
+      "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
+    },
+    {
+      "skill_id": "skill-super-kamehameha-ss4-daima",
+      "skill_name": "Super Kamehameha (SS4 DAIMA)",
+      "event_id": "dragon-ball-daima-pack-2025",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_daima_pack_2025"
+      ],
+      "confidence": "direct_scope",
+      "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
+    },
+    {
+      "skill_id": "skill-supreme-fury",
+      "skill_name": "Supreme Fury",
+      "event_id": "dragon-ball-daima-pack-2025",
+      "evidence_type": "official_event_plus_canonical_skill_record",
+      "source_ids": [
+        "official_daima_pack_2025"
+      ],
+      "confidence": "direct_scope",
+      "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
     }
   ]
 }
