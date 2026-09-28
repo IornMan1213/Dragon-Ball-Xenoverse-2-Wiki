@@ -42,7 +42,7 @@
     },
     "qq_bangs": {
       "record_layer_records": 23,
-      "blob_sha": "90ddf815ac7e3ff8e58ce809f5a9ad3aa748523d"
+      "blob_sha": "8a2115d0f330f16cf73940741dec8d8cefd86763"
     },
     "partner_skill_relationships": {
       "relationships_count": 3,
@@ -56,17 +56,19 @@
     "QQ Bang expansion recovery reconciled the current 15-record file against the immediately preceding live expansion commit and restored three recipe-family records (qq-recipe-003 through qq-recipe-005) that had regressed from main.",
     "Post-recovery QQ Bang/equipment reconciliation added four canonical equipment identities and linked eight QQ Bang records; a transient incorrect identifier mapping for two existing equipment records was detected and corrected against the canonical equipment layer.",
     "Expanded canonical QQ Bang input normalization by indexing five additional clothing identities and refreshing safe QQ Bang-to-equipment links; unresolved inputs remain explicitly unresolved.",
-    "Version-aware QQ Bang material provenance was expanded with dated 2020-2026 evidence for direct Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; no patch-specific rule change was established."
+    "Version-aware QQ Bang material provenance was expanded with dated 2020-2026 evidence for direct Tour acquisition and Super Mix Capsule + Demon Realm Crystal synthesis; no patch-specific rule change was established.",
+    "Added bidirectional QQ Bang ↔ PQ provenance for Super Mix Capsule Z and PQ 83, preserving the Tour-only/community-farming context without promoting a guaranteed drop or exact rate."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
     "qq_bang_observed_vectors": 16,
     "targets": [
-      "expand reverse/cross-domain QQ Bang ↔ equipment ↔ PQ relationships",
+      "reconcile remaining QQ Bang clothing/equipment identities",
+      "expand equipment ↔ PQ relationships where direct acquisition evidence exists",
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Added reverse QQ Bang links to 14 canonical equipment records, making the current QQ Bang clothing-input relationships bidirectionally navigable. No build entities were invented where no canonical build layer exists."
+    "note": "Linked Super Mix Capsule Z to PQ 83 as a community-documented Online Parallel Quest Tour farming route, with explicit uncertainty: this is not a guaranteed per-run reward or exact drop-rate claim. Added the reverse PQ → QQ Bang relationship."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
