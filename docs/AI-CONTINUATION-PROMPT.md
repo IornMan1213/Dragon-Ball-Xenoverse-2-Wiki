@@ -6141,3 +6141,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No new PQ reward relationship was inferred during this correction; the discrepancy was projection metadata drift.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** recompute the indexed-only skill frontier against the 497-record canonical corpus and promote the next directly evidenced Future Warrior identities, preserving cast-only/variant boundaries; then continue QQ Bang/equipment and remaining skill/PQ cross-domain enrichment.
+
+
+### 2026-09-28 continuation — Canonical evidence synchronization batch 538
+- [x] Confirmed the recovered canonical/index boundary remains **497 / 497** with no indexed-only identities remaining.
+- [x] Synchronized four previously completed but pending canonical evidence audits into `docs/data/skills.json`: **Headshot, Arm Crash, God Breaker, Phantom Fist**.
+- [x] Synchronized `docs/data/skills-index.json` and registered `docs/data/skill-research-batches/skill-batch-538.json`.
+- [x] Preserved evidence boundaries: source-reported damage/Stamina values remain bounded evidence; exact frame data, hidden interactions, scaling formulas, and reward probabilities remain unresolved where not directly established.
+- [x] No new skill identity or PQ reward relationship was inferred.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining completed-but-pending canonical skill evidence audits (especially the Batch 472/473 prepared records) before starting new speculative enrichment; then return to QQ Bang/equipment and remaining PQ cross-domain gaps.
