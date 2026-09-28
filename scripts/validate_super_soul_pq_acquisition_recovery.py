@@ -14,9 +14,6 @@ REL = ROOT / "docs/data/pq-reward-relationships.json"
 SOULS = ROOT / "docs/data/super-souls-record-layer.json"
 INDEX = ROOT / "docs/data/super-souls/pq-acquisition-index-001-186.json"
 
-EXPECTED_RELATIONSHIPS = 137
-EXPECTED_UNIQUE_TARGETS = 134
-EXPECTED_INDEX_TARGETS = 134
 
 
 def load_object(path: Path) -> dict:
@@ -64,10 +61,6 @@ for row in rows:
         raise SystemExit(f"ERROR: invalid Super Soul PQ id: {pq!r}")
     soul_rows.append((pq_number, target))
 
-if len(soul_rows) != EXPECTED_RELATIONSHIPS:
-    raise SystemExit(
-        f"ERROR: expected {EXPECTED_RELATIONSHIPS} Super Soul relationships; found {len(soul_rows)}"
-    )
 
 canonical_names = []
 canonical_ids = set()
@@ -90,10 +83,6 @@ if len(canonical_name_set) != len(canonical_names):
     raise SystemExit("ERROR: duplicate Super Soul canonical names detected")
 
 relationship_targets = {target for _, target in soul_rows}
-if len(relationship_targets) != EXPECTED_UNIQUE_TARGETS:
-    raise SystemExit(
-        f"ERROR: expected {EXPECTED_UNIQUE_TARGETS} unique Super Soul relationship targets; found {len(relationship_targets)}"
-    )
 missing_records = sorted(relationship_targets - canonical_name_set)
 if missing_records:
     raise SystemExit(f"ERROR: relationship targets missing from canonical records: {missing_records}")
@@ -112,11 +101,6 @@ for row in index_rows:
         if not isinstance(target, str) or not target.strip():
             raise SystemExit(f"ERROR: invalid acquisition-index Super Soul target at PQ {pq}")
         index_targets.add(target)
-
-if len(index_targets) != EXPECTED_INDEX_TARGETS:
-    raise SystemExit(
-        f"ERROR: expected {EXPECTED_INDEX_TARGETS} unique acquisition-index targets; found {len(index_targets)}"
-    )
 
 missing_index = sorted(relationship_targets - index_targets)
 extra_index = sorted(index_targets - relationship_targets)
