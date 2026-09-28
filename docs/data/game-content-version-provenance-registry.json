@@ -152,6 +152,14 @@
       "date": "2025-07-15",
       "url": "https://dragon-ball-official.com/news/01_3550.html",
       "scope": "Official event article identifies the four 4th Festival camaraderie characters: Goku (Super Saiyan God), Videl (DB Super), Gamma 1, and Gamma 2; these correspond to the four Festival skills later represented in independent catalog evidence."
+    },
+    {
+      "id": "community_ch4_skill_guide_2026-07-08",
+      "publisher": "NoLeap",
+      "title": "How to Unlock The Power to Overcome Awoken Skill in Dragon Ball Xenoverse 2",
+      "date": "2026-07-08",
+      "url": "https://noleep.com/en/dragon-ball-xenoverse-2-the-power-to-overcome/",
+      "scope": "Independent guide names The Power to Overcome, Dragon Spiral, Indomitable, and Venus Fist as Future Saga Chapter 4 skills and describes their acquisition."
     }
   ],
   "events": [
@@ -232,7 +240,7 @@
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
     }
   ],
-  "next_step": "Proceed to Future Saga Chapter 4 named-move reconciliation. The May 2025 Free Update 20 skill provenance remains explicitly unresolved because no direct named skill list was established.",
+  "next_step": "Search for additional independent/official Chapter 4 sources that name the four moves, and separately continue the unresolved Free Update 20 skill-name investigation.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -443,45 +451,49 @@
       "skill_id": "skill-dragon-spiral",
       "skill_name": "Dragon Spiral",
       "event_id": "future-saga-chapter-4-announced",
-      "evidence_type": "official_event_plus_canonical_skill_record",
+      "evidence_type": "official_event_plus_independent_named_skill_catalog",
       "source_ids": [
-        "official_ch4_dlc_page"
+        "official_ch4_dlc_page",
+        "community_ch4_skill_guide_2026-07-08"
       ],
-      "confidence": "direct_scope",
-      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
     },
     {
       "skill_id": "skill-indomitable",
       "skill_name": "Indomitable",
       "event_id": "future-saga-chapter-4-announced",
-      "evidence_type": "official_event_plus_canonical_skill_record",
+      "evidence_type": "official_event_plus_independent_named_skill_catalog",
       "source_ids": [
-        "official_ch4_dlc_page"
+        "official_ch4_dlc_page",
+        "community_ch4_skill_guide_2026-07-08"
       ],
-      "confidence": "direct_scope",
-      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
     },
     {
       "skill_id": "skill-the-power-to-overcome",
       "skill_name": "The Power to Overcome",
       "event_id": "future-saga-chapter-4-announced",
-      "evidence_type": "official_event_plus_canonical_skill_record",
+      "evidence_type": "official_event_plus_independent_named_skill_catalog",
       "source_ids": [
-        "official_ch4_dlc_page"
+        "official_ch4_dlc_page",
+        "community_ch4_skill_guide_2026-07-08"
       ],
-      "confidence": "direct_scope",
-      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
     },
     {
       "skill_id": "skill-venus-fist",
       "skill_name": "Venus Fist",
       "event_id": "future-saga-chapter-4-announced",
-      "evidence_type": "official_event_plus_canonical_skill_record",
+      "evidence_type": "official_event_plus_independent_named_skill_catalog",
       "source_ids": [
-        "official_ch4_dlc_page"
+        "official_ch4_dlc_page",
+        "community_ch4_skill_guide_2026-07-08"
       ],
-      "confidence": "direct_scope",
-      "basis": "The official Chapter 4 DLC page confirms four new moves including one Awoken Skill; the canonical repository records identify these four Chapter 4 move records and their acquisition endpoints. This mapping records release-event scope, not an inferred patch/version date."
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco DLC documentation establishes that Chapter 4 contains four new moves including one Awoken Skill; the independent guide names all four moves as Chapter 4 content. This supports event association without assigning an inferred patch/version date."
     },
     {
       "skill_id": "skill-burning-blast",
