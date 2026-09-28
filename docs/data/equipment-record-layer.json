@@ -84,6 +84,13 @@
         "https://dbxv2.fandom.com/wiki/Equipment",
         "https://xenoverse.fandom.com/wiki/Clothing_Shop",
         "https://www.gameskinny.com/tips/dragon-ball-xenoverse-guide-equipment-and-accessory-list/"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-003",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
+        }
       ]
     },
     {
@@ -109,6 +116,13 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment",
         "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-098",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
+        }
       ]
     },
     {
@@ -335,6 +349,13 @@
       "last_verified": "2026-09-16",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-092",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
+        }
       ]
     },
     {
@@ -434,6 +455,13 @@
       "last_verified": "2026-09-16",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-003",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
+        }
       ]
     },
     {
@@ -618,6 +646,13 @@
       "last_verified": "2026-09-16",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-087",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this does not assert a guaranteed drop or exact reward rate."
+        }
       ]
     },
     {
