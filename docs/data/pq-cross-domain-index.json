@@ -155,7 +155,8 @@
     "skill_jumping_energy_wave_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-jumping-energy-wave-current-evidence-audit-2026-09-27-batch-495.json",
     "skill_power_impact_current_evidence_audit_2026_09_27_batch_495": "docs/data/skill-power-impact-current-evidence-audit-2026-09-27-batch-495.json",
     "super_soul_record_layer_integrity": "docs/data/super-soul-record-layer-integrity-audit-2026-09-27.json",
-    "super_soul_mechanics_enrichment": "docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json"
+    "super_soul_mechanics_enrichment": "docs/data/super-soul-mechanics-enrichment-audit-2026-09-27.json",
+    "pq_141_150_numbering_gap_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-141-150-numbering-gap-2026-09-28.json"
   },
   "navigation_audits": {
     "equipment_accessory": "docs/data/pq-endpoint-navigation-audit.json",
@@ -2793,7 +2794,8 @@
     "pq_101_110_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-101-110-cross-domain-reconciliation-2026-09-28.json",
     "pq_111_120_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-111-120-cross-domain-reconciliation-2026-09-28.json",
     "pq_121_130_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-121-130-cross-domain-reconciliation-2026-09-28.json",
-    "pq_131_140_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-131-140-cross-domain-reconciliation-2026-09-28.json"
+    "pq_131_140_cross_domain_reconciliation_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-131-140-cross-domain-reconciliation-2026-09-28.json",
+    "pq_141_150_numbering_gap_2026_09_28": "docs/data/pq-reward-boundary-audits/pq-141-150-numbering-gap-2026-09-28.json"
   },
   "skill_research_batch_541": "docs/data/skill-research-batches/skill-batch-541.json",
   "skill_research_batch_543": "docs/data/skill-research-batches/skill-batch-543.json",
