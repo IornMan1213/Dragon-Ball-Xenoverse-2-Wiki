@@ -3240,7 +3240,21 @@
           "evidence_note": "Wedding Dress is explicitly listed in PQ121's documented basic rewards; exact piece/drop mechanics remain unresolved."
         }
       ],
-      "equipment_rewards": []
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-031",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        },
+        {
+          "equipment_id": "equip-032",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Right, then... Let's begin the experiment!"
+      ]
     },
     {
       "id": "pq-122",
@@ -3253,9 +3267,15 @@
       "ultimate_finish": null,
       "enemies": [],
       "rewards": [],
-      "skill_rewards": [],
+      "skill_rewards": [
+        "Meditation",
+        "Power Rush"
+      ],
       "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "super_soul_rewards": [
+        "For beauty! For elegance! For love!",
+        "This Super Saiyan 2 is crazy strong!"
+      ],
       "dragon_ball_farming": null,
       "verification_status": "indexed",
       "sources": [
@@ -3293,7 +3313,15 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
-      ]
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-039",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": []
     },
     {
       "id": "pq-124",
@@ -3317,6 +3345,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Don't think I'm the same as before!"
       ]
     },
     {
@@ -3343,6 +3375,15 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-051",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
       ]
     },
     {
@@ -3367,6 +3408,10 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Alright! Let's go wreck some faces!"
       ]
     },
     {
@@ -3401,6 +3446,15 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; PQ reward/drop mechanics are not inferred from this source alone."
         }
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "accessory_links": [
+        {
+          "accessory_id": "acc-052",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory identity is linked to this PQ reward; exact reward/drop condition remains separately unresolved."
+        }
       ]
     },
     {
@@ -3429,6 +3483,12 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "GAAAGH!",
+        "I've waited an unbelievably long time for this...",
+        "Your father has been killed!"
       ]
     },
     {
@@ -3457,6 +3517,12 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_rewards": [],
+      "super_soul_rewards": [
+        "Don't think I'm gonna show you any gratitude!",
+        "Heh heh! Now THIS is real power!",
+        "Hey, you think you could fight a little quieter?!"
       ]
     },
     {
@@ -3484,6 +3550,18 @@
       ],
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-041",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "Hey, you! You ready for me?!",
+        "Hmph. I'm off to take a nap.",
+        "Th-Thanks..."
       ]
     },
     {
