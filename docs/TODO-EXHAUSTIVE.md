@@ -5369,3 +5369,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the known Dragon Spiral source conflict and did not manufacture a PQ186 relationship from the conflicting guide.
 - [x] Added `docs/data/pq-181-185-skill-reward-parity-audit-2026-09-28.json` as the reproducible audit artifact.
 - [ ] **Next:** audit PQ186 separately, then continue remaining typed-reward gaps and evidence-backed mechanics/acquisition enrichment.
+
+
+### 2026-09-28 continuation — PQ186 typed skill-reward parity
+- [x] Audited PQ186 separately after the PQ181-PQ185 tranche.
+- [x] Confirmed the current reward map documents exactly one skill endpoint: **Venus Fist**.
+- [x] Confirmed the canonical forward relationship and maintained reverse skill map agree on **PQ186 ↔ Venus Fist**; no endpoint gap or duplicate relationship was found.
+- [x] Added `docs/data/pq-186-skill-reward-parity-audit-2026-09-28.json` as the reproducible record-level audit artifact.
+- [x] Preserved unresolved exact reward-slot/drop probability and Ultimate-Finish-condition fields rather than inferring them.
+- [ ] **Next:** continue the remaining global PQ skill-endpoint gap outside PQ163-PQ186, then resume evidence-backed mechanics/acquisition enrichment.
