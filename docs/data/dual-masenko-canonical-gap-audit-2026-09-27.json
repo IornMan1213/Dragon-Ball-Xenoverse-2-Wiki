@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-09-27",
+  "purpose": "Re-evaluate Dual Masenko as a potential canonical-skill omission and PQ118 cross-domain endpoint.",
+  "canonical_state": {
+    "canonical_skill_count": 474,
+    "canonical_record_present": false,
+    "catalog_index_present": true
+  },
+  "evidence": [
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Dual_Masenko",
+      "finding": "Dual Masenko is classified as a Ki Blast Super, costs 100 Ki, and is obtainable from the TP Medal Shop; Future Trunks is a notable user."
+    },
+    {
+      "source": "https://dragonball.fandom.com/wiki/Dual_Masenko",
+      "finding": "Dragon Ball Wiki identifies Dual Masenko as a Xenoverse 2 Super Skill for Future Trunks and says the Future Warrior can obtain it from the TP Medal Shop; it is also available in Future Trunks' Customize Partner skillset."
+    },
+    {
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75501935",
+      "finding": "Historical TP Medal Shop schedule documents Dual Masenko at 170 TP Medals in the June/July 2017 rotation."
+    },
+    {
+      "source": "https://www.dbzgames.org/news/dragon-ball-xenoverse-2-free-update-details-tp-medal-shop-schedule/",
+      "finding": "Historical update schedule independently identifies Dual Masenko as a Ki Blast Skill sold for 170 TP Medals."
+    },
+    {
+      "source": "https://www.reddit.com/r/dbxv/comments/x1zmw3/xenoverse_2_offline_tp_medal_shop_rotation/",
+      "finding": "Later community TP Medal Shop rotation lists Dual Masenko as a 170-TP Ki Blast Super."
+    }
+  ],
+  "repository_findings": [
+    "docs/data/skill-catalog-batches/ki-blast-supers.json already includes Dual Masenko.",
+    "docs/data/skill-research-batches/skill-batch-261.json already records Dual Masenko as a 100-Ki Super obtainable through Future Trunks training, but that acquisition statement conflicts with the stronger TP Medal Shop evidence and should not be treated as canonical acquisition truth.",
+    "docs/data/partner-custom-skill-domain-boundary-audit-2026-09-26.json explicitly documents Dual Masenko as a canonical Xenoverse 2 Super Skill obtainable by the Future Warrior and available in Future Trunks' Customize Partner skillset.",
+    "docs/data/partner-skill-relationships.json currently excludes Dual Masenko only because the canonical skill-dual-masenko record is absent.",
+    "docs/data/pq-unrepresented-skill-endpoint-evidence-reconciliation-2026-09-26.json lists PQ118 as unresolved because Dual Masenko lacked a canonical record."
+  ],
+  "decision": "Dual Masenko is sufficiently evidenced as a genuine canonical CaC skill and is not merely a partner-only skill. The repository therefore has a likely canonical omission. Do not invent a PQ118 edge yet: current evidence is conflicting about PQ118 and the strongest direct acquisition evidence is TP Medal Shop. Canonical record restoration should be performed only after safely obtaining/editing the complete canonical skills.json and skills-index.json layers.",
+  "next_actions": [
+    "Restore/add skill-dual-masenko to canonical skills.json and skills-index.json using the existing canonical schema.",
+    "Use TP Medal Shop as the documented acquisition route; do not inherit the stale 'Training with Future Trunks' field from Batch 261.",
+    "Then re-run partner/custom relationship census and PQ118 reconciliation; only add PQ118 Skill→PQ if explicit skill-reward evidence survives source reconciliation."
+  ]
+}
