@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-28",
+  "scope": "Current-evidence mechanics enrichment for three canonical restored skill identities.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "skill_id": "skill-gravity-impact",
+      "name": "Gravity Impact",
+      "status": "canonical_enriched",
+      "promoted": [
+        "100 Ki",
+        "short-range green shockwave",
+        "can cancel some incoming Ki Blasts",
+        "long knockback/follow-up window"
+      ],
+      "unresolved": [
+        "exact activation frames",
+        "damage/scaling",
+        "complete nullified-Ki-Blast interaction set"
+      ],
+      "evidence": "docs/data/skill-gravity-impact-current-evidence-audit-2026-09-26-batch-467.json"
+    },
+    {
+      "skill_id": "skill-hawk-charge",
+      "name": "Hawk Charge",
+      "status": "canonical_enriched",
+      "promoted": [
+        "100 Ki Strike Super",
+        "elbow-to-palm sequence",
+        "source-reported ~10% total damage",
+        "additional-input rush-to-palm cancel",
+        "separate 200-Ki DBS Super Hero five-hit presentation"
+      ],
+      "unresolved": [
+        "exact startup",
+        "exact hit-confirm timing"
+      ],
+      "evidence": "docs/data/skill-hawk-charge-current-evidence-audit-2026-09-26-batch-467.json"
+    },
+    {
+      "skill_id": "skill-remote-serious-bomb",
+      "name": "Remote Serious Bomb",
+      "status": "canonical_enriched",
+      "promoted": [
+        "two-stage seal/bomb behavior",
+        "about 30-second Awoken-skill seal",
+        "300 Ki listing",
+        "80% Tokipedia acquisition"
+      ],
+      "unresolved": [
+        "version-independent second-stage resource cost"
+      ],
+      "evidence": "docs/data/skill-remote-serious-bomb-current-evidence-audit-2026-09-26-batch-467.json"
+    }
+  ],
+  "validation": {
+    "canonical_records": 493,
+    "index_records": 493,
+    "canonical_index_mechanics_parity": true,
+    "last_verified_synchronized": true
+  },
+  "policy": [
+    "Canonical skills.json remains source of truth.",
+    "Source-reported numeric damage is retained as bounded evidence, not a patch-independent constant.",
+    "No unsupported frames, hidden gates, reward probabilities, or scaling were inferred.",
+    "The Remote Serious Bomb second-stage cost conflict remains explicit rather than normalized."
+  ]
+}
