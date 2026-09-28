@@ -634,6 +634,14 @@
       "action": "Add/recover complete canonical records for the four named Festival skills, including IDs and full mechanics/acquisition fields, only after reconciling the catalog against existing research batches."
     }
   ],
+  "official_festival_scope_reconciliation": {
+    "batch_id": 579,
+    "source_id": "db_official_4th_festival_2025",
+    "source_url": "https://en.dragon-ball-official.com/news/01_3550.html",
+    "finding": "Official Dragon Ball coverage identifies Goku (Super Saiyan God), Videl (DB Super), Gamma 1, and Gamma 2 as the four camaraderie characters in the 4th Festival and states that raising camaraderie grants special rewards. Individual skill names remain supported by separate evidence because the accessible official text does not expose all four names.",
+    "canonical_ids_recovered": 0,
+    "canonical_mutation": false
+  },
   "festival_skill_recovery_candidates": [
     {"skill_name":"God Bind (Festival)","character":"Goku (Super Saiyan God)","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["skill-batch-264","fandom-god-bind-festival"]},
     {"skill_name":"Egret Waltz (Festival)","character":"Videl (DB Super)","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["official_4th_festival_skills_2025","community_festival_skill_catalog"]},
