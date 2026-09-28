@@ -2497,8 +2497,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Fresh 474-record mechanics frontier census excluded every skill with a registered current-evidence audit and selected **Super Donut Volley, Dimension Cannon, Divine Kamehameha, Petrifying Spit, Meteor Explosion, Circle Flash, Stone Bullet, and Blue Hurricane**.
 - [x] Deepened and synchronized all eight canonical records in `docs/data/skills.json` and `docs/data/skills-index.json` with current Xenoverse 2-specific evidence.
 - [x] Added Batch 455 research/thin-frontier artifacts, eight current-evidence audits, and provenance registrations.
-- [x] Evidence boundaries preserved; source-reported numerical values remain bounded and unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.
-- [ ] CI/build remains unverified; no workflow success is claimed.
+- [x] Evidence boundaries preserved; source-reported numerical values remain bounded and unsupported exact frames, scaling, probabilities, and hidden conditions were not inferred.- [ ] CI/build remains unverified; no workflow success is claimed.
 - [x] **Exact next:** run another fresh unaudited mechanics frontier census excluding Batch 455 and every prior current-evidence-audited record, then continue the canonical research/synchronization cycle.
 
 
@@ -4997,8 +4996,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved source-backed reward/objective uncertainty rather than inventing drop rates.
 - [ ] Reconcile PQ36's maintained numbering/cut conflict before final-board treatment.
 
-### 2026-09-27 continuation — PQ41-100 reward restoration
-- [x] Restored missing rewards/skill/equipment/Super Soul and related maintained batch fields across canonical PQ41-100 where canonical fields were sparse.
+### 2026-09-27 continuation — PQ41-100 reward restoration- [x] Restored missing rewards/skill/equipment/Super Soul and related maintained batch fields across canonical PQ41-100 where canonical fields were sparse.
 - [x] Added exact-name equipment links and reverse PQ links where canonical equipment identities exist.
 - [ ] Continue auditing later PQ ranges for sparse canonical fields; preserve unresolved identities rather than guessing.
 
@@ -5512,3 +5510,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-soul-mechanics-census-2026-09-28.json`; no unsupported canonical mechanics were invented.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the next cross-domain integrity/enrichment frontier; preserve unresolved mechanics rather than filling fields solely to increase coverage.
+
+### 2026-09-28 continuation — QQ Bang mixing-item provenance refresh
+- [x] Refreshed canonical `qq-mix-001` (Super Mix Capsule Z) against current 2026 evidence and re-verified its route provenance.
+- [x] Added independent GameFAQs and Steam evidence documenting six-star QQ Bang use plus the Super Mix Capsule + Demon Realm Crystal synthesis route / multiplayer acquisition path.
+- [x] Preserved the evidence boundary: no exact current drop rate, deterministic six-stat output, or patch-specific universal reward-table claim was inferred.
+- [x] Updated the QQ Bang record-layer research frontier to 2026-09-28; 23 records and 16 observed vectors remain tracked.
+- [x] Canonical JSON re-fetched and validated after mutation; the edited record and provenance sources resolve cleanly.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue equipment/build cross-domain relationships and additional non-duplicate observed QQ Bang vectors, while preserving unresolved inputs, RNG variance, and version boundaries.
