@@ -95,13 +95,13 @@
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint.",
   "last_updated": "2026-09-27",
-  "recovery_state": "active_recovery_with_qq_bang_provenance_boundary_hardened",
+  "recovery_state": "active_recovery_with_exact_qq_bang_equipment_identity_audit",
   "live_baseline": {
-    "equipment_records": 110,
+    "equipment_records": 111,
     "qq_bang_records": 23,
     "observed_vectors": 16,
     "parallel_quests": 186,
     "pq_cross_domain_edges": 840
   },
-  "next_target": "Synchronize stale PQ cross-domain status metadata when write access permits, then continue evidence-driven equipment/build cross-domain enrichment and remaining unresolved QQ Bang identities."
+  "next_target": "continue exact QQ Bang clothing identity audit; reconcile historical acquisition conflicts such as Android 18 Skirt/PQ25 before promoting PQ links"
 }
