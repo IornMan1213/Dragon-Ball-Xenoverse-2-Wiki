@@ -5028,3 +5028,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical relationship endpoints were inferred or changed in this reconciliation; evidence boundaries remain intact.
 - [x] Commits: `ec7a1816925685e301055894b5396dd2c5f0ff6f`, `13d5cf73b1875ef330caecee014f64be88b0d05f`, `0d0f4c1a83d42a50e87bd6c01a2fd7a5e9a87130`.
 - [ ] **Exact next:** finish the active-validator/current-audit stale-state sweep, then begin the next substantive PQ reward/acquisition coverage batch, prioritizing the remaining 16 PQs without explicit canonical skill endpoints and the documented empty typed-reward ranges.
+
+### 2026-09-28 continuation — active validator sweep completion
+- [x] Inspected the remaining active cross-domain validators after the stale-baseline repairs.
+- [x] Found and repaired a residual defect in `scripts/validate_skill_pq_crosslinks.py`: the prior count-removal left references to deleted `EXPECTED_EDGES` / `EXPECTED_REPRESENTED_PQS` constants, and one nested f-string had invalid quoting. Removed the dead fixed-count assertions and corrected the diagnostic expression.
+- [x] Confirmed `scripts/validate_pq_cross_domain_index.py`'s `186` PQ scope and seven entity types are schema/domain contracts, not recovered relationship-count baselines, so they remain unchanged.
+- [x] Confirmed `scripts/validate_canonical_database_recovery.py` now uses derived skill/PQ counts and canonical `current_counts`; no additional stale recovery constants remain in the inspected active validators.
+- [x] Commit: `1f149a196388ef03070f255e07afe047645201e1`.
+- [ ] **Exact next:** begin substantive PQ reward/acquisition coverage expansion, prioritizing the 16 PQ IDs without explicit canonical skill endpoints and the documented PQ typed-reward coverage gaps; preserve evidence boundaries and update canonical relationship/reverse layers together.
