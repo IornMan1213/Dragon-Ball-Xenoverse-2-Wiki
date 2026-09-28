@@ -2927,6 +2927,10 @@
           "qq_bang_id": "qq-observed-017",
           "input": "Beerus Clothing Top",
           "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-018",
+          "evidence_note": "Reverse navigation for the documented 6-star QQ Bang observation; the source identifies this equipment component as an input but does not establish deterministic synthesis."
         }
       ]
     },
@@ -3179,6 +3183,10 @@
           "qq_bang_id": "qq-observed-017",
           "input": "4-Star Dragon Ball Clothing Top",
           "relationship": "QQ Bang clothing input"
+        },
+        {
+          "qq_bang_id": "qq-observed-018",
+          "evidence_note": "Reverse navigation for the documented 6-star QQ Bang observation; the source identifies this equipment component as an input but does not establish deterministic synthesis."
         }
       ]
     },
