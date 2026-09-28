@@ -5167,3 +5167,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the bridge boundary: presentation IDs are navigation keys only and are not promoted into canonical identity or relationships.
 - [x] Refreshed `docs/data/characters/character-presentation-consumer-audit.json` with the live 2026-09-27 parity result.
 - [ ] **Next:** continue cross-navigation from characters/presets into skills and build/loadout consumers, using canonical skills data as the authority and treating verified/index/projection layers only as supporting evidence.
+
+
+## 2026-09-27 continuation — canonical skill/partner cross-navigation audit
+
+- [x] Re-audited `docs/data/partner-skill-relationships.json`: 4 evidence-backed canonical skill→custom-partner relationships covering 3 unique canonical skills.
+- [x] Confirmed the repeated `skill-arm-crash` endpoint is intentional: the same canonical skill is explicitly available to both Bardock and Turles; it is not a duplicate relationship.
+- [x] Confirmed the relationship layer remains evidence-bounded and points to canonical skill identities rather than creating partner-specific duplicate skill records.
+- [x] Preserved the canonical-source rule: `docs/data/skills.json` remains authoritative; verified/index/projection layers are not promoted as canonical substitutes.
+- [ ] **Next:** continue canonical skill/build/loadout cross-navigation auditing, including the current 475-skill corpus, skill↔PQ reverse index, and partner/customization consumers; repair only deterministic identity/link inconsistencies.
