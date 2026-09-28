@@ -5981,3 +5981,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Synchronized `skills-index.json`; both canonical layers remain **493/493** and mechanics/verification fields were checked for parity.
 - [x] Added `docs/data/skill-mechanics-enrichment-audit-2026-09-28.json` documenting promoted evidence and unresolved boundaries.
 - [ ] **Next:** continue through the remaining mechanics frontier, prioritizing records where current evidence can materially replace deferred mechanics notes without manufacturing frame/scaling/probability data.
+
+
+### 2026-09-28 continuation — Restored-skill mechanics frontier batch 03
+- [x] Rechecked the live canonical retrieval boundary; the connector still exposes the large `skills.json` path with empty encoded payload, so no unsafe reconstruction was attempted.
+- [x] Added `docs/data/restored-skill-mechanics-frontier-reconciliation-2026-09-28-batch-03.json` covering Shooting Strike, Apocalyptic Burst, Time Skip/Jump Spike, and Gigantic Rage.
+- [x] Preserved explicit mechanics boundaries, source-reported values, acquisition endpoints, and unresolved frame/scaling/reward-probability fields rather than inventing precision.
+- [x] Appended the four records to the consolidated mechanics frontier; canonical identity count remains 493/493 and no duplicate skill records or unsupported PQ edges were created.
+- [ ] **Next:** continue the mechanics census for skills lacking dedicated current-evidence audits, then separately reconcile explicit PQ typed-reward edges.
