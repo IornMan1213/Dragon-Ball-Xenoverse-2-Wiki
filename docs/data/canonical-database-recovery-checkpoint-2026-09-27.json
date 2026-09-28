@@ -48,7 +48,7 @@
       "blob_sha": "c52da790ea8e81e88d52c626f01f2f045c0cc67e"
     },
     "parallel_quests": {
-      "record_layer_records": 8
+      "record_layer_records": 10
     }
   },
   "corruption_recovery_history": [
@@ -65,7 +65,8 @@
     "Completed the identified QQ Bang equipment-link gap by mapping Light Heart Suit to equip-105 in qq-recipe-004 and qq-recipe-005; audited all QQ Bang equipment_links against the canonical equipment layer with no broken IDs.",
     "Audited the full equipment source-quest list against the sparse canonical PQ record layer; added no speculative PQ stubs. Confirmed the three directly representable equipment↔PQ links remain the complete safe set in the current sparse layer.",
     "Promoted source-backed PQ 134 ↔ equip-041 Broly clothes relationship from pq-121-142 batch into canonical equipment and PQ layers; retained acquisition-source semantics without drop-rate claims.",
-    "Promoted PQ 29 from the maintained batch into the canonical PQ layer with its source-backed baseline reward/equipment data; linked equip-008 bidirectionally."
+    "Promoted PQ 29 from the maintained batch into the canonical PQ layer with its source-backed baseline reward/equipment data; linked equip-008 bidirectionally.",
+    "Promoted PQ 41/equip-060 and PQ 59/equip-061 from the maintained PQ batch into the canonical layer, preserving source-backed acquisition semantics."
   ],
   "current_frontier": {
     "qq_bang_records": 23,
@@ -76,7 +77,7 @@
       "equipment/build cross-domain relationships",
       "deeper patch/item-table evidence only where direct evidence exists"
     ],
-    "note": "Promoted PQ 29 from the maintained pq-021-040 batch into the sparse canonical PQ layer and reconciled its Android 18's Clothes (Vest & Pants) equipment relationship bidirectionally. Continue scanning broader PQ batches for directly supported equipment rewards."
+    "note": "Promoted PQ 41 and PQ 59 into the sparse canonical PQ layer and reconciled their source-backed equipment rewards bidirectionally (Yamcha's Baseball Uniform equip-060; Vegito's Clothes equip-061)."
   },
   "validation_boundary": "Runtime/CI remains intentionally non-blocking/unverified in this recovery checkpoint."
 }
