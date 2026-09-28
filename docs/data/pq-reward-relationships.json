@@ -6290,6 +6290,14 @@
       "target": "The final battle begins now.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-047",
+      "relationship": "pq_rewards_equipment",
+      "target": "Broly's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit equipment acquisition source in the canonical equipment record; promoted as a reward relationship without asserting a guaranteed drop or exact rate."
     }
   ],
   "normalization_rules": [
@@ -6306,13 +6314,13 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 125,
+    "pq_rewards_equipment": 127,
     "pq_rewards_skill": 248,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 850
+    "total": 852
   },
   "last_reconciled_scope": "PQ 1-186; current canonical relationship reconciliation 2026-09-28",
   "notes": [
