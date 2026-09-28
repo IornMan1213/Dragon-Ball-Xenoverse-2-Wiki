@@ -40,6 +40,13 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment",
         "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-005",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ5 reward association; exact reward/drop condition remains unresolved."
+        }
       ]
     },
     {
@@ -91,6 +98,13 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Equipment",
         "https://dbxenoverse.fandom.com/wiki/Accessories"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-051",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ51 reward association; exact reward/drop condition remains unresolved."
+        }
       ]
     },
     {
@@ -207,6 +221,13 @@
       "sources": [
         "https://dbxenoverse.fandom.com/wiki/Accessories",
         "https://dbxv2.fandom.com/wiki/Equipment"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-018",
+          "relationship": "acquisition_source",
+          "evidence_note": "Historical PQ18 route is retained in the canonical accessory record; PQ63 is a separate conflicting historical report and is not promoted."
+        }
       ]
     },
     {
@@ -446,6 +467,13 @@
       "sources": [
         "https://dbxenoverse.fandom.com/wiki/Accessories",
         "https://enjoi7.sakura.ne.jp/db_newproject2/ac.html"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-022",
+          "relationship": "acquisition_source",
+          "evidence_note": "Historical PQ22 route is explicitly documented; exact reward/drop condition remains unresolved."
+        }
       ]
     },
     {
@@ -1541,7 +1569,14 @@
       "sources": [
         "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
       ],
-      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved.",
+      "pq_links": [
+        {
+          "pq_id": "pq-111",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ111 reward association is explicitly documented; exact reward/drop condition remains unresolved."
+        }
+      ]
     },
     {
       "id": "acc-095",
@@ -1558,6 +1593,17 @@
         "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
       ],
       "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+    }
+  ],
+  "research_notes": [
+    {
+      "date": "2026-09-27",
+      "note": "Promoted five exact canonical accessory↔PQ relationships from the accessory research layer where canonical accessory identities already existed and the evidence did not require resolving a naming conflict: Pan's Bandana→PQ5, Great Saiyaman Helmet→PQ51, Goku Wig (Super Saiyan)→PQ18, Tapion's Sword→PQ22, and Resistance Helmet→PQ111. The conflicting PQ63 report for Goku Wig (Super Saiyan) remains preserved and is not promoted.",
+      "sources": [
+        "docs/data/accessory-pq-research.json",
+        "docs/data/accessory-pq-canonical-remaining.json",
+        "docs/data/equipment-accessories-record-layer.json"
+      ]
     }
   ]
 }
