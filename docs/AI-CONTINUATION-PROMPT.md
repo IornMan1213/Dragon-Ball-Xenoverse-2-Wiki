@@ -6450,3 +6450,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [ ] Canonical IDs/full records for these four identities remain unresolved and require surviving datamined/catalog identifiers or a historical canonical blob before promotion.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue substantive post-recovery enrichment by resolving remaining canonical restriction/version provenance gaps and cross-domain relationships; revisit the four Festival identities only when direct canonical identifiers become available.
+
+
+### 2026-09-28 continuation — Festival recovery evidence batch 549
+- [x] Added `docs/data/skill-research-batches/skill-batch-549.json` with an evidence-bound audit of all four recovered Free Update 20 / 4th Festival identities: **God Bind (Festival), Egret Waltz (Festival), Gamma Force: Code-R (Festival), Gamma Force: Code-B (Festival)**.
+- [x] Corroborated each identity with the maintained Festival catalog plus independent community/recovery evidence and tied each to its corresponding Festival character.
+- [x] Confirmed these are **Super Attacks** and preserved the Festival-character mapping without inventing canonical IDs.
+- [x] Recorded the official Free Update 20 boundary: Bandai Namco confirms four Budokai Festival skills but the accessible official announcement does not individually name them; the independent catalog supplies the names.
+- [x] Synchronized `docs/data/pq-cross-domain-index.json` to research batch 549 and advanced `docs/data/skill-catalog-audit.json` latest research batch to 549.
+- [x] Canonical `docs/data/skills.json` remains unchanged; canonical skill count remains 497 and no unsupported IDs were invented.
+- [ ] **Next:** recover complete canonical IDs/full records for these four Festival skills from surviving historical/datamined/catalog identifiers. If no authoritative identifier survives, retain the recovery layer and advance to the next unresolved post-recovery enrichment field.
