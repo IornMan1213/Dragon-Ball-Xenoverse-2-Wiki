@@ -5240,3 +5240,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved generic system/mixing records without concrete equipment links.
 - [x] Updated the cross-domain reconciliation artifact with these results.
 - [ ] Next major task: audit remaining concrete unresolved QQ Bang inputs, then validate cross-domain consumers against the corrected **851-edge** relationship state.
+
+
+### 2026-09-28 continuation — Corrected stale cross-domain relationship metadata
+- [x] Corrected current PQ status/audit metadata from superseded 852/127 to the live canonical 851/126-equipment state.
+- [x] Preserved 840 and superseded 852/127 values as historical provenance.
+- [x] Synchronized equipment reverse coverage to 126/126 with zero missing and zero reverse-only endpoints.
+- [x] Validated the corrected JSON artifacts.
+- [ ] Next major task: inspect cross-domain navigation consumers for stale counts/endpoint assumptions, then expand evidence-backed PQ typed rewards.
