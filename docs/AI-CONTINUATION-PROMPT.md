@@ -5498,3 +5498,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 Recovery status: the canonical Full Power Energy Blast Volley record has now been safely corrected in `docs/data/skills.json` to Ultimate / Ki Blast / 300 Ki / starting move for all types. Current Xenoverse 2-specific documentation and the repository's independent Ultimate research agree on that identity; the older batch-253 Super / 100-Ki / Nappa-training entry remains preserved as historical conflicting provenance only. The dedicated resolution artifact is `docs/data/skill-preset-evidence-reconciliation-batch-06-2026-09-28.json`. The reverse-navigation audit now expects Ultimate, and the canonical/index count target remains 493 / 493.
 
 Next frontier: continue the remaining restored preset-skill identity queue. Prioritize unfinished records only; canonical data remains authoritative, while index/verified/preset layers are evidence or consumers. Preserve nulls and source conflicts rather than guessing. 
+
+
+## 2026-09-28 Continuation Frontier — Super Galick Gun Also Resolved
+
+Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP Medal Shop / CaC usable. Current dedicated Xenoverse 2 documentation and independent corroboration support the identity and acquisition; exact patch-independent damage/timing remain bounded. Resolution is recorded in `docs/data/skill-preset-evidence-reconciliation-batch-08-2026-09-28.json`. Continue with the next genuinely unresolved restored identity or cross-domain reconciliation task; do not repeat completed records.
