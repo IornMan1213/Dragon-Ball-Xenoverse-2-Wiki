@@ -4824,3 +4824,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed the system/recipe research timestamps and recorded the next QQ Bang frontier.
 - [ ] Next substantive QQ Bang work: expand individually documented six-stat vectors and exact recipe provenance, then cross-link reproducible outputs into build/equipment research without claiming exhaustive inventory.
 - [ ] Runtime/CI validation remains unverified in the connector environment.
+
+
+### 2026-09-27 continuation — QQ Bang observed-vector expansion
+- [x] Reviewed the live QQ Bang research layer rather than assuming the older 3-record baseline was current; the layer already contained 14 records (system, mixing item, recipe family, and observed vectors).
+- [x] Added a new non-duplicate observed six-stat vector from a 2025 Steam community report: Beerus Top + Beerus Top + Super Mix Capsule Z → 6-star output +3/+5/+5/-2/0/+5.
+- [x] Preserved this as `verified_secondary` observation only; no deterministic recipe guarantee was inferred. Current external QQ Bang research likewise treats recipe outputs as RNG/distributions. citeturn0search6turn0search0
+- [x] QQ Bang record layer now contains 15 records and 11 promoted observed vectors.
+- [ ] Continue QQ Bang expansion with additional non-duplicate observed vectors and exact input provenance; avoid duplicating the same output or converting community recipes into guaranteed results.
+- [ ] Runtime/CI validation remains unverified in the connector environment.
