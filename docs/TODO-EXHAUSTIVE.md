@@ -5640,3 +5640,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No new PQ relationship was inferred in this metadata-only synchronization; the authoritative relationship count remains **862 edges / 136 equipment**.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: continue broader mechanics/acquisition enrichment rather than manufacturing accessory identities or resolving historical route conflicts without independent evidence.
+
+
+### 2026-09-28 continuation — Live PQ status/audit recount synchronization
+- [x] Directly recounted authoritative `docs/data/pq-reward-relationships.json`: **862 unique canonical edges** — 249 Skill, 135 Super Soul, 136 Equipment, 247 Character, 88 DLC, 7 Farming.
+- [x] Corrected `docs/data/pq-cross-domain-status.json` current fields to the live 862-edge state; historical projections remain preserved as history.
+- [x] Corrected `docs/data/pq-cross-domain-audit.json` current counts and added a latest-live recount record sourced only from the canonical forward store.
+- [x] Duplicate key validation returned **0 duplicates** across the canonical relationship tuples.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: proceed to substantive mechanics/acquisition enrichment and bidirectional cross-domain gaps, using canonical records as source of truth and retaining unresolved evidence boundaries.
