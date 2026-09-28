@@ -6126,7 +6126,7 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 
 
 ### 2026-09-28 continuation — Post-recovery canonical skill promotion batch 537
-- [x] Revalidated the authoritative post-corruption skill blob and index before promotion: 493/493.
+- [x] Revalidated the authoritative post-corruption skill blob and index before promotion: 493/493; the pre-existing `Super Ghost Kamikaze Attack` duplicate-name collision was preserved and no new duplicate was introduced.
 - [x] Promoted four directly evidenced indexed-only Future Warrior skills: Divine Retribution, Final Shine Attack, Savage Strike, Sword of Hope.
 - [x] Synchronized canonical/index layers to 497/497.
 - [x] Added recovery-promotion audit + skill research Batch 537 and registered both in the cross-domain index.
