@@ -4,7 +4,27 @@
   "purpose": "Canonical research layer for QQ Bang mechanics, stat fields, synthesis inputs, recipe provenance, and verification.",
   "verification_status": "partially_verified",
   "source_policy": "Preserve RNG and recipe uncertainty; never infer an exact result from a community recipe unless the observed six-stat output is documented.",
-  "record_fields": ["id", "record_type", "name", "stars", "health", "ki", "stamina", "basic_attack", "strike_supers", "ki_blast_supers", "clothing_inputs", "mixing_item", "mixing_location", "acquisition_route", "rng_notes", "build_tags", "verification_status", "last_verified", "sources"],
+  "record_fields": [
+    "id",
+    "record_type",
+    "name",
+    "stars",
+    "health",
+    "ki",
+    "stamina",
+    "basic_attack",
+    "strike_supers",
+    "ki_blast_supers",
+    "clothing_inputs",
+    "mixing_item",
+    "mixing_location",
+    "acquisition_route",
+    "rng_notes",
+    "build_tags",
+    "verification_status",
+    "last_verified",
+    "sources"
+  ],
   "records": [
     {
       "id": "qq-system-001",
@@ -22,7 +42,16 @@
       "mixing_location": "Capsule Corporation Time Rift Clothing Mixing Shop",
       "acquisition_route": "Synthesis rather than a direct drop",
       "rng_notes": "The resulting stat spread is not guaranteed. Recipe research must preserve observed outputs separately from expected or community-reported results.",
-      "build_tags": ["Strike-focused", "Ki Blast-focused", "Basic Attack", "Hybrid", "Ki + Stamina", "Health + Stamina", "Defensive", "General-purpose"],
+      "build_tags": [
+        "Strike-focused",
+        "Ki Blast-focused",
+        "Basic Attack",
+        "Hybrid",
+        "Ki + Stamina",
+        "Health + Stamina",
+        "Defensive",
+        "General-purpose"
+      ],
       "verification_status": "partially_verified",
       "last_verified": "2026-09-16",
       "sources": [
@@ -46,7 +75,9 @@
       "mixing_location": "Capsule Corporation Clothing Mixing Shop",
       "acquisition_route": "Community-documented multiplayer Parallel Quest Tour farming routes; exact current drop behavior remains separately verifiable.",
       "rng_notes": "Using Super Mix Capsule Z does not justify promising a particular six-stat result.",
-      "build_tags": ["6-star QQ Bang research"],
+      "build_tags": [
+        "6-star QQ Bang research"
+      ],
       "verification_status": "partially_verified",
       "last_verified": "2026-09-16",
       "sources": [
@@ -70,13 +101,47 @@
       "mixing_location": "Capsule Corporation Clothing Mixing Shop",
       "acquisition_route": "Recipe/farming research target",
       "rng_notes": "This is a recipe family, not a guaranteed exact stat result. Individual outputs must be recorded when observed.",
-      "build_tags": ["Ki + Stamina", "Ki Blast-focused", "General-purpose"],
+      "build_tags": [
+        "Ki + Stamina",
+        "Ki Blast-focused",
+        "General-purpose"
+      ],
       "verification_status": "partially_verified",
       "last_verified": "2026-09-16",
       "sources": [
         "https://www.youtube.com/watch?v=XBy_oawrYnk",
         "https://www.reddit.com/r/DragonBallXenoverse2/comments/kztvqf/qq_bang_tips/"
       ]
+    },
+    {
+      "id": "qq-research-002",
+      "record_type": "recipe_observation",
+      "name": "Bardock Battle Suit + Beerus clothing + Super Mix Capsule Z",
+      "stars": 6,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "clothing_inputs": "Bardock Battle Suit and Beerus clothing",
+      "mixing_item": "Super Mix Capsule Z",
+      "mixing_location": "Capsule Corporation Clothing Mixing Shop",
+      "acquisition_route": "Community-documented 6-star QQ Bang recipe family",
+      "rng_notes": "This is an observed recipe family, not a guaranteed stat output. Current evidence confirms substantial RNG variation; record exact six-stat results separately when observed.",
+      "build_tags": [
+        "6-star QQ Bang research",
+        "Ki + Stamina",
+        "Ki Blast-focused"
+      ],
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
+        "https://steamcommunity.com/app/454650/discussions/0/3879347492855720788/",
+        "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
     }
-  ]
+  ],
+  "last_updated": "2026-09-27"
 }
