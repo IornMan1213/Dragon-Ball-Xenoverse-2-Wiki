@@ -5013,3 +5013,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the explicit PQ range (1–186), canonical ID/schema checks, reverse-index projection parity, and generated-date contract; no canonical skill records were modified.
 - [x] Commits: `8a2d4bead1b1de78974fc83ceb712ec5d7afd51d` (initial hardening) and `67f3b7e35cb1175967a52de610b743cb39329ab9` (ordering correction so derived counts are computed before reverse-artifact comparison).
 - [ ] **Exact next:** continue the remaining validator/audit search for stale fixed baselines, then resume substantive restored-database coverage.
+
+### 2026-09-28 continuation — canonical recovery validator skill→PQ baseline hardening
+- [x] Found a second active validator, `scripts/validate_canonical_database_recovery.py`, still freezing the skill→PQ recovery artifact to 493 skills / 248 edges / 170 represented PQs.
+- [x] Removed those historical fixed values and replaced them with structural parity: canonical skill identity count comes from `skills.json`; reverse-index skill count must match it; reverse-index edge and represented-PQ counts are derived from its `pq_ids` projection and checked against its stored metadata.
+- [x] Kept the live PQ relationship `current_counts` reconciliation intact; no canonical research records were altered.
+- [x] Commit: `f3cde4077f6d2003dfc067ce9b74fb8fd35f22eb`.
+- [ ] **Exact next:** inspect the remaining active validators and generated audits for frozen recovery-era counts; then begin the next substantive coverage batch once stale validator assumptions are exhausted.
