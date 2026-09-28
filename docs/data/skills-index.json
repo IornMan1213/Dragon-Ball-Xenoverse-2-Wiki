@@ -3719,12 +3719,13 @@
       "verification_status": "partially_verified",
       "research_status": "catalog_gap_promoted",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers"
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
       ],
-      "unlock_method": "Skill Shop",
+      "unlock_method": null,
       "ultimate_finish_required": null,
       "last_verified": "2026-09-27",
-      "mechanics_notes": "Fires a sequence of energy waves with additional input extending the attack."
+      "mechanics_notes": "Ki Blast Super that fires a sequence of energy waves; additional input extends the attack. Current repository research establishes the identity and 100 Ki cost but does not safely establish a current acquisition route or a unique character source."
     },
     {
       "id": "skill-eraser-bomb",
@@ -9538,12 +9539,16 @@
       "verification_status": "partially_verified",
       "research_status": "catalog_gap_promoted",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Sledgehammer"
+        "https://dbxv2.fandom.com/wiki/Sledgehammer",
+        "https://dragonball.fandom.com/wiki/Double_Axe_Handle",
+        "https://dbxenoverse.fandom.com/wiki/Sledgehammer_%28Skill%29",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-29-sprints-out-this-december-1"
       ],
       "unlock_method": "Skill Shop",
       "ultimate_finish_required": null,
       "last_verified": "2026-09-27",
-      "mechanics_notes": "Chargeable close-range Strike Super with stronger charged knockdown."
+      "mechanics_notes": "Chargeable close-range Strike Super that swings both hands downward. Higher charge levels increase damage and knockdown strength; full charge can produce a hard knockdown and documented guard/Hyper Armor interactions. Exact frame and damage values are version-sensitive.",
+      "source_quest_or_shop": "Skill Shop"
     },
     {
       "id": "skill-sneaky-strike",
