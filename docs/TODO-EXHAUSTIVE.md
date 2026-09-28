@@ -5224,3 +5224,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed PQ12-14 equipment additions are represented without speculative acquisition semantics.
 - [x] Added `docs/data/equipment-qqbang-cross-domain-reconciliation-2026-09-28.json` for cross-domain provenance and QQ Bang uncertainty boundaries.
 - [ ] Next major task: exhaustive equipment/accessory reverse navigation audit across the 127 canonical equipment edges, then unresolved QQ Bang input-identity reconciliation.
+
+
+### 2026-09-28 continuation — Equipment reverse audit correction and endpoint repair
+- [x] Completed record-level equipment forward/reverse comparison.
+- [x] Repaired the genuine missing derived endpoint **Broly's Clothes → PQ47**.
+- [x] Corrected stale canonical metadata: equipment relationships are **126**, not 127; total canonical relationships are **851**, not 852.
+- [x] Synchronized the equipment projection and recovery/audit metadata while preserving historical 840/852 snapshots as provenance.
+- [ ] Next major task: re-run equipment/accessory parity after the repair, then reconcile unresolved QQ Bang equipment-input identities.
