@@ -5380,3 +5380,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-pq-recovery-reconciliation-2026-09-28.json` with evidence and preservation boundaries.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** audit remaining recovered cross-domain endpoints, then expand evidence-backed PQ reward coverage beyond the current 248 Skill→PQ relationships.
+
+
+### 2026-09-28 continuation — Restored preset skill evidence batch 05
+- [x] Reconciled direct evidence for Full Power Energy Blast Volley and Shockwave.
+- [x] Identified and preserved a material source conflict for Full Power Energy Blast Volley: repository batch 253 records a Super/100-Ki/Nappa-training identity, while current Xenoverse 2-specific evidence and batch 310 identify the move as an Ultimate/300-Ki starting move.
+- [x] Reconciled Shockwave as a Strike Super with 100 Ki and Skill Shop acquisition after A Desperate Future; stamina remains null where evidence does not establish it.
+- [x] Added `docs/data/skill-preset-evidence-reconciliation-batch-05-2026-09-28.json`.
+- [x] No new Skill→PQ edge inferred; both records use non-PQ acquisition routes.
+- [ ] Full Power Energy Blast Volley canonical fields still require explicit canonical correction/review because conflicting repository research must not be silently overwritten.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** resolve the Full Power Energy Blast Volley canonical conflict from the surviving direct evidence, then continue the remaining restored preset identities and cross-domain coverage audit.
