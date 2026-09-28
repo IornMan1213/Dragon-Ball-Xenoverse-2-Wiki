@@ -4300,3 +4300,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: QQ Bang research pass — enriched the Bardock + Beerus + Super Mix Capsule Z six-star recipe observation with independent provenance and an explicit RNG/non-guarantee boundary.
 - [ ] 2026-09-27: Expand QQ Bang recipe families and observed six-stat outputs; preserve exact observed results separately from expected/community recipes.
+
+
+- [x] 2026-09-27: Refresh QQ Bang system-level provenance and RNG/recipe evidence without inventing exact outputs.
+- [ ] 2026-09-27: Expand QQ Bang record layer into individual observed six-stat vectors, recipe inputs, mixing items, star ratings, acquisition routes, and source provenance.
