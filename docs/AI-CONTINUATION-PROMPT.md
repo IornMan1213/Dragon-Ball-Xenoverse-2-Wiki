@@ -6635,3 +6635,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added/indexed batch-567 reconciliation audit; canonical data unchanged.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** PQ121-PQ130 recovery-forward reconciliation.
+
+
+### 2026-09-28 continuation — PQ121-PQ130 recovery-forward reconciliation
+- [x] Audited PQ121-PQ130 across dedicated research, maintained PQ records, and canonical typed reward relationships.
+- [x] Restored canonical-backed maintained reward projections, including PQ121's Tuxedo/Wedding Dress/Super Soul and missing Super Souls/equipment through PQ130.
+- [x] Preserved accessory boundaries for Goku Wig (Ultra Instinct) (PQ125) and Janemba Head (PQ127).
+- [x] Added/indexed batch-568 reconciliation audit; canonical data unchanged.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** PQ131-PQ140 recovery-forward reconciliation.
