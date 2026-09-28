@@ -73,16 +73,19 @@
       "clothing_inputs": "Requires a two-clothing-piece QQ Bang synthesis.",
       "mixing_item": "Super Mix Capsule Z",
       "mixing_location": "Capsule Corporation Clothing Mixing Shop",
-      "acquisition_route": "Community-documented multiplayer Parallel Quest Tour farming routes; exact current drop behavior remains separately verifiable.",
-      "rng_notes": "Using Super Mix Capsule Z does not justify promising a particular six-stat result.",
+      "acquisition_route": "Online Parallel Quest Tour / Expert Mission Tour rewards; alternatively synthesized from Super Mix Capsule + Demon Realm Crystal where supported by the game's mixing system.",
+      "rng_notes": "Super Mix Capsule Z is a six-star QQ Bang mixing catalyst, not a guaranteed stat result. Community reports consistently associate it with online PQ/Expert Mission Tour farming; exact current drop rates are not promoted without direct item-table evidence.",
       "build_tags": [
         "6-star QQ Bang research"
       ],
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "last_verified": "2026-09-27",
       "sources": [
         "https://www.youtube.com/watch?v=XBy_oawrYnk",
-        "https://www.reddit.com/r/DragonBallXenoverse2/comments/mq9pnz/how_to_make_qq_bangs/"
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/mq9pnz/how_to_make_qq_bangs/",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eaium7",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1swpysp",
+        "https://www.youtube.com/watch?v=dZE9_VysgAw"
       ]
     },
     {
@@ -140,7 +143,6 @@
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
         "https://steamcommunity.com/app/454650/discussions/0/3879347492855720788/",
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
         "https://steamcommunity.com/app/454650/discussions/0/3076495389984558741/"
       ]
     }
@@ -153,6 +155,15 @@
       "sources": [
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md",
         "https://primagames.com/tips/dragon-ball-xenoverse-2-qq-bang-formula-recipe-list"
+      ]
+    },
+    {
+      "date": "2026-09-27",
+      "note": "Acquisition refresh: Super Mix Capsule Z is documented as a high-tier QQ Bang mixing catalyst obtained through online Parallel Quest/Expert Mission Tour routes, with synthesis from regular Super Mix Capsule plus Demon Realm Crystal also documented. Exact drop rates and exact six-stat outcomes remain unpromoted until direct item-table or observed-vector evidence is available.",
+      "sources": [
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eaium7",
+        "https://www.reddit.com/r/dbxv/comments/15rhszd",
+        "https://www.youtube.com/watch?v=dZE9_VysgAw"
       ]
     }
   ]
