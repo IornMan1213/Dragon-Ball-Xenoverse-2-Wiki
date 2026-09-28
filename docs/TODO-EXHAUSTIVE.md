@@ -5712,3 +5712,18 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Created and registered `docs/data/skill-research-batches/skill-batch-548.json` and updated the skill catalog audit.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Remaining restriction-gap census is **27**; continue only where direct evidence can establish a restriction, then move into version/patch provenance without inventing new canonical schema semantics.
+
+
+### 2026-09-28 continuation — Post-corruption database rebuild/reconciliation checkpoint
+- [x] Re-read the live continuation prompt and exhaustive TODO before changing the recovered database.
+- [x] Reconciled the authoritative docs/data/skills.json and docs/data/skills-index.json: **497 canonical records / 497 index records**, zero duplicate IDs, and zero identity/order mismatches.
+- [x] Reconciled the authoritative docs/data/pq-reward-relationships.json: **862 unique canonical edges** — 249 Skill, 135 Super Soul, 136 Equipment, 247 Character, 88 DLC, 7 Farming; zero duplicate relationship keys.
+- [x] Confirmed all 249 canonical PQ→skill relationship targets resolve to canonical skill identities; no orphan skill targets remain.
+- [x] Confirmed the recovered acquisition layer remains complete at **0/497** target-field gaps and mechanics notes remain present for all **497/497** canonical skill records.
+- [x] Preserved the **27** null race_restriction records as evidence-bound enrichment gaps; no restriction was invented from usable_by_cac, NPC/preset usage, or missing-field status.
+- [x] Confirmed PQ relationship coverage spans PQ1-PQ186; PQ1 remains explicitly untyped for skill/Super Soul/equipment because absence from the cited typed reward source is not treated as negative evidence.
+- [x] Added docs/data/post-corruption-database-recovery-audit-2026-09-28.json as the current recovery-integrity checkpoint.
+- [x] Corrected docs/data/current-live-recovery-baseline-2026-09-28.json from the stale 861-edge snapshot to the live **862-edge** state.
+- [x] Updated docs/data/skill-catalog-audit.json to the current Batch 548/recovery state.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-backed restriction review only where direct evidence can establish a narrower rule; then build explicit version/patch provenance and continue bidirectional PQ↔skill/Super Soul/equipment enrichment. Never use verified/index/projection layers as canonical source of truth.
