@@ -1,0 +1,39 @@
+{
+  "schema_version":"1.0.0",
+  "batch_id":553,
+  "date":"2026-09-28",
+  "status":"complete",
+  "type":"free_update_20_provenance_reconciliation",
+  "scope":"Separate Free Update 20 skill provenance from Dragon Ball DAIMA Pack paid-DLC provenance.",
+  "canonical_source":"docs/data/skills.json",
+  "official_evidence":[
+    {
+      "source":"https://prtimes.jp/main/html/rd/p/000001692.000051316.html",
+      "finding":"Bandai Namco's Japanese announcement separately lists the six DAIMA Pack skills and four Budokai Festival skills under Free Update 20."
+    },
+    {
+      "source":"https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dragon-ball-daima-pack-now-available",
+      "finding":"Bandai Namco America explicitly states that the DAIMA Pack contains player skills and that the accompanying free update separately contains Skills."
+    },
+    {
+      "source":"https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-daima-pack-now-available-dragon-ball-xenoverse-2",
+      "finding":"Bandai Namco Europe likewise separates the paid DAIMA Pack from the accompanying free update containing Skills."
+    }
+  ],
+  "reconciliation":{
+    "free_update_event":"Free Update 20 / version 1.24.0 / May 21 2025",
+    "paid_event":"Dragon Ball DAIMA Pack / May 22 2025 (regional release announcements differ by one day)",
+    "free_update_named_skill_count":4,
+    "free_update_named_skill_identities":["God Bind (Festival)","Egret Waltz (Festival)","Gamma Force: Code-R (Festival)","Gamma Force: Code-B (Festival)"],
+    "paid_daima_named_skill_count":6,
+    "paid_daima_skill_ids":["skill-supreme-fury","skill-heat-wave","skill-super-kamehameha-ss4-daima","skill-burning-blast","skill-force-edge","skill-final-flash-ss3-daima"]
+  },
+  "canonical_action":"No canonical skills.json mutation for the four Festival identities because exact internal IDs remain unresolved. Existing six DAIMA Pack canonical mappings remain unchanged.",
+  "validation":{
+    "paid_free_provenance_confusion_found":false,
+    "unsupported_version_assignments":0,
+    "unsupported_ids_invented":0,
+    "skills_json_changed":false
+  },
+  "next":"Audit the authoritative release registry against all 28 direct skill-event mappings and identify any direct mappings whose event classification or source evidence needs strengthening."
+}
