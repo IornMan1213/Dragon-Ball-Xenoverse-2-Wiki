@@ -4405,3 +4405,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Restored 17 missing canonical PQ records from PQ21-40 maintained batch data (PQ29/PQ36 were already canonical).
 - [x] 2026-09-27: Added 7 exact-name bidirectional PQ↔equipment links for the restored PQ21-40 records.
 - [ ] Continue canonical PQ restoration through remaining maintained batches; do not promote unresolved accessory/equipment identities without evidence.
+
+- [x] 2026-09-27: Restored 18 missing canonical PQ41-60 records from maintained batch data.
+- [x] 2026-09-27: Added 0 exact-name bidirectional PQ↔equipment links for PQ41-60.
+- [ ] Continue restoring missing canonical PQ records from the maintained batches through PQ186.
