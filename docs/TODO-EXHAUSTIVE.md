@@ -5809,3 +5809,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Cross-checked the canonical skill database: the six DAIMA Pack skills are sourced to PQ179–181, while no additional canonical skills are explicitly labeled as Free Update 20.
 - [x] Preserved the unresolved individual free-update skill mapping because the available evidence in this pass does not directly establish skill-name → canonical-ID matches.
 - [ ] **Next:** reconcile Free Update 20 skill names against direct catalog evidence; if still unresolved, move to Future Saga Chapter 4 named-move evidence.
+
+
+### 2026-09-28 continuation — Free Update 20 Festival skills identified as a canonical gap
+- [x] Added the official Bandai Namco Japan release announcement for Free Update 20; it explicitly lists **4 Festival skills** as free-update content. citeturn0search2
+- [x] Confirmed the current canonical skills store exposes only one explicitly Festival-labeled skill record (`Galaxy Breaker (Festival)`).
+- [x] Recorded the discrepancy as an open canonical-data gap rather than inventing three skill IDs.
+- [ ] **Next:** research the 4th Festival of Universes reward schedule to identify the four named Festival skills and reconcile them to canonical IDs; then continue Chapter 4 named-move evidence.
