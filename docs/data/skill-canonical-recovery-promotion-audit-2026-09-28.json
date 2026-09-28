@@ -44,7 +44,11 @@
   "validation": {
     "canonical_record_count": 497,
     "index_record_count": 497,
-    "canonical_duplicate_names": true,
-    "index_duplicate_ids": false
+    "index_duplicate_ids": false,
+    "canonical_duplicate_names_present": true,
+    "preexisting_duplicate_names": [
+      "Super Ghost Kamikaze Attack"
+    ],
+    "new_duplicate_names": []
   }
 }
