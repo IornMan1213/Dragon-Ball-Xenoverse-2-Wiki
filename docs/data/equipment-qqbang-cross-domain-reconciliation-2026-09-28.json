@@ -14,7 +14,14 @@
     "projection_status": "synchronized_2026-09-28",
     "identity_gaps_reported": 0,
     "historical_baseline": 125,
-    "newly_reconciled_scope": "PQ12-14 equipment rewards and the existing PQ47 Broly's Clothes edge are represented in the canonical forward layer; reverse audit found 126 unique equipment edges."
+    "newly_reconciled_scope": "PQ12-14 equipment rewards and the existing PQ47 Broly's Clothes edge are represented in the canonical forward layer; reverse audit found 126 unique equipment edges.",
+    "reverse_audit": {
+      "forward_edges": 126,
+      "reverse_pairs": 126,
+      "missing_reverse": [],
+      "reverse_only": 0,
+      "status": "parity_resolved"
+    }
   },
   "equipment_endpoint_boundary": {
     "canonical_equipment_records": 112,
@@ -24,7 +31,11 @@
     "canonical_records": 23,
     "observed_vectors": 17,
     "identity_link_policy": "Only explicit clothing-input identities are linked to canonical equipment IDs; unresolved aliases remain unlinked.",
-    "stat_policy": "Observed six-stat vectors remain observations and are not promoted to deterministic recipe guarantees."
+    "stat_policy": "Observed six-stat vectors remain observations and are not promoted to deterministic recipe guarantees.",
+    "current_records": 25,
+    "records_with_explicit_equipment_links": 23,
+    "invalid_equipment_links": 0,
+    "identity_audit": "All explicit QQ Bang equipment_links resolve to current equipment/accessory endpoint IDs; the two unlinked system/mixing records intentionally contain no concrete clothing identities."
   },
   "findings": [
     {
@@ -41,12 +52,22 @@
       "id": "qq-bang-input-boundaries",
       "status": "preserved",
       "detail": "QQ Bang observations do not establish guaranteed outputs; explicit equipment identities may be linked for navigation while unresolved aliases remain research evidence."
+    },
+    {
+      "id": "equipment-reverse-parity-after-repair",
+      "status": "resolved",
+      "detail": "Post-repair comparison found 126 canonical forward equipment edges and 126 reverse endpoint pairs, with zero missing reverse pairs and zero reverse-only pairs."
+    },
+    {
+      "id": "qq-bang-equipment-link-integrity",
+      "status": "resolved",
+      "detail": "23 QQ Bang records contain explicit equipment links; all resolve to current endpoint IDs. Two system-level records intentionally have no concrete equipment links."
     }
   ],
   "next_frontier": [
-    "Audit equipment/accessory reverse navigation against all 127 canonical PQ equipment edges.",
-    "Reconcile unresolved QQ Bang equipment-input identities without alias inference.",
-    "Continue canonical reward expansion only where item-level evidence establishes identity and PQ association."
+    "Audit unresolved QQ Bang input identities only where concrete clothing names remain unlinked.",
+    "Continue evidence-backed reward expansion for underrepresented PQ typed rewards.",
+    "Validate cross-domain navigation consumers against the corrected 851-edge canonical relationship total."
   ],
   "source_rule": "Canonical forward datasets are authoritative; reverse indexes, verified layers, projections, and community observations are derived evidence or research layers."
 }
