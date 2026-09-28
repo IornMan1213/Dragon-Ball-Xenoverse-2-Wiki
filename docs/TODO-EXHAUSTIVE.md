@@ -4957,3 +4957,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Live QQ Bang/equipment census at repair time: **24 QQ Bang records / 112 equipment records**; no new canonical equipment identity, stat spread, acquisition route, or recipe guarantee was inferred.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the QQ Bang/equipment/build-navigation census, prioritizing genuinely new observed six-stat vectors and unresolved exact input identities; after that, return to the remaining restored cross-domain/PQ reward coverage queue.
+
+### 2026-09-28 continuation — QQ Bang observed-vector expansion
+- [x] Added `qq-observed-018`, a genuinely distinct documented 6-star output: **+5 Health / +5 Ki / +5 Stamina / +2 Basic Attack / +1 Strike Supers / -1 Ki Blast Supers**, using Beerus Clothing Top + 4-Star Dragon Ball Clothing Top + Super Mix Capsule Z.
+- [x] Reused canonical equipment identities `equip-101` and `equip-108`; no new equipment identity or stat/acquisition claim was inferred.
+- [x] Preserved the source as `verified_secondary` and explicitly kept RNG/recipe non-determinism unresolved.
+- [x] Added `docs/data/qq-bang-observed-vector-expansion-2026-09-28.json` documenting the evidence boundary.
+- [x] QQ Bang record layer advanced from **24 to 25 records**; the research frontier now tracks **19 promoted observed vectors**.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the QQ Bang/equipment/build-navigation census for additional genuinely new vectors or unresolved exact input identities, then resume the remaining restored cross-domain/PQ reward coverage queue.
