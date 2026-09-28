@@ -86,9 +86,16 @@
         "I'll kill all of you!!",
         "Energy Shot"
       ],
-      "skill_rewards": [],
-      "skill_drop_conditions": [],
-      "verification_status": "verified_objectives_basic_rewards",
+      "skill_rewards": [
+        "Energy Shot"
+      ],
+      "skill_drop_conditions": [
+        {
+          "skill": "Energy Shot",
+          "condition": "Reward explicitly listed in the independent PQ reward transcription; exact reward slot/drop percentage remains unresolved."
+        }
+      ],
+      "verification_status": "verified_objectives_basic_rewards_and_skill_reward",
       "last_verified": "2026-09-19",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
