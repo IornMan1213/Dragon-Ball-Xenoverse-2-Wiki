@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "audit_date": "2026-09-28",
-  "scope": "Direct evidence reconciliation for Super Galick Gun after recovered preset identity audit.",
+  "scope": "Post-recovery enrichment refresh for restored skill identities",
   "canonical_source": "docs/data/skills.json",
   "record": {
     "name": "Super Galick Gun",
@@ -32,5 +32,64 @@
     ],
     "occurrence_count": 4
   },
-  "policy": "Canonical skills.json remains authoritative; preset/index layers are evidence or consumers."
+  "policy": "Canonical skills.json remains authoritative; preset/index layers are evidence or consumers.",
+  "records": [
+    {
+      "name": "Energy Wave Combo",
+      "skill_id": "skill-energy-wave-combo",
+      "status": "acquisition_evidence_refreshed",
+      "finding": "Current Xenoverse 2-specific evidence identifies Energy Wave Combo as a Ki Blast Super using 100 Ki and obtainable from the Skill Shop. A separate current Future Warrior reference also identifies it as one of the default Super Skills. This directly supersedes the earlier overly conservative null acquisition boundary in the restored-identity reconciliation; it does not create a PQ relationship.",
+      "reconciled_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "ki_cost": 100,
+        "usable_by_cac": true,
+        "unlock_method": "Skill Shop / default Future Warrior Super Skill",
+        "source_quest_or_shop": "Skill Shop",
+        "ultimate_finish_required": null
+      },
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+        "https://videogaming.fandom.com/wiki/Energy_Wave_Combo_%28Dragon_Ball%3A_Xenoverse_2%29",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Full Power Energy Wave",
+      "skill_id": "skill-full-power-energy-wave",
+      "status": "acquisition_reconciled_uf_bounded",
+      "finding": "Current repository research already supports the Skill Shop/story-gated acquisition route. Ultimate-Finish requirement remains unresolved and must remain null absent explicit evidence.",
+      "reconciled_fields": {
+        "unlock_method": "Skill Shop after God of Destruction's Anger / Battle of Gods progression",
+        "source_quest_or_shop": "Skill Shop — story-gated after God of Destruction's Anger / Battle of Gods progression",
+        "ultimate_finish_required": null
+      },
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_%28Ultimate%29",
+        "docs/data/skill-research-batches/skill-batch-82.json"
+      ]
+    },
+    {
+      "name": "Holstein Shock",
+      "skill_id": "skill-holstein-shock",
+      "status": "reconciled",
+      "finding": "Existing direct evidence remains sufficient for PQ15 acquisition and the documented instant two-bar Ki recharge/self-damage behavior; no new relationship is required in this pass.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gotta_Find_That_Dragon_Ball%21",
+        "docs/data/skill-preset-evidence-reconciliation-batch-03-2026-09-27.json"
+      ]
+    },
+    {
+      "name": "Super Dragon Fist",
+      "skill_id": "skill-super-dragon-fist",
+      "status": "reconciled",
+      "finding": "Existing direct evidence remains sufficient for Skill Shop acquisition and bounded three-hit rush mechanics; no PQ relationship is inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Fist",
+        "docs/data/skill-preset-evidence-reconciliation-batch-03-2026-09-27.json"
+      ]
+    }
+  ],
+  "result": "Energy Wave Combo acquisition evidence is now independently source-backed as Skill Shop/default Future Warrior. The canonical skills.json record should be updated to remove the stale null acquisition boundary when the large canonical file can be safely edited without reconstructing unrelated records. No PQ edge is justified by this evidence.",
+  "next": "Perform a safe canonical skills.json/index update for Energy Wave Combo, then continue the remaining mechanics/acquisition nulls; do not infer PQ ownership from default/preset usage."
 }
