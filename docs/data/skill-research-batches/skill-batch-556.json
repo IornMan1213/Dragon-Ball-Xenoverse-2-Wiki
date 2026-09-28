@@ -1,0 +1,19 @@
+{
+  "batch_id":556,
+  "date":"2026-09-28",
+  "status":"complete",
+  "type":"primary_source_search_boundary",
+  "scope":"Targeted primary-source search for individual Future Saga Chapter 3 and Chapter 4 move names.",
+  "findings":{
+    "chapter_3":"Official Bandai Namco and Nintendo material confirms six new moves for Chapter 3 but the reviewed text does not individually name them.",
+    "chapter_4":"Official Bandai Namco and Nintendo material confirms four new moves for Chapter 4, including one Awoken Skill, but the reviewed text does not individually name them.",
+    "exact_name_search":"No directly searchable primary-source result was found for the ten individual skill names audited in batches 555 and 556."
+  },
+  "actions":{
+    "canonical_skills_changed":false,
+    "unsupported_primary_attributions_added":false,
+    "version_history_inferred":false
+  },
+  "boundary":"Event-level official evidence and individual-skill independent evidence remain separate.",
+  "next":"Advance to the next unresolved provenance or cross-domain enrichment frontier."
+}
