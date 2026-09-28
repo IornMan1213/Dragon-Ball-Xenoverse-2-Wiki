@@ -4,15 +4,15 @@
   "scope": "current canonical character preset/loadout evidence boundary after deterministic consumer scan",
   "live_census": {
     "canonical_preset_records": 51,
-    "verified_loadout_records": 26,
-    "unresolved_loadout_records": 25,
-    "verified_loadout_skill_entries": 0
+    "verified_loadout_records": 25,
+    "unresolved_loadout_records": 26,
+    "verified_loadout_skill_entries": 162
   },
   "checks": [
     {
       "scope": "character-presets-record-layer",
       "status": "pass",
-      "finding": "All 26 verified loadout records have a loadout object, loadout_source, and non-empty sources array."
+      "finding": "All 25 verified loadout records have a loadout object, loadout_source, and non-empty sources array."
     },
     {
       "scope": "numeric-unresolved-core",
@@ -45,6 +45,11 @@
       "scope": "orange-piccolo",
       "status": "evidence_boundary",
       "finding": "An independent current in-game-data page exposes a complete one-preset Orange Piccolo loadout and Super Soul, but the source names the preset 'Demon Clothes' rather than supplying a repository numeric preset ID. It therefore does not satisfy the numeric-identity promotion rule for the unresolved canonical record."
+    },
+    {
+      "scope": "live-record-reconciliation-2026-09-27",
+      "status": "pass",
+      "finding": "Direct census of docs/data/character-presets-record-layer.json resolves 51 total presets as 25 verified loadouts and 26 unresolved loadouts, with 162 skill-slot entries across the 25 verified loadouts. The earlier 26/25 census in this audit was stale and is corrected here; no preset records were promoted or demoted."
     }
   ],
   "sources": [
@@ -63,5 +68,5 @@
   ],
   "relationship_changes": 0,
   "promotion_count": 0,
-  "next": "Find a source that directly binds numeric Goku Presets 2-18, Vegeta Presets 10-11, or Captain Ginyu Presets 5-6 to complete skill-slot configurations. Do not infer from row order, costume order, chapter order, or visual proximity."
+  "next": "Continue exact canonical skill identity validation for the 162 existing loadout entries without using verification/index/projection layers as canonical authority; promote reverse character/preset links only where a deterministic canonical relationship structure and evidence boundary exists."
 }
