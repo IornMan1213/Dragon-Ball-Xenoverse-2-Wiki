@@ -5078,3 +5078,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the repository rule that canonical data, not `verified: true` or projection/index layers, is authoritative for reconstruction.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified because connector-side execution evidence is unavailable.
 - [ ] **Exact next:** continue evidence-backed QQ Bang/equipment provenance reconciliation, then equipment/build and skill/PQ cross-navigation enrichment. Promote only exact identities supported by canonical or explicit source evidence; preserve historical conflicts, RNG/drop-rate uncertainty, and unresolved acquisition semantics.
+
+
+## 2026-09-27 continuation — accessory↔PQ cross-domain pass
+
+- [x] Promoted five exact canonical accessory↔PQ research relationships: `acc-002` Four-Star Dragon Ball Hat ↔ `pq-005`; `acc-005` Great Saiyaman Helmet ↔ `pq-051`; `acc-012` Goku Wig (Super Saiyan) ↔ `pq-018`; `acc-027` Tapion's Sword ↔ `pq-022`; `acc-094` Resistance Helmet ↔ `pq-111`.
+- [x] Added explicit PQ-side `accessory_links` so the relationships are navigable in both directions.
+- [x] Kept these links typed as `research_acquisition_association`; they do not assert guaranteed normal-clear/Ultimate-Finish drops.
+- [x] Preserved the Goku Wig (Super Saiyan) PQ63 historical conflict instead of promoting a second route.
+- [ ] **Next:** continue exact accessory identity reconciliation for the remaining candidate queue, prioritizing candidates whose canonical identity already exists; do not manufacture identities for generic/component labels.
