@@ -4383,3 +4383,6 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 
 - [x] 2026-09-27: Completed the identified QQ Bang equipment-link gap for Light Heart Suit in qq-recipe-004 and qq-recipe-005; audited all QQ Bang equipment IDs against canonical equipment with no broken links.
 - [ ] Next: expand equipment ↔ PQ acquisition links where direct canonical evidence exists, then continue broader cross-domain reconciliation.
+
+- [x] 2026-09-27: Audited all canonical equipment Parallel Quest source references against the sparse PQ record layer; confirmed the current directly representable set and intentionally avoided creating unsupported PQ stubs.
+- [ ] Next: reconcile the broader PQ datasets with the sparse canonical PQ record layer so additional equipment ↔ PQ links can be promoted safely.
