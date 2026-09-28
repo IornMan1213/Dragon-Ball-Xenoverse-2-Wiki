@@ -37,306 +37,6 @@
       ]
     },
     {
-      "id": "pq-023",
-      "number": 23,
-      "name": "The Explosion of Namek",
-      "difficulty": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
-      "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": null,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ]
-    },
-    {
-      "id": "pq-036",
-      "number": 36,
-      "name": "The Cell Games Begin",
-      "difficulty": 4,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "objectives": [
-        "Defeat Piccolo, Goku, and Gohan",
-        "Defeat Piccolo and Goku before Gohan",
-        "Defeat Gohan without Cell getting KO'd"
-      ],
-      "ultimate_finish": "Defeat Piccolo and Goku before Gohan, then defeat Gohan while Cell survives.",
-      "enemies": [
-        "Piccolo",
-        "Goku",
-        "Gohan",
-        "Cell"
-      ],
-      "rewards": [
-        "1780 Zeni",
-        "Yamcha's Sword",
-        "All-Energy Shard",
-        "I am...Super Vegeta!!",
-        "Evil Whirlwind"
-      ],
-      "skill_rewards": [
-        "Evil Whirlwind"
-      ],
-      "equipment_rewards": [
-        "Yamcha's Sword"
-      ],
-      "super_soul_rewards": [
-        "I am...Super Vegeta!!"
-      ],
-      "dragon_ball_farming": false,
-      "verification_status": "partially_verified",
-      "historical_status": "numbering_conflict",
-      "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
-    },
-    {
-      "id": "pq-083",
-      "number": 83,
-      "name": "Dangerous Duo! Warriors Never Rest",
-      "difficulty": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
-      "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": null,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ],
-      "qq_bang_links": [
-        {
-          "qq_bang_id": "qq-mix-001",
-          "relationship": "community_farming_route",
-          "item": "Super Mix Capsule Z",
-          "mode": "Online Parallel Quest Tour",
-          "evidence_note": "PQ 83 is repeatedly identified by community sources as a quick Tour route for attempting to obtain Super Mix Capsule Z. 2024 reports show inconsistent drops, so this relationship must not be interpreted as a guaranteed reward or fixed drop rate.",
-          "sources": [
-            "https://steamcommunity.com/app/454650/discussions/0/4369130369051210735/",
-            "https://gamefaqs.gamespot.com/boards/437192-dragon-ball-xenoverse-2/80339137",
-            "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eot750/"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "pq-100",
-      "number": 100,
-      "name": "The Ultimate Rivalry",
-      "difficulty": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
-      "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
-      "equipment_rewards": [
-        {
-          "equipment_id": "equip-088",
-          "relationship": "acquisition_source",
-          "evidence_note": "Canonical equipment record explicitly names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
-        }
-      ],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": null,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ]
-    },
-    {
-      "id": "pq-122",
-      "number": 122,
-      "name": "The Final Battle Before the Final Battle?!",
-      "difficulty": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
-      "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": null,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ]
-    },
-    {
-      "id": "pq-134",
-      "number": 134,
-      "name": "Universe 7's Next God of Destruction",
-      "difficulty": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
-      "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
-      "equipment_rewards": [
-        {
-          "equipment_id": "equip-041",
-          "relationship": "acquisition_source",
-          "evidence_note": "Canonical PQ batch evidence explicitly lists Broly (Full Power Super Saiyan)'s Clothes as an equipment reward for PQ 134; added bidirectional link without asserting drop guarantee/rate."
-        }
-      ],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": null,
-      "verification_status": "indexed",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ]
-    },
-    {
-      "id": "pq-029",
-      "number": 29,
-      "name": "The Androids Attack",
-      "difficulty": 4,
-      "objectives": [
-        "Defeat Androids 16, 17, and 18",
-        "Clear with Cell's health over 50%",
-        "Defeat Piccolo"
-      ],
-      "ultimate_finish": "Keep Cell above 50% health, defeat the Androids, then defeat Piccolo.",
-      "enemies": [
-        "Android 16",
-        "Android 17",
-        "Android 18",
-        "Cell",
-        "Piccolo"
-      ],
-      "rewards": [
-        "1480 Zeni",
-        "Aura Shard",
-        "I'll use all my strength to kill you.",
-        "Android 18's Clothes (Vest & Pants)",
-        "Freedom Kick",
-        "Energy Field"
-      ],
-      "skill_rewards": [
-        "Freedom Kick",
-        "Energy Field"
-      ],
-      "equipment_rewards": [
-        {
-          "equipment_id": "equip-008",
-          "relationship": "acquisition_source",
-          "evidence_note": "Canonical PQ batch explicitly lists Android 18's Clothes (Vest & Pants) as an equipment reward; exact drop mechanics remain separately unresolved."
-        }
-      ],
-      "super_soul_rewards": [
-        "I'll use all my strength to kill you."
-      ],
-      "dragon_ball_farming": false,
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
-    },
-    {
-      "id": "pq-041",
-      "number": 41,
-      "name": "Warriors' Annihilation - Future Chapters",
-      "difficulty": 5,
-      "objectives": [
-        "Defeat Gohan",
-        "Clear without Android 17 and Android 18 being KO'd",
-        "Defeat Trunks"
-      ],
-      "ultimate_finish": "Keep Android 17 and Android 18 alive, then defeat Trunks.",
-      "enemies": [
-        "Gohan",
-        "Android 17",
-        "Android 18",
-        "Trunks"
-      ],
-      "rewards": [
-        "1980 Zeni",
-        "Med. Mix Capsule",
-        "Yamcha's Baseball Uniform",
-        "Burning Attack"
-      ],
-      "skill_rewards": [
-        "Burning Attack"
-      ],
-      "equipment_rewards": [
-        {
-          "equipment_id": "equip-060",
-          "relationship": "acquisition_source",
-          "evidence_note": "Maintained PQ batch explicitly lists Yamcha's Baseball Uniform as an equipment reward; canonical equipment record names Warriors' Annihilation - Future Chapters as its acquisition source. Exact drop mechanics remain separately unresolved."
-        }
-      ],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": false,
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
-    },
-    {
-      "id": "pq-059",
-      "number": 59,
-      "name": "Potara Warrior",
-      "difficulty": 6,
-      "objectives": [
-        "Defeat Vegito",
-        "Clear with Super Buu's health over 50%",
-        "Defeat Super Vegito"
-      ],
-      "ultimate_finish": "Keep Super Buu above 50% health, then defeat Super Vegito.",
-      "enemies": [
-        "Vegito",
-        "Super Buu",
-        "Super Vegito"
-      ],
-      "rewards": [
-        "2630 Zeni",
-        "Vegito's Clothes",
-        "Force Shield",
-        "Dimension Cannon"
-      ],
-      "skill_rewards": [
-        "Force Shield",
-        "Dimension Cannon"
-      ],
-      "equipment_rewards": [
-        {
-          "equipment_id": "equip-061",
-          "relationship": "acquisition_source",
-          "evidence_note": "Maintained PQ batch explicitly lists Vegito's Clothes as an equipment reward; canonical equipment record names Potara Warrior as its acquisition source. Exact drop mechanics remain separately unresolved."
-        }
-      ],
-      "super_soul_rewards": [],
-      "dragon_ball_farming": false,
-      "verification_status": "partially_verified",
-      "sources": [
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
-    },
-    {
       "id": "pq-021",
       "number": 21,
       "name": "Tri-Race Coop",
@@ -419,6 +119,26 @@
       ],
       "equipment_links": [
         "equip-020"
+      ]
+    },
+    {
+      "id": "pq-023",
+      "number": 23,
+      "name": "The Explosion of Namek",
+      "difficulty": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "objectives": [],
+      "ultimate_finish": null,
+      "enemies": [],
+      "rewards": [],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": null,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
       ]
     },
     {
@@ -602,6 +322,54 @@
       ],
       "equipment_links": [
         "equip-021"
+      ]
+    },
+    {
+      "id": "pq-029",
+      "number": 29,
+      "name": "The Androids Attack",
+      "difficulty": 4,
+      "objectives": [
+        "Defeat Androids 16, 17, and 18",
+        "Clear with Cell's health over 50%",
+        "Defeat Piccolo"
+      ],
+      "ultimate_finish": "Keep Cell above 50% health, defeat the Androids, then defeat Piccolo.",
+      "enemies": [
+        "Android 16",
+        "Android 17",
+        "Android 18",
+        "Cell",
+        "Piccolo"
+      ],
+      "rewards": [
+        "1480 Zeni",
+        "Aura Shard",
+        "I'll use all my strength to kill you.",
+        "Android 18's Clothes (Vest & Pants)",
+        "Freedom Kick",
+        "Energy Field"
+      ],
+      "skill_rewards": [
+        "Freedom Kick",
+        "Energy Field"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-008",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical PQ batch explicitly lists Android 18's Clothes (Vest & Pants) as an equipment reward; exact drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [
+        "I'll use all my strength to kill you."
+      ],
+      "dragon_ball_farming": false,
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
@@ -824,6 +592,50 @@
       ]
     },
     {
+      "id": "pq-036",
+      "number": 36,
+      "name": "The Cell Games Begin",
+      "difficulty": 4,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "objectives": [
+        "Defeat Piccolo, Goku, and Gohan",
+        "Defeat Piccolo and Goku before Gohan",
+        "Defeat Gohan without Cell getting KO'd"
+      ],
+      "ultimate_finish": "Defeat Piccolo and Goku before Gohan, then defeat Gohan while Cell survives.",
+      "enemies": [
+        "Piccolo",
+        "Goku",
+        "Gohan",
+        "Cell"
+      ],
+      "rewards": [
+        "1780 Zeni",
+        "Yamcha's Sword",
+        "All-Energy Shard",
+        "I am...Super Vegeta!!",
+        "Evil Whirlwind"
+      ],
+      "skill_rewards": [
+        "Evil Whirlwind"
+      ],
+      "equipment_rewards": [
+        "Yamcha's Sword"
+      ],
+      "super_soul_rewards": [
+        "I am...Super Vegeta!!"
+      ],
+      "dragon_ball_farming": false,
+      "verification_status": "partially_verified",
+      "historical_status": "numbering_conflict",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
       "id": "pq-037",
       "number": 37,
       "name": "Clash! Perfect Cell",
@@ -970,6 +782,47 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://giga.de/spiele/dragon-ball-xenoverse-2/tipps/dragon-ball-xenoverse-2-alle-parallel-quests-und-deren-siegbedingungen/page/5/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-041",
+      "number": 41,
+      "name": "Warriors' Annihilation - Future Chapters",
+      "difficulty": 5,
+      "objectives": [
+        "Defeat Gohan",
+        "Clear without Android 17 and Android 18 being KO'd",
+        "Defeat Trunks"
+      ],
+      "ultimate_finish": "Keep Android 17 and Android 18 alive, then defeat Trunks.",
+      "enemies": [
+        "Gohan",
+        "Android 17",
+        "Android 18",
+        "Trunks"
+      ],
+      "rewards": [
+        "1980 Zeni",
+        "Med. Mix Capsule",
+        "Yamcha's Baseball Uniform",
+        "Burning Attack"
+      ],
+      "skill_rewards": [
+        "Burning Attack"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-060",
+          "relationship": "acquisition_source",
+          "evidence_note": "Maintained PQ batch explicitly lists Yamcha's Baseball Uniform as an equipment reward; canonical equipment record names Warriors' Annihilation - Future Chapters as its acquisition source. Exact drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
@@ -1480,6 +1333,47 @@
         "Vanishing Ball"
       ],
       "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": false,
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-059",
+      "number": 59,
+      "name": "Potara Warrior",
+      "difficulty": 6,
+      "objectives": [
+        "Defeat Vegito",
+        "Clear with Super Buu's health over 50%",
+        "Defeat Super Vegito"
+      ],
+      "ultimate_finish": "Keep Super Buu above 50% health, then defeat Super Vegito.",
+      "enemies": [
+        "Vegito",
+        "Super Buu",
+        "Super Vegito"
+      ],
+      "rewards": [
+        "2630 Zeni",
+        "Vegito's Clothes",
+        "Force Shield",
+        "Dimension Cannon"
+      ],
+      "skill_rewards": [
+        "Force Shield",
+        "Dimension Cannon"
+      ],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-061",
+          "relationship": "acquisition_source",
+          "evidence_note": "Maintained PQ batch explicitly lists Vegito's Clothes as an equipment reward; canonical equipment record names Potara Warrior as its acquisition source. Exact drop mechanics remain separately unresolved."
+        }
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
@@ -2026,6 +1920,40 @@
       ]
     },
     {
+      "id": "pq-083",
+      "number": 83,
+      "name": "Dangerous Duo! Warriors Never Rest",
+      "difficulty": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "objectives": [],
+      "ultimate_finish": null,
+      "enemies": [],
+      "rewards": [],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": null,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ],
+      "qq_bang_links": [
+        {
+          "qq_bang_id": "qq-mix-001",
+          "relationship": "community_farming_route",
+          "item": "Super Mix Capsule Z",
+          "mode": "Online Parallel Quest Tour",
+          "evidence_note": "PQ 83 is repeatedly identified by community sources as a quick Tour route for attempting to obtain Super Mix Capsule Z. 2024 reports show inconsistent drops, so this relationship must not be interpreted as a guaranteed reward or fixed drop rate.",
+          "sources": [
+            "https://steamcommunity.com/app/454650/discussions/0/4369130369051210735/",
+            "https://gamefaqs.gamespot.com/boards/437192-dragon-ball-xenoverse-2/80339137",
+            "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eot750/"
+          ]
+        }
+      ]
+    },
+    {
       "id": "pq-084",
       "number": 84,
       "name": "Saiyan Warriors",
@@ -2321,6 +2249,2186 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
+    },
+    {
+      "id": "pq-100",
+      "number": 100,
+      "name": "The Ultimate Rivalry",
+      "difficulty": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "objectives": [],
+      "ultimate_finish": null,
+      "enemies": [],
+      "rewards": [],
+      "skill_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-088",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical equipment record explicitly names this PQ as an acquisition source; exact reward/drop mechanics remain separately unresolved."
+        }
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": null,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ]
+    },
+    {
+      "id": "pq-101",
+      "number": 101,
+      "name": "Seeking Fighters for Tournament!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Goku and Vegeta above 50% health",
+        "Defeat SSGSS Goku and SSGSS Vegeta"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku and SSGSS Vegeta after preserving the allies above 50% health.",
+      "rewards": [
+        "2360 Zeni",
+        "Energy Shard",
+        "Champa's Clothes",
+        "Breaker Energy Wave"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-102",
+      "number": 102,
+      "name": "Universe 6 in a Fix!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep all allies alive",
+        "Defeat Omega Shenron and Super 17"
+      ],
+      "ultimate_finish": "Defeat Omega Shenron and Super 17 while preserving all allies.",
+      "rewards": [
+        "3220 Zeni",
+        "Energy Capsule L",
+        "High Mix Capsule",
+        "I'll make you regret that!",
+        "Don't quit! Get up!",
+        "Battle Suit (Cabba)"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-103",
+      "number": 103,
+      "name": "Warriors of Universes 6 & 7!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with at least 10 minutes remaining",
+        "Defeat Hit"
+      ],
+      "ultimate_finish": "Defeat Hit after the time condition.",
+      "rewards": [
+        "5070 Zeni",
+        "All-Energy Capsule M",
+        "This is not a weapon.",
+        "I've been saving this! Kaioken!",
+        "Now you understand. Surrender."
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-104",
+      "number": 104,
+      "name": "Vados the Talent Scout",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Vados above 80% health",
+        "Defeat Vados and the revived enemies"
+      ],
+      "ultimate_finish": "Defeat Vados and the revived enemies while preserving Vados above 80% health.",
+      "rewards": [
+        "2380 Zeni",
+        "All-Regen Capsule L",
+        "Android 14's Clothes",
+        "How Dare You...! That's My Bulma",
+        "Destruction's Concerto: Comet",
+        "Destruction's Concerto: Starfall"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-105",
+      "number": 105,
+      "name": "Champa's Hellish Holiday",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear under 5 minutes",
+        "Fight off Champa"
+      ],
+      "ultimate_finish": "Fight off Champa after the time condition.",
+      "rewards": [
+        "3250 Zeni",
+        "All-Power Capsule L",
+        "Android 13's Clothes",
+        "Me...Protecting Some Pipsqueak",
+        "Buu Don't Wanna!",
+        "Sonic Bomb",
+        "God of Destruction's Menace",
+        "God of Destruction's Roar"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-106",
+      "number": 106,
+      "name": "A Destructive Showdown!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Fight off Champa and Vados",
+        "Keep Beerus and Whis above 50% health",
+        "Fight off Beerus and Whis"
+      ],
+      "ultimate_finish": "Fight off Beerus and Whis while preserving their health above 50%.",
+      "rewards": [
+        "5080 Zeni",
+        "All-Aura Capsule L",
+        "Super Android 13's Clothes",
+        "You're Just Pieces in a Game",
+        "Watch Your Tongue",
+        "Destruction's Concerto: Meteor",
+        "Requiem of Destruction",
+        "Destruction's Conductor"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-107",
+      "number": 107,
+      "name": "The Future's Greatest Hope!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Future Trunks above 50% health",
+        "Defeat SSGSS Goku and SSGSS Vegeta"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku and SSGSS Vegeta while preserving Future Trunks above 50% health.",
+      "rewards": [
+        "2400 Zeni",
+        "Future Mai's Clothes",
+        "Future Mai's Hat",
+        "You can't win..."
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-108",
+      "number": 108,
+      "name": "Doppelganger Dispute!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear under 10 minutes",
+        "Defeat SSGSS Goku and Future Trunks"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku and Future Trunks after the time condition.",
+      "rewards": [
+        "3280 Zeni",
+        "Goku Black's Clothes",
+        "Now, give your father a message for me.",
+        "Eehee hee hee heee!"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-109",
+      "number": 109,
+      "name": "A Fateful Fight With Deity!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep all allies alive",
+        "Defeat Zamasu and Rosé Goku Black"
+      ],
+      "ultimate_finish": "Defeat Zamasu and Rosé Goku Black while preserving all allies.",
+      "rewards": [
+        "5090 Zeni",
+        "All-Energy Capsule Z",
+        "Zamasu's Clothes",
+        "I really do love being immortal.",
+        "I like you better when you're mad!",
+        "Super Black Kamehameha Rosé"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-110",
+      "number": 110,
+      "name": "Heretics from a Dark World",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Rosé Goku Black above 50% health",
+        "Defeat Mira"
+      ],
+      "ultimate_finish": "Defeat Mira while preserving Rosé Goku Black above 50% health.",
+      "rewards": [
+        "4080 Zeni",
+        "Super Saiyan 4 Suit (Goku)",
+        "SS4 Wig & Tail (Goku)",
+        "This fight is only just beginning!",
+        "I shall show you my great godly might!",
+        "Divinity Unleashed"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-111",
+      "number": 111,
+      "name": "The Zero Mortal Plan",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear under 5 minutes",
+        "Defeat Rosé Goku Black and Super 17"
+      ],
+      "ultimate_finish": "Defeat Rosé Goku Black and Super 17 after the time condition.",
+      "rewards": [
+        "4590 Zeni",
+        "Resistance Clothes",
+        "Resistance Helmet",
+        "All-Energy Capsule Z",
+        "I feel it... Everyone, lend me your power!",
+        "Lightning of Absolution",
+        "Holy Wrath"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-112",
+      "number": 112,
+      "name": "Advent of the Mighty God Zamasu!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep all allies alive",
+        "Defeat Android 17 and the others"
+      ],
+      "ultimate_finish": "Defeat Android 17 and the remaining enemies while preserving all allies.",
+      "rewards": [
+        "5100 Zeni",
+        "Sorry. You were way open there.",
+        "I ain't losin'! Here's my full power!",
+        "I'm never going to forgive him!",
+        "Blades of Judgment",
+        "Divine Wrath: Purification"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-113",
+      "number": 113,
+      "name": "Birth of the Ultimate Majin!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Majin Buu (Gohan Abs.) above 50% health",
+        "Defeat all Majin Buus"
+      ],
+      "ultimate_finish": "Defeat all Majin Buus while preserving the allied Majin Buu above 50% health.",
+      "rewards": [
+        "4280 Zeni",
+        "All-Energy Capsule Z",
+        "I'll make good use of you!",
+        "I'm stronger than ever now!",
+        "Super Ghost Buu Attack",
+        "Candy Beam"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-114",
+      "number": 114,
+      "name": "The Majin Revival Plan",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear under 10 minutes",
+        "Defeat Dabura and Kid Buu"
+      ],
+      "ultimate_finish": "Defeat Dabura and Kid Buu after the time condition.",
+      "rewards": [
+        "4670 Zeni",
+        "Pride Trooper Uniform",
+        "Toppo's Moustache",
+        "The real fight starts now!",
+        "Petrifying Spit",
+        "Evil Blast"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-115",
+      "number": 115,
+      "name": "Extreme Battle with Android 13!",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Defeat all enemies without losing any allies",
+        "Defeat Androids 13 and 17"
+      ],
+      "ultimate_finish": "Defeat Androids 13 and 17 while preserving all allies.",
+      "rewards": [
+        "5060 Zeni",
+        "All-Aura Capsule L",
+        "Ribrianne's Clothes",
+        "Ribrianne's Hood",
+        "Looks like you're done!",
+        "Handy Cannon",
+        "S.S. Deadly Bomber"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-116",
+      "number": 116,
+      "name": "A Hero's Duty",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear under 9 minutes",
+        "Defeat Dabura and Omega Shenron"
+      ],
+      "ultimate_finish": "Defeat Dabura and Omega Shenron after the time condition.",
+      "rewards": [
+        "5150 Zeni",
+        "If I don't do it, who will?",
+        "Earth is in your hands now!",
+        "Brave Sword Slash",
+        "Hero's Flute"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-117",
+      "number": 117,
+      "name": "A Dance of Swords",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear under 10 minutes",
+        "Defeat Future Trunks and Tapion"
+      ],
+      "ultimate_finish": "Defeat Future Trunks and Tapion after the time condition.",
+      "rewards": [
+        "5240 Zeni",
+        "All-Regen Capsule L",
+        "Get serious, would you?",
+        "Evil Flame",
+        "Brave Sword Attack"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-118",
+      "number": 118,
+      "name": "Beerus's Tournament Troubles",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Beerus above 50% health",
+        "Defeat Golden Frieza and the others"
+      ],
+      "ultimate_finish": "Defeat Golden Frieza and the remaining enemies while preserving Beerus above 50% health.",
+      "rewards": [
+        "4360 Zeni",
+        "Regen Capsule L",
+        "Now we're even.",
+        "I hate what I've become!"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-119",
+      "number": 119,
+      "name": "A Ranger's Duty",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear under 9 minutes",
+        "Defeat Great Ape Nappa"
+      ],
+      "ultimate_finish": "Defeat Great Ape Nappa after the time condition.",
+      "rewards": [
+        "4840 Zeni",
+        "Energy Capsule Z",
+        "Time to get serious, I guess.",
+        "Rough Ranger"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-120",
+      "number": 120,
+      "name": "Whis's Special Training",
+      "dlc_requirement": "Super Pass",
+      "objectives": [
+        "Defeat all enemies",
+        "Defeat all Jirens before one leaves",
+        "Defeat Beerus, Whis, and Jiren"
+      ],
+      "ultimate_finish": "Defeat Beerus, Whis, and Jiren after preventing any Jiren from leaving.",
+      "rewards": [
+        "5180 Zeni",
+        "All-Power Capsule L",
+        "Hmph! For justice!",
+        "This heat...will be your downfall!",
+        "Power Impact"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-121",
+      "number": 121,
+      "name": "Off-The-Charts Energy",
+      "dlc_requirement": "Extra Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat Fu and the others"
+      ],
+      "ultimate_finish": "Defeat Fu and the other enemies after meeting the first two objectives.",
+      "rewards": [
+        "5290 Zeni",
+        "All-Aura Capsule L",
+        "Tuxedo",
+        "Wedding Dress",
+        "Right, then... Let's begin the experiment!"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-122",
+      "number": 122,
+      "name": "The Final Battle Before the Final Battle?!",
+      "difficulty": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "objectives": [],
+      "ultimate_finish": null,
+      "enemies": [],
+      "rewards": [],
+      "skill_rewards": [],
+      "equipment_rewards": [],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": null,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ]
+    },
+    {
+      "id": "pq-123",
+      "number": 123,
+      "name": "Planetary Possession",
+      "dlc_requirement": "Extra Pack 3",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with Super Baby 2's health over 50%",
+        "Defeat Omega, Eis, and Nuova Shenron"
+      ],
+      "ultimate_finish": "Defeat Omega, Eis, and Nuova Shenron after preserving Super Baby 2 above 50% health.",
+      "rewards": [
+        "4400 Zeni",
+        "Arabian Costume",
+        "Reverse Shot",
+        "Variant Drive"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Reverse Shot",
+        "Variant Drive"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-124",
+      "number": 124,
+      "name": "Downfall of the Ultimate Saiyan",
+      "dlc_requirement": "Extra Pack 3",
+      "objectives": [
+        "Defeat all enemies",
+        "Defeat Super Baby 2 after he heals at least 3 times",
+        "Defeat Great Ape Baby and the others"
+      ],
+      "ultimate_finish": "Defeat Great Ape Baby and the remaining enemies after Super Baby 2 has healed at least three times.",
+      "rewards": [
+        "4800 Zeni",
+        "Don't think I'm the same as before!",
+        "Revenge Final Flash"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Revenge Final Flash"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-125",
+      "number": 125,
+      "name": "Proof's in the Potara",
+      "dlc_requirement": "Extra Pack 3",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with Kefla's health over 50%",
+        "Defeat Goku (Ultra Instinct), Beerus, and Champa"
+      ],
+      "ultimate_finish": "Defeat Goku (Ultra Instinct), Beerus, and Champa after preserving Kefla above 50% health.",
+      "rewards": [
+        "3800 Zeni",
+        "Goku Wig (Ultra Instinct)",
+        "Blaster Ball",
+        "Ray Blast"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Blaster Ball",
+        "Ray Blast"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-126",
+      "number": 126,
+      "name": "Catch Kefla If You Can!",
+      "dlc_requirement": "Extra Pack 3",
+      "objectives": [
+        "Reach Kami's Lookout",
+        "Clear in 6 minutes",
+        "Defeat Kefla and the others"
+      ],
+      "ultimate_finish": "Defeat Kefla and the remaining enemies after reaching the lookout within the time condition.",
+      "rewards": [
+        "5160 Zeni",
+        "Alright! Let's go wreck some faces!",
+        "Gigantic Breaker"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Gigantic Breaker"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-127",
+      "number": 127,
+      "name": "Multiverse Match of the Century",
+      "dlc_requirement": "Extra Pack 3",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in 8 minutes",
+        "Defeat Kefla and the others"
+      ],
+      "ultimate_finish": "Defeat Kefla and the remaining enemies after the time condition.",
+      "rewards": [
+        "5320 Zeni",
+        "Janemba Suit",
+        "Janemba Head",
+        "Gigantic Burst",
+        "Revenge Death Ball"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Gigantic Burst",
+        "Revenge Death Ball"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-128",
+      "number": 128,
+      "name": "Legendary Super Saiyan Smackdown",
+      "dlc_requirement": "Extra Pack 4",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat Broly (Full Power Super Saiyan)"
+      ],
+      "ultimate_finish": "Defeat Broly (Full Power Super Saiyan) after the first two conditions.",
+      "rewards": [
+        "6550 Zeni",
+        "GAAAGH!",
+        "Your father has been killed!",
+        "I've waited an unbelievably long time for this...",
+        "Powered Shell",
+        "Gigantic Charge"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Powered Shell",
+        "Gigantic Charge"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-129",
+      "number": 129,
+      "name": "Frieza Force on the Hunt",
+      "dlc_requirement": "Extra Pack 4",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with any NPC's health over 50%",
+        "Defeat Gotenks and SSGSS Gogeta"
+      ],
+      "ultimate_finish": "Defeat Gotenks and SSGSS Gogeta after preserving an NPC above 50% health.",
+      "rewards": [
+        "6810 Zeni",
+        "Heh heh! Now THIS is real power!",
+        "Hey, you think you could fight a little quieter?!",
+        "Don't think I'm gonna show you any gratitude!",
+        "Spirit Blaster",
+        "Punisher Shield"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Spirit Blaster",
+        "Punisher Shield"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-130",
+      "number": 130,
+      "name": "Legendary Starving Saiyan Broly",
+      "dlc_requirement": "Extra Pack 4",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with Broly (Full Power Super Saiyan)'s health over 50%",
+        "Defeat Broly (Full Power Super Saiyan)"
+      ],
+      "ultimate_finish": "Defeat Broly (Full Power Super Saiyan) after preserving the allied Broly above 50% health.",
+      "rewards": [
+        "7110 Zeni",
+        "Broly (Full Power Super Saiyan)'s Clothes",
+        "Hey, you! You ready for me?!",
+        "Hmph. I'm off to take a nap.",
+        "Th-Thanks...",
+        "Gigantic Rage"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Gigantic Rage"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-131",
+      "number": 131,
+      "name": "Fight of the Fusions! Vegito vs Gogeta",
+      "dlc_requirement": "Extra Pack 4",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 and a half minutes",
+        "Defeat SSGSS Gogeta and SSGSS Vegito"
+      ],
+      "ultimate_finish": "Defeat SSGSS Gogeta and SSGSS Vegito after the time condition.",
+      "rewards": [
+        "8130 Zeni",
+        "Leave the rest to me!",
+        "SSGSS Gogeta's Clothes",
+        "You'd better survive, you got that?!",
+        "Shall we pick up where we left off?",
+        "Assault Vanish"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Assault Vanish"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-132",
+      "number": 132,
+      "name": "The Ultimate Legendary Super Saiyan",
+      "dlc_requirement": "Extra Pack 4",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with Broly's health over 50%",
+        "Defeat Broly (Full Power Super Saiyan) and others"
+      ],
+      "ultimate_finish": "Defeat Broly (Full Power Super Saiyan) and the remaining enemies while preserving the allied Broly above 50% health.",
+      "rewards": [
+        "8150 Zeni",
+        "Broly Wig (Legendary Super Saiyan)",
+        "Whoa, it's freezing here!",
+        "This is no time to mess around...",
+        "I can't have you dying on me!",
+        "God Punisher",
+        "Gigantic Roar"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "God Punisher",
+        "Gigantic Roar"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-133",
+      "number": 133,
+      "name": "Ribrianne's Beauty Lesson",
+      "dlc_requirement": "Ultra Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Ribrianne and the others"
+      ],
+      "ultimate_finish": "Defeat Ribrianne and the remaining enemies after the time condition.",
+      "rewards": [
+        "5930 Zeni",
+        "Kakunsa's Wig and Mask",
+        "Kakunsa's Tail",
+        "Kakunsa's Clothes",
+        "Here it comes!",
+        "I got my claws in you, and fangs too!",
+        "Pretty Cannon",
+        "Formation!"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Pretty Cannon",
+        "Formation!"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-134",
+      "number": 134,
+      "name": "Universe 7's Next God of Destruction",
+      "difficulty": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "objectives": [],
+      "ultimate_finish": null,
+      "enemies": [],
+      "rewards": [],
+      "skill_rewards": [],
+      "equipment_rewards": [
+        {
+          "equipment_id": "equip-041",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical PQ batch evidence explicitly lists Broly (Full Power Super Saiyan)'s Clothes as an equipment reward for PQ 134; added bidirectional link without asserting drop guarantee/rate."
+        }
+      ],
+      "super_soul_rewards": [],
+      "dragon_ball_farming": null,
+      "verification_status": "indexed",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+      ]
+    },
+    {
+      "id": "pq-135",
+      "number": 135,
+      "name": "Ribrianne, Defender of Love and Justice",
+      "dlc_requirement": "Ultra Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with Ribrianne's health over 50%",
+        "Defeat Mira (Final Form) and the others"
+      ],
+      "ultimate_finish": "Defeat Mira (Final Form) and the remaining enemies while preserving Ribrianne above 50% health.",
+      "rewards": [
+        "5800 Zeni",
+        "Rozie's Hood and Goggles",
+        "Rozie's Clothes",
+        "That won't work on me!",
+        "Lovely Cyclone"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Lovely Cyclone"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-136",
+      "number": 136,
+      "name": "Breaking Down the Barrier",
+      "dlc_requirement": "Ultra Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Goku (Ultra Instinct)"
+      ],
+      "ultimate_finish": "Defeat Goku (Ultra Instinct) after the time condition.",
+      "rewards": [
+        "5570 Zeni",
+        "Pathetic",
+        "Justice is nothing to me now.",
+        "Burst Stinger",
+        "Raid Blast",
+        "Blazing Attack"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Burst Stinger",
+        "Raid Blast",
+        "Blazing Attack"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-137",
+      "number": 137,
+      "name": "Tournament of Power Round 2",
+      "dlc_requirement": "Ultra Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with at least 8 and a half minutes left",
+        "Defeat Jiren and the others"
+      ],
+      "ultimate_finish": "Defeat Jiren and the remaining enemies after preserving the time condition.",
+      "rewards": [
+        "9000 Zeni",
+        "This is everything I've got!",
+        "That heat... I'll have to match it.",
+        "Ribrianne's Eternal Love",
+        "Prominence Flash"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Ribrianne's Eternal Love",
+        "Prominence Flash"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-138",
+      "number": 138,
+      "name": "The Battle of Earth",
+      "dlc_requirement": "Ultra Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with Goku (GT) surviving",
+        "Defeat Omega Shenron and the others"
+      ],
+      "ultimate_finish": "Defeat Omega Shenron and the remaining enemies while Goku (GT) survives.",
+      "rewards": [
+        "6400 Zeni",
+        "I'm not gonna die until I defeat you!",
+        "I just flew around the whole world!",
+        "Flash Chaser"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Flash Chaser"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-139",
+      "number": 139,
+      "name": "War and Pieces",
+      "dlc_requirement": "Ultra Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat Frieza (Final Form) and the others"
+      ],
+      "ultimate_finish": "Defeat Frieza (Final Form) and the remaining enemies after the time condition.",
+      "rewards": [
+        "7100 Zeni",
+        "Android 21's Lab Uniform",
+        "Universe 7 Baseball Uniform",
+        "Universe 7 Baseball Cap",
+        "Total Detonation Ball",
+        "Photon Swipe"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Total Detonation Ball",
+        "Photon Swipe"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-140",
+      "number": 140,
+      "name": "Spirit Bomb Away!",
+      "dlc_requirement": "Ultra Pack 2",
+      "objectives": [
+        "Endure for 4 minutes",
+        "Clear with Goku's health over 70%",
+        "Defeat Android 21 and the others"
+      ],
+      "ultimate_finish": "Defeat Android 21 and the remaining enemies after surviving four minutes and preserving Goku above 70% health.",
+      "rewards": [
+        "5620 Zeni",
+        "This thing carries hopes of everyone on Earth!",
+        "Now then, time for another delightful hunt!",
+        "Savory Slicer"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Savory Slicer"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-141",
+      "number": 141,
+      "name": "Uub's Ultimate Challenge",
+      "dlc_requirement": "Ultra Pack 2",
+      "objectives": [
+        "Defeat Broly (Super Saiyan, Full Power)",
+        "Clear with Majuub's health over 50%",
+        "Defeat Golden Frieza and the others"
+      ],
+      "ultimate_finish": "Defeat Golden Frieza and the remaining enemies while preserving Majuub above 50% health.",
+      "rewards": [
+        "7850 Zeni",
+        "D-Don't talk bad about my family!",
+        "This oughta make things interesting.",
+        "Dragon Blitz",
+        "Brutal Buster"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Dragon Blitz",
+        "Brutal Buster"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-142",
+      "number": 142,
+      "name": "Timespace Tussle",
+      "dlc_requirement": "Ultra Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with your health over 60%",
+        "Defeat Fu and the others"
+      ],
+      "ultimate_finish": "Defeat Fu and the remaining enemies while preserving your health above 60%.",
+      "rewards": [
+        "9800 Zeni",
+        "I don't want them to get hurt!",
+        "Universe 6 Baseball Uniform",
+        "Lightning Impact",
+        "Excellent Full Course"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Lightning Impact",
+        "Excellent Full Course"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-143",
+      "number": 143,
+      "name": "Other World Offensive",
+      "dlc_requirement": "Ultra Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 9 minutes",
+        "Defeat Kid Buu and the others"
+      ],
+      "ultimate_finish": "Defeat Kid Buu and the remaining enemies after the time condition.",
+      "rewards": [
+        "5710 Zeni",
+        "This is as far as you go.",
+        "Artwork 81",
+        "Artwork 82",
+        "Artwork 92",
+        "Artwork 93",
+        "Hyper Tornado",
+        "Burning Shot"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Hyper Tornado",
+        "Burning Shot"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-144",
+      "number": 144,
+      "name": "Super 17's Super Plan",
+      "dlc_requirement": "Legendary Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Finish with Super 17 alive",
+        "Defeat Android 17 (Super) and the others"
+      ],
+      "ultimate_finish": "Defeat Android 17 (Super) and the remaining enemies while preserving Super 17.",
+      "rewards": [
+        "You've awakened my true power...",
+        "I won't forgive those who best my comrades!"
+      ],
+      "verification_status": "partially_verified",
+      "notes": "Baseline reward inventory is incomplete; the two Super Souls are source-backed.",
+      "skill_rewards": [],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-145",
+      "number": 145,
+      "name": "Other World Challenger",
+      "dlc_requirement": "Legendary Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Pikkon's health above 10%",
+        "Defeat SSGSS Goku and the others"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku and the remaining enemies while preserving Pikkon above 10% health.",
+      "rewards": [
+        "7350 Zeni",
+        "11140 Zeni (Ultimate Finish)",
+        "16090 XP",
+        "24220 XP (Ultimate Finish)",
+        "I've cast aside everything for this!",
+        "Destructive Fracture",
+        "Destructive Flare",
+        "Artwork 84",
+        "Artwork 85",
+        "Artwork 91",
+        "Super Mix Capsule",
+        "Super Mix Capsule Z"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Destructive Fracture",
+        "Destructive Flare"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-146",
+      "number": 146,
+      "name": "Zen-Ohs' Earthly Excursion",
+      "dlc_requirement": "Legendary Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 15 minutes",
+        "Defeat Toppo (God of Destruction) and the others"
+      ],
+      "ultimate_finish": "Defeat Toppo (God of Destruction) and the remaining enemies after the time condition.",
+      "rewards": [
+        "9900 Zeni",
+        "There's no way you can hit me!",
+        "Artwork 86",
+        "Artwork 94",
+        "Artwork 95",
+        "Artwork 135",
+        "Artwork 136",
+        "Bardock (DB Super)'s Clothes",
+        "Thunder Flash",
+        "Destructive Fission"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Thunder Flash",
+        "Destructive Fission"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-147",
+      "number": 147,
+      "name": "Caulifla's Saiyan Search",
+      "dlc_requirement": "Legendary Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Defeat Kale within 3 minutes",
+        "Defeat Kefla"
+      ],
+      "ultimate_finish": "Defeat Kefla after defeating Kale within the time condition.",
+      "rewards": [
+        "5730 Zeni",
+        "Caulifla's Clothes",
+        "Caulifla Wig",
+        "It's just me and you now!",
+        "Artwork 170",
+        "Artwork 181",
+        "Artwork 191",
+        "Crush Cannon",
+        "Double Crush",
+        "Crush Stream"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Crush Cannon",
+        "Double Crush",
+        "Crush Stream"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-148",
+      "number": 148,
+      "name": "Finding Out About Fusion",
+      "dlc_requirement": "Legendary Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Defeat Kid Buu without Gohan being knocked out",
+        "Defeat Caulifla and Majin Buu"
+      ],
+      "ultimate_finish": "Defeat Caulifla and Majin Buu while preserving Gohan.",
+      "rewards": [
+        "5210 Zeni",
+        "Kale's Clothes",
+        "Kale Wig",
+        "My back's getting tingly...!",
+        "Artwork 158",
+        "Artwork 177",
+        "Artwork 240",
+        "Blaster Cannon",
+        "Blaster Bomb",
+        "Blaster Stream"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Blaster Cannon",
+        "Blaster Bomb",
+        "Blaster Stream"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-149",
+      "number": 149,
+      "name": "Clash of the Clones",
+      "dlc_requirement": "Legendary Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat SSGSS Gogeta"
+      ],
+      "ultimate_finish": "Defeat SSGSS Gogeta after the time condition.",
+      "rewards": [
+        "8410 Zeni",
+        "Bulma (Kid)'s Clothes",
+        "Bulma (Kid) Wig",
+        "Our two strengths aren't just added together.",
+        "Artwork 166",
+        "Artwork 167",
+        "Artwork 168",
+        "Comet Strike",
+        "Meteor Explosion"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Comet Strike",
+        "Meteor Explosion"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-150",
+      "number": 150,
+      "name": "Battle of the Mind",
+      "dlc_requirement": "Legendary Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat Goku (Ultra Instinct)"
+      ],
+      "ultimate_finish": "Defeat Goku (Ultra Instinct) after the time condition.",
+      "rewards": [
+        "6430 Zeni",
+        "I will prevail, no matter the cost!",
+        "Artwork 192",
+        "Artwork 226",
+        "Artwork 243",
+        "Impact Flare",
+        "Power Wall"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Impact Flare",
+        "Power Wall"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-151",
+      "number": 151,
+      "name": "Even Further Beyond",
+      "dlc_requirement": "Conton City Vote Pack",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Omega Shenron and the others"
+      ],
+      "ultimate_finish": "Defeat Omega Shenron and the remaining enemies after the time condition.",
+      "rewards": [
+        "5840 Zeni",
+        "I think I'm getting the hang of this.",
+        "I'll keep adding a bit of power to my attacks!",
+        "Artwork 265",
+        "Artwork 275",
+        "Artwork 318",
+        "Ultrasonic Blitz",
+        "Spirit Pulse",
+        "Celestial Wave"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Ultrasonic Blitz",
+        "Spirit Pulse",
+        "Celestial Wave"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-152",
+      "number": 152,
+      "name": "Dyspo's Wanted Man",
+      "dlc_requirement": "Conton City Vote Pack",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep your health above 50%",
+        "Defeat Dyspo"
+      ],
+      "ultimate_finish": "Defeat Dyspo while preserving your health above 50%.",
+      "rewards": [
+        "6100 Zeni",
+        "I will put a stop to you, fiend!",
+        "Artwork 262",
+        "Artwork 270",
+        "Artwork 319",
+        "Android 17 (DB Super)'s Ranger Outfit",
+        "Android 17 (DB Super) Wig",
+        "Justice Kick",
+        "Justice Blade"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Justice Kick",
+        "Justice Blade"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-153",
+      "number": 153,
+      "name": "Seeing Double",
+      "dlc_requirement": "Conton City Vote Pack",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep Vegeta (GT)'s health above 50%",
+        "Defeat SSGSS Vegeta (Evolved)"
+      ],
+      "ultimate_finish": "Defeat SSGSS Vegeta (Evolved) while preserving Vegeta (GT) above 50% health.",
+      "rewards": [
+        "8730 Zeni",
+        "There's more where that came from!",
+        "You're not much of a fun fight!",
+        "Artwork 350",
+        "Artwork 271",
+        "Artwork 320",
+        "Wild Buster",
+        "Shield Barrier",
+        "Counter Impact"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Wild Buster",
+        "Shield Barrier",
+        "Counter Impact"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-154",
+      "number": 154,
+      "name": "Dabura the Loyal? Servant",
+      "dlc_requirement": "Conton City Vote Pack",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Metal Cooler and the others"
+      ],
+      "ultimate_finish": "Defeat Metal Cooler and the remaining enemies after the time condition.",
+      "rewards": [
+        "6540 Zeni",
+        "King Vegeta (DB Super) Wig",
+        "King Vegeta (DBS)'s Battle Suit",
+        "Artwork 249",
+        "Artwork 258",
+        "Artwork 321",
+        "Sign of Awakening",
+        "Circle Flash"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Sign of Awakening",
+        "Circle Flash"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-155",
+      "number": 155,
+      "name": "I Need a Hero... Pose!",
+      "dlc_requirement": "Hero of Justice Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 9 minutes",
+        "Defeat Gamma 1"
+      ],
+      "ultimate_finish": "Defeat Gamma 1 after the time condition.",
+      "rewards": [
+        "6540 Zeni",
+        "Gamma 2's Helmet",
+        "Artwork 341",
+        "Artwork 342",
+        "Artwork 397",
+        "Heroic Counter",
+        "Gamma Blaster",
+        "Gamma Impact"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Heroic Counter",
+        "Gamma Blaster",
+        "Gamma Impact"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-156",
+      "number": 156,
+      "name": "Hunting Down Dr. Hedo",
+      "dlc_requirement": "Hero of Justice Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat Super 17 and Super Baby 2"
+      ],
+      "ultimate_finish": "Defeat Super 17 and Super Baby 2 after the time condition.",
+      "rewards": [
+        "6000 Zeni",
+        "This is your true power?",
+        "Still haven't figured out you're gonna lose?",
+        "Gamma 1's Helmet",
+        "Artwork 339",
+        "Artwork 340",
+        "Artwork 345",
+        "Artwork 398",
+        "Heroic Assault",
+        "Shooting Strike"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Heroic Assault",
+        "Shooting Strike"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-157",
+      "number": 157,
+      "name": "Whis's Training: Gohan's Awakening",
+      "dlc_requirement": "Hero of Justice Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep your health above 50%",
+        "Defeat Gohan (DBS Super Hero)"
+      ],
+      "ultimate_finish": "Defeat Gohan (DBS Super Hero) while preserving your health above 50%.",
+      "rewards": [
+        "8500 Zeni",
+        "I'll be the one to fight you!",
+        "You need to be more careful.",
+        "Artwork 343",
+        "Artwork 348",
+        "Artwork 349",
+        "Artwork 400"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-158",
+      "number": 158,
+      "name": "Beat Bulma's Minions!",
+      "dlc_requirement": "Hero of Justice Pack 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat SSGSS Goku and SSGSS Vegeta"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku and SSGSS Vegeta after the time condition.",
+      "rewards": [
+        "7000 Zeni",
+        "Heh heh! I'm not as rusty as I look!",
+        "Gamma 2's Clothes",
+        "Artwork 338",
+        "Artwork 344",
+        "Artwork 346",
+        "Artwork 347",
+        "Super Gamma Blast",
+        "Core Breaker"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Super Gamma Blast",
+        "Core Breaker"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-159",
+      "number": 159,
+      "name": "Lights! Camera! Super Heroes!",
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Gamma 1 and Gamma 2"
+      ],
+      "ultimate_finish": "Defeat Gamma 1 and Gamma 2 after the time condition.",
+      "rewards": [
+        "6900 Zeni",
+        "Enter the hero!",
+        "The Red Ribbon Army is back in business!",
+        "Dr. Hedo Hood",
+        "Artwork 467",
+        "Artwork 473",
+        "Artwork 487",
+        "Fierce Fist",
+        "Demonic Destruction"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Fierce Fist",
+        "Demonic Destruction"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-160",
+      "number": 160,
+      "name": "Pan in Peril",
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Gogeta (SS4)"
+      ],
+      "ultimate_finish": "Defeat Gogeta (SS4) after the time condition.",
+      "rewards": [
+        "7100 Zeni",
+        "Is that all?",
+        "Red Ribbon Army Helmet",
+        "Artwork 463",
+        "Artwork 465",
+        "Artwork 488",
+        "Demon Ray",
+        "Demon Flash Strike",
+        "Demon Flurry"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Demon Ray",
+        "Demon Flash Strike",
+        "Demon Flurry"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-161",
+      "number": 161,
+      "name": "Scream Team vs. Dream Team",
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Orange Piccolo and Gohan (Beast)"
+      ],
+      "ultimate_finish": "Defeat Orange Piccolo and Gohan (Beast) after the time condition.",
+      "rewards": [
+        "8200 Zeni",
+        "I'm a whole new me.",
+        "Red Ribbon Soldier 94 Clothes",
+        "Artwork 469",
+        "Artwork 481",
+        "Artwork 489",
+        "Apocalyptic Burst"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Apocalyptic Burst"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-162",
+      "number": 162,
+      "name": "The Man, the Myth, the Yamcha",
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Keep your health above 50%",
+        "Defeat Yamcha (Supervillain)"
+      ],
+      "ultimate_finish": "Defeat Yamcha (Supervillain) while preserving your health above 50%.",
+      "rewards": [
+        "7900 Zeni",
+        "Shenron really went the extra mile.",
+        "Dr. Hedo Suit",
+        "Gohan (Beast) Wig",
+        "Artwork 466",
+        "Artwork 477",
+        "Artwork 490",
+        "Special Beam Cannon (Beast)"
+      ],
+      "verification_status": "partially_verified",
+      "skill_rewards": [
+        "Special Beam Cannon (Beast)"
+      ],
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "pq-163",
+      "number": 163,
+      "name": "Broly the Invader",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Goku"
+      ],
+      "ultimate_finish": "Defeat Goku after the time condition.",
+      "rewards": [
+        "6900 Zeni",
+        "Artwork 502",
+        "Artwork 528",
+        "Artwork 531",
+        "Artwork 541",
+        "Artwork 555",
+        "Giant Cluster",
+        "Eraser Bomb"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-164",
+      "number": 164,
+      "name": "Where is Goku?!",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat SSGSS Goku"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku after the time condition.",
+      "rewards": [
+        "7300 Zeni",
+        "This place Will be your grave!",
+        "Artwork 504",
+        "Artwork 521",
+        "Artwork 529",
+        "Artwork 530",
+        "Artwork 583",
+        "Gigantic Explosion"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-165",
+      "number": 165,
+      "name": "Anniversary Antics",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat SSGSS Goku"
+      ],
+      "ultimate_finish": "Defeat SSGSS Goku after the time condition.",
+      "rewards": [
+        "8000 Zeni",
+        "Artwork 499",
+        "Artwork 516",
+        "Artwork 520",
+        "Artwork 539",
+        "Artwork 587",
+        "Artwork 588",
+        "Variable Snipe Shot",
+        "Steel Mirage"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-166",
+      "number": 166,
+      "name": "Escape from West City",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Super 17"
+      ],
+      "ultimate_finish": "Defeat Super 17 after the time condition.",
+      "rewards": [
+        "8200 Zeni",
+        "Hope you're ready for a trip!",
+        "Artwork 501",
+        "Artwork 515",
+        "Artwork 523",
+        "Artwork 542",
+        "Artwork 567",
+        "Artwork 604",
+        "Pendulum Bullet"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-167",
+      "number": 167,
+      "name": "Fighting for Family",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Gohan (Adult)"
+      ],
+      "ultimate_finish": "Defeat Gohan (Adult) after the time condition.",
+      "rewards": [
+        "8300 Zeni",
+        "Artwork 512",
+        "Artwork 517",
+        "Artwork 532",
+        "Artwork 569",
+        "Artwork 571",
+        "Seagull Combination",
+        "Burning Swan"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-168",
+      "number": 168,
+      "name": "Videl: Super Mom",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 7 minutes",
+        "Defeat Golden Frieza and the others"
+      ],
+      "ultimate_finish": "Defeat Golden Frieza and the remaining enemies after the time condition.",
+      "rewards": [
+        "8600 Zeni",
+        "Videl (DB Super) Wig",
+        "I'm not about to let Pan see me lose!",
+        "Artwork 498",
+        "Artwork 519",
+        "Artwork 551",
+        "Artwork 553",
+        "Artwork 590",
+        "Justice Drive"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-169",
+      "number": 169,
+      "name": "Reclaiming a Holy Vessel",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Golden Frieza and the others"
+      ],
+      "ultimate_finish": "Defeat Golden Frieza and the remaining enemies after the time condition.",
+      "rewards": [
+        "9000 Zeni",
+        "Orange Piccolo's Clothes",
+        "Artwork 505",
+        "Artwork 591",
+        "Artwork 595",
+        "Artwork 596"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-170",
+      "number": 170,
+      "name": "Love: A Field Study",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 9 minutes",
+        "Defeat Android 18 (DB Super)"
+      ],
+      "ultimate_finish": "Defeat Android 18 (DB Super) after the time condition.",
+      "rewards": [
+        "9200 Zeni",
+        "Videl (DB Super)'s Clothes",
+        "Artwork 524",
+        "Artwork 533",
+        "Artwork 577",
+        "Artwork 597"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-171",
+      "number": 171,
+      "name": "Fighters with Finesse",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 9 minutes",
+        "Defeat Great Saiyaman 1 and others"
+      ],
+      "ultimate_finish": "Defeat Great Saiyaman 1 and the remaining enemies after the time condition.",
+      "rewards": [
+        "9400 Zeni",
+        "Artwork 500",
+        "Artwork 536",
+        "Artwork 552",
+        "Artwork 592",
+        "Artwork 593",
+        "Crimson Edge",
+        "Divine Spear"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-172",
+      "number": 172,
+      "name": "Little Big Brother",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 8 minutes",
+        "Defeat Great Ape Baby"
+      ],
+      "ultimate_finish": "Defeat Great Ape Baby after the time condition.",
+      "rewards": [
+        "9500 Zeni",
+        "Artwork 508",
+        "Artwork 509",
+        "Artwork 510",
+        "Artwork 535",
+        "Artwork 598",
+        "Artwork 601",
+        "Big Bang Knuckle",
+        "Wild Stinger"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-173",
+      "number": 173,
+      "name": "Decoding Dinner",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 9 minutes",
+        "Defeat Beerus"
+      ],
+      "ultimate_finish": "Defeat Beerus after the time condition.",
+      "rewards": [
+        "9800 Zeni",
+        "You Will know the power of the gods!",
+        "Artwork 503",
+        "Artwork 513",
+        "Artwork 534",
+        "Artwork 537",
+        "Artwork 602",
+        "Artwork 603",
+        "Divine Ray Bomb"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-174",
+      "number": 174,
+      "name": "Hyper Special Training",
+      "dlc_requirement": "Future Saga Chapter 1",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear with own health over 40%",
+        "Defeat Supreme Kai of Time and Trunks"
+      ],
+      "ultimate_finish": "Defeat Supreme Kai of Time and Trunks while preserving your health above 40%.",
+      "rewards": [
+        "11200 Zeni",
+        "Artwork 497",
+        "Artwork 506",
+        "Artwork 507",
+        "Artwork 514",
+        "Artwork 525",
+        "Artwork 599",
+        "Final Rampage"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-175",
+      "number": 175,
+      "name": "Who's the Next Leader?!",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 15 minutes",
+        "Defeat Belmod"
+      ],
+      "ultimate_finish": "Defeat Belmod after the time condition.",
+      "rewards": [
+        "9200 Zeni",
+        "It's about time...",
+        "Artwork 608",
+        "Artwork 609",
+        "Artwork 615",
+        "Artwork 616",
+        "Artwork 627",
+        "God of Destruction's Plaything",
+        "God of Destruction's Poise"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-176",
+      "number": 176,
+      "name": "Havoc at the 3-Universe Feast",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Belmod"
+      ],
+      "ultimate_finish": "Defeat Belmod after the time condition.",
+      "rewards": [
+        "9300 Zeni",
+        "Belmod's Clothes",
+        "Artwork 606",
+        "Artwork 610",
+        "Artwork 614",
+        "God of Destruction's Might"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-177",
+      "number": 177,
+      "name": "Warped Sense of Justice",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Jiren (Full Power, Ultra Supervillain)"
+      ],
+      "ultimate_finish": "Defeat Jiren (Full Power, Ultra Supervillain) after the time condition.",
+      "rewards": [
+        "9400 Zeni",
+        "Strength is justice! Strength is absolute!",
+        "Artwork 621",
+        "Artwork 623",
+        "Artwork 624",
+        "Artwork 635",
+        "Full Power Destruction",
+        "Dragon Spark",
+        "Soaring Rush"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-178",
+      "number": 178,
+      "name": "The Tireless Pursuit of Strength",
+      "dlc_requirement": "Future Saga Chapter 2",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Jiren (Full Power, Ultra Supervillain) and the others"
+      ],
+      "ultimate_finish": "Defeat Jiren (Full Power, Ultra Supervillain) and the remaining enemies after the time condition.",
+      "rewards": [
+        "9500 Zeni",
+        "Goku (Mini)'s Gi",
+        "I'll take all of you on at once!",
+        "Artwork 607",
+        "Artwork 625",
+        "Burst Blitz"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-179",
+      "number": 179,
+      "name": "24/7 Time Patrol",
+      "dlc_requirement": "Dragon Ball DAIMA Pack",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Vegeta (Super Saiyan God)"
+      ],
+      "ultimate_finish": "Defeat Vegeta (Super Saiyan God) after the time condition.",
+      "rewards": [
+        "9600 Zeni",
+        "SS4 Goku (DAIMA) Suit",
+        "SS4 Goku (DAIMA) Wig & Tail",
+        "Artwork 711",
+        "Artwork 714",
+        "Artwork 724",
+        "Heat Wave",
+        "Supreme Fury"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-180",
+      "number": 180,
+      "name": "Battle of Resolve: VS Goku Black",
+      "dlc_requirement": "Dragon Ball DAIMA Pack",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Vegeta (Super Saiyan God)"
+      ],
+      "ultimate_finish": "Defeat Vegeta (Super Saiyan God) after the time condition.",
+      "rewards": [
+        "9700 Zeni",
+        "SS3 Vegeta (DAIMA) Battle Suit",
+        "SS3 Vegeta (DAIMA) Wig",
+        "Damn it all!",
+        "Artwork 712",
+        "Artwork 718",
+        "Artwork 723",
+        "Force Edge",
+        "Burning Blast"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-181",
+      "number": 181,
+      "name": "The Greatest Training Ever",
+      "dlc_requirement": "Dragon Ball DAIMA Pack",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 15 minutes",
+        "Defeat Beerus and the others"
+      ],
+      "ultimate_finish": "Defeat Beerus and the remaining enemies after the time condition.",
+      "rewards": [
+        "12000 Zeni",
+        "Glorio's Clothes",
+        "Panzy's Clothes",
+        "Glorio Wig",
+        "Panzy Wig",
+        "Artwork 710",
+        "Artwork 726",
+        "Super Kamehameha (SS4 DAIMA)",
+        "Final Flash (SS3 DAIMA)"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-182",
+      "number": 182,
+      "name": "Frieza's Fervent Wish",
+      "dlc_requirement": "Future Saga Chapter 3",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat SSGSS Gogeta"
+      ],
+      "ultimate_finish": "Defeat SSGSS Gogeta after the time condition.",
+      "rewards": [
+        "9800 Zeni",
+        "Golden Frieza Suit",
+        "Golden Frieza Head",
+        "Rejoice! A new ruler is born!",
+        "Artwork 760",
+        "Artwork 772",
+        "Dark Inscription"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-183",
+      "number": 183,
+      "name": "Broly vs. Broly",
+      "dlc_requirement": "Future Saga Chapter 3",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Broly"
+      ],
+      "ultimate_finish": "Defeat Broly after the time condition.",
+      "rewards": [
+        "9900 Zeni",
+        "Cheelai's Coat",
+        "Broly Wig (Black Hair, Normal)",
+        "AAAAAAAAAGH!",
+        "Artwork 759",
+        "Artwork 762",
+        "Artwork 771",
+        "Emperor's Cannon"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-184",
+      "number": 184,
+      "name": "The Invincible Duo",
+      "dlc_requirement": "Future Saga Chapter 3",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 9 minutes",
+        "Defeat SS4 Goku (DAIMA) and the others"
+      ],
+      "ultimate_finish": "Defeat SS4 Goku (DAIMA) and the remaining enemies after the time condition.",
+      "rewards": [
+        "11000 Zeni",
+        "Dragon Ball Balloon",
+        "Send me back to the planet I came from!",
+        "Artwork 748",
+        "Artwork 749",
+        "Artwork 754",
+        "Artwork 758",
+        "Chaotic Time Impact"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-185",
+      "number": 185,
+      "name": "A God's Amusement",
+      "dlc_requirement": "Future Saga Chapter 4",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 10 minutes",
+        "Defeat Fused Zamasu (Half-Corrupted)"
+      ],
+      "ultimate_finish": "Defeat Fused Zamasu (Half-Corrupted) after the time condition.",
+      "rewards": [
+        "15000 Zeni",
+        "Goku (Ultra Supervillain Quelled)'s Clothes",
+        "Goku (Ultra Supervillain Quelled) Wig",
+        "This power... It's different from any I've ever had.",
+        "Malice... Existence... Cruelty...",
+        "Artwork 865",
+        "Artwork 868",
+        "Dragon Spiral",
+        "Indomitable"
+      ],
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pq-186",
+      "number": 186,
+      "name": "Frieza's Right-Hand Man",
+      "dlc_requirement": "Future Saga Chapter 4",
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 14 minutes",
+        "Defeat Golden Frieza and the others"
+      ],
+      "ultimate_finish": "Defeat Golden Frieza and the remaining enemies after the time condition.",
+      "rewards": [
+        "14000 Zeni",
+        "Fu (Ultra Supervillain)'s Clothes",
+        "Fu (Ultra Supervillain) Set",
+        "Fu Set 2",
+        "The final battle begins now.",
+        "I'll use this power to protect everyone!",
+        "Artwork 866",
+        "Venus Fist"
+      ],
+      "verification_status": "partially_verified"
     }
   ],
   "record_fields": []
