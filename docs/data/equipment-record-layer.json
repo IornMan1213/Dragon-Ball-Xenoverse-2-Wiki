@@ -2438,6 +2438,112 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
+    },
+    {
+      "id": "equip-101",
+      "name": "Beerus Top",
+      "slot": "top",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing/equipment system; exact restrictions remain unresolved.",
+      "set_name": "Beerus' Clothes",
+      "acquisition_method": "unresolved",
+      "source_quest_or_shop": null,
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity added to canonical equipment research because it is an explicit input in observed QQ Bang records; acquisition, stats, and exact component metadata remain unresolved.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/217691032448171443/"
+      ]
+    },
+    {
+      "id": "equip-102",
+      "name": "Pikkon's Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing/equipment system; exact restrictions remain unresolved.",
+      "set_name": "Pikkon's Clothes",
+      "acquisition_method": "unresolved",
+      "source_quest_or_shop": null,
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity added from historical observed QQ Bang input provenance; exact component/stats/acquisition details require item-level reconciliation.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
+    },
+    {
+      "id": "equip-103",
+      "name": "Towa's Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing/equipment system; exact restrictions remain unresolved.",
+      "set_name": "Towa's Clothes",
+      "acquisition_method": "unresolved",
+      "source_quest_or_shop": null,
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity added from historical observed QQ Bang input provenance; exact component/stats/acquisition details require item-level reconciliation.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
+    },
+    {
+      "id": "equip-104",
+      "name": "Future Trunks' Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing/equipment system; exact restrictions remain unresolved.",
+      "set_name": "Future Trunks' Clothes",
+      "acquisition_method": "unresolved",
+      "source_quest_or_shop": null,
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity added from historical observed QQ Bang input provenance; exact component/stats/acquisition details require item-level reconciliation.",
+      "verification_status": "indexed",
+      "last_verified": "2026-09-27",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
+    }
+  ],
+  "research_notes": [
+    {
+      "date": "2026-09-27",
+      "note": "Cross-domain reconciliation: added canonical equipment identity stubs for Beerus Top, Pikkon's Clothes, Towa's Clothes, and Future Trunks' Clothes because these names occur as observed QQ Bang inputs. No acquisition/stat fields were guessed; each remains indexed pending item-level evidence.",
+      "sources": [
+        "https://steamcommunity.com/app/454650/discussions/0/217691032448171443/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74772397"
+      ]
     }
   ]
 }
