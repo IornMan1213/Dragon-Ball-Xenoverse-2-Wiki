@@ -15,8 +15,8 @@
   "result": "canonical_identity_reconciled",
   "methodology": "Compared every skill-slot string in the 25 currently verified preset loadouts against canonical skill record names using exact case-insensitive identity matching. A normalized punctuation/spacing pass was also tested for unmatched entries and produced no additional matches. No alias, character-only, or historical identity was inferred.",
   "unmatched": [],
-  "interpretation": "All 162 verified preset skill-slot references now resolve to exact canonical skill identities in docs/data/skills.json. No alias, character-only, or historical identity inference was used.",
-  "next": "Research the 18 unmatched names against primary/current skill evidence and determine whether each should become a canonical cast-only/unavailable-for-CaC skill record, map to an existing canonical identity, or remain outside the canonical skill corpus. Preserve evidence and historical boundaries.",
+  "interpretation": "All 162 verified preset skill-slot references resolve to exact canonical skill identities. The 18 identities added during reconciliation remain marked partially_verified/catalog_gap_promoted and require subsequent provenance/mechanics enrichment; they were not treated as verified_current_scope merely because they occur in preset loadouts.",
+  "next": "Enrich and independently reconcile the 18 catalog-gap-promoted records against their existing repository research batches, correcting acquisition/classification/mechanics fields where direct evidence is available and preserving null/conflict boundaries.",
   "promoted_to_canonical": [
     "Super Galick Gun",
     "Sledgehammer",
@@ -308,6 +308,17 @@
         "skill-batch-223 explicitly identifies Evasive/Strike, 300 Stamina, CaC usability, Skill Shop acquisition."
       ]
     ],
-    "conclusion": "The unmatched set is substantially supported by existing research evidence, but the evidence is heterogeneous and several records intentionally retain null/conflict fields. No canonical skill records were added or rewritten in this pass."
+    "conclusion": "The 18 unmatched preset references have now been represented in the canonical skill corpus so the preset graph has complete identity coverage. This is a coverage reconciliation, not a blanket verification promotion: all 18 records remain partially_verified until their record-level provenance is reconciled against existing research evidence. Galaxy Breaker (Festival) remains explicitly non-CaC."
+  },
+  "reconciliation_2026_09_27": {
+    "status": "completed",
+    "canonical_records_before": 475,
+    "canonical_records_after": 493,
+    "preset_skill_entries": 162,
+    "exact_matches_after": 162,
+    "newly_represented_names": 18,
+    "verification_policy": "Identity coverage may be reconciled into canonical records, but verification_status remains partially_verified until record-level evidence is reconciled. Preset occurrence alone is never sufficient evidence for acquisition, cost, mechanics, or CaC availability.",
+    "evidence_boundary": "Existing research batches are evidence; canonical skills.json remains the source of truth. No verified/index/projection layer is treated as authoritative.",
+    "known_followup": "Some newly represented records contain broad or placeholder fields that must be replaced with exact research-batch evidence before they can be considered enriched/current-scope."
   }
 }
