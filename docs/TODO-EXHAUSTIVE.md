@@ -4282,3 +4282,7 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] 2026-09-27: Synchronize Skill→PQ reverse index and PQ-skill crosslink report with the restored 475-record canonical corpus.
 - [x] 2026-09-27: Reconcile Partner Customization validator and Dual Masenko partner endpoint to canonical Future Trunks identity.
 - [ ] 2026-09-27: Execute validators through an available runtime/CI path; connector-side runtime execution remains unverified.
+
+
+- [x] 2026-09-27: Re-audit PQ118 ↔ Dual Masenko; documented conflicting external reward evidence and retained the relationship as unresolved rather than manufacturing a canonical edge.
+- [ ] 2026-09-27: Obtain direct item-level/game-data evidence to resolve the PQ118 Dual Masenko conflict before changing canonical Skill→PQ relationships.
