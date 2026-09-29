@@ -7055,3 +7055,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining restriction-gap cohort, prioritizing explicit race/gender/form evidence rather than character ownership inference.
+
+
+### 2026-09-29 continuation — Skill restriction batch 606
+- [x] Performed a fresh direct-source race-restriction audit for **Demonic Blade, Time Bullet, Demon Ray Barrage, Time Skip/Back Breaker, Frieza's Nova, and Broly's Meteor Crash**.
+- [x] Reviewed current repository acquisition records plus external skill-list/reference evidence.
+- [x] No direct narrower race/gender/form restriction was established for any of the six; preserved canonical race_restriction: null.
+- [x] Added Batch 606 and synchronized the catalog restriction census.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence, prioritizing explicit race/gender/form eligibility.
