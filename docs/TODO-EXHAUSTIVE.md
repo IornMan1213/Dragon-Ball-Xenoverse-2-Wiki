@@ -6341,3 +6341,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported game-version/patch assignment.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next older DLC/free-update cohort with explicit official skill names or counts; keep unnamed attack subsets event-scope-only and do not infer identities from proximity or reward ordering.
+
+### 2026-09-29 continuation — Extra Pack 1 individual skill provenance reconciliation batch 597
+- [x] Reconciled the official **13 new skills** Extra Pack 1 scope against the complete canonical skill roster.
+- [x] Correctly separated **PQ111-PQ112 Super Pack 4 skills** from Extra Pack 1; they were not incorrectly attributed to Extra Pack 1.
+- [x] Bound the ten Extra Pack 1 PQ skills from **PQ113-PQ117**: Super Ghost Buu Attack, Candy Beam (Super), Petrifying Spit, Evil Blast, Handy Canon, S.S. Deadly Bomber, Hero's Flute, Brave Sword Slash, Evil Flame, and Brave Sword Attack.
+- [x] Bound the three Zamasu mentor skills: God Splitter, Heavenly Arrow, and Instant Severance.
+- [x] Extra Pack 1 now has **13/13 individually mapped skills**, matching the official documented count.
+- [x] Added `docs/data/skill-research-batches/skill-batch-597.json` and synchronized the authoritative provenance registry and skill-catalog audit.
+- [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported game-version/patch assignment.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the older DLC/free-update provenance frontier with Extra Pack 3/4 and other documented-count cohorts; do not reopen Extra Pack 1 without new direct evidence.
+
