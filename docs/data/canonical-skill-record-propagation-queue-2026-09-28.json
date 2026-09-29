@@ -84,6 +84,24 @@
       "action": "Promote only if an exact existing canonical identity or complete structured canonical record can be established. Do not manufacture an ID from NPC/skill-list numeric codes.",
       "pq_rule": "Do not create or alter PQ relationships from this taxonomy evidence.",
       "status": "pending_exact_canonical_identity"
+    },
+    {
+      "skill": "X20 Kaioken Kamehameha",
+      "skill_id": "x20-kaioken-kamehameha",
+      "current_evidence": {
+        "race_restriction": "All CaC races",
+        "usable_by_cac": true
+      },
+      "evidence": [
+        "docs/data/skill-research-batches/skill-batch-680.json",
+        "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha"
+      ],
+      "required_targets": [
+        "docs/data/skills.json",
+        "docs/data/skills-index.json"
+      ],
+      "action": "Run scripts/apply_canonical_skill_patch.py --skill-id x20-kaioken-kamehameha first as dry-run, then --write against a complete checkout; validate canonical/index parity afterward.",
+      "status": "pending_safe_local_execution"
     }
   ],
   "boundaries": [
