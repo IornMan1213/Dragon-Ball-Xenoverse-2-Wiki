@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-09-29",
+  "batch": 683,
+  "status": "recovery_forward_checkpoint",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_skill_blob_sha": "b32e26e729ea03656a46583fee0ed9b0f7f00511",
+  "canonical_skill_records": 549,
+  "index_skill_records": 549,
+  "null_race_restriction_cac_records": 74,
+  "pq_relationship_count": 862,
+  "pq_relationship_counts": {
+    "skill": 0,
+    "super_soul": 0,
+    "equipment": 0,
+    "character": 0,
+    "dlc": 0,
+    "farming": 0
+  },
+  "reconstruction_policy": "Never rebuild canonical skills.json from index, verified layers, reverse indexes, or projections.",
+  "batch_683": {
+    "reviewed": 4,
+    "promoted": 0,
+    "null_preserved": 4,
+    "remaining_frontier": 70
+  },
+  "next": "Continue direct skill-specific retail race/gender/form evidence, then older DLC/free-update provenance and bidirectional PQ reward enrichment."
+}
