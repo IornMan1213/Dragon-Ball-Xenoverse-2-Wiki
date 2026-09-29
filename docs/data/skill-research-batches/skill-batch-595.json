@@ -1,0 +1,122 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 595,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "extra_pack_2_remaining_skill_provenance_reconciliation",
+  "scope": "Complete the documented eight Extra Pack 2 avatar-skill provenance mappings without counting the two separately named Goku (Ultra Instinct) character-exclusive moves against Bandai Namco's eight-skill DLC count.",
+  "canonical_source": "docs/data/skills.json",
+  "official_sources": [
+    "bn_extra_pack_2_named_skills_2018",
+    "bn_xv2_free_update_extra2_2018"
+  ],
+  "corroborating_sources": [
+    "community_extra_pack_2_skill_roster_2018"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-sneaky-strike",
+      "skill_name": "Sneaky Strike",
+      "character": "Fu",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "confidence": "corroborated",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "basis": "Community Extra Pack 2 roster explicitly lists Sneaky Strike as one of Fu's new skills; canonical ID is independently established by current repository evidence."
+    },
+    {
+      "skill_id": "skill-confusion-blade",
+      "skill_name": "Confusion Blade",
+      "character": "Fu",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "confidence": "corroborated",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "basis": "Community Extra Pack 2 roster explicitly lists Confusion Blade as one of Fu's new skills; canonical ID is independently established by current repository evidence."
+    },
+    {
+      "skill_id": "skill-energy-minefield",
+      "skill_name": "Energy Minefield",
+      "character": "Fu",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "confidence": "corroborated",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "basis": "Community Extra Pack 2 roster explicitly lists Energy Minefield as one of Fu's new skills; canonical ID is independently established by current repository evidence."
+    },
+    {
+      "skill_id": "skill-remote-serious-bomb",
+      "skill_name": "Remote Serious Bomb",
+      "character": "Fu",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "confidence": "corroborated",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "basis": "Community Extra Pack 2 roster explicitly lists Remote Serious Bomb as one of Fu's new skills; canonical ID is independently established by current repository evidence."
+    },
+    {
+      "skill_id": "skill-rough-ranger",
+      "skill_name": "Rough Ranger",
+      "character": "Android 17 (DB Super)",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "confidence": "corroborated",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "basis": "Community Extra Pack 2 roster explicitly identifies Rough Ranger as Android 17's new skill; current repository evidence establishes its canonical ID and PQ119 provenance."
+    },
+    {
+      "skill_id": "skill-power-impact",
+      "skill_name": "Power Impact",
+      "character": "Jiren",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "confidence": "corroborated",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "basis": "Community Extra Pack 2 roster explicitly identifies Power Impact as Jiren's new skill; current repository evidence establishes its canonical ID and PQ120 provenance."
+    }
+  ],
+  "event_reconciliation": {
+    "event_id": "extra-pack-2",
+    "release_date": "2018-03-01",
+    "documented_new_skill_count": 8,
+    "avatar_skill_mappings_complete": 8,
+    "mapped_avatar_skills": [
+      "skill-meditation",
+      "skill-power-rush",
+      "skill-sneaky-strike",
+      "skill-confusion-blade",
+      "skill-energy-minefield",
+      "skill-remote-serious-bomb",
+      "skill-rough-ranger",
+      "skill-power-impact"
+    ],
+    "separately_named_character_exclusive_moves": [
+      "skill-soaring-fist",
+      "skill-godly-display"
+    ],
+    "note": "Bandai Namco documents eight new skills for Extra Pack 2. The two separately named Goku (Ultra Instinct) moves are retained as DLC character-skill provenance but are not counted against the documented eight avatar/new-skill roster."
+  },
+  "canonical_action": "No skills.json mutation and no PQ relationship mutation. Provenance only.",
+  "validation": {
+    "documented_avatar_skill_count": 8,
+    "avatar_skill_mappings_complete": true,
+    "new_canonical_mappings": 6,
+    "total_extra_pack_2_avatar_mappings_after_batch": 8,
+    "separately_named_ui_goku_moves_retained": 2,
+    "unsupported_ids": 0,
+    "unsupported_version_assignments": 0
+  },
+  "next": "Continue to Extra Pack 1/other early DLC cohorts, prioritizing events with explicit skill counts and incomplete individual mappings; preserve separate character-exclusive move provenance where official wording distinguishes it from the documented avatar-skill count."
+}
