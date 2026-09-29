@@ -41,8 +41,8 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 618,
-  "canonical_catalog_generated": 516,
+  "latest_research_batch": 619,
+  "canonical_catalog_generated": 517,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical Ki Blast Super recovery and indexed-only reconciliation",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
@@ -444,5 +444,21 @@
     ],
     "canonical_ids_inferred": 0,
     "pq_relationship_mutations": 0
+  },
+  "recovery_batch_619": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "previous_canonical_count": 516,
+    "new_canonical_count": 517,
+    "index_records": 517,
+    "restored": [
+      "Fighting Sun"
+    ],
+    "source_batch": 245,
+    "canonical_ids_inferred": 0,
+    "pq_relationship_mutations": 0,
+    "acquisition_route": "Skill Shop after completing Universal Emperor",
+    "duration_reconciliation": "18-second Properties duration and 15-second displayed Stats duration both preserved; 18 seconds is the documented effect duration.",
+    "boundary": "No unsupported combat values or acquisition conditions inferred."
   }
 }
