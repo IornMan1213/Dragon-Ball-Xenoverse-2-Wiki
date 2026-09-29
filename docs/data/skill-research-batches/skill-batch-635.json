@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 635,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "indexed_only_reconciliation",
+  "scope": "Final two indexed-only identities.",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_mutation": false,
+  "records": [
+    {
+      "name": "Ill Flash",
+      "classification": "cac_usable",
+      "evidence": "Dragon Ball Wiki states that in Xenoverse 2 Ill Flash is one of Super Buu's Super Skills and the Future Warrior can obtain it from the Skill Shop. The Future Warrior technique list independently includes Ill Flash."
+    },
+    {
+      "name": "Spiral of Condemnation",
+      "classification": "unavailable_for_cac",
+      "evidence": "Dragon Ball Wiki identifies it as unique to Fused Zamasu (Half-Corrupted); the Xenoverse 2 character documentation lists it in that character's moveset with CaC marked No. Independent ID-list evidence also marks its skill code DNZ as not CaC."
+    }
+  ],
+  "validation": {
+    "canonical_skills": 548,
+    "canonical_mutations": 0,
+    "frontier_before": 2,
+    "frontier_after": 0
+  },
+  "next": "The indexed-only reconciliation frontier is closed. Move to canonical coverage/recovery and cross-domain completeness rather than continuing name-only frontier work."
+}
