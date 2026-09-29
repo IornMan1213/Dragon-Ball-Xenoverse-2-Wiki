@@ -537,7 +537,7 @@
       "assignment_status": "Five avatar-skill records reconciled against the official five-new-attacks count; character-exclusive moves and the later Sword of Hope update are not automatically assigned to this event."
     }
   ],
-  "next_step": "Audit DLC-label anomalies separately (notably Super Pack 4 character-exclusive moves and Sword of Hope) before any canonical mutation; then continue race-restriction enrichment.",
+  "next_step": "Super Pack 4 decomposition is documented: official store metadata says 5 Additional Skills, while the canonical DLC-labeled cohort contains 8 non-mentor avatar/character skill records plus Sword of Hope. Preserve the five official DLC-skill mappings already established; do not force the remaining records into the DLC event. Next: build evidence-bound race_restriction candidate batches for the 79 null canonical records.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
