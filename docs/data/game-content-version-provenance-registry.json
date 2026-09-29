@@ -233,6 +233,14 @@
       "date": "2018-02-23",
       "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437",
       "scope": "Contemporaneous Extra Pack 2 notes explicitly identify the eight new avatar skills as Fu's four skills, Android 17's Rough Ranger, and Jiren's Power Impact, Meditation, and Power Rush; used as corroboration rather than official release authority."
+    },
+    {
+      "id": "bn_xv2_extra_pack_1_2017",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "More details about the new content for DRAGON BALL XENOVERSE 2",
+      "date": "2017-11-21",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/more-details-about-the-new-content-dragon-ball-xenoverse-2",
+      "scope": "Official Extra Pack 1 preview; documents four new playable characters, Zamasu as a new Master, five Parallel Quests, and 13 new skills."
     }
   ],
   "events": [
@@ -373,7 +381,9 @@
       "id": "free-update-2016-12-20",
       "kind": "free_update",
       "date": "2016-12-20",
-      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "source_ids": [
+        "bn_xv2_dlc_pack_preview_2016"
+      ],
       "skill_count": 2,
       "assignment_status": "Two individual named Awoken Skill mappings established directly; four additional unnamed free-update attacks remain event-scope-only. No game version/patch number inferred."
     },
@@ -387,9 +397,19 @@
       ],
       "skill_count": 8,
       "assignment_status": "DLC-level provenance established; all 8 documented new/avatar skills now have individual canonical mappings supported by official DLC count plus named roster evidence. Soaring Fist and Godly Display remain separately named Goku (Ultra Instinct) character-skill provenance and are not counted against the documented eight-skill avatar roster. Release date is provenance only; no game version/patch inferred."
+    },
+    {
+      "id": "extra-pack-1",
+      "kind": "dlc",
+      "date": "2017-11-21",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017"
+      ],
+      "skill_count": 13,
+      "assignment_status": "Individual provenance reconciled: ten Extra Pack 1 PQ skills from PQ113-PQ117 plus three Zamasu mentor skills. Release date is provenance only; no game version/patch inferred."
     }
   ],
-  "next_step": "Continue the older DLC/free-update provenance frontier: reconcile the remaining four Extra Pack 2 skills from direct named or explicit canonical evidence, then audit Extra Pack 1/other early DLC cohorts with documented skill counts. Keep release dates separate from game version/patch labels.",
+  "next_step": "Continue the older DLC/free-update provenance frontier with Extra Pack 3/4 and earlier cohorts that have documented skill counts. Extra Pack 1 is now individually reconciled at 13/13; keep release dates separate from game version/patch labels.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -1002,7 +1022,9 @@
       "skill_name": "Super Saiyan Blue Kaioken",
       "event_id": "free-update-2016-12-20",
       "evidence_type": "official_named_skill_identity",
-      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "source_ids": [
+        "bn_xv2_dlc_pack_preview_2016"
+      ],
       "confidence": "direct",
       "basis": "Official preview explicitly names Kaioken times 10 as SSGSS Goku's new Awakened Skill in the December 20 update; canonical Xenoverse 2 identity is Super Saiyan Blue Kaioken, whose existing repository evidence documents normal and x10 stages."
     },
@@ -1011,7 +1033,9 @@
       "skill_name": "Pure Progress",
       "event_id": "free-update-2016-12-20",
       "evidence_type": "official_named_skill_identity",
-      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "source_ids": [
+        "bn_xv2_dlc_pack_preview_2016"
+      ],
       "confidence": "direct",
       "basis": "Official preview explicitly names Pure Progress as Hit's new Awakened Skill in the December 20 update, matching the canonical Xenoverse 2 skill identity."
     },
@@ -1134,6 +1158,175 @@
       ],
       "confidence": "corroborated",
       "basis": "The official Extra Pack 2 release establishes eight new skills; the contemporaneous named roster identifies Power Impact as Jiren's Extra Pack 2 skill, and the canonical repository provides the exact skill identity. This establishes DLC association without inferring a game version/patch."
+    },
+    {
+      "skill_id": "skill-super-ghost-buu-attack",
+      "skill_name": "Super Ghost Buu Attack",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Super Ghost Buu Attack as an Extra Pack 1 skill via PQ113. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-candy-beam-super",
+      "skill_name": "Candy Beam (Super)",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Candy Beam (Super) as an Extra Pack 1 skill via PQ113. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-petrifying-spit",
+      "skill_name": "Petrifying Spit",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Petrifying Spit as an Extra Pack 1 skill via PQ114. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-evil-blast",
+      "skill_name": "Evil Blast",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Evil Blast as an Extra Pack 1 skill via PQ114. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-handy-canon",
+      "skill_name": "Handy Canon",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Handy Canon as an Extra Pack 1 skill via PQ115. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-s-s-deadly-bomber",
+      "skill_name": "S.S. Deadly Bomber",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies S.S. Deadly Bomber as an Extra Pack 1 skill via PQ115. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-heros-flute",
+      "skill_name": "Hero's Flute",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Hero's Flute as an Extra Pack 1 skill via PQ116. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-brave-sword-slash",
+      "skill_name": "Brave Sword Slash",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Brave Sword Slash as an Extra Pack 1 skill via PQ116. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-evil-flame",
+      "skill_name": "Evil Flame",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Evil Flame as an Extra Pack 1 skill via PQ117. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-brave-sword-attack",
+      "skill_name": "Brave Sword Attack",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Brave Sword Attack as an Extra Pack 1 skill via PQ117. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-god-splitter",
+      "skill_name": "God Splitter",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies God Splitter as an Extra Pack 1 skill via Zamasu Lesson 1. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-heavenly-arrow",
+      "skill_name": "Heavenly Arrow",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Heavenly Arrow as an Extra Pack 1 skill via Zamasu Lesson 2. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-instant-severance",
+      "skill_name": "Instant Severance",
+      "event_id": "extra-pack-1",
+      "evidence_type": "official_dlc_count_plus_skill_level_evidence",
+      "source_ids": [
+        "bn_xv2_extra_pack_1_2017",
+        "skill-batch-25",
+        "skill-batch-261"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Instant Severance as an Extra Pack 1 skill via Zamasu Lesson 3. The mapping does not infer a game version or patch."
     }
   ],
   "research_gaps": [
@@ -1141,7 +1334,9 @@
       "id": "free-update-2016-12-20-unnamed-attacks",
       "status": "event-scope-only",
       "claim": "The official preview states the free update added four additional attacks beyond the two named Awoken Skills, but the accessible source does not name those four attacks.",
-      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "source_ids": [
+        "bn_xv2_dlc_pack_preview_2016"
+      ],
       "action": "Do not infer the four canonical identities from DLC proximity or reward ordering; resolve only with direct skill-level evidence."
     },
     {
