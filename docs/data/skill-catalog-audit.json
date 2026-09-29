@@ -1351,7 +1351,7 @@
     "rule": "Villainous states are not CaC-equippable retail Awoken Skills. Crystal Raid CaC access is a temporary mode-specific state and must not be converted into a CaC race restriction.",
     "batch_file": "docs/data/awoken-research-batches/awoken-batch-676.json"
   },
-  "race_restriction_frontier_current_count": 75,
+  "race_restriction_frontier_current_count": 74,
   "race_restriction_batch_682": {
     "reviewed": [
       "Turtle Style Last Resort"
