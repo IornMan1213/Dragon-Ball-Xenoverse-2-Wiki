@@ -201,6 +201,14 @@
       "date": "2021-11-05",
       "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-legendary-pack-2-out-today",
       "scope": "Direct official confirmation that the accompanying free update released on 2021-11-05 added the Super Saiyan God Awoken Skill."
+    },
+    {
+      "id": "bn_xv2_free_update_2020_08_26",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "DRAGON BALL XENOVERSE 2 celebrates 6 million copies sold with its 11th update being revealed in the new",
+      "date": "2020-08-31",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-celebrates-6-million-copies-sold-its-11th-update-being",
+      "scope": "Official announcement for the August 26 2020 free update; states the update added nine new fighting techniques."
     }
   ],
   "events": [
@@ -326,9 +334,19 @@
         "Super Saiyan God"
       ],
       "assignment_status": "Direct skill linkage documented for Super Saiyan God; release date is provenance only and is not treated as a game version or patch number."
+    },
+    {
+      "id": "free-update-2020-08-26",
+      "kind": "free_update",
+      "date": "2020-08-26",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26"
+      ],
+      "skill_count": 9,
+      "assignment_status": "Nine individual skill mappings reconciled from the official count plus maintained named skill catalog/canonical records; no game version or patch number inferred."
     }
   ],
-  "next_step": "Continue auditing older free-update/DLC cohorts for directly named canonical skills; preserve unresolved free-update skill subsets when official sources do not name individual skills. Keep release dates separate from game version/patch labels.",
+  "next_step": "Audit the next older DLC/free-update cohort with a documented skill count and incomplete individual mappings; preserve event-level-only subsets where official sources do not expose names. Keep release dates separate from game version/patch labels.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -827,6 +845,114 @@
       ],
       "confidence": "direct",
       "basis": "Bandai Namco's 2021-11-05 release notice explicitly identifies Super Saiyan God as the new Awoken Skill added in the accompanying free update."
+    },
+    {
+      "skill_id": "skill-holy-inscription",
+      "skill_name": "Holy Inscription",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-kairos-cannon",
+      "skill_name": "Kairos Cannon",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-temporal-holy-ray",
+      "skill_name": "Temporal Holy Ray",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-chaos-wall",
+      "skill_name": "Chaos Wall",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-timespace-impact",
+      "skill_name": "Timespace Impact",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-godly-chronos-cannon",
+      "skill_name": "Godly Chronos Cannon",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-soaring-fist",
+      "skill_name": "Soaring Fist",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-divine-kamehameha",
+      "skill_name": "Divine Kamehameha",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-godly-display",
+      "skill_name": "Godly Display",
+      "event_id": "free-update-2020-08-26",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "source_ids": [
+        "bn_xv2_free_update_2020_08_26",
+        "community_free_update_2020_catalog"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
     }
   ],
   "research_gaps": [
