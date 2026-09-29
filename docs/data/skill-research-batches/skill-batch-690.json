@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 690,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "accessory_external_inventory_identity_reconciliation",
+  "scope": "Strengthen evidence for the two unresolved Great Saiyaman Bandana PQ records using an independent equipment catalog and an external inventory ID list, while keeping canonical identity creation separate.",
+  "records": [
+    {
+      "pq_record_id": "pqacc-009",
+      "name": "Great Saiyaman Bandana 1",
+      "pq": 51,
+      "external_inventory_id": 837,
+      "evidence": [
+        "Equipment guide lists Great Saiyaman Bandana 1 at PQ51.",
+        "Independent inventory-ID list identifies Great Saiyaman Bandana 1 as ID 837."
+      ],
+      "canonical_resolution": "unmatched_identity",
+      "reason": "The exact external inventory identity is now independently corroborated, but the repository's canonical accessory layer does not currently expose a canonical ID that can be safely equated to external ID 837."
+    },
+    {
+      "pq_record_id": "pqacc-010",
+      "name": "Great Saiyaman Bandana 2",
+      "pq": 53,
+      "external_inventory_id": 838,
+      "evidence": [
+        "Equipment guide lists Great Saiyaman Bandana 2 at PQ53.",
+        "Independent inventory-ID list identifies Great Saiyaman Bandana 2 as ID 838."
+      ],
+      "canonical_resolution": "unmatched_identity",
+      "reason": "The exact external inventory identity is now independently corroborated, but the repository's canonical accessory layer does not currently expose a canonical ID that can be safely equated to external ID 838."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 2,
+    "external_ids_confirmed": 2,
+    "canonical_ids_created": 0,
+    "canonical_mutations": 0,
+    "unsupported_merges": 0
+  },
+  "policy": "External numeric IDs are evidence only. They are not promoted into canonical repository IDs without an explicit canonical inventory mapping.",
+  "sources": [
+    "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories",
+    "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+  ],
+  "next": "Use exact canonical inventory evidence, if found, to resolve the two unmatched identities; otherwise preserve them as explicit evidence-backed unmatched records."
+}
