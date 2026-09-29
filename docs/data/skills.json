@@ -15516,7 +15516,7 @@
       "name": "Turtle Style Last Resort",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "CaC",
       "dlc_requirement": null,
