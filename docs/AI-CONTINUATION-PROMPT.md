@@ -7414,3 +7414,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed `docs/data/skills.json` remains the canonical source of truth; `verified: true` is not treated as source of truth.
 - [x] No indexed-only identity was promoted solely because it was CaC-usable; exact canonical identity remains required for promotion.
 - [ ] Next highest-value work: canonical enrichment/integrity and exhaustive cross-domain completeness now that the indexed-only reconciliation frontier is closed.
+
+
+### 2026-09-29 continuation — Post-corruption rebuild verification and forward checkpoint (batch 638)
+- [x] Reconciled the live post-corruption database baseline against the surviving canonical recovery chain instead of rebuilding canonical data from derived indexes.
+- [x] Confirmed the current synchronized skill baseline is **549 canonical skills / 549 skill-index records**, with the canonical docs/data/skills.json blob SHA recorded as `5912397227d7fb67f1ed263269ace8fcf9b8995b`; the large-file GitHub contents endpoint exposes the SHA but not inline content, so the index was **not** promoted to source-of-truth.
+- [x] Confirmed the canonical PQ reward store at **862 relationships**: 249 skill, 135 Super Soul, 136 equipment, 247 character, 88 DLC, and 7 farming; the current PQ skill relationship count is **249**.
+- [x] Preserved the recovery history: surviving 474-record skill baseline → 493 post-preset recovery → 497 post-corruption live baseline → 549 current synchronized canonical records; historical PQ recovery baseline remains 840 → 862 current canonical edges.
+- [x] Recorded the current recovery verification in docs/data/post-corruption-rebuild-verification-2026-09-29.json.
+- [x] Corrected stale canonical-count metadata in docs/data/skill-catalog-audit.json from the post-corruption 497/548-era state to the current 549 synchronized state, without treating the index as authoritative.
+- [x] Aligned docs/data/skill-version-provenance-schema.json with the current 549-record baseline and retained the evidence-only provenance contract.
+- [x] Current indexed-only skill reconciliation frontier remains **0**; Batch 637's exact-ID Candy Beam (Evasive) recovery remains the latest canonical skill restoration.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the older DLC/free-update version/release provenance frontier from the authoritative game-content version registry, then audit the current **79** null race_restriction records in evidence-bound batches and continue bidirectional PQ↔skill/Super Soul/equipment enrichment. Preserve nulls where direct evidence is insufficient and never infer canonical IDs from derived layers.
