@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 677,
+  "date": "2026-09-29",
+  "type": "post_corruption_race_restriction_census_reconciliation",
+  "status": "reconciled_index_baseline_corrected",
+  "scope": "Reconcile the post-corruption race-restriction frontier after recovery promotions, using the synchronized skills index as a census consumer while preserving canonical skills.json as the source of truth.",
+  "findings": {
+    "skills_index_records": 549,
+    "cac_usable_null_race_restriction_records": 76,
+    "previous_handoff_claim": 62,
+    "discrepancy": 14,
+    "interpretation": "The previously persisted 62-count frontier is stale/inconsistent with the currently synchronized 549-record index. The current index census contains 76 CaC-usable records with null race_restriction. This batch does not infer any new race restriction and does not use the index to reconstruct canonical records."
+  },
+  "current_frontier": [
+    "Android Kick","Armored Boost","Backflip","Blades of Judgement","Blaster Stream","Break Strike","Burning Spin","Burning Strike","Burst Attack","Chaotic Time Impact","Circle Flash","Consecutive Energy Blast","Core Breaker","Cross Arm Dive","Crusher Volcano","Destructive Ray","Die Die Missile Barrage","Double Buster","Drain Charge","Energy Wave Combo","Evil Explosion (Super)","Fighting Sun","Final Blow","Finish Buster","Full Power Destruction","Full Power Energy Wave","Galick Beam Cannon","Gamma Impact","Gigantic Cross","Gigantic Ki Blast","Gigantic Nova","Ginyu Force Special Combo","Holstein Shock","III Bomber","III Flash","III Rain","Infinity Explosion","Kaioken Assault","Kamehameha Boost","Ki Blast Cannon","Light Grenade (Super)","Mach Kick","Minus Energy Power Ball","Miracle Kneel","Peeler Storm","Punisher Drive","Recoome Eraser Gun","Saiyan Blaster","Senko Ki Blast","Serious Bomb","Shockwave","Sledgehammer","Sonic Kick","Spinning Blade","Spirit Stab","Split Finger Shot","Super Back Jump","Super Dragon Fist","Super Drain","Super Explosive Wave (Evasive)","Super Galick Gun","Super Ghost Kamikaze Attack (Super)","Super Ki Explosion","Super Mad Dance","Super Vanishing Ball","Super Volley","Swallow Shot","Thunder Eraser","Time Skip/Molotov","Turn Retreat","Turtle Style Last Resort","Ultra Fighting Bomber","Vacation Delete","X100 Big Bang Kamehameha","X20 Kaioken Kamehameha","X4 Kaioken Kamehameha"
+  ],
+  "validation": {
+    "unsupported_promotions": 0,
+    "canonical_reconstruction": 0,
+    "new_race_classifications": 0,
+    "frontier_count_corrected": true
+  },
+  "next": "Audit this corrected 76-record frontier in fresh direct-evidence batches, prioritizing skills with explicit race/gender/form wording. Do not count generic Future Warrior technique-list presence as Universal."
+}
