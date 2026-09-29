@@ -7014,3 +7014,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue the same condition-level reconciliation for EM03-17, prioritizing direct reward-generation evidence.
+
+
+### 2026-09-29 continuation — Expert Mission acquisition audit batch 602
+- [x] Audited **EM03-17**, covering 15 skill↔Expert Mission routes from Murder Grenade through Spirit Sword.
+- [x] Corroborated the existing current-numbering acquisition associations in the repository evidence layer.
+- [x] Preserved exact reward-generation conditions, guarantee flags, and numerical drop rates as unresolved.
+- [x] Preserved historical Expert Mission numbering differences rather than silently rewriting them.
+- [x] Registered Batch 602 in the cross-domain index and synchronized acquisition/audit metadata.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** seek direct reward-table/game-data evidence for actual skill reward-generation conditions; if unavailable, proceed to the next unresolved mechanics/acquisition frontier rather than fabricating rates.
