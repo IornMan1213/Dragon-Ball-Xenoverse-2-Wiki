@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0",
+  "batch": 683,
+  "date": "2026-09-29",
+  "status": "completed",
+  "reviewed_count": 4,
+  "promoted_count": 0,
+  "null_preserved_count": 4,
+  "records": [
+    {
+      "name": "Turn Retreat",
+      "race_restriction": null,
+      "decision": "retain_null"
+    },
+    {
+      "name": "Ultra Fighting Bomber",
+      "race_restriction": null,
+      "decision": "retain_null"
+    },
+    {
+      "name": "X4 Kaioken Kamehameha",
+      "race_restriction": null,
+      "decision": "retain_null"
+    },
+    {
+      "name": "Super Galick Gun",
+      "race_restriction": null,
+      "decision": "retain_null"
+    }
+  ],
+  "policy": "Generic Future Warrior technique-list membership or CaC availability is not sufficient to promote All CaC races."
+}
