@@ -41,8 +41,8 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 625,
-  "canonical_catalog_generated": 543,
+  "latest_research_batch": 626,
+  "canonical_catalog_generated": 545,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical indexed-only CaC skill recovery and canonical/index parity",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
@@ -358,13 +358,14 @@
   },
   "indexed_only_reconciliation_2026_09_29": {
     "source_universe": 110,
-    "canonical_records": 543,
-    "resolved_from_source_universe": 46,
-    "remaining_indexed_only": 64,
+    "canonical_records": 545,
+    "resolved_from_source_universe": 48,
+    "remaining_indexed_only": 62,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
       "Double Buster",
+      "Evil Explosion (Super)",
       "Finish Buster",
       "Galick Beam Cannon",
       "Gigantic Ki Blast",
@@ -372,6 +373,7 @@
       "III Rain",
       "Infinity Explosion",
       "Light Grenade (Super)",
+      "Peeler Storm",
       "Senko Ki Blast",
       "Split Finger Shot",
       "Super Ghost Kamikaze Attack (Super)",
@@ -412,7 +414,6 @@
     "remaining_names": [
       "Bloody Sauce",
       "Dragon Flash Bullet",
-      "Evil Explosion (Super)",
       "Flames of Retribution",
       "Freezing Beam",
       "Full Power Energy Wave (Super)",
@@ -422,7 +423,6 @@
       "Justice Crush (Festival)",
       "Light of Justice",
       "Marbling Drop",
-      "Peeler Storm",
       "Seasoning Arrow",
       "Special Beam Cannon (Super)",
       "Spiral of Condemnation",
@@ -475,8 +475,8 @@
       "The Saviour Has Come",
       "Lovely Showtime"
     ],
-    "method": "Exact case-insensitive comparison against authoritative docs/data/skills.json after recovery batches 624-625; indexed/catalog names are evidence only.",
-    "next": "Continue explicit-CaC historical recovery from the remaining indexed-only names; do not promote unresolved or cast-only identities."
+    "method": "Exact case-insensitive comparison against authoritative canonical skills after batches 624-626; indexed/catalog names are evidence only.",
+    "next": "Continue remaining indexed-only recovery. The reviewed Ki Blast candidate group in batch 626 is now explicitly classified as promoted or cast/unavailable for CaC."
   },
   "recovery_batch_615": {
     "restored": [
@@ -689,5 +689,31 @@
     "canonical_ids_inferred": 0,
     "pq_relationship_mutations": 0,
     "boundary": "Aura Slide remains unresolved for CaC usability and was not promoted."
+  },
+  "recovery_batch_626": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "previous_canonical_count": 543,
+    "new_canonical_count": 545,
+    "index_records": 545,
+    "restored": [
+      "Evil Explosion (Super)",
+      "Peeler Storm"
+    ],
+    "reviewed_nonpromoted": [
+      "Bloody Sauce",
+      "Dragon Flash Bullet",
+      "Freezing Beam",
+      "Ice Field",
+      "Whirlwind Blade",
+      "Flames of Retribution",
+      "Marbling Drop",
+      "Seasoning Arrow",
+      "Light of Justice",
+      "Time Shackles",
+      "Full Power Energy Wave (Super)",
+      "Special Beam Cannon (Super)"
+    ],
+    "remaining_indexed_only": 62
   }
 }
