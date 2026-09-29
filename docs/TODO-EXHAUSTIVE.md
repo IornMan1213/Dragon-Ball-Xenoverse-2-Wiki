@@ -6911,3 +6911,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all four `race_restriction` values as null because reviewed exact evidence does not establish a CaC race/gender restriction.
 - [x] Added `docs/data/skill-research-batches/skill-batch-651.json` and updated the catalog audit.
 - [ ] Continue exact-skill research through the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Generic/DLC race restriction boundary batch 651
+- [x] Reviewed Backflip, Blaster Stream, Power Pole, Super Back Jump, and Android Kick.
+- [x] Preserved all reviewed `race_restriction` values as null; exact evidence does not explicitly establish CaC race/gender restrictions.
+- [x] Added `docs/data/skill-research-batches/skill-batch-651.json` and updated the catalog audit.
+- [ ] Continue exact-skill research through the remaining null race-restriction frontier.
