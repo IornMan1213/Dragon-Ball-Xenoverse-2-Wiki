@@ -185,8 +185,7 @@
       "date": "2026-09-17",
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "scope": "Individual skill identities and PQ acquisition evidence for Future Saga Chapter 1 PQ skill rewards; used as corroborating skill-level evidence, not as official release-date evidence."
-    }
-  ],
+    },
     {
       "id": "bn_xv2_free_update_2023_10_12",
       "publisher": "Bandai Namco Entertainment America",
@@ -194,21 +193,9 @@
       "date": "2023-10-12",
       "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-free-update-october-12-2023",
       "scope": "Direct official confirmation that Ultra Instinct was added as an Awoken Skill in the October 12, 2023 Big Free Update."
-    },
+    }
+  ],
   "events": [
-    {
-      "id": "free-update-2023-10-12",
-      "kind": "free_update",
-      "date": "2023-10-12",
-      "source_ids": [
-        "bn_xv2_free_update_2023_10_12"
-      ],
-      "skill_scope": [
-        "Ultra Instinct"
-      ],
-      "assignment_status": "Direct skill linkage documented for Ultra Instinct."
-    },
-
     {
       "id": "free-update-2018-03-01",
       "kind": "free_update",
@@ -307,6 +294,18 @@
       ],
       "skill_count": 4,
       "assignment_status": "Official event-level provenance established; four Festival skill names are recovered in the evidence layer but exact canonical IDs remain unresolved. Free update remains separate from the paid DAIMA Pack."
+    },
+    {
+      "id": "free-update-2023-10-12",
+      "kind": "free_update",
+      "date": "2023-10-12",
+      "source_ids": [
+        "bn_xv2_free_update_2023_10_12"
+      ],
+      "skill_scope": [
+        "Ultra Instinct"
+      ],
+      "assignment_status": "Direct skill linkage documented for Ultra Instinct."
     }
   ],
   "next_step": "Continue auditing older free-update/DLC cohorts for directly named canonical skills; preserve unresolved free-update skill subsets when official sources do not name individual skills.",
