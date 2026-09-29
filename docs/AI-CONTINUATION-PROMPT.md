@@ -7106,3 +7106,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining restriction-gap cohort with fresh evidence and avoid repeating audited records.
+
+
+### 2026-09-29 continuation — Skill restriction batch 611
+- [x] Fresh direct-source race-restriction audit completed for **Counter Burst, Justice Rush, Rough Ranger, Dimensional Hole, Burst Reflection, and Absolute Zero**.
+- [x] Reviewed current technique/skill references for Future Warrior/CaC availability and explicit race/gender/form eligibility.
+- [x] No narrower race/gender/form restriction established; canonical `race_restriction: null` preserved for all six.
+- [x] Added `docs/data/skill-research-batches/skill-batch-611.json` and synchronized the restriction census.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records.
