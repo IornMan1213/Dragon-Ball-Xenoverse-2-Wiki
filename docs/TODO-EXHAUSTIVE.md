@@ -6364,3 +6364,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical `skills.json` or PQ relationship records were mutated; no version/patch number was inferred from a release date.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Exact next:** continue older DLC/free-update provenance cohorts, prioritizing official named skill/count evidence and preserving platform release-date distinctions.
+
+
+### 2026-09-29 continuation — Post-corruption rebuild verification and registry-count correction
+- [x] Added `docs/data/post-corruption-rebuild-verification-2026-09-29.json` documenting the live recovered baseline: 497 canonical skills, 497 skill-index records, 862 PQ reward edges, zero duplicate relationship keys, and PQ1 as the sole intentional zero-typed-reward boundary.
+- [x] Directly parsed the canonical PQ reward forward store: 862 edges = 249 skills, 135 Super Souls, 136 equipment, 247 characters, 88 DLC, and 7 farming relationships.
+- [x] Confirmed the provenance registry already contained 76 direct skill-event mappings before batch 598; after the 16 new Extra Pack 3/4 mappings, the registry total is 92. Schema/audit metadata was corrected to 92.
+- [x] Preserved the recovery rule: canonical forward datasets remain authoritative; verified/index/projection layers were not used to reconstruct canonical records.
+- [ ] Runtime/CI/build remains unverified/non-blocking.
+- [ ] **Exact next:** continue older DLC/free-update provenance cohorts, then resume broader cross-domain enrichment from the repaired canonical forward stores.
