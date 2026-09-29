@@ -6426,6 +6426,30 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Explicit basic reward listing in the all-186 PQ guide; exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-025",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 18's Clothes (Skirt)",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer + canonical equipment record layer",
+      "notes": "Explicit equipment reward name in the canonical PQ record layer; exact drop mechanics remain separate."
+    },
+    {
+      "pq": "pq-025",
+      "relationship": "pq_rewards_equipment",
+      "target": "Android 17's Clothes",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer + canonical equipment record layer",
+      "notes": "Explicit equipment reward name in the canonical PQ record layer; exact drop mechanics remain separate."
+    },
+    {
+      "pq": "pq-134",
+      "relationship": "pq_rewards_equipment",
+      "target": "Broly (Full Power Super Saiyan)'s Clothes",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer + canonical equipment record layer",
+      "notes": "Canonical PQ batch evidence explicitly lists Broly (Full Power Super Saiyan)'s Clothes as an equipment reward for PQ 134; added bidirectional link without asserting drop guarantee/rate."
     }
   ],
   "normalization_rules": [
@@ -6442,16 +6466,16 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 141,
+    "pq_rewards_equipment": 144,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 867,
-    "total_relationships": 867
+    "total": 870,
+    "total_relationships": 870
   },
-  "last_reconciled_scope": "PQ51-63 equipment reward enrichment; source-backed explicit reward names promoted without inferring drop conditions.",
+  "last_reconciled_scope": "PQ record-layer equipment identity reconciliation; explicit name/ID records promoted where canonical equipment identity resolved.",
   "notes": [
     "2",
     "0",
