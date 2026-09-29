@@ -55,5 +55,20 @@
     "skill_index_count": "497",
     "pq_reward_edge_count": "862"
   },
-  "next": "Continue exact indexed-only identity recovery where repository/game-data evidence establishes canonical identity; otherwise continue the next highest-value enrichment frontier without inventing IDs."
+  "next": "Continue exact indexed-only identity recovery where repository/game-data evidence establishes canonical identity; otherwise continue the next highest-value enrichment frontier without inventing IDs.",
+  "followup_recovery_batch_628": {
+    "audit_date": "2026-09-29",
+    "canonical_skills": 548,
+    "skills_index": 548,
+    "canonical_source_policy": "preserved",
+    "restored": [
+      "Time Skip/Molotov"
+    ],
+    "corrected": [
+      "Super Dragon Flight"
+    ],
+    "pq_reward_relationships": 862,
+    "pq_relationship_mutations": 0,
+    "note": "Follow-up to the recovered baseline; canonical data was not rebuilt from verified/index/projection layers."
+  }
 }
