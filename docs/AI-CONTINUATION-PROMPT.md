@@ -7075,3 +7075,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records.
+
+
+### 2026-09-29 continuation — Skill restriction batch 608
+- [x] Performed a fresh direct-source race-restriction audit for **Gigantic Charge, Spirit Blaster, Punisher Shield, Gigantic Rage, Assault Vanish, and God Punisher**.
+- [x] Reviewed current repository records and external skill/DLC evidence.
+- [x] No direct narrower race/gender/form restriction was established; preserved canonical `race_restriction: null` for all six.
+- [x] Added Batch 608 and synchronized the catalog restriction census.
+- [x] Community character-ID flags were retained only as corroboration and were not promoted as canonical source-of-truth.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records.
