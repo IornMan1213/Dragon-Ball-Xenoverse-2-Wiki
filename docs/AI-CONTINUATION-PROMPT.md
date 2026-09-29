@@ -7512,3 +7512,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all four `race_restriction` values as null because character/race association does not establish a CaC equip restriction.
 - [x] Added `docs/data/skill-research-batches/skill-batch-648.json` and updated the audit.
 - [ ] Continue exact-skill research across the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Null race restriction evidence batch 649
+- [x] Reviewed Armored Boost, Mach Kick, Power Pole, and Spirit Stab.
+- [x] Preserved all four `race_restriction` values as null; reviewed evidence does not explicitly establish a CaC race/gender lock.
+- [x] Added `docs/data/skill-research-batches/skill-batch-649.json` and updated the audit.
+- [ ] Continue exact-skill research across the remaining null race-restriction frontier.
