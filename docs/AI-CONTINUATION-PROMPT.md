@@ -7735,3 +7735,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five as null because the retrieved Future Warrior technique index does not explicitly establish unrestricted race eligibility.
 - [x] Updated the catalog audit.
 - [ ] Continue with skill-specific evidence capable of establishing an explicit race/gender restriction or unrestricted eligibility.
+
+
+### 2026-09-29 continuation — Race restriction Batch 669
+- [x] Added Batch 669 with explicit Universal classifications for Spirit Bomb and Super Spirit Bomb.
+- [x] Evidence explicitly states the Xenoverse 2 Future Warrior can learn both regardless of selected race.
+- [x] Updated the catalog audit.
+- [ ] Canonical promotion remains pending successful skills-sync; do not claim it has occurred.
+- [ ] Continue the remaining null race-restriction cohort using explicit skill-specific evidence.
