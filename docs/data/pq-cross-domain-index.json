@@ -345,7 +345,8 @@
     "character_preset_consumer_reconciliation_2026_09_26": "docs/data/character-preset-consumer-reconciliation-2026-09-26.json",
     "critical_unreachable_reference_reconciliation": "docs/data/critical-unreachable-reference-reconciliation-audit-2026-09-26.json",
     "skill_pq_cross_domain_linkage_integrity": "docs/data/skill-pq-cross-domain-linkage-integrity-audit-2026-09-26.json",
-    "super_soul_record_layer_validator": "scripts/validate_super_soul_record_layer.py"
+    "super_soul_record_layer_validator": "scripts/validate_super_soul_record_layer.py",
+    "skill_research_batch_599_legacy_taxonomy_reconciliation_2026_09_29": "docs/data/skill-research-batches/skill-batch-599.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
