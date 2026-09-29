@@ -36,7 +36,7 @@ Each entry should eventually record:
 | Super Saiyan God | Saiyan CaC | Beerus / Super Saiyan God progression | Research queued |
 | Super Saiyan God Super Saiyan | Saiyan CaC | Whis progression | Research queued |
 | Super Saiyan God Super Saiyan (Evolved) | Saiyan CaC | Whis progression | Research queued |
-| Ultra Instinct -Sign- | Any CaC | Endgame unlock path / skill acquisition | Research queued |
+| Ultra Instinct -Sign- | Cast-only form | Goku (Ultra Instinct -Sign-) preset/state; no retail CaC Awoken Skill | Scope clarified — not a CaC Awoken |
 | Ultra Instinct | Any CaC | Jiren-related unlock path | Research queued |
 | Beast | Any CaC | Gohan/Videl + Piccolo progression | Research queued |
 
@@ -76,3 +76,11 @@ Pre-transformed roster characters, enemy-only states, and mod-only forms are not
 - Confirmed acquisition and actual usability remain aligned for Super Saiyan, Super Vegeta, and Future Super Saiyan: all are Saiyan-restricted.
 - This records an explicit alignment case so the acquisition-vs-usability distinction is not over-applied.
 - Canonical data was not reconstructed or overwritten.
+
+
+## 2026-09-29 — Awoken Batch 674: Ultra Instinct -Sign- scope correction
+
+- Added `awoken-research-batches/awoken-batch-674.json`.
+- Clarified that the retail CaC Awoken Skill is **Ultra Instinct**, while **Ultra Instinct -Sign-** is not a retail equippable CaC Awoken Skill.
+- Prevented third-party guide wording from incorrectly creating a Universal race classification for Sign.
+- CaC Ultra Instinct -Sign- implementations found in current mod references are explicitly mod-based, so they are not promoted into the retail CaC Awoken dataset.
