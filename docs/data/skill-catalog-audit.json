@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 627,
-  "canonical_catalog_generated": 547,
+  "latest_research_batch": 628,
+  "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
-  "current_research_focus": "Historical indexed-only CaC skill recovery and canonical/index parity",
+  "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -358,9 +358,9 @@
   },
   "indexed_only_reconciliation_2026_09_29": {
     "source_universe": 110,
-    "canonical_records": 547,
-    "resolved_from_source_universe": 50,
-    "remaining_indexed_only": 60,
+    "canonical_records": 548,
+    "resolved_from_source_universe": 52,
+    "remaining_indexed_only": 58,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
@@ -411,7 +411,9 @@
       "Super Explosive Wave (Evasive)",
       "Spinning Blade",
       "Armored Boost",
-      "Miracle Kneel"
+      "Miracle Kneel",
+      "Time Skip/Molotov",
+      "Super Dragon Flight"
     ],
     "remaining_names": [
       "Bloody Sauce",
@@ -442,7 +444,6 @@
       "Pearl Flash",
       "Rage Saucer",
       "Smile Charge",
-      "Super Dragon Flight (Super)",
       "Energy Jet",
       "Evil Explosion (Ultimate)",
       "Explosive Scream",
@@ -459,7 +460,6 @@
       "Cookie Beam",
       "Self-Destruct",
       "Super Dragon Flight (Ultimate)",
-      "Time Skip/Molotov",
       "Zetsumei Bullet",
       "Brainwash Attack",
       "Darkness Mixer",
@@ -476,7 +476,15 @@
       "Lovely Showtime"
     ],
     "method": "Exact case-insensitive comparison against authoritative canonical store; stale source-universe taxonomy may be corrected when current evidence establishes a different canonical class.",
-    "next": "Continue unresolved frontier using explicit usable_by_cac=true evidence and current-class correction where supported."
+    "next": "Continue unresolved frontier using explicit usable_by_cac=true evidence and current-class correction where supported.",
+    "variant_resolutions": [
+      {
+        "source_name": "Super Dragon Flight (Super)",
+        "canonical_name": "Super Dragon Flight",
+        "canonical_id": "skill-super-dragon-flight",
+        "reason": "Variant-specific current evidence identifies the source label as the CaC-usable Super identity already represented by the canonical ID."
+      }
+    ]
   },
   "recovery_batch_615": {
     "restored": [
@@ -732,5 +740,21 @@
     ],
     "source_batch": 536,
     "class_correction": true
+  },
+  "recovery_batch_628": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "previous_canonical_count": 547,
+    "new_canonical_count": 548,
+    "restored": [
+      "Time Skip/Molotov"
+    ],
+    "corrected": [
+      "Super Dragon Flight"
+    ],
+    "canonical_ids_inferred": 0,
+    "pq_relationship_mutations": 0,
+    "index_records": 548,
+    "remaining_indexed_only": 58
   }
 }
