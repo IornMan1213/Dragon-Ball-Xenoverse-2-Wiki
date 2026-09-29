@@ -7695,3 +7695,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/post-corruption-continuation-audit-2026-09-29.json` as the new recovery-forward checkpoint.
 - [ ] Runtime/CI/build remains intentionally unverified/non-blocking.
 - [ ] **Exact next:** continue substantive enrichment from the recovered baseline: fresh race-restriction evidence, older DLC/free-update provenance, and bidirectional PQ↔skill/Super Soul/equipment enrichment; only promote accessory component identities when inventory-level evidence establishes an exact canonical item.
+
+
+### 2026-09-29 continuation — Race restriction Batch 665: explicit Power Pole evidence
+- [x] Added `docs/data/skill-research-batches/skill-batch-665.json`.
+- [x] Fresh direct evidence explicitly states that **Power Pole** and **Power Pole Combo** can be obtained by the Future Warrior regardless of race; both are therefore evidence-backed **Universal** race classifications.
+- [x] Updated `docs/data/skill-catalog-audit.json` with the Batch 665 finding and moved the frontier to batch 665.
+- [ ] **Exact next:** safely reconcile the two explicit Universal classifications into authoritative `docs/data/skills.json`; do not reconstruct or replace the canonical file from index/verified/projection layers.
