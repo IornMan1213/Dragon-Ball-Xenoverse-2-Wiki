@@ -1,0 +1,22 @@
+{
+  "batch_id": 625,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 541,
+  "new_canonical_count": 543,
+  "index_count": 543,
+  "records": [
+    "Super Drain",
+    "X100 Big Bang Kamehameha"
+  ],
+  "source_batches": [
+    17,
+    535
+  ],
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "verification": "Super Drain and X100 Big Bang Kamehameha have explicit historical/current usable_by_cac=true evidence.",
+  "boundary": "Aura Slide was reviewed but not promoted because usable_by_cac remains unresolved.",
+  "next": "Continue remaining indexed-only reconciliation with explicit-CaC evidence only."
+}
