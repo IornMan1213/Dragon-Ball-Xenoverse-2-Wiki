@@ -6560,3 +6560,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated docs/AI-CONTINUATION-PROMPT.md with the Batch 620 recovery checkpoint.
 - [ ] Complete a fresh indexed-only census; stale historical unresolved-count fields must not be treated as current.
 - [ ] Continue historical CaC-usable Ki Blast Super recovery beyond the reviewed batches, excluding aliases, cast-only, festival/special-mode, and unresolved identities.
+
+
+### 2026-09-29 continuation — Canonical recovery batch 624
+- [x] Rebuilt the recovered canonical skill corpus forward from the live authoritative docs/data/skills.json; no verified/index/projection layer was used as a source of truth.
+- [x] Promoted 20 historically documented CaC-usable identities: Android Kick, Kaioken Assault, Kamehameha Boost, Mach Kick, Punisher Drive, Sonic Kick, Spirit Stab, Drain Charge, Ginyu Force Special Combo, Super Mad Dance, Gigantic Ki Blast, Minus Energy Power Ball, Serious Bomb, Super Vanishing Ball, Crusher Volcano, Vacation Delete, Spinning Blade, Armored Boost, Miracle Kneel, Super Explosive Wave (Evasive).
+- [x] Synchronized docs/data/skills-index.json to **542/542** records.
+- [x] Added docs/data/skill-research-batches/skill-batch-624.json and registered it in the PQ cross-domain index and skill audit.
+- [x] Preserved evidence boundaries: no canonical IDs were inferred; cast-only, festival/special-mode, aliases, and unresolved identities were excluded.
+- [x] Fresh indexed-only reconciliation against the 110-name maintained source universe now leaves **90** unresolved names.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue historical indexed-only recovery from the remaining 90 names, prioritizing explicit usable_by_cac=true evidence and promoting only independently established canonical identities.
