@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 591,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "free_update_2023_ultra_instinct_provenance_reconciliation",
+  "scope": "Bind Ultra Instinct to the October 2023 Big Free Update using direct official release evidence, keeping the event date separate from patch/version labels.",
+  "canonical_source": "docs/data/skills.json",
+  "official_source": {
+    "id": "bn_xv2_free_update_2023_10_12",
+    "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-free-update-october-12-2023",
+    "date": "2023-10-12",
+    "finding": "Bandai Namco America explicitly lists the Awoken Skill Ultra Instinct among the features included in the Big Free Update."
+  },
+  "records": [
+    {
+      "skill_id": "skill-ultra-instinct",
+      "skill_name": "Ultra Instinct",
+      "event_id": "free-update-2023-10-12",
+      "evidence_type": "official_free_update_named_skill",
+      "source_ids": [
+        "bn_xv2_free_update_2023_10_12"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco release notice explicitly identifies Ultra Instinct as the new Awoken Skill included in the October 12, 2023 Free Update.",
+      "canonical_mutation": false
+    }
+  ],
+  "boundary": {
+    "event_date": "2023-10-12 is the official free-update release date and is not treated as a game patch/version number.",
+    "source_of_truth": "Canonical docs/data/skills.json remains authoritative; this is provenance enrichment only."
+  },
+  "validation": {
+    "records_reviewed": 1,
+    "direct_official_mappings_added": 1,
+    "canonical_skill_records_created": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "next": "Continue auditing older free-update/DLC cohorts for directly named canonical skills; preserve unresolved free-update skill subsets when official sources do not name individual skills."
+}
