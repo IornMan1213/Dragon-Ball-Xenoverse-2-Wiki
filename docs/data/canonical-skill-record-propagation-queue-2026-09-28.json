@@ -101,7 +101,9 @@
         "docs/data/skills-index.json"
       ],
       "action": "Run scripts/apply_canonical_skill_patch.py --skill-id x20-kaioken-kamehameha first as dry-run, then --write against a complete checkout; validate canonical/index parity afterward.",
-      "status": "pending_safe_local_execution"
+      "status": "applied_and_validated",
+      "execution": "Applied through complete canonical blob path; skills.json and skills-index.json both validate at 549 records with matching All CaC races restriction.",
+      "applied_commit": "a570bbe74f08405dc868747ebe7ac5fd491544af"
     }
   ],
   "boundaries": [
