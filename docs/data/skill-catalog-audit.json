@@ -1290,5 +1290,18 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     }
+  },
+  "awoken_race_provenance_2026_09_29_batch_672": {
+    "reviewed": [
+      "Super Saiyan God",
+      "Super Saiyan God Super Saiyan",
+      "Super Saiyan God Super Saiyan (Evolved)"
+    ],
+    "existing_restrictions_preserved": 3,
+    "acquisition_vs_use_rule": "A transformation may be obtainable by a Future Warrior regardless of selected race while remaining usable only by Saiyans; acquisition eligibility must not overwrite canonical usability race_restriction.",
+    "sources": [
+      "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29",
+      "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+    ]
   }
 }
