@@ -7175,3 +7175,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved cast-only/special-mode boundaries and did not promote records solely because they appeared in category indexes.
 - [ ] Runtime/CI remains non-blocking/unverified because GitHub Actions diagnostics are unavailable through the connected API.
 - [ ] Exact next: continue historical indexed-only CaC-usable Ki Blast Super reconciliation beyond batch 274, using exact repository/game-data identity evidence; do not infer canonical IDs or promote aliases, cast-only records, festival/special-mode variants, or unresolved identities.
+
+
+### 2026-09-29 continuation — Batch 618 final correction / live state
+- [x] Confirmed Batch 618 had already restored Light Grenade (Super) from historical batch 274.
+- [x] Restored Blades of Judgement from historical batch 250; evidence explicitly marks it CaC-usable and gives Parallel Quest 112 as the skill-drop route.
+- [x] Rejected Kamekameha as a canonical record after checking the existing handoff boundary: it is preserved as a spelling/transcription variant of canonical Kamehameha and must not create a duplicate identity.
+- [x] Removed the accidental Kamekameha canonical insertion and rebuilt docs/data/skills-index.json.
+- [x] Final live parity after this cycle: 516 canonical skill records / 516 index records.
+- [x] Updated docs/data/skill-catalog-audit.json and reconciled docs/data/skill-research-batches/skill-batch-618.json with the final state.
+- [ ] Runtime/CI remains non-blocking/unverified because GitHub Actions diagnostics are unavailable through the connected API.
+- [ ] Next: continue historical indexed-only CaC-usable Ki Blast Super reconciliation, prioritizing explicit usable_by_cac=true evidence and preserving alias, cast-only, festival/special-mode, and unresolved-identity boundaries.
