@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 642,
+  "latest_research_batch": 643,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Super Pack provenance boundary is documented through Batch 642. Official Super Pack 4 storefront count is 5 Additional Skills; broader character move records remain separated from the five canonical DLC mappings. Next: evidence-bound enrichment of 79 null race_restriction records.",
+  "current_research_focus": "Race-restriction evidence frontier started conservatively. Batch 643 reviewed 20 of the remaining null records without canonical mutation because category/PQ acquisition does not prove equip restriction. Next: explicit per-skill race-exclusive evidence.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -994,5 +994,11 @@
     "canonical_skill_records_changed": 0,
     "pq_relationships_changed": 0,
     "batch_file": "docs/data/skill-research-batches/skill-batch-642.json"
+  },
+  "race_restriction_batch_643": {
+    "records_reviewed": 20,
+    "canonical_changes": 0,
+    "remaining_nulls": 79,
+    "batch_file": "docs/data/skill-research-batches/skill-batch-643.json"
   }
 }
