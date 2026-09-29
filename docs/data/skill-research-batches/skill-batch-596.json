@@ -1,0 +1,51 @@
+{
+  "batch_id": 596,
+  "date": "2026-09-29",
+  "type": "original_free_update_named_skill_provenance_reconciliation",
+  "status": "completed",
+  "scope": "Reconcile the first post-launch free-update skills explicitly named by official Bandai Namco material, while keeping the contemporaneous paid DLC attack count separate.",
+  "official_source": {
+    "source_id": "bn_xv2_dlc_pack_preview_2016",
+    "title": "DRAGON BALL XENOVERSE 2 DLC Pack Preview",
+    "publisher": "Bandai Namco Entertainment America",
+    "date": "2016-11-21",
+    "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview",
+    "release_date_confirmed_by_source": "2016-12-20",
+    "scope": "Official preview states the December 20 update included two explicitly named Awoken Skills—Kaioken times 10 for SSGSS Goku and Pure Progress for Hit—plus four new attacks; the separate first DLC Pack contained five new attacks."
+  },
+  "mappings": [
+    {
+      "skill_id": "skill-super-saiyan-blue-kaioken",
+      "skill_name": "Super Saiyan Blue Kaioken",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_named_skill_identity",
+      "confidence": "direct",
+      "basis": "The official preview explicitly identifies the December 20 free update's new SSGSS Goku Awakened Skill as Kaioken times 10. The canonical Xenoverse 2 record is the character-only Super Saiyan Blue Kaioken identity; existing repository evidence distinguishes its normal and x10 stages."
+    },
+    {
+      "skill_id": "skill-pure-progress",
+      "skill_name": "Pure Progress",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_named_skill_identity",
+      "confidence": "direct",
+      "basis": "The official preview explicitly identifies the December 20 free update's new Hit Awakened Skill as Pure Progress, matching the canonical Xenoverse 2 skill identity."
+    }
+  ],
+  "boundaries": [
+    "The official source separates the free update from the first DLC Pack; the five DLC Pack attacks are not assigned to the free-update event.",
+    "The four additional free-update attacks are not individually named by this source, so no canonical skill IDs are inferred for them.",
+    "The December 20 release date is release provenance, not a game version/patch number.",
+    "No canonical skills.json mutation is required because both named skills already exist canonically.",
+    "Existing canonical identity and character-only classification are preserved."
+  ],
+  "validation": {
+    "officially_named_free_update_skills": 2,
+    "canonical_mappings_added": 2,
+    "canonical_records_created": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0,
+    "unmapped_unnamed_free_update_attacks": 4,
+    "separate_paid_dlc_attack_count_preserved": 5
+  },
+  "next": "Continue older DLC/free-update provenance cohorts with explicit official skill names or counts; do not infer unnamed attacks from character, reward order, or DLC proximity."
+}
