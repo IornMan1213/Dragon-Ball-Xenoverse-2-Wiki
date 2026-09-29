@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 613,
-  "canonical_catalog_generated": "2026-09-28",
+  "latest_research_batch": 617,
+  "canonical_catalog_generated": 514,
   "canonical_sync_pending": false,
-  "current_research_focus": "Batch 613 reconciled five indexed-only ordinary CaC skill candidates (Burst Attack, Finish Buster, Double Buster, Galick Beam Cannon, Power Pole) plus the Peeler Storm special-mode boundary. No canonical promotion was made because exact recovered repository identity metadata is not independently established; the canonical 497-record forward store remains authoritative.",
+  "current_research_focus": "Historical Ki Blast Super recovery and indexed-only reconciliation",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -384,7 +384,10 @@
     ],
     "special_mode_boundary": [
       "Peeler Storm"
-    ]
+    ],
+    "canonical_skill_records_live": 514,
+    "index_records_live": 514,
+    "census_status": "stale_pending_full_reconciliation"
   },
   "recovery_batch_615": {
     "restored": [
@@ -406,5 +409,23 @@
       262,
       263
     ]
+  },
+  "recovery_batch_617": {
+    "restored": [
+      "Die Die Missile Barrage",
+      "Super Volley"
+    ],
+    "canonical_skill_records": 514,
+    "index_records": 514,
+    "canonical_mutations_in_current_recovery": 1,
+    "source_batches": [
+      247,
+      251,
+      253,
+      255
+    ],
+    "pq_relationship_mutations": 0,
+    "index_parity": "514/514",
+    "note": "Batch 617 reconciled historical CaC-usable records. Die Die Missile Barrage was restored in this continuation; Super Volley was already restored by the batch's earlier write. No cast-only or special-mode records were promoted."
   }
 }
