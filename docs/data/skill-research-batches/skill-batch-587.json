@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 587,
+  "date": "2026-09-28",
+  "status": "complete",
+  "type": "festival_indexed_catalog_reconciliation",
+  "scope": "Reconcile the four unresolved 4th Festival skill identities against the maintained indexed skill-category universe before any canonical-ID promotion.",
+  "canonical_source": "docs/data/skills.json",
+  "indexed_source": "docs/data/skill-catalog-audit.json",
+  "findings": [
+    {
+      "name": "God Bind (Festival)",
+      "indexed_catalog_status": "present_in_indexed_only_names",
+      "canonical_id": null,
+      "finding": "The maintained category audit explicitly lists God Bind (Festival) among 112 indexed-only names. This proves indexed-name coverage but does not expose an internal canonical skill ID or establish that the record belongs in skills.json."
+    },
+    {
+      "name": "Egret Waltz (Festival)",
+      "indexed_catalog_status": "not_found_in_current_indexed_only_name_set",
+      "canonical_id": null,
+      "finding": "Repository code search and the current indexed-only name set do not expose an exact structured catalog entry with a canonical identifier."
+    },
+    {
+      "name": "Gamma Force: Code-R (Festival)",
+      "indexed_catalog_status": "not_found_in_current_indexed_only_name_set",
+      "canonical_id": null,
+      "finding": "Repository code search and the current indexed-only name set do not expose an exact structured catalog entry with a canonical identifier."
+    },
+    {
+      "name": "Gamma Force: Code-B (Festival)",
+      "indexed_catalog_status": "not_found_in_current_indexed_only_name_set",
+      "canonical_id": null,
+      "finding": "Repository code search and the current indexed-only name set do not expose an exact structured catalog entry with a canonical identifier."
+    }
+  ],
+  "evidence_boundary": {
+    "official_event_scope": "The Dragon Ball Official Site identifies Goku (Super Saiyan God), Videl (DB Super), Gamma 1, and Gamma 2 as the 4th Festival camaraderie characters and states that increasing camaraderie grants special rewards.",
+    "independent_name_scope": "Independent Festival documentation and repository recovery records establish the four skill names and character mappings.",
+    "identifier_boundary": "No exact internal identifier was recovered. An indexed name is not sufficient to manufacture a canonical ID, and absence from the current index is not proof that a skill never existed."
+  },
+  "canonical_action": "No skills.json mutation and no PQ relationship mutation.",
+  "validation": {
+    "identities_checked": 4,
+    "indexed_only_matches": 1,
+    "exact_canonical_ids_recovered": 0,
+    "canonical_records_promoted": 0,
+    "unsupported_ids_invented": 0
+  },
+  "next": "Leave the four identities in the non-canonical recovery layer and move to the next substantive version/provenance or mechanics enrichment frontier. Revisit Festival IDs only when an exact structured historical artifact or canonical blob exposes them."
+}
