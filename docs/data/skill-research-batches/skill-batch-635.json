@@ -4,26 +4,34 @@
   "date": "2026-09-29",
   "status": "complete",
   "type": "indexed_only_reconciliation",
-  "scope": "Final two indexed-only identities.",
+  "scope": "Final two-name indexed-only frontier closure.",
   "source_of_truth": "docs/data/skills.json",
   "canonical_mutation": false,
   "records": [
     {
       "name": "Ill Flash",
-      "classification": "cac_usable",
-      "evidence": "Dragon Ball Wiki states that in Xenoverse 2 Ill Flash is one of Super Buu's Super Skills and the Future Warrior can obtain it from the Skill Shop. The Future Warrior technique list independently includes Ill Flash."
+      "resolution": "confirmed_cac_positive",
+      "evidence": "Dragon Ball Wiki's Xenoverse 2 section explicitly states that Ill Flash returns as one of Super Buu's Super Skills and that the Future Warrior can obtain it from the Skill Shop.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Ill_Flash",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
     },
     {
       "name": "Spiral of Condemnation",
-      "classification": "unavailable_for_cac",
-      "evidence": "Dragon Ball Wiki identifies it as unique to Fused Zamasu (Half-Corrupted); the Xenoverse 2 character documentation lists it in that character's moveset with CaC marked No. Independent ID-list evidence also marks its skill code DNZ as not CaC."
+      "resolution": "confirmed_unavailable",
+      "evidence": "The dedicated Xenoverse 2 page describes it as unique to Fused Zamasu (Half-Corrupted); the character page lists it in that exclusive preset, and an independent 2021 CaC-unobtainable list includes Spiral of Condemnation.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation",
+        "https://dbxv2.fandom.com/wiki/Fused_Zamasu_%28Half-Corrupted%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      ]
     }
   ],
   "validation": {
     "canonical_skills": 548,
     "canonical_mutations": 0,
-    "frontier_before": 2,
-    "frontier_after": 0
+    "indexed_only_frontier": 0
   },
-  "next": "The indexed-only reconciliation frontier is closed. Move to canonical coverage/recovery and cross-domain completeness rather than continuing name-only frontier work."
+  "next": "Run final frontier reconciliation and canonical/index consistency audit; do not create canonical records merely because an indexed identity was resolved at the access boundary."
 }
