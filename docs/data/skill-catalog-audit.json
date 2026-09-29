@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 632,
+  "latest_research_batch": 633,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
@@ -435,7 +435,7 @@
       "Super Black Kamehameha"
     ],
     "method": "Exact case-insensitive comparison against authoritative canonical store; stale source-universe taxonomy may be corrected when current evidence establishes a different canonical class.",
-    "next": "Continue remaining identities only with explicit CaC-positive or exact current-game evidence.",
+    "next": "Continue the remaining 11 identities. Preserve unresolved status for records whose historical evidence gives usable_by_cac=null; only resolve with explicit positive/negative access evidence.",
     "variant_resolutions": [
       {
         "source_name": "Super Dragon Flight (Super)",
@@ -819,5 +819,19 @@
     "canonical_records_unchanged": 548,
     "remaining_indexed_only": 11,
     "canonical_ids_inferred": 0
+  },
+  "recovery_batch_633": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "purpose": "Correct batch-632 frontier count discrepancy and triage remaining evidence.",
+    "canonical_records_unchanged": 548,
+    "canonical_ids_inferred": 0,
+    "remaining_indexed_only": 11,
+    "evidence_reviewed": [
+      "Spiral of Condemnation: historical batch explicitly leaves usable_by_cac null; Crystal Raid classification alone is insufficient to classify CaC access.",
+      "Aura Slide: batch 625 explicitly leaves usable_by_cac unresolved.",
+      "Go-Go Gum: indexed Majin taxonomy establishes category membership but does not itself establish CaC usability.",
+      "Final Flash (Ultimate), Full Power Energy Wave (Ultimate), One-Handed Kamehameha, Soul Punisher, Special Beam Cannon (Ultimate), and Super Black Kamehameha remain unresolved because indexed taxonomy is not sufficient evidence of CaC usability."
+    ]
   }
 }
