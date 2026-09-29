@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 669,
+  "date": "2026-09-29",
+  "status": "research_only_sync_ready",
+  "research_scope": "Explicit race-scope evidence for remaining null race-restriction skills.",
+  "corrections": [
+    {
+      "name": "Spirit Bomb",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "Xenoverse 2 Future Warrior documentation explicitly states the Future Warrior can learn Spirit Bomb regardless of selected race.",
+      "sources": [
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Super Spirit Bomb",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "Xenoverse 2 Future Warrior documentation explicitly states the Future Warrior can learn Super Spirit Bomb regardless of selected race.",
+      "sources": [
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 2,
+    "promoted": 2,
+    "nulls_preserved": 0,
+    "unsupported_inferences": 0
+  },
+  "next": "Continue explicit skill-specific race evidence across the remaining null cohort; do not infer Universal from generic Future Warrior technique lists."
+}
