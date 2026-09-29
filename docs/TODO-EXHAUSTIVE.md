@@ -6243,3 +6243,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-586.json`.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** audit Free Update 20 Festival recovery identities against the canonical catalog and exact historical structured evidence.
+
+
+### 2026-09-28 continuation — Festival indexed-catalog reconciliation batch 587
+- [x] Audited the four unresolved 4th Festival identities against the maintained indexed skill-category universe and exact repository search results.
+- [x] Confirmed **God Bind (Festival)** is present in the indexed-only name set, proving indexed-name coverage but not exposing a canonical internal ID.
+- [x] Confirmed **Egret Waltz (Festival)**, **Gamma Force: Code-R (Festival)**, and **Gamma Force: Code-B (Festival)** are not present in the current indexed-only name set and remain recovery-layer identities only.
+- [x] Preserved the canonical boundary: **0 exact IDs recovered, 0 canonical Festival records promoted, 0 PQ relationships changed**.
+- [x] Added `docs/data/skill-research-batches/skill-batch-587.json` and synchronized the catalog audit.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** move to the next substantive version/provenance or mechanics enrichment frontier; revisit Festival IDs only when an exact structured historical artifact or canonical blob exposes them.
