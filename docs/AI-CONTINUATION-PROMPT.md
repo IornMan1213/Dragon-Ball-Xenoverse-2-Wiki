@@ -7702,3 +7702,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Fresh direct evidence explicitly states that **Power Pole** and **Power Pole Combo** can be obtained by the Future Warrior regardless of race; both are therefore evidence-backed **Universal** race classifications.
 - [x] Updated `docs/data/skill-catalog-audit.json` with the Batch 665 finding and moved the frontier to batch 665.
 - [ ] **Exact next:** safely reconcile the two explicit Universal classifications into authoritative `docs/data/skills.json`; do not reconstruct or replace the canonical file from index/verified/projection layers.
+
+
+### 2026-09-29 continuation — Batch 665 canonical sync preparation
+- [x] Corrected Batch 665 to use authoritative `race_restriction: "Universal"` fields for Power Pole and Power Pole Combo.
+- [x] Confirmed `scripts/build_skills_from_research.py` consumes local skill research batches and merges non-null fields into canonical records.
+- [x] Updated the skill catalog audit to distinguish evidence completion from live canonical promotion.
+- [ ] Live `skills.json` still requires the existing skills-sync pipeline to run successfully before these values are claimed as promoted; do not reconstruct the canonical blob from indexes/projections.
+- [ ] **Exact next:** continue null-race evidence research and then broader cross-domain enrichment.
