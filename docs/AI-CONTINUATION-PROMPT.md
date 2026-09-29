@@ -8006,3 +8006,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/pq-equipment-enrichment-51-63-audit-2026-09-29.json` and `docs/data/skill-research-batches/skill-batch-693.json`.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue source-backed PQ equipment/Super Soul recovery in fresh PQ ranges, then reconcile promoted targets against canonical equipment identities without importing unsupported external IDs.
+
+
+### 2026-09-29 continuation — Batch 694: PQ record-layer equipment identity reconciliation
+- [x] Compared the live canonical PQ `equipment_rewards` fields against `equipment-record-layer.json` before making any new relationship changes.
+- [x] Promoted 3 previously absent exact equipment identities: **PQ25 → Android 18's Clothes (Skirt)**, **PQ25 → Android 17's Clothes**, and **PQ134 → Broly (Full Power Super Saiyan)'s Clothes**.
+- [x] Regenerated the PQ reverse index from the canonical forward relationship store.
+- [x] Recomputed relationship counts from actual rows: **870 total / 144 equipment / 249 skill / 135 Super Soul / 247 character / 88 DLC / 7 farming**.
+- [x] Refreshed the post-corruption checkpoint with the current live baseline and the next frontier.
+- [x] Preserved the evidence boundary: no drop rates, Ultimate-Finish conditions, or unsupported inventory identities were inferred.
+- [ ] Runtime/CI remains unverified and non-blocking.
+- [ ] **Exact next:** fresh-audit the remaining canonical PQ equipment reward IDs/names, then continue the highest-value bidirectional Super Soul/equipment enrichment; separately continue race-restriction/provenance research.
