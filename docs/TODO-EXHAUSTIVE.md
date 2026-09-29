@@ -6692,3 +6692,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical database remains **548 records**; no unsupported canonical IDs or records were created.
 - [x] Added `docs/data/skill-research-batches/skill-batch-634.json` and updated the catalog audit.
 - [ ] Exact next: resolve the final two identities with explicit access evidence, then determine whether any exact canonical records can be safely restored/promoted without inventing IDs.
+
+
+### 2026-09-29 continuation — Batch 635 closes indexed-only reconciliation
+- [x] Resolved the final indexed-only identity **Ill Flash** as CaC-usable using explicit Future Warrior/Skill Shop evidence.
+- [x] Classified **Spiral of Condemnation** as unavailable for CaC using explicit Fused Zamasu (Half-Corrupted)-exclusive evidence and the repository's supporting character/ID research.
+- [x] Indexed-only reconciliation frontier is now **0**.
+- [x] Canonical database remains **548 records**; no unsupported canonical records or IDs were invented.
+- [x] Added `docs/data/skill-research-batches/skill-batch-635.json` and updated the audit.
+- [ ] Exact next phase: audit canonical coverage/recovery and cross-domain completeness now that the indexed-only frontier is closed.
