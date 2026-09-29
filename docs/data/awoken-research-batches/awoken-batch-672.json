@@ -1,0 +1,53 @@
+{
+  "batch_id": 672,
+  "created": "2026-09-29",
+  "type": "awoken_race_acquisition_vs_use_provenance",
+  "status": "research_only_sync_ready",
+  "scope": "Clarify Awoken acquisition eligibility versus actual transformation usability for Saiyan-exclusive god forms.",
+  "records": [
+    {
+      "name": "Super Saiyan God",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "acquisition_race_requirement": "None",
+      "use_race_requirement": "Saiyan",
+      "evidence_status": "explicit",
+      "reason": "Future Warrior documentation states the skill can be obtained regardless of race, while the transformation itself is Saiyan-exclusive.",
+      "sources": [
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Super Saiyan God Super Saiyan",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "acquisition_race_requirement": "None",
+      "use_race_requirement": "Saiyan",
+      "evidence_status": "explicit",
+      "reason": "Whis teaches the transformation regardless of the Future Warrior's selected race, but it can only be utilized by Saiyans.",
+      "sources": [
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Super Saiyan God Super Saiyan (Evolved)",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "acquisition_race_requirement": "None",
+      "use_race_requirement": "Saiyan",
+      "evidence_status": "explicit",
+      "reason": "Future Warrior documentation describes the godly transformation progression as learnable regardless of race while actual use remains Saiyan-only.",
+      "sources": [
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 3,
+    "existing_restriction_preserved": 3,
+    "new_unsupported_restrictions": 0,
+    "canonical_mutation": 0
+  },
+  "note": "Do not collapse acquisition_race_requirement into race_restriction. The latter records actual usability in the maintained canonical model."
+}
