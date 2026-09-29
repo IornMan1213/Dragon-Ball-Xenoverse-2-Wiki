@@ -7727,3 +7727,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated `docs/data/skill-catalog-audit.json`.
 - [ ] Canonical `skills.json` promotion remains pending successful skills-sync execution.
 - [ ] Continue the remaining null race-restriction cohort; do not infer Universal merely from general Future Warrior acquisition.
+
+
+### 2026-09-29 continuation — Race restriction Batch 668
+- [x] Added Batch 668 as a five-record evidence triage pass.
+- [x] Reviewed Spirit Stab, Armored Boost, Mach Kick, Kamehameha Boost, and Miracle Kneel.
+- [x] Preserved all five as null because the retrieved Future Warrior technique index does not explicitly establish unrestricted race eligibility.
+- [x] Updated the catalog audit.
+- [ ] Continue with skill-specific evidence capable of establishing an explicit race/gender restriction or unrestricted eligibility.
