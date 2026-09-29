@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "batch": "PQ canonical Super Soul reconciliation",
+  "promoted": [
+    {
+      "pq": "pq-002",
+      "target": "Flying Nimbus!!"
+    },
+    {
+      "pq": "pq-006",
+      "target": "You cocky little...!"
+    },
+    {
+      "pq": "pq-164",
+      "target": "This place Will be your grave!"
+    },
+    {
+      "pq": "pq-176",
+      "target": "God of Destruction's Might"
+    }
+  ],
+  "method": "Compared canonical PQ super_soul_rewards arrays against canonical forward relationship keys; promoted only explicit previously absent targets.",
+  "added_edges": 4,
+  "post_total": 874,
+  "post_super_soul_edges": 139,
+  "evidence_boundary": "No drop probability, Ultimate Finish condition, or inferred Super Soul identity was added."
+}
