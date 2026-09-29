@@ -1367,6 +1367,16 @@
       ]
     },
     {
+      "name": "Destructive Ray",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destructive_Ray"
+      ]
+    },
+    {
       "name": "Destructo-Disc",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -3407,6 +3417,36 @@
       ]
     },
     {
+      "name": "III Bomber",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Buu"
+      ]
+    },
+    {
+      "name": "III Flash",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/III_Flash"
+      ]
+    },
+    {
+      "name": "III Rain",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/III_Rain"
+      ]
+    },
+    {
       "name": "Ill Bomber",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -4944,6 +4984,16 @@
       ]
     },
     {
+      "name": "Senko Ki Blast",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Senko_Ki_Blast"
+      ]
+    },
+    {
       "name": "Shadow Crusher",
       "class": "Super",
       "subcategory": "Strike",
@@ -5296,6 +5346,16 @@
       ]
     },
     {
+      "name": "Split Finger Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers"
+      ]
+    },
+    {
       "name": "Spread Shot Retreat",
       "class": "Evasive",
       "subcategory": "Ki Blast",
@@ -5559,6 +5619,16 @@
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Ultimate%29",
         "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_%28Super%29",
         "https://dragonballupdates.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
+      ]
+    },
+    {
+      "name": "Super Ghost Kamikaze Attack (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
       ]
     },
     {
@@ -5917,6 +5987,16 @@
         "https://dbxv2.fandom.com/wiki/The_Saviour_Has_Come",
         "https://ultradragonball.fandom.com/wiki/The_Savior_Has_Come",
         "https://dragonball.fandom.com/wiki/The_Savior_Has_Come"
+      ]
+    },
+    {
+      "name": "Thunder Eraser",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Eraser"
       ]
     },
     {
@@ -6448,6 +6528,19 @@
         "Power Pole"
       ],
       "canonical_record_count": 502
+    },
+    "recovery_batch_615": {
+      "restored": [
+        "Destructive Ray",
+        "Senko Ki Blast",
+        "Thunder Eraser",
+        "III Flash",
+        "III Bomber",
+        "III Rain",
+        "Super Ghost Kamikaze Attack (Super)",
+        "Split Finger Shot"
+      ],
+      "canonical_record_count": 510
     }
   },
   "skill_super_vegeta_current_evidence_audit_2026_09_25": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json",
