@@ -1,0 +1,88 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 601,
+  "date": "2026-09-29",
+  "type": "expert_mission_acquisition_condition_boundary_reconciliation",
+  "status": "evidence_reconciled_conditions_unresolved",
+  "scope": "Second-pass audit of EM18-20 acquisition records using the repository's individual mission research pages and evidence layer.",
+  "findings": [
+    {
+      "mission": "EM18",
+      "skill": "Focus Flash",
+      "current_route": "EM18 reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "boundary": "The repository evidence consistently associates Focus Flash with EM18, but does not establish a guaranteed per-clear drop, numerical rate, or first-clear-only condition."
+    },
+    {
+      "mission": "EM19",
+      "skill": "Tail Slicer",
+      "current_route": "EM19 reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "boundary": "The repository evidence consistently associates Tail Slicer with EM19, but does not establish a guaranteed per-clear drop, numerical rate, or first-clear-only condition."
+    },
+    {
+      "mission": "EM20",
+      "skill": "Data Input",
+      "current_route": "EM20 reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "boundary": "The repository evidence consistently associates Data Input with EM20, but does not establish a guaranteed per-clear drop, numerical rate, or first-clear-only condition."
+    }
+  ],
+  "mechanics_boundaries": [
+    {
+      "mission": "EM18",
+      "mechanics": [
+        "Peeler Storm",
+        "Gigantic Ki Blast"
+      ],
+      "status": "identified_shared_expert_mission_mechanics",
+      "unresolved": [
+        "exact trigger timing",
+        "boss-specific thresholds",
+        "complete current counter rules"
+      ]
+    },
+    {
+      "mission": "EM19",
+      "mechanics": [
+        "Brainwash Attack"
+      ],
+      "status": "identified_shared_expert_mission_mechanic",
+      "unresolved": [
+        "exact trigger",
+        "affected-player selection",
+        "escape/counter sequence",
+        "current-version timing"
+      ]
+    },
+    {
+      "mission": "EM20",
+      "mechanics": [
+        "Peeler Storm"
+      ],
+      "status": "identified_shared_expert_mission_mechanic",
+      "unresolved": [
+        "exact trigger",
+        "boss transition conditions",
+        "current-version timing"
+      ]
+    }
+  ],
+  "source_boundary": [
+    "docs/Expert-Missions-16-20.md",
+    "docs/data/expert-missions-18-20-evidence.json",
+    "docs/data/skill-expert-mission-acquisition-reconciliation.json"
+  ],
+  "validation": {
+    "missions": 3,
+    "skill_routes": 3,
+    "numerical_drop_rates_added": 0,
+    "guarantees_added": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0
+  },
+  "next": "Continue EM03-17 condition reconciliation, prioritizing direct evidence for reward-generation conditions. Do not invent probabilities or guarantee flags."
+}
