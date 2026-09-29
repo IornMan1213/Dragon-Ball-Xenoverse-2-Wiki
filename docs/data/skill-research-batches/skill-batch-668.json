@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 668,
+  "date": "2026-09-29",
+  "status": "research_only_null_preserved",
+  "research_scope": "Direct-source triage of remaining null race-restriction records. These records were reviewed against the Future Warrior technique index; no race value is promoted because the retrieved evidence identifies the skills as obtainable/usable but does not explicitly state unrestricted race eligibility.",
+  "records": [
+    {
+      "name": "Spirit Stab",
+      "race_restriction": null,
+      "evidence_status": "insufficient_for_classification",
+      "reason": "Technique index lists Spirit Stab as a Vegito Super Skill but gives no explicit Future Warrior race scope.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Armored Boost",
+      "race_restriction": null,
+      "evidence_status": "insufficient_for_classification",
+      "reason": "Technique index identifies Armored Boost as GT Trunks' Evasive Skill but does not explicitly state all-race or restricted-race Future Warrior eligibility.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Mach Kick",
+      "race_restriction": null,
+      "evidence_status": "insufficient_for_classification",
+      "reason": "Technique index identifies Mach Kick as Burter's Super Skill without an explicit race-scope statement.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Kamehameha Boost",
+      "race_restriction": null,
+      "evidence_status": "insufficient_for_classification",
+      "reason": "Available Future Warrior technique references identify the skill but do not provide an explicit race-scope statement.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Miracle Kneel",
+      "race_restriction": null,
+      "evidence_status": "insufficient_for_classification",
+      "reason": "Technique index identifies Miracle Kneel as Mr. Satan's Evasive Skill but does not explicitly establish unrestricted race eligibility.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "promoted": 0,
+    "nulls_preserved": 5,
+    "unsupported_inferences": 0
+  },
+  "next": "Continue seeking skill-specific pages or game-derived documentation with explicit race/gender statements; do not convert generic technique-index presence into Universal."
+}
