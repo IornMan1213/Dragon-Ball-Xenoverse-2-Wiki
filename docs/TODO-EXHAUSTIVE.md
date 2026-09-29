@@ -6395,3 +6395,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical `skills.json` records or PQ reward relationships were mutated.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** strengthen the 18 EM03-20 acquisition routes with direct current-version reward-condition evidence, then continue the next thin acquisition/mechanics frontier.
+
+
+### 2026-09-29 continuation — Expert Mission condition audit batch 601
+- [x] Audited EM18 **Focus Flash**, EM19 **Tail Slicer**, and EM20 **Data Input** against the individual Expert Mission research/evidence layers.
+- [x] Corroborated all three skill↔mission acquisition associations.
+- [x] Kept guarantee status, numerical drop rates, and first-clear conditions unresolved because the available evidence does not establish them.
+- [x] Recorded the relevant shared Expert Mission mechanics as evidence boundaries without promoting unresolved trigger/timing details.
+- [x] Registered Batch 601 in the cross-domain index and synchronized acquisition/audit metadata.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue the same condition-level reconciliation for EM03-17, prioritizing direct reward-generation evidence.
