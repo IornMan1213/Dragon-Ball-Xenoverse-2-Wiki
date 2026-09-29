@@ -7358,3 +7358,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved evidence boundaries; no unsupported drop mechanics inferred.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Next:** continue canonical Super Soul/equipment recovery and endpoint identity reconciliation.
+
+
+### 2026-09-29 continuation — Batch 696: PQ reverse-index reconciliation
+- [x] Detected that the checked-in PQ reverse projection was stale after Batch 695 and also lagged the Batch 694 equipment promotions.
+- [x] Rebuilt `docs/data/pq-cross-domain-reverse-index.json` directly from the canonical `pq-reward-relationships.json` forward store, using only source-backed normalized edges.
+- [x] Reverse projection now reports exact edge totals of **249 skill / 139 Super Soul / 144 equipment / 247 character / 88 DLC / 7 farming**.
+- [x] Unique reverse targets now report **244 skills / 137 Super Souls / 140 equipment / 75 characters / 21 DLC / 1 farming**.
+- [x] Confirmed the reverse projection is derived from the canonical forward store rather than treating the reverse file as a source of truth.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue fresh canonical endpoint reconciliation; prioritize unresolved equipment identity gaps and any explicit Super Soul/PQ gaps discovered by direct comparison.
