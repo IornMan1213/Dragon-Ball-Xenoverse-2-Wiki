@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 620,
-  "canonical_catalog_generated": 517,
+  "latest_research_batch": 621,
+  "canonical_catalog_generated": 519,
   "canonical_sync_pending": false,
-  "current_research_focus": "Historical Ki Blast Super recovery and indexed-only reconciliation",
+  "current_research_focus": "Indexed-only reconciliation; prioritize explicit CaC-usable evidence while preserving cast-only, special-mode, and alias boundaries.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -385,7 +385,10 @@
     ],
     "canonical_skill_records_live": 514,
     "index_records_live": 514,
-    "census_status": "stale_pending_full_reconciliation"
+    "census_status": "stale_pending_full_reconciliation",
+    "canonical_records": 519,
+    "index_records": 519,
+    "last_recovery_batch": 621
   },
   "recovery_batch_615": {
     "restored": [
@@ -461,5 +464,23 @@
     "duration_reconciliation": "18-second Properties duration and 15-second displayed Stats duration both preserved; 18 seconds is the documented effect duration.",
     "boundary": "No unsupported combat values or acquisition conditions inferred.",
     "batch_id": 620
+  },
+  "recovery_batch_621": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "previous_canonical_count": 517,
+    "new_canonical_count": 519,
+    "index_records": 519,
+    "restored": [
+      "X4 Kaioken Kamehameha",
+      "X20 Kaioken Kamehameha"
+    ],
+    "source_batches": [
+      103,
+      314
+    ],
+    "canonical_ids_inferred": 0,
+    "pq_relationship_mutations": 0,
+    "note": "Both historical records explicitly mark usable_by_cac=true and Skill Shop acquisition. X4 retains null Ki cost because the source indicates a variable cost; X20 retains 500 Ki. No unsupported progression or UF condition inferred."
   }
 }
