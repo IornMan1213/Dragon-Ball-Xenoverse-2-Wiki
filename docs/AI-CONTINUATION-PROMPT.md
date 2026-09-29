@@ -7995,3 +7995,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Reverse index explicitly declares absence is not a negative claim.
 - [ ] Runtime/CI remains intentionally unverified because failing job-step logs are unavailable through connected GitHub diagnostics.
 - [ ] Exact next: expand source-backed reverse coverage/canonical target links, then reconcile reward-slot and Ultimate Finish conflicts.
+
+
+### 2026-09-29 continuation — Batch 693: PQ51-63 equipment reward recovery-forward enrichment
+- [x] Freshly reconciled PQ51-PQ63 against the surviving canonical forward relationship store and the all-186 PQ reward guide.
+- [x] Promoted four explicit equipment rewards previously absent from the canonical forward graph: **Great Saiyaman Bandana 1 (PQ51), Great Saiyaman Bandana 2 (PQ53), Videl T-Shirt (PQ56), and Gogeta's Clothes (PQ57)**.
+- [x] Preserved the evidence boundary: no reward probability, Ultimate-Finish condition, or external numeric inventory ID was inferred.
+- [x] Regenerated `docs/data/pq-cross-domain-reverse-index.json` from the enriched forward graph.
+- [x] Corrected the relationship store's stale total-count fields by recomputing them from `verified_relationships`; equipment edges are now **141** and total normalized edges are **867**.
+- [x] Added `docs/data/pq-equipment-enrichment-51-63-audit-2026-09-29.json` and `docs/data/skill-research-batches/skill-batch-693.json`.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue source-backed PQ equipment/Super Soul recovery in fresh PQ ranges, then reconcile promoted targets against canonical equipment identities without importing unsupported external IDs.
