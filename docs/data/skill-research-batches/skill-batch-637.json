@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 637,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "canonical_recovery_and_index_sync",
+  "scope": "Post-frontier recovery of an exact CaC-usable historical identity.",
+  "source_of_truth": "docs/data/skills.json",
+  "restored": [
+    {
+      "name": "Candy Beam (Evasive)",
+      "id": "skill-candy-beam-evasive",
+      "source_batches": [
+        21,
+        529
+      ],
+      "classification": "Evasive / Other",
+      "usable_by_cac": true,
+      "race_restriction": "Majin",
+      "acquisition": "Parallel Quest 66 — Stop Beerus' Destruction"
+    }
+  ],
+  "validation": {
+    "canonical_before": 548,
+    "canonical_after": 549,
+    "index_before": 548,
+    "index_after": 549,
+    "canonical_index_count_parity": true,
+    "canonical_index_name_parity": true,
+    "duplicate_canonical_ids": 0,
+    "pq_relationship_mutations": 0
+  },
+  "boundary": "Go-Go Gum remains confirmed CaC-positive but is not promoted because no exact canonical ID/current canonical identity record was established in the repository.",
+  "next": "Continue post-frontier canonical recovery using explicit historical CaC evidence and exact identity IDs; then begin exhaustive race-specific/transformations enrichment."
+}
