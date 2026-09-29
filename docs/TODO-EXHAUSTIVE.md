@@ -6311,3 +6311,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill record or PQ relationship was changed; no game-version/patch value was inferred.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** audit the next older DLC/free-update cohort with a documented skill count and incomplete individual mappings; preserve event-level-only subsets when official sources do not expose individual names.
+
+
+### 2026-09-29 continuation — Extra Pack 2 named skill provenance reconciliation batch 594
+- [x] Added `docs/data/skill-research-batches/skill-batch-594.json` for the older DLC provenance frontier.
+- [x] Used official Bandai Namco Extra Pack 2 material to directly reconcile **Soaring Fist** and **Godly Display**; the same official material names Jiren's **Power Rush** and source-spelled **“Mediation”**, reconciled to canonical **Meditation** using existing Xenoverse 2-specific repository evidence.
+- [x] Registered the `extra-pack-2` event with its documented 8-skill scope and mapped 4 named canonical skills; 4 remaining skills remain unmapped rather than being inferred from the count.
+- [x] Preserved the “Mediation”/“Meditation” spelling boundary and did not create a duplicate skill identity.
+- [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported game-version/patch assignment.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** reconcile the remaining four Extra Pack 2 skills only when direct skill-level evidence is available, then continue to Extra Pack 1/other early DLC cohorts.
