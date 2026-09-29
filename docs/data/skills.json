@@ -16338,6 +16338,40 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Candy Beam (Evasive)",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "race_restriction": "Majin",
+      "usable_by_cac": true,
+      "character_source": "Majin Buu (Good); Majin Buu (Good) Customize Partner; Majin CaCs",
+      "dlc_requirement": null,
+      "ki_cost": 0,
+      "stamina_cost": 300,
+      "damage_type": "Other",
+      "unlock_method": "Parallel Quest 66 — Stop Beerus' Destruction; reward",
+      "source_quest_or_shop": "Parallel Quest 66",
+      "ultimate_finish_required": null,
+      "skill_description": "Spin and fire a pink beam that turns nearby enemies into candy temporarily.",
+      "mechanics_notes": "Evasive variant of Candy Beam. Costs 300 stamina and is documented as dealing no damage; affected opponents are transformed into candy temporarily. Exact duration remains version-sensitive.",
+      "combo_notes": "Primary defensive escape and temporary-control utility rather than direct damage.",
+      "pve_notes": "The temporary transformation can create breathing room against AI and interrupt immediate pressure.",
+      "pvp_notes": "Utility is matchup-dependent; this Evasive variant must remain distinct from Candy Beam (Super).",
+      "verification_status": "verified",
+      "last_verified": "2026-09-29",
+      "research_status": "enriched",
+      "acquisition_type": "quest_or_mission",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Evasive%29",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "notes": "2026-09-29 recovery promotion: Batch 21 and Batch 529 provide explicit CaC usability, Majin restriction, PQ66 acquisition, and Evasive classification. Exact drop probability and transformation duration remain unresolved.",
+      "id": "skill-candy-beam-evasive",
+      "source_parallel_quests": [
+        66
+      ]
     }
   ],
   "last_verified": "2026-09-27",
