@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 688,
+  "latest_research_batch": 689,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Early free-update provenance is being reconciled with strict event boundaries. Batch 688 maps the five explicitly named February 27, 2017 free-update attacks; December 2016 remains separate with two named Awoken mappings and four unnamed attacks. Next: remaining early free-update evidence, then mechanics and cross-database completeness.",
+  "current_research_focus": "Early free-update provenance has been reconciled through the February 2017 named attack set. Batch 689 re-audited unresolved PQ accessory identities for Great Saiyaman Bandanas 1/2; exact names/routes are confirmed but no canonical inventory IDs exist, so they remain unresolved. Next: resolve only accessory identities with exact canonical evidence, then return to mechanics and bidirectional database completeness.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1370,6 +1370,10 @@
   "provenance_batch_688": {
     "event_id": "free-update-2017-02-27",
     "records": 5,
+    "canonical_mutations": 0
+  },
+  "accessory_identity_batch_689": {
+    "records_reviewed": 2,
     "canonical_mutations": 0
   }
 }
