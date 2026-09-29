@@ -7067,3 +7067,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed the existing skill builder consumes local research batches and merges those fields into canonical records.
 - [ ] Do not claim live canonical promotion until the skills-sync pipeline succeeds; do not reconstruct the canonical blob from indexes/projections.
 - [ ] Continue the remaining null race-restriction evidence frontier and cross-domain enrichment.
+
+
+### 2026-09-29 continuation — Recovery-forward race restriction Batch 666
+- [x] Added Batch 666 restoring explicit Universal race evidence for Justice Pose and Death Psycho Bomb.
+- [x] Updated the skill catalog audit; both records are sync-ready through the existing canonical builder.
+- [ ] Confirm live canonical promotion only after the skills-sync pipeline successfully runs.
+- [ ] Continue the remaining null race-restriction cohort with direct evidence and then broader cross-domain enrichment.
