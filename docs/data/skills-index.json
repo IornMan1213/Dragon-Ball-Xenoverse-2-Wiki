@@ -90,6 +90,27 @@
       ]
     },
     {
+      "name": "Android Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-android-kick",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Android_Kick",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608443",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-29-sprints-out-this-december-1"
+      ]
+    },
+    {
       "name": "Android Rush",
       "class": "Super",
       "subcategory": "Strike",
@@ -220,6 +241,23 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887"
       ]
+    },
+    {
+      "name": "Armored Boost",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 300,
+      "dlc_requirement": null,
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": false,
+      "id": "skill-armored-boost",
+      "sources": null
     },
     {
       "name": "Assault Rain",
@@ -480,7 +518,7 @@
       "unlock_method": "Parallel Quest 112 - Advent of the Mighty God Zamasu! (skill drop)",
       "source_quest_or_shop": null,
       "ultimate_finish_required": false,
-      "id": "skill-blades-of-judgement",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Blades_of_Judgement"
       ]
@@ -1004,6 +1042,46 @@
       ]
     },
     {
+      "name": "Burning Spin",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-burning-spin",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Burning_Spin"
+      ]
+    },
+    {
+      "name": "Burning Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-burning-strike",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Burning_Strike"
+      ]
+    },
+    {
       "name": "Burning Swan",
       "class": "Super",
       "subcategory": "Strike",
@@ -1038,7 +1116,7 @@
       "unlock_method": "Shenron wish: \"I want a new Super Attack!\"",
       "source_quest_or_shop": "Shenron wish — new Super Attack selection",
       "ultimate_finish_required": null,
-      "id": "skill-burst-attack",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Burst_Attack"
       ]
@@ -1651,6 +1729,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "verification_status": "partially_verified",
+      "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
       "ki_cost": 100,
@@ -1659,7 +1738,7 @@
       "unlock_method": "Skill Shop",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "id": "skill-cross-arm-dive",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Cross_Arm_Dive",
         "https://dragonball.fandom.com/wiki/Cross_Arm_Dive",
@@ -1727,6 +1806,25 @@
         "https://dbxv2.fandom.com/wiki/Crusher_Ball",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.youtube.com/watch?v=uew5M9zife8"
+      ]
+    },
+    {
+      "name": "Crusher Volcano",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-crusher-volcano",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -2373,7 +2471,7 @@
       "unlock_method": "TP Medal Shop",
       "source_quest_or_shop": "TP Medal Shop",
       "ultimate_finish_required": false,
-      "id": "skill-destructive-ray",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructive_Ray"
       ]
@@ -2403,6 +2501,8 @@
       "name": "Die Die Missile Barrage",
       "class": "Super",
       "subcategory": "Ki Blast",
+      "verification_status": null,
+      "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
       "ki_cost": 100,
@@ -2411,7 +2511,7 @@
       "unlock_method": "Gotenks Training Lesson 3",
       "source_quest_or_shop": null,
       "ultimate_finish_required": false,
-      "id": "skill-die-die-missile-barrage",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Die_Die_Missile_Barrage"
       ]
@@ -2750,7 +2850,7 @@
       "unlock_method": "Skill Shop after the required story progression; current Xenoverse 2 references identify the shop as the CaC acquisition route",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "id": "skill-double-buster",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Double_Buster",
         "https://dragonball.fandom.com/wiki/Double_Buster",
@@ -2948,6 +3048,26 @@
         "https://dbxv2.fandom.com/wiki/Dragon_Thunder",
         "https://dbxv2.fandom.com/wiki/Super_Attack",
         "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "Drain Charge",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop after The Galactic Emperor",
+      "source_quest_or_shop": "Skill Shop after The Galactic Emperor",
+      "ultimate_finish_required": false,
+      "id": "skill-drain-charge",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Drain_Charge",
+        "https://dbxv2.fandom.com/wiki/Grab"
       ]
     },
     {
@@ -3510,6 +3630,27 @@
         "https://dbxv2.fandom.com/wiki/Evil_Explosion_%28Super%29",
         "https://dragonball.fandom.com/wiki/Evil_Explosion",
         "https://dbxenoverse.fandom.com/wiki/Evil_Explosion_%28Skill%29"
+      ]
+    },
+    {
+      "name": "Evil Explosion (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Piccolo training",
+      "source_quest_or_shop": "Piccolo training",
+      "ultimate_finish_required": null,
+      "id": "skill-evil-explosion-super",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evil_Explosion_(Super)",
+        "https://dbxv2.fandom.com/wiki/Piccolo",
+        "https://dbxv2.fandom.com/wiki/Skill"
       ]
     },
     {
@@ -4090,7 +4231,7 @@
       "unlock_method": "Skill Shop after completing Universal Emperor",
       "source_quest_or_shop": null,
       "ultimate_finish_required": false,
-      "id": "skill-fighting-sun",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Fighting_Sun",
         "https://dragonball.fandom.com/wiki/Fighting_Sun"
@@ -4101,6 +4242,7 @@
       "class": "Super",
       "subcategory": "Strike",
       "verification_status": "partially_verified",
+      "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
       "ki_cost": 100,
@@ -4109,7 +4251,7 @@
       "unlock_method": "Skill Shop",
       "source_quest_or_shop": "TP Medal Shop",
       "ultimate_finish_required": null,
-      "id": "skill-final-blow",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Final_Blow",
         "https://dragonball.fandom.com/wiki/Final_Blow",
@@ -4366,7 +4508,7 @@
       "unlock_method": "Skill Shop after the required story progression",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "id": "skill-finish-buster",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Finish_Buster",
         "https://dragonball.fandom.com/wiki/Finish_Buster",
@@ -4776,7 +4918,7 @@
       "unlock_method": "Parallel Quest 143",
       "source_quest_or_shop": "Parallel Quest 143",
       "ultimate_finish_required": null,
-      "id": "skill-galick-beam-cannon",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Galick_Beam_Cannon"
       ]
@@ -5051,6 +5193,26 @@
       ]
     },
     {
+      "name": "Gigantic Ki Blast",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 18: The Ultimate Evil: Broly!",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": false,
+      "id": "skill-gigantic-ki-blast",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
       "name": "Gigantic Meteor",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -5158,6 +5320,28 @@
         "https://dragonball.fandom.com/wiki/Gigantic_Roar",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dragonball.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Ginyu Force Special Combo",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 16 — Defeat Frieza's Army!",
+      "source_quest_or_shop": "Parallel Quest 16 — Defeat Frieza's Army!",
+      "ultimate_finish_required": null,
+      "id": "skill-ginyu-force-special-combo",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ginyu_Force_Special_Combo",
+        "https://dragonball.fandom.com/wiki/Ginyu_Force_Special_Combo",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77393749",
+        "https://xvguide.neocities.org/Skill"
       ]
     },
     {
@@ -5942,7 +6126,7 @@
       "unlock_method": null,
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
-      "id": "skill-iii-bomber",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Buu"
       ]
@@ -5961,7 +6145,7 @@
       "unlock_method": "Training with Super Buu",
       "source_quest_or_shop": "Training with Super Buu",
       "ultimate_finish_required": false,
-      "id": "skill-iii-flash",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/III_Flash"
       ]
@@ -5980,7 +6164,7 @@
       "unlock_method": "Parallel Quest 64 - Beerus the Impulsive",
       "source_quest_or_shop": "Parallel Quest 64 - Beerus the Impulsive",
       "ultimate_finish_required": false,
-      "id": "skill-iii-rain",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/III_Rain"
       ]
@@ -6109,7 +6293,7 @@
       "unlock_method": null,
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
-      "id": "skill-infinity-explosion",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
@@ -6471,6 +6655,27 @@
       ]
     },
     {
+      "name": "Kaioken Assault",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-kaioken-assault",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kaioken_Assault",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
       "name": "Kaioken Kamehameha",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -6531,6 +6736,27 @@
         "https://dbxv2.fandom.com/wiki/Kamehameha",
         "https://dbxv2.fandom.com/wiki/Saiyan_Blood",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Kamehameha Boost",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop after defeating the Masked Saiyan and Masked Future Warrior in the main story",
+      "ultimate_finish_required": null,
+      "id": "skill-kamehameha-boost",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kamehameha_Boost",
+        "https://dragonball.fandom.com/wiki/Reverse_Kamehameha",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     },
     {
@@ -6665,6 +6891,8 @@
       "name": "Light Grenade (Super)",
       "class": "Super",
       "subcategory": "Ki Blast",
+      "verification_status": null,
+      "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
       "ki_cost": 100,
@@ -6673,7 +6901,7 @@
       "unlock_method": "Training with Piccolo",
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
-      "id": "skill-light-grenade-super",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Light_Grenade_%28Super%29"
       ]
@@ -6765,6 +6993,27 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Mach_Dash"
+      ]
+    },
+    {
+      "name": "Mach Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 17 — Ginyu and the Fruit",
+      "ultimate_finish_required": null,
+      "id": "skill-mach-kick",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mach_Kick",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Mach_Punch"
       ]
     },
     {
@@ -7094,6 +7343,42 @@
       ]
     },
     {
+      "name": "Minus Energy Power Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Shenron wish: I want another Ultimate Attack! (again)",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-minus-energy-power-ball",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Minus_Energy_Power_Ball"
+      ]
+    },
+    {
+      "name": "Miracle Kneel",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 300,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": false,
+      "id": "skill-miracle-kneel",
+      "sources": null
+    },
+    {
       "name": "Murder Grenade",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -7287,6 +7572,27 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Paralyze_Beam",
         "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-26-march-17-flies-out-for-legendary-pack-1-more"
+      ]
+    },
+    {
+      "name": "Peeler Storm",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 100,
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 20 - Harbinger of Doom / Crystal Raid Skill",
+      "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom / Crystal Raid Skill",
+      "ultimate_finish_required": false,
+      "id": "skill-peeler-storm-evasive",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Peeler_Storm",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission_20",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
       ]
     },
     {
@@ -7494,7 +7800,7 @@
       "unlock_method": "Skill Shop",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "id": "skill-power-pole",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Pole",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74998319",
@@ -7827,6 +8133,29 @@
         "https://dbxv2.fandom.com/wiki/Psycho_Escape",
         "https://dbxv2.fandom.com/wiki/Parallel_Quests",
         "https://dragonball.fandom.com/wiki/Psycho_Escape"
+      ]
+    },
+    {
+      "name": "Punisher Drive",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-punisher-drive",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Punisher_Drive",
+        "https://videogaming.fandom.com/wiki/Punisher_Drive",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74765001",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74512351",
+        "https://dbxv2.fandom.com/wiki/Characters"
       ]
     },
     {
@@ -8653,9 +8982,28 @@
       "unlock_method": "Training with Future Trunks",
       "source_quest_or_shop": "Training with Future Trunks",
       "ultimate_finish_required": false,
-      "id": "skill-senko-ki-blast",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Senko_Ki_Blast"
+      ]
+    },
+    {
+      "name": "Serious Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-serious-bomb",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Serious_Bomb"
       ]
     },
     {
@@ -9002,6 +9350,28 @@
       ]
     },
     {
+      "name": "Sonic Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-sonic-kick",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sonic_Kick",
+        "https://dragonball.fandom.com/wiki/Sonic_Kick",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79052164",
+        "https://dbxv2.fandom.com/wiki/Hyper_Special_Training"
+      ]
+    },
+    {
       "name": "Sonic Rush",
       "class": "Super",
       "subcategory": "Strike",
@@ -9090,6 +9460,26 @@
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
         "https://dbxv2.fandom.com/wiki/Sphere_of_Destruction"
+      ]
+    },
+    {
+      "name": "Spinning Blade",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 300,
+      "dlc_requirement": null,
+      "unlock_method": "Ultimate Finish reward from PQ15 - Gotta Find That Dragon Ball!",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": true,
+      "id": "skill-spinning-blade",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spinning_Blade",
+        "https://dragonball.fandom.com/wiki/Spinning_Blade"
       ]
     },
     {
@@ -9243,6 +9633,28 @@
       ]
     },
     {
+      "name": "Spirit Stab",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": "Super Pack 4",
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-spirit-stab",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Spirit_Stab",
+        "https://videogaming.fandom.com/wiki/Spirit_Stab",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75507793",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    },
+    {
       "name": "Spirit Sword",
       "class": "Ultimate",
       "subcategory": "Strike",
@@ -9276,7 +9688,7 @@
       "unlock_method": null,
       "source_quest_or_shop": null,
       "ultimate_finish_required": null,
-      "id": "skill-split-finger-shot",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers"
       ]
@@ -9539,24 +9951,45 @@
     },
     {
       "name": "Super Dragon Flight",
-      "class": "Ultimate",
+      "class": "Super",
       "subcategory": "Strike",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
-      "ki_cost": 300,
+      "ki_cost": 100,
       "stamina_cost": null,
       "dlc_requirement": "Base Game",
       "unlock_method": "Parallel Quest 31 — \"Let's Train!\" Basic Reward",
       "source_quest_or_shop": "Parallel Quest 31 — \"Let's Train!\"",
-      "ultimate_finish_required": false,
+      "ultimate_finish_required": null,
       "id": "skill-super-dragon-flight",
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight",
-        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/parallel-quests/pq-31.md",
-        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight_%28Super%29"
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Flight_%28Super%29",
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/content/skills/super-dragon-flight.md",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "name": "Super Drain",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 28 — Take Back the Dragon Balls!; Ultimate Finish reward after defeating Cell",
+      "source_quest_or_shop": "Parallel Quest 28",
+      "ultimate_finish_required": true,
+      "id": "skill-super-drain",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Drain",
+        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71316424",
+        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71353427",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
       ]
     },
     {
@@ -9622,6 +10055,26 @@
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
         "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_%28Super%29"
+      ]
+    },
+    {
+      "name": "Super Explosive Wave (Evasive)",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "dlc_requirement": null,
+      "unlock_method": "Training with Piccolo",
+      "source_quest_or_shop": "Piccolo training",
+      "ultimate_finish_required": false,
+      "id": "skill-super-explosive-wave-evasive",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_(Evasive)",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ]
     },
     {
@@ -9750,7 +10203,7 @@
       "unlock_method": "Training with Gotenks",
       "source_quest_or_shop": "Training with Gotenks",
       "ultimate_finish_required": false,
-      "id": "skill-super-ghost-kamikaze-attack-super",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Mentors"
       ]
@@ -9885,6 +10338,28 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Ki_Explosion",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Super Mad Dance",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-super-mad-dance",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Mad_Dance",
+        "https://videogaming.fandom.com/wiki/Super_Mad_Dance",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74495441",
+        "https://xvguide.neocities.org/Skill"
       ]
     },
     {
@@ -10046,6 +10521,25 @@
       ]
     },
     {
+      "name": "Super Vanishing Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-super-vanishing-ball",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Vanishing_Ball"
+      ]
+    },
+    {
       "name": "Super Vegeta",
       "class": "Awoken",
       "subcategory": "Race",
@@ -10081,7 +10575,7 @@
       "unlock_method": "Ginyu Force Training Lesson 3",
       "source_quest_or_shop": "Ginyu Force Training Lesson 3",
       "ultimate_finish_required": false,
-      "id": "skill-super-volley",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Volley"
       ]
@@ -10193,6 +10687,25 @@
         "https://dbxv2.fandom.com/wiki/Surging_Spirit",
         "https://dragonball.fandom.com/wiki/Full_Power_Charge",
         "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
+      "name": "Swallow Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "unlock_method": "Parallel Quest 159 — Heroic Showdown",
+      "source_quest_or_shop": "Parallel Quest 159 — Heroic Showdown",
+      "ultimate_finish_required": null,
+      "id": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Swallow_Shot"
       ]
     },
     {
@@ -10389,7 +10902,7 @@
       "unlock_method": "Training with Super 17",
       "source_quest_or_shop": "Training with Super 17",
       "ultimate_finish_required": false,
-      "id": "skill-thunder-eraser",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Thunder_Eraser"
       ]
@@ -10523,6 +11036,27 @@
         "https://dbxv2.fandom.com/wiki/Category:Counter_Skills",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Time-Skip/Jump_Spike"
+      ]
+    },
+    {
+      "name": "Time Skip/Molotov",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 500,
+      "stamina_cost": 0,
+      "dlc_requirement": "Base Game",
+      "unlock_method": "Shenron wish — \"I want a new Ultimate Attack!\"",
+      "source_quest_or_shop": "Shenron wish",
+      "ultimate_finish_required": null,
+      "id": "skill-time-skip-molotov",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Time_Skip/Molotov",
+        "https://dragonball.fandom.com/wiki/Time-Skip/Molotov",
+        "https://dbxv2.fandom.com/wiki/Wish"
       ]
     },
     {
@@ -10691,7 +11225,7 @@
       "unlock_method": "Skill Shop",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": false,
-      "id": "skill-turtle-style-last-resort",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Turtle_Style_Last_Resort"
       ]
@@ -10823,6 +11357,25 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
         "https://dbxv2.fandom.com/wiki/Unrelenting_Barrage",
         "https://gamefaqs.gamespot.com/pc/229598-dragon-ball-xenoverse-2-extra-pack-2-infinite-history/faqs/74285"
+      ]
+    },
+    {
+      "name": "Vacation Delete",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-vacation-delete",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     },
     {
@@ -11175,10 +11728,30 @@
       ]
     },
     {
+      "name": "X100 Big Bang Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 100 — The Ultimate Rivalry",
+      "source_quest_or_shop": "Parallel Quest 100 — The Ultimate Rivalry",
+      "ultimate_finish_required": null,
+      "id": "skill-x100-big-bang-kamehameha",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha"
+      ]
+    },
+    {
       "name": "X20 Kaioken Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
+      "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
       "ki_cost": 500,
@@ -11187,7 +11760,7 @@
       "unlock_method": "Skill Shop",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "id": "skill-x20-kaioken-kamehameha",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha",
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
@@ -11198,6 +11771,7 @@
       "class": "Ultimate",
       "subcategory": "Ki Blast",
       "verification_status": "partially_verified",
+      "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
       "ki_cost": null,
@@ -11206,7 +11780,7 @@
       "unlock_method": "Skill Shop",
       "source_quest_or_shop": "Skill Shop",
       "ultimate_finish_required": null,
-      "id": "skill-x4-kaioken-kamehameha",
+      "id": null,
       "sources": [
         "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
@@ -11231,552 +11805,6 @@
         "https://dbxv2.fandom.com/wiki/Zigzag_Express",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
-    },
-    {
-      "name": "Swallow Shot",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": "Hero of Justice Pack 2",
-      "unlock_method": "Parallel Quest 159 — Heroic Showdown",
-      "source_quest_or_shop": "Parallel Quest 159 — Heroic Showdown",
-      "ultimate_finish_required": null,
-      "id": "skill-swallow-shot",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Swallow_Shot"
-      ]
-    },
-    {
-      "name": "Android Kick",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop",
-      "ultimate_finish_required": null,
-      "id": "skill-android-kick",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Android_Kick",
-        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608443",
-        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-29-sprints-out-this-december-1"
-      ]
-    },
-    {
-      "name": "Kaioken Assault",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-kaioken-assault",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Kaioken_Assault",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
-        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
-    },
-    {
-      "name": "Kamehameha Boost",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop after defeating the Masked Saiyan and Masked Future Warrior in the main story",
-      "ultimate_finish_required": null,
-      "id": "skill-kamehameha-boost",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Kamehameha_Boost",
-        "https://dragonball.fandom.com/wiki/Reverse_Kamehameha",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
-      ]
-    },
-    {
-      "name": "Mach Kick",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest reward",
-      "source_quest_or_shop": "Parallel Quest 17 — Ginyu and the Fruit",
-      "ultimate_finish_required": null,
-      "id": "skill-mach-kick",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Mach_Kick",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dragonball.fandom.com/wiki/Mach_Punch"
-      ]
-    },
-    {
-      "name": "Punisher Drive",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": null,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop",
-      "ultimate_finish_required": null,
-      "id": "skill-punisher-drive",
-      "sources": [
-        "https://dragonball.fandom.com/wiki/Punisher_Drive",
-        "https://videogaming.fandom.com/wiki/Punisher_Drive",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74765001",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74512351",
-        "https://dbxv2.fandom.com/wiki/Characters"
-      ]
-    },
-    {
-      "name": "Sonic Kick",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop",
-      "ultimate_finish_required": null,
-      "id": "skill-sonic-kick",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Sonic_Kick",
-        "https://dragonball.fandom.com/wiki/Sonic_Kick",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79052164",
-        "https://dbxv2.fandom.com/wiki/Hyper_Special_Training"
-      ]
-    },
-    {
-      "name": "Spirit Stab",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": "Super Pack 4",
-      "unlock_method": "TP Medal Shop",
-      "source_quest_or_shop": "TP Medal Shop",
-      "ultimate_finish_required": null,
-      "id": "skill-spirit-stab",
-      "sources": [
-        "https://dragonball.fandom.com/wiki/Spirit_Stab",
-        "https://videogaming.fandom.com/wiki/Spirit_Stab",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75507793",
-        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
-      ]
-    },
-    {
-      "name": "Drain Charge",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop after The Galactic Emperor",
-      "source_quest_or_shop": "Skill Shop after The Galactic Emperor",
-      "ultimate_finish_required": false,
-      "id": "skill-drain-charge",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Drain_Charge",
-        "https://dbxv2.fandom.com/wiki/Grab"
-      ]
-    },
-    {
-      "name": "Ginyu Force Special Combo",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": 0,
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 16 — Defeat Frieza's Army!",
-      "source_quest_or_shop": "Parallel Quest 16 — Defeat Frieza's Army!",
-      "ultimate_finish_required": null,
-      "id": "skill-ginyu-force-special-combo",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ginyu_Force_Special_Combo",
-        "https://dragonball.fandom.com/wiki/Ginyu_Force_Special_Combo",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77393749",
-        "https://xvguide.neocities.org/Skill"
-      ]
-    },
-    {
-      "name": "Super Mad Dance",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop",
-      "ultimate_finish_required": null,
-      "id": "skill-super-mad-dance",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Mad_Dance",
-        "https://videogaming.fandom.com/wiki/Super_Mad_Dance",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74495441",
-        "https://xvguide.neocities.org/Skill"
-      ]
-    },
-    {
-      "name": "Gigantic Ki Blast",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 300,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 18: The Ultimate Evil: Broly!",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": false,
-      "id": "skill-gigantic-ki-blast",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "Minus Energy Power Ball",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Shenron wish: I want another Ultimate Attack! (again)",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-minus-energy-power-ball",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Minus_Energy_Power_Ball"
-      ]
-    },
-    {
-      "name": "Serious Bomb",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "TP Medal Shop",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-serious-bomb",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Serious_Bomb"
-      ]
-    },
-    {
-      "name": "Super Vanishing Ball",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 300,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-super-vanishing-ball",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Vanishing_Ball"
-      ]
-    },
-    {
-      "name": "Crusher Volcano",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 300,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-crusher-volcano",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "Vacation Delete",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 300,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-vacation-delete",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "Spinning Blade",
-      "class": "Evasive",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": null,
-      "stamina_cost": 300,
-      "dlc_requirement": null,
-      "unlock_method": "Ultimate Finish reward from PQ15 - Gotta Find That Dragon Ball!",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": true,
-      "id": "skill-spinning-blade",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Spinning_Blade",
-        "https://dragonball.fandom.com/wiki/Spinning_Blade"
-      ]
-    },
-    {
-      "name": "Armored Boost",
-      "class": "Evasive",
-      "subcategory": "Other",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": null,
-      "stamina_cost": 300,
-      "dlc_requirement": null,
-      "unlock_method": "TP Medal Shop",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": false,
-      "id": "skill-armored-boost",
-      "sources": []
-    },
-    {
-      "name": "Miracle Kneel",
-      "class": "Evasive",
-      "subcategory": "Other",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": null,
-      "stamina_cost": 300,
-      "dlc_requirement": null,
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": false,
-      "id": "skill-miracle-kneel",
-      "sources": []
-    },
-    {
-      "name": "Super Explosive Wave (Evasive)",
-      "class": "Evasive",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": null,
-      "stamina_cost": 200,
-      "dlc_requirement": null,
-      "unlock_method": "Training with Piccolo",
-      "source_quest_or_shop": "Piccolo training",
-      "ultimate_finish_required": false,
-      "id": "skill-super-explosive-wave-evasive",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_(Evasive)",
-        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
-      ]
-    },
-    {
-      "name": "Super Drain",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": 0,
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 28 — Take Back the Dragon Balls!; Ultimate Finish reward after defeating Cell",
-      "source_quest_or_shop": "Parallel Quest 28",
-      "ultimate_finish_required": true,
-      "id": "skill-super-drain",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Drain",
-        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71316424",
-        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71353427",
-        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
-      ]
-    },
-    {
-      "name": "X100 Big Bang Kamehameha",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Parallel Quest 100 — The Ultimate Rivalry",
-      "source_quest_or_shop": "Parallel Quest 100 — The Ultimate Rivalry",
-      "ultimate_finish_required": null,
-      "id": "skill-x100-big-bang-kamehameha",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha"
-      ]
-    },
-    {
-      "name": "Evil Explosion (Super)",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": "Piccolo training",
-      "source_quest_or_shop": "Piccolo training",
-      "ultimate_finish_required": null,
-      "id": "skill-evil-explosion-super",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Evil_Explosion_(Super)",
-        "https://dbxv2.fandom.com/wiki/Piccolo",
-        "https://dbxv2.fandom.com/wiki/Skill"
-      ]
-    },
-    {
-      "name": "Peeler Storm",
-      "class": "Evasive",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": null,
-      "stamina_cost": 100,
-      "dlc_requirement": null,
-      "unlock_method": "Expert Mission 20 - Harbinger of Doom / Crystal Raid Skill",
-      "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom / Crystal Raid Skill",
-      "ultimate_finish_required": false,
-      "id": "skill-peeler-storm-evasive",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Peeler_Storm",
-        "https://dbxv2.fandom.com/wiki/Expert_Mission_20",
-        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
-      ]
-    },
-    {
-      "name": "Burning Spin",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-burning-spin",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Burning_Spin"
-      ]
-    },
-    {
-      "name": "Burning Strike",
-      "class": "Super",
-      "subcategory": "Strike",
-      "verification_status": "partially_verified",
-      "research_status": "partially_enriched",
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "source_quest_or_shop": null,
-      "ultimate_finish_required": null,
-      "id": "skill-burning-strike",
-      "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Burning_Strike"
       ]
     }
   ],
@@ -11902,5 +11930,5 @@
   "skill_fighting_pose_i_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-i-current-evidence-audit-2026-09-25.json",
   "skill_fighting_pose_j_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-j-current-evidence-audit-2026-09-25.json",
   "last_verified": "2026-09-29",
-  "record_count": 547
+  "record_count": 548
 }
