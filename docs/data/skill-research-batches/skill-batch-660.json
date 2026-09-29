@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 660,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Direct-source follow-up on five canonical null race_restriction CaC-usable skills.",
+  "records": [
+    {
+      "name": "Ki Blast Cannon",
+      "race_restriction_result": null,
+      "evidence": "Prior repository research classifies Ki Blast Cannon as a Ki Blast Super usable by the Future Warrior/CaC. Reviewed skill references do not state a narrower CaC race/gender/form condition. Character users and generic CaC availability are not sufficient to populate a restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon",
+        "https://dragonball.fandom.com/wiki/Ki_Blast_Cannon"
+      ]
+    },
+    {
+      "name": "Life Absorbtion",
+      "race_restriction_result": null,
+      "evidence": "The canonical record remains CaC-usable. Reviewed repository evidence does not establish explicit CaC race/gender/form eligibility wording; therefore no race restriction is inferred.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Life_Absorption"
+      ]
+    },
+    {
+      "name": "Miracle Kneel",
+      "race_restriction_result": null,
+      "evidence": "Current/recovered skill evidence establishes Miracle Kneel as a CaC-usable Evasive, but no explicit retail race/gender/form restriction was found. Skill category and acquisition context do not establish a race restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Miracle_Kneel",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
+    },
+    {
+      "name": "Peeler Storm",
+      "race_restriction_result": null,
+      "evidence": "Prior direct research identifies Peeler Storm as a Future Warrior/CaC-usable skill. Reviewed references provide no explicit narrower CaC race/gender/form restriction, so null is retained.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Peeler_Storm",
+        "https://dragonball.fandom.com/wiki/Peeler_Storm"
+      ]
+    },
+    {
+      "name": "Power Pole",
+      "race_restriction_result": null,
+      "evidence": "Current technique references establish Power Pole as a Future Warrior-usable skill, but no explicit CaC race/gender/form restriction is stated. Weapon/technique identity is not race eligibility evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Pole",
+        "https://dragonball.fandom.com/wiki/Power_Pole"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Only explicit CaC eligibility wording establishing a narrower race/gender/form condition can populate race_restriction; preserve null otherwise."
+}
