@@ -20,8 +20,9 @@
     "Future provenance enrichment must use explicit release/update/patch evidence and preserve historical conflicts rather than deriving versions from research dates."
   ],
   "next_research": [
-    "Extract explicit game-version/update evidence from cited sources for records with documented release/update provenance.",
+    "Extract explicit game-version/update evidence from cited sources for remaining older DLC/free-update cohorts.",
     "Keep research-date metadata separate from game-version metadata.",
+    "Preserve platform-specific release-date differences where sources document them.",
     "Do not add a canonical version field until the schema contract and evidence model are defined."
   ],
   "samples": {
@@ -343,7 +344,7 @@
     ],
     "note": "Official release announcements establish event-level provenance. Individual skill first-release/version assignments still require direct skill-to-event evidence."
   },
-  "direct_skill_event_mappings": 28,
+  "direct_skill_event_mappings": 44,
   "direct_skill_event_mapping_ids": [
     "skill-crimson-edge",
     "skill-divine-spear",
