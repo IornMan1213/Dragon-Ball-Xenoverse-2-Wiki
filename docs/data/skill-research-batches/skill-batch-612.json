@@ -1,0 +1,94 @@
+{
+  "batch_id": 612,
+  "created": "2026-09-29",
+  "type": "indexed_only_cast_only_reconciliation",
+  "scope": "Six indexed-only skill names from the maintained Ki Blast Super catalog whose prior research already establishes cast-only/unavailable-for-CaC status; reconcile them as exclusions from the canonical CaC skill corpus rather than promoting them as canonical records.",
+  "source_policy": "Canonical docs/data/skills.json remains the source of truth. Research batches, category indexes, and unavailable-for-CaC catalogs are evidence layers only. No canonical record is created from indexed-name presence alone.",
+  "records": [
+    {
+      "name": "Bloody Sauce",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Villainous / Supervillain characters",
+      "status": "cast_only_reconciled",
+      "evidence": "Prior repository research classifies Bloody Sauce as a raid/boss-exclusive Ki Blast Super and unavailable to CaC; current Future Warrior references describe it as usable only as a Crystal Raid boss/training skill.",
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-258.json",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Dragon Flash Bullet",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Omega Shenron",
+      "status": "cast_only_reconciled",
+      "evidence": "Prior repository catalog-expansion research classifies Dragon Flash Bullet as cast-exclusive and unavailable for CaC.",
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-265.json",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Freezing Beam",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Eis Shenron",
+      "status": "cast_only_reconciled",
+      "evidence": "Prior repository catalog-expansion research classifies Freezing Beam as cast-exclusive and unavailable for CaC.",
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-265.json"
+      ]
+    },
+    {
+      "name": "Ice Field",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Eis Shenron",
+      "status": "cast_only_reconciled",
+      "evidence": "Prior repository catalog-expansion research classifies Ice Field as cast-exclusive and unavailable for CaC.",
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-265.json"
+      ]
+    },
+    {
+      "name": "Evil Flame",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Dabura",
+      "status": "cast_only_reconciled",
+      "evidence": "Prior repository research classifies Evil Flame as cast-exclusive; it is not promoted into the canonical CaC skill corpus.",
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-258.json",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Whirlwind Blade",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": false,
+      "character_source": "Omega Shenron",
+      "status": "cast_only_reconciled",
+      "evidence": "Prior repository catalog-expansion research classifies Whirlwind Blade as cast-exclusive and unavailable for CaC.",
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-265.json",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "cast_only_reconciled": 6,
+    "canonical_skill_mutations": 0,
+    "canonical_promotions": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_promotions": 0
+  },
+  "result": "six indexed-only names reconciled as cast-only exclusions; canonical corpus unchanged"
+}
