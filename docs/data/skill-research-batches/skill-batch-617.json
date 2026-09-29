@@ -4,8 +4,8 @@
   "type": "canonical_recovery",
   "status": "applied",
   "previous_canonical_count": 511,
-  "new_canonical_count": 513,
-  "index_count": 513,
+  "new_canonical_count": 514,
+  "index_count": 514,
   "recovered_this_write": [
     "Die Die Missile Barrage",
     "Super Volley"
@@ -31,5 +31,6 @@
   ],
   "canonical_ids_inferred": 0,
   "pq_relationship_mutations": 0,
-  "next": "Continue historical missing CaC Ki Blast Super reconciliation; avoid duplicating records already restored by earlier batches."
+  "next": "Continue historical missing CaC Ki Blast Super reconciliation; avoid duplicating records already restored by earlier batches.",
+  "reconciliation_note": "Batch 617 was applied incrementally during the continuation cycle; the live canonical/index parity is 514/514. Die Die Missile Barrage is the recovery completed in this continuation; Super Volley was also recorded by the batch's earlier write."
 }
