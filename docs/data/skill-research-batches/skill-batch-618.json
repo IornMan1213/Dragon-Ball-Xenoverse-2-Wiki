@@ -4,27 +4,28 @@
   "type": "canonical_recovery",
   "status": "applied",
   "previous_canonical_count": 514,
-  "new_canonical_count": 517,
-  "index_count": 517,
+  "new_canonical_count": 516,
+  "index_count": 516,
   "records": [
     "Light Grenade (Super)",
-    "Blades of Judgement",
-    "Kamekameha"
+    "Blades of Judgement"
   ],
   "source_batches": [
     274,
-    250,
-    254
+    250
   ],
   "canonical_ids_inferred": 0,
   "pq_relationship_mutations": 0,
   "acquisition_route": "Training with Piccolo",
   "boundary": "Cast-only/special-mode records were not promoted.",
-  "next": "Continue historical indexed-only CaC Ki Blast Super reconciliation; avoid duplicating restored records.",
+  "next": "Continue historical indexed-only CaC Ki Blast Super reconciliation; preserve spelling aliases and cast-only/special-mode boundaries.",
   "reconciliation_note": "Historical Batch 274 explicitly identifies Light Grenade (Super) as a Ki Blast Super, 100 Ki, CaC-usable, and obtained through Piccolo training. No unsupported PQ reward or canonical ID was inferred.",
   "recovery_notes": {
     "Light Grenade (Super)": "Training with Piccolo; explicit CaC-usable historical evidence.",
     "Blades of Judgement": "Parallel Quest 112 skill drop; explicit CaC-usable historical evidence.",
     "Kamekameha": "CaC-usable historical category evidence; acquisition intentionally left null."
-  }
+  },
+  "alias_excluded": [
+    "Kamekameha"
+  ]
 }
