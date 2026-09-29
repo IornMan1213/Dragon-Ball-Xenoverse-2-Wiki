@@ -8017,3 +8017,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the evidence boundary: no drop rates, Ultimate-Finish conditions, or unsupported inventory identities were inferred.
 - [ ] Runtime/CI remains unverified and non-blocking.
 - [ ] **Exact next:** fresh-audit the remaining canonical PQ equipment reward IDs/names, then continue the highest-value bidirectional Super Soul/equipment enrichment; separately continue race-restriction/provenance research.
+
+
+### 2026-09-29 continuation — Batch 695: PQ canonical Super Soul reconciliation
+- [x] Compared canonical PQ `super_soul_rewards` arrays against the canonical forward relationship store.
+- [x] Promoted 4 explicit previously absent Super Soul relationships: **PQ2 → Flying Nimbus!!**, **PQ6 → You cocky little...!**, **PQ164 → This place Will be your grave!**, **PQ176 → God of Destruction's Might**.
+- [x] Recomputed canonical relationship counts from stored rows: **874 total / 139 Super Soul / 144 equipment / 249 skill / 247 character / 88 DLC / 7 farming**.
+- [x] Recorded the reconciliation evidence boundary; no drop rates or Ultimate-Finish conditions were inferred.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue fresh canonical Super Soul/equipment reconciliation, then investigate unresolved endpoint identity gaps.
