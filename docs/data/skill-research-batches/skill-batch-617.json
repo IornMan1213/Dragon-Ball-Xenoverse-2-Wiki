@@ -1,0 +1,35 @@
+{
+  "batch_id": 617,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 511,
+  "new_canonical_count": 513,
+  "index_count": 513,
+  "recovered_this_write": [
+    "Die Die Missile Barrage",
+    "Super Volley"
+  ],
+  "historical_records_reconciled": [
+    "Photon Swipe",
+    "Gamma Blaster",
+    "Saturday Crash",
+    "Consecutive Energy Blast",
+    "Super Destructo-Disc",
+    "Earth Splitting Galick Gun",
+    "Double Sunday",
+    "Full Power Energy Blast Volley",
+    "Flash Chaser",
+    "Paralyze Beam",
+    "Turtle Style Last Resort"
+  ],
+  "source_batches": [
+    247,
+    251,
+    253,
+    255
+  ],
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "next": "Continue historical missing CaC Ki Blast Super reconciliation; avoid duplicating records already restored by earlier batches."
+}
