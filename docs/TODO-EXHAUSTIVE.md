@@ -7349,3 +7349,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the post-corruption recovery checkpoint.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Next:** continue fresh canonical PQ equipment/Super Soul reconciliation; do not infer unsupported reward mechanics or merge ambiguous component identities.
+
+
+### 2026-09-29 continuation — Batch 695: PQ Super Soul recovery
+- [x] Reconciled canonical PQ `super_soul_rewards` against the forward relationship store.
+- [x] Added 4 explicit missing Super Soul edges: PQ2, PQ6, PQ164, PQ176.
+- [x] Recomputed totals: 874 total / 139 Super Soul / 144 equipment.
+- [x] Preserved evidence boundaries; no unsupported drop mechanics inferred.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Next:** continue canonical Super Soul/equipment recovery and endpoint identity reconciliation.
