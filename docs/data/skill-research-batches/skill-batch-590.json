@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 590,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "free_update_2018_skill_provenance_reconciliation",
+  "scope": "Bind the canonical Super Saiyan God Super Saiyan Awoken Skill to the dated March 2018 Free Update using direct official release evidence.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "skill_id": "skill-super-saiyan-god-super-saiyan",
+      "skill_name": "Super Saiyan God Super Saiyan",
+      "event_id": "free-update-2018-03-01",
+      "evidence_type": "official_free_update_named_skill",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018"
+      ],
+      "confidence": "direct",
+      "basis": "Bandai Namco Europe's 2018-03-01 release notice explicitly lists a new Awoken Skill, SSGSS Transformations, among the Free Update features.",
+      "canonical_mutation": false
+    }
+  ],
+  "boundary": {
+    "limit_burst": "The same official notice names Limit Burst as a new battle technique, but Limit Burst is represented as a battle-system/Super-Soul mechanic rather than a canonical skill record; no skill mapping is created for it.",
+    "event_date": "2018-03-01 is the official free-update release date and is retained as event provenance, not inferred as a game patch number.",
+    "source_of_truth": "Canonical docs/data/skills.json remains authoritative; no verified/indexed projection overrides it."
+  },
+  "validation": {
+    "records_reviewed": 1,
+    "direct_official_mappings_added": 1,
+    "canonical_skill_records_created": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "next": "Continue the provenance registry audit for older free-update/DLC skill cohorts where official sources explicitly name canonical skills; keep release dates separate from patch/version labels."
+}
