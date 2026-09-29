@@ -7366,3 +7366,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-636.json` and updated `docs/data/skill-catalog-audit.json`.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** resume exhaustive canonical field enrichment and cross-domain coverage, prioritizing records with evidence-backed nullable acquisition/provenance/mechanics fields while preserving nulls where evidence is insufficient.
+
+
+### 2026-09-29 continuation — Batch 635 closes indexed-only frontier
+- [x] Resolved the final **2** indexed-only identities.
+- [x] **Ill Flash** confirmed CaC/Future Warrior obtainable via Skill Shop.
+- [x] **Spiral of Condemnation** confirmed unavailable to CaCs as a Raid/Boss-exclusive Fused Zamasu (Half-Corrupted) skill.
+- [x] Indexed-only reconciliation frontier is now **0**.
+- [x] Canonical database remains **548 records**; no speculative canonical record or ID was created.
+- [x] `docs/data/skill-research-batches/skill-batch-635.json` is present and records the final two resolutions.
+- [ ] Exact next: run a canonical-vs-index consistency audit and identify only exact, source-backed recoverable canonical gaps; do not promote indexed-only names merely because they are CaC-usable.
