@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 686,
+  "latest_research_batch": 687,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race-restriction reconciliation continues only for genuinely unreviewed null-race identities; Batches 683-686 added 16 direct/reconciled reviews with no unsupported promotions. Avoid repeating established null boundaries, then advance to provenance, mechanics, and cross-database relationship completeness.",
+  "current_research_focus": "Race-restriction reconciliation remains evidence-bound; provenance work has now added base-game launch coverage after completing early Super Pack event/mapping reconciliation. Next priority is remaining early free-update provenance and direct individual skill mapping gaps, then mechanics/cross-database completeness.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1361,5 +1361,10 @@
     "canonical_value": "All CaC races",
     "rule": "Explicit skill-specific all-races evidence supports the canonical All CaC races value; generic Future Warrior technique-list membership alone is insufficient.",
     "batch_file": "docs/data/skill-research-batches/skill-batch-682.json"
+  },
+  "provenance_batch_687": {
+    "event_id": "base-game-launch",
+    "source_id": "bn_xv2_launch_2016",
+    "canonical_mutations": 0
   }
 }
