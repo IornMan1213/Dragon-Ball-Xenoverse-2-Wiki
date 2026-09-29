@@ -7274,3 +7274,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No external numeric accessory ID was imported into the canonical identity layer.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue remaining unresolved accessory routes/components only where exact canonical evidence exists; otherwise return to exhaustive PQ reward and mechanics/cross-database enrichment.
+
+
+### 2026-09-29 continuation — Batch 692: PQ reverse-index foundation
+- [x] Added `docs/data/pq-cross-domain-reverse-index.json` generated only from the current source-backed `pq-reward-relationships.json` edge set.
+- [x] Added reverse lookup coverage for Skill, Super Soul, Equipment, Character, DLC, and farming relationships.
+- [x] Current unique reverse targets: 244 skills, 133 Super Souls, 134 equipment, 75 characters, 21 DLC, and 1 farming target across 863 normalized relationships.
+- [x] Explicitly marked the reverse layer as partial/current: absence from it is not a negative claim because the forward PQ reward graph is still incomplete.
+- [x] No canonical `skills.json` or canonical identity records were mutated.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** expand the forward PQ reward graph—especially Super Souls and clothing/accessory rewards—then regenerate reverse indexes so they become progressively exhaustive.
