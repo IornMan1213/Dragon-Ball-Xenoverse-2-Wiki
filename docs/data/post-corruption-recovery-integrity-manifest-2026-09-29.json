@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "purpose": "Post-corruption recovery integrity manifest. Establishes the live-main baseline that must survive future continuation cycles before any enrichment is promoted.",
+  "source_policy": "Canonical data is authoritative. Never reconstruct canonical records from indexes, verified layers, reverse indexes, projections, or presentation artifacts when the canonical layer survives.",
+  "branch": "main",
+  "canonical_sources": {
+    "skills": {
+      "path": "docs/data/skills.json",
+      "blob_sha": "4f1b192ea3d1f76878fe13b3a90bdfb24bae0410",
+      "content_note": "GitHub connector exposes the canonical blob SHA but not inline content for this large file; skills-index.json is therefore not substituted as source-of-truth."
+    },
+    "pq_reward_relationships": {
+      "path": "docs/data/pq-reward-relationships.json",
+      "blob_sha": "40d2b2b4913b9cdf1cb2c01e7d52f8c3aefe8034",
+      "verified_relationships": 862,
+      "current_counts": {
+        "pq_rewards_skill": 249,
+        "pq_rewards_super_soul": 135,
+        "pq_rewards_equipment": 136,
+        "pq_features_character": 247,
+        "pq_requires_dlc": 88,
+        "pq_farming_route": 7,
+        "total": 862
+      },
+      "duplicate_relationship_keys": 0
+    },
+    "skills_index": {
+      "path": "docs/data/skills-index.json",
+      "blob_sha": "2baa87f79b5ce278a837a2431d76555626381802",
+      "records": 549,
+      "role": "synchronized consumer/index only"
+    }
+  },
+  "recovery_status": "recovered_and_reconciled",
+  "recovery_findings": [
+    "The surviving canonical skill layer is 549-record synchronized in the current working state; historical 474/493/497/548 values remain historical recovery checkpoints and must not be treated as current.",
+    "The PQ forward relationship store is intact at 862 typed relationships with the six established relationship-type counts.",
+    "PQ equipment endpoint coverage is already complete at 125 canonical edges / 123 unique targets / 123 exact endpoint matches / 0 endpoint identity gaps.",
+    "The current race-restriction frontier is 62 null race_restriction records among CaC-usable canonical skills; null is an evidence boundary, not a restriction claim.",
+    "No canonical records in this checkpoint were reconstructed from indexes or verified projections."
+  ],
+  "next_work_contract": [
+    "Continue direct skill-specific race-restriction evidence; preserve null when explicit race/gender/form scope is absent.",
+    "Continue older DLC/free-update provenance reconciliation.",
+    "Continue bidirectional PQ-to-skill, Super Soul, and equipment enrichment from canonical forward stores.",
+    "Resolve accessory component identities only with exact inventory-level evidence; do not merge generic set/component labels.",
+    "Keep runtime/CI status explicitly unverified when connected GitHub diagnostics do not expose the failing job-step logs."
+  ]
+}
