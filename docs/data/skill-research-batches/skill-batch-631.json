@@ -1,0 +1,35 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 631,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "indexed_only_boundary_reconciliation",
+  "scope": "Resolve additional indexed-only identities using existing explicit access evidence.",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_mutation": false,
+  "confirmed_unavailable": [
+    "Bloody Sauce",
+    "Flames of Retribution",
+    "Light of Justice",
+    "Marbling Drop",
+    "Celestial Hammer",
+    "Special Beam Blast"
+  ],
+  "confirmed_cac": [
+    "Candy Beam (Evasive)"
+  ],
+  "evidence": [
+    "skill-batch-258 documents Bloody Sauce as usable_by_cac=false and raid/boss exclusive.",
+    "skill-batch-264 documents Marbling Drop and Flames of Retribution as usable_by_cac=false.",
+    "skill-batch-250 documents Light of Justice as usable_by_cac=false.",
+    "skill-batch-289 documents Celestial Hammer as usable_by_cac=false.",
+    "skill-batch-228 documents Special Beam Blast as usable_by_cac=false.",
+    "skill-batch-237 documents Candy Beam (Evasive) as usable_by_cac=true with Majin CaC restriction."
+  ],
+  "validation": {
+    "canonical_skills": 548,
+    "canonical_mutations": 0,
+    "remaining_indexed_only": 17
+  },
+  "next": "Resolve the remaining 17 identities only with explicit CaC-positive or exact current-game identity evidence."
+}
