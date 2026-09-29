@@ -1,0 +1,53 @@
+{
+  "batch_id": 678,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Fresh direct-source audit of five members of the corrected 76-record null-race frontier. No canonical mutation without explicit retail Future Warrior race/gender/form eligibility wording.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Time Skip/Molotov",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current external documentation explicitly states that the Future Warrior can obtain Time-Skip/Molotov from Shenron, but does not state a narrower Future Warrior race, gender, or form requirement.",
+      "sources": ["https://dragonball.fandom.com/wiki/Time-Skip/Molotov"]
+    },
+    {
+      "name": "Super Dragon Fist",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current external documentation explicitly states that the Future Warrior can purchase Super Dragon Fist in Xenoverse 2; no narrower race, gender, or form eligibility rule is stated.",
+      "sources": ["https://dragonball.fandom.com/wiki/Super_Dragon_Fist_(Rush)"]
+    },
+    {
+      "name": "Recoome Eraser Gun",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current external documentation explicitly states that the Future Warrior can obtain Recoome Eraser Gun as a Parallel Quest reward in Xenoverse 2; no narrower race, gender, or form requirement is stated.",
+      "sources": ["https://dragonball.fandom.com/wiki/Recoome_Eraser_Gun"]
+    },
+    {
+      "name": "Ultra Fighting Bomber",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current external documentation explicitly states that the Future Warrior can purchase Ultra Fighting Bomber in Xenoverse 2; no narrower race, gender, or form requirement is stated.",
+      "sources": ["https://dragonball.fandom.com/wiki/Recoome_Ultra_Fighting_Bomber"]
+    },
+    {
+      "name": "Android Kick",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Fresh current external documentation explicitly states that Android Kick can be obtained by the Future Warrior in Xenoverse 2, but does not establish a narrower Future Warrior race or gender requirement. This independently reinforces the earlier repository audit without converting generic Future Warrior usability into Universal.",
+      "sources": ["https://dragonball.fandom.com/wiki/Android_Kick"]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "canonical_mutations": 0,
+    "reclassified": 0,
+    "unsupported_universal_assignments": 0
+  },
+  "evidence_rule": "Future Warrior acquisition/use alone is insufficient to populate Universal; explicit race/gender/form wording is required.",
+  "next": "Continue fresh audits across the remaining corrected 76-record frontier, avoiding repeat-only reviews; prioritize records for which external evidence explicitly states race, gender, or transformation eligibility."
+}
