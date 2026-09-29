@@ -8393,6 +8393,30 @@
       "source_story_mission": "story-future-saga-chapter-4-quest-31"
     },
     {
+      "name": "Infinity Explosion",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Ki Blast Super skill",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "skill_description": "Creates a large sustained explosion around the user.",
+      "mechanics_notes": "Historical repository research establishes this as a CaC-usable Ki Blast Super; current acquisition route was not safely established, so it remains null.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
       "name": "Innocence Breath",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -15384,6 +15408,15 @@
         263
       ],
       "basis": "Historical repository research; no IDs inferred."
+    },
+    "recovery_batch_616": {
+      "batch": 616,
+      "date": "2026-09-29",
+      "restored": [
+        "Infinity Explosion"
+      ],
+      "source_batch": 265,
+      "basis": "Historical repository batch explicitly marked CaC-usable; acquisition route intentionally left null."
     }
   }
 }
