@@ -6947,3 +6947,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all 10 `race_restriction` values as null; no explicit CaC race/gender restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-653.json` and updated the catalog audit.
 - [ ] Continue the remaining null race-restriction frontier, prioritizing exact eligibility wording.
+
+
+### 2026-09-29 continuation — Null race restriction evidence batch 654
+- [x] Reviewed 10 additional null-race CaC-usable skills: Backflip, DIE DIE Missile Barrage, Double Buster, Energy Wave Combo, Fighting Sun, Final Blow, Finish Buster, Galick Beam Cannon, Gamma Impact, and Gigantic Ki Blast.
+- [x] Preserved all 10 `race_restriction` values as null; no narrower CaC race/gender restriction was established.
+- [x] Recorded explicit all-races evidence for DIE DIE Missile Barrage without converting it into a restrictive value.
+- [x] Added `docs/data/skill-research-batches/skill-batch-654.json` and updated the catalog audit.
+- [ ] Continue the remaining null race-restriction frontier.
