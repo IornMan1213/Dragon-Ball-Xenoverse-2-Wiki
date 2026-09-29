@@ -355,7 +355,10 @@
       "combo_notes": null,
       "pve_notes": null,
       "pvp_notes": null,
-      "id": "skill-armored-boost"
+      "id": "skill-armored-boost",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Armored_Boost"
+      ]
     },
     {
       "name": "Assault Rain",
@@ -3491,7 +3494,8 @@
       "effect": "Launches a series of tracking explosive Ki projectiles that converge on the target.",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Die_Die_Missile_Barrage"
-      ]
+      ],
+      "verification_status": "partially_verified"
     },
     {
       "name": "Dimension Cannon",
@@ -9565,7 +9569,8 @@
       "effect": "Charges the attack by repeated input and fires a powerful Ki projectile; the Super variant is distinct from Light Grenade (Ultimate).",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Light_Grenade_%28Super%29"
-      ]
+      ],
+      "verification_status": "partially_verified"
     },
     {
       "name": "Lightning Impact",
@@ -10237,7 +10242,10 @@
       "combo_notes": null,
       "pve_notes": null,
       "pvp_notes": null,
-      "id": "skill-miracle-kneel"
+      "id": "skill-miracle-kneel",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Miracle_Kneel"
+      ]
     },
     {
       "name": "Murder Grenade",
