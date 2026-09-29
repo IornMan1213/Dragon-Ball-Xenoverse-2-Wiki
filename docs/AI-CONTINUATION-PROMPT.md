@@ -7186,3 +7186,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated docs/data/skill-catalog-audit.json and reconciled docs/data/skill-research-batches/skill-batch-618.json with the final state.
 - [ ] Runtime/CI remains non-blocking/unverified because GitHub Actions diagnostics are unavailable through the connected API.
 - [ ] Next: continue historical indexed-only CaC-usable Ki Blast Super reconciliation, prioritizing explicit usable_by_cac=true evidence and preserving alias, cast-only, festival/special-mode, and unresolved-identity boundaries.
+
+
+### 2026-09-29 continuation — Batch 620 Fighting Sun recovery
+- [x] Reconciled historical skill-research batch 245 and confirmed Fighting Sun is explicitly marked usable_by_cac=true.
+- [x] Restored Fighting Sun to docs/data/skills.json without inventing a canonical ID; acquisition is preserved as Skill Shop after completing Universal Emperor.
+- [x] Preserved the documented duration discrepancy: 18 seconds in the Properties/effect-duration evidence versus 15 seconds in the displayed Stats duration; neither value was silently discarded.
+- [x] Rebuilt docs/data/skills-index.json and verified live parity at 517 canonical records / 517 index records.
+- [x] Updated docs/data/skill-catalog-audit.json with recovery_batch_619 and added skill-batch-620.json because batch number 619 was already occupied by the Kamekameha alias-rejection record.
+- [ ] Runtime/CI remains non-blocking/unverified because GitHub Actions diagnostics are unavailable through the connected API.
+- [ ] Next: continue historical indexed-only CaC-usable reconciliation beyond the already reviewed batches, preserving spelling aliases, cast-only/special-mode boundaries, and unresolved identities.
