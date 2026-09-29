@@ -1304,6 +1304,27 @@
       ]
     },
     {
+      "name": "Candy Beam (Evasive)",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "usable_by_cac": true,
+      "race_restriction": "Majin",
+      "ki_cost": 0,
+      "stamina_cost": 300,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 66 — Stop Beerus' Destruction; reward",
+      "source_quest_or_shop": "Parallel Quest 66",
+      "ultimate_finish_required": null,
+      "id": "skill-candy-beam-evasive",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Evasive%29",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
       "name": "Candy Beam (Super)",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -11934,5 +11955,5 @@
   "skill_fighting_pose_i_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-i-current-evidence-audit-2026-09-25.json",
   "skill_fighting_pose_j_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-j-current-evidence-audit-2026-09-25.json",
   "last_verified": "2026-09-29",
-  "record_count": 548
+  "record_count": 549
 }
