@@ -1,0 +1,24 @@
+{
+  "batch_id": 622,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 519,
+  "new_canonical_count": 521,
+  "index_count": 521,
+  "records": [
+    "Cross Arm Dive",
+    "Final Blow"
+  ],
+  "source_batches": [
+    173,
+    142
+  ],
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "verification": [
+    "Both historical records explicitly set usable_by_cac:true and document Xenoverse 2 acquisition routes."
+  ],
+  "boundary": "No unsupported stamina, damage, frame, probability, or Ultimate Finish values were invented; spelling aliases and cast-only records remain excluded.",
+  "next": "Continue indexed-only reconciliation with explicit CaC evidence."
+}
