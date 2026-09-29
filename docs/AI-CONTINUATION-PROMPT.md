@@ -7822,3 +7822,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the 62-record CaC-usable null race_restriction frontier as an evidence boundary; no unsupported restriction was inferred.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] Exact next: continue direct skill-specific race-restriction evidence, preserving null where explicit race/gender/form scope is absent; then continue older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment from canonical forward stores.
+
+
+### 2026-09-29 continuation — Race restriction frontier census correction (Batch 677)
+- [x] Reconciled the post-corruption race-restriction census against the current synchronized 549-record `docs/data/skills-index.json`.
+- [x] Corrected the persisted **62** count: the current synchronized index contains **76 CaC-usable records with `race_restriction: null`**, a 14-record discrepancy from the stale handoff count.
+- [x] Added `docs/data/skill-research-batches/skill-batch-677.json` with the complete 76-record frontier and the explicit rule that the index is used only as a census consumer, never as canonical reconstruction input.
+- [x] Updated `docs/data/skill-catalog-audit.json` to batch 677 and recorded the corrected 76-record frontier.
+- [x] No new race classifications were promoted; null remains the evidence boundary where direct race/gender/form evidence is absent.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** audit the corrected 76-record frontier in fresh direct-evidence batches, avoiding repeated prior audits; prioritize explicit race/gender/form wording before resuming older DLC/free-update provenance and bidirectional enrichment.
