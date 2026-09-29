@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 692,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "pq_reverse_index_generation",
+  "scope": "Generate machine-readable reverse indexes from the current normalized PQ relationship layer without changing canonical reward relationships.",
+  "source": "docs/data/pq-reward-relationships.json",
+  "output": "docs/data/pq-cross-domain-reverse-index.json",
+  "validation": {
+    "source_edges": 863,
+    "canonical_mutations": 0,
+    "unsupported_edges": 0
+  },
+  "policy": "The reverse index is a projection of source-backed normalized relationships. Missing entries are not negative claims and no new reward edges are inferred.",
+  "next": "Use the reverse index for cross-navigation and audit PQ reward completeness; prioritize missing Super Soul and clothing/accessory reward edges across PQ 1-186."
+}
