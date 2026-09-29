@@ -7649,3 +7649,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-661.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 662
+- [x] Reviewed Spirit Stab, Split Finger Shot, Super Back Jump, Super Dragon Fist, and Super Drain.
+- [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-662.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
