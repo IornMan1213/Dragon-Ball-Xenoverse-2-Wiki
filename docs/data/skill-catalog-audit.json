@@ -475,8 +475,8 @@
       "The Saviour Has Come",
       "Lovely Showtime"
     ],
-    "method": "Exact case-insensitive comparison against authoritative canonical skills after batches 624-626; indexed/catalog names are evidence only.",
-    "next": "Continue remaining indexed-only recovery. The reviewed Ki Blast candidate group in batch 626 is now explicitly classified as promoted or cast/unavailable for CaC."
+    "method": "Exact case-insensitive comparison against authoritative canonical store; catalog/index evidence reviewed but not promoted without explicit CaC usability evidence.",
+    "next": "Continue unresolved frontier; next priority is exact evidence extraction for names not classified as cast-only/unavailable."
   },
   "recovery_batch_615": {
     "restored": [
@@ -691,29 +691,36 @@
     "boundary": "Aura Slide remains unresolved for CaC usability and was not promoted."
   },
   "recovery_batch_626": {
-    "status": "applied",
+    "status": "review_only",
     "date": "2026-09-29",
-    "previous_canonical_count": 543,
-    "new_canonical_count": 545,
-    "index_records": 545,
-    "restored": [
-      "Evil Explosion (Super)",
-      "Peeler Storm"
-    ],
-    "reviewed_nonpromoted": [
+    "records_promoted": 0,
+    "reviewed": [
       "Bloody Sauce",
       "Dragon Flash Bullet",
-      "Freezing Beam",
-      "Ice Field",
-      "Whirlwind Blade",
       "Flames of Retribution",
+      "Freezing Beam",
+      "Full Power Energy Wave (Super)",
+      "Ice Field",
+      "Light of Justice",
       "Marbling Drop",
       "Seasoning Arrow",
-      "Light of Justice",
+      "Special Beam Cannon (Super)",
+      "Spiral of Condemnation",
+      "Super Explosive Wave (Super)",
       "Time Shackles",
-      "Full Power Energy Wave (Super)",
-      "Special Beam Cannon (Super)"
+      "Whirlwind Blade",
+      "Appetizing Rush",
+      "Aura Slide",
+      "Celestial Hammer",
+      "Gigantic Slam",
+      "Go-Go Gum",
+      "Life Absorbtion",
+      "Life Absorption",
+      "Pearl Flash",
+      "Rage Saucer",
+      "Smile Charge"
     ],
-    "remaining_indexed_only": 62
+    "reason": "Current indexed research explicitly marks these identities unavailable for CaC or otherwise lacks explicit usable_by_cac=true evidence; no speculative promotions made.",
+    "boundary": "Peeler Storm is already separately represented as the Evasive CaC-usable implementation and must not be conflated with cast-only Super implementation."
   }
 }
