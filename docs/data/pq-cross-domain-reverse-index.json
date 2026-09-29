@@ -1353,7 +1353,8 @@
         "pq-127"
       ],
       "Broly (Full Power Super Saiyan)'s Clothes": [
-        "pq-130"
+        "pq-130",
+        "pq-134"
       ],
       "SSGSS Gogeta's Clothes": [
         "pq-131"
@@ -1564,6 +1565,12 @@
       ],
       "Gogeta's Clothes": [
         "pq-057"
+      ],
+      "Android 18's Clothes (Skirt)": [
+        "pq-025"
+      ],
+      "Android 17's Clothes": [
+        "pq-025"
       ]
     },
     "characters": {
