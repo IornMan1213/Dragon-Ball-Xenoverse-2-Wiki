@@ -1,0 +1,29 @@
+{
+  "batch_id": 674,
+  "created": "2026-09-29",
+  "type": "awoken_cac_scope_exclusion",
+  "status": "research_only_sync_ready",
+  "records": [
+    {
+      "name": "Ultra Instinct -Sign-",
+      "classification": "cast_only_current_retail_form",
+      "race_restriction": null,
+      "usable_by_cac": false,
+      "acquisition_race_requirement": null,
+      "use_race_requirement": "Not available as a retail CaC Awoken Skill",
+      "evidence_status": "explicit_scope",
+      "reason": "The current retail Awoken Skill reference lists Ultra Instinct as the universal CaC form but does not list Ultra Instinct -Sign- among CaC Awoken Skills. Current skill/mod references treat Sign as Goku's character form rather than a retail equippable CaC transformation; CaC Sign implementations are presented as mods.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Ultra_Instinct",
+        "https://www.videogamemods.com/the-citadel/dragon-ball-xenoverse-2/mods/ultra-instinct-for-all-cac-races"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 1,
+    "canonical_mutation": 0,
+    "unsupported_race_assignment": 0
+  },
+  "note": "Do not encode Ultra Instinct -Sign- as Universal merely because third-party guides may incorrectly call it a shared form. The maintained CaC Awoken dataset should distinguish the retail Ultra Instinct Awoken Skill from Goku's Ultra Instinct -Sign- character state."
+}
