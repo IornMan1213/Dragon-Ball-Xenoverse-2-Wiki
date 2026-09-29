@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 623,
+  "latest_research_batch": 621,
   "canonical_catalog_generated": 522,
   "canonical_sync_pending": false,
-  "current_research_focus": "Historical indexed-only CaC skill reconciliation using explicit usability evidence",
+  "current_research_focus": "Historical indexed-only CaC skill reconciliation and canonical/index parity",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -388,7 +388,11 @@
     "census_status": "stale_pending_full_reconciliation",
     "canonical_records": 519,
     "index_records": 519,
-    "last_recovery_batch": 621
+    "last_recovery_batch": 621,
+    "current_indexed_only_count": 0,
+    "current_canonical_count": 522,
+    "current_index_count": 522,
+    "last_reconciled_batch": 621
   },
   "recovery_batch_615": {
     "restored": [
@@ -468,25 +472,23 @@
   "recovery_batch_621": {
     "status": "applied",
     "date": "2026-09-29",
-    "previous_canonical_count": 519,
-    "new_canonical_count": 521,
-    "index_records": 521,
-    "restored": [
-      "Cross Arm Dive",
-      "Final Blow"
-    ],
+    "type": "historical_reconciliation",
+    "previous_canonical_count": 517,
+    "new_canonical_count": 517,
+    "index_records": 522,
     "source_batches": [
-      173,
-      142
+      256,
+      257,
+      258,
+      259,
+      261
     ],
-    "canonical_ids_inferred": 0,
+    "promoted": [],
+    "missing_caC_usable_records": [],
+    "indexed_only_count": 0,
+    "canonical_mutations": 0,
     "pq_relationship_mutations": 0,
-    "acquisition_routes_preserved": [
-      "Skill Shop",
-      "TP Medal Shop"
-    ],
-    "boundary": "Only records with explicit historical usable_by_cac=true evidence were promoted; unresolved stamina/damage/frame fields remain null.",
-    "next": "Continue indexed-only reconciliation using explicit CaC evidence; do not promote cast-only, unresolved, or spelling-alias records."
+    "note": "Reconciled historical Ki Blast Super catalog batches 256, 257, 258, and 259 plus batch 261 against the live canonical/index records. Every record explicitly marked usable_by_cac=true is already represented in the canonical index; no duplicate promotion was made. Cast-only/false records were not promoted."
   },
   "recovery_batch_622": {
     "status": "applied",
