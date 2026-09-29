@@ -44,7 +44,7 @@
   "latest_research_batch": 665,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Batch 665 is sync-ready for Power Pole and Power Pole Combo; continue the remaining null race restrictions and canonical cross-domain enrichment.",
+  "current_research_focus": "Race restriction frontier: Batch 666 restores two historically evidenced Universal classifications and is sync-ready; continue remaining null-race records after canonical sync.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1209,6 +1209,23 @@
       "note": "Fresh direct evidence explicitly states both Xenoverse 2 Super Skills can be obtained by the Future Warrior regardless of race. The authoritative skills.json write is intentionally deferred until the canonical file can be safely edited without reconstructing it from projections."
     },
     "canonical_sync_ready": true,
-    "note": "Batch 665 now uses race_restriction=Universal so the existing skills-sync/build pipeline can promote the evidence-backed values. Live skills.json remains unchanged until that pipeline successfully runs."
+    "note": "Batch 665 now uses race_restriction=Universal so the existing skills-sync/build pipeline can promote the evidence-backed values. Live skills.json remains unchanged until that pipeline successfully runs.",
+    "batch_666": {
+      "reviewed": [
+        "Justice Pose",
+        "Death Psycho Bomb"
+      ],
+      "reclassified": 2,
+      "explicit_all_races": [
+        "Justice Pose",
+        "Death Psycho Bomb"
+      ],
+      "canonical_sync_ready": true,
+      "source_urls": [
+        "https://dragonball.fandom.com/wiki/Justice_Finishing_Pose",
+        "https://dragonball.fandom.com/wiki/Death_Psycho_Bomb"
+      ],
+      "note": "Recovery-forward restoration: both classifications are directly documented for the Xenoverse 2 Future Warrior. Batch 666 is formatted for the existing canonical skills-sync pipeline."
+    }
   }
 }
