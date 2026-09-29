@@ -7115,3 +7115,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added explicit acquisition-vs-usability provenance for Super Saiyan God, Super Saiyan God Super Saiyan, and Super Saiyan God Super Saiyan (Evolved).
 - [x] Preserved Saiyan-only usability for all three while documenting race-independent acquisition.
 - [ ] Extend this provenance distinction to remaining Awoken entries where acquisition eligibility and actual use eligibility can differ.
+
+
+### 2026-09-29 continuation — Awoken Batch 673 acquisition/use alignment
+- [x] Recorded aligned Saiyan acquisition and usability requirements for Super Saiyan, Super Vegeta, and Future Super Saiyan.
+- [ ] Continue remaining Awoken acquisition-vs-use provenance review, prioritizing entries where the two requirements actually differ.
