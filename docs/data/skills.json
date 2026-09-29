@@ -628,6 +628,26 @@
       "pvp_notes": "Its multi-stage sequence creates several commitment points; exact timing, scaling, and interruption behavior remain unresolved."
     },
     {
+      "name": "Blades of Judgement",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "character_source": "Fused Zamasu",
+      "dlc_requirement": "Super Pack 4",
+      "unlock_method": "Parallel Quest 112 - Advent of the Mighty God Zamasu! (skill drop)",
+      "ultimate_finish_required": false,
+      "effect": "Fires a barrage of Ki blades through a rear halo; holding the input fires additional blades.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blades_of_Judgement"
+      ],
+      "verification_status": "researched_current_scope",
+      "research_status": "researched",
+      "last_verified": "2026-09-29"
+    },
+    {
       "name": "Blades of Judgment",
       "class": "Ultimate",
       "subcategory": "Strike",
@@ -2273,6 +2293,30 @@
         "mentor-dodoria"
       ],
       "ki_cost": 100
+    },
+    {
+      "name": "Cross Arm Dive",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "CaC / Future Warrior",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Fly upward and then dive directly toward the opponent with a cross-arm downward chop.",
+      "mechanics_notes": "Rising-then-falling Strike Super with knockdown behavior. Exact damage and frame data remain unresolved.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Cross_Arm_Dive",
+        "https://dragonball.fandom.com/wiki/Cross_Arm_Dive",
+        "https://dbxenoverse.fandom.com/wiki/Cross_Arm_Dive_%28Skill%29"
+      ]
     },
     {
       "id": "skill-crush-cannon",
@@ -5659,6 +5703,49 @@
       "acquisition_type": "skill_shop",
       "notes": "2026-09-22 provenance/mechanics refresh: current evidence confirms the 0-Ki Power Up Super sold in the Skill Shop after The Ginyu Force Strikes. It grants Super Armor for 8 seconds; no Ultimate-Finish requirement is inferred. 2026-09-23 provenance refresh: current repository evidence rechecked for identity, acquisition endpoint, source relationships, and documented mechanics; existing values, conflicts, and unresolved fields preserved without unsupported inference.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, DLC/update provenance, restriction scope, reward semantics, and mechanics evidence against the maintained repository evidence corpus. No unsupported drop probabilities, additional gates, timers, damage values, stacking caps, or narrower restrictions were introduced.\n2026-09-25 Batch 404 enrichment completed after large-file Git-object write recovery; unsupported frame, damage, timing, tracking, and cancel details remain unresolved. 2026-09-27 Batch 517 current-evidence refresh: current Xenoverse 2 evidence reconfirms Fighting Pose K as the 0-Ki Power Up Super sold after The Ginyu Force Strikes, granting Super Armor for 8 seconds. Exact activation frames and interaction edge cases remain unresolved.",
       "id": "skill-fighting-pose-k"
+    },
+    {
+      "name": "Fighting Sun",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "ki_cost": 0,
+      "unlock_method": "Skill Shop after completing Universal Emperor",
+      "duration_seconds": 18,
+      "duration_display_seconds": 15,
+      "ultimate_finish_required": false,
+      "usable_by_cac": true,
+      "reason": "Current XV2 individual documentation has a 15-second displayed Stats duration but its Properties section explicitly states that the all-stat boost lasts 18 seconds. The repository preserves both fields rather than silently choosing one.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Fighting_Sun",
+        "https://dragonball.fandom.com/wiki/Fighting_Sun"
+      ],
+      "verification_status": "researched_current_scope",
+      "research_status": "researched",
+      "last_verified": "2026-09-29"
+    },
+    {
+      "name": "Final Blow",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Vegeta / SSGSS Vegeta / SSGSS Vegeta (Evolved) / SS3 Vegeta (DAIMA) / Vegeta (Super Saiyan 4) customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "A fast forward dash/teleport followed by a powerful single punch that launches the opponent away.",
+      "mechanics_notes": "Rapidly closes distance and punches the opponent before knockback; the SSGSS Vegeta (Evolved) variant can appear directly in front of the target. Exact frame and damage values remain unresolved.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Final_Blow",
+        "https://dragonball.fandom.com/wiki/Final_Blow",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
     },
     {
       "name": "Final Cannon",
@@ -15392,6 +15479,57 @@
       ]
     },
     {
+      "name": "X20 Kaioken Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku; Goku (Super Saiyan God) customizable partner; Goku (Super Saiyan 4) customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Activate x20 Kaioken, rush the opponent, then unleash a super-powered Kamehameha.",
+      "mechanics_notes": "Current reference material supports the 500 Ki cost and broad rush-into-beam behavior. Exact progression gating and technical scaling remain unresolved.",
+      "combo_notes": null,
+      "pve_notes": null,
+      "pvp_notes": null,
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "X4 Kaioken Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku; Goku (Super Saiyan God) Customize Partner; Goku (Super Saiyan 4) Customize Partner",
+      "dlc_requirement": null,
+      "ki_cost": null,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Kaioken-powered Kamehameha with additional Ki input to increase power.",
+      "mechanics_notes": null,
+      "combo_notes": null,
+      "pve_notes": null,
+      "pvp_notes": null,
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
       "name": "Zigzag Express",
       "class": "Super",
       "subcategory": "Strike",
@@ -15422,96 +15560,6 @@
       "id": "skill-zigzag-express",
       "source_parallel_quests": [
         85
-      ]
-    },
-    {
-      "name": "Blades of Judgement",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": 100,
-      "stamina_cost": null,
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "character_source": "Fused Zamasu",
-      "dlc_requirement": "Super Pack 4",
-      "unlock_method": "Parallel Quest 112 - Advent of the Mighty God Zamasu! (skill drop)",
-      "ultimate_finish_required": false,
-      "effect": "Fires a barrage of Ki blades through a rear halo; holding the input fires additional blades.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Blades_of_Judgement"
-      ],
-      "verification_status": "researched_current_scope",
-      "research_status": "researched",
-      "last_verified": "2026-09-29"
-    },
-    {
-      "name": "Fighting Sun",
-      "class": "Super",
-      "subcategory": "Power Up",
-      "ki_cost": 0,
-      "unlock_method": "Skill Shop after completing Universal Emperor",
-      "duration_seconds": 18,
-      "duration_display_seconds": 15,
-      "ultimate_finish_required": false,
-      "usable_by_cac": true,
-      "reason": "Current XV2 individual documentation has a 15-second displayed Stats duration but its Properties section explicitly states that the all-stat boost lasts 18 seconds. The repository preserves both fields rather than silently choosing one.",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Fighting_Sun",
-        "https://dragonball.fandom.com/wiki/Fighting_Sun"
-      ],
-      "verification_status": "researched_current_scope",
-      "research_status": "researched",
-      "last_verified": "2026-09-29"
-    },
-    {
-      "name": "X4 Kaioken Kamehameha",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "race_restriction": null,
-      "usable_by_cac": true,
-      "character_source": "Goku; Goku (Super Saiyan God) Customize Partner; Goku (Super Saiyan 4) Customize Partner",
-      "dlc_requirement": null,
-      "ki_cost": null,
-      "stamina_cost": null,
-      "damage_type": "Ki Blast",
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop",
-      "ultimate_finish_required": null,
-      "skill_description": "Kaioken-powered Kamehameha with additional Ki input to increase power.",
-      "mechanics_notes": null,
-      "combo_notes": null,
-      "pve_notes": null,
-      "pvp_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-18",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
-      ]
-    },
-    {
-      "name": "X20 Kaioken Kamehameha",
-      "class": "Ultimate",
-      "subcategory": "Ki Blast",
-      "race_restriction": null,
-      "usable_by_cac": true,
-      "character_source": "Goku; Goku (Super Saiyan God) customizable partner; Goku (Super Saiyan 4) customizable partner",
-      "dlc_requirement": null,
-      "ki_cost": 500,
-      "stamina_cost": null,
-      "damage_type": "Ki Blast",
-      "unlock_method": "Skill Shop",
-      "source_quest_or_shop": "Skill Shop",
-      "ultimate_finish_required": null,
-      "skill_description": "Activate x20 Kaioken, rush the opponent, then unleash a super-powered Kamehameha.",
-      "mechanics_notes": "Current reference material supports the 500 Ki cost and broad rush-into-beam behavior. Exact progression gating and technical scaling remain unresolved.",
-      "combo_notes": null,
-      "pve_notes": null,
-      "pvp_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-17",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha",
-        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
       ]
     }
   ],
