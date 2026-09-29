@@ -6224,3 +6224,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-583.json`.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with a substantive mechanics or version/provenance enrichment cohort; revisit Festival identifiers only when exact structured evidence becomes available.
+
+
+### 2026-09-28 continuation — Future Saga Chapter 4 release provenance reconciliation batch 584
+- [x] Reconciled the official Chapter 4 release event as **2026-07-08** using the Dragon Ball Official Site release announcement.
+- [x] Added the released `future-saga-chapter-4` event to `docs/data/game-content-version-provenance-registry.json`, while retaining the earlier announcement event separately.
+- [x] Preserved the four existing Chapter 4 individual skill mappings: Dragon Spiral, Indomitable, The Power to Overcome, and Venus Fist.
+- [x] Explicitly kept game version/patch fields unassigned; release-event dates are not patch/version numbers.
+- [x] Added `docs/data/skill-research-batches/skill-batch-584.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** audit remaining Free Update 20/DAIMA-era free-update skill provenance separately from the paid DAIMA Pack, then continue Chapter 4 mechanics enrichment.
