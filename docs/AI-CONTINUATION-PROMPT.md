@@ -7148,3 +7148,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [ ] **Blocked next write:** apply Batch 614 to `docs/data/skills.json` and regenerate `docs/data/skills-index.json` together. The GitHub connector rejected the large canonical blob write in this cycle, so the live canonical count remains **497** until that application succeeds.
 - [ ] Do not treat Batch 614 as canonical data until the forward-store application and parity validation are complete.
 - [ ] Peeler Storm remains a separate special-mode identity boundary and is not part of the five-record recovery count.
+
+
+### 2026-09-29 continuation — Canonical recovery Batch 617 live-state reconciliation
+- [x] Historical CaC-usable Ki Blast Super reconciliation covered batches 247, 251, 253, and 255.
+- [x] Restored Die Die Missile Barrage to canonical docs/data/skills.json; historical evidence marks it usable_by_cac=true with Gotenks Training Lesson 3 acquisition.
+- [x] Batch 617 also records Super Volley as recovered by an earlier write in the same continuation sequence; no duplicate canonical record was created.
+- [x] Rebuilt/synchronized docs/data/skills-index.json to the live canonical store.
+- [x] Live validation: canonical skills 514, index 514, parity 514/514; both Die Die Missile Barrage and Super Volley are present.
+- [x] Updated docs/data/skill-research-batches/skill-batch-617.json to reflect the live 514-record state.
+- [x] Updated docs/data/skill-catalog-audit.json with Batch 617 and current 514/514 parity.
+- [ ] The indexed-only unresolved-count field remains marked stale/pending a full census; no unsupported unresolved-count reduction was invented.
+- [ ] Continue historical missing CaC Ki Blast Super reconciliation, prioritizing explicit usable_by_cac=true records and excluding cast-only/special-mode identities.
