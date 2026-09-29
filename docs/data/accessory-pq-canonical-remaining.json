@@ -42,16 +42,22 @@
       "pq_record_id": "pqacc-007",
       "name": "Tapion's Sword",
       "pq": 22,
-      "status": "identity_candidate",
+      "status": "resolved_to_canonical",
       "candidate": "accr-006",
-      "reason": "Canonical identity exists, but PQ route should be attached only after reconciling the historical PQ22 report with later shop/event records."
+      "reason": "Canonical identity exists, but PQ route should be attached only after reconciling the historical PQ22 report with later shop/event records.",
+      "canonical_accessory_id": "acc-027",
+      "resolution_date": "2026-09-29",
+      "resolution_basis": "Exact named accessory identity is present in the canonical equipment/accessory record layer; resolution does not require inventing or importing an external ID. Historical acquisition-route conflicts remain recorded separately."
     },
     {
       "pq_record_id": "pqacc-008",
       "name": "Yamcha's Sword",
       "pq": 29,
-      "status": "unmatched",
-      "reason": "Historical sources conflict on PQ29 versus PQ36; no canonical merge is made until reward-table evidence resolves the conflict."
+      "status": "resolved_to_canonical",
+      "reason": "Historical sources conflict on PQ29 versus PQ36; no canonical merge is made until reward-table evidence resolves the conflict.",
+      "canonical_accessory_id": "acc-028",
+      "resolution_date": "2026-09-29",
+      "resolution_basis": "Exact named accessory identity is present in the canonical equipment/accessory record layer; resolution does not require inventing or importing an external ID. Historical acquisition-route conflicts remain recorded separately."
     },
     {
       "pq_record_id": "pqacc-009",
@@ -71,9 +77,12 @@
       "pq_record_id": "pqacc-011",
       "name": "Goku Wig (Super Saiyan)",
       "pq": 63,
-      "status": "identity_candidate",
+      "status": "resolved_to_canonical",
       "candidate": "accr-015",
-      "reason": "Canonical identity exists; historical PQ18/PQ63 conflict remains unresolved, so the route is not silently promoted."
+      "reason": "Canonical identity exists; historical PQ18/PQ63 conflict remains unresolved, so the route is not silently promoted.",
+      "canonical_accessory_id": "acc-012",
+      "resolution_date": "2026-09-29",
+      "resolution_basis": "Exact named accessory identity is present in the canonical equipment/accessory record layer; resolution does not require inventing or importing an external ID. Historical acquisition-route conflicts remain recorded separately."
     },
     {
       "pq_record_id": "pqacc-012",
@@ -240,6 +249,15 @@
         "pqacc-045"
       ],
       "rule": "Synchronized canonical-remaining statuses after authoritative PQ relationship promotions; no unresolved historical conflicts or component identities were merged."
+    },
+    {
+      "date": "2026-09-29",
+      "resolved": [
+        "pqacc-007",
+        "pqacc-008",
+        "pqacc-011"
+      ],
+      "rule": "Promote only exact named identities already present in the canonical accessory record layer. Preserve historical route conflicts rather than overwriting them."
     }
   ]
 }
