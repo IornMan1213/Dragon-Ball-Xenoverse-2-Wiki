@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
-  "last_audited": "2026-09-17",
+  "last_audited": "2026-09-29",
   "purpose": "Explicit ledger of skill identities found during enumeration that are not promoted to canonical records because Xenoverse 2-specific class/subcategory evidence is insufficient or conflicting.",
   "rules": [
     "Do not invent class/subcategory, Ki cost, acquisition, DLC, CaC availability, or Ultimate Finish requirements.",
@@ -127,5 +127,6 @@
       ]
     }
   ],
-  "notes": "Saibabeam was intentionally excluded from this ledger because Batch 294 established its research record. Boiling Ball and Tricky Strike were likewise covered in Batch 289."
+  "notes": "Saibabeam was intentionally excluded from this ledger because Batch 294 established its research record. Boiling Ball and Tricky Strike were likewise covered in Batch 289.",
+  "latest_batch": 599
 }
