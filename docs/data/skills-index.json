@@ -3512,6 +3512,17 @@
       ]
     },
     {
+      "name": "Infinity Explosion",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers",
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
+    },
+    {
       "name": "Innocence Breath",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -6541,6 +6552,12 @@
         "Split Finger Shot"
       ],
       "canonical_record_count": 510
+    },
+    "recovery_batch_616": {
+      "restored": [
+        "Infinity Explosion"
+      ],
+      "canonical_record_count": 511
     }
   },
   "skill_super_vegeta_current_evidence_audit_2026_09_25": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json",
