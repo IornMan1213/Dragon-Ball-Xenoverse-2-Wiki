@@ -6531,3 +6531,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill records or PQ relationships were mutated.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue indexed-only identity recovery using exact repository/game-data identity evidence; promote only when the canonical identity is independently established, otherwise move to the next highest-value enrichment frontier.
+
+
+### 2026-09-29 — Batch 617 recovery checkpoint
+- [x] Restored Die Die Missile Barrage to canonical skill data from historical Batch 253 evidence (`usable_by_cac=true`, Gotenks Training Lesson 3).
+- [x] Reconciled Super Volley as an already-restored Batch 617 record; no duplicate was added.
+- [x] Synchronized canonical skill store and skill index at 514 records each.
+- [x] Updated Batch 617 manifest and skill catalog audit with live 514/514 parity.
+- [ ] Complete a fresh indexed-only census; the older unresolved-count field is explicitly stale/pending and must not be treated as current.
+- [ ] Continue historical CaC-usable Ki Blast Super recovery, excluding cast-only/special-mode identities.
