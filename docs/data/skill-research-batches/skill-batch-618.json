@@ -1,0 +1,19 @@
+{
+  "batch_id": 618,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 514,
+  "new_canonical_count": 515,
+  "index_count": 515,
+  "records": [
+    "Light Grenade (Super)"
+  ],
+  "source_batches": [274],
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "acquisition_route": "Training with Piccolo",
+  "boundary": "Super variant; distinct from Light Grenade (Ultimate)",
+  "next": "Continue historical missing CaC Ki Blast Super reconciliation; preserve spelling aliases and cast-only/special-mode boundaries.",
+  "reconciliation_note": "Historical Batch 274 explicitly identifies Light Grenade (Super) as a Ki Blast Super, 100 Ki, CaC-usable, and obtained through Piccolo training. No unsupported PQ reward or canonical ID was inferred."
+}
