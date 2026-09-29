@@ -6931,3 +6931,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical records were reconstructed from indexes/verified layers and no speculative IDs, restrictions, rewards, rates, or conditions were introduced.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining null `race_restriction` evidence frontier, then continue older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores.
+
+
+### 2026-09-29 continuation — Null race restriction evidence batch 652
+- [x] Reviewed Blades of Judgement, Burst Attack, Circle Flash, Cross Arm Dive, Crusher Volcano, and Destructive Ray against exact skill/technique references.
+- [x] Preserved all six `race_restriction` values as null; no narrower CaC race/gender/form restriction was established.
+- [x] Recorded explicit all-races evidence for Cross Arm Dive without converting it into a restrictive value.
+- [x] Added `docs/data/skill-research-batches/skill-batch-652.json` and updated `docs/data/skill-catalog-audit.json`.
+- [x] Current index census remains 549 records: 79 null `race_restriction` records, 78 of them CaC-usable, and 470 with explicit non-null restriction values.
+- [ ] Continue exact-skill evidence through the remaining null race-restriction frontier.
