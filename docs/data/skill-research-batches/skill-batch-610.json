@@ -1,0 +1,56 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 610,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Fresh direct-source race-restriction audit for six later PQ skills retaining null race_restriction.",
+  "records": [
+    {
+      "name": "Heroic Assault",
+      "race_restriction_result": null,
+      "evidence": "External technique reference explicitly lists Gamma 1 and Future Warrior as users and describes PQ156 acquisition; no narrower race/gender/form restriction is stated."
+    },
+    {
+      "name": "Heroic Counter",
+      "race_restriction_result": null,
+      "evidence": "External technique reference lists Gamma 2 and Future Warrior and PQ155 acquisition; no narrower race/gender/form restriction is stated."
+    },
+    {
+      "name": "Gamma Blaster",
+      "race_restriction_result": null,
+      "evidence": "Current skill references place Gamma Blaster with Gamma 2 and the Future Warrior PQ/DLC route; no narrower race/gender/form restriction is established."
+    },
+    {
+      "name": "Gamma Impact",
+      "race_restriction_result": null,
+      "evidence": "Current skill references place Gamma Impact with Gamma 2 and the Future Warrior PQ/DLC route; no narrower race/gender/form restriction is established."
+    },
+    {
+      "name": "Soaring Rush",
+      "race_restriction_result": null,
+      "evidence": "Current skill reference identifies PQ177 and Goku (Mini) as notable user; no narrower CaC race/gender/form restriction is stated."
+    },
+    {
+      "name": "Dragon Spark",
+      "race_restriction_result": null,
+      "evidence": "Current Super Attack index identifies Dragon Spark as a Goku (Mini) skill; reviewed evidence does not establish a narrower CaC race/gender/form restriction."
+    }
+  ],
+  "sources": [
+    "https://dragonball.fandom.com/wiki/Heroic_Assault",
+    "https://dragonball.fandom.com/wiki/Heroic_Counter",
+    "https://dbxv2.fandom.com/wiki/Heroic_Assault",
+    "https://dbxv2.fandom.com/wiki/Soaring_Rush",
+    "https://dbxv2.fandom.com/wiki/Super_Attack",
+    "https://en.dragon-ball-official.com/news/01_1435.html"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Future Warrior/CaC usability is evidence of availability, not proof of an unrestricted all-race rule. Preserve null absent direct race/gender/form evidence.",
+  "next": "Continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records."
+}
