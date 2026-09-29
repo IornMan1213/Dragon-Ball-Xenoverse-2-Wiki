@@ -281,6 +281,14 @@
       "date": "2017-02-21",
       "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-update-and-dlc-pack-2",
       "scope": "Official announcement separating the February 27 free update from DB Super Pack 2; explicitly names all eight Super Pack 2 attacks and states the DLC releases February 28, 2017."
+    },
+    {
+      "id": "steam_super_pack_3_2017",
+      "publisher": "Valve / Steam",
+      "title": "DRAGON BALL XENOVERSE 2 - Super Pack 3",
+      "date": "2017-04-25",
+      "url": "https://store.steampowered.com/app/508402",
+      "scope": "Publisher DLC listing; confirms Super Pack 3 release date and five additional skills."
     }
   ],
   "events": [
@@ -481,9 +489,19 @@
       ],
       "skill_count": 8,
       "assignment_status": "Individual provenance reconciled for all eight named Super Pack 2 attacks using the official announcement. Release date is provenance only; no game version or patch number inferred."
+    },
+    {
+      "id": "super-pack-3",
+      "kind": "dlc",
+      "date": "2017-04-25",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "skill_count": 5,
+      "assignment_status": "Official platform listing establishes five additional skills; repository canonical records currently expose seven skills carrying the Super Pack 3 DLC label because two are character/master moves outside the five-avatar/DLC-count subset. Individual mappings are therefore limited to the five skills supported by the official count plus canonical roster evidence."
     }
   ],
-  "next_step": "Continue the older DLC/free-update provenance frontier with Super Pack 3/4 and earlier Super Pack 1 cohorts where official or independently corroborated named skill evidence is available; preserve event-level counts separately from exact skill mappings and never infer version numbers.",
+  "next_step": "Continue Super Pack 1 and Super Pack 4 provenance, resolving named skill subsets with explicit source evidence and preserving platform-specific release dates.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -1704,6 +1722,66 @@
       ],
       "confidence": "direct",
       "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names Sonic Bomb among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-super-black-kamehameha-rose",
+      "skill_name": "Super Black Kamehameha Rosé",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Super Pack 3 listing establishes five additional skills; Super Black Kamehameha Rosé is one of the canonical Super Pack 3 skill records. Exact five-skill subset mapping is retained as corroborated rather than inferred from the DLC label alone.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-divine-retribution",
+      "skill_name": "Divine Retribution",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Super Pack 3 listing establishes five additional skills; Divine Retribution is one of the canonical Super Pack 3 skill records. Exact five-skill subset mapping is retained as corroborated rather than inferred from the DLC label alone.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-grand-smasher",
+      "skill_name": "Grand Smasher",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Super Pack 3 listing establishes five additional skills; Grand Smasher is one of the canonical Super Pack 3 skill records. Exact five-skill subset mapping is retained as corroborated rather than inferred from the DLC label alone.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-psycho-barrier",
+      "skill_name": "Psycho Barrier",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Super Pack 3 listing establishes five additional skills; Psycho Barrier is one of the canonical Super Pack 3 skill records. Exact five-skill subset mapping is retained as corroborated rather than inferred from the DLC label alone.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-reverse-launcher",
+      "skill_name": "Reverse Launcher",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official Super Pack 3 listing establishes five additional skills; Reverse Launcher is one of the canonical Super Pack 3 skill records. Exact five-skill subset mapping is retained as corroborated rather than inferred from the DLC label alone.",
       "canonical_mutation": false
     }
   ],
