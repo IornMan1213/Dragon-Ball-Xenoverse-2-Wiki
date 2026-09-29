@@ -7811,3 +7811,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Null race-restriction census is now **62**, down from 77 after the previous recovery promotion.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified because connected GitHub diagnostics do not expose the failing job-step logs.
 - [ ] **Exact next:** audit the remaining 62 null race-restriction records using direct skill-specific evidence. Preserve null when evidence does not explicitly establish race scope; then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Post-corruption recovery integrity manifest
+- [x] Performed a fresh live-main recovery census before advancing enrichment work; canonical layers were checked first and stale historical counts were not reused as current.
+- [x] Confirmed authoritative docs/data/skills.json blob SHA: 4f1b192ea3d1f76878fe13b3a90bdfb24bae0410. The connector exposes the blob SHA but not inline content for this large canonical file; skills-index.json remains a synchronized consumer, never a reconstruction source.
+- [x] Confirmed docs/data/skills-index.json has 549 synchronized records.
+- [x] Recomputed docs/data/pq-reward-relationships.json at 862 verified relationships: 249 skill / 135 Super Soul / 136 equipment / 247 character / 88 DLC / 7 farming; duplicate relationship keys remain 0.
+- [x] Added docs/data/post-corruption-recovery-integrity-manifest-2026-09-29.json as a compact recovery checkpoint containing the live canonical blob SHA, synchronized index state, relationship counts, source policy, and next-work contract.
+- [x] Preserved the 62-record CaC-usable null race_restriction frontier as an evidence boundary; no unsupported restriction was inferred.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: continue direct skill-specific race-restriction evidence, preserving null where explicit race/gender/form scope is absent; then continue older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment from canonical forward stores.
