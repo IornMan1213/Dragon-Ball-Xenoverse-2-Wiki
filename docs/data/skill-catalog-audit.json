@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 633,
+  "latest_research_batch": 634,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
@@ -360,7 +360,7 @@
     "source_universe": 110,
     "canonical_records": 548,
     "resolved_from_source_universe": 99,
-    "remaining_indexed_only": 11,
+    "remaining_indexed_only": 2,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
@@ -423,16 +423,7 @@
     ],
     "remaining_names": [
       "Ill Flash",
-      "Spiral of Condemnation",
-      "Super Explosive Wave (Super)",
-      "Aura Slide",
-      "Go-Go Gum",
-      "Final Flash (Ultimate)",
-      "Full Power Energy Wave (Ultimate)",
-      "One-Handed Kamehameha",
-      "Soul Punisher",
-      "Special Beam Cannon (Ultimate)",
-      "Super Black Kamehameha"
+      "Spiral of Condemnation"
     ],
     "method": "Exact case-insensitive comparison against authoritative canonical store; stale source-universe taxonomy may be corrected when current evidence establishes a different canonical class.",
     "next": "Continue the remaining 11 identities. Preserve unresolved status for records whose historical evidence gives usable_by_cac=null; only resolve with explicit positive/negative access evidence.",
@@ -486,7 +477,19 @@
       "Special Beam Blast",
       "Rage Saucer",
       "Brainwash Attack"
-    ]
+    ],
+    "confirmed_cac_positive_names": [
+      "Super Explosive Wave (Super)",
+      "Aura Slide",
+      "Go-Go Gum",
+      "Final Flash (Ultimate)",
+      "Full Power Energy Wave (Ultimate)",
+      "One-Handed Kamehameha",
+      "Soul Punisher",
+      "Special Beam Cannon (Ultimate)",
+      "Super Black Kamehameha"
+    ],
+    "notes": " Batch 634 added explicit CaC-positive evidence from dedicated skill documentation: training/TP Medal Shop acquisition establishes Future Warrior access for the listed skills; Go-Go Gum is explicitly documented as a CaC skill. Ill Flash and Spiral of Condemnation remain unresolved because the retrieved XV2 evidence does not explicitly establish Future Warrior/CaC access."
   },
   "recovery_batch_615": {
     "restored": [
@@ -832,6 +835,29 @@
       "Aura Slide: batch 625 explicitly leaves usable_by_cac unresolved.",
       "Go-Go Gum: indexed Majin taxonomy establishes category membership but does not itself establish CaC usability.",
       "Final Flash (Ultimate), Full Power Energy Wave (Ultimate), One-Handed Kamehameha, Soul Punisher, Special Beam Cannon (Ultimate), and Super Black Kamehameha remain unresolved because indexed taxonomy is not sufficient evidence of CaC usability."
+    ]
+  },
+  "recovery_batch_634": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "canonical_records_unchanged": 548,
+    "canonical_mutations": 0,
+    "confirmed_cac_positive": 9,
+    "remaining_indexed_only": 2,
+    "sources": [
+      "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_%28Super%29",
+      "https://dbxv2.fandom.com/wiki/Aura_Slide",
+      "https://dbxv2.fandom.com/wiki/Go-Go_Gum",
+      "https://dbxv2.fandom.com/wiki/Final_Flash_%28Ultimate%29",
+      "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_%28Ultimate%29",
+      "https://dbxv2.fandom.com/wiki/One-Handed_Kamehameha",
+      "https://dbxv2.fandom.com/wiki/Soul_Punisher",
+      "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_%28Ultimate%29",
+      "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha"
+    ],
+    "unresolved": [
+      "Ill Flash",
+      "Spiral of Condemnation"
     ]
   }
 }
