@@ -6999,3 +6999,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-660.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 661
+- [x] Reviewed III Flash, III Rain, Sledgehammer, Sonic Kick, and Spinning Blade.
+- [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-661.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
