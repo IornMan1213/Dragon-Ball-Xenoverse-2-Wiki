@@ -1,0 +1,77 @@
+{
+  "batch_id": 599,
+  "date": "2026-09-29",
+  "type": "legacy_skill_taxonomy_gap_reconciliation",
+  "status": "evidence_reconciled_pending_canonical_identity",
+  "scope": "Close taxonomy uncertainty for five legacy/boss skill gaps without inventing canonical IDs.",
+  "records": [
+    {
+      "name": "Acid",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "cac": false,
+      "cost": null,
+      "boundary": "NPC-only corrosive spit; no documented damage-over-time effect.",
+      "sources": [
+        "docs/data/skill-research-batches/skill-batch-07.json",
+        "https://dbxv2.fandom.com/wiki/Acid"
+      ]
+    },
+    {
+      "name": "Howl",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "cac": false,
+      "cost": 0,
+      "boundary": "Defensive explosive-wave behavior used by Great Ape bosses.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
+        "https://dragonball.fandom.com/wiki/Howl",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
+      ]
+    },
+    {
+      "name": "Boiling Burg",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "cac": false,
+      "cost": null,
+      "boundary": "Boss/legacy energy attack; exact resource cost unresolved.",
+      "sources": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
+      ]
+    },
+    {
+      "name": "Energy Boil",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "cac": false,
+      "cost": 0,
+      "boundary": "Boss/NPC evasive behavior; exact stamina cost and active interaction details unresolved.",
+      "sources": [
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
+      ]
+    },
+    {
+      "name": "Baked Sphere",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "cac": false,
+      "cost": null,
+      "boundary": "Dark ki shield/explosive-wave behavior; NPC/Villainous use; exact resource cost unresolved.",
+      "sources": [
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+        "https://dragonball.fandom.com/wiki/Baked_Sphere"
+      ]
+    }
+  ],
+  "validation": {
+    "taxonomy_fields_reconciled": 5,
+    "canonical_ids_promoted": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_costs_added": 0
+  },
+  "policy": "These are evidence-layer reconciliations. No community numeric skill ID is promoted to a canonical ID. Canonical skills.json remains authoritative.",
+  "next": "Resolve exact canonical identities for these five candidates from structured repository/game-data evidence. If exact identity cannot be established, retain them as recovery-layer candidates and move to the next unresolved acquisition/mechanics frontier."
+}
