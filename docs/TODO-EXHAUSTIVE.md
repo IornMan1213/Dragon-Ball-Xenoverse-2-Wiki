@@ -7378,3 +7378,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the evidence boundary: acquisition-source links do not assert guaranteed drops, probabilities, or Ultimate Finish conditions.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue canonical endpoint reconciliation and investigate remaining accessory/equipment identity gaps; preserve ambiguous component records.
+
+
+### 2026-09-29 continuation — Batch 698: accessory endpoint boundary audit
+- [x] Re-audited the remaining accessory endpoint identities against repository canonical layers and research records.
+- [x] Confirmed 7 labels remain unresolved without exact inventory-level identities: Great Saiyaman Bandana 1/2, Android 15's Sunglasses, Gine (DB Super)'s Accessory, Kale's Accessory, Caulifla's Accessory, and Android 17 (DB Super)'s Ranger Accessory.
+- [x] Preserved Yamcha's Sword as a route conflict rather than inventing a canonical identity.
+- [x] Determined that no new endpoint identity is safe to promote from current repository evidence.
+- [x] Refreshed the post-corruption checkpoint to the current **877 relationship** baseline and recorded batches 695-697.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** pursue independent inventory-level evidence for the seven unresolved accessory labels; in parallel continue canonical PQ Super Soul/equipment endpoint reconciliation and race-restriction/provenance work.
