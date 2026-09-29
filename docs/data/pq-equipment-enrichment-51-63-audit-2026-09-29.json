@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "generated_date": "2026-09-29",
+  "batch": "pq-equipment-enrichment-51-63",
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "rule": "Only explicit named equipment rewards are promoted; reward probability/Ultimate-Finish conditions are not inferred.",
+  "reviewed_pqs": [
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63
+  ],
+  "promoted": [
+    {
+      "pq": "pq-051",
+      "target": "Great Saiyaman Bandana 1"
+    },
+    {
+      "pq": "pq-053",
+      "target": "Great Saiyaman Bandana 2"
+    },
+    {
+      "pq": "pq-056",
+      "target": "Videl T-Shirt"
+    },
+    {
+      "pq": "pq-057",
+      "target": "Gogeta's Clothes"
+    }
+  ],
+  "preexisting_equipment_edges": 5,
+  "added_equipment_edges": 4,
+  "post_equipment_edges": 141,
+  "post_total_edges": 867,
+  "unresolved_identity_note": "The four promoted targets remain relationship-layer names unless and until an exact canonical inventory identity is established; no external numeric IDs were promoted."
+}
