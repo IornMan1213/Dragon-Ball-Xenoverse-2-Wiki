@@ -7851,3 +7851,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated the catalog audit to Batch 684.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue the remaining 66-record frontier, prioritizing direct skill-specific retail eligibility wording and avoiding unsupported inference; then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Race restriction Batch 685 / frontier reconciliation
+- [x] Added `docs/data/skill-research-batches/skill-batch-685.json`.
+- [x] Freshly checked **Time Skip/Molotov, Vacation Delete, and X100 Big Bang Kamehameha**. All three remain `race_restriction: null`; no explicit narrower retail CaC race/gender/form rule was established.
+- [x] Time Skip/Molotov has explicit CaC availability in the current reference, which supports preserving null rather than inventing a race restriction. citeturn2search1
+- [x] X100 Big Bang Kamehameha has current acquisition/mechanics evidence but no explicit CaC race restriction in the reviewed page. citeturn2search3
+- [x] Vacation Delete has current acquisition and character-use evidence but no explicit CaC race restriction in the reviewed page. citeturn2search4
+- [x] No canonical skill records were mutated.
+- [x] Reconciled the frontier logic: the 74 null-race records should **not** be treated as 74 untouched records. Prior batches already cover many of them; future work must avoid repeating identical boundary audits.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** identify any genuinely unreviewed null-race identities; otherwise stop spending cycles on already-established null boundaries and advance to DLC/free-update provenance, mechanics enrichment, and cross-database relationship completeness.
