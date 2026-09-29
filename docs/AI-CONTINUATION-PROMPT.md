@@ -7628,3 +7628,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-658.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 659
+- [x] Reviewed Ginyu Force Special Combo, Holstein Shock, Infinity Explosion, Kaioken Assault, and Kamehameha Boost.
+- [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-659.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
