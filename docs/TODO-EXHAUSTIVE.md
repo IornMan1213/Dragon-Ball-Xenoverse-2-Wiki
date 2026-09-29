@@ -6838,3 +6838,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Made **0 canonical race-restriction assignments** because category, character association, or PQ acquisition does not by itself prove equip restriction.
 - [x] Preserved the rule that explicit per-skill evidence is required before retiring a null restriction.
 - [ ] Next: research explicit race-exclusive skills individually, then resolve generic skills with sufficient evidence.
+
+
+### 2026-09-29 continuation — Explicit Awoken race restriction reconciliation batch 644
+- [x] Corroborated 11 explicitly race-exclusive Awoken Skills already represented in canonical data: Saiyan, Earthling, Namekian, Majin, and Frieza Race restrictions.
+- [x] Added `docs/data/skill-research-batches/skill-batch-644.json`.
+- [x] Made 0 canonical changes because the 11 restrictions were already present.
+- [x] Preserved the evidence rule: ordinary PQ acquisition does not establish equip restriction.
+- [ ] Next: identify exact **non-Awoken** race-restricted skills with direct evidence; preserve null where exact evidence is unavailable.
