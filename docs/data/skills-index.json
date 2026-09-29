@@ -11246,6 +11246,25 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ]
+    },
+    {
+      "name": "Swallow Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "usable_by_cac": true,
+      "race_restriction": "All CaC races",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "unlock_method": "Parallel Quest 159 — \"Heroic Showdown\"",
+      "source_quest_or_shop": "Parallel Quest 159 — \"Heroic Showdown\"",
+      "ultimate_finish_required": null,
+      "id": "skill-swallow-shot",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Swallow_Shot"
+      ]
     }
   ],
   "last_updated": "2026-09-29",
