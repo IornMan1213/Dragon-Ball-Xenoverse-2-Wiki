@@ -7109,3 +7109,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 ### 2026-09-29 continuation — Awoken acquisition/usability provenance
 - [x] Document acquisition eligibility separately from actual transformation usability for the three Saiyan-exclusive god Awoken Skills.
 - [ ] Extend this acquisition-vs-use provenance model to remaining race-restricted transformations where applicable.
+
+
+### 2026-09-29 continuation — Awoken Batch 672 acquisition/use separation
+- [x] Added explicit acquisition-vs-usability provenance for Super Saiyan God, Super Saiyan God Super Saiyan, and Super Saiyan God Super Saiyan (Evolved).
+- [x] Preserved Saiyan-only usability for all three while documenting race-independent acquisition.
+- [ ] Extend this provenance distinction to remaining Awoken entries where acquisition eligibility and actual use eligibility can differ.
