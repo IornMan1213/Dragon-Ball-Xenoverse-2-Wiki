@@ -58,3 +58,13 @@ Pre-transformed roster characters, enemy-only states, and mod-only forms are not
 - Hardened direct-source provenance for four Universal Awoken classifications: Kaioken, Potential Unleashed, Beast, and Ultra Instinct.
 - Evidence distinguishes race eligibility from acquisition; verified projection data was not used as source of truth.
 - Canonical mutation remains deferred; this is sync-ready provenance research.
+
+
+## 2026-09-29 — Awoken acquisition vs usability Batch 672
+
+- Added `awoken-research-batches/awoken-batch-672.json`.
+- Documented the distinction between obtaining a Saiyan-exclusive god transformation and being able to activate/use it.
+- Covered Super Saiyan God, Super Saiyan God Super Saiyan, and Super Saiyan God Super Saiyan (Evolved).
+- Preserved `race_restriction: "Saiyan"` for all three; acquisition by a non-Saiyan does not establish non-Saiyan usability.
+- Current Future Warrior documentation explicitly describes SSGSS and SSGSS (Evolved) as awardable regardless of selected race while remaining Saiyan-only in use; the same acquisition/use distinction is documented for SSG.
+- Canonical Awoken data was not reconstructed or overwritten from projection/verified layers.
