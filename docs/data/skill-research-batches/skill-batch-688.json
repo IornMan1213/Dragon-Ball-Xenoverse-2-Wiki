@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 688,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "free_update_2016_12_provenance_reconciliation",
+  "scope": "Reconcile the five named attacks in the December 2016 free update against existing canonical skill identities using the official Bandai Namco announcement; keep character Awoken Skills separately attributed.",
+  "canonical_source": "docs/data/skills.json",
+  "official_source": {
+    "id": "bn_xv2_dlc_pack_preview_2016",
+    "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview",
+    "announcement_date": "2016-11-21",
+    "update_date": "2016-12-20",
+    "finding": "Bandai Namco states the free update includes four new attacks in one summary and later identifies the first DLC pack separately; the detailed free-update section also names the new SSGSS Goku Kaioken x10 and Hit Pure Progress Awoken Skills. The February 2017 update notice separately lists five attacks, so the December event record is retained only for evidence explicitly attributable to the December update."
+  },
+  "records": [
+    {
+      "skill_name": "Jumping Energy Wave",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_event_named_skill",
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_name": "Menacing Flare",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_event_named_skill",
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_name": "Focus Flash",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_event_named_skill",
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_name": "Wild Hunt",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_event_named_skill",
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_name": "Tail Slicer",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_event_named_skill",
+      "confidence": "direct",
+      "canonical_mutation": false
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "officially_named_mappings": 5,
+    "canonical_skill_records_created": 0,
+    "canonical_skill_records_changed": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "boundary": {
+    "source_conflict": "The November 2016 preview's detailed free-update section and the February 2017 update notice differ in how many attacks are summarized around this update cycle. This batch only records the five attack names explicitly listed by the February notice as a separate February free-update set in future reconciliation; it does not merge unnamed counts into individual mappings.",
+    "awoken": "Kaioken x10 and Pure Progress are Awoken Skills for SSGSS Goku and Hit and are not counted among the five named attacks here.",
+    "version": "No game version or patch number inferred."
+  },
+  "next": "Continue early free-update provenance reconciliation, especially the February 2017 five-attack set, while preserving event boundaries and avoiding duplicate skill audits."
+}
