@@ -6482,6 +6482,30 @@
       "status": "source_backed",
       "source": "canonical Parallel Quest record layer",
       "notes": "Explicitly listed in the canonical PQ176 super_soul_rewards array; exact drop condition remains separate."
+    },
+    {
+      "pq": "pq-003",
+      "relationship": "pq_rewards_equipment",
+      "target": "Battle Suit (Raditz)",
+      "status": "source_backed",
+      "source": "canonical equipment record layer",
+      "notes": "Equipment record explicitly links PQ3 as an acquisition source; duplicate pq_links entries were collapsed at relationship-key level. No guaranteed-drop/rate claim."
+    },
+    {
+      "pq": "pq-087",
+      "relationship": "pq_rewards_equipment",
+      "target": "Training Suit",
+      "status": "source_backed",
+      "source": "canonical equipment record layer",
+      "notes": "Equipment record explicitly links PQ87 as an acquisition source; no guaranteed-drop/rate claim."
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_rewards_equipment",
+      "target": "Zamasu's Clothes",
+      "status": "source_backed",
+      "source": "canonical equipment record layer",
+      "notes": "Equipment record explicitly links PQ110 as an acquisition source; no guaranteed-drop/rate claim."
     }
   ],
   "normalization_rules": [
@@ -6498,14 +6522,14 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 144,
+    "pq_rewards_equipment": 147,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 139,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 874,
-    "total_relationships": 874
+    "total": 877,
+    "total_relationships": 877
   },
   "last_reconciled_scope": "PQ canonical record-layer Super Soul reconciliation; explicit super_soul_rewards names promoted where absent.",
   "notes": [
