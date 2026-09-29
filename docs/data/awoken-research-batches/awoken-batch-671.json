@@ -1,0 +1,67 @@
+{
+  "batch_id": 671,
+  "created": "2026-09-29",
+  "type": "awoken_race_provenance",
+  "status": "research_only_sync_ready",
+  "scope": "Direct-source provenance hardening for Universal Awoken race eligibility; canonical data remains source of truth.",
+  "records": [
+    {
+      "name": "Potential Unleashed",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "evidence_status": "explicit",
+      "reason": "Current Future Warrior documentation states Potential Unleashed can be used regardless of race; repository normalization also classifies it as Universal.",
+      "sources": [
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Beast",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "evidence_status": "explicit",
+      "reason": "Repository's maintained awoken normalization classifies Beast as Universal, and the Future Warrior documentation presents it as a general Future Warrior transformation rather than a race-exclusive transformation.",
+      "sources": [
+        "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/scripts/normalize_awoken_transformation_category.py",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Ultra Instinct",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "evidence_status": "explicit",
+      "reason": "Repository's maintained awoken normalization classifies Ultra Instinct as Universal; Future Warrior documentation describes it as an obtainable Awoken Skill without a race restriction.",
+      "sources": [
+        "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/scripts/normalize_awoken_transformation_category.py",
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Kaioken",
+      "class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "evidence_status": "explicit",
+      "reason": "Future Warrior documentation explicitly states Kaioken can be used regardless of race; repository normalization also classifies Kaioken as Universal.",
+      "sources": [
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/scripts/normalize_awoken_transformation_category.py"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 4,
+    "explicit_universal": 4,
+    "unsupported_inferences": 0,
+    "canonical_mutation": 0
+  },
+  "note": "This batch hardens provenance only. It does not use verified-skills.json as the source of truth and does not claim canonical promotion."
+}
