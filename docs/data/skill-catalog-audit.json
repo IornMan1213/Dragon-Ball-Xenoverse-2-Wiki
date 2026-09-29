@@ -1226,6 +1226,20 @@
         "https://dragonball.fandom.com/wiki/Death_Psycho_Bomb"
       ],
       "note": "Recovery-forward restoration: both classifications are directly documented for the Xenoverse 2 Future Warrior. Batch 666 is formatted for the existing canonical skills-sync pipeline."
+    },
+    "batch_667": {
+      "reviewed": [
+        "Brave Heat"
+      ],
+      "reclassified": 1,
+      "explicit_all_races": [
+        "Brave Heat"
+      ],
+      "canonical_sync_ready": true,
+      "source_urls": [
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "note": "Direct Xenoverse 2 Future Warrior evidence explicitly describes Brave Heat as a variant of Saiyan Spirit usable by all races."
     }
   }
 }
