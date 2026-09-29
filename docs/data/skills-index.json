@@ -11774,7 +11774,7 @@
       "verification_status": "partially_verified",
       "research_status": null,
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "ki_cost": 500,
       "stamina_cost": null,
       "dlc_requirement": null,
