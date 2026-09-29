@@ -1,0 +1,28 @@
+{
+  "batch_id": 621,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 517,
+  "new_canonical_count": 519,
+  "index_count": 519,
+  "records": [
+    "X4 Kaioken Kamehameha",
+    "X20 Kaioken Kamehameha"
+  ],
+  "source_batches": [
+    103,
+    314
+  ],
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "acquisition_routes": [
+    "Skill Shop"
+  ],
+  "boundaries": [
+    "Kept X4/X20 distinct from Kaioken Kamehameha and the Kaioken Awoken Skill.",
+    "No variable-cost value was invented for X4; cost remains null.",
+    "No unsupported progression gate or Ultimate Finish requirement was inferred."
+  ],
+  "next": "Continue indexed-only reconciliation, prioritizing records with explicit current or historical usable_by_cac=true evidence."
+}
