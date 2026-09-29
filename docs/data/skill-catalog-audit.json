@@ -44,7 +44,7 @@
   "latest_research_batch": 665,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier: Batch 669 adds explicit Universal evidence for Spirit Bomb and Super Spirit Bomb; continue the remaining null cohort with skill-specific evidence.",
+  "current_research_focus": "Race restriction frontier: Batch 670 restores twelve previously documented Universal CaC classifications as sync-ready research after corruption recovery. Continue remaining null cohort with exact skill-specific evidence.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1265,6 +1265,29 @@
       "sources": [
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    "batch_670": {
+      "reviewed": [
+        "Kamehameha",
+        "Masenko",
+        "Energy Charge",
+        "Solar Flare",
+        "Afterimage Strike",
+        "Rise to Action",
+        "Wall of Defense",
+        "Destructo-Disc",
+        "Galick Gun",
+        "Candy Beam (Super)",
+        "Petrifying Spit",
+        "Kai Kai"
+      ],
+      "promoted": 12,
+      "nulls_preserved": 0,
+      "evidence_rule": "Restores prior explicit universal CaC race-census conclusions; does not infer race from source character.",
+      "historical_basis": [
+        "2026-09-19 COVERAGE-AUDIT universal CaC census",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
     }
   }
