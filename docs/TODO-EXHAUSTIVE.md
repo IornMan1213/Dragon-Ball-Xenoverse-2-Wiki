@@ -6791,3 +6791,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current indexed-only skill reconciliation frontier remains **0**; Batch 637's exact-ID Candy Beam (Evasive) recovery remains the latest canonical skill restoration.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the older DLC/free-update version/release provenance frontier from the authoritative game-content version registry, then audit the current **79** null race_restriction records in evidence-bound batches and continue bidirectional PQ↔skill/Super Soul/equipment enrichment. Preserve nulls where direct evidence is insufficient and never infer canonical IDs from derived layers.
+
+
+### 2026-09-29 continuation — Super Pack 2 release provenance batch 639
+- [x] Added authoritative registry source `bn_xv2_super_pack_2_2017` from Bandai Namco's official DB Super Pack 2 announcement.
+- [x] Added the `super-pack-2` release event dated **2017-02-28** and reconciled all **8/8** named attacks directly from the official announcement: God of Destruction's Menace, God of Destruction's Roar, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Destruction's Concerto: Meteor, Destruction's Conductor, Requiem of Destruction, and Sonic Bomb.
+- [x] Added `docs/data/skill-research-batches/skill-batch-639.json` and registered the eight direct mappings in `docs/data/game-content-version-provenance-registry.json`.
+- [x] No canonical skill records or PQ relationships were created/changed; release date is provenance only and no game version/patch number was inferred.
+- [x] Updated `docs/data/skill-catalog-audit.json` and the provenance schema to reflect **100 direct skill→event mappings**.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the older DLC provenance frontier with Super Pack 3/4 and Super Pack 1 using explicit official or independently corroborated named-skill evidence; then resume evidence-bound race-restriction and PQ↔skill/Super Soul/equipment enrichment.
