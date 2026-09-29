@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 642,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "super_pack_4_attribution_boundary_audit",
+  "scope": "Resolve the apparent Super Pack 4 skill-count discrepancy without mutating canonical data. Official Xbox/PlayStation storefront metadata states 5 Additional Skills; the current canonical DLC-label cohort contains 9 records, including one malformed/ID-null Blades of Judgement projection. Character moves for Fused Zamasu and SSGSS Vegito account for the broader in-game skill set, but are not automatically treated as five CaC DLC skills.",
+  "sources": [
+    {
+      "id": "xbox_super_pack_4_storefront",
+      "url": "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-super-pack-4/C0JPLN1CQ7FJ",
+      "finding": "Bandai Namco storefront metadata lists 5 Additional Skills, release date 2017-06-27, and the two playable characters."
+    },
+    {
+      "id": "playstation_super_pack_4_storefront",
+      "url": "https://store.playstation.com/en-us/product/UP0700-PPSA08587_00-DBXV2KEY06DLC400",
+      "finding": "Bandai Namco PlayStation storefront likewise lists 5 Additional Skills."
+    },
+    {
+      "id": "community_skill_roster_crosscheck",
+      "url": "https://steamcommunity.com/app/454650/discussions/0/1692659959951380053/",
+      "finding": "Community roster documentation distinguishes 8 non-mentor skills associated with the pack; this is corroboration only, not canonical source of truth."
+    }
+  ],
+  "findings": [
+    {
+      "category": "official_count",
+      "value": 5,
+      "note": "Storefront metadata is treated as authoritative for the marketed Additional Skills count."
+    },
+    {
+      "category": "canonical_projection",
+      "value": 9,
+      "note": "Current skills-index DLC label cohort contains 9 names, but one is ID-null and the cohort includes character-specific moves and Sword of Hope; DLC label alone is insufficient to assign every record."
+    },
+    {
+      "category": "mapping_policy",
+      "value": "retain_existing_five",
+      "note": "The five previously mapped CaC/DLC skill records remain event mappings. No additional automatic mappings are created from the DLC label."
+    }
+  ],
+  "validation": {
+    "canonical_skill_records_created": 0,
+    "canonical_skill_records_changed": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_assignments": 0
+  },
+  "next": "Begin evidence-bound race_restriction candidate research for the 79 null canonical records; record source/evidence separately before any canonical mutation."
+}
