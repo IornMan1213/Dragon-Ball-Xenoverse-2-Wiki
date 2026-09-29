@@ -16192,6 +16192,64 @@
       "source_parallel_quests": [
         100
       ]
+    },
+    {
+      "name": "Evil Explosion (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Piccolo; Adult Gohan Customize Partner; Majin Buu (Gohan Absorbed) Customize Partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Piccolo training",
+      "source_quest_or_shop": "Piccolo training",
+      "ultimate_finish_required": null,
+      "skill_description": "Short-range chargeable Ki Blast Super with three charge stages.",
+      "mechanics_notes": "Current research documents Piccolo training as acquisition and later partner customization availability; exact damage scaling remains version-sensitive.",
+      "combo_notes": null,
+      "pve_notes": null,
+      "pvp_notes": null,
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Evil_Explosion_(Super)",
+        "https://dbxv2.fandom.com/wiki/Piccolo",
+        "https://dbxv2.fandom.com/wiki/Skill"
+      ],
+      "id": "skill-evil-explosion-super"
+    },
+    {
+      "name": "Peeler Storm",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Time Patroller / Expert Mission 20 Crystal Raid Skill",
+      "dlc_requirement": null,
+      "ki_cost": null,
+      "stamina_cost": 100,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Expert Mission 20 - Harbinger of Doom / Crystal Raid Skill",
+      "source_quest_or_shop": "Expert Mission 20 - Harbinger of Doom / Crystal Raid Skill",
+      "ultimate_finish_required": false,
+      "skill_description": "Special Evasive implementation of Peeler Storm that uses 100 Stamina for the Time Patroller.",
+      "mechanics_notes": "This is a deliberate class-boundary record: the boss/cast implementation is a Ki Blast Super, while the Time Patroller implementation is an Evasive. Do not merge the two variants.",
+      "combo_notes": null,
+      "pve_notes": "Expert Mission 20 acquisition is explicitly documented for the Time Patroller.",
+      "pvp_notes": null,
+      "verification_status": "verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Peeler_Storm",
+        "https://dbxv2.fandom.com/wiki/Expert_Mission_20",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ],
+      "id": "skill-peeler-storm-evasive"
     }
   ],
   "last_verified": "2026-09-27",
@@ -16349,6 +16407,31 @@
         535
       ],
       "boundary": "Aura Slide was intentionally not promoted because historical evidence leaves usable_by_cac unresolved; only explicit true CaC identities were promoted."
+    },
+    "skill_research_batch_626": {
+      "batch": 626,
+      "date": "2026-09-29",
+      "type": "canonical_recovery",
+      "records_promoted": 2,
+      "names": [
+        "Evil Explosion (Super)",
+        "Peeler Storm"
+      ],
+      "reviewed_names": [
+        "Bloody Sauce",
+        "Dragon Flash Bullet",
+        "Freezing Beam",
+        "Ice Field",
+        "Whirlwind Blade",
+        "Flames of Retribution",
+        "Marbling Drop",
+        "Seasoning Arrow",
+        "Light of Justice",
+        "Time Shackles",
+        "Full Power Energy Wave (Super)",
+        "Special Beam Cannon (Super)"
+      ],
+      "boundary": "Reviewed indexed-only candidates against repository research. Cast-exclusive/unavailable-for-CaC records were not promoted. Peeler Storm is retained as an Evasive because repository evidence explicitly establishes the Time Patroller/Crystal Raid implementation; Evil Explosion (Super) is promoted from explicit Piccolo-training/player availability evidence."
     }
   }
 }
