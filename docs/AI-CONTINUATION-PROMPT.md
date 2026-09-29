@@ -7765,3 +7765,9 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all three existing Saiyan usability restrictions.
 - [x] Documented that non-Saiyan Future Warriors may be taught/obtain the godly skills while being unable to use the transformations.
 - [ ] Keep acquisition-race and usability-race as separate fields when enriching Awoken data.
+
+
+### 2026-09-29 continuation — Awoken Batch 673
+- [x] Added Awoken Batch 673 documenting acquisition/use alignment for Super Saiyan, Super Vegeta, and Future Super Saiyan.
+- [x] Confirmed all three remain Saiyan-only for both acquisition and actual usability in the maintained provenance model.
+- [ ] Continue auditing remaining Awoken entries for genuine acquisition/use divergence; do not create artificial exceptions where requirements align.
