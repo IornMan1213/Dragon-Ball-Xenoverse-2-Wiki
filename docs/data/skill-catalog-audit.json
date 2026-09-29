@@ -41,16 +41,16 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 635,
-  "canonical_catalog_generated": 548,
+  "latest_research_batch": 637,
+  "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Post-frontier canonical recovery: restore exact CaC-usable historical records with established identity IDs, then move to race-specific and transformation enrichment.",
+  "current_research_focus": "Post-corruption recovery is synchronized at 549 canonical skills and 862 PQ reward edges. The indexed-only reconciliation frontier is closed; exact-ID recovery restored Candy Beam (Evasive). Next active field-level frontier: version/patch provenance plus evidence-backed race-restriction and cross-domain enrichment.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
-    "canonical_skill_records": 497,
+    "canonical_skill_records": 549,
     "batch_indexed_records": 561,
-    "distinction": "The 561 source-category index is a coverage universe, not a canonical-record count. Canonical skills.json remains authoritative.",
+    "distinction": "The maintained 561-record source-category index is a coverage universe, not a canonical-record count. Canonical docs/data/skills.json remains authoritative; the synchronized skill index currently contains 549 records.",
     "preset_loadout_identity_check": {
       "verified_preset_records": 25,
       "verified_skill_slot_entries": 162,
@@ -190,15 +190,13 @@
     "next": "Recompute indexed-only universe against the 497-record canonical corpus; prioritize directly evidenced Future Warrior skills and preserve cast-only/variant exclusions."
   },
   "recent_recovery_sync": {
-    "batch": 540,
-    "date": "2026-09-28",
-    "records": [
-      "Time Skip/Jump Spike",
-      "Time Skip/Back Breaker",
-      "Time Skip/Flash Skewer"
-    ],
-    "canonical_records": 497,
-    "index_records": 497
+    "batch": 637,
+    "date": "2026-09-29",
+    "canonical_records": 549,
+    "index_records": 549,
+    "restored_identity": "Candy Beam (Evasive)",
+    "restored_id": "skill-candy-beam-evasive",
+    "source_of_truth": "docs/data/skills.json"
   },
   "acquisition_gap_census_2026_09_28": {
     "canonical_records": 497,
@@ -269,20 +267,20 @@
     "remaining_after_batch_611": 27
   },
   "post_recovery_database_audit_2026_09_28": {
-    "canonical_skills": 497,
-    "skills_index": 497,
+    "canonical_skills": 549,
+    "skills_index": 549,
     "skill_identity_mismatches": 0,
     "relationship_edges": 862,
     "relationship_duplicates": 0,
     "orphan_skill_reward_targets": 0,
     "acquisition_gaps": 0,
     "mechanics_notes_gaps": 0,
-    "race_restriction_gaps": 27,
+    "race_restriction_gaps": 79,
     "pq_range": "PQ1-PQ186",
     "pq_without_typed_skill_super_soul_equipment_relationship": [
       "PQ1"
     ],
-    "audit_file": "docs/data/post-corruption-database-recovery-audit-2026-09-28.json"
+    "audit_file": "docs/data/post-corruption-rebuild-verification-2026-09-29.json"
   },
   "festival_recovery_reconciliation_2026_09_28": {
     "batch": 587,
@@ -933,5 +931,26 @@
       "No canonical promotion was performed merely because an indexed identity was shown to be CaC-usable.",
       "Indexed-only reconciliation is closed; remaining work moves to canonical enrichment/integrity and cross-domain completeness."
     ]
+  },
+  "recovery_reconciliation_2026_09_29": {
+    "canonical_skill_blob_sha": "5912397227d7fb67f1ed263269ace8fcf9b8995b",
+    "canonical_skill_count": 549,
+    "synchronized_index_count": 549,
+    "pq_reward_relationships": 862,
+    "pq_reward_counts": {
+      "skill": 249,
+      "super_soul": 135,
+      "equipment": 136,
+      "character": 247,
+      "dlc": 88,
+      "farming": 7
+    },
+    "skill_pq_edges": 249,
+    "null_race_restriction_records": 79,
+    "indexed_only_frontier": 0,
+    "duplicate_canonical_ids": 0,
+    "canonical_source_of_truth": "docs/data/skills.json",
+    "reconstruction_rule": "No canonical skill was reconstructed from the index, verified layer, reverse index, or projection.",
+    "note": "The current GitHub contents endpoint exposes the canonical skills blob SHA but not inline content at this file size; the 549 count is corroborated by the synchronized 549-record index, the Batch 637 recovery commit, and the latest recovery handoff. This audit does not promote the index to source-of-truth."
   }
 }
