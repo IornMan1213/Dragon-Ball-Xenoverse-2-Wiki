@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 684,
+  "latest_research_batch": 685,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Direct race-restriction evidence frontier: 74 synchronized CaC-usable records retain race_restriction=null; Batches 683-684 reviewed 8 records with no unsupported promotions.",
+  "current_research_focus": "Race-restriction evidence reconciliation: the 74 current null-race CaC-usable records are an enrichment-gap cohort, and most have already received direct-source review across historical batches; Batches 683-685 added 11 fresh/reconciled reviews without unsupported promotions. Do not repeatedly re-audit the same records.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
