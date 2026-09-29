@@ -1,0 +1,52 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 583,
+  "research_date": "2026-09-28",
+  "type": "canonical_relationship_census_and_festival_id_reaudit",
+  "canonical_sources": [
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/skills.json"
+  ],
+  "scope": [
+    "Synchronize the global PQ skill-endpoint audit with the live canonical relationship census.",
+    "Re-audit exact repository evidence for unresolved 4th Festival internal skill identifiers without inferring IDs."
+  ],
+  "findings": [
+    {
+      "subject": "PQ relationship census",
+      "current_skill_pq_edges": 249,
+      "current_total_pq_relationships": 862,
+      "prior_audit_total": 852,
+      "action": "Corrected the stale audit census only; no relationship was added or removed."
+    },
+    {
+      "subject": "4th Festival internal identifiers",
+      "names": [
+        "God Bind (Festival)",
+        "Egret Waltz (Festival)",
+        "Gamma Force: Code-R (Festival)",
+        "Gamma Force: Code-B (Festival)"
+      ],
+      "exact_canonical_ids_recovered": 0,
+      "repository_evidence": [
+        "docs/data/skill-batch-551.json",
+        "docs/data/skill-research-batches/skill-batch-550.json",
+        "docs/data/festival-named-skill-recovery-layer-2026-09-28.json"
+      ],
+      "action": "Retain as named recovery identities with null canonical_skill_id. Do not infer IDs from names, character/preset order, filenames, or reward ordering."
+    }
+  ],
+  "validation": {
+    "canonical_skill_count": 497,
+    "canonical_relationship_count": 862,
+    "canonical_skill_pq_edge_count": 249,
+    "festival_ids_promoted": 0
+  },
+  "policy": [
+    "docs/data/skills.json and docs/data/pq-reward-relationships.json remain authoritative.",
+    "verified/research layers are evidence and not the canonical source of truth.",
+    "Research timestamps and release-event provenance do not become game version fields.",
+    "Unresolved Festival internal identifiers remain null until exact historical/structured evidence uniquely identifies them."
+  ],
+  "next": "Continue with a substantive mechanics or version/provenance enrichment cohort; revisit Festival identifiers only when exact structured evidence becomes available."
+}
