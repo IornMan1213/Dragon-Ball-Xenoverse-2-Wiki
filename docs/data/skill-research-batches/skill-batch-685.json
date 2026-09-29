@@ -1,0 +1,53 @@
+{
+  "batch_id": 685,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "canonical_authority": "docs/data/skills.json",
+  "verification_policy": "Only explicit retail CaC race/gender/form eligibility wording may populate race_restriction; CaC availability alone does not imply a race value.",
+  "records": [
+    {
+      "name": "Time Skip/Molotov",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The current skill page explicitly describes Time Skip/Molotov as obtainable for CaCs and identifies Dragon Ball wish acquisition, but provides no narrower race/gender/form restriction. CaC availability supports null rather than a restrictive value.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Time_Skip/Molotov"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Vacation Delete",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The current skill page establishes Skill Shop acquisition and Raditz/Turles/Omega Shenron/Majin Buu character use, but does not explicitly state a CaC race/gender/form restriction. Character association is not treated as CaC eligibility evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Vacation_Delete"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "X100 Big Bang Kamehameha",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The current skill page establishes TP Medal Shop and PQ100 acquisition and character users, while the canonical catalog already treats the skill as CaC-usable. The reviewed page does not state a narrower CaC race/gender/form restriction, so null is preserved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha"
+      ],
+      "conclusion": "preserve_null"
+    }
+  ],
+  "validation": {
+    "records_reviewed": 3,
+    "promoted": 0,
+    "nulls_preserved": 3,
+    "unsupported_inferences": 0,
+    "canonical_mutations": 0
+  },
+  "external_validation_notes": [
+    "Time Skip/Molotov's current reference explicitly says it is obtainable for CaCs.",
+    "X100 Big Bang Kamehameha's current reference documents its acquisition and mechanics but does not state a race restriction.",
+    "Vacation Delete's current reference documents acquisition and notable users but does not state a CaC race restriction."
+  ],
+  "next": "Continue the remaining null-race cohort only where a record has not already received direct evidence review; otherwise move to DLC/free-update provenance and mechanics enrichment."
+}
