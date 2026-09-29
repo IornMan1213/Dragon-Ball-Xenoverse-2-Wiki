@@ -3788,16 +3788,6 @@
       ]
     },
     {
-      "name": "Kamekameha",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "researched_current_scope",
-      "research_status": "researched",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ]
-    },
-    {
       "name": "Ki Blast Cannon",
       "class": "Super",
       "subcategory": "Ki Blast",
