@@ -7126,3 +7126,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Clarified Ultra Instinct -Sign- as a cast-only/current retail form, not a retail CaC Awoken Skill.
 - [x] Prevented mod-only CaC implementations and unsupported third-party guide claims from entering canonical Awoken data.
 - [ ] Continue the Awoken scope audit for cast-only states, staged forms, and genuine CaC equippable transformations.
+
+
+### 2026-09-29 continuation — Awoken Batch 675
+- [x] Documented three explicit cast-exclusive Awoken Skills: Super Saiyan Blue Kaioken, Pure Progress, and Supersonic Mode.
+- [ ] Continue remaining cast-only/staged-form scope audit.
