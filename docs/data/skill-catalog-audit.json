@@ -44,7 +44,7 @@
   "latest_research_batch": 692,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "PQ cross-domain navigation: regenerated reverse indexes from the normalized source-backed relationship set after recovery. Current reverse index exposes 244 skills, 133 Super Souls, 134 equipment, 75 characters, 21 DLC targets and 1 farming target across 863 normalized edges. Next: expand missing Super Soul and clothing/accessory reward edges, then reconcile reverse-index coverage against canonical domains.",
+  "current_research_focus": "PQ cross-domain reverse-index expansion. Regenerated docs/data/pq-cross-domain-reverse-index.json from the normalized relationship layer; current source-backed reverse coverage is skills 244, Super Souls 133, equipment 134, characters 75, DLC 21, farming 1. Forward edges remain 249/135/137/247/88/7. Reverse counts can be lower because multiple targets share or lack canonical normalized identities. Next: expand source-backed reverse coverage and canonical target links, then resolve reward-slot conflicts.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
