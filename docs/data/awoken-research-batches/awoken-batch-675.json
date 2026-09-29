@@ -1,0 +1,55 @@
+{
+  "batch_id": 675,
+  "created": "2026-09-29",
+  "type": "awoken_cast_exclusive_scope_provenance",
+  "status": "research_only_sync_ready",
+  "records": [
+    {
+      "name": "Super Saiyan Blue Kaioken",
+      "usable_by_cac": false,
+      "race_restriction": null,
+      "classification": "cast_exclusive",
+      "character_source": "Goku",
+      "evidence_status": "explicit",
+      "reason": "The maintained Awoken reference classifies Super Saiyan Blue Kaioken as cast-exclusive and unavailable to CaCs.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://dbxv2.fandom.com/wiki/Category%3AUnavailable_for_CaC"
+      ]
+    },
+    {
+      "name": "Pure Progress",
+      "usable_by_cac": false,
+      "race_restriction": null,
+      "classification": "cast_exclusive",
+      "character_source": "Hit",
+      "evidence_status": "explicit",
+      "reason": "Pure Progress is documented as Hit's Awoken Skill and the current unavailable-for-CaC category explicitly includes it.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Pure_Progress",
+        "https://dbxv2.fandom.com/wiki/Category%3AUnavailable_for_CaC"
+      ]
+    },
+    {
+      "name": "Supersonic Mode",
+      "usable_by_cac": false,
+      "race_restriction": null,
+      "classification": "cast_exclusive",
+      "character_source": "Dyspo",
+      "evidence_status": "explicit",
+      "reason": "The official Dragon Ball site describes Supersonic Mode as Dyspo's Awoken Skill, while the current game reference states there is no intended CaC equip path and classifies it as unavailable for CaC.",
+      "sources": [
+        "https://en.dragon-ball-official.com/news/01_1079.html",
+        "https://dbxv2.fandom.com/wiki/Supersonic_Mode",
+        "https://dbxv2.fandom.com/wiki/Category%3AUnavailable_for_CaC"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 3,
+    "explicit_cast_exclusive": 3,
+    "unsupported_race_assignments": 0,
+    "canonical_mutation": 0
+  },
+  "note": "These are scope classifications, not race restrictions. Keep race_restriction null because the skills are unavailable to retail CaCs rather than restricted to a CaC race."
+}
