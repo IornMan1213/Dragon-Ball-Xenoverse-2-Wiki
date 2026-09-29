@@ -6550,3 +6550,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated docs/AI-CONTINUATION-PROMPT.md with the cumulative 614–618 recovery state.
 - [ ] Complete a fresh indexed-only census; stale historical unresolved-count fields must not be treated as current.
 - [ ] Continue historical CaC-usable Ki Blast Super recovery beyond Batch 274, excluding aliases, cast-only, festival/special-mode, and unresolved identities.
+
+
+### 2026-09-29 — Batch 620 recovery checkpoint
+- [x] Restored Fighting Sun from historical Batch 245 evidence (usable_by_cac=true, Skill Shop after Universal Emperor).
+- [x] Preserved the 18-second Properties duration and 15-second displayed Stats duration as separate evidence fields.
+- [x] Synchronized canonical skill store and skill index at 517 records each.
+- [x] Updated skill-catalog audit and added skill-batch-620.json; batch 619 remains the pre-existing Kamekameha alias-rejection record.
+- [x] Updated docs/AI-CONTINUATION-PROMPT.md with the Batch 620 recovery checkpoint.
+- [ ] Complete a fresh indexed-only census; stale historical unresolved-count fields must not be treated as current.
+- [ ] Continue historical CaC-usable Ki Blast Super recovery beyond the reviewed batches, excluding aliases, cast-only, festival/special-mode, and unresolved identities.
