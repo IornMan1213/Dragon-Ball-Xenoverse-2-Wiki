@@ -7490,3 +7490,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Made 0 canonical changes because all 12 restrictions were already populated.
 - [x] Exact references support Namekian/Majin and Majin-male restrictions where applicable; community lists are retained only as corroboration.
 - [ ] Next: continue exact per-skill evidence through the remaining null `race_restriction` records; preserve null when wording is ambiguous.
+
+
+### 2026-09-29 continuation — Non-Awoken race restriction boundary batch 646
+- [x] Reviewed Power Pole, Power Pole Combo, Spirit Stab, and Saiyan Blaster against exact skill references.
+- [x] Preserved all four `race_restriction` values as null because the evidence does not establish a CaC race lock; character association/name alone is not sufficient.
+- [x] Added `docs/data/skill-research-batches/skill-batch-646.json`.
+- [x] Updated the skill catalog audit.
+- [ ] Next: continue exact evidence through remaining null race restrictions, assigning only when explicit restriction evidence is found.
