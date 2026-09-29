@@ -1,0 +1,107 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 644,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "explicit_awoken_race_restriction_reconciliation",
+  "scope": "Cross-check explicit race-exclusive Awoken Skills against the canonical skill index. These records already carry race values, so this batch verifies the evidence boundary rather than mutating them.",
+  "records": [
+    {
+      "skill_id": "skill-become-giant",
+      "skill_name": "Become Giant",
+      "race_restriction": "Namekian",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-future-super-saiyan",
+      "skill_name": "Future Super Saiyan",
+      "race_restriction": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-power-pole-pro",
+      "skill_name": "Power Pole Pro",
+      "race_restriction": "Earthling",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-purification",
+      "skill_name": "Purification",
+      "race_restriction": "Majin",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-super-saiyan",
+      "skill_name": "Super Saiyan",
+      "race_restriction": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-super-saiyan-2",
+      "skill_name": "Super Saiyan 2",
+      "race_restriction": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-super-saiyan-god",
+      "skill_name": "Super Saiyan God",
+      "race_restriction": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-super-saiyan-god-super-saiyan",
+      "skill_name": "Super Saiyan God Super Saiyan",
+      "race_restriction": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-super-saiyan-god-super-saiyan-evolved",
+      "skill_name": "Super Saiyan God Super Saiyan (Evolved)",
+      "race_restriction": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-super-vegeta",
+      "skill_name": "Super Vegeta",
+      "race_restriction": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "skill_id": "skill-turn-golden",
+      "skill_name": "Turn Golden",
+      "race_restriction": "Frieza Race",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    }
+  ],
+  "sources": [
+    {
+      "id": "race_transformation_reference_2026",
+      "url": "https://dragonballxenoverse2.wiki/guides/how-to-unlock-all-awoken-skills/",
+      "finding": "Current reference explicitly identifies Saiyan-only, Frieza Race-only, Majin-only, Namekian-only, and Earthling-only Awoken Skills."
+    },
+    {
+      "id": "gamefaqs_race_lock_boundary",
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77434262",
+      "finding": "Community discussion distinguishes race-locked Awoken Skills from ordinary PQ rewards, supporting the rule not to infer race locks from acquisition alone."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 11,
+    "canonical_skill_records_changed": 0,
+    "restriction_values_reconciled": 11,
+    "remaining_null_frontier": 79
+  },
+  "boundary": "These 11 records were already populated in canonical/index data. No attempt was made to assign restrictions to ordinary Super/Ultimate/Evasive skills from category or acquisition context.",
+  "next": "Target explicit race-restricted non-Awoken skills only when a source identifies the exact skill and race; otherwise preserve null."
+}
