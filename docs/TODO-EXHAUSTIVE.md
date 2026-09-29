@@ -6662,3 +6662,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-631.json`.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** resolve the remaining 17 identities using explicit CaC-positive or exact current-game evidence.
+
+
+### 2026-09-29 continuation — Definitive access reconciliation batch 632
+- [x] Confirmed **Rage Saucer** and **Brainwash Attack** as unavailable for CaC from explicit research records.
+- [x] Confirmed **Pearl Flash**, **Super Ghost Kamikaze Attack (Ultimate)**, **Energy Zone**, and **The Saviour Has Come** as CaC-usable from explicit historical/current research evidence.
+- [x] Canonical database remains **548 records**; no unsupported canonical records were added.
+- [x] Reduced the unresolved indexed-only frontier from **17 to 10**.
+- [x] Added `docs/data/skill-research-batches/skill-batch-632.json`.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** resolve the remaining 10 identities using explicit CaC-positive or exact current-game evidence.
