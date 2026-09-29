@@ -15392,6 +15392,22 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Die Die Missile Barrage",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "usable_by_cac": true,
+      "character_source": "Gotenks",
+      "dlc_requirement": null,
+      "unlock_method": "Gotenks Training Lesson 3",
+      "ultimate_finish_required": false,
+      "effect": "Launches a series of tracking explosive Ki projectiles that converge on the target.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Die_Die_Missile_Barrage"
+      ]
     }
   ],
   "last_verified": "2026-09-27",
