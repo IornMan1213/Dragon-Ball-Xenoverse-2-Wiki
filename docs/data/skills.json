@@ -16276,7 +16276,7 @@
       "name": "X20 Kaioken Kamehameha",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "Goku; Goku (Super Saiyan God) customizable partner; Goku (Super Saiyan 4) customizable partner",
       "dlc_requirement": null,
