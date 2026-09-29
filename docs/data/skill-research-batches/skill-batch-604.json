@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 604,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Direct-source follow-up on six canonical skills retaining null race_restriction: Backflip, Break Strike, Consecutive Energy Blast, Energy Wave Combo, Power Pole Combo, Turn Retreat.",
+  "records": [
+    {
+      "name": "Backflip",
+      "evidence": "External technique references identify Backflip as a Future Warrior-purchasable Super Skill and list it among Future Warrior techniques; no narrower race/gender/form restriction is stated.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Break Strike",
+      "evidence": "Current Xenoverse 2 skill reference identifies Skill Shop acquisition and describes it as a common Evasive used by a wide range of characters; this does not establish a narrower CaC race restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Consecutive Energy Blast",
+      "evidence": "Current skill reference identifies Skill Shop acquisition; the Future Warrior/CaC technique corpus and character-use evidence establish availability context but no narrower race/gender/form restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Energy Wave Combo",
+      "evidence": "Current skill reference identifies Skill Shop acquisition and broad character use; no narrower CaC race/gender/form restriction is stated.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Power Pole Combo",
+      "evidence": "Current sources identify Power Pole Combo as a purchasable Super Attack and as a Future Warrior-usable technique; no direct race/gender restriction for the skill itself was established.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Turn Retreat",
+      "evidence": "Current technique reference explicitly identifies purchase by the Future Warrior and the Evasive Skill reference lists it among CaC-available Evasives; no narrower race/gender/form restriction is stated.",
+      "race_restriction_result": null
+    }
+  ],
+  "sources": [
+    "https://animated-character-database.fandom.com/wiki/Backflip",
+    "https://dbxv2.fandom.com/wiki/Break_Strike",
+    "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast",
+    "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+    "https://dragonball.fandom.com/wiki/Turn_Retreat",
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill",
+    "https://dbxv2.fandom.com/wiki/CaC"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Null race_restriction remains an unresolved enrichment field. CaC availability or broad character use is not sufficient to promote null to unrestricted or to a specific race.",
+  "next": "Continue remaining null-race cohort with direct evidence; prioritize records where a source explicitly names a Future Warrior race/gender/form condition."
+}
