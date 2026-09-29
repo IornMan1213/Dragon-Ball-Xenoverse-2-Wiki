@@ -7719,3 +7719,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated `docs/data/skill-catalog-audit.json`.
 - [ ] Live `skills.json` still requires successful skills-sync execution before these two values can be claimed as promoted.
 - [ ] **Exact next:** continue the remaining null-race cohort with direct evidence, prioritizing explicit race/gender statements; then resume cross-domain enrichment.
+
+
+### 2026-09-29 continuation — Race restriction Batch 667
+- [x] Added `docs/data/skill-research-batches/skill-batch-667.json` for **Brave Heat → Universal**.
+- [x] Evidence explicitly states Brave Heat is a variant of Saiyan Spirit usable by all races.
+- [x] Updated `docs/data/skill-catalog-audit.json`.
+- [ ] Canonical `skills.json` promotion remains pending successful skills-sync execution.
+- [ ] Continue the remaining null race-restriction cohort; do not infer Universal merely from general Future Warrior acquisition.
