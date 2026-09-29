@@ -7656,3 +7656,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-662.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 663
+- [x] Reviewed Super Explosive Wave (Evasive), Super Galick Gun, Super Ghost Kamikaze Attack (Super), Super Ki Explosion, and Super Mad Dance.
+- [x] Preserved all five `race_restriction` values as null; no narrower explicit retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-663.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
