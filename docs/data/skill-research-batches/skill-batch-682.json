@@ -28,5 +28,13 @@
     "docs/data/skills-index.json"
   ],
   "canonical_mutation": "Applied only race_restriction on the exact Turtle Style Last Resort identity; unrelated canonical fields preserved.",
-  "validation": "Canonical/index parity to be checked after mutation."
+  "validation": {
+    "canonical_records": 549,
+    "index_records": 549,
+    "canonical_race_restriction": "All CaC races",
+    "index_race_restriction": "All CaC races",
+    "parity": true,
+    "canonical_commit": "aa8315059b43ef5d49359ffde6705f87846f01f7",
+    "index_commit": "be0da154298c681f96b7fb21599c09a8e54c19d7"
+  }
 }
