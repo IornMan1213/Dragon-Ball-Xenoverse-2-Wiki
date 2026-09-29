@@ -11,12 +11,9 @@
   "gaps": [
     {
       "name": "Acid",
-      "status": "unresolved",
+      "status": "reconciled_pending_canonical_identity",
       "known_identity": "Cast-exclusive Super used by Saibaman variants",
       "missing": [
-        "class",
-        "subcategory",
-        "ki_cost",
         "unlock_method"
       ],
       "evidence": [
@@ -24,65 +21,110 @@
         "Xenoverse 2 character ID list identifies Acid as CaC-unavailable",
         "Xenoverse 2 PQ evidence identifies Kyukonman/Kaiwareman as users"
       ],
-      "reason": "Current dedicated searches did not establish the Xenoverse 2 attack/subcategory fields strongly enough."
+      "reason": "Current dedicated searches did not establish the Xenoverse 2 attack/subcategory fields strongly enough.",
+      "taxonomy_status": "reconciled_pending_canonical_identity",
+      "reconciled_fields": {
+        "class": "Super",
+        "subcategory": "Ki Blast",
+        "usable_by_cac": false,
+        "ki_cost": null
+      },
+      "reconciled_mechanics_boundary": "Short-range corrosive spit; research corpus describes a simple single-hit Ki attack with no documented damage-over-time effect.",
+      "reconciliation_evidence": [
+        "docs/data/skill-research-batches/skill-batch-07.json",
+        "https://dbxv2.fandom.com/wiki/Acid"
+      ]
     },
     {
       "name": "Howl",
-      "status": "unresolved",
+      "status": "reconciled_pending_canonical_identity",
       "known_identity": "Great Ape-exclusive skill used by Great Ape enemies",
       "missing": [
-        "class",
-        "subcategory",
-        "ki_cost",
         "unlock_method"
       ],
       "evidence": [
         "Great Ape Festival and related PQ enemy tables list Howl for Great Ape Nappa, Vegeta, Bardock and Baby"
       ],
-      "reason": "Identity and cast restriction are established, but a reliable Xenoverse 2 skill page establishing its canonical class/subcategory was not located."
+      "reason": "Identity and cast restriction are established, but a reliable Xenoverse 2 skill page establishing its canonical class/subcategory was not located.",
+      "taxonomy_status": "reconciled_pending_canonical_identity",
+      "reconciled_fields": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "usable_by_cac": false,
+        "ki_cost": 0
+      },
+      "reconciled_mechanics_boundary": "Defensive explosive-wave behavior used by Great Ape boss characters; accessible XV2-specific evidence identifies it as an Evasive Skill.",
+      "reconciliation_evidence": [
+        "https://dbxv2.fandom.com/wiki/Great_Ape_Festival",
+        "https://dragonball.fandom.com/wiki/Howl",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
+      ]
     },
     {
       "name": "Boiling Burg",
-      "status": "unresolved",
+      "status": "reconciled_pending_canonical_identity",
       "known_identity": "Demon God Demigra (Final Form) attack",
-      "missing": [
-        "class",
-        "subcategory",
-        "ki_cost"
-      ],
+      "missing": [],
       "evidence": [
         "Xenoverse 2 Legend Patrol enemy table lists Boiling Burg on Final Form Demigra"
       ],
-      "reason": "Older Xenoverse documentation describes Boiling Burg as an Ultimate, but that is not sufficient by itself to establish the current Xenoverse 2 canonical subtype."
+      "reason": "Older Xenoverse documentation describes Boiling Burg as an Ultimate, but that is not sufficient by itself to establish the current Xenoverse 2 canonical subtype.",
+      "taxonomy_status": "reconciled_pending_canonical_identity",
+      "reconciled_fields": {
+        "class": "Ultimate",
+        "subcategory": "Ki Blast",
+        "usable_by_cac": false,
+        "ki_cost": null
+      },
+      "reconciled_mechanics_boundary": "Legacy/boss-only energy attack; XV2 skill-ID evidence and a structured skill list place it in the Ultimate skill section. Exact resource cost remains unresolved.",
+      "reconciliation_evidence": [
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
+      ]
     },
     {
       "name": "Energy Boil",
-      "status": "unresolved",
+      "status": "reconciled_pending_canonical_identity",
       "known_identity": "Demon God Demigra (Final Form) attack",
-      "missing": [
-        "class",
-        "subcategory",
-        "ki_cost"
-      ],
+      "missing": [],
       "evidence": [
         "Xenoverse 2 Legend Patrol enemy table lists Energy Boil on Final Form Demigra"
       ],
-      "reason": "Current Xenoverse 2-specific subtype evidence was not located."
+      "reason": "Current Xenoverse 2-specific subtype evidence was not located.",
+      "taxonomy_status": "reconciled_pending_canonical_identity",
+      "reconciled_fields": {
+        "class": "Evasive",
+        "subcategory": "Other",
+        "usable_by_cac": false,
+        "ki_cost": 0
+      },
+      "reconciled_mechanics_boundary": "Evasive defensive energy behavior used by boss/NPC data; exact stamina cost and active interaction details remain unresolved.",
+      "reconciliation_evidence": [
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball"
+      ]
     },
     {
       "name": "Baked Sphere",
-      "status": "unresolved",
+      "status": "reconciled_pending_canonical_identity",
       "known_identity": "Villainous/Supervillain cast skill",
-      "missing": [
-        "class",
-        "subcategory",
-        "ki_cost"
-      ],
+      "missing": [],
       "evidence": [
         "Xenoverse 2 PQ enemy tables list Baked Sphere for villainous characters",
         "Dragon Ball technique documentation describes its Xenoverse lineage"
       ],
-      "reason": "Cross-game descriptions disagree with or do not explicitly establish the current Xenoverse 2 canonical class/subcategory, so it remains a gap rather than a guessed record."
+      "reason": "Cross-game descriptions disagree with or do not explicitly establish the current Xenoverse 2 canonical class/subcategory, so it remains a gap rather than a guessed record.",
+      "taxonomy_status": "reconciled_pending_canonical_identity",
+      "reconciled_fields": {
+        "class": "Ultimate",
+        "subcategory": "Ki Blast",
+        "usable_by_cac": false,
+        "ki_cost": null
+      },
+      "reconciled_mechanics_boundary": "Dark ki shield/explosive-wave behavior; XV2 evidence places Baked Sphere in the Ultimate skill section and describes NPC/Villainous use. Exact resource cost remains unresolved.",
+      "reconciliation_evidence": [
+        "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+        "https://dragonball.fandom.com/wiki/Baked_Sphere"
+      ]
     }
   ],
   "notes": "Saibabeam was intentionally excluded from this ledger because Batch 294 established its research record. Boiling Ball and Tricky Strike were likewise covered in Batch 289."
