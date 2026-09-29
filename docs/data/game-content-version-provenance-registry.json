@@ -289,6 +289,22 @@
       "date": "2017-04-25",
       "url": "https://store.steampowered.com/app/508402",
       "scope": "Publisher DLC listing; confirms Super Pack 3 release date and five additional skills."
+    },
+    {
+      "id": "steam_super_pack_1_2016",
+      "publisher": "Valve / Steam",
+      "title": "DRAGON BALL XENOVERSE 2 - Super Pack 1",
+      "date": "2016-12-20",
+      "url": "https://store.steampowered.com/app/508400",
+      "scope": "Publisher DLC listing; explicitly states five new attacks."
+    },
+    {
+      "id": "steam_super_pack_4_2017",
+      "publisher": "Valve / Steam",
+      "title": "DRAGON BALL XENOVERSE 2 - Super Pack 4",
+      "date": "2017-06-27",
+      "url": "https://store.steampowered.com/app/508403",
+      "scope": "Publisher DLC listing; explicitly states five new avatar attacks."
     }
   ],
   "events": [
@@ -499,9 +515,29 @@
       ],
       "skill_count": 5,
       "assignment_status": "Official platform listing establishes five additional skills; repository canonical records currently expose seven skills carrying the Super Pack 3 DLC label because two are character/master moves outside the five-avatar/DLC-count subset. Individual mappings are therefore limited to the five skills supported by the official count plus canonical roster evidence."
+    },
+    {
+      "id": "super-pack-1",
+      "kind": "dlc",
+      "date": "2016-12-20",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "skill_count": 5,
+      "assignment_status": "All five named canonical Super Pack 1 skill records reconciled against the official five-new-attacks count."
+    },
+    {
+      "id": "super-pack-4",
+      "kind": "dlc",
+      "date": "2017-06-27",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "skill_count": 5,
+      "assignment_status": "Five avatar-skill records reconciled against the official five-new-attacks count; character-exclusive moves and the later Sword of Hope update are not automatically assigned to this event."
     }
   ],
-  "next_step": "Continue Super Pack 1 and Super Pack 4 provenance, resolving named skill subsets with explicit source evidence and preserving platform-specific release dates.",
+  "next_step": "Audit DLC-label anomalies separately (notably Super Pack 4 character-exclusive moves and Sword of Hope) before any canonical mutation; then continue race-restriction enrichment.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -1782,6 +1818,126 @@
       ],
       "confidence": "corroborated",
       "basis": "Official Super Pack 3 listing establishes five additional skills; Reverse Launcher is one of the canonical Super Pack 3 skill records. Exact five-skill subset mapping is retained as corroborated rather than inferred from the DLC label alone.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-breaker-energy-wave",
+      "skill_name": "Breaker Energy Wave",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-1; Breaker Energy Wave is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-back-breaker",
+      "skill_name": "Time Skip/Back Breaker",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-1; Time Skip/Back Breaker is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-flash-skewer",
+      "skill_name": "Time Skip/Flash Skewer",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-1; Time Skip/Flash Skewer is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-jump-spike",
+      "skill_name": "Time Skip/Jump Spike",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-1; Time Skip/Jump Spike is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-tremor-pulse",
+      "skill_name": "Time Skip/Tremor Pulse",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-1; Time Skip/Tremor Pulse is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-divinity-unleashed",
+      "skill_name": "Divinity Unleashed",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-4; Divinity Unleashed is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-holy-wrath",
+      "skill_name": "Holy Wrath",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-4; Holy Wrath is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-blades-of-judgment",
+      "skill_name": "Blades of Judgment",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-4; Blades of Judgment is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-lightning-of-absolution",
+      "skill_name": "Lightning of Absolution",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-4; Lightning of Absolution is one of the canonical records comprising that five-skill avatar subset.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-divine-wrath-purification",
+      "skill_name": "Divine Wrath: Purification",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official platform DLC listing explicitly states five new attacks for super-pack-4; Divine Wrath: Purification is one of the canonical records comprising that five-skill avatar subset.",
       "canonical_mutation": false
     }
   ],
