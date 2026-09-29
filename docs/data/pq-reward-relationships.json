@@ -6394,6 +6394,38 @@
       "status": "source_backed",
       "source": "https://dbxenoverse.fandom.com/wiki/Accessories",
       "notes": "Canonical accessory identity acc-027. Tapion's Sword is documented as a special PQ22/Trunks acquisition route; it is not a normal reward-table drop."
+    },
+    {
+      "pq": "pq-051",
+      "relationship": "pq_rewards_equipment",
+      "target": "Great Saiyaman Bandana 1",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit basic reward listing in the all-186 PQ guide; exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-053",
+      "relationship": "pq_rewards_equipment",
+      "target": "Great Saiyaman Bandana 2",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit basic reward listing in the all-186 PQ guide; exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-056",
+      "relationship": "pq_rewards_equipment",
+      "target": "Videl T-Shirt",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit basic reward listing in the all-186 PQ guide; exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-057",
+      "relationship": "pq_rewards_equipment",
+      "target": "Gogeta's Clothes",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Explicit basic reward listing in the all-186 PQ guide; exact reward/drop condition remains separate."
     }
   ],
   "normalization_rules": [
@@ -6410,16 +6442,16 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 137,
+    "pq_rewards_equipment": 141,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 862,
-    "total_relationships": 863
+    "total": 867,
+    "total_relationships": 867
   },
-  "last_reconciled_scope": "PQ 1-186; Batch 691 added the canonical Tapion's Sword PQ22 equipment relationship and resolved three accessory identities.",
+  "last_reconciled_scope": "PQ51-63 equipment reward enrichment; source-backed explicit reward names promoted without inferring drop conditions.",
   "notes": [
     "2",
     "0",
