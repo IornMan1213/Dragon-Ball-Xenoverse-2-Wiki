@@ -7099,3 +7099,8 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Restored twelve previously documented Universal/All-CaC race classifications into a sync-ready research batch.
 - [x] Preserved the distinction between Candy Beam (Super) and the Majin-only Evasive Candy Beam.
 - [ ] Promote through canonical skills-sync when available and validated.
+
+
+### 2026-09-29 continuation — Awoken provenance
+- [x] Add direct-source provenance for Universal Awoken race classifications: Kaioken, Potential Unleashed, Beast, Ultra Instinct.
+- [ ] Promote/validate through the canonical Awoken pipeline when available.
