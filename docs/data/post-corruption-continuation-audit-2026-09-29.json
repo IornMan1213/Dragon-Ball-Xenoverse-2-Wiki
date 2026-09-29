@@ -10,11 +10,11 @@
   "live_main_working_baseline": {
     "canonical_skills": 549,
     "skills_index": 549,
-    "pq_reward_relationships": 862,
+    "pq_reward_relationships": 870,
     "pq_reward_counts": {
       "skill": 249,
       "super_soul": 135,
-      "equipment": 136,
+      "equipment": 144,
       "character": 247,
       "dlc": 88,
       "farming": 7
@@ -59,10 +59,35 @@
     "Continue exact per-skill race_restriction evidence for the remaining null CaC cohort; preserve null when direct evidence is insufficient.",
     "Continue older DLC/free-update provenance with explicit named-skill/count evidence.",
     "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment after recovery, using canonical forward data as the source of truth.",
-    "Resolve only explicit accessory component identities; do not merge set components or wigs without inventory-level evidence."
+    "Resolve only explicit accessory component identities; do not merge set components or wigs without inventory-level evidence.",
+    "Freshly audit canonical PQ equipment_rewards object IDs against equipment-record-layer identities before each new promotion batch."
   ],
   "validation_boundary": {
     "runtime_ci_build": "unverified_non_blocking",
     "note": "GitHub Actions diagnostics remain unavailable through the connected API; no success is claimed from unavailable runtime logs."
+  },
+  "batch_694": {
+    "schema_version": "1.0.0",
+    "audit_date": "2026-09-29",
+    "batch": "PQ record-layer equipment identity reconciliation",
+    "promoted": [
+      {
+        "pq": "pq-025",
+        "target": "Android 18's Clothes (Skirt)"
+      },
+      {
+        "pq": "pq-025",
+        "target": "Android 17's Clothes"
+      },
+      {
+        "pq": "pq-134",
+        "target": "Broly (Full Power Super Saiyan)'s Clothes"
+      }
+    ],
+    "method": "Compared canonical PQ equipment_rewards against canonical equipment-record-layer IDs/names; promoted only previously absent exact identities.",
+    "added_edges": 3,
+    "post_total": 870,
+    "post_equipment_edges": 144,
+    "evidence_boundary": "No drop probability, Ultimate Finish condition, or inventory identity was inferred."
   }
 }
