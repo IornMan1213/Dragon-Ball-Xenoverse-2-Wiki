@@ -7340,3 +7340,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved canonical inventory identity and reward-condition boundaries.
 - [ ] Runtime/CI remains intentionally unverified.
 - [ ] **Next:** continue fresh evidence-backed PQ equipment/Super Soul enrichment in ranges not already reconciled; then resolve exact canonical equipment identities where evidence permits.
+
+
+### 2026-09-29 continuation — Batch 694: PQ equipment identity reconciliation
+- [x] Compared canonical PQ equipment reward fields against canonical equipment identities.
+- [x] Added 3 source-backed missing forward edges: PQ25 → Android 18's Clothes (Skirt); PQ25 → Android 17's Clothes; PQ134 → Broly (Full Power Super Saiyan)'s Clothes.
+- [x] Regenerated the reverse cross-domain projection and recomputed canonical relationship totals: 870 total / 144 equipment.
+- [x] Updated the post-corruption recovery checkpoint.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Next:** continue fresh canonical PQ equipment/Super Soul reconciliation; do not infer unsupported reward mechanics or merge ambiguous component identities.
