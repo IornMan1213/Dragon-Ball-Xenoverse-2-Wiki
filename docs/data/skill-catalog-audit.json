@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 635,
+  "latest_research_batch": 637,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
-  "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
+  "current_research_focus": "Post-frontier canonical recovery: restore exact CaC-usable historical records with established identity IDs, then move to race-specific and transformation enrichment.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -896,5 +896,26 @@
     "identity_key_count": 548,
     "duplicate_identity_groups": 0,
     "no_speculative_ids_added": true
+  },
+  "recovery_batch_637": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "type": "canonical_recovery_and_index_sync",
+    "restored": [
+      "Candy Beam (Evasive)"
+    ],
+    "source_batches": [
+      21,
+      529
+    ],
+    "canonical_previous": 548,
+    "canonical_records": 549,
+    "index_records": 549,
+    "canonical_index_count_parity": true,
+    "canonical_index_name_parity": true,
+    "duplicate_canonical_ids": 0,
+    "canonical_id": "skill-candy-beam-evasive",
+    "pq_relationship_mutations": 0,
+    "boundary": "Go-Go Gum remains a confirmed CaC-positive indexed identity but is not promoted until exact canonical identity/evidence is established. No speculative ID was created."
   }
 }
