@@ -6540,3 +6540,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated Batch 617 manifest and skill catalog audit with live 514/514 parity.
 - [ ] Complete a fresh indexed-only census; the older unresolved-count field is explicitly stale/pending and must not be treated as current.
 - [ ] Continue historical CaC-usable Ki Blast Super recovery, excluding cast-only/special-mode identities.
+
+
+### 2026-09-29 — Batch 618 recovery checkpoint
+- [x] Restored Light Grenade (Super) to canonical skill data from historical Batch 274 evidence (`usable_by_cac=true`, Piccolo training acquisition, 100 Ki).
+- [x] Preserved Light Grenade (Super) as distinct from Light Grenade (Ultimate); no variant collapse was performed.
+- [x] Synchronized canonical skill store and skill index at 515 records each with exact name parity.
+- [x] Updated docs/data/skill-catalog-audit.json and added docs/data/skill-research-batches/skill-batch-618.json.
+- [x] Updated docs/AI-CONTINUATION-PROMPT.md with the cumulative 614–618 recovery state.
+- [ ] Complete a fresh indexed-only census; stale historical unresolved-count fields must not be treated as current.
+- [ ] Continue historical CaC-usable Ki Blast Super recovery beyond Batch 274, excluding aliases, cast-only, festival/special-mode, and unresolved identities.
