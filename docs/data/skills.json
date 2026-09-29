@@ -3249,6 +3249,29 @@
       ]
     },
     {
+      "name": "Destructive Ray",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Cooler (Fourth Form) / Metal Cooler / Frieza",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": false,
+      "skill_description": "Fires twin eye beams that stun the opponent for about one second.",
+      "mechanics_notes": "Fires twin eye beams that stun the opponent for about one second.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Destructive_Ray"
+      ]
+    },
+    {
       "name": "Destructo-Disc",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -8141,6 +8164,75 @@
       "id": "skill-ice-claw"
     },
     {
+      "name": "III Bomber",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Super Buu (Gotenks Absorbed)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "skill_description": "Launches multiple pink Ki projectiles associated with Super Buu's III techniques.",
+      "mechanics_notes": "Launches multiple pink Ki projectiles associated with Super Buu's III techniques.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Buu"
+      ]
+    },
+    {
+      "name": "III Flash",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Super Buu (Gotenks Absorbed)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Training with Super Buu",
+      "source_quest_or_shop": "Training with Super Buu",
+      "ultimate_finish_required": false,
+      "skill_description": "Fires a fast Ki projectile associated with Super Buu's III techniques.",
+      "mechanics_notes": "Fires a fast Ki projectile associated with Super Buu's III techniques.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/III_Flash"
+      ]
+    },
+    {
+      "name": "III Rain",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Super Buu (Evil 1)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 64 - Beerus the Impulsive",
+      "source_quest_or_shop": "Parallel Quest 64 - Beerus the Impulsive",
+      "ultimate_finish_required": false,
+      "skill_description": "Launches a projectile upward that disperses into three smaller blasts.",
+      "mechanics_notes": "Launches a projectile upward that disperses into three smaller blasts.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/III_Rain"
+      ]
+    },
+    {
       "name": "Ill Bomber",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -11800,6 +11892,29 @@
       "id": "skill-secret-poison"
     },
     {
+      "name": "Senko Ki Blast",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Trunks (Future)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Training with Future Trunks",
+      "source_quest_or_shop": "Training with Future Trunks",
+      "ultimate_finish_required": false,
+      "skill_description": "Fires a fast Ki blast followed by a bright flash that can obscure the opponent's view.",
+      "mechanics_notes": "Fires a fast Ki blast followed by a bright flash that can obscure the opponent's view.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Senko_Ki_Blast"
+      ]
+    },
+    {
       "name": "Shadow Crusher",
       "class": "Super",
       "subcategory": "Strike",
@@ -12642,6 +12757,29 @@
       "ki_cost_note": "Current repository mechanics evidence explicitly identifies a 400-Ki activation cost; exact patch-sensitive scaling remains separate."
     },
     {
+      "name": "Split Finger Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Vegeta",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "skill_description": "Fires several small Ki projectiles from the fingers.",
+      "mechanics_notes": "Fires several small Ki projectiles from the fingers.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Category%3AKi_Blast_Supers"
+      ]
+    },
+    {
       "name": "Spread Shot Retreat",
       "class": "Evasive",
       "subcategory": "Ki Blast",
@@ -13260,6 +13398,29 @@
         "mentor-gotenks"
       ],
       "ki_cost": 300
+    },
+    {
+      "name": "Super Ghost Kamikaze Attack (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Gotenks",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Training with Gotenks",
+      "source_quest_or_shop": "Training with Gotenks",
+      "ultimate_finish_required": false,
+      "skill_description": "Creates ghost projectiles that pursue the opponent and explode on contact.",
+      "mechanics_notes": "Creates ghost projectiles that pursue the opponent and explode on contact.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mentors"
+      ]
     },
     {
       "name": "Super God Fist",
@@ -14037,6 +14198,29 @@
         "mentor-hercule"
       ],
       "ki_cost": 300
+    },
+    {
+      "name": "Thunder Eraser",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Super 17",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Training with Super 17",
+      "source_quest_or_shop": "Training with Super 17",
+      "ultimate_finish_required": false,
+      "skill_description": "Fires a concentrated lightning-like energy blast.",
+      "mechanics_notes": "Fires a concentrated lightning-like energy blast.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Eraser"
+      ]
     },
     {
       "name": "Thunder Flash",
@@ -15180,6 +15364,26 @@
         613
       ],
       "basis": "Historical repository research batches and exact live-repository search evidence; no canonical ID inferred."
+    },
+    "recovery_batch_615": {
+      "batch": 615,
+      "date": "2026-09-29",
+      "restored": [
+        "Destructive Ray",
+        "Senko Ki Blast",
+        "Thunder Eraser",
+        "III Flash",
+        "III Bomber",
+        "III Rain",
+        "Super Ghost Kamikaze Attack (Super)",
+        "Split Finger Shot"
+      ],
+      "source_batches": [
+        260,
+        262,
+        263
+      ],
+      "basis": "Historical repository research; no IDs inferred."
     }
   }
 }
