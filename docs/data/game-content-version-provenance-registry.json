@@ -455,17 +455,17 @@
     {
       "id": "extra-pack-4",
       "kind": "dlc",
-      "date": "2018-12-18",
+      "date": "2018-12-19",
       "source_ids": [
         "bn_xv2_official_site_2026",
         "steam_extra_pack_4_2018",
         "community_dlc_skill_catalog"
       ],
       "skill_count": 8,
-      "assignment_status": "Individual provenance reconciled for all 8 skills using official pack count plus named maintained catalog and canonical PQ128-PQ132 reward mappings. Release date is provenance only; no game version/patch inferred."
+      "assignment_status": "Individual provenance reconciled for all 8 skills using official pack count plus named maintained catalog and canonical PQ128-PQ132 reward mappings. Platform release evidence records Steam on 2018-12-18; the event date uses the commonly documented 2018-12-19 console release. Release dates are provenance only; no game version/patch inferred."
     }
   ],
-  "next_step": "Continue the older DLC/free-update provenance frontier with Super Pack and early Extra Pack cohorts that have explicit official skill counts or named skill evidence. Extra Pack 3 and Extra Pack 4 are now individually reconciled at 8/8 each; keep release dates separate from game version/patch labels.",
+  "next_step": "Continue the older DLC/free-update provenance frontier with Super Pack and early Extra Pack cohorts that have explicit official skill counts or named skill evidence. Extra Pack 3 and Extra Pack 4 are now individually reconciled at 8/8 each; preserve platform-specific release-date differences.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
