@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-28",
-  "latest_research_batch": 590,
+  "latest_research_batch": 591,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
   "current_research_focus": "Canonical database remains reconciled at 497 skills and 862 PQ relationship edges. Version/patch provenance is the active field-level layer; Future Saga Chapter 1 has all 15 registered skills individually mapped to its release event, and the March 2018 Free Update now has direct official provenance for Super Saiyan God Super Saiyan. Four 4th Festival identities remain outside skills.json because exact internal IDs are unresolved.",
@@ -283,6 +283,15 @@
     "canonical_records_promoted": 0,
     "rule": "Indexed-name presence is evidence of catalog coverage, not proof of canonical inclusion or an internal ID. Do not infer IDs from names, preset order, reward order, filenames, or numbering.",
     "canonical_source": "docs/data/skills.json"
+  },
+  "free_update_2023_provenance_reconciliation_2026_09_29": {
+    "batch": 591,
+    "event_id": "free-update-2023-10-12",
+    "direct_skill_mappings_added": ["skill-ultra-instinct"],
+    "source_id": "bn_xv2_free_update_2023_10_12",
+    "confidence": "direct",
+    "canonical_mutations": 0,
+    "unsupported_version_assignments": 0
   },
   "free_update_2018_provenance_reconciliation_2026_09_29": {
     "batch": 590,
