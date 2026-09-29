@@ -7621,3 +7621,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-657.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 658
+- [x] Reviewed Blaster Stream, Break Strike, Chaotic Time Impact, Evil Explosion (Super), and Minus Energy Power Ball.
+- [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-658.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
