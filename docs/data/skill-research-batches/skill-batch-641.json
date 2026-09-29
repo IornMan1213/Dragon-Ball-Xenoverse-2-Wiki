@@ -1,0 +1,145 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 641,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "super_pack_1_and_4_provenance_reconciliation",
+  "scope": "Reconcile the official five-attack counts for Super Pack 1 and Super Pack 4 against canonical skill identities without treating DLC labels as sufficient evidence.",
+  "sources": [
+    {
+      "id": "steam_super_pack_1_2016",
+      "url": "https://store.steampowered.com/app/508400",
+      "finding": "Super Pack 1 released December 20, 2016 and contains five new attacks."
+    },
+    {
+      "id": "steam_super_pack_4_2017",
+      "url": "https://store.steampowered.com/app/508403",
+      "finding": "Super Pack 4 released June 27, 2017 and contains five new attacks for the avatar."
+    }
+  ],
+  "records": [
+    {
+      "skill_id": "skill-breaker-energy-wave",
+      "skill_name": "Breaker Energy Wave",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-back-breaker",
+      "skill_name": "Time Skip/Back Breaker",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-flash-skewer",
+      "skill_name": "Time Skip/Flash Skewer",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-jump-spike",
+      "skill_name": "Time Skip/Jump Spike",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-time-skip-tremor-pulse",
+      "skill_name": "Time Skip/Tremor Pulse",
+      "event_id": "super-pack-1",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_1_2016"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-divinity-unleashed",
+      "skill_name": "Divinity Unleashed",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-holy-wrath",
+      "skill_name": "Holy Wrath",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-blades-of-judgment",
+      "skill_name": "Blades of Judgment",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-lightning-of-absolution",
+      "skill_name": "Lightning of Absolution",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-divine-wrath-purification",
+      "skill_name": "Divine Wrath: Purification",
+      "event_id": "super-pack-4",
+      "evidence_type": "official_named_dlc_count_plus_canonical_identity",
+      "source_ids": [
+        "steam_super_pack_4_2017"
+      ],
+      "confidence": "direct",
+      "canonical_mutation": false
+    }
+  ],
+  "validation": {
+    "records_reviewed": 10,
+    "direct_mappings_added": 10,
+    "canonical_skill_records_created": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "boundary": {
+    "sp1": "Official source provides a five-attack count; all five current canonical Super Pack 1 skill records are mapped.",
+    "sp4": "Official source provides a five-avatar-attack count. The canonical DLC-labeled cohort contains additional character-exclusive records and Sword of Hope; those are not automatically assigned here.",
+    "version": "Release dates are DLC event provenance, not inferred game patch/version numbers."
+  },
+  "next": "Audit Super Pack 4 DLC-label anomalies and begin the 79-record race_restriction evidence frontier."
+}
