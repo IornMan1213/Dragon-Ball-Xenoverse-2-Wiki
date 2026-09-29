@@ -177,6 +177,14 @@
       "date": "2026-07-09",
       "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "scope": "Current guide explicitly lists Future Saga Chapter 4 PQ185 rewards Dragon Spiral and Indomitable, and PQ186 reward Venus Fist."
+    },
+    {
+      "id": "community_pq_163_177_skill_catalog_2026",
+      "publisher": "Steam community / maintained PQ skill catalog evidence",
+      "title": "Dragon Ball Xenoverse 2 PQ163-PQ177 skill reward catalog",
+      "date": "2026-09-17",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "scope": "Individual skill identities and PQ acquisition evidence for Future Saga Chapter 1 PQ skill rewards; used as corroborating skill-level evidence, not as official release-date evidence."
     }
   ],
   "events": [
@@ -280,7 +288,7 @@
       "assignment_status": "Official event-level provenance established; four Festival skill names are recovered in the evidence layer but exact canonical IDs remain unresolved. Free update remains separate from the paid DAIMA Pack."
     }
   ],
-  "next_step": "Continue substantive canonical skill provenance/mechanics enrichment outside the already-audited Festival identity gap. Revisit the four Festival IDs only when an exact structured historical artifact or canonical blob exposes them. Do not assign game versions from research dates or inference.",
+  "next_step": "Chapter 1 now has evidence-backed individual mappings for all 15 registered skills. Continue with the next DLC-era canonical provenance cohort, prioritizing event skill counts whose individual mappings remain incomplete; do not infer game versions from research dates.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -614,6 +622,138 @@
       ],
       "confidence": "direct_scope",
       "basis": "Official release notice establishes DAIMA Pack player-skill content; canonical skill record identifies this move as belonging to the DAIMA Pack."
+    },
+    {
+      "skill_id": "skill-giant-cluster",
+      "skill_name": "Gigantic Cluster",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Giant Cluster as a skill reward from PQ163; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-eraser-bomb",
+      "skill_name": "Eraser Bomb",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Eraser Bomb as a skill reward from PQ163; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-gigantic-explosion",
+      "skill_name": "Gigantic Explosion",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Gigantic Explosion as a skill reward from PQ164; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-variable-snipe-shot",
+      "skill_name": "Variable Snipe Shot",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Variable Snipe Shot as a skill reward from PQ165; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-steel-mirage",
+      "skill_name": "Steel Mirage",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Steel Mirage as a skill reward from PQ165; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-pendulum-bullet",
+      "skill_name": "Pendulum Bullet",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Pendulum Bullet as a skill reward from PQ166; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-seagull-combination",
+      "skill_name": "Seagull Combination",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Seagull Combination as a skill reward from PQ167; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-burning-swan",
+      "skill_name": "Burning Swan",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Burning Swan as a skill reward from PQ167; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-justice-drive",
+      "skill_name": "Justice Drive",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Justice Drive as a skill reward from PQ168; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-divine-ray-bomb",
+      "skill_name": "Divine Ray Bomb",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Divine Ray Bomb as a skill reward from PQ173; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-final-rampage",
+      "skill_name": "Final Rampage",
+      "event_id": "future-saga-chapter-1",
+      "evidence_type": "official_event_plus_pq_skill_catalog",
+      "source_ids": [
+        "bn_future_saga_ch1_2024",
+        "community_pq_163_177_skill_catalog_2026"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Final Rampage as a skill reward from PQ174; this establishes event association without inferring a game patch/version."
     }
   ],
   "research_gaps": [
@@ -752,5 +892,6 @@
       "status": "named-but-canonical-record-missing",
       "note": "Named event skill recovered from Festival catalog/event evidence; canonical skills.json currently lacks a matching record, so no canonical ID or direct skill mapping is invented."
     }
-  ]
+  ],
+  "last_updated": "2026-09-29"
 }
