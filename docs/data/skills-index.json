@@ -11480,6 +11480,193 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74495441",
         "https://xvguide.neocities.org/Skill"
       ]
+    },
+    {
+      "name": "Gigantic Ki Blast",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Expert Mission 18: The Ultimate Evil: Broly!",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": false,
+      "id": "skill-gigantic-ki-blast",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Minus Energy Power Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Shenron wish: I want another Ultimate Attack! (again)",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-minus-energy-power-ball",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Minus_Energy_Power_Ball"
+      ]
+    },
+    {
+      "name": "Serious Bomb",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-serious-bomb",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Serious_Bomb"
+      ]
+    },
+    {
+      "name": "Super Vanishing Ball",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-super-vanishing-ball",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Vanishing_Ball"
+      ]
+    },
+    {
+      "name": "Crusher Volcano",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-crusher-volcano",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Vacation Delete",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 300,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-vacation-delete",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ]
+    },
+    {
+      "name": "Spinning Blade",
+      "class": "Evasive",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 300,
+      "dlc_requirement": null,
+      "unlock_method": "Ultimate Finish reward from PQ15 - Gotta Find That Dragon Ball!",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": true,
+      "id": "skill-spinning-blade",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spinning_Blade",
+        "https://dragonball.fandom.com/wiki/Spinning_Blade"
+      ]
+    },
+    {
+      "name": "Armored Boost",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 300,
+      "dlc_requirement": null,
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": false,
+      "id": "skill-armored-boost"
+    },
+    {
+      "name": "Miracle Kneel",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 300,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": false,
+      "id": "skill-miracle-kneel"
+    },
+    {
+      "name": "Super Explosive Wave (Evasive)",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": 200,
+      "dlc_requirement": null,
+      "unlock_method": "Training with Piccolo",
+      "source_quest_or_shop": "Piccolo training",
+      "ultimate_finish_required": false,
+      "id": "skill-super-explosive-wave-evasive",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_(Evasive)",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
     }
   ],
   "last_updated": "2026-09-29",
