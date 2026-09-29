@@ -84,3 +84,11 @@ Pre-transformed roster characters, enemy-only states, and mod-only forms are not
 - Clarified that the retail CaC Awoken Skill is **Ultra Instinct**, while **Ultra Instinct -Sign-** is not a retail equippable CaC Awoken Skill.
 - Prevented third-party guide wording from incorrectly creating a Universal race classification for Sign.
 - CaC Ultra Instinct -Sign- implementations found in current mod references are explicitly mod-based, so they are not promoted into the retail CaC Awoken dataset.
+
+
+## 2026-09-29 — Awoken Batch 675: cast-exclusive scope
+
+- Added awoken-research-batches/awoken-batch-675.json.
+- Explicitly classified Super Saiyan Blue Kaioken, Pure Progress, and Supersonic Mode as cast-exclusive and unavailable to retail CaCs.
+- Kept race_restriction null for these records: cast exclusivity is a scope property, not a CaC race restriction.
+- Supersonic Mode is corroborated by the official Dragon Ball announcement identifying it as Dyspo's Awoken Skill.
