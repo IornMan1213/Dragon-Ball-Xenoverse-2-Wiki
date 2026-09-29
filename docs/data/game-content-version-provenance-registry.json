@@ -66,6 +66,14 @@
       "scope": "Free Update content including Beast Awoken Skill."
     },
     {
+      "id": "bn_xv2_dlc_pack_preview_2016",
+      "publisher": "Bandai Namco Entertainment America",
+      "title": "DRAGON BALL XENOVERSE 2 DLC Pack Preview",
+      "date": "2016-11-21",
+      "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-dlc-pack-preview",
+      "scope": "Official preview for the December 20 2016 update and first DLC Pack; explicitly names Kaioken times 10 and Pure Progress as free-update Awoken Skills and separates the DLC Pack's five new attacks."
+    },
+    {
       "id": "bn_xv2_free_update_extra2_2018",
       "publisher": "Bandai Namco Entertainment Europe",
       "title": "Free Update and Extra Pack 2 available for DRAGON BALL XENOVERSE 2",
@@ -360,6 +368,14 @@
       ],
       "skill_count": 9,
       "assignment_status": "Nine individual skill mappings reconciled from the official count plus maintained named skill catalog/canonical records; no game version or patch number inferred."
+    },
+    {
+      "id": "free-update-2016-12-20",
+      "kind": "free_update",
+      "date": "2016-12-20",
+      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "skill_count": 2,
+      "assignment_status": "Two individual named Awoken Skill mappings established directly; four additional unnamed free-update attacks remain event-scope-only. No game version/patch number inferred."
     },
     {
       "id": "extra-pack-2",
@@ -982,6 +998,24 @@
       "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
     },
     {
+      "skill_id": "skill-super-saiyan-blue-kaioken",
+      "skill_name": "Super Saiyan Blue Kaioken",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_named_skill_identity",
+      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "confidence": "direct",
+      "basis": "Official preview explicitly names Kaioken times 10 as SSGSS Goku's new Awakened Skill in the December 20 update; canonical Xenoverse 2 identity is Super Saiyan Blue Kaioken, whose existing repository evidence documents normal and x10 stages."
+    },
+    {
+      "skill_id": "skill-pure-progress",
+      "skill_name": "Pure Progress",
+      "event_id": "free-update-2016-12-20",
+      "evidence_type": "official_named_skill_identity",
+      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "confidence": "direct",
+      "basis": "Official preview explicitly names Pure Progress as Hit's new Awakened Skill in the December 20 update, matching the canonical Xenoverse 2 skill identity."
+    },
+    {
       "skill_id": "skill-soaring-fist",
       "skill_name": "Soaring Fist",
       "event_id": "extra-pack-2",
@@ -1103,6 +1137,13 @@
     }
   ],
   "research_gaps": [
+    {
+      "id": "free-update-2016-12-20-unnamed-attacks",
+      "status": "event-scope-only",
+      "claim": "The official preview states the free update added four additional attacks beyond the two named Awoken Skills, but the accessible source does not name those four attacks.",
+      "source_ids": ["bn_xv2_dlc_pack_preview_2016"],
+      "action": "Do not infer the four canonical identities from DLC proximity or reward ordering; resolve only with direct skill-level evidence."
+    },
     {
       "id": "daima-free-update-skill-scope-2025-05-21",
       "status": "open",
