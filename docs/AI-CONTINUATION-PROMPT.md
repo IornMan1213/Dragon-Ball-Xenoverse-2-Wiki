@@ -7751,3 +7751,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Used the historical 2026-09-19 race census plus the dedicated Future Warrior technique reference; no verification-status field was treated as source of truth.
 - [x] Updated the catalog audit.
 - [ ] Canonical promotion remains pending successful skills-sync.
+
+
+### 2026-09-29 continuation — Awoken race provenance Batch 671
+- [x] Added Awoken Batch 671 covering Kaioken, Potential Unleashed, Beast, and Ultra Instinct.
+- [x] Hardened Universal race-eligibility provenance using direct Future Warrior documentation plus repository normalization rules.
+- [x] Preserved canonical-data-first policy; no verified projection was used as source of truth.
+- [ ] Canonical promotion remains pending successful validation/sync.
