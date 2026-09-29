@@ -7177,3 +7177,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No new race classifications were promoted; null remains the evidence boundary where direct race/gender/form evidence is absent.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** audit the corrected 76-record frontier in fresh direct-evidence batches, avoiding repeated prior audits; prioritize explicit race/gender/form wording before resuming older DLC/free-update provenance and bidirectional enrichment.
+
+
+### 2026-09-29 continuation — Race restriction Batch 683
+- [x] Freshly reconciled the current synchronized skill index: **74** CaC-usable records currently retain `race_restriction: null`; the earlier 76-record handoff count was stale after subsequent canonical promotions.
+- [x] Added `docs/data/skill-research-batches/skill-batch-683.json` and `docs/data/race-restriction-audit-2026-09-29-batch-683.json`.
+- [x] Reviewed **Turn Retreat, Ultra Fighting Bomber, X4 Kaioken Kamehameha, and Super Galick Gun** against current Xenoverse/Future Warrior references.
+- [x] Preserved all four as null because the reviewed evidence establishes CaC/Future Warrior availability but does not explicitly establish all-races or a narrower retail race/gender/form restriction.
+- [x] No canonical skill records were mutated; `docs/data/skills.json` remains the sole canonical source of truth.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose the failing job-step logs.
+- [ ] **Exact next:** continue the remaining 70-record null race-restriction frontier without repeating prior reviewed identities; promote only direct skill-specific retail eligibility evidence, then return to older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
