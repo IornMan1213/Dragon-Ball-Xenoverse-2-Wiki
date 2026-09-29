@@ -1,0 +1,54 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 608,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Fresh direct-source race-restriction audit for six Extra Pack 4 PQ skills retaining null race_restriction.",
+  "records": [
+    {
+      "name": "Gigantic Charge",
+      "race_restriction_result": null,
+      "evidence": "Current repository record and Future Warrior technique listing establish CaC availability and Broly association; no narrower race/gender/form restriction established."
+    },
+    {
+      "name": "Spirit Blaster",
+      "race_restriction_result": null,
+      "evidence": "Current repository record and Future Warrior technique listing establish CaC availability and SSGSS Gogeta association; no narrower race/gender/form restriction established."
+    },
+    {
+      "name": "Punisher Shield",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies the skill as a CaC-usable Extra Pack 4 skill; reviewed sources do not establish a narrower race/gender/form restriction."
+    },
+    {
+      "name": "Gigantic Rage",
+      "race_restriction_result": null,
+      "evidence": "Current repository distinguishes the CaC-usable skill from NPC-only variants; reviewed sources establish Broly association but no narrower CaC race/gender/form restriction."
+    },
+    {
+      "name": "Assault Vanish",
+      "race_restriction_result": null,
+      "evidence": "Current repository record and Future Warrior technique listing establish CaC availability; no narrower race/gender/form restriction established."
+    },
+    {
+      "name": "God Punisher",
+      "race_restriction_result": null,
+      "evidence": "Current repository record and Future Warrior technique listing establish CaC availability and SSGSS Gogeta association; no narrower race/gender/form restriction established."
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/DLC",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://steamcommunity.com/app/454650/discussions/0/1741105805749702890/",
+    "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Community ID flags are corroboration only; they are not promoted as canonical source-of-truth. NPC ownership, DLC grouping, and CaC usability do not prove an unrestricted all-race claim.",
+  "next": "Continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records."
+}
