@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 686,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Direct skill-specific follow-up on five genuinely less-recently-covered null race_restriction CaC-usable records.",
+  "canonical_authority": "docs/data/skills.json",
+  "verification_policy": "Only explicit retail CaC race/gender/form eligibility wording may populate race_restriction. Future Warrior usability, character ownership, build recommendations, or general availability do not by themselves establish a race restriction.",
+  "records": [
+    {
+      "name": "Backflip",
+      "race_restriction_result": null,
+      "evidence": "Current skill documentation identifies Backflip as obtainable by the Future Warrior/Time Patroller from the Skill Shop and lists it as a defense/evasive skill, but does not explicitly state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Backflip",
+        "https://animated-character-database.fandom.com/wiki/Backflip"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Blades of Judgement",
+      "race_restriction_result": null,
+      "evidence": "Current references identify Blades of Judgement as Fused Zamasu's Super and state that the Future Warrior can obtain it from PQ112. No explicit CaC race/gender/form restriction is stated; character ownership is not treated as race evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blades_of_Judgement",
+        "https://dragonball.fandom.com/wiki/Blades_of_Judgement"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Circle Flash",
+      "race_restriction_result": null,
+      "evidence": "Current skill documentation identifies Circle Flash as Dyspo's Ultimate obtained from PQ154 and provides mechanics/build discussion, but no explicit retail CaC race/gender/form eligibility wording was found. Do not infer a race restriction from Dyspo ownership.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Circle_Flash",
+        "https://dbxv2.fandom.com/wiki/Ultimate_Attack"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Energy Wave Combo",
+      "race_restriction_result": null,
+      "evidence": "Current documentation identifies Energy Wave Combo as a Skill Shop Super and as one of the Future Warrior's default Super Skills. This establishes CaC availability but does not explicitly state an all-races or narrower race/gender/form restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Double Buster",
+      "race_restriction_result": null,
+      "evidence": "Current documentation identifies Double Buster as Kid Trunks' Super and Skill Shop acquisition; Future Warrior technique references place it among learnable character techniques but do not state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Buster",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "conclusion": "preserve_null"
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "nulls_preserved": 5,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "next": "Continue only genuinely unreviewed null-race identities. Once the null boundary is sufficiently reconciled, advance to DLC/free-update provenance, mechanics enrichment, and cross-database relationship completeness."
+}
