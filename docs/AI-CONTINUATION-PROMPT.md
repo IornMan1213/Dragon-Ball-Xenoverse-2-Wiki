@@ -7901,3 +7901,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Early Super Pack 1-4 provenance/mapping work remains preserved in Batches 639-642; do not repeat it as unfinished work.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] Exact next: continue remaining early free-update provenance and direct skill-level mappings, then advance to mechanics and cross-database completeness.
+
+
+### 2026-09-29 continuation — Batch 688: February 2017 free-update provenance
+- [x] Corrected the early free-update attribution boundary: the five named attacks **Jumping Energy Wave, Menacing Flare, Focus Flash, Wild Hunt, and Tail Slicer** belong to the February 27, 2017 free update, not the December 2016 event.
+- [x] Added `free-update-2017-02-27` to the provenance registry and recorded all five named attack mappings in `skill-batch-688.json`.
+- [x] Restored the December 2016 event to its prior boundary: two directly named Awoken Skills plus four unnamed attacks remaining event-scope-only.
+- [x] No canonical skill mutation or unsupported patch/version assignment was made.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: continue remaining early free-update provenance and direct skill-level evidence, then move into mechanics/cross-database completeness.
