@@ -16135,6 +16135,63 @@
         "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ],
       "id": "skill-super-explosive-wave-evasive"
+    },
+    {
+      "name": "Super Drain",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Android 19; Android 19 (Customize Partner)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Strike",
+      "unlock_method": "Parallel Quest 28 — Take Back the Dragon Balls!; Ultimate Finish reward after defeating Cell",
+      "source_quest_or_shop": "Parallel Quest 28",
+      "ultimate_finish_required": true,
+      "skill_description": "Close-range drain attack that steals stamina from the opponent and restores it to the user.",
+      "mechanics_notes": "Historical research documents a 100-Ki Strike Super and three-bar stamina transfer; exact damage/timing remain version-sensitive.",
+      "research_status": "partially_enriched",
+      "verification_status": "verified",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Drain",
+        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71316424",
+        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71353427",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ],
+      "id": "skill-super-drain",
+      "source_parallel_quests": [
+        28
+      ]
+    },
+    {
+      "name": "X100 Big Bang Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Gogeta (Super Saiyan 4); Gogeta (Super Saiyan Blue)",
+      "dlc_requirement": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 100 — The Ultimate Rivalry",
+      "source_quest_or_shop": "Parallel Quest 100 — The Ultimate Rivalry",
+      "ultimate_finish_required": null,
+      "skill_description": "Large combined Big Bang Attack/Kamehameha beam.",
+      "mechanics_notes": "Current-evidence research supports the combined beam and CaC usability; exact charge, timing, scaling, and reward-slot semantics remain unresolved.",
+      "research_status": "partially_enriched",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha"
+      ],
+      "id": "skill-x100-big-bang-kamehameha",
+      "source_parallel_quests": [
+        100
+      ]
     }
   ],
   "last_verified": "2026-09-27",
@@ -16277,6 +16334,21 @@
       "removed_identity": "Die Die Missile Barrage",
       "retained_identity": "DIE DIE Missile Barrage",
       "rule": "Case-insensitive canonical name/class/subcategory identity; retained the richer current-evidence record and removed the older duplicate shell."
+    },
+    "skill_research_batch_625": {
+      "batch": 625,
+      "date": "2026-09-29",
+      "type": "canonical_recovery",
+      "records_promoted": 2,
+      "names": [
+        "Super Drain",
+        "X100 Big Bang Kamehameha"
+      ],
+      "source_batches": [
+        17,
+        535
+      ],
+      "boundary": "Aura Slide was intentionally not promoted because historical evidence leaves usable_by_cac unresolved; only explicit true CaC identities were promoted."
     }
   }
 }
