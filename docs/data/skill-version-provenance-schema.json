@@ -68,7 +68,7 @@
       "Gamma Force: Code-B (Festival)"
     ],
     "unresolved_festival_internal_ids": 4,
-    "next": "Evidence-bound race_restriction candidate research for 79 null canonical records; retain DLC attribution boundaries and avoid canonical mutation without sufficient evidence."
+    "next": "Target exact non-Awoken race-restricted skills with direct evidence; preserve null when evidence is insufficient."
   },
   "canonical_action": "No canonical skills.json mutation in this batch; provenance metadata reconciled to the post-corruption 549-record synchronized baseline.",
   "next": "Use this contract to structure future evidence-backed provenance records, prioritizing skills with explicit release/update evidence and leaving unsupported version fields null.",
