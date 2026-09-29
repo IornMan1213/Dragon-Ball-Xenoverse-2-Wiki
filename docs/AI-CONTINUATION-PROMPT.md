@@ -7966,3 +7966,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Recorded the work in `docs/data/skill-research-batches/skill-batch-692.json`.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** use the reverse index as an audit surface and prioritize missing Super Soul and clothing/accessory reward edges across PQ1-186; resolve reward-slot/Ultimate-Finish conflicts separately.
+
+
+### 2026-09-29 continuation — Batch 692: PQ reverse-index reconciliation
+- [x] Added `docs/data/skill-research-batches/skill-batch-692.json`.
+- [x] Reconciled `docs/data/pq-cross-domain-reverse-index.json` as a projection of the current `pq-reward-relationships.json` graph.
+- [x] Current graph contains **863 source-backed edges**: 249 skill, 135 Super Soul, 137 equipment, 247 character, 88 DLC, and 7 farming edges.
+- [x] Reverse projection exposes 244 unique skills, 133 unique Super Souls, 134 unique equipment targets, 75 characters, 21 DLC targets, and 1 farming target.
+- [x] Duplicate target→PQ entries are collapsed in the reverse lists; absence from a reverse list is not treated as a negative claim.
+- [x] No canonical skill/PQ source mutation was made.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** use the reverse index for bidirectional coverage audits, then expand missing source-backed Super Soul/equipment edges and resolve reward-slot/Ultimate Finish conflicts.
