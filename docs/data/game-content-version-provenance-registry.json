@@ -255,9 +255,20 @@
         "bn_future_saga_ch4_2026"
       ],
       "assignment_status": "Announcement provenance only; release/change details require separate source evidence"
+    },
+    {
+      "id": "future-saga-chapter-4",
+      "kind": "dlc",
+      "date": "2026-07-08",
+      "source_ids": [
+        "db_official_future_saga_ch4_release_2026",
+        "official_ch4_dlc_page"
+      ],
+      "skill_count": 4,
+      "assignment_status": "Release-level provenance established; individual skill mapping remains evidence-backed. No game version/patch number inferred."
     }
   ],
-  "next_step": "Continue strengthening individual Chapter 3 and Chapter 4 skill provenance where primary sources name the move; otherwise preserve corroborated independent evidence and do not infer undocumented patch/version details.",
+  "next_step": "Audit remaining free-update DAIMA-era skill provenance separately from the paid DAIMA Pack, then continue individual Chapter 4 mechanics/provenance enrichment. Do not assign a game version or patch number without direct version evidence.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -643,10 +654,46 @@
     "canonical_mutation": false
   },
   "festival_skill_recovery_candidates": [
-    {"skill_name":"God Bind (Festival)","character":"Goku (Super Saiyan God)","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["skill-batch-264","fandom-god-bind-festival"]},
-    {"skill_name":"Egret Waltz (Festival)","character":"Videl (DB Super)","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["official_4th_festival_skills_2025","community_festival_skill_catalog"]},
-    {"skill_name":"Gamma Force: Code-R (Festival)","character":"Gamma 1","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["official_4th_festival_skills_2025","community_festival_skill_catalog"]},
-    {"skill_name":"Gamma Force: Code-B (Festival)","character":"Gamma 2","canonical_skill_id":null,"status":"recovery_candidate","source_ids":["official_4th_festival_skills_2025","community_festival_skill_catalog"]}
+    {
+      "skill_name": "God Bind (Festival)",
+      "character": "Goku (Super Saiyan God)",
+      "canonical_skill_id": null,
+      "status": "recovery_candidate",
+      "source_ids": [
+        "skill-batch-264",
+        "fandom-god-bind-festival"
+      ]
+    },
+    {
+      "skill_name": "Egret Waltz (Festival)",
+      "character": "Videl (DB Super)",
+      "canonical_skill_id": null,
+      "status": "recovery_candidate",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ]
+    },
+    {
+      "skill_name": "Gamma Force: Code-R (Festival)",
+      "character": "Gamma 1",
+      "canonical_skill_id": null,
+      "status": "recovery_candidate",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ]
+    },
+    {
+      "skill_name": "Gamma Force: Code-B (Festival)",
+      "character": "Gamma 2",
+      "canonical_skill_id": null,
+      "status": "recovery_candidate",
+      "source_ids": [
+        "official_4th_festival_skills_2025",
+        "community_festival_skill_catalog"
+      ]
+    }
   ],
   "named_event_skill_evidence": [
     {
