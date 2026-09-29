@@ -6275,3 +6275,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill or PQ relationship mutation; no unsupported version/patch assignment.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** select the next event with incomplete individual skill mappings and enrich it using direct skill/PQ evidence plus official event provenance; do not infer identities from DLC proximity alone.
+
+### 2026-09-29 continuation — Free Update 2018 SSGSS provenance reconciliation batch 590
+- [x] Bound the canonical **Super Saiyan God Super Saiyan** Awoken Skill (skill-super-saiyan-god-super-saiyan) directly to the **2018-03-01 Free Update** using Bandai Namco Europe's dated release notice.
+- [x] Confirmed the official notice explicitly identifies **SSGSS Transformations** as a new Awoken Skill in the Free Update.
+- [x] Kept **Limit Burst** separate: the same source identifies it as a new battle technique/system feature, not a canonical skill record, so no skill mapping was fabricated.
+- [x] Added docs/data/skill-research-batches/skill-batch-590.json and synchronized the authoritative game-content provenance registry and skill-catalog audit.
+- [x] No canonical skill record was created or altered, no PQ relationship changed, and no unsupported game-version/patch value was assigned.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue older free-update/DLC provenance cohorts where official sources explicitly name canonical skills, keeping release dates separate from patch/version labels; do not reopen resolved Festival/Chapter 1 work without new evidence.
+
