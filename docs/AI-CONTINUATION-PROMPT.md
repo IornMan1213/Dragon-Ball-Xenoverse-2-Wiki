@@ -7256,3 +7256,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Remaining indexed-only frontier is now **60** names.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue recovery using explicit CaC evidence and current-class correction where supported.
+
+
+### 2026-09-29 continuation — Post-corruption canonical recovery batch 628
+- [x] Repaired the authoritative skills forward store after a fresh live-state comparison against historical recovery evidence.
+- [x] Restored **Time Skip/Molotov** using the exact historical canonical ID `skill-time-skip-molotov`; no ID was inferred.
+- [x] Corrected **Super Dragon Flight** in place: the existing canonical ID is the CaC-usable 100-Ki Strike Super variant, not the cast-exclusive 300-Ki Ultimate variant.
+- [x] Rebuilt `docs/data/skills-index.json` from the authoritative forward store at **548/548** parity.
+- [x] No PQ reward relationship was duplicated or invented; the existing PQ31 → Super Dragon Flight relationship remains authoritative.
+- [x] Added `docs/data/skill-research-batches/skill-batch-628.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Updated the skill catalog recovery census: the maintained indexed-only frontier is now **58** names after resolving the two identities above.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining 58-name indexed-only identity recovery using exact repository/game-data evidence; preserve cast-only, special-mode, alias, and unresolved boundaries.
