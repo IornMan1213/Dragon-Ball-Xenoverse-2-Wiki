@@ -7873,3 +7873,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] This batch reinforces the boundary that character ownership and generic Future Warrior usability are not sufficient evidence for a race classification. citeturn1search2turn1search3turn2search0turn2search1turn2search3
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** identify remaining genuinely unreviewed null-race identities; avoid repeating already-established null boundaries, then advance to DLC/free-update provenance, mechanics enrichment, and bidirectional PQ↔skill/Super Soul/equipment completeness.
+
+
+### 2026-09-29 continuation — Race restriction Batch 686
+- [x] Added `docs/data/skill-research-batches/skill-batch-686.json`.
+- [x] Directly reviewed Backflip, Blades of Judgement, Circle Flash, Energy Wave Combo, and Double Buster.
+- [x] Preserved all five as `race_restriction: null`; no explicit retail race/gender/form restriction was established.
+- [x] No canonical skill records were mutated; `docs/data/skills.json` remains authoritative.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: identify remaining genuinely unreviewed null-race identities, then advance to DLC/free-update provenance, mechanics enrichment, and bidirectional PQ↔skill/Super Soul/equipment completeness.
