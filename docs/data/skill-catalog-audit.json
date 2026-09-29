@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 636,
+  "latest_research_batch": 635,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
@@ -476,6 +476,7 @@
       "Special Beam Blast",
       "Rage Saucer",
       "Brainwash Attack",
+      "Spiral of Condemnation",
       "Spiral of Condemnation"
     ],
     "confirmed_cac_positive_names": [
@@ -488,9 +489,10 @@
       "Soul Punisher",
       "Special Beam Cannon (Ultimate)",
       "Super Black Kamehameha",
+      "Ill Flash",
       "Ill Flash"
     ],
-    "notes": " Batch 634 added explicit CaC-positive evidence from dedicated skill documentation: training/TP Medal Shop acquisition establishes Future Warrior access for the listed skills; Go-Go Gum is explicitly documented as a CaC skill. Ill Flash and Spiral of Condemnation remain unresolved because the retrieved XV2 evidence does not explicitly establish Future Warrior/CaC access. Batch 635 closes the final frontier: Ill Flash has explicit Future Warrior acquisition evidence; Spiral of Condemnation is explicitly unique to Fused Zamasu (Half-Corrupted), with external ID research marking it non-CaC. Batch 635 closed the final frontier: Ill Flash is explicitly obtainable by the Future Warrior from the Skill Shop; Spiral of Condemnation is explicitly exclusive to Fused Zamasu (Half-Corrupted) and listed as unavailable to CaC in repository-supported external evidence. No canonical promotion was made because Ill Flash lacks an exact historical canonical ID in the repository. Batch 635 closes the final two-name frontier: Ill Flash is explicitly listed as obtainable by the Future Warrior in Xenoverse 2; Spiral of Condemnation is explicitly documented as unique/exclusive to Fused Zamasu (Half-Corrupted) and independently listed among skills unobtainable by CaC."
+    "notes": " Batch 634 added explicit CaC-positive evidence from dedicated skill documentation: training/TP Medal Shop acquisition establishes Future Warrior access for the listed skills; Go-Go Gum is explicitly documented as a CaC skill. Ill Flash and Spiral of Condemnation remain unresolved because the retrieved XV2 evidence does not explicitly establish Future Warrior/CaC access. Batch 635 closes the final frontier: Ill Flash has explicit Future Warrior acquisition evidence; Spiral of Condemnation is explicitly unique to Fused Zamasu (Half-Corrupted), with external ID research marking it non-CaC. Batch 635 closed the final frontier: Ill Flash is explicitly obtainable by the Future Warrior from the Skill Shop; Spiral of Condemnation is explicitly exclusive to Fused Zamasu (Half-Corrupted) and listed as unavailable to CaC in repository-supported external evidence. No canonical promotion was made because Ill Flash lacks an exact historical canonical ID in the repository. Batch 635 closes the final two-name frontier: Ill Flash is explicitly listed as obtainable by the Future Warrior in Xenoverse 2; Spiral of Condemnation is explicitly documented as unique/exclusive to Fused Zamasu (Half-Corrupted) and independently listed among skills unobtainable by CaC. Batch 635 closes the frontier: Ill Flash is explicitly documented as obtainable by the Future Warrior; Spiral of Condemnation is explicitly listed as a Raid Battle/Boss-exclusive skill and its current skill reference identifies it as unique to Fused Zamasu (Half-Corrupted)."
   },
   "recovery_batch_615": {
     "restored": [
@@ -876,12 +878,11 @@
     ],
     "sources": [
       "https://dragonball.fandom.com/wiki/Ill_Flash",
-      "https://dragonball.fandom.com/wiki/Spiral_of_Condemnation",
-      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+      "https://dbxv2.fandom.com/wiki/Ill_Flash",
+      "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation",
+      "https://dbxv2.fandom.com/wiki/Super_Attack"
     ],
-    "validation": {
-      "remaining_indexed_only": 0
-    }
+    "boundary": "The indexed-only reconciliation frontier is now closed. Closure does not imply that every indexed identity belongs in canonical skills.json; canonical promotion still requires exact canonical identity evidence."
   },
   "recovery_batch_636": {
     "status": "applied",
