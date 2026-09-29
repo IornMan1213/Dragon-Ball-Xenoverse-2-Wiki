@@ -6488,6 +6488,16 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ]
+    },
+    {
+      "name": "Die Die Missile Barrage",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Die_Die_Missile_Barrage"
+      ]
     }
   ],
   "last_updated": "2026-09-29",
