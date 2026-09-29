@@ -1,0 +1,113 @@
+{
+  "batch_id": 614,
+  "date": "2026-09-29",
+  "type": "canonical_recovery_candidate",
+  "status": "ready_for_canonical_application",
+  "purpose": "Recover five skill records demonstrably lost from the 497-record canonical forward corpus. Historical research batches establish the records and exact identities; this batch intentionally does not invent IDs.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Burst Attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Nuova Shenron",
+      "ki_cost": 100,
+      "unlock_method": "Shenron wish: I want a new Super Attack!",
+      "source_quest_or_shop": "Shenron wish — new Super Attack selection",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Attack"
+      ],
+      "recovery_sources": [
+        "docs/data/skill-research-batches/skill-batch-275.json",
+        "docs/data/skill-research-batches/skill-batch-252.json"
+      ]
+    },
+    {
+      "name": "Double Buster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Trunks (Kid); Future Trunks, Gotenks, Pan, Tapion (Customize Partner where unlocked)",
+      "ki_cost": 100,
+      "unlock_method": "Skill Shop after required story progression",
+      "source_quest_or_shop": "Skill Shop",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Buster",
+        "https://dragonball.fandom.com/wiki/Double_Buster"
+      ],
+      "recovery_sources": [
+        "docs/data/skill-research-batches/skill-batch-19.json",
+        "docs/data/skill-research-batches/skill-batch-267.json"
+      ]
+    },
+    {
+      "name": "Finish Buster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Trunks (Future); Trunks (Kid); Pan; Tapion (Customize Partner where unlocked)",
+      "ki_cost": 100,
+      "unlock_method": "Skill Shop after required story progression",
+      "source_quest_or_shop": "Skill Shop",
+      "verification_status": "verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Finish_Buster",
+        "https://dragonball.fandom.com/wiki/Finish_Buster"
+      ],
+      "recovery_sources": [
+        "docs/data/skill-research-batches/skill-batch-19.json",
+        "docs/data/skill-research-batches/skill-batch-262.json"
+      ]
+    },
+    {
+      "name": "Galick Beam Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Vegeta (Super Saiyan God)",
+      "dlc_requirement": "Conton City Vote Pack",
+      "ki_cost": 100,
+      "unlock_method": "Parallel Quest 143",
+      "source_quest_or_shop": "Parallel Quest 143",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Galick_Beam_Cannon"
+      ],
+      "recovery_sources": [
+        "docs/data/skill-research-batches/skill-batch-257.json"
+      ]
+    },
+    {
+      "name": "Power Pole",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Goku (GT) / Goku (GT) customizable partner",
+      "ki_cost": 100,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Pole",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74998319",
+        "https://steamcommunity.com/app/454650/discussions/0/142261352650110246/"
+      ],
+      "recovery_sources": [
+        "docs/data/skill-research-batches/skill-batch-165.json"
+      ]
+    }
+  ],
+  "recovery_checks": {
+    "previous_canonical_count": 497,
+    "candidate_count": 5,
+    "expected_post_recovery_count": 502,
+    "exact_name_identity_conflicts_found": 0,
+    "canonical_ids_inferred": 0,
+    "pq_relationship_changes": 0,
+    "peeler_storm_action": "not promoted; retained as special-mode identity boundary from batch 613",
+    "application_note": "Apply these records to docs/data/skills.json, then regenerate/refresh docs/data/skills-index.json from the canonical forward store. Preserve all existing record fields and add no inferred IDs."
+  }
+}
