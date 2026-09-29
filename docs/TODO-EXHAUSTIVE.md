@@ -6720,3 +6720,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical database remains **548 records**; no speculative canonical records were added.
 - [x] Added `docs/data/skill-research-batches/skill-batch-635.json` and updated the catalog audit.
 - [ ] Exact next: perform final indexed-only/canonical/index consistency validation and identify any legitimate canonical recovery candidates rather than stopping at boundary reconciliation.
+
+
+### 2026-09-29 continuation — Batch 636 canonical schema integrity repair
+- [x] Completed the first post-frontier canonical/index integrity audit: **548/548** record parity and **548 unique identity keys** with no duplicate identity groups.
+- [x] Repaired the four pre-existing required-field gaps: sources for **Armored Boost** and **Miracle Kneel**; verification status for **Die Die Missile Barrage** and **Light Grenade (Super)**.
+- [x] Revalidated required schema fields: **0 remaining required-field gaps**.
+- [x] Kept the 25 records without an `id` field unchanged because the current skill schema does not require `id` and exact historical IDs are not established; no IDs were invented.
+- [x] Added `docs/data/skill-research-batches/skill-batch-636.json` and updated `docs/data/skill-catalog-audit.json`.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** resume exhaustive canonical field enrichment and cross-domain coverage, prioritizing records with evidence-backed nullable acquisition/provenance/mechanics fields while preserving nulls where evidence is insufficient.
