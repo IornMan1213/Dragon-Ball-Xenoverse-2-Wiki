@@ -6961,3 +6961,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the older DLC/free-update provenance frontier with Extra Pack 3/4 and other documented-count cohorts; do not reopen Extra Pack 1 without new direct evidence.
 
+
+
+### 2026-09-29 continuation — Extra Pack 3/4 individual skill provenance
+- [x] Preserved the recovered canonical database baseline: 497 canonical skills and 862 PQ reward edges remain authoritative.
+- [x] Added research batch 598 covering Extra Pack 3 and Extra Pack 4.
+- [x] Reconciled all 8 Extra Pack 3 skills against the official eight-skill pack count, maintained named-skill catalog, and canonical PQ123-PQ127 reward mappings.
+- [x] Reconciled all 8 Extra Pack 4 skills against the official eight-skill pack count, maintained named-skill catalog, and canonical PQ128-PQ132 reward mappings.
+- [x] Added release/provenance sources and 16 corroborated skill→event mappings to `game-content-version-provenance-registry.json`.
+- [x] No canonical `skills.json` or PQ relationship records were mutated; no version/patch number was inferred from a release date.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Exact next:** continue older DLC/free-update provenance cohorts, prioritizing official named skill/count evidence and preserving platform release-date distinctions.
