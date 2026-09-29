@@ -456,8 +456,8 @@
       "source_ids": [
         "bn_xv2_dlc_pack_preview_2016"
       ],
-      "skill_count": 5,
-      "assignment_status": "Five individual free-update attack mappings are directly named by Bandai Namco's December 2016 DLC/update preview: Jumping Energy Wave, Menacing Flare, Focus Flash, Wild Hunt, and Tail Slicer. The separately announced Awoken skills Kaioken ×10 and Pure Progress are retained as distinct character skill provenance."
+      "skill_count": 2,
+      "assignment_status": "Two individual named Awoken Skill mappings remain established directly; the December preview also describes four new attacks, but the preview does not name those four attacks, so they remain event-scope-only here. Kaioken ×10 and Pure Progress are retained as the two directly named Awoken Skill mappings."
     },
     {
       "id": "extra-pack-2",
@@ -552,6 +552,16 @@
         "bn_xv2_launch_2016"
       ],
       "assignment_status": "Base-game release provenance established for the initial Americas console launch. Steam PC release is separately documented as October 27, 2016 in the same announcement. No individual skill-to-release mapping is inferred from the launch event."
+    },
+    {
+      "id": "free-update-2017-02-27",
+      "kind": "free_update",
+      "date": "2017-02-27",
+      "source_ids": [
+        "bn_xv2_update_dlc_pack_2_2017"
+      ],
+      "skill_count": 5,
+      "assignment_status": "Five individual attack mappings directly named by Bandai Namco: Jumping Energy Wave, Menacing Flare, Focus Flash, Wild Hunt, and Tail Slicer."
     }
   ],
   "next_step": "Super Pack 4 decomposition is documented: official store metadata says 5 Additional Skills, while the canonical DLC-labeled cohort contains 8 non-mentor avatar/character skill records plus Sword of Hope. Preserve the five official DLC-skill mappings already established; do not force the remaining records into the DLC event. Next: build evidence-bound race_restriction candidate batches for the 79 null canonical records.",
