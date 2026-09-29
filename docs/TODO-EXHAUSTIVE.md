@@ -6285,3 +6285,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue older free-update/DLC provenance cohorts where official sources explicitly name canonical skills, keeping release dates separate from patch/version labels; do not reopen resolved Festival/Chapter 1 work without new evidence.
 
+
+
+### 2026-09-29 continuation — Free Update 2023 Ultra Instinct provenance reconciliation batch 591
+- [x] Bound canonical **Ultra Instinct** (`skill-ultra-instinct`) directly to the **2023-10-12 Big Free Update** using Bandai Namco America's dated official release notice.
+- [x] Confirmed the official source explicitly identifies Ultra Instinct as the new Awoken Skill included in that update.
+- [x] Added `docs/data/skill-research-batches/skill-batch-591.json` and synchronized the authoritative provenance registry and skill-catalog audit.
+- [x] No canonical skill record was created or altered, no PQ relationship changed, and no unsupported game-version/patch value was assigned.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue older free-update/DLC cohorts for directly named canonical skills; preserve unresolved subsets when official sources do not name individual skills.
