@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 609,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Fresh direct-source race-restriction audit for six Conton City Vote Pack / Hero of Justice PQ skills retaining null race_restriction.",
+  "records": [
+    {
+      "name": "Counter Impact",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ153 and CaC usability; the current PQ guide confirms Counter Impact as a PQ153 reward, while reviewed references provide no narrower race/gender/form restriction."
+    },
+    {
+      "name": "Sign of Awakening",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ154 and CaC usability; the current PQ guide confirms Sign of Awakening as a PQ154 reward, with no narrower race/gender/form restriction established."
+    },
+    {
+      "name": "Circle Flash",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ154 and CaC usability; the current PQ guide confirms Circle Flash as a PQ154 reward, with no narrower race/gender/form restriction established."
+    },
+    {
+      "name": "Heroic Counter",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ155 and CaC usability; the current PQ guide confirms Heroic Counter as a PQ155 reward, and no narrower race/gender/form restriction is established."
+    },
+    {
+      "name": "Gamma Blaster",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ155 and CaC usability; the current PQ guide confirms Gamma Blaster as a PQ155 reward, and reviewed references do not establish a narrower race/gender/form restriction."
+    },
+    {
+      "name": "Gamma Impact",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ155 and CaC usability; the current PQ guide confirms Gamma Impact as a PQ155 reward, and reviewed references do not establish a narrower race/gender/form restriction."
+    }
+  ],
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/DLC",
+    "https://www.scribd.com/document/667491668/Demons-Xenoverse-ID-List"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "PQ reward association and CaC usability are not sufficient to infer unrestricted all-race eligibility. Preserve null unless direct race/gender/form evidence exists.",
+  "next": "Continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records."
+}
