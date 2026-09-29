@@ -6373,3 +6373,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the recovery rule: canonical forward datasets remain authoritative; verified/index/projection layers were not used to reconstruct canonical records.
 - [ ] Runtime/CI/build remains unverified/non-blocking.
 - [ ] **Exact next:** continue older DLC/free-update provenance cohorts, then resume broader cross-domain enrichment from the repaired canonical forward stores.
+
+
+### 2026-09-29 continuation — Legacy skill taxonomy gap reconciliation batch 599
+- [x] Reconciled taxonomy evidence for five previously unresolved legacy/boss skill gaps: **Acid** (Super / Ki Blast), **Howl** (Evasive), **Boiling Burg** (Ultimate / Ki Blast), **Energy Boil** (Evasive), and **Baked Sphere** (Ultimate / Ki Blast).
+- [x] Preserved NPC/cast-only boundaries and left unresolved resource costs where the evidence does not establish a reliable current value.
+- [x] Added `docs/data/skill-research-batches/skill-batch-599.json` and registered it in the PQ cross-domain index.
+- [x] Added all five to the canonical promotion queue as **pending exact canonical identity**; no community numeric ID was promoted to a canonical identifier.
+- [x] No canonical skill record or PQ relationship was changed.
+- [ ] Exact canonical IDs for these five remain unresolved and require structured repository/game-data evidence before promotion.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** resolve these five canonical identities if structured evidence exposes them; otherwise continue to the next unresolved acquisition/mechanics frontier without inventing IDs.
