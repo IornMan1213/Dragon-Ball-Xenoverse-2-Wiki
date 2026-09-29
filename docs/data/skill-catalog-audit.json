@@ -369,10 +369,10 @@
       "Evil Flame",
       "Whirlwind Blade"
     ],
-    "canonical_promotions": 0,
+    "canonical_promotions": 8,
     "canonical_mutations": 0,
     "pq_relationship_mutations": 0,
-    "unresolved_indexed_only_count": 106,
+    "unresolved_indexed_only_count": 98,
     "policy": "Indexed-name presence does not imply canonical inclusion. These six have direct repository evidence of cast-only/unavailable-for-CaC status and remain outside the canonical CaC skill corpus.",
     "evidence_manifest": "docs/data/skill-research-batches/skill-batch-612.json",
     "reconciled_cac_candidates": [
@@ -384,6 +384,27 @@
     ],
     "special_mode_boundary": [
       "Peeler Storm"
+    ]
+  },
+  "recovery_batch_615": {
+    "restored": [
+      "Destructive Ray",
+      "Senko Ki Blast",
+      "Thunder Eraser",
+      "III Flash",
+      "III Bomber",
+      "III Rain",
+      "Super Ghost Kamikaze Attack (Super)",
+      "Split Finger Shot"
+    ],
+    "canonical_skill_records": 510,
+    "index_records": 510,
+    "canonical_mutations": 8,
+    "pq_relationship_mutations": 0,
+    "source_batches": [
+      260,
+      262,
+      263
     ]
   }
 }
