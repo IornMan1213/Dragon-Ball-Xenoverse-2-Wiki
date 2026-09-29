@@ -7519,3 +7519,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all four `race_restriction` values as null; reviewed evidence does not explicitly establish a CaC race/gender lock.
 - [x] Added `docs/data/skill-research-batches/skill-batch-649.json` and updated the audit.
 - [ ] Continue exact-skill research across the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Null race restriction boundary batch 650
+- [x] Reviewed Break Strike, Burning Spin, Burning Strike, Consecutive Energy Blast, and Drain Charge.
+- [x] Preserved all five `race_restriction` values as null because exact reviewed evidence does not explicitly establish a CaC race/gender restriction.
+- [x] Added `docs/data/skill-research-batches/skill-batch-650.json` and updated the catalog audit.
+- [ ] Continue exact-skill research through the remaining null race-restriction frontier.
