@@ -1,0 +1,93 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 586,
+  "research_date": "2026-09-28",
+  "type": "future_saga_chapter_4_mechanics_reconciliation",
+  "scope": "Refresh evidence boundaries for the four Chapter 4 moves using current official DLC scope plus current player/guide evidence; preserve unresolved mechanics rather than inferring exact values.",
+  "canonical_source": "docs/data/skills.json",
+  "official_scope": {
+    "source": "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2/dlc",
+    "finding": "Official DLC page confirms Chapter 4 contains exactly four new moves, including one Awoken Skill."
+  },
+  "records": [
+    {
+      "skill_id": "skill-the-power-to-overcome",
+      "name": "The Power to Overcome",
+      "evidence": [
+        "Official Chapter 4 page establishes this is part of the four-move DLC scope.",
+        "Existing item-level research identifies it as a universal CaC Awoken Skill and records Quest 31 / Ultimate All-Out Showdown as the unlock route.",
+        "Current independent guide evidence describes a two-stage activation, a first-stage defensive/mobility effect, an unblockable sword-based grab replacement, and a second-stage resource/health tradeoff."
+      ],
+      "retained_mechanics": "500-Ki universal CaC Awoken; first stage includes approximately +20% damage reduction and +5% movement speed plus below-50%-health regeneration and an unblockable sword-strike grab replacement; re-input activates an approximately 12-second Unleashed state with very rapid/infinite-style Ki regeneration, increased attack/super damage, increased movement speed, and HP drain.",
+      "unresolved": [
+        "exact regeneration rate",
+        "exact cooldown",
+        "exact modifier values where sources conflict",
+        "exact HP-drain rate"
+      ]
+    },
+    {
+      "skill_id": "skill-indomitable",
+      "name": "Indomitable",
+      "evidence": [
+        "Current player evidence describes simultaneous Ki and Stamina restoration.",
+        "Current player evidence describes slower normal-health Ki charging and a changed behavior below 50% health resembling Burst Charge."
+      ],
+      "retained_mechanics": "Charge skill that restores both Ki and Stamina; source-reported behavior changes below 50% health toward a Burst Charge-like Ki-charging mode.",
+      "unresolved": [
+        "exact charge rates",
+        "exact health threshold semantics beyond the reported below-50% observation",
+        "frames",
+        "universal scaling",
+        "hidden interactions"
+      ]
+    },
+    {
+      "skill_id": "skill-venus-fist",
+      "name": "Venus Fist",
+      "evidence": [
+        "Current PQ evidence confirms PQ186 Basic Reward provenance.",
+        "Current player/video evidence describes a multi-step rush/teleport Strike Ultimate and reports a 3-Ki-bar cost."
+      ],
+      "retained_mechanics": "Multi-step rush/teleport Strike Ultimate; current community evidence reports a 3-Ki-bar cost and low-health behavior.",
+      "unresolved": [
+        "exact hit count",
+        "exact damage/scaling",
+        "low-health modifier",
+        "frames",
+        "reward probability"
+      ]
+    },
+    {
+      "skill_id": "skill-dragon-spiral",
+      "name": "Dragon Spiral",
+      "evidence": [
+        "Current evidence confirms PQ185 Basic Reward provenance and associates the move with Goku (Ultra Supervillain Quelled).",
+        "Official Chapter 4 scope confirms it belongs to the four-move Chapter 4 set."
+      ],
+      "retained_mechanics": "100-Ki Strike Super associated with Goku (Ultra Supervillain Quelled).",
+      "unresolved": [
+        "exact guard duration",
+        "exact hit count",
+        "damage scaling",
+        "resource behavior",
+        "frame data"
+      ]
+    }
+  ],
+  "policy": [
+    "Canonical skills.json remains authoritative.",
+    "Current player reports are bounded observations, not universal frame/scaling facts.",
+    "Do not infer drop probabilities from anecdotal completion counts.",
+    "Do not convert research dates into game versions or patches.",
+    "Do not add duplicate Skill→PQ edges; PQ185/PQ186 mappings already reconcile."
+  ],
+  "validation": {
+    "chapter4_move_records": 4,
+    "canonical_mutations": 0,
+    "new_skill_pq_edges": 0,
+    "unsupported_drop_rates": 0,
+    "unsupported_version_assignments": 0
+  },
+  "next": "Audit Free Update 20 Festival recovery identities against the current canonical catalog and exact historical structured evidence; only promote a Festival identity when its internal canonical ID is uniquely established."
+}
