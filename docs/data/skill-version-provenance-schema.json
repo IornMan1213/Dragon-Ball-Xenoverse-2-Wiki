@@ -54,7 +54,7 @@
   },
   "current_registry_state": {
     "canonical_skills": 497,
-    "direct_skill_event_mappings": 44,
+    "direct_skill_event_mappings": 92,
     "explicit_version_or_patch_fields_in_canonical_skills": 0,
     "evidence_census": {
       "explicit_patch_mentions": 284,
