@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 687,
+  "latest_research_batch": 688,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race-restriction reconciliation remains evidence-bound; provenance work has now added base-game launch coverage after completing early Super Pack event/mapping reconciliation. Next priority is remaining early free-update provenance and direct individual skill mapping gaps, then mechanics/cross-database completeness.",
+  "current_research_focus": "Early free-update provenance is being reconciled with strict event boundaries. Batch 688 maps the five explicitly named February 27, 2017 free-update attacks; December 2016 remains separate with two named Awoken mappings and four unnamed attacks. Next: remaining early free-update evidence, then mechanics and cross-database completeness.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1365,6 +1365,11 @@
   "provenance_batch_687": {
     "event_id": "base-game-launch",
     "source_id": "bn_xv2_launch_2016",
+    "canonical_mutations": 0
+  },
+  "provenance_batch_688": {
+    "event_id": "free-update-2017-02-27",
+    "records": 5,
     "canonical_mutations": 0
   }
 }
