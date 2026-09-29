@@ -1,0 +1,58 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 689,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "accessory_identity_evidence_audit",
+  "scope": "Re-audit two unresolved Great Saiyaman accessory PQ records using independent named-item evidence without manufacturing canonical inventory IDs.",
+  "canonical_sources": [
+    "docs/data/accessory-pq-research.json",
+    "docs/data/accessory-pq-canonical-bridge.json",
+    "docs/data/accessory-pq-canonical-remaining.json"
+  ],
+  "records": [
+    {
+      "pq_record_id": "pqacc-009",
+      "name": "Great Saiyaman Bandana 1",
+      "pq": 51,
+      "evidence": [
+        {
+          "source": "Dragon Ball Xenoverse 2 PQ 51 guide",
+          "finding": "PQ51 reward listings explicitly name Great Saiyaman Bandana 1."
+        },
+        {
+          "source": "Equipment guide",
+          "finding": "Great Saiyaman Bandana 1 is listed as an accessory with PQ51 acquisition."
+        }
+      ],
+      "canonical_resolution": "remain_unmatched",
+      "reason": "Independent evidence confirms the exact inventory name and PQ route, but the current canonical accessory layer still has no canonical identity ID for this item. Do not invent an ID."
+    },
+    {
+      "pq_record_id": "pqacc-010",
+      "name": "Great Saiyaman Bandana 2",
+      "pq": 53,
+      "evidence": [
+        {
+          "source": "Dragon Ball Xenoverse 2 PQ 53 guide",
+          "finding": "PQ53 reward listings explicitly name Great Saiyaman Bandana 2."
+        },
+        {
+          "source": "Equipment guide",
+          "finding": "Great Saiyaman Bandana 2 is listed as an accessory with PQ53 acquisition."
+        }
+      ],
+      "canonical_resolution": "remain_unmatched",
+      "reason": "Independent evidence confirms the exact inventory name and PQ route, but the current canonical accessory layer still has no canonical identity ID for this item. Do not invent an ID."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 2,
+    "exact_named_identity_confirmed": 2,
+    "canonical_ids_created": 0,
+    "canonical_mutations": 0,
+    "unsupported_merges": 0
+  },
+  "boundary": "This audit improves evidence confidence but does not promote either record into the canonical accessory identity layer because canonical inventory identity records are the source of truth.",
+  "next": "Continue unresolved accessory identities only where exact canonical inventory evidence can establish an ID; otherwise preserve the explicit unresolved state."
+}
