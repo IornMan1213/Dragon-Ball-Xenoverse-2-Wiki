@@ -257,7 +257,9 @@
       "source_quest_or_shop": null,
       "ultimate_finish_required": false,
       "id": "skill-armored-boost",
-      "sources": null
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Armored_Boost"
+      ]
     },
     {
       "name": "Assault Rain",
@@ -2501,7 +2503,7 @@
       "name": "Die Die Missile Barrage",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": null,
+      "verification_status": "partially_verified",
       "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
@@ -6891,7 +6893,7 @@
       "name": "Light Grenade (Super)",
       "class": "Super",
       "subcategory": "Ki Blast",
-      "verification_status": null,
+      "verification_status": "partially_verified",
       "research_status": null,
       "usable_by_cac": true,
       "race_restriction": null,
@@ -7376,7 +7378,9 @@
       "source_quest_or_shop": null,
       "ultimate_finish_required": false,
       "id": "skill-miracle-kneel",
-      "sources": null
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Miracle_Kneel"
+      ]
     },
     {
       "name": "Murder Grenade",
