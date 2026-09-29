@@ -7710,3 +7710,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated the skill catalog audit to distinguish evidence completion from live canonical promotion.
 - [ ] Live `skills.json` still requires the existing skills-sync pipeline to run successfully before these values are claimed as promoted; do not reconstruct the canonical blob from indexes/projections.
 - [ ] **Exact next:** continue null-race evidence research and then broader cross-domain enrichment.
+
+
+### 2026-09-29 continuation — Recovery-forward race restriction Batch 666
+- [x] Added `docs/data/skill-research-batches/skill-batch-666.json`.
+- [x] Restored evidence-backed **Universal** race eligibility for **Justice Pose** and **Death Psycho Bomb**, both of which had explicit unrestricted-race evidence in the repository's historical research but were null in the recovered frontier.
+- [x] Batch 666 is formatted for the existing canonical skills-sync pipeline; no canonical blob reconstruction was performed.
+- [x] Updated `docs/data/skill-catalog-audit.json`.
+- [ ] Live `skills.json` still requires successful skills-sync execution before these two values can be claimed as promoted.
+- [ ] **Exact next:** continue the remaining null-race cohort with direct evidence, prioritizing explicit race/gender statements; then resume cross-domain enrichment.
