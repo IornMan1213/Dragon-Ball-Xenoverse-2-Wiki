@@ -199,7 +199,7 @@
         "SSGSS transformations",
         "Limit Burst"
       ],
-      "assignment_status": "event-level only"
+      "assignment_status": "Direct skill linkage documented for Super Saiyan God Super Saiyan; Limit Burst remains an event-level battle-system feature."
     },
     {
       "id": "free-update-2023-03-22",
@@ -288,7 +288,7 @@
       "assignment_status": "Official event-level provenance established; four Festival skill names are recovered in the evidence layer but exact canonical IDs remain unresolved. Free update remains separate from the paid DAIMA Pack."
     }
   ],
-  "next_step": "Chapter 1 now has evidence-backed individual mappings for all 15 registered skills. Continue with the next DLC-era canonical provenance cohort, prioritizing event skill counts whose individual mappings remain incomplete; do not infer game versions from research dates.",
+  "next_step": "Continue older free-update/DLC provenance cohorts where official sources explicitly name canonical skills, keeping release dates separate from game patch/version labels; do not reopen the resolved Chapter 1/Festival gaps without new evidence.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
@@ -754,6 +754,17 @@
       ],
       "confidence": "corroborated",
       "basis": "The official Chapter 1 release establishes the DLC event, while the maintained PQ skill catalog and canonical acquisition record identify Final Rampage as a skill reward from PQ174; this establishes event association without inferring a game patch/version."
+    },
+    {
+      "skill_id": "skill-super-saiyan-god-super-saiyan",
+      "skill_name": "Super Saiyan God Super Saiyan",
+      "event_id": "free-update-2018-03-01",
+      "evidence_type": "official_free_update_named_skill",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018"
+      ],
+      "confidence": "direct",
+      "basis": "Bandai Namco Europe's 2018-03-01 release notice explicitly lists SSGSS Transformations as a new Awoken Skill in the Free Update."
     }
   ],
   "research_gaps": [
