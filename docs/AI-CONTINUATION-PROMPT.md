@@ -6812,3 +6812,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-582.json`.
 - [x] Preserved the distinction between coverage sparsity and demonstrated missing canonical relationships; absent PQ IDs are not treated as proof of no reward.
 - [ ] Next: prioritize genuinely unresolved global typed-reward cases and skill mechanics/version-provenance enrichment rather than duplicating reconciled PQ163-PQ186 relationships.
+
+
+### 2026-09-28 continuation — Canonical relationship census + Festival ID re-audit batch 583
+- [x] Recounted the live canonical relationship store: **249 skill→PQ edges** and **862 total PQ relationships**.
+- [x] Corrected the stale global PQ skill-endpoint audit census from 852 to **862**; no canonical relationship was added or removed by this synchronization.
+- [x] Re-audited exact repository evidence for the four unresolved 4th Festival identities: God Bind (Festival), Egret Waltz (Festival), Gamma Force: Code-R (Festival), and Gamma Force: Code-B (Festival).
+- [x] Confirmed exact canonical internal identifiers remain unrecovered; no ID was inferred from names, character/preset order, filenames, or reward ordering.
+- [x] Added `docs/data/skill-research-batches/skill-batch-583.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with a substantive mechanics or version/provenance enrichment cohort; revisit Festival identifiers only when exact structured evidence becomes available.
