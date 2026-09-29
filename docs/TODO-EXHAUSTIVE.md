@@ -7131,3 +7131,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 ### 2026-09-29 continuation — Awoken Batch 675
 - [x] Documented three explicit cast-exclusive Awoken Skills: Super Saiyan Blue Kaioken, Pure Progress, and Supersonic Mode.
 - [ ] Continue remaining cast-only/staged-form scope audit.
+
+### 2026-09-29 continuation — Awoken Batch 676
+- [x] Added Batch 676 for Villainous Mode, Supervillain Mode, and Ultra Supervillain scope classification.
+- [x] Confirmed Crystal Raid/Training villainous access is separate from a normal retail CaC-equippable Awoken Skill.
+- [x] Preserved null race restrictions for unavailable-to-CaC states.
+- [ ] Continue the Awoken scope audit for remaining staged and cast-only forms.
