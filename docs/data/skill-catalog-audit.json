@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 601,
+  "latest_research_batch": 602,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Batch 601 completed a bounded EM18-20 acquisition-condition audit; current evidence corroborates three skill routes but does not support numerical drop rates or guarantee flags.",
+  "current_research_focus": "Batch 602 completed the EM03-17 acquisition-condition boundary audit. All 15 routes are corroborated at association level; no unsupported guarantee/rate fields were promoted.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
