@@ -7246,3 +7246,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill mutation or unsupported patch/version assignment was made.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] Exact next: continue remaining early free-update provenance and direct skill-level evidence, then move into mechanics/cross-database completeness.
+
+
+### 2026-09-29 continuation — Batch 689: accessory identity evidence
+- [x] Added `docs/data/skill-research-batches/skill-batch-689.json` documenting independent evidence for **Great Saiyaman Bandana 1 (PQ51)** and **Great Saiyaman Bandana 2 (PQ53)**.
+- [x] Confirmed the exact named inventory identities and PQ routes from independent reward/equipment references.
+- [x] Preserved both as unresolved in the canonical accessory identity layer because no canonical inventory IDs currently exist; no IDs were manufactured.
+- [x] No canonical skill/accessory mutation was made.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: resolve only remaining accessory identities where exact canonical inventory evidence exists; otherwise preserve explicit unresolved/component-unresolved states, then return to mechanics and bidirectional database completeness.
