@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 659,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Direct-source follow-up on five canonical null race_restriction CaC-usable skills.",
+  "records": [
+    {
+      "name": "Ginyu Force Special Combo",
+      "race_restriction_result": null,
+      "evidence": "Repository research identifies this as a Ginyu Force-associated Super usable by the Future Warrior/CaC. Character-source identity and Ginyu Force membership do not establish a CaC race/gender restriction, and no explicit narrower retail eligibility wording was found.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ginyu_Force_Special_Combo",
+        "https://dragonball.fandom.com/wiki/Ginyu_Force"
+      ]
+    },
+    {
+      "name": "Holstein Shock",
+      "race_restriction_result": null,
+      "evidence": "The canonical record remains CaC-usable, but reviewed current reference material does not provide explicit CaC race/gender/form eligibility wording. Its character association is insufficient to infer a restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Holstein_Shock"
+      ]
+    },
+    {
+      "name": "Infinity Explosion",
+      "race_restriction_result": null,
+      "evidence": "Prior repository research identifies Infinity Explosion as a Ki Blast Super usable by the Future Warrior/CaC. No direct retail race/gender/form restriction was established; character ownership does not substitute for eligibility wording.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Infinity_Explosion",
+        "https://dragonball.fandom.com/wiki/Infinity_Explosion"
+      ]
+    },
+    {
+      "name": "Kaioken Assault",
+      "race_restriction_result": null,
+      "evidence": "Prior repository research classifies Kaioken Assault as a Strike Super usable by the Future Warrior/CaC. Kaioken interaction/context does not establish a race or gender restriction on the skill itself, and no explicit narrower eligibility wording was found.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kaioken_Assault",
+        "https://dragonball.fandom.com/wiki/Kaio-ken_Assault"
+      ]
+    },
+    {
+      "name": "Kamehameha Boost",
+      "race_restriction_result": null,
+      "evidence": "Prior repository research classifies Kamehameha Boost as a Strike Super usable by CaC. No explicit CaC race/gender/form restriction was established in the reviewed references; technique family/name is not race evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kamehameha_Boost"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Only explicit CaC eligibility wording establishing a narrower race/gender/form condition can populate race_restriction; preserve null otherwise."
+}
