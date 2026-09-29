@@ -7677,3 +7677,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five `race_restriction` values as null; no narrower explicit retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-664.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct eligibility evidence.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 664
+- [x] Reviewed Die Die Missile Barrage, Super Vanishing Ball, Super Volley, Swallow Shot, and Thunder Eraser.
+- [x] Preserved all five `race_restriction` values as null; no explicit narrower retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-664.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
