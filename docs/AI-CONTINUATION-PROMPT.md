@@ -7801,3 +7801,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical records were rebuilt from indexes, verified layers, or projections.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining null `race_restriction` cohort with direct skill-specific evidence; preserve null where evidence is insufficient, then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Canonical promotion of recovered race-restriction batches 667/669/670
+- [x] Promoted **Brave Heat** plus **Spirit Bomb**, **Super Spirit Bomb**, and the twelve Batch 670 recovery classifications directly into authoritative `docs/data/skills.json` as `All CaC races`.
+- [x] Synchronized `docs/data/skills-index.json`; canonical/index record count remains 549.
+- [x] Marked Batches 667, 669, and 670 `canonical_promoted` and cleared their pending mutation markers.
+- [x] Added/retained direct evidence provenance on promoted records; no verified projection was used as source of truth.
+- [x] Null race-restriction census is now **62**, down from 77 after the previous recovery promotion.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified because connected GitHub diagnostics do not expose the failing job-step logs.
+- [ ] **Exact next:** audit the remaining 62 null race-restriction records using direct skill-specific evidence. Preserve null when evidence does not explicitly establish race scope; then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
