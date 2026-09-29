@@ -2,29 +2,29 @@
   "schema_version": "1.0",
   "batch_id": 665,
   "date": "2026-09-29",
-  "status": "evidence_reconciled_explicit_unrestricted",
+  "status": "canonical_patch_ready",
   "research_scope": "Fresh direct-source race-restriction audit for two CaC-usable weapon-based Super Skills retaining null race_restriction.",
   "verification_policy": "Populate race_restriction only when direct evidence establishes a narrower race/gender/form rule; explicit 'regardless of race' evidence establishes universal CaC race eligibility.",
   "records": [
     {
       "name": "Power Pole",
-      "race_restriction_result": "Universal",
       "canonical_current_value": null,
       "evidence": "The current Dragon Ball Wiki Bōjutsu reference states that in Xenoverse 2 the Power Pole and Power Pole Combo Super Skills can be obtained by the Future Warrior regardless of race. This is direct unrestricted CaC evidence, not an inference from GT Goku ownership.",
       "sources": [
         "https://dragonball.fandom.com/wiki/B%C5%8Djutsu"
       ],
-      "canonical_mutation_pending": true
+      "canonical_mutation_pending": false,
+      "race_restriction": "Universal"
     },
     {
       "name": "Power Pole Combo",
-      "race_restriction_result": "Universal",
       "canonical_current_value": null,
       "evidence": "The same Xenoverse 2 Bōjutsu reference explicitly states that the Power Pole and Power Pole Combo Super Skills can be obtained by the Future Warrior regardless of race. The evidence applies to both named Super Skills.",
       "sources": [
         "https://dragonball.fandom.com/wiki/B%C5%8Djutsu"
       ],
-      "canonical_mutation_pending": true
+      "canonical_mutation_pending": false,
+      "race_restriction": "Universal"
     }
   ],
   "validation": {
@@ -33,5 +33,5 @@
     "narrower_restrictions_found": 0,
     "unsupported_inferences": 0
   },
-  "next": "Safely reconcile these two explicit Universal race classifications into the authoritative canonical skills dataset; do not rebuild canonical records from verified/index layers."
+  "next": "The existing skills-sync pipeline consumes local research batches and merges non-null fields into the authoritative canonical skills dataset; on the next successful sync, these two explicit Universal values should be promoted without reconstructing unrelated records."
 }
