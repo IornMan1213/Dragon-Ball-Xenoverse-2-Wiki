@@ -29,6 +29,61 @@
       "pq_rule": "Do not create or alter PQ relationships from this acquisition evidence.",
       "status": "applied_and_validated",
       "execution": "Run locally against a complete checkout with --skill-id skill-energy-wave-combo; dry-run first, then --write, then scripts/validate_skills.py and scripts/validate_skill_acquisition_metadata.py."
+    },
+    {
+      "skill": "Acid",
+      "skill_id": null,
+      "required_targets": [
+        "docs/data/skills.json",
+        "docs/data/skills-index.json"
+      ],
+      "action": "Promote only if an exact existing canonical identity or complete structured canonical record can be established. Do not manufacture an ID from NPC/skill-list numeric codes.",
+      "pq_rule": "Do not create or alter PQ relationships from this taxonomy evidence.",
+      "status": "pending_exact_canonical_identity"
+    },
+    {
+      "skill": "Howl",
+      "skill_id": null,
+      "required_targets": [
+        "docs/data/skills.json",
+        "docs/data/skills-index.json"
+      ],
+      "action": "Promote only if an exact existing canonical identity or complete structured canonical record can be established. Do not manufacture an ID from NPC/skill-list numeric codes.",
+      "pq_rule": "Do not create or alter PQ relationships from this taxonomy evidence.",
+      "status": "pending_exact_canonical_identity"
+    },
+    {
+      "skill": "Boiling Burg",
+      "skill_id": null,
+      "required_targets": [
+        "docs/data/skills.json",
+        "docs/data/skills-index.json"
+      ],
+      "action": "Promote only if an exact existing canonical identity or complete structured canonical record can be established. Do not manufacture an ID from NPC/skill-list numeric codes.",
+      "pq_rule": "Do not create or alter PQ relationships from this taxonomy evidence.",
+      "status": "pending_exact_canonical_identity"
+    },
+    {
+      "skill": "Energy Boil",
+      "skill_id": null,
+      "required_targets": [
+        "docs/data/skills.json",
+        "docs/data/skills-index.json"
+      ],
+      "action": "Promote only if an exact existing canonical identity or complete structured canonical record can be established. Do not manufacture an ID from NPC/skill-list numeric codes.",
+      "pq_rule": "Do not create or alter PQ relationships from this taxonomy evidence.",
+      "status": "pending_exact_canonical_identity"
+    },
+    {
+      "skill": "Baked Sphere",
+      "skill_id": null,
+      "required_targets": [
+        "docs/data/skills.json",
+        "docs/data/skills-index.json"
+      ],
+      "action": "Promote only if an exact existing canonical identity or complete structured canonical record can be established. Do not manufacture an ID from NPC/skill-list numeric codes.",
+      "pq_rule": "Do not create or alter PQ relationships from this taxonomy evidence.",
+      "status": "pending_exact_canonical_identity"
     }
   ],
   "boundaries": [
@@ -37,7 +92,7 @@
     "Index is a synchronized consumer, not source of truth.",
     "Do not infer acquisition from preset membership when direct acquisition evidence is unavailable."
   ],
-  "next": "Historical audit/provenance queue. Current canonical skill and index counts are 497 after the four 2026-09-28 recovery-forward promotions; continue substantive mechanics/acquisition enrichment.",
+  "next": "Five legacy/boss skill gaps now have reconciled class/subcategory evidence but no exact canonical skill identity. Resolve canonical IDs from structured repository/game-data evidence before any promotion; do not use community numeric IDs as canonical identifiers.",
   "applied_commits": [
     "161a79d6ba0ca282736999b8906f08241acc0262",
     "dbb85de6e0156d487d0ae176613fa6a9ccf1a8cd"
@@ -75,5 +130,6 @@
     "historical_previous_count": 493,
     "current_live_count": 497,
     "current_live_validation_source": "docs/data/current-live-recovery-baseline-2026-09-28.json"
-  }
+  },
+  "last_updated": "2026-09-29"
 }
