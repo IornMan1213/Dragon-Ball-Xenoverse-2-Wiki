@@ -6861,3 +6861,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-587.json` and synchronized the catalog audit.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** move to the next substantive version/provenance or mechanics enrichment frontier; revisit Festival IDs only when an exact structured historical artifact or canonical blob exposes them.
+
+
+### 2026-09-29 continuation — Free Update 20 event provenance reconciliation batch 588
+- [x] Separated Free Update 20 / Budokai Festival provenance from the paid Dragon Ball DAIMA Pack in the authoritative game-content provenance registry.
+- [x] Recorded the official 2025-05-21 Free Update 20 event boundary using Bandai Namco's release notice; official evidence confirms the accompanying free update included Skills.
+- [x] Preserved the official four-skill Budokai Festival scope while keeping the four named Festival identities in the non-canonical recovery layer because exact internal IDs remain unresolved.
+- [x] Preserved the six paid DAIMA Pack skill mappings as a distinct paid event; no free-update skill was inferred from paid-pack proximity.
+- [x] Added `docs/data/skill-research-batches/skill-batch-588.json`.
+- [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported version assignment.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue substantive canonical skill provenance/mechanics enrichment outside the already-audited Festival identity gap; revisit Festival IDs only when an exact structured historical artifact or canonical blob exposes them.
