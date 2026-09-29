@@ -7778,3 +7778,9 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Prevented third-party guide claims from incorrectly classifying Sign as Universal.
 - [x] Kept mod-only CaC implementations outside canonical retail data.
 - [ ] Continue auditing the remaining Awoken scope for cast-only, staged, and genuinely equippable CaC forms.
+
+
+### 2026-09-29 continuation — Awoken Batch 675
+- [x] Added cast-exclusive provenance for Super Saiyan Blue Kaioken, Pure Progress, and Supersonic Mode.
+- [x] Kept cast-exclusive forms separate from CaC race restrictions.
+- [ ] Continue auditing remaining Awoken scope and staged/cast-only forms.
