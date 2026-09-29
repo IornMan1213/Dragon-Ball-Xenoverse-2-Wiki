@@ -1,0 +1,65 @@
+{
+  "batch_id": 656,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "External cross-check of five remaining null-race CaC-usable skills; no canonical mutation without explicit race/gender eligibility wording.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Android Kick",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "External references identify Android Kick as Mira's Super Skill and list it among techniques used by the Future Warrior, but no explicit Future Warrior race/gender restriction was found in the reviewed material.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Mira",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Armored Boost",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The Future Warrior technique list explicitly lists Armored Boost as GT Trunks' Evasive Skill and separately marks some other skills with explicit race restrictions; the reviewed entry does not provide an explicit Armored Boost race/gender restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Burning Spin",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The Future Warrior technique list identifies Burning Spin as Nuova Shenron's Ultimate Skill, but the reviewed material does not establish a specific CaC race/gender restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Burning Strike",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Search evidence includes historical discussion of Burning Strike as a Trunks skill and a separate PC mod that explicitly makes it usable by all races; the mod is not authoritative evidence for the retail game's eligibility, so no retail race restriction is promoted.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75400148",
+        "https://videogamemods.com/the-citadel/dragon-ball-xenoverse-2/mods/burning-strike-for-cac"
+      ]
+    },
+    {
+      "name": "Burst Attack",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The Future Warrior technique list identifies Burst Attack as Nuova Shenron's Super Skill, but no explicit CaC race/gender restriction was established in the reviewed material.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "canonical_mutations": 0,
+    "reclassified": 0,
+    "rule": "Character ownership, Future Warrior usability, and modded all-race behavior are not by themselves sufficient to populate a restrictive race/gender value."
+  },
+  "next": "Continue the remaining null race-restriction frontier, prioritizing direct retail-game eligibility wording."
+}
