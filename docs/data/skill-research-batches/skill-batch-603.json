@@ -1,0 +1,69 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 603,
+  "date": "2026-09-29",
+  "status": "complete_no_reclassification",
+  "research_scope": "Second-pass CaC/race-restriction boundary audit for six late-DLC skills already established as CaC-usable but retaining null race_restriction.",
+  "records": [
+    {
+      "name": "Blaster Stream",
+      "route": "PQ148",
+      "finding": "Future Warrior acquisition is explicitly documented; no narrower race/gender/form restriction found.",
+      "race_restriction_result": null,
+      "decision": "retain canonical null"
+    },
+    {
+      "name": "God of Destruction's Poise",
+      "route": "DLC 17 / Goku Mini or Belmod/Jiren Full Power skill group",
+      "finding": "CaC-focused evidence establishes CaC usability; no narrower race/gender/form restriction found.",
+      "race_restriction_result": null,
+      "decision": "retain canonical null"
+    },
+    {
+      "name": "Full Power Destruction",
+      "route": "DLC 17 / Jiren Full Power",
+      "finding": "CaC-focused evidence and player testing establish CaC usability; no narrower race/gender/form restriction found.",
+      "race_restriction_result": null,
+      "decision": "retain canonical null"
+    },
+    {
+      "name": "Soaring Rush",
+      "route": "DLC 17 / Goku Mini",
+      "finding": "CaC-focused evidence establishes CaC usability; no narrower race/gender/form restriction found.",
+      "race_restriction_result": null,
+      "decision": "retain canonical null"
+    },
+    {
+      "name": "Burst Blitz",
+      "route": "DLC 17 / Goku Mini",
+      "finding": "CaC-focused evidence establishes CaC usability; no narrower race/gender/form restriction found.",
+      "race_restriction_result": null,
+      "decision": "retain canonical null"
+    },
+    {
+      "name": "Dragon Spark",
+      "route": "DLC 17 / Goku Mini",
+      "finding": "CaC-focused evidence establishes CaC usability; no narrower race/gender/form restriction found.",
+      "race_restriction_result": null,
+      "decision": "retain canonical null"
+    }
+  ],
+  "policy": [
+    "Do not infer a race restriction from character ownership, partner availability, or the race of the NPC source.",
+    "CaC usability alone does not establish unrestricted all-race eligibility.",
+    "Only explicit Future Warrior race/gender/form wording or equivalent direct all-CaC evidence can replace null."
+  ],
+  "sources": [
+    "docs/COVERAGE-AUDIT.md",
+    "docs/data/skill-research-batches/skill-batch-30.json",
+    "docs/data/skill-research-batches/skill-batch-13.json"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "unsupported_inferences": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0
+  },
+  "next": "Continue the 27-record null race_restriction frontier with fresh direct evidence; do not count provenance-only repeats as resolution."
+}
