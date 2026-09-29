@@ -7533,3 +7533,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five `race_restriction` values as null because reviewed exact-skill evidence does not explicitly establish a CaC race/gender restriction.
 - [x] Added `docs/data/skill-research-batches/skill-batch-651.json` and updated the catalog audit.
 - [ ] Continue exact-skill research through the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Null race restriction boundary batch 651
+- [x] Reviewed Evil Explosion (Super), Full Power Energy Wave, Kamehameha Boost, Ki Blast Cannon, and Miracle Kneel.
+- [x] Preserved all five `race_restriction` values as null because reviewed exact-skill evidence does not explicitly establish a CaC race/gender restriction.
+- [x] Added `docs/data/skill-research-batches/skill-batch-651.json` and updated the catalog audit.
+- [ ] Continue exact-skill research through the remaining null race-restriction frontier.
