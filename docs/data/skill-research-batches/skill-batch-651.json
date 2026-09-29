@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 651,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Exact-skill boundary review of five null race_restriction records.",
+  "records": [
+    {
+      "id": "skill-evil-explosion-super",
+      "name": "Evil Explosion (Super)",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "No explicit CaC race/gender restriction was established from the reviewed exact-skill evidence; character/mentor association is not sufficient."
+    },
+    {
+      "id": "skill-full-power-energy-wave",
+      "name": "Full Power Energy Wave",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "No explicit CaC race/gender restriction was established from the reviewed exact-skill evidence; character/mentor association is not sufficient."
+    },
+    {
+      "id": "skill-kamehameha-boost",
+      "name": "Kamehameha Boost",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "No explicit CaC race/gender restriction was established from the reviewed exact-skill evidence; character/mentor association is not sufficient."
+    },
+    {
+      "id": "skill-ki-blast-cannon",
+      "name": "Ki Blast Cannon",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "No explicit CaC race/gender restriction was established from the reviewed exact-skill evidence; character/mentor association is not sufficient."
+    },
+    {
+      "id": "skill-miracle-kneel",
+      "name": "Miracle Kneel",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "No explicit CaC race/gender restriction was established from the reviewed exact-skill evidence; character/mentor association is not sufficient."
+    }
+  ],
+  "sources": [
+    {
+      "skill": "Evil Explosion (Super)",
+      "url": "https://dbxv2.fandom.com/wiki/Evil_Explosion_(Super)",
+      "finding": "Exact skill page does not establish a CaC race/gender restriction."
+    },
+    {
+      "skill": "Full Power Energy Wave",
+      "url": "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave",
+      "finding": "Exact skill page does not establish a CaC race/gender restriction."
+    },
+    {
+      "skill": "Kamehameha Boost",
+      "url": "https://dbxv2.fandom.com/wiki/Kamehameha_Boost",
+      "finding": "Exact skill page does not establish a CaC race/gender restriction."
+    },
+    {
+      "skill": "Ki Blast Cannon",
+      "url": "https://dbxv2.fandom.com/wiki/Ki_Blast_Cannon",
+      "finding": "Exact skill page does not establish a CaC race/gender restriction."
+    },
+    {
+      "skill": "Miracle Kneel",
+      "url": "https://dbxv2.fandom.com/wiki/Miracle_Kneel",
+      "finding": "Exact skill page does not establish a CaC race/gender restriction."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 5
+  },
+  "boundary": "Preserve canonical null unless exact evidence explicitly states a CaC race/gender restriction.",
+  "next": "Continue exact-skill research across the remaining null race_restriction frontier."
+}
