@@ -241,6 +241,38 @@
       "date": "2017-11-21",
       "url": "https://en.bandainamcoent.eu/dragon-ball/news/more-details-about-the-new-content-dragon-ball-xenoverse-2",
       "scope": "Official Extra Pack 1 preview; documents four new playable characters, Zamasu as a new Master, five Parallel Quests, and 13 new skills."
+    },
+    {
+      "id": "steam_extra_pack_3_2018",
+      "publisher": "Valve / Steam",
+      "title": "DRAGON BALL XENOVERSE 2 - Extra DLC Pack 3",
+      "date": "2018-08-28",
+      "url": "https://store.steampowered.com/app/740142/DRAGON_BALL_XENOVERSE_2__Extra_DLC_Pack_3/",
+      "scope": "Publisher DLC listing; confirms Extra Pack 3 release date and eight additional skills."
+    },
+    {
+      "id": "steam_extra_pack_4_2018",
+      "publisher": "Valve / Steam",
+      "title": "DRAGON BALL XENOVERSE 2 - Extra DLC Pack 4",
+      "date": "2018-12-18",
+      "url": "https://store.steampowered.com/app/740143/DRAGON_BALL_XENOVERSE_2_Extra_DLC_Pack_4/",
+      "scope": "Publisher DLC listing; confirms Extra Pack 4 release date on Steam and eight additional skills."
+    },
+    {
+      "id": "community_dlc_skill_catalog",
+      "publisher": "Dragon Ball Xenoverse 2 Wiki / maintained community reference",
+      "title": "DLC catalog — Extra Pack 3 and Extra Pack 4 skill rosters",
+      "date": null,
+      "url": "https://dbxv2.fandom.com/wiki/DLC",
+      "scope": "Names the eight Extra Pack 3 skills and eight Extra Pack 4 skills and associates them with the corresponding DLC packs; used as individual-name corroboration, not official release authority."
+    },
+    {
+      "id": "canonical_pq_reverse_index_121_142",
+      "publisher": "Repository canonical research layer",
+      "title": "PQ reverse index 121-142",
+      "date": "2026-09-29",
+      "url": "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/pq-reward-normalization/pq-reverse-index-121-142.json",
+      "scope": "Derived navigation projection of canonical PQ reward relationships; used only to confirm existing canonical PQ-to-skill mappings, never as a replacement for the forward canonical store."
     }
   ],
   "events": [
@@ -407,9 +439,33 @@
       ],
       "skill_count": 13,
       "assignment_status": "Individual provenance reconciled: ten Extra Pack 1 PQ skills from PQ113-PQ117 plus three Zamasu mentor skills. Release date is provenance only; no game version/patch inferred."
+    },
+    {
+      "id": "extra-pack-3",
+      "kind": "dlc",
+      "date": "2018-08-28",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "steam_extra_pack_3_2018",
+        "community_dlc_skill_catalog"
+      ],
+      "skill_count": 8,
+      "assignment_status": "Individual provenance reconciled for all 8 skills using official pack count plus named maintained catalog and canonical PQ123-PQ127 reward mappings. Release date is provenance only; no game version/patch inferred."
+    },
+    {
+      "id": "extra-pack-4",
+      "kind": "dlc",
+      "date": "2018-12-18",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "steam_extra_pack_4_2018",
+        "community_dlc_skill_catalog"
+      ],
+      "skill_count": 8,
+      "assignment_status": "Individual provenance reconciled for all 8 skills using official pack count plus named maintained catalog and canonical PQ128-PQ132 reward mappings. Release date is provenance only; no game version/patch inferred."
     }
   ],
-  "next_step": "Continue the older DLC/free-update provenance frontier with Extra Pack 3/4 and earlier cohorts that have documented skill counts. Extra Pack 1 is now individually reconciled at 13/13; keep release dates separate from game version/patch labels.",
+  "next_step": "Continue the older DLC/free-update provenance frontier with Super Pack and early Extra Pack cohorts that have explicit official skill counts or named skill evidence. Extra Pack 3 and Extra Pack 4 are now individually reconciled at 8/8 each; keep release dates separate from game version/patch labels.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -1327,6 +1383,214 @@
       ],
       "confidence": "corroborated",
       "basis": "The official Extra Pack 1 source establishes the 13-skill DLC scope; maintained repository evidence identifies Instant Severance as an Extra Pack 1 skill via Zamasu Lesson 3. The mapping does not infer a game version or patch."
+    },
+    {
+      "skill_id": "skill-revenge-death-ball",
+      "skill_name": "Revenge Death Ball",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Revenge Death Ball; the canonical PQ reward mapping independently places it at PQ127."
+    },
+    {
+      "skill_id": "skill-variant-drive",
+      "skill_name": "Variant Drive",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Variant Drive; the canonical PQ reward mapping independently places it at PQ123."
+    },
+    {
+      "skill_id": "skill-reverse-shot",
+      "skill_name": "Reverse Shot",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Reverse Shot; the canonical PQ reward mapping independently places it at PQ123."
+    },
+    {
+      "skill_id": "skill-revenge-final-flash",
+      "skill_name": "Revenge Final Flash",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Revenge Final Flash; the canonical PQ reward mapping independently places it at PQ124."
+    },
+    {
+      "skill_id": "skill-gigantic-breaker",
+      "skill_name": "Gigantic Breaker",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Gigantic Breaker; the canonical PQ reward mapping independently places it at PQ126."
+    },
+    {
+      "skill_id": "skill-blaster-ball",
+      "skill_name": "Blaster Ball",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Blaster Ball; the canonical PQ reward mapping independently places it at PQ125."
+    },
+    {
+      "skill_id": "skill-ray-blast",
+      "skill_name": "Ray Blast",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Ray Blast; the canonical PQ reward mapping independently places it at PQ125."
+    },
+    {
+      "skill_id": "skill-gigantic-burst",
+      "skill_name": "Gigantic Burst",
+      "event_id": "extra-pack-3",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 3 eight-skill scope; the maintained DLC catalog names Gigantic Burst; the canonical PQ reward mapping independently places it at PQ127."
+    },
+    {
+      "skill_id": "skill-gigantic-charge",
+      "skill_name": "Gigantic Charge",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names Gigantic Charge; the canonical PQ reward mapping independently places it at PQ128."
+    },
+    {
+      "skill_id": "skill-gigantic-rage",
+      "skill_name": "Gigantic Rage",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names Gigantic Rage; the canonical PQ reward mapping independently places it at PQ130."
+    },
+    {
+      "skill_id": "skill-powered-shell",
+      "skill_name": "Powered Shell",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names Powered Shell; the canonical PQ reward mapping independently places it at PQ128."
+    },
+    {
+      "skill_id": "skill-punisher-shield",
+      "skill_name": "Punisher Shield",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names Punisher Shield; the canonical PQ reward mapping independently places it at PQ129."
+    },
+    {
+      "skill_id": "skill-spirit-blaster",
+      "skill_name": "Spirit Blaster",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names Spirit Blaster; the canonical PQ reward mapping independently places it at PQ129."
+    },
+    {
+      "skill_id": "skill-assault-vanish",
+      "skill_name": "Assault Vanish",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names Assault Vanish; the canonical PQ reward mapping independently places it at PQ131."
+    },
+    {
+      "skill_id": "skill-gigantic-roar",
+      "skill_name": "Gigantic Roar",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names Gigantic Roar; the canonical PQ reward mapping independently places it at PQ132."
+    },
+    {
+      "skill_id": "skill-god-punisher",
+      "skill_name": "God Punisher",
+      "event_id": "extra-pack-4",
+      "evidence_type": "official_pack_count_plus_named_catalog_plus_canonical_pq_mapping",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "community_dlc_skill_catalog",
+        "canonical_pq_reverse_index_121_142"
+      ],
+      "confidence": "corroborated",
+      "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names God Punisher; the canonical PQ reward mapping independently places it at PQ132."
     }
   ],
   "research_gaps": [
