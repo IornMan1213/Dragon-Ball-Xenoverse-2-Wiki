@@ -6955,3 +6955,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Recorded explicit all-races evidence for DIE DIE Missile Barrage without converting it into a restrictive value.
 - [x] Added `docs/data/skill-research-batches/skill-batch-654.json` and updated the catalog audit.
 - [ ] Continue the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Null race restriction conflict reconciliation batch 655
+- [x] Reconciled legacy race-restriction evidence for Drain Charge, Full Power Destruction, and III Bomber against the current canonical boundary.
+- [x] Preserved Drain Charge and Full Power Destruction as null because CaC usability alone does not establish a race/gender restriction.
+- [x] Preserved the III Bomber historical Majin/Majin CaC conflict as provenance rather than promoting a disputed legacy field value without direct eligibility wording.
+- [x] Added `docs/data/skill-research-batches/skill-batch-655.json` and updated the catalog audit.
+- [ ] Continue exact eligibility evidence for the remaining null race-restriction frontier.
