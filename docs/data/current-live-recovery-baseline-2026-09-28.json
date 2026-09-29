@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-28",
+  "audit_date": "2026-09-29",
   "purpose": "Current live baseline after corruption recovery and subsequent recovery-forward enrichment.",
   "source_of_truth": {
     "skills": "docs/data/skills.json",
@@ -45,10 +45,10 @@
     "Runtime/CI/build remains unverified/non-blocking."
   ],
   "next_frontier": [
-    "Post-corruption database recovery audit is clean: 497 canonical skills/index records and 862 canonical PQ relationship edges with zero duplicate relationship keys and zero orphaned skill targets.",
+    "Post-corruption database recovery remains clean: 497 canonical skills/index records and 862 canonical PQ relationship edges are synchronized.",
     "Continue evidence-backed restriction review only where direct evidence can establish a narrower rule; preserve null race_restriction where evidence is insufficient.",
-    "Build version/patch provenance from explicit source evidence rather than manufacturing a new field or assigning versions by inference.",
-    "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores.",
-    "Version/patch provenance evidence census now covers all 497 canonical skills; 284 contain explicit patch mentions, 287 explicit version-sensitive language, and 295 explicit DLC/update provenance signals. Build the provenance schema from source evidence before mutating canonical records."
+    "Continue the version/patch provenance layer from explicit source evidence rather than manufacturing version fields.",
+    "Extra Pack 3 and Extra Pack 4 are now individually reconciled at 8/8 skills each; continue older DLC/free-update cohorts with explicit official counts or named skills.",
+    "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores."
   ]
 }
