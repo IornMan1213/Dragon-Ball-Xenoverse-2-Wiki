@@ -7120,3 +7120,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 ### 2026-09-29 continuation — Awoken Batch 673 acquisition/use alignment
 - [x] Recorded aligned Saiyan acquisition and usability requirements for Super Saiyan, Super Vegeta, and Future Super Saiyan.
 - [ ] Continue remaining Awoken acquisition-vs-use provenance review, prioritizing entries where the two requirements actually differ.
+
+
+### 2026-09-29 continuation — Awoken Batch 674 scope correction
+- [x] Clarified Ultra Instinct -Sign- as a cast-only/current retail form, not a retail CaC Awoken Skill.
+- [x] Prevented mod-only CaC implementations and unsupported third-party guide claims from entering canonical Awoken data.
+- [ ] Continue the Awoken scope audit for cast-only states, staged forms, and genuine CaC equippable transformations.
