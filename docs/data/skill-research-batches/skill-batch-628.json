@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 628,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "post_corruption_canonical_recovery",
+  "scope": "Recover authoritative skill data lost or misclassified after the corruption/rebuild sequence.",
+  "source_of_truth": "docs/data/skills.json",
+  "records": [
+    {
+      "id": "skill-time-skip-molotov",
+      "name": "Time Skip/Molotov",
+      "action": "restored",
+      "classification": "Ultimate / Strike",
+      "usable_by_cac": true,
+      "ki_cost": 500,
+      "acquisition": "Shenron wish — I want a new Ultimate Attack!",
+      "evidence": [
+        "Historical batches 473/474/539",
+        "Current Xenoverse 2-specific skill documentation"
+      ]
+    },
+    {
+      "id": "skill-super-dragon-flight",
+      "name": "Super Dragon Flight",
+      "action": "corrected",
+      "classification": "Super / Strike",
+      "usable_by_cac": true,
+      "ki_cost": 100,
+      "acquisition": "Parallel Quest 31 — Let's Train! Basic Reward",
+      "evidence": [
+        "Historical batch 136 and current batch 501",
+        "Current variant-specific Xenoverse 2 skill page"
+      ]
+    }
+  ],
+  "evidence_boundary": [
+    "No canonical ID was invented; Time Skip/Molotov uses the exact historical skill-time-skip-molotov ID.",
+    "Super Dragon Flight was corrected in place because the existing canonical ID and source/PQ relationship already established the identity.",
+    "The cast-exclusive Super Dragon Flight (Ultimate) variant remains distinct.",
+    "No PQ reward relationship was added because the existing PQ31 relationship already exists.",
+    "No reward probability, hidden prerequisite, frame data, or unsupported scaling was inferred."
+  ],
+  "validation": {
+    "canonical_skills": 548,
+    "skills_index": 548,
+    "name_parity": true,
+    "duplicate_canonical_ids": 0,
+    "pq_reward_relationships": 862,
+    "pq_relationship_mutations": 0
+  },
+  "next": "Continue the remaining 58-name indexed-only frontier using exact identity evidence; do not promote cast-only, special-mode, alias, or unresolved identities."
+}
