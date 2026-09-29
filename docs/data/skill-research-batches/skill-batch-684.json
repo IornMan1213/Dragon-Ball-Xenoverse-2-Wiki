@@ -1,0 +1,67 @@
+{
+  "batch_id": 684,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "canonical_authority": "docs/data/skills.json",
+  "scope": "Fresh follow-up on four current null-race CaC-usable skills immediately following Batch 683.",
+  "verification_policy": "Only explicit retail CaC race/gender/form eligibility wording may populate race_restriction. Character ownership, generic Future Warrior technique-list membership, build recommendations, or mod behavior are insufficient.",
+  "records": [
+    {
+      "name": "Full Power Energy Wave",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current exact-skill/research material establishes Skill Shop/story-gated acquisition and broad Future Warrior availability, but the reviewed evidence does not explicitly state an unrestricted or restricted CaC race/gender/form scope.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_(Ultimate)",
+        "https://dragonball.fandom.com/wiki/Full_Power_Energy_Wave",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Galick Beam Cannon",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current Future Warrior references identify Galick Beam Cannon as Mira's Super Skill and establish CaC availability through the Skill Shop, but do not explicitly state a CaC race/gender/form restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Galick_Beam_Cannon",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Gamma Impact",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current Xenoverse 2 evidence identifies Gamma Impact and its character association, while reviewed repository research found no explicit retail CaC race/gender/form restriction. Character ownership is not treated as CaC eligibility evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gamma_Impact",
+        "https://dragonball.fandom.com/wiki/Gamma_Impact",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Gigantic Cross",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Current Broly/Future Warrior references establish Gigantic Cross as a Xenoverse 2 skill usable by the Future Warrior, but the reviewed evidence does not explicitly establish unrestricted or restricted CaC race/gender/form eligibility.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Broly_(Full_Power_Super_Saiyan)",
+        "https://www.bandainamcoent.com/games/dragon-ball-xenoverse-2/downloadable-content",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "conclusion": "preserve_null"
+    }
+  ],
+  "validation": {
+    "records_reviewed": 4,
+    "promoted": 0,
+    "nulls_preserved": 4,
+    "unsupported_inferences": 0,
+    "canonical_mutations": 0
+  },
+  "next": "Continue the remaining null-race cohort with direct retail eligibility wording; do not infer restrictions from character association or generic CaC availability."
+}
