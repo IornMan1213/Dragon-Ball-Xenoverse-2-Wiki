@@ -54,7 +54,7 @@
   },
   "current_registry_state": {
     "canonical_skills": 549,
-    "direct_skill_event_mappings": 105,
+    "direct_skill_event_mappings": 115,
     "explicit_version_or_patch_fields_in_canonical_skills": 0,
     "evidence_census": {
       "explicit_patch_mentions": 284,
@@ -68,7 +68,7 @@
       "Gamma Force: Code-B (Festival)"
     ],
     "unresolved_festival_internal_ids": 4,
-    "next": "Continue Super Pack 1 and Super Pack 4 provenance using explicit official or corroborated named/count evidence; preserve platform-specific dates and leave unsupported version fields null."
+    "next": "Audit Super Pack 4 DLC-label anomalies (character-exclusive moves and Sword of Hope) before canonical mutation; then begin evidence-bound race_restriction enrichment for the 79 null records."
   },
   "canonical_action": "No canonical skills.json mutation in this batch; provenance metadata reconciled to the post-corruption 549-record synchronized baseline.",
   "next": "Use this contract to structure future evidence-backed provenance records, prioritizing skills with explicit release/update evidence and leaving unsupported version fields null.",
