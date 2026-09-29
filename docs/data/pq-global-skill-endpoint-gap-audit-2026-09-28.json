@@ -99,7 +99,8 @@
     "promoted_this_pass": 1,
     "remaining_zero_endpoint_pqs": 15,
     "current_skill_pq_edges": 249,
-    "current_total_pq_relationships": 852
+    "current_total_pq_relationships": 862,
+    "note": "Synchronized in research batch 583 against the live canonical relationship file; the previous 852 total was stale and no longer reflected the 10 relationships restored after that audit."
   },
   "policy": [
     "Canonical forward relationship data remains authoritative.",
