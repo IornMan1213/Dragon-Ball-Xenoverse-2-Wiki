@@ -42,7 +42,7 @@
   ],
   "last_audited": "2026-09-29",
   "latest_research_batch": 618,
-  "canonical_catalog_generated": 517,
+  "canonical_catalog_generated": 516,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical Ki Blast Super recovery and indexed-only reconciliation",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
@@ -64,7 +64,7 @@
     "projection_rule": "Indexes/catalogs/research batches are evidence or projections only and cannot override canonical skills.json."
   },
   "catalog_identity_reconciliation_2026_09_27": {
-    "canonical_skill_records": 517,
+    "canonical_skill_records": 516,
     "unique_indexed_category_records": 555,
     "category_count_sum": 561,
     "indexed_only_unique_names": 110,
@@ -430,10 +430,12 @@
     "status": "applied",
     "date": "2026-09-29",
     "previous_canonical_count": 515,
-    "new_canonical_count": 517,
-    "index_records": 517,
+    "new_canonical_count": 516,
+    "index_records": 516,
     "restored": [
-      "Blades of Judgement",
+      "Blades of Judgement"
+    ],
+    "alias_excluded": [
       "Kamekameha"
     ],
     "source_batches": [
