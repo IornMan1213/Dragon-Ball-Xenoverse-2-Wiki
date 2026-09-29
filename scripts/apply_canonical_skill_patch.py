@@ -22,6 +22,12 @@ PATCHES = {
             "source_quest_or_shop": "Skill Shop",
             "ultimate_finish_required": None,
         },
+    },
+    "x20-kaioken-kamehameha": {
+        "name": "X20 Kaioken Kamehameha",
+        "fields": {
+            "race_restriction": "All CaC races",
+        },
     }
 }
 
