@@ -34,9 +34,10 @@
   "validation": {
     "records_reviewed": 3,
     "canonical_id_matches": 3,
-    "canonical_mutations": 1,
+    "canonical_mutations": 0,
     "external_id_imports": 0,
-    "unsupported_merges": 0
+    "unsupported_merges": 0,
+    "notes": "Canonical identity records were read as authoritative evidence; only the unresolved/bridge layer and PQ relationship index were updated."
   },
   "policy": "Canonical accessory identity is resolved only when the exact named identity already exists in the repository's canonical record layer. Acquisition-route conflicts are retained separately and are not silently rewritten.",
   "sources": [
