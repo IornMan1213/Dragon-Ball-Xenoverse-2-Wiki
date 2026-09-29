@@ -1,0 +1,101 @@
+{
+  "batch_id": 654,
+  "date": "2026-09-29",
+  "status": "complete_no_reclassification",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Exact-skill boundary review of ten additional null race_restriction CaC-usable records.",
+  "canonical_authority": "docs/data/skills.json",
+  "verification_policy": "Only explicit CaC/Future Warrior eligibility wording establishes a race/gender restriction; character association, notable users, acquisition route, or build recommendations are not sufficient.",
+  "records": [
+    {
+      "name": "Backflip",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Reviewed exact-skill/reference evidence did not establish a CaC race/gender restriction.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "DIE DIE Missile Barrage",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Exact legacy skill page explicitly states 'Usable by: All races'; this confirms unrestricted race eligibility and does not justify a non-null restrictive value.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Double Buster",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Exact skill/reference pages identify Kid Trunks and Skill Shop acquisition, but do not establish a CaC race/gender lock.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Energy Wave Combo",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Exact skill page identifies it as a common Ki Blast Super obtained from the Skill Shop; no CaC race/gender restriction was established.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Fighting Sun",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Reference identifies Future Warrior acquisition from Skill Shop; no CaC race/gender restriction was established.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Final Blow",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Exact skill/reference pages identify Vegeta variants and Future Warrior/TP Medal Shop acquisition; no CaC race/gender restriction was established.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Finish Buster",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Exact skill/reference pages identify Trunks variants and Future Warrior Skill Shop acquisition; no CaC race/gender restriction was established.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Galick Beam Cannon",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Exact skill/reference pages identify Mira and Future Warrior Skill Shop acquisition; no CaC race/gender restriction was established.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Gamma Impact",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Reviewed exact/reference evidence did not establish a CaC race/gender restriction.",
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Gigantic Ki Blast",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "evidence": "Exact Xenoverse 2 reference explicitly describes a CaC use case; no narrower CaC race/gender restriction was established.",
+      "conclusion": "preserve_null"
+    }
+  ],
+  "sources": [
+    "https://dbxenoverse.fandom.com/wiki/DIE_DIE_Missile_Barrage_%28Skill%29",
+    "https://dbxv2.fandom.com/wiki/DIE_DIE_Missile_Barrage",
+    "https://dbxv2.fandom.com/wiki/Double_Buster",
+    "https://dbxv2.fandom.com/wiki/Energy_Wave_Combo",
+    "https://dragonball.fandom.com/wiki/Fighting_Sun",
+    "https://dbxv2.fandom.com/wiki/Final_Blow",
+    "https://dbxv2.fandom.com/wiki/Finish_Buster",
+    "https://dbxv2.fandom.com/wiki/Galick_Beam_Cannon",
+    "https://dbxv2.fandom.com/wiki/Gigantic_Ki_Blast"
+  ],
+  "validation": {
+    "records_reviewed": 10,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 10,
+    "explicit_all_races": [
+      "DIE DIE Missile Barrage"
+    ]
+  },
+  "next": "Continue the remaining null race-restriction frontier; do not infer restrictions from character ownership or acquisition routes."
+}
