@@ -6264,3 +6264,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported version assignment.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue substantive canonical skill provenance/mechanics enrichment outside the already-audited Festival identity gap; revisit Festival IDs only when an exact structured historical artifact or canonical blob exposes them.
+
+
+### 2026-09-29 continuation — Future Saga Chapter 1 individual skill provenance completion batch 589
+- [x] Closed the Chapter 1 individual skill-provenance gap: the registry already declared 15 Chapter 1 skills, while only 4 had individual skill→event mappings.
+- [x] Added 11 corroborated mappings covering the remaining PQ reward skills from PQ163-PQ174: Gigantic Cluster, Eraser Bomb, Gigantic Explosion, Variable Snipe Shot, Steel Mirage, Pendulum Bullet, Seagull Combination, Burning Swan, Justice Drive, Divine Ray Bomb, and Final Rampage.
+- [x] Preserved the `Giant Cluster`/`Gigantic Cluster` transcription boundary and canonical `skill-giant-cluster` identity.
+- [x] Chapter 1 provenance is now complete at **15/15** registered skills mapped to the release event.
+- [x] Added Batch 589, updated the authoritative provenance registry, and synchronized the skill-catalog audit.
+- [x] No canonical skill or PQ relationship mutation; no unsupported version/patch assignment.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** select the next event with incomplete individual skill mappings and enrich it using direct skill/PQ evidence plus official event provenance; do not infer identities from DLC proximity alone.
