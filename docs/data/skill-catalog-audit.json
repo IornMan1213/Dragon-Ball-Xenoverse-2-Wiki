@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 599,
+  "latest_research_batch": 600,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "497 canonical skills and 862 PQ relationship edges remain reconciled. Version/patch provenance is the active field-level layer; Extra Pack 1 is reconciled 13/13 and Extra Packs 3 and 4 are now reconciled 8/8 each using official pack counts plus corroborating named-skill/PQ evidence. Continue older DLC/free-update cohorts without inferring patch numbers from dates.",
+  "current_research_focus": "Recovered canonical baseline preserved at 497 skills and 862 PQ reward edges. Provenance batches through 599 are complete; Batch 600 consolidates the 18 current Expert Mission EM03-20 acquisition routes while preserving unresolved exact drop rates/guarantees.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
