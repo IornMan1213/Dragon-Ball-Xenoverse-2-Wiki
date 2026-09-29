@@ -6417,3 +6417,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** seek direct reward-table/game-data evidence for actual skill reward-generation conditions; if unavailable, proceed to the next unresolved mechanics/acquisition frontier rather than fabricating rates.
+
+
+### 2026-09-29 continuation — Skill restriction batch 603
+- [x] Audited six late-DLC CaC-usable skills: **Blaster Stream, God of Destruction's Poise, Full Power Destruction, Soaring Rush, Burst Blitz, Dragon Spark**.
+- [x] Reconciled the evidence boundary for race_restriction: CaC usability is established, but no direct narrower race/gender/form restriction or unrestricted-all-CaC statement was established in this pass.
+- [x] Preserved canonical race_restriction: null for all six rather than inferring from NPC/partner identity or DLC grouping.
+- [x] Added Batch 603 to the research layer and synchronized the catalog restriction census.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining 27-record race-restriction frontier with fresh direct evidence, while avoiding provenance-only repetition.
