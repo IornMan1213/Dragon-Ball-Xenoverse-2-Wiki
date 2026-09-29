@@ -2828,5 +2828,6 @@
   "skill_batch_598_extra_pack_3_4_2026_09_29": "docs/data/skill-research-batches/skill-batch-598.json",
   "skill_research_batch_612_indexed_only_cast_only": "docs/data/skill-research-batches/skill-batch-612.json",
   "skill_research_batch_613_indexed_only_identity_reconciliation": "docs/data/skill-research-batches/skill-batch-613.json",
-  "skill_research_batch_624_recovery": "docs/data/skill-research-batches/skill-batch-624.json"
+  "skill_research_batch_624_recovery": "docs/data/skill-research-batches/skill-batch-624.json",
+  "skill_recovery_batch_628": "docs/data/skill-research-batches/skill-batch-628.json"
 }
