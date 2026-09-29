@@ -6902,3 +6902,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill record was created or altered, no PQ relationship changed, and no unsupported game-version/patch value was assigned.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue older free-update/DLC cohorts for directly named canonical skills; preserve unresolved subsets when official sources do not name individual skills.
+### 2026-09-29 continuation — Free Update 2021 Super Saiyan God provenance reconciliation batch 592
+- [x] Bound canonical **Super Saiyan God** (`skill-super-saiyan-god`) directly to the **2021-11-05 accompanying Free Update** using Bandai Namco Europe's dated official release notice.
+- [x] Confirmed the official source explicitly identifies Super Saiyan God as the new Awoken Skill added in that free update.
+- [x] Added `docs/data/skill-research-batches/skill-batch-592.json` and synchronized the authoritative game-content provenance registry and skill-catalog audit.
+- [x] No canonical skill record was created or altered, no PQ relationship changed, and no unsupported game-version/patch value was assigned.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue older free-update/DLC cohorts for directly named canonical skills; preserve unresolved subsets when official sources do not name individual skills, and keep release dates separate from patch/version labels.
+
