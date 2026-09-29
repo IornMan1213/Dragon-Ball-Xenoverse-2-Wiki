@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 588,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "free_update_20_event_provenance_reconciliation",
+  "scope": "Separate Free Update 20 / Budokai Festival event provenance from the paid Dragon Ball DAIMA Pack and establish the strongest date/content boundary supported by official release evidence.",
+  "findings": [
+    {
+      "event": "Free Update 20 / Budokai Festival",
+      "date": "2025-05-21",
+      "official_source": "official_daima_pack_2025",
+      "finding": "Bandai Namco's official DAIMA Pack release notice states that the DAIMA Pack and its accompanying free update were released on the same date and that the free update included Skills; the official notice does not name those skills individually."
+    },
+    {
+      "event": "Free Update 20 Festival skill scope",
+      "date": null,
+      "official_source": "official_update20_budokai_skills",
+      "finding": "The official Bandai Namco Japan release announcement separately identifies four Budokai Festival skills in Free Update 20, but the accessible text does not expose their individual names or internal IDs."
+    },
+    {
+      "event": "Paid Dragon Ball DAIMA Pack",
+      "date": "2025-05-21",
+      "official_source": "official_daima_pack_2025",
+      "finding": "The paid DAIMA Pack remains a separate provenance event containing six player-character skills; those six canonical mappings must not be used as substitutes for the four free-update Festival identities."
+    }
+  ],
+  "evidence_boundary": {
+    "official_date": "2025-05-21 is supported by the official Bandai Namco Europe DAIMA Pack release notice for the Pack and accompanying free update.",
+    "version": "Game version 1.24.0 is retained only where independently documented; this batch does not promote that version value from research metadata into the authoritative event registry without direct official version evidence.",
+    "skill_scope": "Official evidence establishes four free-update Festival skills but does not expose exact internal canonical IDs.",
+    "canonical_policy": "No skills.json mutation, no invented canonical IDs, and no duplicate skill→event mappings."
+  },
+  "validation": {
+    "free_update_event_date_confirmed": true,
+    "festival_skill_count_confirmed": 4,
+    "paid_daima_skill_count_maintained": 6,
+    "canonical_skill_mutations": 0,
+    "canonical_relationship_mutations": 0,
+    "unsupported_version_assignments": 0
+  },
+  "next": "Continue substantive canonical skill provenance/mechanics enrichment outside the already-audited Festival identity gap; revisit the four Festival IDs only when exact structured historical identifiers appear."
+}
