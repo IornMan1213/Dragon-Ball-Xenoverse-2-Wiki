@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 630,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "indexed_only_boundary_reconciliation",
+  "scope": "Apply historical research evidence for explicit CaC availability boundaries without promoting unsupported identities.",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_mutation": false,
+  "confirmed_unavailable": [
+    "Dragon Flash Bullet",
+    "Freezing Beam",
+    "Ice Field",
+    "Whirlwind Blade",
+    "High Tension Turn"
+  ],
+  "confirmed_cac": [
+    "Super Front Jump"
+  ],
+  "evidence": [
+    "skill-batch-265 documents Dragon Flash Bullet, Freezing Beam, Ice Field, and Whirlwind Blade as cast-exclusive Super Pack 2 skills.",
+    "skill-batch-223 documents High Tension Turn as usable_by_cac=false.",
+    "skill-batch-237 documents Super Front Jump as usable_by_cac=true."
+  ],
+  "validation": {
+    "canonical_skills": 548,
+    "canonical_mutations": 0,
+    "remaining_indexed_only": 24
+  },
+  "next": "Resolve the remaining 24 identities only through explicit CaC-positive or exact current-game evidence."
+}
