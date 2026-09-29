@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 643,
+  "latest_research_batch": 644,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race-restriction evidence frontier started conservatively. Batch 643 reviewed 20 of the remaining null records without canonical mutation because category/PQ acquisition does not prove equip restriction. Next: explicit per-skill race-exclusive evidence.",
+  "current_research_focus": "Race restriction frontier: Batch 644 corroborated 11 explicit race-exclusive Awoken Skills already represented in canonical data. No canonical changes. Next: exact non-Awoken race-restricted skills with direct evidence.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1000,5 +1000,10 @@
     "canonical_changes": 0,
     "remaining_nulls": 79,
     "batch_file": "docs/data/skill-research-batches/skill-batch-643.json"
+  },
+  "race_restriction_batch_644": {
+    "records_reviewed": 11,
+    "canonical_changes": 0,
+    "batch_file": "docs/data/skill-research-batches/skill-batch-644.json"
   }
 }
