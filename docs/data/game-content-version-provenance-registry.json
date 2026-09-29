@@ -209,6 +209,14 @@
       "date": "2020-08-31",
       "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-celebrates-6-million-copies-sold-its-11th-update-being",
       "scope": "Official announcement for the August 26 2020 free update; states the update added nine new fighting techniques."
+    },
+    {
+      "id": "bn_extra_pack_2_named_skills_2018",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "More details about DRAGON BALL XENOVERSE 2 Extra Pack 2",
+      "date": "2018-02-23",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/more-details-about-dragon-ball-xenoverse-2-extra-pack-2",
+      "scope": "Official Extra Pack 2 preview; explicitly names Soaring Fist and Godly Display for Goku (Ultra Instinct)."
     }
   ],
   "events": [
@@ -344,9 +352,20 @@
       ],
       "skill_count": 9,
       "assignment_status": "Nine individual skill mappings reconciled from the official count plus maintained named skill catalog/canonical records; no game version or patch number inferred."
+    },
+    {
+      "id": "extra-pack-2",
+      "kind": "dlc",
+      "date": "2018-03-01",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "bn_extra_pack_2_named_skills_2018"
+      ],
+      "skill_count": 8,
+      "assignment_status": "DLC-level provenance established; four individual canonical skill mappings are now directly supported by official named-skill evidence, while the remaining four Extra Pack 2 skills require separate direct evidence. Release date is provenance only; no game version/patch inferred."
     }
   ],
-  "next_step": "Audit the next older DLC/free-update cohort with a documented skill count and incomplete individual mappings; preserve event-level-only subsets where official sources do not expose names. Keep release dates separate from game version/patch labels.",
+  "next_step": "Continue the older DLC/free-update provenance frontier: reconcile the remaining four Extra Pack 2 skills from direct named or explicit canonical evidence, then audit Extra Pack 1/other early DLC cohorts with documented skill counts. Keep release dates separate from game version/patch labels.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -953,6 +972,54 @@
       ],
       "confidence": "corroborated",
       "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and nine new fighting techniques; the maintained Free Update catalog names the nine techniques and the canonical repository contains matching skill identities."
+    },
+    {
+      "skill_id": "skill-soaring-fist",
+      "skill_name": "Soaring Fist",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_extra_pack_2_named_skills_2018",
+        "bn_xv2_free_update_extra2_2018"
+      ],
+      "confidence": "direct",
+      "basis": "Officially named by Bandai Namco as Goku (Ultra Instinct)'s Super Attack in Extra Pack 2."
+    },
+    {
+      "skill_id": "skill-godly-display",
+      "skill_name": "Godly Display",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_extra_pack_2_named_skills_2018",
+        "bn_xv2_free_update_extra2_2018"
+      ],
+      "confidence": "direct",
+      "basis": "Officially named by Bandai Namco as Goku (Ultra Instinct)'s Ultimate Skill in Extra Pack 2."
+    },
+    {
+      "skill_id": "skill-meditation",
+      "skill_name": "Meditation",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_named_skill_plus_canonical_identity",
+      "source_ids": [
+        "bn_extra_pack_2_named_skills_2018",
+        "bn_xv2_free_update_extra2_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 announcement names Jiren's move as “Mediation”; the canonical Xenoverse 2 skill identity is Meditation and independent repository evidence establishes that canonical record as an Extra Pack 2/Jiren skill. The spelling difference is retained rather than treated as a second skill."
+    },
+    {
+      "skill_id": "skill-power-rush",
+      "skill_name": "Power Rush",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_named_skill_plus_canonical_identity",
+      "source_ids": [
+        "bn_extra_pack_2_named_skills_2018",
+        "bn_xv2_free_update_extra2_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 announcement names Jiren's Power Rush as a special move; the canonical Xenoverse 2 skill identity is Power Rush and independent repository evidence establishes its Extra Pack 2/Jiren provenance."
     }
   ],
   "research_gaps": [
@@ -1092,5 +1159,6 @@
       "note": "Named event skill recovered from Festival catalog/event evidence; canonical skills.json currently lacks a matching record, so no canonical ID or direct skill mapping is invented."
     }
   ],
-  "last_updated": "2026-09-29"
+  "last_updated": "2026-09-29",
+  "_batch_594_note": "Batch 594"
 }
