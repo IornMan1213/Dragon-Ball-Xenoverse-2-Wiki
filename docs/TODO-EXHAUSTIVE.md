@@ -6591,3 +6591,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Fresh indexed-only census now leaves **64** unresolved names from the maintained 110-name source universe.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue explicit-CaC recovery from the remaining indexed-only frontier without promoting unresolved, cast-only, alias, or special-mode identities.
+
+
+### 2026-09-29 continuation — Canonical recovery batch 626
+- [x] Reviewed the next indexed-only Ki Blast candidate group against repository research.
+- [x] Promoted **Evil Explosion (Super)** and the Time Patroller-specific **Peeler Storm (Evasive)** implementation.
+- [x] Explicitly preserved cast/unavailable boundaries for Bloody Sauce, Dragon Flash Bullet, Freezing Beam, Ice Field, Whirlwind Blade, Flames of Retribution, Marbling Drop, Seasoning Arrow, Light of Justice, Time Shackles, Full Power Energy Wave (Super), and Special Beam Cannon (Super).
+- [x] Canonical/index stores synchronized at **545/545**.
+- [x] Indexed-only unresolved frontier reduced to **62** names.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining indexed-only identities using explicit player-character evidence; do not promote cast-only or unavailable-for-CaC records.
