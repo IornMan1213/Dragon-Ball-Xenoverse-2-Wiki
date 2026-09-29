@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 653,
+  "latest_research_batch": 654,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier: Batch 653 reviewed ten additional null-race CaC-usable records; all ten remain null. Continue exact eligibility evidence.",
+  "current_research_focus": "Race restriction frontier: Batch 654 reviewed ten additional null-race CaC-usable records; all ten remain null. Continue exact eligibility evidence.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1076,6 +1076,22 @@
       "Serious Bomb",
       "Shockwave"
     ],
-    "batch_653_reclassified": 0
+    "batch_653_reclassified": 0,
+    "batch_654_reviewed": [
+      "Backflip",
+      "DIE DIE Missile Barrage",
+      "Double Buster",
+      "Energy Wave Combo",
+      "Fighting Sun",
+      "Final Blow",
+      "Finish Buster",
+      "Galick Beam Cannon",
+      "Gamma Impact",
+      "Gigantic Ki Blast"
+    ],
+    "batch_654_reclassified": 0,
+    "batch_654_explicit_all_races": [
+      "DIE DIE Missile Barrage"
+    ]
   }
 }
