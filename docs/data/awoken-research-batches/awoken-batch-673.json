@@ -1,0 +1,55 @@
+{
+  "batch_id": 673,
+  "created": "2026-09-29",
+  "type": "awoken_acquisition_vs_use_provenance",
+  "status": "research_only_sync_ready",
+  "scope": "Record cases where Awoken acquisition eligibility and actual usability remain aligned, so race restriction is not accidentally inferred from acquisition-only evidence.",
+  "records": [
+    {
+      "name": "Super Saiyan",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "acquisition_race_requirement": "Saiyan",
+      "use_race_requirement": "Saiyan",
+      "evidence_status": "explicit",
+      "reason": "Current Awoken references classify Super Saiyan as Saiyan-only; Future Warrior documentation describes the transformation as available through Vegeta's Capsule Corporation training for a Saiyan Future Warrior.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Saiyan",
+        "https://ultradragonball.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Super Vegeta",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "acquisition_race_requirement": "Saiyan",
+      "use_race_requirement": "Saiyan",
+      "evidence_status": "explicit",
+      "reason": "The Awoken Skill is part of the Saiyan Super Vegeta branch and the Future Warrior documentation describes it as a Saiyan transformation.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://ultradragonball.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Future Super Saiyan",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "acquisition_race_requirement": "Saiyan",
+      "use_race_requirement": "Saiyan",
+      "evidence_status": "explicit",
+      "reason": "Awoken references classify Future Super Saiyan as Saiyan-only; the documented unlock path is the post-game secret story sequence and the transformation is a Saiyan form.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Awoken_Skill",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/444329-future-super-saiyan"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 3,
+    "acquisition_use_alignment_confirmed": 3,
+    "unsupported_cross_race_inferences": 0,
+    "canonical_mutation": 0
+  },
+  "note": "This batch intentionally records alignment rather than changing canonical restrictions. It prevents the acquisition-vs-use distinction from being applied where the evidence does not show a divergence."
+}
