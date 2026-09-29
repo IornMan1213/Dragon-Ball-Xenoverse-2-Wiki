@@ -344,7 +344,7 @@
     ],
     "note": "Official release announcements establish event-level provenance. Individual skill first-release/version assignments still require direct skill-to-event evidence."
   },
-  "direct_skill_event_mappings": 44,
+  "direct_skill_event_mappings": 92,
   "direct_skill_event_mapping_ids": [
     "skill-crimson-edge",
     "skill-divine-spear",
