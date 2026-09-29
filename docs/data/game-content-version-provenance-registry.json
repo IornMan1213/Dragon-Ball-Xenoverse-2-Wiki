@@ -217,6 +217,14 @@
       "date": "2018-02-23",
       "url": "https://en.bandainamcoent.eu/dragon-ball/news/more-details-about-dragon-ball-xenoverse-2-extra-pack-2",
       "scope": "Official Extra Pack 2 preview; explicitly names Soaring Fist and Godly Display for Goku (Ultra Instinct)."
+    },
+    {
+      "id": "community_extra_pack_2_skill_roster_2018",
+      "publisher": "GameFAQs community research",
+      "title": "DLC Extra Pack 2 Notes [Spoilers]",
+      "date": "2018-02-23",
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76363437",
+      "scope": "Contemporaneous Extra Pack 2 notes explicitly identify the eight new avatar skills as Fu's four skills, Android 17's Rough Ranger, and Jiren's Power Impact, Meditation, and Power Rush; used as corroboration rather than official release authority."
     }
   ],
   "events": [
@@ -362,7 +370,7 @@
         "bn_extra_pack_2_named_skills_2018"
       ],
       "skill_count": 8,
-      "assignment_status": "DLC-level provenance established; four individual canonical skill mappings are now directly supported by official named-skill evidence, while the remaining four Extra Pack 2 skills require separate direct evidence. Release date is provenance only; no game version/patch inferred."
+      "assignment_status": "DLC-level provenance established; all 8 documented new/avatar skills now have individual canonical mappings supported by official DLC count plus named roster evidence. Soaring Fist and Godly Display remain separately named Goku (Ultra Instinct) character-skill provenance and are not counted against the documented eight-skill avatar roster. Release date is provenance only; no game version/patch inferred."
     }
   ],
   "next_step": "Continue the older DLC/free-update provenance frontier: reconcile the remaining four Extra Pack 2 skills from direct named or explicit canonical evidence, then audit Extra Pack 1/other early DLC cohorts with documented skill counts. Keep release dates separate from game version/patch labels.",
@@ -1020,6 +1028,78 @@
       ],
       "confidence": "corroborated",
       "basis": "The official Extra Pack 2 announcement names Jiren's Power Rush as a special move; the canonical Xenoverse 2 skill identity is Power Rush and independent repository evidence establishes its Extra Pack 2/Jiren provenance."
+    },
+    {
+      "skill_id": "skill-sneaky-strike",
+      "skill_name": "Sneaky Strike",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 release establishes eight new skills; the contemporaneous named roster identifies Sneaky Strike as Fu's Extra Pack 2 skill, and the canonical repository provides the exact skill identity. This establishes DLC association without inferring a game version/patch."
+    },
+    {
+      "skill_id": "skill-confusion-blade",
+      "skill_name": "Confusion Blade",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 release establishes eight new skills; the contemporaneous named roster identifies Confusion Blade as Fu's Extra Pack 2 skill, and the canonical repository provides the exact skill identity. This establishes DLC association without inferring a game version/patch."
+    },
+    {
+      "skill_id": "skill-energy-minefield",
+      "skill_name": "Energy Minefield",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 release establishes eight new skills; the contemporaneous named roster identifies Energy Minefield as Fu's Extra Pack 2 skill, and the canonical repository provides the exact skill identity. This establishes DLC association without inferring a game version/patch."
+    },
+    {
+      "skill_id": "skill-remote-serious-bomb",
+      "skill_name": "Remote Serious Bomb",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 release establishes eight new skills; the contemporaneous named roster identifies Remote Serious Bomb as Fu's Extra Pack 2 skill, and the canonical repository provides the exact skill identity. This establishes DLC association without inferring a game version/patch."
+    },
+    {
+      "skill_id": "skill-rough-ranger",
+      "skill_name": "Rough Ranger",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 release establishes eight new skills; the contemporaneous named roster identifies Rough Ranger as Android 17 (DB Super)'s Extra Pack 2 skill, and the canonical repository provides the exact skill identity. This establishes DLC association without inferring a game version/patch."
+    },
+    {
+      "skill_id": "skill-power-impact",
+      "skill_name": "Power Impact",
+      "event_id": "extra-pack-2",
+      "evidence_type": "official_dlc_count_plus_community_named_roster_plus_canonical_identity",
+      "source_ids": [
+        "bn_xv2_free_update_extra2_2018",
+        "community_extra_pack_2_skill_roster_2018"
+      ],
+      "confidence": "corroborated",
+      "basis": "The official Extra Pack 2 release establishes eight new skills; the contemporaneous named roster identifies Power Impact as Jiren's Extra Pack 2 skill, and the canonical repository provides the exact skill identity. This establishes DLC association without inferring a game version/patch."
     }
   ],
   "research_gaps": [
