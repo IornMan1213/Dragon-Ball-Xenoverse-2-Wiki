@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 648,
+  "latest_research_batch": 649,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
   "current_research_focus": "Race restriction frontier: Batch 646 preserved null for four skills where exact references do not establish CaC race locks. Continue exact evidence across remaining null records.",
@@ -1028,5 +1028,11 @@
     "canonical_changes": 0,
     "nulls_preserved": 4,
     "batch_file": "docs/data/skill-research-batches/skill-batch-648.json"
+  },
+  "race_restriction_batch_649": {
+    "records_reviewed": 4,
+    "canonical_changes": 0,
+    "nulls_preserved": 4,
+    "batch_file": "docs/data/skill-research-batches/skill-batch-649.json"
   }
 }
