@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 621,
+  "latest_research_batch": 622,
   "canonical_catalog_generated": 521,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical indexed-only CaC skill reconciliation and canonical/index parity",
@@ -487,5 +487,23 @@
     ],
     "boundary": "Only records with explicit historical usable_by_cac=true evidence were promoted; unresolved stamina/damage/frame fields remain null.",
     "next": "Continue indexed-only reconciliation using explicit CaC evidence; do not promote cast-only, unresolved, or spelling-alias records."
+  },
+  "recovery_batch_622": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "previous_canonical_count": 519,
+    "new_canonical_count": 521,
+    "index_records": 521,
+    "restored": [
+      "Cross Arm Dive",
+      "Final Blow"
+    ],
+    "source_batches": [
+      173,
+      142
+    ],
+    "canonical_ids_inferred": 0,
+    "pq_relationship_mutations": 0,
+    "note": "Historical records explicitly establish CaC usability and acquisition; unresolved technical fields remain null."
   }
 }
