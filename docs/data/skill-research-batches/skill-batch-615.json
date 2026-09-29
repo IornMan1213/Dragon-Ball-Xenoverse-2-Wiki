@@ -1,0 +1,28 @@
+{
+  "batch_id": 615,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 502,
+  "new_canonical_count": 510,
+  "records": [
+    "Destructive Ray",
+    "Senko Ki Blast",
+    "Thunder Eraser",
+    "III Flash",
+    "III Bomber",
+    "III Rain",
+    "Super Ghost Kamikaze Attack (Super)",
+    "Split Finger Shot"
+  ],
+  "source_batches": [
+    260,
+    262,
+    263
+  ],
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "index_parity": "510/510",
+  "remaining_indexed_only": 98,
+  "next": "Continue historical Ki Blast Super recovery, then Ki Blast Ultimate recovery."
+}
