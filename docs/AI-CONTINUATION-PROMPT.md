@@ -7863,3 +7863,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Reconciled the frontier logic: the 74 null-race records should **not** be treated as 74 untouched records. Prior batches already cover many of them; future work must avoid repeating identical boundary audits.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** identify any genuinely unreviewed null-race identities; otherwise stop spending cycles on already-established null boundaries and advance to DLC/free-update provenance, mechanics enrichment, and cross-database relationship completeness.
+
+
+### 2026-09-29 continuation — Race restriction Batch 686
+- [x] Added `docs/data/skill-research-batches/skill-batch-686.json`.
+- [x] Directly reviewed **Backflip, Blades of Judgement, Circle Flash, Energy Wave Combo, and Double Buster**.
+- [x] Preserved all five as `race_restriction: null`. Current references establish CaC/Future Warrior availability for the relevant records or Skill Shop/PQ acquisition, but do not provide explicit retail race/gender/form restrictions.
+- [x] No canonical skill records were mutated; `docs/data/skills.json` remains authoritative.
+- [x] This batch reinforces the boundary that character ownership and generic Future Warrior usability are not sufficient evidence for a race classification. citeturn1search2turn1search3turn2search0turn2search1turn2search3
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** identify remaining genuinely unreviewed null-race identities; avoid repeating already-established null boundaries, then advance to DLC/free-update provenance, mechanics enrichment, and bidirectional PQ↔skill/Super Soul/equipment completeness.
