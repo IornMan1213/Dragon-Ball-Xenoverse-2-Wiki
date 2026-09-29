@@ -1,0 +1,29 @@
+{
+  "batch_id": 680,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_canonical_mutation_pending",
+  "type": "race_restriction_canonical_sync_candidate",
+  "scope": "Resolve the X20 Kaioken Kamehameha frontier using direct skill-specific evidence and preserve canonical-source policy.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "X20 Kaioken Kamehameha",
+      "current_race_restriction": null,
+      "usable_by_cac": true,
+      "evidence_status": "universal_cac_candidate",
+      "finding": "The current skill-specific Xenoverse 2 documentation explicitly states that X20 Kaioken Kamehameha is available for all CaCs. Repository historical research already records the canonical identity as a CaC Ultimate with race_restriction null. This is stronger than generic Future Warrior provenance and is suitable for a canonical synchronization pass.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 1,
+    "reclassified": 1,
+    "canonical_mutations_applied": 0,
+    "reason_canonical_mutation_pending": "The authoritative skills.json is a large canonical corpus whose exact record must be edited without reconstructing or replacing the corpus from the consumer index."
+  },
+  "provenance_rule": "The secondary source supplies explicit skill-specific all-CaC eligibility; it does not replace skills.json as source of truth. Synchronization must preserve the canonical record and update only the race_restriction field when the exact record can be safely targeted.",
+  "next": "Safely target the exact canonical X20 Kaioken Kamehameha record, synchronize race_restriction to Universal/All CaC races if the repository schema's existing universal value is confirmed, then synchronize the consumer index and record the mutation."
+}
