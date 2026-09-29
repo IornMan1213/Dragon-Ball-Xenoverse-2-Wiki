@@ -6519,3 +6519,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill mutation, canonical promotion, or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue indexed-only identity reconciliation, prioritizing names with direct Future Warrior/CaC acquisition evidence that may require canonical promotion, while preserving cast-only and variant exclusions.
+
+
+### 2026-09-29 continuation — Post-corruption rebuild verification and indexed-only reconciliation batch 613
+- [x] Re-verified the recovered live-main forward stores directly: `docs/data/skills.json` = **497** canonical records, `docs/data/skills-index.json` = **497** records, and `docs/data/pq-reward-relationships.json` = **862** canonical reward relationships (249 skill, 135 Super Soul, 136 equipment, 247 character, 88 DLC, 7 farming).
+- [x] Preserved the recovered baseline contract: canonical forward stores remain authoritative; no rebuild was performed from verified/index/projection layers.
+- [x] Added `docs/data/post-corruption-rebuild-verification-2026-09-29.json` as the current rebuild checkpoint.
+- [x] Added `docs/data/skill-research-batches/skill-batch-613.json` covering **Burst Attack, Finish Buster, Double Buster, Galick Beam Cannon, Power Pole**, plus the **Peeler Storm** special-mode boundary.
+- [x] Established direct Future Warrior/CaC evidence for the five ordinary candidates, but did **not** invent canonical IDs or promote records without exact repository identity evidence.
+- [x] Kept Peeler Storm separate as Crystal Raid/Training special-mode availability rather than treating it as an ordinary CaC acquisition route.
+- [x] No canonical skill records or PQ relationships were mutated.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue indexed-only identity recovery using exact repository/game-data identity evidence; promote only when the canonical identity is independently established, otherwise move to the next highest-value enrichment frontier.
