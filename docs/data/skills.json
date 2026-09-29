@@ -1403,6 +1403,29 @@
       ]
     },
     {
+      "name": "Burst Attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Nuova Shenron",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Shenron wish: \"I want a new Super Attack!\"",
+      "source_quest_or_shop": "Shenron wish — new Super Attack selection",
+      "ultimate_finish_required": null,
+      "skill_description": "Tracking flaming Ki Blast projectile whose explosion launches the opponent.",
+      "mechanics_notes": "Tracking flaming Ki Blast projectile; the explosion launches the target. Exact frame, hitbox, and damage values are not promoted to universal canonical numeric data.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-18",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Attack"
+      ]
+    },
+    {
       "name": "Burst Blitz",
       "class": "Ultimate",
       "subcategory": "Strike",
@@ -3734,6 +3757,34 @@
       "ki_cost": 300
     },
     {
+      "name": "Double Buster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Trunks (Kid); Future Trunks, Gotenks, Pan, Tapion (Customize Partner where unlocked)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Skill Shop after the required story progression; current Xenoverse 2 references identify the shop as the CaC acquisition route",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Fire a two-handed Ki Blast forward; a second input causes the blast to chase the opponent.",
+      "mechanics_notes": "Current Xenoverse 2 data classifies Double Buster as a Ki Blast Super with a tracking follow-up input. The current skill reference lists the Skill Shop as the acquisition source, superseding older Xenoverse 1 PQ29 references for current-game acquisition.",
+      "combo_notes": "The second input changes the projectile trajectory to pursue the target, which is the defining documented mechanic.",
+      "pve_notes": "The tracking follow-up can help against moving AI targets when the initial projectile does not connect.",
+      "pvp_notes": "The additional input can alter projectile tracking, but no universal hit-confirm or frame claim is asserted.",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Buster",
+        "https://dragonball.fandom.com/wiki/Double_Buster",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    },
+    {
       "id": "skill-double-crush",
       "name": "Double Crush",
       "class": "Super",
@@ -5893,6 +5944,34 @@
       "ki_cost": 100
     },
     {
+      "name": "Finish Buster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Trunks (Future); Trunks (Kid); Pan; Tapion (Customize Partner where unlocked)",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Skill Shop after the required story progression",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Fire a powerful Ki Blast straight ahead; the user remains exposed during the firing stance.",
+      "mechanics_notes": "Current Xenoverse 2 references classify Finish Buster as a Ki Blast Super with projectile tracking and long range. The documented current acquisition route is the Skill Shop; older Xenoverse 1 PQ32 references should not be treated as the current Xenoverse 2 unlock route.",
+      "combo_notes": "The move has a long-range projectile profile but leaves the user vulnerable during its firing stance.",
+      "pve_notes": "The long-range projectile can be useful when the AI is already committed or knocked away, while its vulnerability should be accounted for.",
+      "pvp_notes": "The documented vulnerability during the firing stance makes spacing and confirmation important.",
+      "verification_status": "verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Finish_Buster",
+        "https://dragonball.fandom.com/wiki/Finish_Buster",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    },
+    {
       "name": "Finishing Blow",
       "class": "Super",
       "subcategory": "Strike",
@@ -6424,6 +6503,29 @@
       "source_quest_or_shop": "Festival of Universes — Max Camaraderie with Vegeta",
       "dlc_requirement": "Festival of Universes",
       "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Festival of Universes — Max Camaraderie with Vegeta; DLC classification is bounded to the acquisition route and does not infer cast/preset availability."
+    },
+    {
+      "name": "Galick Beam Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Vegeta (Super Saiyan God)",
+      "dlc_requirement": "Conton City Vote Pack",
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 143",
+      "source_quest_or_shop": "Parallel Quest 143",
+      "ultimate_finish_required": null,
+      "skill_description": "Fast linear Ki beam with an optional follow-up that extends the attack.",
+      "mechanics_notes": "Fast linear Ki beam with an optional follow-up. Exact frame, hitbox, damage, and reward-probability values are not promoted to universal canonical numeric data without stronger current evidence.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Galick_Beam_Cannon"
+      ]
     },
     {
       "name": "Galick Cannon",
@@ -10096,6 +10198,34 @@
       "id": "skill-power-impact",
       "source_parallel_quests": [
         120
+      ]
+    },
+    {
+      "name": "Power Pole",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Goku (GT) / Goku (GT) customizable partner",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "skill_description": "Extend the Power Pole over a long distance to jab the opponent with a straight-line Strike attack.",
+      "mechanics_notes": "Long-range, single-hit weapon attack that travels in a straight line. It can deal increased damage when the opponent is pinned against the ground. Exact frame, hitbox, and damage values are not promoted to universal canonical numeric data.",
+      "acquisition_notes": "Current Xenoverse 2 research lists the Skill Shop as the unlock route. Power Pole Combo is a separate skill and is not merged with this record.",
+      "pve_notes": "Skill Shop acquisition; no Parallel Quest or Ultimate Finish requirement established.",
+      "pvp_notes": "Long-range straight-line Strike Super with weapon reach and ground-pin synergy; detailed matchup and frame behavior remains version-sensitive.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-17",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Pole",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74998319",
+        "https://steamcommunity.com/app/454650/discussions/0/142261352650110246/"
       ]
     },
     {
@@ -15011,7 +15141,7 @@
     }
   ],
   "last_verified": "2026-09-27",
-  "last_updated": "2026-09-27",
+  "last_updated": "2026-09-29",
   "audit_registry": {
     "skill_research_batch_430": "docs/data/skill-research-batches/skill-batch-430.json",
     "skill_light-grenade_current_evidence_audit_2026_09_26_batch_430": "docs/data/light-grenade-current-evidence-audit-2026-09-26-batch-430.json",
@@ -15032,6 +15162,24 @@
     "skill_one-handed-kamehameha-mk-ii_current_evidence_audit_2026_09_26_batch_433": "docs/data/one-handed-kamehameha-mk-ii-current-evidence-audit-2026-09-26-batch-433.json",
     "skill_innocence-cannon_current_evidence_audit_2026_09_26_batch_433": "docs/data/innocence-cannon-current-evidence-audit-2026-09-26-batch-433.json",
     "skill_sonic-bomb_current_evidence_audit_2026_09_26_batch_433": "docs/data/sonic-bomb-current-evidence-audit-2026-09-26-batch-433.json",
-    "skill_energy-minefield_current_evidence_audit_2026_09_26_batch_433": "docs/data/energy-minefield-current-evidence-audit-2026-09-26-batch-433.json"
+    "skill_energy-minefield_current_evidence_audit_2026_09_26_batch_433": "docs/data/energy-minefield-current-evidence-audit-2026-09-26-batch-433.json",
+    "recovery_batch_614": {
+      "batch": 614,
+      "date": "2026-09-29",
+      "restored": [
+        "Burst Attack",
+        "Double Buster",
+        "Finish Buster",
+        "Galick Beam Cannon",
+        "Power Pole"
+      ],
+      "source_batches": [
+        19,
+        257,
+        275,
+        613
+      ],
+      "basis": "Historical repository research batches and exact live-repository search evidence; no canonical ID inferred."
+    }
   }
 }
