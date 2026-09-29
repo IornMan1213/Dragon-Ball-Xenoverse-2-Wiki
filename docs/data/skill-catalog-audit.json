@@ -41,8 +41,8 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 617,
-  "canonical_catalog_generated": 514,
+  "latest_research_batch": 618,
+  "canonical_catalog_generated": 515,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical Ki Blast Super recovery and indexed-only reconciliation",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
@@ -427,5 +427,20 @@
     "pq_relationship_mutations": 0,
     "index_parity": "514/514",
     "note": "Batch 617 reconciled historical CaC-usable records. Die Die Missile Barrage was restored in this continuation; Super Volley was already restored by the batch's earlier write. No cast-only or special-mode records were promoted."
+  },
+  "recovery_batch_618": {
+    "batch": 618,
+    "date": "2026-09-29",
+    "restored": [
+      "Light Grenade (Super)"
+    ],
+    "source_batches": [
+      274
+    ],
+    "basis": "Historical research batch explicitly marked the Super variant CaC-usable with Piccolo training acquisition; no canonical ID inferred.",
+    "canonical_skill_records": 515,
+    "index_records": 515,
+    "indexed_only_recovery_frontier": 84,
+    "pq_relationship_mutations": 0
   }
 }
