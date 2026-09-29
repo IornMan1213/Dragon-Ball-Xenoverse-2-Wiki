@@ -13837,6 +13837,29 @@
       ]
     },
     {
+      "name": "Super Volley",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Burter",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Ginyu Force Training Lesson 3",
+      "source_quest_or_shop": "Ginyu Force Training Lesson 3",
+      "ultimate_finish_required": false,
+      "skill_description": "Launches a rapidly repeating volley of Ki blasts while the user remains in place.",
+      "mechanics_notes": "Launches a rapidly repeating volley of Ki blasts while the user remains in place.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Volley"
+      ]
+    },
+    {
       "name": "Supernova",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -14634,6 +14657,29 @@
       "notes": "2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability.\n2026-09-28 Batch 548 restriction audit: the current Evasive Skill reference lists Turn Retreat among the Evasive Skills available to CaCs; the reviewed evidence does not establish a narrower CaC race/gender/form restriction, so race_restriction remains null."
     },
     {
+      "name": "Turtle Style Last Resort",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "CaC",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": false,
+      "skill_description": "After a long startup, fires a beam that paralyzes the opponent for 2 seconds.",
+      "mechanics_notes": "After a long startup, fires a beam that paralyzes the opponent for 2 seconds.",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Turtle_Style_Last_Resort"
+      ]
+    },
+    {
       "name": "Tyrant Lancer",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -15417,6 +15463,32 @@
       ],
       "source_batch": 265,
       "basis": "Historical repository batch explicitly marked CaC-usable; acquisition route intentionally left null."
+    },
+    "recovery_batch_617": {
+      "batch": 617,
+      "date": "2026-09-29",
+      "restored": [
+        "Photon Swipe",
+        "Gamma Blaster",
+        "Saturday Crash",
+        "Consecutive Energy Blast",
+        "Super Destructo-Disc",
+        "Earth Splitting Galick Gun",
+        "Double Sunday",
+        "Full Power Energy Blast Volley",
+        "Super Volley",
+        "Flash Chaser",
+        "Die Die Missile Barrage",
+        "Paralyze Beam",
+        "Turtle Style Last Resort"
+      ],
+      "source_batches": [
+        247,
+        251,
+        253,
+        255
+      ],
+      "basis": "Historical research batches explicitly marked records absent from skills.json and CaC-usable; no IDs inferred."
     }
   }
 }
