@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 585,
+  "research_date": "2026-09-28",
+  "type": "skill_event_mapping_registry_audit",
+  "canonical_sources": [
+    "docs/data/skills.json",
+    "docs/data/game-content-version-provenance-registry.json"
+  ],
+  "scope": "Audit all 28 direct skill-event mappings for event classification, evidence-source presence, and confidence semantics.",
+  "summary": {
+    "mappings_audited": 28,
+    "mappings_with_source_ids": 28,
+    "mappings_with_supported_event_classification": 28,
+    "mappings_requiring_canonical_mutation": 0,
+    "mappings_requiring_confidence_downgrade": 0,
+    "unsupported_version_assignments": 0
+  },
+  "by_event": {
+    "future-saga-chapter-1": {
+      "count": 4,
+      "direct": 4,
+      "corroborated": 0
+    },
+    "free-update-2023-03-22": {
+      "count": 1,
+      "direct": 1,
+      "corroborated": 0
+    },
+    "future-saga-chapter-2": {
+      "count": 7,
+      "direct": 0,
+      "corroborated": 7
+    },
+    "future-saga-chapter-3": {
+      "count": 6,
+      "direct": 0,
+      "corroborated": 6
+    },
+    "future-saga-chapter-4": {
+      "count": 4,
+      "direct": 3,
+      "corroborated": 1
+    },
+    "dragon-ball-daima-pack-2025": {
+      "count": 6,
+      "direct_scope": 6
+    }
+  },
+  "findings": [
+    "All 28 mappings resolve to an existing registered event and have non-empty source_ids.",
+    "Chapter 1 and Beast have direct official skill/content evidence.",
+    "Chapter 2 and Chapter 3 remain appropriately marked corroborated because the available official material establishes event scope while the individual names come from maintained independent catalogs.",
+    "Chapter 4 retains three direct reward/content mappings and one corroborated aggregate named-move mapping; the official release evidence establishes the event but does not by itself name every individual move in accessible text.",
+    "The six DAIMA Pack skills remain direct_scope rather than direct-name mappings because the official release source establishes the pack's six skills but the accessible announcement does not provide a six-name text mapping. The existing canonical records supply the individual identities.",
+    "No mapping justifies assigning a game version or patch number from its release/event date."
+  ],
+  "policy": [
+    "Canonical skills.json remains authoritative.",
+    "Research and verification timestamps are not game versions.",
+    "Do not upgrade evidence confidence merely because a skill's DLC requirement matches an event.",
+    "Preserve unresolved historical identity gaps rather than inferring internal IDs."
+  ],
+  "next": "Continue with mechanics enrichment for the Chapter 4 quartet and separately audit Free Update 20 Festival recovery evidence; do not reopen already reconciled event mappings unless new primary evidence appears."
+}
