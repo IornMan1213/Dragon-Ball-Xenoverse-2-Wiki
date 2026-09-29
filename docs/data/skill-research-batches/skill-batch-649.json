@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 649,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Exact-skill evidence review of four null race_restriction records.",
+  "records": [
+    {
+      "id": "skill-armored-boost",
+      "name": "Armored Boost",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Available evidence shows these skills are used by or obtainable for multiple character contexts and does not explicitly establish a CaC race/gender restriction."
+    },
+    {
+      "id": "skill-mach-kick",
+      "name": "Mach Kick",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Available evidence shows these skills are used by or obtainable for multiple character contexts and does not explicitly establish a CaC race/gender restriction."
+    },
+    {
+      "id": null,
+      "name": "Power Pole",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Available evidence shows these skills are used by or obtainable for multiple character contexts and does not explicitly establish a CaC race/gender restriction."
+    },
+    {
+      "id": "skill-spirit-stab",
+      "name": "Spirit Stab",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Available evidence shows these skills are used by or obtainable for multiple character contexts and does not explicitly establish a CaC race/gender restriction."
+    }
+  ],
+  "sources": [
+    {
+      "skill": "Armored Boost",
+      "finding": "PQ92 documentation lists Armored Boost in Trunks (GT)'s skill set while the skill is also used by the Future Warrior in builds; character usage does not establish a CaC restriction.",
+      "url": "https://videogaming.fandom.com/wiki/Revenge_of_the_Tuffle"
+    },
+    {
+      "skill": "Mach Kick",
+      "finding": "Burter's skill and custom-partner documentation establishes character usage/customization availability, not a CaC race lock.",
+      "url": "https://dbxv2.fandom.com/wiki/Burter"
+    },
+    {
+      "skill": "Power Pole",
+      "finding": "No explicit Earthling-only CaC restriction was established; Power Pole is distinct from the explicitly Earthling-restricted Power Pole Pro transformation.",
+      "url": "https://dbxv2.fandom.com/wiki/Power_Pole"
+    },
+    {
+      "skill": "Spirit Stab",
+      "finding": "No explicit CaC race/gender restriction was established in the reviewed skill documentation.",
+      "url": "https://dbxv2.fandom.com/wiki/Spirit_Stab"
+    }
+  ],
+  "validation": {
+    "records_reviewed": 4,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 4
+  },
+  "boundary": "Do not infer a CaC race restriction from a character's race, skill name, or character preset. Preserve canonical null absent explicit equip restriction evidence.",
+  "next": "Continue exact-skill research across remaining null race_restriction records."
+}
