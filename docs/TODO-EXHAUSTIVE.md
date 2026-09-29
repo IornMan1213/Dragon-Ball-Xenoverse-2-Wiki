@@ -6571,3 +6571,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Fresh indexed-only reconciliation against the 110-name maintained source universe now leaves **90** unresolved names.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue historical indexed-only recovery from the remaining 90 names, prioritizing explicit usable_by_cac=true evidence and promoting only independently established canonical identities.
+
+
+### 2026-09-29 continuation — Post-batch 624 duplicate cleanup and parity repair
+- [x] Fresh live census found one case-insensitive canonical duplicate: `Die Die Missile Barrage` / `DIE DIE Missile Barrage`.
+- [x] Retained the richer current-evidence `DIE DIE Missile Barrage` record and removed the older duplicate shell; no unique skill identity was lost.
+- [x] Regenerated the deterministic skill index from the canonical forward store and repaired the four stale index projections for Cross Arm Dive, Final Blow, X20 Kaioken Kamehameha, and X4 Kaioken Kamehameha.
+- [x] Current canonical/index parity is **541/541** with zero duplicate canonical keys in the fresh census.
+- [x] Corrected the indexed-only census: **44** of the maintained 110-name source universe are now canonical, leaving **66** genuinely unresolved names.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue explicit-CaC historical recovery from the remaining 66 names; do not promote cast-only, special-mode, alias, or unresolved identities.
