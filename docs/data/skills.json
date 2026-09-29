@@ -15443,26 +15443,6 @@
       "verification_status": "researched_current_scope",
       "research_status": "researched",
       "last_verified": "2026-09-29"
-    },
-    {
-      "name": "Kamekameha",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "ki_cost": null,
-      "stamina_cost": 0,
-      "usable_by_cac": true,
-      "race_restriction": null,
-      "character_source": null,
-      "dlc_requirement": null,
-      "unlock_method": null,
-      "ultimate_finish_required": null,
-      "effect": null,
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Super_Attack"
-      ],
-      "verification_status": "researched_current_scope",
-      "research_status": "researched",
-      "last_verified": "2026-09-29"
     }
   ],
   "last_verified": "2026-09-27",
