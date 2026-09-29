@@ -6652,3 +6652,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-630.json`.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** resolve the remaining 24 identities using explicit CaC-positive or exact current-game evidence.
+
+
+### 2026-09-29 continuation — Indexed-only boundary reconciliation batch 631
+- [x] Confirmed six additional indexed-only identities as unavailable for CaC from existing explicit research: **Bloody Sauce**, **Flames of Retribution**, **Light of Justice**, **Marbling Drop**, **Celestial Hammer**, **Special Beam Blast**.
+- [x] Confirmed **Candy Beam (Evasive)** as CaC-usable, with the documented Majin CaC restriction.
+- [x] Canonical database remains **548 records**; no unsupported records were added.
+- [x] Reduced the unresolved indexed-only frontier from **24 to 17**.
+- [x] Added `docs/data/skill-research-batches/skill-batch-631.json`.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** resolve the remaining 17 identities using explicit CaC-positive or exact current-game evidence.
