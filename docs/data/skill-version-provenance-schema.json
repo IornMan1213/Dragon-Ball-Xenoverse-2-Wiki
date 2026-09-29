@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "date": "2026-09-28",
-  "batch": 576,
+  "batch": 598,
   "purpose": "Schema foundation for evidence-backed skill release/version provenance. This is a derived research contract; it does not mutate canonical skill records.",
   "source_of_truth": "docs/data/skills.json",
   "authoritative_registry": "docs/data/game-content-version-provenance-registry.json",
@@ -54,7 +54,7 @@
   },
   "current_registry_state": {
     "canonical_skills": 497,
-    "direct_skill_event_mappings": 28,
+    "direct_skill_event_mappings": 44,
     "explicit_version_or_patch_fields_in_canonical_skills": 0,
     "evidence_census": {
       "explicit_patch_mentions": 284,
@@ -67,7 +67,8 @@
       "Gamma Force: Code-R (Festival)",
       "Gamma Force: Code-B (Festival)"
     ],
-    "unresolved_festival_internal_ids": 4
+    "unresolved_festival_internal_ids": 4,
+    "next": "Use the contract to continue older DLC/free-update provenance records, starting with Super Pack and early Extra Pack cohorts; leave unsupported version fields null."
   },
   "canonical_action": "No canonical skills.json mutation in this batch.",
   "next": "Use this contract to structure future evidence-backed provenance records, prioritizing skills with explicit release/update evidence and leaving unsupported version fields null."
