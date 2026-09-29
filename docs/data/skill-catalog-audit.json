@@ -40,11 +40,11 @@
     "Patch-era and DLC-era provenance",
     "Dual Ultimate relationships where applicable"
   ],
-  "last_audited": "2026-09-28",
-  "latest_research_batch": 594,
+  "last_audited": "2026-09-29",
+  "latest_research_batch": 595,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "497 canonical skills and 862 PQ relationship edges remain reconciled. Version/patch provenance remains the active field-level layer; older free-update and DLC cohorts are being bound only where direct official skill-level evidence exists. Four 4th Festival identities remain outside skills.json because exact internal IDs are unresolved.",
+  "current_research_focus": "497 canonical skills and 862 PQ relationship edges remain reconciled. Version/patch provenance remains the active field-level layer; older DLC cohorts are being bound only where direct official or explicitly corroborated skill-level evidence exists. Extra Pack 2 now has all 8 documented avatar/new-skill mappings; two separately named Goku (Ultra Instinct) character-exclusive moves remain separately documented. Four 4th Festival identities remain outside skills.json because exact internal IDs are unresolved.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -318,18 +318,26 @@
     "finding": "Official Bandai Namco release evidence directly names Super Saiyan God as the new Awoken Skill in the 2021-11-05 accompanying free update."
   },
   "extra_pack_2_provenance_reconciliation_2026_09_29": {
-    "batch": 594,
+    "batch": 595,
     "event_id": "extra-pack-2",
-    "documented_skill_count": 8,
-    "mapped_named_skills": [
-      "skill-soaring-fist",
-      "skill-godly-display",
+    "documented_new_skill_count": 8,
+    "avatar_skill_mappings": 8,
+    "mapped_avatar_skills": [
       "skill-meditation",
-      "skill-power-rush"
+      "skill-power-rush",
+      "skill-sneaky-strike",
+      "skill-confusion-blade",
+      "skill-energy-minefield",
+      "skill-remote-serious-bomb",
+      "skill-rough-ranger",
+      "skill-power-impact"
     ],
-    "remaining_unmapped_skills": 4,
+    "separately_named_character_exclusive_moves": [
+      "skill-soaring-fist",
+      "skill-godly-display"
+    ],
     "canonical_mutations": 0,
     "unsupported_version_assignments": 0,
-    "note": "Official Extra Pack 2 material directly names Soaring Fist and Godly Display and names Jiren's Power Rush plus a source-spelled 'Mediation' corresponding to canonical Meditation. Remaining four skills are not inferred by count or DLC proximity."
+    "note": "The documented eight-skill Extra Pack 2 count is reconciled to the eight avatar/new-skill roster. Soaring Fist and Godly Display are retained as separately named Goku (Ultra Instinct) DLC character-skill provenance and are not counted against that eight-skill roster."
   }
 }
