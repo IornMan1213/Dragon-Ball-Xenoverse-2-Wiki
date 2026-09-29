@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 632,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "indexed_only_boundary_reconciliation",
+  "scope": "Resolve remaining indexed-only identities with explicit historical CaC access evidence.",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_mutation": false,
+  "confirmed_unavailable": [
+    "Rage Saucer",
+    "Brainwash Attack"
+  ],
+  "confirmed_cac": [
+    "Pearl Flash",
+    "Super Ghost Kamikaze Attack (Ultimate)",
+    "Energy Zone",
+    "The Saviour Has Come"
+  ],
+  "evidence": [
+    "skill-batch-284 explicitly marks Rage Saucer usable_by_cac=false.",
+    "skill-batch-284 explicitly marks Brainwash Attack usable_by_cac=false.",
+    "COVERAGE-AUDIT documents Pearl Flash as a Pure Majin Future Warrior technique.",
+    "skill-batch-106 explicitly records the Ultimate Super Ghost Kamikaze Attack variant as usable_by_cac=true via Gotenks Lesson 3.",
+    "skill-batch-305 explicitly records Energy Zone and The Saviour Has Come as usable_by_cac=true."
+  ],
+  "validation": {
+    "canonical_skills": 548,
+    "canonical_mutations": 0,
+    "remaining_indexed_only": 10
+  },
+  "next": "Resolve the remaining 10 identities only through explicit CaC-positive or exact current-game evidence."
+}
