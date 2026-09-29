@@ -1321,5 +1321,15 @@
     "cac_awoken": false,
     "reason": "Current retail Awoken references distinguish the universal CaC Ultra Instinct Awoken Skill from Goku's Ultra Instinct -Sign- form; mod implementations are not retail canonical data.",
     "canonical_mutation": 0
+  },
+  "awoken_cast_exclusive_batch_675": {
+    "reviewed": [
+      "Super Saiyan Blue Kaioken",
+      "Pure Progress",
+      "Supersonic Mode"
+    ],
+    "explicit_cast_exclusive": 3,
+    "canonical_mutation": 0,
+    "rule": "Cast-exclusive Awoken Skills remain outside CaC race restriction classification; race_restriction stays null when no retail CaC use exists."
   }
 }
