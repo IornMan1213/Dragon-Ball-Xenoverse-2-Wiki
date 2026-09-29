@@ -15423,6 +15423,22 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Kamekameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "stamina_cost": 0,
+      "usable_by_cac": true,
+      "character_source": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ]
     }
   ],
   "last_verified": "2026-09-27",
@@ -15520,6 +15536,17 @@
         255
       ],
       "basis": "Historical research batches explicitly marked records absent from skills.json and CaC-usable; no IDs inferred."
+    },
+    "recovery_batch_618": {
+      "batch": 618,
+      "date": "2026-09-29",
+      "restored": [
+        "Kamekameha"
+      ],
+      "source_batches": [
+        254
+      ],
+      "basis": "Historical research batch explicitly marked the record absent from skills.json and CaC-usable; no ID or acquisition route inferred."
     }
   }
 }
