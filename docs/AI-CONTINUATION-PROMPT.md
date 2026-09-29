@@ -6872,3 +6872,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported version assignment.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue substantive canonical skill provenance/mechanics enrichment outside the already-audited Festival identity gap; revisit Festival IDs only when an exact structured historical artifact or canonical blob exposes them.
+
+
+### 2026-09-29 continuation — Future Saga Chapter 1 individual skill provenance completion batch 589
+- [x] Closed the Chapter 1 individual skill-provenance gap: the registry already declared 15 Chapter 1 skills, while only 4 had direct skill→event mappings.
+- [x] Added 11 evidence-backed corroborated mappings for Gigantic Cluster (PQ163), Eraser Bomb (PQ163), Gigantic Explosion (PQ164), Variable Snipe Shot (PQ165), Steel Mirage (PQ165), Pendulum Bullet (PQ166), Seagull Combination (PQ167), Burning Swan (PQ167), Justice Drive (PQ168), Divine Ray Bomb (PQ173), and Final Rampage (PQ174).
+- [x] Preserved the canonical identity boundary, including the `Giant Cluster`/`Gigantic Cluster` reward-name transcription difference; no canonical skill IDs were invented.
+- [x] Chapter 1 now has **15/15** registered skills individually mapped to its release event, with official DLC release evidence plus PQ/skill-catalog corroboration.
+- [x] No `skills.json` mutation, no new PQ relationship edge, and no unsupported game-version/patch assignment.
+- [x] Added `docs/data/skill-research-batches/skill-batch-589.json` and synchronized `docs/data/skill-catalog-audit.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** audit the next DLC event whose registered skill count exceeds its individually mapped skill count; prioritize substantive event-level provenance gaps rather than reopening reconciled Chapter 1/Festival work.
