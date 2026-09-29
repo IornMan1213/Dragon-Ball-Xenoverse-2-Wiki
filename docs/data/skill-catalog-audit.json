@@ -1303,5 +1303,14 @@
       "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29",
       "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
     ]
+  },
+  "awoken_acquisition_use_provenance_2026_09_29_batch_673": {
+    "reviewed": [
+      "Super Saiyan",
+      "Super Vegeta",
+      "Future Super Saiyan"
+    ],
+    "alignment_confirmed": 3,
+    "rule": "When acquisition and actual usability have the same race requirement, preserve the existing race restriction and record the alignment rather than inventing a separate acquisition exception."
   }
 }
