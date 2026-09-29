@@ -68,7 +68,8 @@
         "https://dbxv2.fandom.com/wiki/Afterimage_Strike",
         "https://dragonball.fandom.com/wiki/Afterimage_Strike",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel.html"
+        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel.html",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 81 — \"Wake UP!\" Basic Reward",
@@ -76,7 +77,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 81 — \"Wake UP!\"",
       "mechanics_notes": "Confirmed as Other Super from PQ81 and usable by all CaC races. It creates an afterimage while moving and can transition into follow-up attacks. UF audit 2026-09-19: current PQ reward guide places this skill in the quest's Basic Reward list, separate from the Ultimate Finish conditions; no Ultimate Finish is required for the documented acquisition route.",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": 81,
@@ -1110,7 +1111,8 @@
         "https://dbxv2.fandom.com/wiki/Brave_Heat",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=810107584",
         "https://dbxv2.fandom.com/wiki/Mentors",
-        "https://dragonball.fandom.com/wiki/Brave_Heat"
+        "https://dragonball.fandom.com/wiki/Brave_Heat",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 300,
       "unlock_method": "Bardock mentor training — Lesson 3.",
@@ -1118,7 +1120,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "bardock mentor training",
       "mechanics_notes": "Ki Blast Ultimate: charges the right fist, rushes into the opponent, then flies up and fires a beam from the same hand. The maintained current reference reports 20 hits/35% damage and notes extended chase range plus tracking behind the user. Exact frame data and universal damage values remain unverified.",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Bardock mentor training — Lesson 3.",
@@ -1826,12 +1828,13 @@
       "mechanics_notes": "200-Ki Ki Blast Super from Parallel Quest 113, “Birth of the Ultimate Majin.” Current dedicated evidence describes a single-hit pink beam that transforms the target into candy, deals no direct damage, and reduces the target's Ki Blast skill damage. The effect does not work on Great Apes or Cell Max.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
         "https://dbxv2.fandom.com/wiki/Candy_Beam_(Super)",
-        "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Super%29"
+        "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Super%29",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "source_quest": 113,
       "race_restriction": "All CaC races",
@@ -3460,7 +3463,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Destructo-Disc",
         "https://dbxv2.fandom.com/wiki/Krillin",
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-krillin-mentor-quest-guide/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-krillin-mentor-quest-guide/",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Krillin mentor training — Lesson 2.",
@@ -3468,7 +3472,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training",
       "mechanics_notes": "100-Ki Ki Blast Super that throws a slow, single-hit disc with a considerable startup. The disc has mild tracking and is unblockable, can restand the opponent on hit, and can be fired without a lock-on and then made to track after relocking. Exact tracking parameters and current frame data remain unresolved.",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "research_status": "enriched",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training",
@@ -4764,14 +4768,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Energy_Charge",
         "https://videogaming.fandom.com/wiki/First_Advancement_Test_-_Easy_Class",
-        "https://www.playstationtrophies.org/game/dragon-ball-xenoverse-2/guide/"
+        "https://www.playstationtrophies.org/game/dragon-ball-xenoverse-2/guide/",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 0,
       "unlock_method": "First Advancement Test — Easy Class reward.",
       "research_status": "enriched",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Advancement Test",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "usable_by_cac": true,
       "mechanics_notes": "0-Ki Other Super used to charge Ki. Current technique documentation identifies Energy Charge as the base Ki-charging Super and distinguishes it from faster charge skills such as Full Power Charge and Maximum Charge. The maintained acquisition endpoint is First Advancement Test — Easy Class. Exact charge rate/frame timing is not asserted here because the available evidence does not establish a patch-independent numeric rate.",
       "race_restriction": "All CaC races",
@@ -6852,13 +6857,13 @@
         "https://dbxv2.fandom.com/wiki/Galick_Gun",
         "https://dragonball.fandom.com/wiki/Galick_Gun",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-vegeta-mentor-quest-guide/",
-        "https://dbxv2.fandom.com/wiki/Galick_Gun"
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Vegeta's Initiation Test — complete the mentor battle using Galick Gun as required; Galick Gun is the Basic Reward.",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Vegeta mentor training — Initiation Test",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "usable_by_cac": true,
       "mechanics_notes": "100-Ki chargeable Ki Blast Super from Vegeta mentor training. It has three charge stages that can produce 9, 12, or 15 hits under ideal conditions; its shorter charge time than Kamehameha can make a fully charged version easier to land from some knockbacks. Current evidence also notes that Super Saiyan variants can teleport the user in front of the target on a fully charged use. 2026-09-23 refresh: preserved the three charge stages and 9/12/15-hit ideal outputs, plus the documented fully charged Super Saiyan teleport behavior.",
       "research_status": "enriched",
@@ -9187,12 +9192,13 @@
       "mechanics_notes": "Zero-Ki/zero-Stamina Super Skill. Unlike Instant Transmission, Kai Kai normally teleports the user to the nearest allied comrade without requiring an energy signature and without the usual lock-on range limitation; when fighting alone it can function like Instant Transmission with lock-on limitations. Current Xenoverse 2-specific evidence states the skill functions as it did in Xenoverse. Exact targeting priority and edge-case range behavior remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Kai_Kai",
         "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/faqs/74285",
-        "https://dragonball.fandom.com/wiki/Kai_Kai"
+        "https://dragonball.fandom.com/wiki/Kai_Kai",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 63,
@@ -9330,13 +9336,14 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Kamehameha",
         "https://dbxv2.fandom.com/wiki/Saiyan_Blood",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 5 — \"Saiyan Blood\" Basic Reward",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Parallel Quest 5 — \"Saiyan Blood\"",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "usable_by_cac": true,
       "mechanics_notes": "100-Ki Ki Blast Super with three charge levels. Current dedicated Xenoverse 2 documentation reports ideal-condition hit counts of 9 at Level 1, 12 at Level 2, and 15 at Level 3, with fewer hits possible at greater distance. Exact charge frames and patch-independent damage scaling remain unresolved.",
       "research_status": "enriched",
@@ -9868,14 +9875,15 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Masenko",
         "https://dragonball.fandom.com/wiki/Masenko",
-        "https://twinfinite.net/ps4/dragon-ball-xenoverse-2-how-to-kid-gohan-quest-guide/"
+        "https://twinfinite.net/ps4/dragon-ball-xenoverse-2-how-to-kid-gohan-quest-guide/",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "research_status": "enriched",
       "unlock_method": "Kid Gohan mentor training — Lesson 2.",
       "ultimate_finish_required": false,
       "source_quest_or_shop": "Gohan (Kid) mentor training",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "usable_by_cac": true,
       "mechanics_notes": "100-Ki Ki Blast Super learned through Kid Gohan training. It is a fast single-hit beam with knockback; using the opposite directional input performs a backflip before firing. Current documentation also notes a temporary charge option on Gohan (DBS Super Hero), while the shared CaC skill record remains bounded to the common back-jump behavior.",
       "race_restriction": "All CaC races",
@@ -10666,11 +10674,12 @@
       "mechanics_notes": "2026-09-26 Batch 455 current-evidence enrichment: 100-Ki Ki Blast Super from PQ114. The user spits a short-range projectile that deals no damage but petrifies/paralyzes the opponent for about two seconds on contact; if the first spit misses, a second can be produced. Current evidence supports Dabura/Fu association and the maintained PQ114 endpoint. Exact startup/recovery and resistance/edge-case behavior remain unresolved.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76039145",
-        "https://dragonball.fandom.com/wiki/Stone_Spit"
+        "https://dragonball.fandom.com/wiki/Stone_Spit",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "race_restriction": "All CaC races",
       "source_quest": 114,
@@ -11955,7 +11964,8 @@
       "sources": [
         "https://dragonball.fandom.com/wiki/Rise_to_Action",
         "https://dbxv2.fandom.com/wiki/Rise_to_Action",
-        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-krillin-mentor-quest-guide/"
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-how-to-krillin-mentor-quest-guide/",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Krillin's Initiation Test — complete the instructor lesson to receive Rise to Action as the Basic Reward.",
@@ -11964,7 +11974,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Krillin mentor training — Initiation Test",
       "mechanics_notes": "100 Ki utility Super; the user slaps their cheeks and restores stamina. The current skill page lists restoration of 1 stamina bar, while an older guide describes the skill as converting 1 Ki bar into 2 stamina bars, so the discrepancy is preserved rather than silently normalized. Obtained through Krillin training.",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-29",
       "race_restriction": "All CaC races",
       "source_quest": "Krillin mentor training — Initiation Test",
       "dlc_requirement": "Base Game",
@@ -12948,7 +12958,8 @@
         "https://dragonball.fandom.com/wiki/Solar_Flare",
         "https://dbxv2.fandom.com/wiki/Solar_Flare",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Status_Effect"
+        "https://dbxv2.fandom.com/wiki/Status_Effect",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Parallel Quest 3 — \"World Tournament Tag Team\" Basic Reward",
@@ -12957,7 +12968,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 3 — \"World Tournament Tag Team\"",
       "mechanics_notes": "200-Ki Other Super. The user emits a close-range head flash that blinds nearby opponents rather than focusing on direct damage. Current Xenoverse 2 evidence confirms the blindness status effect and PQ03 acquisition; exact blind duration, radius, and startup remain unresolved.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-29",
       "race_restriction": "All CaC races",
       "source_quest": 3,
       "dlc_requirement": "Base Game",
@@ -13254,7 +13265,9 @@
         "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
         "https://dbxv2.fandom.com/wiki/Spirit_Bomb",
         "https://dbxv2.fandom.com/wiki/Goku",
-        "https://dragonball.fandom.com/wiki/Spirit_Bomb"
+        "https://dragonball.fandom.com/wiki/Spirit_Bomb",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 100,
       "unlock_method": "Goku mentor training — Initiation Test.",
@@ -13264,7 +13277,7 @@
       "dlc_requirement": "Base Game",
       "source_quest_or_shop": "Training with Goku",
       "mechanics": "Ki Blast Super learned from Goku mentor training; charge/release projectile.",
-      "last_verified": "2026-09-25",
+      "last_verified": "2026-09-29",
       "research_status": "enriched",
       "mechanics_notes": "100-Ki Ki Blast Super learned through Goku mentor training. The user raises their hands and charges the projectile for roughly 2–3 seconds before a second input releases it; if the projectile misses, current skill documentation says it redirects like a boomerang for another chance to hit. Exact startup, tracking, damage, and frame data remain unresolved.",
       "source_quest": "Goku mentor training",
@@ -14547,11 +14560,12 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://dragonball.fandom.com/wiki/Super_Spirit_Bomb",
         "https://dbxv2.fandom.com/wiki/Super_Spirit_Bomb",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 300,
       "unlock_method": "Expert Mission 16 — \"In the Realm of the Gods: Vegeta\" Basic Reward.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-29",
       "ultimate_finish_required": false,
       "usable_by_cac": true,
       "race_restriction": "All CaC races",
@@ -15962,7 +15976,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Wall_of_Defense",
         "https://xvguide.neocities.org/Skill",
-        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel-quests-rank-z-guide.html"
+        "https://yhangame.blogspot.com/2016/12/dragon-ball-xenoverse-2-all-100-parallel-quests-rank-z-guide.html",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ],
       "ki_cost": 0,
       "unlock_method": "Parallel Quest 10 — \"Saiyan Survivors\" Basic Reward",
@@ -15971,7 +15986,7 @@
       "usable_by_cac": true,
       "source_quest_or_shop": "Parallel Quest 10 — \"Saiyan Survivors\"",
       "mechanics_notes": "0-Ki Other Super from PQ10. The user teleports in front of an ally and intercepts attacks while holding the command; the stance can be extended and functions as a block, causing incoming attacks to reduce Stamina rather than Health. With no ally available, the move instead targets the targeted enemy or nearest enemy if no target is selected.",
-      "last_verified": "2026-09-26",
+      "last_verified": "2026-09-29",
       "race_restriction": "All CaC races",
       "source_quest": 10,
       "dlc_requirement": "Base Game",
