@@ -7035,3 +7035,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining 27-record race-restriction frontier with fresh direct evidence, while avoiding provenance-only repetition.
+
+
+### 2026-09-29 continuation — Skill restriction batch 604
+- [x] Performed direct-source follow-up for **Backflip, Break Strike, Consecutive Energy Blast, Energy Wave Combo, Power Pole Combo, and Turn Retreat**.
+- [x] Confirmed Future Warrior/CaC availability evidence where supported, but no direct narrower race/gender/form restriction was established.
+- [x] Preserved canonical race_restriction: null for all six.
+- [x] Added Batch 604 and synchronized the restriction census.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining null-race cohort, prioritizing records with potential explicit race/gender/form evidence.
