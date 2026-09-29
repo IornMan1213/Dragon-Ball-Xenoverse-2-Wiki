@@ -5829,6 +5829,16 @@
       ]
     },
     {
+      "name": "Super Volley",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Volley"
+      ]
+    },
+    {
       "name": "Supernova",
       "class": "Ultimate",
       "subcategory": "Ki Blast",
@@ -6174,6 +6184,16 @@
         "https://dbxv2.fandom.com/wiki/Turn_Retreat",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
         "https://dbxv2.fandom.com/wiki/Goku"
+      ]
+    },
+    {
+      "name": "Turtle Style Last Resort",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Turtle_Style_Last_Resort"
       ]
     },
     {
@@ -6558,6 +6578,20 @@
         "Infinity Explosion"
       ],
       "canonical_record_count": 511
+    },
+    "recovery_batch_617": {
+      "restored": [
+        "Die Die Missile Barrage",
+        "Super Volley",
+        "Turtle Style Last Resort"
+      ],
+      "canonical_record_count": 513,
+      "source_batches": [
+        247,
+        251,
+        253,
+        255
+      ]
     }
   },
   "skill_super_vegeta_current_evidence_audit_2026_09_25": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json",
