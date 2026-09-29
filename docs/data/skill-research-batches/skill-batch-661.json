@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 661,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Direct-source follow-up on five canonical null race_restriction CaC-usable skills.",
+  "records": [
+    {
+      "name": "III Flash",
+      "race_restriction_result": null,
+      "evidence": "Canonical/recovered data marks III Flash CaC-usable, but reviewed repository evidence does not establish explicit retail CaC race/gender/form eligibility wording. The skill name and character association are insufficient to infer a race restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/III_Flash"
+      ]
+    },
+    {
+      "name": "III Rain",
+      "race_restriction_result": null,
+      "evidence": "Canonical/recovered data marks III Rain CaC-usable, but reviewed evidence does not establish an explicit narrower CaC race/gender/form restriction. Preserve null rather than infer from associated character/race.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/III_Rain"
+      ]
+    },
+    {
+      "name": "Sledgehammer",
+      "race_restriction_result": null,
+      "evidence": "Dedicated repository research identifies Sledgehammer as a Skill Shop Strike Super obtainable by the Future Warrior and used by multiple characters/customizable partners. No explicit CaC race/gender/form restriction is stated; broad usage does not establish a restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sledgehammer",
+        "https://dragonball.fandom.com/wiki/Double_Axe_Handle"
+      ]
+    },
+    {
+      "name": "Sonic Kick",
+      "race_restriction_result": null,
+      "evidence": "Dedicated repository research documents Skill Shop acquisition by the Future Warrior and broad character/customizable-partner use. No explicit CaC race/gender/form restriction is stated.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sonic_Kick",
+        "https://dragonball.fandom.com/wiki/Sonic_Kick"
+      ]
+    },
+    {
+      "name": "Spinning Blade",
+      "race_restriction_result": null,
+      "evidence": "Recovered research identifies Spinning Blade as a CaC-usable Evasive and preserves an acquisition-source conflict, but no direct retail CaC race/gender/form restriction was established. Acquisition ambiguity is not race evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spinning_Blade",
+        "https://dragonball.fandom.com/wiki/Spinning_Blade"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Only explicit CaC eligibility wording establishing a narrower race/gender/form condition can populate race_restriction; preserve null otherwise."
+}
