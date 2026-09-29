@@ -273,6 +273,14 @@
       "date": "2026-09-29",
       "url": "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/pq-reward-normalization/pq-reverse-index-121-142.json",
       "scope": "Derived navigation projection of canonical PQ reward relationships; used only to confirm existing canonical PQ-to-skill mappings, never as a replacement for the forward canonical store."
+    },
+    {
+      "id": "bn_xv2_super_pack_2_2017",
+      "publisher": "Bandai Namco Entertainment America",
+      "title": "Dragon Ball XENOVERSE 2 Update and DLC Pack 2",
+      "date": "2017-02-21",
+      "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-update-and-dlc-pack-2",
+      "scope": "Official announcement separating the February 27 free update from DB Super Pack 2; explicitly names all eight Super Pack 2 attacks and states the DLC releases February 28, 2017."
     }
   ],
   "events": [
@@ -463,9 +471,19 @@
       ],
       "skill_count": 8,
       "assignment_status": "Individual provenance reconciled for all 8 skills using official pack count plus named maintained catalog and canonical PQ128-PQ132 reward mappings. Platform release evidence records Steam on 2018-12-18; the event date uses the commonly documented 2018-12-19 console release. Release dates are provenance only; no game version/patch inferred."
+    },
+    {
+      "id": "super-pack-2",
+      "kind": "dlc",
+      "date": "2017-02-28",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "skill_count": 8,
+      "assignment_status": "Individual provenance reconciled for all eight named Super Pack 2 attacks using the official announcement. Release date is provenance only; no game version or patch number inferred."
     }
   ],
-  "next_step": "Continue the older DLC/free-update provenance frontier with Super Pack and early Extra Pack cohorts that have explicit official skill counts or named skill evidence. Extra Pack 3 and Extra Pack 4 are now individually reconciled at 8/8 each; preserve platform-specific release-date differences.",
+  "next_step": "Continue the older DLC/free-update provenance frontier with Super Pack 3/4 and earlier Super Pack 1 cohorts where official or independently corroborated named skill evidence is available; preserve event-level counts separately from exact skill mappings and never infer version numbers.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -1591,6 +1609,102 @@
       ],
       "confidence": "corroborated",
       "basis": "Official DLC catalog establishes the Extra Pack 4 eight-skill scope; the maintained DLC catalog names God Punisher; the canonical PQ reward mapping independently places it at PQ132."
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-menace",
+      "skill_name": "God of Destruction's Menace",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names God of Destruction's Menace among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-roar",
+      "skill_name": "God of Destruction's Roar",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names God of Destruction's Roar among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-concerto-comet",
+      "skill_name": "Destruction's Concerto: Comet",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names Destruction's Concerto: Comet among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-concerto-starfall",
+      "skill_name": "Destruction's Concerto: Starfall",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names Destruction's Concerto: Starfall among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-concerto-meteor",
+      "skill_name": "Destruction's Concerto: Meteor",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names Destruction's Concerto: Meteor among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-conductor",
+      "skill_name": "Destruction's Conductor",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names Destruction's Conductor among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-requiem-of-destruction",
+      "skill_name": "Requiem of Destruction",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names Requiem of Destruction among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-sonic-bomb",
+      "skill_name": "Sonic Bomb",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco's DB Super Pack 2 announcement explicitly names Sonic Bomb among the eight new attacks in the February 28, 2017 DLC.",
+      "canonical_mutation": false
     }
   ],
   "research_gaps": [
