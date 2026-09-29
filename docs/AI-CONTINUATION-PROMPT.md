@@ -7832,3 +7832,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No new race classifications were promoted; null remains the evidence boundary where direct race/gender/form evidence is absent.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** audit the corrected 76-record frontier in fresh direct-evidence batches, avoiding repeated prior audits; prioritize explicit race/gender/form wording before resuming older DLC/free-update provenance and bidirectional enrichment.
+
+
+### 2026-09-29 continuation — Race restriction Batch 683 / frontier correction
+- [x] Fresh live-main census after the recovery promotions shows **74**, not 76, CaC-usable records with `race_restriction: null` in synchronized `docs/data/skills-index.json`; the earlier 76 count was stale.
+- [x] Added `docs/data/skill-research-batches/skill-batch-683.json` and `docs/data/race-restriction-audit-2026-09-29-batch-683.json`.
+- [x] Reviewed Turn Retreat, Ultra Fighting Bomber, X4 Kaioken Kamehameha, and Super Galick Gun. All four remain null because the reviewed evidence establishes CaC/Future Warrior availability but does not explicitly establish retail race/gender/form scope.
+- [x] No canonical data was reconstructed or mutated in Batch 683; `docs/data/skills.json` remains authoritative and verified/projection/index layers remain consumers only.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue the remaining **70** unreviewed-by-Batch-683 frontier records, avoiding repeated prior audits; only explicit retail eligibility wording may promote `All CaC races` or a narrower restriction. After this evidence frontier, resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
