@@ -1389,6 +1389,16 @@
       ]
     },
     {
+      "name": "Die Die Missile Barrage",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Die_Die_Missile_Barrage"
+      ]
+    },
+    {
       "name": "DIE DIE Missile Barrage",
       "class": "Super",
       "subcategory": "Ki Blast",
@@ -3840,6 +3850,16 @@
         "https://dbxv2.fandom.com/wiki/Mentors",
         "https://dbxenoverse.fandom.com/wiki/Mentors",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74536887",
+        "https://dbxv2.fandom.com/wiki/Light_Grenade_%28Super%29"
+      ]
+    },
+    {
+      "name": "Light Grenade (Super)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": null,
+      "research_status": null,
+      "sources": [
         "https://dbxv2.fandom.com/wiki/Light_Grenade_%28Super%29"
       ]
     },
@@ -6488,16 +6508,6 @@
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ]
-    },
-    {
-      "name": "Die Die Missile Barrage",
-      "class": "Super",
-      "subcategory": "Ki Blast",
-      "verification_status": "verified_current_scope",
-      "research_status": "enriched",
-      "sources": [
-        "https://dbxv2.fandom.com/wiki/Die_Die_Missile_Barrage"
-      ]
     }
   ],
   "last_updated": "2026-09-29",
@@ -6621,5 +6631,5 @@
   "skill_fighting_pose_g_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-g-current-evidence-audit-2026-09-25.json",
   "skill_fighting_pose_i_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-i-current-evidence-audit-2026-09-25.json",
   "skill_fighting_pose_j_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-j-current-evidence-audit-2026-09-25.json",
-  "last_verified": "2026-09-27"
+  "last_verified": "2026-09-29"
 }
