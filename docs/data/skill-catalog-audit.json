@@ -42,9 +42,9 @@
   ],
   "last_audited": "2026-09-29",
   "latest_research_batch": 621,
-  "canonical_catalog_generated": 519,
+  "canonical_catalog_generated": 521,
   "canonical_sync_pending": false,
-  "current_research_focus": "Indexed-only reconciliation; prioritize explicit CaC-usable evidence while preserving cast-only, special-mode, and alias boundaries.",
+  "current_research_focus": "Historical indexed-only CaC skill reconciliation and canonical/index parity",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -468,19 +468,24 @@
   "recovery_batch_621": {
     "status": "applied",
     "date": "2026-09-29",
-    "previous_canonical_count": 517,
-    "new_canonical_count": 519,
-    "index_records": 519,
+    "previous_canonical_count": 519,
+    "new_canonical_count": 521,
+    "index_records": 521,
     "restored": [
-      "X4 Kaioken Kamehameha",
-      "X20 Kaioken Kamehameha"
+      "Cross Arm Dive",
+      "Final Blow"
     ],
     "source_batches": [
-      103,
-      314
+      173,
+      142
     ],
     "canonical_ids_inferred": 0,
     "pq_relationship_mutations": 0,
-    "note": "Both historical records explicitly mark usable_by_cac=true and Skill Shop acquisition. X4 retains null Ki cost because the source indicates a variable cost; X20 retains 500 Ki. No unsupported progression or UF condition inferred."
+    "acquisition_routes_preserved": [
+      "Skill Shop",
+      "TP Medal Shop"
+    ],
+    "boundary": "Only records with explicit historical usable_by_cac=true evidence were promoted; unresolved stamina/damage/frame fields remain null.",
+    "next": "Continue indexed-only reconciliation using explicit CaC evidence; do not promote cast-only, unresolved, or spelling-alias records."
   }
 }
