@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 635,
+  "latest_research_batch": 636,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
@@ -882,5 +882,18 @@
     "validation": {
       "remaining_indexed_only": 0
     }
+  },
+  "recovery_batch_636": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "purpose": "Repair four pre-existing required-field gaps found during final canonical/index integrity audit.",
+    "canonical_records": 548,
+    "index_records": 548,
+    "required_field_gaps_before": 4,
+    "required_field_gaps_after": 0,
+    "canonical_index_parity": true,
+    "identity_key_count": 548,
+    "duplicate_identity_groups": 0,
+    "no_speculative_ids_added": true
   }
 }
