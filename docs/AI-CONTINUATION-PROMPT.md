@@ -7446,3 +7446,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill records or PQ relationships were changed and no game version/patch number was inferred.
 - [x] Updated the skill audit and provenance schema to **105 direct/corroborated skill→event mappings**.
 - [ ] **Exact next:** continue Super Pack 1 and Super Pack 4 provenance with explicit official/corroborated evidence, then resume the 79 null `race_restriction` records and bidirectional PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Super Pack 1 + Super Pack 4 provenance batch 641
+- [x] Added Steam publisher evidence for Super Pack 1: released **2016-12-20** and explicitly contains **5 new attacks**. citeturn0search8
+- [x] Added Steam publisher evidence for Super Pack 4: released **2017-06-27** and explicitly contains **5 new attacks for the avatar**. Nintendo independently lists the Switch release as September 22, 2017 and also states 5 moves. citeturn0search9turn0search0
+- [x] Added `docs/data/skill-research-batches/skill-batch-641.json`.
+- [x] Reconciled all **5/5 Super Pack 1** canonical attack records and **5/5 Super Pack 4 avatar-skill** records supported by the official five-attack counts.
+- [x] Deliberately did **not** automatically assign Super Pack 4 character-exclusive moves or Sword of Hope merely because a current DLC label associates them with the pack; those require separate provenance audit.
+- [x] No canonical skill records or PQ relationships were changed and no game patch/version numbers were inferred.
+- [x] Updated the provenance registry/audit/schema to **115 direct/corroborated skill→event mappings**.
+- [ ] **Exact next:** audit the Super Pack 4 DLC-label anomalies, then begin evidence-bound `race_restriction` enrichment for the remaining **79** null records and continue PQ↔skill/Super Soul/equipment cross-linking.
