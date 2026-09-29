@@ -6940,3 +6940,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-652.json` and updated `docs/data/skill-catalog-audit.json`.
 - [x] Current index census remains 549 records: 79 null `race_restriction` records, 78 of them CaC-usable, and 470 with explicit non-null restriction values.
 - [ ] Continue exact-skill evidence through the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Null race restriction evidence batch 653
+- [x] Reviewed 10 additional null-race CaC-usable skills: Light Grenade (Super), Mach Kick, Peeler Storm, Power Pole Combo, Punisher Drive, Recoome Eraser Gun, Saiyan Blaster, Senko Ki Blast, Serious Bomb, and Shockwave.
+- [x] Preserved all 10 `race_restriction` values as null; no explicit CaC race/gender restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-653.json` and updated the catalog audit.
+- [ ] Continue the remaining null race-restriction frontier, prioritizing exact eligibility wording.
