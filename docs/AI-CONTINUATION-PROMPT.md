@@ -7784,3 +7784,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added cast-exclusive provenance for Super Saiyan Blue Kaioken, Pure Progress, and Supersonic Mode.
 - [x] Kept cast-exclusive forms separate from CaC race restrictions.
 - [ ] Continue auditing remaining Awoken scope and staged/cast-only forms.
+
+### 2026-09-29 continuation — Awoken Batch 676
+- [x] Added `docs/data/awoken-research-batches/awoken-batch-676.json`.
+- [x] Audited Villainous Mode, Supervillain Mode, and Ultra Supervillain as villainous/cast scope states rather than CaC race restrictions.
+- [x] Preserved the distinction between temporary Crystal Raid/Training CaC villainous states and normal retail equippable Awoken Skills.
+- [x] Kept `race_restriction: null` because unavailable-to-CaC scope is not a race restriction.
+- [ ] Continue auditing remaining Awoken scope for staged, cast-only, and genuinely equippable CaC transformations.
