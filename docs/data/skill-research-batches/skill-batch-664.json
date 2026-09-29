@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 664,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Null race_restriction CaC-usable skills; five frontier records.",
+  "records": [
+    {
+      "name": "Die Die Missile Barrage",
+      "race_restriction_result": null,
+      "evidence": "Direct Xenoverse skill reference explicitly states 'Usable by: All races'. This establishes unrestricted race eligibility, so canonical null is retained rather than inventing a restrictive value.",
+      "sources": [
+        "https://dbxenoverse.fandom.com/wiki/DIE_DIE_Missile_Barrage_(Skill)",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    },
+    {
+      "name": "Super Vanishing Ball",
+      "race_restriction_result": null,
+      "evidence": "Direct Xenoverse skill reference explicitly states 'Usable by: All races'. Current Xenoverse 2 reference establishes it as a CaC-usable Ki Blast Ultimate obtained from the Skill Shop; no narrower restriction exists.",
+      "sources": [
+        "https://dbxenoverse.fandom.com/wiki/Super_Vanishing_Ball_(Skill)",
+        "https://dbxv2.fandom.com/wiki/Super_Vanishing_Ball"
+      ]
+    },
+    {
+      "name": "Super Volley",
+      "race_restriction_result": null,
+      "evidence": "Historical repository recovery establishes the identity as CaC-usable. The Future Warrior technique reference places the Future Warrior's learnable skills in a list that includes CaC techniques and separately marks explicit race restrictions when present; no explicit race/gender/form restriction was found for Super Volley.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    },
+    {
+      "name": "Swallow Shot",
+      "race_restriction_result": null,
+      "evidence": "Historical repository recovery establishes Swallow Shot as explicitly CaC-usable. Its Videl/Dragon Ball Super association and Hero of Justice Pack 2 provenance do not establish a CaC race restriction; no explicit race/gender/form condition was found.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Swallow_Shot",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    },
+    {
+      "name": "Thunder Eraser",
+      "race_restriction_result": null,
+      "evidence": "Current direct reference establishes Future Warrior acquisition through the Skill Shop and identifies Super 17/Android 17 as notable users. Character ownership and acquisition route do not establish a race restriction, and no explicit CaC race/gender/form condition was found.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Thunder_Eraser",
+        "https://dragonball.fandom.com/wiki/Thunder_Eraser",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Only explicit CaC eligibility wording establishing a narrower race/gender/form condition can populate race_restriction; explicit all-races wording supports retaining null."
+}
