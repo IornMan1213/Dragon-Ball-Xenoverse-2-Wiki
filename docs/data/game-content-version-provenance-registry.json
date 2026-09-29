@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-28",
+  "audit_date": "2026-09-29",
   "purpose": "Authoritative-source-backed game-content provenance registry foundation. This layer separates release/update evidence from research timestamps and does not rewrite canonical skill records unless an individual skill is directly tied to the cited release evidence.",
   "rules": [
     "A research date is not a game-version date.",
@@ -266,9 +266,21 @@
       ],
       "skill_count": 4,
       "assignment_status": "Release-level provenance established; individual skill mapping remains evidence-backed. No game version/patch number inferred."
+    },
+    {
+      "id": "free-update-20-budokai-festival",
+      "kind": "free_update",
+      "date": "2025-05-21",
+      "source_ids": [
+        "official_daima_pack_2025",
+        "official_update20_budokai_skills",
+        "official_4th_festival_skills_2025"
+      ],
+      "skill_count": 4,
+      "assignment_status": "Official event-level provenance established; four Festival skill names are recovered in the evidence layer but exact canonical IDs remain unresolved. Free update remains separate from the paid DAIMA Pack."
     }
   ],
-  "next_step": "Audit remaining free-update DAIMA-era skill provenance separately from the paid DAIMA Pack, then continue individual Chapter 4 mechanics/provenance enrichment. Do not assign a game version or patch number without direct version evidence.",
+  "next_step": "Continue substantive canonical skill provenance/mechanics enrichment outside the already-audited Festival identity gap. Revisit the four Festival IDs only when an exact structured historical artifact or canonical blob exposes them. Do not assign game versions from research dates or inference.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-crimson-edge",
