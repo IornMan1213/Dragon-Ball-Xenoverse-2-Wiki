@@ -68,3 +68,11 @@ Pre-transformed roster characters, enemy-only states, and mod-only forms are not
 - Preserved `race_restriction: "Saiyan"` for all three; acquisition by a non-Saiyan does not establish non-Saiyan usability.
 - Current Future Warrior documentation explicitly describes SSGSS and SSGSS (Evolved) as awardable regardless of selected race while remaining Saiyan-only in use; the same acquisition/use distinction is documented for SSG.
 - Canonical Awoken data was not reconstructed or overwritten from projection/verified layers.
+
+
+## 2026-09-29 — Awoken acquisition/use alignment Batch 673
+
+- Added `awoken-research-batches/awoken-batch-673.json`.
+- Confirmed acquisition and actual usability remain aligned for Super Saiyan, Super Vegeta, and Future Super Saiyan: all are Saiyan-restricted.
+- This records an explicit alignment case so the acquisition-vs-usability distinction is not over-applied.
+- Canonical data was not reconstructed or overwritten.
