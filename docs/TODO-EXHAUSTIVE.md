@@ -7060,3 +7060,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Evidence establishes both as Universal race eligibility; no narrower restriction was inferred.
 - [x] Updated the skill catalog audit and handoff with the finding.
 - [ ] Apply the two evidence-backed Universal classifications to canonical `docs/data/skills.json` using a safe authoritative-file edit; never rebuild it from indexes or verified layers.
+
+
+### 2026-09-29 continuation — Batch 665 canonical sync preparation
+- [x] Converted Power Pole / Power Pole Combo race evidence into sync-ready canonical `race_restriction: "Universal"` fields.
+- [x] Confirmed the existing skill builder consumes local research batches and merges those fields into canonical records.
+- [ ] Do not claim live canonical promotion until the skills-sync pipeline succeeds; do not reconstruct the canonical blob from indexes/projections.
+- [ ] Continue the remaining null race-restriction evidence frontier and cross-domain enrichment.
