@@ -7218,3 +7218,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill records were mutated; `docs/data/skills.json` remains authoritative.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] Exact next: identify remaining genuinely unreviewed null-race identities, then advance to DLC/free-update provenance, mechanics enrichment, and bidirectional PQ↔skill/Super Soul/equipment completeness.
+
+
+### 2026-09-29 continuation — Early DLC provenance expansion
+- [x] Added four missing early-DLC event records to `docs/data/game-content-version-provenance-registry.json`: **Super Pack 1 (2016-12-20), Super Pack 2 (2017-02-28), Super Pack 3 (2017-04-25), and Super Pack 4 (2017-06-27)**.
+- [x] Recorded publisher/store-backed release dates and documented skill-count scope without inferring game-version/patch numbers.
+- [x] Super Pack 2 is directly supported by the Bandai Namco announcement naming all eight attacks; Super Packs 1, 3, and 4 retain event-level counts from publisher/store evidence.
+- [x] Kept event provenance separate from individual canonical skill mappings; no canonical `skills.json` reconstruction or unsupported skill-to-release assignment was performed.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: reconcile individual skill mappings for these early packs where direct skill-level evidence exists, while continuing broader DLC/free-update provenance and mechanics/cross-database enrichment.
