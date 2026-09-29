@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 663,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Null race_restriction CaC-usable skills, five-record follow-up.",
+  "records": [
+    {
+      "name": "Super Explosive Wave (Evasive)",
+      "race_restriction_result": null,
+      "evidence": "Repository reconciliation identifies this as a CaC-usable Evasive; external reference material explicitly describes the Super Explosive Wave skill as usable by all races. This supports unrestricted eligibility rather than a narrower race restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_(Evasive)",
+        "https://dbxenoverse.fandom.com/wiki/Super_Explosive_Wave_(Skill)"
+      ]
+    },
+    {
+      "name": "Super Galick Gun",
+      "race_restriction_result": null,
+      "evidence": "The Future Warrior technique reference lists Super Galick Gun among Future Warrior techniques. Its association with Super Saiyan Blue Vegeta is character/form context, not evidence that CaCs must be Saiyan; no explicit CaC race/gender restriction was found.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    },
+    {
+      "name": "Super Ghost Kamikaze Attack (Super)",
+      "race_restriction_result": null,
+      "evidence": "Direct skill reference identifies Gotenks as a notable user and training with Gotenks as the unlock route, while the broader technique reference explicitly states the Future Warrior can learn the Super version. No narrower CaC race/gender/form condition is established.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_(Super)",
+        "https://dbxenoverse.fandom.com/wiki/Super_Ghost_Kamikaze_Attack_(Skill)",
+        "https://dragonball.fandom.com/wiki/Super_Ghost_Kamikaze_Attack"
+      ]
+    },
+    {
+      "name": "Super Ki Explosion",
+      "race_restriction_result": null,
+      "evidence": "Direct skill reference shows Skill Shop acquisition and broad customizable-partner availability; the Dragon Ball reference lists Future Warrior as a user. No explicit CaC race/gender restriction is established, so null is retained.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Ki_Explosion",
+        "https://dragonball.fandom.com/wiki/Super_Ki_Explosion"
+      ]
+    },
+    {
+      "name": "Super Mad Dance",
+      "race_restriction_result": null,
+      "evidence": "Direct reference identifies Skill Shop acquisition and Future Warrior use. Its Gogeta association is character context only; no explicit CaC race/gender/form restriction was found.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Mad_Dance",
+        "https://dragonball.fandom.com/wiki/Super_Mad_Dance"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Only explicit CaC eligibility wording establishing a narrower race/gender/form condition can populate race_restriction; preserve null otherwise."
+}
