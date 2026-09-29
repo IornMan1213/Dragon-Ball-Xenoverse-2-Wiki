@@ -7139,3 +7139,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill records or PQ relationships were mutated.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue indexed-only identity recovery using exact repository/game-data identity evidence; promote only when the canonical identity is independently established, otherwise move to the next highest-value enrichment frontier.
+
+
+### 2026-09-29 continuation — Canonical recovery candidate batch 614
+- [x] Historical repository research confirms five records demonstrably missing from the current canonical 497-record forward corpus: **Burst Attack, Double Buster, Finish Buster, Galick Beam Cannon, Power Pole**.
+- [x] Added `docs/data/skill-research-batches/skill-batch-614.json` as an explicit canonical-recovery manifest with exact source batches, identity checks, and an expected post-recovery count of **502**.
+- [x] Preserved the no-invented-ID rule; no canonical IDs were inferred from names, slugs, reward order, or external IDs.
+- [ ] **Blocked next write:** apply Batch 614 to `docs/data/skills.json` and regenerate `docs/data/skills-index.json` together. The GitHub connector rejected the large canonical blob write in this cycle, so the live canonical count remains **497** until that application succeeds.
+- [ ] Do not treat Batch 614 as canonical data until the forward-store application and parity validation are complete.
+- [ ] Peeler Storm remains a separate special-mode identity boundary and is not part of the five-record recovery count.
