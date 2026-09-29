@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 687,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "base_game_release_provenance_reconciliation",
+  "scope": "Add the official base-game launch event to the provenance registry without inferring individual skill release mappings or patch versions.",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    {
+      "event_id": "base-game-launch",
+      "release_date": "2016-10-25",
+      "platform_scope": "Americas PS4/Xbox One",
+      "source_id": "bn_xv2_launch_2016",
+      "confidence": "direct",
+      "canonical_mutation": false,
+      "basis": "Bandai Namco's official launch notice states DRAGON BALL XENOVERSE 2 launched in the Americas on October 25, 2016 for PlayStation 4 and Xbox One, with the Steam PC version launching October 27, 2016."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 1,
+    "canonical_skill_records_created": 0,
+    "canonical_skill_records_changed": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "boundary": {
+    "pc_release": "Steam is separately dated October 27, 2016 in the same official notice.",
+    "skill_mapping": "The launch event does not by itself prove which individual canonical skills shipped in the base game; no such assignments were inferred.",
+    "version": "No patch/game-version number is inferred."
+  },
+  "next": "Continue release-provenance coverage into remaining early free updates and individual DLC skill mappings where direct evidence exists."
+}
