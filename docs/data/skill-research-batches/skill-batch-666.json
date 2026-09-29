@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 666,
+  "date": "2026-09-29",
+  "status": "canonical_patch_ready",
+  "research_scope": "Recovery-forward restoration of two previously evidenced unrestricted CaC race classifications that were present in historical research but are null in the recovered canonical frontier.",
+  "verification_policy": "Promote race_restriction only from direct Xenoverse 2 evidence explicitly establishing Future Warrior eligibility across races.",
+  "records": [
+    {
+      "name": "Justice Pose",
+      "class": "Super",
+      "subcategory": "Power Up",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 53",
+      "evidence": "The Xenoverse 2 Justice Pose reference states that the Future Warrior can use the Super Skill regardless of race or gender.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Justice_Finishing_Pose"
+      ],
+      "canonical_mutation_pending": false
+    },
+    {
+      "name": "Death Psycho Bomb",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "source_quest_or_shop": "Parallel Quest 33",
+      "evidence": "The Xenoverse 2 Death Psycho Bomb reference states that the Future Warrior can obtain it in PQ33 and use it regardless of race.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Death_Psycho_Bomb"
+      ],
+      "canonical_mutation_pending": false
+    }
+  ],
+  "validation": {
+    "records_reviewed": 2,
+    "reclassified": 2,
+    "explicit_unrestricted_records": 2,
+    "unsupported_inferences": 0
+  },
+  "next": "Allow the existing skills-sync pipeline to promote these explicit Universal values, then continue the remaining null race-restriction cohort."
+}
