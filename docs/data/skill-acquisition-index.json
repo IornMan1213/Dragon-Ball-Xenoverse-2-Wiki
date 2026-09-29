@@ -124,5 +124,7 @@
   ],
   "latest_reconciliation_batch": 600,
   "latest_reconciliation_scope": "Expert Mission EM03-20 current-numbering skill acquisition routes; 18 documented associations, exact rates/guarantees intentionally unresolved.",
-  "latest_reconciliation_record_count": 18
+  "latest_reconciliation_record_count": 18,
+  "latest_condition_audit_batch": 601,
+  "latest_condition_audit_scope": "EM18-20 Focus Flash, Tail Slicer, Data Input: acquisition associations corroborated; guarantee/rate conditions remain unresolved."
 }
