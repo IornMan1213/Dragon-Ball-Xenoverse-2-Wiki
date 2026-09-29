@@ -6759,3 +6759,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical database remains **548 records**; no speculative canonical promotion was made.
 - [x] Added/finalized `docs/data/skill-research-batches/skill-batch-635.json`.
 - [ ] Next major task: perform a post-frontier canonical integrity/recovery audit, then move to the highest-priority unfinished exhaustive data domain.
+
+
+### 2026-09-29 continuation — Batch 637 canonical recovery
+- [x] Closed the indexed-only frontier and then audited race-specific/Transformation category coverage against the canonical store.
+- [x] Found **Candy Beam (Evasive)** explicitly CaC-usable in historical/current research with an exact canonical ID: `skill-candy-beam-evasive`.
+- [x] Restored Candy Beam (Evasive) to `docs/data/skills.json` and synchronized `docs/data/skills-index.json`.
+- [x] Canonical count/index count: **548 → 549**.
+- [x] Validated canonical/index name-set parity and order parity; duplicate canonical IDs remain **0**.
+- [x] Did not promote **Go-Go Gum** because its CaC access is established but an exact canonical ID/current canonical identity record is not established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-637.json` and updated the catalog audit.
+- [ ] Next: continue exact-ID historical CaC recovery, then proceed through race-specific and transformation enrichment without inventing IDs.
