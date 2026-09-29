@@ -7041,3 +7041,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all five `race_restriction` values as null; no explicit narrower retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-664.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Post-corruption recovery-forward checkpoint
+- [x] Verified the recovered live-main baseline: 549 canonical skills, 549 synchronized index records, and 862 canonical PQ reward relationships.
+- [x] Verified relationship counts: 249 skill / 135 Super Soul / 136 equipment / 247 character / 88 DLC / 7 farming; duplicate keys 0; orphan skill targets 0.
+- [x] Reconciled PQ1 as an intentional zero-typed-reward case: current PQ1 evidence lists only Zeni and Energy Capsule S, so no skill/Super Soul/equipment relationship is promoted.
+- [x] Verified PQ equipment endpoint identity coverage is complete (125 canonical edges, 123 unique targets, 123 exact endpoint matches, 0 endpoint identity gaps).
+- [x] Added `docs/data/post-corruption-continuation-audit-2026-09-29.json`.
+- [ ] Continue the 79-record null race-restriction evidence frontier with fresh exact-skill evidence; preserve null where evidence is insufficient.
+- [ ] Continue explicit older DLC/free-update provenance reconciliation.
+- [ ] Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from canonical forward datasets.
+- [ ] Resolve remaining accessory component identities only with exact inventory-level evidence; do not merge generic set/component labels.
