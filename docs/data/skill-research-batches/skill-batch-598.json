@@ -1,0 +1,145 @@
+{
+  "batch_id": 598,
+  "date": "2026-09-29",
+  "type": "extra_pack_3_4_individual_skill_provenance_reconciliation",
+  "status": "reconciled",
+  "scope": "Reconcile the Extra Pack 3 and Extra Pack 4 individual skill rosters using official DLC skill counts, maintained named-skill catalogs, and the canonical PQ reward mappings already present in the repaired forward relationship store.",
+  "official_scope": [
+    {
+      "event_id": "extra-pack-3",
+      "documented_skill_count": 8,
+      "release_date": "2018-08-28",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "steam_extra_pack_3_2018"
+      ]
+    },
+    {
+      "event_id": "extra-pack-4",
+      "documented_skill_count": 8,
+      "release_date": "2018-12-19",
+      "source_ids": [
+        "bn_xv2_official_site_2026",
+        "steam_extra_pack_4_2018"
+      ]
+    }
+  ],
+  "mappings": [
+    [
+      "skill-revenge-death-ball",
+      "Revenge Death Ball",
+      "PQ127",
+      "extra-pack-3"
+    ],
+    [
+      "skill-variant-drive",
+      "Variant Drive",
+      "PQ123",
+      "extra-pack-3"
+    ],
+    [
+      "skill-reverse-shot",
+      "Reverse Shot",
+      "PQ123",
+      "extra-pack-3"
+    ],
+    [
+      "skill-revenge-final-flash",
+      "Revenge Final Flash",
+      "PQ124",
+      "extra-pack-3"
+    ],
+    [
+      "skill-gigantic-breaker",
+      "Gigantic Breaker",
+      "PQ126",
+      "extra-pack-3"
+    ],
+    [
+      "skill-blaster-ball",
+      "Blaster Ball",
+      "PQ125",
+      "extra-pack-3"
+    ],
+    [
+      "skill-ray-blast",
+      "Ray Blast",
+      "PQ125",
+      "extra-pack-3"
+    ],
+    [
+      "skill-gigantic-burst",
+      "Gigantic Burst",
+      "PQ127",
+      "extra-pack-3"
+    ],
+    [
+      "skill-gigantic-charge",
+      "Gigantic Charge",
+      "PQ128",
+      "extra-pack-4"
+    ],
+    [
+      "skill-gigantic-rage",
+      "Gigantic Rage",
+      "PQ130",
+      "extra-pack-4"
+    ],
+    [
+      "skill-powered-shell",
+      "Powered Shell",
+      "PQ128",
+      "extra-pack-4"
+    ],
+    [
+      "skill-punisher-shield",
+      "Punisher Shield",
+      "PQ129",
+      "extra-pack-4"
+    ],
+    [
+      "skill-spirit-blaster",
+      "Spirit Blaster",
+      "PQ129",
+      "extra-pack-4"
+    ],
+    [
+      "skill-assault-vanish",
+      "Assault Vanish",
+      "PQ131",
+      "extra-pack-4"
+    ],
+    [
+      "skill-gigantic-roar",
+      "Gigantic Roar",
+      "PQ132",
+      "extra-pack-4"
+    ],
+    [
+      "skill-god-punisher",
+      "God Punisher",
+      "PQ132",
+      "extra-pack-4"
+    ]
+  ],
+  "evidence_boundary": "Official Bandai Namco catalog evidence establishes eight additional skills for each pack. The maintained DLC catalog names the individual skills, while the canonical PQ reward store independently maps the eight Extra Pack 3 skills to PQ123-127 and the eight Extra Pack 4 skills to PQ128-132. This is corroborated individual provenance, not a claim that the official release announcement itself named every skill.",
+  "validation": {
+    "documented_skill_count_extra_pack_3": 8,
+    "mapped_skill_count_extra_pack_3": 8,
+    "documented_skill_count_extra_pack_4": 8,
+    "mapped_skill_count_extra_pack_4": 8,
+    "unmapped_from_scope": 0,
+    "wrong_event_skill_assignments": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_version_assignments": 0
+  },
+  "sources": [
+    "bn_xv2_official_site_2026",
+    "steam_extra_pack_3_2018",
+    "steam_extra_pack_4_2018",
+    "community_dlc_skill_catalog",
+    "canonical_pq_reverse_index_121_142"
+  ],
+  "next": "Continue the older DLC/free-update provenance frontier with Super Pack and early Extra Pack cohorts that have explicit official skill counts or named skill evidence; keep release dates separate from game version/patch labels."
+}
