@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 633,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "indexed_only_evidence_triage",
+  "scope": "Correct batch-632 count discrepancy and preserve unresolved identities where existing evidence is non-dispositive.",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_mutation": false,
+  "correction": "Batch 632 reported 10 remaining identities, but its removals from the prior 17-item frontier leave 11. The audit is corrected to 11.",
+  "remaining": [
+    "Ill Flash",
+    "Spiral of Condemnation",
+    "Super Explosive Wave (Super)",
+    "Aura Slide",
+    "Go-Go Gum",
+    "Final Flash (Ultimate)",
+    "Full Power Energy Wave (Ultimate)",
+    "One-Handed Kamehameha",
+    "Soul Punisher",
+    "Special Beam Cannon (Ultimate)",
+    "Super Black Kamehameha"
+  ],
+  "evidence_reviewed": [
+    "Spiral of Condemnation has usable_by_cac=null in batch 271.",
+    "Aura Slide remains explicitly unresolved in batch 625.",
+    "Go-Go Gum's indexed Majin category membership does not prove CaC usability.",
+    "The six listed Ultimate identities lack explicit CaC access evidence in the retrieved records."
+  ],
+  "validation": {
+    "canonical_skills": 548,
+    "canonical_mutations": 0,
+    "remaining_indexed_only": 11
+  },
+  "next": "Seek explicit access evidence for the 11 remaining identities; do not infer CaC usability from taxonomy or character ownership."
+}
