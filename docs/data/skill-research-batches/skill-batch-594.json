@@ -1,0 +1,65 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 594,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "extra_pack_2_named_skill_provenance_reconciliation",
+  "scope": "Reconcile directly named Extra Pack 2 skills against official Bandai Namco evidence and existing canonical identities.",
+  "canonical_source": "docs/data/skills.json",
+  "official_sources": [
+    "bn_extra_pack_2_named_skills_2018",
+    "bn_xv2_free_update_extra2_2018"
+  ],
+  "records": [
+    {
+      "skill_id": "skill-soaring-fist",
+      "skill_name": "Soaring Fist",
+      "official_name": "Soaring Fist",
+      "evidence_type": "official_named_skill",
+      "confidence": "direct",
+      "finding": "Bandai Namco's Extra Pack 2 preview explicitly names Soaring Fist as Goku (Ultra Instinct)'s Super Attack."
+    },
+    {
+      "skill_id": "skill-godly-display",
+      "skill_name": "Godly Display",
+      "official_name": "Godly Display",
+      "evidence_type": "official_named_skill",
+      "confidence": "direct",
+      "finding": "Bandai Namco's Extra Pack 2 preview explicitly names Godly Display as Goku (Ultra Instinct)'s Ultimate Skill."
+    },
+    {
+      "skill_id": "skill-meditation",
+      "skill_name": "Meditation",
+      "official_name": "Mediation (source spelling)",
+      "evidence_type": "official_named_skill_plus_canonical_identity",
+      "confidence": "corroborated",
+      "finding": "The official preview names Jiren's move as “Mediation”; existing canonical and research records identify the Xenoverse 2 skill as Meditation and establish its Extra Pack 2/Jiren provenance. The spelling discrepancy is preserved."
+    },
+    {
+      "skill_id": "skill-power-rush",
+      "skill_name": "Power Rush",
+      "official_name": "Power Rush",
+      "evidence_type": "official_named_skill_plus_canonical_identity",
+      "confidence": "corroborated",
+      "finding": "The official preview names Power Rush among Jiren's skills; existing canonical and research records identify the exact Extra Pack 2 skill record."
+    }
+  ],
+  "event_reconciliation": {
+    "event_id": "extra-pack-2",
+    "release_date": "2018-03-01",
+    "documented_skill_count": 8,
+    "mapped_skill_count": 4,
+    "remaining_unmapped_count": 4,
+    "note": "The official catalog establishes eight Extra Pack 2 skills overall. This batch maps only the four skills explicitly named or unambiguously tied to canonical identities by the cited evidence; the remaining four are not assigned by count or proximity."
+  },
+  "canonical_action": "No skills.json mutation and no PQ relationship mutation. This is provenance enrichment only.",
+  "validation": {
+    "canonical_ids_resolved": 4,
+    "official_direct_name_records": 2,
+    "corroborated_name_identity_records": 2,
+    "new_pq_edges": 0,
+    "unsupported_version_assignments": 0,
+    "unsupported_skill_ids": 0
+  },
+  "next": "Reconcile the remaining four Extra Pack 2 skills only when direct named or explicit skill-level evidence is available; then proceed to Extra Pack 1/other early DLC cohorts."
+}
