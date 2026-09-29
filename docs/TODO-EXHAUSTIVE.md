@@ -6862,3 +6862,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-646.json`.
 - [x] Updated the skill catalog audit.
 - [ ] Next: continue exact evidence through remaining null race restrictions, assigning only when explicit restriction evidence is found.
+
+
+### 2026-09-29 continuation — Null race restriction exact-skill batch 647
+- [x] Reviewed Android Kick, Blaster Stream, Chaotic Time Impact, and Core Breaker using exact-skill references.
+- [x] Preserved all four `race_restriction` values as null; the references establish Future Warrior/CaC obtainability but do not state a race/gender lock.
+- [x] Added `docs/data/skill-research-batches/skill-batch-647.json` and updated the audit.
+- [ ] Continue exact per-skill evidence through the remaining null race-restriction frontier.
