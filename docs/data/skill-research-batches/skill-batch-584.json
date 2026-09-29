@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 584,
+  "research_date": "2026-09-28",
+  "type": "future_saga_chapter_4_release_provenance_reconciliation",
+  "canonical_source": "docs/data/skills.json",
+  "registry_source": "docs/data/game-content-version-provenance-registry.json",
+  "official_sources": [
+    "https://en.dragon-ball-official.com/news/01_4313.html"
+  ],
+  "findings": [
+    {
+      "event_id": "future-saga-chapter-4",
+      "release_date": "2026-07-08",
+      "evidence": "Official Dragon Ball Site confirms FUTURE SAGA Chapter 4 is released and identifies it as the final DLC.",
+      "status": "release_event_reconciled"
+    },
+    {
+      "skill_ids": [
+        "skill-dragon-spiral",
+        "skill-indomitable",
+        "skill-the-power-to-overcome",
+        "skill-venus-fist"
+      ],
+      "status": "event_association_preserved",
+      "basis": "Existing registry evidence and Chapter 4 reward/content sources support the four individual mappings; this batch does not infer a game version or patch number."
+    }
+  ],
+  "policy": [
+    "Release date is event provenance, not a game version number.",
+    "No patch/balance change is inferred from the release announcement.",
+    "Canonical skills.json remains authoritative.",
+    "Existing individual skill evidence is preserved rather than replaced by aggregate DLC evidence."
+  ],
+  "validation": {
+    "canonical_skill_count": 497,
+    "chapter4_individual_mappings": 4,
+    "game_version_assigned": 0
+  },
+  "next": "Audit the remaining Free Update 20/DAIMA-era free-update skill provenance separately from the paid DAIMA Pack; then continue Chapter 4 mechanics enrichment."
+}
