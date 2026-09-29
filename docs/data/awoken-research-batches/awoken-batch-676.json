@@ -4,10 +4,48 @@
   "type": "awoken_villainous_scope_provenance",
   "status": "research_only_sync_ready",
   "records": [
-    {"name":"Villainous Mode","usable_by_cac":false,"race_restriction":null,"classification":"special_cast_and_crystal_raid_state","evidence_status":"explicit"},
-    {"name":"Supervillain Mode","usable_by_cac":false,"race_restriction":null,"classification":"special_cast_and_crystal_raid_state","evidence_status":"explicit"},
-    {"name":"Ultra Supervillain","usable_by_cac":false,"race_restriction":null,"classification":"cast_exclusive_retail_state","evidence_status":"explicit"}
+    {
+      "name": "Villainous Mode",
+      "usable_by_cac": false,
+      "race_restriction": null,
+      "classification": "special_cast_and_crystal_raid_state",
+      "evidence_status": "explicit",
+      "reason": "Maintained structured Xenoverse 2 research classifies Villainous Mode as an enemy/story-character state rather than an unlockable retail CaC transformation. CaCs can temporarily enter the state in Crystal Raid/Training contexts, but that does not make it an equippable retail Awoken Skill.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ]
+    },
+    {
+      "name": "Supervillain Mode",
+      "usable_by_cac": false,
+      "race_restriction": null,
+      "classification": "special_cast_and_crystal_raid_state",
+      "evidence_status": "explicit",
+      "reason": "Maintained structured research classifies Supervillain Mode and its stages as enemy/story-character buff states, not unlockable CaC transformations. Crystal Raid can apply a villainous state to a CaC for the battle, but this is a mode-specific state rather than a retail equippable Awoken Skill.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
+      ]
+    },
+    {
+      "name": "Ultra Supervillain",
+      "usable_by_cac": false,
+      "race_restriction": null,
+      "classification": "cast_exclusive_retail_state",
+      "evidence_status": "explicit",
+      "reason": "Current retail Ultra Supervillain implementations are attached to roster characters in Future Saga content rather than provided as a CaC-equippable Awoken Skill. Current character data lists Ultra Supervillain forms as distinct cast-character variants, while maintained research excludes villainous modes from retail CaC transformations.",
+      "sources": [
+        "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/01-skills-transformations.md",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    }
   ],
-  "validation":{"records_reviewed":3,"explicit_scope_classifications":3,"unsupported_race_assignments":0,"canonical_mutation":0},
-  "note":"Villainous states are kept separate from retail CaC-equippable Awoken Skills; Crystal Raid CaC access is a temporary mode-specific state, not a race restriction."
+  "validation": {
+    "records_reviewed": 3,
+    "explicit_scope_classifications": 3,
+    "unsupported_race_assignments": 0,
+    "canonical_mutation": 0
+  },
+  "note": "Villainous states are kept separate from retail CaC-equippable Awoken Skills; Crystal Raid CaC access is a temporary mode-specific state, not a race restriction."
 }
