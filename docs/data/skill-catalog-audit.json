@@ -44,7 +44,7 @@
   "latest_research_batch": 665,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier: Batch 666 restores two historically evidenced Universal classifications and is sync-ready; continue remaining null-race records after canonical sync.",
+  "current_research_focus": "Race restriction frontier: Batches 666-667 restored three explicit Universal classifications; Batch 668 triaged five remaining nulls and correctly preserved null where explicit race scope was absent. Continue skill-specific evidence searches.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1240,6 +1240,19 @@
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
       ],
       "note": "Direct Xenoverse 2 Future Warrior evidence explicitly describes Brave Heat as a variant of Saiyan Spirit usable by all races."
+    },
+    "batch_668": {
+      "reviewed": [
+        "Spirit Stab",
+        "Armored Boost",
+        "Mach Kick",
+        "Kamehameha Boost",
+        "Miracle Kneel"
+      ],
+      "promoted": 0,
+      "nulls_preserved": 5,
+      "evidence_rule": "Generic Future Warrior technique-index presence is insufficient for Universal classification.",
+      "source": "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
     }
   }
 }
