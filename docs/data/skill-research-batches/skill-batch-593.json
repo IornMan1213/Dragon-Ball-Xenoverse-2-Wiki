@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 593,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "free_update_2020_skill_provenance_reconciliation",
+  "scope": "Map the nine canonical skills explicitly identified as the August 2020 Free Update 11 skill set to the dated free-update event, using official release evidence plus repository canonical identity evidence.",
+  "event": {
+    "id": "free-update-2020-08-26",
+    "kind": "free_update",
+    "date": "2020-08-26",
+    "official_source": "bn_xv2_free_update_2020_08_26",
+    "official_count": 9
+  },
+  "mappings": [
+    {
+      "skill_id": "skill-holy-inscription",
+      "skill_name": "Holy Inscription",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-kairos-cannon",
+      "skill_name": "Kairos Cannon",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-temporal-holy-ray",
+      "skill_name": "Temporal Holy Ray",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-chaos-wall",
+      "skill_name": "Chaos Wall",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-timespace-impact",
+      "skill_name": "Timespace Impact",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-godly-chronos-cannon",
+      "skill_name": "Godly Chronos Cannon",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-soaring-fist",
+      "skill_name": "Soaring Fist",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-divine-kamehameha",
+      "skill_name": "Divine Kamehameha",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    },
+    {
+      "skill_id": "skill-godly-display",
+      "skill_name": "Godly Display",
+      "evidence_type": "official_free_update_count_plus_canonical_skill_identity",
+      "confidence": "corroborated",
+      "basis": "Official Bandai Namco material establishes the August 26 2020 Free Update and its nine new fighting techniques; repository canonical records and maintained skill-specific research identify the named skill identity. No game-version/patch number is inferred from the research date."
+    }
+  ],
+  "evidence": [
+    {
+      "source": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-celebrates-6-million-copies-sold-its-11th-update-being",
+      "role": "Official announcement: August 26 2020 free update, nine new fighting techniques."
+    },
+    {
+      "source": "https://www.bandainamcoent.com/news/dbx2-free-big-update",
+      "role": "Official America announcement: Supreme Kai of Time, Conton City World Tournament, and customizable skills."
+    },
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Free_Update",
+      "role": "Independent catalog enumerates the nine named skills."
+    }
+  ],
+  "boundaries": [
+    "Official Bandai Namco announcement gives the count but not all nine names in the prose; named identity is corroborated by the maintained independent catalog and existing canonical repository records.",
+    "Divine Kamehameha, Soaring Fist, and Godly Display are included in the nine-skill set because the maintained Free Update catalog explicitly groups them with the six Supreme Kai of Time skills.",
+    "No canonical skill records are created or renamed.",
+    "Release date 2020-08-26 is event provenance, not a game version or patch label."
+  ],
+  "validation": {
+    "official_event_date_confirmed": true,
+    "official_skill_count": 9,
+    "named_skills_mapped": 9,
+    "canonical_ids_recovered": 9,
+    "canonical_records_promoted": 0,
+    "canonical_skill_records_changed": false,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "next": "Audit the next older DLC/free-update cohort with a directly documented skill count and incomplete individual mappings; preserve any event-level-only subset when official sources do not expose names."
+}
