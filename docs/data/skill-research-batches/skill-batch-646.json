@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 646,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Review null race_restriction records where available references explicitly show the skill is not a CaC race restriction, or where the named skill is a cast-character skill later obtainable universally.",
+  "records": [
+    {
+      "id": null,
+      "name": "Power Pole",
+      "class": "Super",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reference identifies it as a Goku (GT) skill purchasable by the Future Warrior; no CaC race lock is established."
+    },
+    {
+      "id": "skill-power-pole-combo",
+      "name": "Power Pole Combo",
+      "class": "Super",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reference identifies it as a purchasable Future Warrior skill and does not establish an Earthling-only restriction."
+    },
+    {
+      "id": "skill-saiyan-blaster",
+      "name": "Saiyan Blaster",
+      "class": "Evasive",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact reference identifies it as Broly (DB Super)'s Evasive Skill; no CaC race restriction is stated."
+    },
+    {
+      "id": "skill-spirit-stab",
+      "name": "Spirit Stab",
+      "class": "Super",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reference states it is a Vegito skill that became obtainable by the Future Warrior from the TP Medal Shop; no race restriction is stated."
+    }
+  ],
+  "sources": [
+    {
+      "id": "power_pole",
+      "url": "https://dbxv2.fandom.com/wiki/Power_Pole",
+      "finding": "Power Pole is a Strike Super used by Goku (GT), obtainable from the Skill Shop; no CaC race lock is stated."
+    },
+    {
+      "id": "power_pole_general",
+      "url": "https://dragonball.fandom.com/wiki/Power_Pole",
+      "finding": "Xenoverse 2 reference says Power Pole and Power Pole Combo can be obtained by the Future Warrior; Earthling restriction is attached to Power Pole Pro instead."
+    },
+    {
+      "id": "spirit_stab",
+      "url": "https://dbxv2.fandom.com/wiki/Spirit_Stab",
+      "finding": "Spirit Stab is a Vegito skill obtainable from the TP Medal Shop; no race restriction is stated."
+    },
+    {
+      "id": "saiyan_blaster",
+      "url": "https://dbxv2.fandom.com/wiki/Saiyan_Blaster",
+      "finding": "Saiyan Blaster is identified as Broly (DB Super)'s Evasive Skill; the exact reference does not state a Saiyan CaC restriction."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 4,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 4
+  },
+  "boundary": "A character's name or association is not treated as a CaC race restriction. Null is preserved when the reference does not explicitly establish a restriction.",
+  "next": "Continue remaining null records with exact-skill evidence, prioritizing explicit CaC restriction wording and avoiding inference from skill names or notable users."
+}
