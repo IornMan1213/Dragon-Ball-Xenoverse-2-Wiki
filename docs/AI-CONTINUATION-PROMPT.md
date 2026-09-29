@@ -7406,3 +7406,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Did not promote **Go-Go Gum** because its CaC access is established but an exact canonical ID/current canonical identity record is not established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-637.json` and updated the catalog audit.
 - [ ] Next: continue exact-ID historical CaC recovery, then proceed through race-specific and transformation enrichment without inventing IDs.
+
+
+### 2026-09-29 continuation — Indexed-only frontier closed; post-frontier integrity audit
+- [x] Final indexed-only frontier closed in Batch 635: **2 → 0**.
+- [x] Post-frontier integrity check recorded: canonical skills **548**, index **548**, non-null canonical ID duplicates **0**, PQ reward relationships **862**, PQ relationship mutations since rebuild **0**.
+- [x] Confirmed `docs/data/skills.json` remains the canonical source of truth; `verified: true` is not treated as source of truth.
+- [x] No indexed-only identity was promoted solely because it was CaC-usable; exact canonical identity remains required for promotion.
+- [ ] Next highest-value work: canonical enrichment/integrity and exhaustive cross-domain completeness now that the indexed-only reconciliation frontier is closed.
