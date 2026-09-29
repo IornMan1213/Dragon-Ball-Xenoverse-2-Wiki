@@ -6929,3 +6929,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported game-version/patch assignment.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** reconcile the remaining four Extra Pack 2 skills only when direct skill-level evidence is available, then continue to Extra Pack 1/other early DLC cohorts.
+
+
+### 2026-09-29 continuation — Extra Pack 2 remaining skill provenance completion batch 595
+- [x] Completed the documented **8 Extra Pack 2 avatar/new-skill mappings** using official DLC scope plus contemporaneous named-roster evidence.
+- [x] Added canonical provenance mappings for Sneaky Strike, Confusion Blade, Energy Minefield, Remote Serious Bomb, Rough Ranger, and Power Impact.
+- [x] Preserved the distinction between Bandai Namco's documented 8 new/avatar skills and the separately named Goku (Ultra Instinct) character-exclusive moves Soaring Fist and Godly Display; those two remain DLC provenance records but are not counted against the eight-skill roster.
+- [x] Added `docs/data/skill-research-batches/skill-batch-595.json` and synchronized the authoritative provenance registry and skill-catalog audit.
+- [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported version/patch assignment.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue to Extra Pack 1/other early DLC cohorts with explicit skill counts and incomplete individual mappings; preserve event-count boundaries and do not infer missing skills by count/proximity alone.
