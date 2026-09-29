@@ -348,7 +348,8 @@
     "super_soul_record_layer_validator": "scripts/validate_super_soul_record_layer.py",
     "skill_research_batch_599_legacy_taxonomy_reconciliation_2026_09_29": "docs/data/skill-research-batches/skill-batch-599.json",
     "skill_batch_600_expert_mission_acquisition_em03_20_2026_09_29": "docs/data/skill-research-batches/skill-batch-600.json",
-    "skill_batch_601_em18_20_acquisition_conditions_2026_09_29": "docs/data/skill-research-batches/skill-batch-601.json"
+    "skill_batch_601_em18_20_acquisition_conditions_2026_09_29": "docs/data/skill-research-batches/skill-batch-601.json",
+    "skill_batch_602_em03_17_acquisition_conditions_2026_09_29": "docs/data/skill-research-batches/skill-batch-602.json"
   },
   "validation_tools": {
     "canonical_endpoint_navigation": "scripts/validate_pq_endpoint_navigation.py",
