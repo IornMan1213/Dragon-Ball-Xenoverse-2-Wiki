@@ -11265,6 +11265,221 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Swallow_Shot"
       ]
+    },
+    {
+      "name": "Android Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-android-kick",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Android_Kick",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608443",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-29-sprints-out-this-december-1"
+      ]
+    },
+    {
+      "name": "Kaioken Assault",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "id": "skill-kaioken-assault",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kaioken_Assault",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Kamehameha Boost",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop after defeating the Masked Saiyan and Masked Future Warrior in the main story",
+      "ultimate_finish_required": null,
+      "id": "skill-kamehameha-boost",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Kamehameha_Boost",
+        "https://dragonball.fandom.com/wiki/Reverse_Kamehameha",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Mach Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest reward",
+      "source_quest_or_shop": "Parallel Quest 17 — Ginyu and the Fruit",
+      "ultimate_finish_required": null,
+      "id": "skill-mach-kick",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Mach_Kick",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dragonball.fandom.com/wiki/Mach_Punch"
+      ]
+    },
+    {
+      "name": "Punisher Drive",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": null,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-punisher-drive",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Punisher_Drive",
+        "https://videogaming.fandom.com/wiki/Punisher_Drive",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74765001",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74512351",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    },
+    {
+      "name": "Sonic Kick",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-sonic-kick",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Sonic_Kick",
+        "https://dragonball.fandom.com/wiki/Sonic_Kick",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79052164",
+        "https://dbxv2.fandom.com/wiki/Hyper_Special_Training"
+      ]
+    },
+    {
+      "name": "Spirit Stab",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": "Super Pack 4",
+      "unlock_method": "TP Medal Shop",
+      "source_quest_or_shop": "TP Medal Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-spirit-stab",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Spirit_Stab",
+        "https://videogaming.fandom.com/wiki/Spirit_Stab",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75507793",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)"
+      ]
+    },
+    {
+      "name": "Drain Charge",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop after The Galactic Emperor",
+      "source_quest_or_shop": "Skill Shop after The Galactic Emperor",
+      "ultimate_finish_required": false,
+      "id": "skill-drain-charge",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Drain_Charge",
+        "https://dbxv2.fandom.com/wiki/Grab"
+      ]
+    },
+    {
+      "name": "Ginyu Force Special Combo",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 16 — Defeat Frieza's Army!",
+      "source_quest_or_shop": "Parallel Quest 16 — Defeat Frieza's Army!",
+      "ultimate_finish_required": null,
+      "id": "skill-ginyu-force-special-combo",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Ginyu_Force_Special_Combo",
+        "https://dragonball.fandom.com/wiki/Ginyu_Force_Special_Combo",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77393749",
+        "https://xvguide.neocities.org/Skill"
+      ]
+    },
+    {
+      "name": "Super Mad Dance",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Skill Shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ultimate_finish_required": null,
+      "id": "skill-super-mad-dance",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Mad_Dance",
+        "https://videogaming.fandom.com/wiki/Super_Mad_Dance",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74495441",
+        "https://xvguide.neocities.org/Skill"
+      ]
     }
   ],
   "last_updated": "2026-09-29",
