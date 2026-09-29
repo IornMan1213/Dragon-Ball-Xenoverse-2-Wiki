@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 691,
+  "latest_research_batch": 692,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
   "current_research_focus": "Accessory canonical identity and PQ cross-link reconciliation: Batch 691 resolved Tapion's Sword (acc-027), Yamcha's Sword (acc-028), and Goku Wig (Super Saiyan) (acc-012), while preserving historical route conflicts. Added the special PQ22 Tapion's Sword relationship. Continue remaining unresolved accessory/component routes, then resume comprehensive PQ reward and mechanics cross-link enrichment.",
@@ -1384,5 +1384,18 @@
   "pq_relationship_baseline": {
     "total_relationships": 863,
     "pq_rewards_equipment": 137
+  },
+  "pq_reverse_index_batch_692": {
+    "file": "docs/data/pq-cross-domain-reverse-index.json",
+    "source_edges": 863,
+    "unique_targets": {
+      "skills": 244,
+      "super_souls": 133,
+      "equipment": 134,
+      "characters": 75,
+      "dlc": 21,
+      "farming": 1
+    },
+    "canonical_mutations": 0
   }
 }
