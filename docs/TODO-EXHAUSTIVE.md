@@ -7087,3 +7087,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added five-record null-preservation/evidence-triage batch.
 - [x] No unsupported Universal classifications introduced.
 - [ ] Continue skill-specific race-restriction research across the remaining null cohort.
+
+
+### 2026-09-29 continuation — Race restriction Batch 669
+- [x] Researched Spirit Bomb and Super Spirit Bomb with explicit all-race Future Warrior evidence.
+- [x] Added both as sync-ready Universal race restrictions.
+- [ ] Promote through the canonical skills-sync pipeline when available and validated.
