@@ -1,0 +1,98 @@
+{
+  "batch_id": 597,
+  "date": "2026-09-29",
+  "type": "extra_pack_1_individual_skill_provenance_reconciliation",
+  "status": "reconciled",
+  "scope": "Complete the Extra Pack 1 individual skill provenance roster from the official 13-skill DLC scope, the five Extra Pack 1 PQs, and Zamasu mentor evidence.",
+  "official_scope": {
+    "event_id": "extra-pack-1",
+    "source_id": "bn_extra_pack_1_2017",
+    "documented_skill_count": 13,
+    "finding": "Official Bandai Namco material states that Extra Pack 1 includes 13 new skills and Zamasu as a new Master.",
+    "url": "https://en.bandainamcoent.eu/dragon-ball/news/more-details-about-the-new-content-dragon-ball-xenoverse-2"
+  },
+  "mappings": [
+    [
+      "skill-super-ghost-buu-attack",
+      "Super Ghost Buu Attack",
+      "PQ113"
+    ],
+    [
+      "skill-candy-beam-super",
+      "Candy Beam (Super)",
+      "PQ113"
+    ],
+    [
+      "skill-petrifying-spit",
+      "Petrifying Spit",
+      "PQ114"
+    ],
+    [
+      "skill-evil-blast",
+      "Evil Blast",
+      "PQ114"
+    ],
+    [
+      "skill-handy-canon",
+      "Handy Canon",
+      "PQ115"
+    ],
+    [
+      "skill-s-s-deadly-bomber",
+      "S.S. Deadly Bomber",
+      "PQ115"
+    ],
+    [
+      "skill-heros-flute",
+      "Hero's Flute",
+      "PQ116"
+    ],
+    [
+      "skill-brave-sword-slash",
+      "Brave Sword Slash",
+      "PQ116"
+    ],
+    [
+      "skill-evil-flame",
+      "Evil Flame",
+      "PQ117"
+    ],
+    [
+      "skill-brave-sword-attack",
+      "Brave Sword Attack",
+      "PQ117"
+    ],
+    [
+      "skill-god-splitter",
+      "God Splitter",
+      "Zamasu Lesson 1"
+    ],
+    [
+      "skill-heavenly-arrow",
+      "Heavenly Arrow",
+      "Zamasu Lesson 2"
+    ],
+    [
+      "skill-instant-severance",
+      "Instant Severance",
+      "Zamasu Lesson 3"
+    ]
+  ],
+  "evidence_boundary": "The five Extra Pack 1 PQs contribute ten canonical skill rewards; Zamasu's three mentor lessons contribute three more, producing the documented 13-skill total. PQ111-PQ112 skills Lightning of Absolution, Holy Wrath, Blades of Judgment, and Divine Wrath: Purification are Super Pack 4 and are explicitly excluded.",
+  "validation": {
+    "documented_skill_count": 13,
+    "mapped_skill_count": 13,
+    "unmapped_from_scope": 0,
+    "wrong_event_skill_assignments": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_version_assignments": 0
+  },
+  "sources": [
+    "bn_xv2_extra_pack_1_2017",
+    "skill-batch-25",
+    "skill-batch-261",
+    "official/community Zamasu mentor evidence"
+  ],
+  "next": "Continue to Extra Pack 3/4 or earlier DLC cohorts with documented skill counts; do not reopen Extra Pack 1 unless new direct evidence changes the 13-skill roster."
+}
