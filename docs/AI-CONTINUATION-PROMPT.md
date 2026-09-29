@@ -7237,3 +7237,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Indexed-only unresolved frontier reduced to **62** names.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining indexed-only identities using explicit player-character evidence; do not promote cast-only or unavailable-for-CaC records.
+
+
+### 2026-09-29 continuation — Recovery batch 626 review boundary
+- [x] Reviewed the next indexed-only frontier against live research evidence.
+- [x] Confirmed that the reviewed cast-exclusive/unavailable identities do not provide sufficient explicit CaC usability evidence for canonical promotion.
+- [x] Preserved the existing separate Peeler Storm (Evasive) CaC record; the cast/boss Super implementation is not merged into it.
+- [x] No speculative records were promoted merely to increase database size.
+- [x] Canonical source remains authoritative; current unresolved frontier is **62** names.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] Exact next: inspect the remaining names for explicit CaC evidence outside the unavailable/cast-only boundary, then promote only independently supported identities.
