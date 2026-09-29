@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 634,
+  "latest_research_batch": 635,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
@@ -360,7 +360,7 @@
     "source_universe": 110,
     "canonical_records": 548,
     "resolved_from_source_universe": 99,
-    "remaining_indexed_only": 2,
+    "remaining_indexed_only": 0,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
@@ -421,10 +421,7 @@
       "Energy Zone",
       "The Saviour Has Come"
     ],
-    "remaining_names": [
-      "Ill Flash",
-      "Spiral of Condemnation"
-    ],
+    "remaining_names": [],
     "method": "Exact case-insensitive comparison against authoritative canonical store; stale source-universe taxonomy may be corrected when current evidence establishes a different canonical class.",
     "next": "Continue the remaining 11 identities. Preserve unresolved status for records whose historical evidence gives usable_by_cac=null; only resolve with explicit positive/negative access evidence.",
     "variant_resolutions": [
@@ -476,7 +473,8 @@
       "Celestial Hammer",
       "Special Beam Blast",
       "Rage Saucer",
-      "Brainwash Attack"
+      "Brainwash Attack",
+      "Spiral of Condemnation"
     ],
     "confirmed_cac_positive_names": [
       "Super Explosive Wave (Super)",
@@ -487,9 +485,10 @@
       "One-Handed Kamehameha",
       "Soul Punisher",
       "Special Beam Cannon (Ultimate)",
-      "Super Black Kamehameha"
+      "Super Black Kamehameha",
+      "Ill Flash"
     ],
-    "notes": " Batch 634 added explicit CaC-positive evidence from dedicated skill documentation: training/TP Medal Shop acquisition establishes Future Warrior access for the listed skills; Go-Go Gum is explicitly documented as a CaC skill. Ill Flash and Spiral of Condemnation remain unresolved because the retrieved XV2 evidence does not explicitly establish Future Warrior/CaC access."
+    "notes": " Batch 634 added explicit CaC-positive evidence from dedicated skill documentation: training/TP Medal Shop acquisition establishes Future Warrior access for the listed skills; Go-Go Gum is explicitly documented as a CaC skill. Ill Flash and Spiral of Condemnation remain unresolved because the retrieved XV2 evidence does not explicitly establish Future Warrior/CaC access. Batch 635 closes the final frontier: Ill Flash has explicit Future Warrior acquisition evidence; Spiral of Condemnation is explicitly unique to Fused Zamasu (Half-Corrupted), with external ID research marking it non-CaC."
   },
   "recovery_batch_615": {
     "restored": [
@@ -858,6 +857,25 @@
     "unresolved": [
       "Ill Flash",
       "Spiral of Condemnation"
+    ]
+  },
+  "recovery_batch_635": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "canonical_records_unchanged": 548,
+    "canonical_mutations": 0,
+    "frontier_closed": true,
+    "positive": [
+      "Ill Flash"
+    ],
+    "negative": [
+      "Spiral of Condemnation"
+    ],
+    "sources": [
+      "https://dragonball.fandom.com/wiki/Ill_Flash",
+      "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
+      "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation",
+      "https://dbxv2.fandom.com/wiki/Characters"
     ]
   }
 }
