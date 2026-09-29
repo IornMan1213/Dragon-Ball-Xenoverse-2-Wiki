@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 677,
+  "latest_research_batch": 682,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
   "current_research_focus": "Corrected post-corruption race-restriction frontier: current synchronized 549-record skills index contains 76 CaC-usable records with null race_restriction. Continue direct skill-specific evidence; preserve null where evidence is insufficient.",
@@ -1350,5 +1350,16 @@
     "canonical_mutation": 0,
     "rule": "Villainous states are not CaC-equippable retail Awoken Skills. Crystal Raid CaC access is a temporary mode-specific state and must not be converted into a CaC race restriction.",
     "batch_file": "docs/data/awoken-research-batches/awoken-batch-676.json"
+  },
+  "race_restriction_frontier_current_count": 75,
+  "race_restriction_batch_682": {
+    "reviewed": [
+      "Turtle Style Last Resort"
+    ],
+    "explicit_scope_classifications": 1,
+    "canonical_mutation": 1,
+    "canonical_value": "All CaC races",
+    "rule": "Explicit skill-specific all-races evidence supports the canonical All CaC races value; generic Future Warrior technique-list membership alone is insufficient.",
+    "batch_file": "docs/data/skill-research-batches/skill-batch-682.json"
   }
 }
