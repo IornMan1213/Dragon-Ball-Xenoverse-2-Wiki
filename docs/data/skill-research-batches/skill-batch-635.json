@@ -31,7 +31,8 @@
   "validation": {
     "canonical_skills": 548,
     "canonical_mutations": 0,
-    "indexed_only_frontier": 0
+    "frontier_before": 2,
+    "frontier_after": 0
   },
   "next": "Run final frontier reconciliation and canonical/index consistency audit; do not create canonical records merely because an indexed identity was resolved at the access boundary."
 }
