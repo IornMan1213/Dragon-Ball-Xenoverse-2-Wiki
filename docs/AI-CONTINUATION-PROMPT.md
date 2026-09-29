@@ -7841,3 +7841,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical data was reconstructed or mutated in Batch 683; `docs/data/skills.json` remains authoritative and verified/projection/index layers remain consumers only.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue the remaining **70** unreviewed-by-Batch-683 frontier records, avoiding repeated prior audits; only explicit retail eligibility wording may promote `All CaC races` or a narrower restriction. After this evidence frontier, resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Race restriction Batch 684
+- [x] Added `docs/data/skill-research-batches/skill-batch-684.json`.
+- [x] Reviewed **Full Power Energy Wave, Galick Beam Cannon, Gamma Impact, and Gigantic Cross** using current Xenoverse/Future Warrior-specific evidence.
+- [x] Preserved all four as `race_restriction: null`; the reviewed evidence establishes CaC/Future Warrior availability or character association but does not explicitly establish retail race/gender/form eligibility.
+- [x] No canonical skill records were mutated; `docs/data/skills.json` remains authoritative.
+- [x] Updated the catalog audit to Batch 684.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue the remaining 66-record frontier, prioritizing direct skill-specific retail eligibility wording and avoiding unsupported inference; then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
