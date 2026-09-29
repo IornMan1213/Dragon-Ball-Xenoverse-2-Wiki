@@ -92,3 +92,10 @@ Pre-transformed roster characters, enemy-only states, and mod-only forms are not
 - Explicitly classified Super Saiyan Blue Kaioken, Pure Progress, and Supersonic Mode as cast-exclusive and unavailable to retail CaCs.
 - Kept race_restriction null for these records: cast exclusivity is a scope property, not a CaC race restriction.
 - Supersonic Mode is corroborated by the official Dragon Ball announcement identifying it as Dyspo's Awoken Skill.
+
+## 2026-09-29 — Batch 676 villainous-state scope
+
+- Added awoken-batch-676.json.
+- Audited Villainous Mode, Supervillain Mode, and Ultra Supervillain as scope states rather than CaC race restrictions.
+- Crystal Raid/Training access is kept separate from a normal retail equippable Awoken Skill.
+- race_restriction remains null for these unavailable-to-CaC states.
