@@ -1,0 +1,97 @@
+{
+  "batch_id": 611,
+  "created": "2026-09-29",
+  "verification_policy": "fresh_direct_source_race_restriction_boundary_audit",
+  "research_scope": "Six CaC-usable canonical skills retaining null race_restriction after prior general research; test for explicit narrower race/gender/form eligibility without inferring from character ownership.",
+  "evidence_boundary": "Canonical race_restriction remains null unless a direct source explicitly states a narrower CaC race/gender/form rule. Future Warrior/CaC usability, NPC ownership, partner availability, DLC grouping, and generic skill classification do not establish unrestricted all-race eligibility or a race restriction.",
+  "records": [
+    {
+      "name": "Counter Burst",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Vegeta; SSGSS Vegeta; Trunks (Future)",
+      "finding": "Future Warrior acquisition and counter classification are directly documented; reviewed source does not state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Counter_Burst",
+        "https://dbxv2.fandom.com/wiki/Counter_Skill"
+      ]
+    },
+    {
+      "name": "Justice Rush",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Videl; Great Saiyaman 2; Pan",
+      "finding": "Future Warrior training acquisition is directly documented; reviewed source does not state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Justice_Rush",
+        "https://dbxv2.fandom.com/wiki/Justice_Rush"
+      ]
+    },
+    {
+      "name": "Rough Ranger",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Android 17 (DB Super)",
+      "finding": "Future Warrior acquisition from PQ119 Ultimate Finish is directly documented; reviewed source does not state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Rough_Ranger",
+        "https://dbxv2.fandom.com/wiki/Rough_Ranger"
+      ]
+    },
+    {
+      "name": "Dimensional Hole",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Janemba",
+      "finding": "Future Warrior acquisition from PQ80 is directly documented; reviewed source does not state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Dimensional_Hole",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Burst Reflection",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Nuova Shenron",
+      "finding": "Future Warrior technique listing confirms CaC use; reviewed source does not state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Characters"
+      ]
+    },
+    {
+      "name": "Absolute Zero",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "source_character": "Eis Shenron",
+      "finding": "Character/skill references establish the skill identity and CaC availability; reviewed source does not state a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Characters",
+        "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0,
+    "narrower_restrictions_established": 0,
+    "explicit_unrestricted_all_cac_claims_established": 0
+  },
+  "result": "all_six_retain_canonical_race_restriction_null"
+}
