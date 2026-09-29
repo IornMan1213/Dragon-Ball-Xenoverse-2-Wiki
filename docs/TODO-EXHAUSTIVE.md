@@ -6918,3 +6918,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all reviewed `race_restriction` values as null; exact evidence does not explicitly establish CaC race/gender restrictions.
 - [x] Added `docs/data/skill-research-batches/skill-batch-651.json` and updated the catalog audit.
 - [ ] Continue exact-skill research through the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Fresh post-corruption live baseline reconciliation
+- [x] Re-read the continuation prompt and exhaustive TODO, then performed a fresh live-main recovery census instead of trusting stale recovery metadata.
+- [x] Confirmed the current synchronized working baseline is **549 canonical skills / 549 skill-index records / 862 canonical PQ relationship edges**.
+- [x] Confirmed the canonical `docs/data/skills.json` blob SHA is `5912397227d7fb67f1ed263269ace8fcf9b8995b`; the connector exposes the blob SHA but not inline content, so `skills-index.json` was not promoted to source-of-truth.
+- [x] Recomputed the 862 PQ relationship counts directly from the canonical forward store: **249 skills / 135 Super Souls / 136 equipment / 247 characters / 88 DLC / 7 farming**; duplicate relationship keys remain 0.
+- [x] Identified and repaired stale current-live recovery metadata that still reported 497 skills even though the live synchronized state is 549.
+- [x] Preserved historical recovery values (474, 493, 497, 548) as historical provenance; they were not rewritten as if they were current.
+- [x] Added `docs/data/post-corruption-live-baseline-reconciliation-2026-09-29.json` as the fresh recovery checkpoint.
+- [x] No canonical records were reconstructed from indexes/verified layers and no speculative IDs, restrictions, rewards, rates, or conditions were introduced.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining null `race_restriction` evidence frontier, then continue older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores.
