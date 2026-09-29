@@ -1042,9 +1042,9 @@
     "batch_file": "docs/data/skill-research-batches/skill-batch-650.json"
   },
   "race_restriction_batch_651": {
-    "records_reviewed": 4,
+    "records_reviewed": 5,
     "canonical_changes": 0,
-    "nulls_preserved": 4,
+    "nulls_preserved": 5,
     "batch_file": "docs/data/skill-research-batches/skill-batch-651.json"
   }
 }
