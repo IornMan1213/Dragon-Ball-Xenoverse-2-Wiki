@@ -7065,3 +7065,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence, prioritizing explicit race/gender/form eligibility.
+
+
+### 2026-09-29 continuation — Skill restriction batch 607
+- [x] Performed a fresh direct-source race-restriction audit for **Divine Wrath: Purification, Super Ghost Buu Attack, Candy Beam (Super), Petrifying Spit, Evil Blast, and Handy Canon**.
+- [x] Reviewed current repository acquisition records and external skill references.
+- [x] No direct narrower race/gender/form restriction was established for any of the six; preserved canonical race_restriction: null.
+- [x] Added Batch 607 and synchronized the catalog restriction census.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records.
