@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 658,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Direct-source follow-up on five canonical null race_restriction CaC-usable skills.",
+  "records": [
+    {
+      "name": "Blaster Stream",
+      "race_restriction_result": null,
+      "evidence": "Current skill documentation identifies Blaster Stream as Kale's Ultimate and lists Future Warrior acquisition through PQ148; no explicit CaC race/gender/form restriction is stated. The official Dragon Ball site confirms the skill and its Kale association, but does not establish a CaC restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blaster_Stream",
+        "https://dragonball.fandom.com/wiki/Blaster_Stream",
+        "https://en.dragon-ball-official.com/news/01_628.html"
+      ]
+    },
+    {
+      "name": "Break Strike",
+      "race_restriction_result": null,
+      "evidence": "Reference material identifies Break Strike as a common Evasive Skill obtainable by the Future Warrior through the Skill Shop and used across many character types. No explicit narrower CaC race/gender/form condition was found; broad character use is not itself a race classification.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Break_Strike",
+        "https://dbxv2.fandom.com/wiki/Break_Strike"
+      ]
+    },
+    {
+      "name": "Chaotic Time Impact",
+      "race_restriction_result": null,
+      "evidence": "Current skill documentation identifies Chaotic Time Impact as Golden Frieza (Ultra Supervillain)'s Ultimate and PQ184 reward. Separate Future Warrior-oriented sources identify the Future Warrior as capable of using the technique, but no explicit CaC race/gender/form restriction was found. Frieza character ownership does not establish a CaC restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Chaotic_Time_Impact",
+        "https://dragonball.fandom.com/wiki/Chaotic_Time_Impact",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Evil Explosion (Super)",
+      "race_restriction_result": null,
+      "evidence": "Reference material identifies Evil Explosion as Piccolo's Super Skill and explicitly states that the Future Warrior can learn/use it. The source does not impose a CaC race/gender/form restriction. A Saiyan-specific behavior while using a Super Saiyan Awoken Skill is a move interaction, not a general race restriction on equipping the skill.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Evil_Explosion",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Minus Energy Power Ball",
+      "race_restriction_result": null,
+      "evidence": "Reference material identifies Minus Energy Power Ball as Omega Shenron's Ultimate and explicitly states that it can be obtained/used by the Future Warrior. No explicit CaC race/gender/form restriction was found. Omega Shenron/Mira character association is not sufficient to infer a race restriction.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Negative_Karma_Ball",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Only explicit CaC eligibility wording establishing a narrower race/gender/form condition can populate race_restriction. Future Warrior usability without such a condition remains null."
+}
