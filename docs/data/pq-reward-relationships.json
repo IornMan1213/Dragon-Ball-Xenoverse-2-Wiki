@@ -6450,6 +6450,38 @@
       "status": "source_backed",
       "source": "canonical Parallel Quest record layer + canonical equipment record layer",
       "notes": "Canonical PQ batch evidence explicitly lists Broly (Full Power Super Saiyan)'s Clothes as an equipment reward for PQ 134; added bidirectional link without asserting drop guarantee/rate."
+    },
+    {
+      "pq": "pq-002",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Flying Nimbus!!",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer",
+      "notes": "Explicitly listed in the canonical PQ2 super_soul_rewards array; exact drop condition remains separate."
+    },
+    {
+      "pq": "pq-006",
+      "relationship": "pq_rewards_super_soul",
+      "target": "You cocky little...!",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer",
+      "notes": "Explicitly listed in the canonical PQ6 super_soul_rewards array; exact drop condition remains separate."
+    },
+    {
+      "pq": "pq-164",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This place Will be your grave!",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer",
+      "notes": "Explicitly listed in the canonical PQ164 super_soul_rewards array; exact drop condition remains separate."
+    },
+    {
+      "pq": "pq-176",
+      "relationship": "pq_rewards_super_soul",
+      "target": "God of Destruction's Might",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer",
+      "notes": "Explicitly listed in the canonical PQ176 super_soul_rewards array; exact drop condition remains separate."
     }
   ],
   "normalization_rules": [
@@ -6468,14 +6500,14 @@
   "current_counts": {
     "pq_rewards_equipment": 144,
     "pq_rewards_skill": 249,
-    "pq_rewards_super_soul": 135,
+    "pq_rewards_super_soul": 139,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 870,
-    "total_relationships": 870
+    "total": 874,
+    "total_relationships": 874
   },
-  "last_reconciled_scope": "PQ record-layer equipment identity reconciliation; explicit name/ID records promoted where canonical equipment identity resolved.",
+  "last_reconciled_scope": "PQ canonical record-layer Super Soul reconciliation; explicit super_soul_rewards names promoted where absent.",
   "notes": [
     "2",
     "0",
