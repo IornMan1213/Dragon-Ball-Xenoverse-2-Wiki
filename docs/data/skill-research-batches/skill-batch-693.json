@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": "skill-batch-693",
+  "domain": "pq-equipment",
+  "gathered": "2026-09-29",
+  "status": "completed",
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "scope": "PQ51-PQ63 explicit equipment reward reconciliation",
+  "findings": [
+    {
+      "pq": 51,
+      "target": "Great Saiyaman Bandana 1",
+      "status": "promoted_to_canonical_forward_relationship_layer"
+    },
+    {
+      "pq": 53,
+      "target": "Great Saiyaman Bandana 2",
+      "status": "promoted_to_canonical_forward_relationship_layer"
+    },
+    {
+      "pq": 56,
+      "target": "Videl T-Shirt",
+      "status": "promoted_to_canonical_forward_relationship_layer"
+    },
+    {
+      "pq": 57,
+      "target": "Gogeta's Clothes",
+      "status": "promoted_to_canonical_forward_relationship_layer"
+    }
+  ],
+  "evidence_boundary": "The source explicitly lists these equipment rewards. This batch does not infer reward slot, drop probability, Ultimate Finish requirements, or canonical inventory IDs.",
+  "canonical_source_of_truth": "docs/data/pq-reward-relationships.json"
+}
