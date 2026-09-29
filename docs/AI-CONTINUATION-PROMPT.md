@@ -6992,3 +6992,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [ ] Exact canonical IDs for these five remain unresolved and require structured repository/game-data evidence before promotion.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** resolve these five canonical identities if structured evidence exposes them; otherwise continue to the next unresolved acquisition/mechanics frontier without inventing IDs.
+
+
+### 2026-09-29 continuation — Expert Mission acquisition reconciliation batch 600
+- [x] Consolidated current-numbering **EM03-20** skill acquisition evidence into `docs/data/skill-research-batches/skill-batch-600.json`.
+- [x] Covered **18 skill↔Expert Mission associations** from Murder Grenade through Data Input.
+- [x] Normalized historical guides that omit the two tutorial missions without silently treating their numbering as current.
+- [x] Preserved exact drop-rate and guarantee conditions as unresolved; no numerical farming rate or guaranteed reward was invented.
+- [x] Registered Batch 600 in the PQ cross-domain index and synchronized the skill acquisition index/catalog audit.
+- [x] No canonical `skills.json` records or PQ reward relationships were mutated.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** strengthen the 18 EM03-20 acquisition routes with direct current-version reward-condition evidence, then continue the next thin acquisition/mechanics frontier.
