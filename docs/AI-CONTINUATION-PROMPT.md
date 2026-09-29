@@ -7684,3 +7684,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all five `race_restriction` values as null; no explicit narrower retail CaC race/gender/form restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-664.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Post-corruption rebuild verified; recovery-forward frontier reset
+- [x] Re-read the live recovery state after the recent corruption/rebuild cycle and confirmed the canonical working baseline is **549 skills / 549 synchronized skill-index records / 862 canonical PQ reward relationships**.
+- [x] Confirmed the six PQ relationship counts on live main: **249 skills, 135 Super Souls, 136 equipment, 247 characters, 88 DLC, 7 farming**; duplicate relationship keys remain 0 and orphan skill targets remain 0.
+- [x] Confirmed the canonical recovery boundary remains intact: current canonical data was not reconstructed from verified/index/projection layers.
+- [x] Reconciled the remaining PQ1 typed-reward anomaly against the current Xenoverse 2 PQ1 source: PQ1 lists only 120 Zeni and Energy Capsule S, so the absence of typed skill/Super Soul/equipment edges is intentional rather than a missing-record assumption.
+- [x] Confirmed the PQ equipment endpoint layer is now complete at **123/123 identity matches** for 125 canonical edges; remaining accessory records are component-identity research leads, not endpoint gaps.
+- [x] Added `docs/data/post-corruption-continuation-audit-2026-09-29.json` as the new recovery-forward checkpoint.
+- [ ] Runtime/CI/build remains intentionally unverified/non-blocking.
+- [ ] **Exact next:** continue substantive enrichment from the recovered baseline: fresh race-restriction evidence, older DLC/free-update provenance, and bidirectional PQ↔skill/Super Soul/equipment enrichment; only promote accessory component identities when inventory-level evidence establishes an exact canonical item.
