@@ -13,9 +13,9 @@
     "skill": 249,
     "super_soul": 135,
     "equipment": 136,
-    "character": 0,
-    "dlc": 0,
-    "farming": 0
+    "character": 247,
+    "dlc": 88,
+    "farming": 7
   },
   "reconstruction_policy": "Never rebuild canonical skills.json from index, verified layers, reverse indexes, or projections.",
   "batch_683": {
