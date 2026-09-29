@@ -1,0 +1,73 @@
+{
+  "batch_id": 652,
+  "date": "2026-09-29",
+  "status": "complete_no_reclassification",
+  "research_scope": "Fresh direct-source race-restriction audit for six canonical skills retaining null race_restriction: Blades of Judgement, Burst Attack, Circle Flash, Cross Arm Dive, Crusher Volcano, Destructive Ray.",
+  "canonical_authority": "docs/data/skills.json",
+  "verification_policy": "Do not infer a CaC race restriction from character ownership, notable-user fields, DLC grouping, shop availability, or a Future Warrior acquisition route. Populate race_restriction only when direct evidence establishes a narrower CaC race/gender/form rule.",
+  "records": [
+    {
+      "name": "Blades of Judgement",
+      "race_restriction": null,
+      "evidence": "Exact skill page identifies Fused Zamasu as notable user and PQ112 as unlock, while the broader technique reference says the Future Warrior can obtain it. These facts establish acquisition/character association, not a CaC race or gender restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blades_of_Judgement",
+        "https://dragonball.fandom.com/wiki/Blades_of_Judgement"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Burst Attack",
+      "race_restriction": null,
+      "evidence": "Exact skill page identifies Nuova Shenron as notable user and Shenron wish as acquisition. The broader technique reference says the Future Warrior can obtain Burst Attack. No reviewed source states a CaC race/gender/form lock.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Burst_Attack",
+        "https://dragonball.fandom.com/wiki/Nova_Star"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Circle Flash",
+      "race_restriction": null,
+      "evidence": "Exact skill page identifies Dyspo as notable user and PQ154 as unlock. The technique reference identifies it as a Dyspo technique available in Xenoverse 2. A build tip mentioning Saiyan Male is not an eligibility restriction and was not treated as one.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Circle_Flash",
+        "https://dragonball.fandom.com/wiki/Circle_Flash"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Cross Arm Dive",
+      "race_restriction": null,
+      "evidence": "Exact skill page explicitly states 'Usable by: All races'. This supports unrestricted CaC race eligibility and therefore does not justify a non-null race restriction. The broader reference also describes it as a Future Warrior skill obtained from the Skill Shop.",
+      "sources": [
+        "https://dbxenoverse.fandom.com/wiki/Cross_Arm_Dive_%28Skill%29",
+        "https://dbxv2.fandom.com/wiki/Cross_Arm_Dive",
+        "https://dragonball.fandom.com/wiki/Cross_Arm_Dive"
+      ],
+      "conclusion": "preserve_null",
+      "explicit_all_races": true
+    },
+    {
+      "name": "Crusher Volcano",
+      "race_restriction": null,
+      "evidence": "Exact skill page identifies Jeice as notable user and Skill Shop as unlock. The broader technique reference states that the Future Warrior can learn it from the Skill Shop. No reviewed source establishes a CaC race/gender/form lock.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Crusher_Volcano",
+        "https://dragonball.fandom.com/wiki/Crusher_Volcano"
+      ],
+      "conclusion": "preserve_null"
+    },
+    {
+      "name": "Destructive Ray",
+      "race_restriction": null,
+      "evidence": "The broader technique reference identifies Destructive Ray as Cooler's version and states that the Future Warrior can purchase it from the Skill Shop after the relevant main-story progression; no reviewed source establishes a CaC race/gender/form lock.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Darkness_Eye_Beam"
+      ],
+      "conclusion": "preserve_null"
+    }
+  ],
+  "result": "All six reviewed records remain race_restriction=null. Cross Arm Dive has explicit all-races evidence; the other five remain null because reviewed evidence does not establish a narrower CaC eligibility rule.",
+  "next": "Continue exact evidence across the remaining null race-restriction cohort; do not promote character association or generic CaC usability into a race restriction."
+}
