@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 648,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Review four null race_restriction records with exact character/PQ evidence.",
+  "records": [
+    {
+      "id": "skill-full-power-destruction",
+      "name": "Full Power Destruction",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Sources identify the skill as a Jiren/Broly-associated skill obtainable/used in Xenoverse 2, but do not establish a CaC race or gender restriction."
+    },
+    {
+      "id": "skill-gigantic-cross",
+      "name": "Gigantic Cross",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Sources identify the skill as a Jiren/Broly-associated skill obtainable/used in Xenoverse 2, but do not establish a CaC race or gender restriction."
+    },
+    {
+      "id": "skill-gigantic-nova",
+      "name": "Gigantic Nova",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Sources identify the skill as a Jiren/Broly-associated skill obtainable/used in Xenoverse 2, but do not establish a CaC race or gender restriction."
+    },
+    {
+      "id": "skill-saiyan-blaster",
+      "name": "Saiyan Blaster",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Sources identify the skill as a Jiren/Broly-associated skill obtainable/used in Xenoverse 2, but do not establish a CaC race or gender restriction."
+    }
+  ],
+  "sources": [
+    {
+      "skill": "Full Power Destruction",
+      "finding": "Jiren (Full Power) Ultra Supervillain uses Full Power Destruction; PQ177 documentation lists it as a reward. This establishes association/obtainability, not a CaC race lock.",
+      "ref": "turn0search3"
+    },
+    {
+      "skill": "Gigantic Cross",
+      "finding": "PQ reward/skill context does not establish a CaC race restriction; no mutation justified from character association alone.",
+      "ref": "turn0search4"
+    },
+    {
+      "skill": "Gigantic Nova",
+      "finding": "Broly (DB Super) is documented with Gigantic Nova; character association does not establish a CaC race restriction.",
+      "ref": "turn0search10"
+    },
+    {
+      "skill": "Saiyan Blaster",
+      "finding": "Broly (DB Super) uses Saiyan Blaster, but the exact evidence does not establish that CaCs must be Saiyan to equip it.",
+      "ref": "turn0search10"
+    }
+  ],
+  "validation": {
+    "records_reviewed": 4,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 4
+  },
+  "boundary": "Character/race association is not treated as an equip restriction. Preserve null absent explicit CaC race/gender wording.",
+  "next": "Continue exact-skill research through remaining null records; only mutate canonical race_restriction when explicit restriction evidence is found."
+}
