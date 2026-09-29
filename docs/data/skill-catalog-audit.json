@@ -1312,5 +1312,14 @@
     ],
     "alignment_confirmed": 3,
     "rule": "When acquisition and actual usability have the same race requirement, preserve the existing race restriction and record the alignment rather than inventing a separate acquisition exception."
+  },
+  "awoken_scope_batch_674": {
+    "reviewed": [
+      "Ultra Instinct -Sign-"
+    ],
+    "classification": "cast_only_current_retail_form",
+    "cac_awoken": false,
+    "reason": "Current retail Awoken references distinguish the universal CaC Ultra Instinct Awoken Skill from Goku's Ultra Instinct -Sign- form; mod implementations are not retail canonical data.",
+    "canonical_mutation": 0
   }
 }
