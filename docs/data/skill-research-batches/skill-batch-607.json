@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 607,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Fresh direct-source race-restriction audit for six earlier PQ skills retaining null race_restriction.",
+  "records": [
+    {
+      "name": "Divine Wrath: Purification",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ112 acquisition and Fused Zamasu as source; reviewed skill references do not establish a narrower CaC race/gender/form restriction."
+    },
+    {
+      "name": "Super Ghost Buu Attack",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ113 acquisition and Majin Buu (Gohan Absorbed) as source; reviewed skill references do not establish a narrower CaC race/gender/form restriction."
+    },
+    {
+      "name": "Candy Beam (Super)",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ113 acquisition; reviewed skill references identify the technique but do not establish a narrower CaC race/gender/form restriction."
+    },
+    {
+      "name": "Petrifying Spit",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ114 acquisition and Dabura as source; reviewed references do not establish a narrower CaC race/gender/form restriction."
+    },
+    {
+      "name": "Evil Blast",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ114 acquisition and Dabura as source; reviewed references do not establish a narrower CaC race/gender/form restriction."
+    },
+    {
+      "name": "Handy Canon",
+      "race_restriction_result": null,
+      "evidence": "Current repository record identifies PQ115 acquisition and Android 13 as source; reviewed references do not establish a narrower CaC race/gender/form restriction."
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Divine_Wrath%3A_Purification",
+    "https://dbxv2.fandom.com/wiki/Super_Ghost_Buu_Attack",
+    "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Super%29",
+    "https://dbxv2.fandom.com/wiki/Petrifying_Spit",
+    "https://dbxv2.fandom.com/wiki/Evil_Blast",
+    "https://dbxv2.fandom.com/wiki/Handy_Canon",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "NPC ownership and CaC usability do not prove unrestricted all-race eligibility; preserve null without direct race/gender/form evidence.",
+  "next": "Continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating already audited records."
+}
