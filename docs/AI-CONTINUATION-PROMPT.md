@@ -7948,3 +7948,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical `skills.json` or canonical identity records were mutated.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** expand the forward PQ reward graph—especially Super Souls and clothing/accessory rewards—then regenerate reverse indexes so they become progressively exhaustive.
+
+
+### 2026-09-29 continuation — Batch 692: PQ reverse navigation index
+- [x] Added `docs/data/pq-cross-domain-reverse-index.json`, generated from `pq-reward-relationships.json`'s current source-backed normalized edges.
+- [x] Reverse indexes now expose current `Skill -> PQs`, `Super Soul -> PQs`, `Equipment -> PQs`, `Character -> PQs`, `DLC -> PQs`, and farming targets.
+- [x] Preserved the distinction between **edge counts** and **unique reverse targets**; the reverse index is explicitly partial and absence is not treated as a negative claim.
+- [x] Current forward relationship baseline remains 863 edges: 249 skill, 135 Super Soul, 137 equipment, 247 character, 88 DLC, 7 farming.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: expand source-backed reward coverage, prioritizing Super Souls/equipment, then link reverse targets to canonical records.
