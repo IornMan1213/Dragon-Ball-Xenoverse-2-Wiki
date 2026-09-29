@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "audit_date": "2026-09-29",
-  "purpose": "Post-corruption recovery-forward continuation checkpoint. Confirms the rebuilt canonical working baseline from live main and reconciles the remaining PQ1 typed-reward anomaly before further enrichment.",
+  "purpose": "Post-corruption recovery-forward continuation checkpoint; live canonical forward relationship baseline updated through batches 695-697 and unresolved accessory identity boundary re-audited.",
   "source_of_truth": {
     "skills": "docs/data/skills.json",
     "pq_rewards": "docs/data/pq-reward-relationships.json",
@@ -10,11 +10,11 @@
   "live_main_working_baseline": {
     "canonical_skills": 549,
     "skills_index": 549,
-    "pq_reward_relationships": 870,
+    "pq_reward_relationships": 877,
     "pq_reward_counts": {
       "skill": 249,
-      "super_soul": 135,
-      "equipment": 144,
+      "super_soul": 139,
+      "equipment": 147,
       "character": 247,
       "dlc": 88,
       "farming": 7
@@ -43,7 +43,7 @@
     "canonical_edges": 125,
     "unique_targets": 123,
     "endpoint_identity_matches": 123,
-    "endpoint_identity_gaps": 0,
+    "endpoint_identity_gaps": 7,
     "unresolved_component_identities": [
       "Great Saiyaman Bandana 1",
       "Great Saiyaman Bandana 2",
@@ -59,8 +59,8 @@
     "Continue exact per-skill race_restriction evidence for the remaining null CaC cohort; preserve null when direct evidence is insufficient.",
     "Continue older DLC/free-update provenance with explicit named-skill/count evidence.",
     "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment after recovery, using canonical forward data as the source of truth.",
-    "Resolve only explicit accessory component identities; do not merge set components or wigs without inventory-level evidence.",
-    "Freshly audit canonical PQ equipment_rewards object IDs against equipment-record-layer identities before each new promotion batch."
+    "Reconcile the seven remaining accessory identity gaps only when inventory-level evidence establishes an exact canonical identity; preserve Yamcha's Sword route conflict and generic component labels.",
+    "Freshly audit canonical PQ equipment_rewards object IDs and canonical equipment pq_links before each promotion batch."
   ],
   "validation_boundary": {
     "runtime_ci_build": "unverified_non_blocking",
@@ -89,5 +89,29 @@
     "post_total": 870,
     "post_equipment_edges": 144,
     "evidence_boundary": "No drop probability, Ultimate Finish condition, or inventory identity was inferred."
+  },
+  "batch_695": {
+    "batch": "PQ canonical Super Soul reconciliation",
+    "added_edges": 4,
+    "post_total": 874,
+    "post_super_soul_edges": 139
+  },
+  "batch_696": {
+    "batch": "PQ reverse-index reconciliation",
+    "post_total": 874,
+    "edge_counts": {
+      "pq_rewards_equipment": 144,
+      "pq_rewards_skill": 249,
+      "pq_rewards_super_soul": 139,
+      "pq_features_character": 247,
+      "pq_requires_dlc": 88,
+      "pq_farming_route": 7
+    }
+  },
+  "batch_697": {
+    "batch": "Equipment-record PQ-link reconciliation",
+    "added_edges": 3,
+    "post_total": 877,
+    "post_equipment_edges": 147
   }
 }
