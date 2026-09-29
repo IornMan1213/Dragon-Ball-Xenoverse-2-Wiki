@@ -7160,3 +7160,18 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated docs/data/skill-catalog-audit.json with Batch 617 and current 514/514 parity.
 - [ ] The indexed-only unresolved-count field remains marked stale/pending a full census; no unsupported unresolved-count reduction was invented.
 - [ ] Continue historical missing CaC Ki Blast Super reconciliation, prioritizing explicit usable_by_cac=true records and excluding cast-only/special-mode identities.
+
+
+### 2026-09-29 continuation — Canonical recovery Batches 614–618 live-state reconciliation
+- [x] The earlier Batch 614 write is now confirmed applied in the live repository; its five records are part of the canonical store.
+- [x] Batch 615 restored eight explicit CaC-usable Ki Blast Supers from historical batches 260, 262, and 263: Destructive Ray, Senko Ki Blast, Thunder Eraser, III Flash, III Bomber, III Rain, Super Ghost Kamikaze Attack (Super), Split Finger Shot.
+- [x] Batch 616 restored Infinity Explosion from historical batch 265; acquisition remains null because the recovered evidence did not establish a safe current unlock route.
+- [x] Batch 617 reconciled historical batches 247, 251, 253, and 255 and brought canonical/index parity to 514/514, including Photon Swipe, Gamma Blaster, Saturday Crash, Consecutive Energy Blast, Super Destructo-Disc, Earth Splitting Galick Gun, Double Sunday, Full Power Energy Blast Volley, Super Volley, Flash Chaser, Die Die Missile Barrage, Paralyze Beam, Turtle Style Last Resort.
+- [x] Batch 618 restored Light Grenade (Super) from historical batch 274. Evidence explicitly marks it CaC-usable, identifies Piccolo training as acquisition, and distinguishes it from Light Grenade (Ultimate).
+- [x] Rebuilt/synchronized docs/data/skills-index.json; live validation is 515 canonical / 515 index records with name parity.
+- [x] Updated docs/data/skill-catalog-audit.json with Batch 618 and the live 515-record state.
+- [x] Added docs/data/skill-research-batches/skill-batch-618.json as the persistent recovery manifest.
+- [x] Preserved the Kamekameha/Kamehameha boundary: historical research proves Kamekameha as a CaC-usable research identity, but maintained PQ reconciliation explicitly treats it as a spelling/transcription variant of canonical Kamehameha, so no duplicate canonical skill is created.
+- [x] Preserved cast-only/special-mode boundaries and did not promote records solely because they appeared in category indexes.
+- [ ] Runtime/CI remains non-blocking/unverified because GitHub Actions diagnostics are unavailable through the connected API.
+- [ ] Exact next: continue historical indexed-only CaC-usable Ki Blast Super reconciliation beyond batch 274, using exact repository/game-data identity evidence; do not infer canonical IDs or promote aliases, cast-only records, festival/special-mode variants, or unresolved identities.
