@@ -7081,3 +7081,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Catalog audit updated.
 - [ ] Promote to canonical skills data only after successful synchronization.
 - [ ] Continue remaining null race-restriction evidence frontier.
+
+
+### 2026-09-29 continuation — Race restriction Batch 668
+- [x] Added five-record null-preservation/evidence-triage batch.
+- [x] No unsupported Universal classifications introduced.
+- [ ] Continue skill-specific race-restriction research across the remaining null cohort.
