@@ -7331,3 +7331,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reverse index explicitly declares absence is not a negative claim.
 - [ ] Runtime/CI remains intentionally unverified because failing job-step logs are unavailable through connected GitHub diagnostics.
 - [ ] Exact next: expand source-backed reverse coverage/canonical target links, then reconcile reward-slot and Ultimate Finish conflicts.
+
+
+### 2026-09-29 continuation — Batch 693: PQ51-63 equipment recovery-forward enrichment
+- [x] Added four explicit source-backed equipment relationships: PQ51 → Great Saiyaman Bandana 1; PQ53 → Great Saiyaman Bandana 2; PQ56 → Videl T-Shirt; PQ57 → Gogeta's Clothes.
+- [x] Rebuilt the PQ reverse equipment projection from the canonical forward relationship store.
+- [x] Recomputed relationship counts instead of trusting stale persisted totals: 141 equipment edges / 867 total edges.
+- [x] Preserved unresolved canonical inventory identity and reward-condition boundaries.
+- [ ] Runtime/CI remains intentionally unverified.
+- [ ] **Next:** continue fresh evidence-backed PQ equipment/Super Soul enrichment in ranges not already reconciled; then resolve exact canonical equipment identities where evidence permits.
