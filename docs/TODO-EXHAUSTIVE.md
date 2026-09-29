@@ -7264,3 +7264,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill/accessory mutation was made.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** resolve the remaining accessory identities only when explicit canonical inventory mappings exist; otherwise preserve evidence-backed unresolved states, then continue mechanics and bidirectional PQ reward completeness.
+
+
+### 2026-09-29 continuation — Batch 691: canonical accessory resolution + PQ cross-link
+- [x] Resolved **Tapion's Sword → acc-027**, **Yamcha's Sword → acc-028**, and **Goku Wig (Super Saiyan) → acc-012** using exact canonical accessory identities already present in `equipment-accessories-record-layer.json`.
+- [x] Preserved historical acquisition-route conflicts rather than overwriting them; in particular, the Yamcha's Sword and Goku Wig (Super Saiyan) PQ evidence remains separately documented.
+- [x] Added the missing special-route `pq-022 → Tapion's Sword` equipment relationship to `docs/data/pq-reward-relationships.json`; this is a source-backed special NPC acquisition route, not a normal reward-table drop.
+- [x] PQ relationship baseline advanced from 862 to 863 total edges, with equipment edges from 136 to 137.
+- [x] No external numeric accessory ID was imported into the canonical identity layer.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue remaining unresolved accessory routes/components only where exact canonical evidence exists; otherwise return to exhaustive PQ reward and mechanics/cross-database enrichment.
