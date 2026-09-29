@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 636,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "canonical_schema_integrity_repair",
+  "scope": "Final indexed-only closure follow-through: repair the four pre-existing canonical required-field gaps.",
+  "source_of_truth": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Armored Boost",
+      "repair": "restored required sources array from existing current-page source field"
+    },
+    {
+      "name": "Miracle Kneel",
+      "repair": "restored required sources array from existing current-page source field"
+    },
+    {
+      "name": "Die Die Missile Barrage",
+      "repair": "added verification_status=partially_verified consistent with its existing direct Xenoverse 2 source and research state"
+    },
+    {
+      "name": "Light Grenade (Super)",
+      "repair": "added verification_status=partially_verified consistent with its existing direct Xenoverse 2 source and research state"
+    }
+  ],
+  "validation": {
+    "canonical_count": 548,
+    "index_count": 548,
+    "identity_keys": 548,
+    "duplicate_identity_groups": 0,
+    "required_field_gaps_after_repair": 0,
+    "canonical_index_count_parity": true,
+    "canonical_index_name_parity": true,
+    "no_speculative_ids_added": true
+  },
+  "note": "The 25 canonical records without an id field were not assigned invented IDs; the schema does not require id, and exact historical IDs were not established for those records."
+}
