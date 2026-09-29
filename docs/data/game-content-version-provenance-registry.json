@@ -305,6 +305,14 @@
       "date": "2017-06-27",
       "url": "https://store.steampowered.com/app/508403",
       "scope": "Publisher DLC listing; explicitly states five new avatar attacks."
+    },
+    {
+      "id": "bn_xv2_launch_2016",
+      "publisher": "Bandai Namco Entertainment America Inc.",
+      "title": "A New Dragon Ball Awaits You in DRAGON BALL XENOVERSE 2",
+      "date": "2016-10-25",
+      "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-launch",
+      "scope": "Official base-game launch provenance: PS4/Xbox One launched in the Americas October 25, 2016; Steam PC followed October 27, 2016 in the launch notice."
     }
   ],
   "events": [
@@ -535,6 +543,15 @@
       ],
       "skill_count": 5,
       "assignment_status": "Five avatar-skill records reconciled against the official five-new-attacks count; character-exclusive moves and the later Sword of Hope update are not automatically assigned to this event."
+    },
+    {
+      "id": "base-game-launch",
+      "kind": "base_game_release",
+      "date": "2016-10-25",
+      "source_ids": [
+        "bn_xv2_launch_2016"
+      ],
+      "assignment_status": "Base-game release provenance established for the initial Americas console launch. Steam PC release is separately documented as October 27, 2016 in the same announcement. No individual skill-to-release mapping is inferred from the launch event."
     }
   ],
   "next_step": "Super Pack 4 decomposition is documented: official store metadata says 5 Additional Skills, while the canonical DLC-labeled cohort contains 8 non-mentor avatar/character skill records plus Sword of Hope. Preserve the five official DLC-skill mappings already established; do not force the remaining records into the DLC event. Next: build evidence-bound race_restriction candidate batches for the 79 null canonical records.",
