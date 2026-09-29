@@ -7313,3 +7313,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill/PQ source mutation was made.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** use the reverse index for bidirectional coverage audits, then expand missing source-backed Super Soul/equipment edges and resolve reward-slot/Ultimate Finish conflicts.
+
+
+### 2026-09-29 continuation — Batch 692: PQ reverse-index regeneration
+- [x] Regenerated `docs/data/pq-cross-domain-reverse-index.json` directly from `pq-reward-relationships.json`'s normalized source-backed edges.
+- [x] Current reverse-index coverage: 244 skills, 133 Super Souls, 134 equipment, 75 characters, 21 DLC targets, and 1 farming target across 863 normalized edges.
+- [x] Preserved the distinction between relationship-edge counts and unique reverse-index targets; no absent target is treated as a negative claim.
+- [x] No canonical skill database reconstruction or mutation was performed.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Next:** expand missing Super Soul and clothing/accessory reward edges, then reconcile reverse-index coverage against canonical domains.
