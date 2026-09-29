@@ -7771,3 +7771,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added Awoken Batch 673 documenting acquisition/use alignment for Super Saiyan, Super Vegeta, and Future Super Saiyan.
 - [x] Confirmed all three remain Saiyan-only for both acquisition and actual usability in the maintained provenance model.
 - [ ] Continue auditing remaining Awoken entries for genuine acquisition/use divergence; do not create artificial exceptions where requirements align.
+
+
+### 2026-09-29 continuation — Awoken Batch 674
+- [x] Clarified Ultra Instinct -Sign- as a cast-only/current retail form rather than a retail CaC Awoken Skill.
+- [x] Prevented third-party guide claims from incorrectly classifying Sign as Universal.
+- [x] Kept mod-only CaC implementations outside canonical retail data.
+- [ ] Continue auditing the remaining Awoken scope for cast-only, staged, and genuinely equippable CaC forms.
