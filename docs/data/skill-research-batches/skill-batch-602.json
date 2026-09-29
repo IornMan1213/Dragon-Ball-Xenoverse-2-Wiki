@@ -1,0 +1,164 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 602,
+  "date": "2026-09-29",
+  "type": "expert_mission_acquisition_condition_boundary_reconciliation",
+  "status": "evidence_reconciled_conditions_unresolved",
+  "scope": "EM03-17 second-pass acquisition audit using current repository mission records and acquisition-layer evidence.",
+  "records": [
+    {
+      "skill": "Murder Grenade",
+      "mission": 3,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Super Destructo-Disc",
+      "mission": 4,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Death Wave",
+      "mission": 5,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Supernova",
+      "mission": 6,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Death Meteor",
+      "mission": 7,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Dead End Bullet",
+      "mission": 8,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Assault Rain",
+      "mission": 9,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Hellzone Grenade",
+      "mission": 10,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Super Electric Strike",
+      "mission": 11,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Angry Explosion",
+      "mission": 12,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Dead End Rain",
+      "mission": 13,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Shocking Death Ball",
+      "mission": 14,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Blue Hurricane",
+      "mission": 15,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Super Spirit Bomb",
+      "mission": 16,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    },
+    {
+      "skill": "Spirit Sword",
+      "mission": 17,
+      "route": "Expert Mission reward association",
+      "condition": "unresolved",
+      "drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Association is retained as acquisition evidence; no guaranteed per-clear drop or probability is asserted."
+    }
+  ],
+  "numbering": {
+    "current_catalog": "EM01-02 tutorials; EM03-20 non-tutorial Expert Missions",
+    "historical_guides": "Older guides may start non-tutorial missions at 1; historical numbering is normalized only for cross-reference."
+  },
+  "validation": {
+    "missions": 15,
+    "skill_routes": 15,
+    "numerical_drop_rates_added": 0,
+    "guarantees_added": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0
+  },
+  "sources": [
+    "docs/data/skill-expert-mission-acquisition-early.json",
+    "docs/data/skill-expert-mission-acquisition-reconciliation.json",
+    "docs/Expert-Missions-01-15.md",
+    "docs/Expert-Missions-16-20.md"
+  ],
+  "next": "Acquire direct reward-generation evidence capable of establishing actual conditions/rates; until then keep all 15 routes partially verified."
+}
