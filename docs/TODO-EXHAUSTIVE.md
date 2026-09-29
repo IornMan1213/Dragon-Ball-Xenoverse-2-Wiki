@@ -6302,3 +6302,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill record was created or altered, no PQ relationship changed, and no unsupported game-version/patch value was assigned.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue older free-update/DLC cohorts for directly named canonical skills; preserve unresolved subsets when official sources do not name individual skills, and keep release dates separate from patch/version labels.
+
+
+### 2026-09-29 continuation — August 2020 Free Update 11 skill provenance reconciliation batch 593
+- [x] Reconciled the nine canonical skills named by the maintained Free Update 11 catalog against Bandai Namco's official August 2020 free-update announcement, which states that the update added **9 new fighting techniques** and released on **2020-08-26**.
+- [x] Mapped: Holy Inscription, Kairos Cannon, Temporal Holy Ray, Chaos Wall, Timespace Impact, Godly Chronos Cannon, Soaring Fist, Divine Kamehameha, and Godly Display.
+- [x] Added docs/data/skill-research-batches/skill-batch-593.json and registered the dated free-update-2020-08-26 provenance event plus all nine individual mappings.
+- [x] No canonical skill record or PQ relationship was changed; no game-version/patch value was inferred.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** audit the next older DLC/free-update cohort with a documented skill count and incomplete individual mappings; preserve event-level-only subsets when official sources do not expose individual names.
