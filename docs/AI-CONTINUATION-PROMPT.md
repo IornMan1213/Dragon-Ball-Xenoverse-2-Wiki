@@ -7743,3 +7743,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated the catalog audit.
 - [ ] Canonical promotion remains pending successful skills-sync; do not claim it has occurred.
 - [ ] Continue the remaining null race-restriction cohort using explicit skill-specific evidence.
+
+
+### 2026-09-29 continuation — Race restriction Batch 670
+- [x] Added Batch 670 restoring twelve previously documented Universal/All-CaC race classifications after corruption recovery.
+- [x] Covered Kamehameha, Masenko, Energy Charge, Solar Flare, Afterimage Strike, Rise to Action, Wall of Defense, Destructo-Disc, Galick Gun, Candy Beam (Super), Petrifying Spit, and Kai Kai.
+- [x] Used the historical 2026-09-19 race census plus the dedicated Future Warrior technique reference; no verification-status field was treated as source of truth.
+- [x] Updated the catalog audit.
+- [ ] Canonical promotion remains pending successful skills-sync.
