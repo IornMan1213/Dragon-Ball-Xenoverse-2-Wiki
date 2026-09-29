@@ -7278,3 +7278,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-629.json` documenting the boundary decisions.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** resolve the remaining 30 identities using explicit `usable_by_cac=true` evidence or exact current-game identity evidence; preserve unresolved/cast-only boundaries.
+
+
+### 2026-09-29 continuation — Indexed-only boundary reconciliation batch 630
+- [x] Applied historical research evidence to five additional cast-only identities: **Dragon Flash Bullet**, **Freezing Beam**, **Ice Field**, **Whirlwind Blade**, and **High Tension Turn**.
+- [x] Confirmed **Super Front Jump** as CaC-usable from the existing research record; it remains a boundary resolution rather than a canonical promotion because the authoritative forward record is still the source of truth.
+- [x] Canonical database remains **548 records**; no unsupported records were added.
+- [x] Reduced the unresolved indexed-only frontier from **30 to 24**.
+- [x] Added `docs/data/skill-research-batches/skill-batch-630.json`.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** resolve the remaining 24 identities using explicit CaC-positive or exact current-game evidence.
