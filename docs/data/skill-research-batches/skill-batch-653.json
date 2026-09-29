@@ -1,0 +1,77 @@
+{
+  "batch_id": 653,
+  "date": "2026-09-29",
+  "status": "complete_no_reclassification",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Exact-skill boundary review of ten remaining null race_restriction CaC-usable records.",
+  "canonical_authority": "docs/data/skills.json",
+  "verification_policy": "Only explicit CaC/Future Warrior eligibility wording establishes a race/gender restriction; character association, mentor, naming, or acquisition route is not sufficient.",
+  "records": [
+    {
+      "name": "Light Grenade (Super)",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Mach Kick",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Peeler Storm",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Power Pole Combo",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Punisher Drive",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Recoome Eraser Gun",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Saiyan Blaster",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Senko Ki Blast",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Serious Bomb",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    },
+    {
+      "name": "Shockwave",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact-skill evidence reviewed for the restriction frontier does not establish a CaC race/gender equip restriction; preserve null rather than infer from character or technique association."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 10,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 10
+  },
+  "next": "Continue remaining null race-restriction records with explicit eligibility wording as the priority."
+}
