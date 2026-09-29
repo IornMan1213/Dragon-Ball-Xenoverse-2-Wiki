@@ -474,6 +474,7 @@
       "Special Beam Blast",
       "Rage Saucer",
       "Brainwash Attack",
+      "Spiral of Condemnation",
       "Spiral of Condemnation"
     ],
     "confirmed_cac_positive_names": [
@@ -486,9 +487,10 @@
       "Soul Punisher",
       "Special Beam Cannon (Ultimate)",
       "Super Black Kamehameha",
+      "Ill Flash",
       "Ill Flash"
     ],
-    "notes": " Batch 634 added explicit CaC-positive evidence from dedicated skill documentation: training/TP Medal Shop acquisition establishes Future Warrior access for the listed skills; Go-Go Gum is explicitly documented as a CaC skill. Ill Flash and Spiral of Condemnation remain unresolved because the retrieved XV2 evidence does not explicitly establish Future Warrior/CaC access. Batch 635 closes the final frontier: Ill Flash has explicit Future Warrior acquisition evidence; Spiral of Condemnation is explicitly unique to Fused Zamasu (Half-Corrupted), with external ID research marking it non-CaC."
+    "notes": " Batch 634 added explicit CaC-positive evidence from dedicated skill documentation: training/TP Medal Shop acquisition establishes Future Warrior access for the listed skills; Go-Go Gum is explicitly documented as a CaC skill. Ill Flash and Spiral of Condemnation remain unresolved because the retrieved XV2 evidence does not explicitly establish Future Warrior/CaC access. Batch 635 closes the final frontier: Ill Flash has explicit Future Warrior acquisition evidence; Spiral of Condemnation is explicitly unique to Fused Zamasu (Half-Corrupted), with external ID research marking it non-CaC. Batch 635 closed the final frontier: Ill Flash is explicitly obtainable by the Future Warrior from the Skill Shop; Spiral of Condemnation is explicitly exclusive to Fused Zamasu (Half-Corrupted) and listed as unavailable to CaC in repository-supported external evidence. No canonical promotion was made because Ill Flash lacks an exact historical canonical ID in the repository."
   },
   "recovery_batch_615": {
     "restored": [
@@ -864,18 +866,31 @@
     "date": "2026-09-29",
     "canonical_records_unchanged": 548,
     "canonical_mutations": 0,
-    "frontier_closed": true,
-    "positive": [
+    "confirmed_cac_positive": [
       "Ill Flash"
     ],
-    "negative": [
+    "confirmed_unavailable": [
       "Spiral of Condemnation"
     ],
-    "sources": [
-      "https://dragonball.fandom.com/wiki/Ill_Flash",
-      "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_(Xenoverse_2)",
-      "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation",
-      "https://dbxv2.fandom.com/wiki/Characters"
+    "remaining_indexed_only": 0,
+    "evidence": [
+      {
+        "name": "Ill Flash",
+        "finding": "Future Warrior can obtain it from the Skill Shop in Xenoverse 2.",
+        "sources": [
+          "https://dragonball.fandom.com/wiki/Ill_Flash",
+          "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+        ]
+      },
+      {
+        "name": "Spiral of Condemnation",
+        "finding": "Dedicated Xenoverse 2 documentation identifies it as unique to Fused Zamasu (Half-Corrupted); character documentation lists that character as unavailable for customization, and independent CaC-unobtainable research explicitly lists Spiral of Condemnation.",
+        "sources": [
+          "https://dbxv2.fandom.com/wiki/Spiral_of_Condemnation",
+          "https://dbxv2.fandom.com/wiki/Fused_Zamasu_%28Half-Corrupted%29",
+          "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79567595"
+        ]
+      }
     ]
   }
 }
