@@ -6842,3 +6842,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-585.json`.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] Exact next: continue Chapter 4 mechanics enrichment and separately audit Free Update 20 Festival recovery evidence.
+
+
+### 2026-09-28 continuation — Chapter 4 mechanics reconciliation batch 586
+- [x] Refreshed evidence for all four Future Saga Chapter 4 moves against current official DLC scope and current item-level/player evidence.
+- [x] Preserved bounded mechanics for The Power to Overcome, Indomitable, Venus Fist, and Dragon Spiral without inventing exact frames, scaling, cooldowns, or probabilities.
+- [x] Confirmed 4 Chapter 4 move records, 0 new Skill→PQ edges, 0 unsupported drop-rate claims, and 0 version/patch assignments.
+- [x] Added `docs/data/skill-research-batches/skill-batch-586.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: audit Free Update 20 Festival recovery identities against the canonical catalog and exact historical structured evidence.
