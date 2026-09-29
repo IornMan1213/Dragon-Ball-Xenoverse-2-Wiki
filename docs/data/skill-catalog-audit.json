@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 652,
+  "latest_research_batch": 653,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier: Batch 652 reviewed six null-race records; all six remain null, with Cross Arm Dive explicitly documented as usable by all races. Continue exact evidence across remaining null records.",
+  "current_research_focus": "Race restriction frontier: Batch 653 reviewed ten additional null-race CaC-usable records; all ten remain null. Continue exact eligibility evidence.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1063,6 +1063,19 @@
     "batch_652_reclassified": 0,
     "batch_652_explicit_all_races": [
       "Cross Arm Dive"
-    ]
+    ],
+    "batch_653_reviewed": [
+      "Light Grenade (Super)",
+      "Mach Kick",
+      "Peeler Storm",
+      "Power Pole Combo",
+      "Punisher Drive",
+      "Recoome Eraser Gun",
+      "Saiyan Blaster",
+      "Senko Ki Blast",
+      "Serious Bomb",
+      "Shockwave"
+    ],
+    "batch_653_reclassified": 0
   }
 }
