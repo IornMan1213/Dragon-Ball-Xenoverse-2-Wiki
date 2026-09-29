@@ -7797,7 +7797,7 @@
       "verification_status": "partially_verified",
       "research_status": "enriched",
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "ki_cost": 100,
       "stamina_cost": null,
       "dlc_requirement": null,
@@ -7808,7 +7808,8 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Pole",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74998319",
-        "https://steamcommunity.com/app/454650/discussions/0/142261352650110246/"
+        "https://steamcommunity.com/app/454650/discussions/0/142261352650110246/",
+        "https://dragonball.fandom.com/wiki/B%C5%8Djutsu"
       ]
     },
     {
@@ -7818,7 +7819,7 @@
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "ki_cost": 100,
       "stamina_cost": null,
       "dlc_requirement": "Base Game",
@@ -7830,7 +7831,8 @@
         "https://dbxv2.fandom.com/wiki/Power_Pole_Combo",
         "https://dragonball.fandom.com/wiki/Power_Pole",
         "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
-        "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9nrrjxr84xt0"
+        "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9nrrjxr84xt0",
+        "https://dragonball.fandom.com/wiki/B%C5%8Djutsu"
       ]
     },
     {

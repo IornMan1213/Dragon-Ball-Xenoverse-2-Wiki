@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "purpose": "Record the first direct canonical race-restriction promotion after the post-corruption rebuild checkpoint.",
+  "canonical_source": "docs/data/skills.json",
+  "canonical_record_count_before": 549,
+  "canonical_record_count_after": 549,
+  "promoted_records": [
+    {
+      "name": "Power Pole",
+      "previous_race_restriction": null,
+      "canonical_race_restriction": "All CaC races",
+      "evidence_source": "https://dragonball.fandom.com/wiki/B%C5%8Djutsu",
+      "evidence_rule": "Explicit Xenoverse 2 evidence states the Future Warrior can obtain/use the named skill regardless of race."
+    },
+    {
+      "name": "Power Pole Combo",
+      "previous_race_restriction": null,
+      "canonical_race_restriction": "All CaC races",
+      "evidence_source": "https://dragonball.fandom.com/wiki/B%C5%8Djutsu",
+      "evidence_rule": "Explicit Xenoverse 2 evidence states the Future Warrior can obtain/use the named skill regardless of race."
+    }
+  ],
+  "unchanged_universal_records": 17,
+  "notes": [
+    "The canonical dataset was edited in place; it was not reconstructed from skills-index.json, verified data, or projections.",
+    "The repository's established canonical vocabulary is 'All CaC races'; the research batch's shorthand 'Universal' was normalized to that existing canonical value.",
+    "Record count and skill identities were preserved."
+  ],
+  "next_frontier": "Continue the remaining null race-restriction cohort, then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment."
+}

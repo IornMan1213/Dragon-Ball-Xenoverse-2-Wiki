@@ -7137,3 +7137,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed Crystal Raid/Training villainous access is separate from a normal retail CaC-equippable Awoken Skill.
 - [x] Preserved null race restrictions for unavailable-to-CaC states.
 - [ ] Continue the Awoken scope audit for remaining staged and cast-only forms.
+
+
+### 2026-09-29 continuation — Canonical race-restriction promotion after rebuild
+- [x] Promoted **Power Pole** and **Power Pole Combo** in authoritative `docs/data/skills.json` from null to canonical **`All CaC races`** using explicit unrestricted-race evidence.
+- [x] Updated synchronized `docs/data/skills-index.json`; total remains **549** skill records.
+- [x] Marked Batch 665 as canonically promoted and recorded the `Universal` → `All CaC races` vocabulary normalization.
+- [x] Added `docs/data/race-restriction-promotion-audit-2026-09-29-batch-665.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining null race-restriction cohort with direct skill-specific evidence; do not infer Universal from generic acquisition lists. Then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.

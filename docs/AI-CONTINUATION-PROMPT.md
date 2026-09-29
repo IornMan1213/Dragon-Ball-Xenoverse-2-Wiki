@@ -7791,3 +7791,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the distinction between temporary Crystal Raid/Training CaC villainous states and normal retail equippable Awoken Skills.
 - [x] Kept `race_restriction: null` because unavailable-to-CaC scope is not a race restriction.
 - [ ] Continue auditing remaining Awoken scope for staged, cast-only, and genuinely equippable CaC transformations.
+
+
+### 2026-09-29 continuation — Canonical race-restriction promotion after rebuild
+- [x] Promoted **Power Pole** and **Power Pole Combo** directly in authoritative `docs/data/skills.json` from null to the repository's canonical **`All CaC races`** value using explicit unrestricted-race evidence from the Xenoverse 2 Bōjutsu reference.
+- [x] Updated synchronized `docs/data/skills-index.json` for the same two records; record count remains **549**.
+- [x] Updated Batch 665 status to `canonical_promoted` and recorded the canonical vocabulary normalization from research-layer `Universal` to `All CaC races`.
+- [x] Added `docs/data/race-restriction-promotion-audit-2026-09-29-batch-665.json`.
+- [x] No canonical records were rebuilt from indexes, verified layers, or projections.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining null `race_restriction` cohort with direct skill-specific evidence; preserve null where evidence is insufficient, then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.

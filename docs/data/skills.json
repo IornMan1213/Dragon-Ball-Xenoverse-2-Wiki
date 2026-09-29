@@ -10839,7 +10839,7 @@
       "name": "Power Pole",
       "class": "Super",
       "subcategory": "Strike",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "Goku (GT) / Goku (GT) customizable partner",
       "dlc_requirement": null,
@@ -10856,18 +10856,19 @@
       "pvp_notes": "Long-range straight-line Strike Super with weapon reach and ground-pin synergy; detailed matchup and frame behavior remains version-sensitive.",
       "verification_status": "partially_verified",
       "research_status": "enriched",
-      "last_verified": "2026-09-17",
+      "last_verified": "2026-09-29",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Pole",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74998319",
-        "https://steamcommunity.com/app/454650/discussions/0/142261352650110246/"
+        "https://steamcommunity.com/app/454650/discussions/0/142261352650110246/",
+        "https://dragonball.fandom.com/wiki/B%C5%8Djutsu"
       ]
     },
     {
       "name": "Power Pole Combo",
       "class": "Super",
       "subcategory": "Strike",
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "usable_by_cac": true,
       "character_source": "Goku (GT) / Goku (GT) customizable partner",
       "dlc_requirement": "Base Game",
@@ -10884,12 +10885,13 @@
       "pvp_notes": "Tracking and multi-hit behavior can support combo pressure, but exact matchup/frame behavior is version-sensitive.",
       "verification_status": "verified_current_scope",
       "research_status": "enriched",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-09-29",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Power_Pole_Combo",
         "https://dragonball.fandom.com/wiki/Power_Pole",
         "https://www.nintendo.com/us/store/products/dragon-ball-xenoverse-2-time-patrol-support-pack-70050000057717-switch/",
-        "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9nrrjxr84xt0"
+        "https://www.xbox.com/en-us/games/store/dragon-ball-xenoverse-2-time-patrol-support-pack/9nrrjxr84xt0",
+        "https://dragonball.fandom.com/wiki/B%C5%8Djutsu"
       ],
       "acquisition_type": "skill_shop",
       "notes": "2026-09-23 canonical promotion: dedicated current Xenoverse 2 evidence confirms Power Pole Combo as a distinct Strike Super, separate from Power Pole and Power Pole Pro, with 100 Ki cost, Goku (GT) use, and Skill Shop acquisition. The Support Pack is treated as provenance/early access rather than exclusive ownership.\n2026-09-24 P1 provenance refresh: revalidated the existing acquisition endpoint, classification, cost(s), and bounded mechanics against the maintained repository evidence corpus and current corroborating references; preserved existing uncertainty/conflicts and introduced no unsupported probabilities, gates, timers, damage values, stacking caps, or narrower restrictions.\n2026-09-25 current-evidence provenance refresh: official Nintendo and Xbox Time Patrol Support Pack listings independently name Power Pole Combo among the included Super Attacks, corroborating package provenance without changing the broader Skill Shop acquisition endpoint. Dedicated Xenoverse 2 skill evidence continues to support the 100-Ki Strike Super, seven-hit repeated-input behavior, tracking, and Goku (GT) association. No exclusive-purchase claim, new prerequisite, reward probability, or Ultimate Finish gate is inferred.\n2026-09-27 Batch 524 current-evidence refresh: rechecked the existing Xenoverse 2 identity, classification, acquisition endpoint, and documented mechanics against current corroborating references. Canonical values were retained; unsupported exact frames, hidden conditions, reward probabilities, patch-independent scaling, and unverified numeric values were not inferred.\n2026-09-28 Batch 542 acquisition-field synchronization: current repository evidence reconciles the acquisition endpoint to Skill Shop; DLC classification is bounded to the acquisition route and does not infer cast/preset availability.\n2026-09-28 Batch 548 restriction audit: current repository evidence confirms the Skill Shop acquisition endpoint and Goku (GT)/customizable-partner usage, but does not establish a narrower CaC race/gender/form restriction; race_restriction remains null.",
