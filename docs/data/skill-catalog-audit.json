@@ -41,8 +41,8 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 624,
-  "canonical_catalog_generated": 541,
+  "latest_research_batch": 625,
+  "canonical_catalog_generated": 543,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical indexed-only CaC skill recovery and canonical/index parity",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
@@ -358,9 +358,9 @@
   },
   "indexed_only_reconciliation_2026_09_29": {
     "source_universe": 110,
-    "canonical_records": 541,
-    "resolved_from_source_universe": 44,
-    "remaining_indexed_only": 66,
+    "canonical_records": 543,
+    "resolved_from_source_universe": 46,
+    "remaining_indexed_only": 64,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
@@ -391,6 +391,7 @@
       "Savage Strike",
       "Sonic Kick",
       "Spirit Stab",
+      "Super Drain",
       "Super Mad Dance",
       "Crusher Volcano",
       "Final Shine Attack",
@@ -398,6 +399,7 @@
       "Serious Bomb",
       "Super Vanishing Ball",
       "Vacation Delete",
+      "X100 Big Bang Kamehameha",
       "X20 Kaioken Kamehameha",
       "X4 Kaioken Kamehameha",
       "Sword of Hope",
@@ -439,7 +441,6 @@
       "Rage Saucer",
       "Smile Charge",
       "Super Dragon Flight (Super)",
-      "Super Drain",
       "Energy Jet",
       "Evil Explosion (Ultimate)",
       "Explosive Scream",
@@ -453,7 +454,6 @@
       "Special Beam Cannon (Ultimate)",
       "Super Black Kamehameha",
       "Super Ghost Kamikaze Attack (Ultimate)",
-      "X100 Big Bang Kamehameha",
       "Burning Spin",
       "Burning Strike",
       "Cookie Beam",
@@ -475,8 +475,8 @@
       "The Saviour Has Come",
       "Lovely Showtime"
     ],
-    "method": "Exact case-insensitive comparison against authoritative docs/data/skills.json after recovery batch 624 and duplicate cleanup; indexed/catalog names are evidence only.",
-    "next": "Continue explicit-CaC historical recovery from the remaining indexed-only names; do not promote aliases, cast-only records, festival/special-mode records, or identities without exact evidence."
+    "method": "Exact case-insensitive comparison against authoritative docs/data/skills.json after recovery batches 624-625; indexed/catalog names are evidence only.",
+    "next": "Continue explicit-CaC historical recovery from the remaining indexed-only names; do not promote unresolved or cast-only identities."
   },
   "recovery_batch_615": {
     "restored": [
@@ -671,5 +671,23 @@
     "removed_identity": "Die Die Missile Barrage",
     "retained_identity": "DIE DIE Missile Barrage",
     "reason": "Case-insensitive duplicate canonical identity; richer current-evidence record retained."
+  },
+  "recovery_batch_625": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "previous_canonical_count": 541,
+    "new_canonical_count": 543,
+    "index_records": 543,
+    "restored": [
+      "Super Drain",
+      "X100 Big Bang Kamehameha"
+    ],
+    "source_batches": [
+      17,
+      535
+    ],
+    "canonical_ids_inferred": 0,
+    "pq_relationship_mutations": 0,
+    "boundary": "Aura Slide remains unresolved for CaC usability and was not promoted."
   }
 }
