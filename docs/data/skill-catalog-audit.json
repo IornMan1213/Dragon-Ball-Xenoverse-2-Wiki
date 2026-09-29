@@ -44,7 +44,7 @@
   "latest_research_batch": 692,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Accessory canonical identity and PQ cross-link reconciliation: Batch 691 resolved Tapion's Sword (acc-027), Yamcha's Sword (acc-028), and Goku Wig (Super Saiyan) (acc-012), while preserving historical route conflicts. Added the special PQ22 Tapion's Sword relationship. Continue remaining unresolved accessory/component routes, then resume comprehensive PQ reward and mechanics cross-link enrichment.",
+  "current_research_focus": "PQ cross-domain navigation: added a normalized reverse index generated from current source-backed PQ relationships. Forward relationship baseline is 863 edges; reverse coverage exposes currently populated targets without treating absence as negative evidence. Next: expand source-backed reward coverage, especially Super Souls/equipment, then canonical target linking.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1386,9 +1386,8 @@
     "pq_rewards_equipment": 137
   },
   "pq_reverse_index_batch_692": {
-    "file": "docs/data/pq-cross-domain-reverse-index.json",
-    "source_edges": 863,
-    "unique_targets": {
+    "forward_edges": 863,
+    "reverse_target_counts": {
       "skills": 244,
       "super_souls": 133,
       "equipment": 134,
@@ -1396,6 +1395,6 @@
       "dlc": 21,
       "farming": 1
     },
-    "canonical_mutations": 0
+    "policy": "Partial reverse projection; missing reverse targets are not negative claims."
   }
 }
