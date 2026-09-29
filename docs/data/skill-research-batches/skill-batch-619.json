@@ -2,7 +2,7 @@
   "batch_id": 619,
   "date": "2026-09-29",
   "type": "canonical_recovery",
-  "status": "applied",
+  "status": "rejected_alias",
   "previous_canonical_count": 515,
   "new_canonical_count": 515,
   "index_count": 515,
@@ -16,6 +16,6 @@
   "pq_relationship_mutations": 0,
   "acquisition_route": "null intentionally retained",
   "effect": "null intentionally retained",
-  "reconciliation_note": "Historical Batch 254 explicitly identified Kamekameha as absent from docs/data/skills.json and usable_by_cac=true. The only supplied source was the Super Attack category, so unsupported cost, mechanics, and acquisition were not inferred.",
+  "reconciliation_note": "Not promoted: continuation handoff explicitly records Kamekameha as a spelling/transcription variant of canonical Kamehameha. Preserved as research history only.",
   "next": "Continue historical missing CaC Ki Blast Super reconciliation; preserve spelling aliases and cast-only/special-mode boundaries."
 }
