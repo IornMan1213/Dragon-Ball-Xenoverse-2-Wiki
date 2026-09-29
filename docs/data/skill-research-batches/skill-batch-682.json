@@ -1,0 +1,32 @@
+{
+  "batch_id": 682,
+  "created": "2026-09-29",
+  "type": "race_restriction_direct_evidence",
+  "status": "canonical_promoted",
+  "research_scope": "Turtle Style Last Resort",
+  "records": [
+    {
+      "name": "Turtle Style Last Resort",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "prior_race_restriction": null,
+      "promoted_race_restriction": "All CaC races",
+      "usable_by_cac": true,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Turtle_Style_Last_Resort",
+        "https://dbxenoverse.fandom.com/wiki/Turtle_Style_Last_Resort_%28Skill%29"
+      ],
+      "findings": [
+        "Current Xenoverse 2 reference identifies the skill as a Super Attack used by CaCs and lists Skill Shop acquisition.",
+        "The Xenoverse reference explicitly states 'Usable by: All races'."
+      ],
+      "policy": "Explicit all-races eligibility is sufficient for the canonical All CaC races vocabulary; do not infer from generic Future Warrior technique-list membership alone."
+    }
+  ],
+  "canonical_targets": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "canonical_mutation": "Applied only race_restriction on the exact Turtle Style Last Resort identity; unrelated canonical fields preserved.",
+  "validation": "Canonical/index parity to be checked after mutation."
+}
