@@ -6386,6 +6386,14 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Canonical accessory record acc-056 and accessory/PQ research record pqacc-044 identify Gamma 2's Helmet with PQ155; exact reward/drop condition remains separate."
+    },
+    {
+      "pq": "pq-022",
+      "relationship": "pq_rewards_equipment",
+      "target": "Tapion's Sword",
+      "status": "source_backed",
+      "source": "https://dbxenoverse.fandom.com/wiki/Accessories",
+      "notes": "Canonical accessory identity acc-027. Tapion's Sword is documented as a special PQ22/Trunks acquisition route; it is not a normal reward-table drop."
     }
   ],
   "normalization_rules": [
@@ -6402,15 +6410,16 @@
     "Add reverse indexes: skill -> PQs, Super Soul -> PQs, equipment -> PQs, character -> PQs, DLC -> PQs."
   ],
   "current_counts": {
-    "pq_rewards_equipment": 136,
+    "pq_rewards_equipment": 137,
     "pq_rewards_skill": 249,
     "pq_rewards_super_soul": 135,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 862
+    "total": 862,
+    "total_relationships": 863
   },
-  "last_reconciled_scope": "2026-09-28 PQ48 Kamekameha/Kamehameha typed-skill reward reconciliation",
+  "last_reconciled_scope": "PQ 1-186; Batch 691 added the canonical Tapion's Sword PQ22 equipment relationship and resolved three accessory identities.",
   "notes": [
     "2",
     "0",
