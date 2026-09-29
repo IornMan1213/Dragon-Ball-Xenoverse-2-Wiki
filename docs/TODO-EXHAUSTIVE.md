@@ -6331,3 +6331,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill or PQ relationship mutation; no unsupported version/patch assignment.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue to Extra Pack 1/other early DLC cohorts with explicit skill counts and incomplete individual mappings; preserve event-count boundaries and do not infer missing skills by count/proximity alone.
+
+
+### 2026-09-29 continuation — Original Free Update named skill provenance batch 596
+- [x] Added `docs/data/skill-research-batches/skill-batch-596.json` for the December 20, 2016 free update provenance frontier.
+- [x] Used Bandai Namco's official DLC Pack Preview to directly map the two explicitly named free-update Awoken Skills: **Super Saiyan Blue Kaioken** (Kaioken times 10 for SSGSS Goku) and **Pure Progress** (Hit).
+- [x] Registered the `free-update-2016-12-20` provenance event and both canonical skill mappings in the authoritative game-content provenance registry.
+- [x] Preserved the source boundary: the same announcement separately identifies four unnamed free-update attacks and five first-DLC-Pack attacks; none were inferred into canonical mappings.
+- [x] No `skills.json` mutation, no PQ relationship mutation, and no unsupported game-version/patch assignment.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next older DLC/free-update cohort with explicit official skill names or counts; keep unnamed attack subsets event-scope-only and do not infer identities from proximity or reward ordering.
