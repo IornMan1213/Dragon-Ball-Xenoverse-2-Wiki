@@ -11238,7 +11238,7 @@
       "verification_status": "partially_verified",
       "research_status": "enriched",
       "usable_by_cac": true,
-      "race_restriction": null,
+      "race_restriction": "All CaC races",
       "ki_cost": 100,
       "stamina_cost": 0,
       "dlc_requirement": null,
