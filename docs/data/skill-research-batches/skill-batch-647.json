@@ -1,0 +1,67 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 647,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Exact-skill review of four null race_restriction records.",
+  "records": [
+    {
+      "id": "skill-android-kick",
+      "name": "Android Kick",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact references establish the skill as obtainable by the Future Warrior/CaC, but do not state a race or gender restriction."
+    },
+    {
+      "id": "skill-blaster-stream",
+      "name": "Blaster Stream",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact references establish the skill as obtainable by the Future Warrior/CaC, but do not state a race or gender restriction."
+    },
+    {
+      "id": "skill-chaotic-time-impact",
+      "name": "Chaotic Time Impact",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact references establish the skill as obtainable by the Future Warrior/CaC, but do not state a race or gender restriction."
+    },
+    {
+      "id": "skill-core-breaker",
+      "name": "Core Breaker",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Exact references establish the skill as obtainable by the Future Warrior/CaC, but do not state a race or gender restriction."
+    }
+  ],
+  "sources": [
+    {
+      "skill": "Android Kick",
+      "finding": "Xenoverse 2 reference says it can be obtained by the Future Warrior from the Skill Shop.",
+      "ref": "turn0search0"
+    },
+    {
+      "skill": "Blaster Stream",
+      "finding": "Xenoverse 2 reference says it can be obtained by the Future Warrior from PQ148.",
+      "ref": "turn0search5"
+    },
+    {
+      "skill": "Chaotic Time Impact",
+      "finding": "Xenoverse 2 reference says it can be obtained by the Future Warrior from PQ184.",
+      "ref": "turn0search1"
+    },
+    {
+      "skill": "Core Breaker",
+      "finding": "Xenoverse 2 reference says it can be obtained by the Future Warrior from PQ158.",
+      "ref": "turn0search8"
+    }
+  ],
+  "validation": {
+    "records_reviewed": 4,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 4
+  },
+  "boundary": "Obtainability by the Future Warrior does not itself prove universal race eligibility, but these exact references also provide no explicit race restriction; therefore canonical null is preserved rather than inferred.",
+  "next": "Continue exact per-skill evidence on the remaining null frontier."
+}
