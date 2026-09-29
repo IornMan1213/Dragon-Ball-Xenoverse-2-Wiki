@@ -7466,3 +7466,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Recorded the distinction between CaC/DLC skills and character-specific moves/Sword of Hope so later provenance work does not collapse separate acquisition contexts.
 - [x] No canonical skill records or PQ relationships changed.
 - [ ] Next: begin evidence-bound research for the remaining 79 null race_restriction canonical records, storing candidates/provenance separately before any canonical mutation.
+
+
+### 2026-09-29 continuation — Race restriction evidence frontier batch 643
+- [x] Started the 79-record null `race_restriction` frontier with a conservative evidence pass.
+- [x] Reviewed 20 null records and recorded candidates separately in `docs/data/skill-research-batches/skill-batch-643.json`.
+- [x] Made **0 canonical race-restriction assignments** because category, character association, or PQ acquisition does not by itself prove equip restriction.
+- [x] Preserved the rule that explicit per-skill evidence is required before retiring a null restriction.
+- [ ] Next: research explicit race-exclusive skills individually, then resolve generic skills with sufficient evidence.
