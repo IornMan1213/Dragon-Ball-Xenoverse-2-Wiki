@@ -1,0 +1,85 @@
+{
+  "batch_id": 683,
+  "created": "2026-09-29",
+  "type": "race_restriction_direct_evidence",
+  "status": "completed",
+  "research_scope": [
+    "Turn Retreat",
+    "Ultra Fighting Bomber",
+    "X4 Kaioken Kamehameha",
+    "Super Galick Gun"
+  ],
+  "records": [
+    {
+      "name": "Turn Retreat",
+      "class": "Evasive",
+      "subcategory": "Other",
+      "prior_race_restriction": null,
+      "promoted_race_restriction": null,
+      "usable_by_cac": true,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Turn_Retreat",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "findings": [
+        "Current catalog evidence establishes the skill as a Future Warrior/CaC technique, but the reviewed references do not explicitly state an all-races or narrower race/gender restriction."
+      ],
+      "policy": "Preserve null until explicit retail eligibility wording establishes race/gender/form scope."
+    },
+    {
+      "name": "Ultra Fighting Bomber",
+      "class": "Ultimate",
+      "subcategory": "Strike",
+      "prior_race_restriction": null,
+      "promoted_race_restriction": null,
+      "usable_by_cac": true,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Ultra_Fighting_Bomber",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "findings": [
+        "Future Warrior technique evidence establishes CaC availability, but the reviewed references do not explicitly resolve race/gender/form restriction."
+      ],
+      "policy": "Preserve null until explicit retail eligibility wording establishes race/gender/form scope."
+    },
+    {
+      "name": "X4 Kaioken Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "prior_race_restriction": null,
+      "promoted_race_restriction": null,
+      "usable_by_cac": true,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/X4_Kaioken_Kamehameha",
+        "https://dragonball.fandom.com/wiki/Kaio-ken"
+      ],
+      "findings": [
+        "References establish the Future Warrior can use the Xenoverse 2 skill, but do not provide explicit race/gender/form eligibility for the CaC."
+      ],
+      "policy": "Do not infer Universal from Future Warrior availability; preserve null."
+    },
+    {
+      "name": "Super Galick Gun",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "prior_race_restriction": null,
+      "promoted_race_restriction": null,
+      "usable_by_cac": true,
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Galick_Gun",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "findings": [
+        "Future Warrior technique evidence establishes availability, while the reviewed references do not explicitly resolve CaC race/gender/form scope."
+      ],
+      "policy": "Preserve null until direct retail eligibility wording is found."
+    }
+  ],
+  "canonical_targets": [
+    "docs/data/skills.json",
+    "docs/data/skills-index.json"
+  ],
+  "canonical_mutation": "None; all four remain race_restriction null.",
+  "source_of_truth": "docs/data/skills.json",
+  "boundary": "Generic Future Warrior technique-list membership or CaC availability is not sufficient to promote All CaC races."
+}
