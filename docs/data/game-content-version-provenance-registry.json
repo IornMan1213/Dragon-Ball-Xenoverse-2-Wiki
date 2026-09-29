@@ -1159,6 +1159,5 @@
       "note": "Named event skill recovered from Festival catalog/event evidence; canonical skills.json currently lacks a matching record, so no canonical ID or direct skill mapping is invented."
     }
   ],
-  "last_updated": "2026-09-29",
-  "_batch_594_note": "Batch 594"
+  "last_updated": "2026-09-29"
 }
