@@ -1,0 +1,18 @@
+{
+  "batch_id": 681,
+  "date": "2026-09-29",
+  "status": "canonical_targeting_blocked",
+  "type": "canonical_sync_integrity_check",
+  "scope": "Verify whether the exact X20 Kaioken Kamehameha canonical record can be safely targeted after Batch 680.",
+  "canonical_authority": "docs/data/skills.json",
+  "findings": {
+    "skills_json_blob_sha": "4f1b192ea3d1f76878fe13b3a90bdfb24bae0410",
+    "connector_content_returned": "empty_for_large_canonical_blob",
+    "exact_record_targetable_from_current_connector": false,
+    "consumer_index_evidence": "X20 Kaioken Kamehameha is present with race_restriction null and usable_by_cac true.",
+    "canonical_reconstruction_policy": "Do not reconstruct skills.json from skills-index.json or another derivative."
+  },
+  "action": "No canonical mutation performed. The candidate remains explicitly documented in Batch 680 until a safe exact-record edit path is available.",
+  "external_reference": "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha",
+  "next": "Use a repository-native script or Git blob/tree editing path capable of modifying the exact canonical record without reconstructing the corpus; then synchronize the index and audit manifest."
+}
