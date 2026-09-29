@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 629,
+  "latest_research_batch": 630,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
@@ -359,8 +359,8 @@
   "indexed_only_reconciliation_2026_09_29": {
     "source_universe": 110,
     "canonical_records": 548,
-    "resolved_from_source_universe": 80,
-    "remaining_indexed_only": 30,
+    "resolved_from_source_universe": 86,
+    "remaining_indexed_only": 24,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
@@ -413,20 +413,17 @@
       "Armored Boost",
       "Miracle Kneel",
       "Time Skip/Molotov",
-      "Super Dragon Flight"
+      "Super Dragon Flight",
+      "Super Front Jump"
     ],
     "remaining_names": [
       "Bloody Sauce",
-      "Dragon Flash Bullet",
       "Flames of Retribution",
-      "Freezing Beam",
-      "Ice Field",
       "Ill Flash",
       "Light of Justice",
       "Marbling Drop",
       "Spiral of Condemnation",
       "Super Explosive Wave (Super)",
-      "Whirlwind Blade",
       "Aura Slide",
       "Celestial Hammer",
       "Go-Go Gum",
@@ -441,14 +438,12 @@
       "Super Ghost Kamikaze Attack (Ultimate)",
       "Brainwash Attack",
       "Special Beam Blast",
-      "High Tension Turn",
       "Candy Beam (Evasive)",
-      "Super Front Jump",
       "Energy Zone",
       "The Saviour Has Come"
     ],
     "method": "Exact case-insensitive comparison against authoritative canonical store; stale source-universe taxonomy may be corrected when current evidence establishes a different canonical class.",
-    "next": "Continue the remaining indexed-only frontier using explicit usable_by_cac=true evidence or exact current-game identity evidence; confirmed cast-only/unavailable identities must remain outside canonical skills.json.",
+    "next": "Continue the remaining frontier using explicit CaC-positive evidence or exact current-game identity evidence.",
     "variant_resolutions": [
       {
         "source_name": "Super Dragon Flight (Super)",
@@ -485,7 +480,12 @@
       "Time Shackles",
       "Total Evasion",
       "Warp",
-      "Zetsumei Bullet"
+      "Zetsumei Bullet",
+      "Dragon Flash Bullet",
+      "Freezing Beam",
+      "Ice Field",
+      "Whirlwind Blade",
+      "High Tension Turn"
     ]
   },
   "recovery_batch_615": {
@@ -766,6 +766,23 @@
     "remaining_indexed_only": 30,
     "source": "docs/data/skill-catalog-batches/unavailable-cac.json",
     "canonical_records_unchanged": 548,
+    "canonical_ids_inferred": 0
+  },
+  "recovery_batch_630": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "confirmed_unavailable": [
+      "Dragon Flash Bullet",
+      "Freezing Beam",
+      "Ice Field",
+      "Whirlwind Blade",
+      "High Tension Turn"
+    ],
+    "confirmed_cac": [
+      "Super Front Jump"
+    ],
+    "canonical_records_unchanged": 548,
+    "remaining_indexed_only": 24,
     "canonical_ids_inferred": 0
   }
 }
