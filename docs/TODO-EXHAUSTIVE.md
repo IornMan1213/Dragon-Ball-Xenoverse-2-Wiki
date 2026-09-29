@@ -7053,3 +7053,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [ ] Continue explicit older DLC/free-update provenance reconciliation.
 - [ ] Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from canonical forward datasets.
 - [ ] Resolve remaining accessory component identities only with exact inventory-level evidence; do not merge generic set/component labels.
+
+
+### 2026-09-29 continuation — Race restriction Batch 665
+- [x] Added Batch 665 for explicit unrestricted CaC evidence on Power Pole and Power Pole Combo.
+- [x] Evidence establishes both as Universal race eligibility; no narrower restriction was inferred.
+- [x] Updated the skill catalog audit and handoff with the finding.
+- [ ] Apply the two evidence-backed Universal classifications to canonical `docs/data/skills.json` using a safe authoritative-file edit; never rebuild it from indexes or verified layers.
