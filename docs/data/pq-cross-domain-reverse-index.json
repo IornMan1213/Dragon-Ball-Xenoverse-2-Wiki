@@ -1,0 +1,2108 @@
+{
+  "schema_version": "1.0.0",
+  "generated_from": "docs/data/pq-reward-relationships.json",
+  "generated_date": "2026-09-29",
+  "status": "partial_current_relationship_reverse_index",
+  "policy": "Only source-backed normalized edges are exposed; absence is not a negative claim.",
+  "indexes": {
+    "skills": {
+      "Spirit Slash": [
+        "pq-002"
+      ],
+      "Solar Flare": [
+        "pq-003"
+      ],
+      "Paralyze Beam": [
+        "pq-004"
+      ],
+      "Kamehameha": [
+        "pq-005",
+        "pq-048"
+      ],
+      "Meteor Strike": [
+        "pq-006"
+      ],
+      "Shine Shot": [
+        "pq-007"
+      ],
+      "Kaioken": [
+        "pq-008"
+      ],
+      "Meteor Blow": [
+        "pq-009"
+      ],
+      "Unrelenting Barrage": [
+        "pq-010"
+      ],
+      "Wall of Defense": [
+        "pq-010"
+      ],
+      "Earth Splitting Galick Gun": [
+        "pq-011"
+      ],
+      "Mach Dash": [
+        "pq-011",
+        "pq-018"
+      ],
+      "Time Control": [
+        "pq-011",
+        "pq-018"
+      ],
+      "Meteor Crash": [
+        "pq-012"
+      ],
+      "Fighting Pose C": [
+        "pq-013"
+      ],
+      "Psycho Escape": [
+        "pq-013"
+      ],
+      "Kaioken Kamehameha": [
+        "pq-014"
+      ],
+      "Fighting Pose D": [
+        "pq-015"
+      ],
+      "Holstein Shock": [
+        "pq-015"
+      ],
+      "Fighting Pose B": [
+        "pq-016"
+      ],
+      "Fighting Pose J": [
+        "pq-017"
+      ],
+      "Recoome Eraser Gun": [
+        "pq-017"
+      ],
+      "Fighting Pose E": [
+        "pq-019"
+      ],
+      "Mach Punch": [
+        "pq-019"
+      ],
+      "Mystic Flash": [
+        "pq-020"
+      ],
+      "Evil Flight Strike": [
+        "pq-021"
+      ],
+      "Energy Shot": [
+        "pq-022"
+      ],
+      "Death Slash": [
+        "pq-023"
+      ],
+      "Double Death Slicer": [
+        "pq-024"
+      ],
+      "Spirit Explosion": [
+        "pq-025"
+      ],
+      "Crazy Finger Shot": [
+        "pq-026"
+      ],
+      "Sauzer Blade": [
+        "pq-027"
+      ],
+      "Spread Shot Retreat": [
+        "pq-028"
+      ],
+      "Energy Field": [
+        "pq-029"
+      ],
+      "Freedom Kick": [
+        "pq-029"
+      ],
+      "Super Dragon Flight": [
+        "pq-031"
+      ],
+      "Energy Barrier": [
+        "pq-032"
+      ],
+      "Death Psycho Bomb": [
+        "pq-033"
+      ],
+      "Crusher Ball": [
+        "pq-034"
+      ],
+      "Paralysis": [
+        "pq-034"
+      ],
+      "Evil Whirlwind": [
+        "pq-036"
+      ],
+      "Instant Rise": [
+        "pq-037"
+      ],
+      "Shining Slash": [
+        "pq-038"
+      ],
+      "Side Bridge": [
+        "pq-039"
+      ],
+      "Heat Dome Attack": [
+        "pq-040"
+      ],
+      "Burning Attack": [
+        "pq-041"
+      ],
+      "Rolling Bullet": [
+        "pq-042"
+      ],
+      "Change The Future": [
+        "pq-043"
+      ],
+      "Burning Slash": [
+        "pq-044"
+      ],
+      "God Breaker": [
+        "pq-044"
+      ],
+      "Taunt": [
+        "pq-045"
+      ],
+      "Chain Destructo-Disc Barrage": [
+        "pq-046"
+      ],
+      "Do or Die": [
+        "pq-049"
+      ],
+      "Explosive Buu Buu Punch": [
+        "pq-050"
+      ],
+      "Burst Rush": [
+        "pq-051"
+      ],
+      "Final Cannon": [
+        "pq-052"
+      ],
+      "Justice Pose": [
+        "pq-053"
+      ],
+      "Victory Cannon": [
+        "pq-054"
+      ],
+      "Super Donut Volley": [
+        "pq-055"
+      ],
+      "Stone Bullet": [
+        "pq-056"
+      ],
+      "Rakshasa's Claw": [
+        "pq-057"
+      ],
+      "Vanishing Ball": [
+        "pq-058"
+      ],
+      "Dimension Cannon": [
+        "pq-059"
+      ],
+      "Force Shield": [
+        "pq-059"
+      ],
+      "Majin Kamehameha": [
+        "pq-060"
+      ],
+      "Fighting Pose H": [
+        "pq-061"
+      ],
+      "Recoome Kick": [
+        "pq-061"
+      ],
+      "Teleporting Vanishing Ball": [
+        "pq-062"
+      ],
+      "Kai Kai": [
+        "pq-063"
+      ],
+      "Ill Rain": [
+        "pq-064"
+      ],
+      "Scissors Paper Rock": [
+        "pq-065"
+      ],
+      "Candy Beam": [
+        "pq-066",
+        "pq-113"
+      ],
+      "Warp Kamehameha": [
+        "pq-066",
+        "pq-076"
+      ],
+      "Super God Fist": [
+        "pq-067"
+      ],
+      "Angry Shout": [
+        "pq-068"
+      ],
+      "Headshot": [
+        "pq-069"
+      ],
+      "Emperor's Blast": [
+        "pq-070"
+      ],
+      "Last Emperor": [
+        "pq-071"
+      ],
+      "Burst Kamehameha": [
+        "pq-072"
+      ],
+      "Psychic Move": [
+        "pq-073"
+      ],
+      "Final Pose": [
+        "pq-074"
+      ],
+      "Counter Burst": [
+        "pq-075"
+      ],
+      "Ki Explosion": [
+        "pq-077"
+      ],
+      "Dust Attack": [
+        "pq-078"
+      ],
+      "Mighty Explosive Wave": [
+        "pq-079"
+      ],
+      "Dimensional Hole": [
+        "pq-080"
+      ],
+      "Afterimage Strike": [
+        "pq-081"
+      ],
+      "Dragon Burn": [
+        "pq-082"
+      ],
+      "Charge": [
+        "pq-083"
+      ],
+      "Saiyan Spirit": [
+        "pq-084"
+      ],
+      "Zigzag Express": [
+        "pq-085"
+      ],
+      "Neo Wolf Fang Fist": [
+        "pq-086"
+      ],
+      "Atomic Blast": [
+        "pq-087"
+      ],
+      "Buu Buu Ball": [
+        "pq-088"
+      ],
+      "Victory Rush": [
+        "pq-089"
+      ],
+      "Ill Bomber": [
+        "pq-090"
+      ],
+      "Final Kamehameha": [
+        "pq-091"
+      ],
+      "Maiden Burst": [
+        "pq-092"
+      ],
+      "Bluff Kamehameha": [
+        "pq-094"
+      ],
+      "Drain Field": [
+        "pq-095"
+      ],
+      "Flash Bomber": [
+        "pq-095"
+      ],
+      "Absolute Zero": [
+        "pq-096"
+      ],
+      "Charged Ki Wave": [
+        "pq-097"
+      ],
+      "Phantom Fist": [
+        "pq-097"
+      ],
+      "Dimension Ray": [
+        "pq-098"
+      ],
+      "Emperor's Edge": [
+        "pq-099"
+      ],
+      "X 100 Big Bang Kamehameha": [
+        "pq-100"
+      ],
+      "Breaker Energy Wave": [
+        "pq-101"
+      ],
+      "Destruction's Concerto: Comet": [
+        "pq-104"
+      ],
+      "Destruction's Concerto: Starfall": [
+        "pq-104"
+      ],
+      "God of Destruction's Menace": [
+        "pq-105"
+      ],
+      "God of Destruction's Roar": [
+        "pq-105"
+      ],
+      "Sonic Bomb": [
+        "pq-105"
+      ],
+      "Destruction's Concerto: Meteor": [
+        "pq-106"
+      ],
+      "Destruction's Conductor": [
+        "pq-106"
+      ],
+      "Requiem of Destruction": [
+        "pq-106"
+      ],
+      "Super Black Kamehameha Rosé": [
+        "pq-109"
+      ],
+      "Divinity Unleashed": [
+        "pq-110"
+      ],
+      "Holy Wrath": [
+        "pq-111"
+      ],
+      "Lightning of Absolution": [
+        "pq-111"
+      ],
+      "Blades of Judgment": [
+        "pq-112"
+      ],
+      "Divine Wrath: Purification": [
+        "pq-112"
+      ],
+      "Candy Beam (Super)": [
+        "pq-113"
+      ],
+      "Super Ghost Buu Attack": [
+        "pq-113"
+      ],
+      "Evil Blast": [
+        "pq-114"
+      ],
+      "Petrifying Spit": [
+        "pq-114"
+      ],
+      "Handy Canon": [
+        "pq-115"
+      ],
+      "S.S. Deadly Bomber": [
+        "pq-115"
+      ],
+      "Brave Sword Slash": [
+        "pq-116"
+      ],
+      "Hero's Flute": [
+        "pq-116"
+      ],
+      "Brave Sword Attack": [
+        "pq-117"
+      ],
+      "Evil Flame": [
+        "pq-117"
+      ],
+      "Rough Ranger": [
+        "pq-119"
+      ],
+      "Power Impact": [
+        "pq-120"
+      ],
+      "Meditation": [
+        "pq-122"
+      ],
+      "Power Rush": [
+        "pq-122"
+      ],
+      "Reverse Shot": [
+        "pq-123"
+      ],
+      "Variant Drive": [
+        "pq-123"
+      ],
+      "Revenge Final Flash": [
+        "pq-124"
+      ],
+      "Blaster Ball": [
+        "pq-125"
+      ],
+      "Ray Blast": [
+        "pq-125"
+      ],
+      "Gigantic Breaker": [
+        "pq-126"
+      ],
+      "Gigantic Burst": [
+        "pq-127"
+      ],
+      "Revenge Death Ball": [
+        "pq-127"
+      ],
+      "Gigantic Charge": [
+        "pq-128"
+      ],
+      "Powered Shell": [
+        "pq-128"
+      ],
+      "Punisher Shield": [
+        "pq-129"
+      ],
+      "Spirit Blaster": [
+        "pq-129"
+      ],
+      "Gigantic Rage": [
+        "pq-130"
+      ],
+      "Assault Vanish": [
+        "pq-131"
+      ],
+      "Gigantic Roar": [
+        "pq-132"
+      ],
+      "God Punisher": [
+        "pq-132"
+      ],
+      "Formation!": [
+        "pq-133"
+      ],
+      "Pretty Cannon": [
+        "pq-133"
+      ],
+      "Burst Charge": [
+        "pq-134"
+      ],
+      "Ultimate Charge": [
+        "pq-134"
+      ],
+      "Lovely Cyclone": [
+        "pq-135"
+      ],
+      "Blazing Attack": [
+        "pq-136"
+      ],
+      "Burst Stinger": [
+        "pq-136"
+      ],
+      "Raid Blast": [
+        "pq-136"
+      ],
+      "Prominence Flash": [
+        "pq-137"
+      ],
+      "Ribrianne's Eternal Love": [
+        "pq-137"
+      ],
+      "Flash Chaser": [
+        "pq-138"
+      ],
+      "Photon Swipe": [
+        "pq-139"
+      ],
+      "Total Detonation Ball": [
+        "pq-139"
+      ],
+      "Savory Slicer": [
+        "pq-140"
+      ],
+      "Brutal Buster": [
+        "pq-141"
+      ],
+      "Dragon Blitz": [
+        "pq-141"
+      ],
+      "Excellent Full Course": [
+        "pq-142"
+      ],
+      "Lightning Impact": [
+        "pq-142"
+      ],
+      "Burning Shot": [
+        "pq-143"
+      ],
+      "Hyper Tornado": [
+        "pq-143"
+      ],
+      "Destructive Flare": [
+        "pq-145"
+      ],
+      "Destructive Fracture": [
+        "pq-145"
+      ],
+      "Destructive Fission": [
+        "pq-146"
+      ],
+      "Thunder Flash": [
+        "pq-146"
+      ],
+      "Crush Cannon": [
+        "pq-147"
+      ],
+      "Crush Stream": [
+        "pq-147"
+      ],
+      "Double Crush": [
+        "pq-147"
+      ],
+      "Blaster Bomb": [
+        "pq-148"
+      ],
+      "Blaster Cannon": [
+        "pq-148"
+      ],
+      "Blaster Stream": [
+        "pq-148"
+      ],
+      "Comet Strike": [
+        "pq-149"
+      ],
+      "Meteor Explosion": [
+        "pq-149"
+      ],
+      "Impact Flare": [
+        "pq-150"
+      ],
+      "Power Wall": [
+        "pq-150"
+      ],
+      "Celestial Wave": [
+        "pq-151"
+      ],
+      "Spirit Pulse": [
+        "pq-151"
+      ],
+      "Ultrasonic Blitz": [
+        "pq-151"
+      ],
+      "Justice Blade": [
+        "pq-152"
+      ],
+      "Justice Kick": [
+        "pq-152"
+      ],
+      "Counter Impact": [
+        "pq-153"
+      ],
+      "Shield Barrier": [
+        "pq-153"
+      ],
+      "Wild Buster": [
+        "pq-153"
+      ],
+      "Circle Flash": [
+        "pq-154"
+      ],
+      "Sign of Awakening": [
+        "pq-154"
+      ],
+      "Gamma Blaster": [
+        "pq-155"
+      ],
+      "Gamma Impact": [
+        "pq-155"
+      ],
+      "Heroic Counter": [
+        "pq-155"
+      ],
+      "Heroic Assault": [
+        "pq-156"
+      ],
+      "Shooting Strike": [
+        "pq-156"
+      ],
+      "Core Breaker": [
+        "pq-158"
+      ],
+      "Super Gamma Blast": [
+        "pq-158"
+      ],
+      "Demonic Destruction": [
+        "pq-159"
+      ],
+      "Fierce Fist": [
+        "pq-159"
+      ],
+      "Demon Flash Strike": [
+        "pq-160"
+      ],
+      "Demon Flurry": [
+        "pq-160"
+      ],
+      "Demon Ray": [
+        "pq-160"
+      ],
+      "Apocalyptic Burst": [
+        "pq-161"
+      ],
+      "Special Beam Cannon (Beast)": [
+        "pq-162"
+      ],
+      "Eraser Bomb": [
+        "pq-163"
+      ],
+      "Gigantic Cluster": [
+        "pq-163"
+      ],
+      "Gigantic Explosion": [
+        "pq-164"
+      ],
+      "Steel Mirage": [
+        "pq-165"
+      ],
+      "Variable Snipe Shot": [
+        "pq-165"
+      ],
+      "Pendulum Bullet": [
+        "pq-166"
+      ],
+      "Burning Swan": [
+        "pq-167"
+      ],
+      "Seagull Combination": [
+        "pq-167"
+      ],
+      "Justice Drive": [
+        "pq-168"
+      ],
+      "Crimson Edge": [
+        "pq-171"
+      ],
+      "Divine Spear": [
+        "pq-171"
+      ],
+      "Big Bang Knuckle": [
+        "pq-172"
+      ],
+      "Wild Stinger": [
+        "pq-172"
+      ],
+      "Divine Ray Bomb": [
+        "pq-173"
+      ],
+      "Final Rampage": [
+        "pq-174"
+      ],
+      "God of Destruction's Plaything": [
+        "pq-175"
+      ],
+      "God of Destruction's Poise": [
+        "pq-175"
+      ],
+      "God of Destruction's Might": [
+        "pq-176"
+      ],
+      "Dragon Spark": [
+        "pq-177"
+      ],
+      "Full Power Destruction": [
+        "pq-177"
+      ],
+      "Soaring Rush": [
+        "pq-177"
+      ],
+      "Burst Blitz": [
+        "pq-178"
+      ],
+      "Heat Wave": [
+        "pq-179"
+      ],
+      "Supreme Fury": [
+        "pq-179"
+      ],
+      "Burning Blast": [
+        "pq-180"
+      ],
+      "Force Edge": [
+        "pq-180"
+      ],
+      "Final Flash (SS3 DAIMA)": [
+        "pq-181"
+      ],
+      "Super Kamehameha (SS4 DAIMA)": [
+        "pq-181"
+      ],
+      "Dark Inscription": [
+        "pq-182"
+      ],
+      "Emperor's Cannon": [
+        "pq-183"
+      ],
+      "Chaotic Time Impact": [
+        "pq-184"
+      ],
+      "Dragon Spiral": [
+        "pq-185"
+      ],
+      "Indomitable": [
+        "pq-185"
+      ],
+      "Venus Fist": [
+        "pq-186"
+      ]
+    },
+    "super_souls": {
+      "Your death is imminent!": [
+        "pq-005"
+      ],
+      "Gyau!!!!": [
+        "pq-007"
+      ],
+      "H-How could he?!": [
+        "pq-012"
+      ],
+      "I actually felt that one...": [
+        "pq-012"
+      ],
+      "I am the universe's strongest!": [
+        "pq-021"
+      ],
+      "I'm neither Kami nor Piccolo...": [
+        "pq-021",
+        "pq-030"
+      ],
+      "I'll kill all of you!!": [
+        "pq-022"
+      ],
+      "I got back my youth and vigor!": [
+        "pq-026"
+      ],
+      "Drop dead!!!": [
+        "pq-028"
+      ],
+      "Goku the legendary Super Saiyan!": [
+        "pq-028"
+      ],
+      "I'll use all my strength to kill you.": [
+        "pq-029"
+      ],
+      "I wanted to kill you with my own hands.": [
+        "pq-035"
+      ],
+      "I am...Super Vegeta!!": [
+        "pq-036"
+      ],
+      "This fight...is truly pointless...": [
+        "pq-038"
+      ],
+      "Time to dismantle you androids!": [
+        "pq-040"
+      ],
+      "Set your rage free...": [
+        "pq-042"
+      ],
+      "Getting beat up makes me cranky...": [
+        "pq-044"
+      ],
+      "Before creation comes ruin...": [
+        "pq-063"
+      ],
+      "Janemba! Janemba!": [
+        "pq-064"
+      ],
+      "I never knew this world existed!": [
+        "pq-065"
+      ],
+      "Everyone, lend me your energy!": [
+        "pq-092"
+      ],
+      "Finally, some excitement.": [
+        "pq-093"
+      ],
+      "I...hate you!!!": [
+        "pq-093"
+      ],
+      "Strengthen me, Shadow Dragons!": [
+        "pq-094"
+      ],
+      "Revival of the Demon Realm is at hand": [
+        "pq-097"
+      ],
+      "Someone, satisfy me...": [
+        "pq-097"
+      ],
+      "Don't quit! Get up!": [
+        "pq-102"
+      ],
+      "I'll make you regret that!": [
+        "pq-102"
+      ],
+      "I've been saving this! Kaioken!": [
+        "pq-103"
+      ],
+      "Now you understand. Surrender.": [
+        "pq-103"
+      ],
+      "This is not a weapon.": [
+        "pq-103"
+      ],
+      "How Dare You...! That's My Bulma": [
+        "pq-104"
+      ],
+      "Buu Don't Wanna!": [
+        "pq-105"
+      ],
+      "Me...Protecting Some Pipsqueak": [
+        "pq-105"
+      ],
+      "Eehee hee hee heee!": [
+        "pq-106",
+        "pq-108"
+      ],
+      "Watch Your Tongue": [
+        "pq-106"
+      ],
+      "You're Just Pieces in a Game": [
+        "pq-106"
+      ],
+      "You can't win...": [
+        "pq-107"
+      ],
+      "Now, give your father a message for me.": [
+        "pq-108"
+      ],
+      "I like you better when you're mad!": [
+        "pq-109"
+      ],
+      "I really do love being immortal.": [
+        "pq-109"
+      ],
+      "I shall show you my great godly might!": [
+        "pq-110"
+      ],
+      "This fight is only just beginning!": [
+        "pq-110"
+      ],
+      "I feel it... Everyone, lend me your power!": [
+        "pq-111"
+      ],
+      "I ain't losin'! Here's my full power!": [
+        "pq-112"
+      ],
+      "I'm never going to forgive him!": [
+        "pq-112"
+      ],
+      "Sorry. You were way open there.": [
+        "pq-112"
+      ],
+      "I'll make good use of you!": [
+        "pq-113"
+      ],
+      "I'm stronger than ever now!": [
+        "pq-113"
+      ],
+      "The real fight starts now!": [
+        "pq-114"
+      ],
+      "Looks like you're done!": [
+        "pq-115"
+      ],
+      "Earth is in your hands now!": [
+        "pq-116"
+      ],
+      "If I don't do it, who will?": [
+        "pq-116"
+      ],
+      "Get serious, would you?": [
+        "pq-117"
+      ],
+      "I hate what I've become!": [
+        "pq-118"
+      ],
+      "Now we're even.": [
+        "pq-118"
+      ],
+      "Time to get serious, I guess.": [
+        "pq-119"
+      ],
+      "Hmph! For justice!": [
+        "pq-120"
+      ],
+      "This heat...will be your downfall!": [
+        "pq-120"
+      ],
+      "Right, then... Let's begin the experiment!": [
+        "pq-121"
+      ],
+      "For beauty! For elegance! For love!": [
+        "pq-122"
+      ],
+      "This Super Saiyan 2 is crazy strong!": [
+        "pq-122"
+      ],
+      "Don't think I'm the same as before!": [
+        "pq-124"
+      ],
+      "Alright! Let's go wreck some faces!": [
+        "pq-126"
+      ],
+      "GAAAGH!": [
+        "pq-128"
+      ],
+      "I've waited an unbelievably long time for this...": [
+        "pq-128"
+      ],
+      "Your father has been killed!": [
+        "pq-128"
+      ],
+      "Don't think I'm gonna show you any gratitude!": [
+        "pq-129"
+      ],
+      "Heh heh! Now THIS is real power!": [
+        "pq-129"
+      ],
+      "Hey, you think you could fight a little quieter?!": [
+        "pq-129"
+      ],
+      "Hey, you! You ready for me?!": [
+        "pq-130"
+      ],
+      "Hmph. I'm off to take a nap.": [
+        "pq-130"
+      ],
+      "Th-Thanks...": [
+        "pq-130"
+      ],
+      "Leave the rest to me!": [
+        "pq-131"
+      ],
+      "Shall we pick up where we left off?": [
+        "pq-131"
+      ],
+      "You'd better survive, you got that?!": [
+        "pq-131"
+      ],
+      "I can't have you dying on me!": [
+        "pq-132"
+      ],
+      "This is no time to mess around...": [
+        "pq-132"
+      ],
+      "Whoa, it's freezing here!": [
+        "pq-132"
+      ],
+      "Here it comes!": [
+        "pq-133"
+      ],
+      "I got my claws in you, and fangs too!": [
+        "pq-133"
+      ],
+      "Power! A lotta power! It's great!": [
+        "pq-134"
+      ],
+      "That won't work on me!": [
+        "pq-135"
+      ],
+      "Justice is nothing to me now.": [
+        "pq-136"
+      ],
+      "Pathetic": [
+        "pq-136"
+      ],
+      "That heat... I'll have to match it.": [
+        "pq-137"
+      ],
+      "This is everything I've got!": [
+        "pq-137"
+      ],
+      "I just flew around the whole world!": [
+        "pq-138"
+      ],
+      "I'm not gonna die until I defeat you!": [
+        "pq-138"
+      ],
+      "Now then, time for another delightful hunt!": [
+        "pq-140"
+      ],
+      "This thing carries hopes of everyone on Earth!": [
+        "pq-140"
+      ],
+      "D-Don't talk bad about my family!": [
+        "pq-141"
+      ],
+      "This oughta make things interesting.": [
+        "pq-141"
+      ],
+      "I don't want them to get hurt!": [
+        "pq-142"
+      ],
+      "This is as far as you go.": [
+        "pq-143"
+      ],
+      "I won't forgive those who best my comrades!": [
+        "pq-144"
+      ],
+      "You've awakened my true power...": [
+        "pq-144"
+      ],
+      "I've cast aside everything for this!": [
+        "pq-145"
+      ],
+      "There's no way you can hit me!": [
+        "pq-146"
+      ],
+      "It's just me and you now!": [
+        "pq-147"
+      ],
+      "My back's getting tingly...!": [
+        "pq-148"
+      ],
+      "Our two strengths aren't just added together.": [
+        "pq-149"
+      ],
+      "I will prevail, no matter the cost!": [
+        "pq-150"
+      ],
+      "I think I'm getting the hang of this.": [
+        "pq-151"
+      ],
+      "I'll keep adding a bit of power to my attacks!": [
+        "pq-151"
+      ],
+      "I will put a stop to you, fiend!": [
+        "pq-152"
+      ],
+      "There's more where that came from!": [
+        "pq-153"
+      ],
+      "You're not much of a fun fight!": [
+        "pq-153"
+      ],
+      "Still haven't figured out you're gonna lose?": [
+        "pq-156"
+      ],
+      "This is your true power?": [
+        "pq-156"
+      ],
+      "I'll be the one to fight you!": [
+        "pq-157"
+      ],
+      "You need to be more careful.": [
+        "pq-157"
+      ],
+      "Heh heh! I'm not as rusty as I look!": [
+        "pq-158"
+      ],
+      "Enter the hero!": [
+        "pq-159"
+      ],
+      "The Red Ribbon Army is back in business!": [
+        "pq-159"
+      ],
+      "Is that all?": [
+        "pq-160"
+      ],
+      "I'm a whole new me.": [
+        "pq-161"
+      ],
+      "Shenron really went the extra mile.": [
+        "pq-162"
+      ],
+      "This place will be your grave!": [
+        "pq-164"
+      ],
+      "Hope you're ready for a trip!": [
+        "pq-166"
+      ],
+      "I'm not about to let Pan see me lose!": [
+        "pq-168"
+      ],
+      "You will know the power of the gods!": [
+        "pq-173"
+      ],
+      "It's about time...": [
+        "pq-175"
+      ],
+      "Strength is justice! Strength is absolute!": [
+        "pq-177"
+      ],
+      "I'll take you all on at once!": [
+        "pq-178"
+      ],
+      "Damn it all!": [
+        "pq-180"
+      ],
+      "Rejoice! A new ruler is born!": [
+        "pq-182"
+      ],
+      "AAAAAAAAAGH!": [
+        "pq-183"
+      ],
+      "Send me back to the planet I came from!": [
+        "pq-184"
+      ],
+      "Malice... Existence... Cruelty...": [
+        "pq-185"
+      ],
+      "This power... It's different from any I've ever had.": [
+        "pq-185"
+      ],
+      "I'll use this power to protect everyone!": [
+        "pq-186"
+      ],
+      "The final battle begins now.": [
+        "pq-186"
+      ]
+    },
+    "equipment": {
+      "Flying Nimbus!!": [
+        "pq-002"
+      ],
+      "Goku's Damaged Turtle Hermit Gi": [
+        "pq-002"
+      ],
+      "Demon Clothes (Piccolo, with Cape)": [
+        "pq-003"
+      ],
+      "Piccolo's Turban": [
+        "pq-003"
+      ],
+      "Demon Clothes (Gohan, Kid)": [
+        "pq-004"
+      ],
+      "Goku's Turtle Hermit Gi": [
+        "pq-004"
+      ],
+      "Four-Star Dragon Ball Hat": [
+        "pq-005"
+      ],
+      "Goku's Turtle Hermit Gi (King Kai)": [
+        "pq-008"
+      ],
+      "Chiaotzu's Hat (With Collar)": [
+        "pq-009"
+      ],
+      "Battle Suit (Turles)": [
+        "pq-012"
+      ],
+      "Battle Suit (Ginyu Force Black)": [
+        "pq-013"
+      ],
+      "Goku's Turtle Hermit Gi (Go)": [
+        "pq-014"
+      ],
+      "Battle Suit (Krillin)": [
+        "pq-021"
+      ],
+      "Hercule's Clothes": [
+        "pq-021",
+        "pq-030"
+      ],
+      "Tien Shinhan's Gi": [
+        "pq-021",
+        "pq-030"
+      ],
+      "Battle Suit (Frieza Saga Vegeta)": [
+        "pq-022"
+      ],
+      "Goku Wig": [
+        "pq-025"
+      ],
+      "Dore's Scouter": [
+        "pq-027"
+      ],
+      "Battle Suit (Gohan)": [
+        "pq-028"
+      ],
+      "Android 18's Clothes (Vest & Pants)": [
+        "pq-029"
+      ],
+      "Goku's Turtle Hermit Gi (No Character)": [
+        "pq-031"
+      ],
+      "Yamcha's Sword": [
+        "pq-036"
+      ],
+      "Cell's Suit (Perfect)": [
+        "pq-037"
+      ],
+      "Yamcha's Baseball Uniform": [
+        "pq-041"
+      ],
+      "Perfect Cell's Wings": [
+        "pq-045"
+      ],
+      "Piccolo's School Clothes": [
+        "pq-049"
+      ],
+      "Mr. Shape Up M": [
+        "pq-050"
+      ],
+      "Vegito's Clothes": [
+        "pq-059"
+      ],
+      "Battle Suit (CC)": [
+        "pq-061"
+      ],
+      "Frieza's Suit (Final Form)": [
+        "pq-062"
+      ],
+      "Goku Wig (Super Saiyan)": [
+        "pq-063"
+      ],
+      "Gohan's Gi (Adult)": [
+        "pq-065"
+      ],
+      "SSGSS Goku Wig": [
+        "pq-066",
+        "pq-076"
+      ],
+      "Whis Symbol Gi": [
+        "pq-066"
+      ],
+      "Vegeta's Shirt": [
+        "pq-079"
+      ],
+      "GT Goku's Gi": [
+        "pq-092"
+      ],
+      "Pan's Bandanna": [
+        "pq-093"
+      ],
+      "Pan's Clothes": [
+        "pq-093"
+      ],
+      "Super 17's Clothes": [
+        "pq-095"
+      ],
+      "GT Vegeta's Jacket": [
+        "pq-096"
+      ],
+      "Yamcha's Baseball Hat": [
+        "pq-097"
+      ],
+      "Lord Slug's Clothes": [
+        "pq-098"
+      ],
+      "Mr. Shape Up L": [
+        "pq-099"
+      ],
+      "SSGSS Vegeta Wig": [
+        "pq-100"
+      ],
+      "Whis Symbol Battle Suit": [
+        "pq-100"
+      ],
+      "Champa's Clothes": [
+        "pq-101"
+      ],
+      "Battle Suit (Cabba)": [
+        "pq-102"
+      ],
+      "Android 14's Clothes": [
+        "pq-104"
+      ],
+      "Android 13's Clothes": [
+        "pq-105"
+      ],
+      "Super Android 13's Clothes": [
+        "pq-106"
+      ],
+      "Future Mai's Clothes": [
+        "pq-107"
+      ],
+      "Goku Black's Clothes": [
+        "pq-108"
+      ],
+      "Zamasu's Clothes": [
+        "pq-109"
+      ],
+      "SS4 Wig & Tail (Goku)": [
+        "pq-110"
+      ],
+      "Super Saiyan 4 Suit (Goku)": [
+        "pq-110"
+      ],
+      "Resistance Clothes": [
+        "pq-111"
+      ],
+      "Resistance Helmet": [
+        "pq-111"
+      ],
+      "Pride Trooper Uniform": [
+        "pq-114"
+      ],
+      "Toppo's Moustache": [
+        "pq-114"
+      ],
+      "Ribrianne's Clothes": [
+        "pq-115"
+      ],
+      "Ribrianne's Hood": [
+        "pq-115"
+      ],
+      "Tuxedo": [
+        "pq-121"
+      ],
+      "Wedding Dress": [
+        "pq-121"
+      ],
+      "Arabian Costume": [
+        "pq-123"
+      ],
+      "Goku Wig (Ultra Instinct)": [
+        "pq-125"
+      ],
+      "Janemba Head": [
+        "pq-127"
+      ],
+      "Janemba Suit": [
+        "pq-127"
+      ],
+      "Broly (Full Power Super Saiyan)'s Clothes": [
+        "pq-130"
+      ],
+      "SSGSS Gogeta's Clothes": [
+        "pq-131"
+      ],
+      "Broly Wig (Legendary Super Saiyan)": [
+        "pq-132"
+      ],
+      "Kakunsa's Clothes": [
+        "pq-133"
+      ],
+      "Kakunsa's Tail": [
+        "pq-133"
+      ],
+      "Kakunsa's Wig and Mask": [
+        "pq-133"
+      ],
+      "Rozie's Clothes": [
+        "pq-135"
+      ],
+      "Rozie's Hood and Goggles": [
+        "pq-135"
+      ],
+      "Android 21's Lab Uniform": [
+        "pq-139"
+      ],
+      "Universe 7 Baseball Cap": [
+        "pq-139"
+      ],
+      "Universe 7 Baseball Uniform": [
+        "pq-139"
+      ],
+      "Universe 6 Baseball Uniform": [
+        "pq-142"
+      ],
+      "Gine (DB Super) Set": [
+        "pq-144"
+      ],
+      "Gine (DB Super)'s Clothes": [
+        "pq-144"
+      ],
+      "Bardock (DB Super)'s Clothes": [
+        "pq-146"
+      ],
+      "Caulifla Wig": [
+        "pq-147"
+      ],
+      "Caulifla's Clothes": [
+        "pq-147"
+      ],
+      "Kale Wig": [
+        "pq-148"
+      ],
+      "Kale's Clothes": [
+        "pq-148"
+      ],
+      "Bulma (Kid) Wig": [
+        "pq-149"
+      ],
+      "Bulma (Kid)'s Clothes": [
+        "pq-149"
+      ],
+      "Android 17 (DB Super) Ranger Outfit": [
+        "pq-152"
+      ],
+      "Android 17 (DB Super) Ranger Wig": [
+        "pq-152"
+      ],
+      "King Vegeta (DB Super) Wig": [
+        "pq-154"
+      ],
+      "King Vegeta (DB Super)'s Battle Suit": [
+        "pq-154"
+      ],
+      "Gamma 2 Helmet": [
+        "pq-155"
+      ],
+      "Gamma 1's Helmet": [
+        "pq-156"
+      ],
+      "Gamma 2's Clothes": [
+        "pq-158"
+      ],
+      "Dr. Hedo Hood": [
+        "pq-159"
+      ],
+      "Red Ribbon Army Helmet": [
+        "pq-160"
+      ],
+      "Red Ribbon Soldier 94 Clothes": [
+        "pq-161"
+      ],
+      "Dr. Hedo Suit": [
+        "pq-162"
+      ],
+      "Gohan (Beast) Wig": [
+        "pq-162"
+      ],
+      "Videl (DB Super) Wig": [
+        "pq-168"
+      ],
+      "Orange Piccolo's Clothes": [
+        "pq-169"
+      ],
+      "Videl (DB Super)'s Clothes": [
+        "pq-170"
+      ],
+      "Belmod's Clothes": [
+        "pq-176"
+      ],
+      "Goku (Mini)'s Gi": [
+        "pq-178"
+      ],
+      "SS4 Goku (DAIMA) Suit": [
+        "pq-179"
+      ],
+      "SS4 Goku (DAIMA) Wig & Tail": [
+        "pq-179"
+      ],
+      "SS3 Vegeta (DAIMA) Battle Suit": [
+        "pq-180"
+      ],
+      "SS3 Vegeta (DAIMA) Wig": [
+        "pq-180"
+      ],
+      "Glorio Wig": [
+        "pq-181"
+      ],
+      "Glorio's Clothes": [
+        "pq-181"
+      ],
+      "Panzy Wig": [
+        "pq-181"
+      ],
+      "Panzy's Clothes": [
+        "pq-181"
+      ],
+      "Golden Frieza Head": [
+        "pq-182"
+      ],
+      "Golden Frieza Suit": [
+        "pq-182"
+      ],
+      "Broly Wig (Black Hair, Normal)": [
+        "pq-183"
+      ],
+      "Cheelai's Coat": [
+        "pq-183"
+      ],
+      "Dragon Ball Balloon": [
+        "pq-184"
+      ],
+      "Goku (Ultra Supervillain Quelled) Wig": [
+        "pq-185"
+      ],
+      "Goku (Ultra Supervillain Quelled)'s Clothes": [
+        "pq-185"
+      ],
+      "Fu (Ultra Supervillain) Set": [
+        "pq-186"
+      ],
+      "Fu (Ultra Supervillain)'s Clothes": [
+        "pq-186"
+      ],
+      "Fu Set 2": [
+        "pq-186"
+      ],
+      "Broly's Clothes": [
+        "pq-047"
+      ],
+      "Great Saiyaman Helmet": [
+        "pq-051"
+      ],
+      "Jaco's State-of-the-Art Radio": [
+        "pq-072"
+      ],
+      "Tagoma's Scouter": [
+        "pq-073"
+      ],
+      "Yamcha Baseball Hat": [
+        "pq-097"
+      ],
+      "Android 14's Hat": [
+        "pq-104"
+      ],
+      "Bardock (DB Super)'s Scouter": [
+        "pq-146"
+      ],
+      "Android 13's Hat": [
+        "pq-105"
+      ],
+      "Android 17 (DB Super) Wig": [
+        "pq-152"
+      ],
+      "Gamma 2's Helmet": [
+        "pq-155"
+      ],
+      "Tapion's Sword": [
+        "pq-022"
+      ]
+    },
+    "characters": {
+      "Burter": [
+        "pq-016",
+        "pq-018"
+      ],
+      "Jeice": [
+        "pq-016",
+        "pq-018"
+      ],
+      "Turles": [
+        "pq-017",
+        "pq-026",
+        "pq-098"
+      ],
+      "Vegeta": [
+        "pq-017",
+        "pq-021",
+        "pq-024",
+        "pq-030",
+        "pq-031",
+        "pq-039",
+        "pq-047",
+        "pq-057",
+        "pq-065",
+        "pq-076",
+        "pq-077",
+        "pq-085",
+        "pq-087",
+        "pq-093",
+        "pq-100",
+        "pq-101",
+        "pq-107",
+        "pq-153",
+        "pq-158",
+        "pq-179",
+        "pq-180"
+      ],
+      "Guldo": [
+        "pq-018"
+      ],
+      "Recoome": [
+        "pq-018"
+      ],
+      "Krillin": [
+        "pq-021",
+        "pq-028"
+      ],
+      "Piccolo": [
+        "pq-021",
+        "pq-029",
+        "pq-036",
+        "pq-039",
+        "pq-049",
+        "pq-061",
+        "pq-085",
+        "pq-161"
+      ],
+      "Patroller": [
+        "pq-023",
+        "pq-035",
+        "pq-079"
+      ],
+      "Metal Cooler": [
+        "pq-025",
+        "pq-027",
+        "pq-070",
+        "pq-082",
+        "pq-154"
+      ],
+      "Lord Slug": [
+        "pq-026"
+      ],
+      "Hercule": [
+        "pq-030",
+        "pq-054",
+        "pq-056",
+        "pq-058",
+        "pq-077"
+      ],
+      "Cell Jr.": [
+        "pq-032",
+        "pq-037",
+        "pq-042",
+        "pq-045"
+      ],
+      "Android 16": [
+        "pq-039",
+        "pq-042",
+        "pq-046"
+      ],
+      "Android 17": [
+        "pq-041",
+        "pq-042",
+        "pq-112",
+        "pq-144"
+      ],
+      "Android 18": [
+        "pq-041",
+        "pq-042",
+        "pq-048",
+        "pq-170"
+      ],
+      "Broly": [
+        "pq-047",
+        "pq-078",
+        "pq-083",
+        "pq-084",
+        "pq-085",
+        "pq-128",
+        "pq-130",
+        "pq-132",
+        "pq-141",
+        "pq-183"
+      ],
+      "Majin Buu": [
+        "pq-047",
+        "pq-050",
+        "pq-053",
+        "pq-054",
+        "pq-057",
+        "pq-058",
+        "pq-060",
+        "pq-090",
+        "pq-113",
+        "pq-148"
+      ],
+      "Goten": [
+        "pq-048",
+        "pq-049",
+        "pq-052",
+        "pq-055",
+        "pq-062",
+        "pq-084",
+        "pq-087",
+        "pq-089",
+        "pq-129"
+      ],
+      "Super Buu": [
+        "pq-050",
+        "pq-055",
+        "pq-059"
+      ],
+      "Great Saiyaman": [
+        "pq-051",
+        "pq-171"
+      ],
+      "Gotenks": [
+        "pq-052",
+        "pq-055",
+        "pq-062",
+        "pq-084",
+        "pq-087",
+        "pq-089",
+        "pq-129"
+      ],
+      "Janemba": [
+        "pq-057",
+        "pq-080",
+        "pq-098"
+      ],
+      "Vegito": [
+        "pq-059",
+        "pq-062",
+        "pq-084",
+        "pq-089",
+        "pq-091",
+        "pq-131"
+      ],
+      "Kid Buu": [
+        "pq-060",
+        "pq-068",
+        "pq-114",
+        "pq-143",
+        "pq-148"
+      ],
+      "Videl": [
+        "pq-061"
+      ],
+      "God of Destruction Beerus": [
+        "pq-063",
+        "pq-064",
+        "pq-066",
+        "pq-069",
+        "pq-075",
+        "pq-106",
+        "pq-118",
+        "pq-120",
+        "pq-122",
+        "pq-125",
+        "pq-173",
+        "pq-181"
+      ],
+      "Golden Frieza": [
+        "pq-070",
+        "pq-071",
+        "pq-072",
+        "pq-073",
+        "pq-074",
+        "pq-082",
+        "pq-118",
+        "pq-141",
+        "pq-168",
+        "pq-169",
+        "pq-186"
+      ],
+      "SSGSS Goku": [
+        "pq-076",
+        "pq-100",
+        "pq-101",
+        "pq-107",
+        "pq-108",
+        "pq-145",
+        "pq-158",
+        "pq-164",
+        "pq-165"
+      ],
+      "SSGSS Vegeta": [
+        "pq-076",
+        "pq-100",
+        "pq-101",
+        "pq-107",
+        "pq-153",
+        "pq-158"
+      ],
+      "Bardock": [
+        "pq-085"
+      ],
+      "Yamcha": [
+        "pq-086",
+        "pq-162"
+      ],
+      "Nappa": [
+        "pq-091",
+        "pq-119"
+      ],
+      "Raditz": [
+        "pq-091"
+      ],
+      "Goku (GT)": [
+        "pq-093",
+        "pq-138"
+      ],
+      "Omega Shenron": [
+        "pq-094",
+        "pq-096",
+        "pq-102",
+        "pq-116",
+        "pq-138",
+        "pq-151"
+      ],
+      "Super 17": [
+        "pq-095",
+        "pq-102",
+        "pq-111",
+        "pq-144",
+        "pq-156",
+        "pq-166"
+      ],
+      "Vados": [
+        "pq-104",
+        "pq-106"
+      ],
+      "Future Trunks": [
+        "pq-107",
+        "pq-108",
+        "pq-117"
+      ],
+      "Goku Black": [
+        "pq-109",
+        "pq-110",
+        "pq-111"
+      ],
+      "Rosé Goku Black": [
+        "pq-109",
+        "pq-110",
+        "pq-111"
+      ],
+      "Zamasu": [
+        "pq-109",
+        "pq-185"
+      ],
+      "Dabura": [
+        "pq-114",
+        "pq-116"
+      ],
+      "Tapion": [
+        "pq-117"
+      ],
+      "Jiren": [
+        "pq-120",
+        "pq-137",
+        "pq-177",
+        "pq-178"
+      ],
+      "Nuova Shenron": [
+        "pq-123"
+      ],
+      "Super Baby 2": [
+        "pq-123",
+        "pq-124",
+        "pq-156"
+      ],
+      "Goku (Ultra Instinct)": [
+        "pq-125",
+        "pq-134",
+        "pq-136",
+        "pq-150"
+      ],
+      "Broly (Full Power Super Saiyan)": [
+        "pq-128",
+        "pq-130",
+        "pq-132"
+      ],
+      "SSGSS Gogeta": [
+        "pq-129",
+        "pq-131",
+        "pq-149",
+        "pq-182"
+      ],
+      "SSGSS Vegito": [
+        "pq-131"
+      ],
+      "Ribrianne": [
+        "pq-133",
+        "pq-135"
+      ],
+      "Mira (Final Form)": [
+        "pq-135"
+      ],
+      "Frieza (Final Form)": [
+        "pq-139"
+      ],
+      "Android 21": [
+        "pq-140"
+      ],
+      "Majuub": [
+        "pq-141"
+      ],
+      "Android 17 (DB Super)": [
+        "pq-144"
+      ],
+      "Pikkon": [
+        "pq-145"
+      ],
+      "Toppo (God of Destruction)": [
+        "pq-146"
+      ],
+      "Dyspo": [
+        "pq-152"
+      ],
+      "SSGSS Vegeta (Evolved)": [
+        "pq-153"
+      ],
+      "Gamma 1": [
+        "pq-155",
+        "pq-159"
+      ],
+      "Gohan (DBS Super Hero)": [
+        "pq-157"
+      ],
+      "Gamma 2": [
+        "pq-159"
+      ],
+      "Gohan (Beast)": [
+        "pq-161"
+      ],
+      "Orange Piccolo": [
+        "pq-161"
+      ],
+      "Yamcha (Supervillain)": [
+        "pq-162"
+      ],
+      "Gohan (Adult)": [
+        "pq-167"
+      ],
+      "Android 18 (DB Super)": [
+        "pq-170"
+      ],
+      "Supreme Kai of Time": [
+        "pq-174"
+      ],
+      "Jiren (Full Power) Ultra Supervillain": [
+        "pq-177",
+        "pq-178"
+      ],
+      "Vegeta (Super Saiyan God)": [
+        "pq-179",
+        "pq-180"
+      ],
+      "SS4 Goku (DAIMA)": [
+        "pq-184"
+      ],
+      "Fused Zamasu": [
+        "pq-185"
+      ],
+      "Fused Zamasu (Half-Corrupted)": [
+        "pq-185"
+      ]
+    },
+    "dlc": {
+      "Super Pack 1": [
+        "pq-101",
+        "pq-102",
+        "pq-103"
+      ],
+      "Super Pack 2": [
+        "pq-104",
+        "pq-105",
+        "pq-106"
+      ],
+      "Super Pack 3": [
+        "pq-107",
+        "pq-108",
+        "pq-109"
+      ],
+      "Super Pack 4": [
+        "pq-110",
+        "pq-111",
+        "pq-112"
+      ],
+      "Extra Pack 1": [
+        "pq-113",
+        "pq-114",
+        "pq-115",
+        "pq-116",
+        "pq-117"
+      ],
+      "Extra Pack 2": [
+        "pq-118",
+        "pq-119",
+        "pq-120",
+        "pq-121",
+        "pq-122"
+      ],
+      "Extra Pack 3": [
+        "pq-123",
+        "pq-124",
+        "pq-125",
+        "pq-126",
+        "pq-127"
+      ],
+      "Extra Pack 4": [
+        "pq-128",
+        "pq-129",
+        "pq-130",
+        "pq-131",
+        "pq-132"
+      ],
+      "Ultra Pack 1": [
+        "pq-133",
+        "pq-134",
+        "pq-135",
+        "pq-136",
+        "pq-137"
+      ],
+      "Ultra Pack 2": [
+        "pq-138",
+        "pq-139",
+        "pq-140",
+        "pq-141",
+        "pq-142",
+        "pq-143"
+      ],
+      "Legendary Pack 1": [
+        "pq-144",
+        "pq-145",
+        "pq-146"
+      ],
+      "Legendary Pack 2": [
+        "pq-147",
+        "pq-148",
+        "pq-149",
+        "pq-150"
+      ],
+      "Conton City Vote Pack": [
+        "pq-151",
+        "pq-152",
+        "pq-153",
+        "pq-154"
+      ],
+      "Hero of Justice Pack 1": [
+        "pq-155",
+        "pq-156",
+        "pq-157",
+        "pq-158"
+      ],
+      "Hero of Justice Pack 2": [
+        "pq-159",
+        "pq-160",
+        "pq-161",
+        "pq-162"
+      ],
+      "Future Saga Chapter 1": [
+        "pq-163",
+        "pq-164",
+        "pq-165",
+        "pq-166",
+        "pq-167",
+        "pq-168",
+        "pq-169",
+        "pq-170",
+        "pq-171",
+        "pq-172",
+        "pq-173",
+        "pq-174"
+      ],
+      "Future Saga Chapter 2": [
+        "pq-175",
+        "pq-176",
+        "pq-177",
+        "pq-178"
+      ],
+      "Dragon Ball DAIMA Pack": [
+        "pq-179",
+        "pq-180",
+        "pq-181"
+      ],
+      "Future Saga Chapter 3": [
+        "pq-182",
+        "pq-183",
+        "pq-184"
+      ],
+      "Future Saga Chapter 4": [
+        "pq-185",
+        "pq-186"
+      ],
+      "FUTURE SAGA Chapter 4": [
+        "pq-185",
+        "pq-186"
+      ]
+    },
+    "farming": {
+      "Dragon Balls": [
+        "pq-015",
+        "pq-022",
+        "pq-044",
+        "pq-045",
+        "pq-068",
+        "pq-083",
+        "pq-088"
+      ]
+    }
+  },
+  "counts": {
+    "skills": 244,
+    "super_souls": 133,
+    "equipment": 134,
+    "characters": 75,
+    "dlc": 21,
+    "farming": 1
+  }
+}
