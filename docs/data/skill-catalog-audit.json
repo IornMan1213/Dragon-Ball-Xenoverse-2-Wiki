@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 657,
+  "latest_research_batch": 658,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier: Batch 657 reviewed Consecutive Energy Blast, Core Breaker, Full Power Energy Wave, Gigantic Cross, and Gigantic Nova; all remain null.",
+  "current_research_focus": "Race restriction frontier: Batch 658 reviewed Blaster Stream, Break Strike, Chaotic Time Impact, Evil Explosion (Super), and Minus Energy Power Ball; all remain null.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1121,6 +1121,16 @@
         "Full Power Energy Wave",
         "Gigantic Cross",
         "Gigantic Nova"
+      ],
+      "reclassified": 0
+    },
+    "batch_658": {
+      "reviewed": [
+        "Blaster Stream",
+        "Break Strike",
+        "Chaotic Time Impact",
+        "Evil Explosion (Super)",
+        "Minus Energy Power Ball"
       ],
       "reclassified": 0
     }
