@@ -7457,3 +7457,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill records or PQ relationships were changed and no game patch/version numbers were inferred.
 - [x] Updated the provenance registry/audit/schema to **115 direct/corroborated skill→event mappings**.
 - [ ] **Exact next:** audit the Super Pack 4 DLC-label anomalies, then begin evidence-bound `race_restriction` enrichment for the remaining **79** null records and continue PQ↔skill/Super Soul/equipment cross-linking.
+
+
+### 2026-09-29 continuation — Super Pack 4 attribution boundary audit batch 642
+- [x] Verified official Bandai Namco storefront metadata: Super Pack 4 lists 5 Additional Skills and released June 27, 2017. 
+- [x] Added docs/data/skill-research-batches/skill-batch-642.json documenting the discrepancy between the official marketed count and the broader canonical DLC-label cohort.
+- [x] Preserved the existing five supported DLC skill mappings; no additional mappings were invented from the DLC label alone.
+- [x] Recorded the distinction between CaC/DLC skills and character-specific moves/Sword of Hope so later provenance work does not collapse separate acquisition contexts.
+- [x] No canonical skill records or PQ relationships changed.
+- [ ] Next: begin evidence-bound research for the remaining 79 null race_restriction canonical records, storing candidates/provenance separately before any canonical mutation.
