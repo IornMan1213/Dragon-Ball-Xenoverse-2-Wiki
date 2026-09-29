@@ -1,0 +1,179 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 643,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "race_restriction_evidence_frontier",
+  "scope": "Conservative evidence boundary for null race_restriction records; no canonical mutation.",
+  "records_reviewed": 20,
+  "candidates": [
+    {
+      "id": "skill-android-kick",
+      "name": "Android Kick",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-armored-boost",
+      "name": "Armored Boost",
+      "class": "Evasive",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-backflip",
+      "name": "Backflip",
+      "class": "Evasive",
+      "dlc": "Base Game",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": null,
+      "name": "Blades of Judgement",
+      "class": "Super",
+      "dlc": "Super Pack 4",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-blaster-stream",
+      "name": "Blaster Stream",
+      "class": "Ultimate",
+      "dlc": "Legendary Pack 2",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-break-strike",
+      "name": "Break Strike",
+      "class": "Evasive",
+      "dlc": "Base Game",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-burning-spin",
+      "name": "Burning Spin",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-burning-strike",
+      "name": "Burning Strike",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": null,
+      "name": "Burst Attack",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-chaotic-time-impact",
+      "name": "Chaotic Time Impact",
+      "class": "Ultimate",
+      "dlc": "Future Saga Chapter 3",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-circle-flash",
+      "name": "Circle Flash",
+      "class": "Ultimate",
+      "dlc": "Conton City Vote Pack",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-consecutive-energy-blast",
+      "name": "Consecutive Energy Blast",
+      "class": "Super",
+      "dlc": "Base Game",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-core-breaker",
+      "name": "Core Breaker",
+      "class": "Ultimate",
+      "dlc": "Hero of Justice Pack 1",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": null,
+      "name": "Cross Arm Dive",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-crusher-volcano",
+      "name": "Crusher Volcano",
+      "class": "Ultimate",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": null,
+      "name": "Destructive Ray",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": null,
+      "name": "Die Die Missile Barrage",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": null,
+      "name": "Double Buster",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-drain-charge",
+      "name": "Drain Charge",
+      "class": "Super",
+      "dlc": null,
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    },
+    {
+      "id": "skill-energy-wave-combo",
+      "name": "Energy Wave Combo",
+      "class": "Super",
+      "dlc": "Base Game",
+      "candidate_race_restriction": null,
+      "evidence_status": "insufficient_for_canonical_mutation"
+    }
+  ],
+  "validation": {
+    "null_race_restriction_total": 79,
+    "records_reviewed": 20,
+    "canonical_skill_records_changed": 0,
+    "unsupported_assignments": 0
+  },
+  "boundary": "Do not infer race restriction from skill category, character user, or PQ acquisition. Remaining nulls require per-skill restriction evidence.",
+  "next": "Research explicit race-exclusive skills individually, then resolve generic skills and retire nulls only with direct support."
+}
