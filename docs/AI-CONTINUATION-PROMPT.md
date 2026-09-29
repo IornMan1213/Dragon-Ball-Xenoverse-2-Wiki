@@ -7547,3 +7547,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved all six `race_restriction` values as null because no explicit CaC race/gender restriction was established.
 - [x] Added `docs/data/skill-research-batches/skill-batch-651.json` and updated the catalog audit.
 - [ ] Continue exact-skill research through the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Null race restriction boundary batch 651
+- [x] Reviewed Sonic Kick, Sledgehammer, Turn Retreat, and Spinning Blade.
+- [x] Preserved all four `race_restriction` values as null because reviewed exact evidence does not establish a CaC race/gender restriction.
+- [x] Added `docs/data/skill-research-batches/skill-batch-651.json` and updated the catalog audit.
+- [ ] Continue exact-skill research through the remaining null race-restriction frontier.
