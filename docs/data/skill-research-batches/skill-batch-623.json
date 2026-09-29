@@ -1,0 +1,20 @@
+{
+  "batch_id": 623,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 521,
+  "new_canonical_count": 522,
+  "index_count": 522,
+  "records": [
+    "Swallow Shot"
+  ],
+  "source_batch": 249,
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "acquisition_route": "Parallel Quest 159 — Heroic Showdown",
+  "ultimate_finish_required": null,
+  "boundary": "Only the historical record with explicit usable_by_cac=true evidence was promoted; no unsupported Ultimate Finish requirement or combat values were inferred.",
+  "reconciliation_note": "Historical Batch 249 explicitly identifies Swallow Shot as a CaC-usable Ki Blast Super used by Videl (DB Super), with Hero of Justice Pack 2 and Parallel Quest 159 provenance. The live canonical and index stores now remain at 522/522.",
+  "next": "Continue indexed-only reconciliation using explicit CaC evidence; preserve cast-only, unresolved, and spelling-alias boundaries."
+}
