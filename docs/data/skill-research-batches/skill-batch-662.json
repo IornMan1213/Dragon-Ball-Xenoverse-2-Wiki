@@ -1,0 +1,60 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 662,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Direct-source follow-up on five canonical null race_restriction CaC-usable skills.",
+  "records": [
+    {
+      "name": "Spirit Stab",
+      "race_restriction_result": null,
+      "evidence": "Prior repository batches explicitly reconciled Spirit Stab and retained null because reviewed evidence does not establish a CaC race/gender restriction. No new direct eligibility evidence warrants changing that result.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Spirit_Stab"
+      ]
+    },
+    {
+      "name": "Split Finger Shot",
+      "race_restriction_result": null,
+      "evidence": "Current canonical record remains CaC-usable with null race restriction. Reviewed repository evidence does not establish explicit retail CaC race/gender/form wording, so null is preserved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Split_Finger_Shot",
+        "https://dragonball.fandom.com/wiki/Split_Finger_Shot"
+      ]
+    },
+    {
+      "name": "Super Back Jump",
+      "race_restriction_result": null,
+      "evidence": "Prior research identifies Super Back Jump as a CaC-usable Evasive, but no explicit narrower CaC race/gender/form restriction was established. Evasive classification and character usage are insufficient to infer race.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Back_Jump",
+        "https://dragonball.fandom.com/wiki/Super_Back_Jump"
+      ]
+    },
+    {
+      "name": "Super Dragon Fist",
+      "race_restriction_result": null,
+      "evidence": "Prior dedicated research establishes Super Dragon Fist as a Future Warrior/CaC-usable Strike Super. No explicit CaC race/gender/form restriction was established in the reviewed evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Dragon_Fist",
+        "https://dragonball.fandom.com/wiki/Dragon_Fist"
+      ]
+    },
+    {
+      "name": "Super Drain",
+      "race_restriction_result": null,
+      "evidence": "Prior repository research establishes Super Drain as a CaC-usable skill. Reviewed evidence does not provide explicit CaC race/gender/form eligibility wording; therefore null remains the evidence-safe value.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Drain",
+        "https://dragonball.fandom.com/wiki/Super_Drain"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Only explicit CaC eligibility wording establishing a narrower race/gender/form condition can populate race_restriction; preserve null otherwise."
+}
