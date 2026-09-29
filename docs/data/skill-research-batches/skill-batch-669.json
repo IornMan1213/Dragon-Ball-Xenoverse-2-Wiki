@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "batch_id": 669,
   "date": "2026-09-29",
-  "status": "research_only_sync_ready",
+  "status": "canonical_promoted",
   "research_scope": "Explicit race-scope evidence for remaining null race-restriction skills.",
   "corrections": [
     {
@@ -13,7 +13,9 @@
       "sources": [
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "canonical_race_restriction": "All CaC races",
+      "canonical_mutation_pending": false
     },
     {
       "name": "Super Spirit Bomb",
@@ -23,7 +25,9 @@
       "sources": [
         "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29",
         "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
-      ]
+      ],
+      "canonical_race_restriction": "All CaC races",
+      "canonical_mutation_pending": false
     }
   ],
   "validation": {
@@ -32,5 +36,5 @@
     "nulls_preserved": 0,
     "unsupported_inferences": 0
   },
-  "next": "Continue explicit skill-specific race evidence across the remaining null cohort; do not infer Universal from generic Future Warrior technique lists."
+  "next": "Canonical promotion completed; continue remaining null race-restriction cohort with direct skill-specific evidence."
 }
