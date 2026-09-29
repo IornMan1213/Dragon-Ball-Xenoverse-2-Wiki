@@ -7614,3 +7614,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Treated Burning Strike's all-race statement on a PC mod as non-authoritative for retail eligibility rather than promoting it into canonical data.
 - [x] Added `docs/data/skill-research-batches/skill-batch-656.json` and updated the catalog audit.
 - [ ] Continue the remaining null race-restriction frontier, prioritizing direct retail-game eligibility wording.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 657
+- [x] Reviewed Consecutive Energy Blast, Core Breaker, Full Power Energy Wave, Gigantic Cross, and Gigantic Nova.
+- [x] Preserved all five `race_restriction` values as null; no direct retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-657.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
