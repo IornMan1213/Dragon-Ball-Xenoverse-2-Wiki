@@ -6701,3 +6701,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical database remains **548 records**; no unsupported canonical records or IDs were invented.
 - [x] Added `docs/data/skill-research-batches/skill-batch-635.json` and updated the audit.
 - [ ] Exact next phase: audit canonical coverage/recovery and cross-domain completeness now that the indexed-only frontier is closed.
+
+
+### 2026-09-29 continuation — Batch 635 closed indexed-only frontier
+- [x] Resolved the final two indexed-only identities: **Ill Flash** is CaC-usable; **Spiral of Condemnation** is confirmed unavailable for CaC.
+- [x] Indexed-only reconciliation frontier is now **0 remaining**.
+- [x] Verified canonical `docs/data/skills.json` count = **548** and `docs/data/skills-index.json` count = **548**.
+- [x] No canonical mutation was made: Ill Flash has no exact historical canonical ID in the repository, so no speculative record was created.
+- [x] Existing Batch 635 research record was retained and the audit was updated rather than creating a duplicate batch.
+- [ ] Exact next: shift from indexed-only name reconciliation to canonical coverage/recovery and exhaustive cross-domain field enrichment, preserving canonical data as the source of truth.
