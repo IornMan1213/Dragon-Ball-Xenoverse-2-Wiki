@@ -6683,3 +6683,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-research-batches/skill-batch-633.json`.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** seek explicit positive or negative CaC access evidence for the remaining 11 identities.
+
+
+### 2026-09-29 continuation — Batch 634 explicit CaC reconciliation
+- [x] Resolved **9** indexed-only identities with explicit CaC/Future Warrior access evidence: Super Explosive Wave (Super), Aura Slide, Go-Go Gum, Final Flash (Ultimate), Full Power Energy Wave (Ultimate), One-Handed Kamehameha, Soul Punisher, Special Beam Cannon (Ultimate), and Super Black Kamehameha.
+- [x] Reduced the indexed-only frontier **11 → 2**.
+- [x] Kept **Ill Flash** and **Spiral of Condemnation** unresolved because retrieved Xenoverse 2 evidence does not explicitly establish Future Warrior/CaC access.
+- [x] Canonical database remains **548 records**; no unsupported canonical IDs or records were created.
+- [x] Added `docs/data/skill-research-batches/skill-batch-634.json` and updated the catalog audit.
+- [ ] Exact next: resolve the final two identities with explicit access evidence, then determine whether any exact canonical records can be safely restored/promoted without inventing IDs.
