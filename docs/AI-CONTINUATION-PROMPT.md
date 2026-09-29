@@ -7919,3 +7919,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill/accessory mutation was made.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] Exact next: resolve only remaining accessory identities where exact canonical inventory evidence exists; otherwise preserve explicit unresolved/component-unresolved states, then return to mechanics and bidirectional database completeness.
+
+
+### 2026-09-29 continuation — Batch 690: external accessory identity reconciliation
+- [x] Added `docs/data/skill-research-batches/skill-batch-690.json`.
+- [x] Strengthened independent evidence for **Great Saiyaman Bandana 1 (PQ51)** and **Great Saiyaman Bandana 2 (PQ53)** with external inventory IDs **837** and **838**.
+- [x] Kept both records `unmatched_identity` in the repository's canonical accessory layer; external numeric IDs are evidence only and were not promoted to canonical IDs.
+- [x] No canonical skill/accessory mutation was made.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** resolve the remaining accessory identities only when explicit canonical inventory mappings exist; otherwise preserve evidence-backed unresolved states, then continue mechanics and bidirectional PQ reward completeness.
