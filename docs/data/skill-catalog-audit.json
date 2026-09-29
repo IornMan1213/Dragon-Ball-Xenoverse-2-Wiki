@@ -41,8 +41,8 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 626,
-  "canonical_catalog_generated": 545,
+  "latest_research_batch": 627,
+  "canonical_catalog_generated": 547,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical indexed-only CaC skill recovery and canonical/index parity",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
@@ -358,9 +358,9 @@
   },
   "indexed_only_reconciliation_2026_09_29": {
     "source_universe": 110,
-    "canonical_records": 545,
-    "resolved_from_source_universe": 48,
-    "remaining_indexed_only": 62,
+    "canonical_records": 547,
+    "resolved_from_source_universe": 50,
+    "remaining_indexed_only": 60,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
@@ -404,6 +404,8 @@
       "X100 Big Bang Kamehameha",
       "X20 Kaioken Kamehameha",
       "X4 Kaioken Kamehameha",
+      "Burning Spin",
+      "Burning Strike",
       "Sword of Hope",
       "Fighting Sun",
       "Super Explosive Wave (Evasive)",
@@ -454,8 +456,6 @@
       "Special Beam Cannon (Ultimate)",
       "Super Black Kamehameha",
       "Super Ghost Kamikaze Attack (Ultimate)",
-      "Burning Spin",
-      "Burning Strike",
       "Cookie Beam",
       "Self-Destruct",
       "Super Dragon Flight (Ultimate)",
@@ -475,8 +475,8 @@
       "The Saviour Has Come",
       "Lovely Showtime"
     ],
-    "method": "Exact case-insensitive comparison against authoritative canonical store; catalog/index evidence reviewed but not promoted without explicit CaC usability evidence.",
-    "next": "Continue unresolved frontier; next priority is exact evidence extraction for names not classified as cast-only/unavailable."
+    "method": "Exact case-insensitive comparison against authoritative canonical store; stale source-universe taxonomy may be corrected when current evidence establishes a different canonical class.",
+    "next": "Continue unresolved frontier using explicit usable_by_cac=true evidence and current-class correction where supported."
   },
   "recovery_batch_615": {
     "restored": [
@@ -722,5 +722,15 @@
     ],
     "reason": "Current indexed research explicitly marks these identities unavailable for CaC or otherwise lacks explicit usable_by_cac=true evidence; no speculative promotions made.",
     "boundary": "Peeler Storm is already separately represented as the Evasive CaC-usable implementation and must not be conflated with cast-only Super implementation."
+  },
+  "recovery_batch_627": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "restored": [
+      "Burning Spin",
+      "Burning Strike"
+    ],
+    "source_batch": 536,
+    "class_correction": true
   }
 }
