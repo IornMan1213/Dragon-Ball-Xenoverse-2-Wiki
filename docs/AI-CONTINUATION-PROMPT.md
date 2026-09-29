@@ -7346,3 +7346,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical mutation was made: Ill Flash has no exact historical canonical ID in the repository, so no speculative record was created.
 - [x] Existing Batch 635 research record was retained and the audit was updated rather than creating a duplicate batch.
 - [ ] Exact next: shift from indexed-only name reconciliation to canonical coverage/recovery and exhaustive cross-domain field enrichment, preserving canonical data as the source of truth.
+
+
+### 2026-09-29 continuation — Batch 635 closes indexed-only frontier
+- [x] Resolved the final **2** indexed-only identities.
+- [x] **Ill Flash** confirmed CaC-usable: Xenoverse 2 documentation states the Future Warrior can obtain it from the Skill Shop.
+- [x] **Spiral of Condemnation** confirmed unavailable to CaC: documented as unique/exclusive to Fused Zamasu (Half-Corrupted), with independent CaC-unobtainable corroboration.
+- [x] Indexed-only frontier is now **0**.
+- [x] Canonical database remains **548 records**; no speculative canonical records were added.
+- [x] Added `docs/data/skill-research-batches/skill-batch-635.json` and updated the catalog audit.
+- [ ] Exact next: perform final indexed-only/canonical/index consistency validation and identify any legitimate canonical recovery candidates rather than stopping at boundary reconciliation.
