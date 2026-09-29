@@ -1,0 +1,91 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 589,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "future_saga_chapter_1_skill_provenance_completion",
+  "scope": "Complete the individual skill-to-event provenance layer for the 15 skills registered to Future Saga Chapter 1 by reconciling the 11 previously unmapped PQ reward skills against canonical acquisition evidence and the official Chapter 1 release event.",
+  "canonical_source": "docs/data/skills.json",
+  "registry": "docs/data/game-content-version-provenance-registry.json",
+  "official_event_source": "bn_future_saga_ch1_2024",
+  "corroborating_skill_source": "community_pq_163_177_skill_catalog_2026",
+  "newly_mapped_skills": [
+    {
+      "skill_id": "skill-giant-cluster",
+      "name": "Gigantic Cluster",
+      "pq": "PQ163",
+      "note": "PQ reward source uses the alternate transcription Giant Cluster; canonical identity remains skill-giant-cluster."
+    },
+    {
+      "skill_id": "skill-eraser-bomb",
+      "name": "Eraser Bomb",
+      "pq": "PQ163"
+    },
+    {
+      "skill_id": "skill-gigantic-explosion",
+      "name": "Gigantic Explosion",
+      "pq": "PQ164"
+    },
+    {
+      "skill_id": "skill-variable-snipe-shot",
+      "name": "Variable Snipe Shot",
+      "pq": "PQ165"
+    },
+    {
+      "skill_id": "skill-steel-mirage",
+      "name": "Steel Mirage",
+      "pq": "PQ165"
+    },
+    {
+      "skill_id": "skill-pendulum-bullet",
+      "name": "Pendulum Bullet",
+      "pq": "PQ166"
+    },
+    {
+      "skill_id": "skill-seagull-combination",
+      "name": "Seagull Combination",
+      "pq": "PQ167"
+    },
+    {
+      "skill_id": "skill-burning-swan",
+      "name": "Burning Swan",
+      "pq": "PQ167"
+    },
+    {
+      "skill_id": "skill-justice-drive",
+      "name": "Justice Drive",
+      "pq": "PQ168"
+    },
+    {
+      "skill_id": "skill-divine-ray-bomb",
+      "name": "Divine Ray Bomb",
+      "pq": "PQ173"
+    },
+    {
+      "skill_id": "skill-final-rampage",
+      "name": "Final Rampage",
+      "pq": "PQ174"
+    }
+  ],
+  "reconciliation": {
+    "prior_registry_mappings": 4,
+    "newly_added_mappings": 11,
+    "resulting_chapter_1_mappings": 15,
+    "registered_event_skill_count": 15,
+    "pq_reward_evidence": "PQ163-PQ174 research and normalized reward records identify the listed skills as Chapter 1 PQ rewards.",
+    "official_boundary": "The official Chapter 1 release establishes the DLC event; it does not need to individually name every PQ reward skill for the corroborated mapping model.",
+    "confidence": "corroborated",
+    "version_policy": "Release-event provenance is not converted into a game version or balance-patch assignment."
+  },
+  "canonical_action": "No skills.json mutation. No new PQ relationship edges were created; this batch only adds provenance mappings for already-canonical skills and already-documented PQ rewards.",
+  "validation": {
+    "canonical_skills_changed": 0,
+    "new_pq_edges": 0,
+    "previous_mappings_retained": 4,
+    "new_mappings": 11,
+    "chapter_1_mapping_total": 15,
+    "unsupported_ids_invented": 0,
+    "unsupported_version_assignments": 0
+  },
+  "next": "Audit the next DLC event whose registered skill count exceeds its individually mapped skill count. Preserve unresolved mappings rather than assigning IDs from DLC proximity alone."
+}
