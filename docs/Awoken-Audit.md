@@ -50,3 +50,11 @@ Pre-transformed roster characters, enemy-only states, and mod-only forms are not
 - Awoken Skill guide/reference: https://dbxv2.fandom.com/wiki/Awoken_Skill
 
 > Status intentionally starts as **Research queued**. Entries are promoted only after their unlock conditions and mechanics are independently checked.
+
+
+## 2026-09-29 — Awoken race provenance Batch 671
+
+- Added awoken-research-batches/awoken-batch-671.json.
+- Hardened direct-source provenance for four Universal Awoken classifications: Kaioken, Potential Unleashed, Beast, and Ultra Instinct.
+- Evidence distinguishes race eligibility from acquisition; verified projection data was not used as source of truth.
+- Canonical mutation remains deferred; this is sync-ready provenance research.
