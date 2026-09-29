@@ -7482,3 +7482,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Made 0 canonical changes because the 11 restrictions were already present.
 - [x] Preserved the evidence rule: ordinary PQ acquisition does not establish equip restriction.
 - [ ] Next: identify exact **non-Awoken** race-restricted skills with direct evidence; preserve null where exact evidence is unavailable.
+
+
+### 2026-09-29 continuation — Explicit non-Awoken race restriction reconciliation batch 645
+- [x] Corroborated 12 exact non-Awoken race-restricted skills already represented in canonical data: Burning Slash, Shining Slash, Saiyan Spirit, Evil Flight Strike, Darkness Rush (Ranged), Namek Finger, Zigzag Express, Explosive Buu Buu Punch, Quick Sleep, Candy Beam, Ill Bomber, and Buu Buu Ball.
+- [x] Added `docs/data/skill-research-batches/skill-batch-645.json` with exact-skill evidence and conservative source boundaries.
+- [x] Made 0 canonical changes because all 12 restrictions were already populated.
+- [x] Exact references support Namekian/Majin and Majin-male restrictions where applicable; community lists are retained only as corroboration.
+- [ ] Next: continue exact per-skill evidence through the remaining null `race_restriction` records; preserve null when wording is ambiguous.
