@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 661,
+  "latest_research_batch": 662,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier: Batch 661 reviewed III Flash, III Rain, Sledgehammer, Sonic Kick, and Spinning Blade; all remain null.",
+  "current_research_focus": "Race restriction frontier: Batch 662 reviewed Spirit Stab, Split Finger Shot, Super Back Jump, Super Dragon Fist, and Super Drain; all remain null.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1161,6 +1161,16 @@
         "Sledgehammer",
         "Sonic Kick",
         "Spinning Blade"
+      ],
+      "reclassified": 0
+    },
+    "batch_662": {
+      "reviewed": [
+        "Spirit Stab",
+        "Split Finger Shot",
+        "Super Back Jump",
+        "Super Dragon Fist",
+        "Super Drain"
       ],
       "reclassified": 0
     }
