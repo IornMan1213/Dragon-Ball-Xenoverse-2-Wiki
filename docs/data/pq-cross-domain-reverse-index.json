@@ -1145,6 +1145,18 @@
       ],
       "The final battle begins now.": [
         "pq-186"
+      ],
+      "Flying Nimbus!!": [
+        "pq-002"
+      ],
+      "You cocky little...!": [
+        "pq-006"
+      ],
+      "This place Will be your grave!": [
+        "pq-164"
+      ],
+      "God of Destruction's Might": [
+        "pq-176"
       ]
     },
     "equipment": {
@@ -2118,18 +2130,18 @@
   },
   "counts": {
     "skills": 244,
-    "super_souls": 133,
-    "equipment": 134,
+    "super_souls": 137,
+    "equipment": 140,
     "characters": 75,
     "dlc": 21,
     "farming": 1
   },
   "relationship_edge_counts": {
+    "pq_rewards_equipment": 144,
     "pq_rewards_skill": 249,
-    "pq_rewards_super_soul": 135,
-    "pq_rewards_equipment": 137,
+    "pq_rewards_super_soul": 139,
+    "pq_farming_route": 7,
     "pq_features_character": 247,
-    "pq_requires_dlc": 88,
-    "pq_farming_route": 7
+    "pq_requires_dlc": 88
   }
 }
