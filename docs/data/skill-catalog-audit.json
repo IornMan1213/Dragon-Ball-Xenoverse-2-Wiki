@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-28",
-  "latest_research_batch": 591,
+  "latest_research_batch": 592,
   "canonical_catalog_generated": "2026-09-28",
   "canonical_sync_pending": false,
-  "current_research_focus": "Canonical database remains reconciled at 497 skills and 862 PQ relationship edges. Version/patch provenance is the active field-level layer; Future Saga Chapter 1 has all 15 registered skills individually mapped to its release event, and the March 2018 Free Update now has direct official provenance for Super Saiyan God Super Saiyan. Four 4th Festival identities remain outside skills.json because exact internal IDs are unresolved.",
+  "current_research_focus": "497 canonical skills and 862 PQ relationship edges remain reconciled. Version/patch provenance remains the active field-level layer; older free-update cohorts are being bound only where direct official skill-level evidence exists. Four 4th Festival identities remain outside skills.json because exact internal IDs are unresolved.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -287,7 +287,9 @@
   "free_update_2023_provenance_reconciliation_2026_09_29": {
     "batch": 591,
     "event_id": "free-update-2023-10-12",
-    "direct_skill_mappings_added": ["skill-ultra-instinct"],
+    "direct_skill_mappings_added": [
+      "skill-ultra-instinct"
+    ],
     "source_id": "bn_xv2_free_update_2023_10_12",
     "confidence": "direct",
     "canonical_mutations": 0,
@@ -304,5 +306,15 @@
     "limit_burst_boundary": "Limit Burst is documented as a new battle technique in the same update, but is not treated as a canonical skill record.",
     "canonical_mutations": 0,
     "unsupported_version_assignments": 0
+  },
+  "free_update_2021_super_saiyan_god_provenance_reconciliation_2026_09_29": {
+    "batch": 592,
+    "event_id": "free-update-2021-11-05",
+    "skill_id": "skill-super-saiyan-god",
+    "source_id": "bn_xv2_legendary_pack_2_2021",
+    "confidence": "direct",
+    "canonical_mutations": 0,
+    "unsupported_version_assignments": 0,
+    "finding": "Official Bandai Namco release evidence directly names Super Saiyan God as the new Awoken Skill in the 2021-11-05 accompanying free update."
   }
 }
