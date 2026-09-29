@@ -15561,6 +15561,32 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Swallow Shot",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Videl (DB Super)",
+      "dlc_requirement": "Hero of Justice Pack 2",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Parallel Quest 159 — Heroic Showdown",
+      "source_quest_or_shop": "Parallel Quest 159 — Heroic Showdown",
+      "ultimate_finish_required": null,
+      "skill_description": "Swallow Shot is a Ki Blast Super Attack used by Videl (DB Super).",
+      "mechanics_notes": "Fires a rapid Ki projectile as a Ki Blast Super.",
+      "verification_status": "verified_current_scope",
+      "research_status": "enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Swallow_Shot"
+      ],
+      "source_quest": "Parallel Quest 159",
+      "race_restriction": null,
+      "acquisition_type": "quest_or_mission",
+      "notes": "2026-09-29 historical catalog recovery: Batch 249 explicitly identifies Swallow Shot as CaC-usable and obtained from Parallel Quest 159. No unsupported Ultimate Finish requirement was inferred."
     }
   ],
   "last_verified": "2026-09-27",
