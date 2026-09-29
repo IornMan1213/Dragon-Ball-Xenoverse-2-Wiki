@@ -7187,3 +7187,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical skill records were mutated; `docs/data/skills.json` remains the sole canonical source of truth.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose the failing job-step logs.
 - [ ] **Exact next:** continue the remaining 70-record null race-restriction frontier without repeating prior reviewed identities; promote only direct skill-specific retail eligibility evidence, then return to older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Race restriction Batch 684
+- [x] Added `docs/data/skill-research-batches/skill-batch-684.json`.
+- [x] Reviewed **Full Power Energy Wave, Galick Beam Cannon, Gamma Impact, and Gigantic Cross** using current Xenoverse/Future Warrior-specific evidence.
+- [x] Preserved all four as `race_restriction: null`; the reviewed evidence establishes CaC/Future Warrior availability or character association but does not explicitly establish retail race/gender/form eligibility.
+- [x] No canonical skill records were mutated; `docs/data/skills.json` remains authoritative.
+- [x] Updated the catalog audit to Batch 684.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue the remaining 66-record frontier, prioritizing direct skill-specific retail eligibility wording and avoiding unsupported inference; then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
