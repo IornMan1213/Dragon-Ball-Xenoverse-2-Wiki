@@ -1,0 +1,126 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 639,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "super_pack_2_release_provenance_reconciliation",
+  "scope": "Bind all eight DB Super Pack 2 attacks to the official February 28, 2017 DLC release event without assigning a game version or patch number.",
+  "canonical_source": "docs/data/skills.json",
+  "official_source": {
+    "id": "bn_xv2_super_pack_2_2017",
+    "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-update-and-dlc-pack-2",
+    "announcement_date": "2017-02-21",
+    "release_date": "2017-02-28",
+    "finding": "Bandai Namco explicitly names eight new attacks in DB Super Pack 2: God of Destruction's Menace, God of Destruction's Roar, Destruction's Concerto: Comet, Destruction's Concerto: Starfall, Destruction's Concerto: Meteor, Destruction's Conductor, Requiem of Destruction, and Sonic Bomb."
+  },
+  "records": [
+    {
+      "skill_id": "skill-god-of-destruction-s-menace",
+      "skill_name": "God of Destruction's Menace",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names God of Destruction's Menace among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-god-of-destruction-s-roar",
+      "skill_name": "God of Destruction's Roar",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names God of Destruction's Roar among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-concerto-comet",
+      "skill_name": "Destruction's Concerto: Comet",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names Destruction's Concerto: Comet among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-concerto-starfall",
+      "skill_name": "Destruction's Concerto: Starfall",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names Destruction's Concerto: Starfall among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-concerto-meteor",
+      "skill_name": "Destruction's Concerto: Meteor",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names Destruction's Concerto: Meteor among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-destruction-s-conductor",
+      "skill_name": "Destruction's Conductor",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names Destruction's Conductor among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-requiem-of-destruction",
+      "skill_name": "Requiem of Destruction",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names Requiem of Destruction among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-sonic-bomb",
+      "skill_name": "Sonic Bomb",
+      "event_id": "super-pack-2",
+      "evidence_type": "official_named_skill",
+      "source_ids": [
+        "bn_xv2_super_pack_2_2017"
+      ],
+      "confidence": "direct",
+      "basis": "Official Bandai Namco explicitly names Sonic Bomb among the eight new attacks in DB Super Pack 2.",
+      "canonical_mutation": false
+    }
+  ],
+  "validation": {
+    "records_reviewed": 8,
+    "direct_official_mappings_added": 8,
+    "canonical_skill_records_created": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "boundary": {
+    "release_date": "2017-02-28 is event provenance only; no game version/patch label is inferred.",
+    "source_of_truth": "Canonical docs/data/skills.json remains authoritative; this batch enriches the provenance registry only."
+  },
+  "next": "Continue Super Pack 3/4 and Super Pack 1 provenance using explicit named-skill evidence; do not infer mappings from DLC labels alone."
+}
