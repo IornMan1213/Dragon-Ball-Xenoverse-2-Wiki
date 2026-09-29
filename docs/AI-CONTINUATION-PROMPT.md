@@ -7308,3 +7308,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-632.json`.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** resolve the remaining 10 identities using explicit CaC-positive or exact current-game evidence.
+
+
+### 2026-09-29 continuation — Evidence triage and frontier correction batch 633
+- [x] Rechecked the post-Batch-632 frontier against existing research evidence.
+- [x] Corrected a bookkeeping discrepancy: the actual unresolved indexed-only frontier is **11**, not 10.
+- [x] Preserved unresolved status for **Spiral of Condemnation**, **Aura Slide**, and **Go-Go Gum** because existing evidence does not explicitly establish CaC access.
+- [x] Preserved unresolved status for the remaining Ultimate identities where indexed taxonomy alone is insufficient to establish CaC access.
+- [x] Canonical database remains **548 records**; no unsupported canonical records were added.
+- [x] Added `docs/data/skill-research-batches/skill-batch-633.json`.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** seek explicit positive or negative CaC access evidence for the remaining 11 identities.
