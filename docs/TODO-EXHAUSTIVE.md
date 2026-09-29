@@ -6801,3 +6801,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/skill-catalog-audit.json` and the provenance schema to reflect **100 direct skill→event mappings**.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the older DLC provenance frontier with Super Pack 3/4 and Super Pack 1 using explicit official or independently corroborated named-skill evidence; then resume evidence-bound race-restriction and PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Super Pack 3 release provenance batch 640
+- [x] Added publisher evidence for Super Pack 3: the official-platform listing states **5 additional skills** and Steam records a **2017-04-25** release; Nintendo records the later Switch release separately, so platform dates remain distinct. citeturn0search1turn0search0
+- [x] Added `docs/data/skill-research-batches/skill-batch-640.json`.
+- [x] Added **5 corroborated** Super Pack 3 skill→event mappings without automatically promoting every record carrying the DLC label: Super Black Kamehameha Rosé, Divine Retribution, Grand Smasher, Psycho Barrier, and Reverse Launcher.
+- [x] No canonical skill records or PQ relationships were changed and no game version/patch number was inferred.
+- [x] Updated the skill audit and provenance schema to **105 direct/corroborated skill→event mappings**.
+- [ ] **Exact next:** continue Super Pack 1 and Super Pack 4 provenance with explicit official/corroborated evidence, then resume the 79 null `race_restriction` records and bidirectional PQ↔skill/Super Soul/equipment enrichment.
