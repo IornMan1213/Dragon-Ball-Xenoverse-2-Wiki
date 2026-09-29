@@ -1,0 +1,17 @@
+{
+  "batch_id": 616,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 510,
+  "new_canonical_count": 511,
+  "records": [
+    "Infinity Explosion"
+  ],
+  "source_batch": 265,
+  "canonical_ids_inferred": 0,
+  "pq_relationship_mutations": 0,
+  "index_parity": "511/511",
+  "acquisition_route": "null intentionally retained",
+  "next": "Continue historical Ki Blast Super recovery; distinguish CaC-usable records from cast-only/special-mode records."
+}
