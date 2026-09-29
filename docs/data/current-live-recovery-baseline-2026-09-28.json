@@ -8,8 +8,8 @@
     "rule": "Canonical forward datasets are authoritative; verified/index/projection layers are consumers or evidence only."
   },
   "current_live_baseline": {
-    "canonical_skills": 497,
-    "skills_index": 497,
+    "canonical_skills": 549,
+    "skills_index": 549,
     "pq_reward_relationships": 862,
     "pq_reward_counts": {
       "skill": 249,
@@ -25,7 +25,7 @@
     "verified_preset_skill_entries": 162,
     "exact_preset_to_canonical_matches": 162,
     "unmatched_verified_preset_skill_entries": 0,
-    "pq_skill_edges": 246
+    "pq_skill_edges": 249
   },
   "historical_recovery_baselines": {
     "pre_preset_skill_recovery": 474,
@@ -45,10 +45,9 @@
     "Runtime/CI/build remains unverified/non-blocking."
   ],
   "next_frontier": [
-    "Post-corruption database recovery remains clean: 497 canonical skills/index records and 862 canonical PQ relationship edges are synchronized.",
-    "Continue evidence-backed restriction review only where direct evidence can establish a narrower rule; preserve null race_restriction where evidence is insufficient.",
-    "Continue the version/patch provenance layer from explicit source evidence rather than manufacturing version fields.",
-    "Extra Pack 3 and Extra Pack 4 are now individually reconciled at 8/8 skills each; continue older DLC/free-update cohorts with explicit official counts or named skills.",
-    "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from the repaired canonical forward stores."
+    "Use 549 canonical skills / 549 synchronized index records / 862 canonical PQ relationship edges as the current post-corruption working baseline.",
+    "Continue evidence-backed race_restriction review; preserve null when direct evidence is insufficient.",
+    "Continue older DLC/free-update version provenance using explicit source evidence only.",
+    "Continue bidirectional PQ↔skill/Super Soul/equipment enrichment from canonical forward stores."
   ]
 }
