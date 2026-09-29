@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 667,
+  "date": "2026-09-29",
+  "status": "canonical_patch_ready",
+  "research_scope": "Race-restriction recovery for Brave Heat, using an explicit Xenoverse 2 Future Warrior source statement.",
+  "verification_policy": "Only promote an unrestricted race classification when the source explicitly states all-race use.",
+  "records": [
+    {
+      "name": "Brave Heat",
+      "class": "Ultimate",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "evidence": "The Xenoverse 2 Future Warrior reference explicitly describes Brave Heat as a variant of Saiyan Spirit usable by all races.",
+      "sources": [
+        "https://thecodex.wiki/Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "canonical_mutation_pending": true
+    }
+  ],
+  "validation": {
+    "records_reviewed": 1,
+    "reclassified": 1,
+    "explicit_unrestricted_records": 1,
+    "unsupported_inferences": 0
+  },
+  "next": "Continue the null race-restriction cohort; preserve null where the available source only establishes Future Warrior acquisition without race scope."
+}
