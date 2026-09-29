@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 592,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "free_update_2021_super_saiyan_god_provenance_reconciliation",
+  "scope": "Bind the canonical Super Saiyan God Awoken Skill to the 2021-11-05 free update using direct official release evidence, without assigning a patch/version label.",
+  "canonical_source": "docs/data/skills.json",
+  "official_source": {
+    "id": "bn_xv2_legendary_pack_2_2021",
+    "publisher": "Bandai Namco Entertainment Europe",
+    "title": "DRAGON BALL XENOVERSE 2 LEGENDARY PACK 2 out today!",
+    "date": "2021-11-05",
+    "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-legendary-pack-2-out-today",
+    "finding": "The official release notice states that an exciting free update was released alongside Legendary Pack 2 and explicitly names the new Awoken Skill 'Super Saiyan God'."
+  },
+  "finding": {
+    "skill_id": "skill-super-saiyan-god",
+    "skill_name": "Super Saiyan God",
+    "event_id": "free-update-2021-11-05",
+    "evidence_type": "official_free_update_named_skill",
+    "confidence": "direct",
+    "basis": "Bandai Namco's dated 2021-11-05 release notice directly identifies Super Saiyan God as the new Awoken Skill in the accompanying free update. The canonical skill ID is already present in docs/data/skills.json; no ID is inferred."
+  },
+  "canonical_action": "No skills.json mutation. Add only release-provenance linkage.",
+  "version_boundary": "The release date establishes content provenance only. No game version or patch number is assigned because the cited official notice does not provide one.",
+  "validation": {
+    "canonical_skill_exists": true,
+    "exact_skill_id_recovered": "skill-super-saiyan-god",
+    "direct_skill_event_mapping_added": true,
+    "canonical_skill_mutations": 0,
+    "unsupported_version_assignments": 0
+  }
+}
