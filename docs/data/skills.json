@@ -16250,6 +16250,56 @@
         "https://dbxv2.fandom.com/wiki/Crystal_Raid_Battle"
       ],
       "id": "skill-peeler-storm-evasive"
+    },
+    {
+      "name": "Burning Spin",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Videl",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "skill_description": "A close-range spinning strike technique.",
+      "mechanics_notes": "Batch 536 explicitly classifies Burning Spin as a Strike Super and CaC-usable. Exact timing, hit count, scaling, and hidden conditions remain unresolved.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Burning_Spin"
+      ],
+      "id": "skill-burning-spin"
+    },
+    {
+      "name": "Burning Strike",
+      "class": "Super",
+      "subcategory": "Strike",
+      "race_restriction": null,
+      "usable_by_cac": true,
+      "character_source": "Videl",
+      "dlc_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "damage_type": "Strike",
+      "unlock_method": null,
+      "source_quest_or_shop": null,
+      "ultimate_finish_required": null,
+      "skill_description": "A forward strike technique associated with Videl.",
+      "mechanics_notes": "Batch 536 explicitly classifies Burning Strike as a Strike Super and CaC-usable. Exact timing, hit count, scaling, and hidden conditions remain unresolved.",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Burning_Strike"
+      ],
+      "id": "skill-burning-strike"
     }
   ],
   "last_verified": "2026-09-27",
@@ -16432,6 +16482,18 @@
         "Special Beam Cannon (Super)"
       ],
       "boundary": "Reviewed indexed-only candidates against repository research. Cast-exclusive/unavailable-for-CaC records were not promoted. Peeler Storm is retained as an Evasive because repository evidence explicitly establishes the Time Patroller/Crystal Raid implementation; Evil Explosion (Super) is promoted from explicit Piccolo-training/player availability evidence."
+    },
+    "skill_research_batch_627": {
+      "batch": 627,
+      "date": "2026-09-29",
+      "type": "canonical_recovery",
+      "records_promoted": 2,
+      "names": [
+        "Burning Spin",
+        "Burning Strike"
+      ],
+      "source_batch": 536,
+      "boundary": "Current evidence corrects stale indexed Ultimate categorization to Super/Strike; explicit usable_by_cac=true evidence supports promotion."
     }
   }
 }
