@@ -1,0 +1,61 @@
+{
+  "batch_id": 657,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Direct-source follow-up on five remaining null-race CaC-usable skills.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Consecutive Energy Blast",
+      "race_restriction": null,
+      "finding": "Current Xenoverse 2 reference and prior repository reconciliation establish Skill Shop/CaC availability and broad character use, but no explicit CaC race/gender/form restriction. Character presets using the skill are not race eligibility evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast",
+        "https://dbxv2.fandom.com/wiki/Android_17",
+        "https://dbxv2.fandom.com/wiki/Goten"
+      ]
+    },
+    {
+      "name": "Core Breaker",
+      "race_restriction": null,
+      "finding": "Current Xenoverse 2 character documentation confirms Core Breaker as Gamma 2's Ultimate, while the recovered canonical/research layer marks it CaC-usable. No explicit CaC race/gender/form restriction was established; Gamma 2 being an Android is character ownership, not CaC restriction evidence.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gamma_2"
+      ]
+    },
+    {
+      "name": "Full Power Energy Wave",
+      "race_restriction": null,
+      "finding": "Dedicated skill research establishes Skill Shop/story-gated acquisition and extremely broad character availability, including multiple races and customizable partners, but does not establish a narrower CaC race/gender/form restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_(Ultimate)",
+        "https://dragonball.fandom.com/wiki/Full_Power_Energy_Wave"
+      ]
+    },
+    {
+      "name": "Gigantic Cross",
+      "race_restriction": null,
+      "finding": "Current Broly documentation lists Gigantic Cross among Broly's Ki Blast Supers and the canonical record is CaC-usable. No direct retail eligibility wording establishing a CaC race/gender/form restriction was recovered.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Broly_(Full_Power_Super_Saiyan)"
+      ]
+    },
+    {
+      "name": "Gigantic Nova",
+      "race_restriction": null,
+      "finding": "Dedicated skill research establishes Conton City Patrol 17 acquisition and Broly/Customize Partner association, but no explicit CaC race/gender/form restriction. Broly character ownership does not establish a CaC restriction.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gigantic_Nova",
+        "https://dragonball.fandom.com/wiki/Gigantic_Nova"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "reclassified": 0,
+    "canonical_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "next": "Continue the remaining null-race cohort with direct retail eligibility evidence."
+}
