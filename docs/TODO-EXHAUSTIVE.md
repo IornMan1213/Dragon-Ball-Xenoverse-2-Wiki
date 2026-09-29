@@ -7209,3 +7209,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled the frontier logic: the 74 null-race records should **not** be treated as 74 untouched records. Prior batches already cover many of them; future work must avoid repeating identical boundary audits.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** identify any genuinely unreviewed null-race identities; otherwise stop spending cycles on already-established null boundaries and advance to DLC/free-update provenance, mechanics enrichment, and cross-database relationship completeness.
+
+
+### 2026-09-29 continuation — Race restriction Batch 686
+- [x] Added `docs/data/skill-research-batches/skill-batch-686.json`.
+- [x] Directly reviewed Backflip, Blades of Judgement, Circle Flash, Energy Wave Combo, and Double Buster.
+- [x] Preserved all five as `race_restriction: null`; no explicit retail race/gender/form restriction was established.
+- [x] No canonical skill records were mutated; `docs/data/skills.json` remains authoritative.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: identify remaining genuinely unreviewed null-race identities, then advance to DLC/free-update provenance, mechanics enrichment, and bidirectional PQ↔skill/Super Soul/equipment completeness.
