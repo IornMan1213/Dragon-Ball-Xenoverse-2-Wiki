@@ -7227,3 +7227,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Kept event provenance separate from individual canonical skill mappings; no canonical `skills.json` reconstruction or unsupported skill-to-release assignment was performed.
 - [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] Exact next: reconcile individual skill mappings for these early packs where direct skill-level evidence exists, while continuing broader DLC/free-update provenance and mechanics/cross-database enrichment.
+
+
+### 2026-09-29 continuation — Batch 687: base-game launch provenance
+- [x] Added `docs/data/skill-research-batches/skill-batch-687.json` for the official base-game launch event.
+- [x] Added `bn_xv2_launch_2016` and `base-game-launch` to `docs/data/game-content-version-provenance-registry.json`.
+- [x] Recorded the official Americas PS4/Xbox One launch date as 2016-10-25 and the Steam PC date as 2016-10-27 from Bandai Namco's launch notice.
+- [x] Preserved the boundary that a launch event does not by itself prove individual canonical skill release membership; no speculative skill mappings or patch/version assignments were added.
+- [x] Early Super Pack 1-4 provenance/mapping work remains preserved in Batches 639-642; do not repeat it as unfinished work.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] Exact next: continue remaining early free-update provenance and direct skill-level mappings, then advance to mechanics and cross-database completeness.
