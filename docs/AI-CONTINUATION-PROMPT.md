@@ -7217,3 +7217,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Corrected the indexed-only census: **44** of the maintained 110-name source universe are now canonical, leaving **66** genuinely unresolved names.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] **Exact next:** continue explicit-CaC historical recovery from the remaining 66 names; do not promote cast-only, special-mode, alias, or unresolved identities.
+
+
+### 2026-09-29 continuation — Canonical recovery batch 625
+- [x] Promoted **Super Drain** and **X100 Big Bang Kamehameha** from explicit CaC-usable evidence.
+- [x] Preserved **Aura Slide** as unresolved because the historical record does not establish usable_by_cac=true.
+- [x] Synchronized the canonical/index stores to **543/543**.
+- [x] Added and registered skill recovery batch 625.
+- [x] Fresh indexed-only census now leaves **64** unresolved names from the maintained 110-name source universe.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue explicit-CaC recovery from the remaining indexed-only frontier without promoting unresolved, cast-only, alias, or special-mode identities.
