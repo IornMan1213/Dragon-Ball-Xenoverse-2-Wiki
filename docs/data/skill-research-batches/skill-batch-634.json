@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 634,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "indexed_only_reconciliation",
+  "scope": "Explicit CaC access evidence for the remaining indexed-only frontier.",
+  "source_of_truth": "docs/data/skills.json",
+  "canonical_mutation": false,
+  "confirmed_cac_positive": [
+    "Super Explosive Wave (Super)",
+    "Aura Slide",
+    "Go-Go Gum",
+    "Final Flash (Ultimate)",
+    "Full Power Energy Wave (Ultimate)",
+    "One-Handed Kamehameha",
+    "Soul Punisher",
+    "Special Beam Cannon (Ultimate)",
+    "Super Black Kamehameha"
+  ],
+  "evidence": [
+    {
+      "name": "Super Explosive Wave (Super)",
+      "evidence": "Dedicated XV2 documentation states Unlock: Training with Gohan (Future).",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_%28Super%29"
+    },
+    {
+      "name": "Aura Slide",
+      "evidence": "Dedicated XV2 documentation states Unlock: TP Medal Shop; independent Dragon Ball reference states Future Warrior can obtain it from TP Medal Shop.",
+      "source": "https://dbxv2.fandom.com/wiki/Aura_Slide"
+    },
+    {
+      "name": "Go-Go Gum",
+      "evidence": "Dedicated XV2 documentation explicitly identifies Majin CaCs as notable users; independent Dragon Ball reference states Future Warrior can purchase it from Skill Shop.",
+      "source": "https://dbxv2.fandom.com/wiki/Go-Go_Gum"
+    },
+    {
+      "name": "Final Flash (Ultimate)",
+      "evidence": "Dedicated XV2 documentation states Unlock: Training with Vegeta.",
+      "source": "https://dbxv2.fandom.com/wiki/Final_Flash_%28Ultimate%29"
+    },
+    {
+      "name": "Full Power Energy Wave (Ultimate)",
+      "evidence": "Dedicated XV2 documentation states Skill Shop acquisition and lists broad character use; the Ultimate Attack index includes it as a standard Ultimate.",
+      "source": "https://dbxv2.fandom.com/wiki/Full_Power_Energy_Wave_%28Ultimate%29"
+    },
+    {
+      "name": "One-Handed Kamehameha",
+      "evidence": "Dedicated XV2 documentation states Unlock: TP Medal Shop; independent Dragon Ball reference explicitly states Future Warrior can obtain it.",
+      "source": "https://dbxv2.fandom.com/wiki/One-Handed_Kamehameha"
+    },
+    {
+      "name": "Soul Punisher",
+      "evidence": "Dedicated XV2 documentation states Unlock: Skill Shop.",
+      "source": "https://dbxv2.fandom.com/wiki/Soul_Punisher"
+    },
+    {
+      "name": "Special Beam Cannon (Ultimate)",
+      "evidence": "Dedicated XV2 documentation states Unlock: Training with Piccolo; independent Dragon Ball reference explicitly states Future Warrior can learn it.",
+      "source": "https://dbxv2.fandom.com/wiki/Special_Beam_Cannon_%28Ultimate%29"
+    },
+    {
+      "name": "Super Black Kamehameha",
+      "evidence": "Dedicated XV2 documentation states Unlock: TP Medal Shop.",
+      "source": "https://dbxv2.fandom.com/wiki/Super_Black_Kamehameha"
+    }
+  ],
+  "unresolved": [
+    "Ill Flash",
+    "Spiral of Condemnation"
+  ],
+  "validation": {
+    "canonical_skills": 548,
+    "canonical_mutations": 0,
+    "remaining_indexed_only": 2
+  },
+  "next": "Resolve Ill Flash and Spiral of Condemnation only with explicit XV2 CaC/Future Warrior evidence; then audit whether any exact canonical records can safely be promoted without inventing IDs."
+}
