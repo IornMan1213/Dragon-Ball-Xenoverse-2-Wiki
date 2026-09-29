@@ -42,7 +42,7 @@
   ],
   "last_audited": "2026-09-29",
   "latest_research_batch": 618,
-  "canonical_catalog_generated": 515,
+  "canonical_catalog_generated": 517,
   "canonical_sync_pending": false,
   "current_research_focus": "Historical Ki Blast Super recovery and indexed-only reconciliation",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
@@ -64,10 +64,10 @@
     "projection_rule": "Indexes/catalogs/research batches are evidence or projections only and cannot override canonical skills.json."
   },
   "catalog_identity_reconciliation_2026_09_27": {
-    "canonical_skill_records": 497,
+    "canonical_skill_records": 517,
     "unique_indexed_category_records": 555,
     "category_count_sum": 561,
-    "indexed_only_unique_names": 112,
+    "indexed_only_unique_names": 110,
     "unavailable_cac_overlap": 28,
     "canonical_duplicate_name_case_insensitive": [
       "Super Ghost Kamikaze Attack"
@@ -76,7 +76,6 @@
     "methodology": "Compared exact case-insensitive skill names from the 12 maintained category catalogs against authoritative docs/data/skills.json. Duplicate category appearances are de-duplicated for the unique-universe count. Unavailable-for-CaC is supporting evidence only.",
     "interpretation": "The 112 indexed-only names are not automatically missing canonical records: many may be cast-only, variant-specific, duplicate-looking, historical, or otherwise outside the current canonical corpus scope. The 28-name overlap with the unavailable-for-CaC catalog identifies a strong cast-only review subset, not an automatic promotion list. The canonical duplicate-name collision is preserved for identity reconciliation.",
     "indexed_only_names": [
-      "Blades of Judgement",
       "Bloody Sauce",
       "Burst Attack",
       "Destructive Ray",
@@ -96,7 +95,6 @@
       "Ill Flash",
       "Infinity Explosion",
       "Justice Crush (Festival)",
-      "Kamekameha",
       "Light Grenade (Super)",
       "Light of Justice",
       "Marbling Drop",
@@ -429,18 +427,20 @@
     "note": "Batch 617 reconciled historical CaC-usable records. Die Die Missile Barrage was restored in this continuation; Super Volley was already restored by the batch's earlier write. No cast-only or special-mode records were promoted."
   },
   "recovery_batch_618": {
-    "batch": 618,
+    "status": "applied",
     "date": "2026-09-29",
+    "previous_canonical_count": 515,
+    "new_canonical_count": 517,
+    "index_records": 517,
     "restored": [
-      "Light Grenade (Super)"
+      "Blades of Judgement",
+      "Kamekameha"
     ],
     "source_batches": [
-      274
+      250,
+      254
     ],
-    "basis": "Historical research batch explicitly marked the Super variant CaC-usable with Piccolo training acquisition; no canonical ID inferred.",
-    "canonical_skill_records": 515,
-    "index_records": 515,
-    "indexed_only_recovery_frontier": 84,
+    "canonical_ids_inferred": 0,
     "pq_relationship_mutations": 0
   }
 }
