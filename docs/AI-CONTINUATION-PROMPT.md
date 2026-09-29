@@ -7986,3 +7986,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill database reconstruction or mutation was performed.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Next:** expand missing Super Soul and clothing/accessory reward edges, then reconcile reverse-index coverage against canonical domains.
+
+
+### 2026-09-29 continuation — PQ reverse-index expansion
+- [x] Regenerated `docs/data/pq-cross-domain-reverse-index.json` directly from `pq-reward-relationships.json`.
+- [x] Current forward edge totals: 249 skill, 135 Super Soul, 137 equipment, 247 character, 88 DLC, 7 farming.
+- [x] Current reverse target coverage: 244 skills, 133 Super Souls, 134 equipment, 75 characters, 21 DLC, 1 farming.
+- [x] Reverse index explicitly declares absence is not a negative claim.
+- [ ] Runtime/CI remains intentionally unverified because failing job-step logs are unavailable through connected GitHub diagnostics.
+- [ ] Exact next: expand source-backed reverse coverage/canonical target links, then reconcile reward-slot and Ultimate Finish conflicts.
