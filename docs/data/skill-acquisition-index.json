@@ -18,24 +18,96 @@
     "unresolved_exact_drop_rates": 18
   },
   "records": [
-    {"skill":"Murder Grenade","expert_mission":3,"status":"partially_verified"},
-    {"skill":"Super Destructo-Disc","expert_mission":4,"status":"partially_verified"},
-    {"skill":"Death Wave","expert_mission":5,"status":"partially_verified"},
-    {"skill":"Supernova","expert_mission":6,"status":"partially_verified"},
-    {"skill":"Death Meteor","expert_mission":7,"status":"partially_verified"},
-    {"skill":"Dead End Bullet","expert_mission":8,"status":"partially_verified"},
-    {"skill":"Assault Rain","expert_mission":9,"status":"partially_verified"},
-    {"skill":"Hellzone Grenade","expert_mission":10,"status":"partially_verified"},
-    {"skill":"Super Electric Strike","expert_mission":11,"status":"partially_verified"},
-    {"skill":"Angry Explosion","expert_mission":12,"status":"partially_verified"},
-    {"skill":"Dead End Rain","expert_mission":13,"status":"partially_verified"},
-    {"skill":"Shocking Death Ball","expert_mission":14,"status":"partially_verified"},
-    {"skill":"Blue Hurricane","expert_mission":15,"status":"partially_verified"},
-    {"skill":"Super Spirit Bomb","expert_mission":16,"status":"partially_verified"},
-    {"skill":"Spirit Sword","expert_mission":17,"status":"partially_verified"},
-    {"skill":"Focus Flash","expert_mission":18,"status":"partially_verified"},
-    {"skill":"Tail Slicer","expert_mission":19,"status":"partially_verified"},
-    {"skill":"Data Input","expert_mission":20,"status":"partially_verified"}
+    {
+      "skill": "Murder Grenade",
+      "expert_mission": 3,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Super Destructo-Disc",
+      "expert_mission": 4,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Death Wave",
+      "expert_mission": 5,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Supernova",
+      "expert_mission": 6,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Death Meteor",
+      "expert_mission": 7,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Dead End Bullet",
+      "expert_mission": 8,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Assault Rain",
+      "expert_mission": 9,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Hellzone Grenade",
+      "expert_mission": 10,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Super Electric Strike",
+      "expert_mission": 11,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Angry Explosion",
+      "expert_mission": 12,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Dead End Rain",
+      "expert_mission": 13,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Shocking Death Ball",
+      "expert_mission": 14,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Blue Hurricane",
+      "expert_mission": 15,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Super Spirit Bomb",
+      "expert_mission": 16,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Spirit Sword",
+      "expert_mission": 17,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Focus Flash",
+      "expert_mission": 18,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Tail Slicer",
+      "expert_mission": 19,
+      "status": "partially_verified"
+    },
+    {
+      "skill": "Data Input",
+      "expert_mission": 20,
+      "status": "partially_verified"
+    }
   ],
   "nonclaims": [
     "The index does not assert that an indexed skill is guaranteed on every clear.",
@@ -49,5 +121,8 @@
     "Reconcile first-clear versus repeat acquisition where evidence exists.",
     "Separate ordinary mission skill drops from raid-linked skills.",
     "Expand acquisition indexing beyond Expert Missions into Parallel Quests, mentors, shops, raids, tournaments, and other systems."
-  ]
+  ],
+  "latest_reconciliation_batch": 600,
+  "latest_reconciliation_scope": "Expert Mission EM03-20 current-numbering skill acquisition routes; 18 documented associations, exact rates/guarantees intentionally unresolved.",
+  "latest_reconciliation_record_count": 18
 }
