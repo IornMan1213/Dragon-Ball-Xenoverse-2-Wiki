@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 640,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "super_pack_3_release_provenance_reconciliation",
+  "scope": "Record official Super Pack 3 release/count evidence and add five corroborated canonical skill mappings without inventing unsupported individual mappings.",
+  "canonical_source": "docs/data/skills.json",
+  "sources": [
+    {
+      "id": "steam_super_pack_3_2017",
+      "url": "https://store.steampowered.com/app/508402",
+      "release_date": "2017-04-25",
+      "finding": "Publisher listing states Super Pack 3 includes five additional skills."
+    }
+  ],
+  "records": [
+    {
+      "skill_id": "skill-super-black-kamehameha-rose",
+      "skill_name": "Super Black Kamehameha Rosé",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-divine-retribution",
+      "skill_name": "Divine Retribution",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-grand-smasher",
+      "skill_name": "Grand Smasher",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-psycho-barrier",
+      "skill_name": "Psycho Barrier",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "canonical_mutation": false
+    },
+    {
+      "skill_id": "skill-reverse-launcher",
+      "skill_name": "Reverse Launcher",
+      "event_id": "super-pack-3",
+      "evidence_type": "official_count_plus_canonical_roster",
+      "source_ids": [
+        "steam_super_pack_3_2017"
+      ],
+      "confidence": "corroborated",
+      "canonical_mutation": false
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "direct_or_corroborated_mappings_added": 5,
+    "canonical_skill_records_created": 0,
+    "pq_relationships_changed": 0,
+    "unsupported_version_assignments": 0
+  },
+  "boundary": {
+    "count": "The official source says five additional skills. The canonical DLC-label cohort contains seven records, so this batch does not automatically map all seven.",
+    "release_date": "Steam release date 2017-04-25 is platform-specific provenance; Nintendo lists 2017-09-22 for Switch, so no single universal platform date is asserted."
+  },
+  "next": "Continue Super Pack 1 and Super Pack 4 with source-backed named/count evidence."
+}
