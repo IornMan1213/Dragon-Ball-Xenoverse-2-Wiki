@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 654,
+  "latest_research_batch": 655,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier: Batch 654 reviewed ten additional null-race CaC-usable records; all ten remain null. Continue exact eligibility evidence.",
+  "current_research_focus": "Race restriction frontier: Batch 655 reconciled legacy conflicts for Drain Charge, Full Power Destruction, and III Bomber; no canonical restrictions promoted.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1092,6 +1092,17 @@
     "batch_654_reclassified": 0,
     "batch_654_explicit_all_races": [
       "DIE DIE Missile Barrage"
-    ]
+    ],
+    "batch_655": {
+      "reviewed": [
+        "Drain Charge",
+        "Full Power Destruction",
+        "III Bomber"
+      ],
+      "reclassified": 0,
+      "legacy_conflicts_preserved": [
+        "III Bomber"
+      ]
+    }
   }
 }
