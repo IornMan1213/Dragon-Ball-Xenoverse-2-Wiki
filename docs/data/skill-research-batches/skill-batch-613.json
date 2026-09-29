@@ -1,0 +1,144 @@
+{
+  "batch_id": 613,
+  "date": "2026-09-29",
+  "status": "indexed_only_identity_reconciliation",
+  "purpose": "Reconcile indexed-only skill names against current direct Future Warrior/CaC evidence after the post-corruption database recovery checkpoint. This batch is evidence-only unless an exact canonical identity is independently established.",
+  "canonical_source": "docs/data/skills.json",
+  "policy": "Canonical forward data is authoritative. Indexed/category/research layers cannot create a canonical record by name alone. No canonical skill or PQ relationship is promoted when an exact canonical identity is not independently established.",
+  "records": [
+    {
+      "name": "Burst Attack",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Nuova Shenron",
+      "dlc_requirement": "GT Pack 2",
+      "acquisition_type": "shenron_wish",
+      "source_quest_or_shop": "Shenron wish — \"I want a new Super Attack!\"",
+      "ki_cost": 100,
+      "ultimate_finish_required": null,
+      "finding": "Direct Xenoverse 2-specific evidence identifies Burst Attack as Nuova Shenron's Super Skill and states that the Future Warrior can obtain it from the second selection of the new-Super-Attack Shenron wish. This establishes CaC availability but does not establish an exact canonical repository ID.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/Nova_Star",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "canonical_promotion": false
+    },
+    {
+      "name": "Finish Buster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Future Trunks / Kid Trunks",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ki_cost": 100,
+      "ultimate_finish_required": null,
+      "finding": "Current Xenoverse 2-specific evidence identifies Finish Buster as a Ki Blast Super Skill with 100 Ki cost and Skill Shop acquisition; separate Future Warrior documentation states it can be obtained by the Future Warrior. Exact story/shop timing is preserved only where directly supported.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Finish_Buster",
+        "https://dragonball.fandom.com/wiki/Finish_Buster",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "canonical_promotion": false
+    },
+    {
+      "name": "Double Buster",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Kid Trunks",
+      "dlc_requirement": "Base Game",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ki_cost": 100,
+      "ultimate_finish_required": null,
+      "finding": "Current Xenoverse 2-specific evidence identifies Double Buster as a Ki Blast Super Skill with 100 Ki cost and Skill Shop acquisition; Future Warrior documentation identifies it as a Future Warrior-usable Kid Trunks Super Skill. Exact canonical repository ID is not independently established.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Double_Buster",
+        "https://dragonball.fandom.com/wiki/Double_Buster",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ],
+      "canonical_promotion": false
+    },
+    {
+      "name": "Galick Beam Cannon",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Mira",
+      "dlc_requirement": "Conton City Vote Pack",
+      "acquisition_type": "quest_or_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ki_cost": 100,
+      "ultimate_finish_required": null,
+      "finding": "Current Xenoverse 2-specific evidence identifies Galick Beam Cannon as Mira's Ki Blast Super Skill and states that the Future Warrior can obtain it from the Skill Shop after the Frieza story arc. Existing repository research also records the Skill Shop route and CaC availability. Exact canonical repository ID remains unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Galick_Beam_Cannon",
+        "https://dragonball.fandom.com/wiki/Galick_Beam_Cannon"
+      ],
+      "canonical_promotion": false
+    },
+    {
+      "name": "Power Pole",
+      "class": "Super",
+      "subcategory": "Strike",
+      "usable_by_cac": true,
+      "character_source": "Goku (GT)",
+      "dlc_requirement": "GT Pack 1",
+      "acquisition_type": "skill_shop",
+      "source_quest_or_shop": "Skill Shop",
+      "ki_cost": 100,
+      "ultimate_finish_required": null,
+      "finding": "Current Xenoverse 2-specific evidence identifies Power Pole as a Strike Super Skill used by Goku (GT), with 100 Ki cost and Skill Shop acquisition. Independent technique-list evidence explicitly identifies it as a weapon-based Super Skill usable by the Future Warrior. Existing repository research already treats it as distinct from Power Pole Combo and Power Pole Pro. Exact canonical repository ID remains unresolved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Power_Pole",
+        "https://dragonball.fandom.com/wiki/Power_Pole"
+      ],
+      "canonical_promotion": false
+    },
+    {
+      "name": "Peeler Storm",
+      "class": "Evasive",
+      "subcategory": "Ki Blast",
+      "usable_by_cac": true,
+      "character_source": "Mira (Final Form) / Expert Mission enemies / Crystal Raid",
+      "dlc_requirement": null,
+      "acquisition_type": "special_mode",
+      "source_quest_or_shop": "Crystal Raid / Training; not an ordinary CaC acquisition route",
+      "ki_cost": 300,
+      "stamina_cost": 100,
+      "ultimate_finish_required": null,
+      "finding": "Peeler Storm is a special-mode implementation: current documentation describes it as an attack used by Expert Mission characters and Crystal Raid players, while the Future Warrior technique list limits its availability to Crystal Raid boss or Training contexts. It is therefore not treated as an ordinary CaC skill-acquisition candidate. The prior repository research record is preserved as supporting evidence only.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Peeler_Storm",
+        "https://dragonball.fandom.com/wiki/Peeler_Storm"
+      ],
+      "canonical_promotion": false
+    }
+  ],
+  "reconciliation": {
+    "reviewed": 6,
+    "ordinary_cac_promotion_candidates": [
+      "Burst Attack",
+      "Finish Buster",
+      "Double Buster",
+      "Galick Beam Cannon",
+      "Power Pole"
+    ],
+    "special_mode_boundary": [
+      "Peeler Storm"
+    ],
+    "canonical_promotions": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unresolved_reason": "The current canonical schema does not require an id field, but the recovered canonical corpus carries legacy id metadata. Repository recovery policy explicitly forbids inventing canonical IDs from display names, slugs, preset order, reward order, or external game IDs. These five records therefore remain research-layer candidates until exact repository identity is independently established."
+  },
+  "evidence_boundary": [
+    "CaC availability is not inferred from character ownership alone; each candidate has direct Future Warrior evidence.",
+    "No reward probability, hidden prerequisite, Ultimate Finish requirement, or patch-independent mechanic is invented.",
+    "Peeler Storm's special-mode availability is kept separate from ordinary CaC acquisition.",
+    "Canonical docs/data/skills.json remains unchanged."
+  ]
+}
