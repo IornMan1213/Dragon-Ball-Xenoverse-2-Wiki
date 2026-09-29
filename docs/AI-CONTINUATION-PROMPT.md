@@ -7086,3 +7086,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records.
+
+
+### 2026-09-29 continuation — Skill restriction batch 609
+- [x] Fresh direct-source race-restriction audit completed for **Counter Impact, Sign of Awakening, Circle Flash, Heroic Counter, Gamma Blaster, and Gamma Impact**.
+- [x] Current repository records and external PQ/DLC evidence reviewed.
+- [x] No narrower race/gender/form restriction established; canonical `race_restriction: null` preserved for all six.
+- [x] Added Batch 609 and synchronized the restriction census.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining restriction-gap cohort with fresh evidence and avoid repeating audited records.
