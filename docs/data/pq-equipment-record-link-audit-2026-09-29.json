@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "batch": "Equipment-record PQ-link reconciliation 697",
+  "method": "Compared canonical equipment pq_links against the canonical forward PQ relationship store using exact PQ/name keys; duplicate component links were not multiplied.",
+  "promoted": [
+    {
+      "pq": "pq-003",
+      "target": "Battle Suit (Raditz)"
+    },
+    {
+      "pq": "pq-087",
+      "target": "Training Suit"
+    },
+    {
+      "pq": "pq-110",
+      "target": "Zamasu's Clothes"
+    }
+  ],
+  "added_edges": 3,
+  "total_after": 877,
+  "equipment_edges_after": 147,
+  "evidence_boundary": "Acquisition-source links do not imply guaranteed drops, probabilities, or Ultimate Finish conditions."
+}
