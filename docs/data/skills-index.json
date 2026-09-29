@@ -11655,6 +11655,47 @@
         "https://dbxv2.fandom.com/wiki/Super_Explosive_Wave_(Evasive)",
         "https://dbxv2.fandom.com/wiki/Evasive_Skill"
       ]
+    },
+    {
+      "name": "Super Drain",
+      "class": "Super",
+      "subcategory": "Strike",
+      "verification_status": "verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 28 — Take Back the Dragon Balls!; Ultimate Finish reward after defeating Cell",
+      "source_quest_or_shop": "Parallel Quest 28",
+      "ultimate_finish_required": true,
+      "id": "skill-super-drain",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Drain",
+        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71316424",
+        "https://gamefaqs.gamespot.com/boards/805627-dragon-ball-xenoverse/71353427",
+        "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List"
+      ]
+    },
+    {
+      "name": "X100 Big Bang Kamehameha",
+      "class": "Ultimate",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "ki_cost": 500,
+      "stamina_cost": null,
+      "dlc_requirement": null,
+      "unlock_method": "Parallel Quest 100 — The Ultimate Rivalry",
+      "source_quest_or_shop": "Parallel Quest 100 — The Ultimate Rivalry",
+      "ultimate_finish_required": null,
+      "id": "skill-x100-big-bang-kamehameha",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/X100_Big_Bang_Kamehameha"
+      ]
     }
   ],
   "last_updated": "2026-09-29",
