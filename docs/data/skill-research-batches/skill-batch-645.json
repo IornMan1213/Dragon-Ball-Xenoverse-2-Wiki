@@ -1,0 +1,151 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 645,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "explicit_non_awoken_race_restriction_reconciliation",
+  "scope": "Corroborate exact non-Awoken race-restricted skill records using named-skill reference evidence. No canonical mutation is performed because the canonical race restrictions are already populated.",
+  "records": [
+    {
+      "id": "skill-burning-slash",
+      "name": "Burning Slash",
+      "class": "Super",
+      "race": "Earthling or Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-buu-buu-ball",
+      "name": "Buu Buu Ball",
+      "class": "Evasive",
+      "race": "Majin (Pure Majin form)",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-candy-beam",
+      "name": "Candy Beam",
+      "class": "Super",
+      "race": "Majin",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-darkness-rush-ranged",
+      "name": "Darkness Rush (Ranged)",
+      "class": "Ultimate",
+      "race": "Namekian",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-evil-flight-strike",
+      "name": "Evil Flight Strike",
+      "class": "Super",
+      "race": "Namekian or Majin",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-explosive-buu-buu-punch",
+      "name": "Explosive Buu Buu Punch",
+      "class": "Super",
+      "race": "Majin",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-ill-bomber",
+      "name": "Ill Bomber",
+      "class": "Super",
+      "race": "Majin",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-namek-finger",
+      "name": "Namek Finger",
+      "class": "Super",
+      "race": "Namekian",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-quick-sleep",
+      "name": "Quick Sleep",
+      "class": "Super",
+      "race": "Majin only",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-saiyan-spirit",
+      "name": "Saiyan Spirit",
+      "class": "Ultimate",
+      "race": "Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-shining-slash",
+      "name": "Shining Slash",
+      "class": "Super",
+      "race": "Earthling or Saiyan",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    },
+    {
+      "id": "skill-zigzag-express",
+      "name": "Zigzag Express",
+      "class": "Super",
+      "race": "Majin male",
+      "canonical_already_set": true,
+      "evidence_status": "corroborated"
+    }
+  ],
+  "sources": [
+    {
+      "id": "fandom_namek_skills",
+      "url": "https://dbxv2.fandom.com/wiki/Namekian",
+      "finding": "Namekian reference identifies Namek Finger and Darkness Rush (Ranged) as exclusive skills."
+    },
+    {
+      "id": "fandom_darkness_rush_ranged",
+      "url": "https://dbxv2.fandom.com/wiki/Darkness_Rush_%28Ranged%29",
+      "finding": "Exact skill page states Darkness Rush (Ranged) can only be used by Namekian CaCs."
+    },
+    {
+      "id": "fandom_namek_finger",
+      "url": "https://dbxv2.fandom.com/wiki/Namek_Finger",
+      "finding": "Exact skill page states Namek Finger can only be used by Namekian CaCs."
+    },
+    {
+      "id": "fandom_evil_flight",
+      "url": "https://dbxv2.fandom.com/wiki/Evil_Flight_Strike",
+      "finding": "Exact skill page states Evil Flight Strike can only be used by Namekian and Majin CaCs."
+    },
+    {
+      "id": "fandom_zigzag",
+      "url": "https://dbxv2.fandom.com/wiki/Zigzag_Express",
+      "finding": "Exact skill page states Zigzag Express can only be used by Majin Male CaCs."
+    },
+    {
+      "id": "fandom_explosive_buu",
+      "url": "https://dbxv2.fandom.com/wiki/Explosive_Buu_Buu_Punch",
+      "finding": "Exact skill page states Explosive Buu Buu Punch can only be used by Majin CaCs."
+    },
+    {
+      "id": "gamefaqs_race_list",
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79284106",
+      "finding": "Historical player-maintained list corroborates Saiyan, Earthling, Namekian, and Majin restricted skill examples, including Burning Slash, Shining Slash, Saiyan Spirit, Evil Flight Strike, Namek Finger, Darkness Rush (Ranged), Zigzag Express, Explosive Buu Buu Punch, Quick Sleep, Candy Beam, Ill Bomber, and Buu Buu Ball."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 12,
+    "canonical_skill_records_changed": 0,
+    "restriction_values_reconciled": 12,
+    "unsupported_assignments": 0
+  },
+  "boundary": "Community lists can corroborate but are not sufficient to change canonical data. Only exact skill references are used for this batch; no generic race inference is applied.",
+  "next": "Continue through remaining null race_restriction records, prioritizing exact skill pages and explicit restriction wording; preserve null when evidence is ambiguous."
+}
