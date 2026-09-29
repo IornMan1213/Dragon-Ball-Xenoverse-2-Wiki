@@ -8,8 +8,8 @@
     "rule": "Canonical forward datasets are authoritative; indexes, verified layers, reverse projections, and audit artifacts are consumers/evidence only."
   },
   "verified_live_baseline": {
-    "canonical_skills": 497,
-    "skills_index": 497,
+    "canonical_skills": 549,
+    "skills_index": 549,
     "pq_reward_relationships": 862,
     "pq_reward_counts": {
       "skill": 249,
@@ -51,11 +51,11 @@
     "recovery_counts_match_current_baseline": "passed",
     "canonical_source_policy": "preserved",
     "runtime_ci_build": "unverified_non_blocking",
-    "canonical_skill_count": "497",
-    "skill_index_count": "497",
+    "canonical_skill_count": "549",
+    "skill_index_count": "549",
     "pq_reward_edge_count": "862"
   },
-  "next": "Continue exact indexed-only identity recovery where repository/game-data evidence establishes canonical identity; otherwise continue the next highest-value enrichment frontier without inventing IDs.",
+  "next": "Continue from the fresh 549/549/862 post-corruption working baseline; do not reconstruct canonical records from indexes or verified layers.",
   "followup_recovery_batch_628": {
     "audit_date": "2026-09-29",
     "canonical_skills": 548,
