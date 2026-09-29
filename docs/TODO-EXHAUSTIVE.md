@@ -7027,3 +7027,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all five `race_restriction` values as null; Die Die Missile Barrage and Super Vanishing Ball have explicit all-races evidence, while the other three have no explicit narrower CaC race/gender/form condition.
 - [x] Added `docs/data/skill-research-batches/skill-batch-664.json` and updated the catalog audit.
 - [ ] Continue the remaining null-race cohort with direct retail eligibility evidence.
+
+
+### 2026-09-29 continuation — Null race restriction direct-source batch 664
+- [x] Reviewed Die Die Missile Barrage, Super Vanishing Ball, Super Volley, Swallow Shot, and Thunder Eraser.
+- [x] Preserved all five `race_restriction` values as null; no narrower explicit retail CaC race/gender/form restriction was established.
+- [x] Added `docs/data/skill-research-batches/skill-batch-664.json` and updated the catalog audit.
+- [ ] Continue the remaining null-race cohort with direct eligibility evidence.
