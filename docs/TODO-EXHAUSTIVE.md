@@ -7074,3 +7074,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the skill catalog audit; both records are sync-ready through the existing canonical builder.
 - [ ] Confirm live canonical promotion only after the skills-sync pipeline successfully runs.
 - [ ] Continue the remaining null race-restriction cohort with direct evidence and then broader cross-domain enrichment.
+
+
+### 2026-09-29 continuation — Race restriction Batch 667
+- [x] Research Batch 667 added: Brave Heat explicitly restored as Universal.
+- [x] Catalog audit updated.
+- [ ] Promote to canonical skills data only after successful synchronization.
+- [ ] Continue remaining null race-restriction evidence frontier.
