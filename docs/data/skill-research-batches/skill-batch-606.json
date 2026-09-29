@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 606,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Fresh direct-source race-restriction audit for six older PQ skills retaining null race_restriction.",
+  "records": [
+    {
+      "name": "Demonic Blade",
+      "evidence": "Repository current record places the skill at PQ178 and marks it CaC-usable; reviewed external skill-list evidence identifies the skill but does not establish a narrower CaC race/gender/form restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Time Bullet",
+      "evidence": "Repository current record places the skill at PQ179 and marks it CaC-usable; reviewed current/reference evidence does not establish a narrower CaC race/gender/form restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Demon Ray Barrage",
+      "evidence": "Repository current record places the skill at PQ180 and marks it CaC-usable; reviewed skill-list evidence identifies the technique but does not establish a narrower CaC race/gender/form restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Time Skip/Back Breaker",
+      "evidence": "Repository current record places the skill at PQ181 and marks it CaC-usable; reviewed skill-list evidence does not establish a narrower CaC race/gender/form restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Frieza's Nova",
+      "evidence": "Repository current record places the skill at PQ182 and marks it CaC-usable; reviewed skill-list evidence does not establish a narrower CaC race/gender/form restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Broly's Meteor Crash",
+      "evidence": "Repository current record places the skill at PQ183 and marks it CaC-usable; reviewed skill-list evidence does not establish a narrower CaC race/gender/form restriction.",
+      "race_restriction_result": null
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Parallel_Quest",
+    "https://www.scribd.com/document/723438373/Super-skills-dragon-ball",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "NPC ownership and CaC usability do not prove unrestricted all-race eligibility. Preserve null unless direct race/gender/form evidence establishes a narrower rule.",
+  "next": "Continue the remaining restriction-gap cohort with fresh evidence; prioritize records whose source pages explicitly describe race, gender, or form eligibility."
+}
