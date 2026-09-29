@@ -1,0 +1,29 @@
+{
+  "batch_id": 626,
+  "date": "2026-09-29",
+  "type": "canonical_recovery",
+  "status": "applied",
+  "previous_canonical_count": 543,
+  "new_canonical_count": 545,
+  "index_count": 545,
+  "promoted": [
+    "Evil Explosion (Super)",
+    "Peeler Storm"
+  ],
+  "reviewed_nonpromoted": [
+    "Bloody Sauce",
+    "Dragon Flash Bullet",
+    "Freezing Beam",
+    "Ice Field",
+    "Whirlwind Blade",
+    "Flames of Retribution",
+    "Marbling Drop",
+    "Seasoning Arrow",
+    "Light of Justice",
+    "Time Shackles",
+    "Full Power Energy Wave (Super)",
+    "Special Beam Cannon (Super)"
+  ],
+  "evidence_rule": "Promote only explicit CaC/player evidence; indexed category membership alone is insufficient.",
+  "next": "Continue remaining indexed-only names, prioritizing unresolved identities with positive player-character evidence."
+}
