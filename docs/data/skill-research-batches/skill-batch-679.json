@@ -1,0 +1,52 @@
+{
+  "batch_id": 679,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Fresh external audit of four remaining frontier skills with direct Future Warrior/CaC evidence.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Vacation Delete",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Dragon Ball Wiki documents Vacation Delete as obtainable by the Future Warrior in Xenoverse 2 from the Skill Shop, but does not state a narrower Future Warrior race, gender, or form requirement.",
+      "sources": ["https://dragonball.fandom.com/wiki/Vacation_Delete"]
+    },
+    {
+      "name": "X100 Big Bang Kamehameha",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "Dragon Ball Wiki documents x100 Big Bang Kamehameha as obtainable by the Future Warrior in PQ100 or the TP Medal Shop. No narrower Future Warrior race, gender, or form restriction is stated in the reviewed source.",
+      "sources": ["https://dragonball.fandom.com/wiki/100x_Big_Bang_Kamehameha"]
+    },
+    {
+      "name": "X4 Kaioken Kamehameha",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The Future Warrior technique reference explicitly lists X4 Kaioken Kamehameha as a Goku Ultimate Skill learnable by the Future Warrior. Independent documentation states the Kaio-ken can be used by the Future Warrior regardless of race, but this does not independently prove every attached skill has universal eligibility; therefore the skill remains null under the repository's stricter evidence rule.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://ultimatepopculture.fandom.com/wiki/Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "X20 Kaioken Kamehameha",
+      "race_restriction": null,
+      "evidence_status": "retain_null",
+      "finding": "The Future Warrior technique reference explicitly lists X20 Kaioken Kamehameha as a Goku Ultimate Skill learnable by the Future Warrior, and Xenoverse 2 skill documentation describes it as available for all CaCs. This supports Universal eligibility, but because the repository's frontier policy requires canonical direct race wording before mutation, the canonical record is not changed in this research-only batch.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/X20_Kaioken_Kamehameha"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 4,
+    "canonical_mutations": 0,
+    "reclassified": 0,
+    "unresolved_but_actionable": ["X20 Kaioken Kamehameha"]
+  },
+  "evidence_rule": "Do not mutate canonical race_restriction from generic Future Warrior usability. Direct all-CaC wording is evidence worth preserving for a subsequent canonical synchronization pass.",
+  "next": "Audit the remaining frontier for direct all-CaC/race-specific wording; prioritize X20 Kaioken Kamehameha for canonical/index synchronization because independent skill documentation explicitly says it is available for all CaCs."
+}
