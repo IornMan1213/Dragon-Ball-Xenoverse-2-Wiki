@@ -1,0 +1,212 @@
+{
+  "batch_id": 600,
+  "date": "2026-09-29",
+  "type": "expert_mission_skill_acquisition_reconciliation",
+  "status": "current_route_reconciled_rates_unresolved",
+  "scope": "Consolidate the current Expert Mission skill-acquisition evidence for EM03-20 into one bounded research checkpoint while preserving uncertainty around per-clear drop rates and guarantee conditions.",
+  "numbering": "Repository current numbering EM01-02 tutorials; EM03-20 are the non-tutorial Expert Missions. Historical guides that start at EM01 are normalized only for mapping and never silently treated as current numbering.",
+  "records": [
+    {
+      "skill": "Murder Grenade",
+      "expert_mission": 3,
+      "mission_title": "Assault of the Great Ape",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Super Destructo-Disc",
+      "expert_mission": 4,
+      "mission_title": "Invasion of the Evil Super Namek",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Death Wave",
+      "expert_mission": 5,
+      "mission_title": "The Galactic Tyrant",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Supernova",
+      "expert_mission": 6,
+      "mission_title": "The Depths of Despair",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Death Meteor",
+      "expert_mission": 7,
+      "mission_title": "The Big Gete Star Strikes Back",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Dead End Bullet",
+      "expert_mission": 8,
+      "mission_title": "Ominous Androids",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Assault Rain",
+      "expert_mission": 9,
+      "mission_title": "The Most Feared Majin",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Hellzone Grenade",
+      "expert_mission": 10,
+      "mission_title": "The Emperor's Worth",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Super Electric Strike",
+      "expert_mission": 11,
+      "mission_title": "The Devil Born from the Dragon Balls",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Angry Explosion",
+      "expert_mission": 12,
+      "mission_title": "Attack of the Lone Supersoldier",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Dead End Rain",
+      "expert_mission": 13,
+      "mission_title": "A History of Mixed Battles!",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Shocking Death Ball",
+      "expert_mission": 14,
+      "mission_title": "Huge Blasts for Huge Apes!",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Blue Hurricane",
+      "expert_mission": 15,
+      "mission_title": "Extreme Malice!",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Super Spirit Bomb",
+      "expert_mission": 16,
+      "mission_title": "In the Realm of the Gods: Vegeta",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Spirit Sword",
+      "expert_mission": 17,
+      "mission_title": "In the Realm of the Gods: Goku",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Focus Flash",
+      "expert_mission": 18,
+      "mission_title": "The Ultimate Evil: Broly",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Tail Slicer",
+      "expert_mission": 19,
+      "mission_title": "A Truly Hellish Transformation",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    },
+    {
+      "skill": "Data Input",
+      "expert_mission": 20,
+      "mission_title": "Harbinger of Doom",
+      "acquisition_route": "Expert Mission reward association",
+      "exact_drop_rate": "unresolved",
+      "guarantee_condition": "unresolved",
+      "promotion_boundary": "Do not convert reward association into a guaranteed drop or numerical rate without direct evidence."
+    }
+  ],
+  "evidence": [
+    {
+      "type": "current_reference",
+      "name": "Dragon Ball Xenoverse 2 Wiki - Expert Mission",
+      "url": "https://dbxv2.fandom.com/wiki/Expert_Mission",
+      "scope": "Current EM16-20 mission-to-skill indexing."
+    },
+    {
+      "type": "current_reference",
+      "name": "Dragon Ball Xenoverse 2 Wiki - Ultimate Attack",
+      "url": "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+      "scope": "Current mission-to-skill associations for multiple early Expert Missions."
+    },
+    {
+      "type": "current_reference",
+      "name": "Dragon Ball Xenoverse 2 Wiki - Dead End Rain",
+      "url": "https://dbxv2.fandom.com/wiki/Dead_End_Rain",
+      "scope": "Explicit EM13 acquisition association."
+    },
+    {
+      "type": "current_reference",
+      "name": "Dragon Ball Xenoverse 2 Wiki - Shocking Death Ball",
+      "url": "https://dbxv2.fandom.com/wiki/Shocking_Death_Ball",
+      "scope": "Explicit EM14 acquisition association."
+    },
+    {
+      "type": "historical_guide",
+      "name": "Steam Community - All Expert Missions - RANK Z",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=816459527",
+      "scope": "Historical mission numbering and reward associations, normalized against the current EM03-20 numbering."
+    }
+  ],
+  "validation": {
+    "expert_missions_covered": 18,
+    "skills_covered": 18,
+    "exact_drop_rates_asserted": 0,
+    "guarantees_asserted": 0,
+    "numbering_conflicts_suppressed": 1
+  },
+  "next": "Obtain stronger acquisition evidence for the 18 EM03-20 routes, prioritizing explicit current-version reward-condition documentation. Keep exact drop rate and guarantee fields null until directly supported."
+}
