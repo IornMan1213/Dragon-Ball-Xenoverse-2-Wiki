@@ -1,0 +1,125 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 670,
+  "date": "2026-09-29",
+  "status": "research_only_sync_ready",
+  "research_scope": "Recovery/reconciliation of previously documented universal CaC race classifications whose canonical values may be null after corruption recovery.",
+  "corrections": [
+    {
+      "name": "Kamehameha",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Masenko",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Energy Charge",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Solar Flare",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Afterimage Strike",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Rise to Action",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Wall of Defense",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Destructo-Disc",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Galick Gun",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's 2026-09-19 universal CaC race census documented this technique among Future Warrior general techniques and reconciled it to All CaC races; the source distinguishes race-exclusive techniques separately.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Candy Beam (Super)",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The Super Buu (Gohan Absorbed) Super variant is explicitly documented as usable by non-Majin characters; the separate Evasive Candy Beam remains Majin-restricted.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+        "https://dbxv2.fandom.com/wiki/Candy_Beam_%28Super%29"
+      ]
+    },
+    {
+      "name": "Petrifying Spit",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's universal CaC race census documents Petrifying Spit as a general Future Warrior technique rather than a race-exclusive technique.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    },
+    {
+      "name": "Kai Kai",
+      "race_restriction": "Universal",
+      "evidence_status": "canonical_patch_ready",
+      "reason": "The repository's universal CaC race census documents Kai Kai as a general Future Warrior technique rather than a race-exclusive technique.",
+      "sources": [
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
+    }
+  ],
+  "validation": {
+    "records_reviewed": 12,
+    "promoted": 12,
+    "nulls_preserved": 0,
+    "unsupported_inferences": 0
+  },
+  "provenance_note": "This batch restores previously documented race-census conclusions; it does not treat verification_status as the source of truth."
+}
