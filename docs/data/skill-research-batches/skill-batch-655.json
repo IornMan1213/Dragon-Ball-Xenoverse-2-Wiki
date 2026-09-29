@@ -1,0 +1,44 @@
+{
+  "batch_id": 655,
+  "date": "2026-09-29",
+  "status": "research_only_complete",
+  "type": "race_restriction_conflict_reconciliation",
+  "scope": "Reconcile older repository research against the current canonical race_restriction frontier without using verification flags as source of truth.",
+  "canonical_authority": "docs/data/skills.json",
+  "records": [
+    {
+      "name": "Drain Charge",
+      "current_canonical_race_restriction": null,
+      "legacy_evidence": "skill-batch-38 records race_restriction null and usable_by_cac true, describing Drain Charge as a CaC-exclusive grab Super.",
+      "conclusion": "preserve_null",
+      "reason": "CaC exclusivity is not itself a race/gender restriction; no explicit race/gender eligibility wording was established."
+    },
+    {
+      "name": "Full Power Destruction",
+      "current_canonical_race_restriction": null,
+      "legacy_evidence": "skill-batch-30 records race_restriction null and usable_by_cac true for the PQ177 skill.",
+      "conclusion": "preserve_null",
+      "reason": "The recovered evidence establishes CaC usability but does not establish a specific race/gender restriction."
+    },
+    {
+      "name": "III Bomber",
+      "current_canonical_race_restriction": null,
+      "legacy_conflict": "skill-batch-23 and skill-batch-54 contain older race_restriction values of Majin / Majin CaC, while current canonical recovery retains null; later provenance also treats III Bomber/Ill Bomber as an identity alias.",
+      "conclusion": "preserve_null_pending_direct_eligibility_evidence",
+      "reason": "The conflicting historical field values are not sufficient by themselves under the current evidence rule; no direct quoted eligibility wording establishing a race/gender restriction was recovered in this reconciliation."
+    }
+  ],
+  "sources": [
+    "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-38.json",
+    "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-30.json",
+    "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-23.json",
+    "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-54.json"
+  ],
+  "validation": {
+    "canonical_mutations": 0,
+    "records_reviewed": 3,
+    "restrictions_promoted": 0,
+    "conflicts_preserved": 1
+  },
+  "next": "Continue exact eligibility evidence for remaining null race restrictions; prioritize direct wording over legacy field values."
+}
