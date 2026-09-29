@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 631,
+  "latest_research_batch": 632,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-corruption canonical recovery followed by indexed-only identity reconciliation",
@@ -359,8 +359,8 @@
   "indexed_only_reconciliation_2026_09_29": {
     "source_universe": 110,
     "canonical_records": 548,
-    "resolved_from_source_universe": 93,
-    "remaining_indexed_only": 17,
+    "resolved_from_source_universe": 99,
+    "remaining_indexed_only": 11,
     "resolved_names": [
       "Burst Attack",
       "Destructive Ray",
@@ -415,7 +415,11 @@
       "Time Skip/Molotov",
       "Super Dragon Flight",
       "Super Front Jump",
-      "Candy Beam (Evasive)"
+      "Candy Beam (Evasive)",
+      "Pearl Flash",
+      "Super Ghost Kamikaze Attack (Ultimate)",
+      "Energy Zone",
+      "The Saviour Has Come"
     ],
     "remaining_names": [
       "Ill Flash",
@@ -423,21 +427,15 @@
       "Super Explosive Wave (Super)",
       "Aura Slide",
       "Go-Go Gum",
-      "Pearl Flash",
-      "Rage Saucer",
       "Final Flash (Ultimate)",
       "Full Power Energy Wave (Ultimate)",
       "One-Handed Kamehameha",
       "Soul Punisher",
       "Special Beam Cannon (Ultimate)",
-      "Super Black Kamehameha",
-      "Super Ghost Kamikaze Attack (Ultimate)",
-      "Brainwash Attack",
-      "Energy Zone",
-      "The Saviour Has Come"
+      "Super Black Kamehameha"
     ],
     "method": "Exact case-insensitive comparison against authoritative canonical store; stale source-universe taxonomy may be corrected when current evidence establishes a different canonical class.",
-    "next": "Continue the remaining frontier with explicit CaC-positive evidence or exact current-game identity evidence; do not promote records solely because they appear in indexed taxonomy.",
+    "next": "Continue remaining identities only with explicit CaC-positive or exact current-game evidence.",
     "variant_resolutions": [
       {
         "source_name": "Super Dragon Flight (Super)",
@@ -485,7 +483,9 @@
       "Light of Justice",
       "Marbling Drop",
       "Celestial Hammer",
-      "Special Beam Blast"
+      "Special Beam Blast",
+      "Rage Saucer",
+      "Brainwash Attack"
     ]
   },
   "recovery_batch_615": {
@@ -801,6 +801,23 @@
     ],
     "canonical_records_unchanged": 548,
     "remaining_indexed_only": 17,
+    "canonical_ids_inferred": 0
+  },
+  "recovery_batch_632": {
+    "status": "applied",
+    "date": "2026-09-29",
+    "confirmed_unavailable": [
+      "Rage Saucer",
+      "Brainwash Attack"
+    ],
+    "confirmed_cac": [
+      "Pearl Flash",
+      "Super Ghost Kamikaze Attack (Ultimate)",
+      "Energy Zone",
+      "The Saviour Has Come"
+    ],
+    "canonical_records_unchanged": 548,
+    "remaining_indexed_only": 11,
     "canonical_ids_inferred": 0
   }
 }
