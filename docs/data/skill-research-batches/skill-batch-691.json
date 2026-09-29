@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 691,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "accessory_canonical_identity_resolution",
+  "scope": "Resolve three previously unresolved/candidate PQ accessory identities using exact canonical accessory records already present in the repository.",
+  "records": [
+    {
+      "pq_record_id": "pqacc-007",
+      "name": "Tapion's Sword",
+      "pq": 22,
+      "canonical_accessory_id": "acc-027",
+      "resolution": "resolved_to_canonical",
+      "evidence": "Exact named record acc-027 exists in equipment-accessories-record-layer.json; external sources document the PQ22/Trunks acquisition route."
+    },
+    {
+      "pq_record_id": "pqacc-008",
+      "name": "Yamcha's Sword",
+      "pq": 29,
+      "canonical_accessory_id": "acc-028",
+      "resolution": "resolved_to_canonical",
+      "evidence": "Exact named record acc-028 exists in the canonical accessory layer. Current reward-table evidence supports PQ36 while the legacy PQ29 record remains a historical conflict; the identity is resolved without asserting PQ29 as the canonical route."
+    },
+    {
+      "pq_record_id": "pqacc-011",
+      "name": "Goku Wig (Super Saiyan)",
+      "pq": 63,
+      "canonical_accessory_id": "acc-012",
+      "resolution": "resolved_to_canonical",
+      "evidence": "Exact named record acc-012 exists in the canonical accessory layer. Current repository record preserves a historical PQ18 route conflict; independent Xenoverse 2 equipment evidence lists PQ63."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 3,
+    "canonical_id_matches": 3,
+    "canonical_mutations": 1,
+    "external_id_imports": 0,
+    "unsupported_merges": 0
+  },
+  "policy": "Canonical accessory identity is resolved only when the exact named identity already exists in the repository's canonical record layer. Acquisition-route conflicts are retained separately and are not silently rewritten.",
+  "sources": [
+    "https://dbxenoverse.fandom.com/wiki/Accessories",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=796204215",
+    "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories"
+  ],
+  "next": "Continue unresolved accessory routes/components only where new canonical identity evidence exists; otherwise return to PQ reward completeness and mechanics/cross-database enrichment."
+}
