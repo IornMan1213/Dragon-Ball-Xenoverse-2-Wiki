@@ -7045,3 +7045,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining null-race cohort, prioritizing records with potential explicit race/gender/form evidence.
+
+
+### 2026-09-29 continuation — Skill restriction batch 605
+- [x] Performed a fresh direct-source race-restriction audit for **Impact Flare, Power Wall, Neo Wolf Fang Fist, Final Kamehameha, Maiden Burst, and Bluff Kamehameha**.
+- [x] Reviewed current skill, Evasive, Ultimate Attack, and partner-customization evidence where applicable.
+- [x] No direct narrower race/gender/form restriction was established for any of the six; preserved canonical race_restriction: null.
+- [x] Added Batch 605 and synchronized the catalog restriction census.
+- [x] No canonical skill or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue the remaining restriction-gap cohort, prioritizing explicit race/gender/form evidence rather than character ownership inference.
