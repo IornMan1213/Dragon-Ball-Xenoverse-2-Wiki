@@ -6963,3 +6963,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the III Bomber historical Majin/Majin CaC conflict as provenance rather than promoting a disputed legacy field value without direct eligibility wording.
 - [x] Added `docs/data/skill-research-batches/skill-batch-655.json` and updated the catalog audit.
 - [ ] Continue exact eligibility evidence for the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — External null race restriction cross-check batch 656
+- [x] Cross-checked Android Kick, Armored Boost, Burning Spin, Burning Strike, and Burst Attack against external Future Warrior/skill references.
+- [x] Preserved all five `race_restriction` values as null because explicit retail CaC race/gender eligibility wording was not established.
+- [x] Treated Burning Strike's all-race statement on a PC mod as non-authoritative for retail eligibility rather than promoting it into canonical data.
+- [x] Added `docs/data/skill-research-batches/skill-batch-656.json` and updated the catalog audit.
+- [ ] Continue the remaining null race-restriction frontier, prioritizing direct retail-game eligibility wording.
