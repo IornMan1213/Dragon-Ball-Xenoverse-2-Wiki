@@ -1,0 +1,59 @@
+{
+  "schema_version": "1.0",
+  "batch_id": 605,
+  "date": "2026-09-29",
+  "status": "evidence_reconciled_no_reclassification",
+  "research_scope": "Fresh direct-source race-restriction audit for six older CaC-usable skills retaining null race_restriction.",
+  "records": [
+    {
+      "name": "Impact Flare",
+      "evidence": "Current skill reference identifies the PQ150 skill and Jiren (Full Power) as user; current sources do not state a CaC race/gender/form restriction.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Power Wall",
+      "evidence": "Current skill reference identifies PQ150 and Jiren (Full Power)/customize partner usage; no direct CaC race/gender/form restriction is stated.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Neo Wolf Fang Fist",
+      "evidence": "Current skill reference identifies PQ86 acquisition and Yamcha/customize partner usage; no direct CaC race/gender/form restriction is stated.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Final Kamehameha",
+      "evidence": "Current skill reference lists TP Medal Shop, PQ91, and Double Crystal Raids and Vegito/SSGSS Vegito including Customize Partner; no direct CaC race/gender/form restriction is stated.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Maiden Burst",
+      "evidence": "Current Evasive reference lists PQ92 and Pan/Videl Customize Partner/Ribrianne usage; no direct CaC race/gender/form restriction is stated.",
+      "race_restriction_result": null
+    },
+    {
+      "name": "Bluff Kamehameha",
+      "evidence": "Current skill reference lists PQ94 and Gogeta (SS4)/customize partner usage; current partner customization also lists it for Gogeta SS4, but neither establishes a narrower CaC race/gender/form rule.",
+      "race_restriction_result": null
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Impact_Flare",
+    "https://dbxv2.fandom.com/wiki/Power_Wall",
+    "https://dbxv2.fandom.com/wiki/Neo_Wolf_Fang_Fist",
+    "https://dbxv2.fandom.com/wiki/Final_Kamehameha",
+    "https://dbxv2.fandom.com/wiki/Maiden_Burst",
+    "https://dbxv2.fandom.com/wiki/Bluff_Kamehameha",
+    "https://dbxv2.fandom.com/wiki/Partner_Customization",
+    "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+    "https://dbxv2.fandom.com/wiki/Evasive_Skill"
+  ],
+  "validation": {
+    "records_reviewed": 6,
+    "reclassified": 0,
+    "canonical_skill_mutations": 0,
+    "pq_relationship_mutations": 0,
+    "unsupported_race_inferences": 0
+  },
+  "policy": "Character ownership, customize-partner availability, and CaC availability are not themselves proof of unrestricted all-race eligibility. Keep null unless direct race/gender/form evidence exists.",
+  "next": "Continue the remaining restriction-gap cohort, prioritizing sources that explicitly distinguish CaC race or gender requirements."
+}
