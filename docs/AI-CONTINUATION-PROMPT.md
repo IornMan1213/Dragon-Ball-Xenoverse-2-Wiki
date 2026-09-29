@@ -6832,3 +6832,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/skill-research-batches/skill-batch-584.json`.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** audit remaining Free Update 20/DAIMA-era free-update skill provenance separately from the paid DAIMA Pack, then continue Chapter 4 mechanics enrichment.
+
+
+### 2026-09-28 continuation — Direct skill-event provenance audit batch 585
+- [x] Audited all 28 direct skill-event mappings.
+- [x] Confirmed all mappings resolve to registered events and have non-empty source IDs.
+- [x] Confirmed evidence semantics remain appropriate across Chapter 1, Beast, Chapters 2-4, and the DAIMA Pack.
+- [x] Confirmed 0 unsupported version/patch assignments and 0 canonical mutations required.
+- [x] Added `docs/data/skill-research-batches/skill-batch-585.json`.
+- [ ] Runtime/CI/build remains intentionally non-blocking/unverified.
+- [ ] Exact next: continue Chapter 4 mechanics enrichment and separately audit Free Update 20 Festival recovery evidence.
