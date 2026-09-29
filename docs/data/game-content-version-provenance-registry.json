@@ -193,6 +193,14 @@
       "date": "2023-10-12",
       "url": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-free-update-october-12-2023",
       "scope": "Direct official confirmation that Ultra Instinct was added as an Awoken Skill in the October 12, 2023 Big Free Update."
+    },
+    {
+      "id": "bn_xv2_legendary_pack_2_2021",
+      "publisher": "Bandai Namco Entertainment Europe",
+      "title": "DRAGON BALL XENOVERSE 2 LEGENDARY PACK 2 out today!",
+      "date": "2021-11-05",
+      "url": "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-legendary-pack-2-out-today",
+      "scope": "Direct official confirmation that the accompanying free update released on 2021-11-05 added the Super Saiyan God Awoken Skill."
     }
   ],
   "events": [
@@ -306,9 +314,21 @@
         "Ultra Instinct"
       ],
       "assignment_status": "Direct skill linkage documented for Ultra Instinct."
+    },
+    {
+      "id": "free-update-2021-11-05",
+      "kind": "free_update",
+      "date": "2021-11-05",
+      "source_ids": [
+        "bn_xv2_legendary_pack_2_2021"
+      ],
+      "skill_scope": [
+        "Super Saiyan God"
+      ],
+      "assignment_status": "Direct skill linkage documented for Super Saiyan God; release date is provenance only and is not treated as a game version or patch number."
     }
   ],
-  "next_step": "Continue auditing older free-update/DLC cohorts for directly named canonical skills; preserve unresolved free-update skill subsets when official sources do not name individual skills.",
+  "next_step": "Continue auditing older free-update/DLC cohorts for directly named canonical skills; preserve unresolved free-update skill subsets when official sources do not name individual skills. Keep release dates separate from game version/patch labels.",
   "direct_skill_mappings": [
     {
       "skill_id": "skill-ultra-instinct",
@@ -796,6 +816,17 @@
       ],
       "confidence": "direct",
       "basis": "Bandai Namco Europe's 2018-03-01 release notice explicitly lists SSGSS Transformations as a new Awoken Skill in the Free Update."
+    },
+    {
+      "skill_id": "skill-super-saiyan-god",
+      "skill_name": "Super Saiyan God",
+      "event_id": "free-update-2021-11-05",
+      "evidence_type": "official_free_update_named_skill",
+      "source_ids": [
+        "bn_xv2_legendary_pack_2_2021"
+      ],
+      "confidence": "direct",
+      "basis": "Bandai Namco's 2021-11-05 release notice explicitly identifies Super Saiyan God as the new Awoken Skill added in the accompanying free update."
     }
   ],
   "research_gaps": [
