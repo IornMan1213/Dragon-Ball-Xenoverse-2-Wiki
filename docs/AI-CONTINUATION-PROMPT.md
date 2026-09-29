@@ -8036,3 +8036,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed the reverse projection is derived from the canonical forward store rather than treating the reverse file as a source of truth.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue fresh canonical endpoint reconciliation; prioritize unresolved equipment identity gaps and any explicit Super Soul/PQ gaps discovered by direct comparison.
+
+
+### 2026-09-29 continuation — Batch 697: equipment-record PQ-link reconciliation
+- [x] Compared canonical equipment-record `pq_links` against the canonical forward PQ relationship store using exact PQ/name identity keys.
+- [x] Recovered 3 previously missing equipment edges: **PQ3 → Battle Suit (Raditz)**, **PQ87 → Training Suit**, and **PQ110 → Zamasu's Clothes**.
+- [x] Ignored duplicate `pq_links` entries rather than multiplying relationships.
+- [x] Regenerated the reverse index from the canonical forward store; equipment edges now total **147**, with **877 total relationships**.
+- [x] Preserved the evidence boundary: acquisition-source links do not assert guaranteed drops, probabilities, or Ultimate Finish conditions.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue canonical endpoint reconciliation and investigate remaining accessory/equipment identity gaps; preserve ambiguous component records.
