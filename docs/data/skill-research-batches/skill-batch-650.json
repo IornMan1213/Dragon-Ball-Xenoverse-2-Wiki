@@ -1,0 +1,79 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 650,
+  "date": "2026-09-29",
+  "status": "complete",
+  "type": "non_awoken_race_restriction_boundary_research",
+  "scope": "Exact-skill boundary review of five remaining null race_restriction records.",
+  "records": [
+    {
+      "id": "skill-break-strike",
+      "name": "Break Strike",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reviewed references do not explicitly state a CaC race/gender equip restriction; character association, mentor association, or technique naming is insufficient."
+    },
+    {
+      "id": "skill-burning-spin",
+      "name": "Burning Spin",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reviewed references do not explicitly state a CaC race/gender equip restriction; character association, mentor association, or technique naming is insufficient."
+    },
+    {
+      "id": "skill-burning-strike",
+      "name": "Burning Strike",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reviewed references do not explicitly state a CaC race/gender equip restriction; character association, mentor association, or technique naming is insufficient."
+    },
+    {
+      "id": "skill-consecutive-energy-blast",
+      "name": "Consecutive Energy Blast",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reviewed references do not explicitly state a CaC race/gender equip restriction; character association, mentor association, or technique naming is insufficient."
+    },
+    {
+      "id": "skill-drain-charge",
+      "name": "Drain Charge",
+      "current_race_restriction": null,
+      "evidence_status": "retain_null",
+      "reason": "Reviewed references do not explicitly state a CaC race/gender equip restriction; character association, mentor association, or technique naming is insufficient."
+    }
+  ],
+  "sources": [
+    {
+      "skill": "Break Strike",
+      "url": "https://dbxv2.fandom.com/wiki/Break_Strike",
+      "finding": "Exact skill reference does not establish a CaC race/gender lock."
+    },
+    {
+      "skill": "Burning Spin",
+      "url": "https://dbxv2.fandom.com/wiki/Burning_Spin",
+      "finding": "Exact skill reference does not establish a CaC race/gender lock."
+    },
+    {
+      "skill": "Burning Strike",
+      "url": "https://dbxv2.fandom.com/wiki/Burning_Strike",
+      "finding": "Exact skill reference does not establish a CaC race/gender lock."
+    },
+    {
+      "skill": "Consecutive Energy Blast",
+      "url": "https://dbxv2.fandom.com/wiki/Consecutive_Energy_Blast",
+      "finding": "Exact skill reference does not establish a CaC race/gender lock."
+    },
+    {
+      "skill": "Drain Charge",
+      "url": "https://dbxv2.fandom.com/wiki/Drain_Charge",
+      "finding": "Exact skill reference does not establish a CaC race/gender lock."
+    }
+  ],
+  "validation": {
+    "records_reviewed": 5,
+    "canonical_skill_records_changed": 0,
+    "nulls_preserved": 5
+  },
+  "boundary": "Preserve null unless an exact skill source explicitly states that the Future Warrior/CaC is restricted by race or gender.",
+  "next": "Continue the remaining null race-restriction records in batches, prioritizing exact pages with explicit eligibility wording."
+}
