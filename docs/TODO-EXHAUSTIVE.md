@@ -7156,3 +7156,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Null race-restriction census is now **62**, down from 77 after the previous recovery promotion.
 - [ ] Runtime/CI/build remains intentionally non-blocking/unverified because connected GitHub diagnostics do not expose the failing job-step logs.
 - [ ] **Exact next:** audit the remaining 62 null race-restriction records using direct skill-specific evidence. Preserve null when evidence does not explicitly establish race scope; then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.
+
+
+### 2026-09-29 continuation — Post-corruption recovery integrity manifest
+- [x] Performed a fresh live-main recovery census before advancing enrichment work; did not trust stale recovery metadata.
+- [x] Recorded the surviving authoritative docs/data/skills.json blob SHA 4f1b192ea3d1f76878fe13b3a90bdfb24bae0410 without substituting skills-index.json as source-of-truth.
+- [x] Recorded synchronized docs/data/skills-index.json at 549 records and preserved its role as a consumer/index layer.
+- [x] Recomputed the canonical PQ relationship baseline at 862 edges: 249 skills, 135 Super Souls, 136 equipment, 247 characters, 88 DLC, and 7 farming; duplicate relationship keys remain 0.
+- [x] Added docs/data/post-corruption-recovery-integrity-manifest-2026-09-29.json so future recovery cycles have a compact, immutable baseline checkpoint.
+- [x] Preserved the current 62-record CaC-usable null race_restriction frontier as an evidence boundary rather than treating null as a restriction.
+- [ ] Runtime/CI/build remains intentionally unverified because connected GitHub diagnostics do not expose the failing job-step logs.
+- [ ] Exact next: continue direct skill-specific race-restriction evidence; preserve null where explicit scope is absent; then continue older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment from canonical forward stores.
