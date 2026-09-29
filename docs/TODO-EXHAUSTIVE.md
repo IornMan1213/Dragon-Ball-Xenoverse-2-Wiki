@@ -6869,3 +6869,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved all four `race_restriction` values as null; the references establish Future Warrior/CaC obtainability but do not state a race/gender lock.
 - [x] Added `docs/data/skill-research-batches/skill-batch-647.json` and updated the audit.
 - [ ] Continue exact per-skill evidence through the remaining null race-restriction frontier.
+
+
+### 2026-09-29 continuation — Null race restriction evidence batch 648
+- [x] Reviewed Full Power Destruction, Gigantic Cross, Gigantic Nova, and Saiyan Blaster.
+- [x] Preserved all four `race_restriction` values as null because character/race association does not establish a CaC equip restriction.
+- [x] Added `docs/data/skill-research-batches/skill-batch-648.json` and updated the audit.
+- [ ] Continue exact-skill research across the remaining null race-restriction frontier.
