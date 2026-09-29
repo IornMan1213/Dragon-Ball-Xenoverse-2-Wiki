@@ -41,7 +41,7 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 637,
+  "latest_research_batch": 635,
   "canonical_catalog_generated": 548,
   "canonical_sync_pending": false,
   "current_research_focus": "Post-frontier canonical recovery: restore exact CaC-usable historical records with established identity IDs, then move to race-specific and transformation enrichment.",
@@ -917,5 +917,21 @@
     "canonical_id": "skill-candy-beam-evasive",
     "pq_relationship_mutations": 0,
     "boundary": "Go-Go Gum remains a confirmed CaC-positive indexed identity but is not promoted until exact canonical identity/evidence is established. No speculative ID was created."
+  },
+  "post_frontier_integrity_2026_09_29": {
+    "status": "complete",
+    "canonical_skill_count": 548,
+    "index_skill_count": 548,
+    "indexed_only_frontier": 0,
+    "canonical_duplicate_non_null_ids": 0,
+    "pq_reward_relationship_count": 862,
+    "pq_relationship_mutations_since_rebuild": 0,
+    "source_of_truth": "docs/data/skills.json",
+    "verified_flag_is_not_source_of_truth": true,
+    "validation_notes": [
+      "Canonical and index counts remain aligned after the indexed-only frontier closure.",
+      "No canonical promotion was performed merely because an indexed identity was shown to be CaC-usable.",
+      "Indexed-only reconciliation is closed; remaining work moves to canonical enrichment/integrity and cross-domain completeness."
+    ]
   }
 }
