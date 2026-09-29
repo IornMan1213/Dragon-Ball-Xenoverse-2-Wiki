@@ -7247,3 +7247,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical source remains authoritative; current unresolved frontier is **62** names.
 - [ ] Runtime/CI/build remains non-blocking/unverified.
 - [ ] Exact next: inspect the remaining names for explicit CaC evidence outside the unavailable/cast-only boundary, then promote only independently supported identities.
+
+
+### 2026-09-29 continuation — Canonical recovery batch 627
+- [x] Recovered **Burning Spin** and **Burning Strike** as **Super / Strike** skills, not Ultimates. Batch 536 explicitly records both as `usable_by_cac=true`.
+- [x] Corrected stale indexed-only taxonomy rather than copying the old category classification into canonical data.
+- [x] Synchronized canonical and index stores to **547/547**.
+- [x] Remaining indexed-only frontier is now **60** names.
+- [ ] Runtime/CI/build remains non-blocking/unverified.
+- [ ] **Exact next:** continue recovery using explicit CaC evidence and current-class correction where supported.
