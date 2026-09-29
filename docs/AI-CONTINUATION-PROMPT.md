@@ -7116,3 +7116,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical skill or PQ relationship mutation.
 - [ ] Runtime/CI remains non-blocking/unverified.
 - [ ] **Next:** continue the remaining restriction-gap cohort with fresh direct evidence and avoid repeating audited records.
+
+
+### 2026-09-29 continuation — Indexed-only cast-only reconciliation batch 612
+- [x] Reconciled six indexed-only Ki Blast Super names: **Bloody Sauce, Dragon Flash Bullet, Freezing Beam, Ice Field, Evil Flame, and Whirlwind Blade**.
+- [x] Direct repository research establishes all six as cast-only/unavailable-for-CaC implementations; current Future Warrior evidence was used as corroboration for the boundary.
+- [x] Preserved the canonical source-of-truth rule: no indexed-only name was promoted into `docs/data/skills.json`.
+- [x] Added `docs/data/skill-research-batches/skill-batch-612.json` and registered it in `docs/data/pq-cross-domain-index.json`.
+- [x] Updated the catalog audit: six indexed-only names resolved as cast-only exclusions; the unresolved indexed-only frontier is now tracked as 106 names.
+- [x] No canonical skill mutation, canonical promotion, or PQ relationship mutation.
+- [ ] Runtime/CI remains non-blocking/unverified.
+- [ ] **Next:** continue indexed-only identity reconciliation, prioritizing names with direct Future Warrior/CaC acquisition evidence that may require canonical promotion, while preserving cast-only and variant exclusions.
