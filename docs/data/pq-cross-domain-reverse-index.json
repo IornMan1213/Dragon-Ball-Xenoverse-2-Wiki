@@ -3,7 +3,7 @@
   "generated_from": "docs/data/pq-reward-relationships.json",
   "generated_date": "2026-09-29",
   "status": "partial_current_relationship_reverse_index",
-  "policy": "Exposes only source-backed normalized edges; absence is not a negative claim.",
+  "policy": "Only source-backed normalized edges are exposed; absence is not a negative claim.",
   "indexes": {
     "skills": {
       "Spirit Slash": [
