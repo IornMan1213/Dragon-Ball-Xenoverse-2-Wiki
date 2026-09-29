@@ -15423,6 +15423,46 @@
       "source_parallel_quests": [
         85
       ]
+    },
+    {
+      "name": "Blades of Judgement",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": 100,
+      "stamina_cost": null,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "character_source": "Fused Zamasu",
+      "dlc_requirement": "Super Pack 4",
+      "unlock_method": "Parallel Quest 112 - Advent of the Mighty God Zamasu! (skill drop)",
+      "ultimate_finish_required": false,
+      "effect": "Fires a barrage of Ki blades through a rear halo; holding the input fires additional blades.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Blades_of_Judgement"
+      ],
+      "verification_status": "researched_current_scope",
+      "research_status": "researched",
+      "last_verified": "2026-09-29"
+    },
+    {
+      "name": "Kamekameha",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "ki_cost": null,
+      "stamina_cost": 0,
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "character_source": null,
+      "dlc_requirement": null,
+      "unlock_method": null,
+      "ultimate_finish_required": null,
+      "effect": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Attack"
+      ],
+      "verification_status": "researched_current_scope",
+      "research_status": "researched",
+      "last_verified": "2026-09-29"
     }
   ],
   "last_verified": "2026-09-27",
