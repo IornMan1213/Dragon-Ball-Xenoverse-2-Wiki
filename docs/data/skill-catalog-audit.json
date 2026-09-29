@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 670,
+  "latest_research_batch": 677,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "Race restriction frontier after canonical promotion of Batches 665, 667, 669, and 670: 62 null CaC-usable records remain. Continue direct skill-specific evidence; preserve null where evidence is insufficient, then resume older DLC/free-update provenance and bidirectional PQ↔skill/Super Soul/equipment enrichment.",
+  "current_research_focus": "Corrected post-corruption race-restriction frontier: current synchronized 549-record skills index contains 76 CaC-usable records with null race_restriction. Continue direct skill-specific evidence; preserve null where evidence is insufficient.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -1289,6 +1289,14 @@
         "2026-09-19 COVERAGE-AUDIT universal CaC census",
         "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
       ]
+    },
+    "current_census_after_batch_677": {
+      "cac_usable_null_race_records": 76,
+      "previous_persisted_count": 62,
+      "discrepancy_corrected": 14,
+      "source_for_census": "docs/data/skills-index.json",
+      "source_of_truth": "docs/data/skills.json",
+      "new_classifications": 0
     }
   },
   "awoken_race_provenance_2026_09_29_batch_672": {
