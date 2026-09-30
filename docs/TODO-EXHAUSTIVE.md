@@ -7410,3 +7410,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No unsupported reward relationships were inferred from capsule/currency-only rewards or from sparse counts.
 - [ ] Exact next frontier: investigate PQ35, PQ32, PQ23, PQ24, PQ14, and PQ19 for genuinely unrepresented typed rewards, beginning with canonical equipment/Super Soul/skill coverage and only promoting independently supported identities.
 - [ ] Continue exact canonical-ID resolution for the five legacy/boss skill gaps in the propagation queue; do not manufacture IDs from community numeric codes.
+
+
+### 2026-09-29 continuation — Batch 702: six-PQ typed-reward reconciliation
+- [x] Checked the six frontier PQs: PQ14, PQ19, PQ23, PQ24, PQ32, and PQ35 against the canonical forward relationship store and direct reward evidence.
+- [x] Confirmed the basic typed rewards for all six are already represented where applicable; no unsupported basic-reward edges were added.
+- [x] Confirmed PQ35 already has the Super Soul `I wanted to kill you with my own hands.` and PQ32 already has Energy Barrier.
+- [x] Identified additional Super Soul candidates reported by a secondary guide (not yet promoted): PQ32 → `*Silence* Ignored…` and `Papparapah! Barrier!`; PQ23 → `Who will surpass me?!`; PQ24/PQ14 → `I’ll never forgive you, scum!`. These require exact canonical identity plus acquisition-condition reconciliation before promotion.
+- [x] Explicitly did **not** convert the NPC-after-PQ19 King Kai clothing grant into a `pq_rewards_equipment` edge; it is a separate acquisition route.
+- [x] Added `docs/data/pq-typed-reward-frontier-reconciliation-2026-09-29-batch-702.json` documenting the evidence boundary and next frontier.
+- [ ] Next: reconcile the candidate Super Souls against the canonical Super Soul database and determine whether the listed PQ association is a direct reward, Ultimate-Finish reward, or merely an alternate acquisition reference before changing canonical PQ relationships.
