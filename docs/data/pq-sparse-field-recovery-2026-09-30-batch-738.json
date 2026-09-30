@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 738,
+  "date": "2026-09-30",
+  "type": "parallel_quest_sparse_field_recovery",
+  "source_of_truth": "docs/data/parallel-quests-record-layer.json",
+  "canonical_mutations": 5,
+  "inferred_fields": 0,
+  "unsupported_records_created": 0,
+  "targets": [
+    "pq-004",
+    "pq-083",
+    "pq-100",
+    "pq-122",
+    "pq-134"
+  ],
+  "summary": "Recovered null/empty PQ fields from surviving maintained research. PQ 004 additionally recovered Dragon Ball farming utility from current repository-supported farming documentation. No reward guarantees, drop rates, or exact trigger semantics were inferred.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Prepare_for_the_Attack_of_Saiyans%21",
+    "https://dbxv2.fandom.com/wiki/Wish",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "boundary": "Canonical forward PQ record layer remains authoritative; index/reverse projections were used only as discovery/cross-checks, not as source of truth."
+}
