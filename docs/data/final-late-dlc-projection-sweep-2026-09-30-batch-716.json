@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "716",
+  "audit_date": "2026-09-30",
+  "scope": "Final late-DLC cross-domain projection sweep after PQ181-PQ186 reconciliation",
+  "source_dataset": "docs/data/pq-reward-relationships.json",
+  "checks": [
+    "Rebuilt docs/data/pq-cross-domain-reverse-index.json directly from the canonical forward relationship array.",
+    "Detected and removed stale reverse-projection entries for PQ134 -> Broly (Full Power Super Saiyan)'s Clothes and the capitalization-only PQ185/PQ186 `FUTURE SAGA Chapter 4` aliases; neither was present in the canonical forward array.",
+    "Reconciled all PQ181-PQ186 typed reward endpoints against the canonical skill, Super Soul, equipment and accessory layers; no missing typed reward endpoint was found.",
+    "Canonical Super Soul projection remains 142 PQ reward edges, 140 unique targets, 142 detailed endpoint matches, and 0 unresolved endpoint names.",
+    "Canonical relationship counters were synchronized to the actual forward array."
+  ],
+  "result": {
+    "unique_forward_relationships": 877,
+    "duplicate_keys": 0,
+    "counts": {
+      "skills": 249,
+      "super_souls": 142,
+      "equipment": 146,
+      "characters": 247,
+      "dlc": 86,
+      "farming": 7
+    }
+  },
+  "boundary": "Character/DLC endpoint naming is preserved as relationship-layer identity and was not rewritten without explicit canonical identity evidence."
+}
