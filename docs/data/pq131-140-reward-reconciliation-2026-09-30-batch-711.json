@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "711",
+  "audit_date": "2026-09-30",
+  "scope": "PQ131-PQ140 canonical-first reward relationship reconciliation",
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "findings": [
+    "PQ131-PQ140 typed reward listings were reconciled against the canonical forward relationship index.",
+    "One unsupported relationship was found and removed: pq-134 -> pq_rewards_equipment -> Broly (Full Power Super Saiyan)'s Clothes. PQ134's source-backed reward list does not include it; the canonical equipment record correctly assigns that clothing to PQ130.",
+    "All non-currency typed rewards listed for PQ131-PQ140 now have corresponding canonical forward reward relationships, with no duplicate relationship keys.",
+    "The 18 Super Soul endpoints in this range resolve to canonical Super Soul records; the shared 'I'm not gonna die until I defeat you!' record intentionally retains its additional PQ151 route.",
+    "Existing equipment/accessory identities for PQ131-PQ140 resolve without requiring new inventory IDs."
+  ],
+  "correction": {
+    "removed_edge": "pq-134|pq_rewards_equipment|Broly (Full Power Super Saiyan)'s Clothes",
+    "reason": "Unsupported by PQ134 reward listing; stale cross-link caused by recovery corruption",
+    "preserved_route": "pq-130|pq_rewards_equipment|Broly (Full Power Super Saiyan)'s Clothes"
+  },
+  "canonical_forward_edge_count": 879,
+  "duplicate_relationship_keys": 0,
+  "evidence_boundary": "Reward presence and cross-domain identity are reconciled here; no drop probability or reward-condition guarantee is inferred."
+}
