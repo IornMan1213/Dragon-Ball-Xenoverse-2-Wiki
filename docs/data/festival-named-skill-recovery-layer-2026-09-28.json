@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0.0",
   "record_layer": "festival_named_skill_recovery",
-  "status": "non_canonical_recovery_layer",
+  "status": "recovery_layer_with_partial_canonical_restoration",
   "purpose": "Preserve directly evidenced Free Update 20 / 4th Festival skill identities that are named by current evidence but are not yet present as canonical records in docs/data/skills.json. This layer is not a source of truth for canonical skill identity and must not be used to manufacture canonical IDs.",
   "source_of_truth_policy": "docs/data/skills.json remains authoritative. These records are recovery/evidence records only.",
   "event": {
@@ -14,8 +14,8 @@
     {
       "recovery_id": "festival-god-bind",
       "name": "God Bind (Festival)",
-      "canonical_skill_id": null,
-      "canonical_status": "named_but_canonical_record_missing",
+      "canonical_skill_id": "name:God Bind (Festival)|class:Super|subcategory:Ki Blast",
+      "canonical_status": "restored_to_canonical_skills",
       "class": "Super",
       "subcategory": "Ki Blast",
       "usable_by_cac": false,
@@ -27,7 +27,9 @@
       "sources": [
         "https://dbxv2.fandom.com/wiki/God_Bind_%28Festival%29",
         "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=1"
-      ]
+      ],
+      "restoration_date": "2026-09-30",
+      "restoration_basis": "The surviving recovery layer already contained the full required canonical schema fields for this record: Super/Ki Blast classification, Goku (Super Saiyan God) source, Festival max-camaraderie acquisition, 100 Ki cost, CaC unavailability, and direct named-skill evidence. No internal numeric ID was fabricated."
     },
     {
       "recovery_id": "festival-egret-waltz",
@@ -143,5 +145,6 @@
     ],
     "identifier_boundary": "These sources still do not expose a canonical internal skill identifier. No ID is inferred from filename, preset position, or mod attachment naming.",
     "canonical_action": "none"
-  }
+  },
+  "last_updated": "2026-09-30"
 }

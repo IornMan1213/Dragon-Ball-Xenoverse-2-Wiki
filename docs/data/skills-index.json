@@ -11848,9 +11848,29 @@
         "https://dbxv2.fandom.com/wiki/Evasive_Skill",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
+    },
+    {
+      "name": "God Bind (Festival)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "verification_status": "partially_verified",
+      "research_status": "partially_enriched",
+      "usable_by_cac": false,
+      "race_restriction": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "dlc_requirement": "Festival of Universes",
+      "unlock_method": "Festival of Universes - Max Camaraderie with Goku (Super Saiyan God)",
+      "source_quest_or_shop": "Festival of Universes",
+      "ultimate_finish_required": null,
+      "id": null,
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/God_Bind_%28Festival%29",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=1"
+      ]
     }
   ],
-  "last_updated": "2026-09-29",
+  "last_updated": "2026-09-30",
   "audit_registry": {
     "skill_mach_dash_current_evidence_audit_2026_09_25": "docs/data/skill-mach-dash-current-evidence-audit-2026-09-25.json",
     "skill_mach_punch_current_evidence_audit_2026_09_25": "docs/data/skill-mach-punch-current-evidence-audit-2026-09-25.json",
@@ -11972,5 +11992,5 @@
   "skill_fighting_pose_i_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-i-current-evidence-audit-2026-09-25.json",
   "skill_fighting_pose_j_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-j-current-evidence-audit-2026-09-25.json",
   "last_verified": "2026-09-29",
-  "record_count": 549
+  "record_count": 550
 }

@@ -16389,10 +16389,39 @@
       "source_parallel_quests": [
         66
       ]
+    },
+    {
+      "name": "God Bind (Festival)",
+      "class": "Super",
+      "subcategory": "Ki Blast",
+      "race_restriction": null,
+      "usable_by_cac": false,
+      "character_source": "Goku (Super Saiyan God)",
+      "dlc_requirement": "Festival of Universes",
+      "level_requirement": null,
+      "ki_cost": 100,
+      "stamina_cost": 0,
+      "damage_type": "Ki Blast",
+      "unlock_method": "Festival of Universes - Max Camaraderie with Goku (Super Saiyan God)",
+      "source_quest_or_shop": "Festival of Universes",
+      "ultimate_finish_required": null,
+      "skill_description": "A Festival-exclusive Super Skill used by Goku (Super Saiyan God); the skill traps the opponent before a follow-up attack.",
+      "mechanics_notes": "Recovery evidence describes a close-range Ki prison that stun-locks the opponent before a follow-up palm strike and Ki blast. The skill is a character-only Festival preset skill and is not available to CaCs.",
+      "combo_notes": null,
+      "pve_notes": null,
+      "pvp_notes": null,
+      "research_status": "partially_enriched",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-09-30",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/God_Bind_%28Festival%29",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=1",
+        "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29"
+      ]
     }
   ],
-  "last_verified": "2026-09-27",
-  "last_updated": "2026-09-29",
+  "last_verified": "2026-09-30",
+  "last_updated": "2026-09-30",
   "audit_registry": {
     "skill_research_batch_430": "docs/data/skill-research-batches/skill-batch-430.json",
     "skill_light-grenade_current_evidence_audit_2026_09_26_batch_430": "docs/data/light-grenade-current-evidence-audit-2026-09-26-batch-430.json",

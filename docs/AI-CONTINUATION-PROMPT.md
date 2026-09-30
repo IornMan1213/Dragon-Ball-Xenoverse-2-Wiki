@@ -8254,3 +8254,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/final-late-dlc-projection-sweep-2026-09-30-batch-716.json`.
 - [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** move from the completed PQ/reward reconciliation frontier to the highest-priority remaining item in the exhaustive TODO, starting with unresolved cross-domain identity/projection gaps rather than creating unsupported aliases.
+
+
+### 2026-09-30 Batch 717 — Post-corruption canonical skill restoration
+- [x] Confirmed the live recovery baseline remained intact at **549 canonical skills / 549 index records / 877 canonical PQ relationships** before mutation.
+- [x] Restored **God Bind (Festival)** from the surviving non-canonical recovery layer into authoritative `docs/data/skills.json`; the record had complete required schema classification and cost evidence.
+- [x] Synchronized `docs/data/skills-index.json` with the restored canonical record; both skill layers now contain **550** records.
+- [x] Updated `docs/data/festival-named-skill-recovery-layer-2026-09-28.json` to record the controlled restoration.
+- [x] Added `docs/data/festival-skill-canonical-restoration-2026-09-30-batch-717.json` as the durable audit checkpoint.
+- [x] Preserved the canonical-source rule: no reconstruction from verified data, indexes, or reverse projections; no internal ID was fabricated.
+- [x] Preserved evidence boundaries for the remaining three Festival identities: **Egret Waltz (Festival)**, **Gamma Force: Code-R (Festival)**, and **Gamma Force: Code-B (Festival)** remain non-canonical until their schema-critical fields are directly established.
+- [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** recover complete schema-supported fields for the remaining three named Festival skills, then continue the highest-priority unresolved canonical/projection gaps.

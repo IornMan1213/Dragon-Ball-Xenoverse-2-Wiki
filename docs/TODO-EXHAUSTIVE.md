@@ -7574,3 +7574,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 716 projection-sweep audit.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: move to the highest-priority remaining exhaustive TODO, beginning with unresolved cross-domain identity/projection gaps.
+
+
+### 2026-09-30 Batch 717
+- [x] Restored **God Bind (Festival)** from the surviving recovery evidence layer into authoritative `docs/data/skills.json`.
+- [x] Synchronized `docs/data/skills-index.json`; canonical/index skill count advanced from **549 to 550**.
+- [x] Added the durable Batch 717 restoration audit and updated the Festival recovery layer.
+- [x] Did not fabricate an internal skill ID or reconstruct canonical data from verified/index/reverse layers.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: restore the remaining Festival recovery candidates only after their schema-critical fields are independently established; then resume the highest-priority cross-domain/projection frontier.

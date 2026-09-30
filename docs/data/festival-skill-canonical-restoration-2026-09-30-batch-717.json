@@ -1,0 +1,46 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 717,
+  "date": "2026-09-30",
+  "type": "post_corruption_canonical_skill_restoration",
+  "status": "completed",
+  "scope": "Restore the first fully schema-supported Festival skill from the surviving recovery layer into the authoritative canonical skill database.",
+  "canonical_source_of_truth": "docs/data/skills.json",
+  "restored_records": [
+    {
+      "name": "God Bind (Festival)",
+      "previous_canonical_presence": false,
+      "canonical_fields_restored": [
+        "class",
+        "subcategory",
+        "usable_by_cac",
+        "character_source",
+        "dlc_requirement",
+        "ki_cost",
+        "stamina_cost",
+        "damage_type",
+        "unlock_method",
+        "source_quest_or_shop",
+        "skill_description",
+        "mechanics_notes",
+        "verification_status",
+        "sources"
+      ],
+      "basis": "Surviving recovery-layer record plus independent named-skill/preset evidence.",
+      "internal_id_policy": "No internal numeric/string skill ID was fabricated; the canonical schema permits name/class/subcategory identity without a required ID field."
+    }
+  ],
+  "validation": {
+    "canonical_skill_count_before": 549,
+    "canonical_skill_count_after": 550,
+    "skills_index_count_after": 550,
+    "duplicate_name_class_subcategory_after": true
+  },
+  "evidence_boundary": [
+    "Only God Bind (Festival) was restored because its surviving recovery evidence contains a complete non-null schema classification and cost set.",
+    "The other three named Festival recovery records remain non-canonical because their subcategory/cost fields are not fully established in the surviving evidence.",
+    "No record was reconstructed from verified-skills.json, the index, or reverse projections.",
+    "No reward probability, Ultimate Finish requirement, or hidden mechanics were inferred."
+  ],
+  "next": "Recover complete schema-supported fields for Egret Waltz (Festival), Gamma Force: Code-R (Festival), and Gamma Force: Code-B (Festival), then continue the remaining canonical/projection gaps."
+}
