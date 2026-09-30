@@ -6176,13 +6176,6 @@
     },
     {
       "pq": "pq-185",
-      "relationship": "pq_requires_dlc",
-      "target": "FUTURE SAGA Chapter 4",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
-    },
-    {
-      "pq": "pq-185",
       "relationship": "pq_rewards_equipment",
       "target": "Goku (Ultra Supervillain Quelled) Wig",
       "status": "source_backed",
@@ -6239,13 +6232,6 @@
       "target": "Future Saga Chapter 4",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-186",
-      "relationship": "pq_requires_dlc",
-      "target": "FUTURE SAGA Chapter 4",
-      "status": "source_backed",
-      "source": "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now"
     },
     {
       "pq": "pq-186",
