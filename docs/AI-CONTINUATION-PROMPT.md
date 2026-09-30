@@ -8347,3 +8347,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-040-043-mechanics-enrichment-2026-09-30-batch-725.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] Exact next: continue the next genuinely unaudited active Super Soul mechanics cohort; keep Super Soul 034 unresolved unless direct item-level evidence appears.
+
+
+### 2026-09-30 Batch 726 — Canonical Super Soul record recovery
+- [x] ID-gap audit found six missing canonical records: 019–023 and 050.
+- [x] Restored 019 Dodoria, 020 Zarbon, 021 Vegeta, 022 Guldo, 023 Recoome, and 050 Android 18 from current catalogue + independent guide evidence.
+- [x] Preserved explicit mechanics, Limit Burst data, and acquisition relationships; did not use derived/verified layers as canonical truth.
+- [x] Added `docs/data/super-souls-canonical-recovery-2026-09-30-batch-726.json` recovery audit.
+- [x] Canonical record count increased from 177 to 183; IDs 001–177 are now contiguous and duplicate-free.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: audit the newly restored records and the remaining canonical layer for additional missing/damaged records before resuming ordinary mechanics enrichment.
