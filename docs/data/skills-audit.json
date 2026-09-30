@@ -3,7 +3,7 @@
   "generated": "2026-09-14",
   "catalog": "docs/data/skills.json",
   "source": "https://dbxv2.fandom.com/wiki/Category:Skills",
-  "status": "batch_01",
+  "status": "batch_01_reconciled_730",
   "purpose": "Track indexed category coverage separately from verified mechanics and acquisition data.",
   "batch_01": {
     "expanded_categories": [
@@ -39,7 +39,7 @@
       "Saiyan Skills": 10,
       "Majin Skills": 10,
       "Namekian Skills": 4,
-      "Frieza Race Skills": 4,
+      "Frieza Race Skills": 2,
       "Human Skills": 4,
       "Unavailable for CaC": 37,
       "Counter Skills": 25,
