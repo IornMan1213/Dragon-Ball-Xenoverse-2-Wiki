@@ -7754,3 +7754,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical mutations: 1; inferred fields: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue residual Super Soul field audit, prioritizing non-categorical records with genuinely recoverable missing mechanics; keep unresolved fields explicit.
+
+### 2026-09-30 Batch 735 — Super Soul 047 mechanics recovery
+- [x] Rechecked canonical **super-soul-047 — “Kicking a Shadow Dragon in the head is not a wise thing to do!”** against current Super Soul catalogue and independent GameFAQs evidence.
+- [x] Recovered the previously unresolved baseline **5% stamina-damage reduction**.
+- [x] Preserved the documented **5% all-damage reduction** and **30% all-damage reduction at Health below 10%**.
+- [x] Promoted the record to `verified` for the supported mechanics fields; stacking behavior and any deeper internal formula remain unresolved.
+- [x] Added `docs/data/super-soul-047-mechanics-enrichment-2026-09-30-batch-735.json`.
+- [x] Canonical mutation count: 1; inferred fields: 0; unsupported records created: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the post-recovery Super Soul field-integrity census for genuinely recoverable gaps; preserve unresolved fields when direct evidence is insufficient.
