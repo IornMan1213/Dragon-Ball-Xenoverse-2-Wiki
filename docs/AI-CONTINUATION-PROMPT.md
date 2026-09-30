@@ -8216,3 +8216,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - Added pq141-160-cross-domain-conflict-audit-2026-09-30-batch-712.json.
 - Canonical forward relationship count remains 879 unique edges.
 - Next: resolve remaining inventory-level conflicts where evidence permits, then PQ161-PQ170.
+
+### 2026-09-30 Batch 713
+- [x] Reconciled PQ161-PQ170 against the canonical forward reward relationship layer.
+- [x] Verified every PQ161-PQ170 equipment and Super Soul target resolves to an existing canonical record.
+- [x] Documented the PQ164 capitalization variance: source transcription `This place Will be your grave!` vs canonical Super Soul `This place will be your grave!`; canonical identity spelling remains authoritative and no duplicate identity was created.
+- [x] Added `docs/data/pq161-170-reconciliation-2026-09-30-batch-713.json`.
+- [x] Canonical forward relationship count remains **879 unique edges** with no duplicate keys.
+- [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** reconcile PQ171-PQ180, then inspect the remaining late-game accessory/equipment endpoint gaps around PQ179-PQ180.
