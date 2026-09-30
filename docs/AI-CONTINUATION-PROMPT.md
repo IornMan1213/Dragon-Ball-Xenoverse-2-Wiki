@@ -8457,3 +8457,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [ ] Runtime/CI remains intentionally unverified because connected diagnostics do not expose the failing job-step details.
 - [ ] No canonical record was reconstructed from verified/index/reverse/projection data.
 - [ ] **Exact next:** continue the post-recovery Super Soul field-integrity census for genuinely recoverable gaps; preserve unresolved mechanics rather than inferring them. After the Super Soul integrity frontier is exhausted, resume the highest-priority cross-domain recovery/enrichment frontier.
+
+### 2026-09-30 Batch 736 — Lovely Showtime reconciliation boundary
+- [x] Fresh evidence pass completed for the remaining Lovely Showtime Ki-cost conflict.
+- [x] Current skill-specific source reports 200 Ki; generic Ultimate Attack source reports 300 Ki; repository Batch 308 preserves 300 Ki from the Xenoverse ID-list research source; independent GameFAQs confirms cast-exclusive behavior but supplies no numeric cost.
+- [x] No canonical mutation was made because the numeric conflict remains unresolved.
+- [x] Added durable audit `docs/data/lovely-showtime-ki-cost-reconciliation-2026-09-30-batch-736.json` and updated `docs/data/skill-reconciliation-queue.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** move to the next cross-domain integrity/enrichment frontier; do not reopen resolved Super Soul null-field classifications or infer Lovely Showtime's cost.
