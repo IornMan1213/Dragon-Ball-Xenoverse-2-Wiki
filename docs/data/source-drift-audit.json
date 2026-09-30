@@ -1,18 +1,19 @@
 {
   "schema_version": "1.0",
-  "audited": "2026-09-14",
+  "audited": "2026-09-30",
   "purpose": "Record source-vs-repository discrepancies without silently changing canonical records.",
   "findings": [
     {
       "domain": "skills",
       "category": "Ki Blast Supers",
-      "severity": "medium",
-      "issue": "Current source category contains Burst Stinger, while the repository batch captured earlier does not visibly contain that entry.",
+      "severity": "resolved",
+      "issue": "The previously recorded Burst Stinger source/repository mismatch is resolved. The current canonical skills index contains Burst Stinger as skill-burst-stinger, a Super/Ki Blast skill acquired from PQ136.",
       "source_count": 183,
       "repository_declared_count": 183,
-      "status": "needs_reconciliation",
+      "status": "resolved",
       "source": "https://dbxv2.fandom.com/wiki/Category:Ki_Blast_Supers",
-      "action": "Do not inflate the repository count until the complete source list and repository list are mechanically diffed; reconcile the missing/extra record first."
+      "action": "No count inflation or duplicate record was required; retain the current 183 source-category count and canonical record.",
+      "repository_canonical_match": true
     },
     {
       "domain": "skills",
@@ -31,6 +32,17 @@
       "source_count": 18,
       "status": "tracked_as_cross_category",
       "source": "https://dbxv2.fandom.com/wiki/Category:Transformations"
+    },
+    {
+      "domain": "skills",
+      "category": "Frieza Race Skills",
+      "severity": "high",
+      "issue": "The current source category enumerates 2 records, while the repository's broader model target remains 4; this is a membership/model reconciliation issue, not yet a safe count correction.",
+      "source_count": 2,
+      "repository_model_target": 4,
+      "status": "needs_model_reconciliation",
+      "source": "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
+      "action": "Compare the source-category membership with the canonical model's overlapping race/awoken classifications before changing canonical counts."
     }
   ]
 }
