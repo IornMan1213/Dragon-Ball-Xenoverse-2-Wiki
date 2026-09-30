@@ -8196,3 +8196,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical forward PQ relationship count is now **879 unique edges** after removing the unsupported edge.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** reconcile PQ141-PQ150, paying special attention to the richer multi-reward records and accessory/component identity mappings, then continue through PQ151+.
+
+
+### 2026-09-30 Batch 711
+- Completed PQ131-PQ140 canonical reward relationship reconciliation.
+- Removed unsupported PQ134 equipment edge for Broly clothing; preserved correct PQ130 route.
+- Verified PQ131-PQ140 typed rewards and Super Soul endpoints.
+- Added the Batch 711 audit file.
+- Canonical forward relationship count is 879 unique edges.
+- Next: reconcile PQ141-PQ150, then PQ151+.
