@@ -7742,3 +7742,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical mutations: 0; inferred fields: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** investigate Super Soul 001 and other non-categorical residual fields for direct item-level evidence; continue preserving genuine unknowns.
+
+
+### 2026-09-30 Batch 734 — Super Soul 001 evidence recheck
+- [x] Rechecked **Hee Hee Sunglasses** against current catalogue and independent documentation.
+- [x] Confirmed Always blindness immunity is categorical; no numeric magnitude applies.
+- [x] Confirmed duration is permanent while equipped and Limit Burst is Auto Just Guard.
+- [x] Canonical field clarified: `effect_magnitude = Not applicable — status-ailment immunity (categorical effect)`.
+- [x] Marked Super Soul 001 verified on 2026-09-30; no numeric mechanic inferred.
+- [x] Added `docs/data/super-soul-001-evidence-recheck-2026-09-30-batch-734.json`.
+- [x] Canonical mutations: 1; inferred fields: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue residual Super Soul field audit, prioritizing non-categorical records with genuinely recoverable missing mechanics; keep unresolved fields explicit.
