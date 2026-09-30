@@ -1,0 +1,123 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 733,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "super_soul_missing_magnitude_duration_triage",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "scope": "Triage residual null magnitude/duration fields so intentional categorical/no-effect records are not mistaken for recoverable damage.",
+  "records": [
+    {
+      "id": "super-soul-001",
+      "name": "Hee Hee Sunglasses",
+      "effect": "Nullifies the blindness status ailment.",
+      "trigger": "Always",
+      "magnitude": null,
+      "duration": "Permanent while equipped",
+      "lb": "Auto Just Guard",
+      "lbEffect": "Auto Just Guard"
+    },
+    {
+      "id": "super-soul-005",
+      "name": "Your power is 5? ...Scum.",
+      "effect": "No special effects.",
+      "trigger": null,
+      "magnitude": null,
+      "duration": null,
+      "lb": "Auto Health and Stamina Recovery!; DEF Down.",
+      "lbEffect": "Auto Health and Stamina Recovery!; DEF Down."
+    },
+    {
+      "id": "super-soul-007",
+      "name": "Gyau!!!!",
+      "effect": "No special effects.",
+      "trigger": null,
+      "magnitude": null,
+      "duration": null,
+      "lb": "Revive Gauge Auto-Recovery!",
+      "lbEffect": "Revive Gauge Auto-Recovery!"
+    },
+    {
+      "id": "super-soul-013",
+      "name": "Kieeeee!!",
+      "effect": "Inflicts the Slow status ailment.",
+      "trigger": "Charged Ki Blast hits",
+      "magnitude": null,
+      "duration": null,
+      "lb": "Revive Gauge Auto-Recovery!",
+      "lbEffect": "Revive Gauge Auto-Recovery!"
+    },
+    {
+      "id": "super-soul-015",
+      "name": "I must tell Lord Frieza...",
+      "effect": "No special effects.",
+      "trigger": null,
+      "magnitude": null,
+      "duration": null,
+      "lb": "Homing",
+      "lbEffect": "Auto Health and Stamina Recovery! DEF Down."
+    },
+    {
+      "id": "super-soul-016",
+      "name": "Tch... Guess I have no choice.",
+      "effect": "No special effects.",
+      "trigger": null,
+      "magnitude": null,
+      "duration": null,
+      "lb": "Paralyze",
+      "lbEffect": "Auto Health and Stamina Recovery! DEF Down."
+    },
+    {
+      "id": "super-soul-022",
+      "name": "Kieeeee!!",
+      "effect": "Inflicts the Slow status when a Charged Ki Blast hits.",
+      "trigger": "[When a Charged Ki Blast hits] Inflicts Slow on the opponent.",
+      "magnitude": null,
+      "duration": null,
+      "lb": "Paralyze",
+      "lbEffect": "Revive Gauge Auto-Recovery!"
+    }
+  ],
+  "findings": [
+    {
+      "id": "super-soul-005",
+      "status": "intentional_no_effect",
+      "reason": "Canonical effect explicitly states no special effects; null trigger/magnitude/duration are not evidence of missing mechanics."
+    },
+    {
+      "id": "super-soul-007",
+      "status": "intentional_no_effect",
+      "reason": "Canonical effect explicitly states no special effects; null trigger/magnitude/duration are not evidence of missing mechanics."
+    },
+    {
+      "id": "super-soul-015",
+      "status": "intentional_no_effect",
+      "reason": "Canonical effect explicitly states no special effects; null trigger/magnitude/duration are not evidence of missing mechanics."
+    },
+    {
+      "id": "super-soul-016",
+      "status": "intentional_no_effect",
+      "reason": "Canonical effect explicitly states no special effects; null trigger/magnitude/duration are not evidence of missing mechanics."
+    },
+    {
+      "id": "super-soul-013",
+      "status": "intentional_categorical",
+      "reason": "Slow is a status ailment, so numeric magnitude is not applicable; trigger is explicitly populated."
+    },
+    {
+      "id": "super-soul-022",
+      "status": "intentional_categorical",
+      "reason": "Slow is a status ailment, so numeric magnitude is not applicable; trigger is explicitly populated."
+    },
+    {
+      "id": "super-soul-001",
+      "status": "requires_targeted_recheck",
+      "reason": "Magnitude/duration are absent but the record is not classified as no-effect; retain as a future evidence target rather than infer values."
+    }
+  ],
+  "validation": {
+    "canonical_mutations": 0,
+    "inferred_fields": 0
+  },
+  "next": "Target super-soul-001 and other non-categorical residual fields with direct item-level evidence; do not fill duration/stacking merely because null."
+}
