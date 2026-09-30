@@ -1,10 +1,10 @@
 {
   "schema_version": "1.0.0",
-  "batch_id": 721,
+  "batch_id": 722,
   "date": "2026-09-30",
   "status": "completed",
-  "type": "super_soul_mechanics_census_refresh",
-  "scope": "Refresh mechanics-field coverage against the current 177-record canonical Super Soul layer.",
+  "type": "super_soul_mechanics_census_correction",
+  "scope": "Correct the mechanics census classification after re-reading canonical provenance for the previously flagged late records.",
   "canonical_source": "docs/data/super-souls-record-layer.json",
   "counts": {
     "total_records": 177,
@@ -27,38 +27,38 @@
     {
       "id": "super-soul-034",
       "name": "The final battle begins now.",
-      "status": "substantive_unresolved"
-    },
-    {
-      "id": "super-soul-138",
-      "name": "I'll show you the power of a true warrior!",
-      "status": "substantive_unresolved"
-    },
-    {
-      "id": "super-soul-139",
-      "name": "Don't underestimate my power!",
-      "status": "substantive_unresolved"
-    },
-    {
-      "id": "super-soul-140",
-      "name": "I won't forgive you!",
-      "status": "substantive_unresolved"
-    },
-    {
-      "id": "super-soul-141",
-      "name": "I'm the one who will win!",
-      "status": "substantive_unresolved"
-    },
-    {
-      "id": "super-soul-142",
-      "name": "This is the ultimate hero!",
-      "status": "substantive_unresolved"
+      "status": "active_substantive_unresolved",
+      "evidence": "PQ186 reward identity is independently established; item-level mechanics remain unresolved."
     }
   ],
   "validation": {
     "records_censused": 177,
+    "active_mechanics_targets": 1,
+    "rejected_legacy_records_excluded_from_priority": 5,
     "canonical_mutations": 0,
     "fields_inferred": 0
   },
-  "next": "Obtain direct item-level mechanics evidence for the six priority records; do not infer from PQ projections or verified layers."
+  "next": "Research direct item-level mechanics evidence for super-soul-034 only; separately keep the five rejected legacy records as provenance/history and do not treat them as active catalogue gaps.",
+  "correction": {
+    "previous_priority": [
+      "super-soul-034",
+      "super-soul-138",
+      "super-soul-139",
+      "super-soul-140",
+      "super-soul-141",
+      "super-soul-142"
+    ],
+    "reclassified": [
+      "super-soul-138",
+      "super-soul-139",
+      "super-soul-140",
+      "super-soul-141",
+      "super-soul-142"
+    ],
+    "reason": "These five records are explicitly marked rejected_legacy / rejected_legacy_misidentification in the canonical layer. They are preserved for historical provenance but are not unresolved valid catalogue records and must not be treated as active mechanics-enrichment targets.",
+    "active_priority": [
+      "super-soul-034"
+    ],
+    "new_boundary": "Do not promote mechanics, acquisition, or PQ relationships for the five rejected legacy identities without new item-level evidence that first re-establishes them as valid catalogue identities."
+  }
 }

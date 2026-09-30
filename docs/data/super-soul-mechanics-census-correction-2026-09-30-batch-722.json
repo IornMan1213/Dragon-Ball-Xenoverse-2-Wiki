@@ -1,0 +1,24 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 722,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "super_soul_mechanics_census_correction",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "finding": "The prior Batch 721 census incorrectly treated five rejected-legacy records as substantive active mechanics gaps.",
+  "corrected_records": [
+    "super-soul-138",
+    "super-soul-139",
+    "super-soul-140",
+    "super-soul-141",
+    "super-soul-142"
+  ],
+  "active_target": "super-soul-034",
+  "policy": [
+    "Canonical provenance_status/verification_status controls whether a record is an active enrichment target.",
+    "Rejected legacy identities remain preserved for audit history but are not active catalogue records.",
+    "No mechanics or acquisition data were inferred or promoted."
+  ],
+  "external_evidence": "The canonical record for super-soul-034 is corroborated as a PQ186 reward identity by the maintained all-186 PQ reward guide, while current community discussion still does not establish its mechanics.",
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+}
