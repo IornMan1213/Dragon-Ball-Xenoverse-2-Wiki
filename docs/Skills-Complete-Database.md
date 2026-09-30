@@ -44,12 +44,12 @@ The current research baseline identifies **672 indexed skill memberships** acros
 | Saiyan Skills | 10 |
 | Majin Skills | 10 |
 | Namekian Skills | 4 |
-| Frieza Race Skills | 4 |
+| Frieza Race Skills | 2 |
 | Human Skills | 4 |
 | Unavailable for CaC | 37 |
 | Counter Skills | 25 |
 | Transformations | 18 |
-| **Total indexed scope** | **672** |
+| **Total indexed scope** | **670** |
 
 These counts are a **coverage target**, not a claim that all 672 records have already been independently verified for mechanics and unlock methods.
 
