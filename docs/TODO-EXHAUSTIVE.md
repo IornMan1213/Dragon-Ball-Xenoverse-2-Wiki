@@ -7731,3 +7731,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical mutations: 2; inferred fields: 0; unsupported records created: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the remaining canonical Super Soul field-integrity audit, prioritizing genuinely recoverable acquisition/effect/relationship gaps and preserving unresolved mechanics rather than inferring them.
+
+
+### 2026-09-30 Batch 733 — Super Soul residual-field triage
+- [x] Triaged residual null magnitude/duration/trigger fields against canonical effect semantics.
+- [x] Classified 005, 007, 015, and 016 as intentional no-effect records; their null mechanics fields are not treated as data loss.
+- [x] Classified 013 and 022 as intentional categorical/status-effect records; numeric magnitude is not applicable to their Slow effect.
+- [x] Flagged 001 for targeted evidence recheck rather than inferring magnitude or duration.
+- [x] Added `docs/data/super-soul-residual-field-triage-2026-09-30-batch-733.json`.
+- [x] Canonical mutations: 0; inferred fields: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** investigate Super Soul 001 and other non-categorical residual fields for direct item-level evidence; continue preserving genuine unknowns.
