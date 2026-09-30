@@ -8205,3 +8205,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - Added the Batch 711 audit file.
 - Canonical forward relationship count is 879 unique edges.
 - Next: reconcile PQ141-PQ150, then PQ151+.
+
+
+### 2026-09-30 Batch 712
+- Completed PQ141-PQ160 cross-domain conflict audit.
+- Preserved Bardock DB Super Scouter as research-derived PQ146 association rather than normal basic reward.
+- Identified PQ150 versus PQ152 Android 17 route conflict and did not rewrite canonical acquisition.
+- Identified Android 17 Wig versus Ranger Wig and Gamma 2 Helmet versus Gamma 2's Helmet identity conflicts; no unsafe merges.
+- Confirmed Dr. Hedo Hood and Red Ribbon Army Helmet mappings.
+- Added pq141-160-cross-domain-conflict-audit-2026-09-30-batch-712.json.
+- Canonical forward relationship count remains 879 unique edges.
+- Next: resolve remaining inventory-level conflicts where evidence permits, then PQ161-PQ170.
