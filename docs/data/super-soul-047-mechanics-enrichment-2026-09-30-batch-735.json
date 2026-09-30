@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 735,
+  "purpose": "Post-corruption recovery-forward Super Soul field enrichment for canonical record super-soul-047.",
+  "source_of_truth": "docs/data/super-souls-record-layer.json",
+  "source_policy": "Canonical forward data is authoritative. This batch promotes only fields supported by independent current references; no verified/index/reverse/projection layer is used as canonical truth.",
+  "record": {
+    "id": "super-soul-047",
+    "name": "Kicking a Shadow Dragon in the head is not a wise thing to do!",
+    "fields_changed": [
+      "effect_magnitude",
+      "version_notes",
+      "verification_status",
+      "last_verified",
+      "sources"
+    ],
+    "prior_boundary": "The stamina-damage reduction magnitude was unresolved.",
+    "restored_mechanics": {
+      "baseline_damage_reduction": "5%",
+      "baseline_stamina_damage_reduction": "5%",
+      "low_health_damage_reduction": "30% when Health is below 10%"
+    },
+    "preserved_unknowns": [
+      "stacking_behavior",
+      "exact internal formula beyond the documented percentages"
+    ]
+  },
+  "evidence": [
+    {
+      "url": "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "role": "current Super Soul catalogue; lists both baseline reductions at S and the low-health reduction at XXL."
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81017011",
+      "role": "independent current reward/effect documentation; explicitly lists 5% stamina-damage reduction."
+    },
+    {
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78358712",
+      "role": "independent historical raid/effect documentation; explicitly lists 5% stamina-damage reduction and 30% low-health damage reduction."
+    }
+  ],
+  "canonical_mutations": 1,
+  "inferred_fields": 0,
+  "unsupported_records_created": 0,
+  "next": "Continue the post-recovery Super Soul field-integrity census for genuinely recoverable gaps; do not infer mechanics where direct evidence remains insufficient."
+}
