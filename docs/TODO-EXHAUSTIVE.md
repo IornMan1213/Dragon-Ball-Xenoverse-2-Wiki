@@ -7400,3 +7400,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the seven unresolved accessory/component identity boundaries and did not manufacture inventory IDs.
 - [ ] Runtime/CI remains explicitly unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue forward from the frozen 549/549/877 recovery baseline. First pursue genuinely new canonical Super Soul/equipment/PQ coverage or exact accessory inventory evidence; do not repeat already-reconciled recovery batches.
+
+
+### 2026-09-29 continuation — Batch 701: sparse PQ frontier verification
+- [x] Audited the next sparse PQ relationship frontier from the canonical forward store instead of assuming sparse coverage meant missing data.
+- [x] Directly cross-checked PQ20, PQ33, PQ43, PQ67, and PQ81 against the maintained all-186 PQ reward transcription. Their skill rewards — Mystic Flash, Death Psycho Bomb, Change The Future, Super God Fist, and Afterimage Strike — were already present canonically, so **no duplicate relationships were added**.
+- [x] Refreshed `docs/data/pq-relationship-sparsity-frontier-2026-09-29-batch-700.json` with the negative finding and moved the frontier to the next sparse PQs.
+- [x] Reconciled stale counts in `docs/data/canonical-skill-record-propagation-queue-2026-09-28.json` from historical 493/497 values to the current **549/549** canonical/index baseline.
+- [x] No unsupported reward relationships were inferred from capsule/currency-only rewards or from sparse counts.
+- [ ] Exact next frontier: investigate PQ35, PQ32, PQ23, PQ24, PQ14, and PQ19 for genuinely unrepresented typed rewards, beginning with canonical equipment/Super Soul/skill coverage and only promoting independently supported identities.
+- [ ] Continue exact canonical-ID resolution for the five legacy/boss skill gaps in the propagation queue; do not manufacture IDs from community numeric codes.
