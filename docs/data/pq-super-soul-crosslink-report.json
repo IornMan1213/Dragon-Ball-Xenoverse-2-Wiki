@@ -4,13 +4,12 @@
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_super_soul_dataset": "docs/data/super-souls-record-layer.json",
   "canonical_super_soul_records": 177,
-  "linked_super_soul_rewards": 144,
-  "unique_super_soul_targets": 142,
+  "linked_super_soul_rewards": 143,
+  "unique_super_soul_targets": 141,
   "detailed_endpoint_matches": 142,
-  "partial_acquisition_index_matches": 144,
+  "partial_acquisition_index_matches": 143,
   "unresolved_endpoint_names": [
-    "This place Will be your grave!",
-    "God of Destruction's Might"
+    "This place Will be your grave!"
   ],
   "endpoint_coverage_gaps": [],
   "status": "canonical_forward_layer_has_unresolved_endpoints",
@@ -841,12 +840,6 @@
     {
       "pq": "pq-164",
       "target": "This place Will be your grave!",
-      "status": "source_backed",
-      "source": "canonical Parallel Quest record layer"
-    },
-    {
-      "pq": "pq-176",
-      "target": "God of Destruction's Might",
       "status": "source_backed",
       "source": "canonical Parallel Quest record layer"
     },
