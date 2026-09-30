@@ -8357,3 +8357,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical record count increased from 177 to 183; IDs 001–177 are now contiguous and duplicate-free.
 - [ ] Runtime/CI remains unverified.
 - [ ] Exact next: audit the newly restored records and the remaining canonical layer for additional missing/damaged records before resuming ordinary mechanics enrichment.
+
+
+### 2026-09-30 Batch 727 — Super Soul field-integrity correction
+- [x] Post-recovery integrity audit confirmed 183 canonical records and no ID gaps/duplicates.
+- [x] Corrected Super Soul 015 Limit Burst from the misplaced Ki Blast type to `Auto Health and Stamina Recovery! DEF Down.`.
+- [x] Corrected Super Soul 016 Limit Burst from the misplaced Ki Blast type to `Auto Health and Stamina Recovery! DEF Down.`.
+- [x] Added `docs/data/super-souls-field-correction-2026-09-30-batch-727.json`.
+- [x] Preserved the actual Ki Blast types (`Homing` for 015, `Paralyze` for 016); no unsupported item effects were added.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: continue field-integrity audit for missing/shifted Limit Burst and Ki Blast fields, then return to mechanics enrichment.
