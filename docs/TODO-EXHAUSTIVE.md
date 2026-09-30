@@ -7491,3 +7491,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added docs/data/pq101-110-canonical-reconciliation-2026-09-30-batch-708.json as the durable audit record.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] Exact next: continue PQ111-PQ120 canonical-first reward reconciliation, prioritizing accessory/equipment endpoint identity and projection metadata drift; preserve unresolved identities rather than manufacturing IDs.
+
+
+### 2026-09-30 continuation — PQ111-PQ120 accessory endpoint reconciliation (Batch 709)
+- [x] Audited PQ111-PQ120 against the maintained XV2 all-186 reward transcription and canonical forward relationships; no missing typed reward edge was established.
+- [x] Verified the PQ111-PQ120 Super Soul endpoints against the canonical Super Soul record layer; all 16 listed Super Souls resolve with matching PQ acquisition sources.
+- [x] Repaired the stale canonical accessory attribution for **Toppo's Moustache** from PQ112 to **PQ114**, matching the maintained XV2 all-186 reward transcription and the already-correct canonical forward relationship.
+- [x] Added explicit canonical accessory `acc-095` ↔ `pq-114` navigation through the accessory research and canonical bridge layers.
+- [x] Confirmed Resistance Helmet remains `acc-094` ↔ PQ111.
+- [x] Added `docs/data/pq111-120-accessory-endpoint-reconciliation-2026-09-30-batch-709.json`.
+- [x] Preserved evidence boundaries: no probabilities, guaranteed-drop claims, or Ultimate Finish semantics were inferred.
+- [x] Canonical forward relationship store remains **880** unique edges; no PQ relationship-edge mutation was required.
+- [ ] Runtime/CI remains unverified due unavailable failing job-step diagnostics.
+- [ ] **Exact next:** continue PQ121-PQ130 canonical-first reward reconciliation, prioritizing explicit equipment/accessory identities and Super Soul endpoint coverage; do not manufacture inventory IDs or reward conditions.
