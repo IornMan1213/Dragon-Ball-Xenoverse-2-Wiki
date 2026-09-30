@@ -8184,3 +8184,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical forward PQ relationship store remains **880 edges**: 249 skills / 142 Super Souls / 147 equipment / 247 characters / 88 DLC / 7 farming.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue PQ131-PQ140 canonical-first reward reconciliation, prioritizing explicit accessory/equipment endpoint identities and any remaining Super Soul projection gaps; preserve unresolved reward-condition semantics.
+
+
+### 2026-09-30 continuation — PQ131-PQ140 reward relationship reconciliation (Batch 711)
+- [x] Reconciled PQ131-PQ140 typed rewards against the maintained all-186 PQ source and canonical forward relationship index.
+- [x] Found and removed one unsupported recovery-era edge: `pq-134 -> pq_rewards_equipment -> Broly (Full Power Super Saiyan)'s Clothes`. PQ134 does not list that clothing; the canonical equipment record correctly assigns it to PQ130.
+- [x] Preserved the correct PQ130 clothing relationship; no duplicate relationship keys remain.
+- [x] Confirmed all non-currency typed rewards listed for PQ131-PQ140 now have corresponding canonical forward reward relationships.
+- [x] Confirmed the PQ131-PQ140 Super Soul endpoints resolve to canonical records; the shared `I'm not gonna die until I defeat you!` record retains its separate PQ151 route.
+- [x] Added `docs/data/pq131-140-reward-reconciliation-2026-09-30-batch-711.json`.
+- [x] Canonical forward PQ relationship count is now **879 unique edges** after removing the unsupported edge.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** reconcile PQ141-PQ150, paying special attention to the richer multi-reward records and accessory/component identity mappings, then continue through PQ151+.
