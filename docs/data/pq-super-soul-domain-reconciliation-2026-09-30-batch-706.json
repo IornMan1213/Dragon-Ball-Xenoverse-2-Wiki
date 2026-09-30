@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch": 706,
+  "type": "pq-super-soul-domain-reconciliation",
+  "purpose": "Reconcile PQ Super Soul relationships against canonical Super Soul endpoints and remove a PQ176 skill misclassification.",
+  "findings": {
+    "canonical_super_soul_records": 177,
+    "canonical_pq_relationships": 881,
+    "pq_rewards_super_soul_edges": 143,
+    "unique_super_soul_targets": 141,
+    "endpoint_matches": 143,
+    "unresolved_endpoints": 0,
+    "duplicate_relationship_keys": 0
+  },
+  "corrections": [
+    "Removed pq-176 -> God of Destruction's Might from pq_rewards_super_soul because God of Destruction's Might is a skill, not a Super Soul.",
+    "Normalized PQ164 Super Soul target spelling from 'This place Will be your grave!' to the canonical endpoint 'This place will be your grave!'.",
+    "Preserved the existing canonical super-soul-153 endpoint for PQ164; no duplicate Super Soul record was created."
+  ],
+  "promoted_endpoint": [
+    "The gold represents the new me."
+  ],
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://dbxv2.fandom.com/wiki/Golden_Frieza",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "next": "Continue PQ81-PQ90 and then continue remaining canonical Super Soul enumeration; preserve source spelling variants only in provenance layers."
+}
