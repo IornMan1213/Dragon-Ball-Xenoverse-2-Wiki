@@ -8401,3 +8401,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved canonical skill records and overlapping race membership; no duplicate or speculative skill was created/deleted.
 - [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue the post-recovery canonical Super Soul field-integrity audit, especially missing/shifted Limit Burst fields; keep Super Soul 034 unresolved unless direct item-level evidence appears. Then resolve the remaining Lovely Showtime cost conflict only if stronger evidence supports it.
+
+
+### 2026-09-30 Batch 731 — Super Soul Limit Burst field-integrity recheck
+- [x] Re-audited active canonical Super Soul records after recovery; 178 active records remain in the canonical layer.
+- [x] Isolated the remaining Limit Burst field gaps to **super-soul-032** and **super-soul-034**.
+- [x] Confirmed **032** already has a supported Limit Burst effect, but its separate Limit Burst label/type is absent; no type was inferred from the effect string.
+- [x] Confirmed **034** remains unresolved for both Limit Burst label and effect because current evidence establishes identity/acquisition but not item-level mechanics.
+- [x] Added `docs/data/super-soul-limit-burst-field-integrity-recheck-2026-09-30-batch-731.json`.
+- [x] No canonical mechanics were invented or promoted from inference.
+- [ ] Lovely Showtime Ki-cost conflict remains open.
+- [ ] **Exact next:** continue canonical Super Soul recovery auditing missing acquisition/effect fields and cross-domain relationships; prioritize actual lost/damaged data over cosmetic coverage metrics.
