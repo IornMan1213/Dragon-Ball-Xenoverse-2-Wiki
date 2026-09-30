@@ -7636,3 +7636,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved stacking behavior and the documented 10% vs 20% Ki-recovery discrepancy.
 - [ ] Runtime/CI remains unverified.
 - [ ] Exact next: continue active Super Soul mechanics enrichment where direct item-level evidence supports a field; do not invent mechanics for Super Soul 034.
+
+
+### 2026-09-30 Batch 724
+- [x] Enriched canonical Super Soul 038: the damage-reduction effect is active while Ki is maxed; the always-active Stamina-recovery penalty remains separate.
+- [x] Enriched canonical Super Soul 039: the battle-start all-attack boost is explicitly 20 seconds.
+- [x] Preserved categorical XXL wording and unresolved stacking behavior; no unsupported numeric conversion was made.
+- [x] Added `docs/data/super-souls-038-039-mechanics-enrichment-2026-09-30-batch-724.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: continue the next genuinely unaudited active Super Soul mechanics cohort; keep Super Soul 034 unresolved unless direct item-level evidence appears.
