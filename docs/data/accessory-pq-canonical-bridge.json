@@ -338,6 +338,14 @@
       "pq": 156,
       "canonical_id": "accr-032",
       "match_status": "matched"
+    },
+    {
+      "pq_record_id": "pqacc-032",
+      "name": "Toppo's Moustache",
+      "pq": 114,
+      "canonical_id": "acc-095",
+      "match_status": "matched",
+      "note": "Exact canonical accessory identity is established; PQ114 attribution is explicitly source-backed. Exact reward-condition semantics remain separate."
     }
   ],
   "summary": {
