@@ -7464,3 +7464,16 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Verified the remaining genuine PQ164 endpoint already existed canonically as `super-soul-153`; no duplicate endpoint was added.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** continue PQ81–PQ90 canonical-first reward reconciliation, then continue Super Soul endpoint enumeration and the unresolved accessory identity frontier.
+
+
+### 2026-09-30 continuation — PQ81-PQ90 canonical skill reconciliation + Super Soul projection repair (Batch 707)
+- [x] Audited PQ81-PQ90 against the XV2 all-186 PQ reward transcription; all ten expected skill rewards are already represented in the canonical forward relationship layer: Afterimage Strike, Dragon Burn, Charge, Saiyan Spirit, Zigzag Express, Neo Wolf Fang Fist, Atomic Blast, Buu Buu Ball, Victory Rush, and Ill Bomber. citeturn0search1
+- [x] Cross-checked all ten targets against the synchronized canonical skill index; no missing canonical skill endpoints were found.
+- [x] Removed one exact duplicate pq-164|pq_rewards_super_soul|This place will be your grave! forward relationship. The retained edge uses canonical PQ-record provenance; no acquisition claim was lost.
+- [x] Rebuilt docs/data/pq-cross-domain-reverse-index.json directly from the deduplicated canonical forward relationship store.
+- [x] Refreshed docs/data/pq-super-soul-crosslink-report.json: 177 canonical Super Souls, 142 linked PQ→Super Soul edges, 140 unique targets, 142 detailed endpoint matches, 142 acquisition-index matches, 0 unresolved endpoint names.
+- [x] Completed two missing PQ Super Soul acquisition-index records: PQ2 → Flying Nimbus!! and PQ6 → You cocky little...!.
+- [x] Added docs/data/pq81-90-canonical-skill-reconciliation-2026-09-30-batch-707.json as the persistent audit record.
+- [x] Forward relationship total is now 880; pq_rewards_super_soul is 142. Duplicate relationship keys are now 0.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the next canonical PQ frontier (PQ91-PQ100) and inspect remaining cross-domain endpoint/projection gaps, prioritizing evidence-backed additions and identity-boundary correctness.
