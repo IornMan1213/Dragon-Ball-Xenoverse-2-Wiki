@@ -7562,3 +7562,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 715 audit.
 - [x] Canonical forward relationship count remains 879 unique edges; duplicate keys 0.
 - [ ] Next: final late-DLC cross-domain projection sweep, then highest-priority remaining exhaustive TODO.
+
+
+### 2026-09-30 Batch 716
+- [x] Completed final late-DLC cross-domain projection sweep.
+- [x] Rebuilt the PQ reverse projection from canonical forward relationships.
+- [x] Synchronized forward relationship metadata with the actual 877-edge array.
+- [x] Verified PQ181-PQ186 typed reward endpoints against canonical endpoint layers.
+- [x] Super Soul projection: 142 edges / 140 unique targets / 0 unresolved endpoints.
+- [x] Canonical forward relationship count: **877 unique edges**, duplicate keys 0.
+- [x] Added Batch 716 projection-sweep audit.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: move to the highest-priority remaining exhaustive TODO, beginning with unresolved cross-domain identity/projection gaps.
