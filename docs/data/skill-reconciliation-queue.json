@@ -23,6 +23,12 @@
       "issue": "Historical target of 4 conflicted with current source category snapshot of 2.",
       "resolution": "Resolved Batch 730: current source category enumerates Darkness Rush (Melee) and Turn Golden. Coverage target corrected from 4 to 2; no canonical skill was deleted or invented and overlapping race membership was preserved.",
       "status": "resolved"
+    },
+    {
+      "domain": "Super Souls",
+      "issue": "Active records missing Limit Burst fields after recovery.",
+      "resolution": "Batch 731 recheck: only super-soul-032 and super-soul-034 remain relevant; 032 has an effect but no safely nameable burst label, while 034 has no supported burst data. No unsupported inference made.",
+      "status": "resolved_as_audit_boundary"
     }
   ]
 }
