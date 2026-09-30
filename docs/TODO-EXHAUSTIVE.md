@@ -7516,3 +7516,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical forward PQ relationship store remains **880 edges**: 249 skills / 142 Super Souls / 147 equipment / 247 characters / 88 DLC / 7 farming.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** continue PQ131-PQ140 canonical-first reward reconciliation, prioritizing explicit accessory/equipment endpoint identities and any remaining Super Soul projection gaps; preserve unresolved reward-condition semantics.
+
+
+### 2026-09-30 Batch 711
+- [x] Reconciled PQ131-PQ140 typed rewards against canonical relationships.
+- [x] Removed unsupported PQ134 Broly clothing edge; preserved PQ130 route.
+- [x] Verified PQ131-PQ140 Super Soul endpoints.
+- [x] Added Batch 711 audit.
+- [x] Canonical forward relationship count: 879 unique edges.
+- [ ] Next: PQ141-PQ150 reconciliation, then PQ151+.
