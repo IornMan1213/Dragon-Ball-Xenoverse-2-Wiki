@@ -2,7 +2,7 @@
   "schema_version": "1.0",
   "game": "Dragon Ball Xenoverse 2",
   "status": "exhaustive-research-in-progress",
-  "indexed_category_target": 672,
+  "indexed_category_target": 670,
   "description": "The category totals are the current research coverage target. The existing skills.json is a seeded index and should not be interpreted as 672 fully verified mechanic/unlock records yet.",
   "record_requirements": [
     "name",
@@ -34,7 +34,7 @@
     "Saiyan Skills": 10,
     "Majin Skills": 10,
     "Namekian Skills": 4,
-    "Frieza Race Skills": 4,
+    "Frieza Race Skills": 2,
     "Human Skills": 4,
     "Unavailable for CaC": 37,
     "Counter Skills": 25,
