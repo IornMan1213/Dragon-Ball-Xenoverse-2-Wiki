@@ -8412,3 +8412,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical mechanics were invented or promoted from inference.
 - [ ] Lovely Showtime Ki-cost conflict remains open.
 - [ ] **Exact next:** continue canonical Super Soul recovery auditing missing acquisition/effect fields and cross-domain relationships; prioritize actual lost/damaged data over cosmetic coverage metrics.
+
+
+### 2026-09-30 Batch 732 — Super Soul acquisition-field recovery
+- [x] Re-audited canonical acquisition gaps after Batch 731.
+- [x] Restored **super-soul-002 — Flying Nimbus!!** acquisition as **Parallel Quest 02** using current catalogue + independent PQ02 reward evidence.
+- [x] Restored **super-soul-009 — You cocky little...!** acquisition as **Parallel Quest 06** using current catalogue + independent PQ06 reward evidence.
+- [x] Corrected the misleading 002 version note that conflated the Super Soul with the separate Flying Nimbus vehicle terminology.
+- [x] Added `docs/data/super-soul-acquisition-field-recovery-2026-09-30-batch-732.json`.
+- [x] Canonical mutations: 2; inferred fields: 0; unsupported records created: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the remaining canonical Super Soul field-integrity audit, prioritizing genuinely recoverable acquisition/effect/relationship gaps and preserving unresolved mechanics rather than inferring them.
