@@ -1,0 +1,25 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 739,
+  "date": "2026-09-30",
+  "type": "parallel_quest_reward_recovery",
+  "source_of_truth": "docs/data/parallel-quests-record-layer.json",
+  "canonical_mutations": 2,
+  "inferred_fields": 0,
+  "unsupported_records_created": 0,
+  "targets": [
+    {
+      "id": "pq-049",
+      "change": "restored Do or Die as source-backed skill reward"
+    },
+    {
+      "id": "pq-057",
+      "change": "restored basic rewards and classified Gogeta's Clothes/Rakshasa's Claw as equipment and I will defeat you! as Super Soul; corrected skill_rewards to empty"
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Do_or_Die",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "boundary": "Only directly documented reward relationships were promoted. Generic drop rates/guarantees were not inferred."
+}
