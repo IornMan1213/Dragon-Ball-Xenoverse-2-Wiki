@@ -1,0 +1,42 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 730,
+  "status": "completed",
+  "type": "frieza_race_skill_category_reconciliation",
+  "source": "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
+  "source_snapshot": {
+    "count": 2,
+    "records": [
+      "Darkness Rush (Melee)",
+      "Turn Golden"
+    ]
+  },
+  "previous_repository_target": 4,
+  "canonical_policy": "Category membership targets are reconciled from current source evidence; canonical skill records remain authoritative and are not created, deleted, or reclassified solely from a category count.",
+  "findings": [
+    {
+      "name": "Darkness Rush (Melee)",
+      "status": "source_member",
+      "note": "Current Frieza Race category snapshot includes this skill; broader race-tag overlap is preserved and is not treated as an exclusive Frieza-only restriction."
+    },
+    {
+      "name": "Turn Golden",
+      "status": "source_member",
+      "note": "Canonical Awoken record independently identifies Frieza Race restriction."
+    },
+    {
+      "name": "Historical target 4",
+      "status": "stale",
+      "note": "No current source evidence in the maintained category snapshot supports two additional Frieza Race category members. The former target is therefore treated as stale coverage metadata, not as two missing canonical skills."
+    }
+  ],
+  "actions": [
+    "Changed the maintained Frieza Race category coverage target from 4 to 2.",
+    "Changed the aggregate indexed category target from 672 to 670.",
+    "Did not delete or alter canonical skill records.",
+    "Did not infer exclusive race restrictions from category membership.",
+    "Kept Darkness Rush (Melee) as an overlapping race-category membership rather than duplicating it."
+  ],
+  "next": "Resume post-recovery canonical field-integrity work and then resolve the Lovely Showtime Ki-cost conflict only if higher-priority evidence establishes the canonical value."
+}
