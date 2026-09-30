@@ -40,7 +40,7 @@
       "shop_rotation": null,
       "trigger_condition": "Always",
       "effect_text": "Nullifies the blindness status ailment.",
-      "effect_magnitude": null,
+      "effect_magnitude": "Not applicable — status-ailment immunity (categorical effect)",
       "duration": "Permanent while equipped",
       "stacking_behavior": null,
       "limit_burst": "Auto Just Guard",
@@ -48,9 +48,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. Batch 734: direct current catalogue evidence confirms the effect is categorical blindness immunity; no numeric magnitude applies. Duration remains explicitly recorded as permanent while equipped. External corroboration checked 2026-09-30.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-30",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dragonballxenoverse2.wiki/guides/super-souls/"
