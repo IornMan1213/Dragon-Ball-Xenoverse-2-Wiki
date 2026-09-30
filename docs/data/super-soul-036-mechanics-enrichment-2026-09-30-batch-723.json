@@ -1,0 +1,38 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 723,
+  "status": "completed",
+  "type": "super_soul_mechanics_enrichment",
+  "scope": "Field-level enrichment for Super Soul 036 after the Batch 722 Super Soul 034 evidence boundary was rechecked.",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-036",
+      "name": "Buu's reached full power!",
+      "changed_fields": [
+        "trigger_condition",
+        "duration",
+        "version_notes",
+        "last_verified",
+        "sources"
+      ],
+      "finding": "The current Super Soul catalogue explicitly separates the always-active Ki-recovery penalty from the all-attack boost that applies when Ki is maxed. This establishes a condition-based active window for the second effect; no fixed timed duration or stacking behavior is established.",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81135384",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79000822/946631578"
+      ]
+    }
+  ],
+  "source_policy": "Canonical data remains authoritative. Secondary/current catalogue evidence is used only for field-level enrichment explicitly supported by the source; no stacking behavior, hidden timing, or reward semantics were inferred.",
+  "validation": {
+    "canonical_mutations": 1,
+    "inferred_fields": 0,
+    "unresolved_fields_preserved": [
+      "stacking_behavior"
+    ],
+    "super_soul_034_status": "still unresolved; no direct item-level mechanics evidence found in this pass"
+  },
+  "next": "Continue active Super Soul mechanics enrichment where direct item-level evidence supports a field; keep Super Soul 034 unresolved unless new direct evidence establishes its mechanics."
+}
