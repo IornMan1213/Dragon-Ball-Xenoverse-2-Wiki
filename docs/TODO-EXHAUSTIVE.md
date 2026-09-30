@@ -7452,3 +7452,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the cross-game contamination rule: original Xenoverse Z-Soul/PQ evidence was not promoted into the XV2 canonical layer.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] **Exact next:** continue canonical Super Soul endpoint enumeration from PQ research batches, then continue evidence-backed sparse-PQ/accessory identity coverage.
+
+
+### 2026-09-30 continuation — PQ Super Soul/domain reconciliation (batch 706)
+- [x] Promoted the historical PQ74 Super Soul endpoint `The gold represents the new me.` as canonical `super-soul-183`, preserving later-version rename history instead of collapsing versions.
+- [x] Linked PQ74 → `The gold represents the new me.` in the canonical relationship store.
+- [x] Reconciled PQ164's existing canonical `super-soul-153` endpoint; normalized the forward relationship target spelling to `This place will be your grave!` rather than creating a duplicate record for the source capitalization variant.
+- [x] Removed the erroneous PQ176 → `God of Destruction's Might` Super Soul edge: the target is a skill, not a Super Soul. No replacement Super Soul relationship was invented.
+- [x] Refreshed the PQ reverse-index state for the PQ74 endpoint; current forward relationship integrity is 881 total edges, 143 Super Soul edges, 0 duplicate keys.
+- [x] Created `docs/data/pq-super-soul-domain-reconciliation-2026-09-30-batch-706.json` as the durable audit checkpoint.
+- [x] Verified the remaining genuine PQ164 endpoint already existed canonically as `super-soul-153`; no duplicate endpoint was added.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** continue PQ81–PQ90 canonical-first reward reconciliation, then continue Super Soul endpoint enumeration and the unresolved accessory identity frontier.
