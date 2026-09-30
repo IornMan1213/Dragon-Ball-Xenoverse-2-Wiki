@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 734,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "super_soul_001_evidence_recheck",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "record": {
+    "id": "super-soul-001",
+    "name": "Hee Hee Sunglasses",
+    "finding": "Direct current catalogue evidence confirms Always blindness immunity; numeric magnitude is not applicable. Duration is permanent while equipped. Limit Burst is Auto Just Guard.",
+    "restored_fields": {
+      "effect_magnitude": "Not applicable — status-ailment immunity (categorical effect)"
+    }
+  },
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://videogaming.fandom.com/wiki/Hee_Hee_Sunglasses",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+  ],
+  "validation": {
+    "canonical_mutations": 1,
+    "inferred_fields": 0,
+    "unsupported_numeric_values": 0
+  },
+  "note": "The prior null magnitude was a schema-semantic gap, not missing numeric data. No numeric blindness magnitude was fabricated."
+}
