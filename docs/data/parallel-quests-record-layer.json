@@ -1171,16 +1171,22 @@
         "Piccolo",
         "Nail"
       ],
-      "rewards": [],
-      "skill_rewards": [],
+      "rewards": [
+        "Do or Die"
+      ],
+      "skill_rewards": [
+        "Do or Die"
+      ],
       "equipment_rewards": [],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Do_or_Die"
+      ],
+      "notes": "Batch 739 recovery: Do or Die is directly documented as a PQ 49 reward; retained as source-backed skill relationship."
     },
     {
       "id": "pq-050",
@@ -1404,18 +1410,30 @@
         "Goku",
         "Vegeta"
       ],
-      "rewards": [],
+      "rewards": [
+        "2520 Zeni",
+        "Med. Mix Capsule",
+        "I will defeat you!",
+        "Gogeta's Clothes",
+        "Rakshasa's Claw"
+      ],
       "skill_rewards": [
         "Rakshasa's Claw"
       ],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "equipment_rewards": [
+        "Gogeta's Clothes",
+        "Rakshasa's Claw"
+      ],
+      "super_soul_rewards": [
+        "I will defeat you!"
+      ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "notes": "Batch 739 recovery: restored basic rewards from the maintained all-186-PQ reward reference; no drop-rate inference."
     },
     {
       "id": "pq-058",
