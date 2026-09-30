@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "714",
+  "audit_date": "2026-09-30",
+  "scope": "PQ171-PQ180 canonical-first reward and late-game endpoint reconciliation",
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Super_Soul"
+  ],
+  "findings": [
+    "All typed rewards in PQ171-PQ180 are represented by canonical forward relationships after accounting for canonical-name normalization.",
+    "PQ173 source text uses 'You Will know the power of the gods!' while canonical Super Soul super-soul-156 is 'You will know the power of the gods!'.",
+    "PQ178 source text uses 'I'll take all of you on at once!' while canonical Super Soul super-soul-159 is 'I'll take you all on at once!'. Existing canonical relationships already use the canonical identities; no duplicate edges were created.",
+    "PQ179 and PQ180 clothing/accessory endpoints resolve to canonical equipment/accessory records, including SS4 Goku (DAIMA) Suit, SS4 Goku (DAIMA) Wig & Tail, SS3 Vegeta (DAIMA) Battle Suit, and SS3 Vegeta (DAIMA) Wig.",
+    "No unsupported reward edge or inventory merge was introduced."
+  ],
+  "correction": "Canonical forward relationship count remains 879 unique edges; duplicate-key count remains 0.",
+  "evidence_boundary": "Reward identity and endpoint coverage were reconciled. Exact RNG/drop-slot semantics remain unclaimed unless directly sourced."
+}
