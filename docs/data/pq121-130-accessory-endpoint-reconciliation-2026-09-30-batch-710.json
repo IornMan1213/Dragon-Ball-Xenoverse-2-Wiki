@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "710",
+  "audit_date": "2026-09-30",
+  "scope": "PQ121-PQ130 canonical-first reward and accessory endpoint reconciliation",
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "findings": [
+    "All listed typed rewards in PQ121-PQ130 were already represented in the canonical forward PQ relationship store; no duplicate reward edges were added.",
+    "All 14 Super Soul reward names in this range resolve to canonical Super Soul records with matching PQ acquisition sources.",
+    "Goku Wig (Ultra Instinct) and Janemba Head were explicit PQ rewards with existing canonical accessory identities but lacked accessory research/bridge navigation.",
+    "Promoted Goku Wig (Ultra Instinct) as acc-051 ↔ PQ125 and Janemba Head as acc-052 ↔ PQ127 through the accessory research and canonical bridge layers."
+  ],
+  "forward_relationship_change": "none",
+  "canonical_relationship_edge_count": 880,
+  "canonical_equipment_relationship_edges": 147,
+  "accessory_bridge_records_after": 48,
+  "accessory_bridge_matched_after": 40,
+  "accessory_bridge_unresolved_after": 8,
+  "evidence_boundary": "Endpoint identity and PQ association are established; exact drop probability, reward-slot mechanics, and Ultimate Finish semantics remain unresolved."
+}
