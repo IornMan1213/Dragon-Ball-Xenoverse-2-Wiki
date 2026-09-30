@@ -1,0 +1,394 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "batch": 700,
+  "audit_type": "pq_relationship_sparsity_frontier",
+  "purpose": "Identify the next evidence-research frontier from the canonical forward PQ relationship store without treating sparse coverage as proof of missing rewards.",
+  "source_of_truth": "docs/data/pq-reward-relationships.json",
+  "totals": {
+    "relationships": 877,
+    "pqs_with_relationships": 185,
+    "pqs_without_relationships": 1
+  },
+  "sparse_frontier": {
+    "one_relationship": [
+      {
+        "pq": "pq-020",
+        "count": 1,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Mystic Flash"
+        ]
+      },
+      {
+        "pq": "pq-033",
+        "count": 1,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Death Psycho Bomb"
+        ]
+      },
+      {
+        "pq": "pq-043",
+        "count": 1,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Change The Future"
+        ]
+      },
+      {
+        "pq": "pq-067",
+        "count": 1,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Super God Fist"
+        ]
+      },
+      {
+        "pq": "pq-081",
+        "count": 1,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Afterimage Strike"
+        ]
+      }
+    ],
+    "two_relationships": [
+      {
+        "pq": "pq-006",
+        "count": 2,
+        "types": [
+          "pq_rewards_skill",
+          "pq_rewards_super_soul"
+        ],
+        "targets": [
+          "Meteor Strike",
+          "You cocky little...!"
+        ]
+      },
+      {
+        "pq": "pq-007",
+        "count": 2,
+        "types": [
+          "pq_rewards_skill",
+          "pq_rewards_super_soul"
+        ],
+        "targets": [
+          "Shine Shot",
+          "Gyau!!!!"
+        ]
+      },
+      {
+        "pq": "pq-008",
+        "count": 2,
+        "types": [
+          "pq_rewards_equipment",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Goku's Turtle Hermit Gi (King Kai)",
+          "Kaioken"
+        ]
+      },
+      {
+        "pq": "pq-009",
+        "count": 2,
+        "types": [
+          "pq_rewards_equipment",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Chiaotzu's Hat (With Collar)",
+          "Meteor Blow"
+        ]
+      },
+      {
+        "pq": "pq-010",
+        "count": 2,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Unrelenting Barrage",
+          "Wall of Defense"
+        ]
+      },
+      {
+        "pq": "pq-014",
+        "count": 2,
+        "types": [
+          "pq_rewards_equipment",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Goku's Turtle Hermit Gi (Go)",
+          "Kaioken Kamehameha"
+        ]
+      },
+      {
+        "pq": "pq-019",
+        "count": 2,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Fighting Pose E",
+          "Mach Punch"
+        ]
+      },
+      {
+        "pq": "pq-023",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Patroller",
+          "Death Slash"
+        ]
+      },
+      {
+        "pq": "pq-024",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Vegeta",
+          "Double Death Slicer"
+        ]
+      },
+      {
+        "pq": "pq-032",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Cell Jr.",
+          "Energy Barrier"
+        ]
+      },
+      {
+        "pq": "pq-034",
+        "count": 2,
+        "types": [
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Crusher Ball",
+          "Paralysis"
+        ]
+      },
+      {
+        "pq": "pq-035",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_super_soul"
+        ],
+        "targets": [
+          "Patroller",
+          "I wanted to kill you with my own hands."
+        ]
+      },
+      {
+        "pq": "pq-038",
+        "count": 2,
+        "types": [
+          "pq_rewards_skill",
+          "pq_rewards_super_soul"
+        ],
+        "targets": [
+          "Shining Slash",
+          "This fight...is truly pointless..."
+        ]
+      },
+      {
+        "pq": "pq-040",
+        "count": 2,
+        "types": [
+          "pq_rewards_skill",
+          "pq_rewards_super_soul"
+        ],
+        "targets": [
+          "Heat Dome Attack",
+          "Time to dismantle you androids!"
+        ]
+      },
+      {
+        "pq": "pq-046",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Android 16",
+          "Chain Destructo-Disc Barrage"
+        ]
+      },
+      {
+        "pq": "pq-069",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "God of Destruction Beerus",
+          "Headshot"
+        ]
+      },
+      {
+        "pq": "pq-071",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Golden Frieza",
+          "Last Emperor"
+        ]
+      },
+      {
+        "pq": "pq-074",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Golden Frieza",
+          "Final Pose"
+        ]
+      },
+      {
+        "pq": "pq-075",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "God of Destruction Beerus",
+          "Counter Burst"
+        ]
+      },
+      {
+        "pq": "pq-078",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Broly",
+          "Dust Attack"
+        ]
+      },
+      {
+        "pq": "pq-080",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Janemba",
+          "Dimensional Hole"
+        ]
+      },
+      {
+        "pq": "pq-086",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Yamcha",
+          "Neo Wolf Fang Fist"
+        ]
+      },
+      {
+        "pq": "pq-088",
+        "count": 2,
+        "types": [
+          "pq_farming_route",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Dragon Balls",
+          "Buu Buu Ball"
+        ]
+      },
+      {
+        "pq": "pq-090",
+        "count": 2,
+        "types": [
+          "pq_features_character",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Majin Buu",
+          "Ill Bomber"
+        ]
+      },
+      {
+        "pq": "pq-099",
+        "count": 2,
+        "types": [
+          "pq_rewards_equipment",
+          "pq_rewards_skill"
+        ],
+        "targets": [
+          "Mr. Shape Up L",
+          "Emperor's Edge"
+        ]
+      }
+    ],
+    "pqs_without_any_relationship": [
+      "pq-001"
+    ]
+  },
+  "policy": [
+    "Sparse relationship counts are research prioritization signals only, not negative claims.",
+    "Do not infer missing skill, Super Soul, equipment, character, DLC, or farming relationships from absence.",
+    "Any promotion requires explicit canonical or independently corroborated source evidence.",
+    "Canonical forward data remains authoritative."
+  ],
+  "next_targets": [
+    "pq-020",
+    "pq-033",
+    "pq-043",
+    "pq-067",
+    "pq-081",
+    "pq-006",
+    "pq-007",
+    "pq-008",
+    "pq-009",
+    "pq-010",
+    "pq-014",
+    "pq-019",
+    "pq-023",
+    "pq-024",
+    "pq-032",
+    "pq-034",
+    "pq-035"
+  ]
+}
