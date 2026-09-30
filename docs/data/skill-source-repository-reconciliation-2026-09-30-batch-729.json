@@ -1,0 +1,48 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 729,
+  "status": "completed",
+  "type": "skill_source_repository_reconciliation",
+  "scope": "Reconcile the stale Ki Blast Super source/repository discrepancy for Burst Stinger without inflating counts or altering canonical truth.",
+  "source_policy": "Canonical structured data is authoritative. Source/index/derived layers are used for reconciliation and provenance, not as substitutes for canonical records.",
+  "findings": [
+    {
+      "domain": "Ki Blast Supers",
+      "skill": "Burst Stinger",
+      "source_category_count": 183,
+      "repository_index_count": 550,
+      "canonical_index_match": true,
+      "canonical_id": "skill-burst-stinger",
+      "canonical_class": "Super",
+      "canonical_subcategory": "Ki Blast",
+      "canonical_acquisition": "Parallel Quest 136 — \"Breaking Down the Barrier\" Basic Reward",
+      "status": "resolved",
+      "evidence": [
+        "docs/data/skills-index.json",
+        "docs/data/skill-research-batches/skill-batch-405.json",
+        "docs/data/pq-cross-domain-reverse-index.json",
+        "docs/data/skill-pq-reverse-index-2026-09-26.json"
+      ]
+    },
+    {
+      "domain": "Frieza Race Skills",
+      "source_category_count": 2,
+      "repository_historical_target": 4,
+      "status": "still_requires_model-vs-source reconciliation",
+      "note": "The current source category is explicitly enumerated as Darkness Rush (Melee) and Turn Golden. The repository's broader category target remains 4, so this batch does not silently reduce canonical counts or reinterpret overlapping race/awoken memberships."
+    },
+    {
+      "domain": "Lovely Showtime",
+      "status": "open",
+      "note": "Published records still contain a Ki-cost discrepancy; no canonical change made."
+    }
+  ],
+  "actions": [
+    "Marked the Burst Stinger source/repository discrepancy resolved because the current canonical skills index contains an exact Burst Stinger record with stable canonical ID and PQ136 acquisition.",
+    "Did not add a duplicate Burst Stinger record or change the canonical skill count.",
+    "Removed the stale Burst Stinger item from the open reconciliation queue.",
+    "Kept the Frieza Race and Lovely Showtime issues open where the current evidence does not justify a canonical mutation."
+  ],
+  "next": "Continue post-recovery canonical skill/field integrity work, then reconcile the remaining Frieza Race model-vs-source membership discrepancy and Lovely Showtime cost conflict with evidence before changing counts or canonical values."
+}
