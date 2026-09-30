@@ -6548,14 +6548,14 @@
   "current_counts": {
     "pq_rewards_equipment": 147,
     "pq_rewards_skill": 249,
-    "pq_rewards_super_soul": 139,
+    "pq_rewards_super_soul": 142,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88,
-    "total": 877,
-    "total_relationships": 877
+    "total": 880,
+    "total_relationships": 880
   },
-  "last_reconciled_scope": "PQ canonical record-layer Super Soul reconciliation; explicit super_soul_rewards names promoted where absent.",
+  "last_reconciled_scope": "PQ91-PQ110 canonical-first reward reconciliation and projection metadata parity; forward relationship array is authoritative.",
   "notes": [
     "2",
     "0",
