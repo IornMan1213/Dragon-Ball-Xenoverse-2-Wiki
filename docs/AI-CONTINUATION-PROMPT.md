@@ -8225,3 +8225,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical forward relationship count remains **879 unique edges** with no duplicate keys.
 - [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** reconcile PQ171-PQ180, then inspect the remaining late-game accessory/equipment endpoint gaps around PQ179-PQ180.
+
+### 2026-09-30 Batch 714
+- [x] Reconciled PQ171-PQ180 typed rewards against the canonical forward relationship layer.
+- [x] Confirmed PQ173 and PQ178 source-name variants map to existing canonical Super Soul identities without duplicate edges.
+- [x] Verified PQ179-PQ180 late-game clothing/accessory endpoints resolve to canonical inventory records.
+- [x] Added `docs/data/pq171-180-reconciliation-2026-09-30-batch-714.json`.
+- [x] Canonical forward relationship count remains **879 unique edges**; duplicate-key count remains **0**.
+- [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** reconcile PQ181-PQ186, then perform a final late-DLC endpoint sweep for missing canonical equipment/accessory/Super Soul projections and unresolved name variants.
