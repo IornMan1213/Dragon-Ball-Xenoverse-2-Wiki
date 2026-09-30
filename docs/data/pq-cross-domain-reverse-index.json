@@ -1157,6 +1157,18 @@
       ],
       "God of Destruction's Might": [
         "pq-176"
+      ],
+      "A monster? No, I'm a devil!": [
+        "pq-047"
+      ],
+      "The Great Saiyaman is here!": [
+        "pq-053"
+      ],
+      "Take care... of your mother...": [
+        "pq-054"
+      ],
+      "Killed all Earthlings!": [
+        "pq-058"
       ]
     },
     "equipment": {
@@ -2137,7 +2149,7 @@
   },
   "counts": {
     "skills": 244,
-    "super_souls": 137,
+    "super_souls": 141,
     "equipment": 142,
     "characters": 75,
     "dlc": 21,
@@ -2146,7 +2158,7 @@
   "relationship_edge_counts": {
     "pq_rewards_equipment": 147,
     "pq_rewards_skill": 249,
-    "pq_rewards_super_soul": 139,
+    "pq_rewards_super_soul": 143,
     "pq_farming_route": 7,
     "pq_features_character": 247,
     "pq_requires_dlc": 88
