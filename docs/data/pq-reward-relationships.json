@@ -6468,14 +6468,6 @@
       "notes": "Explicitly listed in the canonical PQ6 super_soul_rewards array; exact drop condition remains separate."
     },
     {
-      "pq": "pq-164",
-      "relationship": "pq_rewards_super_soul",
-      "target": "This place will be your grave!",
-      "status": "source_backed",
-      "source": "canonical Parallel Quest record layer",
-      "notes": "Explicitly listed in the canonical PQ164 super_soul_rewards array; exact drop condition remains separate. Canonical target spelling reconciled to the canonical Super Soul endpoint on 2026-09-30; source spelling variant retained only in provenance/research layers."
-    },
-    {
       "pq": "pq-003",
       "relationship": "pq_rewards_equipment",
       "target": "Battle Suit (Raditz)",
