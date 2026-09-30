@@ -6538,6 +6538,14 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Reward explicitly listed for PQ 58; canonical Super Soul endpoint was promoted after XV2-specific identity/effect reconciliation."
+    },
+    {
+      "pq": "pq-074",
+      "relationship": "pq_rewards_super_soul",
+      "target": "The gold represents the new me.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Historical PQ74 reward explicitly listed in the all-186 XV2 transcription; canonical Super Soul endpoint promoted with versioned provenance rather than conflating later rename history."
     }
   ],
   "normalization_rules": [
