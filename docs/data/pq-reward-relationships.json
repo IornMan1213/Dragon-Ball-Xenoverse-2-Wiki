@@ -6506,6 +6506,38 @@
       "status": "source_backed",
       "source": "canonical equipment record layer",
       "notes": "Equipment record explicitly links PQ110 as an acquisition source; no guaranteed-drop/rate claim."
+    },
+    {
+      "pq": "pq-047",
+      "relationship": "pq_rewards_super_soul",
+      "target": "A monster? No, I'm a devil!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed for PQ 47; canonical Super Soul endpoint was promoted after XV2-specific identity/effect reconciliation."
+    },
+    {
+      "pq": "pq-053",
+      "relationship": "pq_rewards_super_soul",
+      "target": "The Great Saiyaman is here!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed for PQ 53; canonical Super Soul endpoint was promoted after XV2-specific identity/effect reconciliation."
+    },
+    {
+      "pq": "pq-054",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Take care... of your mother...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed for PQ 54; canonical Super Soul endpoint was promoted after XV2-specific identity/effect/acquisition reconciliation."
+    },
+    {
+      "pq": "pq-058",
+      "relationship": "pq_rewards_super_soul",
+      "target": "Killed all Earthlings!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Reward explicitly listed for PQ 58; canonical Super Soul endpoint was promoted after XV2-specific identity/effect reconciliation."
     }
   ],
   "normalization_rules": [
