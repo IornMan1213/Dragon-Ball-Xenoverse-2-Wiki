@@ -1,0 +1,111 @@
+{
+  "schema_version": "1.0",
+  "batch": "707",
+  "date": "2026-09-30",
+  "purpose": "Canonical-first reconciliation of PQ81-PQ90 skill rewards and repair of stale PQ Super Soul projections after Batch706.",
+  "sources": [
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/skills-index.json",
+    "docs/data/super-souls-record-layer.json",
+    "docs/data/super-souls/pq-acquisition-index-001-186.json",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "pq_81_90": {
+    "checked": 10,
+    "skill_rewards": 10,
+    "relationship_gaps": [],
+    "canonical_skill_gaps": [],
+    "records": [
+      {
+        "pq": "pq-081",
+        "target": "Afterimage Strike",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-082",
+        "target": "Dragon Burn",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-083",
+        "target": "Charge",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-084",
+        "target": "Saiyan Spirit",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-085",
+        "target": "Zigzag Express",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-086",
+        "target": "Neo Wolf Fang Fist",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-087",
+        "target": "Atomic Blast",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-088",
+        "target": "Buu Buu Ball",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-089",
+        "target": "Victory Rush",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      },
+      {
+        "pq": "pq-090",
+        "target": "Ill Bomber",
+        "relationship_present": true,
+        "canonical_skill_present": true
+      }
+    ]
+  },
+  "relationship_repair": {
+    "duplicate_key_removed": {
+      "pq": "pq-164",
+      "relationship": "pq_rewards_super_soul",
+      "target": "This place will be your grave!",
+      "reason": "Exact duplicate forward relationship; the retained record uses the canonical PQ record-layer provenance."
+    },
+    "forward_relationship_edges": 880,
+    "pq_super_soul_edges": 142,
+    "reverse_super_soul_targets": 140
+  },
+  "projection_state": {
+    "canonical_super_soul_records": 177,
+    "linked_super_soul_rewards": 142,
+    "unique_super_soul_targets": 140,
+    "detailed_endpoint_matches": 142,
+    "partial_acquisition_index_matches": 142,
+    "unresolved_endpoint_names": []
+  },
+  "acquisition_index_repair": [
+    {
+      "pq": 2,
+      "super_soul": "Flying Nimbus!!"
+    },
+    {
+      "pq": 6,
+      "super_soul": "You cocky little...!"
+    }
+  ],
+  "conclusion": "PQ81-PQ90 already had complete canonical skill-reward coverage; no duplicate or speculative skill edges were added. The stale Batch706 Super Soul projections were reconciled from the deduplicated forward relationship layer, and the PQ2/PQ6 acquisition index gaps were filled."
+}
