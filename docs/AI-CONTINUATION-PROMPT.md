@@ -8234,3 +8234,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical forward relationship count remains **879 unique edges**; duplicate-key count remains **0**.
 - [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** reconcile PQ181-PQ186, then perform a final late-DLC endpoint sweep for missing canonical equipment/accessory/Super Soul projections and unresolved name variants.
+
+### 2026-09-30 Batch 715
+- [x] Reconciled PQ181-PQ186 typed rewards and late-DLC inventory endpoints.
+- [x] Verified all listed late-DLC equipment/accessory endpoints resolve to canonical records.
+- [x] Preserved Cheelai's Coat as an inventory-layer clothing/accessory endpoint without speculative bridge promotion.
+- [x] Removed duplicate PQ185/PQ186 DLC relationship aliases differing only by capitalization; retained canonical `FUTURE SAGA Chapter 4` target.
+- [x] Added `docs/data/pq181-186-reconciliation-2026-09-30-batch-715.json`.
+- [x] Canonical forward relationship count remains **879 unique edges**; duplicate keys remain **0**.
+- [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** perform the planned final late-DLC cross-domain projection sweep, then move to the highest-priority remaining exhaustive TODO rather than assuming PQ work is complete.
