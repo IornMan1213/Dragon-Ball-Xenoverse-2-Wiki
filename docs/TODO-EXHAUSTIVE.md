@@ -7534,3 +7534,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 712 conflict audit.
 - [x] Canonical forward relationship count remains 879 unique edges.
 - [ ] Next: inventory-level conflict resolution, then PQ161-PQ170.
+
+
+### 2026-09-30 Batch 713
+- [x] Reconciled PQ161-PQ170 against canonical relationships.
+- [x] Verified all equipment/Super Soul endpoints resolve to canonical records.
+- [x] Documented PQ164 capitalization variance without creating duplicate identity.
+- [x] Added Batch 713 audit.
+- [x] Canonical forward relationship count remains 879 unique edges.
+- [ ] Next: PQ171-PQ180 reconciliation and late-game accessory/equipment endpoint gaps.
