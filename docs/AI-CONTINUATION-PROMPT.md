@@ -8266,3 +8266,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved evidence boundaries for the remaining three Festival identities: **Egret Waltz (Festival)**, **Gamma Force: Code-R (Festival)**, and **Gamma Force: Code-B (Festival)** remain non-canonical until their schema-critical fields are directly established.
 - [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** recover complete schema-supported fields for the remaining three named Festival skills, then continue the highest-priority unresolved canonical/projection gaps.
+
+
+### 2026-09-30 Batch 718 — Festival recovery evidence enrichment
+- [x] Strengthened the three remaining Festival recovery records with current independent evidence for acquisition/preset linkage and mechanics.
+- [x] Added `docs/data/festival-recovery-evidence-enrichment-2026-09-30-batch-718.json`.
+- [x] Kept all three canonical IDs null; no unsupported canonical promotion.
+- [x] Preserved `docs/data/skills.json` as authoritative.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** pursue exact structured/historical identifiers or remaining schema-critical fields; otherwise advance to the next substantive canonical enrichment frontier.

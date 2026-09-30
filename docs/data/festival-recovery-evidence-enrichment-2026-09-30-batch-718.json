@@ -1,0 +1,20 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 718,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "festival_recovery_evidence_enrichment",
+  "canonical_source": "docs/data/skills.json",
+  "records": [
+    "Egret Waltz (Festival)",
+    "Gamma Force: Code-R (Festival)",
+    "Gamma Force: Code-B (Festival)"
+  ],
+  "validation": {
+    "canonical_promotions": 0,
+    "unsupported_ids_invented": 0,
+    "evidence_only_fields_added": 3
+  },
+  "boundary": "The evidence strengthens identity, acquisition, preset linkage, and mechanics but does not expose canonical internal IDs or enough complete schema fields for canonical promotion.",
+  "next": "Pursue exact structured/historical identifiers or additional schema-critical evidence; otherwise advance to the next substantive canonical enrichment frontier."
+}

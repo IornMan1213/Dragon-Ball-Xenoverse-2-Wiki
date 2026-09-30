@@ -48,7 +48,15 @@
         "https://dbxv2.fandom.com/wiki/Videl_%28DB_Super%29",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=10",
         "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80985605?page=1"
-      ]
+      ],
+      "evidence_update_20260930": {
+        "festival_unlock_confirmed": true,
+        "preset_placement": "Videl (DB Super)'s Clothes 2",
+        "sources": [
+          "https://dbxv2.fandom.com/wiki/Videl_%28DB_Super%29",
+          "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=10"
+        ]
+      }
     },
     {
       "recovery_id": "festival-gamma-force-code-r",
@@ -67,7 +75,16 @@
         "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-R",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=13",
         "https://www.youtube.com/watch?v=FDgr5EVmDA4"
-      ]
+      ],
+      "evidence_update_20260930": {
+        "festival_unlock_confirmed": true,
+        "mechanics_confirmed": "Gamma 1 fires a blast, attacks the opponent, then snaps his fingers to send them flying.",
+        "sources": [
+          "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-R",
+          "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=13",
+          "https://www.youtube.com/watch?v=FDgr5EVmDA4"
+        ]
+      }
     },
     {
       "recovery_id": "festival-gamma-force-code-b",
@@ -87,7 +104,16 @@
         "https://dbxv2.fandom.com/wiki/Gamma_2",
         "https://gamefaqs.gamespot.com/boards/190457-games/81001000?page=13",
         "https://www.youtube.com/watch?v=FDgr5EVmDA4"
-      ]
+      ],
+      "evidence_update_20260930": {
+        "festival_unlock_confirmed": true,
+        "mechanics_confirmed": "Gamma 2 fires a charged blast, attacks the opponent, then sends them flying with a kick.",
+        "sources": [
+          "https://dragonball.fandom.com/wiki/Gamma_Force%3A_Code-B",
+          "https://dbxv2.fandom.com/wiki/Gamma_2",
+          "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81001000?page=13"
+        ]
+      }
     }
   ],
   "evidence_boundary": [

@@ -7583,3 +7583,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Did not fabricate an internal skill ID or reconstruct canonical data from verified/index/reverse layers.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: restore the remaining Festival recovery candidates only after their schema-critical fields are independently established; then resume the highest-priority cross-domain/projection frontier.
+
+
+### 2026-09-30 Batch 718
+- [x] Enriched the three remaining named Festival recovery records with direct current evidence for acquisition/preset linkage and mechanics.
+- [x] Added the Batch 718 evidence audit.
+- [x] Preserved null canonical IDs and unresolved schema-critical fields; no unsupported promotion.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: pursue exact structured/historical Festival identifiers/schema evidence, then advance to the next canonical enrichment frontier if identifiers remain unrecoverable.
