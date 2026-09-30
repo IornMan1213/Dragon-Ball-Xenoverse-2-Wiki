@@ -1,8 +1,8 @@
 {
   "schema_version": "1.0.0",
   "audit_date": "2026-09-29",
-  "batch": 702,
-  "audit_type": "pq-typed-reward-frontier-reconciliation",
+  "batch": 703,
+  "audit_type": "pq-typed-reward-frontier-reconciliation-and-cross-game-contamination-correction",
   "purpose": "Reconcile the six-PQ sparse frontier against direct PQ reward evidence and separate basic rewards from additional/Ultimate-Finish acquisition evidence.",
   "canonical_source": "docs/data/pq-reward-relationships.json",
   "checked_pqs": [
@@ -153,5 +153,22 @@
     "pq-024 additional Super Soul",
     "pq-014 additional Super Soul",
     "canonical Super Soul acquisition-condition reconciliation"
-  ]
+  ],
+  "correction": {
+    "conclusion": "The candidate Super Souls from the Gamepur 'Super Soul Award' list are Dragon Ball Xenoverse (2015) / original Xenoverse Z-Soul data, not reliable Dragon Ball Xenoverse 2 PQ reward evidence.",
+    "evidence": [
+      "GameSkinny's original Xenoverse PQ guide lists PQ31 'Majin Chaos' with Papparapah! Barrier! and PQ32 'Super Saiyan Bargain Sale' with *Silence* Ignored...; these match the candidate list exactly.",
+      "The original Xenoverse Z-Soul index lists the same names and associates them with original-Xenoverse PQs.",
+      "The current XV2 canonical Super Soul record layer has 172 records and does not contain these candidate names, while it does contain the XV2 Item Shop Super Soul 'I'll never forgive you, scum!' as super-soul-030.",
+      "Therefore the secondary Gamepur list must not be used to promote XV2 pq_rewards_super_soul edges."
+    ],
+    "decision": "reject candidate promotions for the six-PQ frontier; preserve the existing canonical 877-edge relationship store unchanged.",
+    "sources": [
+      "https://www.gamepur.com/guides/how-to-unlock-super-soul-award-in-dragon-ball-xenoverse-2",
+      "https://www.gameskinny.com/tips/dragon-ball-xenoverse-parallel-quest-requirements-guide/",
+      "https://dbxenoverse.fandom.com/wiki/Z-Soul",
+      "https://dbxv2.fandom.com/wiki/Super_Soul"
+    ],
+    "next_frontier": "Move away from this contaminated secondary source and audit the next sparse PQs using the project's canonical XV2-oriented sources only."
+  }
 }
