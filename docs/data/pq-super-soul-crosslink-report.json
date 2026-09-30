@@ -3,14 +3,17 @@
   "generated_by": "canonical PQ reward relationship consumer projection",
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_super_soul_dataset": "docs/data/super-souls-record-layer.json",
-  "canonical_super_soul_records": 172,
-  "linked_super_soul_rewards": 135,
-  "unique_super_soul_targets": 133,
-  "detailed_endpoint_matches": 133,
-  "partial_acquisition_index_matches": 135,
-  "unresolved_endpoint_names": [],
+  "canonical_super_soul_records": 177,
+  "linked_super_soul_rewards": 144,
+  "unique_super_soul_targets": 142,
+  "detailed_endpoint_matches": 142,
+  "partial_acquisition_index_matches": 144,
+  "unresolved_endpoint_names": [
+    "This place Will be your grave!",
+    "God of Destruction's Might"
+  ],
   "endpoint_coverage_gaps": [],
-  "status": "canonical_forward_layer_reconciled; forward/reverse endpoint parity aligned",
+  "status": "canonical_forward_layer_has_unresolved_endpoints",
   "semantics": "This report is a projection of the current canonical PQ→Super Soul relationship layer. Disputed or removed historical claims are not retained as active resolved edges; historical conflicts belong in dedicated audit/provenance records.",
   "resolved_super_soul_rewards": [
     {
@@ -118,12 +121,6 @@
     {
       "pq": "pq-044",
       "target": "Getting beat up makes me cranky...",
-      "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-    },
-    {
-      "pq": "pq-049",
-      "target": "Do or Die",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     },
@@ -828,6 +825,60 @@
       "target": "The final battle begins now.",
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-002",
+      "target": "Flying Nimbus!!",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer"
+    },
+    {
+      "pq": "pq-006",
+      "target": "You cocky little...!",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer"
+    },
+    {
+      "pq": "pq-164",
+      "target": "This place Will be your grave!",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer"
+    },
+    {
+      "pq": "pq-176",
+      "target": "God of Destruction's Might",
+      "status": "source_backed",
+      "source": "canonical Parallel Quest record layer"
+    },
+    {
+      "pq": "pq-047",
+      "target": "A monster? No, I'm a devil!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-053",
+      "target": "The Great Saiyaman is here!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-054",
+      "target": "Take care... of your mother...",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-058",
+      "target": "Killed all Earthlings!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    },
+    {
+      "pq": "pq-074",
+      "target": "The gold represents the new me.",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
     }
   ],
   "acquisition_index": "docs/data/super-souls/pq-acquisition-index-001-186.json",
@@ -837,5 +888,6 @@
     "2026-09-27: PQ 155 → 'This is the ultimate hero!' remains absent from the active projection after direct reward-list contradiction; super-soul-142 remains preserved as unresolved standalone catalogue data.",
     "2026-09-27: Added PQ 007 → Gyau!!!! after current PQ reward evidence confirmed the Super Soul; prior endpoint metadata was valid but canonical PQ relationship/index coverage was incomplete.",
     "2026-09-27 parity audit: canonical Super Soul record layer contains 172 records; corrected stale projection count from 173. Relationship/index edge parity remains 135 linked rewards / 133 unique targets."
-  ]
+  ],
+  "generated_at": "2026-09-30"
 }
