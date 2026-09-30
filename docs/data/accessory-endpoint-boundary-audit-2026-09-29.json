@@ -1,13 +1,10 @@
 {
   "schema_version": "1.0.0",
   "audit_date": "2026-09-30",
-  "batch": "719",
-  "scope": "remaining accessory endpoint identity boundary",
+  "batch": "720",
+  "scope": "remaining accessory endpoint identity boundary — independent inventory evidence refresh",
   "source_of_truth": "Canonical accessory/equipment layers and canonical forward PQ relationships; unresolved research labels are not promoted by inference.",
-  "resolved_this_batch": [
-    "Great Saiyaman Bandana 1",
-    "Great Saiyaman Bandana 2"
-  ],
+  "resolved_this_batch": [],
   "preserved_unresolved": [
     "Android 15's Sunglasses",
     "Gine (DB Super)'s Accessory",
@@ -16,11 +13,38 @@
     "Android 17 (DB Super)'s Ranger Accessory"
   ],
   "findings": [
-    "Seven accessory research labels remain without exact canonical inventory IDs: Great Saiyaman Bandana 1, Great Saiyaman Bandana 2, Android 15's Sunglasses, Gine (DB Super)'s Accessory, Kale's Accessory, Caulifla's Accessory, and Android 17 (DB Super)'s Ranger Accessory.",
-    "Repository search confirms the generic/component labels remain explicitly marked unresolved in the canonical bridge/remaining research layers.",
-    "Yamcha's Sword remains a conflicted route rather than an identity gap: PQ29 is supported in the maintained PQ record while historical sources also associate PQ36, so no canonical accessory ID was invented.",
-    "No new canonical endpoint identity was safe to promote in this audit.",
-    "Batch 719 promoted the two Great Saiyaman bandana identities after independent exact-name/acquisition corroboration and distinct external inventory IDs 837/838. External IDs remain evidence only."
+    "Independent inventory-ID evidence identifies Android 15's accessory as the combined item 'Android 15's Shades & Hat' (external inventory ID 728), not a separately established 'Android 15's Sunglasses' inventory record. Therefore the research label remains unresolved rather than being merged into an invented separate accessory.",
+    "Independent inventory-ID evidence identifies Gine (DB Super) as a set (ID 781), while Kale and Caulifla are represented by distinct wig records (IDs 785 and 786). These results reinforce that the generic PQ labels do not establish separate accessory identities.",
+    "Independent inventory-ID evidence identifies Android 17 (DB Super)'s Ranger Outfit as ID 789 and a separate Android 17 (DB Super) Wig as ID 789 in one published list's naming sequence; the repository intentionally does not use this external list to collapse the existing Ranger Outfit/Wig/accessory boundaries because its numbering/naming presentation is internally inconsistent for this component family.",
+    "Current repository canonicalization correctly keeps Android 17 (DB Super)'s Ranger Accessory separate from Android 17 (DB Super) Wig pending inventory-level evidence that names an exact accessory item.",
+    "No remaining label received a canonical promotion in Batch 720. The evidence refresh reduces ambiguity but does not establish safe repository canonical IDs."
   ],
-  "next_action": "Require independent inventory-level evidence before assigning the five remaining unresolved labels to canonical accessory IDs."
+  "next_action": "Keep the five labels unresolved unless a source exposes an exact independently named accessory inventory item; then advance to the next substantive cross-domain enrichment frontier.",
+  "external_evidence": [
+    {
+      "item": "Android 15's Sunglasses",
+      "finding": "External inventory list: Android 15's Shades & Hat = 728; separate sunglasses ID not established.",
+      "source": "Xenoverse 2 ID list"
+    },
+    {
+      "item": "Gine (DB Super)'s Accessory",
+      "finding": "External inventory list: Gine (DB Super) Set = 781; not a separately named accessory.",
+      "source": "Xenoverse 2 ID list"
+    },
+    {
+      "item": "Kale's Accessory",
+      "finding": "External inventory list: Kale Wig = 785; no separately named accessory identity established.",
+      "source": "Xenoverse 2 ID list"
+    },
+    {
+      "item": "Caulifla's Accessory",
+      "finding": "External inventory list: Caulifla Wig = 786; no separately named accessory identity established.",
+      "source": "Xenoverse 2 ID list"
+    },
+    {
+      "item": "Android 17 (DB Super)'s Ranger Accessory",
+      "finding": "External inventory list exposes Ranger Outfit/Wig naming but no independently named Ranger Accessory; repository keeps the component boundary unresolved.",
+      "source": "Xenoverse 2 ID list + repository canonicalization audit"
+    }
+  ]
 }

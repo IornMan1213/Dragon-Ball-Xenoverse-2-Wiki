@@ -1,0 +1,51 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 720,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "accessory_identity_evidence_boundary_refresh",
+  "scope": "Independent inventory evidence review for the five accessory labels remaining after Batch 719.",
+  "records": [
+    {
+      "name": "Android 15's Sunglasses",
+      "external_evidence": "ID 728 is Android 15's Shades & Hat",
+      "canonical_promotion": false,
+      "boundary": "Do not split the combined item into a sunglasses-only canonical identity."
+    },
+    {
+      "name": "Gine (DB Super)'s Accessory",
+      "external_evidence": "ID 781 is Gine (DB Super) Set",
+      "canonical_promotion": false,
+      "boundary": "Generic accessory label does not establish separate inventory identity."
+    },
+    {
+      "name": "Kale's Accessory",
+      "external_evidence": "ID 785 is Kale Wig",
+      "canonical_promotion": false,
+      "boundary": "Wig is already a distinct endpoint; generic accessory label remains unresolved."
+    },
+    {
+      "name": "Caulifla's Accessory",
+      "external_evidence": "ID 786 is Caulifla Wig",
+      "canonical_promotion": false,
+      "boundary": "Wig is already a distinct endpoint; generic accessory label remains unresolved."
+    },
+    {
+      "name": "Android 17 (DB Super)'s Ranger Accessory",
+      "external_evidence": "ID list names Ranger Outfit/Wig but no separate Ranger Accessory",
+      "canonical_promotion": false,
+      "boundary": "Do not merge with existing Ranger Outfit/Wig records."
+    }
+  ],
+  "validation": {
+    "canonical_promotions": 0,
+    "unsupported_ids_invented": 0,
+    "remaining_unresolved": 5
+  },
+  "sources": [
+    "https://www.scribd.com/document/827095341/Demon-s-Xenoverse-ID-List",
+    "https://it.scribd.com/document/667491668/Demons-Xenoverse-ID-List",
+    "docs/data/accessory-canonicalization-audit.json"
+  ],
+  "next": "Advance to the next substantive cross-domain gap unless an exact independently named accessory inventory source becomes available."
+}

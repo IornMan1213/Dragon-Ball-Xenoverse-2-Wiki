@@ -7600,3 +7600,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 719 audit.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: continue exact-evidence accessory identity reconciliation, then move forward to the next cross-domain gap.
+
+
+### 2026-09-30 Batch 720 — Accessory identity evidence boundary
+- [x] Audited remaining Android 15/Gine/Kale/Caulifla/Android 17 accessory labels against independent inventory evidence.
+- [x] Preserved all five as unresolved because evidence does not establish five separate canonical accessory identities.
+- [x] Recorded combined Android 15 Shades & Hat evidence and set/wig component evidence without fabricating IDs.
+- [x] Added Batch 720 audit and synchronized accessory boundary audit.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: continue with the next substantive cross-domain enrichment frontier.

@@ -8285,3 +8285,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No reward probability/guarantee semantics were inferred.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: audit the remaining accessory acquisition/component identities only where exact independent evidence supports promotion; otherwise advance to the next substantive cross-domain gap.
+
+
+### 2026-09-30 Batch 720 — Remaining accessory identity evidence boundary refresh
+- [x] Audited all five remaining unresolved accessory labels against independent inventory evidence.
+- [x] Confirmed Android 15's external item evidence points to the combined **Shades & Hat** identity (ID 728), so no sunglasses-only canonical identity was invented.
+- [x] Confirmed Gine's external identity is a **Set** (ID 781), while Kale/Caulifla have distinct Wig identities (IDs 785/786); no generic accessory identities were fabricated.
+- [x] Rechecked Android 17 Ranger component boundaries; preserved the existing repository non-merge between Ranger Accessory and Wig/Outfit records.
+- [x] Added `docs/data/accessory-identity-evidence-boundary-refresh-2026-09-30-batch-720.json`.
+- [x] Updated accessory boundary audit; canonical promotions: 0; unsupported IDs invented: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: advance to the next substantive cross-domain enrichment frontier unless exact independently named accessory inventory evidence appears.
