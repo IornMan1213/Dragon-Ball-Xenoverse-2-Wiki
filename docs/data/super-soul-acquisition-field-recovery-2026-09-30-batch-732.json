@@ -1,0 +1,39 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 732,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "super_soul_acquisition_field_recovery",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-002",
+      "name": "Flying Nimbus!!",
+      "restored": {
+        "acquisition_type": "Parallel Quest",
+        "acquisition_source": "Parallel Quest 02"
+      },
+      "evidence": "Current Super Soul catalogue lists Parallel Quest 02; PQ02 reward documentation independently lists Flying Nimbus!!."
+    },
+    {
+      "id": "super-soul-009",
+      "name": "You cocky little...!",
+      "restored": {
+        "acquisition_type": "Parallel Quest",
+        "acquisition_source": "Parallel Quest 06"
+      },
+      "evidence": "Current Super Soul catalogue lists Parallel Quest 06; independent PQ06 documentation lists the soul as a reward."
+    }
+  ],
+  "validation": {
+    "canonical_mutations": 2,
+    "inferred_fields": 0,
+    "unsupported_records_created": 0
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://dbxv2.fandom.com/wiki/A_Deal%3F%21_The_Saiyan_Brothers",
+    "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+  ]
+}
