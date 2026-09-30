@@ -1,0 +1,78 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "batch": 705,
+  "audit_type": "canonical_super_soul_endpoint_promotion",
+  "purpose": "Resolve four previously enumerated PQ Super Soul reward names into canonical Super Soul endpoints and link them into the forward PQ relationship store without cross-game contamination.",
+  "source_of_truth": "Canonical forward Super Soul and PQ relationship layers; external sources provide evidence only.",
+  "pre_state": {
+    "canonical_super_soul_records": 172,
+    "canonical_pq_relationships": 877
+  },
+  "promoted_records": [
+    {
+      "name": "A monster? No, I'm a devil!",
+      "canonical_id": "super-soul-179",
+      "character_source": "Broly",
+      "acquisition_source": "Parallel Quest 047",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Broly",
+        "https://steamcommunity.com/app/454650/discussions/0/152393186491760646/"
+      ],
+      "notes": "Current XV2 evidence identifies the soul as Broly's and documents Strike-damage reduction plus battle-start Ki restoration; independent Steam discussion explicitly ties it to PQ47."
+    },
+    {
+      "name": "The Great Saiyaman is here!",
+      "canonical_id": "super-soul-180",
+      "character_source": "Great Saiyaman 1",
+      "acquisition_source": "Parallel Quest 053",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Videl",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ],
+      "notes": "Current XV2 catalogue documents the PQ53 source and +10% Strike Skill damage for 15 seconds after an Ultimate Attack."
+    },
+    {
+      "name": "Take care... of your mother...",
+      "canonical_id": "super-soul-181",
+      "character_source": "Prince of Destruction Vegeta",
+      "acquisition_source": "Parallel Quest 054",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/444297-take-care-of-your-mother-super-soul"
+      ],
+      "notes": "Current XV2 character data documents the soul and its effects; independent GameFAQs acquisition evidence identifies the Majin Revival PQ, corresponding to PQ54."
+    },
+    {
+      "name": "Killed all Earthlings!",
+      "canonical_id": "super-soul-182",
+      "character_source": "Super Buu",
+      "acquisition_source": "Parallel Quest 058",
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Super_Buu"
+      ],
+      "notes": "Current XV2 catalogue documents PQ58 and +15% Charged Ki Blast damage; Super Buu character data independently identifies the same soul."
+    }
+  ],
+  "cross_game_contamination_check": {
+    "status": "passed",
+    "rule": "Only Dragon Ball Xenoverse 2 evidence was used for promotion. Original Dragon Ball Xenoverse Z-Soul/PQ material was not promoted into the XV2 canonical Super Soul layer."
+  },
+  "post_state": {
+    "canonical_super_soul_records": 176,
+    "canonical_pq_relationships": 881,
+    "pq_rewards_super_soul_edges": 143,
+    "reverse_index_unique_super_soul_targets": 141,
+    "duplicate_relationship_keys": 0
+  },
+  "linked_pqs": ["pq-047", "pq-053", "pq-054", "pq-058"],
+  "remaining_scope": [
+    "Continue enumerating missing Super Soul endpoints from PQ research batches only when exact XV2 identity/acquisition/effect evidence is sufficient.",
+    "Continue the sparse-PQ frontier after the already reviewed entries; sparse counts remain prioritization signals rather than proof of missing relationships.",
+    "Continue the seven unresolved generic accessory/component identity gaps without manufacturing inventory IDs."
+  ]
+}
