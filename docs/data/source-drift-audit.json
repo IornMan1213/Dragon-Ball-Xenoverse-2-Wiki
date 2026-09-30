@@ -36,13 +36,14 @@
     {
       "domain": "skills",
       "category": "Frieza Race Skills",
-      "severity": "high",
+      "severity": "resolved",
       "issue": "The current source category enumerates 2 records, while the repository's broader model target remains 4; this is a membership/model reconciliation issue, not yet a safe count correction.",
       "source_count": 2,
       "repository_model_target": 4,
-      "status": "needs_model_reconciliation",
+      "status": "resolved",
       "source": "https://dbxv2.fandom.com/wiki/Category:Frieza_Race_Skills",
-      "action": "Compare the source-category membership with the canonical model's overlapping race/awoken classifications before changing canonical counts."
+      "action": "Corrected maintained coverage target to 2 from the current source category; preserve overlapping race memberships without duplicate canonical records.",
+      "repository_historical_target": 4
     }
   ]
 }
