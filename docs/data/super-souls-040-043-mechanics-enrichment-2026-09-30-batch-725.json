@@ -1,0 +1,71 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 725,
+  "status": "completed",
+  "type": "super_soul_mechanics_enrichment",
+  "scope": "Explicit trigger-condition and duration/magnitude reconciliation for Super Souls 040-043.",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-040",
+      "changed_fields": [
+        "trigger_condition",
+        "last_verified"
+      ],
+      "finding": "Catalogue wording establishes once-only activation on being hit by an Ultimate Attack while Stamina is available; existing 3-second duration retained.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
+      ]
+    },
+    {
+      "id": "super-soul-041",
+      "changed_fields": [
+        "trigger_condition",
+        "last_verified"
+      ],
+      "finding": "Catalogue explicitly states activation when an ally is KO'ed; existing 30-second duration retained.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Pan",
+        "https://dbxv2.fandom.com/wiki/Hercule"
+      ]
+    },
+    {
+      "id": "super-soul-042",
+      "changed_fields": [
+        "trigger_condition",
+        "last_verified"
+      ],
+      "finding": "Catalogue explicitly states activation when using Z-Vanish during an attack; existing 10-second duration retained.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81135384"
+      ]
+    },
+    {
+      "id": "super-soul-043",
+      "changed_fields": [
+        "trigger_condition",
+        "effect_magnitude",
+        "last_verified"
+      ],
+      "finding": "Catalogue/secondary evidence establishes below-25%-Health activation, KO deactivation, and approximately 0.5% HP per second health reduction; approximation is preserved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80291269",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79100038"
+      ]
+    }
+  ],
+  "source_policy": "Only explicitly documented mechanics were promoted. No stacking, exact hidden timing, or unsupported numeric precision was inferred.",
+  "validation": {
+    "canonical_mutations": 4,
+    "inferred_fields": 0,
+    "unresolved_preserved": [
+      "stacking_behavior where previously unresolved",
+      "Super Soul 034 mechanics"
+    ]
+  },
+  "next": "Continue the next unaudited active Super Soul mechanics cohort; retain Super Soul 034 as unresolved absent direct item-level evidence."
+}
