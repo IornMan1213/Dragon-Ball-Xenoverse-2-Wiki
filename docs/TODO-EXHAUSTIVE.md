@@ -7627,3 +7627,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the Batch 722 correction audit.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: direct item-level mechanics research for Super Soul 034.
+
+
+### 2026-09-30 Batch 723
+- [x] Rechecked Super Soul 034; no new reliable item-level mechanics evidence was found, so its unresolved boundary is preserved.
+- [x] Enriched canonical Super Soul 036 with explicit condition-based duration/trigger semantics from current Super Soul catalogue evidence.
+- [x] Added docs/data/super-soul-036-mechanics-enrichment-2026-09-30-batch-723.json.
+- [x] Preserved unresolved stacking behavior and the documented 10% vs 20% Ki-recovery discrepancy.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: continue active Super Soul mechanics enrichment where direct item-level evidence supports a field; do not invent mechanics for Super Soul 034.
