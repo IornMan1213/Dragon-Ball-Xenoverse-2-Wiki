@@ -7477,3 +7477,17 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Forward relationship total is now 880; pq_rewards_super_soul is 142. Duplicate relationship keys are now 0.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the next canonical PQ frontier (PQ91-PQ100) and inspect remaining cross-domain endpoint/projection gaps, prioritizing evidence-backed additions and identity-boundary correctness.
+
+### 2026-09-30 continuation — PQ101-PQ110 canonical-first reward reconciliation + relationship metadata repair (Batch 708)
+- [x] Audited PQ101-PQ110 against the maintained XV2 all-186 PQ reward transcription; the expected typed reward set is already represented in the canonical forward relationship layer. No duplicate reward edges were added. Source: https://steamcommunity.com/sharedfiles/filedetails/?id=808851543
+- [x] Confirmed PQ102-PQ106 Super Soul endpoints resolve to canonical records and remain linked through the forward relationship store; no cross-game or non-canonical Super Soul names were promoted.
+- [x] Confirmed PQ104 Android 14's Hat and PQ105 Android 13's Hat are represented as accessory/equipment endpoints through their canonical accessory bridges; these are not conflated with clothing records.
+- [x] Preserved the evidence boundary for PQ107 Future Mai's Hat: the reward is source-listed, but no exact canonical inventory endpoint is established, so no relationship was manufactured.
+- [x] Preserved the explicit canonical equipment acquisition-source edge PQ110 → Zamasu's Clothes. The source relationship is an equipment-layer acquisition route and is not being rewritten as a basic-reward claim merely because the maintained PQ reward transcription omits it.
+- [x] Recomputed the live forward relationship array: 880 unique edges = 249 skills, 142 Super Souls, 147 equipment, 247 characters, 88 DLC, and 7 farming; duplicate relationship keys remain 0.
+- [x] Repaired stale current_counts / total_relationships metadata in docs/data/pq-reward-relationships.json so its persisted counters now match the authoritative forward array at 880.
+- [x] Verified the reverse projection remains aligned at 249/142/147/247/88/7 relationship edges and 244/140/142/75/21/1 unique reverse targets.
+- [x] Verified the Super Soul cross-link projection remains aligned at 177 canonical records, 142 PQ edges, 140 unique targets, 142 detailed endpoint matches, 142 acquisition-index matches, and 0 unresolved endpoints.
+- [x] Added docs/data/pq101-110-canonical-reconciliation-2026-09-30-batch-708.json as the durable audit record.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] Exact next: continue PQ111-PQ120 canonical-first reward reconciliation, prioritizing accessory/equipment endpoint identity and projection metadata drift; preserve unresolved identities rather than manufacturing IDs.
