@@ -8296,3 +8296,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated accessory boundary audit; canonical promotions: 0; unsupported IDs invented: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: advance to the next substantive cross-domain enrichment frontier unless exact independently named accessory inventory evidence appears.
+
+
+### 2026-09-30 Batch 721 — Super Soul mechanics census refresh
+- [x] Refreshed the mechanics coverage census against the current 177-record canonical Super Soul layer.
+- [x] Current populated fields: trigger 167/177; effect text 172/177; effect magnitude 166/177; duration 131/177; stacking 73/177; Limit Burst 165/177; Limit Burst effect 170/177.
+- [x] Identified six substantive mechanics priorities: super-soul-034 and super-soul-138 through super-soul-142.
+- [x] Preserved intentional no-effect/categorical records and made no speculative canonical changes.
+- [x] Added `docs/data/super-soul-mechanics-census-refresh-2026-09-30-batch-721.json`.
+- [x] Canonical mutations: 0; inferred fields: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** research direct item-level mechanics evidence for Super Souls 034 and 138–142, then continue duration/stacking enrichment where direct evidence exists.
