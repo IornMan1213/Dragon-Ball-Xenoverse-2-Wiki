@@ -7552,3 +7552,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 714 audit.
 - [x] Canonical forward relationship count remains 879 unique edges; duplicate keys 0.
 - [ ] Next: PQ181-PQ186 reconciliation, followed by final late-DLC endpoint/projection sweep.
+
+
+### 2026-09-30 Batch 715
+- [x] Reconciled PQ181-PQ186 typed rewards and late-DLC inventory endpoints.
+- [x] Verified late-DLC equipment/accessory endpoint resolution.
+- [x] Preserved Cheelai's Coat classification without speculative bridge promotion.
+- [x] Removed duplicate PQ185/PQ186 Chapter 4 DLC alias edges differing only by capitalization.
+- [x] Added Batch 715 audit.
+- [x] Canonical forward relationship count remains 879 unique edges; duplicate keys 0.
+- [ ] Next: final late-DLC cross-domain projection sweep, then highest-priority remaining exhaustive TODO.
