@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "batch": "708",
+  "date": "2026-09-30",
+  "title": "PQ101-PQ110 canonical-first reward reconciliation and relationship metadata parity",
+  "scope": "PQ101-PQ110",
+  "source_of_truth": "docs/data/pq-reward-relationships.json forward relationship array plus canonical Parallel Quest record layer; verified/index/reverse projections are consumers only.",
+  "external_reward_source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "findings": [
+    "PQ101-PQ110 expected typed reward coverage is already represented in the canonical forward relationship layer; no duplicate reward edges were added.",
+    "PQ101: Champa's Clothes + Breaker Energy Wave are represented.",
+    "PQ102: Battle Suit (Cabba) + both documented Super Souls are represented.",
+    "PQ103: all three documented Super Souls are represented.",
+    "PQ104: Android 14's Clothes, Android 14's Hat, both skills, and the documented Super Soul are represented; the Hat is retained as a canonical accessory relationship rather than a clothing identity.",
+    "PQ105: Android 13's Clothes, Android 13's Hat, three skills, and both documented Super Souls are represented.",
+    "PQ106: Super Android 13's Clothes, three skills, and three documented Super Souls are represented.",
+    "PQ107: Future Mai's Clothes and You can't win... are represented. Future Mai's Hat remains outside the promoted equipment relationship layer because current evidence does not provide a canonical inventory endpoint; no identity was manufactured.",
+    "PQ108: Goku Black's Clothes and both documented Super Souls are represented.",
+    "PQ109: Zamasu's Clothes, Super Black Kamehameha Rosé, and both documented Super Souls are represented.",
+    "PQ110: Super Saiyan 4 Suit (Goku), SS4 Wig & Tail (Goku), Divinity Unleashed, and both documented Super Souls are represented. Zamasu's Clothes remains an explicit canonical equipment acquisition-source relationship for PQ110 even though it is not listed in the maintained basic-reward transcription; this is preserved as an acquisition-source edge, not asserted as a basic reward.",
+    "The canonical forward relationship array contains 880 unique relationship keys: 249 skill, 142 Super Soul, 147 equipment, 247 character, 88 DLC, and 7 farming.",
+    "The persisted current_counts metadata in pq-reward-relationships.json was stale at 877 and has been reconciled to the live 880-edge array.",
+    "The reverse projection already matches the 880-edge forward graph, with 249/142/147/247/88/7 relationship-edge counts and 244/140/142/75/21/1 unique reverse targets.",
+    "The Super Soul cross-link projection is current at 177 canonical Super Soul records, 142 PQ Super Soul edges, 140 unique targets, 142 detailed endpoint matches, 142 acquisition-index matches, and zero unresolved endpoint names.",
+    "No runtime/CI success claim is made."
+  ],
+  "boundaries": [
+    "Do not treat sparse normalized-map omissions as negative evidence.",
+    "Do not infer exact drop rates or Ultimate Finish gating from acquisition-source links alone.",
+    "Do not promote Future Mai's Hat without an exact canonical accessory endpoint.",
+    "Do not use verified:true layers as the source of truth."
+  ],
+  "next_frontier": "PQ111-PQ120 canonical-first reward reconciliation, with special attention to accessory/equipment endpoint identity and any projection metadata drift."
+}
