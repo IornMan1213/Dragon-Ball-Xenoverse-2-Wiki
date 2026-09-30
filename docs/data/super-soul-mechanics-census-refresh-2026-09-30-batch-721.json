@@ -1,0 +1,64 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 721,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "super_soul_mechanics_census_refresh",
+  "scope": "Refresh mechanics-field coverage against the current 177-record canonical Super Soul layer.",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "counts": {
+    "total_records": 177,
+    "trigger_condition_populated": 167,
+    "trigger_condition_missing": 10,
+    "effect_text_populated": 172,
+    "effect_text_missing": 5,
+    "effect_magnitude_populated": 166,
+    "effect_magnitude_missing": 11,
+    "duration_populated": 131,
+    "duration_missing": 46,
+    "stacking_behavior_populated": 73,
+    "stacking_behavior_missing": 104,
+    "limit_burst_populated": 165,
+    "limit_burst_missing": 12,
+    "limit_burst_effect_populated": 170,
+    "limit_burst_effect_missing": 7
+  },
+  "priority_records": [
+    {
+      "id": "super-soul-034",
+      "name": "The final battle begins now.",
+      "status": "substantive_unresolved"
+    },
+    {
+      "id": "super-soul-138",
+      "name": "I'll show you the power of a true warrior!",
+      "status": "substantive_unresolved"
+    },
+    {
+      "id": "super-soul-139",
+      "name": "Don't underestimate my power!",
+      "status": "substantive_unresolved"
+    },
+    {
+      "id": "super-soul-140",
+      "name": "I won't forgive you!",
+      "status": "substantive_unresolved"
+    },
+    {
+      "id": "super-soul-141",
+      "name": "I'm the one who will win!",
+      "status": "substantive_unresolved"
+    },
+    {
+      "id": "super-soul-142",
+      "name": "This is the ultimate hero!",
+      "status": "substantive_unresolved"
+    }
+  ],
+  "validation": {
+    "records_censused": 177,
+    "canonical_mutations": 0,
+    "fields_inferred": 0
+  },
+  "next": "Obtain direct item-level mechanics evidence for the six priority records; do not infer from PQ projections or verified layers."
+}
