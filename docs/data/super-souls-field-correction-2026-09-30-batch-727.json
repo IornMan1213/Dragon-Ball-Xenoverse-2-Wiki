@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 727,
+  "status": "completed",
+  "type": "super_soul_field_correction",
+  "scope": "Correct canonical Limit Burst fields exposed by the post-recovery integrity audit.",
+  "corrections": [
+    {
+      "id": "super-soul-015",
+      "name": "I must tell Lord Frieza...",
+      "field": "limit_burst_effect",
+      "old_value": "null / incorrectly represented by Homing in the Limit Burst slot",
+      "new_value": "Auto Health and Stamina Recovery! DEF Down.",
+      "evidence": "Current Super Soul catalogue; GameFAQs historical guide confirms no special effect on the item itself while catalogue supplies the Limit Burst."
+    },
+    {
+      "id": "super-soul-016",
+      "name": "Tch... Guess I have no choice.",
+      "field": "limit_burst_effect",
+      "old_value": "null / incorrectly represented by Paralyze in the Limit Burst slot",
+      "new_value": "Auto Health and Stamina Recovery! DEF Down.",
+      "evidence": "Current Super Soul catalogue; GameFAQs historical guide confirms no special effect on the item itself while catalogue supplies the Limit Burst."
+    }
+  ],
+  "note": "Homing and Paralyze are the Ki Blast types for 015 and 016 respectively; they are not Limit Burst effects. No trigger or effect was invented because both Souls have no special item effect.",
+  "next": "Continue integrity audit for additional field-level corruption, especially missing Limit Burst values and shifted Ki Blast/Limit Burst fields."
+}
