@@ -7543,3 +7543,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 713 audit.
 - [x] Canonical forward relationship count remains 879 unique edges.
 - [ ] Next: PQ171-PQ180 reconciliation and late-game accessory/equipment endpoint gaps.
+
+
+### 2026-09-30 Batch 714
+- [x] Reconciled PQ171-PQ180 typed rewards against canonical relationships.
+- [x] Normalized PQ173/PQ178 Super Soul wording variants to canonical identities without duplicate edges.
+- [x] Verified PQ179-PQ180 late-DLC clothing/accessory endpoints.
+- [x] Added Batch 714 audit.
+- [x] Canonical forward relationship count remains 879 unique edges; duplicate keys 0.
+- [ ] Next: PQ181-PQ186 reconciliation, followed by final late-DLC endpoint/projection sweep.
