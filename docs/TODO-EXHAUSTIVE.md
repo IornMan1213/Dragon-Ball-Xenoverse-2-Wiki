@@ -7609,3 +7609,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 720 audit and synchronized accessory boundary audit.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: continue with the next substantive cross-domain enrichment frontier.
+
+
+### Batch 721 — Super Soul mechanics census
+- [x] Refreshed current 177-record Super Soul mechanics coverage.
+- [x] Identified Super Souls 034 and 138–142 as the next direct-evidence mechanics cohort.
+- [x] Added the Batch 721 audit.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: direct item-level mechanics research for the six priority records.
