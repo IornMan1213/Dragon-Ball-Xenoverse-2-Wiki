@@ -1,0 +1,15 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "713",
+  "audit_date": "2026-09-30",
+  "scope": "PQ161-PQ170 canonical-first reward and endpoint reconciliation",
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "findings": [
+    "All listed typed rewards for PQ161-PQ170 are represented in the canonical forward relationship layer.",
+    "All equipment and Super Soul relationship targets for PQ161-PQ170 resolve to canonical record-layer identities.",
+    "PQ164 contains a capitalization variance: the PQ reward transcription says 'This place Will be your grave!' while canonical Super Soul super-soul-153 uses 'This place will be your grave!'. The canonical relationship target remains the canonical spelling and the variance is documented rather than treated as a second identity.",
+    "No new inventory identity or acquisition route needed to be invented for PQ161-PQ170."
+  ],
+  "correction": "Canonical forward edge count remains 879; no reward edge was added or removed in this batch.",
+  "evidence_boundary": "Canonical identity and endpoint coverage are established; exact RNG/drop-slot semantics remain unclaimed where not directly sourced."
+}
