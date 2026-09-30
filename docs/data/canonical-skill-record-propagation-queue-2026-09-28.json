@@ -112,23 +112,23 @@
     "Index is a synchronized consumer, not source of truth.",
     "Do not infer acquisition from preset membership when direct acquisition evidence is unavailable."
   ],
-  "next": "Five legacy/boss skill gaps now have reconciled class/subcategory evidence but no exact canonical skill identity. Resolve canonical IDs from structured repository/game-data evidence before any promotion; do not use community numeric IDs as canonical identifiers.",
+  "next": "Legacy/boss identity gaps remain bounded; do not promote without exact canonical identity. For PQ coverage, continue from the sparse frontier audit only after checking canonical relationships and direct reward evidence.",
   "applied_commits": [
     "161a79d6ba0ca282736999b8906f08241acc0262",
     "dbb85de6e0156d487d0ae176613fa6a9ccf1a8cd"
   ],
   "validation": {
-    "skills_json_records": 493,
-    "skills_index_records": 493,
+    "skills_json_records": 549,
+    "skills_index_records": 549,
     "canonical_record_present": true,
     "index_record_present": true,
     "unlock_method_synchronized": true,
     "last_verified_synchronized": true,
     "ultimate_finish_required": null,
     "historical_previous_count": 493,
-    "current_skills_json_records": 497,
-    "current_skills_index_records": 497,
-    "current_state_source": "docs/data/current-live-recovery-baseline-2026-09-28.json"
+    "current_skills_json_records": 549,
+    "current_skills_index_records": 549,
+    "current_state_source": "docs/data/post-corruption-live-baseline-audit-2026-09-29-batch-699.json"
   },
   "safe_edit_tool": "scripts/apply_canonical_skill_patch.py",
   "execution": "Completed through the safe complete-blob path; canonical and index were updated and validated at 493 records each.",
