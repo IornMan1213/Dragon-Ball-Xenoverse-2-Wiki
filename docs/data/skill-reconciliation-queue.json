@@ -1,10 +1,29 @@
 {
-  "schema_version":"1.0",
-  "game":"Dragon Ball Xenoverse 2",
-  "status":"open_reconciliation_queue",
-  "items":[
-    {"domain":"Ki Blast Supers","issue":"Current source category reports 183 items and includes Burst Stinger, while the repository's captured 183-record batch does not visibly contain Burst Stinger.","action":"Perform complete source-vs-repository set diff before changing the declared count.","priority":"critical","status":"open"},
-    {"domain":"Frieza Race Skills","issue":"Current source research indicates 2 records while earlier repository notes expected 4.","action":"Recheck the current category and reconcile historical/source drift.","priority":"high","status":"open"},
-    {"domain":"Lovely Showtime","issue":"Published source pages disagree on Ki cost.","action":"Preserve both claims and resolve using higher-priority or independent evidence.","priority":"medium","status":"open"}
+  "schema_version": "1.0",
+  "game": "Dragon Ball Xenoverse 2",
+  "status": "open_reconciliation_queue",
+  "items": [
+    {
+      "domain": "Frieza Race Skills",
+      "issue": "Current source category enumerates 2 records while the repository's historical/model target remains 4.",
+      "action": "Reconcile source-category membership against the broader canonical skill model and overlapping race/awoken classifications before changing counts.",
+      "priority": "high",
+      "status": "open"
+    },
+    {
+      "domain": "Lovely Showtime",
+      "issue": "Published source pages disagree on Ki cost.",
+      "action": "Preserve both claims and resolve using higher-priority or independent evidence.",
+      "priority": "medium",
+      "status": "open"
+    }
+  ],
+  "completed": [
+    {
+      "domain": "Ki Blast Supers",
+      "issue": "Stale repository/source discrepancy involving Burst Stinger.",
+      "resolution": "Resolved on 2026-09-30 Batch 729: current canonical skills-index contains exact skill-burst-stinger with Ki Blast/Super classification and PQ136 acquisition; no duplicate or count inflation required.",
+      "status": "resolved"
+    }
   ]
 }
