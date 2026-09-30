@@ -1,0 +1,40 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 737,
+  "date": "2026-09-30",
+  "type": "parallel_quest_field_recovery",
+  "source_of_truth": "docs/data/parallel-quests-record-layer.json",
+  "canonical_mutations": 1,
+  "inferred_fields": 0,
+  "unsupported_records_created": 0,
+  "target": {
+    "id": "pq-023",
+    "number": 23,
+    "name": "The Explosion of Namek"
+  },
+  "before": {
+    "dragon_ball_farming": null
+  },
+  "after": {
+    "dragon_ball_farming": true
+  },
+  "evidence": [
+    {
+      "source": "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/parallel-quests-index.json",
+      "claim": "Maintained index seed explicitly marks PQ-023 as dragon_ball_farming=true."
+    },
+    {
+      "source": "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/pq-record-batches/pq-021-040.json",
+      "claim": "Maintained PQ 021-040 research batch identifies PQ-023 and its objectives/rewards; its farming field is preserved as research provenance."
+    },
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Parallel_Quest_23",
+      "claim": "Current quest-specific reference supports PQ 23 identity and farming context."
+    },
+    {
+      "source": "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/Farming-Routes.md",
+      "claim": "Repository farming guide identifies PQ 23 as the primary Dragon Ball route."
+    }
+  ],
+  "boundary": "The field indicates farming utility only; no Dragon Ball drop guarantee, probability, or reward trigger was inferred."
+}
