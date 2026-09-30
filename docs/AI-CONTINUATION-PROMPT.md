@@ -8244,3 +8244,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical forward relationship count remains **879 unique edges**; duplicate keys remain **0**.
 - [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
 - [ ] **Exact next:** perform the planned final late-DLC cross-domain projection sweep, then move to the highest-priority remaining exhaustive TODO rather than assuming PQ work is complete.
+### 2026-09-30 Batch 716
+- [x] Completed the final late-DLC cross-domain projection sweep after PQ181-PQ186 reconciliation.
+- [x] Rebuilt `docs/data/pq-cross-domain-reverse-index.json` from the canonical forward relationship array and removed stale reverse entries.
+- [x] Synchronized `docs/data/pq-reward-relationships.json` counters with the actual forward array.
+- [x] Verified all PQ181-PQ186 typed reward endpoints resolve to canonical skill, Super Soul, equipment/accessory records.
+- [x] Super Soul projection remains 142 PQ edges / 140 unique targets / 0 unresolved endpoints.
+- [x] Final canonical forward relationship state: **877 unique edges**, duplicate keys **0**; 249 skills / 142 Super Souls / 146 equipment / 247 characters / 86 DLC / 7 farming.
+- [x] Added `docs/data/final-late-dlc-projection-sweep-2026-09-30-batch-716.json`.
+- [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** move from the completed PQ/reward reconciliation frontier to the highest-priority remaining item in the exhaustive TODO, starting with unresolved cross-domain identity/projection gaps rather than creating unsupported aliases.
