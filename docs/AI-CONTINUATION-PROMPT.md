@@ -8480,3 +8480,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No inferred reward/drop mechanics were promoted.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue canonical PQ sparse-field recovery, targeting remaining null/empty fields with direct surviving evidence.
+
+### 2026-09-30 Batch 739 — PQ reward recovery
+- [x] Recovered PQ 49 → Do or Die and PQ 57's documented basic reward set.
+- [x] Corrected PQ 57 reward typing so equipment is not represented as a skill reward.
+- [x] Added durable audit `docs/data/pq-reward-recovery-2026-09-30-batch-739.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue canonical PQ reward/skill relationship recovery across the remaining sparse records.
