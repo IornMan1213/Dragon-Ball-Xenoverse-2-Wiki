@@ -8159,3 +8159,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added docs/data/pq101-110-canonical-reconciliation-2026-09-30-batch-708.json as the durable audit record.
 - [ ] Runtime/CI remains intentionally non-blocking and unverified.
 - [ ] Exact next: continue PQ111-PQ120 canonical-first reward reconciliation, prioritizing accessory/equipment endpoint identity and projection metadata drift; preserve unresolved identities rather than manufacturing IDs.
+
+
+### 2026-09-30 continuation — PQ111-PQ120 accessory endpoint reconciliation (Batch 709)
+- [x] Audited PQ111-PQ120 against the maintained XV2 all-186 reward transcription and canonical forward relationship store; all listed typed rewards were already represented, so no duplicate PQ reward edges were added.
+- [x] Verified the PQ111-PQ120 Super Soul endpoints resolve to canonical records with matching Parallel Quest acquisition sources.
+- [x] Found and repaired a concrete cross-layer inconsistency for **Toppo's Moustache**: the canonical accessory record had a stale PQ112 attribution, while the maintained XV2 reward transcription explicitly lists it under **PQ114**; the canonical forward PQ relationship was already correctly PQ114.
+- [x] Corrected `equipment-accessories-record-layer.json` to PQ114 and added its explicit `pq-114` acquisition-source link.
+- [x] Added `Toppo's Moustache` as `pqacc-032` in `accessory-pq-research.json` and linked it to canonical `acc-095` through `accessory-pq-canonical-bridge.json`.
+- [x] Confirmed Resistance Helmet remains consistently mapped to PQ111 / `acc-094`.
+- [x] Added `docs/data/pq111-120-accessory-endpoint-reconciliation-2026-09-30-batch-709.json` as the durable audit checkpoint.
+- [x] Canonical forward PQ relationship store remains **880 edges**: 249 skills / 142 Super Souls / 147 equipment / 247 characters / 88 DLC / 7 farming; no relationship-edge count change was needed for this repair.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue PQ121-PQ130 canonical-first reward reconciliation, then continue exact accessory identity recovery and Super Soul endpoint enumeration; preserve unresolved reward-condition semantics.
