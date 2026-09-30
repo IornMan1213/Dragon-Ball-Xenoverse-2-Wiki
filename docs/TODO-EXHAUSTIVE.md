@@ -7794,3 +7794,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical mutations: 5; inferred fields: 0; unsupported records created: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the canonical PQ sparse-field scan, prioritizing remaining records with null/empty fields that can be directly recovered from surviving maintained research; do not overwrite stronger canonical relationship data with projections.
+
+### 2026-09-30 Batch 739 — PQ reward recovery
+- [x] Recovered PQ 49's **Do or Die** skill relationship from direct skill documentation.
+- [x] Recovered PQ 57 basic rewards: 2520 Zeni, Med. Mix Capsule, I will defeat you!, Gogeta's Clothes, and Rakshasa's Claw; classified the latter two as equipment and the Super Soul separately.
+- [x] Corrected PQ 57 `skill_rewards` to empty; Rakshasa's Claw is not a skill.
+- [x] Added `docs/data/pq-reward-recovery-2026-09-30-batch-739.json`.
+- [x] Canonical mutations: 2 target records; inferred fields: 0; unsupported records created: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the PQ reward/skill relationship recovery through the remaining sparse records, using independent or maintained source-backed evidence and preserving unresolved fields.
