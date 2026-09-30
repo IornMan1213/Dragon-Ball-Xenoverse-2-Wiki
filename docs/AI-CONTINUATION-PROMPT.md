@@ -8328,3 +8328,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the existing 10% vs 20% Ki-recovery discrepancy instead of collapsing it; preserved unresolved stacking behavior and did not infer hidden timing.
 - [ ] Runtime/CI remains unverified.
 - [ ] Exact next: continue evidence-backed active Super Soul mechanics enrichment where direct catalogue/item evidence establishes a field; keep Super Soul 034 unresolved unless new direct item-level evidence appears, then resume broader mechanics/version/cross-domain enrichment.
+
+
+### 2026-09-30 Batch 724 — Super Souls 038/039 mechanics enrichment
+- [x] Enriched canonical Super Soul 038: the damage-reduction effect is active while Ki is maxed; the always-active Stamina-recovery penalty remains separate.
+- [x] Enriched canonical Super Soul 039: the battle-start all-attack boost is explicitly 20 seconds.
+- [x] Preserved categorical XXL wording and unresolved stacking behavior; no unsupported numeric conversion was made.
+- [x] Added `docs/data/super-souls-038-039-mechanics-enrichment-2026-09-30-batch-724.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: continue the next genuinely unaudited active Super Soul mechanics cohort; keep Super Soul 034 unresolved unless direct item-level evidence appears.
