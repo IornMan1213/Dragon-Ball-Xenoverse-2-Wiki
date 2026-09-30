@@ -1667,7 +1667,7 @@
       "name": "Toppo's Moustache",
       "category": "accessory",
       "acquisition_routes": [
-        "Parallel Quest 112 reward listing"
+        "Parallel Quest 114 reward listing"
       ],
       "dlc_provenance": "DLC/version reconciliation pending",
       "restrictions": null,
@@ -1676,7 +1676,14 @@
       "sources": [
         "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json"
       ],
-      "notes": "Explicit accessory identity and PQ attribution preserved from normalized reward index; exact reward conditions remain unresolved."
+      "notes": "Explicit accessory identity and PQ attribution preserved from the canonical PQ reward layer; exact reward conditions remain unresolved. Corrected from stale PQ112 attribution during Batch 709 reconciliation.",
+      "pq_links": [
+        {
+          "pq_id": "pq-114",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ114 reward association is explicitly documented; exact reward/drop condition remains unresolved."
+        }
+      ]
     }
   ],
   "research_notes": [
