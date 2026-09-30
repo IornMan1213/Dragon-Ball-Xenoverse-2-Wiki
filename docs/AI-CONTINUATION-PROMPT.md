@@ -8056,3 +8056,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Refreshed the post-corruption checkpoint to the current **877 relationship** baseline and recorded batches 695-697.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** pursue independent inventory-level evidence for the seven unresolved accessory labels; in parallel continue canonical PQ Super Soul/equipment endpoint reconciliation and race-restriction/provenance work.
+
+
+### 2026-09-29 continuation — Batch 699: post-corruption baseline freeze and stale-manifest repair
+- [x] Re-inspected the live recovery trail before doing new enrichment; the canonical database recovery work is already present on current `main` and must be continued rather than restarted.
+- [x] Recomputed the current working baseline from live repository metadata: **549 canonical skills / 549 skills-index records / 877 canonical PQ relationship edges**.
+- [x] Refreshed `docs/data/post-corruption-recovery-integrity-manifest-2026-09-29.json` from the current live blob SHAs and current 877-edge baseline; removed the stale 862-edge working baseline.
+- [x] Refreshed `docs/data/post-corruption-rebuild-verification-2026-09-29.json` so recovery verification now reflects batches 693-698 and the current 877-edge forward store.
+- [x] Added `docs/data/post-corruption-live-baseline-audit-2026-09-29-batch-699.json` as a durable recovery checkpoint containing current canonical blob identities, counts, evidence boundaries, and remaining recovery frontier.
+- [x] Preserved the canonical-source rule: `docs/data/skills.json` and `docs/data/pq-reward-relationships.json` remain authoritative; indexes, verified layers, reverse projections, and audit artifacts remain consumers/evidence only.
+- [x] Preserved the seven unresolved accessory/component identity boundaries and did not manufacture inventory IDs.
+- [ ] Runtime/CI remains explicitly unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue forward from the frozen 549/549/877 recovery baseline. First pursue genuinely new canonical Super Soul/equipment/PQ coverage or exact accessory inventory evidence; do not repeat already-reconciled recovery batches.
