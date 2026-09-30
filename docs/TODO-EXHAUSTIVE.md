@@ -7764,3 +7764,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical mutation count: 1; inferred fields: 0; unsupported records created: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the post-recovery Super Soul field-integrity census for genuinely recoverable gaps; preserve unresolved fields when direct evidence is insufficient.
+
+### 2026-09-30 Batch 736 — Lovely Showtime Ki-cost reconciliation boundary
+- [x] Rechecked the remaining open Lovely Showtime Ki-cost conflict against the current skill-specific page, current generic Ultimate Attack catalogue, repository Batch 308 historical research, and independent GameFAQs discussion.
+- [x] Confirmed the conflict remains **200 vs 300 Ki**; independent GameFAQs evidence does not provide a numeric cost.
+- [x] Preserved the canonical value instead of making an unsupported mutation.
+- [x] Added `docs/data/lovely-showtime-ki-cost-reconciliation-2026-09-30-batch-736.json`.
+- [x] Updated `docs/data/skill-reconciliation-queue.json` with the evidence boundary and retained the item as open.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** move to the next cross-domain integrity/enrichment frontier; revisit Lovely Showtime only when direct game-data/item-level or independent numeric evidence resolves 200 vs 300.
