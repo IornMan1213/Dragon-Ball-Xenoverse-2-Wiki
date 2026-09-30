@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 731,
+  "status": "completed",
+  "type": "super_soul_limit_burst_field_integrity_recheck",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "scope": "Reconcile active canonical records with missing Limit Burst fields after Batch 726 recovery and Batch 728/729 corrections.",
+  "baseline": {
+    "total_records": 177,
+    "trigger_condition_populated": 167,
+    "trigger_condition_missing": 10,
+    "effect_text_populated": 172,
+    "effect_text_missing": 5,
+    "effect_magnitude_populated": 166,
+    "effect_magnitude_missing": 11,
+    "duration_populated": 131,
+    "duration_missing": 46,
+    "stacking_behavior_populated": 73,
+    "stacking_behavior_missing": 104,
+    "limit_burst_populated": 165,
+    "limit_burst_missing": 12,
+    "limit_burst_effect_populated": 170,
+    "limit_burst_effect_missing": 7
+  },
+  "results": {
+    "active_records": 178,
+    "records_missing_limit_burst": 2,
+    "records_missing_limit_burst_effect": 2,
+    "affected": [
+      {
+        "id": "super-soul-032",
+        "name": "This power... It's different from any I've ever had.",
+        "finding": "Limit Burst effect is present, but limit_burst label/type is absent. Existing direct-catalogue-derived record history confirms the effect; no sufficiently direct evidence was found in the current repository search to name the burst type separately. Preserve the missing label rather than deriving it from the effect."
+      },
+      {
+        "id": "super-soul-034",
+        "name": "The final battle begins now.",
+        "finding": "Both Limit Burst label and effect remain unresolved. Existing evidence establishes identity/acquisition only; no direct item-level mechanics evidence sufficient for canonical promotion was found."
+      }
+    ],
+    "action": "No canonical mutation. The apparent missing Limit Burst label on 032 is a schema completeness gap, but the correct type cannot be safely inferred. 034 remains an evidence gap.",
+    "validation": {
+      "fields_inferred": 0,
+      "canonical_mutations": 0,
+      "duplicate_records": 0
+    }
+  },
+  "next": "Continue canonical Super Soul recovery by auditing other missing acquisition/effect fields; do not infer Limit Burst labels from effect strings."
+}
