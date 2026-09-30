@@ -8472,3 +8472,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added durable audit `docs/data/pq-023-dragon-ball-farming-recovery-2026-09-30-batch-737.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the canonical Parallel Quest sparse-field recovery scan, prioritizing directly supported lost fields and preserving unresolved reward/drop semantics.
+
+### 2026-09-30 Batch 738 — PQ sparse-field recovery
+- [x] Advanced the canonical Parallel Quest recovery pass beyond PQ 23.
+- [x] Recovered sparse fields for PQ 004, 083, 100, 122, and 134 from maintained research/current quest documentation; PQ 004 farming utility was also restored.
+- [x] Added durable audit `docs/data/pq-sparse-field-recovery-2026-09-30-batch-738.json`.
+- [x] No inferred reward/drop mechanics were promoted.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue canonical PQ sparse-field recovery, targeting remaining null/empty fields with direct surviving evidence.
