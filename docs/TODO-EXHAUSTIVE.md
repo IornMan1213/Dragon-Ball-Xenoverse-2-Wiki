@@ -7525,3 +7525,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added Batch 711 audit.
 - [x] Canonical forward relationship count: 879 unique edges.
 - [ ] Next: PQ141-PQ150 reconciliation, then PQ151+.
+
+
+### 2026-09-30 Batch 712
+- [x] Audited PQ141-PQ160 cross-domain mappings.
+- [x] Preserved unresolved Android 17 PQ150/PQ152 route conflict.
+- [x] Preserved Android 17 Wig/Ranger Wig and Gamma 2 Helmet naming conflicts without unsafe merges.
+- [x] Added Batch 712 conflict audit.
+- [x] Canonical forward relationship count remains 879 unique edges.
+- [ ] Next: inventory-level conflict resolution, then PQ161-PQ170.
