@@ -7645,3 +7645,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-038-039-mechanics-enrichment-2026-09-30-batch-724.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] Exact next: continue the next genuinely unaudited active Super Soul mechanics cohort; keep Super Soul 034 unresolved unless direct item-level evidence appears.
+
+
+### 2026-09-30 Batch 725
+- [x] Enriched Super Soul 040 trigger wording: once-only Ultimate Attack hit while Stamina is available; retained 3-second duration.
+- [x] Enriched Super Soul 041 trigger wording: ally KO; retained 30-second duration for both temporary effects.
+- [x] Enriched Super Soul 042 trigger wording: Z-Vanish during an attack; retained 10-second duration.
+- [x] Enriched Super Soul 043 with explicit below-25%-Health activation, KO deactivation, and approximately 0.5% HP/second magnitude; approximation preserved.
+- [x] Added `docs/data/super-souls-040-043-mechanics-enrichment-2026-09-30-batch-725.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: continue the next genuinely unaudited active Super Soul mechanics cohort; keep Super Soul 034 unresolved unless direct item-level evidence appears.
