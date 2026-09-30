@@ -5425,6 +5425,35 @@
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Super_Buu"
       ]
+    },
+    {
+      "id": "super-soul-183",
+      "name": "The gold represents the new me.",
+      "character_source": "Golden Frieza",
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 074",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "While Golden",
+      "effect_text": "Boosts normal Ki Blasts.",
+      "effect_magnitude": "+20%",
+      "duration": "While Golden",
+      "stacking_behavior": null,
+      "limit_burst": "Rush",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Historical XV2 reward identity and effect are independently documented. Current catalogue evidence identifies Golden Frieza as the source and PQ74 as acquisition. Later-version rename evidence is preserved rather than silently collapsing versioned provenance.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-30",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Golden_Frieza",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74527603"
+      ]
     }
   ],
   "research_notes": [
@@ -5441,7 +5470,8 @@
     "2026-09-19: expanded raid/event coverage with records 040–043, including Cell, Hercule, Gohan (Adult), and Fused Zamasu raid reward families.",
     "2026-09-19: identified additional raid-exclusive Super Soul candidates 044–047 from raid reward catalog and community raid-exclusive index; mechanics remain partially verified pending item-level reconciliation.",
     "2026-09-19: reconciled raid candidates 044–047 against item-level/community Super Soul catalogue evidence. 044, 045 and 046 now have verified core effects; 047 remains partially verified because the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved.",
-    "2026-09-29: promoted four previously enumerated PQ reward Super Souls (PQ47, PQ53, PQ54, PQ58) after current XV2 catalogue and independent acquisition/effect evidence reconciled; no cross-game Xenoverse-1 records were promoted."
+    "2026-09-29: promoted four previously enumerated PQ reward Super Souls (PQ47, PQ53, PQ54, PQ58) after current XV2 catalogue and independent acquisition/effect evidence reconciled; no cross-game Xenoverse-1 records were promoted.",
+    "2026-09-30: promoted historical PQ74 Super Soul endpoint \"The gold represents the new me.\" with explicit versioned provenance; later rename evidence is preserved."
   ],
   "sources": [
     {
