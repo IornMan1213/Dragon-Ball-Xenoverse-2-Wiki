@@ -7697,3 +7697,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical skill count remains **550**; no unsupported count inflation or duplicate record was introduced.
 - [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose the failing job-step diagnostics.
 - [ ] **Exact next:** continue the post-recovery canonical field-integrity audit; then reconcile the remaining Frieza Race model-vs-source membership discrepancy and Lovely Showtime cost conflict with evidence before changing canonical values.
+
+
+### 2026-09-30 Batch 730 — Frieza Race category reconciliation after recovery
+- [x] Reconciled the remaining Frieza Race Skills source/model discrepancy.
+- [x] Current maintained source snapshot contains exactly **2** category members: **Darkness Rush (Melee)** and **Turn Golden**.
+- [x] Corrected the stale maintained category target from **4 → 2** and aggregate indexed category target from **672 → 670**.
+- [x] Updated `scripts/build_skills_from_research.py`, `docs/data/skills-audit.json`, `docs/data/skills-catalog-status.json`, and `docs/Skills-Complete-Database.md` together.
+- [x] Updated `docs/data/skill-reconciliation-queue.json` and `docs/data/source-drift-audit.json`; the Frieza Race discrepancy is now closed.
+- [x] Added `docs/data/frieza-race-skill-category-reconciliation-2026-09-30-batch-730.json` as the durable audit.
+- [x] Preserved canonical skill records and overlapping race membership; no duplicate or speculative skill was created/deleted.
+- [ ] Runtime/CI remains unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue the post-recovery canonical Super Soul field-integrity audit, especially missing/shifted Limit Burst fields; keep Super Soul 034 unresolved unless direct item-level evidence appears. Then resolve the remaining Lovely Showtime cost conflict only if stronger evidence supports it.
