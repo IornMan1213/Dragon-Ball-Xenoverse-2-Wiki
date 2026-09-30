@@ -346,11 +346,27 @@
       "canonical_id": "acc-095",
       "match_status": "matched",
       "note": "Exact canonical accessory identity is established; PQ114 attribution is explicitly source-backed. Exact reward-condition semantics remain separate."
+    },
+    {
+      "pq_record_id": "pqacc-047",
+      "name": "Goku Wig (Ultra Instinct)",
+      "pq": 125,
+      "canonical_id": "acc-051",
+      "match_status": "matched",
+      "note": "Exact canonical accessory identity is established and the maintained PQ reward transcription explicitly lists the item under PQ125."
+    },
+    {
+      "pq_record_id": "pqacc-048",
+      "name": "Janemba Head",
+      "pq": 127,
+      "canonical_id": "acc-052",
+      "match_status": "matched",
+      "note": "Exact canonical accessory identity is established and the maintained PQ reward transcription explicitly lists the item under PQ127."
     }
   ],
   "summary": {
-    "pq_records": 46,
-    "matched": 38,
+    "pq_records": 48,
+    "matched": 40,
     "unmatched_or_unresolved": 8,
     "note": "The 25 matched records are identity matches only. They do not promote reward conditions or drop rates to verified status."
   },
