@@ -4,13 +4,6 @@
   "status": "open_reconciliation_queue",
   "items": [
     {
-      "domain": "Frieza Race Skills",
-      "issue": "Current source category enumerates 2 records while the repository's historical/model target remains 4.",
-      "action": "Reconcile source-category membership against the broader canonical skill model and overlapping race/awoken classifications before changing counts.",
-      "priority": "high",
-      "status": "open"
-    },
-    {
       "domain": "Lovely Showtime",
       "issue": "Published source pages disagree on Ki cost.",
       "action": "Preserve both claims and resolve using higher-priority or independent evidence.",
@@ -23,6 +16,12 @@
       "domain": "Ki Blast Supers",
       "issue": "Stale repository/source discrepancy involving Burst Stinger.",
       "resolution": "Resolved on 2026-09-30 Batch 729: current canonical skills-index contains exact skill-burst-stinger with Ki Blast/Super classification and PQ136 acquisition; no duplicate or count inflation required.",
+      "status": "resolved"
+    },
+    {
+      "domain": "Frieza Race Skills",
+      "issue": "Historical target of 4 conflicted with current source category snapshot of 2.",
+      "resolution": "Resolved Batch 730: current source category enumerates Darkness Rush (Melee) and Turn Golden. Coverage target corrected from 4 to 2; no canonical skill was deleted or invented and overlapping race membership was preserved.",
       "status": "resolved"
     }
   ]
