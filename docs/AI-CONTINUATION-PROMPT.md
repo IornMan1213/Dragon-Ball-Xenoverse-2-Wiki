@@ -8108,3 +8108,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the seven unresolved generic accessory/component identities; no inventory IDs were manufactured for Great Saiyaman Bandana 1/2.
 - [x] Added `docs/data/pq-typed-reward-frontier-reconciliation-2026-09-29-batch-704.json` and left canonical PQ relationships at **877** with no duplicates.
 - [ ] Next: continue the sparse-PQ scan after PQ70 using XV2-specific evidence, while separately advancing exact canonical Super Soul endpoint enumeration and the seven accessory identity gaps.
+
+
+### 2026-09-29 continuation — Canonical Super Soul endpoint promotion (batch 705)
+- [x] Resolved four previously enumerated PQ Super Soul names into canonical XV2 Super Soul records: `A monster? No, I'm a devil!` (PQ47), `The Great Saiyaman is here!` (PQ53), `Take care... of your mother...` (PQ54), and `Killed all Earthlings!` (PQ58).
+- [x] Added canonical records `super-soul-179` through `super-soul-182` with acquisition, effect, trigger, Limit Burst, provenance, and explicit unresolved drop-rate semantics.
+- [x] Added four `pq_rewards_super_soul` edges to `docs/data/pq-reward-relationships.json`; canonical relationship count is now 881.
+- [x] Refreshed `docs/data/pq-cross-domain-reverse-index.json`; Super Soul reverse-index target count is 141 and Super Soul edge count is 143.
+- [x] Created `docs/data/super-soul-canonical-endpoint-promotion-2026-09-29-batch-705.json` as the durable evidence/audit checkpoint.
+- [x] Rechecked forward relationship identity integrity: 881 edges, 0 duplicate relationship keys; all four promoted endpoints resolve exactly.
+- [x] Preserved the cross-game contamination rule: original Xenoverse Z-Soul/PQ evidence was not promoted into the XV2 canonical layer.
+- [ ] Runtime/CI remains intentionally non-blocking and unverified.
+- [ ] **Exact next:** continue canonical Super Soul endpoint enumeration from PQ research batches, then continue evidence-backed sparse-PQ/accessory identity coverage.
