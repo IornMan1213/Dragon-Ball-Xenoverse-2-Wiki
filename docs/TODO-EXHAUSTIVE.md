@@ -7782,3 +7782,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the boundary that farming utility does not establish a guaranteed Dragon Ball drop, probability, or exact reward trigger.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the canonical Parallel Quest sparse-field recovery scan, prioritizing fields where surviving maintained research directly supports promotion; preserve unknown reward/drop semantics rather than guessing.
+
+### 2026-09-30 Batch 738 — PQ sparse-field recovery
+- [x] Recovered sparse/null fields for **PQ 004, 083, 100, 122, and 134** from surviving maintained PQ research and current quest documentation.
+- [x] PQ 004: restored difficulty/objectives/Ultimate Finish/enemies/basic rewards/skill reward and Dragon Ball farming utility.
+- [x] PQ 083: restored objectives, Ultimate Finish, basic rewards, skill reward, and farming metadata.
+- [x] PQ 100: restored objectives, Ultimate Finish, basic rewards, and skill reward.
+- [x] PQ 122: restored DLC requirement, objectives, Ultimate Finish, basic rewards, and skill rewards.
+- [x] PQ 134: restored DLC requirement, objectives, Ultimate Finish, basic rewards, and skill rewards.
+- [x] Added `docs/data/pq-sparse-field-recovery-2026-09-30-batch-738.json`.
+- [x] Canonical mutations: 5; inferred fields: 0; unsupported records created: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the canonical PQ sparse-field scan, prioritizing remaining records with null/empty fields that can be directly recovered from surviving maintained research; do not overwrite stronger canonical relationship data with projections.
