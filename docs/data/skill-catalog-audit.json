@@ -41,10 +41,10 @@
     "Dual Ultimate relationships where applicable"
   ],
   "last_audited": "2026-09-29",
-  "latest_research_batch": 692,
+  "latest_research_batch": 699,
   "canonical_catalog_generated": "2026-09-29",
   "canonical_sync_pending": false,
-  "current_research_focus": "PQ cross-domain reverse-index expansion. Regenerated docs/data/pq-cross-domain-reverse-index.json from the normalized relationship layer; current source-backed reverse coverage is skills 244, Super Souls 133, equipment 134, characters 75, DLC 21, farming 1. Forward edges remain 249/135/137/247/88/7. Reverse counts can be lower because multiple targets share or lack canonical normalized identities. Next: expand source-backed reverse coverage and canonical target links, then resolve reward-slot conflicts.",
+  "current_research_focus": "Post-corruption recovery-forward baseline frozen at 549 canonical skills / 549 synchronized index records / 877 canonical PQ relationship edges. Continue evidence-backed PQ↔Skill/Super Soul/Equipment enrichment and exact accessory identity resolution; canonical forward stores remain authoritative.",
   "validation_blocker": "Repository Quality, Clean Internal Artifacts, Wiki Data Audit, and Skills Sync continue to report failure on GitHub Actions. Job step/log diagnostics are unavailable through the connected GitHub API, so failure causes are not being guessed.",
   "workflow_validation_note": "Skills Sync trigger coverage now includes docs/data/skills.json and docs/data/skills-index.json.",
   "canonical_reconciliation_2026_09_27": {
@@ -270,17 +270,17 @@
     "canonical_skills": 549,
     "skills_index": 549,
     "skill_identity_mismatches": 0,
-    "relationship_edges": 862,
+    "relationship_edges": 877,
     "relationship_duplicates": 0,
     "orphan_skill_reward_targets": 0,
     "acquisition_gaps": 0,
     "mechanics_notes_gaps": 0,
-    "race_restriction_gaps": 79,
+    "race_restriction_gaps": 74,
     "pq_range": "PQ1-PQ186",
     "pq_without_typed_skill_super_soul_equipment_relationship": [
       "PQ1"
     ],
-    "audit_file": "docs/data/post-corruption-rebuild-verification-2026-09-29.json"
+    "audit_file": "docs/data/post-corruption-live-baseline-audit-2026-09-29-batch-699.json"
   },
   "festival_recovery_reconciliation_2026_09_28": {
     "batch": 587,
@@ -356,7 +356,7 @@
   },
   "indexed_only_reconciliation_2026_09_29": {
     "source_universe": 110,
-    "canonical_records": 548,
+    "canonical_records": 549,
     "resolved_from_source_universe": 99,
     "remaining_indexed_only": 0,
     "resolved_names": [
@@ -933,20 +933,20 @@
     ]
   },
   "recovery_reconciliation_2026_09_29": {
-    "canonical_skill_blob_sha": "6e8195f19e61e046067d3a0a755de86b52977a88",
+    "canonical_skill_blob_sha": "b32e26e729ea03656a46583fee0ed9b0f7f00511",
     "canonical_skill_count": 549,
     "synchronized_index_count": 549,
-    "pq_reward_relationships": 862,
+    "pq_reward_relationships": 877,
     "pq_reward_counts": {
       "skill": 249,
-      "super_soul": 135,
-      "equipment": 136,
+      "super_soul": 139,
+      "equipment": 147,
       "character": 247,
       "dlc": 88,
       "farming": 7
     },
     "skill_pq_edges": 249,
-    "null_race_restriction_records": 62,
+    "null_race_restriction_records": 74,
     "indexed_only_frontier": 0,
     "duplicate_canonical_ids": 0,
     "canonical_source_of_truth": "docs/data/skills.json",
@@ -1382,23 +1382,23 @@
     "canonical_mutations": 0
   },
   "pq_relationship_baseline": {
-    "total_relationships": 863,
-    "pq_rewards_equipment": 137
+    "total_relationships": 877,
+    "pq_rewards_equipment": 147
   },
   "pq_reverse_index_batch_692": {
     "commit_sha": "86b704e65a299dc8f2657b25bd27db702f695721",
     "counts": {
       "skills": 244,
-      "super_souls": 133,
-      "equipment": 134,
+      "super_souls": 137,
+      "equipment": 140,
       "characters": 75,
       "dlc": 21,
       "farming": 1
     },
     "edges": {
       "skills": 249,
-      "super_souls": 135,
-      "equipment": 137,
+      "super_souls": 139,
+      "equipment": 147,
       "characters": 247,
       "dlc": 88,
       "farming": 7
