@@ -1,0 +1,157 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "batch": 702,
+  "audit_type": "pq-typed-reward-frontier-reconciliation",
+  "purpose": "Reconcile the six-PQ sparse frontier against direct PQ reward evidence and separate basic rewards from additional/Ultimate-Finish acquisition evidence.",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "checked_pqs": [
+    "pq-035",
+    "pq-032",
+    "pq-023",
+    "pq-024",
+    "pq-014",
+    "pq-019"
+  ],
+  "findings": [
+    {
+      "pq": "pq-035",
+      "canonical_present": [
+        "pq_features_character:Patroller",
+        "pq_rewards_super_soul:I wanted to kill you with my own hands."
+      ],
+      "external_basic_rewards": [
+        "Small Mix Capsule",
+        "Aura Shard",
+        "I wanted to kill you with my own hands."
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": "pq-032",
+      "canonical_present": [
+        "pq_features_character:Cell Jr.",
+        "pq_rewards_skill:Energy Barrier"
+      ],
+      "external_basic_rewards": [
+        "Regen Capsule S",
+        "Energy Barrier"
+      ],
+      "additional_super_soul_evidence": [
+        "*Silence* Ignored…",
+        "Papparapah! Barrier!"
+      ],
+      "status": "candidate_additional_rewards_need_canonical_identity"
+    },
+    {
+      "pq": "pq-023",
+      "canonical_present": [
+        "pq_features_character:Patroller",
+        "pq_rewards_skill:Death Slash"
+      ],
+      "external_basic_rewards": [
+        "Energy Capsule S",
+        "Regen Capsule S",
+        "Death Slash"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": "pq-024",
+      "canonical_present": [
+        "pq_features_character:Vegeta",
+        "pq_rewards_skill:Double Death Slicer"
+      ],
+      "external_basic_rewards": [
+        "Small Mix Capsule",
+        "Double Death Slicer"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": "pq-014",
+      "canonical_present": [
+        "pq_rewards_equipment:Goku's Turtle Hermit Gi (Go)",
+        "pq_rewards_skill:Kaioken Kamehameha"
+      ],
+      "external_basic_rewards": [
+        "Goku's Turtle Hermit Gi (Go)",
+        "Kaioken Kamehameha"
+      ],
+      "status": "covered"
+    },
+    {
+      "pq": "pq-019",
+      "canonical_present": [
+        "pq_rewards_skill:Fighting Pose E",
+        "pq_rewards_skill:Mach Punch"
+      ],
+      "external_basic_rewards": [
+        "Mach Punch",
+        "Fighting Pose E"
+      ],
+      "external_acquisition_context": [
+        "King Kai's clothes can be granted by an NPC after completing PQ19; this is an acquisition route, not evidence that the clothing is a direct PQ reward."
+      ],
+      "status": "covered_basic_rewards_no_new_typed_edge"
+    }
+  ],
+  "additional_reward_candidates": [
+    {
+      "pq": "pq-032",
+      "targets": [
+        "*Silence* Ignored…",
+        "Papparapah! Barrier!"
+      ],
+      "evidence": "Gamepur Super Soul Award guide lists both under PQ32.",
+      "promotion": "blocked_until_exact_canonical_super_soul_identity_and_reward-condition_reconciliation"
+    },
+    {
+      "pq": "pq-023",
+      "targets": [
+        "Who will surpass me?!"
+      ],
+      "evidence": "Gamepur Super Soul Award guide lists PQ23 with this Super Soul.",
+      "promotion": "blocked_until_exact_canonical_super_soul_identity_and_reward-condition_reconciliation"
+    },
+    {
+      "pq": "pq-024",
+      "targets": [
+        "I’ll never forgive you, scum!"
+      ],
+      "evidence": "Gamepur Super Soul Award guide lists PQ24 with this Super Soul; repository canonical Super Soul record layer identifies the same name as super-soul-030 with Item Shop acquisition, so PQ reward linkage requires condition/source reconciliation.",
+      "promotion": "blocked_pending_reward-condition_reconciliation"
+    },
+    {
+      "pq": "pq-014",
+      "targets": [
+        "I’ll never forgive you, scum!"
+      ],
+      "evidence": "Gamepur Super Soul Award guide lists PQ14 with this Super Soul; canonical repository record identifies the same soul as Item Shop acquisition, so direct PQ reward linkage must not be inferred.",
+      "promotion": "blocked_pending_reward-condition_reconciliation"
+    },
+    {
+      "pq": "pq-019",
+      "targets": [],
+      "evidence": "No additional typed reward established from the checked direct source.",
+      "promotion": "none"
+    }
+  ],
+  "policy": [
+    "Do not equate an Ultimate-Finish/additional reward listing with the basic-reward field without explicit condition semantics.",
+    "Do not add a PQ relationship solely because a secondary guide lists a Super Soul; exact canonical identity and acquisition semantics must reconcile.",
+    "NPC grants after PQ completion are not automatically pq_rewards_equipment relationships.",
+    "Canonical forward relationship store remains authoritative."
+  ],
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://www.gamepur.com/guides/how-to-unlock-super-soul-award-in-dragon-ball-xenoverse-2"
+  ],
+  "next_frontier": [
+    "pq-032 additional Super Souls",
+    "pq-023 additional Super Soul",
+    "pq-024 additional Super Soul",
+    "pq-014 additional Super Soul",
+    "canonical Super Soul acquisition-condition reconciliation"
+  ]
+}
