@@ -1299,7 +1299,7 @@
       "shop_rotation": null,
       "trigger_condition": "Always; additional effect at very low health",
       "effect_text": "Increases defense and reduces stamina damage taken; at 10% health or less, provides a larger defense increase.",
-      "effect_magnitude": "+5% defense baseline; +30% defense at ≤10% HP (community evidence); stamina-damage reduction magnitude unresolved",
+      "effect_magnitude": "+5% damage reduction; +5% stamina-damage reduction; +30% damage reduction when Health is below 10%",
       "duration": "While conditions remain active",
       "stacking_behavior": "unresolved",
       "limit_burst": null,
@@ -1307,13 +1307,15 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled. 2026-09-19 item-level reconciliation added. Limit Burst effect reconciled from independent catalogue/raid/character evidence on 2026-09-27; no trigger timing or unrelated mechanics were inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled. 2026-09-19 item-level reconciliation added. Limit Burst effect reconciled from independent catalogue/raid/character evidence on 2026-09-27; no trigger timing or unrelated mechanics were inferred. Batch 735: independent current-reference recheck confirms the previously unresolved stamina-damage reduction is 5%. Current catalogue lists both baseline reductions at S/5% and the below-10%-Health damage reduction at XXL/30%; independent GameFAQs and community documentation corroborate the 5% stamina-damage reduction. No additional stacking behavior is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-09-30",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81017011",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78358712"
       ]
     },
     {
