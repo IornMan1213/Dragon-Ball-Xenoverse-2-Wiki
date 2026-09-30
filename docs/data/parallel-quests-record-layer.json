@@ -9,14 +9,34 @@
       "id": "pq-004",
       "number": 4,
       "name": "Prepare for the Attack of Saiyans!",
-      "difficulty": null,
+      "difficulty": 1,
       "dlc_requirement": null,
       "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
-      "enemies": [],
-      "rewards": [],
-      "skill_rewards": [],
+      "objectives": [
+        "Defeat Gohan/Piccolo",
+        "Clear in under 5 minutes",
+        "Defeat Goku and revived Piccolo"
+      ],
+      "ultimate_finish": "Defeat Gohan/Piccolo within five minutes, then defeat Goku and revived Piccolo.",
+      "enemies": [
+        "Tien",
+        "Yamcha",
+        "Krillin",
+        "Time Patrollers in training (optional)",
+        "Gohan (Kid)",
+        "Piccolo",
+        "Goku",
+        "Piccolo"
+      ],
+      "rewards": [
+        "250 Zeni",
+        "Demon Clothes (Kid Gohan)",
+        "Goku's Turtle Hermit Gi",
+        "Paralyze Beam"
+      ],
+      "skill_rewards": [
+        "Paralyze Beam"
+      ],
       "equipment_rewards": [
         {
           "equipment_id": "equip-001",
@@ -30,10 +50,11 @@
         }
       ],
       "super_soul_rewards": [],
-      "dragon_ball_farming": null,
-      "verification_status": "indexed",
+      "dragon_ball_farming": true,
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://dbxv2.fandom.com/wiki/Prepare_for_the_Attack_of_Saiyans%21",
+        "https://dbxv2.fandom.com/wiki/Wish"
       ],
       "equipment_links": [
         {
@@ -46,7 +67,8 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
         }
-      ]
+      ],
+      "notes": "Batch 738 recovery: restored fields from surviving maintained PQ research/current quest documentation; no reward guarantee or drop-rate inference."
     },
     {
       "id": "pq-021",
@@ -2096,9 +2118,9 @@
       "equipment_rewards": [],
       "super_soul_rewards": [],
       "dragon_ball_farming": true,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "qq_bang_links": [
         {
@@ -2113,7 +2135,8 @@
             "https://www.reddit.com/r/DragonBallXenoverse2/comments/1eot750/"
           ]
         }
-      ]
+      ],
+      "notes": "Batch 738 recovery: restored fields from surviving maintained PQ research/current quest documentation; no reward guarantee or drop-rate inference."
     },
     {
       "id": "pq-084",
@@ -2483,9 +2506,9 @@
       ],
       "super_soul_rewards": [],
       "dragon_ball_farming": null,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "equipment_links": [
         {
@@ -2500,7 +2523,8 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
         }
-      ]
+      ],
+      "notes": "Batch 738 recovery: restored fields from surviving maintained PQ research/current quest documentation; no reward guarantee or drop-rate inference."
     },
     {
       "id": "pq-101",
@@ -3263,12 +3287,25 @@
       "number": 122,
       "name": "The Final Battle Before the Final Battle?!",
       "difficulty": null,
-      "dlc_requirement": null,
+      "dlc_requirement": "Extra Pack 2",
       "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
+      "objectives": [
+        "Defeat all enemies except for Beerus",
+        "Defeat all enemies",
+        "Defeat Beerus and the others"
+      ],
+      "ultimate_finish": "Defeat Beerus and the remaining enemies after the preceding conditions.",
       "enemies": [],
-      "rewards": [],
+      "rewards": [
+        "5540 Zeni",
+        "All-Regen Capsule L",
+        "All-Energy Capsule Z",
+        "Senzu Essence Capsule",
+        "For beauty! For elegance! For love!",
+        "This Super Saiyan 2 is crazy strong!",
+        "Meditation",
+        "Power Rush"
+      ],
       "skill_rewards": [
         "Meditation",
         "Power Rush"
@@ -3279,10 +3316,11 @@
         "This Super Saiyan 2 is crazy strong!"
       ],
       "dragon_ball_farming": null,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "notes": "Batch 738 recovery: restored fields from surviving maintained PQ research/current quest documentation; no reward guarantee or drop-rate inference."
     },
     {
       "id": "pq-123",
@@ -3724,15 +3762,24 @@
       "number": 134,
       "name": "Universe 7's Next God of Destruction",
       "difficulty": null,
-      "dlc_requirement": null,
+      "dlc_requirement": "Ultra Pack 1",
       "unlock_method": null,
-      "objectives": [],
-      "ultimate_finish": null,
+      "objectives": [
+        "Defeat all enemies",
+        "Clear in under 6 and a half minutes",
+        "Defeat Goku (Ultra Instinct) and the others"
+      ],
+      "ultimate_finish": "Defeat Goku (Ultra Instinct) and the remaining enemies after the time condition.",
       "enemies": [],
-      "rewards": [],
+      "rewards": [
+        "6500 Zeni",
+        "Power! A lotta power! It's great!",
+        "Ultimate Charge",
+        "Burst Charge"
+      ],
       "skill_rewards": [
-        "Burst Charge",
-        "Ultimate Charge"
+        "Ultimate Charge",
+        "Burst Charge"
       ],
       "equipment_rewards": [
         {
@@ -3745,9 +3792,9 @@
         "Power! A lotta power! It's great!"
       ],
       "dragon_ball_farming": null,
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
       "equipment_links": [
         {
@@ -3755,7 +3802,8 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
         }
-      ]
+      ],
+      "notes": "Batch 738 recovery: restored fields from surviving maintained PQ research/current quest documentation; no reward guarantee or drop-rate inference."
     },
     {
       "id": "pq-135",
