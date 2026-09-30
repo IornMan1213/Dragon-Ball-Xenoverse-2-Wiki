@@ -373,22 +373,32 @@
     "Canonical forward data remains authoritative."
   ],
   "next_targets": [
-    "pq-020",
-    "pq-033",
-    "pq-043",
-    "pq-067",
-    "pq-081",
-    "pq-006",
-    "pq-007",
-    "pq-008",
-    "pq-009",
-    "pq-010",
-    "pq-014",
-    "pq-019",
+    "pq-035",
+    "pq-032",
     "pq-023",
     "pq-024",
-    "pq-032",
-    "pq-034",
-    "pq-035"
-  ]
+    "pq-014",
+    "pq-019"
+  ],
+  "review_2026_09_29": {
+    "batch": 701,
+    "checked": [
+      "pq-020",
+      "pq-033",
+      "pq-043",
+      "pq-067",
+      "pq-081"
+    ],
+    "result": "all five apparently sparse one-edge PQs already have their direct skill reward represented in the canonical forward relationship store",
+    "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "canonical_mutations": 0,
+    "examples": {
+      "pq-020": "Mystic Flash",
+      "pq-033": "Death Psycho Bomb",
+      "pq-043": "Change The Future",
+      "pq-067": "Super God Fist",
+      "pq-081": "Afterimage Strike"
+    },
+    "conclusion": "No duplicate edges were added. These PQs are not currently evidence-backed missing skill endpoints; their remaining basic rewards are capsules/currency and are outside the typed relationship model."
+  }
 }
