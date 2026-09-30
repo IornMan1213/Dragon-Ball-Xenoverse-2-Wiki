@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 736,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "lovely_showtime_ki_cost_reconciliation_recheck",
+  "source_of_truth": "docs/data/skills.json",
+  "target": "Lovely Showtime",
+  "canonical_mutation": false,
+  "finding": "The Ki-cost conflict remains unresolved after a fresh independent recheck. The current skill-specific Fandom page reports Ki Used 200, while the generic Ultimate Attack catalogue reports 300. The repository's historical batch 308 also records 300 and cites the Xenoverse ID-list research source; batches 290/298 record 200 from the skill-specific page. Current independent GameFAQs discussion confirms the skill's cast-exclusive behavior but does not provide a numeric Ki cost.",
+  "evidence": [
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Lovely_Showtime",
+      "claim": "Current skill-specific page reports Ki Used 200."
+    },
+    {
+      "source": "https://dbxv2.fandom.com/wiki/Ultimate_Attack",
+      "claim": "Current generic Ultimate Attack page lists Lovely Showtime at 300 Ki."
+    },
+    {
+      "source": "https://github.com/IornMan1213/Dragon-Ball-Xenoverse-2-Wiki/blob/main/docs/data/skill-research-batches/skill-batch-308.json",
+      "claim": "Repository historical research batch 308 records 300 Ki and cites the Xenoverse ID-list research source."
+    },
+    {
+      "source": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77856849",
+      "claim": "Independent discussion confirms Lovely Showtime is cast-exclusive/unavailable to CaCs but does not establish a numeric Ki cost."
+    }
+  ],
+  "decision": "Do not mutate the canonical Ki cost yet. The evidence is still internally conflicting and the independent source found does not resolve the numeric value.",
+  "next": "Move to the next cross-domain integrity/enrichment frontier; revisit Lovely Showtime only when a direct game-data/item-level source or another independent numeric source resolves 200 versus 300."
+}
