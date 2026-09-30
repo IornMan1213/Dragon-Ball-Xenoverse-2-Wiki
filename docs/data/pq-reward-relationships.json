@@ -6476,14 +6476,6 @@
       "notes": "Explicitly listed in the canonical PQ164 super_soul_rewards array; exact drop condition remains separate."
     },
     {
-      "pq": "pq-176",
-      "relationship": "pq_rewards_super_soul",
-      "target": "God of Destruction's Might",
-      "status": "source_backed",
-      "source": "canonical Parallel Quest record layer",
-      "notes": "Explicitly listed in the canonical PQ176 super_soul_rewards array; exact drop condition remains separate."
-    },
-    {
       "pq": "pq-003",
       "relationship": "pq_rewards_equipment",
       "target": "Battle Suit (Raditz)",
