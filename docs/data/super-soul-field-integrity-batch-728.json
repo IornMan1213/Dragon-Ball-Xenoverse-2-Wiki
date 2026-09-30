@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 728,
+  "status": "completed",
+  "type": "super_soul_field_integrity",
+  "scope": "Repair missing canonical Limit Burst field identified by the post-recovery integrity audit.",
+  "corrections": [
+    {
+      "id": "super-soul-032",
+      "name": "This power... It's different from any I've ever had.",
+      "field": "limit_burst_effect",
+      "new_value": "ATK Up! You've Got Super Armor! Ki Rec. SPD Down.",
+      "note": "The existing trigger and magnitude remain secondary evidence; only the explicitly documented Limit Burst was promoted."
+    }
+  ],
+  "preserved_unresolved": [
+    "super-soul-034 item-level mechanics and Limit Burst"
+  ],
+  "next": "Continue field-integrity audit, prioritizing missing Limit Burst fields, while preserving 034 as unresolved absent direct item-level evidence."
+}
