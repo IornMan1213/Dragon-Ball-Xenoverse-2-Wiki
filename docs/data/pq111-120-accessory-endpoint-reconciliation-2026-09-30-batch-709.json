@@ -1,0 +1,27 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "709",
+  "audit_date": "2026-09-30",
+  "scope": "PQ111-PQ120 accessory/equipment endpoint reconciliation",
+  "source_policy": "Canonical forward PQ relationships remain authoritative; explicit inventory identities may be repaired when source evidence resolves a layer inconsistency. No reward probability or Ultimate Finish condition is inferred.",
+  "findings": [
+    {
+      "item": "Resistance Helmet",
+      "pq": "pq-111",
+      "status": "reconciled",
+      "canonical_id": "acc-094"
+    },
+    {
+      "item": "Toppo's Moustache",
+      "pq": "pq-114",
+      "status": "repaired",
+      "canonical_id": "acc-095",
+      "note": "Canonical accessory layer had stale PQ112 attribution; maintained XV2 all-186 reward transcription explicitly lists the item under PQ114, and the forward canonical PQ relationship already pointed to PQ114."
+    }
+  ],
+  "forward_relationship_change": "none",
+  "canonical_relationship_edge_count": 880,
+  "canonical_equipment_relationship_edges": 147,
+  "canonical_super_soul_relationship_edges": 142,
+  "evidence_boundary": "The repair establishes the PQ association only. Exact drop probability, slot mechanics, and Ultimate Finish semantics remain unresolved."
+}
