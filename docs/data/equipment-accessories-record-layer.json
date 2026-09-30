@@ -1700,6 +1700,58 @@
           "evidence_note": "PQ114 reward association is explicitly documented; exact reward/drop condition remains unresolved."
         }
       ]
+    },
+    {
+      "id": "acc-096",
+      "name": "Great Saiyaman Bandana 1",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 51 reward listing",
+        "Great Saiyaman-related NPC/mentor reward route reported"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://www.jeuxvideo.com/forums/42-3007921-53200370-1-0-1-0-accessoire-bandana-de-great-saiyaman.htm",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories"
+      ],
+      "notes": "Exact named accessory identity is independently established. External inventory-ID evidence identifies game inventory ID 837; repository canonical ID is intentionally independent of that external ID. PQ51 attribution is retained without asserting a guaranteed reward condition.",
+      "pq_links": [
+        {
+          "pq_id": "pq-051",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ51 reward listing explicitly names Great Saiyaman Bandana 1; exact reward/drop condition remains unresolved."
+        }
+      ]
+    },
+    {
+      "id": "acc-097",
+      "name": "Great Saiyaman Bandana 2",
+      "category": "headwear",
+      "acquisition_routes": [
+        "Parallel Quest 53 reward listing",
+        "Great Saiyaman-related NPC/mentor reward route reported"
+      ],
+      "dlc_provenance": "base_game",
+      "restrictions": null,
+      "combat_effect": "cosmetic",
+      "verification_status": "partially_verified",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Equipment",
+        "https://www.jeuxvideo.com/forums/42-3007921-53200370-1-0-1-0-accessoire-bandana-de-great-saiyaman.htm",
+        "https://it.scribd.com/document/741933692/Dragon-Ball-Xenoverse-2-Equipment-Guide-Outfits-and-Accessories"
+      ],
+      "notes": "Exact named accessory identity is independently established. External inventory-ID evidence identifies game inventory ID 838; repository canonical ID is intentionally independent of that external ID. PQ53 attribution is retained without asserting a guaranteed reward condition.",
+      "pq_links": [
+        {
+          "pq_id": "pq-053",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ53 reward listing explicitly names Great Saiyaman Bandana 2; exact reward/drop condition remains unresolved."
+        }
+      ]
     }
   ],
   "research_notes": [

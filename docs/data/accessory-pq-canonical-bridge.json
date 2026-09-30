@@ -74,15 +74,17 @@
       "pq_record_id": "pqacc-009",
       "name": "Great Saiyaman Bandana 1",
       "pq": 51,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "acc-096",
+      "match_status": "matched",
+      "note": "Exact named accessory identity promoted after independent equipment-catalog, historical acquisition, and external inventory-ID corroboration."
     },
     {
       "pq_record_id": "pqacc-010",
       "name": "Great Saiyaman Bandana 2",
       "pq": 53,
-      "canonical_id": null,
-      "match_status": "unmatched_identity"
+      "canonical_id": "acc-097",
+      "match_status": "matched",
+      "note": "Exact named accessory identity promoted after independent equipment-catalog, historical acquisition, and external inventory-ID corroboration."
     },
     {
       "pq_record_id": "pqacc-011",

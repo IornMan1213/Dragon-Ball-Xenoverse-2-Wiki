@@ -8275,3 +8275,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved `docs/data/skills.json` as authoritative.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** pursue exact structured/historical identifiers or remaining schema-critical fields; otherwise advance to the next substantive canonical enrichment frontier.
+
+
+### 2026-09-30 Batch 719 — Great Saiyaman accessory identity promotion
+- [x] Promoted **Great Saiyaman Bandana 1** to canonical accessory `acc-096` and **Great Saiyaman Bandana 2** to `acc-097`.
+- [x] Linked `acc-096 ↔ PQ51` and `acc-097 ↔ PQ53` through the canonical accessory bridge.
+- [x] Reconciled distinct external game inventory IDs **837/838** as provenance evidence only; repository canonical IDs remain locally assigned.
+- [x] Added `docs/data/pq-accessory-identity-promotion-2026-09-30-batch-719.json`.
+- [x] No reward probability/guarantee semantics were inferred.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: audit the remaining accessory acquisition/component identities only where exact independent evidence supports promotion; otherwise advance to the next substantive cross-domain gap.

@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 719,
+  "date": "2026-09-30",
+  "status": "completed",
+  "type": "pq_accessory_identity_promotion",
+  "scope": "Promote the two remaining Great Saiyaman bandana PQ endpoint identities after exact-name and independent inventory evidence reconciliation.",
+  "promoted": [
+    {
+      "name": "Great Saiyaman Bandana 1",
+      "pq": "pq-051",
+      "canonical_id": "acc-096",
+      "external_inventory_id": 837
+    },
+    {
+      "name": "Great Saiyaman Bandana 2",
+      "pq": "pq-053",
+      "canonical_id": "acc-097",
+      "external_inventory_id": 838
+    }
+  ],
+  "validation": {
+    "accessory_record_count": 97,
+    "bridge_matched_count": 42,
+    "remaining_unresolved_pq_accessory_records": 5,
+    "canonical_forward_relationship_edges": "unchanged",
+    "unsupported_external_id_imports": 0
+  },
+  "boundary": "External inventory IDs 837/838 are retained as provenance evidence only; the repository assigns its own canonical IDs. No reward probability or guaranteed-drop semantics were inferred.",
+  "next": "Continue the remaining acquisition-layer accessory gaps (Android 15's Sunglasses and component-unresolved Gine/Kale/Caulifla/Android 17 Ranger labels) only where exact independent inventory identity evidence establishes a distinct item; otherwise preserve unresolved boundaries and advance to the next substantive cross-domain gap."
+}

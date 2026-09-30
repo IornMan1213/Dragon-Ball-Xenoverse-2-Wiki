@@ -63,15 +63,21 @@
       "pq_record_id": "pqacc-009",
       "name": "Great Saiyaman Bandana 1",
       "pq": 51,
-      "status": "unmatched",
-      "reason": "No canonical identity currently assigned; requires distinction from Bandana 2 and helmet variants."
+      "status": "resolved_to_canonical",
+      "reason": "No canonical identity currently assigned; requires distinction from Bandana 2 and helmet variants.",
+      "canonical_accessory_id": "acc-096",
+      "resolution_date": "2026-09-30",
+      "resolution_basis": "Exact named accessory identity independently corroborated by current equipment catalog, historical acquisition evidence, and external inventory ID 837; repository canonical ID is locally assigned and does not import the external numeric ID."
     },
     {
       "pq_record_id": "pqacc-010",
       "name": "Great Saiyaman Bandana 2",
       "pq": 53,
-      "status": "unmatched",
-      "reason": "No canonical identity currently assigned; requires distinction from Bandana 1 and helmet variants."
+      "status": "resolved_to_canonical",
+      "reason": "No canonical identity currently assigned; requires distinction from Bandana 1 and helmet variants.",
+      "canonical_accessory_id": "acc-097",
+      "resolution_date": "2026-09-30",
+      "resolution_basis": "Exact named accessory identity independently corroborated by current equipment catalog, historical acquisition evidence, and external inventory ID 838; repository canonical ID is locally assigned and does not import the external numeric ID."
     },
     {
       "pq_record_id": "pqacc-011",
@@ -203,7 +209,8 @@
   "current_external_evidence": [
     "Steam's all-PQ guide explicitly lists PQ144 Gine's Clothes/Gine Set, PQ146 Bardock (DB Super)'s Clothes, PQ147 Caulifla's Clothes/Caulifla Wig, PQ148 Kale's Clothes/Kale Wig, and PQ149 Bulma (Kid) Clothes/Wig.",
     "The current equipment catalog separately lists the corresponding clothing routes, supporting the rule that a generic accessory/set label must not automatically become a new accessory identity.",
-    "Historical source disagreements are retained rather than resolved by majority assumption."
+    "Historical source disagreements are retained rather than resolved by majority assumption.",
+    "Independent 2026-09-30 research reconciled Great Saiyaman Bandana 1 and 2 as distinct named accessory identities; historical source confirms Bandana 1 from PQ51 and Bandana 2 from PQ53, while an external inventory-ID list identifies them as distinct game items 837 and 838."
   ],
   "sources": [
     "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
@@ -258,6 +265,14 @@
         "pqacc-011"
       ],
       "rule": "Promote only exact named identities already present in the canonical accessory record layer. Preserve historical route conflicts rather than overwriting them."
+    },
+    {
+      "date": "2026-09-30",
+      "resolved": [
+        "pqacc-009",
+        "pqacc-010"
+      ],
+      "rule": "Promote exact named accessory identities only after independent name/acquisition corroboration; external inventory IDs are evidence, not repository canonical IDs."
     }
   ]
 }

@@ -7591,3 +7591,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved null canonical IDs and unresolved schema-critical fields; no unsupported promotion.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: pursue exact structured/historical Festival identifiers/schema evidence, then advance to the next canonical enrichment frontier if identifiers remain unrecoverable.
+
+
+### 2026-09-30 Batch 719
+- [x] Promoted Great Saiyaman Bandana 1/2 into canonical accessory identities `acc-096`/`acc-097`.
+- [x] Linked them to PQ51/PQ53 through the canonical accessory bridge.
+- [x] Preserved external inventory IDs as evidence only; no unsupported reward semantics inferred.
+- [x] Added Batch 719 audit.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: continue exact-evidence accessory identity reconciliation, then move forward to the next cross-domain gap.
