@@ -860,22 +860,30 @@
       "name": "Goku Wig (Ultra Instinct)",
       "category": "wig",
       "acquisition_routes": [
-        "Parallel Quest 125"
+        "Parallel Quest 125 reward listing"
       ],
       "dlc_provenance": "DLC-related route reported",
       "restrictions": null,
       "combat_effect": "cosmetic",
-      "verification_status": "indexed",
+      "verification_status": "partially_verified",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-125",
+          "relationship": "acquisition_source",
+          "evidence_note": "Explicit accessory identity and PQ attribution are source-backed; exact reward condition remains separate."
+        }
+      ],
+      "notes": "Cross-domain PQ endpoint link promoted during Batch 710."
     },
     {
       "id": "acc-052",
       "name": "Janemba Head",
       "category": "headwear",
       "acquisition_routes": [
-        "Parallel Quest 127"
+        "Parallel Quest 127 reward listing"
       ],
       "dlc_provenance": "DLC-related route reported",
       "restrictions": null,
@@ -884,7 +892,15 @@
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json"
-      ]
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-127",
+          "relationship": "acquisition_source",
+          "evidence_note": "Explicit accessory identity and PQ attribution are source-backed; exact reward condition remains separate."
+        }
+      ],
+      "notes": "Cross-domain PQ endpoint link promoted during Batch 710."
     },
     {
       "id": "acc-053",
