@@ -1,0 +1,50 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 724,
+  "status": "completed",
+  "type": "super_soul_mechanics_enrichment",
+  "scope": "Direct evidence enrichment for Super Souls 038 and 039.",
+  "canonical_source": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-038",
+      "changed_fields": [
+        "trigger_condition",
+        "duration",
+        "version_notes",
+        "last_verified"
+      ],
+      "finding": "The damage-reduction effect is explicitly tied to Ki being maxed; the active window therefore follows that condition, while the stamina-recovery penalty remains always active.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenover2/79969134"
+      ]
+    },
+    {
+      "id": "super-soul-039",
+      "changed_fields": [
+        "trigger_condition",
+        "duration",
+        "version_notes",
+        "last_verified"
+      ],
+      "finding": "The Broly Lite Raid evidence explicitly gives a battle-start all-attack boost lasting 20 seconds.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenover-2/79969134",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
+      ]
+    }
+  ],
+  "source_policy": "Canonical data remains authoritative. Only explicitly documented trigger/duration fields were promoted; no numeric XXL conversion or stacking behavior was inferred.",
+  "validation": {
+    "canonical_mutations": 2,
+    "inferred_fields": 0,
+    "unresolved_preserved": [
+      "super-soul-038 stacking_behavior",
+      "super-soul-039 stacking_behavior",
+      "super-soul-034 mechanics"
+    ]
+  },
+  "next": "Continue the next unaudited active Super Soul mechanics cohort; keep Super Soul 034 unresolved absent direct item-level evidence."
+}
