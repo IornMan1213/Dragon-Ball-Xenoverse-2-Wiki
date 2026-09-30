@@ -8465,3 +8465,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added durable audit `docs/data/lovely-showtime-ki-cost-reconciliation-2026-09-30-batch-736.json` and updated `docs/data/skill-reconciliation-queue.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** move to the next cross-domain integrity/enrichment frontier; do not reopen resolved Super Soul null-field classifications or infer Lovely Showtime's cost.
+
+### 2026-09-30 Batch 737 — PQ 23 recovery
+- [x] Advanced from the closed Lovely Showtime evidence boundary into cross-domain PQ recovery.
+- [x] Restored `pq-023.dragon_ball_farming=true` from direct maintained repository evidence and quest-specific documentation; no drop-rate or guarantee was inferred.
+- [x] Added durable audit `docs/data/pq-023-dragon-ball-farming-recovery-2026-09-30-batch-737.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the canonical Parallel Quest sparse-field recovery scan, prioritizing directly supported lost fields and preserving unresolved reward/drop semantics.
