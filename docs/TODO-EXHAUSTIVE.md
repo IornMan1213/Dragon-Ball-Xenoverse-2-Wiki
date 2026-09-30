@@ -7504,3 +7504,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical forward relationship store remains **880** unique edges; no PQ relationship-edge mutation was required.
 - [ ] Runtime/CI remains unverified due unavailable failing job-step diagnostics.
 - [ ] **Exact next:** continue PQ121-PQ130 canonical-first reward reconciliation, prioritizing explicit equipment/accessory identities and Super Soul endpoint coverage; do not manufacture inventory IDs or reward conditions.
+
+
+### 2026-09-30 continuation — PQ121-PQ130 accessory endpoint promotion (Batch 710)
+- [x] Audited PQ121-PQ130 against the maintained XV2 all-186 reward transcription and canonical forward relationship store; all listed typed rewards were already represented, so no duplicate reward edges were added.
+- [x] Verified all 14 Super Soul rewards in this range resolve to canonical Super Soul records with matching PQ acquisition sources.
+- [x] Found two explicit accessory identities already present canonically but missing from the accessory research/bridge navigation: **Goku Wig (Ultra Instinct)** and **Janemba Head**.
+- [x] Promoted **Goku Wig (Ultra Instinct)** as canonical `acc-051` ↔ PQ125 and **Janemba Head** as canonical `acc-052` ↔ PQ127 through `accessory-pq-research.json` and `accessory-pq-canonical-bridge.json`.
+- [x] Reconciled accessory bridge metadata after the promotion: **48** research/bridge records, **40** matched, **8** unresolved.
+- [x] Added `docs/data/pq121-130-accessory-endpoint-reconciliation-2026-09-30-batch-710.json`.
+- [x] Canonical forward PQ relationship store remains **880 edges**: 249 skills / 142 Super Souls / 147 equipment / 247 characters / 88 DLC / 7 farming.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose failing job-step logs.
+- [ ] **Exact next:** continue PQ131-PQ140 canonical-first reward reconciliation, prioritizing explicit accessory/equipment endpoint identities and any remaining Super Soul projection gaps; preserve unresolved reward-condition semantics.
