@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "715",
+  "audit_date": "2026-09-30",
+  "scope": "PQ181-PQ186 final reward reconciliation and late-DLC endpoint sweep",
+  "sources": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Parallel_Quests"
+  ],
+  "findings": [
+    "PQ181-PQ186 typed reward relationships are complete in the canonical forward relationship layer.",
+    "All late-DLC clothing/accessory endpoints listed by PQ181-PQ186 resolve to canonical inventory records.",
+    "PQ183 Cheelai's Coat remains classified by the endpoint layer as clothing/accessory; no stronger evidence was found to force a separate accessory canonicalization bridge, so no speculative bridge was added.",
+    "PQ185 and PQ186 carried duplicate DLC requirement targets differing only by capitalization ('Future Saga Chapter 4' vs 'FUTURE SAGA Chapter 4'). The repository's canonical DLC naming is 'FUTURE SAGA Chapter 4', so the duplicate alias edges were removed and the canonical edge retained.",
+    "No unsupported reward-slot, drop-rate, or Ultimate-Finish semantics were inferred."
+  ],
+  "correction": "Canonical forward relationship count remains 879 unique edges; duplicate relationship keys remain 0.",
+  "evidence_boundary": "This batch reconciles identities, endpoints, and canonical DLC naming only."
+}
