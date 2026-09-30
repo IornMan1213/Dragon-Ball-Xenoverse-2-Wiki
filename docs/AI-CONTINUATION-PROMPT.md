@@ -8307,3 +8307,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical mutations: 0; inferred fields: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** research direct item-level mechanics evidence for Super Souls 034 and 138–142, then continue duration/stacking enrichment where direct evidence exists.
+
+
+### 2026-09-30 Batch 722 — Super Soul mechanics census provenance correction
+- [x] Re-read the six Batch 721 priority records directly from the canonical Super Soul layer.
+- [x] Corrected the prior census: **super-soul-138 through super-soul-142 are explicitly rejected_legacy / rejected_legacy_misidentification records**, so they are historical provenance records, not active mechanics-enrichment targets.
+- [x] Reduced the active unresolved mechanics target to **super-soul-034 — The final battle begins now.**
+- [x] Preserved the five rejected legacy records without deleting their historical provenance or inventing replacement identities.
+- [x] Added the Batch 722 correction audit and refreshed the Batch 721 census file in place.
+- [x] Canonical mutations: 0; inferred fields: 0.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** research direct item-level mechanics evidence for super-soul-034 only; do not resurrect the five rejected legacy identities without new identity evidence.
