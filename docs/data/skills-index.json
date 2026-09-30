@@ -11972,7 +11972,8 @@
         253,
         255
       ]
-    }
+    },
+    "skill_festival_canonical_restoration_2026_09_30_batch_717": "docs/data/festival-skill-canonical-restoration-2026-09-30-batch-717.json"
   },
   "skill_super_vegeta_current_evidence_audit_2026_09_25": "docs/data/skill-super-vegeta-current-evidence-audit-2026-09-25.json",
   "skill_super_saiyan_2_current_evidence_audit_2026_09_25": "docs/data/skill-super-saiyan-2-current-evidence-audit-2026-09-25.json",
@@ -11991,6 +11992,6 @@
   "skill_fighting_pose_g_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-g-current-evidence-audit-2026-09-25.json",
   "skill_fighting_pose_i_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-i-current-evidence-audit-2026-09-25.json",
   "skill_fighting_pose_j_current_evidence_audit_2026_09_25": "docs/data/skill-fighting-pose-j-current-evidence-audit-2026-09-25.json",
-  "last_verified": "2026-09-29",
+  "last_verified": "2026-09-30",
   "record_count": 550
 }
