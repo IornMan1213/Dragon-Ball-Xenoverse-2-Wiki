@@ -154,11 +154,13 @@
       "skill_rewards": [],
       "equipment_rewards": [],
       "super_soul_rewards": [],
-      "dragon_ball_farming": null,
-      "verification_status": "indexed",
+      "dragon_ball_farming": true,
+      "verification_status": "partially_verified",
       "sources": [
-        "https://dbxv2.fandom.com/wiki/Parallel_Quests"
-      ]
+        "https://dbxv2.fandom.com/wiki/Parallel_Quests",
+        "https://dbxv2.fandom.com/wiki/Parallel_Quest_23"
+      ],
+      "notes": "Batch 737 recovery: maintained PQ research and current repository index explicitly identify PQ 23 as a Dragon Ball farming route; this field is promoted without inferring drop guarantees."
     },
     {
       "id": "pq-024",
