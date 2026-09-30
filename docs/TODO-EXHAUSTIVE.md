@@ -7773,3 +7773,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/data/skill-reconciliation-queue.json` with the evidence boundary and retained the item as open.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** move to the next cross-domain integrity/enrichment frontier; revisit Lovely Showtime only when direct game-data/item-level or independent numeric evidence resolves 200 vs 300.
+
+### 2026-09-30 Batch 737 — PQ 23 farming-field recovery
+- [x] Continued cross-domain recovery from the post-corruption baseline into the canonical Parallel Quest layer.
+- [x] Recovered **pq-023 — The Explosion of Namek** `dragon_ball_farming` from `null` → `true` using the maintained PQ index/research layer plus quest-specific/current repository farming documentation.
+- [x] Added `docs/data/pq-023-dragon-ball-farming-recovery-2026-09-30-batch-737.json`.
+- [x] Canonical mutations: 1; inferred fields: 0; unsupported records created: 0.
+- [x] Preserved the boundary that farming utility does not establish a guaranteed Dragon Ball drop, probability, or exact reward trigger.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the canonical Parallel Quest sparse-field recovery scan, prioritizing fields where surviving maintained research directly supports promotion; preserve unknown reward/drop semantics rather than guessing.
