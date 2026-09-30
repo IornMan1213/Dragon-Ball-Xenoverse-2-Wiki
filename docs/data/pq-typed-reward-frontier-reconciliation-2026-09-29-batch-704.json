@@ -1,0 +1,44 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-29",
+  "batch": 704,
+  "audit_type": "pq-typed-reward-frontier-reconciliation",
+  "range": [
+    "pq-053",
+    "pq-054",
+    "pq-055",
+    "pq-056",
+    "pq-057",
+    "pq-058",
+    "pq-059",
+    "pq-060",
+    "pq-061",
+    "pq-062",
+    "pq-063",
+    "pq-064",
+    "pq-065",
+    "pq-066",
+    "pq-067",
+    "pq-068",
+    "pq-069",
+    "pq-070"
+  ],
+  "canonical_edge_count_before": 877,
+  "canonical_edge_count_after": 877,
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "findings": [
+    "PQ53-PQ66 were checked against the XV2 all-186 reward transcription and their typed reward coverage is already represented in the canonical forward store.",
+    "PQ67 is genuinely sparse at one canonical edge, but its sole typed basic reward is Super God Fist, which is already represented; no missing typed reward was established.",
+    "PQ68's Dragon Ball route and Angry Shout are represented; capsules are not promoted as typed database rewards.",
+    "PQ69's Headshot is represented; no additional typed basic reward was established.",
+    "PQ70's Emperor's Blast is represented; no additional typed basic reward was established.",
+    "Several Super Soul names in PQ53-PQ60 basic reward lists (including The Great Saiyaman is here!, Take care...of your mother..., and Killed all Earthlings!) are not currently present in the canonical 172-record Super Soul layer, so they were not manufactured as relationship endpoints. This is an endpoint-enumeration/reconciliation task, not evidence that the PQ relationship itself is missing.",
+    "Great Saiyaman Bandana 1/2 remain within the known generic accessory/component identity boundary; no inventory ID was invented."
+  ],
+  "negative_findings": [
+    "No duplicate relationship keys introduced.",
+    "No unsupported capsule/currency relationships introduced.",
+    "No cross-game Super Soul data introduced."
+  ],
+  "next_frontier": "Continue the sparse-PQ scan after PQ70, while separately advancing canonical Super Soul endpoint enumeration and the seven unresolved accessory identities."
+}
