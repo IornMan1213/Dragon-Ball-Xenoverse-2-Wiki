@@ -7,9 +7,21 @@
   "source_policy": "Only index a Super Soul when the current repository reward layer explicitly names it. Empty or missing PQ soul arrays are unresolved rather than negative claims.",
   "records": [
     {
+      "pq": 2,
+      "super_souls": [
+        "Flying Nimbus!!"
+      ]
+    },
+    {
       "pq": 5,
       "super_souls": [
         "Your death is imminent!"
+      ]
+    },
+    {
+      "pq": 6,
+      "super_souls": [
+        "You cocky little...!"
       ]
     },
     {
