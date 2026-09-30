@@ -7617,3 +7617,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added the Batch 721 audit.
 - [ ] Runtime/CI remains unverified.
 - [ ] Next: direct item-level mechanics research for the six priority records.
+
+
+### 2026-09-30 Batch 722 — Super Soul mechanics census provenance correction
+- [x] Corrected Batch 721's priority classification after re-reading canonical provenance.
+- [x] Removed Super Souls 138–142 from the active mechanics-enrichment queue because all five are explicitly rejected legacy/misidentification records.
+- [x] Preserved those five records as historical provenance; no replacement identity was invented.
+- [x] Active mechanics target is now Super Soul 034 only.
+- [x] Added the Batch 722 correction audit.
+- [ ] Runtime/CI remains unverified.
+- [ ] Next: direct item-level mechanics research for Super Soul 034.
