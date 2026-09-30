@@ -8155,5 +8155,8 @@
     "2026-09-28 audit correction: PQ30/PQ35/PQ93 Super Soul relationships were already present in the canonical forward relationship layer; this audit confirmed parity with the Super Soul acquisition index and did not promote duplicate relationships.",
     "2026-09-28 equipment reverse audit correction: verified_relationships contains 126 unique source-backed pq_rewards_equipment edges. The prior metadata value 127 was stale and has been corrected; no additional equipment edge is inferred from projection counts.",
     "PQ48 Kamekameha spelling is retained as source evidence; canonical relationship target resolves to existing skill Kamehameha."
+  ],
+  "research_notes": [
+    "2026-09-29 batch 701: promoted five previously sparse-PQ skill relationships after direct reward transcription verification: PQ20→Mystic Flash, PQ33→Death Psycho Bomb, PQ43→Change The Future, PQ67→Super God Fist, PQ81→Afterimage Strike. These are acquisition-source links only; reward probabilities and Ultimate Finish conditions remain unresolved."
   ]
 }
