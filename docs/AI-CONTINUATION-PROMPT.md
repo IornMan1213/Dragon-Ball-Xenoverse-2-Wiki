@@ -8318,3 +8318,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical mutations: 0; inferred fields: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** research direct item-level mechanics evidence for super-soul-034 only; do not resurrect the five rejected legacy identities without new identity evidence.
+
+
+### 2026-09-30 Batch 723 — Super Soul 036 mechanics enrichment
+- [x] Rechecked the active Super Soul mechanics frontier after Batch 722; Super Soul 034 remains unresolved because current external evidence establishes identity/PQ186 acquisition but does not establish a reliable item-level effect or Limit Burst.
+- [x] Enriched canonical super-soul-036 — “Buu's reached full power!” using explicit current Super Soul catalogue evidence: its all-attack boost applies when Ki is maxed, so the second effect is condition-based rather than a fixed timed duration.
+- [x] Updated docs/data/super-souls-record-layer.json with the condition-specific trigger/duration wording, provenance note, and 2026-09-30 verification date.
+- [x] Added docs/data/super-soul-036-mechanics-enrichment-2026-09-30-batch-723.json as the durable audit checkpoint.
+- [x] Preserved the existing 10% vs 20% Ki-recovery discrepancy instead of collapsing it; preserved unresolved stacking behavior and did not infer hidden timing.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: continue evidence-backed active Super Soul mechanics enrichment where direct catalogue/item evidence establishes a field; keep Super Soul 034 unresolved unless new direct item-level evidence appears, then resume broader mechanics/version/cross-domain enrichment.
