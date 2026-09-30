@@ -340,7 +340,7 @@
       "match_status": "matched"
     },
     {
-      "pq_record_id": "pqacc-032",
+      "pq_record_id": "pqacc-046",
       "name": "Toppo's Moustache",
       "pq": 114,
       "canonical_id": "acc-095",
@@ -349,8 +349,8 @@
     }
   ],
   "summary": {
-    "pq_records": 45,
-    "matched": 37,
+    "pq_records": 46,
+    "matched": 38,
     "unmatched_or_unresolved": 8,
     "note": "The 25 matched records are identity matches only. They do not promote reward conditions or drop rates to verified status."
   },
