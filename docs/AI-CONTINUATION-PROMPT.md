@@ -8446,3 +8446,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Canonical mutations: 1; inferred fields: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue residual Super Soul field audit, prioritizing non-categorical records with genuinely recoverable missing mechanics; keep unresolved fields explicit.
+
+### 2026-09-30 Batch 735 — Super Soul 047 mechanics recovery
+- [x] Continued the post-corruption canonical Super Soul field-integrity pass from Batch 734.
+- [x] Rechecked **super-soul-047 — “Kicking a Shadow Dragon in the head is not a wise thing to do!”** using current Super Soul catalogue evidence plus independent GameFAQs documentation.
+- [x] Recovered the previously unresolved **5% stamina-damage reduction**; current references also support the existing 5% all-damage reduction and 30% all-damage reduction below 10% Health.
+- [x] Updated `docs/data/super-souls-record-layer.json` only for supported fields: effect magnitude, provenance/version note, verification state, verification date, and evidence sources.
+- [x] Added `docs/data/super-soul-047-mechanics-enrichment-2026-09-30-batch-735.json` as the durable evidence audit.
+- [x] Added Batch 735 to `docs/TODO-EXHAUSTIVE.md`; completed history was preserved.
+- [ ] Runtime/CI remains intentionally unverified because connected diagnostics do not expose the failing job-step details.
+- [ ] No canonical record was reconstructed from verified/index/reverse/projection data.
+- [ ] **Exact next:** continue the post-recovery Super Soul field-integrity census for genuinely recoverable gaps; preserve unresolved mechanics rather than inferring them. After the Super Soul integrity frontier is exhausted, resume the highest-priority cross-domain recovery/enrichment frontier.
