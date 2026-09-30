@@ -8367,3 +8367,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the actual Ki Blast types (`Homing` for 015, `Paralyze` for 016); no unsupported item effects were added.
 - [ ] Runtime/CI remains unverified.
 - [ ] Exact next: continue field-integrity audit for missing/shifted Limit Burst and Ki Blast fields, then return to mechanics enrichment.
+
+
+### 2026-09-30 Batch 728 — Super Soul 032 field-integrity correction
+- [x] Continued post-recovery field audit for missing Limit Burst data.
+- [x] Restored Super Soul 032 Limit Burst: `ATK Up! You've Got Super Armor! Ki Rec. SPD Down.`
+- [x] Preserved existing secondary trigger/magnitude evidence without upgrading it to canonical certainty.
+- [x] Kept Super Soul 034 completely unresolved for item-level mechanics/Limit Burst.
+- [x] Added `docs/data/super-soul-field-integrity-batch-728.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] Exact next: continue missing/shifted Limit Burst field audit.
