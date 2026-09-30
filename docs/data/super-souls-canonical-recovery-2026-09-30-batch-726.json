@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "batch_id": 726,
+  "status": "completed",
+  "type": "canonical_super_soul_record_recovery",
+  "scope": "Restore canonical records absent from the live Super Soul record layer despite contiguous surrounding IDs and independent catalogue evidence.",
+  "restored_records": [
+    {
+      "id": "super-soul-019",
+      "name": "I'll kill all of you!!",
+      "evidence": "Current Super Soul catalogue + historical GameFAQs guide identify Dodoria, PQ22, full-Ki Stamina recovery +10%, Homing Limit Burst."
+    },
+    {
+      "id": "super-soul-020",
+      "name": "H-How could he?!",
+      "evidence": "Current Super Soul catalogue + historical GameFAQs guide identify Zarbon, PQ12, always +5% Stamina recovery, Power Limit Burst."
+    },
+    {
+      "id": "super-soul-021",
+      "name": "Saiyans are a warrior race!!",
+      "evidence": "Current Super Soul catalogue + historical GameFAQs guide identify Vegeta, Item Shop, enemy-KO +5% Strike Skill damage, up to 10 stacks, Power Limit Burst."
+    },
+    {
+      "id": "super-soul-022",
+      "name": "Kieeeee!!",
+      "evidence": "Current Super Soul catalogue + historical GameFAQs guide identify Guldo, Item Shop, Charged Ki Blast hit applies Slow, Paralyze Limit Burst."
+    },
+    {
+      "id": "super-soul-023",
+      "name": "Your life is mine! Toh!",
+      "evidence": "Current Super Soul catalogue + historical GameFAQs guide identify Recoome, Item Shop, Reinforcement Skill trigger, +10% all attacks for 10 seconds, Bomb Limit Burst."
+    },
+    {
+      "id": "super-soul-050",
+      "name": "I'll use all my strength to kill you...",
+      "evidence": "Current Super Soul catalogue + GameFAQs guide identify Android 18, PQ29, always +5% Ki auto-recovery, full-Ki +10% normal attacks, Power Limit Burst; historical guide notes stacking with Human Ki Regeneration."
+    }
+  ],
+  "validation": {
+    "record_count_after_restore": 183,
+    "duplicate_ids": 0,
+    "contiguous_ids_001_177": true,
+    "canonical_source_policy": "Restored records use external catalogue evidence only to reconstruct missing canonical entries; derived/verified layers were not used as source of truth."
+  },
+  "next": "Continue canonical recovery audit for additional missing records or damaged fields before resuming mechanics enrichment."
+}
