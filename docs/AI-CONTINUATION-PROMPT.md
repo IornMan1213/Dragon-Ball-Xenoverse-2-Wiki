@@ -8377,3 +8377,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-soul-field-integrity-batch-728.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] Exact next: continue missing/shifted Limit Burst field audit.
+
+
+### 2026-09-30 Batch 729 — Skill source/repository reconciliation after recovery
+- [x] Reconciled the stale Ki Blast Super source/repository discrepancy for **Burst Stinger**.
+- [x] Confirmed the current canonical skill index contains the exact record **skill-burst-stinger**, classified as Super → Ki Blast, with PQ136 / "Breaking Down the Barrier" acquisition evidence.
+- [x] Confirmed the PQ reverse/cross-domain layers also resolve Burst Stinger → PQ136; no duplicate canonical skill or relationship was created.
+- [x] Updated `docs/data/skill-reconciliation-queue.json`: Burst Stinger is now closed; the remaining open skill issues are the Frieza Race source-vs-model membership discrepancy and Lovely Showtime's Ki-cost conflict.
+- [x] Updated `docs/data/source-drift-audit.json` to mark the Burst Stinger discrepancy resolved and preserve the Frieza Race discrepancy as unresolved rather than silently changing counts.
+- [x] Added `docs/data/skill-source-repository-reconciliation-2026-09-30-batch-729.json` as the durable recovery/enrichment audit.
+- [x] Canonical skill count remains **550**; no unsupported count inflation or duplicate record was introduced.
+- [ ] Runtime/CI remains intentionally unverified because connected GitHub diagnostics do not expose the failing job-step diagnostics.
+- [ ] **Exact next:** continue the post-recovery canonical field-integrity audit; then reconcile the remaining Frieza Race model-vs-source membership discrepancy and Lovely Showtime cost conflict with evidence before changing canonical values.
