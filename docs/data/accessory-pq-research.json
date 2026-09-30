@@ -381,6 +381,22 @@
       "alternate_routes": null,
       "source_conflicts": "A stale canonical accessory note previously attributed this accessory to PQ112; the maintained XV2 all-186 reward transcription explicitly lists it under PQ114.",
       "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-047",
+      "name": "Goku Wig (Ultra Instinct)",
+      "pq": 125,
+      "acquisition_condition": "PQ125 reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
+    },
+    {
+      "id": "pqacc-048",
+      "name": "Janemba Head",
+      "pq": 127,
+      "acquisition_condition": "PQ127 reward listing",
+      "alternate_routes": null,
+      "verification_status": "partially_verified"
     }
   ],
   "research_rules": [
