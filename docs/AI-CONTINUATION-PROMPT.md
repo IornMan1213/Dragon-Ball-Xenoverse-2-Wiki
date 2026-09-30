@@ -8097,3 +8097,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Corrected the Batch 702 audit in-place; canonical `docs/data/pq-reward-relationships.json` remains unchanged at **877** relationships.
 - [x] No unsupported cross-game Super Soul edges were added.
 - [ ] Next: continue sparse-PQ auditing with XV2-specific/canonical-oriented evidence only, and flag any other legacy-source contamination encountered.
+
+
+### 2026-09-29 continuation — Batch 704: PQ53-PQ70 typed-reward frontier reconciliation
+- [x] Audited PQ53 through PQ70 against the maintained XV2 all-186 reward transcription and the canonical forward relationship store.
+- [x] Confirmed the typed reward coverage already present for PQ53-PQ66 and PQ68-PQ70; no missing supported typed edges were established.
+- [x] Confirmed sparse PQ67 is already correctly represented by its sole typed basic reward, Super God Fist; sparse count is not evidence of missing data.
+- [x] Confirmed capsule/currency rewards are not promoted as typed reward relationships.
+- [x] Found several Super Soul strings in the PQ53-PQ60 source records that are not yet present in the 172-record canonical Super Soul layer (for example `The Great Saiyaman is here!`, `Take care...of your mother...`, and `Killed all Earthlings!`). These are **canonical Super Soul enumeration/reconciliation gaps**, not permission to invent relationship endpoints.
+- [x] Preserved the seven unresolved generic accessory/component identities; no inventory IDs were manufactured for Great Saiyaman Bandana 1/2.
+- [x] Added `docs/data/pq-typed-reward-frontier-reconciliation-2026-09-29-batch-704.json` and left canonical PQ relationships at **877** with no duplicates.
+- [ ] Next: continue the sparse-PQ scan after PQ70 using XV2-specific evidence, while separately advancing exact canonical Super Soul endpoint enumeration and the seven accessory identity gaps.
