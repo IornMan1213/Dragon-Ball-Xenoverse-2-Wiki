@@ -100,8 +100,32 @@
       ]
     },
     {
+      "pq": 47,
+      "super_souls": [
+        "A monster? No, I'm a devil!"
+      ]
+    },
+    {
       "pq": 49,
       "super_souls": []
+    },
+    {
+      "pq": 53,
+      "super_souls": [
+        "The Great Saiyaman is here!"
+      ]
+    },
+    {
+      "pq": 54,
+      "super_souls": [
+        "Take care... of your mother..."
+      ]
+    },
+    {
+      "pq": 58,
+      "super_souls": [
+        "Killed all Earthlings!"
+      ]
     },
     {
       "pq": 63,
@@ -119,6 +143,12 @@
       "pq": 65,
       "super_souls": [
         "I never knew this world existed!"
+      ]
+    },
+    {
+      "pq": 74,
+      "super_souls": [
+        "The gold represents the new me."
       ]
     },
     {
@@ -634,6 +664,7 @@
   "notes": [
     "Expanded from the legacy 041-186 partial index on 2026-09-27.",
     "All 134 unique canonical PQ Super Soul targets are represented; duplicate target acquisition relationships are preserved across multiple PQ rows.",
-    "This index does not infer missing rewards from absent rows; canonical pq-reward-relationships.json remains authoritative."
+    "This index does not infer missing rewards from absent rows; canonical pq-reward-relationships.json remains authoritative.",
+    "2026-09-30: synchronized five newly promoted canonical PQ Super Soul acquisition edges from the forward relationship layer."
   ]
 }
