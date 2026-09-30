@@ -6,9 +6,11 @@
     {
       "domain": "Lovely Showtime",
       "issue": "Published source pages disagree on Ki cost.",
-      "action": "Preserve both claims and resolve using higher-priority or independent evidence.",
+      "action": "Fresh Batch 736 recheck: compare the current skill-specific page (200 Ki), generic Ultimate Attack catalogue (300 Ki), repository Batch 308's 300-Ki historical research, and independent GameFAQs evidence. Preserve the conflict until direct game-data/item-level or independent numeric evidence resolves 200 vs 300.",
       "priority": "medium",
-      "status": "open"
+      "status": "open",
+      "last_rechecked": "2026-09-30",
+      "audit": "docs/data/lovely-showtime-ki-cost-reconciliation-2026-09-30-batch-736.json"
     }
   ],
   "completed": [
