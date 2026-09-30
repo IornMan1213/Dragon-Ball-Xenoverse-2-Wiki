@@ -1,6 +1,6 @@
 {
   "schema_version": "1.2",
-  "audit_date": "2026-09-27",
+  "audit_date": "2026-09-30",
   "domain": "pq_equipment",
   "canonical_relationship_source": "docs/data/pq-reward-relationships.json",
   "endpoint_sources": [
@@ -8,18 +8,19 @@
     "docs/data/equipment-record-layer.json"
   ],
   "canonical_edges": 125,
-  "unique_targets": 123,
-  "endpoint_identity_matches": 123,
+  "unique_targets": 125,
+  "endpoint_identity_matches": 125,
   "endpoint_identity_gaps": [],
-  "endpoint_records": 194,
+  "endpoint_records": 196,
   "status": "canonical_projection_complete_endpoint_enrichment_complete",
   "semantics": "Canonical PQ→equipment relationships remain authoritative. Endpoint record layers are incomplete projections; missing endpoint records are enrichment gaps, not negative reward claims.",
   "audit_note": "Derived directly from the current canonical PQ equipment crosslink projection; exact endpoint comparison is case-sensitive. Missing endpoint records are enrichment gaps, not negative reward claims.",
   "current_batch": {
-    "date": "2026-09-27",
-    "promoted_count": 48,
-    "promoted": "48 identity-only equipment records equip-053 through equip-100",
-    "promotion_basis": "Explicit source-backed canonical PQ equipment relationships; no stats, slots, drop rates, or unresolved component semantics inferred."
+    "date": "2026-09-30",
+    "batch": 719,
+    "promoted_count": 2,
+    "promoted": "Great Saiyaman Bandana 1/2 as acc-096/acc-097",
+    "promotion_basis": "Exact named accessory identity corroborated by independent equipment/acquisition sources and distinct external inventory IDs; no reward semantics inferred."
   },
   "validator_hardening_2026_09_27": {
     "status": "complete",

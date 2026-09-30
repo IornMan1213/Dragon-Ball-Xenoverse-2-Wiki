@@ -1,13 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-29",
-  "batch": "698",
+  "audit_date": "2026-09-30",
+  "batch": "719",
   "scope": "remaining accessory endpoint identity boundary",
   "source_of_truth": "Canonical accessory/equipment layers and canonical forward PQ relationships; unresolved research labels are not promoted by inference.",
-  "resolved_this_batch": [],
-  "preserved_unresolved": [
+  "resolved_this_batch": [
     "Great Saiyaman Bandana 1",
-    "Great Saiyaman Bandana 2",
+    "Great Saiyaman Bandana 2"
+  ],
+  "preserved_unresolved": [
     "Android 15's Sunglasses",
     "Gine (DB Super)'s Accessory",
     "Kale's Accessory",
@@ -18,7 +19,8 @@
     "Seven accessory research labels remain without exact canonical inventory IDs: Great Saiyaman Bandana 1, Great Saiyaman Bandana 2, Android 15's Sunglasses, Gine (DB Super)'s Accessory, Kale's Accessory, Caulifla's Accessory, and Android 17 (DB Super)'s Ranger Accessory.",
     "Repository search confirms the generic/component labels remain explicitly marked unresolved in the canonical bridge/remaining research layers.",
     "Yamcha's Sword remains a conflicted route rather than an identity gap: PQ29 is supported in the maintained PQ record while historical sources also associate PQ36, so no canonical accessory ID was invented.",
-    "No new canonical endpoint identity was safe to promote in this audit."
+    "No new canonical endpoint identity was safe to promote in this audit.",
+    "Batch 719 promoted the two Great Saiyaman bandana identities after independent exact-name/acquisition corroboration and distinct external inventory IDs 837/838. External IDs remain evidence only."
   ],
-  "next_action": "Require independent inventory-level evidence before assigning any of the seven unresolved labels to canonical accessory IDs."
+  "next_action": "Require independent inventory-level evidence before assigning the five remaining unresolved labels to canonical accessory IDs."
 }
