@@ -7420,3 +7420,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Explicitly did **not** convert the NPC-after-PQ19 King Kai clothing grant into a `pq_rewards_equipment` edge; it is a separate acquisition route.
 - [x] Added `docs/data/pq-typed-reward-frontier-reconciliation-2026-09-29-batch-702.json` documenting the evidence boundary and next frontier.
 - [ ] Next: reconcile the candidate Super Souls against the canonical Super Soul database and determine whether the listed PQ association is a direct reward, Ultimate-Finish reward, or merely an alternate acquisition reference before changing canonical PQ relationships.
+
+
+### 2026-09-29 continuation — Batch 703: cross-game Super Soul contamination correction
+- [x] Reconciled the Batch 702 candidate Super Souls against the canonical XV2 Super Soul layer and external evidence.
+- [x] Determined that the candidate set `*Silence* Ignored…`, `Papparapah! Barrier!`, `Who will surpass me?!`, `It's curtains for you`, and `I…I’m okay!` belongs to the original **Dragon Ball Xenoverse (2015)** Z-Soul/PQ data, not reliable XV2 reward data. GameSkinny and the original Xenoverse Z-Soul index reproduce the same PQ31/PQ32/etc. reward mappings, exposing the cross-game contamination.
+- [x] Confirmed the current XV2 canonical Super Soul layer does not contain those candidate names. The XV2 canonical record for `I'll never forgive you, scum!` is an Item Shop acquisition, so the secondary PQ claims were not promoted.
+- [x] Corrected the Batch 702 audit in-place; canonical `docs/data/pq-reward-relationships.json` remains unchanged at **877** relationships.
+- [x] No unsupported cross-game Super Soul edges were added.
+- [ ] Next: continue sparse-PQ auditing with XV2-specific/canonical-oriented evidence only, and flag any other legacy-source contamination encountered.
