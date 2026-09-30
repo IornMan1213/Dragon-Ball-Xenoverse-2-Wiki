@@ -5314,6 +5314,117 @@
       "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null
+    },
+    {
+      "id": "super-soul-179",
+      "name": "A monster? No, I'm a devil!",
+      "character_source": "Broly",
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 047",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "When the battle begins",
+      "effect_text": "Decreases damage taken from Strike Skills; restores Ki.",
+      "effect_magnitude": "-5% Strike damage taken; +100% Ki",
+      "duration": "While equipped; battle-start restoration is trigger-based",
+      "stacking_behavior": null,
+      "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Identity, PQ47 acquisition, and core effects reconciled against current XV2 Super Soul catalogue and independent historical player documentation. Exact drop condition/rate remains unresolved.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Broly",
+        "https://steamcommunity.com/app/454650/discussions/0/152393186491760646/"
+      ]
+    },
+    {
+      "id": "super-soul-180",
+      "name": "The Great Saiyaman is here!",
+      "character_source": "Great Saiyaman 1",
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 053",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "Ultimate Attack is activated (any)",
+      "effect_text": "Increases Strike Skill damage.",
+      "effect_magnitude": "+10%",
+      "duration": "15 seconds",
+      "stacking_behavior": null,
+      "limit_burst": "Power",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Identity and PQ53 acquisition reconciled against the current XV2 Super Soul catalogue and independent effect reference. Exact drop condition/rate remains unresolved.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Videl",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
+    },
+    {
+      "id": "super-soul-181",
+      "name": "Take care... of your mother...",
+      "character_source": "Prince of Destruction Vegeta",
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 054",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "Once only when KO'ed",
+      "effect_text": "Restores all allies' Health; fully restores all allies' Ki.",
+      "effect_magnitude": "+30% Health; +100% Ki",
+      "duration": "Trigger-based; once only",
+      "stacking_behavior": "Once only",
+      "limit_burst": "Bomb",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Identity and PQ54 acquisition reconciled against the current XV2 Super Soul catalogue, Prince of Destruction Vegeta character data, and an independent GameFAQs acquisition report. Exact drop condition/rate remains unresolved.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/444297-take-care-of-your-mother-super-soul"
+      ]
+    },
+    {
+      "id": "super-soul-182",
+      "name": "Killed all Earthlings!",
+      "character_source": "Super Buu",
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 058",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "Always",
+      "effect_text": "Boosts Charged Ki Blasts.",
+      "effect_magnitude": "+15%",
+      "duration": "While equipped",
+      "stacking_behavior": null,
+      "limit_burst": "Bomb",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Identity and PQ58 acquisition reconciled against the current XV2 Super Soul catalogue and Super Buu character data. Exact drop condition/rate remains unresolved.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-29",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Super_Buu"
+      ]
     }
   ],
   "research_notes": [
@@ -5329,7 +5440,8 @@
     "2026-09-19: promoted raid/event Super Soul batch 04 (036–039) with secondary acquisition/effect reconciliation; exact recurrence schedules and drop rates remain unresolved.",
     "2026-09-19: expanded raid/event coverage with records 040–043, including Cell, Hercule, Gohan (Adult), and Fused Zamasu raid reward families.",
     "2026-09-19: identified additional raid-exclusive Super Soul candidates 044–047 from raid reward catalog and community raid-exclusive index; mechanics remain partially verified pending item-level reconciliation.",
-    "2026-09-19: reconciled raid candidates 044–047 against item-level/community Super Soul catalogue evidence. 044, 045 and 046 now have verified core effects; 047 remains partially verified because the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved."
+    "2026-09-19: reconciled raid candidates 044–047 against item-level/community Super Soul catalogue evidence. 044, 045 and 046 now have verified core effects; 047 remains partially verified because the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved.",
+    "2026-09-29: promoted four previously enumerated PQ reward Super Souls (PQ47, PQ53, PQ54, PQ58) after current XV2 catalogue and independent acquisition/effect evidence reconciled; no cross-game Xenoverse-1 records were promoted."
   ],
   "sources": [
     {
