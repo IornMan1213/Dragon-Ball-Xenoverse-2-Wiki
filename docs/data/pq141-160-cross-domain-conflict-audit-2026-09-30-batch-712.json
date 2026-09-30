@@ -1,0 +1,47 @@
+{
+  "schema_version": "1.0.0",
+  "batch": "712",
+  "audit_date": "2026-09-30",
+  "scope": "PQ141-PQ160 cross-domain conflict audit",
+  "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+  "findings": [
+    {
+      "pq": 146,
+      "item": "Bardock (DB Super)'s Scouter",
+      "status": "research_route_preserved",
+      "note": "Accessory research and canonical accessory bridge retain a PQ146 association, but the all-186 basic reward listing does not include the scouter. It is therefore not promoted as a normal basic-reward equipment edge beyond the existing research-derived relationship."
+    },
+    {
+      "pq": 150,
+      "item": "Android 17 (DB Super)'s Ranger Outfit / Wig",
+      "status": "route_conflict",
+      "note": "PQ150 reward normalization lists the items, while canonical equipment/accessory acquisition layers identify the Ranger Outfit and Wig at PQ152. Canonical-first policy prevents silently moving or duplicating the canonical acquisition route."
+    },
+    {
+      "pq": 152,
+      "item": "Android 17 (DB Super) Wig / Ranger Wig",
+      "status": "identity_conflict",
+      "note": "The canonical accessory reconciliation has accr-029 for Android 17 (DB Super) Wig, while the newer endpoint layer has acc-077 for Android 17 (DB Super) Ranger Wig. Existing canonicalization audit explicitly treats these as distinct until inventory-level evidence resolves them."
+    },
+    {
+      "pq": 155,
+      "item": "Gamma 2 Helmet / Gamma 2's Helmet",
+      "status": "identity_conflict",
+      "note": "The endpoint layer contains acc-079 Gamma 2 Helmet while the canonical accessory bridge resolves Gamma 2's Helmet to accr-031. No forced merge was made."
+    },
+    {
+      "pq": 159,
+      "item": "Dr. Hedo Hood",
+      "status": "reconciled",
+      "note": "Explicit reward and canonical accessory endpoint agree on PQ159."
+    },
+    {
+      "pq": 160,
+      "item": "Red Ribbon Army Helmet",
+      "status": "reconciled",
+      "note": "Explicit reward and canonical accessory endpoint agree on PQ160."
+    }
+  ],
+  "mutation_policy": "No canonical identity was invented or merged in this batch. Existing conflicts remain explicitly represented for later inventory-level reconciliation.",
+  "canonical_forward_edge_count": 879
+}
