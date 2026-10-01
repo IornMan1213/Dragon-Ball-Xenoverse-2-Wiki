@@ -1093,14 +1093,19 @@
       "skill_rewards": [
         "Chain Destructo-disc Barrage"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Android 16's Clothes"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 740 recovery: named basic reward set restored from maintained PQ research; Android 16's Clothes remains a named reward without a fabricated canonical equipment endpoint."
     },
     {
       "id": "pq-047",
@@ -1125,14 +1130,21 @@
         "Broly's Clothes"
       ],
       "skill_rewards": [],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "equipment_rewards": [
+        "Broly's Clothes"
+      ],
+      "super_soul_rewards": [
+        "A monster? No, I'm a devil!"
+      ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 740 recovery: named basic reward set and typed equipment/Super Soul restored from maintained PQ research; exact drop mechanics remain unresolved."
     },
     {
       "id": "pq-048",
@@ -1226,14 +1238,19 @@
       "skill_rewards": [
         "Explosive Buu Buu Punch"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Mr. Shape Up M"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 740 recovery: named basic reward set and typed equipment restored from maintained PQ research; exact drop mechanics remain unresolved."
     },
     {
       "id": "pq-051",
@@ -1259,13 +1276,17 @@
       "skill_rewards": [
         "Burst Rush"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Great Saiyaman Bandana 1"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "accessory_links": [
         {
@@ -1273,7 +1294,8 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Accessory PQ research identifies PQ51; exact reward condition remains unresolved."
         }
-      ]
+      ],
+      "notes": "Batch 740 recovery: named basic reward set and typed accessory/equipment reward restored from maintained PQ research; exact drop mechanics remain unresolved."
     },
     {
       "id": "pq-052",
@@ -1332,14 +1354,21 @@
       "skill_rewards": [
         "Justice Pose"
       ],
-      "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "equipment_rewards": [
+        "Great Saiyaman Bandana 2"
+      ],
+      "super_soul_rewards": [
+        "The Great Saiyaman is here!"
+      ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 740 recovery: named basic reward set and typed accessory/Super Soul rewards restored from maintained PQ research; exact drop mechanics remain unresolved."
     },
     {
       "id": "pq-054",
@@ -1367,13 +1396,18 @@
         "Victory Cannon"
       ],
       "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "super_soul_rewards": [
+        "Take care...of your mother..."
+      ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 740 recovery: named basic reward set and typed Super Soul restored from maintained PQ research; exact drop mechanics remain unresolved."
     },
     {
       "id": "pq-055",
@@ -1430,14 +1464,19 @@
       "skill_rewards": [
         "Stone Bullet"
       ],
-      "equipment_rewards": [],
+      "equipment_rewards": [
+        "Videl T-Shirt"
+      ],
       "super_soul_rewards": [],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 740 recovery: named basic reward set and typed equipment reward restored from maintained PQ research; exact drop mechanics remain unresolved."
     },
     {
       "id": "pq-057",
@@ -1505,13 +1544,18 @@
         "Vanishing Ball"
       ],
       "equipment_rewards": [],
-      "super_soul_rewards": [],
+      "super_soul_rewards": [
+        "Killed all Earthlings!"
+      ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 740 recovery: named basic reward set and typed Super Soul restored from maintained PQ research; exact drop mechanics remain unresolved."
     },
     {
       "id": "pq-059",
