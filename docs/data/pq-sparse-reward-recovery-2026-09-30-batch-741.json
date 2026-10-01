@@ -1,0 +1,41 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 741,
+  "date": "2026-09-30",
+  "type": "parallel_quest_sparse_reward_recovery",
+  "source_of_truth": "docs/data/parallel-quests-record-layer.json",
+  "canonical_mutations": 10,
+  "scope": [
+    "pq-067",
+    "pq-068",
+    "pq-069",
+    "pq-070",
+    "pq-071",
+    "pq-072",
+    "pq-073",
+    "pq-074",
+    "pq-075",
+    "pq-076"
+  ],
+  "evidence_sources": [
+    "docs/data/parallel-quest-research-batches/pq-batch-07.json",
+    "docs/data/parallel-quest-research-batches/pq-batch-08.json",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+    "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+    "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+  ],
+  "typed_endpoint_promotions": [
+    "PQ72 Jaco's State-of-the-Art Radio",
+    "PQ73 Tagoma's Scouter",
+    "PQ74 The gold represents the new me.",
+    "PQ76 SSGSS Goku Wig"
+  ],
+  "preserved_boundaries": [
+    "PQ69 Goku's Work Clothes, PQ70 I've come back from the dead..., PQ73 Qipao (CC), and PQ76 Whis Symbol Gi remain named rewards without fabricated canonical endpoints where the relationship layer does not establish them.",
+    "No reward probability or Ultimate-Finish-only status was inferred."
+  ],
+  "relationship_totals_unchanged": true,
+  "runtime_ci": "unverified",
+  "next": "Continue the remaining sparse PQ reward recovery census, then reconcile any newly recovered typed endpoints against canonical forward relationship stores without reconstructing canonical data from reverse/index/verified layers."
+}
