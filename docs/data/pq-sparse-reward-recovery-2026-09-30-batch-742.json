@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 742,
+  "date": "2026-09-30",
+  "type": "parallel_quest_sparse_reward_recovery",
+  "source_of_truth": "docs/data/parallel-quests-record-layer.json",
+  "canonical_mutations": 13,
+  "scope": [
+    "pq-086",
+    "pq-087",
+    "pq-088",
+    "pq-089",
+    "pq-090",
+    "pq-091",
+    "pq-092",
+    "pq-093",
+    "pq-094",
+    "pq-095",
+    "pq-096",
+    "pq-097",
+    "pq-098"
+  ],
+  "evidence_sources": [
+    "docs/data/parallel-quest-research-batches/pq-batch-09.json",
+    "docs/data/parallel-quest-research-batches/pq-batch-10.json",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+    "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+    "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+  ],
+  "typed_endpoint_promotions": [
+    "PQ87 Training Suit",
+    "PQ89 Videl's Clothes",
+    "PQ92 GT Goku's Gi + Everyone, lend me your energy!",
+    "PQ93 Pan's Bandanna + Pan's Clothes + two Super Souls",
+    "PQ94 Strengthen me, Shadow Dragons!",
+    "PQ95 Super 17's Clothes",
+    "PQ96 GT Vegeta's Jacket",
+    "PQ97 Yamcha's Baseball Hat + two Super Souls",
+    "PQ98 Lord Slug's Clothes"
+  ],
+  "boundaries": [
+    "No new relationship edge was created because the corresponding typed endpoints were already represented in the canonical PQ relationship layer.",
+    "No reward probability or Ultimate-Finish-only status was inferred."
+  ],
+  "relationship_totals_unchanged": true,
+  "runtime_ci": "unverified",
+  "next": "Recompute the remaining empty canonical reward-record census. PQ23 is a known intentional sparse boundary; investigate any remaining empty reward records only where maintained research contains explicit recoverable rewards, then reconcile typed endpoint parity."
+}
