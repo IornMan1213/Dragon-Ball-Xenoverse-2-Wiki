@@ -8038,3 +8038,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] External source checks corroborate several base-game identities and PQ routes, including Four-Star Dragon Ball Hat (PQ05), Chiaotzu's Hat (PQ09), Dore's Scouter (PQ27), Yamcha's Sword (PQ36), SSGSS Goku Wig (PQ76), SSGSS Vegeta Wig (PQ100), and Jaco's State-of-the-Art Radio (PQ72). No drop guarantees or mechanics were inferred from these checks. 
 - [ ] Runtime validator remains unverified.
 - [ ] **Exact next:** resolve the two Yamcha Baseball Hat records through inventory-level/source reconciliation, then research `Videl T-Shirt`; do not merge duplicate endpoint records or invent a new canonical identity without evidence.
+
+
+### 2026-10-01 continuation — Canonical reverse-projection rebuild after corruption recovery
+- [x] Re-read the live continuation/TODO state and verified the recovered canonical forward baseline before changing dependent data.
+- [x] Confirmed current canonical forward PQ relationship store is **901 rows** with zero duplicate `(pq, relationship, target)` keys.
+- [x] Rebuilt `docs/data/pq-cross-domain-reverse-index.json` directly from `docs/data/pq-reward-relationships.json`; no reverse-only record was promoted into canonical data.
+- [x] Current reverse projection unique-target counts are: **244 skills, 141 Super Souls, 144 equipment, 75 characters, 21 DLC, 0 farming** (625 unique targets total). These are projection counts, not canonical relationship counts.
+- [x] Refreshed `docs/data/live-canonical-recovery-baseline-2026-09-30.json` with the rebuild checkpoint and current next frontier.
+- [x] Preserved the source-of-truth rule: canonical forward datasets remain authoritative; indexes, verified layers, reverse projections, and historical manifests are consumers/evidence only.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** audit the remaining stale dependent manifests/status artifacts against the current canonical SHAs/counts, then continue source-backed sparse PQ/equipment/Super Soul/mechanics enrichment. Do not reconstruct canonical records from reverse projections.
