@@ -1,0 +1,39 @@
+{
+  "batch": "745",
+  "date": "2026-09-30",
+  "title": "PQ typed reward classification correction",
+  "source_of_truth": [
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/super-souls-record-layer.json"
+  ],
+  "corrections": [
+    {
+      "pq": "pq-164",
+      "field": "super_soul_rewards",
+      "before": "This place Will be your grave!",
+      "after": "This place will be your grave!",
+      "basis": "Canonical Super Soul endpoint exists with lowercase 'will'; the forward PQ reward used a source-text capitalization variant. The existing canonical PQ relationship already targets the lowercase endpoint."
+    },
+    {
+      "pq": "pq-176",
+      "field": "super_soul_rewards",
+      "before": [
+        "God of Destruction's Might"
+      ],
+      "after": [],
+      "basis": "God of Destruction's Might is a canonical skill endpoint and is already represented in pq-176 skill_rewards. It was not retained as a Super Soul merely because the same string appeared in the general reward list."
+    }
+  ],
+  "validation_intent": [
+    "No new relationship edge was inferred.",
+    "No drop probability, guarantee, or Ultimate-Finish-only status was inferred.",
+    "Canonical forward PQ data remains authoritative over reverse indexes and verified/index projections."
+  ],
+  "resulting_boundary": [
+    "The remaining PQ Super Soul forward mismatches are endpoint-inventory gaps for named rewards Take care...of your mother... and I will defeat you!; they remain unresolved because no canonical endpoint was established.",
+    "PQ164 is no longer a spelling-only forward parity mismatch.",
+    "PQ176 no longer has a cross-domain type collision between skill_rewards and super_soul_rewards."
+  ],
+  "runtime_ci": "unverified"
+}
