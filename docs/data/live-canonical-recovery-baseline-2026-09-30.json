@@ -28,7 +28,7 @@
         "farming": 7
       },
       "duplicate_keys": 0,
-      "last_reconciled_commit": "953faa3d185ea91a09b4318051f20b52a7f8a5af"
+      "last_reconciled_commit": "bd2067d6870d87231efa0282b9e7a105b23f1a33"
     },
     "parallel_quests": {
       "path": "docs/data/parallel-quests-record-layer.json",
@@ -39,6 +39,19 @@
       "path": "docs/data/equipment-accessories-record-layer.json",
       "records": 97,
       "blob_sha": "8cbd09e590e37daad38ce8231e141348e8655272"
+    },
+    "equipment_records": {
+      "path": "docs/data/equipment-record-layer.json",
+      "records": 115,
+      "blob_sha": "61367e442be92030ca2031f8c7bbe9e33d508b64"
+    },
+    "pq_reverse_projection": {
+      "path": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+      "blob_sha": "280224ee23a03f657ef5e554832cfd0ab75a5c84"
+    },
+    "skill_pq_reverse": {
+      "path": "docs/data/skill-pq-reverse-index-2026-09-26.json",
+      "blob_sha": ""
     }
   },
   "reconciliation": {
@@ -47,13 +60,13 @@
     "pq_duplicate_keys": 0,
     "skill_index_parity": "skills-index contains 550 records; canonical skills source is recorded at 550 for this live baseline and must remain the authority.",
     "historical_manifests": "Older 549/862/877 snapshots remain provenance only and are not current baselines.",
-    "baseline_refresh": "2026-09-30: pq_rewards blob SHA refreshed after canonical metadata reconciliation."
+    "baseline_refresh": "2026-10-01: refreshed equipment, accessory, PQ reverse-projection, and canonical PQ relationship references after recovery/enrichment commits."
   },
   "next_frontier": [
-    "Run the hardened canonical recovery validator in a checkout and reconcile any actual failures.",
-    "Reconcile downstream PQ reverse indexes/projections from canonical forward stores without using them as sources of truth.",
-    "Continue source-backed PQ↔skill/Super Soul/equipment enrichment and audit unresolved accessory/component identities.",
-    "Refresh stale current-count metadata in dependent audit artifacts only after comparing them with canonical files."
+    "Run the hardened canonical recovery validator in a checkout; runtime remains non-blocking if CI/billing prevents execution.",
+    "Audit stale dependent manifests and cross-domain index references against current canonical SHAs/counts.",
+    "Continue source-backed enrichment of canonical equipment/accessory endpoint records and unresolved mechanics fields.",
+    "Rebuild downstream consumer projections only from canonical forward datasets; never promote reverse-only data into canonical records."
   ],
   "runtime_ci": "unverified_non_blocking"
 }
