@@ -1,0 +1,38 @@
+{
+  "batch": "746",
+  "date": "2026-09-30",
+  "title": "PQ accessory cross-domain enrichment",
+  "source_of_truth": [
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/accessory-pq-canonical-bridge.json",
+    "docs/data/equipment-accessories-record-layer.json"
+  ],
+  "changes": [
+    {
+      "pq": "pq-003",
+      "reward": "Piccolo's Turban",
+      "accessory_id": "accr-012"
+    },
+    {
+      "pq": "pq-051",
+      "reward": "Great Saiyaman Bandana 1",
+      "accessory_id": "acc-096"
+    },
+    {
+      "pq": "pq-053",
+      "reward": "Great Saiyaman Bandana 2",
+      "accessory_id": "acc-097"
+    },
+    {
+      "pq": "pq-063",
+      "reward": "Goku Wig (Super Saiyan)",
+      "accessory_id": "accr-015"
+    }
+  ],
+  "rules": [
+    "Links were added only where the canonical accessory-PQ bridge has an explicit matched identity.",
+    "No reward probability, guaranteed-drop status, or Ultimate-Finish condition was inferred.",
+    "Existing route conflicts remain documented rather than overwritten."
+  ],
+  "runtime_ci": "unverified"
+}
