@@ -8516,3 +8516,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No duplicate canonical relationship edges were introduced.
 - [ ] Runtime/CI remains intentionally unverified.
 - [ ] **Exact next:** recompute the remaining empty canonical reward-record census; PQ23 remains a known intentional sparse boundary, while other empty records should be investigated only where explicit maintained research supports recovery. Canonical forward datasets remain authoritative.
+
+
+### 2026-09-30 Batch 743 — PQ typed reward relationship reconciliation
+- [x] Corrected the canonical PQ57 relationship: Rakshasa's Claw is now equipment, not a skill; relationship total remains 877 with skill/equipment counts rebalanced to 248/147.
+- [x] Restored the missing canonical PQ46 → Chain Destructo-Disc Barrage skill edge using the canonical skill identity.
+- [x] Added durable audit docs/data/pq-typed-reward-relationship-reconciliation-2026-09-30-batch-743.json.
+- [x] Preserved unresolved named PQ rewards where no canonical endpoint exists; no reverse/index-only inference was used.
+- [ ] Runtime/CI remains intentionally unverified.
+- [ ] **Exact next:** run a fresh PQ typed-reward parity census and promote only source-backed missing edges with established canonical endpoints; canonical forward datasets remain authoritative.
