@@ -1,0 +1,28 @@
+{
+  "batch": "749",
+  "date": "2026-09-30",
+  "title": "PQ DLC requirement relationship parity repair",
+  "source_of_truth": [
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/pq-reward-relationships.json"
+  ],
+  "changes": {
+    "added_count": 20,
+    "pqs": "pq-101 through pq-120",
+    "target": "Super Pass",
+    "basis": "Each forward PQ record explicitly declares dlc_requirement = Super Pass."
+  },
+  "rules": [
+    "Relationships were added only where the canonical forward PQ record explicitly declared the DLC requirement.",
+    "No DLC ownership, release chronology, or additional entitlement was inferred.",
+    "Existing relationship keys were checked before insertion."
+  ],
+  "validation": {
+    "relationship_total_before": 879,
+    "relationship_total_after": 899,
+    "pq_requires_dlc_after": 106,
+    "expected_missing_forward_dlc_edges": 0,
+    "duplicate_relationship_keys": 0
+  },
+  "runtime_ci": "unverified"
+}
