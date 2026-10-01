@@ -60,12 +60,30 @@
     "pq_duplicate_keys": 0,
     "skill_index_parity": "skills-index contains 550 records; canonical skills source is recorded at 550 for this live baseline and must remain the authority.",
     "historical_manifests": "Older 549/862/877 snapshots remain provenance only and are not current baselines.",
-    "baseline_refresh": "2026-10-01: refreshed equipment, accessory, PQ reverse-projection, and canonical PQ relationship references after recovery/enrichment commits."
+    "baseline_refresh": "2026-10-01: refreshed equipment, accessory, PQ reverse-projection, and canonical PQ relationship references after recovery/enrichment commits.",
+    "reverse_projection_rebuild": {
+      "date": "2026-10-01",
+      "output": "docs/data/pq-cross-domain-reverse-index.json",
+      "source": "docs/data/pq-reward-relationships.json",
+      "canonical_relationship_rows": 901,
+      "unique_targets": {
+        "skills": 244,
+        "super_souls": 141,
+        "equipment": 144,
+        "characters": 75,
+        "dlc": 21,
+        "farming": 0
+      },
+      "total_unique_targets": 625,
+      "commit": "92cb1d9bc974b70cc6e24926b88292dd08b25b48",
+      "policy": "Consumer projection rebuilt only from canonical forward relationships; reverse projection remains non-authoritative."
+    }
   },
   "next_frontier": [
     "Run the hardened canonical recovery validator in a checkout; runtime remains non-blocking if CI/billing prevents execution.",
-    "Audit stale dependent manifests and cross-domain index references against current canonical SHAs/counts.",
-    "Continue source-backed enrichment of canonical equipment/accessory endpoint records and unresolved mechanics fields.",
+    "Audit remaining stale dependent manifests and cross-domain status artifacts against current canonical SHAs/counts.",
+    "Continue source-backed enrichment of canonical equipment/accessory and unresolved mechanics fields.",
+    "Continue sparse PQ reward/skill/Super Soul enrichment only from direct maintained research plus independent corroboration.",
     "Rebuild downstream consumer projections only from canonical forward datasets; never promote reverse-only data into canonical records."
   ],
   "runtime_ci": "unverified_non_blocking"
