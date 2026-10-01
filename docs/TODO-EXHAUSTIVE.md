@@ -7966,3 +7966,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] External research checked Rakshasa's Claw and confirms it is a Strike Super Attack obtained from PQ57; this does not override the canonical forward store's current equipment classification, so it remains unresolved pending an explicit canonical equipment-layer identity.
 - [ ] Runtime validator execution remains unverified.
 - [ ] **Next:** resolve the five remaining equipment target identities from explicit canonical/source-backed evidence, especially the PQ57 Rakshasa's Claw classification discrepancy, then run a full unified reverse-index parity audit and continue cross-domain enrichment.
+
+
+### 2026-09-30 continuation — PQ57 Rakshasa's Claw recovery correction
+- [x] Fresh canonical census exposed a concrete recovery classification error: PQ57's canonical record and forward relationship layer classified **Rakshasa's Claw** as equipment even though the canonical skill dataset already contains the exact endpoint `skill-rakshasa-s-claw`, and independent XV2-specific sources identify it as a Strike Super Attack obtained from PQ57. citeturn1search1turn1search5turn1search0
+- [x] Corrected canonical `docs/data/parallel-quests-record-layer.json`: PQ57 now lists Rakshasa's Claw under `skill_rewards` and only Gogeta's Clothes under `equipment_rewards`.
+- [x] Corrected canonical `docs/data/pq-reward-relationships.json`: the PQ57/Rakshasa's Claw relationship is now `pq_rewards_skill` rather than `pq_rewards_equipment`; total remains **899**, with **249 skill / 143 Super Soul / 147 equipment / 247 character / 106 DLC / 7 farming**.
+- [x] Rebuilt the affected unified PQ reverse projection and skill→PQ reverse projection from the corrected canonical forward layer; PQ57 now resolves to `skill-rakshasa-s-claw` in the skill projection.
+- [x] Added `docs/data/pq057-rakshasas-claw-recovery-correction-2026-09-30.json` and refreshed the live recovery baseline plus equipment subtype parity audit.
+- [x] No drop probability, guarantee, or Ultimate-Finish-only mechanic was inferred.
+- [ ] Runtime validator/CI remains unverified.
+- [ ] **Exact next:** run a fresh canonical forward/reverse parity census after this correction; then continue the next source-backed recovery/enrichment frontier, prioritizing any remaining canonical-first cross-domain gaps and stale derived metadata. Do not reconstruct canonical data from reverse indexes.
