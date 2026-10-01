@@ -1085,7 +1085,11 @@
         "Android 18",
         "Cell"
       ],
-      "rewards": [],
+      "rewards": [
+        "2090 Zeni",
+        "Android 16's Clothes",
+        "Chain Destructo-Disc Barrage"
+      ],
       "skill_rewards": [
         "Chain Destructo-disc Barrage"
       ],
@@ -1114,7 +1118,12 @@
         "Majin Buu",
         "Vegeta"
       ],
-      "rewards": [],
+      "rewards": [
+        "2140 Zeni",
+        "All-Aura Shard",
+        "A monster? No, I'm a devil!",
+        "Broly's Clothes"
+      ],
       "skill_rewards": [],
       "equipment_rewards": [],
       "super_soul_rewards": [],
@@ -1141,7 +1150,12 @@
         "Goten",
         "Trunks"
       ],
-      "rewards": [],
+      "rewards": [
+        "2160 Zeni",
+        "Small Mix Capsule",
+        "Med. Mix Capsule",
+        "Kamekameha"
+      ],
       "skill_rewards": [
         "Kamehameha"
       ],
@@ -1204,7 +1218,11 @@
         "Super Buu",
         "Majin Buu (children)"
       ],
-      "rewards": [],
+      "rewards": [
+        "2220 Zeni",
+        "Mr. Shape Up M",
+        "Explosive Buu Buu Punch"
+      ],
       "skill_rewards": [
         "Explosive Buu Buu Punch"
       ],
@@ -1233,7 +1251,11 @@
         "Great Saiyaman",
         "Frieza"
       ],
-      "rewards": [],
+      "rewards": [
+        "2250 Zeni",
+        "Great Saiyaman Bandana 1",
+        "Burst Rush"
+      ],
       "skill_rewards": [
         "Burst Rush"
       ],
@@ -1269,7 +1291,11 @@
         "Goku",
         "Gotenks"
       ],
-      "rewards": [],
+      "rewards": [
+        "2280 Zeni",
+        "Aura Capsule M",
+        "Final Cannon"
+      ],
       "skill_rewards": [
         "Final Cannon"
       ],
@@ -1297,7 +1323,12 @@
         "Saibamen",
         "Majin Buu"
       ],
-      "rewards": [],
+      "rewards": [
+        "2290 Zeni",
+        "Great Saiyaman Bandana 2",
+        "The Great Saiyaman is here!",
+        "Justice Pose"
+      ],
       "skill_rewards": [
         "Justice Pose"
       ],
@@ -1325,7 +1356,13 @@
         "Hercule",
         "Majin Buu"
       ],
-      "rewards": [],
+      "rewards": [
+        "2340 Zeni",
+        "All-Energy Shard",
+        "All-Guard Shard",
+        "Take care...of your mother...",
+        "Victory Cannon"
+      ],
       "skill_rewards": [
         "Victory Cannon"
       ],
@@ -1353,7 +1390,11 @@
         "Gotenks",
         "Super Buu"
       ],
-      "rewards": [],
+      "rewards": [
+        "2380 Zeni",
+        "Energy Capsule M",
+        "Super Donut Volley"
+      ],
       "skill_rewards": [
         "Super Donut Volley"
       ],
@@ -1380,7 +1421,12 @@
       "enemies": [
         "Hercule"
       ],
-      "rewards": [],
+      "rewards": [
+        "2450 Zeni",
+        "Aura Crystal",
+        "Videl T-Shirt",
+        "Stone Bullet"
+      ],
       "skill_rewards": [
         "Stone Bullet"
       ],
@@ -1448,7 +1494,13 @@
         "Majin Buu",
         "Hercule"
       ],
-      "rewards": [],
+      "rewards": [
+        "2570 Zeni",
+        "All-Aura Shard",
+        "Aura Crystal",
+        "Killed all Earthlings!",
+        "Vanishing Ball"
+      ],
       "skill_rewards": [
         "Vanishing Ball"
       ],
