@@ -1,15 +1,15 @@
 {
   "schema_version": "2.0",
   "generated_by": "scripts/validate_pq_skill_links.py",
-  "generated_at": "2026-09-28",
+  "generated_at": "2026-10-01",
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_skill_dataset": "docs/data/skills.json",
-  "canonical_skill_records": 497,
-  "linked_skill_rewards": 248,
+  "canonical_skill_records": 550,
+  "linked_skill_rewards": 249,
   "alias_matches": [],
   "unresolved": [],
-  "status": "reconciled_against_canonical_pq_forward_classification",
-  "unique_forward_relationships": 248,
+  "status": "reconciled_against_current_canonical_pq_forward_classification",
+  "unique_forward_relationships": 249,
   "resolved_skill_rewards": [
     {
       "pq": 2,
@@ -1495,9 +1495,24 @@
     },
     {
       "pq": 48,
-      "skill": "Kamekameha",
+      "skill": "Kamehameha",
       "canonical_skill": "Kamehameha",
-      "match": "documented_alias"
+      "match": "exact",
+      "notes": "Maintained PQ record historically spells the reward as 'Kamekameha'; canonical skill identity is Kamehameha. Historical spelling is retained in the relationship provenance."
+    },
+    {
+      "pq": 57,
+      "skill": "Rakshasa's Claw",
+      "canonical_skill": "Rakshasa's Claw",
+      "match": "exact",
+      "notes": "Independent skill evidence identifies Rakshasa's Claw as a Strike Super Attack obtained from PQ57; canonical skill endpoint exists as skill-rakshasa-s-claw."
     }
-  ]
+  ],
+  "current_reconciliation": {
+    "date": "2026-10-01",
+    "canonical_forward_skill_edges": 249,
+    "report_entries": 249,
+    "exact_count_parity": true,
+    "canonical_source_sha": "782920ad4514b0d73fc594320cc4eece2575a06f"
+  }
 }
