@@ -1514,10 +1514,11 @@
         "Gogeta's Clothes",
         "Rakshasa's Claw"
       ],
-      "skill_rewards": [],
-      "equipment_rewards": [
-        "Gogeta's Clothes",
+      "skill_rewards": [
         "Rakshasa's Claw"
+      ],
+      "equipment_rewards": [
+        "Gogeta's Clothes"
       ],
       "super_soul_rewards": [
         "I will defeat you!"
@@ -1528,7 +1529,7 @@
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ],
-      "notes": "Batch 739 recovery: restored basic rewards from the maintained all-186-PQ reward reference; no drop-rate inference. Corrected: Rakshasa's Claw is equipment, not a skill reward."
+      "notes": "Batch 739 recovery: restored basic rewards from the maintained all-186-PQ reward reference; no drop-rate inference. Corrected in recovery reconciliation: Rakshasa's Claw is a Strike Super Attack/skill reward, not equipment."
     },
     {
       "id": "pq-058",
