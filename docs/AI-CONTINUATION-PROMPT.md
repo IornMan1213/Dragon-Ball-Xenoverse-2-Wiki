@@ -8661,3 +8661,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No drop probability, guarantee, or Ultimate-Finish-only mechanic was inferred.
 - [ ] Runtime validator/CI remains unverified.
 - [ ] **Exact next:** run a fresh canonical forward/reverse parity census after this correction; then continue the next source-backed recovery/enrichment frontier, prioritizing any remaining canonical-first cross-domain gaps and stale derived metadata. Do not reconstruct canonical data from reverse indexes.
+
+
+### 2026-09-30 continuation — PQ equipment reward recovery after fresh parity census
+- [x] Fresh canonical parity census after the PQ57 correction found no missing skill relationships and identified two real equipment-reward gaps after resolving structured equipment objects against the canonical PQ/equipment layers: **PQ46 → Android 16's Clothes** and **PQ89 → Videl's Clothes**.
+- [x] Confirmed both are explicitly documented PQ clothing rewards in the maintained all-186 PQ guide; independent equipment evidence also identifies Android 16's Clothes with PQ46 and Videl's Clothes with PQ89.
+- [x] Restored both as canonical `pq_rewards_equipment` relationships in `docs/data/pq-reward-relationships.json`.
+- [x] Rebuilt the affected unified reverse projection and classified both as clothing; equipment subtype parity is now **149/149**.
+- [x] Added `docs/data/pq-equipment-reward-recovery-2026-09-30.json` and refreshed `docs/data/live-canonical-recovery-baseline-2026-09-30.json`.
+- [x] Current canonical PQ relationship total is **901**: **249 skill / 143 Super Soul / 149 equipment / 247 character / 106 DLC / 7 farming**; duplicate relationship keys remain 0 in the fresh census.
+- [ ] Runtime validator/CI remains unverified.
+- [ ] **Exact next:** perform a fresh full forward/reverse parity census against the 901-row canonical store, including Super Souls, DLC, characters, farming, skills, and equipment; repair only source-backed canonical gaps, then continue the highest-value recovery/enrichment frontier. Treat structured reward objects and subtype projections diagnostically and never promote reverse-only data into canonical records without independent evidence.
