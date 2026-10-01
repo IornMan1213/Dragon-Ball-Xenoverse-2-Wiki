@@ -8,11 +8,11 @@
   ],
   "canonical_edges": 149,
   "unique_targets": 144,
-  "endpoint_identity_matches": 141,
-  "endpoint_identity_gaps": 3,
+  "endpoint_identity_matches": 143,
+  "endpoint_identity_gaps": 1,
   "semantics": "Canonical PQ→equipment relationships remain authoritative. Endpoint record layers are incomplete projections; missing endpoint records are enrichment gaps, not negative reward claims.",
-  "status": "canonical_projection_current_endpoint_enrichment_in_progress",
-  "audit_note": "2026-10-01 reconciliation: synchronized this consumer projection to the 149 canonical PQ→equipment edges and 144 unique canonical targets. Current endpoint layers contain 141 exact identity matches; three canonical targets remain endpoint enrichment gaps (Android 13's Hat, Android 17 (DB Super) Wig, Videl T-Shirt). These gaps are not negative reward claims.",
+  "status": "canonical_projection_single_endpoint_gap",
+  "audit_note": "2026-10-01 reconciliation: 149 canonical PQ→equipment edges / 144 unique targets now have 143 endpoint identity resolutions when direct equipment records and explicit canonical accessory-bridge identities are both counted. One target remains an endpoint enrichment gap: Videl T-Shirt. This is not a negative reward claim.",
   "endpoint_records": 212,
   "current_reconciliation": {
     "date": "2026-10-01",
@@ -20,7 +20,8 @@
     "canonical_edges": 149,
     "unique_targets": 144,
     "endpoint_records": 212,
-    "exact_identity_matches": 141,
-    "identity_gaps": 3
+    "exact_identity_matches": 143,
+    "identity_gaps": 1,
+    "resolution_method": "direct equipment records plus explicit accessory-pq-canonical-bridge identities"
   }
 }
