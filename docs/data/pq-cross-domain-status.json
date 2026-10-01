@@ -1,7 +1,7 @@
 {
   "schema_version": "1.0",
   "scope": "PQ 1-186",
-  "status": "relationship_index_consistency_audited_after_recovery_2026_09_28",
+  "status": "relationship_index_consistency_audited_after_recovery_2026_10_01",
   "canonical_range": {
     "first": 1,
     "last": 186,
@@ -13,10 +13,10 @@
   "reverse_index_plan": "docs/data/pq-cross-domain-index.json",
   "current_edges": {
     "skill": 249,
-    "super_soul": 135,
-    "equipment": 136,
+    "super_soul": 143,
+    "equipment": 149,
     "character": 247,
-    "dlc": 88,
+    "dlc": 106,
     "farming": 7
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
@@ -285,5 +285,9 @@
       "date": "2026-09-28",
       "note": "Directly reconciled status metadata to docs/data/pq-reward-relationships.json after accessory canonical backlog synchronization: 862 total edges (249 skill, 135 Super Soul, 136 equipment, 247 character, 88 DLC, 7 farming)."
     }
-  ]
+  ],
+  "current_total_edges": 901,
+  "current_source_of_truth": "docs/data/pq-reward-relationships.json",
+  "current_source_blob_sha": "782920ad4514b0d73fc594320cc4eece2575a06f",
+  "latest_reconciliation_note": "2026-10-01: synchronized current live relationship counts after PQ57 skill correction, PQ46/PQ89 equipment recovery, and subsequent endpoint restoration. Historical entries below remain unchanged."
 }
