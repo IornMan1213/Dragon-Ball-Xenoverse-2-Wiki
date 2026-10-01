@@ -7,128 +7,12 @@
   "canonical_accessory_endpoints": 88,
   "unresolved_endpoint_names": [
     [
-      "pq-005",
-      "Four-Star Dragon Ball Hat"
-    ],
-    [
-      "pq-009",
-      "Chiaotzu's Hat (With Collar)"
-    ],
-    [
-      "pq-027",
-      "Dore's Scouter"
-    ],
-    [
-      "pq-036",
-      "Yamcha's Sword"
-    ],
-    [
-      "pq-045",
-      "Perfect Cell's Wings"
-    ],
-    [
-      "pq-066",
-      "SSGSS Goku Wig"
-    ],
-    [
       "pq-097",
       "Yamcha's Baseball Hat"
     ],
     [
-      "pq-100",
-      "SSGSS Vegeta Wig"
-    ],
-    [
-      "pq-114",
-      "Toppo's Moustache"
-    ],
-    [
-      "pq-125",
-      "Goku Wig (Ultra Instinct)"
-    ],
-    [
-      "pq-127",
-      "Janemba Head"
-    ],
-    [
-      "pq-132",
-      "Broly Wig (Legendary Super Saiyan)"
-    ],
-    [
-      "pq-133",
-      "Kakunsa's Tail"
-    ],
-    [
-      "pq-133",
-      "Kakunsa's Wig and Mask"
-    ],
-    [
-      "pq-135",
-      "Rozie's Hood and Goggles"
-    ],
-    [
-      "pq-139",
-      "Universe 7 Baseball Cap"
-    ],
-    [
-      "pq-147",
-      "Caulifla Wig"
-    ],
-    [
-      "pq-148",
-      "Kale Wig"
-    ],
-    [
-      "pq-149",
-      "Bulma (Kid) Wig"
-    ],
-    [
-      "pq-152",
-      "Android 17 (DB Super) Ranger Wig"
-    ],
-    [
-      "pq-155",
-      "Gamma 2 Helmet"
-    ],
-    [
-      "pq-183",
-      "Cheelai's Coat"
-    ],
-    [
-      "pq-051",
-      "Great Saiyaman Helmet"
-    ],
-    [
-      "pq-072",
-      "Jaco's State-of-the-Art Radio"
-    ],
-    [
-      "pq-073",
-      "Tagoma's Scouter"
-    ],
-    [
       "pq-097",
       "Yamcha Baseball Hat"
-    ],
-    [
-      "pq-104",
-      "Android 14's Hat"
-    ],
-    [
-      "pq-146",
-      "Bardock (DB Super)'s Scouter"
-    ],
-    [
-      "pq-076",
-      "SSGSS Goku Wig"
-    ],
-    [
-      "pq-051",
-      "Great Saiyaman Bandana 1"
-    ],
-    [
-      "pq-053",
-      "Great Saiyaman Bandana 2"
     ],
     [
       "pq-056",
@@ -227,6 +111,70 @@
     [
       "pq-093",
       "Pan's Bandanna → accr-013"
+    ],
+    [
+      "pq-005",
+      "Four-Star Dragon Ball Hat → acc-061"
+    ],
+    [
+      "pq-009",
+      "Chiaotzu's Hat (With Collar) → acc-062"
+    ],
+    [
+      "pq-027",
+      "Dore's Scouter → acc-063"
+    ],
+    [
+      "pq-036",
+      "Yamcha's Sword → acc-028"
+    ],
+    [
+      "pq-076",
+      "SSGSS Goku Wig → acc-066"
+    ],
+    [
+      "pq-100",
+      "SSGSS Vegeta Wig → acc-068"
+    ],
+    [
+      "pq-114",
+      "Toppo's Moustache → acc-095"
+    ],
+    [
+      "pq-125",
+      "Goku Wig (Ultra Instinct) → acc-051"
+    ],
+    [
+      "pq-127",
+      "Janemba Head → acc-052"
+    ],
+    [
+      "pq-051",
+      "Great Saiyaman Helmet → acc-005"
+    ],
+    [
+      "pq-072",
+      "Jaco's State-of-the-Art Radio → acc-064"
+    ],
+    [
+      "pq-073",
+      "Tagoma's Scouter → acc-065"
+    ],
+    [
+      "pq-104",
+      "Android 14's Hat → acc-070"
+    ],
+    [
+      "pq-146",
+      "Bardock (DB Super)'s Scouter → acc-071"
+    ],
+    [
+      "pq-051",
+      "Great Saiyaman Bandana 1 → acc-096"
+    ],
+    [
+      "pq-053",
+      "Great Saiyaman Bandana 2 → acc-097"
     ]
   ],
   "restored_direct_equipment_endpoints": [
@@ -236,8 +184,8 @@
   ],
   "evidence_boundary": "Forward PQ equipment relationship identities are canonical and source-backed. Direct clothing endpoints resolve to canonical equipment records; accessory endpoints resolve only where an exact canonical accessory identity exists. The remaining unresolved names are retained as explicit research gaps; no accessory IDs are invented from names alone.",
   "status": "unresolved_identity_gaps",
-  "unresolved_count": 32,
-  "accessory_bridge_count": 23,
+  "unresolved_count": 3,
+  "accessory_bridge_count": 39,
   "restored_direct_equipment_count": 3,
-  "follow_up": "Continue individual evidence-backed reconciliation of the remaining unresolved names. Do not infer identities from reverse projections alone."
+  "follow_up": "Continue resolving remaining names. Yamcha Baseball Hat variants remain unresolved because the endpoint layer currently contains two same-named records; Videl T-Shirt remains without an existing canonical endpoint."
 }
