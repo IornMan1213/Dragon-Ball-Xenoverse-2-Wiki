@@ -6526,6 +6526,166 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "PQ57 basic reward explicitly lists the Super Soul; canonical endpoint restored from current XV2 Super Soul/Gogeta data. Exact drop condition remains separate."
+    },
+    {
+      "pq": "pq-101",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-102",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-103",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-104",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-105",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-106",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-107",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-108",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-109",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-110",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-111",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-112",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-113",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-114",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-115",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-116",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-117",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-118",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-119",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
+    },
+    {
+      "pq": "pq-120",
+      "relationship": "pq_requires_dlc",
+      "target": "Super Pass",
+      "status": "source_backed",
+      "source": "docs/data/parallel-quests-record-layer.json",
+      "notes": "Canonical forward PQ record explicitly declares this DLC requirement; relationship added for cross-database navigation without inferring ownership beyond the stated requirement."
     }
   ],
   "normalization_rules": [
