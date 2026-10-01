@@ -21,7 +21,7 @@
   },
   "note": "Character feature relationships are now populated from explicit canonical PQ objective/ultimate-finish character references with a small documented alias map. Generic enemy/appearance text was not used as attribution. Full 1-186 exhaustiveness still requires reconciliation of all populated fields and unresolved/conflict records.",
   "reconciliation_report": "docs/data/pq-cross-domain-reconciliation.json",
-  "next_gate": "Live canonical forward relationship store directly recounted 2026-09-28: 862 edges (249 skill, 135 Super Soul, 136 equipment, 247 character, 88 DLC, 7 farming). Historical projections remain provenance only.",
+  "next_gate": "Current canonical forward relationship store is 901 edges as of 2026-10-01. Dependent projections must be rebuilt only from this canonical store; continue source-backed enrichment after stale-manifest audit.",
   "provenance_reconciliation": {
     "source_backed_edge_only_cases_resolved": 88,
     "edge_only_cases_remaining_unresolved": 0,
@@ -32,10 +32,10 @@
   },
   "current_counts": {
     "skill": 249,
-    "super_soul": 135,
-    "equipment": 136,
+    "super_soul": 143,
+    "equipment": 149,
     "character": 247,
-    "dlc": 88,
+    "dlc": 106,
     "farming": 7
   },
   "coverage_audit": {
@@ -64,7 +64,7 @@
     "interpretation": "PQ 1-14 are not represented in the canonical reward batch directory used by this reconciliation. Do not claim canonical batch exhaustiveness for those four PQs; existing relationship evidence for other PQs remains independently sourced."
   },
   "final_consistency_checks": {
-    "total_edges": 840,
+    "total_edges": 901,
     "duplicates": 0,
     "invalid_pq_numbers": 0,
     "stale_count_fields": 0,
@@ -72,21 +72,14 @@
     "missing_typed_reward_PQs": [
       1
     ],
-    "pq_12_14_added": true,
     "pq_1_interpretation": "No typed skill/Super Soul/equipment reward listed in the cited Basic Reward source; no relationship fabricated.",
     "counts": {
-      "skill": 236,
-      "super_soul": 137,
-      "equipment": 125,
+      "skill": 249,
+      "super_soul": 143,
+      "equipment": 149,
       "character": 247,
-      "dlc": 88,
+      "dlc": 106,
       "farming": 7
-    },
-    "reverse_reward_counts": {
-      "skills": 236,
-      "super_souls": 137,
-      "clothing": 87,
-      "accessories": 38
     }
   },
   "non_reward_audit": {
@@ -113,30 +106,23 @@
     "conclusion": "No duplicate non-reward edges found; no evidence reviewed in this tranche justified adding inferred character, DLC, or farming edges."
   },
   "integrity_review": {
-    "date": "2026-09-28",
-    "scope": "repository-wide relationship/source integrity review",
+    "date": "2026-10-01",
+    "scope": "current canonical relationship/reverse-projection reconciliation",
     "checks": {
-      "total_edges": 853,
+      "total_edges": 901,
       "counts": {
         "pq_rewards_skill": 249,
-        "pq_rewards_super_soul": 135,
-        "pq_rewards_equipment": 127,
+        "pq_rewards_super_soul": 143,
+        "pq_rewards_equipment": 149,
         "pq_features_character": 247,
-        "pq_requires_dlc": 88,
+        "pq_requires_dlc": 106,
         "pq_farming_route": 7
       },
       "duplicate_edges": 0,
       "invalid_pq_numbers": 0,
-      "missing_source_or_non_source_backed": 0,
-      "reverse_reward_counts": {
-        "skills": 236,
-        "super_souls": 137,
-        "clothing": 87,
-        "accessories": 38
-      },
+      "source_policy": "Canonical forward relationship store is authoritative; reverse indexes and projections are consumers only.",
       "status": "clean"
-    },
-    "status": "clean"
+    }
   },
   "schema_documentation_consumer_review": {
     "date": "2026-09-19",
@@ -289,5 +275,22 @@
   "current_total_edges": 901,
   "current_source_of_truth": "docs/data/pq-reward-relationships.json",
   "current_source_blob_sha": "782920ad4514b0d73fc594320cc4eece2575a06f",
-  "latest_reconciliation_note": "2026-10-01: synchronized current live relationship counts after PQ57 skill correction, PQ46/PQ89 equipment recovery, and subsequent endpoint restoration. Historical entries below remain unchanged."
+  "latest_reconciliation_note": "2026-10-01: synchronized current live relationship counts to the canonical forward store at 901 edges and rebuilt the PQ cross-domain reverse projection from that source.",
+  "current_projection_reconciliation": {
+    "date": "2026-10-01",
+    "reverse_projection": "docs/data/pq-cross-domain-reverse-index.json",
+    "canonical_source_blob_sha": "782920ad4514b0d73fc594320cc4eece2575a06f",
+    "canonical_relationship_rows": 901,
+    "reverse_unique_targets": {
+      "skills": 244,
+      "super_souls": 141,
+      "equipment": 144,
+      "characters": 75,
+      "dlc": 21,
+      "farming": 0
+    },
+    "reverse_total_unique_targets": 625,
+    "rebuild_commit": "92cb1d9bc974b70cc6e24926b88292dd08b25b48",
+    "note": "The reverse projection was regenerated directly from the canonical forward relationship array. Its unique-target counts intentionally differ from canonical edge counts."
+  }
 }
