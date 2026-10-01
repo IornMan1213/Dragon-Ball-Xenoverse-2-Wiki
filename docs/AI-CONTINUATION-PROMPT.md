@@ -8598,3 +8598,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No duplicate relationship keys were introduced; no DLC ownership/release facts were inferred.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** rerun full PQ cross-domain parity (skills, Super Souls, equipment, accessories, DLC, characters) and identify the next forward-only gap.
+
+
+### 2026-09-30 continuation — Canonical recovery validator integrity hardening
+- [x] Inspected the live recovery validator against the post-corruption recovery contract and current canonical forward-store policy.
+- [x] Hardened skill→PQ reverse projection validation: malformed entry containers, invalid PQ IDs, malformed/duplicate skill references, unknown canonical skill IDs, and duplicate reverse edges now fail explicitly rather than being silently skipped.
+- [x] Hardened canonical PQ reward relationship validation: require a valid PQ identity, non-empty target/source strings, known relationship type, unique (PQ, relationship, target) keys, and non-negative integer count values (booleans rejected).
+- [x] Added `docs/data/canonical-recovery-validator-integrity-audit-2026-09-30.json`.
+- [x] No canonical database records were mutated; recovery rules remain canonical-first and do not reconstruct from indexes, verified layers, or reverse projections.
+- [ ] Runtime execution and CI remain unverified; run the recovery validator in a checkout and fix only source-confirmed failures.
+- [ ] **Exact next:** perform a fresh live-main census of `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/pq-reward-relationships.json`, canonical PQ records, and equipment/Super Soul endpoint layers. Several dated recovery manifests expose older blob SHAs/counts than the current live files; do not copy stale counts forward. Recompute current counts and parity from canonical source files, update the current-live baseline/integrity manifest without changing canonical records, then continue source-backed PQ ↔ skill/Super Soul/equipment enrichment and the remaining seven accessory/component identity gaps. Preserve unresolved evidence and leave runtime/CI marked unverified unless actually run.
