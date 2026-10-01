@@ -1,0 +1,57 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "audit_type": "live_canonical_recovery_reconciliation",
+  "purpose": "Freeze a fresh post-corruption working baseline from live canonical forward data after reconciling stale embedded PQ relationship metadata.",
+  "source_policy": "Canonical forward datasets are authoritative. Consumer indexes, verified layers, reverse projections, and historical manifests cannot reconstruct surviving canonical records.",
+  "live_main": {
+    "canonical_skills": {
+      "path": "docs/data/skills.json",
+      "records": 550,
+      "blob_sha": "2503748d6c9522eb084d9363c49d485f12e9952b"
+    },
+    "skills_index": {
+      "path": "docs/data/skills-index.json",
+      "records": 550,
+      "blob_sha": "3dd496d64cacd81aed723f0f26be2e34e7a16284"
+    },
+    "pq_rewards": {
+      "path": "docs/data/pq-reward-relationships.json",
+      "relationships": 899,
+      "blob_sha": "5a125e35413393704a8b5e4be527355d980511f4",
+      "counts": {
+        "skill": 248,
+        "super_soul": 143,
+        "equipment": 148,
+        "character": 247,
+        "dlc": 106,
+        "farming": 7
+      },
+      "duplicate_keys": 0
+    },
+    "parallel_quests": {
+      "path": "docs/data/parallel-quests-record-layer.json",
+      "records": 186,
+      "blob_sha": "b48fe752608bfe4e86f959e8aca4859b3f6e2832"
+    },
+    "equipment_accessories": {
+      "path": "docs/data/equipment-accessories-record-layer.json",
+      "records": 97,
+      "blob_sha": "8cbd09e590e37daad38ce8231e141348e8655272"
+    }
+  },
+  "reconciliation": {
+    "canonical_pq_rows": "899 rows were counted directly from verified_relationships.",
+    "pq_counts": "Embedded current_counts previously reported 878 with mismatched keys; corrected to 248/143/148/247/106/7 = 899.",
+    "pq_duplicate_keys": 0,
+    "skill_index_parity": "skills-index contains 550 records; canonical skills source is recorded at 550 for this live baseline and must remain the authority.",
+    "historical_manifests": "Older 549/862/877 snapshots remain provenance only and are not current baselines."
+  },
+  "next_frontier": [
+    "Run the hardened canonical recovery validator in a checkout and reconcile any actual failures.",
+    "Reconcile downstream PQ reverse indexes/projections from canonical forward stores without using them as sources of truth.",
+    "Continue source-backed PQ↔skill/Super Soul/equipment enrichment and audit the remaining unresolved accessory/component identities.",
+    "Refresh stale current-count metadata in any dependent audit artifacts only after comparing them with canonical files."
+  ],
+  "runtime_ci": "unverified_non_blocking"
+}
