@@ -1,0 +1,31 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 743,
+  "date": "2026-09-30",
+  "type": "pq_typed_reward_relationship_reconciliation",
+  "source_of_truth": "docs/data/pq-reward-relationships.json",
+  "mutations": 2,
+  "changes": [
+    "Removed incorrect pq-057 -> Rakshasa's Claw pq_rewards_skill edge.",
+    "Added correct pq-057 -> Rakshasa's Claw pq_rewards_equipment edge.",
+    "Added missing pq-046 -> Chain Destructo-Disc Barrage pq_rewards_skill edge using the canonical skill identity."
+  ],
+  "relationship_counts": {
+    "pq_rewards_skill": 248,
+    "pq_rewards_super_soul": 142,
+    "pq_rewards_equipment": 147,
+    "pq_features_character": 247,
+    "pq_requires_dlc": 86,
+    "pq_farming_route": 7,
+    "total": 877
+  },
+  "duplicate_keys": 0,
+  "total_preserved": true,
+  "boundaries": [
+    "PQ57 I will defeat you! remains only a named PQ reward because no canonical Super Soul endpoint currently exists.",
+    "PQ46 source spelling and canonical skill identity are reconciled through the existing skill alias policy; no duplicate skill identity was created.",
+    "No relationship was inferred from reverse indexes alone."
+  ],
+  "runtime_ci": "unverified",
+  "next": "Run a fresh PQ typed-reward parity census against the canonical forward relationship layer, then promote only source-backed missing edges with established canonical endpoints."
+}
