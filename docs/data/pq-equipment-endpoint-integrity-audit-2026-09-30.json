@@ -1,0 +1,239 @@
+{
+  "schema_version": "1.2.0",
+  "audit_date": "2026-09-30",
+  "category": "pq_rewards_equipment_endpoint_integrity",
+  "forward_edges": 149,
+  "direct_equipment_endpoints": 115,
+  "canonical_accessory_endpoints": 88,
+  "unresolved_endpoint_names": [
+    [
+      "pq-005",
+      "Four-Star Dragon Ball Hat"
+    ],
+    [
+      "pq-009",
+      "Chiaotzu's Hat (With Collar)"
+    ],
+    [
+      "pq-025",
+      "Goku Wig"
+    ],
+    [
+      "pq-027",
+      "Dore's Scouter"
+    ],
+    [
+      "pq-036",
+      "Yamcha's Sword"
+    ],
+    [
+      "pq-045",
+      "Perfect Cell's Wings"
+    ],
+    [
+      "pq-066",
+      "SSGSS Goku Wig"
+    ],
+    [
+      "pq-093",
+      "Pan's Bandanna"
+    ],
+    [
+      "pq-097",
+      "Yamcha's Baseball Hat"
+    ],
+    [
+      "pq-100",
+      "SSGSS Vegeta Wig"
+    ],
+    [
+      "pq-114",
+      "Toppo's Moustache"
+    ],
+    [
+      "pq-125",
+      "Goku Wig (Ultra Instinct)"
+    ],
+    [
+      "pq-127",
+      "Janemba Head"
+    ],
+    [
+      "pq-132",
+      "Broly Wig (Legendary Super Saiyan)"
+    ],
+    [
+      "pq-133",
+      "Kakunsa's Tail"
+    ],
+    [
+      "pq-133",
+      "Kakunsa's Wig and Mask"
+    ],
+    [
+      "pq-135",
+      "Rozie's Hood and Goggles"
+    ],
+    [
+      "pq-139",
+      "Universe 7 Baseball Cap"
+    ],
+    [
+      "pq-147",
+      "Caulifla Wig"
+    ],
+    [
+      "pq-148",
+      "Kale Wig"
+    ],
+    [
+      "pq-149",
+      "Bulma (Kid) Wig"
+    ],
+    [
+      "pq-152",
+      "Android 17 (DB Super) Ranger Wig"
+    ],
+    [
+      "pq-155",
+      "Gamma 2 Helmet"
+    ],
+    [
+      "pq-183",
+      "Cheelai's Coat"
+    ],
+    [
+      "pq-051",
+      "Great Saiyaman Helmet"
+    ],
+    [
+      "pq-072",
+      "Jaco's State-of-the-Art Radio"
+    ],
+    [
+      "pq-073",
+      "Tagoma's Scouter"
+    ],
+    [
+      "pq-097",
+      "Yamcha Baseball Hat"
+    ],
+    [
+      "pq-104",
+      "Android 14's Hat"
+    ],
+    [
+      "pq-146",
+      "Bardock (DB Super)'s Scouter"
+    ],
+    [
+      "pq-076",
+      "SSGSS Goku Wig"
+    ],
+    [
+      "pq-051",
+      "Great Saiyaman Bandana 1"
+    ],
+    [
+      "pq-053",
+      "Great Saiyaman Bandana 2"
+    ],
+    [
+      "pq-056",
+      "Videl T-Shirt"
+    ]
+  ],
+  "accessory_bridge_endpoints": [
+    [
+      "pq-003",
+      "Piccolo's Turban"
+    ],
+    [
+      "pq-063",
+      "Goku Wig (Super Saiyan)"
+    ],
+    [
+      "pq-110",
+      "SS4 Wig & Tail (Goku)"
+    ],
+    [
+      "pq-111",
+      "Resistance Helmet"
+    ],
+    [
+      "pq-154",
+      "King Vegeta (DB Super) Wig"
+    ],
+    [
+      "pq-156",
+      "Gamma 1's Helmet"
+    ],
+    [
+      "pq-159",
+      "Dr. Hedo Hood"
+    ],
+    [
+      "pq-160",
+      "Red Ribbon Army Helmet"
+    ],
+    [
+      "pq-168",
+      "Videl (DB Super) Wig"
+    ],
+    [
+      "pq-179",
+      "SS4 Goku (DAIMA) Wig & Tail"
+    ],
+    [
+      "pq-180",
+      "SS3 Vegeta (DAIMA) Wig"
+    ],
+    [
+      "pq-181",
+      "Glorio Wig"
+    ],
+    [
+      "pq-181",
+      "Panzy Wig"
+    ],
+    [
+      "pq-182",
+      "Golden Frieza Head"
+    ],
+    [
+      "pq-183",
+      "Broly Wig (Black Hair, Normal)"
+    ],
+    [
+      "pq-184",
+      "Dragon Ball Balloon"
+    ],
+    [
+      "pq-185",
+      "Goku (Ultra Supervillain Quelled) Wig"
+    ],
+    [
+      "pq-105",
+      "Android 13's Hat"
+    ],
+    [
+      "pq-152",
+      "Android 17 (DB Super) Wig"
+    ],
+    [
+      "pq-155",
+      "Gamma 2's Helmet"
+    ],
+    [
+      "pq-022",
+      "Tapion's Sword"
+    ]
+  ],
+  "restored_direct_equipment_endpoints": [
+    "Android 16's Clothes",
+    "Videl's Clothes",
+    "Gogeta's Clothes"
+  ],
+  "evidence_boundary": "Equipment endpoints may resolve either through the canonical equipment record layer or the canonical accessory identity reconciliation layer. No endpoint was fabricated from a reverse-only projection.",
+  "status": "unresolved"
+}
