@@ -1250,6 +1250,461 @@
         ]
       },
       "status": "partially_verified"
+    },
+    {
+      "id": "accr-089",
+      "canonical_name": "Four-Star Dragon Ball Hat",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 5 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-061",
+        "pq": [
+          "pq-005"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-061"
+    },
+    {
+      "id": "accr-090",
+      "canonical_name": "Chiaotzu's Hat (With Collar)",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 9 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-062",
+        "pq": [
+          "pq-009"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-062"
+    },
+    {
+      "id": "accr-091",
+      "canonical_name": "Dore's Scouter",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 27 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-063",
+        "pq": [
+          "pq-027"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-063"
+    },
+    {
+      "id": "accr-092",
+      "canonical_name": "Yamcha's Sword",
+      "aliases": [],
+      "routes": [
+        "Accessory Shop"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-028",
+        "pq": [
+          "pq-036"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-028"
+    },
+    {
+      "id": "accr-093",
+      "canonical_name": "Perfect Cell's Wings",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 45 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-090",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-090"
+    },
+    {
+      "id": "accr-094",
+      "canonical_name": "SSGSS Goku Wig",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 76 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-066",
+        "pq": [
+          "pq-076"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-066"
+    },
+    {
+      "id": "accr-095",
+      "canonical_name": "SSGSS Vegeta Wig",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 100 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-068",
+        "pq": [
+          "pq-100"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-068"
+    },
+    {
+      "id": "accr-096",
+      "canonical_name": "Toppo's Moustache",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 114 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-095",
+        "pq": [
+          "pq-114"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-095"
+    },
+    {
+      "id": "accr-097",
+      "canonical_name": "Goku Wig (Ultra Instinct)",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 125 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-051",
+        "pq": [
+          "pq-125"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-051"
+    },
+    {
+      "id": "accr-098",
+      "canonical_name": "Janemba Head",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 127 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-052",
+        "pq": [
+          "pq-127"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-052"
+    },
+    {
+      "id": "accr-099",
+      "canonical_name": "Broly Wig (Legendary Super Saiyan)",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 132 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-072",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-072"
+    },
+    {
+      "id": "accr-100",
+      "canonical_name": "Kakunsa's Tail",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 133 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-074",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-074"
+    },
+    {
+      "id": "accr-101",
+      "canonical_name": "Kakunsa's Wig and Mask",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 133 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-073",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-073"
+    },
+    {
+      "id": "accr-102",
+      "canonical_name": "Rozie's Hood and Goggles",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 135 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-075",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-075"
+    },
+    {
+      "id": "accr-103",
+      "canonical_name": "Universe 7 Baseball Cap",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 139 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-076",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-076"
+    },
+    {
+      "id": "accr-104",
+      "canonical_name": "Caulifla Wig",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 147"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-053",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-053"
+    },
+    {
+      "id": "accr-105",
+      "canonical_name": "Kale Wig",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 148"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-054",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-054"
+    },
+    {
+      "id": "accr-106",
+      "canonical_name": "Bulma (Kid) Wig",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 149"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-055",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-055"
+    },
+    {
+      "id": "accr-107",
+      "canonical_name": "Android 17 (DB Super) Ranger Wig",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 152 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-077",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-077"
+    },
+    {
+      "id": "accr-108",
+      "canonical_name": "Gamma 2 Helmet",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 155 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-079",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-079"
+    },
+    {
+      "id": "accr-109",
+      "canonical_name": "Cheelai's Coat",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 183 reward listing"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-087",
+        "pq": []
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-087"
+    },
+    {
+      "id": "accr-110",
+      "canonical_name": "Great Saiyaman Helmet",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 51 reported",
+        "Accessory Shop reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-005",
+        "pq": [
+          "pq-051"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-005"
+    },
+    {
+      "id": "accr-111",
+      "canonical_name": "Jaco's State-of-the-Art Radio",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 72 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-064",
+        "pq": [
+          "pq-072"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-064"
+    },
+    {
+      "id": "accr-112",
+      "canonical_name": "Tagoma's Scouter",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 73 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-065",
+        "pq": [
+          "pq-073"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-065"
+    },
+    {
+      "id": "accr-113",
+      "canonical_name": "Android 14's Hat",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 104 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-070",
+        "pq": [
+          "pq-104"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-070"
+    },
+    {
+      "id": "accr-114",
+      "canonical_name": "Bardock (DB Super)'s Scouter",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 146 reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-071",
+        "pq": [
+          "pq-146"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-071"
+    },
+    {
+      "id": "accr-115",
+      "canonical_name": "Great Saiyaman Bandana 1",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 51 reward listing",
+        "Great Saiyaman-related NPC/mentor reward route reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-096",
+        "pq": [
+          "pq-051"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-096"
+    },
+    {
+      "id": "accr-116",
+      "canonical_name": "Great Saiyaman Bandana 2",
+      "aliases": [],
+      "routes": [
+        "Parallel Quest 53 reward listing",
+        "Great Saiyaman-related NPC/mentor reward route reported"
+      ],
+      "route_refs": {
+        "endpoint_record_id": "acc-097",
+        "pq": [
+          "pq-053"
+        ]
+      },
+      "status": "partially_verified",
+      "identity_note": "Exact named identity reconciled to the existing canonical equipment-accessories endpoint record; no new inventory identity created.",
+      "canonical_endpoint_id": "acc-097"
     }
   ],
   "unresolved_alias_groups": [
@@ -1305,5 +1760,5 @@
     "https://www.gameskinny.com/tips/dragon-ball-xenoverse-guide-equipment-and-accessory-list/"
   ],
   "last_reconciled": "2026-10-01",
-  "reconciliation_note": "Promoted exact alias-to-canonical identity mappings for Goku Wig and Pan's Bandanna after matching the canonical relationship targets to existing accessory records. No new accessory IDs were created."
+  "reconciliation_note": "Expanded identity reconciliation using exact named matches already present in equipment-accessories-record-layer.json. Endpoint record IDs are references, not newly invented identities."
 }
