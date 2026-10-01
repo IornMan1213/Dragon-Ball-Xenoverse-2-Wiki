@@ -1,39 +1,14 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-30",
+  "audit_date": "2026-10-01",
   "category": "pq_rewards_equipment",
-  "forward_edges": 148,
+  "forward_edges": 149,
   "reverse_edges": 143,
-  "missing": [
-    [
-      "pq-105",
-      "Android 13's Hat"
-    ],
-    [
-      "pq-152",
-      "Android 17 (DB Super) Wig"
-    ],
-    [
-      "pq-056",
-      "Videl T-Shirt"
-    ],
-    [
-      "pq-057",
-      "Gogeta's Clothes"
-    ],
-    [
-      "pq-057",
-      "Rakshasa's Claw"
-    ]
-  ],
+  "missing": [],
   "reverse_only": [],
-  "unclassified_targets": [
-    "Android 13's Hat",
-    "Android 17 (DB Super) Wig",
-    "Videl T-Shirt",
-    "Gogeta's Clothes",
-    "Rakshasa's Claw"
-  ],
-  "evidence_boundary": "Subtype assignments added only where an exact target name exists in the canonical equipment or accessory record layer; unresolved names were not guessed.",
-  "external_context": "Web sources corroborate that Rakshasa's Claw is a Strike Super Attack from PQ57, but this audit does not use web evidence to override the canonical forward classification."
+  "unclassified_targets": [],
+  "evidence_boundary": "Subtype assignments are derived only from explicit canonical equipment records or explicit canonical accessory identities/bridges; no subtype or identity is guessed.",
+  "external_context": "Rakshasa's Claw remains classified by the canonical forward relationship layer as a skill reward after the recovery correction; this subtype audit does not override that canonical classification.",
+  "classified_reverse_edges": 149,
+  "unresolved": []
 }
