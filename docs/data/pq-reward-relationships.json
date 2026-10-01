@@ -6518,6 +6518,14 @@
       "status": "source_backed",
       "source": "https://dbxv2.fandom.com/wiki/Equipment",
       "notes": "Canonical equipment record identifies Parallel Quest 134 as an acquisition source; this relationship does not assert a guaranteed drop or exact rate."
+    },
+    {
+      "pq": "pq-057",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I will defeat you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "PQ57 basic reward explicitly lists the Super Soul; canonical endpoint restored from current XV2 Super Soul/Gogeta data. Exact drop condition remains separate."
     }
   ],
   "normalization_rules": [
