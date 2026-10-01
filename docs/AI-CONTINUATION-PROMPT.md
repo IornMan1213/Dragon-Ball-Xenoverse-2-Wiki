@@ -8570,3 +8570,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] The previously tracked two-item Super Soul endpoint gap is closed.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** move to the next substantive cross-domain frontier; prioritize remaining equipment/accessory endpoint gaps or canonical reward-layer parity rather than revisiting this closed Super Soul boundary.
+
+### 2026-09-30 Batch 748 — PQ cross-domain parity reconciliation
+- [x] Confirmed the previously unresolved PQ54 and PQ57 Super Soul names now have canonical endpoints in `super-souls-record-layer.json`: `super-soul-181` and `super-soul-184` respectively; forward Super Soul endpoint census is now zero unresolved.
+- [x] Reconciled stale derived `docs/data/pq-skill-crosslink-report.json`: removed the PQ57 `Rakshasa's Claw` skill projection because canonical PQ57 classifies it as equipment.
+- [x] Canonical PQ relationship totals remain consistent: 879 total relationships, including 248 skill, 143 Super Soul, 148 equipment, 247 character, 86 DLC, and 7 farming relationships; duplicate relationship keys remain zero.
+- [x] Added durable audit `docs/data/pq-cross-domain-parity-reconciliation-2026-09-30-batch-748.json`.
+- [x] Exact canonical equipment-forward parity census found zero missing relationships for equipment names with exact endpoints.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the next substantive cross-domain/recovery frontier rather than manufacturing endpoint IDs; prioritize canonical forward data and reconcile stale derived indexes when encountered.
