@@ -3,11 +3,11 @@
   "generated_by": "canonical PQ reward relationship consumer projection",
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_super_soul_dataset": "docs/data/super-souls-record-layer.json",
-  "canonical_super_soul_records": 177,
-  "linked_super_soul_rewards": 142,
-  "unique_super_soul_targets": 140,
-  "detailed_endpoint_matches": 142,
-  "partial_acquisition_index_matches": 142,
+  "canonical_super_soul_records": 184,
+  "linked_super_soul_rewards": 143,
+  "unique_super_soul_targets": 141,
+  "detailed_endpoint_matches": 143,
+  "partial_acquisition_index_matches": 143,
   "unresolved_endpoint_names": [],
   "endpoint_coverage_gaps": [],
   "status": "canonical_forward_layer_reconciled; forward/reverse endpoint parity aligned",
@@ -861,7 +861,8 @@
       "relationship": "pq_rewards_super_soul",
       "target": "This place will be your grave!",
       "status": "source_backed",
-      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "Canonical Super Soul identity uses lowercase 'will'; PQ reward transcription capitalizes 'Will'. Preserve canonical target spelling while treating the difference as a source-text capitalization variance."
     },
     {
       "pq": "pq-166",
@@ -1016,6 +1017,14 @@
       "status": "source_backed",
       "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
       "notes": "Historical PQ74 reward explicitly listed in the all-186 XV2 transcription; canonical Super Soul endpoint promoted with versioned provenance rather than conflating later rename history."
+    },
+    {
+      "pq": "pq-057",
+      "relationship": "pq_rewards_super_soul",
+      "target": "I will defeat you!",
+      "status": "source_backed",
+      "source": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "notes": "PQ57 basic reward explicitly lists the Super Soul; canonical endpoint restored from current XV2 Super Soul/Gogeta data. Exact drop condition remains separate."
     }
   ],
   "acquisition_index": "docs/data/super-souls/pq-acquisition-index-001-186.json",
