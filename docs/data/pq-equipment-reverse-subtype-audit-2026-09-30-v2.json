@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.1.0",
+  "audit_date": "2026-09-30",
+  "category": "pq_rewards_equipment",
+  "forward_edges": 148,
+  "classified_reverse_edges": 147,
+  "missing": [
+    [
+      "pq-057",
+      "Rakshasa's Claw"
+    ]
+  ],
+  "reverse_only": [],
+  "unresolved": [
+    "Rakshasa's Claw"
+  ],
+  "notes": [
+    "143 of 148 canonical equipment edges now have clothing/accessory subtype projection.",
+    "Four previously unresolved targets were classified from independent explicit evidence: Android 13's Hat=accessory; Android 17 (DB Super) Wig=accessory; Videl T-Shirt=clothing; Gogeta's Clothes=clothing.",
+    "Rakshasa's Claw remains unresolved: external evidence identifies it as a Strike Super Attack, conflicting with the canonical forward equipment classification; canonical source was not altered."
+  ]
+}
