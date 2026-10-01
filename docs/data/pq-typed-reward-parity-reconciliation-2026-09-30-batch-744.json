@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 744,
+  "date": "2026-09-30",
+  "type": "pq_typed_reward_parity_reconciliation",
+  "source_of_truth": "docs/data/parallel-quests-record-layer.json",
+  "changes": [
+    "Reconciled canonical skill spelling in PQ46 from Chain Destructo-disc Barrage to Chain Destructo-Disc Barrage.",
+    "Reconciled canonical skill identity in PQ163 from Giant Cluster to Gigantic Cluster.",
+    "Restored PQ134 → Broly (Full Power Super Saiyan)'s Clothes equipment relationship from the canonical equipment acquisition record."
+  ],
+  "parity_before": {
+    "forward_typed_reward_mismatches": 57
+  },
+  "parity_after": {
+    "forward_typed_reward_mismatches": 8,
+    "known_unresolved": [
+      "PQ46 Android 16's Clothes: named reward but no canonical equipment endpoint.",
+      "PQ54 Take care...of your mother...: named Super Soul but no canonical Super Soul endpoint.",
+      "PQ57 I will defeat you!: named Super Soul but no canonical Super Soul endpoint.",
+      "PQ89 Videl's Clothes: named reward but no canonical equipment endpoint.",
+      "PQ164 This place Will be your grave!: named Super Soul but no canonical Super Soul endpoint.",
+      "PQ176 God of Destruction's Might: named Super Soul but no canonical Super Soul endpoint."
+    ],
+    "remaining_legacy_name_mismatches": [
+      "PQ46/PQ163 were normalized in canonical PQ layer; relationship aliases now use canonical identities."
+    ]
+  },
+  "relationship_counts": {
+    "pq_rewards_skill": 248,
+    "pq_rewards_super_soul": 142,
+    "pq_rewards_equipment": 148,
+    "pq_features_character": 247,
+    "pq_requires_dlc": 86,
+    "pq_farming_route": 7,
+    "total": 878
+  },
+  "boundaries": [
+    "No endpoint was fabricated for unresolved named rewards.",
+    "Canonical forward datasets remain authoritative; reverse/index layers were not used as sources of truth.",
+    "No drop guarantees or probabilities were inferred."
+  ],
+  "runtime_ci": "unverified",
+  "next": "Investigate the six remaining named-reward endpoint gaps only through canonical endpoint inventory/research evidence; otherwise continue the broader PQ cross-domain enrichment frontier."
+}
