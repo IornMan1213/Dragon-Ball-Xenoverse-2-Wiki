@@ -17,12 +17,12 @@
     },
     "pq_rewards": {
       "path": "docs/data/pq-reward-relationships.json",
-      "relationships": 899,
-      "blob_sha": "9ee423c86485d0f9721c61064cad665d67ff0c9e",
+      "relationships": 901,
+      "blob_sha": "782920ad4514b0d73fc594320cc4eece2575a06f",
       "counts": {
         "skill": 249,
         "super_soul": 143,
-        "equipment": 147,
+        "equipment": 149,
         "character": 247,
         "dlc": 106,
         "farming": 7
@@ -42,8 +42,8 @@
     }
   },
   "reconciliation": {
-    "canonical_pq_rows": "899 rows were counted directly from verified_relationships after the PQ57 Rakshasa's Claw classification correction.",
-    "pq_counts": "Embedded current_counts now match the live canonical rows: 249/143/147/247/106/7 = 899.",
+    "canonical_pq_rows": "901 rows were counted directly from verified_relationships after the PQ57 classification correction and restoration of explicit PQ46/PQ89 clothing reward relationships.",
+    "pq_counts": "Embedded current_counts now match the live canonical rows: 249/143/149/247/106/7 = 901.",
     "pq_duplicate_keys": 0,
     "skill_index_parity": "skills-index contains 550 records; canonical skills source is recorded at 550 for this live baseline and must remain the authority.",
     "historical_manifests": "Older 549/862/877 snapshots remain provenance only and are not current baselines.",
