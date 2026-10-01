@@ -8525,3 +8525,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved named PQ rewards where no canonical endpoint exists; no reverse/index-only inference was used.
 - [ ] Runtime/CI remains intentionally unverified.
 - [ ] **Exact next:** run a fresh PQ typed-reward parity census and promote only source-backed missing edges with established canonical endpoints; canonical forward datasets remain authoritative.
+
+
+### 2026-09-30 Batch 744 — PQ typed-reward parity reconciliation
+- [x] Normalized canonical PQ46 skill identity to Chain Destructo-Disc Barrage.
+- [x] Normalized canonical PQ163 skill identity to Gigantic Cluster.
+- [x] Restored the missing canonical PQ134 → Broly (Full Power Super Saiyan)'s Clothes equipment edge.
+- [x] Reduced forward typed-reward parity mismatches from 57 to 8; remaining gaps are explicitly documented endpoint-identity gaps rather than fabricated relationships.
+- [x] Added durable audit `docs/data/pq-typed-reward-parity-reconciliation-2026-09-30-batch-744.json`.
+- [ ] Runtime/CI remains intentionally unverified.
+- [ ] **Exact next:** investigate the six remaining named-reward endpoint gaps only through canonical endpoint inventory/research evidence; otherwise continue the broader PQ cross-domain enrichment frontier. Canonical forward datasets remain authoritative.
