@@ -1,11 +1,11 @@
 {
   "schema_version": "1.0",
-  "generated_on": "2026-09-28",
+  "generated_on": "2026-09-30",
   "scope": "Canonical skill dataset → Parallel Quest reverse navigation",
   "source": "docs/data/skills.json",
-  "canonical_skill_count": 493,
+  "canonical_skill_count": 550,
   "represented_pq_count": 170,
-  "total_skill_pq_edges": 249,
+  "total_skill_pq_edges": 248,
   "pq_ids": {
     "1": {
       "skill_count": 0,
@@ -570,16 +570,6 @@
       ],
       "skills": [
         "Stone Bullet"
-      ],
-      "relationship_status": "canonical_skill_endpoint_present"
-    },
-    "57": {
-      "skill_count": 1,
-      "skill_ids": [
-        "skill-rakshasa-s-claw"
-      ],
-      "skills": [
-        "Rakshasa's Claw"
       ],
       "relationship_status": "canonical_skill_endpoint_present"
     },
@@ -1963,5 +1953,6 @@
       ],
       "relationship_status": "canonical_skill_endpoint_present"
     }
-  }
+  },
+  "reconciliation_note": "Reconciled against live canonical PQ forward relationships on 2026-09-30. PQ-057 Rakshasa's Claw was removed from this skill reverse projection because the canonical forward store classifies it as equipment, not pq_rewards_skill. Canonical skill count updated from stale 493 to the current 550."
 }
