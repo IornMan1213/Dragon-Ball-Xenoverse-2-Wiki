@@ -8559,3 +8559,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Fresh forward Super Soul endpoint census now leaves only **PQ54** `Take care...of your mother...` and **PQ57** `I will defeat you!` without established canonical Super Soul endpoints.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** investigate only those two unresolved Super Soul endpoint gaps through canonical inventory/evidence; if neither resolves, continue the broader PQ cross-domain enrichment frontier and rerun parity.
+
+### 2026-09-30 Batch 748 — PQ Super Soul endpoint recovery
+- [x] Reconciled PQ54's recovered reward spelling `Take care...of your mother...` to existing canonical endpoint `super-soul-181`, `Take care... of your mother...`, across the forward PQ layer, relationship layer, and acquisition index.
+- [x] Restored missing canonical `super-soul-184` for PQ57's `I will defeat you!`, using XV2 Super Soul/Gogeta evidence and the surviving PQ57 reward record.
+- [x] Added the missing PQ57 → Super Soul relationship and acquisition-index entry.
+- [x] Refreshed `docs/data/pq-super-soul-crosslink-report.json` from the current canonical forward relationship layer.
+- [x] Added `docs/data/pq-super-soul-endpoint-recovery-2026-09-30-batch-748.json`.
+- [x] Validation: 186 PQ records, 184 canonical Super Soul records, 879 total relationships, 143 Super Soul relationships, 0 duplicate relationship keys, 0 duplicate Super Soul IDs, and 0 unresolved forward PQ Super Soul endpoints.
+- [x] The previously tracked two-item Super Soul endpoint gap is closed.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** move to the next substantive cross-domain frontier; prioritize remaining equipment/accessory endpoint gaps or canonical reward-layer parity rather than revisiting this closed Super Soul boundary.
