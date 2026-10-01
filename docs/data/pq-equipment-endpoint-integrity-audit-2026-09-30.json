@@ -234,6 +234,10 @@
     "Videl's Clothes",
     "Gogeta's Clothes"
   ],
-  "evidence_boundary": "Equipment endpoints may resolve either through the canonical equipment record layer or the canonical accessory identity reconciliation layer. No endpoint was fabricated from a reverse-only projection.",
-  "status": "unresolved"
+  "evidence_boundary": "Forward PQ equipment relationship identities are canonical and source-backed. Direct clothing endpoints resolve to canonical equipment records; accessory endpoints resolve only where an exact canonical accessory identity exists. The remaining unresolved names are retained as explicit research gaps; no accessory IDs are invented from names alone.",
+  "status": "unresolved_identity_gaps",
+  "unresolved_count": 34,
+  "accessory_bridge_count": 21,
+  "restored_direct_equipment_count": 3,
+  "follow_up": "Research unresolved endpoint names individually using inventory-level evidence before promoting any canonical accessory identity. Goku Wig and Pan's Bandanna have alias-level evidence (accr-014/accr-013) but remain unpromoted in this audit until the exact canonical-name mapping is reconciled."
 }
