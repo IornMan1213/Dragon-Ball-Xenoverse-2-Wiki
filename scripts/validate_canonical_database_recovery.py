@@ -63,8 +63,31 @@ def main() -> None:
     pq_ids = skill_pq.get("pq_ids")
     if not isinstance(pq_ids, dict):
         raise SystemExit("skill-PQ reverse artifact pq_ids must be an object")
-    derived_edges = sum(len(v.get("skill_ids", [])) for v in pq_ids.values() if isinstance(v, dict) and isinstance(v.get("skill_ids"), list))
-    derived_represented = sum(bool(v.get("skill_ids")) for v in pq_ids.values() if isinstance(v, dict))
+    derived_edges = 0
+    derived_represented = 0
+    seen_reverse_edges: set[tuple[str, str]] = set()
+    for pq_id, entry in pq_ids.items():
+        if not isinstance(pq_id, str) or not pq_id.startswith("pq-") or not pq_id[3:].isdigit():
+            raise SystemExit(f"skill-PQ reverse artifact has invalid PQ identity: {pq_id!r}")
+        if not isinstance(entry, dict):
+            raise SystemExit(f"skill-PQ reverse artifact entry {pq_id!r} must be an object")
+        skill_refs = entry.get("skill_ids")
+        if not isinstance(skill_refs, list):
+            raise SystemExit(f"skill-PQ reverse artifact {pq_id!r}.skill_ids must be a list")
+        if skill_refs and any(not isinstance(ref, str) or not ref for ref in skill_refs):
+            raise SystemExit(f"skill-PQ reverse artifact {pq_id!r} contains a malformed skill ID")
+        if len(set(skill_refs)) != len(skill_refs):
+            raise SystemExit(f"skill-PQ reverse artifact {pq_id!r} contains duplicate skill IDs")
+        unknown = sorted(set(skill_refs) - skill_ids)
+        if unknown:
+            raise SystemExit(f"skill-PQ reverse artifact {pq_id!r} references unknown canonical skills: {unknown[:5]!r}")
+        for skill_ref in skill_refs:
+            edge = (pq_id, skill_ref)
+            if edge in seen_reverse_edges:
+                raise SystemExit(f"duplicate skill-PQ reverse edge: {edge!r}")
+            seen_reverse_edges.add(edge)
+        derived_edges += len(skill_refs)
+        derived_represented += bool(skill_refs)
     if skill_pq.get("total_skill_pq_edges") != derived_edges:
         raise SystemExit("skill-PQ reverse artifact edge count does not match its projection")
     if skill_pq.get("represented_pq_count") != derived_represented:
@@ -86,14 +109,31 @@ def main() -> None:
         "farming": "pq_farming_route",
     }
     actual_counts = {key: 0 for key in required_counts}
+    seen_reward_keys: set[tuple[str, str, str]] = set()
     for index, row in enumerate(reward_rows):
         if not isinstance(row, dict):
             raise SystemExit(f"PQ reward relationship row {index} must be an object")
+        pq_id = row.get("pq")
+        target = row.get("target")
         relationship = row.get("relationship")
+        if not isinstance(pq_id, str) or not pq_id.startswith("pq-") or not pq_id[3:].isdigit():
+            raise SystemExit(f"PQ reward relationship row {index} has invalid PQ identity: {pq_id!r}")
+        if not isinstance(target, str) or not target.strip():
+            raise SystemExit(f"PQ reward relationship row {index} has an empty/non-string target")
         matched = [key for key, rel in relation_map.items() if relationship == rel]
         if not matched:
             raise SystemExit(f"PQ reward relationship row {index} has unknown relationship type: {relationship!r}")
+        source = row.get("source")
+        if not isinstance(source, str) or not source.strip():
+            raise SystemExit(f"PQ reward relationship row {index} has an empty/non-string source")
+        identity = (pq_id, relationship, target)
+        if identity in seen_reward_keys:
+            raise SystemExit(f"duplicate canonical PQ reward relationship key: {identity!r}")
+        seen_reward_keys.add(identity)
         actual_counts[matched[0]] += 1
+    for key, count in current_counts.items():
+        if isinstance(count, bool) or not isinstance(count, int) or count < 0:
+            raise SystemExit(f"PQ reward current_counts[{key!r}] must be a non-negative integer")
     if actual_counts != current_counts:
         raise SystemExit(f"PQ reward current_counts mismatch: stored={current_counts!r}, actual={actual_counts!r}")
     if sum(actual_counts.values()) != sum(current_counts.values()):
