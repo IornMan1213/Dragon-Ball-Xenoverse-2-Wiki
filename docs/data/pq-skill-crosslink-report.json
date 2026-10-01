@@ -5,11 +5,11 @@
   "source_dataset": "docs/data/pq-reward-relationships.json",
   "canonical_skill_dataset": "docs/data/skills.json",
   "canonical_skill_records": 497,
-  "linked_skill_rewards": 249,
+  "linked_skill_rewards": 248,
   "alias_matches": [],
   "unresolved": [],
-  "status": "resolved",
-  "unique_forward_relationships": 249,
+  "status": "reconciled_against_canonical_pq_forward_classification",
+  "unique_forward_relationships": 248,
   "resolved_skill_rewards": [
     {
       "pq": 2,
@@ -381,12 +381,6 @@
       "pq": 56,
       "skill": "Stone Bullet",
       "canonical_skill": "Stone Bullet",
-      "match": "exact"
-    },
-    {
-      "pq": 57,
-      "skill": "Rakshasa's Claw",
-      "canonical_skill": "Rakshasa's Claw",
       "match": "exact"
     },
     {
