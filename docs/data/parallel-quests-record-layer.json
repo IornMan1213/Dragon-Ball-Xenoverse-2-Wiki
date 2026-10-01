@@ -1293,6 +1293,11 @@
           "accessory_id": "acc-005",
           "relationship": "research_acquisition_association",
           "evidence_note": "Accessory PQ research identifies PQ51; exact reward condition remains unresolved."
+        },
+        {
+          "accessory_id": "acc-096",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory-PQ bridge matches Great Saiyaman Bandana 1 to PQ51; this cross-domain link does not assert a guaranteed drop."
         }
       ],
       "notes": "Batch 740 recovery: named basic reward set and typed accessory/equipment reward restored from maintained PQ research; exact drop mechanics remain unresolved."
@@ -1368,7 +1373,14 @@
         "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
         "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "notes": "Batch 740 recovery: named basic reward set and typed accessory/Super Soul rewards restored from maintained PQ research; exact drop mechanics remain unresolved."
+      "notes": "Batch 740 recovery: named basic reward set and typed accessory/Super Soul rewards restored from maintained PQ research; exact drop mechanics remain unresolved.",
+      "accessory_links": [
+        {
+          "accessory_id": "acc-097",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory-PQ bridge matches Great Saiyaman Bandana 2 to PQ53; this cross-domain link does not assert a guaranteed drop."
+        }
+      ]
     },
     {
       "id": "pq-054",
@@ -1726,6 +1738,11 @@
           "accessory_id": "acc-012",
           "relationship": "historical_conflict",
           "evidence_note": "Explicit reward table lists Goku Wig (Super Saiyan); canonical record retains PQ18 as the historical route pending reconciliation."
+        },
+        {
+          "accessory_id": "accr-015",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory-PQ bridge matches Goku Wig (Super Saiyan) to PQ63; this cross-domain link preserves the existing historical route conflict and does not assert a guaranteed drop."
         }
       ],
       "equipment_rewards": [
@@ -6266,6 +6283,13 @@
           "equipment_id": "equip-016",
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
+        }
+      ],
+      "accessory_links": [
+        {
+          "accessory_id": "accr-012",
+          "relationship": "research_acquisition_association",
+          "evidence_note": "Canonical accessory-PQ bridge matches Piccolo's Turban to PQ3; this cross-domain link does not assert a guaranteed drop."
         }
       ]
     },
