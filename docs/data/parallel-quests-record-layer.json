@@ -2393,13 +2393,22 @@
         "Defeat Yamcha"
       ],
       "ultimate_finish": "Defeat Yamcha",
-      "rewards": [],
+      "rewards": [
+        "4020 Zeni",
+        "Med. Mix Capsule",
+        "High Mix Capsule",
+        "Neo Wolf Fang Fist"
+      ],
       "skill_rewards": [
         "Neo Wolf Fang Fist"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-087",
@@ -2411,12 +2420,20 @@
         "Defeat Goku and his revived allies"
       ],
       "ultimate_finish": "Defeat Goku and the revived warriors",
-      "rewards": [],
+      "rewards": [
+        "4080 Zeni",
+        "Training Suit",
+        "Energy Crystal",
+        "Atomic Blast"
+      ],
       "skill_rewards": [
         "Atomic Blast"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "equipment_links": [
         {
@@ -2424,7 +2441,11 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
         }
-      ]
+      ],
+      "equipment_rewards": [
+        "Training Suit"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-088",
@@ -2437,13 +2458,22 @@
       ],
       "ultimate_finish": "Recover 7 Dragon Balls",
       "dragon_ball_farming": true,
-      "rewards": [],
+      "rewards": [
+        "4120 Zeni",
+        "Antidote Drop",
+        "Antidote Essence",
+        "Buu Buu Ball"
+      ],
       "skill_rewards": [
         "Buu Buu Ball"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-089",
@@ -2455,13 +2485,24 @@
         "Defeat Vegito and Gotenks"
       ],
       "ultimate_finish": "Defeat Vegito and Gotenks",
-      "rewards": [],
+      "rewards": [
+        "4190 Zeni",
+        "Videl's Clothes",
+        "Victory Rush"
+      ],
       "skill_rewards": [
         "Victory Rush"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "equipment_rewards": [
+        "Videl's Clothes"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-090",
@@ -2473,13 +2514,21 @@
         "Defeat revived Frieza, Cell, and Majin Buu"
       ],
       "ultimate_finish": "Defeat revived Frieza, Cell, and Majin Buu",
-      "rewards": [],
+      "rewards": [
+        "4220 Zeni",
+        "Energy Capsule L",
+        "III Bomber"
+      ],
       "skill_rewards": [
         "Ill Bomber"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-091",
@@ -2491,13 +2540,21 @@
         "Defeat Vegito"
       ],
       "ultimate_finish": "Defeat Vegito",
-      "rewards": [],
+      "rewards": [
+        "4280 Zeni",
+        "Energy Capsule L",
+        "Final Kamehameha"
+      ],
       "skill_rewards": [
         "Final Kamehameha"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-092",
@@ -2509,12 +2566,20 @@
         "Defeat Goku"
       ],
       "ultimate_finish": "Defeat Goku",
-      "rewards": [],
+      "rewards": [
+        "4360 Zeni",
+        "Everyone, lend me your energy!",
+        "GT Goku's Gi",
+        "Maiden Burst"
+      ],
       "skill_rewards": [
         "Maiden Burst"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "equipment_links": [
         {
@@ -2522,7 +2587,14 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
         }
-      ]
+      ],
+      "equipment_rewards": [
+        "GT Goku's Gi"
+      ],
+      "super_soul_rewards": [
+        "Everyone, lend me your energy!"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-093",
@@ -2534,10 +2606,19 @@
         "Defeat Goku and Vegeta"
       ],
       "ultimate_finish": "Defeat Goku and Vegeta",
-      "rewards": [],
+      "rewards": [
+        "4390 Zeni",
+        "Pan's Bandanna",
+        "Finally, some excitement.",
+        "I...hate you!!!",
+        "Pan's Clothes"
+      ],
       "skill_rewards": [],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "accessory_links": [
         {
@@ -2545,7 +2626,16 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Canonical accessory record explicitly documents this PQ acquisition-source association; exact reward/drop condition remains unresolved."
         }
-      ]
+      ],
+      "equipment_rewards": [
+        "Pan's Bandanna",
+        "Pan's Clothes"
+      ],
+      "super_soul_rewards": [
+        "Finally, some excitement.",
+        "I...hate you!!!"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-094",
@@ -2557,13 +2647,25 @@
         "Defeat Gogeta, Eis, Nuova, and Omega Shenron"
       ],
       "ultimate_finish": "Defeat Gogeta, Eis, Nuova, and Omega Shenron",
-      "rewards": [],
+      "rewards": [
+        "4420 Zeni",
+        "All-Energy Capsule M",
+        "Strengthen me, Shadow Dragons!",
+        "Bluff Kamehameha"
+      ],
       "skill_rewards": [
         "Bluff Kamehameha"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "super_soul_rewards": [
+        "Strengthen me, Shadow Dragons!"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-095",
@@ -2575,14 +2677,26 @@
         "Defeat revived Super 17"
       ],
       "ultimate_finish": "Defeat revived Super 17",
-      "rewards": [],
+      "rewards": [
+        "4470 Zeni",
+        "Super 17's Clothes",
+        "Flash Bomber",
+        "Drain Field"
+      ],
       "skill_rewards": [
         "Flash Bomber",
         "Drain Field"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "equipment_rewards": [
+        "Super 17's Clothes"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-096",
@@ -2594,13 +2708,24 @@
         "Defeat all enemies"
       ],
       "ultimate_finish": "Defeat all enemies",
-      "rewards": [],
+      "rewards": [
+        "4500 Zeni",
+        "GT Vegeta's Jacket",
+        "Absolute Zero"
+      ],
       "skill_rewards": [
         "Absolute Zero"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
-      ]
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+      ],
+      "equipment_rewards": [
+        "GT Vegeta's Jacket"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-097",
@@ -2612,13 +2737,25 @@
         "Defeat all enemies"
       ],
       "ultimate_finish": "Defeat all enemies",
-      "rewards": [],
+      "rewards": [
+        "4520 Zeni",
+        "Yamcha's Baseball Hat",
+        "Power Capsule S",
+        "High Mix Capsule",
+        "Someone, satisfy me...",
+        "Revival of the Demon Realm is at hand",
+        "Charged Ki Wave",
+        "Phantom Fist"
+      ],
       "skill_rewards": [
         "Charged Ki Wave",
         "Phantom Fist"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "accessory_links": [
         {
@@ -2626,7 +2763,15 @@
           "relationship": "research_acquisition_association",
           "evidence_note": "Exact named accessory/PQ association is supported by the accessory research layer; relationship does not assert a guaranteed drop."
         }
-      ]
+      ],
+      "equipment_rewards": [
+        "Yamcha's Baseball Hat"
+      ],
+      "super_soul_rewards": [
+        "Someone, satisfy me...",
+        "Revival of the Demon Realm is at hand"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-098",
@@ -2638,12 +2783,19 @@
         "Defeat Janemba and Turles"
       ],
       "ultimate_finish": "Defeat Janemba and Turles",
-      "rewards": [],
+      "rewards": [
+        "4550 Zeni",
+        "Lord Slug's Clothes",
+        "Dimension Ray"
+      ],
       "skill_rewards": [
         "Dimension Ray"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.xboxachievements.com/forum/topic/435172-all-100-parallel-quests-ultimate-finish-requirements/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "equipment_links": [
         {
@@ -2651,7 +2803,11 @@
           "relationship": "acquisition_source",
           "evidence_note": "Canonical equipment record explicitly names this Parallel Quest as an acquisition source; this link does not infer a guaranteed drop or exact rate."
         }
-      ]
+      ],
+      "equipment_rewards": [
+        "Lord Slug's Clothes"
+      ],
+      "notes": "Batch 742 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were populated only where the canonical relationship layer already establishes them."
     },
     {
       "id": "pq-099",
