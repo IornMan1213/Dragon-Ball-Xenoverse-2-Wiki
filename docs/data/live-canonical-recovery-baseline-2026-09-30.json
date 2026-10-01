@@ -18,7 +18,7 @@
     "pq_rewards": {
       "path": "docs/data/pq-reward-relationships.json",
       "relationships": 899,
-      "blob_sha": "5a125e35413393704a8b5e4be527355d980511f4",
+      "blob_sha": "4384e7e556b031469578fc38562a60c04e5a07a8",
       "counts": {
         "skill": 248,
         "super_soul": 143,
@@ -27,7 +27,8 @@
         "dlc": 106,
         "farming": 7
       },
-      "duplicate_keys": 0
+      "duplicate_keys": 0,
+      "last_reconciled_commit": "953faa3d185ea91a09b4318051f20b52a7f8a5af"
     },
     "parallel_quests": {
       "path": "docs/data/parallel-quests-record-layer.json",
@@ -45,7 +46,8 @@
     "pq_counts": "Embedded current_counts previously reported 878 with mismatched keys; corrected to 248/143/148/247/106/7 = 899.",
     "pq_duplicate_keys": 0,
     "skill_index_parity": "skills-index contains 550 records; canonical skills source is recorded at 550 for this live baseline and must remain the authority.",
-    "historical_manifests": "Older 549/862/877 snapshots remain provenance only and are not current baselines."
+    "historical_manifests": "Older 549/862/877 snapshots remain provenance only and are not current baselines.",
+    "baseline_refresh": "2026-09-30: pq_rewards blob SHA refreshed after canonical metadata reconciliation."
   },
   "next_frontier": [
     "Run the hardened canonical recovery validator in a checkout and reconcile any actual failures.",
