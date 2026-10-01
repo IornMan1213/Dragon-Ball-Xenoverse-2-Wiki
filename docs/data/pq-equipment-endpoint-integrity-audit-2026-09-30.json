@@ -15,10 +15,6 @@
       "Chiaotzu's Hat (With Collar)"
     ],
     [
-      "pq-025",
-      "Goku Wig"
-    ],
-    [
       "pq-027",
       "Dore's Scouter"
     ],
@@ -33,10 +29,6 @@
     [
       "pq-066",
       "SSGSS Goku Wig"
-    ],
-    [
-      "pq-093",
-      "Pan's Bandanna"
     ],
     [
       "pq-097",
@@ -227,6 +219,14 @@
     [
       "pq-022",
       "Tapion's Sword"
+    ],
+    [
+      "pq-025",
+      "Goku Wig → accr-014"
+    ],
+    [
+      "pq-093",
+      "Pan's Bandanna → accr-013"
     ]
   ],
   "restored_direct_equipment_endpoints": [
@@ -236,8 +236,8 @@
   ],
   "evidence_boundary": "Forward PQ equipment relationship identities are canonical and source-backed. Direct clothing endpoints resolve to canonical equipment records; accessory endpoints resolve only where an exact canonical accessory identity exists. The remaining unresolved names are retained as explicit research gaps; no accessory IDs are invented from names alone.",
   "status": "unresolved_identity_gaps",
-  "unresolved_count": 34,
-  "accessory_bridge_count": 21,
+  "unresolved_count": 32,
+  "accessory_bridge_count": 23,
   "restored_direct_equipment_count": 3,
-  "follow_up": "Research unresolved endpoint names individually using inventory-level evidence before promoting any canonical accessory identity. Goku Wig and Pan's Bandanna have alias-level evidence (accr-014/accr-013) but remain unpromoted in this audit until the exact canonical-name mapping is reconciled."
+  "follow_up": "Continue individual evidence-backed reconciliation of the remaining unresolved names. Do not infer identities from reverse projections alone."
 }
