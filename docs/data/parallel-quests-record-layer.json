@@ -5304,7 +5304,7 @@
       "ultimate_finish": "Defeat SSGSS Goku after the time condition.",
       "rewards": [
         "7300 Zeni",
-        "This place Will be your grave!",
+        "This place will be your grave!",
         "Artwork 504",
         "Artwork 521",
         "Artwork 529",
@@ -5688,9 +5688,7 @@
           "evidence_note": "Canonical equipment reward relationship; exact reward/drop mechanics remain separately unresolved."
         }
       ],
-      "super_soul_rewards": [
-        "God of Destruction's Might"
-      ],
+      "super_soul_rewards": []
       "accessory_links": [],
       "equipment_links": [
         {
