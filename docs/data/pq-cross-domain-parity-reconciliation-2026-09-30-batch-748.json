@@ -1,0 +1,47 @@
+{
+  "batch": "748",
+  "date": "2026-09-30",
+  "title": "PQ cross-domain parity reconciliation after Super Soul endpoint recovery",
+  "source_of_truth": [
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/super-souls-record-layer.json",
+    "docs/data/pq-reward-relationships.json"
+  ],
+  "findings": [
+    "The two Batch 747 Super Soul endpoint gaps are now fully resolved in the live canonical layer: PQ54 maps to super-soul-181 and PQ57 maps to super-soul-184.",
+    "The forward PQ layer contains no Super Soul reward names lacking canonical Super Soul endpoints.",
+    "The PQ skill crosslink report contained one stale derived entry: PQ57 Rakshasa's Claw was listed as a skill even though the canonical PQ forward record classifies it as equipment. The derived report was corrected; canonical skill/equipment data was not altered.",
+    "Canonical equipment forward parity is complete for equipment names that have exact endpoints in the equipment record layer."
+  ],
+  "changes": [
+    {
+      "file": "docs/data/pq-skill-crosslink-report.json",
+      "removed": {
+        "pq": 57,
+        "canonical_skill": "Rakshasa's Claw"
+      },
+      "reason": "Stale derived classification; canonical PQ57 classifies Rakshasa's Claw as equipment."
+    }
+  ],
+  "validation": {
+    "pq_records": 186,
+    "relationship_total": 879,
+    "relationship_counts": {
+      "pq_rewards_equipment": 148,
+      "pq_rewards_skill": 248,
+      "pq_rewards_super_soul": 143,
+      "pq_farming_route": 7,
+      "pq_features_character": 247,
+      "pq_requires_dlc": 86
+    },
+    "duplicate_relationship_keys": 0,
+    "skill_crosslink_report_resolved": 248,
+    "forward_super_soul_unresolved": 0,
+    "runtime_ci": "unverified"
+  },
+  "rules": [
+    "Canonical forward PQ data remains authoritative.",
+    "Derived reports are reconciled to canonical classification rather than used as source of truth.",
+    "No reward probability, guarantee, or Ultimate-Finish-only status was inferred."
+  ]
+}
