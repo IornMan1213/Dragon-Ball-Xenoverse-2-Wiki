@@ -1,0 +1,47 @@
+{
+  "batch": "748",
+  "date": "2026-09-30",
+  "title": "PQ Super Soul endpoint recovery and canonical spacing reconciliation",
+  "source_of_truth": [
+    "docs/data/super-souls-record-layer.json",
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/pq-reward-relationships.json",
+    "docs/data/super-souls/pq-acquisition-index-001-186.json"
+  ],
+  "changes": [
+    {
+      "pq": "pq-054",
+      "before": "Take care...of your mother...",
+      "after": "Take care... of your mother...",
+      "canonical_id": "super-soul-181",
+      "action": "normalized forward PQ reward, relationship target, and acquisition index to the existing canonical endpoint"
+    },
+    {
+      "pq": "pq-057",
+      "name": "I will defeat you!",
+      "canonical_id": "super-soul-184",
+      "action": "restored missing canonical Super Soul endpoint and added PQ57 relationship/index links"
+    }
+  ],
+  "evidence": [
+    "Current XV2 Super Soul catalogue identifies Take care... of your mother... as Prince of Destruction Vegeta's Super Soul and PQ54 acquisition.",
+    "Current XV2 Super Soul catalogue identifies I will defeat you! as Gogeta (Super Saiyan)'s Super Soul and PQ57 acquisition.",
+    "The repository's prior batch-705 audit independently recorded super-soul-181 for the PQ54 soul, confirming this was recovery drift rather than a new identity.",
+    "PQ57's reward is explicitly listed in the repository's surviving PQ research and independent all-PQ guide."
+  ],
+  "validation": {
+    "pq_records": 186,
+    "super_soul_records": 184,
+    "total_relationships": 879,
+    "super_soul_relationships": 143,
+    "duplicate_relationship_keys": 0,
+    "duplicate_super_soul_ids": 0,
+    "unresolved_forward_super_soul_endpoints": 0
+  },
+  "rules": [
+    "Canonical forward data remains authoritative; reverse/index artifacts were synchronized after canonical mutation.",
+    "No reward probability, guaranteed-drop status, or Ultimate-Finish-only condition was inferred.",
+    "No cross-game Super Soul identity was promoted."
+  ],
+  "runtime_ci": "unverified"
+}
