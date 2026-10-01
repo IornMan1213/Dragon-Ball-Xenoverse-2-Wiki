@@ -7988,3 +7988,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Current canonical PQ relationship total is **901**: **249 skill / 143 Super Soul / 149 equipment / 247 character / 106 DLC / 7 farming**; duplicate relationship keys remain 0 in the fresh census.
 - [ ] Runtime validator/CI remains unverified.
 - [ ] **Exact next:** perform a fresh full forward/reverse parity census against the 901-row canonical store, including Super Souls, DLC, characters, farming, skills, and equipment; repair only source-backed canonical gaps, then continue the highest-value recovery/enrichment frontier. Treat structured reward objects and subtype projections diagnostically and never promote reverse-only data into canonical records without independent evidence.
+
+
+### 2026-09-30 continuation — Full PQ forward/reverse parity + equipment endpoint restoration
+- [x] Fresh full parity census against the 901-row canonical PQ relationship store found 0 missing reverse edges across all six relationship classes: skills 249/249, Super Souls 143/143, equipment 149/149, characters 247/247, DLC 106/106, farming 7/7. Duplicate canonical relationship keys remain 0.
+- [x] Fresh canonical endpoint audit found every skill and Super Soul relationship target resolves to the current canonical endpoint layer. Equipment targets were checked against both the canonical equipment record layer and the canonical accessory identity reconciliation layer rather than treating the smaller accessory/equipment consumer files as authoritative.
+- [x] Restored three explicit clothing identities to docs/data/equipment-record-layer.json: Android 16's Clothes (equip-113), Videl's Clothes (equip-114), and Gogeta's Clothes (equip-115). All were added with explicit PQ provenance and intentionally unresolved stats/drop mechanics rather than invented values.
+- [x] Confirmed Android 13's Hat and Android 17 (DB Super) Wig resolve through canonical accessory identities (accr-027 and accr-029) rather than requiring duplicate equipment records.
+- [x] Added docs/data/pq-equipment-endpoint-integrity-audit-2026-09-30.json; its endpoint-integrity scope now has no unresolved PQ equipment target names.
+- [x] The unified PQ reverse projection remains fully aligned with the canonical forward graph; subtype parity remains 149/149.
+- [ ] Runtime validator/CI remains unverified.
+- [ ] Exact next: audit stale dependent metadata/manifests against the now-current canonical counts and SHAs, then continue source-backed enrichment of the canonical equipment/accessory endpoint records and unresolved mechanics fields. Preserve historical recovery artifacts instead of rewriting them, and never infer missing stats/drop rates from reverse projections.
