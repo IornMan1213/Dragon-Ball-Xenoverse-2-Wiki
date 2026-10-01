@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "type": "pq_unified_reverse_index_canonical_reconciliation",
+  "authoritative_source": "docs/data/pq-reward-relationships.json",
+  "projection": "docs/data/pq-reward-normalization/pq-unified-reverse-index-1-186.json",
+  "categories": {
+    "pq_rewards_skill": {
+      "forward_edges": 248,
+      "reverse_edges": 248,
+      "missing": [],
+      "reverse_only": []
+    },
+    "pq_rewards_super_soul": {
+      "forward_edges": 143,
+      "reverse_edges": 143,
+      "missing": [],
+      "reverse_only": []
+    },
+    "pq_rewards_equipment": {
+      "forward_edges": 148,
+      "reverse_edges": 126,
+      "missing": [
+        [
+          "pq-051",
+          "Great Saiyaman Helmet"
+        ],
+        [
+          "pq-072",
+          "Jaco's State-of-the-Art Radio"
+        ],
+        [
+          "pq-073",
+          "Tagoma's Scouter"
+        ],
+        [
+          "pq-097",
+          "Yamcha Baseball Hat"
+        ],
+        [
+          "pq-104",
+          "Android 14's Hat"
+        ],
+        [
+          "pq-146",
+          "Bardock (DB Super)'s Scouter"
+        ],
+        [
+          "pq-105",
+          "Android 13's Hat"
+        ],
+        [
+          "pq-152",
+          "Android 17 (DB Super) Wig"
+        ],
+        [
+          "pq-076",
+          "SSGSS Goku Wig"
+        ],
+        [
+          "pq-155",
+          "Gamma 2's Helmet"
+        ],
+        [
+          "pq-022",
+          "Tapion's Sword"
+        ],
+        [
+          "pq-051",
+          "Great Saiyaman Bandana 1"
+        ],
+        [
+          "pq-053",
+          "Great Saiyaman Bandana 2"
+        ],
+        [
+          "pq-056",
+          "Videl T-Shirt"
+        ],
+        [
+          "pq-057",
+          "Gogeta's Clothes"
+        ],
+        [
+          "pq-025",
+          "Android 18's Clothes (Skirt)"
+        ],
+        [
+          "pq-025",
+          "Android 17's Clothes"
+        ],
+        [
+          "pq-003",
+          "Battle Suit (Raditz)"
+        ],
+        [
+          "pq-087",
+          "Training Suit"
+        ],
+        [
+          "pq-110",
+          "Zamasu's Clothes"
+        ],
+        [
+          "pq-057",
+          "Rakshasa's Claw"
+        ],
+        [
+          "pq-134",
+          "Broly (Full Power Super Saiyan)'s Clothes"
+        ]
+      ],
+      "reverse_only": []
+    },
+    "pq_features_character": {
+      "forward_edges": 247,
+      "reverse_edges": 247,
+      "missing": [],
+      "reverse_only": []
+    },
+    "pq_requires_dlc": {
+      "forward_edges": 106,
+      "reverse_edges": 106,
+      "missing": [],
+      "reverse_only": []
+    },
+    "pq_farming_route": {
+      "forward_edges": 7,
+      "reverse_edges": 7,
+      "missing": [],
+      "reverse_only": []
+    }
+  },
+  "evidence_boundary": "Only derived reverse buckets were rebuilt from canonical forward rows. Equipment subtype was not guessed where the canonical forward schema does not identify clothing versus accessory.",
+  "equipment_unresolved_subtype_count": 22,
+  "status": "partial_equipment_subtype_gap"
+}
