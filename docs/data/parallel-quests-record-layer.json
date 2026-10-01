@@ -415,7 +415,7 @@
       "rewards": [
         "1480 Zeni",
         "Aura Shard",
-        "I'll use all my strength to kill you.",
+        "I'll use all my strength to kill you...",
         "Android 18's Clothes (Vest & Pants)",
         "Freedom Kick",
         "Energy Field"
@@ -432,7 +432,7 @@
         }
       ],
       "super_soul_rewards": [
-        "I'll use all my strength to kill you."
+        "I'll use all my strength to kill you..."
       ],
       "dragon_ball_farming": false,
       "verification_status": "partially_verified",
