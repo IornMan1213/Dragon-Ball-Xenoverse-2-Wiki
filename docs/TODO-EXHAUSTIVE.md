@@ -8027,3 +8027,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Web evidence independently supports the relevant PQ acquisition identities: the indexed equipment guide lists Goku Wig at PQ25, Pan's Bandanna at PQ93, and the historical guide documents the broader PQ equipment list. These sources were used only to corroborate identity/acquisition, not to invent stats or drop mechanics. citeturn0search9turn0search4
 - [ ] Runtime validator remains unverified.
 - [ ] **Exact next:** continue the remaining 32-name endpoint reconciliation in evidence-backed batches, prioritizing exact canonical-name/alias matches before creating any new canonical accessory records.
+
+
+### 2026-10-01 continuation — Bulk exact endpoint reconciliation
+- [x] Audited the remaining unresolved PQ equipment/accessory names against `docs/data/equipment-accessories-record-layer.json` rather than reverse indexes alone.
+- [x] Reconciled **28 exact named identities** to existing canonical endpoint records, without inventing new inventory IDs: Four-Star Dragon Ball Hat, Chiaotzu's Hat (With Collar), Dore's Scouter, Yamcha's Sword, Perfect Cell's Wings, SSGSS Goku Wig, SSGSS Vegeta Wig, Toppo's Moustache, Goku Wig (Ultra Instinct), Janemba Head, Broly Wig (Legendary Super Saiyan), Kakunsa's Tail, Kakunsa's Wig and Mask, Rozie's Hood and Goggles, Universe 7 Baseball Cap, Caulifla Wig, Kale Wig, Bulma (Kid) Wig, Android 17 (DB Super) Ranger Wig, Gamma 2 Helmet, Cheelai's Coat, Great Saiyaman Helmet, Jaco's State-of-the-Art Radio, Tagoma's Scouter, Android 14's Hat, Bardock (DB Super)'s Scouter, Great Saiyaman Bandana 1, and Great Saiyaman Bandana 2.
+- [x] Added endpoint-record references to `accessory-canonical-reconciliation.json` and updated the endpoint integrity audit. Remaining unresolved endpoint entries are now **3**: `Yamcha's Baseball Hat`, `Yamcha Baseball Hat`, and `Videl T-Shirt`.
+- [x] Deliberately left the two Yamcha Baseball Hat variants unresolved because the endpoint layer currently contains two same-named records (`acc-067` and `acc-092`); merging them without stronger inventory evidence would risk collapsing distinct/duplicate historical records incorrectly.
+- [x] `Videl T-Shirt` remains unresolved because no existing canonical accessory endpoint record was found.
+- [x] External source checks corroborate several base-game identities and PQ routes, including Four-Star Dragon Ball Hat (PQ05), Chiaotzu's Hat (PQ09), Dore's Scouter (PQ27), Yamcha's Sword (PQ36), SSGSS Goku Wig (PQ76), SSGSS Vegeta Wig (PQ100), and Jaco's State-of-the-Art Radio (PQ72). No drop guarantees or mechanics were inferred from these checks. 
+- [ ] Runtime validator remains unverified.
+- [ ] **Exact next:** resolve the two Yamcha Baseball Hat records through inventory-level/source reconciliation, then research `Videl T-Shirt`; do not merge duplicate endpoint records or invent a new canonical identity without evidence.
