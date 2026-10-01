@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "audit_type": "pq_equipment_reward_recovery",
+  "purpose": "Restore explicit PQ clothing reward relationships that were present in canonical PQ reward records but absent from the canonical PQ relationship layer.",
+  "evidence": [
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://www.reddit.com/r/DragonBallXenoverse2/comments/ylj119/is_the_a_compile_list_of_equipment_sets_that_tell_how_many_pieces_come_with_each_set/"
+  ],
+  "restored": [
+    {
+      "pq": "pq-046",
+      "target": "Android 16's Clothes",
+      "type": "clothing",
+      "basis": "Canonical PQ46 reward record plus maintained all-186 PQ guide."
+    },
+    {
+      "pq": "pq-089",
+      "target": "Videl's Clothes",
+      "type": "clothing",
+      "basis": "Canonical PQ89 reward record plus maintained equipment acquisition evidence."
+    }
+  ],
+  "changes": [
+    "Canonical PQ relationship count increased from 899 to 901.",
+    "Equipment relationship count increased from 147 to 149.",
+    "Unified reverse projection now includes both clothing endpoints.",
+    "Subtype parity audit now reports 149/149 equipment edges classified."
+  ],
+  "boundary": "No drop probability, guarantee, or Ultimate-Finish-only condition was inferred.",
+  "runtime_ci": "unverified_non_blocking"
+}
