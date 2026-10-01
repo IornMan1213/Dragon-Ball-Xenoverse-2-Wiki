@@ -1455,6 +1455,12 @@
     ],
     "Training Suit": [
       87
+    ],
+    "Videl T-Shirt": [
+      56
+    ],
+    "Gogeta's Clothes": [
+      57
     ]
   },
   "accessories": {
@@ -1617,6 +1623,12 @@
     ],
     "Great Saiyaman Bandana 2": [
       53
+    ],
+    "Android 13's Hat": [
+      105
+    ],
+    "Android 17 (DB Super) Wig": [
+      152
     ]
   },
   "coverage_notes": [
@@ -1633,7 +1645,8 @@
     "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated.",
     "2026-09-28 reverse audit: added the missing derived clothing reverse endpoint for canonical PQ47 → Broly's Clothes; no canonical forward relationship was created here.",
     "2026-09-30 canonical-first repair: rebuilt skill, Super Soul, and DLC reverse buckets directly from the 899-row canonical PQ forward relationship store. Equipment remains partially projected because the forward schema intentionally does not encode clothing/accessory subtype for every equipment target; unresolved subtype identities are not guessed.",
-    "2026-09-30 subtype recovery: populated 24 missing clothing/accessory reverse endpoints using explicit names in the canonical equipment/accessory record layers. Five equipment targets remain unclassified because neither canonical layer currently contains an exact name match: Android 13's Hat; Android 17 (DB Super) Wig; Videl T-Shirt; Gogeta's Clothes; Rakshasa's Claw."
+    "2026-09-30 subtype recovery: populated 24 missing clothing/accessory reverse endpoints using explicit names in the canonical equipment/accessory record layers. Five equipment targets remain unclassified because neither canonical layer currently contains an exact name match: Android 13's Hat; Android 17 (DB Super) Wig; Videl T-Shirt; Gogeta's Clothes; Rakshasa's Claw.",
+    "2026-09-30 source-backed subtype extension: classified Android 13's Hat and Android 17 (DB Super) Wig as accessories, and Videl T-Shirt and Gogeta's Clothes as clothing, based on independent reward/equipment evidence. Rakshasa's Claw remains unresolved because independent evidence identifies it as a Strike Super Attack while the canonical forward layer currently classifies it as equipment."
   ],
   "dlc": {
     "Conton City Vote Pack": [
