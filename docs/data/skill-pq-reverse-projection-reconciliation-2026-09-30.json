@@ -1,0 +1,19 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-09-30",
+  "type": "skill_pq_reverse_projection_reconciliation",
+  "authoritative_forward": "docs/data/pq-reward-relationships.json",
+  "reverse_projection": "docs/data/skill-pq-reverse-index-2026-09-26.json",
+  "forward_skill_edge_count": 248,
+  "reverse_edge_count": 248,
+  "canonical_skill_count": 550,
+  "reverse_declared_skill_count": 550,
+  "exact_count_parity": true,
+  "repairs": [
+    "Removed pq-057 / skill-rakshasa-s-claw from skill reverse projection because canonical forward relationship classifies Rakshasa's Claw as equipment.",
+    "Updated reverse canonical skill count from stale 493 to current live baseline 550.",
+    "Recomputed reverse edge and represented-PQ counts."
+  ],
+  "evidence_boundary": "This repair changes only a derived reverse projection; no canonical skill or forward PQ relationship was added or removed.",
+  "runtime_validation": "Not executed in this environment."
+}
