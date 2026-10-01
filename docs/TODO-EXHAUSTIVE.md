@@ -7945,3 +7945,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/skill-pq-reverse-projection-reconciliation-2026-09-30.json` documenting the repair and evidence boundary.
 - [ ] Runtime validator execution remains unverified.
 - [ ] **Next:** reconcile the broader PQ unified reverse index (skills/Super Souls/equipment/characters/DLC/farming) against the now-current 899-row forward store. Treat mismatches diagnostically and repair only derived projections from explicit canonical rows; do not promote reverse-only entries into canonical data without independent evidence. Then continue the unresolved accessory/component identity work and source-backed enrichment.
+
+
+### 2026-09-30 continuation — Canonical-first unified PQ reverse-index reconciliation
+- [x] Compared the unified PQ reverse index against all 899 current canonical forward relationship rows.
+- [x] Found stale derived coverage: skills 236/248, Super Souls 137/143, equipment 126/148, DLC 88/106; character 247/247 and farming 7/7 were already exact.
+- [x] Rebuilt the **skill**, **Super Soul**, and **DLC** reverse buckets directly from `docs/data/pq-reward-relationships.json`; no reverse-only evidence was promoted into canonical data.
+- [x] Preserved the equipment subtype boundary: the forward schema says `pq_rewards_equipment` but does not always identify clothing versus accessory, so the 22 remaining subtype-projection gaps were not guessed.
+- [x] Added `docs/data/pq-unified-reverse-index-reconciliation-2026-09-30.json` documenting exact category parity and the remaining equipment subtype gap.
+- [x] Refreshed `docs/data/live-canonical-recovery-baseline-2026-09-30.json` so its PQ relationship blob SHA matches the post-reconciliation canonical file.
+- [ ] Runtime validator execution remains unverified.
+- [ ] **Next:** resolve the 22 equipment reverse-subtype gaps from explicit equipment/accessory evidence where available, leaving genuinely unresolved identities marked unresolved; then audit stale dependent metadata and continue source-backed cross-domain enrichment.
