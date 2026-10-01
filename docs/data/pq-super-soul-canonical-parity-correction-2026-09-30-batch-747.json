@@ -1,0 +1,33 @@
+{
+  "batch": "747",
+  "date": "2026-09-30",
+  "title": "PQ Super Soul canonical identity parity correction",
+  "source_of_truth": [
+    "docs/data/parallel-quests-record-layer.json",
+    "docs/data/super-souls-record-layer.json",
+    "docs/data/pq-reward-relationships.json"
+  ],
+  "correction": {
+    "pq": "pq-029",
+    "before": "I'll use all my strength to kill you.",
+    "after": "I'll use all my strength to kill you...",
+    "canonical_record": "super-soul-050",
+    "reason": "The canonical Super Soul record and existing source-backed PQ29 relationship use the ellipsis form; the forward PQ record had a punctuation variant."
+  },
+  "validation_policy": [
+    "Only an exact canonical endpoint identity was normalized.",
+    "No new relationship was inferred; the existing pq-029 Super Soul relationship already targeted the same canonical reward identity.",
+    "No reward probability, guarantee, or Ultimate-Finish-only status was inferred."
+  ],
+  "remaining_forward_super_soul_endpoint_gaps": [
+    {
+      "pq": "pq-054",
+      "name": "Take care...of your mother..."
+    },
+    {
+      "pq": "pq-057",
+      "name": "I will defeat you!"
+    }
+  ],
+  "runtime_ci": "unverified"
+}
