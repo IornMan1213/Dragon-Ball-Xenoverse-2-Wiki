@@ -8551,3 +8551,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No reward probabilities, guarantees, or Ultimate-Finish-only mechanics were inferred.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue PQ cross-domain enrichment by finding additional canonical accessory/skill/Super Soul endpoint matches absent from the forward PQ records, then re-run the typed-reward parity census.
+
+### 2026-09-30 Batch 747 — PQ Super Soul canonical identity parity correction
+- [x] Normalized **PQ29** from `I'll use all my strength to kill you.` to the canonical Super Soul identity `I'll use all my strength to kill you...` in both the typed Super Soul reward list and general reward list.
+- [x] Confirmed the existing source-backed `pq-029 → pq_rewards_super_soul` relationship already targets the canonical identity; no new relationship was inferred.
+- [x] Added durable audit `docs/data/pq-super-soul-canonical-parity-correction-2026-09-30-batch-747.json`.
+- [x] Fresh forward Super Soul endpoint census now leaves only **PQ54** `Take care...of your mother...` and **PQ57** `I will defeat you!` without established canonical Super Soul endpoints.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** investigate only those two unresolved Super Soul endpoint gaps through canonical inventory/evidence; if neither resolves, continue the broader PQ cross-domain enrichment frontier and rerun parity.
