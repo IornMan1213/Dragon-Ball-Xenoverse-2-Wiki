@@ -8008,3 +8008,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical facts were reconstructed from reverse-only artifacts; metadata-only synchronization preserved the canonical-forward source policy.
 - [ ] Runtime execution of `scripts/validate_canonical_database_recovery.py` remains unverified because the repository workflow/runtime has historically been non-blocking for this project.
 - [ ] **Exact next:** audit the remaining registered cross-domain references for stale filenames/counts/SHA snapshots, then begin the next source-backed canonical equipment/accessory mechanics enrichment batch. Any repair must update the canonical endpoint first and regenerate/refresh dependent projections afterward.
+
+
+### 2026-10-01 continuation — Cross-domain stale-status correction and endpoint-gap audit
+- [x] Audited the live `docs/data/pq-cross-domain-status.json` against canonical `docs/data/pq-reward-relationships.json`; its current edge counts were stale (135 Super Soul, 136 equipment, 88 DLC) even though the canonical relationship store is now 901. Updated the current status layer to 249 skill / 143 Super Soul / 149 equipment / 247 character / 106 DLC / 7 farming = 901, while preserving its historical reconciliation entries.
+- [x] Re-audited `docs/data/pq-equipment-endpoint-integrity-audit-2026-09-30.json` and found that its endpoint list still contains explicit unresolved accessory/component names despite the prior status claiming resolution. Corrected the audit to `unresolved_identity_gaps`, recorded the unresolved count, and explicitly preserved the evidence boundary: no accessory ID is invented from a name alone.
+- [x] Confirmed two unresolved names have alias-level evidence (`Goku Wig` → `accr-014`, `Pan's Bandanna` → `accr-013`) but did not promote them because exact canonical-name reconciliation is still required.
+- [x] Canonical forward data remains authoritative; reverse projections and stale status layers are not used to manufacture endpoint identities.
+- [ ] Runtime validator remains unverified.
+- [ ] **Exact next:** work the unresolved PQ equipment/accessory endpoint list in evidence-backed batches, starting with exact inventory-level matches and preserving unresolved variants. Then refresh dependent reverse/cross-domain projections only after canonical endpoint decisions are made.
