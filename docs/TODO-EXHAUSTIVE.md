@@ -7859,3 +7859,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No new relationship edge was inferred; no drop probability, guarantee, or Ultimate-Finish-only status was inferred.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** run a fresh typed-reward parity census after Batch 745; then promote only directly source-backed endpoint matches and continue the broader PQ cross-domain enrichment frontier. Canonical forward datasets remain authoritative.
+
+### 2026-09-30 Batch 746 — PQ accessory cross-domain enrichment
+- [x] Added canonical accessory cross-links for **PQ3 → Piccolo's Turban**, **PQ51 → Great Saiyaman Bandana 1**, **PQ53 → Great Saiyaman Bandana 2**, and **PQ63 → Goku Wig (Super Saiyan)** using the maintained accessory-PQ canonical bridge.
+- [x] Preserved the existing historical route conflict around Goku Wig (Super Saiyan); the new link does not claim exclusivity or a guaranteed drop.
+- [x] Added durable audit `docs/data/pq-accessory-cross-domain-enrichment-2026-09-30-batch-746.json`.
+- [x] No reward probabilities, guarantees, or Ultimate-Finish-only mechanics were inferred.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue PQ cross-domain enrichment by finding additional canonical accessory/skill/Super Soul endpoint matches absent from the forward PQ records, then re-run the typed-reward parity census.
