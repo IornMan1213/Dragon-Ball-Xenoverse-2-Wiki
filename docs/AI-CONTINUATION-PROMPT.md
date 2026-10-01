@@ -8683,3 +8683,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] The unified PQ reverse projection remains fully aligned with the canonical forward graph; subtype parity remains 149/149.
 - [ ] Runtime validator/CI remains unverified.
 - [ ] Exact next: audit stale dependent metadata/manifests against the now-current canonical counts and SHAs, then continue source-backed enrichment of the canonical equipment/accessory endpoint records and unresolved mechanics fields. Preserve historical recovery artifacts instead of rewriting them, and never infer missing stats/drop rates from reverse projections.
+
+
+### 2026-10-01 continuation — Canonical baseline metadata synchronization
+- [x] Inspected the hardened canonical recovery validator contract. It dynamically derives the six PQ relationship counts and rejects duplicate/unknown relationships; no historical 840/493/248 frozen assumptions remain in the active validator.
+- [x] Fresh live metadata audit found the recovery baseline itself had stale downstream references after the equipment restoration commits. Updated `docs/data/live-canonical-recovery-baseline-2026-09-30.json` with the current equipment (115), accessory (97), PQ reverse-projection, skill→PQ reverse, and canonical PQ relationship references; canonical PQ relationship provenance now points to the latest reconciliation commit.
+- [x] Synchronized `docs/data/pq-cross-domain-index.json` with the current recovery baseline and the three 2026-09-30 recovery/enrichment audits, and recorded the current canonical PQ relationship count as 901 (249/143/149/247/106/7).
+- [x] No canonical facts were reconstructed from reverse-only artifacts; metadata-only synchronization preserved the canonical-forward source policy.
+- [ ] Runtime execution of `scripts/validate_canonical_database_recovery.py` remains unverified because the repository workflow/runtime has historically been non-blocking for this project.
+- [ ] **Exact next:** audit the remaining registered cross-domain references for stale filenames/counts/SHA snapshots, then begin the next source-backed canonical equipment/accessory mechanics enrichment batch. Any repair must update the canonical endpoint first and regenerate/refresh dependent projections afterward.
