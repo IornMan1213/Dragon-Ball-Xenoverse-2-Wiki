@@ -1,19 +1,11 @@
 {
   "schema_version": "1.2.0",
-  "audit_date": "2026-09-30",
+  "audit_date": "2026-10-01",
   "category": "pq_rewards_equipment_endpoint_integrity",
   "forward_edges": 149,
   "direct_equipment_endpoints": 115,
   "canonical_accessory_endpoints": 88,
   "unresolved_endpoint_names": [
-    [
-      "pq-097",
-      "Yamcha's Baseball Hat"
-    ],
-    [
-      "pq-097",
-      "Yamcha Baseball Hat"
-    ],
     [
       "pq-056",
       "Videl T-Shirt"
@@ -182,10 +174,27 @@
     "Videl's Clothes",
     "Gogeta's Clothes"
   ],
-  "evidence_boundary": "Forward PQ equipment relationship identities are canonical and source-backed. Direct clothing endpoints resolve to canonical equipment records; accessory endpoints resolve only where an exact canonical accessory identity exists. The remaining unresolved names are retained as explicit research gaps; no accessory IDs are invented from names alone.",
-  "status": "unresolved_identity_gaps",
-  "unresolved_count": 3,
-  "accessory_bridge_count": 39,
+  "evidence_boundary": "Forward PQ equipment relationship identities are canonical and source-backed. Endpoint identities may resolve through either direct equipment records or the explicit canonical accessory bridge. No endpoint ID is fabricated from a reverse-only projection.",
+  "status": "single_remaining_identity_gap",
+  "unresolved_count": 1,
+  "accessory_bridge_count": 42,
   "restored_direct_equipment_count": 3,
-  "follow_up": "Continue resolving remaining names. Yamcha Baseball Hat variants remain unresolved because the endpoint layer currently contains two same-named records; Videl T-Shirt remains without an existing canonical endpoint."
+  "follow_up": "Videl T-Shirt remains without an existing canonical inventory endpoint; preserve the canonical PQ→equipment relationship while continuing clothing endpoint research. Android 13's Hat, Android 17 (DB Super) Wig, and Yamcha Baseball Hat now resolve through explicit canonical accessory bridge identities.",
+  "resolved_via_canonical_accessory_bridge": [
+    [
+      "pq-105",
+      "Android 13's Hat",
+      "accr-027"
+    ],
+    [
+      "pq-152",
+      "Android 17 (DB Super) Wig",
+      "accr-029"
+    ],
+    [
+      "pq-097",
+      "Yamcha Baseball Hat",
+      "acc-067"
+    ]
+  ]
 }
