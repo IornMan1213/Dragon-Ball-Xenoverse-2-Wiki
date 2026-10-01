@@ -8017,3 +8017,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical forward data remains authoritative; reverse projections and stale status layers are not used to manufacture endpoint identities.
 - [ ] Runtime validator remains unverified.
 - [ ] **Exact next:** work the unresolved PQ equipment/accessory endpoint list in evidence-backed batches, starting with exact inventory-level matches and preserving unresolved variants. Then refresh dependent reverse/cross-domain projections only after canonical endpoint decisions are made.
+
+
+### 2026-10-01 continuation — Exact accessory identity reconciliation batch
+- [x] Cross-checked the 34 unresolved PQ equipment/accessory names against the canonical accessory identity layer instead of creating new IDs.
+- [x] Resolved `Goku Wig` → canonical accessory `accr-014` (`Goku's Wig`) using the existing exact alias and the canonical PQ relationship `PQ25 → Goku Wig`. The record now preserves the historical PQ10/PQ25 disagreement as provenance rather than treating it as a second identity.
+- [x] Resolved `Pan's Bandanna` → canonical accessory `accr-013` (`Pan's Bandana`) using the existing exact alias and the canonical `PQ93` relationship.
+- [x] Updated `pq-equipment-endpoint-integrity-audit-2026-09-30.json`; unresolved endpoint count is now 32, with both resolved identities represented as explicit accessory bridges.
+- [x] Web evidence independently supports the relevant PQ acquisition identities: the indexed equipment guide lists Goku Wig at PQ25, Pan's Bandanna at PQ93, and the historical guide documents the broader PQ equipment list. These sources were used only to corroborate identity/acquisition, not to invent stats or drop mechanics. citeturn0search9turn0search4
+- [ ] Runtime validator remains unverified.
+- [ ] **Exact next:** continue the remaining 32-name endpoint reconciliation in evidence-backed batches, prioritizing exact canonical-name/alias matches before creating any new canonical accessory records.
