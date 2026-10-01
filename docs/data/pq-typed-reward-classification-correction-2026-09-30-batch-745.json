@@ -35,5 +35,24 @@
     "PQ164 is no longer a spelling-only forward parity mismatch.",
     "PQ176 no longer has a cross-domain type collision between skill_rewards and super_soul_rewards."
   ],
-  "runtime_ci": "unverified"
+  "runtime_ci": "unverified",
+  "validation": {
+    "pq_records": 186,
+    "relationship_total": 878,
+    "declared_counts": {
+      "skill": 248,
+      "super_soul": 142,
+      "equipment": 148,
+      "character": 247,
+      "dlc": 86,
+      "farming": 7,
+      "total": 878
+    },
+    "duplicate_relationship_keys": 0,
+    "skill_forward_missing_edges": 0,
+    "registered_super_soul_forward_missing_edges": 0,
+    "pq164_registered_super_soul_identity": "This place will be your grave!",
+    "pq176_skill_identity": "God of Destruction's Might",
+    "pq176_super_soul_rewards": []
+  }
 }
