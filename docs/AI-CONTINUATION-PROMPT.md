@@ -8487,3 +8487,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added durable audit `docs/data/pq-reward-recovery-2026-09-30-batch-739.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue canonical PQ reward/skill relationship recovery across the remaining sparse records.
+
+
+### 2026-09-30 Batch 740 — PQ sparse reward recovery
+- [x] Recovered canonical basic reward fields for PQ46, PQ47, PQ48, PQ50, PQ51, PQ52, PQ53, PQ54, PQ55, PQ56, and PQ58 from maintained PQ research batches with corroborating source coverage.
+- [x] Restored typed equipment/Super Soul fields where canonical endpoint identities were already established; Android 16's Clothes remains a named PQ reward without a fabricated endpoint.
+- [x] Preserved PQ48 source spelling Kamekameha in the general reward list while keeping canonical skill identity Kamehameha.
+- [x] Added durable audit docs/data/pq-sparse-reward-recovery-2026-09-30-batch-740.json.
+- [x] No duplicate canonical relationship edges were introduced.
+- [ ] Runtime/CI remains intentionally unverified.
+- [ ] **Exact next:** continue sparse PQ reward/skill/equipment/Super Soul recovery across remaining null/empty canonical records, using direct maintained research and independent corroboration; do not reconstruct canonical data from indexes, projections, or verified layers.
