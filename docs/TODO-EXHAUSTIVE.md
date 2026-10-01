@@ -7935,3 +7935,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved older 549/862/877 recovery manifests as historical provenance rather than silently rewriting history.
 - [ ] Runtime execution of `scripts/validate_canonical_database_recovery.py` and CI remain unverified.
 - [ ] **Next:** run the hardened validator in a checkout; then reconcile downstream reverse indexes/projections against the now-current canonical PQ store. After parity is established, continue source-backed PQ↔skill/Super Soul/equipment enrichment and the unresolved accessory/component identity frontier. Audit stale count metadata in dependent artifacts only after comparing them directly to canonical files.
+
+
+### 2026-09-30 continuation — Skill↔PQ reverse projection recovery
+- [x] Compared the live canonical PQ skill relationships against the stale `docs/data/skill-pq-reverse-index-2026-09-26.json` projection.
+- [x] Found a concrete derived-layer error: PQ-057 listed **Rakshasa's Claw** as a skill even though the canonical forward relationship store classifies it as `pq_rewards_equipment` and explicitly has no corresponding skill reward.
+- [x] Removed only that stale derived reverse edge; no canonical forward relationship was changed.
+- [x] Updated the reverse projection's stale canonical skill count from 493 to the current live baseline of 550 and recomputed its edge count to 248, matching the canonical PQ skill-edge count.
+- [x] Added `docs/data/skill-pq-reverse-projection-reconciliation-2026-09-30.json` documenting the repair and evidence boundary.
+- [ ] Runtime validator execution remains unverified.
+- [ ] **Next:** reconcile the broader PQ unified reverse index (skills/Super Souls/equipment/characters/DLC/farming) against the now-current 899-row forward store. Treat mismatches diagnostically and repair only derived projections from explicit canonical rows; do not promote reverse-only entries into canonical data without independent evidence. Then continue the unresolved accessory/component identity work and source-backed enrichment.
