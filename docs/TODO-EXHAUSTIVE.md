@@ -8069,3 +8069,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved historical audit snapshots and correction history instead of overwriting them as if they were current.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** resolve the three equipment endpoint identity gaps with source-backed identity evidence, then continue stale-manifest audit and sparse PQ/Super Soul/mechanics enrichment. Never reconstruct canonical data from reverse projections.
+
+
+### 2026-10-01 continuation — Equipment endpoint identity recovery
+- [x] Re-audited the three previously reported equipment endpoint gaps against the explicit canonical accessory bridge, rather than treating absence from the direct equipment table as absence of an identity.
+- [x] Resolved **Android 13's Hat → `accr-027`** through `docs/data/accessory-pq-canonical-bridge.json`.
+- [x] Resolved **Android 17 (DB Super) Wig → `accr-029`** through the same canonical accessory bridge.
+- [x] Resolved the **Yamcha Baseball Hat → `acc-067`** identity already established by the canonical accessory bridge; the two direct endpoint name variants are therefore not treated as separate missing identities.
+- [x] Updated `docs/data/pq-equipment-crosslink-report.json`: 149 canonical equipment edges / 144 unique targets now have **143 endpoint identity resolutions**, leaving **one** endpoint gap: Videl T-Shirt.
+- [x] Updated `docs/data/pq-equipment-endpoint-integrity-audit-2026-09-30.json` to distinguish direct equipment endpoints from explicit accessory-bridge identities; no ID was invented.
+- [x] Refreshed `docs/data/pq-equipment-reverse-subtype-audit-2026-09-30.json` to the current 149-edge canonical baseline with complete subtype projection.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** research/resolve the remaining **Videl T-Shirt** canonical clothing endpoint, then continue stale-manifest reconciliation and substantive sparse PQ/Super Soul/mechanics enrichment. Keep the canonical PQ relationship even if the endpoint remains unresolved.
