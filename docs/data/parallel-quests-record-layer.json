@@ -1837,15 +1837,23 @@
         "Defeat revived Goku"
       ],
       "ultimate_finish": "Defeat revived Goku",
-      "rewards": [],
+      "rewards": [
+        "3010 Zeni",
+        "Aura Capsule M",
+        "Super God Fist"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Super God Fist"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-068",
@@ -1858,15 +1866,24 @@
       ],
       "ultimate_finish": "Recover 7 Dragon Balls",
       "dragon_ball_farming": true,
-      "rewards": [],
+      "rewards": [
+        "3090 Zeni",
+        "Med. Mix Capsule",
+        "High Mix Capsule",
+        "Angry Shout"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Angry Shout"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-069",
@@ -1878,15 +1895,25 @@
         "Defeat revived Beerus"
       ],
       "ultimate_finish": "Defeat revived Beerus",
-      "rewards": [],
+      "rewards": [
+        "3140 Zeni",
+        "All-Guard Shard",
+        "All-Guard Crystal",
+        "Goku's Work Clothes",
+        "Headshot"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Headshot"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-070",
@@ -1898,15 +1925,25 @@
         "Defeat Golden Frieza and Metal Cooler"
       ],
       "ultimate_finish": "Defeat Golden Frieza and Metal Cooler",
-      "rewards": [],
+      "rewards": [
+        "3200 Zeni",
+        "All-Regen Shard",
+        "All-Regen Crystal",
+        "I've come back from the dead...",
+        "Emperor's Blast"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Emperor's Blast"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-071",
@@ -1918,15 +1955,23 @@
         "Defeat Golden Frieza"
       ],
       "ultimate_finish": "Defeat Golden Frieza",
-      "rewards": [],
+      "rewards": [
+        "3260 Zeni",
+        "Energy Capsule L",
+        "Last Emperor"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Last Emperor"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-072",
@@ -1938,13 +1983,20 @@
         "Defeat every opponent with Golden Frieza still alive"
       ],
       "ultimate_finish": "Defeat every opponent with Golden Frieza still alive",
-      "rewards": [],
+      "rewards": [
+        "3340 Zeni",
+        "Jaco's State-of-the-Art Radio",
+        "Burst Kamehameha"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Burst Kamehameha"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "equipment_links": [],
       "accessory_links": [
@@ -1956,7 +2008,8 @@
       ],
       "equipment_rewards": [
         "Jaco's State-of-the-Art Radio"
-      ]
+      ],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-073",
@@ -1968,13 +2021,21 @@
         "Defeat every opponent"
       ],
       "ultimate_finish": "Defeat every opponent",
-      "rewards": [],
+      "rewards": [
+        "3390 Zeni",
+        "Tagoma's Scouter",
+        "Qipao (CC)",
+        "Psychic Move"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Psychic Move"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "equipment_links": [],
       "accessory_links": [
@@ -1986,7 +2047,8 @@
       ],
       "equipment_rewards": [
         "Tagoma's Scouter"
-      ]
+      ],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-074",
@@ -1998,15 +2060,26 @@
         "Defeat Golden Frieza"
       ],
       "ultimate_finish": "Defeat Golden Frieza",
-      "rewards": [],
+      "rewards": [
+        "3420 Zeni",
+        "The gold represents the new me.",
+        "Final Pose"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Final Pose"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "super_soul_rewards": [
+        "The gold represents the new me."
+      ],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-075",
@@ -2018,15 +2091,22 @@
         "Defeat Beerus and Whis"
       ],
       "ultimate_finish": "Defeat Beerus and Whis",
-      "rewards": [],
+      "rewards": [
+        "3450 Zeni",
+        "Counter Burst"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Counter Burst"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
-      "equipment_links": []
+      "equipment_links": [],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-076",
@@ -2038,13 +2118,21 @@
         "Defeat SSGSS Goku and SSGSS Vegeta"
       ],
       "ultimate_finish": "Defeat SSGSS Goku and SSGSS Vegeta after the SS4 condition",
-      "rewards": [],
+      "rewards": [
+        "3490 Zeni",
+        "SSGSS Goku Wig",
+        "Whis Symbol Gi",
+        "Warp Kamehameha"
+      ],
       "verification_status": "partially_verified",
       "skill_rewards": [
         "Warp Kamehameha"
       ],
       "sources": [
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+        "https://www.criticalhit.net/gaming/dragon-ball-xenoverse-2-parallel-quest-and-ultimate-finish-guide/",
+        "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
       ],
       "equipment_links": [],
       "accessory_links": [
@@ -2056,7 +2144,8 @@
       ],
       "equipment_rewards": [
         "SSGSS Goku Wig"
-      ]
+      ],
+      "notes": "Batch 741 recovery: restored the explicitly documented basic reward set from maintained PQ research; typed endpoints were updated only where the canonical endpoint relationship is already source-backed."
     },
     {
       "id": "pq-077",
