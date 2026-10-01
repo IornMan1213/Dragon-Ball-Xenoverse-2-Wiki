@@ -1,45 +1,481 @@
 {
   "schema_version": "1.0",
   "canonical_range": "PQ 1-186",
-  "status": "source_normalized_partial",
+  "status": "source_normalized_partial_equipment_projection",
   "generated_from": [
     "pq-001-040-reward-map.json",
     "pq-041-080-reward-map.json",
     "pq-081-120-reward-map.json",
     "pq-121-142-reward-map.json",
     "pq-143-162-reward-map.json",
-    "pq-163-186-reward-map.json"
+    "pq-163-186-reward-map.json",
+    "docs/data/pq-reward-relationships.json (2026-09-30 canonical-first rebuild of skills/Super Souls/DLC)"
   ],
   "index_semantics": "Each value lists PQ numbers where the named reward is explicitly established by the current normalized source layer. Missing entries are not negative claims.",
   "skills": {
-    "Spirit Slash": [
-      2
+    "Absolute Zero": [
+      96
     ],
-    "Solar Flare": [
-      3
+    "Afterimage Strike": [
+      81
     ],
-    "Paralyze Beam": [
-      4
+    "Angry Shout": [
+      68
+    ],
+    "Apocalyptic Burst": [
+      161
+    ],
+    "Assault Vanish": [
+      131
+    ],
+    "Atomic Blast": [
+      87
+    ],
+    "Big Bang Knuckle": [
+      172
+    ],
+    "Blades of Judgment": [
+      112
+    ],
+    "Blaster Ball": [
+      125
+    ],
+    "Blaster Bomb": [
+      148
+    ],
+    "Blaster Cannon": [
+      148
+    ],
+    "Blaster Stream": [
+      148
+    ],
+    "Blazing Attack": [
+      136
+    ],
+    "Bluff Kamehameha": [
+      94
+    ],
+    "Brave Sword Attack": [
+      117
+    ],
+    "Brave Sword Slash": [
+      116
+    ],
+    "Breaker Energy Wave": [
+      101
+    ],
+    "Brutal Buster": [
+      141
+    ],
+    "Burning Attack": [
+      41
+    ],
+    "Burning Blast": [
+      180
+    ],
+    "Burning Shot": [
+      143
+    ],
+    "Burning Slash": [
+      44
+    ],
+    "Burning Swan": [
+      167
+    ],
+    "Burst Blitz": [
+      178
+    ],
+    "Burst Charge": [
+      134
+    ],
+    "Burst Kamehameha": [
+      72
+    ],
+    "Burst Rush": [
+      51
+    ],
+    "Burst Stinger": [
+      136
+    ],
+    "Buu Buu Ball": [
+      88
+    ],
+    "Candy Beam": [
+      66,
+      113
+    ],
+    "Candy Beam (Super)": [
+      113
+    ],
+    "Celestial Wave": [
+      151
+    ],
+    "Chain Destructo-Disc Barrage": [
+      46
+    ],
+    "Change The Future": [
+      43
+    ],
+    "Chaotic Time Impact": [
+      184
+    ],
+    "Charge": [
+      83
+    ],
+    "Charged Ki Wave": [
+      97
+    ],
+    "Circle Flash": [
+      154
+    ],
+    "Comet Strike": [
+      149
+    ],
+    "Core Breaker": [
+      158
+    ],
+    "Counter Burst": [
+      75
+    ],
+    "Counter Impact": [
+      153
+    ],
+    "Crazy Finger Shot": [
+      26
+    ],
+    "Crimson Edge": [
+      171
+    ],
+    "Crush Cannon": [
+      147
+    ],
+    "Crush Stream": [
+      147
+    ],
+    "Crusher Ball": [
+      34
+    ],
+    "Dark Inscription": [
+      182
+    ],
+    "Death Psycho Bomb": [
+      33
+    ],
+    "Death Slash": [
+      23
+    ],
+    "Demon Flash Strike": [
+      160
+    ],
+    "Demon Flurry": [
+      160
+    ],
+    "Demon Ray": [
+      160
+    ],
+    "Demonic Destruction": [
+      159
+    ],
+    "Destruction's Concerto: Comet": [
+      104
+    ],
+    "Destruction's Concerto: Meteor": [
+      106
+    ],
+    "Destruction's Concerto: Starfall": [
+      104
+    ],
+    "Destruction's Conductor": [
+      106
+    ],
+    "Destructive Fission": [
+      146
+    ],
+    "Destructive Flare": [
+      145
+    ],
+    "Destructive Fracture": [
+      145
+    ],
+    "Dimension Cannon": [
+      59
+    ],
+    "Dimension Ray": [
+      98
+    ],
+    "Dimensional Hole": [
+      80
+    ],
+    "Divine Ray Bomb": [
+      173
+    ],
+    "Divine Spear": [
+      171
+    ],
+    "Divine Wrath: Purification": [
+      112
+    ],
+    "Divinity Unleashed": [
+      110
+    ],
+    "Do or Die": [
+      49
+    ],
+    "Double Crush": [
+      147
+    ],
+    "Double Death Slicer": [
+      24
+    ],
+    "Dragon Blitz": [
+      141
+    ],
+    "Dragon Burn": [
+      82
+    ],
+    "Dragon Spark": [
+      177
+    ],
+    "Dragon Spiral": [
+      185
+    ],
+    "Drain Field": [
+      95
+    ],
+    "Dust Attack": [
+      78
+    ],
+    "Earth Splitting Galick Gun": [
+      11
+    ],
+    "Emperor's Blast": [
+      70
+    ],
+    "Emperor's Cannon": [
+      183
+    ],
+    "Emperor's Edge": [
+      99
+    ],
+    "Energy Barrier": [
+      32
+    ],
+    "Energy Field": [
+      29
+    ],
+    "Energy Shot": [
+      22
+    ],
+    "Eraser Bomb": [
+      163
+    ],
+    "Evil Blast": [
+      114
+    ],
+    "Evil Flame": [
+      117
+    ],
+    "Evil Flight Strike": [
+      21
+    ],
+    "Evil Whirlwind": [
+      36
+    ],
+    "Excellent Full Course": [
+      142
+    ],
+    "Explosive Buu Buu Punch": [
+      50
+    ],
+    "Fierce Fist": [
+      159
+    ],
+    "Fighting Pose B": [
+      16
+    ],
+    "Fighting Pose C": [
+      13
+    ],
+    "Fighting Pose D": [
+      15
+    ],
+    "Fighting Pose E": [
+      19
+    ],
+    "Fighting Pose H": [
+      61
+    ],
+    "Fighting Pose J": [
+      17
+    ],
+    "Final Cannon": [
+      52
+    ],
+    "Final Flash (SS3 DAIMA)": [
+      181
+    ],
+    "Final Kamehameha": [
+      91
+    ],
+    "Final Pose": [
+      74
+    ],
+    "Final Rampage": [
+      174
+    ],
+    "Flash Bomber": [
+      95
+    ],
+    "Flash Chaser": [
+      138
+    ],
+    "Force Edge": [
+      180
+    ],
+    "Force Shield": [
+      59
+    ],
+    "Formation!": [
+      133
+    ],
+    "Freedom Kick": [
+      29
+    ],
+    "Full Power Destruction": [
+      177
+    ],
+    "Gamma Blaster": [
+      155
+    ],
+    "Gamma Impact": [
+      155
+    ],
+    "Gigantic Breaker": [
+      126
+    ],
+    "Gigantic Burst": [
+      127
+    ],
+    "Gigantic Charge": [
+      128
+    ],
+    "Gigantic Cluster": [
+      163
+    ],
+    "Gigantic Explosion": [
+      164
+    ],
+    "Gigantic Rage": [
+      130
+    ],
+    "Gigantic Roar": [
+      132
+    ],
+    "God Breaker": [
+      44
+    ],
+    "God of Destruction's Menace": [
+      105
+    ],
+    "God of Destruction's Might": [
+      176
+    ],
+    "God of Destruction's Plaything": [
+      175
+    ],
+    "God of Destruction's Poise": [
+      175
+    ],
+    "God of Destruction's Roar": [
+      105
+    ],
+    "God Punisher": [
+      132
+    ],
+    "Handy Canon": [
+      115
+    ],
+    "Headshot": [
+      69
+    ],
+    "Heat Dome Attack": [
+      40
+    ],
+    "Heat Wave": [
+      179
+    ],
+    "Hero's Flute": [
+      116
+    ],
+    "Heroic Assault": [
+      156
+    ],
+    "Heroic Counter": [
+      155
+    ],
+    "Holstein Shock": [
+      15
+    ],
+    "Holy Wrath": [
+      111
+    ],
+    "Hyper Tornado": [
+      143
+    ],
+    "Ill Bomber": [
+      90
+    ],
+    "Ill Rain": [
+      64
+    ],
+    "Impact Flare": [
+      150
+    ],
+    "Indomitable": [
+      185
+    ],
+    "Instant Rise": [
+      37
+    ],
+    "Justice Blade": [
+      152
+    ],
+    "Justice Drive": [
+      168
+    ],
+    "Justice Kick": [
+      152
+    ],
+    "Justice Pose": [
+      53
+    ],
+    "Kai Kai": [
+      63
+    ],
+    "Kaioken": [
+      8
+    ],
+    "Kaioken Kamehameha": [
+      14
     ],
     "Kamehameha": [
       5,
       48
     ],
-    "Kaioken": [
-      8
+    "Ki Explosion": [
+      77
     ],
-    "Meteor Blow": [
-      9
+    "Last Emperor": [
+      71
     ],
-    "Wall of Defense": [
-      10
+    "Lightning Impact": [
+      142
     ],
-    "Unrelenting Barrage": [
-      10
+    "Lightning of Absolution": [
+      111
     ],
-    "Time Control": [
-      11,
-      18
+    "Lovely Cyclone": [
+      135
     ],
     "Mach Dash": [
       11,
@@ -48,697 +484,313 @@
     "Mach Punch": [
       19
     ],
-    "Fighting Pose E": [
-      19
-    ],
-    "Mystic Flash": [
-      20
-    ],
-    "Super Dragon Flight": [
-      31
-    ],
-    "Side Bridge": [
-      39
-    ],
-    "Heat Dome Attack": [
-      40
-    ],
-    "Burning Attack": [
-      41
-    ],
-    "Rolling Bullet": [
-      42
-    ],
-    "Change The Future": [
-      43
-    ],
-    "God Breaker": [
-      44
-    ],
-    "Burning Slash": [
-      44
-    ],
-    "Taunt": [
-      45
-    ],
-    "Force Shield": [
-      59
-    ],
-    "Dimension Cannon": [
-      59
+    "Maiden Burst": [
+      92
     ],
     "Majin Kamehameha": [
       60
     ],
+    "Meditation": [
+      122
+    ],
+    "Meteor Blow": [
+      9
+    ],
+    "Meteor Crash": [
+      12
+    ],
+    "Meteor Explosion": [
+      149
+    ],
+    "Meteor Strike": [
+      6
+    ],
+    "Mighty Explosive Wave": [
+      79
+    ],
+    "Mystic Flash": [
+      20
+    ],
+    "Neo Wolf Fang Fist": [
+      86
+    ],
+    "Paralysis": [
+      34
+    ],
+    "Paralyze Beam": [
+      4
+    ],
+    "Pendulum Bullet": [
+      166
+    ],
+    "Petrifying Spit": [
+      114
+    ],
+    "Phantom Fist": [
+      97
+    ],
+    "Photon Swipe": [
+      139
+    ],
+    "Power Impact": [
+      120
+    ],
+    "Power Rush": [
+      122
+    ],
+    "Power Wall": [
+      150
+    ],
+    "Powered Shell": [
+      128
+    ],
+    "Pretty Cannon": [
+      133
+    ],
+    "Prominence Flash": [
+      137
+    ],
+    "Psychic Move": [
+      73
+    ],
+    "Psycho Escape": [
+      13
+    ],
+    "Punisher Shield": [
+      129
+    ],
+    "Raid Blast": [
+      136
+    ],
+    "Ray Blast": [
+      125
+    ],
+    "Recoome Eraser Gun": [
+      17
+    ],
     "Recoome Kick": [
       61
+    ],
+    "Requiem of Destruction": [
+      106
+    ],
+    "Revenge Death Ball": [
+      127
+    ],
+    "Revenge Final Flash": [
+      124
+    ],
+    "Reverse Shot": [
+      123
+    ],
+    "Ribrianne's Eternal Love": [
+      137
+    ],
+    "Rolling Bullet": [
+      42
+    ],
+    "Rough Ranger": [
+      119
+    ],
+    "S.S. Deadly Bomber": [
+      115
+    ],
+    "Saiyan Spirit": [
+      84
+    ],
+    "Sauzer Blade": [
+      27
+    ],
+    "Savory Slicer": [
+      140
+    ],
+    "Scissors Paper Rock": [
+      65
+    ],
+    "Seagull Combination": [
+      167
+    ],
+    "Shield Barrier": [
+      153
+    ],
+    "Shine Shot": [
+      7
+    ],
+    "Shining Slash": [
+      38
+    ],
+    "Shooting Strike": [
+      156
+    ],
+    "Side Bridge": [
+      39
+    ],
+    "Sign of Awakening": [
+      154
+    ],
+    "Soaring Rush": [
+      177
+    ],
+    "Solar Flare": [
+      3
+    ],
+    "Sonic Bomb": [
+      105
+    ],
+    "Special Beam Cannon (Beast)": [
+      162
+    ],
+    "Spirit Blaster": [
+      129
+    ],
+    "Spirit Explosion": [
+      25
+    ],
+    "Spirit Pulse": [
+      151
+    ],
+    "Spirit Slash": [
+      2
+    ],
+    "Spread Shot Retreat": [
+      28
+    ],
+    "Steel Mirage": [
+      165
+    ],
+    "Stone Bullet": [
+      56
+    ],
+    "Super Black Kamehameha Rosé": [
+      109
+    ],
+    "Super Donut Volley": [
+      55
+    ],
+    "Super Dragon Flight": [
+      31
+    ],
+    "Super Gamma Blast": [
+      158
+    ],
+    "Super Ghost Buu Attack": [
+      113
+    ],
+    "Super God Fist": [
+      67
+    ],
+    "Super Kamehameha (SS4 DAIMA)": [
+      181
+    ],
+    "Supreme Fury": [
+      179
+    ],
+    "Taunt": [
+      45
     ],
     "Teleporting Vanishing Ball": [
       62
     ],
-    "Kai Kai": [
-      63
+    "Thunder Flash": [
+      146
     ],
-    "Ill Rain": [
-      64
+    "Time Control": [
+      11,
+      18
     ],
-    "Scissors Paper Rock": [
-      65
+    "Total Detonation Ball": [
+      139
+    ],
+    "Ultimate Charge": [
+      134
+    ],
+    "Ultrasonic Blitz": [
+      151
+    ],
+    "Unrelenting Barrage": [
+      10
+    ],
+    "Vanishing Ball": [
+      58
+    ],
+    "Variable Snipe Shot": [
+      165
+    ],
+    "Variant Drive": [
+      123
+    ],
+    "Venus Fist": [
+      186
+    ],
+    "Victory Cannon": [
+      54
+    ],
+    "Victory Rush": [
+      89
+    ],
+    "Wall of Defense": [
+      10
     ],
     "Warp Kamehameha": [
       66,
       76
     ],
-    "Ki Explosion": [
-      77
-    ],
-    "Dust Attack": [
-      78
-    ],
-    "Mighty Explosive Wave": [
-      79
-    ],
-    "Dimensional Hole": [
-      80
-    ],
-    "Afterimage Strike": [
-      81
-    ],
-    "Dragon Burn": [
-      82
-    ],
-    "Charge": [
-      83
-    ],
-    "Saiyan Spirit": [
-      84
-    ],
-    "Zigzag Express": [
-      85
-    ],
-    "Buu Buu Ball": [
-      88
-    ],
-    "Victory Rush": [
-      89
-    ],
-    "III Bomber": [
-      90
-    ],
-    "Final Kamehameha": [
-      91
-    ],
-    "Maiden Burst": [
-      92
-    ],
-    "Bluff Kamehameha": [
-      94
-    ],
-    "Flash Bomber": [
-      95
-    ],
-    "Drain Field": [
-      95
-    ],
-    "Absolute Zero": [
-      96
-    ],
-    "Charged Ki Wave": [
-      97
-    ],
-    "Phantom Fist": [
-      97
-    ],
-    "Dimension Ray": [
-      98
-    ],
-    "Emperor's Edge": [
-      99
-    ],
-    "X 100 Big Bang Kamehameha": [
-      100
-    ],
-    "Breaker Energy Wave": [
-      101
-    ],
-    "Destruction's Concerto: Comet": [
-      104
-    ],
-    "Starfall": [
-      104
-    ],
-    "Sonic Bomb": [
-      105
-    ],
-    "God of Destruction's Menace": [
-      105
-    ],
-    "God of Destruction's Roar": [
-      105
-    ],
-    "Super Black Kamehameha Rosé": [
-      109
-    ],
-    "Divinity Unleashed": [
-      110
-    ],
-    "Lightning of Absolution": [
-      111
-    ],
-    "Holy Wrath": [
-      111
-    ],
-    "Blades of Judgment": [
-      112
-    ],
-    "Divine Wrath: Purification": [
-      112
-    ],
-    "Super Ghost Buu Attack": [
-      113
-    ],
-    "Candy Beam": [
-      113,
-      66
-    ],
-    "Petrifying Spit": [
-      114
-    ],
-    "Evil Blast": [
-      114
-    ],
-    "Handy Canon": [
-      115
-    ],
-    "S.S. Deadly Bomber": [
-      115
-    ],
-    "Brave Sword Slash": [
-      116
-    ],
-    "Hero's Flute": [
-      116
-    ],
-    "Evil Flame": [
-      117
-    ],
-    "Brave Sword Attack": [
-      117
-    ],
-    "Rough Ranger": [
-      119
-    ],
-    "Power Impact": [
-      120
-    ],
-    "Meditation": [
-      122
-    ],
-    "Power Rush": [
-      122
-    ],
-    "Reverse Shot": [
-      123
-    ],
-    "Variant Drive": [
-      123
-    ],
-    "Revenge Final Flash": [
-      124
-    ],
-    "Blaster Ball": [
-      125
-    ],
-    "Ray Blast": [
-      125
-    ],
-    "Gigantic Breaker": [
-      126
-    ],
-    "Gigantic Burst": [
-      127
-    ],
-    "Revenge Death Ball": [
-      127
-    ],
-    "Powered Shell": [
-      128
-    ],
-    "Gigantic Charge": [
-      128
-    ],
-    "Spirit Blaster": [
-      129
-    ],
-    "Punisher Shield": [
-      129
-    ],
-    "Gigantic Rage": [
-      130
-    ],
-    "Assault Vanish": [
-      131
-    ],
-    "God Punisher": [
-      132
-    ],
-    "Gigantic Roar": [
-      132
-    ],
-    "Pretty Cannon": [
-      133
-    ],
-    "Formation!": [
-      133
-    ],
-    "Ultimate Charge": [
-      134
-    ],
-    "Burst Charge": [
-      134
-    ],
-    "Lovely Cyclone": [
-      135
-    ],
-    "Burst Stinger": [
-      136
-    ],
-    "Raid Blast": [
-      136
-    ],
-    "Blazing Attack": [
-      136
-    ],
-    "Ribrianne's Eternal Love": [
-      137
-    ],
-    "Prominence Flash": [
-      137
-    ],
-    "Flash Chaser": [
-      138
-    ],
-    "Total Detonation Ball": [
-      139
-    ],
-    "Photon Swipe": [
-      139
-    ],
-    "Savory Slicer": [
-      140
-    ],
-    "Dragon Blitz": [
-      141
-    ],
-    "Brutal Buster": [
-      141
-    ],
-    "Lightning Impact": [
-      142
-    ],
-    "Excellent Full Course": [
-      142
-    ],
-    "Hyper Tornado": [
-      143
-    ],
-    "Burning Shot": [
-      143
-    ],
-    "Destructive Fracture": [
-      145
-    ],
-    "Destructive Flare": [
-      145
-    ],
-    "Thunder Flash": [
-      146
-    ],
-    "Destructive Fission": [
-      146
-    ],
-    "Crush Cannon": [
-      147
-    ],
-    "Double Crush": [
-      147
-    ],
-    "Crush Stream": [
-      147
-    ],
-    "Blaster Cannon": [
-      148
-    ],
-    "Blaster Bomb": [
-      148
-    ],
-    "Blaster Stream": [
-      148
-    ],
-    "Comet Strike": [
-      149
-    ],
-    "Meteor Explosion": [
-      149
-    ],
-    "Impact Flare": [
-      150
-    ],
-    "Power Wall": [
-      150
-    ],
-    "Ultrasonic Blitz": [
-      151
-    ],
-    "Spirit Pulse": [
-      151
-    ],
-    "Celestial Wave": [
-      151
-    ],
-    "Justice Kick": [
-      152
-    ],
-    "Justice Blade": [
-      152
-    ],
     "Wild Buster": [
       153
-    ],
-    "Shield Barrier": [
-      153
-    ],
-    "Counter Impact": [
-      153
-    ],
-    "Sign of Awakening": [
-      154
-    ],
-    "Circle Flash": [
-      154
-    ],
-    "Heroic Counter": [
-      155
-    ],
-    "Gamma Blaster": [
-      155
-    ],
-    "Gamma Impact": [
-      155
-    ],
-    "Heroic Assault": [
-      156
-    ],
-    "Shooting Strike": [
-      156
-    ],
-    "Super Gamma Blast": [
-      158
-    ],
-    "Core Breaker": [
-      158
-    ],
-    "Fierce Fist": [
-      159
-    ],
-    "Demonic Destruction": [
-      159
-    ],
-    "Demon Ray": [
-      160
-    ],
-    "Demon Flash Strike": [
-      160
-    ],
-    "Demon Flurry": [
-      160
-    ],
-    "Apocalyptic Burst": [
-      161
-    ],
-    "Special Beam Cannon (Beast)": [
-      162
-    ],
-    "Giant Cluster": [
-      163
-    ],
-    "Eraser Bomb": [
-      163
-    ],
-    "Gigantic Explosion": [
-      164
-    ],
-    "Variable Snipe Shot": [
-      165
-    ],
-    "Steel Mirage": [
-      165
-    ],
-    "Pendulum Bullet": [
-      166
-    ],
-    "Seagull Combination": [
-      167
-    ],
-    "Burning Swan": [
-      167
-    ],
-    "Justice Drive": [
-      168
-    ],
-    "Crimson Edge": [
-      171
-    ],
-    "Divine Spear": [
-      171
-    ],
-    "Big Bang Knuckle": [
-      172
     ],
     "Wild Stinger": [
       172
     ],
-    "Divine Ray Bomb": [
-      173
-    ],
-    "Final Rampage": [
-      174
-    ],
-    "God of Destruction's Plaything": [
-      175
-    ],
-    "God of Destruction's Poise": [
-      175
-    ],
-    "God of Destruction's Might": [
-      176
-    ],
-    "Full Power Destruction": [
-      177
-    ],
-    "Dragon Spark": [
-      177
-    ],
-    "Soaring Rush": [
-      177
-    ],
-    "Burst Blitz": [
-      178
-    ],
-    "Heat Wave": [
-      179
-    ],
-    "Supreme Fury": [
-      179
-    ],
-    "Force Edge": [
-      180
-    ],
-    "Burning Blast": [
-      180
-    ],
-    "Super Kamehameha (SS4 DAIMA)": [
-      181
-    ],
-    "Final Flash (SS3 DAIMA)": [
-      181
-    ],
-    "Dark Inscription": [
-      182
-    ],
-    "Emperor's Cannon": [
-      183
-    ],
-    "Chaotic Time Impact": [
-      184
-    ],
-    "Dragon Spiral": [
-      185
-    ],
-    "Indomitable": [
-      185
-    ],
-    "Venus Fist": [
-      186
-    ],
-    "Meteor Strike": [
-      6
-    ],
-    "Shine Shot": [
-      7
-    ],
-    "Earth Splitting Galick Gun": [
-      11
-    ],
-    "Evil Flight Strike": [
-      21
-    ],
-    "Energy Shot": [
-      22
-    ],
-    "Death Slash": [
-      23
-    ],
-    "Double Death Slicer": [
-      24
-    ],
-    "Spirit Explosion": [
-      25
-    ],
-    "Crazy Finger Shot": [
-      26
-    ],
-    "Sauzer Blade": [
-      27
-    ],
-    "Spread Shot Retreat": [
-      28
-    ],
-    "Freedom Kick": [
-      29
-    ],
-    "Energy Field": [
-      29
-    ],
-    "Energy Barrier": [
-      32
-    ],
-    "Death Psycho Bomb": [
-      33
-    ],
-    "Crusher Ball": [
-      34
-    ],
-    "Paralysis": [
-      34
-    ],
-    "Evil Whirlwind": [
-      36
-    ],
-    "Instant Rise": [
-      37
-    ],
-    "Shining Slash": [
-      38
-    ],
-    "Chain Destructo-disc Barrage": [
-      46
-    ],
-    "Explosive Buu Buu Punch": [
-      50
-    ],
-    "Burst Rush": [
-      51
-    ],
-    "Final Cannon": [
-      52
-    ],
-    "Justice Pose": [
-      53
-    ],
-    "Victory Cannon": [
-      54
-    ],
-    "Super Donut Volley": [
-      55
-    ],
-    "Stone Bullet": [
-      56
-    ],
-    "Vanishing Ball": [
-      58
-    ],
-    "Fighting Pose H": [
-      61
-    ],
-    "Super God Fist": [
-      67
-    ],
-    "Angry Shout": [
-      68
-    ],
-    "Headshot": [
-      69
-    ],
-    "Emperor's Blast": [
-      70
-    ],
-    "Last Emperor": [
-      71
-    ],
-    "Burst Kamehameha": [
-      72
-    ],
-    "Psychic Move": [
-      73
-    ],
-    "Final Pose": [
-      74
-    ],
-    "Counter Burst": [
-      75
-    ],
-    "Meteor Crash": [
-      12
-    ],
-    "Fighting Pose C": [
-      13
-    ],
-    "Psycho Escape": [
-      13
-    ],
-    "Kaioken Kamehameha": [
-      14
-    ],
-    "Do or Die": [
-      49
+    "X 100 Big Bang Kamehameha": [
+      100
+    ],
+    "Zigzag Express": [
+      85
     ]
   },
   "super_souls": {
-    "Your death is imminent!": [
-      5
+    "A monster? No, I'm a devil!": [
+      47
     ],
-    "I'm neither Kami nor Piccolo...": [
-      21,
-      30
+    "AAAAAAAAAGH!": [
+      183
     ],
-    "Time to dismantle you androids!": [
-      40
-    ],
-    "Set your rage free...": [
-      42
-    ],
-    "Getting beat up makes me cranky...": [
-      44
+    "Alright! Let's go wreck some faces!": [
+      126
     ],
     "Before creation comes ruin...": [
       63
     ],
-    "Janemba! Janemba!": [
-      64
+    "Buu Don't Wanna!": [
+      105
     ],
-    "I never knew this world existed!": [
-      65
+    "D-Don't talk bad about my family!": [
+      141
+    ],
+    "Damn it all!": [
+      180
+    ],
+    "Don't quit! Get up!": [
+      102
+    ],
+    "Don't think I'm gonna show you any gratitude!": [
+      129
+    ],
+    "Don't think I'm the same as before!": [
+      124
+    ],
+    "Drop dead!!!": [
+      28
+    ],
+    "Earth is in your hands now!": [
+      116
+    ],
+    "Eehee hee hee heee!": [
+      106,
+      108
+    ],
+    "Enter the hero!": [
+      159
     ],
     "Everyone, lend me your energy!": [
       92
@@ -746,375 +798,381 @@
     "Finally, some excitement.": [
       93
     ],
-    "I...hate you!!!": [
-      93
-    ],
-    "Strengthen me, Shadow Dragons!": [
-      94
-    ],
-    "Someone, satisfy me...": [
-      97
-    ],
-    "Revival of the Demon Realm is at hand": [
-      97
-    ],
-    "I'll make you regret that!": [
-      102
-    ],
-    "Don't quit! Get up!": [
-      102
-    ],
-    "This is not a weapon.": [
-      103
-    ],
-    "I've been saving this! Kaioken!": [
-      103
-    ],
-    "Now you understand. Surrender.": [
-      103
-    ],
-    "How Dare You...! That's My Bulma": [
-      104
-    ],
-    "Me...Protecting Some Pipsqueak": [
-      105
-    ],
-    "Buu Don't Wanna!": [
-      105
-    ],
-    "You're Just Pieces in a Game": [
-      106
-    ],
-    "Watch Your Tongue": [
-      106
-    ],
-    "Eehee hee hee heee!": [
-      106,
-      108
-    ],
-    "You can't win...": [
-      107
-    ],
-    "Now, give your father a message for me.": [
-      108
-    ],
-    "I really do love being immortal.": [
-      109
-    ],
-    "I like you better when you're mad!": [
-      109
-    ],
-    "This fight is only just beginning!": [
-      110
-    ],
-    "I shall show you my great godly might!": [
-      110
-    ],
-    "I feel it... Everyone, lend me your power!": [
-      111
-    ],
-    "Sorry. You were way open there.": [
-      112
-    ],
-    "I ain't losin'! Here's my full power!": [
-      112
-    ],
-    "I'm never going to forgive him!": [
-      112
-    ],
-    "I'll make good use of you!": [
-      113
-    ],
-    "I'm stronger than ever now!": [
-      113
-    ],
-    "The real fight starts now!": [
-      114
-    ],
-    "Looks like you're done!": [
-      115
-    ],
-    "If I don't do it, who will?": [
-      116
-    ],
-    "Earth is in your hands now!": [
-      116
-    ],
-    "Get serious, would you?": [
-      117
-    ],
-    "Now we're even.": [
-      118
-    ],
-    "I hate what I've become!": [
-      118
-    ],
-    "Time to get serious, I guess.": [
-      119
-    ],
-    "Hmph! For justice!": [
-      120
-    ],
-    "This heat...will be your downfall!": [
-      120
-    ],
-    "Right, then... Let's begin the experiment!": [
-      121
+    "Flying Nimbus!!": [
+      2
     ],
     "For beauty! For elegance! For love!": [
       122
     ],
-    "This Super Saiyan 2 is crazy strong!": [
-      122
-    ],
-    "Don't think I'm the same as before!": [
-      124
-    ],
-    "Alright! Let's go wreck some faces!": [
-      126
-    ],
     "GAAAGH!": [
       128
     ],
-    "Your father has been killed!": [
-      128
+    "Get serious, would you?": [
+      117
     ],
-    "I've waited an unbelievably long time for this...": [
-      128
+    "Getting beat up makes me cranky...": [
+      44
+    ],
+    "Goku the legendary Super Saiyan!": [
+      28
+    ],
+    "Gyau!!!!": [
+      7
+    ],
+    "H-How could he?!": [
+      12
+    ],
+    "Heh heh! I'm not as rusty as I look!": [
+      158
     ],
     "Heh heh! Now THIS is real power!": [
       129
     ],
-    "Hey, you think you could fight a little quieter?!": [
-      129
+    "Here it comes!": [
+      133
     ],
-    "Don't think I'm gonna show you any gratitude!": [
+    "Hey, you think you could fight a little quieter?!": [
       129
     ],
     "Hey, you! You ready for me?!": [
       130
     ],
+    "Hmph! For justice!": [
+      120
+    ],
     "Hmph. I'm off to take a nap.": [
       130
-    ],
-    "Th-Thanks...": [
-      130
-    ],
-    "Leave the rest to me!": [
-      131
-    ],
-    "You'd better survive, you got that?!": [
-      131
-    ],
-    "Shall we pick up where we left off?": [
-      131
-    ],
-    "Whoa, it's freezing here!": [
-      132
-    ],
-    "This is no time to mess around...": [
-      132
-    ],
-    "I can't have you dying on me!": [
-      132
-    ],
-    "Here it comes!": [
-      133
-    ],
-    "I got my claws in you, and fangs too!": [
-      133
-    ],
-    "Power! A lotta power! It's great!": [
-      134
-    ],
-    "That won't work on me!": [
-      135
-    ],
-    "Pathetic": [
-      136
-    ],
-    "Justice is nothing to me now.": [
-      136
-    ],
-    "This is everything I've got!": [
-      137
-    ],
-    "That heat... I'll have to match it.": [
-      137
-    ],
-    "I just flew around the whole world!": [
-      138
-    ],
-    "This thing carries hopes of everyone on Earth!": [
-      140
-    ],
-    "Now then, time for another delightful hunt!": [
-      140
-    ],
-    "D-Don't talk bad about my family!": [
-      141
-    ],
-    "This oughta make things interesting.": [
-      141
-    ],
-    "I don't want them to get hurt!": [
-      142
-    ],
-    "This is as far as you go.": [
-      143
-    ],
-    "You've awakened my true power...": [
-      144
-    ],
-    "I won't forgive those who best my comrades!": [
-      144
-    ],
-    "I've cast aside everything for this!": [
-      145
-    ],
-    "There's no way you can hit me!": [
-      146
-    ],
-    "It's just me and you now!": [
-      147
-    ],
-    "My back's getting tingly...!": [
-      148
-    ],
-    "Our two strengths aren't just added together.": [
-      149
-    ],
-    "I will prevail, no matter the cost!": [
-      150
-    ],
-    "This is your true power?": [
-      156
-    ],
-    "Still haven't figured out you're gonna lose?": [
-      156
-    ],
-    "I'll be the one to fight you!": [
-      157
-    ],
-    "You need to be more careful.": [
-      157
-    ],
-    "Heh heh! I'm not as rusty as I look!": [
-      158
-    ],
-    "Enter the hero!": [
-      159
-    ],
-    "The Red Ribbon Army is back in business!": [
-      159
-    ],
-    "Is that all?": [
-      160
-    ],
-    "I'm a whole new me.": [
-      161
-    ],
-    "Shenron really went the extra mile.": [
-      162
-    ],
-    "This place will be your grave!": [
-      164
     ],
     "Hope you're ready for a trip!": [
       166
     ],
-    "I'm not about to let Pan see me lose!": [
-      168
-    ],
-    "You will know the power of the gods!": [
-      173
-    ],
-    "It's about time...": [
-      175
-    ],
-    "Strength is justice! Strength is absolute!": [
-      177
-    ],
-    "I'll take you all on at once!": [
-      178
-    ],
-    "Damn it all!": [
-      180
-    ],
-    "Rejoice! A new ruler is born!": [
-      182
-    ],
-    "AAAAAAAAAGH!": [
-      183
-    ],
-    "Send me back to the planet I came from!": [
-      184
-    ],
-    "This power... It's different from any I've ever had.": [
-      185
-    ],
-    "Malice... Existence... Cruelty...": [
-      185
-    ],
-    "The final battle begins now.": [
-      186
-    ],
-    "I'll use this power to protect everyone!": [
-      186
-    ],
-    "I am the universe's strongest!": [
-      21
-    ],
-    "I'll kill all of you!!": [
-      22
-    ],
-    "I got back my youth and vigor!": [
-      26
-    ],
-    "Drop dead!!!": [
-      28
-    ],
-    "Goku the legendary Super Saiyan!": [
-      28
-    ],
-    "I'll use all my strength to kill you.": [
-      29
-    ],
-    "I wanted to kill you with my own hands.": [
-      35
-    ],
-    "I am...Super Vegeta!!": [
-      36
-    ],
-    "This fight...is truly pointless...": [
-      38
-    ],
-    "H-How could he?!": [
-      12
+    "How Dare You...! That's My Bulma": [
+      104
     ],
     "I actually felt that one...": [
       12
     ],
+    "I ain't losin'! Here's my full power!": [
+      112
+    ],
+    "I am the universe's strongest!": [
+      21
+    ],
+    "I am...Super Vegeta!!": [
+      36
+    ],
+    "I can't have you dying on me!": [
+      132
+    ],
+    "I don't want them to get hurt!": [
+      142
+    ],
+    "I feel it... Everyone, lend me your power!": [
+      111
+    ],
+    "I got back my youth and vigor!": [
+      26
+    ],
+    "I got my claws in you, and fangs too!": [
+      133
+    ],
+    "I hate what I've become!": [
+      118
+    ],
+    "I just flew around the whole world!": [
+      138
+    ],
+    "I like you better when you're mad!": [
+      109
+    ],
+    "I never knew this world existed!": [
+      65
+    ],
+    "I really do love being immortal.": [
+      109
+    ],
+    "I shall show you my great godly might!": [
+      110
+    ],
     "I think I'm getting the hang of this.": [
       151
     ],
-    "I'll keep adding a bit of power to my attacks!": [
-      151
+    "I wanted to kill you with my own hands.": [
+      35
+    ],
+    "I will defeat you!": [
+      57
+    ],
+    "I will prevail, no matter the cost!": [
+      150
     ],
     "I will put a stop to you, fiend!": [
       152
     ],
+    "I won't forgive those who best my comrades!": [
+      144
+    ],
+    "I...hate you!!!": [
+      93
+    ],
+    "I'll be the one to fight you!": [
+      157
+    ],
+    "I'll keep adding a bit of power to my attacks!": [
+      151
+    ],
+    "I'll kill all of you!!": [
+      22
+    ],
+    "I'll make good use of you!": [
+      113
+    ],
+    "I'll make you regret that!": [
+      102
+    ],
+    "I'll take you all on at once!": [
+      178
+    ],
+    "I'll use all my strength to kill you.": [
+      29
+    ],
+    "I'll use this power to protect everyone!": [
+      186
+    ],
+    "I'm a whole new me.": [
+      161
+    ],
+    "I'm neither Kami nor Piccolo...": [
+      21,
+      30
+    ],
+    "I'm never going to forgive him!": [
+      112
+    ],
+    "I'm not about to let Pan see me lose!": [
+      168
+    ],
+    "I'm not gonna die until I defeat you!": [
+      138
+    ],
+    "I'm stronger than ever now!": [
+      113
+    ],
+    "I've been saving this! Kaioken!": [
+      103
+    ],
+    "I've cast aside everything for this!": [
+      145
+    ],
+    "I've waited an unbelievably long time for this...": [
+      128
+    ],
+    "If I don't do it, who will?": [
+      116
+    ],
+    "Is that all?": [
+      160
+    ],
+    "It's about time...": [
+      175
+    ],
+    "It's just me and you now!": [
+      147
+    ],
+    "Janemba! Janemba!": [
+      64
+    ],
+    "Justice is nothing to me now.": [
+      136
+    ],
+    "Killed all Earthlings!": [
+      58
+    ],
+    "Leave the rest to me!": [
+      131
+    ],
+    "Looks like you're done!": [
+      115
+    ],
+    "Malice... Existence... Cruelty...": [
+      185
+    ],
+    "Me...Protecting Some Pipsqueak": [
+      105
+    ],
+    "My back's getting tingly...!": [
+      148
+    ],
+    "Now then, time for another delightful hunt!": [
+      140
+    ],
+    "Now we're even.": [
+      118
+    ],
+    "Now you understand. Surrender.": [
+      103
+    ],
+    "Now, give your father a message for me.": [
+      108
+    ],
+    "Our two strengths aren't just added together.": [
+      149
+    ],
+    "Pathetic": [
+      136
+    ],
+    "Power! A lotta power! It's great!": [
+      134
+    ],
+    "Rejoice! A new ruler is born!": [
+      182
+    ],
+    "Revival of the Demon Realm is at hand": [
+      97
+    ],
+    "Right, then... Let's begin the experiment!": [
+      121
+    ],
+    "Send me back to the planet I came from!": [
+      184
+    ],
+    "Set your rage free...": [
+      42
+    ],
+    "Shall we pick up where we left off?": [
+      131
+    ],
+    "Shenron really went the extra mile.": [
+      162
+    ],
+    "Someone, satisfy me...": [
+      97
+    ],
+    "Sorry. You were way open there.": [
+      112
+    ],
+    "Still haven't figured out you're gonna lose?": [
+      156
+    ],
+    "Strength is justice! Strength is absolute!": [
+      177
+    ],
+    "Strengthen me, Shadow Dragons!": [
+      94
+    ],
+    "Take care... of your mother...": [
+      54
+    ],
+    "Th-Thanks...": [
+      130
+    ],
+    "That heat... I'll have to match it.": [
+      137
+    ],
+    "That won't work on me!": [
+      135
+    ],
+    "The final battle begins now.": [
+      186
+    ],
+    "The gold represents the new me.": [
+      74
+    ],
+    "The Great Saiyaman is here!": [
+      53
+    ],
+    "The real fight starts now!": [
+      114
+    ],
+    "The Red Ribbon Army is back in business!": [
+      159
+    ],
     "There's more where that came from!": [
       153
+    ],
+    "There's no way you can hit me!": [
+      146
+    ],
+    "This fight is only just beginning!": [
+      110
+    ],
+    "This fight...is truly pointless...": [
+      38
+    ],
+    "This heat...will be your downfall!": [
+      120
+    ],
+    "This is as far as you go.": [
+      143
+    ],
+    "This is everything I've got!": [
+      137
+    ],
+    "This is no time to mess around...": [
+      132
+    ],
+    "This is not a weapon.": [
+      103
+    ],
+    "This is your true power?": [
+      156
+    ],
+    "This oughta make things interesting.": [
+      141
+    ],
+    "This place will be your grave!": [
+      164
+    ],
+    "This power... It's different from any I've ever had.": [
+      185
+    ],
+    "This Super Saiyan 2 is crazy strong!": [
+      122
+    ],
+    "This thing carries hopes of everyone on Earth!": [
+      140
+    ],
+    "Time to dismantle you androids!": [
+      40
+    ],
+    "Time to get serious, I guess.": [
+      119
+    ],
+    "Watch Your Tongue": [
+      106
+    ],
+    "Whoa, it's freezing here!": [
+      132
+    ],
+    "You can't win...": [
+      107
+    ],
+    "You cocky little...!": [
+      6
+    ],
+    "You need to be more careful.": [
+      157
+    ],
+    "You will know the power of the gods!": [
+      173
+    ],
+    "You'd better survive, you got that?!": [
+      131
+    ],
+    "You're Just Pieces in a Game": [
+      106
     ],
     "You're not much of a fun fight!": [
       153
     ],
-    "Gyau!!!!": [
-      7
+    "You've awakened my true power...": [
+      144
     ],
-    "I'm not gonna die until I defeat you!": [
-      138
+    "Your death is imminent!": [
+      5
+    ],
+    "Your father has been killed!": [
+      128
     ]
   },
   "clothing": {
@@ -1507,7 +1565,8 @@
     "2026-09-19: Subtype-aware reverse-index reconciliation added normalized-map clothing/accessory provenance without changing forward equipment relationship semantics. The forward layer intentionally uses one equipment relationship type; reverse index retains subtype where the source identifies it.",
     "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it.",
     "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated.",
-    "2026-09-28 reverse audit: added the missing derived clothing reverse endpoint for canonical PQ47 → Broly's Clothes; no canonical forward relationship was created here."
+    "2026-09-28 reverse audit: added the missing derived clothing reverse endpoint for canonical PQ47 → Broly's Clothes; no canonical forward relationship was created here.",
+    "2026-09-30 canonical-first repair: rebuilt skill, Super Soul, and DLC reverse buckets directly from the 899-row canonical PQ forward relationship store. Equipment remains partially projected because the forward schema intentionally does not encode clothing/accessory subtype for every equipment target; unresolved subtype identities are not guessed."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -1578,10 +1637,6 @@
       185,
       186
     ],
-    "FUTURE SAGA Chapter 4": [
-      185,
-      186
-    ],
     "Hero of Justice Pack 1": [
       155,
       156,
@@ -1624,6 +1679,28 @@
       110,
       111,
       112
+    ],
+    "Super Pass": [
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120
     ],
     "Ultra Pack 1": [
       133,
@@ -2052,11 +2129,11 @@
     ]
   },
   "current_relationship_counts": {
-    "skill": 236,
-    "super_soul": 137,
+    "skill": 248,
+    "super_soul": 143,
     "equipment": 125,
     "character": 247,
-    "dlc": 88,
+    "dlc": 106,
     "farming": 7
   },
   "character_aliases": {
