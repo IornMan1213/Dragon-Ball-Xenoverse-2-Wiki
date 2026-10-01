@@ -2829,5 +2829,25 @@
   "skill_research_batch_612_indexed_only_cast_only": "docs/data/skill-research-batches/skill-batch-612.json",
   "skill_research_batch_613_indexed_only_identity_reconciliation": "docs/data/skill-research-batches/skill-batch-613.json",
   "skill_research_batch_624_recovery": "docs/data/skill-research-batches/skill-batch-624.json",
-  "skill_recovery_batch_628": "docs/data/skill-research-batches/skill-batch-628.json"
+  "skill_recovery_batch_628": "docs/data/skill-research-batches/skill-batch-628.json",
+  "live_canonical_recovery_baseline_2026_10_01": "docs/data/live-canonical-recovery-baseline-2026-09-30.json",
+  "pq_equipment_endpoint_integrity_audit_2026_09_30": "docs/data/pq-equipment-endpoint-integrity-audit-2026-09-30.json",
+  "pq_equipment_reward_recovery_2026_09_30": "docs/data/pq-equipment-reward-recovery-2026-09-30.json",
+  "pq057_rakshasas_claw_recovery_correction_2026_09_30": "docs/data/pq057-rakshasas-claw-recovery-correction-2026-09-30.json",
+  "equipment_record_layer_current_2026_10_01": {
+    "path": "docs/data/equipment-record-layer.json",
+    "records": 115
+  },
+  "pq_reward_relationships_current_2026_10_01": {
+    "path": "docs/data/pq-reward-relationships.json",
+    "relationships": 901,
+    "counts": {
+      "skill": 249,
+      "super_soul": 143,
+      "equipment": 149,
+      "character": 247,
+      "dlc": 106,
+      "farming": 7
+    }
+  }
 }
