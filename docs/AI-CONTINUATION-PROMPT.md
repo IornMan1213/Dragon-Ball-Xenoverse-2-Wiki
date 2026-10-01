@@ -8579,3 +8579,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Exact canonical equipment-forward parity census found zero missing relationships for equipment names with exact endpoints.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the next substantive cross-domain/recovery frontier rather than manufacturing endpoint IDs; prioritize canonical forward data and reconcile stale derived indexes when encountered.
+
+### 2026-09-30 Batch 748 — PQ Super Soul endpoint census reconciliation
+- [x] Re-audited the two previously listed Super Soul endpoint gaps (PQ54 and PQ57) against the current canonical Super Soul layer.
+- [x] Confirmed PQ54 canonical endpoint **Take care... of your mother...** and its existing source-backed `pq-054 → pq_rewards_super_soul` relationship.
+- [x] Confirmed PQ57 canonical endpoint **I will defeat you!** and its existing source-backed `pq-057 → pq_rewards_super_soul` relationship.
+- [x] Fresh exact-name census: **0** forward PQ Super Soul endpoint gaps remain.
+- [x] Current parity snapshot: 186 PQ records; 184 canonical Super Soul records; 143 PQ→Super Soul relationships; 879 total PQ relationships; 0 duplicate relationship keys.
+- [x] Added durable audit `docs/data/pq-super-soul-endpoint-census-reconciliation-2026-09-30-batch-748.json`.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the broader PQ cross-domain enrichment frontier now that Super Soul forward endpoint parity is closed; prioritize any canonical bridge with an exact identity match and no existing forward relationship.
