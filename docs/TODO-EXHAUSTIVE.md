@@ -7905,3 +7905,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added durable audit `docs/data/pq-super-soul-endpoint-census-reconciliation-2026-09-30-batch-748.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the broader PQ cross-domain enrichment frontier now that Super Soul forward endpoint parity is closed; prioritize any canonical bridge with an exact identity match and no existing forward relationship.
+
+### 2026-09-30 Batch 749 — PQ DLC requirement relationship parity repair
+- [x] Audited forward `dlc_requirement` fields against `pq_requires_dlc` relationship edges.
+- [x] Restored **20 missing relationships**, PQ101–PQ120 → **Super Pass**, directly from canonical forward PQ records.
+- [x] Relationship total increased from **879 → 899**; DLC requirement edges increased from **86 → 106**.
+- [x] Added durable audit `docs/data/pq-dlc-requirement-parity-repair-2026-09-30-batch-749.json`.
+- [x] No duplicate relationship keys were introduced; no DLC ownership/release facts were inferred.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** rerun full PQ cross-domain parity (skills, Super Souls, equipment, accessories, DLC, characters) and identify the next forward-only gap.
