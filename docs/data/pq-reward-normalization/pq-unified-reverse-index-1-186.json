@@ -1464,6 +1464,12 @@
     ],
     "Gogeta's Clothes": [
       57
+    ],
+    "Android 16's Clothes": [
+      46
+    ],
+    "Videl's Clothes": [
+      89
     ]
   },
   "accessories": {
@@ -1650,7 +1656,8 @@
     "2026-09-30 canonical-first repair: rebuilt skill, Super Soul, and DLC reverse buckets directly from the 899-row canonical PQ forward relationship store. Equipment remains partially projected because the forward schema intentionally does not encode clothing/accessory subtype for every equipment target; unresolved subtype identities are not guessed.",
     "2026-09-30 subtype recovery: populated 24 missing clothing/accessory reverse endpoints using explicit names in the canonical equipment/accessory record layers. Five equipment targets remain unclassified because neither canonical layer currently contains an exact name match: Android 13's Hat; Android 17 (DB Super) Wig; Videl T-Shirt; Gogeta's Clothes; Rakshasa's Claw.",
     "2026-09-30 source-backed subtype extension: classified Android 13's Hat and Android 17 (DB Super) Wig as accessories, and Videl T-Shirt and Gogeta's Clothes as clothing, based on independent reward/equipment evidence. Rakshasa's Claw remains unresolved because independent evidence identifies it as a Strike Super Attack while the canonical forward layer currently classifies it as equipment.",
-    "2026-09-30 recovery correction: PQ57 Rakshasa's Claw was reclassified from equipment to skill using explicit independent skill evidence; the canonical forward edge and reverse skill projection now agree."
+    "2026-09-30 recovery correction: PQ57 Rakshasa's Claw was reclassified from equipment to skill using explicit independent skill evidence; the canonical forward edge and reverse skill projection now agree.",
+    "2026-09-30 recovery enrichment: restored explicit clothing reward relationships PQ46 → Android 16's Clothes and PQ89 → Videl's Clothes from the canonical PQ reward records and the maintained all-186 PQ guide."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -2215,7 +2222,7 @@
   "current_relationship_counts": {
     "skill": 249,
     "super_soul": 143,
-    "equipment": 147,
+    "equipment": 149,
     "character": 247,
     "dlc": 106,
     "farming": 7
