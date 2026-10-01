@@ -5619,6 +5619,35 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74527603"
       ]
+    },
+    {
+      "id": "super-soul-184",
+      "name": "I will defeat you!",
+      "character_source": "Gogeta (Super Saiyan)",
+      "dlc_requirement": null,
+      "acquisition_type": "Parallel Quest",
+      "acquisition_source": "Parallel Quest 057",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "When the battle starts",
+      "effect_text": "Activates Ki Auto-Recovery Mode; boosts Ki Blast-based skills.",
+      "effect_magnitude": "+15% Ki auto-recovery; +10% Ki Blast-based skill damage",
+      "duration": "10 seconds",
+      "stacking_behavior": null,
+      "limit_burst": "Rush",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Restored as a canonical XV2 Super Soul endpoint from the current Super Soul catalogue and Gogeta (Super Saiyan) character data; PQ57 is explicitly documented as the acquisition source. Exact drop condition/rate remains unresolved.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-09-30",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Gogeta_%28Super_Saiyan%29",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+      ]
     }
   ],
   "research_notes": [
