@@ -8049,3 +8049,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the source-of-truth rule: canonical forward datasets remain authoritative; indexes, verified layers, reverse projections, and historical manifests are consumers/evidence only.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** audit the remaining stale dependent manifests/status artifacts against the current canonical SHAs/counts, then continue source-backed sparse PQ/equipment/Super Soul/mechanics enrichment. Do not reconstruct canonical records from reverse projections.
+
+
+### 2026-10-01 continuation — PQ cross-domain status synchronization
+- [x] Audited `docs/data/pq-cross-domain-status.json` against the live canonical relationship store after the reverse-projection rebuild.
+- [x] Replaced stale current-state counts with the canonical **901-edge** baseline: 249 skill, 143 Super Soul, 149 equipment, 247 character, 106 DLC, 7 farming.
+- [x] Recorded the rebuilt reverse projection separately as **625 unique targets**: 244 skills, 141 Super Souls, 144 equipment, 75 characters, 21 DLC, 0 farming.
+- [x] Preserved all historical reconciliation/correction entries rather than deleting them.
+- [x] Updated the status artifact's current integrity review and canonical source SHA; no canonical forward relationship was invented or removed.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue stale-manifest audit, then resume evidence-backed sparse PQ/equipment/Super Soul enrichment and unresolved skill/mechanics coverage.
