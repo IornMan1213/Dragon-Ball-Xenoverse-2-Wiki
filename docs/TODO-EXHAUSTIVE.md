@@ -8059,3 +8059,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated the status artifact's current integrity review and canonical source SHA; no canonical forward relationship was invented or removed.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue stale-manifest audit, then resume evidence-backed sparse PQ/equipment/Super Soul enrichment and unresolved skill/mechanics coverage.
+
+
+### 2026-10-01 continuation — Dependent cross-domain report recovery
+- [x] Audited stale dependent reports against canonical `docs/data/pq-reward-relationships.json` rather than trusting their historical counts.
+- [x] Synchronized `docs/data/pq-cross-domain-audit.json` to the current **901-edge** canonical baseline: 249 Skill, 143 Super Soul, 149 equipment, 247 character, 106 DLC, 7 farming.
+- [x] Reconciled `docs/data/pq-skill-crosslink-report.json`: current canonical Skill edge count is **249**, and the report now has exact 249-entry parity. PQ48's historical `Kamekameha` spelling is retained as provenance while canonical identity is `Kamehameha`; PQ57 `Rakshasa's Claw` is represented in the consumer report.
+- [x] Reconciled `docs/data/pq-equipment-crosslink-report.json`: **149** canonical equipment edges / **144** unique targets; current endpoint layers contain **141 exact identity matches** and **3 endpoint gaps**: Android 13's Hat, Android 17 (DB Super) Wig, and Videl T-Shirt. These are enrichment gaps, not negative reward claims.
+- [x] Preserved historical audit snapshots and correction history instead of overwriting them as if they were current.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** resolve the three equipment endpoint identity gaps with source-backed identity evidence, then continue stale-manifest audit and sparse PQ/Super Soul/mechanics enrichment. Never reconstruct canonical data from reverse projections.
