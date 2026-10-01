@@ -7813,3 +7813,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Existing canonical PQ reward relationship edges were not duplicated.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the sparse PQ reward/skill/equipment/Super Soul recovery census across remaining null/empty canonical records using direct maintained research evidence.
+
+
+### 2026-09-30 Batch 741 — PQ sparse reward recovery
+- [x] Recovered canonical basic reward fields for PQ67-PQ76 from maintained PQ research batches and corroborating sources.
+- [x] Restored typed endpoint fields only where canonical PQ relationship evidence already exists: PQ72 Jaco's State-of-the-Art Radio, PQ73 Tagoma's Scouter, PQ74 The gold represents the new me., and PQ76 SSGSS Goku Wig.
+- [x] Preserved named rewards without fabricated endpoints for Goku's Work Clothes, I've come back from the dead..., Qipao (CC), and Whis Symbol Gi.
+- [x] Added docs/data/pq-sparse-reward-recovery-2026-09-30-batch-741.json.
+- [x] No duplicate canonical relationship edges were introduced.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the remaining sparse PQ reward recovery census, then reconcile newly recovered typed endpoints against canonical forward relationship stores.
