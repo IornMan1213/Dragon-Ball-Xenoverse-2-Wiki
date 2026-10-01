@@ -2,14 +2,14 @@
   "schema_version": "1.1.0",
   "audit_date": "2026-09-30",
   "category": "pq_rewards_equipment",
-  "forward_edges": 147,
-  "classified_reverse_edges": 147,
+  "forward_edges": 149,
+  "classified_reverse_edges": 149,
   "missing": [],
   "reverse_only": [],
   "unresolved": [],
   "notes": [
-    "147 canonical equipment edges remain after the PQ57 Rakshasa's Claw reclassification; all 147 have clothing/accessory subtype projection.",
-    "Four previously unresolved targets were classified from independent explicit evidence: Android 13's Hat=accessory; Android 17 (DB Super) Wig=accessory; Videl T-Shirt=clothing; Gogeta's Clothes=clothing.",
-    "Rakshasa's Claw is excluded from this equipment audit because the canonical forward PQ relationship now correctly classifies it as a skill reward."
+    "149 canonical equipment edges now have clothing/accessory subtype projection.",
+    "Android 13's Hat and Android 17 (DB Super) Wig are accessories; Videl T-Shirt, Gogeta's Clothes, Android 16's Clothes, and Videl's Clothes are clothing, based on explicit repository/source evidence.",
+    "Rakshasa's Claw is excluded from this equipment audit because the canonical forward PQ relationship correctly classifies it as a skill reward."
   ]
 }
