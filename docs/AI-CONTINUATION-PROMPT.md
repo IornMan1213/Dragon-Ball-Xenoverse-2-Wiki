@@ -8640,3 +8640,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Refreshed `docs/data/live-canonical-recovery-baseline-2026-09-30.json` so its PQ relationship blob SHA matches the post-reconciliation canonical file.
 - [ ] Runtime validator execution remains unverified.
 - [ ] **Next:** resolve the 22 equipment reverse-subtype gaps from explicit equipment/accessory evidence where available, leaving genuinely unresolved identities marked unresolved; then audit stale dependent metadata and continue source-backed cross-domain enrichment.
+
+
+### 2026-09-30 continuation — Equipment reverse-subtype recovery
+- [x] Compared all 148 canonical `pq_rewards_equipment` edges against the clothing/accessory reverse buckets.
+- [x] Restored **24** missing reverse endpoints where the exact target name exists in the canonical equipment or accessory record layers.
+- [x] Reduced the equipment reverse gap from 22 relationships to **5 explicitly unclassified target names**: Android 13's Hat, Android 17 (DB Super) Wig, Videl T-Shirt, Gogeta's Clothes, and Rakshasa's Claw.
+- [x] Added `docs/data/pq-equipment-reverse-subtype-audit-2026-09-30.json` documenting the remaining five without guessing their subtype.
+- [x] External research checked Rakshasa's Claw and confirms it is a Strike Super Attack obtained from PQ57; this does not override the canonical forward store's current equipment classification, so it remains unresolved pending an explicit canonical equipment-layer identity.
+- [ ] Runtime validator execution remains unverified.
+- [ ] **Next:** resolve the five remaining equipment target identities from explicit canonical/source-backed evidence, especially the PQ57 Rakshasa's Claw classification discrepancy, then run a full unified reverse-index parity audit and continue cross-domain enrichment.
