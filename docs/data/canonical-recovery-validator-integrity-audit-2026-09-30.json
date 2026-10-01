@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0.0",
+  "audited_at": "2026-09-30",
+  "audit_type": "canonical_recovery_validator_integrity",
+  "commit": "6c5e7efbb6fd72e7c70d8fcde58c004cf67b6c82",
+  "changed_file": "scripts/validate_canonical_database_recovery.py",
+  "findings": [
+    "The skill-to-PQ reverse projection previously skipped malformed entries while computing edge counts; it now requires object entries and list-valued skill_ids.",
+    "Reverse projection PQ identities, skill IDs, duplicate edges, and references to unknown canonical skill IDs are now rejected explicitly.",
+    "The canonical PQ forward relationship validator now checks PQ identity, non-empty target and source strings, recognized relationship type, and duplicate (pq, relationship, target) keys.",
+    "PQ current_counts values are required to be non-negative integers and booleans are rejected."
+  ],
+  "source_of_truth_policy": "Canonical docs/data/skills.json and docs/data/pq-reward-relationships.json remain authoritative. Indexes, verified layers, reverse projections, and historical recovery snapshots must not be used to reconstruct surviving canonical records.",
+  "canonical_data_mutated": false,
+  "validation_boundary": "Changes were committed through the GitHub API. Runtime execution and CI results were not available in this environment and remain unverified.",
+  "next": "Run scripts/validate_canonical_database_recovery.py in a repository checkout; reconcile any real schema exceptions against canonical sources, then refresh live baseline metadata from current canonical blob contents before further recovery-forward enrichment."
+}
