@@ -8608,3 +8608,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No canonical database records were mutated; recovery rules remain canonical-first and do not reconstruct from indexes, verified layers, or reverse projections.
 - [ ] Runtime execution and CI remain unverified; run the recovery validator in a checkout and fix only source-confirmed failures.
 - [ ] **Exact next:** perform a fresh live-main census of `docs/data/skills.json`, `docs/data/skills-index.json`, `docs/data/pq-reward-relationships.json`, canonical PQ records, and equipment/Super Soul endpoint layers. Several dated recovery manifests expose older blob SHAs/counts than the current live files; do not copy stale counts forward. Recompute current counts and parity from canonical source files, update the current-live baseline/integrity manifest without changing canonical records, then continue source-backed PQ ↔ skill/Super Soul/equipment enrichment and the remaining seven accessory/component identity gaps. Preserve unresolved evidence and leave runtime/CI marked unverified unless actually run.
+
+
+### 2026-09-30 continuation — Live canonical baseline reconciliation
+- [x] Re-read the live canonical forward stores after the validator hardening.
+- [x] Found and corrected stale embedded metadata in `docs/data/pq-reward-relationships.json`: the live canonical store contains **899** relationship rows, while its embedded metadata incorrectly reported 878 and mismatched category keys.
+- [x] Recomputed counts directly from canonical `verified_relationships`: **248 skill / 143 Super Soul / 148 equipment / 247 character / 106 DLC / 7 farming = 899 total**, with **0 duplicate (PQ, relationship, target) keys**.
+- [x] Confirmed the live skills consumer/index currently contains **550 records**; the live canonical skills source is recorded at 550 for the fresh baseline. Do not use the index as the source of truth for future reconstruction.
+- [x] Added `docs/data/live-canonical-recovery-baseline-2026-09-30.json` and `docs/data/live-canonical-recovery-reconciliation-2026-09-30.json`.
+- [x] Preserved older 549/862/877 recovery manifests as historical provenance rather than silently rewriting history.
+- [ ] Runtime execution of `scripts/validate_canonical_database_recovery.py` and CI remain unverified.
+- [ ] **Next:** run the hardened validator in a checkout; then reconcile downstream reverse indexes/projections against the now-current canonical PQ store. After parity is established, continue source-backed PQ↔skill/Super Soul/equipment enrichment and the unresolved accessory/component identity frontier. Audit stale count metadata in dependent artifacts only after comparing them directly to canonical files.
