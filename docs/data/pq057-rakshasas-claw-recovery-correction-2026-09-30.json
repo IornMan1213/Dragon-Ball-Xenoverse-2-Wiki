@@ -1,0 +1,22 @@
+{
+  "schema_version": "1.0.0",
+  "audit_date": "2026-09-30",
+  "audit_type": "pq057_rakshasas_claw_recovery_correction",
+  "purpose": "Restore the canonical PQ57 reward classification and downstream reverse projections after the recovery layer had classified Rakshasa's Claw as equipment.",
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Rakshasa%27s_Claw",
+    "https://dragonball.fandom.com/wiki/List_of_techniques_used_by_the_Future_Warrior_%28Xenoverse_2%29",
+    "https://gamefaqs.gamespot.com/ps4/190458-dragon-ball-xenoverse-2/answers/630327-what-are-some-great-range-skills-for-female-majin",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "changes": [
+    "PQ57 skill_rewards now contains Rakshasa's Claw.",
+    "PQ57 equipment_rewards now contains only Gogeta's Clothes.",
+    "The canonical pq_rewards_equipment edge for PQ57/Rakshasa's Claw was changed to pq_rewards_skill.",
+    "Unified and skill-to-PQ reverse projections were refreshed from the corrected canonical relationship.",
+    "Canonical PQ relationship total remains 899; skill/equipment counts are now 249/147."
+  ],
+  "evidence_boundary": "No drop probability, guarantee, or Ultimate-Finish-only mechanic was inferred.",
+  "source_of_truth": "Canonical forward PQ and skill datasets remain authoritative; reverse projections were updated only after the canonical correction.",
+  "runtime_ci": "unverified_non_blocking"
+}
