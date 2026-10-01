@@ -1275,7 +1275,8 @@
       108
     ],
     "Zamasu's Clothes": [
-      109
+      109,
+      110
     ],
     "Super Saiyan 4 Suit (Goku)": [
       110
@@ -1302,7 +1303,8 @@
       127
     ],
     "Broly (Full Power Super Saiyan)'s Clothes": [
-      130
+      130,
+      134
     ],
     "SSGSS Gogeta's Clothes": [
       131
@@ -1435,6 +1437,24 @@
     ],
     "Broly's Clothes": [
       47
+    ],
+    "Ribrianne's Hood": [
+      115
+    ],
+    "Gohan (Beast) Wig": [
+      162
+    ],
+    "Android 18's Clothes (Skirt)": [
+      25
+    ],
+    "Android 17's Clothes": [
+      25
+    ],
+    "Battle Suit (Raditz)": [
+      3
+    ],
+    "Training Suit": [
+      87
     ]
   },
   "accessories": {
@@ -1451,7 +1471,8 @@
       63
     ],
     "SSGSS Goku Wig": [
-      66
+      66,
+      76
     ],
     "Pan's Bandanna": [
       93
@@ -1551,6 +1572,51 @@
     ],
     "Piccolo's Turban": [
       3
+    ],
+    "Goku Wig": [
+      25
+    ],
+    "Dore's Scouter": [
+      27
+    ],
+    "Yamcha's Sword": [
+      36
+    ],
+    "Videl (DB Super) Wig": [
+      168
+    ],
+    "Cheelai's Coat": [
+      183
+    ],
+    "Great Saiyaman Helmet": [
+      51
+    ],
+    "Jaco's State-of-the-Art Radio": [
+      72
+    ],
+    "Tagoma's Scouter": [
+      73
+    ],
+    "Yamcha Baseball Hat": [
+      97
+    ],
+    "Android 14's Hat": [
+      104
+    ],
+    "Bardock (DB Super)'s Scouter": [
+      146
+    ],
+    "Gamma 2's Helmet": [
+      155
+    ],
+    "Tapion's Sword": [
+      22
+    ],
+    "Great Saiyaman Bandana 1": [
+      51
+    ],
+    "Great Saiyaman Bandana 2": [
+      53
     ]
   },
   "coverage_notes": [
@@ -1566,7 +1632,8 @@
     "2026-09-19: Final subtype audit removed legacy dual clothing/accessory placements where the normalized source explicitly classifies the item as an accessory. 122 forward equipment edges now have complete reverse coverage; subtype is only asserted where the source layer identifies it.",
     "2026-09-19: Added the nine explicitly listed PQ 12-14 reward relationships from the all-186 PQ guide. PQ 1 has no skill, Super Soul, or equipment reward in the source's Basic Reward list, so no typed relationship was fabricated.",
     "2026-09-28 reverse audit: added the missing derived clothing reverse endpoint for canonical PQ47 → Broly's Clothes; no canonical forward relationship was created here.",
-    "2026-09-30 canonical-first repair: rebuilt skill, Super Soul, and DLC reverse buckets directly from the 899-row canonical PQ forward relationship store. Equipment remains partially projected because the forward schema intentionally does not encode clothing/accessory subtype for every equipment target; unresolved subtype identities are not guessed."
+    "2026-09-30 canonical-first repair: rebuilt skill, Super Soul, and DLC reverse buckets directly from the 899-row canonical PQ forward relationship store. Equipment remains partially projected because the forward schema intentionally does not encode clothing/accessory subtype for every equipment target; unresolved subtype identities are not guessed.",
+    "2026-09-30 subtype recovery: populated 24 missing clothing/accessory reverse endpoints using explicit names in the canonical equipment/accessory record layers. Five equipment targets remain unclassified because neither canonical layer currently contains an exact name match: Android 13's Hat; Android 17 (DB Super) Wig; Videl T-Shirt; Gogeta's Clothes; Rakshasa's Claw."
   ],
   "dlc": {
     "Conton City Vote Pack": [
@@ -2131,7 +2198,7 @@
   "current_relationship_counts": {
     "skill": 248,
     "super_soul": 143,
-    "equipment": 125,
+    "equipment": 148,
     "character": 247,
     "dlc": 106,
     "farming": 7
