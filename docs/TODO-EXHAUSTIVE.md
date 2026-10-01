@@ -7851,3 +7851,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/pq-typed-reward-parity-reconciliation-2026-09-30-batch-744.json`.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** investigate the six remaining named-reward endpoint gaps only through canonical endpoint inventory/research evidence; otherwise continue the broader PQ cross-domain enrichment frontier.
+
+### 2026-09-30 Batch 745 — PQ typed reward classification correction
+- [x] Normalized PQ164's canonical `super_soul_rewards` identity from **This place Will be your grave!** to the registered Super Soul endpoint **This place will be your grave!**; the existing canonical relationship already used the registered spelling.
+- [x] Removed **God of Destruction's Might** from PQ176's `super_soul_rewards`; it remains correctly represented as a canonical skill reward.
+- [x] Added durable audit `docs/data/pq-typed-reward-classification-correction-2026-09-30-batch-745.json`.
+- [x] No new relationship edge was inferred; no drop probability, guarantee, or Ultimate-Finish-only status was inferred.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** run a fresh typed-reward parity census after Batch 745; then promote only directly source-backed endpoint matches and continue the broader PQ cross-domain enrichment frontier. Canonical forward datasets remain authoritative.
