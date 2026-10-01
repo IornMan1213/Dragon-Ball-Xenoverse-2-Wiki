@@ -7823,3 +7823,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No duplicate canonical relationship edges were introduced.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the remaining sparse PQ reward recovery census, then reconcile newly recovered typed endpoints against canonical forward relationship stores.
+
+
+### 2026-09-30 Batch 742 — PQ sparse reward recovery
+- [x] Recovered canonical basic reward fields for PQ86-PQ98 from maintained PQ research batches and corroborating sources.
+- [x] Restored typed equipment/Super Soul fields only where the canonical PQ relationship layer already establishes the endpoint.
+- [x] Added docs/data/pq-sparse-reward-recovery-2026-09-30-batch-742.json.
+- [x] No duplicate canonical relationship edges were introduced.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** recompute the remaining empty canonical reward-record census; PQ23 remains a known intentional sparse boundary, while other empty records should be investigated only where explicit maintained research supports recovery.
