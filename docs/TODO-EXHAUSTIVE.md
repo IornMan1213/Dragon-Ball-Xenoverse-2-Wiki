@@ -7803,3 +7803,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical mutations: 2 target records; inferred fields: 0; unsupported records created: 0.
 - [ ] Runtime/CI remains unverified.
 - [ ] **Exact next:** continue the PQ reward/skill relationship recovery through the remaining sparse records, using independent or maintained source-backed evidence and preserving unresolved fields.
+
+
+### 2026-09-30 Batch 740 — PQ sparse reward recovery
+- [x] Recovered canonical basic reward fields for PQ46, PQ47, PQ48, PQ50, PQ51, PQ52, PQ53, PQ54, PQ55, PQ56, and PQ58 from maintained PQ research batches and corroborating sources.
+- [x] Restored typed equipment/Super Soul fields where the reward identity was already established; no endpoint was fabricated for Android 16's Clothes.
+- [x] Preserved source spelling Kamekameha in PQ48's general reward list while retaining canonical skill identity Kamehameha.
+- [x] Added docs/data/pq-sparse-reward-recovery-2026-09-30-batch-740.json.
+- [x] Existing canonical PQ reward relationship edges were not duplicated.
+- [ ] Runtime/CI remains unverified.
+- [ ] **Exact next:** continue the sparse PQ reward/skill/equipment/Super Soul recovery census across remaining null/empty canonical records using direct maintained research evidence.
