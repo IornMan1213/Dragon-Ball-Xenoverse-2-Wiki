@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0.0",
+  "batch_id": 740,
+  "date": "2026-09-30",
+  "type": "parallel_quest_sparse_reward_recovery",
+  "source_of_truth": "docs/data/parallel-quests-record-layer.json",
+  "canonical_mutations": 11,
+  "scope": [
+    "pq-046",
+    "pq-047",
+    "pq-048",
+    "pq-050",
+    "pq-051",
+    "pq-052",
+    "pq-053",
+    "pq-054",
+    "pq-055",
+    "pq-056",
+    "pq-058"
+  ],
+  "evidence_sources": [
+    "docs/data/parallel-quest-research-batches/pq-batch-05.json",
+    "docs/data/parallel-quest-research-batches/pq-batch-06.json",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/74485071",
+    "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
+    "https://yhangame.blogspot.com/2016/12/dragonball-xenoverse-2-all-100-parallel.html"
+  ],
+  "recovered_fields": [
+    "basic rewards",
+    "typed equipment rewards where already supported",
+    "typed Super Soul rewards where already supported"
+  ],
+  "boundaries": [
+    "No drop probability or guarantee was inferred.",
+    "PQ48 retains source spelling Kamekameha in the general reward list; canonical skill identity remains Kamehameha.",
+    "Android 16's Clothes was recorded as a named PQ reward without fabricating a canonical endpoint.",
+    "No duplicate PQ reward relationship edges were created."
+  ],
+  "relationship_totals_unchanged": true,
+  "runtime_ci": "unverified",
+  "next": "Continue the sparse PQ reward/skill/equipment/Super Soul recovery census across remaining null/empty canonical records using direct maintained research plus independent corroboration; do not reconstruct canonical data from indexes, projections, or verified layers."
+}
