@@ -3335,6 +3335,99 @@
       "pq_links": [
         "pq-047"
       ]
+    },
+    {
+      "id": "equip-113",
+      "name": "Android 16's Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing system; exact component restrictions remain unresolved.",
+      "set_name": "Android 16's Clothes",
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 46",
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity restored as an explicit PQ46 reward. Stats and exact drop mechanics remain unresolved; no values are inferred.",
+      "verification_status": "indexed_with_explicit_pq_reward_identity",
+      "last_verified": "2026-09-30",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-046",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical PQ reward record and maintained all-186 PQ guide explicitly name Android 16's Clothes; exact drop/condition mechanics remain unresolved."
+        }
+      ]
+    },
+    {
+      "id": "equip-114",
+      "name": "Videl's Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing system; exact component restrictions remain unresolved.",
+      "set_name": "Videl's Clothes",
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 89",
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity restored as an explicit PQ89 reward. Stats and exact drop mechanics remain unresolved; no values are inferred.",
+      "verification_status": "indexed_with_explicit_pq_reward_identity",
+      "last_verified": "2026-09-30",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-089",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical PQ reward record and maintained research batch explicitly name Videl's Clothes; exact drop/condition mechanics remain unresolved."
+        }
+      ]
+    },
+    {
+      "id": "equip-115",
+      "name": "Gogeta's Clothes",
+      "slot": "full set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing system; exact component restrictions remain unresolved.",
+      "set_name": "Gogeta's Clothes",
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 57",
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Identity indexed from the explicit PQ57 reward listing. This is distinct from SSGSS Gogeta's Clothes; stats and exact drop mechanics remain unresolved.",
+      "verification_status": "indexed_with_explicit_pq_reward_identity",
+      "last_verified": "2026-09-30",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-057",
+          "relationship": "acquisition_source",
+          "evidence_note": "Canonical PQ57 reward record and maintained PQ listing explicitly name Gogeta's Clothes; exact drop/condition mechanics remain unresolved."
+        }
+      ]
     }
   ],
   "research_notes": [
@@ -3394,5 +3487,7 @@
       ]
     }
   ],
-  "last_updated": "2026-09-28"
+  "last_updated": "2026-09-28",
+  "record_count": 115,
+  "last_reconciled": "2026-09-30"
 }
