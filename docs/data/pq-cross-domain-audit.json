@@ -11,20 +11,20 @@
     "reverse_indexes_required_before_domain_complete": true
   },
   "current_status": {
-    "skill_edges": "populated",
-    "super_soul_edges": "populated",
-    "equipment_edges": "populated",
-    "character_edges": "populated",
-    "dlc_edges": "populated",
-    "farming_edges": "populated"
+    "skill_edges": "249 canonical forward edges",
+    "super_soul_edges": "143 canonical forward edges",
+    "equipment_edges": "149 canonical forward edges",
+    "character_edges": "247 canonical forward edges",
+    "dlc_edges": "106 canonical forward edges",
+    "farming_edges": "7 canonical forward edges"
   },
-  "next_completion_gate": "Treat the historical 840-edge baseline and superseded 851/126 metadata as provenance only; the current canonical relationship store is 852 edges (249 Skill, 135 Super Soul, 126 equipment, 247 character, 88 DLC, 7 farming).",
+  "next_completion_gate": "Current canonical relationship store is 901 edges (249 Skill, 143 Super Soul, 149 equipment, 247 character, 106 DLC, 7 farming). Dependent reports must be synchronized to this store; remaining work is endpoint/source enrichment, not reconstruction from reverse projections.",
   "current_counts": {
     "skill": 249,
-    "super_soul": 135,
-    "equipment": 136,
+    "super_soul": 143,
+    "equipment": 149,
     "character": 247,
-    "dlc": 88,
+    "dlc": 106,
     "farming": 7
   },
   "character_resolution": {
@@ -63,12 +63,12 @@
     },
     "current_canonical_relationship_counts": {
       "skill": 249,
-      "super_soul": 135,
-      "equipment": 126,
+      "super_soul": 143,
+      "equipment": 149,
       "character": 247,
-      "dlc": 88,
+      "dlc": 106,
       "farming": 7,
-      "total": 852
+      "total": 901
     }
   },
   "reward_provenance_tranche": {
@@ -340,5 +340,21 @@
     "canonical_data_changed": false,
     "new_relationships_added": 0,
     "audit_file": "docs/data/pq-reward-boundary-audits/pq-41-50-cross-domain-reconciliation-2026-09-28.json"
-  }
+  },
+  "live_2026_10_01_refresh": {
+    "status": "current_live_counts_synchronized_after_recovery_projection_rebuild",
+    "total_edges": 901,
+    "counts": {
+      "skill": 249,
+      "super_soul": 143,
+      "equipment": 149,
+      "character": 247,
+      "dlc": 106,
+      "farming": 7
+    },
+    "historical_baseline_preserved": 840,
+    "superseded_refreshes_preserved": true,
+    "note": "Current state is derived from docs/data/pq-reward-relationships.json; older counts remain historical provenance only."
+  },
+  "latest_reconciliation_note": "2026-10-01: synchronized cross-domain audit metadata to the 901-edge canonical forward relationship store and recorded the remaining three equipment endpoint identity gaps."
 }
