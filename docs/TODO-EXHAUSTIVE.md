@@ -8543,3 +8543,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved the parent/stage model, stable identifiers, acquisition endpoints, race/use scope, and cast/enemy exclusion boundaries.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** deepen Awoken mechanics/version evidence and cross-link Awoken records to character/preset, DLC, mentor/time-rift, and skill data.
+
+
+### 2026-10-02 continuation — Awoken evidence and Future Saga cross-layer reconciliation
+- [x] Audited current Awoken mechanics evidence and preserved SSG's unresolved +50% vs +60% Ki-recovery source discrepancy instead of overwriting canonical data.
+- [x] Added canonical cross-links for `The Power to Overcome` across five Future Saga Chapter 4 research/content/evidence layers; historical partial lead states remain provenance only.
+- [x] Preserved official Chapter 4 content baseline including 1 new Awoken Skill within 4 new moves. cite source tracked externally in continuation research.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** Awoken-to-character-preset and Awoken-to-DLC/quest cross-link coverage and orphan/duplicate identity reconciliation.
