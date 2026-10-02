@@ -1,0 +1,24 @@
+{
+  "schema_version":"1.0",
+  "audit_date":"2026-10-02",
+  "record_id":"super-soul-050",
+  "name":"I'll use all my strength to kill you...",
+  "scope":"PQ29 acquisition, Ki recovery, max-Ki normal-attack effect, stacking, Limit Burst",
+  "canonical_policy":"Canonical forward data remains authoritative; independent sources corroborate it without replacing canonical values.",
+  "resolved":{
+    "character_source":"Android 18",
+    "acquisition_source":"Parallel Quest 29 — The Androids Attack",
+    "ki_auto_recovery":"+5%",
+    "max_ki_normal_attack_boost":"+10%",
+    "stacking":"Ki auto-recovery stacks with Human Ki Regeneration.",
+    "limit_burst":"ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down."
+  },
+  "evidence":[
+    {"source":"Dragon Ball Xenoverse 2 Wiki — Super Soul","url":"https://dbxv2.fandom.com/wiki/Super_Soul","supports":["identity","mechanics","PQ29","Limit Burst"]},
+    {"source":"Steam Community — All Parallel Quests guide","url":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","supports":["PQ29 basic reward acquisition"]},
+    {"source":"GameFAQs Super Soul Guide","url":"https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225","supports":["mechanics","Human Ki Regeneration stacking"]},
+    {"source":"Community Ki-recovery testing discussion","url":"https://www.reddit.com/r/DragonBallXenoverse2/comments/179mfy/do_the_super_souls_that_give_ki_auto_recovery_use_the_same_rate/","supports":["secondary approximate +5% recovery observation"]}
+  ],
+  "unresolved":["Exact internal recovery tick/frame implementation.","Detailed interaction with every other Ki-recovery modifier."],
+  "result":"Promoted from partially_verified to verified while retaining unresolved implementation details."
+}
