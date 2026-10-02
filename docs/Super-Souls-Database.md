@@ -197,3 +197,19 @@ Records 121–126 were rechecked against the current Super Soul catalogue and in
 | 126 | This oughta make things interesting. | Broly | PQ141 | Opponent Reinforcement Skill: +10% all attacks, stacking to 10 times |
 
 Documented catalogue/data discrepancies remain preserved; no unsupported drop probabilities were added.
+
+
+### Super Souls 127-132 — 2026-10-02 verification
+
+Records 127-132 were rechecked against the Super Soul catalogue and independent Parallel Quest reward evidence.
+
+| ID | Super Soul | Character | Acquisition | Verified mechanics |
+|---|---|---|---|---|
+| 127 | I don't want them to get hurt! | Gine (DB Super) | PQ142 | Ally KO: +50% Ki/Stamina Auto-Recovery for 20 sec |
+| 128 | This is as far as you go. | Pikkon | PQ143 | Full Ki: force enemies to target you for 3 sec; Just Guard restores 50 Ki |
+| 129 | You've awakened my true power... | Zarbon | PQ144 | Always +20% recovery effect; Awoken Skill: +5% all abilities while active |
+| 130 | I won't forgive those who best my comrades! | Kahseral | PQ144 | Ally KO: +50% Stamina/Ki Auto-Recovery for 20 sec |
+| 131 | I've cast aside everything for this! | Toppo (God of Destruction) | PQ145 | Always +35% all attacks, with documented +10% damage taken and recovery/mobility penalties |
+| 132 | There's no way you can hit me! | Dyspo | PQ146 | Evasive Skill: +25% movement speed and +30% Stamina Auto-Recovery for 15 sec |
+
+Canonical acquisition remains authoritative; no unsupported reward probabilities were added. Documented wording/data nuances are retained rather than silently normalized.
