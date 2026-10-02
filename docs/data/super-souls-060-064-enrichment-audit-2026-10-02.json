@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-02",
+  "scope": [
+    "super-soul-060",
+    "super-soul-061",
+    "super-soul-062",
+    "super-soul-063",
+    "super-soul-064"
+  ],
+  "source_of_truth": "docs/data/super-souls-record-layer.json",
+  "external_evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74746430",
+    "https://dbxenoverse.fandom.com/wiki/103_-_Warriors_of_Universes_6_%26_7%21",
+    "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
+  ],
+  "records": [
+    {
+      "id": "super-soul-060",
+      "result": "verified"
+    },
+    {
+      "id": "super-soul-061",
+      "result": "verified"
+    },
+    {
+      "id": "super-soul-062",
+      "result": "verified"
+    },
+    {
+      "id": "super-soul-063",
+      "result": "verified"
+    },
+    {
+      "id": "super-soul-064",
+      "result": "verified"
+    }
+  ]
+}
