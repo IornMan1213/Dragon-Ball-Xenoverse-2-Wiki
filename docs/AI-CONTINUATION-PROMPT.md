@@ -9082,3 +9082,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-100-104-verification-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with Super Soul 105 onward.
+
+
+### 2026-10-02 continuation — Super Souls 105-109 verification
+- [x] Verified Super Souls 105-109 against current catalogue and independent guide evidence.
+- [x] 105: Beerus, PQ130, battle-start sleep/self effect and -15% damage taken for 30 seconds corroborated.
+- [x] 106: Broly, PQ130, one-time revival trigger restoring +6% Health and +200 Ki to allies corroborated.
+- [x] 107: SSGSS Gogeta, PQ131, battle-start full Ki restoration and 30-second +10% Ki Auto-Recovery corroborated.
+- [x] 108: Bardock, PQ131, battle-start team Health Auto-Recovery at +1.8% HP/sec for 30 seconds corroborated.
+- [x] 109: Videl, PQ131, one-time revival trigger with full Ki restoration corroborated.
+- [x] Added `docs/data/super-souls-105-109-verification-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with Super Soul 110 onward.
