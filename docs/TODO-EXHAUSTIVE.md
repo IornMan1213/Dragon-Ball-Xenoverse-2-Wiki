@@ -8424,3 +8424,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-153-160-verification-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue evidence-first enrichment with Super Soul 161 onward.
+
+### 2026-10-02 continuation — Super Souls 161-170
+- [x] Current external evidence rechecked Super Souls 161-170 and corroborated their identities, mechanics, and acquisition endpoints.
+- [x] Added `docs/data/super-souls-161-170-verification-audit-2026-10-02.json`.
+- [ ] Canonical record-layer status/date synchronization for 161-170 remains to be written after the repository write guard blocked the bulk replacement; do not treat this cycle as fully synchronized until that write succeeds.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** complete the canonical 161-170 synchronization, then continue with Super Soul 171 onward.
