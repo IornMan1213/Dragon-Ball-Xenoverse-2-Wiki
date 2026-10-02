@@ -131,9 +131,9 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": "Relevant to Turn Giant usage",
-      "version_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -185,9 +185,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -212,9 +212,9 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": " Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": " Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. 2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -266,9 +266,9 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Acquisition reconciled 2026-09-30 from current Super Soul catalogue and independent PQ documentation; mechanics remain preserved as documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-30",
+      "version_notes": "Acquisition reconciled 2026-09-30 from current Super Soul catalogue and independent PQ documentation; mechanics remain preserved as documented. 2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -293,9 +293,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -320,9 +320,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -374,9 +374,9 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. 2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -401,9 +401,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -482,9 +482,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 canonical catalogue reconciliation: current Super Soul catalogue directly matches the stored identity, character, acquisition endpoint, trigger/effect values, and Limit Burst for the fields present. No unsupported stacking, timing, or hidden mechanics were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
