@@ -8131,3 +8131,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added current independent evidence to canonical Super Soul 032 provenance and its direct-evidence audit without changing its secondary-only mechanics status.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed Super Soul enrichment; preserve unresolved mechanics rather than filling gaps speculatively.
+
+
+### 2026-10-02 continuation — Super Soul 034 mechanics recovered
+- [x] Recovered secondary evidence for Super Soul 034 mechanics: temporary Ki Auto-Recovery/all-attack activation followed by temporary enemy-skill lockout.
+- [x] Kept exact magnitude/duration unresolved rather than inferring values.
+- [x] Updated canonical record and direct-evidence audit.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-first enrichment of unresolved/partially verified Super Soul records.
