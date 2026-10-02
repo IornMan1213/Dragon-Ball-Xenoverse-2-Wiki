@@ -8904,3 +8904,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-soul-044-enrichment-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record.
+
+
+### 2026-10-02 continuation — Super Soul 045 acquisition and Ki mechanics enrichment
+- [x] Enriched `super-soul-045` with independent Saibaman raid provenance and later Great Ape Baby Lite recurrence evidence.
+- [x] Reconfirmed the registered/catalogue **+100 Ki** Instant Transmission effect.
+- [x] Preserved independent testing showing approximately one Ki bar normally and up to two bars at close range as secondary behavior; no universal two-bar rule was inferred.
+- [x] Added `docs/data/super-soul-045-enrichment-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record.
