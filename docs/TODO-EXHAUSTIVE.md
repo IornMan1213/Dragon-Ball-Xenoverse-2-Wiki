@@ -8528,3 +8528,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/Super-Souls-Database.md`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** reconcile remaining partial records 053, 101, 143, 153, and 177 while preserving canonical source-of-truth boundaries.
+
+
+### 2026-10-02 continuation — final five partial Super Soul reconciliation
+- [x] Promoted Super Soul 053 to `verified` after current catalogue corroboration of +10% per KO and 10-stack cap; preserved historical 5% evidence as provenance.
+- [x] Reconciled 101, 143, 153, and 177 and deliberately retained `partially_verified` where source conflicts or exact item-level probabilities remain unresolved.
+- [x] Added `docs/data/super-souls-053-101-143-153-177-reconciliation-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** move to the next canonical database gap/cross-linking task; do not fabricate resolutions for the remaining four partial records.
