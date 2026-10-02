@@ -44,7 +44,7 @@ def main() -> int:
         missing = required - record.keys()
         if missing:
             raise SystemExit(f"record {i} missing required fields: {sorted(missing)}")
-        if record["verification_status"] not in {"indexed","partially_verified","verified"}:
+        if record["verification_status"] not in {"indexed","partially_verified","verified","verified_secondary"}:
             raise SystemExit(f"record {record['id']} has invalid verification_status")
         if not isinstance(record["sources"], list) or not record["sources"]:
             raise SystemExit(f"record {record['id']} must have at least one source")
