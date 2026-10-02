@@ -8826,3 +8826,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated the canonical record and direct-evidence audit with provenance.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the same evidence-first pass on the remaining unresolved/partially verified Super Soul endpoints, prioritizing records where independent item-level mechanics can be recovered without inference.
+
+
+### 2026-10-02 continuation — Super Soul census reconciliation
+- [x] Reconciled the stale 2026-09-28 mechanics census and 2026-09-30 refresh so Super Soul 034 is no longer classified as substantively unresolved after its mechanics were recovered from independent 2026 player reports.
+- [x] Preserved the exact-magnitude/duration uncertainty boundary for Super Soul 034.
+- [x] Reconfirmed current PQ186 evidence: Steam's all-186 PQ guide lists both Super Soul 034 and 035 as PQ186 rewards; current GameFAQs discussion documents player farming experience for 035 while disagreeing over whether Z-rank affects drops, so no Z-rank drop rule is promoted.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence-backed enrichment of the next partially verified Super Soul record; do not infer numerical mechanics or drop conditions from disputed player reports.
