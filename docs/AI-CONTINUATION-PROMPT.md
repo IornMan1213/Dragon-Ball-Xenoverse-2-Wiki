@@ -9058,3 +9058,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-085-089-verification-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with Super Soul 090 onward, preserving canonical source-of-truth and unresolved-boundary rules.
+
+
+### 2026-10-02 continuation — Super Souls 095-099 verification
+- [x] Verified canonical Super Souls 095-099 against independent Super Soul catalogue and comprehensive guide evidence.
+- [x] 095: Caulifla, PQ122, Super Saiyan 2/Super Vegeta 2 condition, +20% Ki restored and +10% normal attacks corroborated.
+- [x] 096: Super Baby 2, PQ124, below-25%-HP one-time -20%/10s effect and ongoing -15% damage reduction corroborated.
+- [x] 097: Kefla (Super Saiyan), PQ126, charged-attack/Charged Ki Blast stacking effects corroborated.
+- [x] 098: Broly (Full Power Super Saiyan), PQ128, guard-break trigger and -25% guard-break duration corroborated.
+- [x] 099: Frieza (Final Form), PQ128, ally-KO trigger and +10% all-attacks for 15 seconds corroborated.
+- [x] Added `docs/data/super-souls-095-099-verification-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with Super Soul 100 onward.
