@@ -8512,3 +8512,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated `docs/Super-Souls-Database.md` from the stale 42-record description to the current 186-record frontier and documented the full status vocabulary.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** target remaining `partially_verified` Super Soul records with real canonical endpoints and incomplete evidence; preserve rejected legacy boundaries.
+
+
+### 2026-10-02 continuation — Super Souls 174-176 and 178 verification-status reconciliation
+- [x] Promoted canonical Super Souls 174, 175, 176, and 178 to `verified` after reconciling current catalogue evidence with the independent/player-facing evidence already attached to the records.
+- [x] Added `docs/data/super-souls-174-176-178-verification-audit-2026-10-02.json`.
+- [x] Preserved Super Soul 177 as `partially_verified` because its canonical 20% proc probability remains unresolved at item level.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining `partially_verified` Super Soul records, prioritizing 143, 153, 177, then the remaining early partial records; preserve canonical values when sources conflict.
