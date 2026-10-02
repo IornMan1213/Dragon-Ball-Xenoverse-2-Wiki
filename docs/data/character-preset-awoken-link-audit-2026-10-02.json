@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": "Character preset to Awoken relationship coverage",
+  "preset_records": 51,
+  "linked_records": 0,
+  "unresolved_records": 51,
+  "policy": "Do not infer preset Awoken skills from character identity, transformations shown in external summaries, or wish-list/community material. Populate canonical_awoken_id only when the preset loadout is directly evidenced.",
+  "external_context": [
+    "Partner customization documentation demonstrates that character skill sets can contain an Awoken slot, but this does not establish every default preset's Awoken loadout.",
+    "Future Saga Chapter 4 documentation establishes The Power to Overcome as a CaC Awoken Skill and DLC content, but does not by itself establish a specific default character preset loadout."
+  ]
+}
