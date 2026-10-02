@@ -9119,3 +9119,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-115-120-verification-audit-2026-10-02.json` and synchronized the human-readable database/index.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 121 onward.
+
+
+### 2026-10-02 continuation — Super Souls 121-126 verification
+- [x] Verified canonical Super Souls 121-126 against current catalogue plus independent PQ reward/stat-sheet evidence.
+- [x] 121: Majuub, PQ138/151, KO revival at 1 HP, 10-second damage nullification and +15% normal attacks.
+- [x] 122: Pan (Kid), PQ138, always +10% movement speed and +5% Stamina recovery.
+- [x] 123: Goku (GT), PQ140, Super Spirit Bomb +15% Ki Blast attacks for 15 seconds and +1.2% HP/sec during the attack.
+- [x] 124: Android 21, PQ140, enemy Stamina/attack reduction at battle start and enemy Ki/damage-taken effects after 30 seconds.
+- [x] 125: Uub (Kid), PQ141, health-threshold melee/Strike boosts (+10% below 50%, +15% below 25%).
+- [x] 126: Broly, PQ141, +10% all attacks per opponent Reinforcement Skill activation, up to 10 stacks.
+- [x] Added `docs/data/super-souls-121-126-verification-audit-2026-10-02.json` and synchronized canonical/human-readable layers.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 127 onward.
