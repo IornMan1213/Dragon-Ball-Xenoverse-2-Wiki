@@ -8913,3 +8913,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-soul-045-enrichment-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record.
+
+
+### 2026-10-02 continuation — Super Soul 046 acquisition/mechanics enrichment
+- [x] Enriched canonical `super-soul-046` ("Kind of human-like, don't you think?") with independent acquisition provenance from the official Bandai Namco Super 17 raid documentation: the soul is listed at the 15,000 individual-damage reward tier, with the event documentation stating that players can obtain up to one Super Soul from the event.
+- [x] Reconciled the Energy Field mechanic with independent item-level documentation: **-20% damage taken for the wearer and all allies for 10 seconds**.
+- [x] Reconfirmed the canonical Limit Burst as **Revive Gauge Auto-Recovery!**.
+- [x] Added `docs/data/super-soul-046-enrichment-audit-2026-10-02.json` and updated the human-readable Super Souls database row.
+- [x] Preserved unresolved stacking/hidden implementation details and did not infer reward probabilities or assume every rerun uses identical thresholds.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified/unresolved endpoint after 046, prioritizing independent item-level mechanics or acquisition evidence and preserving canonical-forward/source-of-truth rules.
