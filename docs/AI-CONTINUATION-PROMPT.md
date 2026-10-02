@@ -9205,3 +9205,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-179-184-verification-audit-2026-10-02.json` and synchronized the canonical record layer.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue evidence-first enrichment with Super Soul 185 onward.
+
+
+### 2026-10-02 recovery-forward checkpoint — Super Souls 185-186
+- [x] Confirmed the live main repository is restored from the preserved recovery baseline and remains ahead of recovery-before-main-restoration-2026-09-27 without being behind it; the recovery baseline is the merge base and the restored tree is intact.
+- [x] Extended the canonical Super Soul record layer from 184 to 186 records using explicit current catalogue evidence for Super Souls 185 and 186.
+- [x] Added docs/data/super-souls-185-186-verification-audit-2026-10-02.json.
+- [x] Super Soul 185: "I said don't go easy on me!" — Super Saiyan 2 Gohan (Teen), TP Medal Shop/STP Medal Shop, Ultimate Attack trigger, +25% Ultimate Attack damage, -40% Ki recovery penalty, Power Limit Burst.
+- [x] Super Soul 186: "You irritating little pests!" — Frieza (1st Form), TP Medal Shop/STP Medal Shop, Super Attack trigger, +20% Super Attack damage, Race Default Ki Blast type, standard ATK Up/Ki Auto-Recovery/Stamina Recovery Speed Down Limit Burst.
+- [x] Updated docs/Super-Souls-Database.md to expose 185-186 alongside the canonical record layer.
+- [x] No shop rotation timing, hidden frame/tick behavior, or reward probability was inferred.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] Exact next: reconcile the remaining skipped Super Soul verification ranges (especially 090-094 and 139-143) against the canonical record layer, then continue beyond 186 only where the repository's canonical endpoint model explicitly requires it; do not assume every later catalogue entry belongs in this record layer without reconciling scope.
