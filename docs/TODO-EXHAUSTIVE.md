@@ -8482,3 +8482,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No canonical record-layer mutation was required for 139-143.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] Exact next: move to the next unresolved canonical data gap rather than reopening rejected legacy records; prioritize records with a real canonical endpoint and incomplete mechanics/evidence.
+
+
+### 2026-10-02 continuation — early Super Soul verification follow-up
+- [x] Verified records 005, 008, 012, 015, 016 against the current canonical catalogue.
+- [x] Added `docs/data/super-souls-005-008-012-015-016-verification-audit-2026-10-02.json`.
+- [x] Preserved the distinction between Ki Blast type and Limit Burst for 015/016.
+- [ ] Super Soul 003 remains partially verified because its -100% Kamehameha interpretation still warrants deeper mechanic testing/reconciliation.
