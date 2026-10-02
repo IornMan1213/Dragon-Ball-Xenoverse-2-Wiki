@@ -8195,3 +8195,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added official Fused Zamasu raid provenance for Super Soul 043 and corroborated its low-health auto-reduction behavior.
 - [x] Added dated audit evidence and preserved unresolved mechanics/reward fields.
 - [ ] Continue to the next partially verified Super Soul endpoint.
+
+
+## 2026-10-02 recovery-forward checkpoint — Super Soul 044
+- [x] Reconciled Great Ape Baby raid provenance and current +15% all-attack data.
+- [x] Corrected the Ki-vs-Stamina Auto-Recovery description error using independent item-level evidence.
+- [x] Added dated audit evidence and preserved unresolved stamina magnitude/stacking/reward fields.
+- [ ] Continue to the next partially verified Super Soul endpoint.
