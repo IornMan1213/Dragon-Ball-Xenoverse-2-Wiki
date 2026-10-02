@@ -61,3 +61,15 @@
 - [x] Updated `docs/Super-Souls-Database.md` with the verification checkpoint.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** reconcile remaining partial records 053, 101, 143, 153, and 177; preserve documented source conflicts instead of normalizing unsupported values.
+
+
+### 2026-10-02 continuation — final five partial Super Soul reconciliation
+- [x] Reconciled records 053, 101, 143, 153, and 177 against current catalogue and independent evidence.
+- [x] Promoted 053 to `verified`: current catalogue confirms canonical +10% per KO and 10-stack cap; historical 5% evidence is retained as provenance only.
+- [x] Preserved 101 as partial because later attack boost remains +10% catalogue vs +20% stat-sheet discrepancy.
+- [x] Preserved 143 as partial because the second -5% damage-taken entry has internally contradictory sign/wording semantics.
+- [x] Preserved 153 as partial because current external evidence supports 25%/25% Ki modifiers while the canonical normalized record remains -30%/+50%; canonical source-of-truth was not overwritten.
+- [x] Preserved 177 as partial because independent evidence confirms initial-Ki-cost refund behavior but does not establish the canonical 20% proc probability.
+- [x] Added `docs/data/super-souls-053-101-143-153-177-reconciliation-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** Super Soul partial verification frontier is exhausted for the current 186-record layer; move forward to the next canonical database gap/cross-linking task rather than forcing unresolved source conflicts.
