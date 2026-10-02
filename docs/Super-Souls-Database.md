@@ -227,3 +227,8 @@ Records 133-136 were rechecked against current catalogue/character evidence and 
 | 136 | I will prevail, no matter the cost! | Jiren (Full Power) | PQ150 | More Ki than opponent: +15% all attacks; less Ki: +10% Ki Auto-Recovery |
 
 No unsupported drop probabilities were added. Super Soul 137 was deliberately left partially verified because its canonical identity has a documented naming discrepancy against current external catalogue evidence.
+
+
+### Super Soul 137 — 2026-10-02 identity resolution
+
+Super Soul 137 is now verified. The canonical repository label is **"I'll never forgive you!"**; current external item-level catalogue evidence identifies the same Frieza (1st Form) Soul as **"I'll never forgive you, scum!"**. The identity, Item Shop acquisition, guard-break trigger, and Limit Burst align. The external naming suffix is retained as a documented variant rather than replacing the canonical label. Current catalogue evidence gives **-20% damage received from all attacks for 4 seconds** after guard break. 
