@@ -3384,16 +3384,19 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred. Current catalogue and independent guide/DLC evidence rechecked 2026-10-02; unsupported drop probabilities and hidden implementation details remain unresolved.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78151543",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
@@ -3415,16 +3418,19 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred. Current catalogue and independent guide/DLC evidence rechecked 2026-10-02; unsupported drop probabilities and hidden implementation details remain unresolved.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78151543",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
@@ -3446,9 +3452,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred. Current catalogue and independent guide/DLC evidence rechecked 2026-10-02; unsupported drop probabilities and hidden implementation details remain unresolved.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3456,7 +3462,9 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78151543",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
@@ -3478,9 +3486,9 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred. Current catalogue and independent guide/DLC evidence rechecked 2026-10-02; unsupported drop probabilities and hidden implementation details remain unresolved.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3488,7 +3496,9 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78151543",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
@@ -3510,9 +3520,9 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred. Current catalogue and independent guide/DLC evidence rechecked 2026-10-02; unsupported drop probabilities and hidden implementation details remain unresolved.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3520,7 +3530,9 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78151543",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
