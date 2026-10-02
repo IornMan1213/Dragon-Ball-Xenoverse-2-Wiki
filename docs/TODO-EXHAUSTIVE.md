@@ -8536,3 +8536,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-053-101-143-153-177-reconciliation-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** move to the next canonical database gap/cross-linking task; do not fabricate resolutions for the remaining four partial records.
+
+
+### 2026-10-02 continuation — Awoken parent/stage cross-link foundation
+- [x] Added `docs/data/awoken-cross-system-link-audit-2026-10-02.json` for the 15 canonical Awoken parents / 20 documented forms-stages.
+- [x] Preserved the parent/stage model, stable identifiers, acquisition endpoints, race/use scope, and cast/enemy exclusion boundaries.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** deepen Awoken mechanics/version evidence and cross-link Awoken records to character/preset, DLC, mentor/time-rift, and skill data.
