@@ -1,0 +1,39 @@
+{
+  "audit_id": "super-souls-153-160-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": [
+    "super-soul-153",
+    "super-soul-154",
+    "super-soul-155",
+    "super-soul-156",
+    "super-soul-157",
+    "super-soul-158",
+    "super-soul-159",
+    "super-soul-160"
+  ],
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "evidence_policy": "Canonical repository data remains authoritative. Current catalogue/DLC/PQ evidence corroborates identity, mechanics, and acquisition endpoints. No reward probability, first-clear rule, or hidden implementation detail is inferred.",
+  "verified_records": [
+    "super-soul-154",
+    "super-soul-155",
+    "super-soul-156",
+    "super-soul-157",
+    "super-soul-158",
+    "super-soul-159",
+    "super-soul-160"
+  ],
+  "partially_verified": [
+    "super-soul-153"
+  ],
+  "findings": {
+    "super-soul-153": "Current sources disagree on the magnitude of the always-on Ki-restoration reduction (-30% in the canonical record/current Super Soul table versus 25% on a character-specific page). Preserve the discrepancy and do not promote this record to fully verified until item-level evidence resolves it.",
+    "super-soul-155": "Source explicitly documents a description-vs-registered-value discrepancy for the lower-health threshold; canonical +20% registered value is retained.",
+    "super-soul-159": "Current documentation clarifies that scaling uses number of opposing enemies, not number defeated."
+  },
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://dbxv2.fandom.com/wiki/DLC",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
