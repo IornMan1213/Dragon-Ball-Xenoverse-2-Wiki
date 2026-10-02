@@ -8168,3 +8168,9 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved acquisition-history distinction: current raid documentation records the soul as a raid reward, while wiki documentation identifies NPC Gogoh as the normal acquisition route; these are retained as separate provenance facts rather than conflated.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue evidence-backed enrichment of the next partially verified Super Soul record.
+
+
+## 2026-10-02 recovery-forward checkpoint
+- [x] Super Soul 038 acquisition/Limit Burst evidence enrichment completed; canonical source updated and audit recorded.
+- [x] No reverse projection or historical recovery snapshot was used to manufacture canonical data.
+- [ ] Continue evidence-backed enrichment of the next partially verified Super Soul record; preserve unresolved mechanics and acquisition uncertainty.
