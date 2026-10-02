@@ -8868,3 +8868,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved stacking behavior, drop probability, Mixing Shop recipe details, and hidden activation timing; no speculative mechanics were inserted.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record, prioritizing independent item-level mechanics/acquisition evidence and preserving unresolved fields rather than guessing.
+
+
+### 2026-10-02 continuation — Super Soul 039 exact mechanics enrichment
+- [x] Enriched canonical `super-soul-039` ("I am going to bathe in your blood!") with independent evidence establishing the battle-start all-attack boost as **+40% for 20 seconds**, while preserving the original XXL description/provenance.
+- [x] Reconciled the Limit Burst explicitly as **ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.**
+- [x] Added `docs/data/super-soul-039-enrichment-audit-2026-10-02.json` documenting evidence and unresolved boundaries.
+- [x] Preserved unresolved stacking behavior and historical raid recurrence/drop-rate details; no XXL conversion was inferred from a category label alone.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record, prioritizing independently corroborated mechanics/acquisition fields.
