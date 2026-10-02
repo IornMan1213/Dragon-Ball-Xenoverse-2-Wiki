@@ -5106,15 +5106,16 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -5137,15 +5138,16 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -5168,15 +5170,16 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -5199,8 +5202,8 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Promoted from canonical source-backed PQ reward relationships. Mechanics and ownership fields remain unresolved pending item-level evidence; no mechanics inferred. Mechanics fields enriched from independently surfaced secondary item/character evidence on 2026-09-27; unresolved fields remain explicitly unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
@@ -5228,8 +5231,8 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Promoted from canonical source-backed PQ reward relationships. Mechanics and ownership fields remain unresolved pending item-level evidence; no mechanics inferred. Mechanics fields enriched from independently surfaced secondary item/character evidence on 2026-09-27; unresolved fields remain explicitly unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -5256,12 +5259,14 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Promoted from canonical source-backed PQ reward relationships. Mechanics and ownership fields remain unresolved pending item-level evidence; no mechanics inferred. Mechanics fields enriched from independently surfaced secondary item/character evidence on 2026-09-27; unresolved fields remain explicitly unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Vegeta",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
@@ -5284,12 +5289,14 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Promoted from canonical source-backed PQ reward relationships. Mechanics and ownership fields remain unresolved pending item-level evidence; mechanics fields enriched from independently surfaced item/character evidence on 2026-09-27; Limit Burst corroborated by the current Super Soul catalogue.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Turles",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
@@ -5312,12 +5319,14 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Promoted from canonical source-backed PQ reward relationships. Mechanics and ownership fields remain unresolved pending item-level evidence; no mechanics inferred. Mechanics fields enriched from independently surfaced secondary item/character evidence on 2026-09-27; unresolved fields remain explicitly unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Goku",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
@@ -5340,12 +5349,14 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Promoted from canonical source-backed PQ reward relationships. Mechanics and ownership fields remain unresolved pending item-level evidence; no mechanics inferred. Mechanics fields enriched from independently surfaced secondary item/character evidence on 2026-09-27; unresolved fields remain explicitly unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Android_18",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
@@ -5368,12 +5379,14 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Promoted from canonical source-backed PQ reward relationships. Mechanics and ownership fields remain unresolved pending item-level evidence; no mechanics inferred. Mechanics fields enriched from independently surfaced secondary item/character evidence on 2026-09-27; unresolved fields remain explicitly unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://twinfinite.net/guides/dragon-ball-xenoverse-2-parallel-quests/",
         "https://dbxv2.fandom.com/wiki/Gohan_%28Teen%29",
-        "https://dbxv2.fandom.com/wiki/Android_16"
+        "https://dbxv2.fandom.com/wiki/Android_16",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
       ]
     },
     {
