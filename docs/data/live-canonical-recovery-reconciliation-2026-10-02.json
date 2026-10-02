@@ -1,0 +1,45 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-02",
+  "type": "live_canonical_reconciliation",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "canonical_source_blob_sha": "782920ad4514b0d73fc594320cc4eece2575a06f",
+  "canonical_mutations": [],
+  "computed_counts": {
+    "skill": 249,
+    "super_soul": 143,
+    "equipment": 149,
+    "character": 247,
+    "dlc": 106,
+    "farming": 7
+  },
+  "total_relationships": 901,
+  "duplicate_keys": 0,
+  "dependent_projection_status": {
+    "docs/data/pq-cross-domain-reverse-index.json": "synchronized to 901 canonical rows",
+    "docs/data/pq-cross-domain-status.json": "synchronized to 901 canonical rows",
+    "docs/data/pq-cross-domain-audit.json": "synchronized to 901 canonical rows",
+    "docs/data/pq-skill-crosslink-report.json": "synchronized to 249 canonical skill edges",
+    "docs/data/pq-equipment-crosslink-report.json": "synchronized to 149 canonical equipment edges and 144 unique targets",
+    "docs/data/pq-equipment-endpoint-integrity-audit-2026-09-30.json": "resolved; 0 endpoint gaps"
+  },
+  "historical_stale_manifests": [
+    {
+      "path": "docs/data/live-canonical-recovery-reconciliation-2026-09-30.json",
+      "historical_total": 899,
+      "current_total": 901,
+      "action": "preserved as historical provenance; not overwritten"
+    },
+    {
+      "path": "docs/data/pq-unified-reverse-index-reconciliation-2026-09-30.json",
+      "historical_equipment_forward_edges": 148,
+      "current_equipment_forward_edges": 149,
+      "action": "preserved as historical provenance; current reverse projection remains canonical-first"
+    }
+  ],
+  "notes": [
+    "This checkpoint records the current canonical metadata and dependent projection state without rewriting historical recovery artifacts.",
+    "Canonical forward relationship data remains authoritative; reverse indexes/projections are consumers only.",
+    "Runtime validator/CI was not executed; runtime remains non-blocking."
+  ]
+}
