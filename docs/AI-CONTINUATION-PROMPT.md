@@ -8817,3 +8817,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated `super-soul-032-034-direct-evidence-audit-2026-09-27.json` to preserve that evidence boundary; no unsupported mechanics were promoted.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue evidence-first enrichment of partially verified Super Soul records, prioritizing records with independent item-level mechanics/acquisition evidence. Keep `super-soul-034` unresolved until direct evidence establishes its mechanics. Do not treat `verified_secondary` as canonical source-of-truth; canonical data remains authoritative.
+
+
+### 2026-10-02 continuation — Super Soul 034 mechanics recovered
+- [x] Reopened the unresolved Super Soul 034 endpoint using fresh external evidence instead of leaving an exhausted search gap as permanent unknown data.
+- [x] Added secondary evidence for its temporary battle-start Ki Auto-Recovery/all-attack effect and subsequent temporary enemy-skill lockout, including Evasive Skills.
+- [x] Preserved unresolved numerical magnitudes and exact durations; no speculative canonical values were inserted.
+- [x] Updated the canonical record and direct-evidence audit with provenance.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the same evidence-first pass on the remaining unresolved/partially verified Super Soul endpoints, prioritizing records where independent item-level mechanics can be recovered without inference.
