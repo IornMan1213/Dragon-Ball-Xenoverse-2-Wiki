@@ -8372,3 +8372,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-115-120-verification-audit-2026-10-02.json` and updated canonical/human-readable/index layers.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue with Super Soul 121 onward.
+
+
+### 2026-10-02 recovery-forward checkpoint — Super Souls 121-126
+- [x] Verified Super Souls 121-126 and preserved canonical PQ acquisition.
+- [x] Recorded documented triggers, thresholds, magnitudes, durations and stacking rules.
+- [x] Preserved documented description/data discrepancies instead of silently changing canonical values.
+- [x] Added `docs/data/super-souls-121-126-verification-audit-2026-10-02.json` and updated canonical/human-readable layers.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue with Super Soul 127 onward.
