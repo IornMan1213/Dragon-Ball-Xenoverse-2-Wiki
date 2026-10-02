@@ -8307,3 +8307,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved drop probabilities and hidden implementation/timing details instead of inferring them.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue with Super Soul 085 onward.
+
+
+### 2026-10-02 continuation — Super Souls 085-089 verification
+- [x] Verified Super Souls 085-089 against independent catalogue, PQ/DLC, and community evidence as applicable.
+- [x] 085: corroborated Dragon Fist trigger, +30% Strike Skills for 10 seconds, once-only behavior, and Limit Burst.
+- [x] 086: corroborated Hero's Flute trigger, +0.6% HP/sec team regeneration, -5% damage taken, and PQ116 association.
+- [x] 087: corroborated successful Just Guard trigger, -10 opponent Stamina, +10% Ki Blast skills for 10 seconds, Rush Limit Burst, and PQ117.
+- [x] 088: corroborated -50% revive time and once-only +50% Ki restoration when an ally revives, plus PQ118 acquisition.
+- [x] 089: corroborated battle-start -15% ability reduction/30-second transition and PQ118 association; retained canonical post-30-second +15% all-attack boost.
+- [x] Added `docs/data/super-souls-085-089-verification-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with Super Soul 090 onward, preserving canonical source-of-truth and unresolved-boundary rules.
