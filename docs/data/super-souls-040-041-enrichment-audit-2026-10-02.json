@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "batch": "Super Souls 040-041 raid provenance enrichment",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-040",
+      "name": "You fool! Why are you laughing!",
+      "findings": [
+        "Current item catalogue independently confirms +3% HP approximately per second for 3 seconds and the Limit Burst.",
+        "A 2020 Perfect Cell Full Power raid report identifies the Super Soul as a 50,000-damage individual reward."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29",
+        "https://www.reddit.com/r/dbxv/comments/jgaapt/raid_vs_perfect_cell_october_22nd_28th/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79055357?page=3"
+      ],
+      "unresolved": [
+        "drop probability",
+        "stacking behavior"
+      ]
+    },
+    {
+      "id": "super-soul-041",
+      "name": "Not on my watch!",
+      "findings": [
+        "Official Bandai Namco anniversary documentation lists the Super Soul among Hercule raid individual-performance rewards.",
+        "Current catalogue and later Hercule Lite documentation corroborate +30% all attacks and +30% damage taken for 30 seconds, with Auto Health and Stamina Recovery! DEF Down Limit Burst."
+      ],
+      "sources": [
+        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event",
+        "https://dbxv2.fandom.com/wiki/Hercule",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81115089"
+      ],
+      "unresolved": [
+        "drop probability",
+        "stacking behavior"
+      ]
+    }
+  ],
+  "policy": "Canonical data remains authoritative; independent evidence is used to reconcile provenance and mechanics, while unresolved fields remain explicitly unresolved."
+}
