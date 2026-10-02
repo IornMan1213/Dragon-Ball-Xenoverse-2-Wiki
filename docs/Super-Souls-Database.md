@@ -144,6 +144,7 @@ Records 044–047 have now undergone item-level reconciliation. Three have verif
 | 046 | Kind of human-like, don't you think? | Super 17 Online Raid — official 15,000-damage individual target tier | Energy Field: -20% damage taken for wearer/allies for 10 sec; Limit Burst: Revive Gauge Auto-Recovery! | Verified |
 | 047 | Kicking a Shadow Dragon in the head is not a wise thing to do! | Shadow Dragon raid family | +5% defense baseline; larger defense boost at ≤10% HP; stamina-damage reduction value unresolved | Partially verified |
 | 049 | Getting beat up makes me cranky... | Parallel Quest 44 | +5% Ki auto-recovery; +15% Ki Blast-based attacks at max Stamina; Rush Limit Burst | Verified |
+| 050 | I'll use all my strength to kill you... | Parallel Quest 29 — The Androids Attack | +5% Ki auto-recovery; +10% normal attacks at max Ki; Power Limit Burst | Verified |
 | 048 | Set your rage free... | Parallel Quest 42 — Artificial Warriors | -5% ally revival time; +100% Ki on KO; Limit Burst: Auto Health and Stamina Recovery!; DEF Down. | Verified |
 
 Exact raid recurrence schedules and drop probabilities are not inferred from these records.
