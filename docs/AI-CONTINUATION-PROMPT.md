@@ -8975,3 +8975,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Kept internal timing/stacking behavior unresolved rather than inventing mechanics.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with the next partially verified/unresolved Super Soul after 052.
+
+
+### 2026-10-02 continuation — Super Souls 053-055 evidence enrichment
+- [x] Revalidated the recovery baseline before enrichment: main remains the restored-and-forward branch; no rollback to stale recovery branches is warranted.
+- [x] Enriched canonical `super-soul-053` ("I never knew this world existed!") with current catalogue evidence confirming Super Saiyan God Goku, PQ65 acquisition, ally-KO trigger, 10-stack structure, and Homing Limit Burst.
+- [x] Preserved the documented magnitude conflict: current catalogue evidence reports **10%**, while an older stat-sheet source reports **5%**; canonical +10% remains authoritative and the discrepancy is recorded rather than silently resolved.
+- [x] Promoted canonical `super-soul-054` ("Everyone, lend me your energy!") to `verified` after independent catalogue + PQ-guide corroboration of PQ92 acquisition, +10% Ki Blast Skill boost for 15 seconds, and Limit Burst.
+- [x] Promoted canonical `super-soul-055` ("Finally, some excitement.") to `verified` after independent catalogue + PQ-guide corroboration of PQ93 acquisition, always-active +15% Charged Ki Blast boost, and Limit Burst.
+- [x] Added `docs/data/super-souls-053-055-enrichment-audit-2026-10-02.json` with evidence boundaries and the 053 historical magnitude conflict.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with the next partially verified/unresolved Super Soul endpoint after 055; preserve canonical-forward source-of-truth rules and do not infer disputed mechanics or reward probabilities.
