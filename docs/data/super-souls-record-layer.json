@@ -2551,16 +2551,19 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Independent catalogue evidence confirms the Dragon Fist trigger, +30% Strike Skills for 10 seconds, once-only behavior, and Limit Burst; Dragon Fist documentation identifies this soul as its synergy. A contemporaneous test video independently documents use of the soul to buff Dragon Fist. PQ116 acquisition remains canonical.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Dragon_Fist",
+        "https://www.youtube.com/watch?v=Xg-W3Z0-qeA"
       ]
     },
     {
@@ -2582,9 +2585,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics fields promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; no unsupported drop probability or undocumented trigger behavior inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics fields promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; no unsupported drop probability or undocumented trigger behavior inferred. Independent catalogue evidence confirms Tapion, Hero's Flute trigger, +0.6% HP/sec team regeneration and -5% damage taken; community discussion independently identifies it with PQ116. No drop probability inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -2593,7 +2596,8 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80066147?page=1"
       ]
     },
     {
@@ -2615,9 +2619,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics fields promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; no unsupported drop probability or undocumented trigger behavior inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics fields promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; no unsupported drop probability or undocumented trigger behavior inferred. Independent catalogue evidence confirms Vegito, successful Just Guard trigger, -10 opponent Stamina, +10% Ki Blast-based skills for 10 seconds, Rush Limit Burst, and PQ117. No unsupported drop probability inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -2626,7 +2630,8 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986",
+        "https://dbxv2.fandom.com/wiki/Gotenks"
       ]
     },
     {
@@ -2648,9 +2653,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics fields promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; no unsupported drop probability or undocumented trigger behavior inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics fields promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; no unsupported drop probability or undocumented trigger behavior inferred. Independent catalogue and contemporaneous DLC2/PQ documentation corroborate -50% revive time and once-only +50% Ki restoration to allies/self when an ally revives, plus Bomb Limit Burst. PQ118 acquisition remains canonical.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -2659,7 +2664,8 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986",
+        "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29"
       ]
     },
     {
@@ -2681,16 +2687,19 @@
       "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Independent catalogue evidence confirms Kale, battle-start -15% all-ability reduction for 30 seconds and subsequent return to normal; the canonical record additionally retains the post-30-second +15% all-attack boost. Community discussion independently identifies PQ118 as the acquisition route.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Broly",
+        "https://steamcommunity.com/app/454650/discussions/0/1708438376925478556/"
       ]
     },
     {
