@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "batch": "Super Souls 042-043 raid provenance enrichment",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-042",
+      "name": "Over here, you idiot...",
+      "findings": [
+        "Official anniversary documentation confirms the Masked Saiyan Lite event.",
+        "Repeated raid schedules document this Super Soul as an individual-performance reward.",
+        "Current catalogue supports +20% stamina recovery and +25% all attacks for 10 seconds; historical categorical labels differ, so they are not converted into numeric values."
+      ],
+      "unresolved": [
+        "stacking behavior",
+        "reward probability"
+      ]
+    },
+    {
+      "id": "super-soul-043",
+      "name": "Bye-bye, universe!",
+      "findings": [
+        "Official anniversary documentation lists this Super Soul as a 50,000-damage individual-performance reward in the Fused Zamasu event.",
+        "Current catalogue corroborates approximately 0.5% HP/sec auto-reduction below 25% Health and deactivation when the wearer is KO'ed."
+      ],
+      "unresolved": [
+        "stacking behavior",
+        "reward probability"
+      ]
+    }
+  ],
+  "policy": "Canonical data remains authoritative; secondary evidence is used for provenance and reconciliation, and conflicting categorical labels remain preserved."
+}
