@@ -8834,3 +8834,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Reconfirmed current PQ186 evidence: Steam's all-186 PQ guide lists both Super Soul 034 and 035 as PQ186 rewards; current GameFAQs discussion documents player farming experience for 035 while disagreeing over whether Z-rank affects drops, so no Z-rank drop rule is promoted.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue evidence-backed enrichment of the next partially verified Super Soul record; do not infer numerical mechanics or drop conditions from disputed player reports.
+
+
+### 2026-10-02 continuation — Super Soul 035 mechanics enrichment
+- [x] Enriched Super Soul 035 with independent current 2026 player-testing evidence: approximately 5000 damage distributed over ~30 seconds at battle start, followed by an approximately 15% all-ability increase.
+- [x] Added corroboration that the all-ability effect is broader than attack damage alone and can include defensive/recovery/movement-related stats; exact implementation and boost duration remain unresolved.
+- [x] Kept all numerical mechanics classified as secondary evidence rather than canonical item-level truth.
+- [x] Reconfirmed PQ186 reward identity from the current all-186 PQ guide.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass, targeting the next partially verified record with independent mechanics evidence.
