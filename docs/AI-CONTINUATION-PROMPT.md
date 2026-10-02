@@ -8996,3 +8996,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-056-059-enrichment-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 060 onward; preserve canonical source-of-truth rules and document disagreements instead of silently overwriting them.
+
+
+### 2026-10-02 continuation — Super Souls 060-064 verification
+- [x] Verified `super-soul-060` ("I'll make you regret that!"): Cabba, PQ102, Super Saiyan activation, +20% normal attacks, +10% Strike Skills, Rush Limit Burst.
+- [x] Verified `super-soul-061` ("Don't quit! Get up!"): Frost, PQ102, one-time KO revival at 1 HP, 10-second damage nullification and +10% Strike Skills, Paralyze Limit Burst. Canonical 1 HP wording is retained despite a catalogue note that incorrectly says "1 health bar."
+- [x] Verified `super-soul-062` ("This is not a weapon."): Frost, PQ103, Heavy Smash trigger, -200 opponent Ki, Paralyze Limit Burst.
+- [x] Verified `super-soul-063` ("I've been saving this! Kaioken!"): SSGSS Goku, PQ103, +20% Ki restored, +12%/+6% Stamina recovery, +10% normal attacks, Power Limit Burst.
+- [x] Verified `super-soul-064` ("Now you understand. Surrender."): Hit, PQ103, Heavy Smash trigger, +15% guard-break duration, -100 opponent Ki, Power Limit Burst.
+- [x] Added `docs/data/super-souls-060-064-enrichment-audit-2026-10-02.json` with evidence provenance.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 065 onward; preserve canonical source-of-truth rules and historical discrepancies.
