@@ -8843,3 +8843,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Reconfirmed PQ186 reward identity from the current all-186 PQ guide.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass, targeting the next partially verified record with independent mechanics evidence.
+
+
+### 2026-10-02 continuation — Super Soul 036 mechanics enrichment
+- [x] Enriched Super Soul 036 (“Buu's reached full power!”) with independent GameFAQs raid documentation: -20% Ki recovery and +30% all attacks at max Ki.
+- [x] Preserved the documented discrepancy: the in-game description reportedly says 10% Ki-recovery reduction while game-file evidence indicates 20%; no silent resolution was made.
+- [x] Confirmed Limit Burst: Auto Health and Stamina Recovery! DEF Down.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue the evidence-first pass through the next partially verified Super Soul record.
