@@ -60,9 +60,18 @@
         "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/81166913?page=10"
       ],
       "weight": "secondary"
+    },
+    {
+      "record_id": "super-soul-034",
+      "finding": "Current 2026 player reports identify a temporary battle-start Ki Auto-Recovery/all-attack effect followed shortly afterward by temporary enemy skill lockout, including Evasive Skills. Exact values and duration remain unresolved.",
+      "sources": [
+        "https://www.reddit.com/r/dbxv/comments/1v9m27n/can_anyone_share_pvp_strategies_that_work_against/",
+        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super/"
+      ],
+      "weight": "secondary"
     }
   ],
-  "decision": "Canonical mechanics remain unchanged. Super Soul 032 received additional independent provenance only; 034 remains unresolved and no mechanics were inferred.",
+  "decision": "Super Soul 034 mechanics are now supported by independent secondary player reports, but exact numerical magnitudes/durations remain unresolved. No primary canonical promotion was made.",
   "additional_evidence": [
     {
       "record": "super-soul-032",
@@ -80,6 +89,12 @@
       "record": "super-soul-032",
       "source": "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/81166913?page=10",
       "finding": "Current player discussion reports that the soul changes its displayed name after the user's KO and describes the below-50%-health all-ability effect. Retained as secondary evidence.",
+      "weight": "secondary"
+    },
+    {
+      "record": "super-soul-034",
+      "source": "https://www.reddit.com/r/dbxv/comments/1v9m27n/can_anyone_share_pvp_strategies_that_work_against/",
+      "finding": "Player report describes battle-start temporary Ki Auto-Recovery/all-attack activation and a later temporary lockout of all enemy skills.",
       "weight": "secondary"
     }
   ]
