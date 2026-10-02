@@ -9174,3 +9174,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-144-152-verification-audit-2026-10-02.json` and synchronized `docs/data/super-souls-record-layer.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-backed enrichment from Super Soul 153 onward.
+
+### 2026-10-02 continuation — Super Souls 153-160
+- [x] Rechecked Super Souls 153-160 against current Super Soul catalogue, DLC/character evidence, and the current all-186 PQ guide.
+- [x] Verified 154-160 and synchronized canonical record status/verification dates.
+- [x] Preserved Super Soul 153 as partially verified because current sources disagree on its always-on Ki-restoration reduction magnitude; canonical source-normalized value remains authoritative pending item-level reconciliation.
+- [x] Preserved the documented value discrepancy on Super Soul 155 and the opponent-count interpretation on Super Soul 159.
+- [x] Added `docs/data/super-souls-153-160-verification-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue evidence-first enrichment with Super Soul 161 onward.
