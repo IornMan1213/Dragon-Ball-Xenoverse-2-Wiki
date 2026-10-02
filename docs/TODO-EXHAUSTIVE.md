@@ -8153,3 +8153,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved unresolved boost duration and canonical/secondary provenance boundaries.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment of the next partially verified Super Soul record.
+
+
+### 2026-10-02 continuation — Super Soul 036 mechanics enrichment
+- [x] Added secondary evidence for Super Soul 036: -20% Ki recovery and +30% all attacks at max Ki.
+- [x] Preserved the 10% description vs 20% game-file discrepancy instead of guessing.
+- [x] Confirmed its Limit Burst from the same evidence.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed Super Soul enrichment.
