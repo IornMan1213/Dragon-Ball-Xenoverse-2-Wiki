@@ -9217,3 +9217,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] No shop rotation timing, hidden frame/tick behavior, or reward probability was inferred.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] Exact next: reconcile the remaining skipped Super Soul verification ranges (especially 090-094 and 139-143) against the canonical record layer, then continue beyond 186 only where the repository's canonical endpoint model explicitly requires it; do not assume every later catalogue entry belongs in this record layer without reconciling scope.
+
+
+### 2026-10-02 continuation — Super Souls 090-094 verification
+- [x] Verified Super Souls 090-094 against current Super Soul catalogue evidence and independent PQ evidence.
+- [x] 090: Android 17 (DB Super), PQ119; above 75% HP seals skills, below 75% HP grants +20% movement speed and +25% all attacks.
+- [x] 091: Toppo, PQ120; once when a Super Attack hits/blocks, +20% normal attacks for 30 seconds.
+- [x] 092: Jiren, PQ120; successful Just Guard restores +100 Ki.
+- [x] 093: Fu, PQ121; above 75% HP activates Ki Auto-Recovery and grants +20% Ki restored and +20% Ki Blast-based skill damage.
+- [x] 094: Ribrianne, PQ122; once on Evasive Skill, +20% Ki Blast-based skill damage for 30 seconds.
+- [x] Added docs/data/super-souls-090-094-verification-audit-2026-10-02.json.
+- [x] No unsupported drop probabilities or hidden frame/tick behavior were inferred.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] Exact next: reconcile the remaining skipped Super Soul verification range 139-143, then continue beyond the now-populated 186-record canonical frontier only where scope is explicitly established.
