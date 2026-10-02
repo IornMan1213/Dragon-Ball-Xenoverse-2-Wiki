@@ -8225,3 +8225,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added dated audit evidence and upgraded the endpoint to verified while preserving the user-vs-allies Ki wording conflict.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] Next: continue to the next partially verified Super Soul endpoint after 048.
+
+
+### 2026-10-02 continuation — Super Soul 049 verification
+- [x] Verified `super-soul-049` with independent catalogue/guide evidence: +5% Ki auto-recovery and +15% Ki Blast-based attacks at max Stamina; PQ44 acquisition and Limit Burst reconfirmed.
+- [x] Added dated audit evidence and preserved unresolved internal timing/stacking details.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] Next: continue to the next partially verified Super Soul endpoint after 049.
