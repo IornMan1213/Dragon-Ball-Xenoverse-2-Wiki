@@ -1,0 +1,12 @@
+{
+  "date": "2026-10-02",
+  "status": "completed",
+  "records": {
+    "super-soul-053": "Promoted to verified. Current catalogue independently confirms +10% all attacks per KO and 10-stack cap; historical 5% stat-sheet value remains documented as historical conflict.",
+    "super-soul-101": "Remains partially_verified. Later attack boost remains +10% catalogue vs +20% independent stat-sheet discrepancy.",
+    "super-soul-143": "Remains partially_verified. Current evidence confirms the first -5% opponent attack modifier but the second -5% damage-taken entry has internally contradictory sign/wording semantics.",
+    "super-soul-153": "Remains partially_verified. Current external documentation consistently reports 25% Ki-restoration reduction and 25% Awoken Ki-restoration increase, conflicting with canonical -30%/+50%; canonical values were not overwritten.",
+    "super-soul-177": "Remains partially_verified. Independent reports corroborate initial-Ki-cost refund behavior but only estimate a 15-20% proc rate, insufficient to replace canonical 20% probability."
+  },
+  "policy": "Canonical data remains source of truth. External evidence can promote a record when it corroborates the canonical current value, but source conflicts are retained instead of normalized without authoritative item-level evidence."
+}
