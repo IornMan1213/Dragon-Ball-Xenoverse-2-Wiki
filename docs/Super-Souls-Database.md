@@ -244,3 +244,9 @@ Records 185–186 were promoted into the canonical record layer after direct rec
 | 186 | You irritating little pests! | Frieza (1st Form) | TP Medal Shop / STP Medal Shop | Super Attack: +20% Super Attack damage; Race Default Ki Blast type; standard ATK Up/Ki Auto-Recovery/Stamina Recovery Speed Down Limit Burst |
 
 No shop rotation schedule, hidden frame/tick behavior, or undocumented probability was inferred.
+
+
+### 2026-10-02 verification checkpoint
+- Super Souls 002, 021, 056, and 057 were promoted to `verified` after current catalogue and independent evidence reconciliation.
+- The canonical record layer remains authoritative for normalized values and acquisition endpoints; external evidence is used to corroborate identity/mechanics and expose discrepancies.
+- Remaining partial records are intentionally preserved where source conflicts or item-level evidence remain unresolved.
