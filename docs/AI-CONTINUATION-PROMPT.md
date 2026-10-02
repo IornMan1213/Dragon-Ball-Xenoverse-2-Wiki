@@ -73,3 +73,12 @@
 - [x] Added `docs/data/super-souls-053-101-143-153-177-reconciliation-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** Super Soul partial verification frontier is exhausted for the current 186-record layer; move forward to the next canonical database gap/cross-linking task rather than forcing unresolved source conflicts.
+
+
+### 2026-10-02 continuation — Awoken parent/stage cross-link foundation
+- [x] Began the next canonical database track after the 186-record Super Soul frontier: Awoken/Transformation cross-system integrity.
+- [x] Added `docs/data/awoken-cross-system-link-audit-2026-10-02.json` covering all 15 canonical parent records and 20 documented individual forms/stages.
+- [x] Linked stable Awoken research identifiers to parent records, acquisition endpoints, race/use scope, and stage membership while preserving the canonical parent/stage model.
+- [x] Explicitly retained cast/enemy-only transformations outside the CaC Awoken layer and did not promote unresolved mechanics.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** deepen Awoken records with evidence-backed version/mechanics fields and then connect Awoken records to character/preset, DLC, mentor/time-rift, and skill relationships.
