@@ -8886,3 +8886,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved drop probability and stacking behavior; no speculative values added.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified record, prioritizing independent item-level mechanics/acquisition evidence.
+
+
+### 2026-10-02 continuation — Super Souls 042-043 raid provenance enrichment
+- [x] Enriched `super-soul-042` with official Masked Saiyan Lite event provenance and repeated raid evidence; retained +20% stamina recovery and +25% all attacks for 10 seconds while preserving conflicting historical categorical labels.
+- [x] Enriched `super-soul-043` with official Fused Zamasu raid reward provenance and independent confirmation of its approximately 0.5% HP/sec auto-reduction below 25% Health plus KO deactivation.
+- [x] Added `docs/data/super-souls-042-043-enrichment-audit-2026-10-02.json`.
+- [x] Preserved unresolved stacking behavior and reward-probability details; no speculative values added.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified record, prioritizing independent item-level mechanics/acquisition evidence.
