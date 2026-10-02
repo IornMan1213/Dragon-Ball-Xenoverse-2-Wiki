@@ -3538,7 +3538,7 @@
     {
       "id": "super-soul-115",
       "name": "Power! A lotta power! It's great!",
-      "character_source": "Krillin",
+      "character_source": "Whis",
       "dlc_requirement": null,
       "acquisition_type": "Parallel Quest",
       "acquisition_source": "Parallel Quest 134",
@@ -3554,9 +3554,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics are populated from the canonical Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; no unsupported probabilities are inferred. Rechecked 2026-10-02 against current Super Soul catalogue and independent PQ/stat-sheet evidence; unresolved hidden implementation details and reward probabilities are not inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3564,7 +3564,8 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack"
       ]
     },
     {
@@ -3586,9 +3587,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from canonical catalogue/stat-sheet evidence. The source discrepancy in the registered damage-reduction value is explicitly preserved rather than silently resolved; Hearts Ki Blast behavior is also documented. Canonical PQ acquisition remains authoritative.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics promoted from canonical catalogue/stat-sheet evidence. The source discrepancy in the registered damage-reduction value is explicitly preserved rather than silently resolved; Hearts Ki Blast behavior is also documented. Canonical PQ acquisition remains authoritative. Rechecked 2026-10-02 against current Super Soul catalogue and independent PQ/stat-sheet evidence; unresolved hidden implementation details and reward probabilities are not inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3596,7 +3597,8 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack"
       ]
     },
     {
@@ -3618,9 +3620,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent PQ/stat-sheet evidence; unresolved hidden implementation details and reward probabilities are not inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3628,7 +3630,8 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack"
       ]
     },
     {
@@ -3650,9 +3653,9 @@
       "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent PQ/stat-sheet evidence; unresolved hidden implementation details and reward probabilities are not inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3660,7 +3663,8 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack"
       ]
     },
     {
@@ -3682,9 +3686,9 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent PQ/stat-sheet evidence; unresolved hidden implementation details and reward probabilities are not inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3692,7 +3696,8 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack"
       ]
     },
     {
@@ -3714,9 +3719,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics promoted from explicit Super Soul catalogue/stat-sheet evidence. Canonical PQ acquisition remains authoritative; documented in-game/data-file discrepancies are preserved rather than silently resolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent PQ/stat-sheet evidence; unresolved hidden implementation details and reward probabilities are not inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3724,7 +3729,8 @@
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://dbxv2.fandom.com/wiki/Super_Soul"
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Blazing_Attack"
       ]
     },
     {
