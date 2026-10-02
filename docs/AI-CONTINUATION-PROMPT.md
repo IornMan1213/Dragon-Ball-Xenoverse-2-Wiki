@@ -9094,3 +9094,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-105-109-verification-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with Super Soul 110 onward.
+
+
+### 2026-10-02 continuation — Super Souls 110-114 verification
+- [x] Verified canonical Super Souls 110-114 against the current Super Soul catalogue plus independent guide/DLC evidence.
+- [x] 110: Goku, PQ132, battle-start self-freeze/ice effect, +15% all attacks for 30 seconds, Auto Health and Stamina Recovery! DEF Down. Limit Burst corroborated.
+- [x] 111: Vegeta, PQ132, 30-second trigger, 15 seconds of Ki-depletion prevention plus status-ailment cure, ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down. Limit Burst corroborated.
+- [x] 112: Chirai, PQ132, ally-KO trigger, +15% movement speed and -50% revive time for 10 seconds, Auto Just Guard Limit Burst corroborated.
+- [x] 113: Rozie, PQ133, charged Ki Blast trigger, +10% normal attacks and +10% normal Ki Blasts, 3-stack cap, Homing Limit Burst corroborated.
+- [x] 114: Kakunsa, PQ133, charged-attack trigger, +15% Strike Skills and +10% movement speed, 2-stack cap, Power Limit Burst corroborated.
+- [x] Added `docs/data/super-souls-110-114-verification-audit-2026-10-02.json` and synchronized the human-readable database.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 115 onward, preserving canonical-forward source-of-truth rules and leaving unsupported probabilities/hidden implementation details unresolved.
