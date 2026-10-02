@@ -1,0 +1,27 @@
+{
+  "audit_id": "super-souls-179-184-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": [
+    "super-soul-179",
+    "super-soul-180",
+    "super-soul-181",
+    "super-soul-182",
+    "super-soul-183",
+    "super-soul-184"
+  ],
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "verified_records": [
+    "super-soul-179",
+    "super-soul-180",
+    "super-soul-181",
+    "super-soul-182",
+    "super-soul-183",
+    "super-soul-184"
+  ],
+  "findings": [
+    "Current catalogue evidence corroborates the six identities and core effect fields.",
+    "PQ47, PQ53, PQ54, PQ58, PQ74, and PQ57 acquisition endpoints are preserved from canonical repository data.",
+    "No drop-rate or first-clear probability was inferred from the evidence."
+  ]
+}
