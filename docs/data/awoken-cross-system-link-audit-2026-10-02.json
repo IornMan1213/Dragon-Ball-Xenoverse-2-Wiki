@@ -1,0 +1,330 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": "Cross-system Awoken parent/stage identity and acquisition-link audit",
+  "source_of_truth": "docs/data/awoken-canonical-overrides.json",
+  "canonical_parent_count": 15,
+  "individual_form_count": 20,
+  "records": [
+    {
+      "id": "super-saiyan",
+      "name": "Super Saiyan",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "ki_cost": 300,
+      "verification_status": "partially_verified",
+      "stages": [
+        "Super Saiyan",
+        "Super Saiyan 2",
+        "Super Saiyan 3"
+      ],
+      "acquisition": "Capsule Corporation Time Rift",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-super-saiyan",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "super-saiyan-god",
+      "name": "Super Saiyan God",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "ki_cost": 300,
+      "verification_status": "partially_verified",
+      "stages": [
+        "Super Saiyan God"
+      ],
+      "acquisition": "Shenron wish",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-super-saiyan-god",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "super-saiyan-blue",
+      "name": "Super Saiyan God Super Saiyan",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "ki_cost": 500,
+      "verification_status": "verified",
+      "stages": [
+        "Super Saiyan God Super Saiyan"
+      ],
+      "acquisition": "Whis mentor/friendship",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-super-saiyan-blue",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "super-saiyan-blue-evolved",
+      "name": "Super Saiyan God Super Saiyan (Evolved)",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "ki_cost": 500,
+      "verification_status": "verified",
+      "stages": [
+        "Super Saiyan God Super Saiyan (Evolved)"
+      ],
+      "acquisition": "Vegeta/Whis mentor progression",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-super-saiyan-blue-evolved",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "future-super-saiyan",
+      "name": "Future Super Saiyan",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "ki_cost": 300,
+      "verification_status": "verified",
+      "stages": [
+        "Future Super Saiyan"
+      ],
+      "acquisition": "Unknown History / Special Time Patrol",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-future-super-saiyan",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "super-vegeta",
+      "name": "Super Vegeta",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Saiyan",
+      "usable_by_cac": true,
+      "ki_cost": 300,
+      "verification_status": "verified",
+      "stages": [
+        "Super Vegeta",
+        "Super Vegeta 2"
+      ],
+      "acquisition": "Capsule Corporation Time Rift",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-super-vegeta",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "purification",
+      "name": "Purification",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Majin",
+      "usable_by_cac": true,
+      "ki_cost": 300,
+      "verification_status": "verified",
+      "stages": [
+        "Purification"
+      ],
+      "acquisition": "Majin Buu's House Time Rift",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-purification",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "become-giant",
+      "name": "Become Giant",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Namekian",
+      "usable_by_cac": true,
+      "ki_cost": 300,
+      "verification_status": "verified",
+      "stages": [
+        "Become Giant"
+      ],
+      "acquisition": "Guru's House Time Rift",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-become-giant",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "turn-golden",
+      "name": "Turn Golden",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Frieza Race",
+      "usable_by_cac": true,
+      "ki_cost": 300,
+      "verification_status": "verified",
+      "stages": [
+        "Turn Golden"
+      ],
+      "acquisition": "Frieza's Spaceship Time Rift",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-turn-golden",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "power-pole-pro",
+      "name": "Power Pole Pro",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Earthling",
+      "usable_by_cac": true,
+      "ki_cost": 0,
+      "verification_status": "verified",
+      "stages": [
+        "Power Pole Pro"
+      ],
+      "acquisition": "Hercule's House / Great Saiyaman quests",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-power-pole-pro",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "kaioken",
+      "name": "Kaioken",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "ki_cost": 100,
+      "verification_status": "verified",
+      "stages": [
+        "Kaioken",
+        "Kaioken x3",
+        "Kaioken x20"
+      ],
+      "acquisition": "Parallel Quest 8",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-kaioken",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "potential-unleashed",
+      "name": "Potential Unleashed",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "ki_cost": 500,
+      "verification_status": "verified",
+      "stages": [
+        "Potential Unleashed"
+      ],
+      "acquisition": "Conton City Patroller Academy / Advancement Tests",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-potential-unleashed",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "beast",
+      "name": "Beast",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "ki_cost": 500,
+      "verification_status": "verified",
+      "stages": [
+        "Beast"
+      ],
+      "acquisition": "Piccolo special training / Cell Max",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-beast",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "ultra-instinct",
+      "name": "Ultra Instinct",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "ki_cost": 500,
+      "verification_status": "verified",
+      "stages": [
+        "Ultra Instinct"
+      ],
+      "acquisition": "Jiren (Full Power) special training",
+      "dlc_requirement": null,
+      "links": {
+        "awoken_research_id": "awoken-ultra-instinct",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    },
+    {
+      "id": "the-power-to-overcome",
+      "name": "The Power to Overcome",
+      "canonical_class": "Awoken",
+      "subcategory": "Race",
+      "race_restriction": "Universal",
+      "usable_by_cac": true,
+      "ki_cost": 500,
+      "verification_status": "verified",
+      "stages": [
+        "The Power to Overcome"
+      ],
+      "acquisition": "Future Saga Chapter 4 story progression",
+      "dlc_requirement": "Future Saga Chapter 4",
+      "links": {
+        "awoken_research_id": "awoken-the-power-to-overcome",
+        "wiki_page": "Awoken-Skills.md",
+        "canonical_override": "awoken-canonical-overrides.json"
+      }
+    }
+  ],
+  "excluded_character_or_enemy_forms": [
+    "Pure Progress",
+    "Super Saiyan Blue Kaioken",
+    "Supersonic Mode",
+    "Super/Ultra Supervillain",
+    "Orange Piccolo",
+    "Super Saiyan 4"
+  ],
+  "rules": [
+    "Parent records are the canonical database identities; staged forms are linked to their parent instead of duplicated as independent canonical records.",
+    "Cast/enemy-only transformations are excluded from the CaC Awoken record layer.",
+    "Acquisition/use scope and race restriction are separate facts.",
+    "Unresolved mechanics remain in their canonical status rather than being promoted by the cross-link audit."
+  ]
+}
