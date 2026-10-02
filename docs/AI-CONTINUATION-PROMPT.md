@@ -8851,3 +8851,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Confirmed Limit Burst: Auto Health and Stamina Recovery! DEF Down.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue the evidence-first pass through the next partially verified Super Soul record.
+
+
+### 2026-10-02 continuation — Super Soul 037 mechanics enrichment
+- [x] Enriched Super Soul 037 (“I'm over 1,000 years old.”): successful Just Guard → +15% Strike Skills for 10 seconds; Limit Burst = Auto Just Guard, corroborated by independent Fandom and GameFAQs documentation. citeturn1search0turn1search2
+- [x] Preserved acquisition-history distinction: current raid documentation records the soul as a raid reward, while wiki documentation identifies NPC Gogoh as the normal acquisition route; these are retained as separate provenance facts rather than conflated.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence-backed enrichment of the next partially verified Super Soul record.
