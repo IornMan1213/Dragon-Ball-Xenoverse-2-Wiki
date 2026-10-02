@@ -1,0 +1,137 @@
+{
+  "schema_version": "1.0.0",
+  "date": "2026-10-02",
+  "type": "stale_manifest_audit",
+  "canonical_source": "docs/data/pq-reward-relationships.json",
+  "canonical_total_relationships": 901,
+  "current_counts": {
+    "skill": 249,
+    "super_soul": 143,
+    "equipment": 149,
+    "character": 247,
+    "dlc": 106,
+    "farming": 7
+  },
+  "findings": [
+    {
+      "path": "docs/data/live-canonical-recovery-reconciliation-2026-09-30.json",
+      "status": "historical",
+      "stale_counts": {
+        "total": 899,
+        "skill": 248,
+        "equipment": 148
+      },
+      "action": "preserve; superseded by 2026-10-02 reconciliation"
+    },
+    {
+      "path": "docs/data/pq-cross-domain-parity-reconciliation-2026-09-30-batch-748.json",
+      "status": "historical",
+      "stale_counts": {
+        "total": 879,
+        "skill": 248,
+        "equipment": 148
+      },
+      "action": "preserve dated recovery snapshot"
+    },
+    {
+      "path": "docs/data/pq-dlc-requirement-parity-repair-2026-09-30-batch-749.json",
+      "status": "historical",
+      "stale_counts": {
+        "before": 879,
+        "after": 899
+      },
+      "action": "preserve dated repair history"
+    },
+    {
+      "path": "docs/data/pq-unified-reverse-index-reconciliation-2026-09-30.json",
+      "status": "historical",
+      "stale_counts": {
+        "skill": 248,
+        "equipment": 148
+      },
+      "action": "preserve dated reconciliation; current projections already rebuilt"
+    },
+    {
+      "path": "docs/data/pq-typed-reward-parity-reconciliation-2026-09-30-batch-744.json",
+      "status": "historical",
+      "stale_counts": {
+        "skill": 248,
+        "super_soul": 142,
+        "equipment": 148
+      },
+      "action": "preserve dated snapshot"
+    },
+    {
+      "path": "docs/data/pq-typed-reward-relationship-reconciliation-2026-09-30-batch-743.json",
+      "status": "historical",
+      "stale_counts": {
+        "skill": 248,
+        "super_soul": 142,
+        "equipment": 147
+      },
+      "action": "preserve dated snapshot"
+    },
+    {
+      "path": "docs/data/pq101-110-canonical-reconciliation-2026-09-30-batch-708.json",
+      "status": "historical",
+      "stale_counts": {
+        "total": 880,
+        "skill": 249,
+        "super_soul": 142,
+        "equipment": 147
+      },
+      "action": "preserve dated batch history"
+    },
+    {
+      "path": "docs/COVERAGE-AUDIT.md",
+      "status": "historical_sections_present",
+      "stale_counts": {
+        "example_total": 851,
+        "skill": 248,
+        "equipment": 126
+      },
+      "action": "do not rewrite historical audit narrative without section-level provenance review"
+    },
+    {
+      "path": "docs/data/pq-super-soul-crosslink-report.json",
+      "status": "current_synchronized",
+      "current_counts": {
+        "linked_super_soul_rewards": 143,
+        "unique_super_soul_targets": 141,
+        "detailed_endpoint_matches": 143,
+        "partial_acquisition_index_matches": 143
+      },
+      "action": "no mutation required"
+    },
+    {
+      "path": "docs/data/super-souls/pq-acquisition-index-001-186.json",
+      "status": "current_synchronized",
+      "action": "no mutation required"
+    },
+    {
+      "path": "docs/data/pq-cross-domain-status.json",
+      "status": "current_synchronized",
+      "current_counts": {
+        "total": 901,
+        "skill": 249,
+        "super_soul": 143,
+        "equipment": 149
+      },
+      "action": "no mutation required"
+    }
+  ],
+  "mechanics_frontier": {
+    "id": "super-soul-034",
+    "name": "The final battle begins now.",
+    "pq": 186,
+    "status": "unresolved",
+    "evidence_confirms": "PQ186 explicitly lists the Super Soul as a Basic Reward.",
+    "evidence_does_not_confirm": "item-level trigger/effect mechanics",
+    "action": "do not infer or promote mechanics from insufficient evidence"
+  },
+  "notes": [
+    "Canonical forward data remains authoritative.",
+    "Historical artifacts are not rewritten merely because their snapshots are superseded.",
+    "Runtime/CI remains non-blocking and unverified."
+  ]
+}
