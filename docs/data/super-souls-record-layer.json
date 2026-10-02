@@ -2067,7 +2067,7 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue and independent Super Soul stat-sheet evidence corroborate Kid Buu, Purified trigger, +20% normal attacks, -25% damage taken, and +20% Ki Auto-Recovery; independent PQ evidence corroborates PQ108 and the reward. Note that a community drop report names Janemba as the apparent dropper while the canonical acquisition field remains PQ106/108; this does not alter the canonical source-of-truth record.",
+      "version_notes": "Current catalogue and independent stat-sheet evidence corroborate the Purified trigger and exact +20% normal attacks, -25% damage taken, and +20% Ki Auto-Recovery values. Independent PQ evidence corroborates PQ108. Canonical acquisition remains unchanged.",
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -2098,7 +2098,7 @@
       "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue and independent DLC3 documentation corroborate Adult Gohan, one-time Potential Unleashed activation, +15% all attacks and +20% Stamina recovery speed for 30 seconds, and PQ107 acquisition.",
+      "version_notes": "Current catalogue and independent DLC3 documentation corroborate Adult Gohan, one-time Potential Unleashed activation, +15% all attacks and +20% Stamina recovery speed for 30 seconds, and PQ107 acquisition.",
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -2129,7 +2129,7 @@
       "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue and independent DLC3/PQ documentation corroborate Bojack, 90-second trigger, +20% normal attacks, Bomb Limit Burst, and PQ108 acquisition.",
+      "version_notes": "Current catalogue and independent DLC3/PQ documentation corroborate Bojack, 90-second trigger, +20% normal attacks, Bomb Limit Burst, and PQ108 acquisition.",
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -2160,7 +2160,7 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery; Defense Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue and independent DLC3/PQ documentation corroborate Zamasu, KO-triggered +40% automatic revival-gauge recovery, -30% health restored on resurrection, Homing Limit Burst, and PQ109 acquisition.",
+      "version_notes": "Current catalogue and independent DLC3/PQ documentation corroborate Zamasu, KO-triggered +40% automatic revival-gauge recovery, -30% health restored on resurrection, Homing Limit Burst, and PQ109 acquisition.",
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -2191,7 +2191,7 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue corroborates Goku Black (Super Saiyan Rosé), guard-break trigger, -20% guard-break duration, +50 Ki restoration, and PQ109 acquisition; independent DLC3/PQ documentation corroborates the reward relationship.",
+      "version_notes": "Current catalogue corroborates Goku Black (Super Saiyan Rosé), guard-break trigger, -20% guard-break duration, +50 Ki restoration, and PQ109 acquisition; independent PQ documentation corroborates the PQ reward relationship.",
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
