@@ -1521,9 +1521,9 @@
       "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics restored from explicit Super Soul catalogue/guide evidence after endpoint promotion. Canonical PQ acquisition remains authoritative; no unsupported probabilities inferred.",
+      "version_notes": "Current Super Soul catalogue/guide evidence confirms the KO-trigger and 10-stack structure, while an older stat-sheet source reports a 5% value instead of the current 10% value. Canonical +10% remains authoritative; the historical magnitude conflict is preserved rather than silently normalized. Canonical PQ acquisition remains authoritative; no unsupported probabilities inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -1532,7 +1532,8 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
       ]
     },
     {
@@ -1554,16 +1555,17 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": null,
       "race_restriction": null,
-      "version_notes": "Mechanics match the current Super Soul catalogue; PQ 92 independently lists the item as a basic reward.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current Super Soul catalogue evidence independently corroborates the +10% Ki Blast Skill boost for 15 seconds and Limit Burst; the all-186 PQ guide independently confirms PQ 92 reward acquisition. No drop probability or undocumented trigger behavior inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -1585,9 +1587,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics fields promoted from explicit catalogue/guide evidence; acquisition relationship remains sourced by the canonical PQ data layer. No drop probability or undocumented trigger behavior inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current Super Soul catalogue evidence independently corroborates the always-active +15% Charged Ki Blast effect and Rush Limit Burst; the all-186 PQ guide independently confirms PQ 93 reward acquisition. No drop probability or undocumented trigger behavior inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
