@@ -1,0 +1,41 @@
+{
+  "audit_date": "2026-10-02",
+  "records": [
+    "super-soul-121",
+    "super-soul-122",
+    "super-soul-123",
+    "super-soul-124",
+    "super-soul-125",
+    "super-soul-126"
+  ],
+  "verified": [
+    "super-soul-121",
+    "super-soul-122",
+    "super-soul-123",
+    "super-soul-124",
+    "super-soul-125",
+    "super-soul-126"
+  ],
+  "acquisition": {
+    "super-soul-121": "Parallel Quests 138, 151",
+    "super-soul-122": "Parallel Quest 138",
+    "super-soul-123": "Parallel Quest 140",
+    "super-soul-124": "Parallel Quest 140",
+    "super-soul-125": "Parallel Quest 141",
+    "super-soul-126": "Parallel Quest 141"
+  },
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78246033",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "method": "Cross-checked canonical record layer with current Super Soul catalogue and independent PQ reward/stat-sheet evidence. Canonical acquisition remains authoritative; discrepancies between displayed descriptions and registered data are retained rather than silently normalized.",
+  "notes": {
+    "121": "Majuub; PQ138/151; once on KO, revive at 1 HP, damage nullification for 10 sec, +15% normal attacks.",
+    "122": "Pan (Kid); PQ138; always +10% movement speed and +5% Stamina recovery.",
+    "123": "Goku (GT); PQ140; Super Spirit Bomb gives +15% Ki Blast attacks for 15 sec; during the attack, +1.2% HP/sec.",
+    "124": "Android 21; PQ140; battle start -15% enemy Stamina and -10% enemy attacks for 30 sec; after 30 sec -50% enemy Ki and +10% damage taken by enemies for 30 sec.",
+    "125": "Uub (Kid); PQ141; below 50% +10% normal melee and Strike; below 25% +15% to both.",
+    "126": "Broly; PQ141; each opponent Reinforcement Skill activation grants +10% all attacks, stacking to 10."
+  }
+}
