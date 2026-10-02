@@ -8331,3 +8331,15 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-095-099-verification-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with Super Soul 100 onward.
+
+
+### 2026-10-02 continuation — Super Souls 100-104 verification
+- [x] Verified Super Souls 100, 102, 103, and 104 against current catalogue plus independent guide/community evidence.
+- [x] 100: Paragus, PQ128, 150-second trigger, +300 Ki and +20% all attacks for 30 seconds corroborated.
+- [x] 102: Beerus, PQ129, one-time Ultimate Attack trigger, -400 Ki to others and +10% normal attacks/normal Ki Blasts corroborated.
+- [x] 103: Android 18, PQ129, one-time revival trigger restoring +150 Stamina to allies corroborated.
+- [x] 104: Goku, PQ130, 30-second trigger, forced enemy targeting, +10% attacks and -15% damage taken for 30 seconds corroborated.
+- [x] 101 reviewed: battle-start debuff and later boost corroborated, but later attack magnitude remains a documented +10% catalogue vs +20% independent stat-sheet discrepancy; record intentionally remains partially verified.
+- [x] Added `docs/data/super-souls-100-104-verification-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with Super Soul 105 onward.
