@@ -8146,3 +8146,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Confirmed PQ186 independently lists Super Souls 034 and 035; preserved uncertainty around Z-rank/drop interpretation for 035.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-backed enrichment of partially verified Super Soul records.
+
+
+### 2026-10-02 continuation — Super Soul 035 mechanics enrichment
+- [x] Added independent current secondary mechanics evidence to Super Soul 035: ~5000 opening damage distributed across user/allies/enemies over ~30 seconds, then ~15% all-ability boost.
+- [x] Preserved unresolved boost duration and canonical/secondary provenance boundaries.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment of the next partially verified Super Soul record.
