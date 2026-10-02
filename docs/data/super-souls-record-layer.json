@@ -1303,13 +1303,15 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled. 2026-09-19 item-level reconciliation added. Limit Burst effect reconciled from independent catalogue/raid/character evidence on 2026-09-27; no trigger timing or unrelated mechanics were inferred.",
+      "version_notes": "Acquisition and core mechanics are now independently corroborated. Official Bandai Namco Super 17 raid documentation records the soul as a 15,000-damage individual target reward and states that only one Super Soul can be obtained from the event; the same raid family returned in the 2025 Lite event. Independent item-level documentation records Energy Field as the trigger, -20% damage taken for the wearer and allies for 10 seconds, and Revive Gauge Auto-Recovery! as the Limit Burst. Exact stacking behavior, later reward redistribution, and hidden implementation details remain unresolved.",
       "verification_status": "verified",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80922302",
+        "https://en.bandainamcoent.com/news/dbxv2-raid-boss-festival"
       ]
     },
     {
