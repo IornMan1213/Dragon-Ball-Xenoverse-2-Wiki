@@ -8431,3 +8431,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Canonical record-layer status/date synchronization for 161-170 completed and revalidated on main.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue evidence-first enrichment with Super Soul 171 onward.
+
+### 2026-10-02 continuation — Super Souls 171-178
+- [x] Verified Super Souls 171-176 and 178 against current Super Soul catalogue/DLC and independent PQ evidence.
+- [x] Preserved Super Soul 177 as partially verified because its canonical 20% proc probability remains insufficiently reconciled at item level; identity/core effect are corroborated.
+- [x] Added `docs/data/super-souls-171-178-verification-audit-2026-10-02.json` and synchronized the canonical record layer.
+- [x] Restored the complete repository tree after an intermediate audit write created an incomplete tree; the corrected main now retains the full prior repository plus the new audit.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue evidence-first enrichment with Super Soul 179 onward.
