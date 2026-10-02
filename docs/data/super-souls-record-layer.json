@@ -1118,13 +1118,15 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "version_notes": "Current catalogue and independent raid documentation corroborate the trigger, approximate +3% HP/sec recovery, 3-second duration, and Auto Health and Stamina Recovery!; DEF Down. The 2020 Perfect Cell Full Power raid awarded this Super Soul at the 50,000-damage individual-performance tier. No drop probability or stacking behavior is inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Cell_%28Perfect%29",
-        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest"
+        "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+        "https://www.reddit.com/r/dbxv/comments/jgaapt/raid_vs_perfect_cell_october_22nd_28th/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79055357?page=3"
       ]
     },
     {
@@ -1146,13 +1148,16 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "version_notes": "Current catalogue and independent 2020/2026 raid documentation corroborate the ally-KO trigger, +30% attack and +30% damage-taken effects for 30 seconds, and Auto Health and Stamina Recovery!; DEF Down. The official 4th Anniversary event lists this Super Soul among the Hercule raid's individual-performance rewards; later Hercule Lite documentation repeats the same mechanics. No drop probability or stacking behavior is inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Hercule",
-        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80338743"
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80338743",
+        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81115089",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81178710"
       ]
     },
     {
