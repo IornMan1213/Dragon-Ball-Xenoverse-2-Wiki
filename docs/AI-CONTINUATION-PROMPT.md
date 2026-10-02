@@ -9157,3 +9157,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Kept Super Soul 137 partially verified because its canonical name/acquisition identity has a documented external naming discrepancy; did not revive rejected legacy 138.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** resolve/verify Super Soul 137 identity if stronger item-level evidence is available; otherwise continue with Super Soul 139 onward while preserving 138 as rejected legacy.
+
+
+### 2026-10-02 continuation — Super Soul 137 identity resolution
+- [x] Resolved and verified Super Soul 137 as the Frieza (1st Form) Item Shop Soul.
+- [x] Current external item-level evidence uses the variant title “I'll never forgive you, scum!”; canonical repository title “I'll never forgive you!” remains authoritative.
+- [x] Confirmed guard-break trigger, -20% damage received for 4 seconds, and DEF Up!/Super Armor/Ki Recovery Speed Down Limit Burst.
+- [x] Added `docs/data/super-soul-137-verification-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 139 onward; Super Soul 138 remains rejected legacy.
