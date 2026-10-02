@@ -91,3 +91,12 @@
 - [x] Preserved Bandai Namco's official Chapter 4 baseline: 4 new moves including 1 Awoken Skill, 2 Parallel Quests, 4 Super Souls, and the final DLC chapter scope.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue Awoken-to-character-preset and Awoken-to-DLC/quest cross-link coverage, then reconcile any orphaned or duplicate transformation identities found there.
+
+
+### 2026-10-02 continuation — Character preset ↔ Awoken link coverage
+- [x] Audited the 51-record character-preset layer for Awoken relationships.
+- [x] Added an explicit `awoken_skill_link` object to every preset record rather than inferring transformations from character identity or external summaries.
+- [x] Added `docs/data/character-preset-awoken-link-audit-2026-10-02.json` documenting the current 0/51 evidence-backed link state and the no-inference rule.
+- [x] Preserved the distinction between a character's available/customizable Awoken slot and an individual default preset's actual loadout.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** research default preset loadouts directly, populate only evidence-backed Awoken links, and then connect those links to the canonical Awoken records and DLC/quest provenance.
