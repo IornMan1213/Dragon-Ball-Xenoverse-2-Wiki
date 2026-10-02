@@ -8279,3 +8279,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-060-064-enrichment-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue with Super Soul 065 onward.
+
+
+### 2026-10-02 continuation — Super Souls 065-069 verification
+- [x] Verified Super Souls 065-069 using current catalogue/stat-sheet evidence plus independent PQ evidence.
+- [x] Added `docs/data/super-souls-065-069-enrichment-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue with Super Soul 070 onward.
