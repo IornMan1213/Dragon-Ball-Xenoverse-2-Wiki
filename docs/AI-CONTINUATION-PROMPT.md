@@ -8895,3 +8895,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved stacking behavior and reward-probability details; no speculative values added.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified record, prioritizing independent item-level mechanics/acquisition evidence.
+
+
+### 2026-10-02 continuation — Super Soul 044 mechanics reconciliation
+- [x] Reconciled `super-soul-044` with independent Great Ape Baby raid documentation and current catalogue evidence.
+- [x] Corrected the mechanics boundary: the displayed Ki Auto-Recovery text is documented as an in-game description error; independent item-level reports identify the actual effect as Stamina Auto-Recovery while Giant.
+- [x] Preserved +15% all attacks and the explicit Limit Burst; exact stamina-recovery magnitude, stacking, and reward probability remain unresolved.
+- [x] Added `docs/data/super-soul-044-enrichment-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record.
