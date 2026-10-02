@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "batch": "Super Soul 044 mechanics reconciliation",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "record": {
+    "id": "super-soul-044",
+    "name": "Let's see you handle THIS kind of power!",
+    "findings": [
+      "Current catalogue reports +15% all attacks while Giant and the DEF Up! / Super Armor / Ki Rec. SPD Down Limit Burst.",
+      "Independent raid documentation confirms Great Ape Baby provenance.",
+      "Multiple independent player/item reports identify a long-standing description error: the listed Ki Auto-Recovery is actually Stamina Auto-Recovery, which helps sustain Giant Form."
+    ],
+    "unresolved": [
+      "exact stamina auto-recovery magnitude",
+      "stacking behavior",
+      "reward probability"
+    ]
+  },
+  "policy": "The canonical record retains the corrected Stamina Auto-Recovery behavior with secondary provenance; no undocumented numerical stamina-recovery value is inferred."
+}
