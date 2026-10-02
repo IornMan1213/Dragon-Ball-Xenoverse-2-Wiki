@@ -8217,3 +8217,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added a dated enrichment audit; unresolved stacking and hidden implementation details remain explicitly unresolved.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] Next: continue evidence-backed enrichment of the next partially verified Super Soul endpoint.
+
+
+### 2026-10-02 continuation — Super Soul 048 enrichment
+- [x] Independently corroborated PQ42 acquisition for `super-soul-048`.
+- [x] Corroborated -5% ally revival-time reduction, +100% KO-triggered Ki restoration, and its Limit Burst.
+- [x] Added dated audit evidence and upgraded the endpoint to verified while preserving the user-vs-allies Ki wording conflict.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] Next: continue to the next partially verified Super Soul endpoint after 048.
