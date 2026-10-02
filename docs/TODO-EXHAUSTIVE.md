@@ -8398,3 +8398,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved Super Soul 137 as partially verified due to its canonical/external naming discrepancy; preserved 138 as rejected legacy.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** resolve 137 with stronger item-level evidence or continue with 139 onward.
+
+
+### 2026-10-02 recovery-forward checkpoint — Super Soul 137
+- [x] Resolved and verified Super Soul 137 identity as the Frieza (1st Form) Item Shop Soul.
+- [x] Preserved canonical title while documenting the current external “I'll never forgive you, scum!” naming variant.
+- [x] Verified guard-break damage reduction and Limit Burst details.
+- [x] Added `docs/data/super-soul-137-verification-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue with Super Soul 139 onward; keep 138 rejected legacy unless new item-level evidence appears.
