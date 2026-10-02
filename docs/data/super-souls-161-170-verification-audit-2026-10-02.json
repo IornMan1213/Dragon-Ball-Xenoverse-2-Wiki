@@ -1,0 +1,31 @@
+{
+  "audit_id": "super-souls-161-170-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": [
+    "super-soul-161",
+    "super-soul-162",
+    "super-soul-163",
+    "super-soul-164",
+    "super-soul-165",
+    "super-soul-166",
+    "super-soul-167",
+    "super-soul-168",
+    "super-soul-169",
+    "super-soul-170"
+  ],
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "evidence_policy": "Canonical repository data remains authoritative. Current Super Soul catalogue and independent/player-facing PQ evidence corroborate identity, mechanics, and acquisition endpoints; no reward probability or hidden implementation detail is inferred.",
+  "verified_records": [
+    "super-soul-161",
+    "super-soul-162",
+    "super-soul-163",
+    "super-soul-164",
+    "super-soul-165",
+    "super-soul-166",
+    "super-soul-167",
+    "super-soul-168",
+    "super-soul-169",
+    "super-soul-170"
+  ]
+}
