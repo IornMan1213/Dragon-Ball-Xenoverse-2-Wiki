@@ -8503,3 +8503,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-018-019-020-022-023-verification-audit-2026-10-02.json`.
 - [x] No unsupported mechanics, timing, or acquisition details were introduced.
 - [ ] Continue remaining partially verified canonical Super Soul records.
+
+
+### 2026-10-02 continuation — Super Soul 003 verification + canonical documentation sync
+- [x] Verified Super Soul 003 using current catalogue evidence plus independent Kamehameha/legacy documentation; canonical magnitude remains `-100%` and the functional nullification interpretation is now sufficiently corroborated.
+- [x] Added `docs/data/super-soul-003-verification-audit-2026-10-02.json`.
+- [x] Reconciled the validator's verification-status enum with the live canonical layer by accepting documented `verified_secondary` records.
+- [x] Updated `docs/Super-Souls-Database.md` from the stale 42-record description to the current 186-record frontier and documented the full status vocabulary.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** target remaining `partially_verified` Super Soul records with real canonical endpoints and incomplete evidence; preserve rejected legacy boundaries.
