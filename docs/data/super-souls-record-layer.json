@@ -104,12 +104,15 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current catalogue describes the effect as altering Kamehameha damage; preserve the documented -100% interpretation pending deeper testing.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 targeted reconciliation: current catalogue describes the always-active effect as altering Kamehameha damage by -100%. Independent GameFAQs documentation describes the effect as nullifying Kamehameha damage, and current Kamehameha documentation states the soul nullifies Kamehameha-based damage. Community reports document broad coverage across multiple Kamehameha-named variants but also an observed exception for Black Kamehameha / Rosé Kamehameha; that exception is retained as secondary compatibility evidence, not converted into a canonical rule. The canonical record therefore retains the -100% catalogue magnitude while documenting the functional nullification interpretation and known reported exceptions.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://dbxv2.fandom.com/wiki/Kamehameha",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74481231",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/75594650"
       ]
     },
     {
