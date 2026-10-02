@@ -1487,9 +1487,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics restored from explicit Super Soul catalogue/guide evidence after endpoint promotion. Canonical PQ acquisition remains authoritative; no unsupported probabilities inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Independent Xenoverse 2 Super Soul catalogue and PQ64 reward documentation corroborate Janemba identity, Parallel Quest 64 acquisition, successful Just Guard trigger, +60 Ki restoration, +10% Ki Blast Skill power for 10 seconds, and Auto Just Guard Limit Burst. No unsupported probability, stacking, or frame data is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -1498,7 +1498,8 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://dbxenoverse.fandom.com/wiki/64_-_Beerus_the_Impulsive"
       ]
     },
     {
