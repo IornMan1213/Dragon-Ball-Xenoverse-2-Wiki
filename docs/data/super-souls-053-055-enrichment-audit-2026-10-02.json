@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-02",
+  "scope": [
+    "super-soul-053",
+    "super-soul-054",
+    "super-soul-055"
+  ],
+  "source_of_truth": "docs/data/super-souls-record-layer.json",
+  "recovery_note": "Canonical records were enriched from current external evidence; no reverse projection was used to manufacture canonical values.",
+  "records": [
+    {
+      "id": "super-soul-053",
+      "result": "partially_verified",
+      "confirmed": [
+        "Super Saiyan God Goku identity",
+        "PQ65 acquisition",
+        "ally-KO trigger",
+        "10-stack structure",
+        "Homing Limit Burst",
+        "DEF Up! You've Got Super Armor! Ki Rec. SPD Down."
+      ],
+      "canonical_value": "+10% all attacks per KO'ed ally",
+      "conflict": "An older stat-sheet source reports +5% while the current Super Soul catalogue reports 10%. The canonical +10% value is retained, with the discrepancy explicitly preserved.",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
+      ]
+    },
+    {
+      "id": "super-soul-054",
+      "result": "verified",
+      "confirmed": [
+        "Goku (GT) identity",
+        "PQ92 acquisition",
+        "+10% Ki Blast Skill boost",
+        "15-second duration",
+        "Rush Limit Burst",
+        "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    },
+    {
+      "id": "super-soul-055",
+      "result": "verified",
+      "confirmed": [
+        "Trunks (GT) identity",
+        "PQ93 acquisition",
+        "always-active +15% Charged Ki Blast boost",
+        "Rush Limit Burst",
+        "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down."
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+      ]
+    }
+  ]
+}
