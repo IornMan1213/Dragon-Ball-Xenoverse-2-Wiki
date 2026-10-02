@@ -97,3 +97,10 @@ Mechanics, acquisition, and classification are audited separately. Unresolved fi
 ## 2026-10-02 — Parent/stage cross-system link audit
 
 Added `docs/data/awoken-cross-system-link-audit-2026-10-02.json`, linking all 15 canonical Awoken parent records to their 20 documented individual forms/stages, acquisition endpoint, race/use scope, and stable Awoken research identifiers. The audit explicitly keeps staged forms under their parent records and excludes cast/enemy-only transformation states. It does not promote unresolved mechanics.
+
+
+## 2026-10-02 — Current mechanics / Future Saga cross-layer reconciliation
+
+Current external evidence confirms Super Saiyan God is presently documented with +60% Basic Attack, +60% Ki recovery, and +12.5% movement, while an independent Steam transformation guide still reports +40%/+50%; the repository keeps its canonical +60% Basic Attack / +50% Ki-recovery record and partial status until the source conflict is resolved. citeturn1search0turn1search2
+
+Official Bandai Namco material confirms FUTURE SAGA Chapter 4 contains 4 new moves including 1 Awoken Skill, 2 Parallel Quests, 4 Super Souls, and the final Chapter 4 content set. citeturn2search0 Five Chapter 4 research/content layers now explicitly link their historical lead records to the canonical `The Power to Overcome` Awoken record, preventing duplicate identities while preserving historical provenance.
