@@ -1,0 +1,30 @@
+{
+  "audit_date": "2026-10-02",
+  "records": [
+    "110",
+    "111",
+    "112",
+    "113",
+    "114"
+  ],
+  "verified": [
+    "110",
+    "111",
+    "112",
+    "113",
+    "114"
+  ],
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78151543",
+    "https://dbxv2.fandom.com/wiki/DLC"
+  ],
+  "acquisition": {
+    "110": "Parallel Quest 132",
+    "111": "Parallel Quest 132",
+    "112": "Parallel Quest 132",
+    "113": "Parallel Quest 133",
+    "114": "Parallel Quest 133"
+  },
+  "method": "Independent current catalogue plus guide/DLC corroboration; canonical acquisition and mechanics remain source-of-truth. No unsupported reward probabilities, hidden frame/tick behavior, or undocumented stacking rules were inferred."
+}
