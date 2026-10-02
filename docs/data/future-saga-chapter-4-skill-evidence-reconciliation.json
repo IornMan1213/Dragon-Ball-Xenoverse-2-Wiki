@@ -99,5 +99,12 @@
     "Numerical drop rates and whether rates differ by reward tier or conditions.",
     "Complete mechanics and frame/data properties for Dragon Spiral, Indomitable, and Venus Fist.",
     "Official item-level confirmation of Quest 31 as the Power to Overcome unlock record."
-  ]
+  ],
+  "canonical_awoken_crosslink": {
+    "canonical_record": "The Power to Overcome",
+    "canonical_source": "docs/data/awoken-canonical-overrides.json",
+    "canonical_verification_status": "verified",
+    "audit": "awoken-cross-system-link-audit-2026-10-02.json",
+    "note": "This research/lead layer is subordinate to the canonical Awoken record. Its historical partially_verified state is retained as provenance; it must not be interpreted as a second conflicting canonical identity."
+  }
 }
