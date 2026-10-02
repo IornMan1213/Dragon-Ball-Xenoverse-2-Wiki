@@ -8174,3 +8174,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Super Soul 038 acquisition/Limit Burst evidence enrichment completed; canonical source updated and audit recorded.
 - [x] No reverse projection or historical recovery snapshot was used to manufacture canonical data.
 - [ ] Continue evidence-backed enrichment of the next partially verified Super Soul record; preserve unresolved mechanics and acquisition uncertainty.
+
+
+## 2026-10-02 recovery-forward checkpoint — Super Soul 039
+- [x] Recovered and documented the exact +40% / 20-second battle-start all-attack effect from independent item-level/game-data evidence.
+- [x] Preserved XXL wording and provenance as a secondary categorical description rather than silently replacing it.
+- [x] Recorded explicit Limit Burst effects and created a dated audit artifact.
+- [ ] Continue to the next partially verified Super Soul record with direct evidence; preserve unresolved acquisition/mechanics fields.
