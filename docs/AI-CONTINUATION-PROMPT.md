@@ -8986,3 +8986,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-053-055-enrichment-audit-2026-10-02.json` with evidence boundaries and the 053 historical magnitude conflict.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with the next partially verified/unresolved Super Soul endpoint after 055; preserve canonical-forward source-of-truth rules and do not infer disputed mechanics or reward probabilities.
+
+
+### 2026-10-02 continuation — Super Souls 056-059 evidence enrichment
+- [x] Enriched `super-soul-056` ("I...hate you!!!") with independent catalogue/PQ evidence: Pan, PQ93, below-25%-health trigger, +20% Ki Blast Skills, Rush Limit Burst. Retained `partially_verified` because the current record still needs stronger independent corroboration before promotion.
+- [x] Enriched `super-soul-057` ("Strengthen me, Shadow Dragons!"): Omega Shenron, PQ94, below-25%-health trigger, +15% normal attacks, Power Limit Burst. Retained `partially_verified` pending stronger independent corroboration.
+- [x] Promoted `super-soul-058` ("Someone, satisfy me...") to `verified`: Heavy Smash trigger, +20% all attacks for 5 seconds, PQ97, Revive Gauge Auto-Recovery, independently corroborated by current catalogue and PQ97 reward listings.
+- [x] Promoted `super-soul-059` ("Revival of the Demon Realm is at hand") to `verified`; normalized canonical mechanics to current catalogue evidence: always -15% revive time and +30% Ki restoration to all allies/self at battle start, with PQ97 acquisition and Bomb Limit Burst.
+- [x] Added `docs/data/super-souls-056-059-enrichment-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 060 onward; preserve canonical source-of-truth rules and document disagreements instead of silently overwriting them.
