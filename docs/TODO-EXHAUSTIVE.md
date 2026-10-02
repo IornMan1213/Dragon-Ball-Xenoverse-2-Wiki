@@ -8139,3 +8139,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Updated canonical record and direct-evidence audit.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] Next: continue evidence-first enrichment of unresolved/partially verified Super Soul records.
+
+
+### 2026-10-02 continuation — Super Soul census reconciliation
+- [x] Reconciled stale Super Soul 034 census classifications after its secondary mechanics were recovered.
+- [x] Confirmed PQ186 independently lists Super Souls 034 and 035; preserved uncertainty around Z-rank/drop interpretation for 035.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed enrichment of partially verified Super Soul records.
