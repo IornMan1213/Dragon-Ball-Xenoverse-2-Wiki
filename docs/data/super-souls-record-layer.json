@@ -4504,9 +4504,9 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct external corroboration rechecked 2026-09-27: current Super Soul catalogue identifies the same Gamma 2 effect, +5% Ki restored per KO, stacking up to 10 times, with the listed Limit Burst; Steam PQ guide independently lists the Soul as a basic reward of PQ 156. Exact drop RNG/first-clear behavior remains unverified.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct external corroboration rechecked 2026-09-27: current Super Soul catalogue identifies the same Gamma 2 effect, +5% Ki restored per KO, stacking up to 10 times, with the listed Limit Burst; Steam PQ guide independently lists the Soul as a basic reward of PQ 156. Exact drop RNG/first-clear behavior remains unverified. 2026-10-02 verification: current Super Soul catalogue independently corroborates the Gamma 2 KO-based Ki-restoration effect, +5% per opponent KO, stacking to 10, and Limit Burst; the current all-186 PQ guide independently lists this Soul as a basic reward of PQ 156. Exact reward RNG/first-clear semantics remain intentionally unspecified.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4515,7 +4515,9 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
-        "web:steam-pq-guide-2026-09-27"
+        "web:steam-pq-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4537,9 +4539,9 @@
       "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct external corroboration rechecked 2026-09-27: current Super Soul catalogue identifies the Gamma 1 battle-start effect (+30% all attacks, -30% damage taken, +30% Stamina recovery for 30 seconds) and Limit Burst; Steam PQ guide independently lists the Soul as a basic reward of PQ 157. Exact drop RNG/first-clear behavior remains unverified.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct external corroboration rechecked 2026-09-27: current Super Soul catalogue identifies the Gamma 1 battle-start effect (+30% all attacks, -30% damage taken, +30% Stamina recovery for 30 seconds) and Limit Burst; Steam PQ guide independently lists the Soul as a basic reward of PQ 157. Exact drop RNG/first-clear behavior remains unverified. 2026-10-02 verification: current Super Soul catalogue independently corroborates the Gamma 1 battle-start effect: 30 seconds of forced enemy targeting, +30% all attacks, -30% damage taken, and +30% Stamina recovery; the current all-186 PQ guide independently lists this Soul as a basic reward of PQ 157. Exact reward RNG/first-clear semantics remain intentionally unspecified.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4548,7 +4550,9 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
-        "web:steam-pq-guide-2026-09-27"
+        "web:steam-pq-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4570,9 +4574,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery; Defense Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms both once-only triggers and +500 Stamina restoration; the PQ guide independently lists this Soul as a basic reward of PQ 157. No exact RNG/drop-condition claim is added. Independent provenance audit rechecked 2026-09-27: PQ 157 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 146; exact RNG/first-clear behavior remains unverified unless explicitly documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms both once-only triggers and +500 Stamina restoration; the PQ guide independently lists this Soul as a basic reward of PQ 157. No exact RNG/drop-condition claim is added. Independent provenance audit rechecked 2026-09-27: PQ 157 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 146; exact RNG/first-clear behavior remains unverified unless explicitly documented. 2026-10-02 verification: current Super Soul catalogue independently corroborates the Gamma 2 once-only guard-break recovery and once-only +500 Stamina restoration when an opponent uses an Ultimate Attack; the current all-186 PQ guide independently lists this Soul as a basic reward of PQ 157. Exact reward RNG/first-clear semantics remain intentionally unspecified.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4582,7 +4586,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
         "web:steam-pq-guide-2026-09-27",
-        "web:gamefaqs-super-soul-guide-2026-09-27"
+        "web:gamefaqs-super-soul-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4604,9 +4610,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics corroborated by the Gohan (DBS Super Hero) character data and independent player testing; the repository preserves the exact in-game style while retaining secondary verification status. Direct catalogue evidence confirms the Always guard-break extension and Just Guard attack stacking; the PQ guide independently lists the Soul as a basic reward of PQ 158. The repository retains partial verification because independent mechanical testing remains secondary. Independent provenance audit rechecked 2026-09-27: PQ 158 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 147; exact RNG/first-clear behavior remains unverified unless explicitly documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics corroborated by the Gohan (DBS Super Hero) character data and independent player testing; the repository preserves the exact in-game style while retaining secondary verification status. Direct catalogue evidence confirms the Always guard-break extension and Just Guard attack stacking; the PQ guide independently lists the Soul as a basic reward of PQ 158. The repository retains partial verification because independent mechanical testing remains secondary. Independent provenance audit rechecked 2026-09-27: PQ 158 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 147; exact RNG/first-clear behavior remains unverified unless explicitly documented. 2026-10-02 verification: current Super Soul catalogue and Gohan (DBS Super Hero) documentation corroborate the permanent guard-break-time extension, +10% all-attacks per successful Just Guard, three-stack cap, Auto Just Guard Limit Burst, and PQ 158 acquisition; the current all-186 PQ guide independently lists the Soul as a basic reward of PQ 158. Exact reward RNG/first-clear semantics remain intentionally unspecified.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4616,7 +4622,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
         "web:steam-pq-guide-2026-09-27",
-        "web:gamefaqs-super-soul-guide-2026-09-27"
+        "web:gamefaqs-super-soul-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4638,9 +4646,9 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms Dr. Hedo, Pose trigger, +5% Strike/+5% Ki Blast stacking to five, and Revive Gauge Auto-Recovery Limit Burst; the PQ guide and DLC listing independently place it in PQ 159. Independent provenance audit rechecked 2026-09-27: PQ 159 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 148; exact RNG/first-clear behavior remains unverified unless explicitly documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms Dr. Hedo, Pose trigger, +5% Strike/+5% Ki Blast stacking to five, and Revive Gauge Auto-Recovery Limit Burst; the PQ guide and DLC listing independently place it in PQ 159. Independent provenance audit rechecked 2026-09-27: PQ 159 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 148; exact RNG/first-clear behavior remains unverified unless explicitly documented. 2026-10-02 verification: current Super Soul catalogue corroborates Dr. Hedo's pose-triggered +5% Strike and +5% Ki Blast boosts stacking to five and Revive Gauge Auto-Recovery; current PQ/DLC documentation independently places the Soul in PQ 159. Exact reward RNG/first-clear semantics remain intentionally unspecified.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4650,7 +4658,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
         "web:steam-pq-guide-2026-09-27",
-        "web:gamefaqs-super-soul-guide-2026-09-27"
+        "web:gamefaqs-super-soul-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4672,9 +4682,9 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics corrected against the current Super Soul catalogue: the all-attack and damage-taken modifiers are +30%, not the earlier +5% reconstruction. PQ 159 provenance is independently source-backed. Direct catalogue evidence confirms the corrected +30% all-attack modifier and +30% damage-taken modifier alongside the 20-second Ki Auto-Recovery effect; the PQ guide independently lists it as a basic reward of PQ 159. Independent provenance audit rechecked 2026-09-27: PQ 160 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 149; exact RNG/first-clear behavior remains unverified unless explicitly documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics corrected against the current Super Soul catalogue: the all-attack and damage-taken modifiers are +30%, not the earlier +5% reconstruction. PQ 159 provenance is independently source-backed. Direct catalogue evidence confirms the corrected +30% all-attack modifier and +30% damage-taken modifier alongside the 20-second Ki Auto-Recovery effect; the PQ guide independently lists it as a basic reward of PQ 159. Independent provenance audit rechecked 2026-09-27: PQ 160 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 149; exact RNG/first-clear behavior remains unverified unless explicitly documented. 2026-10-02 verification: current Super Soul catalogue corroborates Magenta's 20-second +20% team Ki Auto-Recovery at battle start plus the always-active +30% all-attacks and +30% damage-taken modifiers; current PQ/DLC documentation independently places the Soul in PQ 159. The repository retains the canonical acquisition endpoint and does not infer reward RNG.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4684,7 +4694,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
         "web:steam-pq-guide-2026-09-27",
-        "web:gamefaqs-super-soul-guide-2026-09-27"
+        "web:gamefaqs-super-soul-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4706,9 +4718,9 @@
       "limit_burst_effect": "Defense Up; Super Armor; Ki Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms Gohan (Beast), Just Guard trigger, +5% Strike/+10% Ki Blast stacking to five, and the Limit Burst; the PQ guide independently lists it as a basic reward of PQ 160. Independent provenance audit rechecked 2026-09-27: PQ 161 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 150; exact RNG/first-clear behavior remains unverified unless explicitly documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Direct catalogue evidence confirms Gohan (Beast), Just Guard trigger, +5% Strike/+10% Ki Blast stacking to five, and the Limit Burst; the PQ guide independently lists it as a basic reward of PQ 160. Independent provenance audit rechecked 2026-09-27: PQ 161 placement is retained from the source-normalized relationship layer; no legacy ID/name rejection signal was found in the current record layer. Exact first-clear/drop behavior remains unverified. External provenance rechecked 2026-09-27: current/independent PQ guide evidence supports the recorded PQ endpoint for Super Soul 150; exact RNG/first-clear behavior remains unverified unless explicitly documented. 2026-10-02 verification: current Super Soul catalogue corroborates Gohan (Beast)'s Just Guard-triggered +5% Strike and +10% Ki Blast boosts, stacking to five, and its defensive/Super Armor Limit Burst; current PQ documentation independently places the Soul in PQ 160. Exact reward RNG/first-clear semantics remain intentionally unspecified.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4718,7 +4730,9 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:fandom-super-soul-2026-09-27",
         "web:steam-pq-guide-2026-09-27",
-        "web:gamefaqs-super-soul-guide-2026-09-27"
+        "web:gamefaqs-super-soul-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4740,9 +4754,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. External provenance rechecked 2026-09-27: External PQ guide corroborates PQ 161 as the acquisition endpoint; current indexed reward data lists the soul as a basic reward. Exact RNG/first-clear behavior remains unverified. Provenance audit rechecked 2026-09-27: PQ endpoint remains consistent with the repository's normalized reward maps and independent PQ guide; no legacy ID/name remapping was identified in this batch. Exact drop/RNG behavior remains unspecified where not directly sourced. Provenance audit rechecked 2026-09-27; PQ endpoint retained with no evidence of legacy ID/name remapping. Exact first-clear/repeat RNG behavior remains unverified. Provenance audit rechecked 2026-09-27: no evidence of the legacy ID/name-remapping pattern found in 138–142; recorded PQ endpoint remains consistent with the source-normalized reward layer. Exact drop/RNG behavior remains unclaimed where not directly documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. External provenance rechecked 2026-09-27: External PQ guide corroborates PQ 161 as the acquisition endpoint; current indexed reward data lists the soul as a basic reward. Exact RNG/first-clear behavior remains unverified. Provenance audit rechecked 2026-09-27: PQ endpoint remains consistent with the repository's normalized reward maps and independent PQ guide; no legacy ID/name remapping was identified in this batch. Exact drop/RNG behavior remains unspecified where not directly sourced. Provenance audit rechecked 2026-09-27; PQ endpoint retained with no evidence of legacy ID/name remapping. Exact first-clear/repeat RNG behavior remains unverified. Provenance audit rechecked 2026-09-27: no evidence of the legacy ID/name-remapping pattern found in 138–142; recorded PQ endpoint remains consistent with the source-normalized reward layer. Exact drop/RNG behavior remains unclaimed where not directly documented. 2026-10-02 verification: current Super Soul catalogue corroborates Piccolo (Power Awakening)'s below-50%-health one-time Ki Auto-Recovery and +20% Stamina recovery effect plus Auto Just Guard Limit Burst; current PQ/DLC documentation independently places the Soul in PQ 161. Exact reward RNG/first-clear semantics remain intentionally unspecified.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4751,7 +4765,9 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:steam-pq-guide-2026-09-27",
-        "web:gamefaqs-super-soul-guide-2026-09-27"
+        "web:gamefaqs-super-soul-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
@@ -4773,9 +4789,9 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. External provenance rechecked 2026-09-27: External PQ guide corroborates PQ 162 as the acquisition endpoint; current indexed reward data lists the soul as a basic reward. Exact RNG/first-clear behavior remains unverified. Provenance audit rechecked 2026-09-27: PQ endpoint remains consistent with the repository's normalized reward maps and independent PQ guide; no legacy ID/name remapping was identified in this batch. Exact drop/RNG behavior remains unspecified where not directly sourced. Provenance audit rechecked 2026-09-27; PQ endpoint retained with no evidence of legacy ID/name remapping. Exact first-clear/repeat RNG behavior remains unverified. Provenance audit rechecked 2026-09-27: no evidence of the legacy ID/name-remapping pattern found in 138–142; recorded PQ endpoint remains consistent with the source-normalized reward layer. Exact drop/RNG behavior remains unclaimed where not directly documented.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. External provenance rechecked 2026-09-27: External PQ guide corroborates PQ 162 as the acquisition endpoint; current indexed reward data lists the soul as a basic reward. Exact RNG/first-clear behavior remains unverified. Provenance audit rechecked 2026-09-27: PQ endpoint remains consistent with the repository's normalized reward maps and independent PQ guide; no legacy ID/name remapping was identified in this batch. Exact drop/RNG behavior remains unspecified where not directly sourced. Provenance audit rechecked 2026-09-27; PQ endpoint retained with no evidence of legacy ID/name remapping. Exact first-clear/repeat RNG behavior remains unverified. Provenance audit rechecked 2026-09-27: no evidence of the legacy ID/name-remapping pattern found in 138–142; recorded PQ endpoint remains consistent with the source-normalized reward layer. Exact drop/RNG behavior remains unclaimed where not directly documented. 2026-10-02 verification: current Super Soul catalogue corroborates Orange Piccolo's always-active -10% damage taken and +10% Ki restored plus battle-end item-drop-rate boost and ATK/Ki Auto-Recovery/Stamina Recovery Speed Down Limit Burst; current PQ/DLC documentation independently places the Soul in PQ 162. The exact scope of the item-drop modifier remains a research boundary; no stronger interpretation is promoted.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -4784,7 +4800,9 @@
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "web:steam-pq-guide-2026-09-27",
-        "web:gamefaqs-super-soul-guide-2026-09-27"
+        "web:gamefaqs-super-soul-guide-2026-09-27",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
       ]
     },
     {
