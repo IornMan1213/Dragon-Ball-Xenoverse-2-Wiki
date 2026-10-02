@@ -9166,3 +9166,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-soul-137-verification-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 139 onward; Super Soul 138 remains rejected legacy.
+
+### 2026-10-02 recovery-forward checkpoint — Super Souls 144-152
+- [x] Verified Super Souls 144-152 with current catalogue and independent PQ/DLC evidence.
+- [x] Canonical acquisition relationships remain authoritative; no reward RNG or hidden implementation details were inferred.
+- [x] Super Soul 143 remains partially verified because its second modifier has unresolved source wording; Super Soul 152 retains an explicit item-drop scope boundary.
+- [x] Added `docs/data/super-souls-144-152-verification-audit-2026-10-02.json` and synchronized `docs/data/super-souls-record-layer.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-backed enrichment from Super Soul 153 onward.
