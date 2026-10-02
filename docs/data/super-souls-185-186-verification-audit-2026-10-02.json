@@ -1,0 +1,26 @@
+{
+  "audit_id": "super-souls-185-186-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": [
+    "super-soul-185",
+    "super-soul-186"
+  ],
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "verified_records": [
+    "super-soul-185",
+    "super-soul-186"
+  ],
+  "findings": [
+    "Current Super Soul catalogue evidence corroborates both identities, character sources, triggers, magnitudes, and Limit Bursts.",
+    "Both records are TP Medal Shop/STP Medal Shop acquisition endpoints; they are not promoted as Parallel Quest rewards.",
+    "Independent player-facing evidence corroborates the intended use/effect categories, including the Ultimate Attack boost for 185 and Super Attack boost for 186.",
+    "No shop rotation timing, hidden implementation detail, or reward probability was inferred."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=2865944444",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79144548",
+    "https://videogaming.fandom.com/wiki/You_irritating_little_pests%21"
+  ]
+}
