@@ -9025,3 +9025,11 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated canonical records 070-074 and set last_verified to 2026-10-02.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 075 onward; preserve canonical source-of-truth rules and historical discrepancies.
+
+
+### 2026-10-02 continuation — Super Souls 075-079 verification
+- [x] Verified Super Souls 075-079 using current catalogue and independent DLC4/GameFAQs evidence.
+- [x] Corrected canonical `super-soul-076` Limit Burst from the stale `ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.` field to **Homing**, matching current catalogue evidence; the Limit Burst effect remains separately recorded.
+- [x] Updated last_verified for 075-079 to 2026-10-02.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 080 onward; preserve canonical source-of-truth rules and historical discrepancies.
