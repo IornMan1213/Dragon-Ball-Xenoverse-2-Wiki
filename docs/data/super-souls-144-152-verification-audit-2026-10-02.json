@@ -1,0 +1,39 @@
+{
+  "audit_id": "super-souls-144-152-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": [
+    "super-soul-144",
+    "super-soul-145",
+    "super-soul-146",
+    "super-soul-147",
+    "super-soul-148",
+    "super-soul-149",
+    "super-soul-150",
+    "super-soul-151",
+    "super-soul-152"
+  ],
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "evidence_policy": "Canonical acquisition relationships remain authoritative. Independent catalogue/PQ evidence is used to corroborate identity, mechanics, and acquisition endpoint; reward probabilities, first-clear semantics, and hidden implementation details are not inferred.",
+  "verified_records": [
+    "super-soul-144",
+    "super-soul-145",
+    "super-soul-146",
+    "super-soul-147",
+    "super-soul-148",
+    "super-soul-149",
+    "super-soul-150",
+    "super-soul-151",
+    "super-soul-152"
+  ],
+  "unresolved_boundaries": [
+    "super-soul-143 remains partially verified because its second damage-taken modifier has internally inconsistent wording/table semantics.",
+    "Exact PQ reward RNG/first-clear behavior is not promoted for the verified records unless explicitly documented.",
+    "super-soul-152 item-drop-rate effect is retained at the canonical documented level; its exact scope is not inferred."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80613854"
+  ]
+}
