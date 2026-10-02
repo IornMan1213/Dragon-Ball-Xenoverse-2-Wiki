@@ -9007,3 +9007,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-060-064-enrichment-audit-2026-10-02.json` with evidence provenance.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 065 onward; preserve canonical source-of-truth rules and historical discrepancies.
+
+
+### 2026-10-02 continuation — Super Souls 065-069 verification
+- [x] Verified `super-soul-065` "How Dare You...! That's My Bulma": Super Saiyan Vegeta, PQ104, ally-KO trigger, +5% normal attacks and -5% damage taken per stack, up to 10 stacks.
+- [x] Verified `super-soul-066` "Me...Protecting Some Pipsqueak": Piccolo, PQ105, -50% ally revival time, +5% own revival time, -5% damage taken.
+- [x] Verified `super-soul-067` "Buu Don't Wanna!": Super Buu, PQ105, below 25% HP, +30 Stamina recovery, Auto Health/Stamina Recovery DEF Down Limit Burst.
+- [x] Verified `super-soul-068` "You're Just Pieces in a Game": Champa, PQ106, +20% Strike Skills after 30 seconds, ATK Up/Ki Auto-Recovery/Stamina Recovery Speed Down Limit Burst.
+- [x] Verified `super-soul-069` "Watch Your Tongue": Vados, PQ106, successful Just Guard restores +60 Ki and +20 Stamina, Auto Just Guard Limit Burst.
+- [x] Added `docs/data/super-souls-065-069-enrichment-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 070 onward; preserve canonical source-of-truth rules and historical discrepancies.
