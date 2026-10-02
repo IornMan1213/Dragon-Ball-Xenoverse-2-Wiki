@@ -5639,14 +5639,15 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Restored as a canonical XV2 Super Soul endpoint from the current Super Soul catalogue and Gogeta (Super Saiyan) character data; PQ57 is explicitly documented as the acquisition source. Exact drop condition/rate remains unresolved.",
+      "version_notes": "Identity and PQ57 acquisition are reconciled against the current XV2 Super Soul catalogue and independent PQ documentation. A 2026 GameFAQs report also identifies the item as a PQ57 reward, while noting player-reported uncertainty around Z-rank/drop behavior; this does not establish a drop-rate rule, so no drop probability is promoted. Core effect fields remain preserved as catalogue/research values and exact drop condition/rate remains unresolved.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Gogeta_%28Super_Saiyan%29",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=12"
       ]
     }
   ],
@@ -5666,7 +5667,8 @@
     "2026-09-19: reconciled raid candidates 044–047 against item-level/community Super Soul catalogue evidence. 044, 045 and 046 now have verified core effects; 047 remains partially verified because the stamina-damage reduction magnitude and exact historical raid mapping remain unresolved.",
     "2026-09-29: promoted four previously enumerated PQ reward Super Souls (PQ47, PQ53, PQ54, PQ58) after current XV2 catalogue and independent acquisition/effect evidence reconciled; no cross-game Xenoverse-1 records were promoted.",
     "2026-09-30: promoted historical PQ74 Super Soul endpoint \"The gold represents the new me.\" with explicit versioned provenance; later rename evidence is preserved.",
-    "2026-09-30: promoted PQ164 Super Soul endpoint \"This place will be your grave!\" after reconciling current registered values with independent testing; observed-vs-registered mechanics remain explicitly separated."
+    "2026-09-30: promoted PQ164 Super Soul endpoint \"This place will be your grave!\" after reconciling current registered values with independent testing; observed-vs-registered mechanics remain explicitly separated.",
+    "2026-10-02: enriched Super Soul 184 (I will defeat you!) with independent 2026 PQ57 acquisition corroboration. The source contains conflicting player interpretation about Z-rank/drop behavior, so the repository records the acquisition evidence but deliberately does not infer a drop-rate rule."
   ],
   "sources": [
     {
