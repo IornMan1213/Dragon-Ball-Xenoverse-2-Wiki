@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": "Super Soul 003 verification and validator status reconciliation",
+  "source_policy": "Canonical source-of-truth remains authoritative for identity, acquisition, and canonical magnitude. Independent sources are corroboration and do not override canonical values.",
+  "record": "super-soul-003",
+  "identity": "Haaaaaaaaaaaah!!",
+  "character_source": "Tien",
+  "acquisition": "TP Medal Shop / STP Medal Shop",
+  "canonical_effect_magnitude": "-100% Kamehameha damage",
+  "functional_interpretation": "Nullifies Kamehameha-based damage while equipped.",
+  "evidence": [
+    "Current Super Soul catalogue lists an always-active -100% Kamehameha damage effect.",
+    "Current Kamehameha documentation states the soul nullifies Kamehameha-based damage.",
+    "Independent GameFAQs discussion documents the intended behavior as nullifying Kamehameha damage across Kamehameha variants."
+  ],
+  "decision": "Promoted super-soul-003 from verified_secondary to verified without changing the canonical magnitude.",
+  "validator_reconciliation": "The canonical layer contained documented verified_secondary records while the validator allowed only indexed, partially_verified, and verified. The validator now accepts verified_secondary rather than treating existing repository records as invalid.",
+  "unresolved_boundary": "No undocumented frame/tick behavior, hidden exceptions, drop probability, or variant-specific implementation rule was promoted to canonical truth.",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://dbxv2.fandom.com/wiki/Kamehameha",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74481231"
+  ]
+}
