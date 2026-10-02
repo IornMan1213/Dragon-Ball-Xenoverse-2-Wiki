@@ -141,7 +141,7 @@ Records 044–047 have now undergone item-level reconciliation. Three have verif
 |---|---|---|---|---|
 | 044 | Let's see you handle THIS kind of power! | Great Ape Baby Online Raid | Giant Form: +15% all attacks and passive stamina auto-recovery | Verified |
 | 045 | Your time in this fight ends now! | Saibaman / Great Ape Baby Lite raids | Instant Transmission restores Ki; catalog lists +100 Ki | Verified |
-| 046 | Kind of human-like, don't you think? | Super 17 Online Raid | Energy Field: -20% damage taken for wearer/allies for 10 sec | Verified |
+| 046 | Kind of human-like, don't you think? | Super 17 Online Raid — official 15,000-damage individual target tier | Energy Field: -20% damage taken for wearer/allies for 10 sec; Limit Burst: Revive Gauge Auto-Recovery! | Verified |
 | 047 | Kicking a Shadow Dragon in the head is not a wise thing to do! | Shadow Dragon raid family | +5% defense baseline; larger defense boost at ≤10% HP; stamina-damage reduction value unresolved | Partially verified |
 
 Exact raid recurrence schedules and drop probabilities are not inferred from these records.
