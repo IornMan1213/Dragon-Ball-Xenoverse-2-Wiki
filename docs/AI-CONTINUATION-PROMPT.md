@@ -8954,3 +8954,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-soul-050-enrichment-audit-2026-10-02.json` and updated the human-readable database.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with the next partially verified/unresolved Super Soul after 050.
+
+
+### 2026-10-02 continuation — Super Soul 051 correction and verification
+- [x] Audited canonical `super-soul-051` instead of trusting its stale partially-verified endpoint fields.
+- [x] Corrected the identity from **Super Saiyan 2 Gohan (Teen)** to **God of Destruction Beerus**.
+- [x] Corrected the trigger/effect from the unsupported enemy-revive/+10% Ki Auto-Recovery data to **about 30 seconds after battle start → +20% Ki Blast Skills (XL)**.
+- [x] Independently reconfirmed **Parallel Quest 63 — Appetite for Destruction** acquisition and the Rush Limit Burst.
+- [x] Added `docs/data/super-soul-051-enrichment-audit-2026-10-02.json` and updated the human-readable database.
+- [x] Preserved unresolved exact timing/stacking details rather than inventing them.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with the next partially verified/unresolved Super Soul after 051.
