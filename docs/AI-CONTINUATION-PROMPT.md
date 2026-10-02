@@ -7,3 +7,10 @@
 - [ ] Remaining partially verified early records require targeted reconciliation.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] Next: continue the early canonical Super Soul layer.
+
+
+### 2026-10-02 continuation — Super Soul 003 reconciliation
+- [x] Reconciled Tien's `Haaaaaaaaaaaah!!` against current catalogue and independent documentation.
+- [x] Preserved canonical catalogue magnitude `-100%` while documenting the functional interpretation as Kamehameha damage nullification.
+- [x] Historical variant-specific exceptions remain secondary evidence and were not promoted to unsupported canonical rules.
+- [ ] Continue remaining canonical data gaps after this reconciliation.
