@@ -146,6 +146,7 @@ Records 044–047 have now undergone item-level reconciliation. Three have verif
 | 049 | Getting beat up makes me cranky... | Parallel Quest 44 | +5% Ki auto-recovery; +15% Ki Blast-based attacks at max Stamina; Rush Limit Burst | Verified |
 | 050 | I'll use all my strength to kill you... | Parallel Quest 29 — The Androids Attack | +5% Ki auto-recovery; +10% normal attacks at max Ki; Power Limit Burst | Verified |
 | 051 | Before creation comes ruin... | Parallel Quest 63 — Appetite for Destruction | +20% Ki Blast Skills after about 30 seconds; Rush Limit Burst | Verified |
+| 052 | Janemba! Janemba! | Parallel Quest 64 — Beerus the Impulsive | +60 Ki on successful Just Guard; +10% Ki Blast Skills for 10 seconds; Auto Just Guard | Verified |
 | 048 | Set your rage free... | Parallel Quest 42 — Artificial Warriors | -5% ally revival time; +100% Ki on KO; Limit Burst: Auto Health and Stamina Recovery!; DEF Down. | Verified |
 
 Exact raid recurrence schedules and drop probabilities are not inferred from these records.
