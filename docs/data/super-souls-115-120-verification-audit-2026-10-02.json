@@ -1,0 +1,41 @@
+{
+  "audit_date": "2026-10-02",
+  "records": [
+    "super-soul-115",
+    "super-soul-116",
+    "super-soul-117",
+    "super-soul-118",
+    "super-soul-119",
+    "super-soul-120"
+  ],
+  "verified": [
+    "super-soul-115",
+    "super-soul-116",
+    "super-soul-117",
+    "super-soul-118",
+    "super-soul-119",
+    "super-soul-120"
+  ],
+  "acquisition": {
+    "super-soul-115": "Parallel Quest 134",
+    "super-soul-116": "Parallel Quest 135",
+    "super-soul-117": "Parallel Quest 136",
+    "super-soul-118": "Parallel Quest 136",
+    "super-soul-119": "Parallel Quest 137",
+    "super-soul-120": "Parallel Quest 137"
+  },
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://dbxv2.fandom.com/wiki/Blazing_Attack"
+  ],
+  "method": "Cross-checked canonical record layer against current Super Soul catalogue and independent PQ/stat-sheet evidence. Canonical acquisition remains authoritative; no unsupported probabilities or hidden implementation details inferred.",
+  "notes": {
+    "115": "Always active: +50% maximum Ki and +50% maximum Stamina; Power Limit Burst with Auto Health and Stamina Recovery! DEF Down.",
+    "116": "Once only when hit by an Ultimate Attack: -50% damage taken for 10 seconds; Hearts Ki Blast type; Rush (Hearts) Limit Burst.",
+    "117": "Blazing Attack hit/blocked: +10% Strike Skills, +10% Ki Blast-based skills, +10% Ki restored; all stack up to 3 times; Rush/Auto Just Guard.",
+    "118": "Below 50% health: +20% all attacks, -15% damage taken, +10% Stamina recovery, guard sealed; Power Limit Burst.",
+    "119": "Once when activating SSGSS (Evolved): +60% Ki auto-recovery for 30 seconds; Rush Limit Burst.",
+    "120": "Once when hit by an Ultimate Attack: +15% all attacks, -10% damage taken, +10% movement, +10% Ki restored, +10% Stamina recovery; Bomb/Auto Just Guard."
+  }
+}
