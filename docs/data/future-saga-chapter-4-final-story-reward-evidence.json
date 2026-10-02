@@ -94,5 +94,12 @@
     "Locate item-level evidence for Time Ring of Memories and determine whether it is granted at the same checkpoint.",
     "Reconcile the story reward sequence with the six official costume/accessory records.",
     "Check later patch notes for the reported reward-delivery issue and record the fixed version if documented."
-  ]
+  ],
+  "canonical_awoken_crosslink": {
+    "canonical_record": "The Power to Overcome",
+    "canonical_source": "docs/data/awoken-canonical-overrides.json",
+    "canonical_verification_status": "verified",
+    "audit": "awoken-cross-system-link-audit-2026-10-02.json",
+    "note": "This research/lead layer is subordinate to the canonical Awoken record. Its historical partially_verified state is retained as provenance; it must not be interpreted as a second conflicting canonical identity."
+  }
 }
