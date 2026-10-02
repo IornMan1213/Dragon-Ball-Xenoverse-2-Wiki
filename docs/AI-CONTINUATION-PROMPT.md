@@ -52,3 +52,12 @@
 - [x] Preserved Super Soul 177 as `partially_verified` because its canonical 20% proc probability remains insufficiently reconciled at item level.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining `partially_verified` Super Soul records, prioritizing 143/153/177 and then the remaining early partial records, with canonical values preserved across source conflicts.
+
+
+### 2026-10-02 continuation — Super Souls 002, 021, 056, 057 verification
+- [x] Reconciled 002, 021, 056, and 057 against current catalogue/character evidence and independent PQ/player-facing evidence.
+- [x] Promoted all four from `partially_verified` to `verified` without altering canonical values or acquisition endpoints.
+- [x] Added `docs/data/super-souls-002-021-056-057-verification-audit-2026-10-02.json`.
+- [x] Updated `docs/Super-Souls-Database.md` with the verification checkpoint.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** reconcile remaining partial records 053, 101, 143, 153, and 177; preserve documented source conflicts instead of normalizing unsupported values.
