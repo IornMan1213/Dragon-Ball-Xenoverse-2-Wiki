@@ -8923,3 +8923,14 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved stacking/hidden implementation details and did not infer reward probabilities or assume every rerun uses identical thresholds.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified/unresolved endpoint after 046, prioritizing independent item-level mechanics or acquisition evidence and preserving canonical-forward/source-of-truth rules.
+
+
+### 2026-10-02 continuation — Super Soul 048 evidence enrichment
+- [x] Enriched canonical `super-soul-048` ("Set your rage free...") with independent PQ42 acquisition evidence from the Steam PQ guide and GameFAQs walkthrough.
+- [x] Corroborated the documented mechanics: **-5% ally revival time** and **+100% Ki restoration on the KO trigger**.
+- [x] Reconfirmed the Limit Burst: **Auto Health and Stamina Recovery!; DEF Down.**
+- [x] Added `docs/data/super-soul-048-enrichment-audit-2026-10-02.json` and added/updated the human-readable database entry.
+- [x] Upgraded the evidence status to `verified` while explicitly preserving a wording conflict: secondary references differ on whether the KO Ki restoration is described as the user’s Ki or allies’ Ki. The canonical normalized field was not silently rewritten.
+- [x] Preserved unresolved drop probability/Ultimate-Finish condition and stacking behavior.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified/unresolved endpoint after 048, prioritizing independent item-level mechanics/acquisition evidence.
