@@ -82,3 +82,12 @@
 - [x] Explicitly retained cast/enemy-only transformations outside the CaC Awoken layer and did not promote unresolved mechanics.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** deepen Awoken records with evidence-backed version/mechanics fields and then connect Awoken records to character/preset, DLC, mentor/time-rift, and skill relationships.
+
+
+### 2026-10-02 continuation — Awoken evidence and Future Saga cross-layer reconciliation
+- [x] Audited current Awoken mechanics evidence against canonical overrides. Current reference confirms SSG +60% Basic Attack / +60% Ki recovery and 12.5% movement, while an independent Steam guide retains older +40%/+50% values; the canonical SSG record therefore remains `partially_verified` rather than silently changing source-of-truth values.
+- [x] Confirmed current SSB, SSB Evolved, Super Vegeta, Beast and related mechanics against current references without unnecessary canonical rewrites.
+- [x] Added canonical cross-links to five Future Saga Chapter 4 research/content/evidence layers for `The Power to Overcome`. Their historical `partially_verified` lead status is now explicitly subordinate to the verified canonical Awoken record instead of appearing as an independent conflicting identity.
+- [x] Preserved Bandai Namco's official Chapter 4 baseline: 4 new moves including 1 Awoken Skill, 2 Parallel Quests, 4 Super Souls, and the final DLC chapter scope.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue Awoken-to-character-preset and Awoken-to-DLC/quest cross-link coverage, then reconcile any orphaned or duplicate transformation identities found there.
