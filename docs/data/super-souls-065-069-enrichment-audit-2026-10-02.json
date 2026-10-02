@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-02",
+  "scope": [
+    "super-soul-065",
+    "super-soul-066",
+    "super-soul-067",
+    "super-soul-068",
+    "super-soul-069"
+  ],
+  "result": "verified",
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "notes": {
+    "super-soul-065": "Current Super Soul catalogue and independent Super Soul stat sheet corroborate Super Saiyan Vegeta, ally-KO trigger, +5% normal/basic attacks and -5% damage taken per stack, stacking to 10; the independent PQ guide corroborates PQ104 acquisition. The canonical database values are retained.",
+    "super-soul-066": "Current Super Soul catalogue/stat-sheet evidence and independent community documentation corroborate Piccolo's revive-support Super Soul: always active, shortens ally revival time by 50%, lengthens own revival time by 5%, and reduces damage taken by 5%. The independent PQ guide corroborates PQ105 acquisition. Canonical record retained.",
+    "super-soul-067": "Current Super Soul catalogue and independent Super Soul stat sheet corroborate Super Buu, HP below 25% trigger, +30 Stamina recovery, and Auto Health/Stamina Recovery DEF Down Limit Burst; the independent PQ guide corroborates PQ105 acquisition. Canonical record retained.",
+    "super-soul-068": "Current Super Soul catalogue and independent Super Soul stat sheet corroborate Champa, 30-second battle-start trigger, +20% Strike Skills, and ATK Up/Ki Auto-Recovery/Stamina Recovery Speed Down Limit Burst; the independent PQ guide corroborates PQ106 acquisition.",
+    "super-soul-069": "Current Super Soul catalogue and independent Super Soul stat sheet corroborate Vados, successful Just Guard trigger, +60 Ki and +20 Stamina, and Auto Just Guard Limit Burst; the independent PQ guide corroborates PQ106 acquisition."
+  }
+}
