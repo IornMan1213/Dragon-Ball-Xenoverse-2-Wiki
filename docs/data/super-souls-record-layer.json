@@ -1263,7 +1263,7 @@
       "shop_rotation": null,
       "trigger_condition": "When using Instant Transmission",
       "effect_text": "Restores Ki.",
-      "effect_magnitude": "+100 Ki in catalog data; community reports one bar for ordinary use and two bars for close use",
+      "effect_magnitude": "+100 Ki (catalogue); independent player testing reports approximately 1 bar for normal Instant Transmission and up to 2 bars when used at close range",
       "duration": "Per qualifying Instant Transmission use",
       "stacking_behavior": "unresolved",
       "limit_burst": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
@@ -1271,13 +1271,17 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled. 2026-09-19 item-level reconciliation added. Limit Burst effect reconciled from independent catalogue/raid/character evidence on 2026-09-27; no trigger timing or unrelated mechanics were inferred.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current catalogue and independent Saibaman raid documentation corroborate the Instant Transmission trigger and +100 Ki registered/catalogue value. Independent testing reports approximately one Ki bar from ordinary Instant Transmission and up to two bars at close range, so the bar-count observation is preserved as secondary behavior rather than replacing the registered +100 Ki value. The soul has recurred in Great Ape Baby Lite raid reward tables. No stacking behavior is inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77875249",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/78749211",
+        "https://www.reddit.com/r/dbxv/comments/1tit9co/raid_quest_from_dust_to_dust_vs_saibaman_lite/",
+        "https://www.reddit.com/r/dbxv/comments/1chs1do/raid_quest_revenge_of_the_tuffle_reloaded_vs_great_ape_baby_lite/"
       ]
     },
     {
