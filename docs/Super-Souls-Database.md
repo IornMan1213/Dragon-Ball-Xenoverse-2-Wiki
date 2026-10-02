@@ -165,3 +165,19 @@ The canonical records for Super Souls 110–114 were rechecked against the curre
 | 114 | I got my claws in you, and fangs too! | Kakunsa | PQ133 | Charged attack hit: +15% Strike Skills and +10% movement speed; both stack up to 2 times | Verified |
 
 The pass does not infer exact reward probabilities, hidden frame/tick behavior, or undocumented stacking interactions beyond the documented stack limits.
+
+
+### Super Souls 115–120 — 2026-10-02 verification
+
+Records 115–120 were rechecked against the current Super Soul catalogue and independent Parallel Quest/stat-sheet evidence. Their canonical acquisition routes remain PQ134–137.
+
+| ID | Super Soul | Character | Acquisition | Verified mechanics |
+|---|---|---|---|---|
+| 115 | Power! A lotta power! It's great! | Whis | PQ134 | +50% maximum Ki and +50% maximum Stamina; Power Limit Burst |
+| 116 | That won't work on me! | Ribrianne | PQ135 | Once after Ultimate Attack hit: -50% damage taken for 10 sec; Hearts Ki Blast type |
+| 117 | Pathetic | Vegeta (Super Saiyan God) | PQ136 | Blazing Attack trigger; +10% Strike, +10% Ki Blast-based skills, +10% Ki restored; 3-stack cap |
+| 118 | Justice is nothing to me now. | Toppo | PQ136 | Below 50% HP: +20% all attacks, -15% damage taken, +10% Stamina recovery; guard sealed |
+| 119 | This is everything I've got! | SSGSS Vegeta (Evolved) | PQ137 | Once on SSGSS (Evolved): +60% Ki auto-recovery for 30 sec |
+| 120 | That heat... I'll have to match it. | Jiren | PQ137 | Once after Ultimate Attack hit: +15% all attacks, -10% damage taken, +10% movement, +10% Ki restored, +10% Stamina recovery |
+
+No unsupported drop probabilities or hidden frame/tick behavior were added.
