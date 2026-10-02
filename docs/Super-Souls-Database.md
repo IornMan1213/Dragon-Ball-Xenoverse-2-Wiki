@@ -31,17 +31,17 @@ Only one Super Soul can be equipped at a time on a preset. Because copies are sh
 | **CaC availability** | Whether Player Created Characters can equip it |
 | **DLC** | Required paid DLC or other content dependency |
 | **Version notes** | Changes, exceptions, or unresolved version differences |
-| **Verification** | `indexed`, `partially_verified`, or `verified` |
+| **Verification** | `indexed`, `partially_verified`, `verified`, or `verified_secondary`; legacy records may be `rejected_legacy` |
 
 ## Current structured catalogue
 
 The machine-readable source of truth is `docs/data/super-souls-record-layer.json`.
 
-The canonical layer currently contains **42 populated records** (18 initial records plus the eight promoted records from research batch 03). This is an enumerated research population, not a claim that the game's full Super Soul catalogue has been completed.
+The canonical layer currently contains **186 populated records**. The current population includes records with `verified`, `verified_secondary`, `partially_verified`, and intentionally `rejected_legacy` status; rejected legacy identities are retained for provenance but are not treated as active acquisition endpoints. This is an enumerated canonical research population, not a claim that every possible Super Soul outside the established catalogue scope has been independently researched.
 
 ### Canonical records
 
-The initial canonical population covers the first 18 research records, including PQ, Item Shop, TP/STP Shop, and NPC acquisition families. All remain `partially_verified` until acquisition details and important mechanics are sufficiently reconciled.
+The canonical layer has expanded substantially beyond the original seed population. Verification is now tracked per record: `verified` indicates the core identity, acquisition route, and important mechanics have been sufficiently reconciled; `verified_secondary` records retain strong secondary corroboration while remaining distinguished from the primary verified class; `partially_verified` preserves meaningful unresolved fields; and `rejected_legacy` records are historical identities that lack a current canonical endpoint.
 
 ### Staged research batch 03
 
