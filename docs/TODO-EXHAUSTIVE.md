@@ -8471,3 +8471,14 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] No unsupported drop probabilities or hidden frame/tick behavior were inferred.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] Exact next: reconcile the remaining skipped Super Soul verification range 139-143, then continue beyond the now-populated 186-record canonical frontier only where scope is explicitly established.
+
+
+### 2026-10-02 continuation — Super Souls 139-143 scope reconciliation
+- [x] Reconciled Super Souls 139-143 against the canonical record layer and current external catalogue/PQ evidence.
+- [x] 139-142 remain intentionally `rejected_legacy`; their old PQ151-155 attributions were already removed because direct reward evidence did not corroborate them. They were not re-added or assigned speculative acquisition/mechanics.
+- [x] 143 remains `partially_verified`: "This is your true power?" — Gamma 1, PQ156. Current catalogue evidence confirms Just Guard, -5% opponent attack strength for 10 seconds, and a second -5% damage-taken line, but the source's prose/table semantics are internally inconsistent; the repository preserves that discrepancy rather than inventing a corrected sign/value.
+- [x] Independent PQ guide evidence confirms Super Soul 143 as a PQ156 reward.
+- [x] Added `docs/data/super-souls-139-143-scope-reconciliation-2026-10-02.json`.
+- [x] No canonical record-layer mutation was required for 139-143.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] Exact next: move to the next unresolved canonical data gap rather than reopening rejected legacy records; prioritize records with a real canonical endpoint and incomplete mechanics/evidence.
