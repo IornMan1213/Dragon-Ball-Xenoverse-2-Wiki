@@ -21,3 +21,14 @@
 - [x] Added `docs/data/super-souls-018-019-020-022-023-verification-audit-2026-10-02.json`.
 - [x] No unsupported mechanics, timing, or acquisition details were introduced.
 - [ ] Continue remaining partially verified canonical Super Soul records.
+
+
+### 2026-10-02 continuation — Super Soul 003 verification + validator reconciliation
+- [x] Reconciled canonical Super Soul 003 (Tien — `Haaaaaaaaaaaah!!`) against the current Super Soul catalogue, current Kamehameha documentation, and independent GameFAQs evidence.
+- [x] Preserved the canonical `-100% Kamehameha damage` magnitude while documenting the independently corroborated functional interpretation: Kamehameha-based damage is nullified while equipped.
+- [x] Promoted `super-soul-003` from `verified_secondary` to `verified`; no speculative frame/tick, drop-rate, or variant-specific implementation details were promoted.
+- [x] Added `docs/data/super-soul-003-verification-audit-2026-10-02.json`.
+- [x] Hardened `scripts/validate_super_soul_record_layer.py` to accept the repository's documented `verified_secondary` status rather than falsely rejecting existing canonical records.
+- [x] Synchronized `docs/Super-Souls-Database.md` with the live 186-record canonical frontier and current verification-status vocabulary.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining canonical Super Soul evidence gaps, prioritizing `partially_verified` records with active canonical endpoints; do not reopen `rejected_legacy` identities without new item-level evidence.
