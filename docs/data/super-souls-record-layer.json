@@ -1363,18 +1363,16 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics restored from explicit Super Soul catalogue/guide evidence after endpoint promotion. Canonical PQ acquisition remains authoritative; no unsupported probabilities inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "PQ42 acquisition is independently corroborated by the Steam PQ guide, GameFAQs walkthrough, and Super Soul catalogue. Independent item-level references also corroborate the two documented mechanics: ally revival time is shortened by 5%, and the KO trigger restores Ki by 100%. The Android 16 character page independently lists the same Super Soul and Limit Burst. The wording differs between references on whether the KO restoration is described as the user's Ki or allies' Ki, so the canonical normalized field remains unchanged and no broader target interpretation is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
-        "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/faqs/74285?page=1",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://dbxv2.fandom.com/wiki/Android_16",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80066147"
       ]
     },
     {
