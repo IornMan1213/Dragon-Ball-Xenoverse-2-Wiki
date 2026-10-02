@@ -1,0 +1,49 @@
+{
+  "audit_date": "2026-10-02",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "records_verified": [
+    "super-soul-080",
+    "super-soul-081",
+    "super-soul-082",
+    "super-soul-083",
+    "super-soul-084"
+  ],
+  "evidence_boundary": "Independent sources corroborate recorded mechanics and/or acquisition routes. No drop probabilities, hidden timing, stacking behavior, or undocumented implementation details were inferred.",
+  "evidence": {
+    "super-soul-080": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    ],
+    "super-soul-081": [
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80461526?page=6",
+      "https://dbxv2.fandom.com/wiki/DLC"
+    ],
+    "super-soul-082": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+    ],
+    "super-soul-083": [
+      "https://videogaming.fandom.com/wiki/The_real_fight_starts_now%21",
+      "https://dbxv2.fandom.com/wiki/Super_Soul"
+    ],
+    "super-soul-084": [
+      "https://videogaming.fandom.com/wiki/Looks_like_you%27re_done%21",
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://dbxv2.fandom.com/wiki/DLC"
+    ]
+  },
+  "changes": [
+    "080: corroborated below-50%-Health once-only full-Ki restoration and PQ112 acquisition.",
+    "081: corroborated 60-second trigger, +20% all attacks, and -40% Ki/Stamina recovery penalties; PQ113 corroborated.",
+    "082: corroborated max-Ki +10% Stamina recovery and max-Stamina temporary +20% Ki Auto-Recovery; PQ113 corroborated.",
+    "083: corroborated Afterimage trigger, +15% Ki Blast Skills for 10 seconds, Limit Burst, and PQ114 acquisition.",
+    "084: corroborated Data Input trigger, +20% normal attacks for 30 seconds, Limit Burst, and PQ115 acquisition."
+  ],
+  "unresolved": [
+    "080 drop probability",
+    "081 hidden implementation/stacking",
+    "082 hidden duration/implementation",
+    "083 drop probability",
+    "084 drop probability"
+  ]
+}
