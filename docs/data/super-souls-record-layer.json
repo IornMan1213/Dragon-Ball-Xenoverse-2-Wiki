@@ -158,9 +158,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": " Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": " Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. 2026-10-02 canonical catalogue reconciliation: current catalogue directly matches the stored identity, acquisition, effect state, trigger/condition fields, and Limit Burst. No unsupported mechanics or timing were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -239,9 +239,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": null,
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "2026-10-02 canonical catalogue reconciliation: current catalogue directly matches the stored identity, acquisition, effect state, trigger/condition fields, and Limit Burst. No unsupported mechanics or timing were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -347,9 +347,9 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Maximum stack behavior recorded from current catalogue; exact practical interaction remains subject to testing.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-16",
+      "version_notes": "Maximum stack behavior recorded from current catalogue; exact practical interaction remains subject to testing. 2026-10-02 canonical catalogue reconciliation: current catalogue directly matches the stored identity, acquisition, effect state, trigger/condition fields, and Limit Burst. No unsupported mechanics or timing were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://github.com/Madreag/xenoverse_2_wiki/blob/main/research/02-gear-qqbangs-souls-stats.md"
@@ -428,9 +428,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Passive-effect details require deeper reconciliation. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. Batch 727 correction: current Super Soul catalogue explicitly identifies the Limit Burst as Auto Health and Stamina Recovery! DEF Down.; the prior Homing/Paralyze value was the Ki Blast type, not the Limit Burst.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-30",
+      "version_notes": "Passive-effect details require deeper reconciliation. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. Batch 727 correction: current Super Soul catalogue explicitly identifies the Limit Burst as Auto Health and Stamina Recovery! DEF Down.; the prior Homing/Paralyze value was the Ki Blast type, not the Limit Burst. 2026-10-02 canonical catalogue reconciliation: current catalogue directly matches the stored identity, acquisition, effect state, trigger/condition fields, and Limit Burst. No unsupported mechanics or timing were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -455,9 +455,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery! DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Passive-effect details require deeper reconciliation. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. Batch 727 correction: current Super Soul catalogue explicitly identifies the Limit Burst as Auto Health and Stamina Recovery! DEF Down.; the prior Homing/Paralyze value was the Ki Blast type, not the Limit Burst.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-30",
+      "version_notes": "Passive-effect details require deeper reconciliation. Catalogue rechecked 2026-09-27; no unsupported passive mechanics promoted where the catalogue explicitly reports no special effect or unresolved data. Current Super Soul catalogue explicitly documents the ordinary effect state; catalogue evidence checked 2026-09-27. No additional mechanics inferred. Batch 727 correction: current Super Soul catalogue explicitly identifies the Limit Burst as Auto Health and Stamina Recovery! DEF Down.; the prior Homing/Paralyze value was the Ki Blast type, not the Limit Burst. 2026-10-02 canonical catalogue reconciliation: current catalogue directly matches the stored identity, acquisition, effect state, trigger/condition fields, and Limit Burst. No unsupported mechanics or timing were added.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
