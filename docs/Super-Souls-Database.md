@@ -213,3 +213,17 @@ Records 127-132 were rechecked against the Super Soul catalogue and independent 
 | 132 | There's no way you can hit me! | Dyspo | PQ146 | Evasive Skill: +25% movement speed and +30% Stamina Auto-Recovery for 15 sec |
 
 Canonical acquisition remains authoritative; no unsupported reward probabilities were added. Documented wording/data nuances are retained rather than silently normalized.
+
+
+### Super Souls 133-136 — 2026-10-02 verification
+
+Records 133-136 were rechecked against current catalogue/character evidence and independent Parallel Quest evidence. The broader DLC/PQ documentation confirms the surrounding Legendary Pack quest sequence and its Super Soul rewards. 
+
+| ID | Super Soul | Character | Acquisition | Verified mechanics |
+|---|---|---|---|---|
+| 133 | It's just me and you now! | Caulifla (Super Saiyan 2) | PQ147 | Once on locking onto an enemy: +15% listed abilities and +20% Ki recovery; lock-on state is temporarily affected |
+| 134 | My back's getting tingly...! | Kale (Super Saiyan 2) | PQ148 | Charge skill: +5% all attacks and +120% Ki Auto-Recovery for 5 sec |
+| 135 | Our two strengths aren't just added together. | Gogeta (DB Super) | PQ149 | Always activates Ki Auto-Recovery and boosts Stamina recovery speed by 5% |
+| 136 | I will prevail, no matter the cost! | Jiren (Full Power) | PQ150 | More Ki than opponent: +15% all attacks; less Ki: +10% Ki Auto-Recovery |
+
+No unsupported drop probabilities were added. Super Soul 137 was deliberately left partially verified because its canonical identity has a documented naming discrepancy against current external catalogue evidence.
