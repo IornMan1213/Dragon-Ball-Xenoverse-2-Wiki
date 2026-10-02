@@ -1,0 +1,28 @@
+{
+  "date": "2026-10-02",
+  "status": "completed",
+  "records": [
+    {
+      "id": "super-soul-002",
+      "name": "Flying Nimbus!!",
+      "basis": "Current catalogue identifies the Power Pole Pro trigger and +20% all-Attack damage; independent player documentation corroborates +20% Power Pole Pro damage."
+    },
+    {
+      "id": "super-soul-021",
+      "name": "Saiyans are a warrior race!!",
+      "basis": "Independent current/player documentation corroborates Item Shop acquisition, KO trigger, +5% Strike Skill damage per KO, and 10-stack cap."
+    },
+    {
+      "id": "super-soul-056",
+      "name": "I...hate you!!!",
+      "basis": "Current character/catalogue evidence corroborates the Pan soul identity and low-health +20% Ki Blast Skill effect; PQ93 independently lists it as a reward."
+    },
+    {
+      "id": "super-soul-057",
+      "name": "Strengthen me, Shadow Dragons!",
+      "basis": "Current catalogue corroborates the Omega Shenron soul and below-25%-HP +15% normal-attack effect; PQ94 independently lists it as a reward."
+    }
+  ],
+  "changes": "Promoted 002, 021, 056, and 057 from partially_verified to verified without changing canonical effect magnitudes or acquisition endpoints.",
+  "boundary": "No unsupported drop probabilities, timing, or hidden implementation behavior were added. Super Souls 053, 101, 143, 153, and 177 remain partial because documented discrepancies or unresolved item-level evidence remain."
+}
