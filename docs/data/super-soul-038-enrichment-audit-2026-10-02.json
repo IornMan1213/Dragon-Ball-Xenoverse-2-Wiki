@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "batch": "Super Soul 038 enrichment",
+  "records": [
+    {
+      "id": "super-soul-038",
+      "name": "My Ki is building... Overflowing...",
+      "canonical_changes": [
+        "Preserved Broly/Broly Lite Raid acquisition provenance and added Mixing Shop as an independently documented acquisition route.",
+        "Promoted the already-evidenced Limit Burst field from null to the explicit DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down. value.",
+        "Updated last_verified to 2026-10-02."
+      ],
+      "evidence": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/Broly",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134"
+      ],
+      "unresolved_preserved": [
+        "stacking_behavior",
+        "drop probability",
+        "Mixing Shop recipe details",
+        "hidden activation timing"
+      ],
+      "inference_policy": "No undocumented numerical mechanics, drop rates, recipe, stacking behavior, or hidden timing were inferred."
+    }
+  ],
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json"
+}
