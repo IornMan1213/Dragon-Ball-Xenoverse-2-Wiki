@@ -8775,3 +8775,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Validated equipment record layer: **116 records, 116 unique IDs, no duplicate names**, and Videl T-Shirt resolves to `equip-116` with a PQ56 bidirectional research link.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next frontier:** stale-manifest reconciliation across dependent PQ/reward reports, followed by substantive sparse PQ/Super Soul/mechanics enrichment. Preserve canonical-forward-first rules and never reconstruct canonical data from reverse projections.
+
+
+### 2026-10-02 continuation — stale-manifest reconciliation checkpoint
+- [x] Audited dependent PQ/reward manifests against the current canonical forward relationship store.
+- [x] Confirmed current canonical metadata baseline: **901 total relationships** with counts skill 249, Super Soul 143, equipment 149, character 247, DLC 106, farming 7; canonical source SHA `782920ad4514b0d73fc594320cc4eece2575a06f`.
+- [x] Confirmed current reverse/status/audit/crosslink projections are synchronized to the 901-edge canonical baseline, including 149 equipment edges and 249 skill edges.
+- [x] Preserved `docs/data/live-canonical-recovery-reconciliation-2026-09-30.json` and `docs/data/pq-unified-reverse-index-reconciliation-2026-09-30.json` as historical artifacts rather than rewriting their older 899/148 snapshots.
+- [x] Added `docs/data/live-canonical-recovery-reconciliation-2026-10-02.json` as the current reconciliation checkpoint and explicitly recorded the historical-vs-current boundary.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next frontier:** audit broader stale research manifests beyond the already-synchronized PQ cross-domain reports, prioritizing artifacts that still advertise pre-recovery counts; then perform substantive sparse PQ/Super Soul/mechanics enrichment.
