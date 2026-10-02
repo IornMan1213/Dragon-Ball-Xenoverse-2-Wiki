@@ -150,3 +150,18 @@ Records 044–047 have now undergone item-level reconciliation. Three have verif
 | 048 | Set your rage free... | Parallel Quest 42 — Artificial Warriors | -5% ally revival time; +100% Ki on KO; Limit Burst: Auto Health and Stamina Recovery!; DEF Down. | Verified |
 
 Exact raid recurrence schedules and drop probabilities are not inferred from these records.
+
+
+### Super Souls 110–114 — 2026-10-02 verification
+
+The canonical records for Super Souls 110–114 were rechecked against the current Super Soul catalogue plus independent guide/DLC evidence. The canonical acquisition routes remain PQ132 for 110–112 and PQ133 for 113–114.
+
+| ID | Super Soul | Character | Acquisition | Core verified mechanics | Status |
+|---|---|---|---|---|---|
+| 110 | Whoa, it's freezing here! | Goku | PQ132 | Battle start: self-inflicted freeze/ice status; +15% all attacks for 30 seconds | Verified |
+| 111 | This is no time to mess around... | Vegeta | PQ132 | 30 seconds after battle start: prevents Ki depletion for 15 seconds and cures status ailments | Verified |
+| 112 | I can't have you dying on me! | Chirai | PQ132 | Ally KO: +15% movement speed and -50% revive time for 10 seconds | Verified |
+| 113 | Here it comes! | Rozie | PQ133 | Charged Ki Blast hit: +10% normal attacks and +10% normal Ki Blasts; both stack up to 3 times | Verified |
+| 114 | I got my claws in you, and fangs too! | Kakunsa | PQ133 | Charged attack hit: +15% Strike Skills and +10% movement speed; both stack up to 2 times | Verified |
+
+The pass does not infer exact reward probabilities, hidden frame/tick behavior, or undocumented stacking interactions beyond the documented stack limits.
