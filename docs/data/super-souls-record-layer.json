@@ -3221,8 +3221,8 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide/stat-sheet evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3255,8 +3255,8 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide/stat-sheet evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
@@ -3289,15 +3289,16 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -3320,15 +3321,16 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -3351,15 +3353,16 @@
       "usable_by_cac": true,
       "race_restriction": null,
       "version_notes": "Mechanics promoted from explicit Super Soul catalogue and independent guide evidence. Canonical PQ acquisition remains authoritative; unsupported probabilities are not inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
