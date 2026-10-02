@@ -8489,3 +8489,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-005-008-012-015-016-verification-audit-2026-10-02.json`.
 - [x] Preserved the distinction between Ki Blast type and Limit Burst for 015/016.
 - [ ] Super Soul 003 remains partially verified because its -100% Kamehameha interpretation still warrants deeper mechanic testing/reconciliation.
+
+
+### 2026-10-02 continuation — Super Soul 003 reconciliation
+- [x] Reconciled Tien's `Haaaaaaaaaaaah!!` against current catalogue and independent documentation.
+- [x] Preserved canonical catalogue magnitude `-100%` while documenting the functional interpretation as Kamehameha damage nullification.
+- [x] Historical variant-specific exceptions remain secondary evidence and were not promoted to unsupported canonical rules.
+- [ ] Continue remaining canonical data gaps after this reconciliation.
