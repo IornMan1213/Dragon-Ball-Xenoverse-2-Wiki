@@ -104,8 +104,8 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "2026-10-02 targeted reconciliation: current catalogue describes the always-active effect as altering Kamehameha damage by -100%. Independent GameFAQs documentation describes the effect as nullifying Kamehameha damage, while current Kamehameha documentation states the soul nullifies Kamehameha-based damage. Historical community reports also document variant-specific exceptions; these remain secondary compatibility evidence rather than canonical rules. The canonical record retains the -100% catalogue magnitude while documenting the functional nullification interpretation.",
-      "verification_status": "verified_secondary",
+      "version_notes": "2026-10-02 targeted reconciliation: current catalogue describes the always-active effect as altering Kamehameha damage by -100%. Independent GameFAQs documentation describes the effect as nullifying Kamehameha damage, while current Kamehameha documentation states the soul nullifies Kamehameha-based damage. Historical community reports also document variant-specific exceptions; these remain secondary compatibility evidence rather than canonical rules. The canonical record retains the -100% catalogue magnitude while documenting the functional nullification interpretation. Current 2026-10-02 reconciliation: independent documentation explicitly describes the effect as nullifying Kamehameha damage, and the current Kamehameha reference independently states the soul nullifies Kamehameha-based damage. The canonical -100% magnitude is retained as the source-of-truth representation; the functional interpretation is now sufficiently corroborated for verified status.",
+      "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
