@@ -8202,3 +8202,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected the Ki-vs-Stamina Auto-Recovery description error using independent item-level evidence.
 - [x] Added dated audit evidence and preserved unresolved stamina magnitude/stacking/reward fields.
 - [ ] Continue to the next partially verified Super Soul endpoint.
+
+
+## 2026-10-02 recovery-forward checkpoint — Super Soul 045
+- [x] Added independent Saibaman and later Great Ape Baby Lite reward provenance.
+- [x] Reconciled the +100 Ki catalogue value with player-tested one-bar/two-bar behavior without promoting the latter to an unconditional rule.
+- [x] Added dated audit evidence and preserved unresolved close-range conditions/stacking/reward fields.
+- [ ] Continue to the next partially verified Super Soul endpoint.
