@@ -1,0 +1,27 @@
+{
+  "audit_id": "super-souls-004-006-007-009-010-011-013-014-017-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "verified_records": [
+    "super-soul-004",
+    "super-soul-006",
+    "super-soul-007",
+    "super-soul-009",
+    "super-soul-010",
+    "super-soul-011",
+    "super-soul-013",
+    "super-soul-014",
+    "super-soul-017"
+  ],
+  "findings": [
+    "Current Super Soul catalogue directly matches the canonical record values for the selected records.",
+    "PQ acquisition endpoints are retained exactly as represented by the canonical repository data; no old indexed-only endpoint was restored.",
+    "Records with no special effects remain explicitly no-effect records rather than receiving inferred mechanics.",
+    "No unsupported stacking, hidden timing, or drop-rate behavior was promoted."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
