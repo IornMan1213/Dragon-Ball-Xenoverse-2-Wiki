@@ -8934,3 +8934,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved drop probability/Ultimate-Finish condition and stacking behavior.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified/unresolved endpoint after 048, prioritizing independent item-level mechanics/acquisition evidence.
+
+
+### 2026-10-02 continuation — Super Soul 049 mechanics verification
+- [x] Promoted canonical `super-soul-049` ("Getting beat up makes me cranky...") from `partially_verified` to `verified` after rechecking independent Xenoverse 2-specific catalogue/guide evidence.
+- [x] Corroborated **+5% Ki auto-recovery** while always active and **+15% Ki Blast-based attack power when Stamina is maxed**.
+- [x] Reconfirmed Parallel Quest 44 acquisition and the documented Rush Limit Burst: **DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.**
+- [x] Added `docs/data/super-soul-049-enrichment-audit-2026-10-02.json` and updated the human-readable database.
+- [x] Preserved community timing observations only as secondary evidence; no inferred frame/tick implementation or stacking rule was promoted to canonical data.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified/unresolved endpoint after 049.
