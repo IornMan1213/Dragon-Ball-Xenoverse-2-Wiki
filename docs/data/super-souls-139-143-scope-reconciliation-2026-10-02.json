@@ -1,0 +1,51 @@
+{
+  "audit_id": "super-souls-139-143-scope-reconciliation-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "scope": [
+    "super-soul-139",
+    "super-soul-140",
+    "super-soul-141",
+    "super-soul-142",
+    "super-soul-143"
+  ],
+  "findings": [
+    "Records 139-142 remain rejected_legacy and must not be repopulated from historical PQ maps. The canonical record layer explicitly documents their removal after direct PQ evidence failed to corroborate the old attribution.",
+    "Record 143 is a real catalogue identity: \"This is your true power?\" by Gamma 1, acquired from PQ156.",
+    "Current catalogue evidence confirms the Just Guard trigger, -5% opponent-attack-strength effect for 10 seconds, and a second -5% damage-taken line for 10 seconds; the source's table/prose semantics are internally inconsistent, so the repository correctly preserves the discrepancy instead of inventing a normalized interpretation.",
+    "The Steam PQ guide independently lists Super Soul 143 as a basic reward of PQ156.",
+    "No changes to records 139-143 were necessary: 139-142 are intentionally rejected legacy records, while 143 is already partially verified and needs no unsupported normalization."
+  ],
+  "decisions": [
+    {
+      "id": "super-soul-139",
+      "status": "rejected_legacy",
+      "action": "retain unchanged"
+    },
+    {
+      "id": "super-soul-140",
+      "status": "rejected_legacy",
+      "action": "retain unchanged"
+    },
+    {
+      "id": "super-soul-141",
+      "status": "rejected_legacy",
+      "action": "retain unchanged"
+    },
+    {
+      "id": "super-soul-142",
+      "status": "rejected_legacy",
+      "action": "retain unchanged"
+    },
+    {
+      "id": "super-soul-143",
+      "status": "partially_verified",
+      "action": "retain discrepancy; no unsupported correction"
+    }
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ]
+}
