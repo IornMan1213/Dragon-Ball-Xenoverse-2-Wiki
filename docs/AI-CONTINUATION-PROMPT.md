@@ -8965,3 +8965,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved exact timing/stacking details rather than inventing them.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue with the next partially verified/unresolved Super Soul after 051.
+
+
+### 2026-10-02 continuation — Super Soul 052 verification
+- [x] Promoted canonical `super-soul-052` ("Janemba! Janemba!") from `partially_verified` to `verified`.
+- [x] Corroborated Janemba identity and **Parallel Quest 64 — Beerus the Impulsive** acquisition.
+- [x] Corroborated successful Just Guard trigger, **+60 Ki**, **+10% Ki Blast Skills for 10 seconds**, and **Auto Just Guard** Limit Burst.
+- [x] Added `docs/data/super-soul-052-enrichment-audit-2026-10-02.json` and updated the human-readable database.
+- [x] Kept internal timing/stacking behavior unresolved rather than inventing mechanics.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with the next partially verified/unresolved Super Soul after 052.
