@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-10-02",
+  "domain": "super_souls",
+  "record_id": "super-soul-048",
+  "name": "Set your rage free...",
+  "scope": "Parallel Quest acquisition, mechanics, Limit Burst",
+  "canonical_policy": "Canonical forward data remains authoritative. Independent sources are used to corroborate identity, acquisition, mechanics, and evidence boundaries; unresolved wording conflicts are not silently normalized.",
+  "evidence": [
+    {
+      "source": "Steam Community — Dragon Ball Xenoverse 2 All 186 Parallel Quests",
+      "url": "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+      "supports": ["PQ42 identity", "Set your rage free... as a PQ42 reward"]
+    },
+    {
+      "source": "GameFAQs — Dragon Ball Xenoverse 2 Guide and Walkthrough",
+      "url": "https://gamefaqs.gamespot.com/xboxone/190458-dragon-ball-xenoverse-2/faqs/74285?page=1",
+      "supports": ["PQ42 identity", "Set your rage free... as the Super Soul reward"]
+    },
+    {
+      "source": "Dragon Ball Xenoverse 2 Wiki — Super Soul",
+      "url": "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "supports": ["Android 16 source", "5% ally revival-time reduction", "100% Ki restoration on KO", "Bomb Limit Burst"]
+    },
+    {
+      "source": "Dragon Ball Xenoverse 2 Wiki — Android 16",
+      "url": "https://dbxv2.fandom.com/wiki/Android_16",
+      "supports": ["Super Soul identity", "5% ally revival-time reduction", "100% Ki restoration", "Auto Health and Stamina Recovery! DEF Down. Limit Burst"]
+    },
+    {
+      "source": "GameFAQs — Super Soul team-effects discussion",
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80066147",
+      "supports": ["independent description of the KO-triggered Ki restoration"]
+    }
+  ],
+  "resolved": {
+    "acquisition_source": "Parallel Quest 42 — Artificial Warriors",
+    "character_source": "Android 16",
+    "revival_effect": "-5% ally revival time",
+    "ko_effect": "+100% Ki restoration",
+    "limit_burst": "Auto Health and Stamina Recovery!; DEF Down."
+  },
+  "unresolved": [
+    "Some secondary references phrase the KO restoration as restoring the user's Ki, while others describe all allies' Ki. The canonical normalized record is deliberately not rewritten from that wording conflict without stronger item-level evidence.",
+    "Exact drop probability/Ultimate-Finish condition is not established by the cited sources.",
+    "No stacking behavior beyond the documented once-only KO trigger is inferred."
+  ],
+  "result": "Evidence threshold upgraded from partially_verified to verified without changing canonical mechanics or inventing acquisition probabilities."
+}
