@@ -5628,13 +5628,14 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Identity, PQ47 acquisition, and core effects reconciled against current XV2 Super Soul catalogue and independent historical player documentation. Exact drop condition/rate remains unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-29",
+      "version_notes": "Identity, PQ47 acquisition, and core effects reconciled against current XV2 Super Soul catalogue and independent historical player documentation. Exact drop condition/rate remains unresolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent/player-facing evidence; canonical acquisition endpoint remains authoritative and no drop probability is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Broly",
-        "https://steamcommunity.com/app/454650/discussions/0/152393186491760646/"
+        "https://steamcommunity.com/app/454650/discussions/0/152393186491760646/",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
       ]
     },
     {
@@ -5656,9 +5657,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Identity and PQ53 acquisition reconciled against the current XV2 Super Soul catalogue and independent effect reference. Exact drop condition/rate remains unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-29",
+      "version_notes": "Identity and PQ53 acquisition reconciled against the current XV2 Super Soul catalogue and independent effect reference. Exact drop condition/rate remains unresolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent/player-facing evidence; canonical acquisition endpoint remains authoritative and no drop probability is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Videl",
@@ -5684,13 +5685,14 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Identity and PQ54 acquisition reconciled against the current XV2 Super Soul catalogue, Prince of Destruction Vegeta character data, and an independent GameFAQs acquisition report. Exact drop condition/rate remains unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-29",
+      "version_notes": "Identity and PQ54 acquisition reconciled against the current XV2 Super Soul catalogue, Prince of Destruction Vegeta character data, and an independent GameFAQs acquisition report. Exact drop condition/rate remains unresolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent/player-facing evidence; canonical acquisition endpoint remains authoritative and no drop probability is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Prince_of_Destruction_Vegeta",
-        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/444297-take-care-of-your-mother-super-soul"
+        "https://gamefaqs.gamespot.com/ps4/190457-dragon-ball-xenoverse-2/answers/444297-take-care-of-your-mother-super-soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
       ]
     },
     {
@@ -5712,12 +5714,13 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Identity and PQ58 acquisition reconciled against the current XV2 Super Soul catalogue and Super Buu character data. Exact drop condition/rate remains unresolved.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-29",
+      "version_notes": "Identity and PQ58 acquisition reconciled against the current XV2 Super Soul catalogue and Super Buu character data. Exact drop condition/rate remains unresolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent/player-facing evidence; canonical acquisition endpoint remains authoritative and no drop probability is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://dbxv2.fandom.com/wiki/Super_Buu"
+        "https://dbxv2.fandom.com/wiki/Super_Buu",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
       ]
     },
     {
@@ -5739,14 +5742,15 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Historical XV2 reward identity and effect are independently documented. Current catalogue evidence identifies Golden Frieza as the source and PQ74 as acquisition. Later-version rename evidence is preserved rather than silently collapsing versioned provenance.",
-      "verification_status": "verified_secondary",
-      "last_verified": "2026-09-30",
+      "version_notes": "Historical XV2 reward identity and effect are independently documented. Current catalogue evidence identifies Golden Frieza as the source and PQ74 as acquisition. Later-version rename evidence is preserved rather than silently collapsing versioned provenance. Rechecked 2026-10-02 against current Super Soul catalogue and independent/player-facing evidence; canonical acquisition endpoint remains authoritative and no drop probability is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Golden_Frieza",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74527603"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74527603",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
       ]
     },
     {
@@ -5768,8 +5772,8 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Identity and PQ57 acquisition are reconciled against the current XV2 Super Soul catalogue and independent PQ documentation. A 2026 GameFAQs report also identifies the item as a PQ57 reward, while noting player-reported uncertainty around Z-rank/drop behavior; this does not establish a drop-rate rule, so no drop probability is promoted. Core effect fields remain preserved as catalogue/research values and exact drop condition/rate remains unresolved.",
-      "verification_status": "verified_secondary",
+      "version_notes": "Identity and PQ57 acquisition are reconciled against the current XV2 Super Soul catalogue and independent PQ documentation. A 2026 GameFAQs report also identifies the item as a PQ57 reward, while noting player-reported uncertainty around Z-rank/drop behavior; this does not establish a drop-rate rule, so no drop probability is promoted. Core effect fields remain preserved as catalogue/research values and exact drop condition/rate remains unresolved. Rechecked 2026-10-02 against current Super Soul catalogue and independent/player-facing evidence; canonical acquisition endpoint remains authoritative and no drop probability is inferred.",
+      "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
