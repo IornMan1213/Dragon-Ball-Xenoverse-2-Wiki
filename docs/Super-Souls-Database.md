@@ -232,3 +232,15 @@ No unsupported drop probabilities were added. Super Soul 137 was deliberately le
 ### Super Soul 137 — 2026-10-02 identity resolution
 
 Super Soul 137 is now verified. The canonical repository label is **"I'll never forgive you!"**; current external item-level catalogue evidence identifies the same Frieza (1st Form) Soul as **"I'll never forgive you, scum!"**. The identity, Item Shop acquisition, guard-break trigger, and Limit Burst align. The external naming suffix is retained as a documented variant rather than replacing the canonical label. Current catalogue evidence gives **-20% damage received from all attacks for 4 seconds** after guard break. 
+
+
+### Super Souls 185–186 — 2026-10-02 verification
+
+Records 185–186 were promoted into the canonical record layer after direct reconciliation against current Super Soul catalogue evidence and independent player-facing references. Both are TP Medal Shop/STP Medal Shop endpoints rather than Parallel Quest rewards.
+
+| ID | Super Soul | Character | Acquisition | Verified mechanics |
+|---|---|---|---|---|
+| 185 | I said don't go easy on me! | Super Saiyan 2 Gohan (Teen) | TP Medal Shop / STP Medal Shop | Ultimate Attack: +25% Ultimate Attack damage; -40% Ki recovery penalty; Power Limit Burst |
+| 186 | You irritating little pests! | Frieza (1st Form) | TP Medal Shop / STP Medal Shop | Super Attack: +20% Super Attack damage; Race Default Ki Blast type; standard ATK Up/Ki Auto-Recovery/Stamina Recovery Speed Down Limit Burst |
+
+No shop rotation schedule, hidden frame/tick behavior, or undocumented probability was inferred.
