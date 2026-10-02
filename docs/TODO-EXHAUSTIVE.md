@@ -8389,3 +8389,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-127-132-verification-audit-2026-10-02.json` and updated canonical/human-readable layers.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue with Super Soul 133 onward.
+
+
+### 2026-10-02 recovery-forward checkpoint — Super Souls 133-136
+- [x] Verified Super Souls 133-136 and preserved canonical PQ acquisition.
+- [x] Recorded documented triggers, magnitudes, durations and recovery/attack effects without inventing unsupported probabilities.
+- [x] Added `docs/data/super-souls-133-136-verification-audit-2026-10-02.json` and updated canonical/human-readable layers.
+- [x] Preserved Super Soul 137 as partially verified due to its canonical/external naming discrepancy; preserved 138 as rejected legacy.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** resolve 137 with stronger item-level evidence or continue with 139 onward.
