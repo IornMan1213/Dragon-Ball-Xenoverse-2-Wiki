@@ -5782,6 +5782,62 @@
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81166913?page=12"
       ]
+    },
+    {
+      "id": "super-soul-185",
+      "name": "I said don't go easy on me!",
+      "character_source": "Super Saiyan 2 Gohan (Teen)",
+      "dlc_requirement": null,
+      "acquisition_type": "TP Medal Shop / STP Medal Shop",
+      "acquisition_source": "TP Medal Shop / STP Medal Shop",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "When using an Ultimate Attack",
+      "effect_text": "Boosts Ultimate Attacks; gradually drains Ki.",
+      "effect_magnitude": "+25% Ultimate Attack damage; -40% Ki recovery",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": "Power",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Identity, character source, TP/STP Medal Shop acquisition, Ultimate Attack trigger, +25% Ultimate Attack boost, and -40% Ki-recovery penalty are corroborated by the current Super Soul catalogue and independent player-facing references. No shop rotation timing or hidden implementation details are inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=2865944444",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79144548"
+      ]
+    },
+    {
+      "id": "super-soul-186",
+      "name": "You irritating little pests!",
+      "character_source": "Frieza (1st Form)",
+      "dlc_requirement": null,
+      "acquisition_type": "TP Medal Shop / STP Medal Shop",
+      "acquisition_source": "TP Medal Shop / STP Medal Shop",
+      "first_clear_or_repeat": null,
+      "shop_rotation": null,
+      "trigger_condition": "When using a Super Attack",
+      "effect_text": "Boosts Super Attacks.",
+      "effect_magnitude": "+20%",
+      "duration": null,
+      "stacking_behavior": null,
+      "limit_burst": "Race Default",
+      "limit_burst_trigger": null,
+      "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
+      "usable_by_cac": true,
+      "race_restriction": null,
+      "version_notes": "Identity, character source, TP/STP Medal Shop acquisition, Super Attack trigger, +20% Super Attack boost, and Limit Burst are corroborated by the current Super Soul catalogue and independent player-facing references. No shop rotation timing or hidden implementation details are inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://videogaming.fandom.com/wiki/You_irritating_little_pests%21",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79144548"
+      ]
     }
   ],
   "research_notes": [
