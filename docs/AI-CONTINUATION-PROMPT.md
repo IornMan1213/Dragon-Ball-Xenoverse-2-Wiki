@@ -9018,3 +9018,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-065-069-enrichment-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 070 onward; preserve canonical source-of-truth rules and historical discrepancies.
+
+
+### 2026-10-02 continuation — Super Souls 070-074 verification
+- [x] Verified Super Souls 070-074 against current catalogue evidence and independent DLC/PQ/stat-sheet evidence.
+- [x] Updated canonical records 070-074 and set last_verified to 2026-10-02.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 075 onward; preserve canonical source-of-truth rules and historical discrepancies.
