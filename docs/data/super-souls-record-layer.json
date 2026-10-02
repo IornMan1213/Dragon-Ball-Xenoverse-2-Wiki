@@ -1429,9 +1429,9 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery! Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Restored after canonical ID-gap audit. Current Super Soul catalogue establishes both mechanics and Limit Burst; the historical guide explicitly notes stacking with Human Ki Regeneration. No unsupported duration inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-30",
+      "version_notes": "Independent Xenoverse 2 catalogue and PQ29 guide evidence corroborate Android 18 identity, Parallel Quest 29 acquisition, +5% Ki auto-recovery, +10% normal-attack power at max Ki, and the documented Power Limit Burst. Historical guide evidence also documents stacking with Human Ki Regeneration; independent community testing reports the same approximate +5% recovery level. No unsupported duration or internal tick/frame behavior is inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
