@@ -1,16 +1,11 @@
 {
   "schema_version": "1.2.0",
-  "audit_date": "2026-10-01",
+  "audit_date": "2026-10-02",
   "category": "pq_rewards_equipment_endpoint_integrity",
   "forward_edges": 149,
   "direct_equipment_endpoints": 115,
   "canonical_accessory_endpoints": 88,
-  "unresolved_endpoint_names": [
-    [
-      "pq-056",
-      "Videl T-Shirt"
-    ]
-  ],
+  "unresolved_endpoint_names": [],
   "accessory_bridge_endpoints": [
     [
       "pq-003",
@@ -174,12 +169,12 @@
     "Videl's Clothes",
     "Gogeta's Clothes"
   ],
-  "evidence_boundary": "Forward PQ equipment relationship identities are canonical and source-backed. Endpoint identities may resolve through either direct equipment records or the explicit canonical accessory bridge. No endpoint ID is fabricated from a reverse-only projection.",
-  "status": "single_remaining_identity_gap",
-  "unresolved_count": 1,
+  "evidence_boundary": "Forward PQ equipment relationship identities are canonical and source-backed. Endpoint identities resolve through direct equipment records or explicit canonical accessory identities; no endpoint ID is fabricated from reverse-only projections.",
+  "status": "resolved",
+  "unresolved_count": 0,
   "accessory_bridge_count": 42,
-  "restored_direct_equipment_count": 3,
-  "follow_up": "Videl T-Shirt remains without an existing canonical inventory endpoint; preserve the canonical PQ→equipment relationship while continuing clothing endpoint research. Android 13's Hat, Android 17 (DB Super) Wig, and Yamcha Baseball Hat now resolve through explicit canonical accessory bridge identities.",
+  "restored_direct_equipment_count": 4,
+  "follow_up": "No remaining PQ equipment endpoint identity gaps. Continue stale-manifest reconciliation and substantive sparse PQ/Super Soul/mechanics enrichment.",
   "resolved_via_canonical_accessory_bridge": [
     [
       "pq-105",
