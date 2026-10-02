@@ -43,3 +43,12 @@
 - [x] Synchronized `docs/Super-Souls-Database.md` with the live 186-record canonical frontier and current verification-status vocabulary.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the remaining canonical Super Soul evidence gaps, prioritizing `partially_verified` records with active canonical endpoints; do not reopen `rejected_legacy` identities without new item-level evidence.
+
+
+### 2026-10-02 continuation — Super Souls 174-176 and 178 verification-status reconciliation
+- [x] Reconciled canonical records 174, 175, 176, and 178 against the current Super Soul catalogue and their already-recorded independent/player-facing evidence.
+- [x] Promoted 174, 175, 176, and 178 from `partially_verified` to `verified`; no canonical acquisition or mechanic values were silently rewritten.
+- [x] Added `docs/data/super-souls-174-176-178-verification-audit-2026-10-02.json`.
+- [x] Preserved Super Soul 177 as `partially_verified` because its canonical 20% proc probability remains insufficiently reconciled at item level.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the remaining `partially_verified` Super Soul records, prioritizing 143/153/177 and then the remaining early partial records, with canonical values preserved across source conflicts.
