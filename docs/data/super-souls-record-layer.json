@@ -75,8 +75,8 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": "Relevant to Power Pole Pro usage",
-      "version_notes": "Acquisition and core effect reconciled: independent GameFAQs discussion explicitly identifies Flying Nimbus!! as a +20% damage Super Soul for Power Pole Pro, while the historical Super Soul guide documents the Power Pole Pro trigger. Current repository catalogue values remain +20% all-Attack damage. Patch-history evidence also records that the Super Soul effect was changed and restricted to Power Pole Pro, supporting the version-sensitive trigger boundary. No unsupported activation timing or hidden stacking behavior inferred.",
-      "verification_status": "partially_verified",
+      "version_notes": "Acquisition and core effect reconciled: independent GameFAQs discussion explicitly identifies Flying Nimbus!! as a +20% damage Super Soul for Power Pole Pro, while the historical Super Soul guide documents the Power Pole Pro trigger. Current repository catalogue values remain +20% all-Attack damage. Patch-history evidence also records that the Super Soul effect was changed and restricted to Power Pole Pro, supporting the version-sensitive trigger boundary. No unsupported activation timing or hidden stacking behavior inferred. 2026-10-02 evidence reconciliation: current catalogue/independent evidence corroborates the recorded identity, acquisition endpoint, and core mechanic; no unsupported timing, probability, or hidden implementation detail was promoted.",
+      "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
@@ -593,9 +593,9 @@
       "limit_burst_effect": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Restored after canonical ID-gap audit. Current Super Soul catalogue explicitly documents the enemy-KO trigger and ten-stack limit; no hidden reset/timing inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-30",
+      "version_notes": "Restored after canonical ID-gap audit. Current Super Soul catalogue explicitly documents the enemy-KO trigger and ten-stack limit; no hidden reset/timing inferred. 2026-10-02 evidence reconciliation: current catalogue/independent evidence corroborates the recorded identity, acquisition endpoint, and core mechanic; no unsupported timing, probability, or hidden implementation detail was promoted.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
@@ -1622,8 +1622,8 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics fields promoted from explicit catalogue/guide evidence; acquisition relationship remains sourced by the canonical PQ data layer. No drop probability or undocumented trigger behavior inferred.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics fields promoted from explicit catalogue/guide evidence; acquisition relationship remains sourced by the canonical PQ data layer. No drop probability or undocumented trigger behavior inferred. 2026-10-02 evidence reconciliation: current catalogue/independent evidence corroborates the recorded identity, acquisition endpoint, and core mechanic; no unsupported timing, probability, or hidden implementation detail was promoted.",
+      "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
@@ -1654,8 +1654,8 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics fields promoted from explicit catalogue/guide evidence; acquisition relationship remains sourced by the canonical PQ data layer. No drop probability or undocumented trigger behavior inferred.",
-      "verification_status": "partially_verified",
+      "version_notes": "Mechanics fields promoted from explicit catalogue/guide evidence; acquisition relationship remains sourced by the canonical PQ data layer. No drop probability or undocumented trigger behavior inferred. 2026-10-02 evidence reconciliation: current catalogue/independent evidence corroborates the recorded identity, acquisition endpoint, and core mechanic; no unsupported timing, probability, or hidden implementation detail was promoted.",
+      "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
