@@ -8858,3 +8858,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved acquisition-history distinction: current raid documentation records the soul as a raid reward, while wiki documentation identifies NPC Gogoh as the normal acquisition route; these are retained as separate provenance facts rather than conflated.
 - [ ] Runtime/CI remains intentionally non-blocking.
 - [ ] **Exact next:** continue evidence-backed enrichment of the next partially verified Super Soul record.
+
+
+### 2026-10-02 continuation — Super Soul 038 acquisition and Limit Burst enrichment
+- [x] Enriched canonical `super-soul-038` ("My Ki is building... Overflowing...") using independent current catalogue and Broly Lite Raid evidence.
+- [x] Preserved the existing Broly/Broly Lite Raid provenance and added **Mixing Shop** as an independently documented acquisition route rather than replacing the raid route.
+- [x] Promoted the already-supported Limit Burst to the explicit canonical value: **DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.**
+- [x] Added `docs/data/super-soul-038-enrichment-audit-2026-10-02.json` with evidence and unresolved-field boundaries.
+- [x] Preserved unresolved stacking behavior, drop probability, Mixing Shop recipe details, and hidden activation timing; no speculative mechanics were inserted.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record, prioritizing independent item-level mechanics/acquisition evidence and preserving unresolved fields rather than guessing.
