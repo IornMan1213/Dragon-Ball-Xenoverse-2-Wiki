@@ -1179,13 +1179,16 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "version_notes": "Official 4th Anniversary documentation identifies the Masked Saiyan (Lite) raid and its reward window, while repeated 2022/2026 raid documentation places this Super Soul among the individual-performance rewards. Current catalogue evidence confirms +20% stamina recovery and +25% all attacks for 10 seconds; older community transcriptions disagree on the categorical label for the attack boost, so the exact numeric value is retained with its secondary provenance rather than replaced by XXL/M labels. No stacking or drop-probability rule is inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
         "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81135384"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/81135384",
+        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event",
+        "https://www.reddit.com/r/DragonBallXenoverse2/comments/x6v193/raid_quest_the_power_of_the_mask_vs_masked_saiyan/",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81123798"
       ]
     },
     {
@@ -1207,13 +1210,15 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Raid acquisition and mechanics reconciled from secondary/official event evidence; unresolved numerical or recurrence details are not inferred.",
+      "version_notes": "Official 4th Anniversary documentation confirms the Fused Zamasu raid and lists Super Soul “Bye-bye, universe!” among the 50,000-damage individual-performance rewards. Current catalogue evidence corroborates the below-25%-Health auto-reduction at approximately 0.5% HP/sec and the KO deactivation behavior. No stacking or drop-probability rule is inferred.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
         "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79100038",
-        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event"
+        "https://en.bandainamcoent.eu/dragon-ball/news/dragon-ball-xenoverse-2-contents-of-the-4th-year-anniversary-event",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79523787"
       ]
     },
     {
