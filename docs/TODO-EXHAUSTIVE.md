@@ -8181,3 +8181,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved XXL wording and provenance as a secondary categorical description rather than silently replacing it.
 - [x] Recorded explicit Limit Burst effects and created a dated audit artifact.
 - [ ] Continue to the next partially verified Super Soul record with direct evidence; preserve unresolved acquisition/mechanics fields.
+
+
+## 2026-10-02 recovery-forward checkpoint — Super Souls 040-041
+- [x] Reconciled Perfect Cell Full Power raid provenance for Super Soul 040 and preserved exact secondary mechanics.
+- [x] Reconciled official Hercule raid provenance for Super Soul 041 and preserved exact secondary mechanics.
+- [x] Added dated audit evidence without manufacturing drop probabilities or stacking behavior.
+- [ ] Continue to the next partially verified Super Soul endpoint.
