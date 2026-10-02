@@ -8081,3 +8081,13 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Refreshed `docs/data/pq-equipment-reverse-subtype-audit-2026-09-30.json` to the current 149-edge canonical baseline with complete subtype projection.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** research/resolve the remaining **Videl T-Shirt** canonical clothing endpoint, then continue stale-manifest reconciliation and substantive sparse PQ/Super Soul/mechanics enrichment. Keep the canonical PQ relationship even if the endpoint remains unresolved.
+
+
+### 2026-10-02 continuation — Videl T-Shirt endpoint resolution
+- [x] Resolved the final PQ equipment endpoint identity gap by adding canonical equipment record **`equip-116` — Videl T-Shirt** to `docs/data/equipment-record-layer.json`.
+- [x] Evidence boundary preserved: PQ56 explicitly lists Videl T-Shirt as a Basic Reward; independent community evidence identifies it as Videl's Fight T-shirt. No unsupported external inventory ID, stats, drop probability, or component restrictions were invented. citeturn0search0turn0search2
+- [x] Updated `docs/data/pq-equipment-crosslink-report.json`: **149 canonical equipment edges / 144 unique targets / 144 endpoint identity matches / 0 gaps**.
+- [x] Updated `docs/data/pq-equipment-endpoint-integrity-audit-2026-09-30.json`: unresolved endpoint count is now **0**.
+- [x] Validated equipment record layer: **116 records, 116 unique IDs, no duplicate names**, and Videl T-Shirt resolves to `equip-116` with a PQ56 bidirectional research link.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next frontier:** stale-manifest reconciliation across dependent PQ/reward reports, followed by substantive sparse PQ/Super Soul/mechanics enrichment. Preserve canonical-forward-first rules and never reconstruct canonical data from reverse projections.
