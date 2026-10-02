@@ -8,20 +8,20 @@
   ],
   "canonical_edges": 149,
   "unique_targets": 144,
-  "endpoint_identity_matches": 143,
-  "endpoint_identity_gaps": 1,
+  "endpoint_identity_matches": 144,
+  "endpoint_identity_gaps": 0,
   "semantics": "Canonical PQ→equipment relationships remain authoritative. Endpoint record layers are incomplete projections; missing endpoint records are enrichment gaps, not negative reward claims.",
-  "status": "canonical_projection_single_endpoint_gap",
-  "audit_note": "2026-10-01 reconciliation: 149 canonical PQ→equipment edges / 144 unique targets now have 143 endpoint identity resolutions when direct equipment records and explicit canonical accessory-bridge identities are both counted. One target remains an endpoint enrichment gap: Videl T-Shirt. This is not a negative reward claim.",
+  "status": "canonical_projection_complete_endpoint_identity",
+  "audit_note": "2026-10-02 reconciliation: all 144 unique canonical PQ→equipment targets now resolve through direct equipment records or explicit canonical accessory identities. The final endpoint gap, Videl T-Shirt, is now represented by equipment record equip-116 using the exact PQ56 reward name; no unsupported inventory ID or stats were inferred.",
   "endpoint_records": 212,
   "current_reconciliation": {
-    "date": "2026-10-01",
+    "date": "2026-10-02",
     "canonical_source_sha": "782920ad4514b0d73fc594320cc4eece2575a06f",
     "canonical_edges": 149,
     "unique_targets": 144,
     "endpoint_records": 212,
-    "exact_identity_matches": 143,
-    "identity_gaps": 1,
+    "exact_identity_matches": 144,
+    "identity_gaps": 0,
     "resolution_method": "direct equipment records plus explicit accessory-pq-canonical-bridge identities"
   }
 }
