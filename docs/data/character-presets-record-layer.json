@@ -29,7 +29,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-3",
@@ -41,7 +46,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-4",
@@ -53,7 +63,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-5",
@@ -65,7 +80,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-6",
@@ -77,7 +97,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-7",
@@ -89,7 +114,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-8",
@@ -101,7 +131,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-9",
@@ -113,7 +148,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-10",
@@ -125,7 +165,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-11",
@@ -137,7 +182,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-12",
@@ -149,7 +199,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-14",
@@ -161,7 +216,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-15",
@@ -173,7 +233,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-16",
@@ -185,7 +250,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-17",
@@ -197,7 +267,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-preset-18",
@@ -209,7 +284,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-1",
@@ -237,7 +317,12 @@
         "super_soul": "I am the universe's strongest!",
         "loadout_evidence_scope": "Explicit Battle Suit 1 in-game-data table; exact numeric preset mapping is directly stated by the source. Preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-2",
@@ -267,7 +352,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-3",
@@ -297,7 +387,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-6",
@@ -326,7 +421,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-7",
@@ -356,7 +456,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-8",
@@ -386,7 +491,12 @@
         "super_soul": "I am...Super Vegeta!!",
         "loadout_evidence_scope": "Explicit Battle Suit 8 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-9",
@@ -414,7 +524,12 @@
         "super_soul": "I am the universe's strongest!",
         "loadout_evidence_scope": "Explicit Battle Suit 9 in-game-data table; exact numeric preset mapping is directly stated by the source. Preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegeta",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-10",
@@ -426,7 +541,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegeta-preset-11",
@@ -438,7 +558,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "gohan-adult-preset-3",
@@ -468,7 +593,12 @@
         "super_soul": "Gohan! Eat a Senzu Bean!",
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Gohan_%28Adult%29",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "frieza-final-preset-2",
@@ -498,7 +628,12 @@
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
         "https://dbxv2.fandom.com/wiki/Frieza_%28Final_Form%29"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "frieza-first-preset-2",
@@ -528,7 +663,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-gt-preset-2",
@@ -540,7 +680,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegetto-preset-2",
@@ -569,7 +714,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegito"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegito",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "vegito-preset-3",
@@ -598,7 +748,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit character in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegito"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Vegito",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "captain-ginyu-preset-2",
@@ -628,7 +783,12 @@
         "super_soul": "Let me show you how it's done.",
         "loadout_evidence_scope": "Explicit Battle Suit 2 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "captain-ginyu-preset-3",
@@ -658,7 +818,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Vegeta body row in Captain Ginyu's in-game-data table; repository record already identifies Preset 3 as the Vegeta-body configuration. This does not change Captain Ginyu's canonical identity."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "captain-ginyu-preset-4",
@@ -689,7 +854,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Trunks body row in Captain Ginyu's in-game-data table; repository record already identifies Preset 4 as the Xeno Trunks-body configuration. The source table labels the row 'Trunks'; this does not change Captain Ginyu's canonical identity."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Captain_Ginyu",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "captain-ginyu-preset-5",
@@ -701,7 +871,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "captain-ginyu-preset-6",
@@ -713,7 +888,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-supersaiyan-god",
@@ -727,7 +907,12 @@
       "sources": [
         "https://www.youtube.com/watch?v=EJ0ICSoKXPc",
         "https://dbx.bn-ent.net/special/privilege_list.php"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-gt",
@@ -739,7 +924,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://dbx.bn-ent.net/special/privilege_list.php"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "goku-ss4",
@@ -751,7 +941,12 @@
       "acquisition_status": "community_observed",
       "sources": [
         "https://dbx.bn-ent.net/special/privilege_list.php"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "piccolo-power-awakening",
@@ -764,7 +959,12 @@
       "dlc_pack": "HERO OF JUSTICE Pack Set",
       "sources": [
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "orange-piccolo",
@@ -777,7 +977,12 @@
       "dlc_pack": "HERO OF JUSTICE Pack Set",
       "sources": [
         "https://en.bandainamcoent.eu/dragon-ball/dragon-ball-xenoverse-2"
-      ]
+      ],
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "bardock-preset-1",
@@ -807,7 +1012,12 @@
         "super_soul": "Now it's all over...",
         "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "bardock-preset-2",
@@ -837,7 +1047,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "bardock-preset-3",
@@ -866,7 +1081,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "bardock-preset-4",
@@ -896,7 +1116,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Bardock in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Bardock",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "raditz-preset-1",
@@ -924,7 +1149,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Battle Suit 1 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Raditz"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Raditz",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "nappa-preset-1",
@@ -952,7 +1182,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Battle Suit 1 in-game-data table; preserved as preset evidence and not treated as an acquisition/exclusivity claim."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Nappa"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Nappa",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "recoome-preset-1",
@@ -980,7 +1215,12 @@
         "super_soul": "Your life is mine! Toh!",
         "loadout_evidence_scope": "Explicit Battle Suit 1 table; loadout evidence only."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Recoome"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Recoome",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "recoome-preset-2",
@@ -1009,7 +1249,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Battle Suit 2 table; loadout evidence only."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Recoome"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Recoome",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "zarbon-preset-1",
@@ -1037,7 +1282,12 @@
         "super_soul": "H-How could he?!",
         "loadout_evidence_scope": "Explicit Battle Suit 1 table; loadout evidence only."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Zarbon"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Zarbon",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     },
     {
       "id": "zarbon-preset-2",
@@ -1065,7 +1315,12 @@
         "super_soul": null,
         "loadout_evidence_scope": "Explicit Battle Suit 2 table; loadout evidence only."
       },
-      "loadout_source": "https://dbxv2.fandom.com/wiki/Zarbon"
+      "loadout_source": "https://dbxv2.fandom.com/wiki/Zarbon",
+      "awoken_skill_link": {
+        "status": "unresolved",
+        "canonical_awoken_id": null,
+        "reason": "Preset layer currently does not establish an evidence-backed Awoken loadout; do not infer transformation from character name/preset identity."
+      }
     }
   ],
   "unresolved": [
