@@ -1,0 +1,32 @@
+{
+  "audit_id": "super-souls-171-178-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": [
+    "super-soul-171",
+    "super-soul-172",
+    "super-soul-173",
+    "super-soul-174",
+    "super-soul-175",
+    "super-soul-176",
+    "super-soul-177",
+    "super-soul-178"
+  ],
+  "verified_records": [
+    "super-soul-171",
+    "super-soul-172",
+    "super-soul-173",
+    "super-soul-174",
+    "super-soul-175",
+    "super-soul-176",
+    "super-soul-178"
+  ],
+  "partially_verified_records": [
+    "super-soul-177"
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://dbxv2.fandom.com/wiki/DLC",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+  ]
+}
