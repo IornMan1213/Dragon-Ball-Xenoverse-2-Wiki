@@ -1,0 +1,61 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-10-02",
+  "domain": "super_souls",
+  "record_id": "super-soul-046",
+  "name": "Kind of human-like, don't you think?",
+  "scope": "Acquisition provenance, Energy Field mechanics, Limit Burst",
+  "canonical_policy": "Canonical values remain authoritative; secondary evidence is used to enrich provenance and document evidence boundaries, not to replace canonical data with inferred values.",
+  "evidence": [
+    {
+      "source": "Bandai Namco Entertainment America — Raid Boss Festival / Super 17",
+      "url": "https://en.bandainamcoent.com/news/dbxv2-raid-boss-festival",
+      "supports": [
+        "Super 17 raid identity",
+        "15,000 individual-damage reward tier",
+        "Super Soul acquisition",
+        "one-Super-Soul acquisition limit stated for the event"
+      ]
+    },
+    {
+      "source": "GameFAQs — Super 17 (Lite) Raid",
+      "url": "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80922302",
+      "supports": [
+        "Energy Field trigger",
+        "-20% damage taken for wearer and allies",
+        "10-second duration",
+        "Revive Gauge Auto-Recovery! Limit Burst"
+      ]
+    },
+    {
+      "source": "Dragon Ball Xenoverse 2 Wiki — Super Soul",
+      "url": "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "supports": [
+        "current catalogue identity and effect presentation",
+        "Android 17 source character"
+      ]
+    },
+    {
+      "source": "Dragon Ball Xenoverse 2 Wiki — Online Raid Quest",
+      "url": "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
+      "supports": [
+        "Super 17 raid reward family",
+        "historical reward catalogue"
+      ]
+    }
+  ],
+  "resolved": {
+    "trigger_condition": "When using Energy Field",
+    "effect_magnitude": "-20% damage taken",
+    "duration": "10 seconds",
+    "affected_parties": "wearer and all allies",
+    "limit_burst_effect": "Revive Gauge Auto-Recovery!",
+    "acquisition": "Super 17 Online Raid; official 2021 documentation places the Super Soul at the 15,000 individual-damage reward tier"
+  },
+  "unresolved": [
+    "Whether the damage-reduction effect has any hidden stacking/interactions beyond the documented Energy Field activation.",
+    "Whether later event redistributions used identical reward thresholds in every rerun.",
+    "Hidden implementation details not exposed by the cited item-level references."
+  ],
+  "result": "Evidence-backed enrichment completed without changing the documented -20%/10-second canonical mechanics or inventing drop probabilities."
+}
