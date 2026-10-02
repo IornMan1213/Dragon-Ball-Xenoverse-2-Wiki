@@ -8944,3 +8944,13 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved community timing observations only as secondary evidence; no inferred frame/tick implementation or stacking rule was promoted to canonical data.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified/unresolved endpoint after 049.
+
+
+### 2026-10-02 continuation — Super Soul 050 verification
+- [x] Promoted canonical `super-soul-050` ("I'll use all my strength to kill you...") from `partially_verified` to `verified`.
+- [x] Corroborated Android 18 identity, **Parallel Quest 29 — The Androids Attack**, **+5% Ki auto-recovery**, and **+10% normal attacks at max Ki**.
+- [x] Reconfirmed the Power Limit Burst: **ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.**
+- [x] Preserved documented stacking with Human Ki Regeneration and kept internal tick/frame behavior unresolved.
+- [x] Added `docs/data/super-soul-050-enrichment-audit-2026-10-02.json` and updated the human-readable database.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with the next partially verified/unresolved Super Soul after 050.
