@@ -92,3 +92,8 @@ Mechanics, acquisition, and classification are audited separately. Unresolved fi
 - Transformation overview: https://dragonballxenoverse2.wiki/guides/transformations/
 - Unlock checklist: https://dragonballxenoverse2.wiki/guides/how-to-unlock-all-awoken-skills/
 - Official Bandai Namco Ultra Instinct update: https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-free-update-october-12-2023
+
+
+## 2026-10-02 — Parent/stage cross-system link audit
+
+Added `docs/data/awoken-cross-system-link-audit-2026-10-02.json`, linking all 15 canonical Awoken parent records to their 20 documented individual forms/stages, acquisition endpoint, race/use scope, and stable Awoken research identifiers. The audit explicitly keeps staged forms under their parent records and excludes cast/enemy-only transformation states. It does not promote unresolved mechanics.
