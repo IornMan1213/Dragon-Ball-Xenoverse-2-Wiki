@@ -1,0 +1,19 @@
+{
+  "audit_date": "2026-10-02",
+  "record": "137",
+  "verification_status": "verified",
+  "canonical_name": "I'll never forgive you!",
+  "external_name_variant": "I'll never forgive you, scum!",
+  "character": "Frieza (1st Form)",
+  "acquisition": "Item Shop",
+  "trigger": "When guard is broken",
+  "effect": "-20% damage received from all attacks",
+  "duration": "4 seconds",
+  "limit_burst": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://dbxv2.fandom.com/wiki/Frieza_(1st_Form)",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+  ],
+  "resolution": "The identity is the same item despite a canonical/external naming suffix difference. Canonical repository naming remains authoritative; external wording is retained as a variant."
+}
