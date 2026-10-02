@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "date": "2026-10-02",
+  "scope": [
+    "super-soul-056",
+    "super-soul-057",
+    "super-soul-058",
+    "super-soul-059"
+  ],
+  "source_of_truth": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-056",
+      "result": "partially_verified",
+      "confirmed": [
+        "Pan",
+        "+20% Ki Blast Skills below 25% health",
+        "PQ93",
+        "Rush Limit Burst"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285?page=1"
+      ]
+    },
+    {
+      "id": "super-soul-057",
+      "result": "partially_verified",
+      "confirmed": [
+        "Omega Shenron",
+        "+15% normal attacks below 25% health",
+        "PQ94",
+        "Power Limit Burst"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285?page=1"
+      ]
+    },
+    {
+      "id": "super-soul-058",
+      "result": "verified",
+      "confirmed": [
+        "Mira",
+        "Heavy Smash trigger",
+        "+20% all attacks",
+        "5 seconds",
+        "PQ97",
+        "Revive Gauge Auto-Recovery"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/97_-_Insidious_Plot",
+        "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285?page=1"
+      ]
+    },
+    {
+      "id": "super-soul-059",
+      "result": "verified",
+      "confirmed": [
+        "Towa",
+        "always -15% revive time",
+        "battle-start +30% Ki restoration",
+        "PQ97",
+        "Bomb Limit Burst"
+      ],
+      "sources": [
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/81123798",
+        "https://gamefaqs.gamespot.com/ps5/437193-dragon-ball-xenoverse-2/faqs/74285?page=1"
+      ]
+    }
+  ]
+}
