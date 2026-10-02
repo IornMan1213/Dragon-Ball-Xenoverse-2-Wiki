@@ -104,7 +104,7 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "2026-10-02 targeted reconciliation: current catalogue describes the always-active effect as altering Kamehameha damage by -100%. Independent GameFAQs documentation describes the effect as nullifying Kamehameha damage, and current Kamehameha documentation states the soul nullifies Kamehameha-based damage. Community reports document broad coverage across multiple Kamehameha-named variants but also an observed exception for Black Kamehameha / Rosé Kamehameha; that exception is retained as secondary compatibility evidence, not converted into a canonical rule. The canonical record therefore retains the -100% catalogue magnitude while documenting the functional nullification interpretation and known reported exceptions.",
+      "version_notes": "2026-10-02 targeted reconciliation: current catalogue describes the always-active effect as altering Kamehameha damage by -100%. Independent GameFAQs documentation describes the effect as nullifying Kamehameha damage, while current Kamehameha documentation states the soul nullifies Kamehameha-based damage. Historical community reports also document variant-specific exceptions; these remain secondary compatibility evidence rather than canonical rules. The canonical record retains the -100% catalogue magnitude while documenting the functional nullification interpretation.",
       "verification_status": "verified_secondary",
       "last_verified": "2026-10-02",
       "sources": [
