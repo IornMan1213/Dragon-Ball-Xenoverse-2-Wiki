@@ -1,0 +1,28 @@
+{
+  "schema_version":"1.0",
+  "audit_date":"2026-10-02",
+  "record_id":"super-soul-051",
+  "name":"Before creation comes ruin...",
+  "scope":"identity, PQ63 acquisition, trigger, Ki Blast effect, Limit Burst",
+  "canonical_policy":"Canonical forward data remains authoritative, but a clearly contradicted endpoint is corrected from independent evidence rather than preserved.",
+  "correction":{
+    "previous_character_source":"Super Saiyan 2 Gohan (Teen)",
+    "corrected_character_source":"God of Destruction Beerus",
+    "previous_trigger":"Once only when an enemy revives",
+    "corrected_trigger":"About 30 seconds after the battle starts",
+    "previous_effect":"+10% Ki Auto-Recovery; +15% Ki Skill damage",
+    "corrected_effect":"+20% Ki Blast Skills (XL)"
+  },
+  "resolved":{
+    "acquisition_source":"Parallel Quest 63 — Appetite for Destruction",
+    "limit_burst":"ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down."
+  },
+  "evidence":[
+    {"source":"Dragon Ball Xenoverse 2 Wiki — Super Soul","url":"https://dbxv2.fandom.com/wiki/Super_Soul","supports":["Beerus identity","30-second trigger","+20% Ki Blast Skills","PQ63","Rush Limit Burst"]},
+    {"source":"Steam Community — All 186 Parallel Quests","url":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","supports":["PQ63 reward: Before creation comes ruin..."]},
+    {"source":"GameFAQs Super Soul Guide","url":"https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225","supports":["Beerus identity","trigger","XL Ki Blast effect","Rush Limit Burst"]},
+    {"source":"GameFAQs Beerus raid documentation","url":"https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80948863","supports":["Beerus identity","trigger/effect","Limit Burst"]}
+  ],
+  "unresolved":["Exact activation timing beyond the documented approximate 30-second window.","Internal duration/stacking implementation."],
+  "result":"Corrected a materially inconsistent endpoint and promoted it to verified after independent agreement."
+}
