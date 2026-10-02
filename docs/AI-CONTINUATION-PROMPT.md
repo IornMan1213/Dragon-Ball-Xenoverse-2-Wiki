@@ -8808,3 +8808,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added version-history evidence documenting that the Super Soul's effect was changed and restricted to Power Pole Pro, preserving the version-sensitive trigger boundary.
 - [x] Kept hidden stacking behavior and exact activation timing unresolved rather than inferring them from community discussion.
 - [ ] **Next frontier:** continue the same evidence-first enrichment across partially verified Super Soul records, prioritizing exact mechanics/acquisition fields that can be independently corroborated.
+
+
+### 2026-10-02 continuation — Recovery baseline revalidated + Super Soul 032 provenance enrichment
+- [x] Revalidated the repository-recovery state against live Git history: main contains the 2026-09-27 `Restore missing repository files onto main` commit (`9e15797821d41304c7c62d889a79cf0acaf3fa05`), and the former recovery branches are now behind main rather than containing unrecovered forward work.
+- [x] Confirmed the recovery restoration is not the current frontier: main has continued forward through the 2026-10-02 evidence-enrichment commits, so do not reset main to a stale recovery branch.
+- [x] Enriched canonical `super-soul-032` provenance with current 2026 GameFAQs evidence documenting its secondary below-50%-health behavior and alternate post-KO name-state.
+- [x] Updated `super-soul-032-034-direct-evidence-audit-2026-09-27.json` to preserve that evidence boundary; no unsupported mechanics were promoted.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] **Exact next:** continue evidence-first enrichment of partially verified Super Soul records, prioritizing records with independent item-level mechanics/acquisition evidence. Keep `super-soul-034` unresolved until direct evidence establishes its mechanics. Do not treat `verified_secondary` as canonical source-of-truth; canonical data remains authoritative.
