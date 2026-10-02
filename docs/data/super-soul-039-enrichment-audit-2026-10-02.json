@@ -1,0 +1,30 @@
+{
+  "schema_version": "1.0",
+  "date": "2026-10-02",
+  "batch": "Super Soul 039 mechanics enrichment",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "records": [
+    {
+      "id": "super-soul-039",
+      "name": "I am going to bathe in your blood!",
+      "changed_fields": [
+        "effect_magnitude",
+        "limit_burst",
+        "version_notes",
+        "last_verified"
+      ],
+      "finding": "Independent raid documentation reports XXL for 20 seconds; separate XV2 stat-sheet evidence reports the registered value as +40% all attacks for 20 seconds, and current Broly catalogue evidence lists +40%.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79969134",
+        "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80661478",
+        "https://dbxv2.fandom.com/wiki/Broly",
+        "https://www.scribd.com/document/827102999/XV2-Super-Soul-Stat-sheet"
+      ],
+      "unresolved_preserved": [
+        "stacking_behavior",
+        "historical raid recurrence/drop rate"
+      ],
+      "policy": "No XXL-to-number conversion was inferred solely from category labels; the +40% value is retained because independent item-level/game-data transcription and current catalogue evidence explicitly report it."
+    }
+  ]
+}
