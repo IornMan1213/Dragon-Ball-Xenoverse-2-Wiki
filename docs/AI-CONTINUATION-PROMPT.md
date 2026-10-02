@@ -9132,3 +9132,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-121-126-verification-audit-2026-10-02.json` and synchronized canonical/human-readable layers.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 127 onward.
+
+
+### 2026-10-02 continuation — Super Souls 127-132 verification
+- [x] Verified canonical Super Souls 127-132 against current catalogue plus independent PQ reward evidence.
+- [x] 127: Gine (DB Super), PQ142, ally KO trigger; +50% Ki/Stamina Auto-Recovery for 20 seconds.
+- [x] 128: Pikkon, PQ143, full-Ki targeting effect and 50 Ki restored on successful Just Guard.
+- [x] 129: Zarbon, PQ144, always-on recovery effect and +5% all abilities while an Awoken Skill is active; catalogue wording/data nuance preserved.
+- [x] 130: Kahseral, PQ144, ally KO trigger; +50% Stamina/Ki Auto-Recovery for 20 seconds.
+- [x] 131: Toppo (God of Destruction), PQ145, +35% all attacks with documented tradeoffs to damage taken, movement and recovery.
+- [x] 132: Dyspo, PQ146, Evasive Skill trigger; +25% movement speed and +30% Stamina Auto-Recovery for 15 seconds.
+- [x] Added `docs/data/super-souls-127-132-verification-audit-2026-10-02.json` and synchronized canonical/human-readable layers.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 133 onward.
