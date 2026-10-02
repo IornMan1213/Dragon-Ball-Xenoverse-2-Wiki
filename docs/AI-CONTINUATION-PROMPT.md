@@ -9145,3 +9145,15 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-127-132-verification-audit-2026-10-02.json` and synchronized canonical/human-readable layers.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 133 onward.
+
+
+### 2026-10-02 continuation — Super Souls 133-136 verification
+- [x] Verified canonical Super Souls 133-136 against current catalogue/character evidence and independent PQ evidence.
+- [x] 133: Caulifla (Super Saiyan 2), PQ147, lock-on trigger and documented ability/Ki-recovery boosts.
+- [x] 134: Kale (Super Saiyan 2), PQ148, charge-skill trigger; +5% all attacks and +120% Ki Auto-Recovery for 5 seconds.
+- [x] 135: Gogeta (DB Super), PQ149, always-on Ki Auto-Recovery and +5% Stamina recovery speed.
+- [x] 136: Jiren (Full Power), PQ150, Ki comparison trigger: +15% all attacks when ahead in Ki, +10% Ki Auto-Recovery when behind.
+- [x] Added `docs/data/super-souls-133-136-verification-audit-2026-10-02.json` and synchronized canonical/human-readable layers.
+- [x] Kept Super Soul 137 partially verified because its canonical name/acquisition identity has a documented external naming discrepancy; did not revive rejected legacy 138.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** resolve/verify Super Soul 137 identity if stronger item-level evidence is available; otherwise continue with Super Soul 139 onward while preserving 138 as rejected legacy.
