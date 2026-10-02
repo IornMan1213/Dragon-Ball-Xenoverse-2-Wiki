@@ -8551,3 +8551,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Preserved official Chapter 4 content baseline including 1 new Awoken Skill within 4 new moves. cite source tracked externally in continuation research.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** Awoken-to-character-preset and Awoken-to-DLC/quest cross-link coverage and orphan/duplicate identity reconciliation.
+
+
+### 2026-10-02 continuation — Character preset ↔ Awoken link coverage
+- [x] Audited all 51 character-preset records for Awoken linkage.
+- [x] Added explicit unresolved Awoken-link state to every preset instead of fabricating loadouts.
+- [x] Added `docs/data/character-preset-awoken-link-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** research and populate directly evidenced default preset Awoken loadouts, then connect them to canonical Awoken/DLC/quest records.
