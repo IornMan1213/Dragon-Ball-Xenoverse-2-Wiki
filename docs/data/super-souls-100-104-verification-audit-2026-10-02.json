@@ -1,0 +1,25 @@
+{
+  "audit_date": "2026-10-02",
+  "records": [
+    "100",
+    "101",
+    "102",
+    "103",
+    "104"
+  ],
+  "verified": [
+    "100",
+    "102",
+    "103",
+    "104"
+  ],
+  "partial": [
+    "101"
+  ],
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/app/454650/discussions/0/1741103267263716194/",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "notes": "Super Soul 101 retains an explicit +10% catalogue versus +20% independent stat-sheet discrepancy for its later attack boost; it was not promoted to verified."
+}
