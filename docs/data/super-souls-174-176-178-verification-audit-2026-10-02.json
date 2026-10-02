@@ -1,0 +1,15 @@
+{
+  "date": "2026-10-02",
+  "status": "completed",
+  "scope": "Super Souls 174-176 and 178 verification-status reconciliation",
+  "records": [
+    "super-soul-174",
+    "super-soul-175",
+    "super-soul-176",
+    "super-soul-178"
+  ],
+  "basis": "Current Super Soul catalogue evidence plus independent/player-facing evidence already documented in each canonical record.",
+  "changes": "Promoted records 174, 175, 176, and 178 from partially_verified to verified; canonical identities, acquisition endpoints, mechanics, and existing documented values were not rewritten.",
+  "boundary": "Super Soul 177 remains partially_verified because its canonical 20% proc probability remains insufficiently reconciled at item level. No drop probabilities, hidden timing, or undocumented implementation details were inferred.",
+  "source_policy": "Canonical data remains the source of truth; external evidence corroborates or identifies discrepancies and is not used to silently override canonical values."
+}
