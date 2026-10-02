@@ -9106,3 +9106,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Added `docs/data/super-souls-110-114-verification-audit-2026-10-02.json` and synchronized the human-readable database.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 115 onward, preserving canonical-forward source-of-truth rules and leaving unsupported probabilities/hidden implementation details unresolved.
+
+
+### 2026-10-02 continuation — Super Souls 115-120 verification
+- [x] Verified canonical Super Souls 115-120 against current catalogue plus independent PQ/stat-sheet evidence.
+- [x] 115: Whis, PQ134, +50% maximum Ki and +50% maximum Stamina.
+- [x] 116: Ribrianne, PQ135, -50% damage taken for 10 seconds after an Ultimate Attack hit; Hearts Ki Blast type.
+- [x] 117: Vegeta (Super Saiyan God), PQ136, Blazing Attack trigger; +10% Strike, Ki Blast-based skills, and Ki restored; 3-stack cap.
+- [x] 118: Toppo, PQ136, below-50% HP trigger; +20% all attacks, -15% damage taken, +10% Stamina recovery, guard sealed.
+- [x] 119: SSGSS Vegeta (Evolved), PQ137, once on activating the Awoken Skill; +60% Ki auto-recovery for 30 seconds.
+- [x] 120: Jiren, PQ137, once after an Ultimate Attack hit; +15% all attacks and +10% movement/Ki/Stamina recovery with -10% damage taken.
+- [x] Added `docs/data/super-souls-115-120-verification-audit-2026-10-02.json` and synchronized the human-readable database/index.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue evidence-first enrichment with Super Soul 121 onward.
