@@ -8101,3 +8101,12 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/live-canonical-recovery-reconciliation-2026-10-02.json` as the current reconciliation checkpoint and explicitly recorded the historical-vs-current boundary.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next frontier:** audit broader stale research manifests beyond the already-synchronized PQ cross-domain reports, prioritizing artifacts that still advertise pre-recovery counts; then perform substantive sparse PQ/Super Soul/mechanics enrichment.
+
+
+### 2026-10-02 continuation — broader stale-manifest audit
+- [x] Audited broader dated PQ/reward recovery manifests against the current 901-edge canonical relationship store.
+- [x] Classified stale 879/880/851/852/899-era counts as historical snapshots rather than silently rewriting provenance.
+- [x] Confirmed the active `pq-super-soul-crosslink-report.json` is already synchronized at 143 PQ Super Soul edges, 141 unique targets, and 143 detailed endpoint matches.
+- [x] Added `docs/data/stale-manifest-audit-2026-10-02.json` documenting historical/current boundaries and the remaining mechanics frontier.
+- [x] Reviewed `super-soul-034` (`The final battle begins now.` / PQ186): current evidence confirms the reward identity, but not item-level trigger/effect mechanics; no speculative canonical mutation made.
+- [ ] **Next frontier:** continue substantive source-backed sparse PQ/Super Soul/mechanics enrichment, prioritizing unresolved records where independent evidence can establish exact fields; keep historical audits immutable unless a current-state section is explicitly stale.
