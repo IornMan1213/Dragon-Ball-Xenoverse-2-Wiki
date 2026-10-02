@@ -1,0 +1,25 @@
+{
+  "schema_version":"1.0",
+  "audit_date":"2026-10-02",
+  "record_id":"super-soul-052",
+  "name":"Janemba! Janemba!",
+  "scope":"identity, PQ64 acquisition, Just Guard mechanics, Limit Burst",
+  "canonical_policy":"Canonical forward data remains authoritative; independent evidence corroborates documented fields.",
+  "resolved":{
+    "character_source":"Janemba",
+    "acquisition_source":"Parallel Quest 64 — Beerus the Impulsive",
+    "trigger":"Successful Just Guard",
+    "ki_restoration":"+60 Ki",
+    "ki_blast_boost":"+10% Ki Blast Skills",
+    "duration":"10 seconds",
+    "limit_burst":"Auto Just Guard"
+  },
+  "evidence":[
+    {"source":"Dragon Ball Xenoverse 2 Wiki — Super Soul","url":"https://dbxv2.fandom.com/wiki/Super_Soul","supports":["Janemba identity","Just Guard trigger","+60 Ki","+10% Ki Blast Skills","10-second duration","Auto Just Guard","PQ64"]},
+    {"source":"Steam Community — All 186 Parallel Quests","url":"https://steamcommunity.com/sharedfiles/filedetails/?id=808851543","supports":["PQ64 basic reward"]},
+    {"source":"Dragon Ball XenoVerse Wiki — PQ64","url":"https://dbxenoverse.fandom.com/wiki/64_-_Beerus_the_Impulsive","supports":["PQ64 reward: Janemba! Janemba!"]},
+    {"source":"GameFAQs Super Soul Guide","url":"https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225","supports":["Super Soul mechanics and acquisition catalogue"]}
+  ],
+  "unresolved":["Exact internal Ki restoration timing/frame behavior.","Detailed stacking interactions with other Ki Blast modifiers."],
+  "result":"Promoted from partially_verified to verified after independent agreement on identity, acquisition, mechanics, duration, and Limit Burst."
+}
