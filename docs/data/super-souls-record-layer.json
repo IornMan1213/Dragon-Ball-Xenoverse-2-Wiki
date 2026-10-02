@@ -964,8 +964,8 @@
       "dlc_requirement": "FUTURE SAGA Chapter 4",
       "acquisition_type": "Parallel Quest 186 reward inventory (mapping unresolved)",
       "acquisition_source": "PQ 186",
-      "effect_text": "Deals damage over approximately 30 seconds to the user, allies, and enemies; afterward grants the user an all-ability boost.",
-      "effect_magnitude": "Approximately 5000 initial damage; 15% all-ability boost (secondary community-tested report)",
+      "effect_text": "Deals damage to the user, allies, and enemies over approximately 30 seconds; afterward grants the user an all-ability boost.",
+      "effect_magnitude": "Approximately 5000 total damage over the initial phase; approximately 15% all-ability boost (independent secondary player-testing reports)",
       "duration": "Approximately 30 seconds for the initial damage phase; boost duration unresolved",
       "stacking_behavior": "Unresolved",
       "limit_burst": "Auto Just Guard",
@@ -973,17 +973,19 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Secondary community testing reports approximately 5000 damage distributed over 30 seconds at battle start followed by a 15% all-ability increase. These values remain secondary and are not promoted to canonical item-level verification. Current July/August 2026 community testing reports approximately 5000 distributed damage over 30 seconds followed by a 15% all-ability increase. These numerical values remain secondary evidence and are not treated as canonical item-level verification. Secondary player testing/discussion reviewed 2026-09-27 also identifies Auto Just Guard as the Limit Burst; retained as verified-secondary evidence rather than primary canonical item documentation.",
+      "version_notes": "Numerical values are secondary community reports, not fully verified canonical item data. Secondary community testing reports approximately 5000 damage distributed over 30 seconds at battle start followed by a 15% all-ability increase. These values remain secondary and are not promoted to canonical item-level verification. Current July/August 2026 community testing reports approximately 5000 distributed damage over 30 seconds followed by a 15% all-ability increase. These numerical values remain secondary evidence and are not treated as canonical item-level verification. Secondary player testing/discussion reviewed 2026-09-27 also identifies Auto Just Guard as the Limit Burst; retained as verified-secondary evidence rather than primary canonical item documentation. 2026-10-02 independent secondary evidence: multiple current player reports describe the same ~5000 damage-over-30-seconds opening effect followed by a ~15% all-ability boost. A separate current discussion specifically notes that 'all abilities' includes defensive and recovery-related stats, while another report summarizes the effect as damage, damage reduction, movement speed, Ki gain, and stamina recovery. These remain secondary mechanics evidence; exact implementation and boost duration are not promoted to canonical verification.",
       "verification_status": "verified_secondary",
-      "last_verified": "2026-09-27",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://www.bandainamcoent.com/news/dragon-ball-xenoverse-2-final-dlc-future-saga-chapter-4-is-available-now",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1utfpk7/so_what_would_be_a_good_replacement_soul/",
         "https://www.reddit.com/r/dbxv/comments/1v0ionai/build_ideas/",
-        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the/"
+        "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the/",
+        "https://www.reddit.com/r/dbxv/comments/1ut3o8s/does_all_abilities_here_mean_literally_all/",
+        "https://www.reddit.com/r/dbxv/comments/1vionai/build_ideas/"
       ],
-      "trigger_condition": "When the battle begins"
+      "trigger_condition": "When the battle/quest starts"
     },
     {
       "id": "super-soul-036",
