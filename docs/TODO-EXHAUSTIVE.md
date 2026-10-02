@@ -8209,3 +8209,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled the +100 Ki catalogue value with player-tested one-bar/two-bar behavior without promoting the latter to an unconditional rule.
 - [x] Added dated audit evidence and preserved unresolved close-range conditions/stacking/reward fields.
 - [ ] Continue to the next partially verified Super Soul endpoint.
+
+
+### 2026-10-02 continuation — Super Soul 046 enrichment
+- [x] Enriched Super Soul 046 with official Super 17 raid acquisition provenance, including the 15,000 individual-damage reward tier.
+- [x] Reconciled Energy Field as **-20% damage taken for wearer/allies for 10 seconds** and preserved **Revive Gauge Auto-Recovery!** as the Limit Burst.
+- [x] Added a dated enrichment audit; unresolved stacking and hidden implementation details remain explicitly unresolved.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] Next: continue evidence-backed enrichment of the next partially verified Super Soul endpoint.
