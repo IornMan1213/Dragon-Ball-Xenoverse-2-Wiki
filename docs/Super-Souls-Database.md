@@ -181,3 +181,19 @@ Records 115–120 were rechecked against the current Super Soul catalogue and in
 | 120 | That heat... I'll have to match it. | Jiren | PQ137 | Once after Ultimate Attack hit: +15% all attacks, -10% damage taken, +10% movement, +10% Ki restored, +10% Stamina recovery |
 
 No unsupported drop probabilities or hidden frame/tick behavior were added.
+
+
+### Super Souls 121–126 — 2026-10-02 verification
+
+Records 121–126 were rechecked against the current Super Soul catalogue and independent PQ reward/stat-sheet evidence. PQ reward evidence confirms 121/122 in PQ138, 123/124 in PQ140, and 125/126 in PQ141. citeturn1search0turn1search3
+
+| ID | Super Soul | Character | Acquisition | Verified mechanics |
+|---|---|---|---|---|
+| 121 | I'm not gonna die until I defeat you! | Majuub | PQ138 / PQ151 | KO: revive at 1 HP, nullify damage 10 sec, +15% normal attacks |
+| 122 | I just flew around the whole world! | Pan (Kid) | PQ138 | Always +10% movement speed and +5% Stamina recovery |
+| 123 | This thing carries hopes of everyone on Earth! | Goku (GT) | PQ140 | Super Spirit Bomb: +15% Ki Blast attacks for 15 sec; +1.2% HP/sec during the attack |
+| 124 | Now then, time for another delightful hunt! | Android 21 | PQ140 | Start: -15% enemy Stamina/-10% enemy attacks; after 30 sec: -50% enemy Ki/+10% damage taken by enemies |
+| 125 | D-Don't talk bad about my family! | Uub (Kid) | PQ141 | Below 50% HP: +10% normal melee/Strike; below 25%: +15% to both |
+| 126 | This oughta make things interesting. | Broly | PQ141 | Opponent Reinforcement Skill: +10% all attacks, stacking to 10 times |
+
+Documented catalogue/data discrepancies remain preserved; no unsupported drop probabilities were added.
