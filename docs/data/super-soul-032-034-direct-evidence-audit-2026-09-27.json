@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0.0",
-  "audit_date": "2026-09-27",
+  "audit_date": "2026-10-02",
   "scope": "Super Soul 032/034 direct-evidence recovery follow-up",
   "source_policy": "Canonical identity and acquisition remain authoritative; secondary evidence is retained only with explicit provenance and does not become primary mechanics truth.",
   "records": [
@@ -52,9 +52,17 @@
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
         "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super/"
       ]
+    },
+    {
+      "record_id": "super-soul-032",
+      "finding": "Current GameFAQs discussion independently corroborates the below-50%-health secondary behavior and records a second activation/name-state after KO. This strengthens provenance but still does not establish primary item-level mechanics or exact implementation.",
+      "sources": [
+        "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/81166913?page=10"
+      ],
+      "weight": "secondary"
     }
   ],
-  "decision": "No canonical mechanics mutation. New evidence strengthens the record of activation/name-state behavior for 032 but still does not directly establish its Limit Burst or full mechanics; 034 remains unresolved.",
+  "decision": "Canonical mechanics remain unchanged. Super Soul 032 received additional independent provenance only; 034 remains unresolved and no mechanics were inferred.",
   "additional_evidence": [
     {
       "record": "super-soul-032",
@@ -67,6 +75,12 @@
       "source": "https://www.reddit.com/r/dbxv/comments/1ussnc2/this_mission_is_so_annoying_i_just_wanted_the_super_souls/",
       "finding": "Recent player discussion explicitly says the commenter did not know what 'The final battle begins now.' does. No reliable mechanics were established for this record in the reviewed discussion.",
       "weight": "secondary/negative evidence"
+    },
+    {
+      "record": "super-soul-032",
+      "source": "https://gamefaqs.gamespot.com/boards/277190-dragon-ball-xenoverse-2/81166913?page=10",
+      "finding": "Current player discussion reports that the soul changes its displayed name after the user's KO and describes the below-50%-health all-ability effect. Retained as secondary evidence.",
+      "weight": "secondary"
     }
   ]
 }
