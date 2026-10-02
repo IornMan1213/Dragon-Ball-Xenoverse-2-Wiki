@@ -1,0 +1,29 @@
+{
+  "audit_date": "2026-10-02",
+  "records": [
+    "127",
+    "128",
+    "129",
+    "130",
+    "131",
+    "132"
+  ],
+  "verification_status": "verified",
+  "acquisition": {
+    "127": "Parallel Quest 142",
+    "128": "Parallel Quest 143",
+    "129": "Parallel Quest 144",
+    "130": "Parallel Quest 144",
+    "131": "Parallel Quest 145",
+    "132": "Parallel Quest 146"
+  },
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+  ],
+  "notes": [
+    "PQ reward mapping is independently corroborated: PQ142 rewards I don't want them to get hurt!, PQ143 rewards This is as far as you go., PQ144 rewards You've awakened my true power... and I won't forgive those who best my comrades!, PQ145 rewards I've cast aside everything for this!, and PQ146 rewards There's no way you can hit me!.",
+    "The canonical repository IDs are not treated as external catalogue list numbers.",
+    "No unsupported drop probabilities or hidden implementation details were added."
+  ]
+}
