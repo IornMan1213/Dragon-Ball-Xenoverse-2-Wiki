@@ -1,0 +1,37 @@
+{
+  "audit_date": "2026-10-02",
+  "canonical_source_of_truth": "docs/data/super-souls-record-layer.json",
+  "records_verified": [
+    "super-soul-085",
+    "super-soul-086",
+    "super-soul-087",
+    "super-soul-088",
+    "super-soul-089"
+  ],
+  "evidence_boundary": "Independent sources corroborate recorded mechanics and/or acquisition routes. No drop probabilities or undocumented implementation details were inferred.",
+  "evidence": {
+    "super-soul-085": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://dbxv2.fandom.com/wiki/Dragon_Fist",
+      "https://www.youtube.com/watch?v=Xg-W3Z0-qeA"
+    ],
+    "super-soul-086": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80066147?page=1"
+    ],
+    "super-soul-087": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://dbxv2.fandom.com/wiki/Gotenks"
+    ],
+    "super-soul-088": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/76365986",
+      "https://dbxv2.fandom.com/wiki/Frieza_%281st_Form%29"
+    ],
+    "super-soul-089": [
+      "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "https://dbxv2.fandom.com/wiki/Broly",
+      "https://steamcommunity.com/app/454650/discussions/0/1708438376925478556/"
+    ]
+  }
+}
