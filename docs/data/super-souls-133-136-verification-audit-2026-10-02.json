@@ -1,0 +1,31 @@
+{
+  "audit_date": "2026-10-02",
+  "records": [
+    "133",
+    "134",
+    "135",
+    "136"
+  ],
+  "verified": [
+    "133",
+    "134",
+    "135",
+    "136"
+  ],
+  "acquisition": {
+    "133": "Parallel Quest 147",
+    "134": "Parallel Quest 148",
+    "135": "Parallel Quest 149",
+    "136": "Parallel Quest 150"
+  },
+  "evidence": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul",
+    "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+    "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79745885"
+  ],
+  "notes": [
+    "Canonical record IDs are repository identifiers and are not assumed to equal external catalogue list numbers.",
+    "Mechanics were accepted where the current catalogue/character data and independent guide evidence align with the canonical record.",
+    "Super Soul 137 was not promoted in this batch because the canonical name/acquisition identity has a documented naming discrepancy against current external catalogue evidence. Super Soul 138 remains rejected legacy and was not revived."
+  ]
+}
