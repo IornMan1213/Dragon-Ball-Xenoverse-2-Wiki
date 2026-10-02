@@ -8877,3 +8877,12 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved unresolved stacking behavior and historical raid recurrence/drop-rate details; no XXL conversion was inferred from a category label alone.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue the evidence-first Super Soul pass on the next partially verified record, prioritizing independently corroborated mechanics/acquisition fields.
+
+
+### 2026-10-02 continuation — Super Souls 040-041 raid provenance enrichment
+- [x] Enriched `super-soul-040` with independent Perfect Cell Full Power raid reward evidence and reconfirmed its +3% HP/sec approximately for 3 seconds mechanic and Limit Burst.
+- [x] Enriched `super-soul-041` with official 4th Anniversary Hercule raid reward provenance and independent later raid documentation reconfirming +30% attack / +30% damage taken for 30 seconds.
+- [x] Added `docs/data/super-souls-040-041-enrichment-audit-2026-10-02.json`.
+- [x] Preserved unresolved drop probability and stacking behavior; no speculative values added.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue the evidence-first Super Soul pass with the next partially verified record, prioritizing independent item-level mechanics/acquisition evidence.
