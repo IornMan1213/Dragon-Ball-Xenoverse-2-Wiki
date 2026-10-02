@@ -185,7 +185,7 @@ No unsupported drop probabilities or hidden frame/tick behavior were added.
 
 ### Super Souls 121–126 — 2026-10-02 verification
 
-Records 121–126 were rechecked against the current Super Soul catalogue and independent PQ reward/stat-sheet evidence. PQ reward evidence confirms 121/122 in PQ138, 123/124 in PQ140, and 125/126 in PQ141. citeturn1search0turn1search3
+Records 121–126 were rechecked against the current Super Soul catalogue and independent PQ reward/stat-sheet evidence. PQ reward evidence confirms 121/122 in PQ138, 123/124 in PQ140, and 125/126 in PQ141. 
 
 | ID | Super Soul | Character | Acquisition | Verified mechanics |
 |---|---|---|---|---|
