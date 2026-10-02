@@ -9033,3 +9033,16 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Updated last_verified for 075-079 to 2026-10-02.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Exact next:** continue evidence-first enrichment with Super Soul 080 onward; preserve canonical source-of-truth rules and historical discrepancies.
+
+
+### 2026-10-02 continuation — Super Souls 080-084 verification
+- [x] Verified canonical Super Souls 080-084 against independent evidence while preserving canonical-forward-first policy.
+- [x] Super Soul 080: corroborated below-50%-Health, once-only full-Ki restoration and PQ112 acquisition.
+- [x] Super Soul 081: corroborated 60-second trigger, +20% all attacks, and -40% Ki/Stamina recovery penalties; PQ113 acquisition corroborated.
+- [x] Super Soul 082: corroborated max-Ki +10% Stamina recovery and max-Stamina temporary +20% Ki Auto-Recovery; PQ113 acquisition corroborated.
+- [x] Super Soul 083: corroborated Afterimage trigger, +15% Ki Blast Skills for 10 seconds, Limit Burst, and PQ114 acquisition.
+- [x] Super Soul 084: corroborated Data Input trigger, +20% normal attacks for 30 seconds, Limit Burst, and PQ115 acquisition.
+- [x] Added `docs/data/super-souls-080-084-verification-audit-2026-10-02.json`.
+- [x] Updated canonical `verification_status` and `last_verified` for 080-084; unresolved drop probabilities/hidden implementation details were not inferred.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Exact next:** continue with Super Soul 085 onward, using independent evidence to verify exact mechanics/acquisition and preserving unresolved boundaries.
