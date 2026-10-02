@@ -9198,3 +9198,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Restored the complete repository tree after an intermediate audit write created an incomplete tree; the corrected main now retains the full prior repository plus the new audit.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue evidence-first enrichment with Super Soul 179 onward.
+
+### 2026-10-02 continuation — Super Souls 179-184
+- [x] Verified Super Souls 179-184 against current Super Soul catalogue and independent/player-facing evidence.
+- [x] Preserved canonical acquisition endpoints for PQ47, PQ53, PQ54, PQ58, PQ74, and PQ57; no drop-rate or first-clear probability was inferred.
+- [x] Added `docs/data/super-souls-179-184-verification-audit-2026-10-02.json` and synchronized the canonical record layer.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue evidence-first enrichment with Super Soul 185 onward.
