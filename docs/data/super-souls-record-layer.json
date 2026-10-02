@@ -75,12 +75,14 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": "Relevant to Power Pole Pro usage",
-      "version_notes": "Corrected 2026-09-27: Flying Nimbus!! is the Super Soul reward from Parallel Quest 02; separate Flying Nimbus vehicle terminology is not treated as the Super Soul identity.",
+      "version_notes": "Acquisition and core effect reconciled: independent GameFAQs discussion explicitly identifies Flying Nimbus!! as a +20% damage Super Soul for Power Pole Pro, while the historical Super Soul guide documents the Power Pole Pro trigger. Current repository catalogue values remain +20% all-Attack damage. Patch-history evidence also records that the Super Soul effect was changed and restricted to Power Pole Pro, supporting the version-sensitive trigger boundary. No unsupported activation timing or hidden stacking behavior inferred.",
       "verification_status": "partially_verified",
-      "last_verified": "2026-09-30",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80391806",
+        "https://mp1st.com/news/dragon-ball-xenoverse-2-update-1-26-march-17-flies-out-for-legendary-pack-1-more"
       ]
     },
     {
@@ -5668,7 +5670,8 @@
     "2026-09-29: promoted four previously enumerated PQ reward Super Souls (PQ47, PQ53, PQ54, PQ58) after current XV2 catalogue and independent acquisition/effect evidence reconciled; no cross-game Xenoverse-1 records were promoted.",
     "2026-09-30: promoted historical PQ74 Super Soul endpoint \"The gold represents the new me.\" with explicit versioned provenance; later rename evidence is preserved.",
     "2026-09-30: promoted PQ164 Super Soul endpoint \"This place will be your grave!\" after reconciling current registered values with independent testing; observed-vs-registered mechanics remain explicitly separated.",
-    "2026-10-02: enriched Super Soul 184 (I will defeat you!) with independent 2026 PQ57 acquisition corroboration. The source contains conflicting player interpretation about Z-rank/drop behavior, so the repository records the acquisition evidence but deliberately does not infer a drop-rate rule."
+    "2026-10-02: enriched Super Soul 184 (I will defeat you!) with independent 2026 PQ57 acquisition corroboration. The source contains conflicting player interpretation about Z-rank/drop behavior, so the repository records the acquisition evidence but deliberately does not infer a drop-rate rule.",
+    "2026-10-02: independent evidence added for Super Soul 002 (Flying Nimbus!!): GameFAQs corroborates +20% damage while using Power Pole Pro; update-history reporting documents the effect change/restriction to Power Pole Pro. Exact hidden stacking/activation timing remains unclaimed."
   ],
   "sources": [
     {
