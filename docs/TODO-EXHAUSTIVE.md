@@ -8188,3 +8188,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Reconciled official Hercule raid provenance for Super Soul 041 and preserved exact secondary mechanics.
 - [x] Added dated audit evidence without manufacturing drop probabilities or stacking behavior.
 - [ ] Continue to the next partially verified Super Soul endpoint.
+
+
+## 2026-10-02 recovery-forward checkpoint — Super Souls 042-043
+- [x] Added official Masked Saiyan Lite provenance for Super Soul 042 and reconciled its current numeric mechanics without normalizing conflicting historical category labels.
+- [x] Added official Fused Zamasu raid provenance for Super Soul 043 and corroborated its low-health auto-reduction behavior.
+- [x] Added dated audit evidence and preserved unresolved mechanics/reward fields.
+- [ ] Continue to the next partially verified Super Soul endpoint.
