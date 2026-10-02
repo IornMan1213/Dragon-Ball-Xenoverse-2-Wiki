@@ -8299,3 +8299,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Corrected Super Soul 076's Limit Burst type to Homing from current catalogue evidence.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue with Super Soul 080 onward.
+
+
+### 2026-10-02 continuation — Super Souls 080-084 verification
+- [x] Verified Super Souls 080-084 using independent catalogue, PQ, DLC, and community evidence as applicable.
+- [x] Added `docs/data/super-souls-080-084-verification-audit-2026-10-02.json`.
+- [x] Preserved unresolved drop probabilities and hidden implementation/timing details instead of inferring them.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue with Super Soul 085 onward.
