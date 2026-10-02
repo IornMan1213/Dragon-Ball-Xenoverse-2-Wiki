@@ -8801,3 +8801,10 @@ Super Galick Gun is now directly reconciled: Ultimate / Ki Blast / 300 Ki / TP M
 - [x] Preserved the evidence boundary: the independent report supports PQ57 acquisition but contains conflicting player interpretation about Z-rank/drop behavior; no drop-rate rule was inferred or promoted.
 - [x] Added the independent source to the canonical Super Soul record and updated its verification date/research notes.
 - [ ] **Next frontier:** continue source-backed enrichment of unresolved Super Soul/PQ endpoints, prioritizing records where independent evidence can establish exact mechanics or acquisition fields without inference.
+
+
+### 2026-10-02 continuation — Flying Nimbus evidence enrichment
+- [x] Enriched canonical `super-soul-002` (`Flying Nimbus!!`) with independent evidence corroborating its +20% damage effect while using Power Pole Pro.
+- [x] Added version-history evidence documenting that the Super Soul's effect was changed and restricted to Power Pole Pro, preserving the version-sensitive trigger boundary.
+- [x] Kept hidden stacking behavior and exact activation timing unresolved rather than inferring them from community discussion.
+- [ ] **Next frontier:** continue the same evidence-first enrichment across partially verified Super Soul records, prioritizing exact mechanics/acquisition fields that can be independently corroborated.
