@@ -8124,3 +8124,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added version-history evidence documenting that the Super Soul's effect was changed and restricted to Power Pole Pro, preserving the version-sensitive trigger boundary.
 - [x] Kept hidden stacking behavior and exact activation timing unresolved rather than inferring them from community discussion.
 - [ ] **Next frontier:** continue the same evidence-first enrichment across partially verified Super Soul records, prioritizing exact mechanics/acquisition fields that can be independently corroborated.
+
+
+### 2026-10-02 continuation — Recovery baseline revalidated + Super Soul 032 provenance enrichment
+- [x] Revalidated recovery: main contains restore commit `9e15797821d41304c7c62d889a79cf0acaf3fa05` and is now ahead of the stale recovery branches; no rollback is warranted.
+- [x] Added current independent evidence to canonical Super Soul 032 provenance and its direct-evidence audit without changing its secondary-only mechanics status.
+- [ ] Runtime/CI remains intentionally non-blocking.
+- [ ] Next: continue evidence-backed Super Soul enrichment; preserve unresolved mechanics rather than filling gaps speculatively.
