@@ -1232,7 +1232,7 @@
       "shop_rotation": null,
       "trigger_condition": "When using Giant Form / Become Giant",
       "effect_text": "Boosts strength of all attacks and activates Stamina Auto-Recovery while transformed.",
-      "effect_magnitude": "+15% all attacks (community/item evidence); passive stamina auto-recovery",
+      "effect_magnitude": "+15% all attacks (current catalogue; L category)",
       "duration": "While Giant Form is active",
       "stacking_behavior": "unresolved",
       "limit_burst": "DEF Up! You've Got Super Armor! Ki Rec. SPD Down.",
@@ -1240,13 +1240,16 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Acquisition family supported by raid catalog/community raid list; mechanics intentionally left unresolved until item-level evidence is reconciled. 2026-09-19 item-level reconciliation added. Limit Burst effect reconciled from independent catalogue/raid/character evidence on 2026-09-27; no trigger timing or unrelated mechanics were inferred.",
-      "verification_status": "verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Independent raid documentation confirms the Great Ape Baby raid provenance and the item's description error: the in-game text says Ki auto-recovery, but independent item-level testing/documentation reports Stamina Auto-Recovery instead. Current catalogue reports +15% all attacks while Giant. The Limit Burst remains DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down. No stacking behavior or hidden stamina-recovery magnitude is inferred.",
+      "verification_status": "verified_secondary",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/Online_Raid_Quest",
         "https://dbxv2.fandom.com/wiki/Super_Soul",
-        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396"
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80496396",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/79949639",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/77948834",
+        "https://www.reddit.com/r/dbxv/comments/1chs1do/raid_quest_revenge_of_the_tuffle_reloaded_vs_great_ape_baby_lite/"
       ]
     },
     {
