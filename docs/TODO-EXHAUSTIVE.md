@@ -8271,3 +8271,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-souls-056-059-enrichment-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue with Super Soul 060 onward.
+
+
+### 2026-10-02 continuation — Super Souls 060-064 verification
+- [x] Verified Super Souls 060-064 against current catalogue evidence plus independent DLC1/PQ evidence.
+- [x] Preserved canonical 1 HP wording for 061 despite conflicting catalogue phrasing.
+- [x] Added `docs/data/super-souls-060-064-enrichment-audit-2026-10-02.json`.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue with Super Soul 065 onward.
