@@ -1,0 +1,20 @@
+{
+  "audit_id": "super-souls-005-008-012-015-016-verification-audit-2026-10-02",
+  "date": "2026-10-02",
+  "status": "completed",
+  "records": [
+    "super-soul-005",
+    "super-soul-008",
+    "super-soul-012",
+    "super-soul-015",
+    "super-soul-016"
+  ],
+  "findings": [
+    "Current catalogue directly matches canonical stored values for the selected records.",
+    "No-effect records remain no-effect records; Ki Blast type is not confused with Limit Burst.",
+    "No unsupported timing, stacking, or hidden mechanics were promoted."
+  ],
+  "sources": [
+    "https://dbxv2.fandom.com/wiki/Super_Soul"
+  ]
+}
