@@ -8110,3 +8110,10 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/stale-manifest-audit-2026-10-02.json` documenting historical/current boundaries and the remaining mechanics frontier.
 - [x] Reviewed `super-soul-034` (`The final battle begins now.` / PQ186): current evidence confirms the reward identity, but not item-level trigger/effect mechanics; no speculative canonical mutation made.
 - [ ] **Next frontier:** continue substantive source-backed sparse PQ/Super Soul/mechanics enrichment, prioritizing unresolved records where independent evidence can establish exact fields; keep historical audits immutable unless a current-state section is explicitly stale.
+
+
+### 2026-10-02 continuation — substantive Super Soul enrichment
+- [x] Enriched canonical `super-soul-184` (`I will defeat you!`, PQ57) with independent 2026 acquisition corroboration.
+- [x] Preserved the evidence boundary: the independent report supports PQ57 acquisition but contains conflicting player interpretation about Z-rank/drop behavior; no drop-rate rule was inferred or promoted.
+- [x] Added the independent source to the canonical Super Soul record and updated its verification date/research notes.
+- [ ] **Next frontier:** continue source-backed enrichment of unresolved Super Soul/PQ endpoints, prioritizing records where independent evidence can establish exact mechanics or acquisition fields without inference.
