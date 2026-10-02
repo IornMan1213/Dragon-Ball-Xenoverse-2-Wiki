@@ -1746,7 +1746,9 @@
       "limit_burst_effect": "ATK Up!; Ki Auto-Recovery!; Stamina Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": ["Current Super Soul catalogue independently corroborates Cabba, Super Saiyan activation, +20% normal attacks, +10% Strike Skills, Rush Limit Burst, and PQ102 acquisition; the DLC1 reward guide independently corroborates the soul and its mechanics. Canonical PQ acquisition remains authoritative; no drop probability inferred."],
+      "version_notes": [
+        "Current Super Soul catalogue independently corroborates Cabba, Super Saiyan activation, +20% normal attacks, +10% Strike Skills, Rush Limit Burst, and PQ102 acquisition; the DLC1 reward guide independently corroborates the soul and its mechanics. Canonical PQ acquisition remains authoritative; no drop probability inferred."
+      ],
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -1778,7 +1780,9 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery!; DEF Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": ["Current Super Soul catalogue independently corroborates Frost, one-time KO revival at 1 HP, 10-second damage nullification and Strike Skill boost, Paralyze Limit Burst, and PQ102 acquisition; the DLC1 reward guide independently corroborates the revival behavior. The canonical 1 HP wording is retained rather than the catalogue's erroneous '1 health bar' note."],
+      "version_notes": [
+        "Current Super Soul catalogue independently corroborates Frost, one-time KO revival at 1 HP, 10-second damage nullification and Strike Skill boost, Paralyze Limit Burst, and PQ102 acquisition; the DLC1 reward guide independently corroborates the revival behavior. The canonical 1 HP wording is retained rather than the catalogue's erroneous '1 health bar' note."
+      ],
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -1811,7 +1815,9 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": ["Current Super Soul catalogue independently corroborates Frost, Heavy Smash trigger, -200 opponent Ki, Paralyze Limit Burst, and PQ103 acquisition; the DLC1 reward guide independently corroborates the reward and trigger behavior. No drop probability inferred."],
+      "version_notes": [
+        "Current Super Soul catalogue independently corroborates Frost, Heavy Smash trigger, -200 opponent Ki, Paralyze Limit Burst, and PQ103 acquisition; the DLC1 reward guide independently corroborates the reward and trigger behavior. No drop probability inferred."
+      ],
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -1844,7 +1850,9 @@
       "limit_burst_effect": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down.",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": ["Current Super Soul catalogue independently corroborates SSGSS Goku, Kaioken/SSB Kaioken trigger, +20% Ki restored, +12%/+6% Stamina recovery, +10% normal attacks, Power Limit Burst, and PQ103 acquisition; the DLC1 reward guide independently corroborates the soul and its effects."],
+      "version_notes": [
+        "Current Super Soul catalogue independently corroborates SSGSS Goku, Kaioken/SSB Kaioken trigger, +20% Ki restored, +12%/+6% Stamina recovery, +10% normal attacks, Power Limit Burst, and PQ103 acquisition; the DLC1 reward guide independently corroborates the soul and its effects."
+      ],
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -1877,7 +1885,9 @@
       "limit_burst_effect": "Time Skip/Molotov ATK Up!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": ["Current Super Soul catalogue independently corroborates Hit, Heavy Smash trigger, +15% guard-break duration, -100 opponent Ki, Power Limit Burst, and PQ103 acquisition; the DLC1 reward guide independently corroborates the reward. Canonical acquisition remains authoritative."],
+      "version_notes": [
+        "Current Super Soul catalogue independently corroborates Hit, Heavy Smash trigger, +15% guard-break duration, -100 opponent Ki, Power Limit Burst, and PQ103 acquisition; the DLC1 reward guide independently corroborates the reward. Canonical acquisition remains authoritative."
+      ],
       "verification_status": "verified",
       "last_verified": "2026-10-02",
       "sources": [
@@ -2377,16 +2387,17 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery; Defense Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current catalogue and contemporary DLC documentation agree on the below-50%-Health trigger and one-time full Ki restoration.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current catalogue and contemporary DLC documentation agree on the below-50%-Health trigger and one-time full Ki restoration. Independent Fandom catalogue evidence corroborates the below-50%-Health, once-only full-Ki restoration and PQ 112 acquisition; the Steam PQ guide independently lists the soul in PQ 112 rewards. No drop probability inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -2408,16 +2419,18 @@
       "limit_burst_effect": "Revive Gauge Auto-Recovery",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current Super Soul catalogue identifies Babidi, the 60-second trigger, +20% all attacks, and both -40% recovery penalties; DLC listing confirms PQ 113 acquisition.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current Super Soul catalogue identifies Babidi, the 60-second trigger, +20% all attacks, and both -40% recovery penalties; DLC listing confirms PQ 113 acquisition. Independent GameFAQs testing/discussion corroborates the 60-second trigger, +20% all-attack boost, and -40% Ki/Stamina recovery penalties; DLC documentation corroborates PQ 113 acquisition. No drop probability inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80461526?page=6",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
@@ -2439,16 +2452,17 @@
       "limit_burst_effect": "Auto Health and Stamina Recovery; Defense Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Current catalogue gives both max-resource triggers and exact +10%/+20% values; DLC listing confirms PQ 113 acquisition.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Current catalogue gives both max-resource triggers and exact +10%/+20% values; DLC listing confirms PQ 113 acquisition. Independent catalogue and PQ documentation corroborate the max-Ki +10% Stamina recovery and max-Stamina temporary +20% Ki Auto-Recovery effects and PQ 113 acquisition. Exact hidden duration/implementation remains unresolved.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -2470,16 +2484,18 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Independent Videogaming documentation corroborates Dabura ownership, Afterimage trigger, +15% Ki Blast Skills for 10 seconds, and Limit Burst; catalogue evidence corroborates the same mechanics and PQ 114 acquisition.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://videogaming.fandom.com/wiki/The_real_fight_starts_now%21",
+        "https://dbxv2.fandom.com/wiki/Super_Soul"
       ]
     },
     {
@@ -2501,16 +2517,19 @@
       "limit_burst_effect": "Attack Up; Ki Auto-Recovery; Stamina Recovery Speed Down",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Endpoint promoted from the source-normalized partial PQ acquisition index. Mechanics/effect fields are populated from the repository's current source-normalized catalogue evidence; remaining verification gaps concern provenance/independent corroboration rather than an absence of recorded mechanics. Independent Videogaming documentation corroborates the Data Input trigger and temporary normal-attack boost; catalogue and DLC/PQ documentation corroborate the +20%/30-second mechanics and PQ 115 acquisition.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "docs/data/pq-reward-normalization/pq-041-080-reward-map.json",
         "docs/data/pq-reward-normalization/pq-081-120-reward-map.json",
         "docs/data/pq-reward-normalization/pq-121-142-reward-map.json",
         "docs/data/pq-reward-normalization/pq-143-162-reward-map.json",
         "docs/data/pq-reward-normalization/pq-163-186-reward-map.json",
-        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://videogaming.fandom.com/wiki/Looks_like_you%27re_done%21",
+        "https://dbxv2.fandom.com/wiki/Super_Soul",
+        "https://dbxv2.fandom.com/wiki/DLC"
       ]
     },
     {
