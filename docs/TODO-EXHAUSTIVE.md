@@ -8407,3 +8407,11 @@ Batch 423 completed: eight skill mechanics records were enriched and synchronize
 - [x] Added `docs/data/super-soul-137-verification-audit-2026-10-02.json`.
 - [ ] Runtime/CI remains intentionally non-blocking/unverified.
 - [ ] **Next:** continue with Super Soul 139 onward; keep 138 rejected legacy unless new item-level evidence appears.
+
+### 2026-10-02 recovery-forward checkpoint — Super Souls 144-152
+- [x] Verified Super Souls 144-152 against current Super Soul catalogue evidence plus independent PQ/DLC evidence.
+- [x] Preserved canonical acquisition endpoints and did not infer reward probabilities or first-clear semantics.
+- [x] Preserved Super Soul 152's unresolved item-drop scope boundary and kept Super Soul 143 partially verified because of its conflicting second-modifier wording.
+- [x] Added `docs/data/super-souls-144-152-verification-audit-2026-10-02.json` and synchronized the canonical Super Soul record layer.
+- [ ] Runtime/CI remains intentionally non-blocking/unverified.
+- [ ] **Next:** continue with Super Soul 153 onward, using independent evidence and preserving unresolved boundaries.
