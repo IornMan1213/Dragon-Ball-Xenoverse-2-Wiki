@@ -3428,6 +3428,42 @@
           "evidence_note": "Canonical PQ57 reward record and maintained PQ listing explicitly name Gogeta's Clothes; exact drop/condition mechanics remain unresolved."
         }
       ]
+    },
+    {
+      "id": "equip-116",
+      "name": "Videl T-Shirt",
+      "aliases": [
+        "Videl's Fight T-shirt",
+        "Fight T-shirt"
+      ],
+      "slot": "clothing set",
+      "rarity": null,
+      "health": null,
+      "ki": null,
+      "stamina": null,
+      "basic_attack": null,
+      "strike_supers": null,
+      "ki_blast_supers": null,
+      "usable_by": "Time Patroller clothing system; exact component restrictions require item-level reconciliation",
+      "set_name": "Videl T-Shirt",
+      "acquisition_method": "parallel_quest",
+      "source_quest_or_shop": "Parallel Quest 56",
+      "cost": null,
+      "dlc_requirement": null,
+      "version_notes": "Canonical clothing identity indexed from the exact PQ56 reward name. Current evidence identifies it as Videl's Fight T-shirt; no unsupported stats or external inventory ID is inferred.",
+      "verification_status": "partially_verified",
+      "last_verified": "2026-10-02",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80788790"
+      ],
+      "pq_links": [
+        {
+          "pq_id": "pq-056",
+          "relationship": "acquisition_source",
+          "evidence_note": "PQ56 source explicitly lists Videl T-Shirt as a Basic Reward; this record preserves the canonical relationship without asserting drop probability."
+        }
+      ]
     }
   ],
   "research_notes": [
@@ -3485,9 +3521,17 @@
         "https://dbxenose.fandom.com/wiki/25_-_17_and_18_of_the_Official_History",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=545333338"
       ]
+    },
+    {
+      "date": "2026-10-02",
+      "note": "Resolved the remaining PQ equipment endpoint gap by adding canonical identity equip-116 for Videl T-Shirt from the exact PQ56 reward name. Independent community discussion identifies the item as Videl's Fight T-shirt; no stats or external inventory ID were inferred.",
+      "sources": [
+        "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543",
+        "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/80788790"
+      ]
     }
   ],
-  "last_updated": "2026-09-28",
-  "record_count": 115,
-  "last_reconciled": "2026-09-30"
+  "last_updated": "2026-10-02",
+  "record_count": 116,
+  "last_reconciled": "2026-10-02"
 }
