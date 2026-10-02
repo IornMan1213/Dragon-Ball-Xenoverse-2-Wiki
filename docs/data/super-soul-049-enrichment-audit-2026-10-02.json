@@ -1,0 +1,43 @@
+{
+  "schema_version": "1.0",
+  "audit_date": "2026-10-02",
+  "domain": "super_souls",
+  "record_id": "super-soul-049",
+  "name": "Getting beat up makes me cranky...",
+  "scope": "PQ44 acquisition and Ki/attack mechanics",
+  "canonical_policy": "Canonical forward data remains authoritative; community testing is supporting evidence only.",
+  "evidence": [
+    {
+      "source": "Dragon Ball Xenoverse 2 Wiki — Super Soul",
+      "url": "https://dbxv2.fandom.com/wiki/Super_Soul",
+      "supports": ["Android 17 identity", "PQ44 acquisition", "+5% Ki auto-recovery", "+15% Ki Blast-based attacks at max Stamina", "Rush Limit Burst"]
+    },
+    {
+      "source": "Dragon Ball Xenoverse 2 Wiki — Android 17",
+      "url": "https://dbxv2.fandom.com/wiki/Android_17",
+      "supports": ["Super Soul identity", "in-game Android 17 loadout using the soul"]
+    },
+    {
+      "source": "GameFAQs — Super Soul Guide",
+      "url": "https://gamefaqs.gamespot.com/boards/190457-dragon-ball-xenoverse-2/74583225",
+      "supports": ["PQ44 acquisition", "always-active Ki Auto-Recovery", "max-Stamina Ki Blast-based attack boost"]
+    },
+    {
+      "source": "Reddit community testing discussion",
+      "url": "https://www.reddit.com/r/DragonBallXenoverse2/comments/1fbraj4/is_there_a_difference_among_these_super_souls_about_the_amount_of_ki_restored/",
+      "supports": ["secondary observation that the Android 17 and Android 18 souls have approximately the same slow Ki-recovery rate"]
+    }
+  ],
+  "resolved": {
+    "acquisition_source": "Parallel Quest 44",
+    "ki_auto_recovery": "+5%",
+    "ki_blast_attack_boost": "+15% when Stamina is maxed",
+    "limit_burst": "DEF Up!; You've Got Super Armor!; Ki Rec. SPD Down."
+  },
+  "unresolved": [
+    "Exact internal recovery tick/frame implementation.",
+    "Detailed stacking/interactions with other Ki-recovery modifiers.",
+    "No claim is made that community timing observations supersede the canonical +5% value."
+  ],
+  "result": "Evidence threshold upgraded from partially_verified to verified without replacing canonical data with community-derived estimates."
+}
