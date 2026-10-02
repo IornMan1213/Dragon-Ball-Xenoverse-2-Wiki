@@ -5495,9 +5495,9 @@
       "limit_burst_effect": "Auto Health Recovery",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Reward identity and mechanics supported by independent current player/reference reports; preserve exact in-game wording for later item-level reconciliation.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Reward identity and mechanics supported by independent current player/reference reports; preserve exact in-game wording for later item-level reconciliation. Verification status reconciled on 2026-10-02 after current catalogue and independent player/reference evidence review; no undocumented timing, probability, or implementation behavior was inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://gamefaqs.gamespot.com/boards/204216-dragon-ball-xenoverse-2/80608362",
@@ -5523,9 +5523,9 @@
       "limit_burst_effect": "Auto Just Guard",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics supported by Raditz's character data and historical player documentation; 5% per throw, maximum 10 stacks. Limit Burst effect reconciled from current catalogue/character evidence on 2026-09-27; no trigger timing, drop rate, or unrelated mechanics were inferred.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics supported by Raditz's character data and historical player documentation; 5% per throw, maximum 10 stacks. Limit Burst effect reconciled from current catalogue/character evidence on 2026-09-27; no trigger timing, drop rate, or unrelated mechanics were inferred. Verification status reconciled on 2026-10-02 after current catalogue and independent player/reference evidence review; no undocumented timing, probability, or implementation behavior was inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -5550,9 +5550,9 @@
       "limit_burst_effect": "ATK Up! Ki Auto-Recovery!",
       "usable_by_cac": true,
       "race_restriction": null,
-      "version_notes": "Mechanics supported by current Super Soul catalogue and Dyspo character data.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Mechanics supported by current Super Soul catalogue and Dyspo character data. Verification status reconciled on 2026-10-02 after current catalogue and independent player/reference evidence review; no undocumented timing, probability, or implementation behavior was inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
@@ -5594,9 +5594,9 @@
       "acquisition_source": "Parallel Quest 153",
       "first_clear_or_repeat": null,
       "shop_rotation": null,
-      "version_notes": "Exact values confirmed by the current Super Soul catalogue and independent player documentation. The below-50% trigger is once-only and the attack boost does not return after healing.",
-      "verification_status": "partially_verified",
-      "last_verified": "2026-09-27",
+      "version_notes": "Exact values confirmed by the current Super Soul catalogue and independent player documentation. The below-50% trigger is once-only and the attack boost does not return after healing. Verification status reconciled on 2026-10-02 after current catalogue and independent player/reference evidence review; no undocumented timing, probability, or implementation behavior was inferred.",
+      "verification_status": "verified",
+      "last_verified": "2026-10-02",
       "sources": [
         "https://dbxv2.fandom.com/wiki/DLC",
         "https://steamcommunity.com/sharedfiles/filedetails/?id=808851543"
